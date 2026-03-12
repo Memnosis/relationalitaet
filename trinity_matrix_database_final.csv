@@ -1,0 +1,933 @@
+﻿Matrix,Class,Subclass,ID,Terminus,Domain,Definition,Sources
+0_Null,Baseline,Equilibrium,N-112,CO2-Bilanz Netto-Null,ECO,Die Ã¶kologische Balance zwischen Senke und Quelle.,IPCC 2021
+0_Null,Baseline,Referenziell,N-113,Zero Inventory (Lean),TEC,Der ideale Prozessfluss ohne Pufferverlust.,Ohno 1988
+0_Null,Baseline,Referenziell,N-114,Nullzins-Ebene,ECO,Referenzpunkt der zeitlichen Wertbewertung.,Fisher 1930
+0_Null,Baseline,Referenziell,N-115,Null-Inflation,ECO,Die Konstanz der Kaufkraft als Baseline der Wirtschaft.,
+0_Null,Baseline,Referenziell,N-116,Zero-Beta Portfolio,ECO,Die Abkopplung vom Marktrisiko (idiosynkratische Baseline).,
+0_Null,Baseline,Physikalisch,N-117,PhasenstabilitÃ¤t (Takt),TEC,Die zeitliche Null-Abweichung in Oszillatoren.,
+0_Null,Baseline,Referenziell,N-118,Symmetrie-Nullpunkt,PHY,Der Ursprung der Eichinvarianz (Gauge Zero).,
+0_Null,Baseline,Physikalisch,N-119,Isotope-Baseline,PHY,Die nukleare Referenz fÃ¼r Massenspektrometrie.,
+0_Null,Baseline,Physikalisch,N-120,Hintergrundstrahlung (CMB),PHY,Das thermische Minimum des sichtbaren Universums.,
+0_Null,Baseline,Physikalisch,N-121,Zero-Point-Energy (â„Ï‰/2),PHY,Die unhintergehbare Restenergie des Vakuums.,
+0_Null,Baseline,Physikalisch,N-122,Vakuumfluktuation (Ruhe),PHY,Das Rauschen der Baseline vor der Teilchenbildung.,
+0_Null,Baseline,Physikalisch,N-123,Kosmologische Konstante,PHY,Die Nullpunktsenergie der Raumzeit-Expansion.,
+0_Null,Baseline,Physikalisch,N-124,Absolute Nulltemperatur,PHY,Die Grenze der thermischen Bewegung (0 Kelvin).,
+0_Null,Baseline,Physikalisch,N-125,Zero Sound (Landau),PHY,Die kollektive Anregung im Quantenvakuum.,
+0_Null,Baseline,Physikalisch,N-126,Zero Field Splitting,PHY,Die Energetik ohne Ã¤uÃŸeres Feld (inherente Baseline).,
+0_Null,Baseline,Referenziell,N-127,Zero Bias (Shockley),PHY,Der spannungsfreie Zustand im Halbleiter.,
+0_Null,Baseline,Systemisch,N-128,Zero Crossing (Signal),TEC,Der momentun eines Richtungswechsels an der Baseline.,
+0_Null,Baseline,Referenziell,N-129,Zero Phase Shift,TEC,Die unverzÃ¶gerte Ãœbertragung der Information.,
+0_Null,Baseline,Systemisch,N-130,Zero Sequence Current,TEC,Die Symmetrie in Mehrphasensystemen.,
+0_Null,Baseline,Physikalisch,N-131,Zero Vector Potential,PHY,Das Fehlen klassischer Felder bei Quantenwirkung.,
+0_Null,Baseline,Physikalisch,N-132,Zero Angular Momentum,PHY,Der Zustand perfekter Rotations-Symmetrie.,
+0_Null,Baseline,Physikalisch,N-133,Planck-Skala Minimum,PHY,Die absolute Grenze der messbaren AuflÃ¶sung.,
+0_Null,Baseline,Physikalisch,N-134,Zero Curvature (Î©=1),PHY,Die energetische Flachheit des Universums.,
+0_Null,Baseline,Physikalisch,N-135,Zero Gap (Graphen),PHY,Der direkte Ãœbergang zwischen Valenz- und Leitungsband.,
+0_Null,Baseline,Physikalisch,N-136,Zero Mode Fermions,PHY,Teilchen, die im Vakuum-Zentrum oszillieren.,
+0_Null,Baseline,Referenziell,N-137,Neuronale Baseline (EEG),PSY,Das Grundrauschen des Bewusstseins (DMN).,
+0_Null,Baseline,Referenziell,N-138,Meeresspiegel (Referenz),PHY,Die physische Baseline der HÃ¶he.,
+0_Null,Baseline,Referenziell,N-139,Gauge-Invarianz Null,PHY,Die UnabhÃ¤ngigkeit des Feldes von der Eichung.,
+0_Null,Baseline,Referenziell,N-140,Skalen-Nullpunkt,MAT,Die notwendige Kalibrierung jeder empirischen Skala.,
+0_Null,Baseline,Referenziell,N-141,Relativgeschwindigkeit 0,PHY,Das gemeinsame Ruhesystem zweier Beobachter.,
+0_Null,Baseline,Referenziell,N-142,Zero-Initialization (ML),TEC,Der Kaltstart eines neuronalen Netzwerks.,
+0_Null,Baseline,Normativ,N-143,Nullhypothese (H0),MAT,Die Baseline des wissenschaftlichen Zweifels.,
+0_Null,Baseline,Normativ,N-144,Null-Signifikanz (p=0),MAT,Die absolute BestÃ¤tigung oder Widerlegung (Ideal).,
+0_Null,Baseline,Systemisch,N-145,Nullwachstum (Okun),ECO,Das dynamische Gleichgewicht ohne Expansion.,
+0_Null,Baseline,Systemisch,N-146,Null-RentabilitÃ¤t (B-E),ECO,Der Punkt, an dem ErlÃ¶s und Kosten sich nullen.,
+0_Null,Baseline,Physikalisch,N-147,Null-Summe KrÃ¤fte (Newt.),PHY,Das statische Gleichgewicht der Dynamik.,
+0_Null,Baseline,Physikalisch,N-148,Null-Ladung (Coulomb),PHY,Die resultierende NeutralitÃ¤t komplexer Atome.,
+0_Null,Baseline,Physikalisch,N-149,Null-HauptkrÃ¼mmung,MAT,Die Eigenschaft von MinimalflÃ¤chen.,
+0_Null,Baseline,Physikalisch,N-150,Nullhomotopie,MAT,Die Verformbarkeit der Welt auf den Ursprung.,
+0_Null,Baseline,Physikalisch,N-151,Null-Kohomologieklasse,MAT,Die totale IntegritÃ¤t eines topologischen Raums.,
+0_Null,Baseline,Referenziell,N-152,Null-Konfiguration (OS),TEC,Der Werkszustand ohne informelle Verzerrung.,
+0_Null,Baseline,Referenziell,N-153,Null-Terminator (Strings),TEC,Das Ende der Zeichenfolge in der BinÃ¤rsprache.,
+0_Null,Baseline,Referenziell,N-154,Null-Adresse (Pointer),TEC,Der Verweis ins absolute Nichts (Sicherheit).,
+0_Null,Baseline,Systemisch,N-155,Sentinel-Nullelement,TEC,Der WÃ¤chter am Ende des Datenstroms.,
+0_Null,Baseline,Referenziell,N-156,Mentale Baseline (Default),PSY,Der Zustand der Gedankenstille (Samadhi).,
+0_Null,Baseline,Normativ,N-157,Emotionale Balance,PSY,Die NeutralitÃ¤t zwischen Euphorie und Depression.,
+0_Null,Baseline,Systemisch,N-158,Habituation (GewÃ¶hnung),PSY,Das Verschwinden des Reizes in der Baseline.,
+0_Null,Baseline,Referenziell,N-159,Sensorische Baseline,PHY,Die Reizschwelle der Wahrnehmung.,
+0_Null,Baseline,Referenziell,N-160,Stille (Cage's 4'33"),PHI,Der akustische Rahmen der UmgebungsgerÃ¤usche.,
+0_Null,Baseline,Physikalisch,N-161,ÅšÅ«nyatÄ (Ruhezustand),PHI,Die Leere als erfÃ¼llter Grundzustand.,
+0_Null,Baseline,Normativ,N-162,Heideggers Gelassenheit,PHI,Das freie VerhÃ¤ltnis zur instrumentellen Welt.,
+0_Null,Baseline,Referenziell,N-163,Langeweile (Grundstimm.),PSY,Die Null-Matrix der emotionalen Zeiterfahrung.,
+0_Null,Baseline,Systemisch,N-164,Zero-Knowledge Proof,TEC,Beweis ohne Preisgabe von Information.,
+0_Null,Baseline,Normativ,N-165,Null-Emission (Target),ECO,Das Ziel der anthropogenen NeutralitÃ¤t.,
+0_Null,Baseline,Systemisch,N-166,Zero-Config Networking,TEC,Die automatische Baseline-Harmonisierung.,
+0_Null,Baseline,Systemisch,N-167,Null-Latenz (Limit),TEC,Die Echtzeit-Baseline der SynchronitÃ¤t.,
+0_Null,Baseline,Normativ,N-168,Zero-Day Neutrality,TEC,Der Zustand vor dem ersten Angriff.,
+0_Null,Baseline,Systemisch,N-169,Zero-Base Budgeting,ECO,Der Neustart jeder Kalkulation vom Ursprung.,
+0_Null,Baseline,Systemisch,N-170,Zero-Waste Circle,ECO,Die zyklische Null-Bilanz der Materie.,
+0_Null,Baseline,Normativ,N-171,Zero-Carbon Footprint,ECO,Die persÃ¶nliche KlimaneutralitÃ¤t als Baseline.,
+0_Null,Baseline,Normativ,N-172,Zero-Trust (Verify 0),TEC,Baseline des Misstrauens als Schutzraum.,
+0_Null,Baseline,Systemisch,N-173,Zero-Touch Automation,TEC,Autonome Systeme ohne menschliche StÃ¶rung.,
+0_Null,Baseline,Systemisch,N-174,Zero-Shot Induction,PSY,Das Lernen ohne vorherige Beispiele (A-priori).,
+0_Null,Baseline,Systemisch,N-175,Zero-Inflated Stats,MAT,Statistikmodelle fÃ¼r dominante Nullexzesse.,
+0_Null,Baseline,Systemisch,N-176,Zero-Lag Filtering,TEC,Die Extraktion der Wahrheit ohne VerzÃ¶gerung.,
+0_Null,Baseline,Systemisch,N-177,Zero-Phase Filtering,TEC,Symmetrische GlÃ¤ttung an der Zeit-Baseline.,
+0_Null,Baseline,Systemisch,N-178,Zero-Gimbal Lock,TEC,Die Symmetrie jenseits der mechanischen Blockade.,
+0_Null,Baseline,Systemisch,N-179,Zero-Copy Transfer,TEC,Der direkte Datenfluss ohne Zwischenspeicher.,
+0_Null,Baseline,Systemisch,N-180,Zero-Overhead API,TEC,Die minimale Schnittstelle ohne Ballast.,
+0_Null,Baseline,Normativ,N-181,Zero-Maintenance Ideal,TEC,Die zeitlose Baseline der FunktionalitÃ¤t.,
+0_Null,Baseline,Systemisch,N-182,Zero-Gravity Engine,PHY,Der Antrieb jenseits der lokalen FeldkrÃ¤fte.,
+0_Null,Baseline,Systemisch,N-183,Zero-Hunger Baseline,SOC,Der soziale Nullpunkt der GrundbedÃ¼rfnisse.,
+0_Null,Baseline,Normativ,N-184,Zero-Poverty Target,SOC,Die ethische Baseline der Menschheit.,
+0_Null,Baseline,Systemisch,N-185,Zero-Death Safety,SOC,Das Ideal der unfehlbaren Infrastruktur.,
+0_Null,Baseline,Systemisch,N-186,Zero-Conflict Consensus,SOC,Der Zustand ohne systemische Reibung.,
+0_Null,Baseline,Normativ,N-187,Zero-Impact Design,ECO,Gestaltung, die keine Spuren im Reservoir hinterlÃ¤sst.,
+0_Null,Baseline,Systemisch,N-188,Zero-Input Growth,ECO,Autarkes Wachstum aus dem internen Potenzial.,
+0_Null,Baseline,Systemisch,N-189,Zero-Energy Building,TEC,Die energetische Null-Autarkie.,
+0_Null,Baseline,Physikalisch,N-190,Zero-G Drift,PHY,Die Baseline der krÃ¤ftefreien Bewegung.,
+0_Null,Baseline,Systemisch,N-191,Zero-Velocity Anchor,PHY,Der statische Referenzpunkt im Raum.,
+0_Null,Baseline,Referenziell,N-192,Zero-Initialization ML,TEC,Die Tabula Rasa des kÃ¼nstlichen Geistes.,
+0_Null,Baseline,Physikalisch,N-193,Zero-Gravity Parabol,PHY,Der experimentelle Raum der Feldneutralisierung.,
+0_Null,Baseline,Physikalisch,N-194,Zero-Point Motion,PHY,Die unendliche Bewegung am absoluten Nullpunkt.,
+0_Null,Baseline,Physikalisch,N-195,Casimir-Baseline,PHY,Der Druckunterschied zwischen zwei Nullen.,
+0_Null,Baseline,Physikalisch,N-196,Lamb-Shift Baseline,PHY,Die Korrektur der Baseline durch Eigenenergie.,
+0_Null,Baseline,Physikalisch,N-197,Dirac-See Zero,PHY,Die vollbesetzte Baseline des Nichts.,
+0_Null,Baseline,Physikalisch,N-198,Fermi-Level Baseline,PHY,Die energetische Wasserscheide im Kristall.,
+0_Null,Baseline,Physikalisch,N-199,Hubble-Hintergrund,PHY,Die Expansions-Baseline des Horizonts.,
+0_Null,Baseline,Physikalisch,N-200,Machscher Raumhintergr.,PHI,Die Baseline der TrÃ¤gheit durch das All-Eins.,
+0_Null,Baseline,Optik,N-220,Dark Frame (Kamera),TEC,Die Dunkel-Baseline des digitalen Sehens.,
+0_Null,Baseline,Optik,N-221,WeiÃŸabgleich-Null,TEC,Die farbmetrische Baseline der Wahrnehmung.,
+0_Null,Baseline,Ontologisch,N-222,Relationaler Fixstern,PHI,Das unverrÃ¼ckbare Fundament der Baseline.,
+0_Null,Identity,Strukturell,N-001,Additive IdentitÃ¤t (0),MAT,Der neutrale Operator der Addition (x+0=x).,
+0_Null,Identity,Strukturell,N-002,Peano-IdentitÃ¤t (Axiom),MAT,Das Fundament der natÃ¼rlichen Zahlen (0 als Startpunkt).,
+0_Null,Identity,Logisch,N-003,Multiplikative Annihil.,MAT,Information zu neutralisieren (x * 0=0).,Peano 1889
+0_Null,Identity,Strukturell,N-004,Nullvektor (Vektorraum),MAT,Der Ursprung linearer Strukturen.,Cayley 1858
+0_Null,Identity,Strukturell,N-005,Nullmatrix (Lineare Alg.),MAT,Die Matrix, die jeden Vektor auf den Ursprung abbildet.,
+0_Null,Identity,Strukturell,N-006,Null-Modul,MAT,Die triviale algebraische Struktur Ã¼ber einem Ring.,
+0_Null,Identity,Strukturell,N-007,Null-Ring,MAT,Ein Ring mit nur einem Element (0).,
+0_Null,Identity,Strukturell,N-008,Triviale Gruppe ({0}),MAT,Die kleinste mÃ¶gliche Gruppierungs-Symmetrie.,
+0_Null,Identity,Strukturell,N-009,Nullraum (Kernel),MAT,Die Menge aller Elemente, die unter einer Abbildung verschwinden.,
+0_Null,Identity,Strukturell,N-010,Null-Polynom,MAT,Die Funktion, die Ã¼berall den Wert Null annimmt.,
+0_Null,Identity,Logisch,N-011,Leere Menge (âˆ…),MAT,Die Menge, die keine Elemente enthÃ¤lt (Basis der Mengenlehre).,
+0_Null,Identity,Strukturell,N-012,Null-Topologie,MAT,Die grÃ¶bstmÃ¶gliche Struktur eines Raumes.,
+0_Null,Identity,Strukturell,N-013,Null-Homomorphie,MAT,Eine Abbildung, die alle Elemente auf das Neutrum sendet.,
+0_Null,Identity,Strukturell,N-014,Null-Ideal,MAT,Das Ideal, das nur das Nullelement enthÃ¤lt.,
+0_Null,Identity,Strukturell,N-015,Null-Kette,MAT,Ein Komplex ohne Variation in der Homologie.,
+0_Null,Identity,Strukturell,N-016,Null-Operator (T=0),MAT,Ein Operator, der das System in den Grundzustand versetzt.,
+0_Null,Identity,Logisch,N-017,Null-Sequenz (Cauchy),MAT,Eine Folge, die gegen das Nichts konvergiert.,
+0_Null,Identity,Strukturell,N-018,Null-Funktion (f=0),MAT,Die Abbildung der totalen Potenz ohne Manifestation.,
+0_Null,Identity,Strukturell,N-019,Null-Form (Diff.-Geom.),MAT,Ein Feld ohne KrÃ¼mmung oder Spannung.,
+0_Null,Identity,Strukturell,N-020,Nullstellensatz-Fixpunkt,MAT,Der Punkt, an dem die Gleichung ihre Antwort findet.,
+0_Null,Identity,Logisch,N-021,Determinante Null,MAT,Ein System ohne Eigen-Volumen (SingularitÃ¤t).,
+0_Null,Identity,Paradoxal,N-022,Null-Divisor,MAT,Das Element, das die IntegritÃ¤t des Ringes bricht.,
+0_Null,Identity,Logisch,N-023,Boolesche Null (Falsch),TEC,Der Zustand der Nicht-Aktivierung im binÃ¤ren System.,
+0_Null,Identity,Logisch,N-024,Logisches Nichts (Â¬âˆƒ),PHI,Die formale Abwesenheit von PrÃ¤dikaten.,
+0_Null,Identity,Logisch,N-025,BinÃ¤re Null (Bit 0),TEC,Die Baseline der digitalen Information.,
+0_Null,Identity,Logisch,N-026,Wahrscheinlichkeit Null,MAT,Die Grenze der UnmÃ¶glichkeit in der Stochastik.,
+0_Null,Identity,Logisch,N-027,Triviales MaÃŸ (Î¼=0),MAT,Ein Raum ohne Ausdehnung in der Integration.,
+0_Null,Identity,Logisch,N-028,Triviale LÃ¶sung (y=0),MAT,Die RÃ¼ckkehr zum Ursprung bei jeder Gleichung.,
+0_Null,Identity,Logisch,N-029,Null-Konvergenz,MAT,Die Stabilisierung auf dem Neutrum.,
+0_Null,Identity,Kategorisch,N-030,Initialobjekt (Category),MAT,Das Objekt, von dem genau ein Pfeil ausgeht.,
+0_Null,Identity,Kategorisch,N-031,Terminalobjekt (Dual),MAT,Das Objekt, in dem alle Pfeile zusammenlaufen.,
+0_Null,Identity,Kategorisch,N-032,Null-Morphismus,MAT,Der Pfeil, der Information neutralisiert.,
+0_Null,Identity,Kategorisch,N-033,Null-Kategorie,MAT,Ein System ohne interne Differenzierung.,
+0_Null,Identity,Ontologisch,N-034,Parmenides' reines Sein,PHI,Das UnverÃ¤nderliche jenseits der Erscheinung.,
+0_Null,Identity,Metaphysisch,N-035,Plotins "Das Eine" (0),PHI,Die absolute Symmetrie vor der Vielheit.,
+0_Null,Identity,Metaphysisch,N-036,Anselms reine Potenz,PHI,Der Zustand vor der Aktualisierung.,
+0_Null,Identity,Logisch,N-037,Aristoteles' leere Kat.,PHI,Die reine Form ohne Inhalt.,
+0_Null,Identity,Erkenntnis,N-038,Kants Grenze Nichts,PHI,Das Noumenon jenseits der Erfahrung.,
+0_Null,Identity,Dialektisch,N-039,Hegels dialekt. Neutr.,PHI,Die Aufhebung der Differenz im Begriff.,
+0_Null,Identity,Logisch,N-040,Russells kategoriale Leere,PHI,Das Paradoxon der Menge ohne Eigenschaften.,
+0_Null,Identity,Ontologisch,N-041,Ontische Stille,PHI,Das Reservoir als Abwesenheit von Signal bei voller PotenzialitÃ¤t.,
+0_Null,Identity,Physikalisch,N-042,Frequenz-Reservoir,PHY,Die Gesamtheit aller mÃ¶glichen Oszillaten im Vakuum.,
+0_Null,Identity,Physisch,N-043,FlÃ¼ssig (Fluss-Potenzial),PHY,Die Symmetrie der KohÃ¤sion.,
+0_Null,Identity,Physisch,N-044,Fest (Struktur-Potenzial),PHY,Die Baseline der rÃ¤umlichen Fixierung.,
+0_Null,Identity,Physisch,N-045,Glas (Dialektik-Potenzial),PHY,Die amorphe Ruhe zwischen Ordnung und Chaos.,
+0_Null,Identity,Physisch,N-046,Suprafluid (Einheits-Null),PHY,Reibungsloser Fluss als Ausdruck von Quanten-Null.,
+0_Null,Identity,Physisch,N-047,BEC (RelationalitÃ¤ts-0),PHY,Die totale KohÃ¤renz als kollektives Nichts.,
+0_Null,Identity,Logisch,N-048,IdentitÃ¤re Relation (x=x),MAT,Die Baseline jeder Logik (Selbstbezug).,
+0_Null,Identity,Logisch,N-049,Tautologische Leere,PHI,Die Wahrheit ohne Informationsgehalt (A=A).,
+0_Null,Identity,Strukturell,N-050,Fixpunkt (Banach),MAT,Der Punkt, der unter Transformation null bleibt.,
+0_Null,Identity,Logisch,N-051,Absorbens (Boolesche 0),MAT,Das logische Schwarze Loch.,
+0_Null,Identity,PhÃ¤nomenologisch,N-052,Neurokognitive Selbst-ID,PSY,Das "Ich" als stabiler Referenzpunkt ohne Inhalt.,
+0_Null,Identity,PhÃ¤nomenologisch,N-053,Kern-Ich KohÃ¤renz,PSY,Die StabilitÃ¤t des Selbstbewusstseins im Tiefschlaf.,
+0_Null,Identity,Systemisch,N-054,Autopoi. Selbstreferenz,SOC,Die SchlieÃŸung des Systems auf seinen Ursprung.,
+0_Null,Identity,Ontologisch,N-055,Phasenontologische Null,PHI,Der Moment zwischen zwei ZustÃ¤nden.,
+0_Null,Identity,Kategorisch,N-056,Apophatische Null (Gott),PHI,Die Erkenntnis Gottes durch Negation.,
+0_Null,Identity,Paradoxal,N-057,Brahman (attributlos),PHI,Die letzte RealitÃ¤t jenseits aller Namen.,
+0_Null,Identity,Psychol.,N-058,Inhaltsleerer Selbstbezug,PSY,Meditation als RÃ¼ckkehr zur Null-Matrix.,
+0_Null,Identity,Strukturell,N-059,Strukturelle NeutralitÃ¤t,MAT,Die Eigenschaft der Unvoreingenommenheit.,
+0_Null,Identity,Kategorisch,N-060,Kategorische Einheit,PHI,Die Zusammenfassung aller Nullen zu einer Klasse.,
+0_Null,Identity,Physisch,N-061,Invarianz-Punkt,PHY,Der Ort, an dem Naturgesetze starr bleiben.,
+0_Null,Identity,Logisch,N-062,Logische Punktierung,MAT,Die Setzung eines Ursprungs im Nichts.,
+0_Null,Identity,Soziologisch,N-063,Systemischer Fixpunkt,SOC,Der Konsens, der keine Diskussion benÃ¶tigt.,
+0_Null,Identity,Geometrisch,N-064,Fraktal-projektive Null,MAT,Der Skalierungspunkt der Unendlichkeit.,
+0_Null,Identity,Physisch,N-065,Holografische Basis,PHY,Die Information am Horizont, die im Volumen null wird.,
+0_Null,Identity,Metaphysisch,N-066,Relationaler Ursprung,PHI,Der "Nullte Tag" der Genese.,
+0_Null,Identity,Geometrisch,N-067,Additiver Nullpunkt,MAT,Das Zentrum des Koordinatensystems.,
+0_Null,Identity,Physisch,N-068,Isotropie-Null,PHY,Das Fehlen jeglicher RichtungsprÃ¤ferenz.,
+0_Null,Identity,Physisch,N-069,HomogenitÃ¤ts-Null,PHY,Die Abwesenheit von Variation im Raum.,
+0_Null,Identity,Geometrisch,N-070,Symmetrie-Zentrum,MAT,Der Punkt der totalen Ausgewogenheit.,
+0_Null,Identity,Strukturell,N-071,Vektor-Offset Null,MAT,Die reine Transformation ohne Verschiebung.,
+0_Null,Identity,Strukturell,N-072,Skala-NeutralitÃ¤t,MAT,UnabhÃ¤ngigkeit von der MaÃŸeinheit.,
+0_Null,Identity,Strukturell,N-073,Norm-Minimum,MAT,Die LÃ¤nge Null als Kriterium der IdentitÃ¤t.,
+0_Null,Identity,Geometrisch,N-074,OrthogonalitÃ¤ts-Null,MAT,Das Verschwinden des Skalarprodukts.,
+0_Null,Identity,Topologisch,N-075,Kern-Dimension Null,MAT,Der Punkt ohne Ausdehnung.,
+0_Null,Identity,Strukturell,N-076,Nullstellensatz,MAT,Die Existenzgarantie fÃ¼r LÃ¶sungen im Nichts.,
+0_Null,Identity,Strukturell,N-077,Residuen-Null,MAT,Das Verschwinden von Fehlern im Idealfall.,
+0_Null,Identity,Strukturell,N-078,Eigenwert Null,MAT,Die Kompression einer Achse auf den Ursprung.,
+0_Null,Identity,Strukturell,N-079,Null-Spur (Matrix),MAT,Ein System ohne Netto-Wachstum in den Diagonalen.,
+0_Null,Identity,Strukturell,N-080,Rang-Null Matrix,MAT,Die totale Entartung der Information.,
+0_Null,Identity,Topologisch,N-081,Null-Modul-Garbe,MAT,Die lokale Leere in der Garbentheorie.,
+0_Null,Identity,Topologisch,N-082,Null-Homotopie-Klasse,MAT,Eine Schleife, die auf einen Punkt schrumpfbar ist.,
+0_Null,Identity,Topologisch,N-083,Null-Kohomologie,MAT,Das Fehlen von LÃ¶chern in der Struktur.,
+0_Null,Identity,Topologisch,N-084,Null-Mannigfaltigkeit,MAT,Der leere Raum als topologisches Objekt.,
+0_Null,Identity,Geometrisch,N-085,Null-BÃ¼ndel,MAT,Ein FaserbÃ¼ndel ohne Variation.,
+0_Null,Identity,Geometrisch,N-086,Null-Schnitt,MAT,Die triviale Einbettung einer Struktur.,
+0_Null,Identity,Geometrisch,N-087,Null-KrÃ¼mmung (Trivial),MAT,Die flache Ebene des Denkens.,
+0_Null,Identity,RelativitÃ¤t,N-088,Null-GeodÃ¤te,PHY,Der Weg des Lichts in der Raumzeit.,
+0_Null,Identity,Physikalisch,N-089,Null-Tensor,MAT,Ein Feld ohne jegliche physikalische Wirkung.,
+0_Null,Identity,Quanten,N-090,Null-Spin Zustand,PHY,Der totale Symmetriezustand eines Teilchenpaars.,
+0_Null,Identity,Quanten,N-091,ParitÃ¤t Null,PHY,Die Ununterscheidbarkeit von Spiegelbildern.,
+0_Null,Identity,Quanten,N-092,Ladung Null (Neutrum),PHY,Die Abwesenheit elektromagnetischer Kopplung.,
+0_Null,Identity,RelativitÃ¤t,N-093,Masse Null (Photon),PHY,Reine Energie ohne Ruhe-Inertia.,
+0_Null,Identity,Mechanik,N-094,Impuls Null (Ruhe),PHY,Der absolute Stillstand im Referenzrahmen.,
+0_Null,Identity,Thermodyn.,N-095,Energie Null (Reset),PHY,Der fiktive Punkt der totalen AuslÃ¶schung.,
+0_Null,Identity,Kosmol.,N-096,Zeit Null (SingularitÃ¤t),PHY,Der Moment vor der KausalitÃ¤t.,
+0_Null,Identity,Gravitation,N-097,Radius Null (Punktmasse),PHY,Das mathematische Zentrum eines schwarzen Lochs.,
+0_Null,Identity,Thermodyn.,N-098,Entropie Null (Zustand),PHY,Die perfekte Ordnung im Kristall am Nullpunkt.,
+0_Null,Identity,Information,N-099,Information Null (Rauschen),TEC,Die totale Unvorhersagbarkeit (WeiÃŸes Rauschen).,
+0_Null,Identity,Musikalisch,N-100,Stille-IdentitÃ¤t,MUS,Die Pause als definierter Raum.,
+0_Null,Identity,Physisch,N-101,Null-LautstÃ¤rke,MUS,Die Abwesenheit von Amplituden.,
+0_Null,Identity,Elektronik,N-102,Frequenz Null (Gleichst.),TEC,Das Signal ohne Oszillation.,
+0_Null,Identity,Physikalisch,N-103,Widerstand Null (Supral.),PHY,Der verlustfreie Informationsfluss.,
+0_Null,Identity,Physisch,N-104,Reibung Null (Ideal),PHY,Die ungestÃ¶rte Dynamik des Geistes.,
+0_Null,Identity,Elektronik,N-105,KapazitÃ¤t Null,TEC,Ein Speicher ohne Retention.,
+0_Null,Identity,Elektronik,N-106,InduktivitÃ¤t Null,TEC,Ein Kreis ohne TrÃ¤gheit.,
+0_Null,Identity,Elektronik,N-107,LeitfÃ¤higkeit Null,TEC,Die totale Isolation (Vakuum).,
+0_Null,Identity,Optisch,N-108,Reflexion Null (Schwarz),PHY,Die totale Absorption des Lichts.,
+0_Null,Identity,Optisch,N-109,Transmission Null (Opak),PHY,Die absolute Barriere fÃ¼r Information.,
+0_Null,Identity,Optisch,N-110,Brechungsindex Null,PHY,Das Reisen im unendlichen Potenzial.,
+0_Null,Identity,Ontologisch,N-111,Die trinitÃ¤re Null,PHI,Das Zusammenfallen von R0, R1 und RL im Ursprung.,
+0_Null,Emergence,Dynamisch,N-223,Vakuumfluktuation (Sp.),PHY,Spontane Teilchen-Paarbildung.,Zeldovich 1967
+0_Null,Emergence,Paradoxal,N-224,SchÃ¶pferisches Nichts,PHI,Die Leere, die zur Form drÃ¤ngt.,Hegel 1812
+0_Null,Emergence,Dynamisch,N-225,Hegels Werden (Ãœbergang),PHI,Synthese aus Sein und Nichtsein.,Hegel 1812
+0_Null,Emergence,PhÃ¤nomenologisch,N-226,Heideggers Nichten,PHI,Der aktive Prozess der Ent-TÃ¤uschung der Welt.,
+0_Null,Emergence,PhÃ¤nomenologisch,N-227,Sartres NÃ©ant (Freiheit),PHI,Die LÃ¼cke in der KausalitÃ¤t, die Freiheit ermÃ¶glicht.,
+0_Null,Emergence,Dynamisch,N-228,Apoptose (Zelltod),PHY,Der programmierte Zerfall als Impuls fÃ¼r Erneuerung.,
+0_Null,Emergence,Dynamisch,N-229,NULL-Pointer (Crash),TEC,Der systemische Zusammenbruch als Warnsignal.,
+0_Null,Emergence,Dynamisch,N-230,Zero-Day Vulnerability,TEC,Die unvorhersehbare LÃ¼cke in der Sicherheit.,
+0_Null,Emergence,Dynamisch,N-231,Zero-Shot Learning,TEC,Die Emergenz von Wissen ohne Training.,
+0_Null,Emergence,Dynamisch,N-232,Zero-Intelligence Trad.,SOC,Marktdynamik ohne kognitiven Input (Emergenz).,
+0_Null,Emergence,Paradoxal,N-233,Shunyata (Ur-Leerheit),PHI,Der schÃ¶pferische Urgrund des Buddhismus.,
+0_Null,Emergence,Paradoxal,N-234,Nirvana (AuflÃ¶sung),PHI,Die endgÃ¼ltige Befreiung vom Manifesten.,
+0_Null,Emergence,Paradoxal,N-235,Strange Loop Identity,PHI,Die Emergenz des Ich aus dem Nichts der Logik.,
+0_Null,Emergence,Paradoxal,N-236,Zen-Mu (Nicht-Sein),PHI,Die Antwort jenseits der binÃ¤ren Entscheidung.,
+0_Null,Emergence,Dynamisch,N-237,Bhanga (Phys. Zerfall),PHY,Die AuflÃ¶sung der Form in das Reservoir.,
+0_Null,Emergence,PhÃ¤nomenologisch,N-238,Kreatives Vergessen (N),PSY,Die LÃ¶schung zur Schaffung neuer AssoziationsrÃ¤ume.,
+0_Null,Emergence,Dynamisch,N-239,Neu-Integration,PSY,Die Heilung durch RÃ¼ckkehr zur Null-Baseline.,
+0_Null,Emergence,Dynamisch,N-240,Zero Cost Abstraction,TEC,KomplexitÃ¤t ohne Performance-Verlust.,
+0_Null,Emergence,Dynamisch,N-241,Zero Copy (Network),TEC,Informationsfluss ohne Redundanz-StÃ¶rung.,
+0_Null,Emergence,Dynamisch,N-242,Zero Trust Architecture,TEC,Die radikale Skepsis als neue Sicherheitsform.,
+0_Null,Emergence,Dynamisch,N-243,Netto-Null GebÃ¤ude,TEC,Emergenz autarker LebensrÃ¤ume.,
+0_Null,Emergence,Dynamisch,N-244,Nullzins-Vortex,ECO,Der Kollaps des Kapitals in eine neue Logik.,
+0_Null,Emergence,Dynamisch,N-245,Zero-Inflated Model,MAT,Statistik, die das Schweigen mitberechnet.,
+0_Null,Emergence,Dynamisch,N-246,Knockout-Gen (Null-Mut.),PHY,Die Entdeckung der Funktion durch ihr Fehlen.,
+0_Null,Emergence,PhÃ¤nomenologisch,N-247,Null-PhÃ¤notyp (Immun.),PHY,Die unsichtbare Abwehrkraft.,
+0_Null,Emergence,Dynamisch,N-248,Null-Population,SOC,Der leere Raum fÃ¼r neue Besiedlung.,
+0_Null,Emergence,Ontologisch,N-249,Apeiron (Anaximander),PHI,Das Unendliche, aus dem alle GegensÃ¤tze kommen.,
+0_Null,Emergence,Ontologisch,N-250,Ex nihilo nihil fit,PHI,Die KausalitÃ¤t der Null (Nichts gebiert nichts).,
+0_Null,Emergence,Ontologisch,N-251,Nothingness (Heidegger),PHI,Das Nichts als Schleier des Seins.,
+0_Null,Emergence,Paradoxal,N-252,Zero-Energy Universe,PHY,Die Emergenz des Alls aus der Total-Summe Null.,
+0_Null,Emergence,Dynamisch,N-253,Singularity (Big Bang 0),PHY,Der punkt unendlicher Dichte bei Volumen Null.,
+0_Null,Emergence,Paradoxal,N-254,Black Hole Information 0,PHY,Die vernichtung oder Kodierung des Manifesten.,
+0_Null,Emergence,Dynamisch,N-255,Phase Transition Jump 0,PHY,Der sprunghafte Wechsel der Ordnung am Nullpunkt.,
+0_Null,Emergence,Paradoxal,N-256,Lithium-7 Anomaly,PHY,Das Fehlen der Materie als Hinweis auf Rel0.,
+0_Null,Emergence,Dynamisch,N-257,Hubble Tension Gap,PHY,Die LÃ¼cke in der Expansion als Informationssenke.,
+0_Null,Emergence,Dynamisch,N-258,Dark Energy Pressure,PHY,Der Drang des Nichts nach Ausbreitung.,
+0_Null,Emergence,Dynamisch,N-259,Cosmic Pulse (Takt 0),PHY,Das Atmen des Universums zwischen 0 und 1.,
+0_Null,Emergence,Dynamisch,N-260,Fractal Tensor Closure,MAT,Die SchlieÃŸung der Logik im Selbstbezug.,
+0_Null,Emergence,Ontologisch,N-261,Topological Charge Zero,MAT,Symmetrieerhalt trotz topologischer Drehung.,
+0_Null,Emergence,Paradoxal,N-262,Gravitational Self-E 0,PHY,Die Masse, die sich selbst weg-rechnet.,
+0_Null,Emergence,Paradoxal,N-263,Proton Radius Puzzle 0,PHY,Die InkohÃ¤renz der Messung am Minimalpunkt.,
+0_Null,Emergence,Paradoxal,N-264,Muon g-2 Deviation Zero,PHY,Der Bruch der Symmetrie am Mess-Nullpunkt.,
+0_Null,Emergence,Paradoxal,N-265,CP Violation Zero Point,PHY,Der Ursprung der Asymmetrie zwischen Materie/Antimaterie.,
+0_Null,Emergence,Dynamisch,N-266,Quark-Gluon-Plasma Zero,PHY,Die Ursuppe vor der atomaren Ordnung.,
+0_Null,Emergence,Paradoxal,N-267,Neutrino Mass Hierarchy,PHY,Die Ordnung der geisterhaften Massen-Nullen.,
+0_Null,Emergence,Paradoxal,N-268,Fine-Tuning Paradox Zero,PHY,Warum das Universum haarscharf an der Null bleibt.,
+0_Null,Emergence,Dynamisch,N-269,Quantum Decoherence 0,PHY,Die RÃ¼ckkehr der Information in das Reservoir.,
+0_Null,Emergence,Ontologisch,N-270,Berry Phase Geometric 0,MAT,Die Spur des Nichts nach einer Rundreise.,
+0_Null,Emergence,Dynamisch,N-271,Casimir Torque Zero,PHY,Die Kraft des Schweigens in der Mechanik.,
+0_Null,Emergence,Paradoxal,N-272,Unruh Effect Baseline 0,PHY,Warum Beschleunigung die Null erhitzt.,
+0_Null,Emergence,Dynamisch,N-273,Hawking Radiation Min 0,PHY,Das Ausdampfen des Lochs in das Vakuum.,
+0_Null,Emergence,Paradoxal,N-274,Entropic Force Origin 0,PHY,Schwerkraft als Effekt des informellen Gradienten.,
+0_Null,Emergence,Ontologisch,N-275,The Fractal Tensor,MAT,Die mathematische Einheit von Allem und Nichts.,
+0_Null,Emergence,Dynamisch,N-276,Sudden Death (System),SOC,Der unvermittelte Kollaps stabiler Strukturen.,
+0_Null,Emergence,Dynamisch,N-277,Flash Crash (Markt),ECO,Ein Information-Vortex, der Werte nullt.,
+0_Null,Emergence,PhÃ¤nomenologisch,N-278,Kognitiver Reset,PSY,Die plÃ¶tzliche Einsicht (Aha-Moment) aus der Stille.,
+0_Null,Emergence,PhÃ¤nomenologisch,N-279,Epistemischer Bruch,PHI,Die Entdeckung des Unbekannten (Rel0-Zustrom).,
+0_Null,Emergence,PhÃ¤nomenologisch,N-280,Tabula Rasa,SOC,Der blanke Geist als Reservoir der Bildung.,
+0_Null,Emergence,PhÃ¤nomenologisch,N-281,Innovations-Vakuum,ECO,Der Zustand vor der disruptiven Idee.,
+0_Null,Emergence,Dynamisch,N-282,Stille Post (Signal-0),TEC,Die totale Verzerrung wird zur neuen Baseline.,
+0_Null,Emergence,Dynamisch,N-283,Echo Chamber Null,SOC,Informationstod durch totale SelbstbestÃ¤tigung.,
+0_Null,Emergence,Paradoxal,N-284,Black Swan Event,SOC,Das Unwahrscheinliche emergiert aus der Null.,
+0_Null,Emergence,Dynamisch,N-285,Grey Rhino (Ignore 0),SOC,Die ignorierte Baseline, die zur Krise wird.,
+0_Null,Emergence,Dynamisch,N-286,Tipping Point (Null),PHY,Der Moment, in dem die Kraft die Baseline verlÃ¤sst.,
+0_Null,Emergence,Dynamisch,N-287,Bifurkations-Vakuum,MAT,Die InstabilitÃ¤t vor der Spaltung der Ordnung.,
+0_Null,Emergence,Dynamisch,N-288,Attraktor-Zentrum,MAT,Der punkt, an dem die Bewegung zur Ruhe kommt.,
+0_Null,Emergence,Dynamisch,N-289,Limit Cycle Reset,MAT,Die RÃ¼ckkehr der Periode auf Start.,
+0_Null,Emergence,Dynamisch,N-290,Chaos-Collapse,MAT,Die plÃ¶tzliche Symmetrie im turbulenten Feld.,
+0_Null,Emergence,Dynamisch,N-291,Resonanz-Vakuum,PHY,Die AuslÃ¶schung zweier Wellen zur neuen Baseline.,
+0_Null,Emergence,Dynamisch,N-292,Phasen-Interferenz 0,PHY,Die destruktive Stille zweier KlÃ¤nge.,
+0_Null,Emergence,Dynamisch,N-293,Superposition-Fix,PHY,Die Entscheidung (Kollaps) aus dem Potenzial.,
+0_Null,Emergence,Paradoxal,N-294,Delayed Choice Null,PHY,Die nachtrÃ¤gliche Fixierung der Baseline.,
+0_Null,Emergence,Paradoxal,N-295,EPR-Kompensation,PHY,Die Fernwirkung zur Erhaltung der Bilanz-Null.,
+0_Null,Emergence,Paradoxal,N-296,Bellsche Null-Verletz.,PHY,Der Beweis, dass das Nichts verbunden ist.,
+0_Null,Emergence,Ontologisch,N-297,Wheeler-DeWitt 0-LÃ¶sung,PHY,Die Zeitlosigkeit des Universums in der Null-Matrix.,
+0_Null,Emergence,Paradoxal,N-298,Holographic Noise 0,PHY,Die UnschÃ¤rfe der Raumzeit am Plancktakt.,
+0_Null,Emergence,Paradoxal,N-299,AdS/CFT Correspondence,PHY,Informationstausch zwischen Rand und Leere.,
+0_Null,Emergence,Paradoxal,N-300,dS/CFT Horizon Null,PHY,Die Grenze der Wahrnehmung am Ende der Welt.,
+0_Null,Emergence,Dynamisch,N-301,PoincarÃ©-Recurrence 0,MAT,Die zyklische Wiederkehr des Nichts.,
+0_Null,Emergence,Ontologisch,N-302,PoincarÃ©-Conjecture 0,MAT,Die Kugel als einfachste Null-Struktur.,
+0_Null,Emergence,Paradoxal,N-303,Fermat's Last Margin,MAT,Die LÃ¼cke am Rand des Beweises.,
+0_Null,Emergence,Paradoxal,N-304,GÃ¶del's Incompleteness 0,MAT,Warum jedes System eine Null-LÃ¼cke benÃ¶tigt.,
+0_Null,Emergence,Paradoxal,N-305,Turing's Halting Null,TEC,Das Schweigen der Maschine bei Unendlichkeit.,
+0_Null,Emergence,Ontologisch,N-306,Church-Turing Baseline,TEC,Die universelle Grenze der Berechenbarkeit.,
+0_Null,Emergence,Paradoxal,N-307,P vs. NP Gap Null,MAT,Die ungeklÃ¤rte Distanz zwischen Wissen und Suchen.,
+0_Null,Emergence,Dynamisch,N-308,Moore's Law Limit,TEC,Der physikalische Stopp der Skalierung.,
+0_Null,Emergence,Paradoxal,N-309,Landauer's Principle 0,PHY,Warum LÃ¶schen WÃ¤rme aus dem Reservoir zieht.,
+0_Null,Emergence,Paradoxal,N-310,Maxwell's Demon Reset,PHY,Die Kosten der Wissens-Nullung.,
+0_Null,Emergence,Paradoxal,N-311,Boltzmann Brain Null,PHI,Die spontane Ordnung aus dem Rauschen.,
+0_Null,Emergence,Paradoxal,N-312,Bekenstein-Bound Min,PHY,Die maximale Dichte der Leere.,
+0_Null,Emergence,Ontologisch,N-313,Von Neumann Architecture,TEC,Die Trennung von Information und Reset.,
+0_Null,Emergence,Paradoxal,N-314,Quantum Computer Zero,TEC,Superposition als Rechnen in der Null-Matrix.,
+0_Null,Emergence,Dynamisch,N-315,Error Correction Null,TEC,Die Wiederherstellung der Baseline durch Redundanz.,
+0_Null,Emergence,Dynamisch,N-316,DNA-Transcription 0,PHY,Der Fehler, der zur Evolution wird (Rel0-Zufall).,
+0_Null,Emergence,PhÃ¤nomenologisch,N-317,Viral-Eclipse Phase,PHY,Die unsichtbare Ruhezeit der Infektion.,
+0_Null,Emergence,Ontologisch,N-318,Stammenzell-Potenz 0,PHY,Die zellulÃ¤re Null vor der Spezialisierung.,
+0_Null,Emergence,Ontologisch,N-319,Embryonale Symmetrie,PHY,Die Kugelform als morphogenetischer Ursprung.,
+0_Null,Emergence,Dynamisch,N-320,Epigenetischer Marker 0,PHY,Die stummschaltung des Genoms (Silencing).,
+0_Null,Emergence,Dynamisch,N-321,Mirror Neuron Silence,PSY,Die Resonanz ohne eigene Handlung.,
+0_Null,Emergence,PhÃ¤nomenologisch,N-322,Flow-State (Ego Null),PSY,Das Verschwinden der Zeit in der TÃ¤tigkeit.,
+0_Null,Emergence,PhÃ¤nomenologisch,N-323,Deep Sleep Delta 0,PSY,Das totale Vergessen als tÃ¤glicher Reset.,
+0_Null,Emergence,Paradoxal,N-324,Brain-Machine Gap 0,TEC,Das Verschwinden der Grenze Mensch-Maschine.,
+0_Null,Emergence,Ontologisch,N-325,Global Brain Baseline,SOC,Die kollektive Unbestimmtheit des Netzes.,
+0_Null,Emergence,Dynamisch,N-326,Social Gravity Zero,SOC,Das Ende des sozialen Zusammenhalts (Anomie).,
+0_Null,Emergence,Dynamisch,N-227,Creative Destruction 0,ECO,Der Schmerz des Alten als Keim des Neuen.,
+0_Null,Emergence,PhÃ¤nomenologisch,N-328,Paradigm Shift 0,PHI,Die Entwertung des Wissens vor der Revolution.,
+0_Null,Emergence,PhÃ¤nomenologisch,N-329,Science Revolution 0,PHI,Der Moment des Zweifels an der Baseline.,
+0_Null,Emergence,Dynamisch,N-330,Technological S-Curve,TEC,Das Verharren vor dem nÃ¤chsten Sprung.,
+0_Null,Emergence,Dynamisch,N-331,Exponential-Explosion,MAT,Wenn die Null-Abweichung alles sprengt.,
+0_Null,Emergence,Paradoxal,N-332,Fractal Dimension 0,MAT,Das Nichts zwischen den Dimensionen.,
+0_Null,Emergence,Ontologisch,N-333,The Universal Reset,PHI,Die RÃ¼ckkehr aller Information in das reine Rel0-Potenzial.,
+0_Null,Audit,General,NA-001,Markt-Gleichgewicht,PHY,Potenzial-Nullpunkt der Markt-Interaktion.,Nash 1950
+0_Null,Audit,General,NA-002,KapazitÃ¤ts-Nullpunkt,PHY,Operative Grenze als energetisches Minimum (Rel0).,Erlang 1909
+0_Null,Audit,General,NA-003,Zins-Nullpunkt,PHY,Paradoxie als Ãœbergang in relationales System.,Fisher 1930
+0_Null,Audit,General,NA-004,WÃ¤hrungs-Reset,PHY,RÃ¼ckfÃ¼hrung der Info auf die Ur-Baseline.,Ricardo 1817
+0_Null,Audit,General,NA-005,Markt-Bereinigung,PHY,SchÃ¶pferische Kraft des Ã¶konomischen Nichts.,Schumpeter 1942
+0_Null,Audit,General,NA-006,Takt-Pause,PHY,Informelle Bedeutung der Stille als Taktgeber.,Cady 1922
+0_Null,Audit,General,NA-007,Eich-Freiheit,PHY,WillkÃ¼rfreiheit des Nullpunkts (Symmetrie).,Weyl 1918
+0_Null,Audit,General,NA-008,Standard-Zustand Null,PHY,Materielle NeutralitÃ¤t als Mess-Referenz.,Soddy 1913
+0_Null,Audit,General,NA-009,Isotropie der Leere,PHY,Gleichverteilung der Null-Baseline im Raum.,Penzias 1965
+0_Null,Audit,General,NA-010,Vakuum-Energie Baseline,PHY,Energetisches Reservoir aller Manifestation.,Casimir 1948
+0_Null,Audit,General,NA-011,Vakuum-Fluktuation,PHY,StÃ¤ndiges Rauschen der Null (ZLS-P).,Wheeler 1990
+0_Null,Audit,General,NA-012,Kopplungs-Nullpunkt,PHY,Grenze der Wechselwirkung zum Reservoir.,Sommerfeld 1916
+0_Null,Audit,General,NA-013,Skalen-Nullpunkt,PHY,Atomare Grenze der Teilbarkeit (SchlieÃŸung).,Planck 1899
+0_Null,Audit,General,NA-014,TrÃ¤gheit Null,PHY,Trennung von Masse-0 und Update-Limit (c).,Einstein 1905
+0_Null,Audit,General,NA-015,Wirkungs-Audit Null,PHY,Nicht-Existenz von Unendlichkeiten am Minimum.,Planck 1900
+0_Null,Audit,General,NA-016,Potential-Diff. Null,PHY,Zustand balancierter Einheiten (Equilibrium).,Josephson 1962
+0_Null,Audit,General,NA-017,Entropie-Senke Null,PHY,RÃ¼ckfÃ¼hrung von WÃ¤rme in die Stille.,Clausius 1850
+0_Null,Audit,General,NA-018,Synchronisation Null,PHY,Startpunkt ohne Phasenverschiebung.,Huygens 1665
+0_Null,Audit,General,NA-019,Asymmetrie Null,PHY,Perfekte Ausbalancierung der KrÃ¤fte.,Noether 1918
+0_Null,Audit,General,NA-020,Feld-Abklingen Null,PHY,Reservoir als Senke fÃ¼r Fernwirkung.,Higgs 1964
+0_Null,Audit,General,NA-021,Normalverteilung Null,PHY,Erwartungswert als statistischer Anker.,Gauss 1809
+0_Null,Audit,General,NA-022,Zeit-Intervall Null,PHY,SingulÃ¤re PrÃ¤senz des "Jetzt".,Zeno ~450 BC
+0_Null,Audit,General,NA-023,KrÃ¼mmung Null,PHY,Ideale Geometrie als Baseline-Beweis.,Guth 1981
+0_Null,Audit,General,NA-024,Widerstand Null,PHY,Reibungsfreier Fluss als reine Relation.,Bloch 1928
+0_Null,Audit,General,NA-025,SingularitÃ¤ts-Reset,PHY,Heilung der Unendlichkeit durch Null-RÃ¼ckfÃ¼hrung.,Hilbert 1900
+0_Null,Audit,General,NA-026,Default-State Null,PHY,SchÃ¶pferisches Stillstehen des Bewusstseins.,Raichle 2001
+0_Null,Audit,General,NA-027,Anomalie-Senke Null,PHY,Verschwinden von Fehlern in der Unendlichkeit.,Laplace 1814
+0_Null,Audit,General,NA-028,Referenz-Null,PHY,Absolute Untergrenze des thermischen Ankers.,Kelvin 1848
+0_Null,Audit,General,NA-029,Tabula Rasa Potenzial,PHY,Bedingung fÃ¼r Bildung (unbeschriebener Raum).,Locke 1689
+0_Null,Audit,General,NA-030,Null-Versuch,PHY,Leer-Beweis zur Sicherung der IntegritÃ¤t.,Popper 1934
+0_Null,Audit,General,NA-031,Initial-Reset,PHY,Wiederherstellung der Baseline zur Heilung.,Von Neumann 1945
+0_Null,Audit,General,NA-032,Default-Config,PHY,Ausgangszustand der Unschuld logischer Systeme.,Hoare 1965
+0_Null,Audit,General,NA-033,Null-Korrelation,PHY,Totale Freiheit zweier PhÃ¤nomene.,Pearson 1895
+0_Null,Audit,General,NA-034,StationÃ¤re Null,PHY,Ruhe im Zentrum des turbulenten Geschehens.,Prigogine 1980
+0_Null,Audit,General,NA-035,Break-Even Stille,PHY,Ãœbergang vom Mangel zum Mehrwert.,Schumpeter 1942
+0_Null,Audit,General,NA-036,Schwerpunkt Null,PHY,Unbewegte Mitte rotierender KrÃ¤fte.,Archimedes ~250 BC
+0_Null,Audit,General,NA-037,Ladungs-Bilanz Null,PHY,NeutralitÃ¤t als Ziel materieller Ordnung.,Bohr 1913
+0_Null,Audit,General,NA-038,Minimal-Weg,PHY,Reibungsfreier Pfad zum energetischen Optimum.,Lagrange 1788
+0_Null,Audit,General,NA-039,Isomorphie-Kern Null,PHY,Identisches Nichts im Zentrum der Bauformen.,Mac Lane 1971
+0_Null,Audit,General,NA-040,Invariante Null,PHY,UnzerstÃ¶rbarkeit unter Verformung.,PoincarÃ© 1895
+0_Null,Audit,General,NA-041,Factory-Reset Global,PHY,RÃ¼ckfÃ¼hrung auf den Natur-Zustand.,Mill 1859
+0_Null,Audit,General,NA-042,Leerer Header,PHY,Abwesenheit von Info als Reset-Befehl.,Shannon 1948
+0_Null,Audit,General,NA-043,Null-Pointer Schutz,PHY,Trennung von RealitÃ¤t und logischem Vakuum.,Knuth 1968
+0_Null,Audit,General,NA-044,Sentinel-Stopp Null,PHY,Definierter Abschluss des Datenflusses.,Knuth 1968
+0_Null,Audit,General,NA-045,Meditation (Leere),PHY,Heilung des Mentals durch Null-Nutzung.,Patanjali ~200 BC
+0_Null,Audit,General,NA-046,Emotionale Null-Linie,PHY,Vorurteilsfreier Grundzustand der Wahrnehmung.,Hume 1739
+0_Null,Audit,General,NA-047,Adaptations-Reset,PHY,LÃ¶schung irrelevanter Reiz-Information.,Pavlov 1927
+0_Null,Audit,General,NA-048,Schwelle Null,PHY,Punkt, an dem Einwirkung Form erzeugt.,Fechner 1860
+0_Null,Audit,General,NA-049,AuslÃ¶schung (Interfer.),PHY,Destruktive Harmonie zur neuen Baseline.,Young 1801
+0_Null,Audit,General,NA-050,Sunyata-IdentitÃ¤t,PHY,Leere als Ur-Substanz aller Manifestation.,Nagarjuna ~200 CE
+0_Null,Audit,General,NA-051,4er-Split: Zeit-Impact,PHY,StÃ¶rung der Null-Ruhe durch externen Zeitdruck,Einstein 1905
+0_Null,Audit,General,NA-052,4er-Split: Starres Gitter,PHY,Blockade des Potenzial-Flusses durch Statik,PoincarÃ© 1902
+0_Null,Audit,General,NA-053,4er-Split: Kern-Dogma,PHY,Fixierung der IdentitÃ¤t gegen das Reservoir,Jung 1934
+0_Null,Audit,General,NA-054,4er-Split: Massen-Last,PHY,DÃ¤mpfung der Rel0-Resonanz durch TrÃ¤gheit,Hawking 1974
+0_Null,Audit,General,NA-055,5er-Split: Euler-Check,PHY,Trennung von Null-Punkt und Wachstum (e),Euler 1748
+0_Null,Audit,General,NA-060,5er-Split: Bio-Metabol.,PHY,NÃ¤hrstoff-Baseline vs. Energetischer Drang,Schroedinger 1944
+0_Null,Audit,General,NA-065,5er-Split: Kosm. Void,PHY,Das Nichts als Expansions-Motor (Rel0),Kaku 2021
+0_Null,Audit,General,NA-066,Gleichmut-Baseline,PHY,Stoizismus gegenÃ¼ber Welt-Fluktuationen.,Epictetus ~100 CE
+0_Null,Audit,General,NA-067,PrÃ¤senz-Nullpunkt,PHY,Zeitloses Stehen in der Mitte (Dasein).,Heidegger 1927
+0_Null,Audit,General,NA-068,Zero-Knowledge Proof,PHY,Wahrheit ohne Informationspreisgabe.,Goldwasser 1985
+0_Null,Audit,General,NA-069,Net-Zero Sustain,PHY,Energetische NeutralitÃ¤t als Ziel.,Paris Agreement
+0_Null,Audit,General,NA-070,Zero-Config Harmony,PHY,Anschluss ohne StÃ¶rung des Welt-Gitters.,Wiener 1948
+0_Null,Audit,General,NA-071,Latenz Null,PHY,IdentitÃ¤t von Ereignis und Taktung.,Lamport 1978
+0_Null,Audit,General,NA-072,Fail-Safe Baseline,PHY,RÃ¼ckzug auf das schÃ¼tzende Minimum.,Anderson 2001
+0_Null,Audit,General,NA-073,Agreeing to Disagree,PHY,Kooperation trotz Divergenz (Rel0).,Aumann 1976
+0_Null,Audit,General,NA-074,Abfall Null,PHY,SchlieÃŸung der Materie-Relation.,McDonough 2002
+0_Null,Audit,General,NA-075,Carbon Neutral Zero,PHY,Verschwinden der Einwirkung in der Bilanz.,Paris Agreement
+0_Null,Audit,General,NA-076,DNA Mutation 0,PHY,Prozessualer Stillstand als Evolutions-Ende.,Watson 1953
+0_Null,Audit,General,NA-077,Bio-HomÃ¶ostase Null,PHY,Balancierte Vitalwerte (Ãœberleben).,Cannon 1929
+0_Null,Audit,General,NA-078,Toleranz-Nullpunkt,PHY,PrÃ¤zision der Norm als Welt-Anker.,BIPM Standard
+0_Null,Audit,General,NA-079,Zeit-Offset Null,PHY,Radikale Gleichzeitigkeit (Sync).,IEEE 1588
+0_Null,Audit,General,NA-080,Root-Zone Null,PHY,Leere Referenz im Namensraum-Zentrum.,Postel 1981
+0_Null,Audit,General,NA-081,Handshake Reset,PHY,Erwartung des Signals in leerer Leitung.,Cerf/Kahn 1974
+0_Null,Audit,General,NA-082,Rechts-Vakuum,PHY,Freiheit dort, wo das Gesetz schweigt.,Kelsen 1934
+0_Null,Audit,General,NA-083,WÃ¼rde-Schutz Baseline,PHY,Unantastbare Untergrenze der Interaktion.,UN Decl. 1948
+0_Null,Audit,General,NA-084,Axiomat. Nullpunkt,PHY,Unbeweisbarer Startpunkt der Logik.,Aristoteles
+0_Null,Audit,General,NA-085,Schnittpunkt Null,PHY,Zentrum jeder Koordinaten-SchlieÃŸung.,Descartes 1637
+0_Null,Audit,General,NA-086,UnitaritÃ¤ts-Erhalt,PHY,Verbot von Info-Verlust im Quantengitter.,SchrÃ¶dinger 1935
+0_Null,Audit,General,NA-087,Feld-NeutralitÃ¤t,PHY,AuslÃ¶schung entgegengesetzter Spannungen.,Maxwell 1864
+0_Null,Audit,General,NA-088,Gravitat. Baseline,PHY,KrÃ¼mmungsfreiheit im fernen Raum.,Newton 1687
+0_Null,Audit,General,NA-089,Zeit-Dilatation Null,PHY,SynchronitÃ¤t im mitbewegten System.,Einstein 1905
+0_Null,Audit,General,NA-090,Invarianz-Null,PHY,Gesetz-IdentitÃ¤t bei LageÃ¤nderung.,Lorentz 1904
+0_Null,Audit,General,NA-091,Ã„quivalenz-Diff 0,PHY,Keine LÃ¼cke im Gravitations-Modell.,Einstein 1915
+0_Null,Audit,General,NA-092,GeodÃ¤ten-Minimum,PHY,Widerstandsfreier Weg durch Raumzeit.,Riemann 1854
+0_Null,Audit,General,NA-093,Schwarzschild-Rand,PHY,Manifeste Zeit im Stillstand.,Schwarzschild
+0_Null,Audit,General,NA-094,Horizont-SchlieÃŸung,PHY,Info-Verlust in der SingularitÃ¤ts-Null.,Thorne 1994
+0_Null,Audit,General,NA-095,Kosm. Konstante 0,PHY,Balance der ExpansionskrÃ¤fte.,Hubble 1929
+0_Null,Audit,General,NA-096,Expansion-Scale 0,PHY,Normierter Faktor am Startpunkt.,Friedmann 1922
+0_Null,Audit,General,NA-097,Dark Energy Druck,PHY,Reservoir-Druck auf das Universum.,Kaku 2021
+0_Null,Audit,General,NA-098,TrÃ¤gheit-Schleife 0,PHY,Echo des Kosmos im Lokalen (Mach).,Mach 1883
+0_Null,Audit,General,NA-099,Existenz-Axiom Null,PHY,Gewissheit des Seins jenseits der Form.,Kant 1781
+0_Null,Audit,General,NA-100,Planck-Volumen Null,PHY,Radikale UnschÃ¤rfe am Plancktakt.,Wheeler 1957
+1_Unity,Baseline,Strukturell,U-116,Standard-Modell (Physik),PHY,Die konsistente Einheit der Elementarteilchen.,CERN 2012
+1_Unity,Baseline,Strukturell,U-117,Periodensystem (PSE),PHY,Die strukturelle Einheit der chemischen Elemente.,Mendelejew 1869
+1_Unity,Baseline,Strukturell,U-118,Euklidischer Raum,MAT,Die geometrische Einheit der Raumanschauung.,Euklid
+1_Unity,Baseline,Strukturell,U-119,Newtonsche Mechanik,PHY,Die klassische Einheit von Kraft und Bewegung.,Newton 1687
+1_Unity,Baseline,Strukturell,U-120,Maxwell-Gleichungen,PHY,Die elektrodynamische Einheit von Feld und Strom.,Maxwell 1864
+1_Unity,Baseline,Strukturell,U-121,Thermodynamik (Gleichgew.),PHY,Die energetische Einheit abgeschlossener Systeme.,Boltzmann 1872
+1_Unity,Baseline,Strukturell,U-122,Hilbert-Raum,MAT,Die algebraische Einheit der QuantenzustÃ¤nde.,Hilbert 1900
+1_Unity,Baseline,Strukturell,U-123,Riemannsche Geometrie,MAT,Die metrische Einheit gekrÃ¼mmter RÃ¤ume.,Riemann 1854
+1_Unity,Baseline,Strukturell,U-124,Lie-Algebren,MAT,Die strukturelle Einheit kontinuierlicher Symmetrien.,Lie 1888
+1_Unity,Baseline,Strukturell,U-125,Kategorientheorie,MAT,Die universelle Einheit mathematischer Strukturen.,Eilenberg 1945
+1_Unity,Baseline,Strukturell,U-126,Turing-VollstÃ¤ndigkeit,TEC,Die logische Einheit der Berechenbarkeit.,Turing 1936
+1_Unity,Baseline,Strukturell,U-127,Von-Neumann-Architektur,TEC,Die funktionale Einheit von Programmen und Daten.,Von Neumann 1945
+1_Unity,Baseline,Strukturell,U-128,TCP/IP Protokollstack,TEC,Die kommunikative Einheit des Internets.,Cerf/Kahn 1974
+1_Unity,Baseline,Strukturell,U-129,ISO/OSI Referenzmodell,TEC,Die hierarchische Einheit der Netzwerkschichten.,ISO 1984
+1_Unity,Baseline,Strukturell,U-130,Relationales Datenmodell,TEC,Die logische Einheit strukturierter Information.,Codd 1970
+1_Unity,Baseline,Strukturell,U-131,Unicode (UTF-8),TEC,Die globale Einheit der Zeichenkodierung.,Unicode Cons.
+1_Unity,Baseline,Strukturell,U-132,Blockchain (Consensus),TEC,Die dezentrale Einheit der Transaktionswahrheit.,Nakamoto 2008
+1_Unity,Baseline,Strukturell,U-133,Git (Versionierung),TEC,Die kohÃ¤rente Einheit der Code-Entwicklung.,Torvalds 2005
+1_Unity,Baseline,Strukturell,U-134,Docker (Container),TEC,Die isolierte Einheit softwaretechnischer Laufzeit.,Hykes 2013
+1_Unity,Baseline,Strukturell,U-135,Kubernetes (Orchestr.),TEC,Die skalierbare Einheit verteilter Systeme.,Google 2014
+1_Unity,Baseline,Strukturell,U-136,REST/GraphQL API,TEC,Die standardisierte Einheit der Datenschnittstelle.,Fielding 2000
+1_Unity,Baseline,Strukturell,U-137,Semantisches Web (RDF),TEC,Die logische Einheit vernetzter Bedeutung.,Berners-Lee 2001
+1_Unity,Baseline,Strukturell,U-138,Deep Learning (Weights),TEC,Die numerische Einheit kÃ¼nstlicher Intelligenz.,LeCun 2012
+1_Unity,Baseline,Strukturell,U-139,Transformer Architekt.,TEC,Die Aufmerksamkeitseinheit der Sprachmodelle.,Vaswani 2017
+1_Unity,Baseline,Strukturell,U-140,Standard-Goldunze,ECO,Die historische Einheit des Geldwerts.,
+1_Unity,Baseline,Strukturell,U-141,Bruttoinlandsprodukt,ECO,Die messbare Einheit der Wirtschaftsleistung.,Kuznets 1934
+1_Unity,Baseline,Strukturell,U-142,Zentralbank-System,ECO,Die institutionelle Einheit der WÃ¤hrungsstabilitÃ¤t.,
+1_Unity,Baseline,Strukturell,U-143,Welthandelsorg. (WTO),ECO,Die regulatorische Einheit des Welthandels.,
+1_Unity,Baseline,Strukturell,U-144,Doppelte BuchfÃ¼hrung,ECO,Die systemische Einheit von Soll und Haben.,Pacioli 1494
+1_Unity,Baseline,Strukturell,U-145,Aktienindex (S&P 500),ECO,Die statistische Einheit der Marktentwicklung.,
+1_Unity,Baseline,Strukturell,U-146,Supply Chain (Global),ECO,Die logistische Einheit der WarenstrÃ¶me.,
+1_Unity,Baseline,Strukturell,U-147,Lean Sigma (0-Fehler),ECO,Die prozessuale Einheit der QualitÃ¤tssicherung.,Smith 1986
+1_Unity,Baseline,Strukturell,U-148,UN-Charta,SOC,Die vÃ¶lkerrechtliche Einheit der Weltgemeinschaft.,UN 1945
+1_Unity,Baseline,Strukturell,U-149,Menschenrechte (AEMR),SOC,Die ethische Einheit der MenschenwÃ¼rde.,UN 1948
+1_Unity,Baseline,Strukturell,U-150,Rechtsstaatlichkeit,SOC,Die normative Einheit vor dem Gesetz.,Kant 1797
+1_Unity,Baseline,Strukturell,U-151,Demokratischer Diskurs,SOC,Die deliberative Einheit der politischen Willensbildung.,Habermas 1981
+1_Unity,Baseline,Strukturell,U-152,Soziale Marktwirtschaft,SOC,Die integrative Einheit von Freiheit und Ausgleich.,Erhard 1957
+1_Unity,Baseline,Strukturell,U-153,Ã–ffentlicher Rundfunk,SOC,Die informelle Einheit gesellschaftlicher Meinungsbildung.,
+1_Unity,Baseline,Strukturell,U-154,Schulpflicht (Bildung),SOC,Die pÃ¤dagogische Einheit der Wissensbasis.,
+1_Unity,Baseline,Strukturell,U-155,Soziale Sicherung,SOC,Die solidarische Einheit der Lebensrisiken.,Bismarck 1883
+1_Unity,Baseline,Strukturell,U-156,Akademische Freiheit,SOC,Die epistemische Einheit der Wahrheitsfindung.,Humboldt 1810
+1_Unity,Baseline,Strukturell,U-157,Kultur-Erbe (UNESCO),SOC,Die identitÃ¤tsstiftende Einheit der Geschichte.,
+1_Unity,Baseline,Strukturell,U-158,Wissenschaftl. Methode,SOC,Die methodische Einheit der Erkenntnisgewinnung.,Popper 1934
+1_Unity,Baseline,Strukturell,U-159,Peer Review System,SOC,Die qualitative Einheit wissenschaftlicher Standards.,
+1_Unity,Baseline,Strukturell,U-160,Ethikrat-Kompetenz,SOC,Die beratende Einheit bei Grenzfragen.,
+1_Unity,Baseline,Strukturell,U-161,Zivilgesellschaft,SOC,Die handlungsfÃ¤hige Einheit jenseits von Staat und Markt.,
+1_Unity,Baseline,Strukturell,U-162,Religionsfreiheit,SOC,Die weltanschauliche Einheit in der Vielfalt.,
+1_Unity,Baseline,Strukturell,U-163,Pressefreiheit (StÃ¼tze),SOC,Die kontrollierende Einheit der MachtausÃ¼bung.,
+1_Unity,Baseline,Strukturell,U-164,Gewaltenteilung,SOC,Die institutionelle Einheit der Machtbegrenzung.,Montesquieu 1748
+1_Unity,Baseline,Strukturell,U-165,FÃ¶deralismus (Subsid.),SOC,Die vertikale Einheit der Selbstverwaltung.,
+1_Unity,Baseline,Strukturell,U-166,StÃ¤dteplanung (Grid),SOC,Die rÃ¤umliche Einheit urbanen Lebens.,CerdÃ  1859
+1_Unity,Baseline,Strukturell,U-167,Infrastruktur (Netze),SOC,Die physische Einheit der Versorgung.,
+1_Unity,Baseline,Strukturell,U-168,MÃ¼llentsorgung (Kreisl.),SOC,Die stoffliche Einheit der Stadthygiene.,
+1_Unity,Baseline,Strukturell,U-169,Brandschutz (Stand.),SOC,Die sicherheitstechnische Einheit des Schutzes.,
+1_Unity,Baseline,Strukturell,U-170,Verkehrsregeln (StVO),SOC,Die operative Einheit mobilien Handelns.,
+1_Unity,Baseline,Strukturell,U-171,Normierung (DIN/ISO),TEC,Die technische Einheit der Austauschbarkeit.,
+1_Unity,Baseline,Strukturell,U-172,Urheberrecht (Copy.),SOC,Die rechtliche Einheit des geistigen Eigentums.,
+1_Unity,Baseline,Strukturell,U-173,Datenschutz-Grundver.,SOC,Die digitale Einheit des PersÃ¶nlichkeitsrechts.,EU 2016
+1_Unity,Baseline,Strukturell,U-174,Klimaschutzziele (Goal),SOC,Die globale Einheit zur Erhaltung der Lebensgrundlagen.,
+1_Unity,Baseline,Strukturell,U-175,Artenschutz-Abkommen,SOC,Die Ã¶kologische Einheit der BiodiversitÃ¤t.,
+1_Unity,Baseline,Strukturell,U-176,Antisemitismus-Def.,SOC,Die wehrhafte Einheit gegen Ausgrenzung.,IHRA 2016
+1_Unity,Identity,Mathematisch,U-001,Einheitselement (1),MAT,NeutralitÃ¤t bezÃ¼glich der Multiplikation.,Peano 1889
+1_Unity,Identity,Mathematisch,U-002,IdentitÃ¤tsmatrix (I),MAT,Die Matrix, die Strukturen unverÃ¤ndert lÃ¤sst.,Cayley 1858
+1_Unity,Identity,Logisch,U-003,Tautologie (A=A),MAT,Zustand der logischen Selbstgewissheit.,Wittgenstein 1921
+1_Unity,Identity,Mathematisch,U-004,Einheitsvektor (Norm 1),MAT,ReprÃ¤sentant der totalen Ausrichtung.,Euclidean Standard
+1_Unity,Identity,Mathematisch,U-005,Einheitskreis (SÂ¹),MAT,Topologische Geschlossenheit in der Ebene.,
+1_Unity,Identity,Mathematisch,U-006,Einheitswurzel,MAT,Die zyklische Teilung des Einen.,De Moivre 1707
+1_Unity,Identity,Mathematisch,U-007,Invarianz (Fixpunkt),MAT,StabilitÃ¤t unter Transformationen.,Brouwer 1911
+1_Unity,Identity,Geometrisch,U-008,Symmetriegruppe,MAT,Die formale Einheit der Ausgewogenheit.,Noether 1918
+1_Unity,Identity,Geometrisch,U-009,Kongruenz (IdentitÃ¤t),MAT,Deckungsgleichheit materieller KÃ¶rper.,Hilbert 1899
+1_Unity,Identity,Mathematisch,U-010,Topologische HomÃ¶om.,MAT,Strukturelle Gleichheit bei Verformung.,Euler 1750
+1_Unity,Identity,Geometrisch,U-011,Fraktale SelbstÃ¤hnlich.,MAT,Einheit des Musters Ã¼ber alle Skalen.,Mandelbrot 1975
+1_Unity,Identity,Mathematisch,U-012,Goldener Schnitt (Ï†),MAT,Die proportionale Einheit der Harmonie.,Euklid
+1_Unity,Identity,Physikalisch,U-013,Lichtgeschwindigkeit (c),PHY,Die universelle Grenze der KausalitÃ¤t.,Einstein 1905
+1_Unity,Identity,Physikalisch,U-014,Plancksches Wirk.-Quant,PHY,Die kleinste Einheit der Energie-Aktion.,Planck 1900
+1_Unity,Identity,Physikalisch,U-015,Elementarladung (e),PHY,Die diskrete Einheit der ElektrizitÃ¤t.,Millikan 1909
+1_Unity,Identity,Physikalisch,U-016,Feinstrukturkonstante,PHY,Die Kopplungseinheit der Wechselwirkung.,Sommerfeld 1916
+1_Unity,Identity,Physikalisch,U-017,Schwerkraftkonstante,PHY,Die skalare Einheit der RaumkrÃ¼mmung.,Newton 1687
+1_Unity,Identity,Physikalisch,U-018,Boltzmann-Konstante,PHY,Die Einheit von Energie und Temperatur.,Boltzmann 1877
+1_Unity,Identity,Physikalisch,U-019,Avogadro-Zahl (Mol),PHY,Die mengenmÃ¤ÃŸige Einheit der Materie.,Avogadro 1811
+1_Unity,Identity,Physikalisch,U-020,Starke Kraft (Kerne),PHY,Die bindende Einheit der Protonen/Neutronen.,Yukawa 1935
+1_Unity,Identity,Physikalisch,U-021,Quanten-VerschrÃ¤nkung,PHY,Die nicht-lokale Einheit von Teilchenpaaren.,Bell 1964
+1_Unity,Identity,Physikalisch,U-022,Wellen-Teilchen-Dual.,PHY,Die komplementÃ¤re Einheit der Materie.,Bohr 1927
+1_Unity,Identity,Physikalisch,U-023,Spin-Statistik-Einheit,PHY,Die ordnende IdentitÃ¤t der Fermionen/Bosonen.,Pauli 1925
+1_Unity,Identity,Physikalisch,U-024,Massenerhaltung,PHY,Die geschlossene IdentitÃ¤t physikalischer Stoffe.,Lavoisier 1789
+1_Unity,Identity,Chemisch,U-025,Atom (Individuum),PHY,Die kleinste chemische IdentitÃ¤t.,Dalton 1803
+1_Unity,Identity,Chemisch,U-026,MolekÃ¼l (Bindung),PHY,Die kooperative IdentitÃ¤t der Atome.,Lewis 1916
+1_Unity,Identity,Chemisch,U-027,Kristallgitter,PHY,Die periodische Einheit der Feststoffe.,Bragg 1913
+1_Unity,Identity,Biologisch,U-028,Zelle (Organismus),PHY,Die basale Einheit des Lebens.,Schleiden 1838
+1_Unity,Identity,Biologisch,U-029,Gencode (DNA),PHY,Die informationelle Einheit der Vererbung.,Watson 1953
+1_Unity,Identity,Biologisch,U-030,Protein-Faltung,PHY,Die funktionale IdentitÃ¤t der Biopolymere.,Anfinsen 1973
+1_Unity,Identity,Biologisch,U-031,Spezies (Art),PHY,Die reproduktive Einheit der Evolution.,Mayr 1942
+1_Unity,Identity,Biologisch,U-032,Ã–kosystem (Nische),PHY,Die biotische Einheit von Raum und Leben.,Tansley 1935
+1_Unity,Identity,Psychologisch,U-033,Das Bewusstsein (Ich),PSY,Die identitÃ¤tsstiftende Einheit der Erfahrung.,James 1890
+1_Unity,Identity,Psychologisch,U-034,Selbstwirksamkeit,PSY,Das Erleben der kaualen Urheberschaft.,Bandura 1977
+1_Unity,Identity,Psychologisch,U-035,Kognitive Dissonanz,PSY,Der Drang zur inneren Einheit des Denkens.,Festinger 1957
+1_Unity,Identity,Psychologisch,U-036,PersÃ¶nlichkeitskern,PSY,Die zeitstabile IdentitÃ¤t des Individuums.,Costa/McCrae 1992
+1_Unity,Identity,Soziologisch,U-037,Normative Integration,SOC,Die wertbasierte Einheit der Gesellschaft.,Parsons 1951
+1_Unity,Identity,Soziologisch,U-038,Soziale IdentitÃ¤t,SOC,Die ZugehÃ¶rigkeit zur Wir-Gruppe.,Tajfel 1979
+1_Unity,Identity,Soziologisch,U-039,Kultur-IdentitÃ¤t,SOC,Die geteilte Bedeutungsebene einer Gruppe.,Geertz 1973
+1_Unity,Identity,Soziologisch,U-040,Nationaler Konsens,SOC,Die politische Einheit des Gemeinwesens.,Renan 1882
+1_Unity,Identity,Information,U-041,Informationsbit (0/1),TEC,Die kleinste logische Differenz (Einheit).,Shannon 1948
+1_Unity,Identity,Information,U-042,Hash-Funktion (Finger.),TEC,Die eindeutige IdentitÃ¤t eines Datenstroms.,Merkl/Damgard 1989
+1_Unity,Identity,Technisch,U-043,Standard-Schnittst.,TEC,Die kompatible Einheit technischer Kopplung.,DIN/ISO
+1_Unity,Identity,Philosophisch,U-044,Das Eine (Monade),PHI,Die unteilbare Einheit der Substanz.,Leibniz 1714
+1_Unity,Identity,Philosophisch,U-045,Sokratischer Dialog,PHI,Die diskursive Suche nach der Einheit der Tugend.,Platon
+1_Unity,Identity,Philosophisch,U-046,Kategorischer Imperat.,PHI,Die universelle Einheit moralischen Handelns.,Kant 1785
+1_Unity,Identity,Philosophisch,U-047,Heideggers "Da-sein",PHI,Die ontologische Einheit von Mensch und Welt.,Heidegger 1927
+1_Unity,Identity,Audit,U-048,Landauer-Audit (1),PHY,Die thermophysikalische Grenze des Bits (Unity).,Landauer 1961
+1_Unity,Identity,Audit,U-049,Rel1-Konsistenz,PHY,Nachweis der geschlossenen Symmetrie (Fixpunkt).,Noether 1918
+1_Unity,Identity,Audit,U-050,Invarianz-Garantie,PHY,Sicherung der GesetzmÃ¤ÃŸigkeit Ã¼ber Skalen.,Einstein 1915
+1_Unity,Identity,Paradoxal,U-051,Quanten-Einheit,PHY,VerschrÃ¤nkung als Beweis der Vor-Trennung.,EPR 1935
+1_Unity,Identity,Mathematisch,U-052,Euler-IdentitÃ¤t (e^iÏ€),MAT,Die tiefste Einheit der Mathematik (0, 1, e, i, Ï€).,Euler 1748
+1_Unity,Identity,Physikalisch,U-053,SuperfluiditÃ¤t (Helium),PHY,Reibungsfreie IdentitÃ¤t makroskopischer Materie.,Kapiza 1937
+1_Unity,Identity,Physikalisch,U-054,Supraleitung (Cooper),PHY,Elektrische Einheit ohne Streuverlust.,Bardeen 1957
+1_Unity,Identity,Physikalisch,U-055,Bose-Einstein-Kond.,PHY,Die RÃ¼ckkehr der Vielheit in die Eine Wellenform.,Cornell/Wieman 1995
+1_Unity,Identity,Mathematisch,U-056,Banach-Tarski-Ident.,MAT,Das Paradoxon der Einheit durch Spaltung.,Banach 1924
+1_Unity,Identity,Logisch,U-057,GÃ¶dels UnvollstÃ¤ndigk.,MAT,Die Grenze der formalen Einheit (Wahrheit > Beweis).,GÃ¶del 1931
+1_Unity,Identity,Information,U-058,Turing-Fixpunkt,TEC,Die stationÃ¤re Einheit der Algorithmen.,Turing 1936
+1_Unity,Identity,Psychologisch,U-059,Flow-Erleben,PSY,Die totale Einheit von Handlung und Bewusstsein.,Csikszentmihalyi 1975
+1_Unity,Identity,Soziologisch,U-060,Global Consensus,SOC,Die hypothetische Einheit der Weltvernunft.,Kant 1795
+1_Unity,Identity,Ontologisch,U-061,Das "Etwas" (Sein),PHI,Die Unterscheidung vom Nichts als Ureinheit.,Parmenides
+1_Unity,Identity,Astrophysik,U-062,SingularitÃ¤t (SchlieÃŸ.),PHY,Die Einheit von Punkt und Masse im Extremen.,Penrose 1965
+1_Unity,Identity,Mathematisch,U-063,OrthogonalitÃ¤t-Zentr.,MAT,Die rechtwinklige Einheit des Raumes.,Gram-Schmidt
+1_Unity,Identity,Konzeptuell,U-064,Trinity-Unity (R1),PHI,Der statische Pol der trinitÃ¤ren Matrix.,TRINITY 2024
+1_Unity,Identity,Biologisch,U-065,Symbiose (Einheit),PHY,Kooperative IdentitÃ¤t verschiedener Arten.,Margulis 1970
+1_Unity,Identity,Juristisch,U-066,Rechtssubjekt,SOC,Die rechtliche Einheit der HandlungsfÃ¤higkeit.,Savigny 1840
+1_Unity,Identity,Mathematisch,U-067,Fixpunkt-Iteration,MAT,Die AnnÃ¤herung an die statische Einheit.,Banach 1922
+1_Unity,Identity,Soziologisch,U-068,System-Gleichgewicht,SOC,Die dynamische Einheit stabiler Prozesse.,Luhmann 1984
+1_Unity,Identity,Physikalisch,U-069,Lorentz-Invarianz,PHY,Die Einheit der Naturgesetze bei Bewegung.,Lorentz 1904
+1_Unity,Identity,Informatik,U-070,Zustandsautomat (Fix),TEC,Die deterministische Einheit logischer AblÃ¤ufe.,Mealy 1955
+1_Unity,Identity,Methodisch,U-071,Axiomatisierung,MAT,Die Reduktion auf die unhintergehbare Einheit.,Hilbert 1899
+1_Unity,Identity,Psychologisch,U-072,Gestaltpsychologie,PSY,Das Ganze als Einheit Ã¼ber seinen Teilen.,Wertheimer 1912
+1_Unity,Identity,Ã–kologisch,U-073,Gaia-Hypothese,PHY,Die Erde als selbstregulierende Einheit.,Lovelock 1972
+1_Unity,Identity,Medizinisch,U-074,HomÃ¶ostase (KÃ¶rper),PHY,Die physiologische Einheit des Milieus.,Cannon 1929
+1_Unity,Identity,Architektonisch,U-075,Modulor-MaÃŸstab,TEC,Die menschliche Einheit im Bauen.,Le Corbusier 1948
+1_Unity,Identity,Sprachlich,U-076,Signifikant/Signifikat,PHI,Die semiotische Einheit des Zeichens.,Saussure 1916
+1_Unity,Identity,Musiktheoretisch,U-077,Der Grundton (Tonic),MUS,Die harmonische Einheit der Tonleiter.,Rameau 1722
+1_Unity,Identity,Neurobiologisch,U-078,Mirror Neurons (Sync),PHY,Die Einheit von Beobachtung und Empfindung.,Rizzolatti 1992
+1_Unity,Identity,Kosmologisch,U-079,Anthropisches Prinzip,PHI,Die Einheit von Naturkonstanten und Beobachter.,Barrow 1986
+1_Unity,Identity,Politisch,U-080,SouverÃ¤nitÃ¤t,SOC,Die unteilbare Einheit der Staatsgewalt.,Bodin 1576
+1_Unity,Identity,Religionsphil.,U-081,Unio Mystica,PHI,Die erfahrene Einheit mit dem Absoluten.,Meister Eckhart
+1_Unity,Identity,Kognition,U-082,Theory of Mind,PSY,Die Einheit der mentalen Perspektiven.,Premack 1978
+1_Unity,Identity,Mathematisch,U-083,Einheit-Vektor-Feld,MAT,Die konsistente Ausrichtung im Raum.,Lie 1870
+1_Unity,Identity,Technisch,U-084,Null-Serien-Prototyp,TEC,Die idealtypische Einheit der Fertigung.,
+1_Unity,Identity,Quantenmechanik,U-085,Normierung der Wellenf.,MAT,Die statistische Einheit der Existenzchance.,Born 1926
+1_Unity,Identity,Algebraisch,U-086,Monophysitismus-Logik,PHI,Die radikale Einheit der Natur (Philosophisch).,
+1_Unity,Identity,Systemisch,U-087,IntegritÃ¤ts-PrÃ¼fung,TEC,Sicherung der unverÃ¤nderten Einheit von Daten.,CRC 1961
+1_Unity,Identity,Biologisch,U-088,Artenschutz-Einheit,PHY,Die minimale Ã¼berlebensfÃ¤hige Population (MVP).,SoulÃ© 1980
+1_Unity,Identity,Physikalisch,U-089,Hamilton-Prinzip,PHY,Die Einheit der Bewegungsgesetze als Minimum.,Hamilton 1834
+1_Unity,Identity,Kombinatorisch,U-090,Pigeonhole Principle,MAT,Die notwendige Kollision bei EinheitsÃ¼berhang.,Dirichlet 1834
+1_Unity,Identity,Information,U-091,Mutual Information,TEC,Die gemeinsame Einheit zweier Datenquellen.,Shannon 1948
+1_Unity,Identity,Psychologie,U-092,Selbst-Konsistenz,PSY,Die Vermeidung innerpsychischer BrÃ¼che.,Lecky 1945
+1_Unity,Identity,Soziologie,U-093,Gemeinschaft (Wir),SOC,Die organische Einheit der Bindung.,TÃ¶nnies 1887
+1_Unity,Identity,Ã–konomie,U-094,Pareto-Optimum,ECO,Die effiziente Einheit der Verteilung.,Pareto 1906
+1_Unity,Identity,Geometrie,U-095,Platonische KÃ¶rper,MAT,Die vollkommene Einheit von Form und Raum.,Platon
+1_Unity,Identity,Logik,U-096,Syllogismus (Schluss),PHI,Die zwingende Einheit von PrÃ¤misse und Konklusion.,Aristoteles
+1_Unity,Identity,Physik,U-097,Fermi-Energie,PHY,Die hÃ¶chste besetzte Einheit im Quantenbad.,Fermi 1926
+1_Unity,Identity,Informatik,U-098,AtomartÃ¤t (ACID),TEC,Die unteilbare Einheit der Transaktion.,Gray 1981
+1_Unity,Identity,Philosophie,U-099,Individuationsprinzip,PHI,Der Grund der Einheit eines Seienden.,Schopenhauer 1819
+1_Unity,Identity,TrinitÃ¤t,U-100,Absolute Unity (Rel1),PHI,Der unbewegte Beweger der trinitÃ¤ren Matrix.,TRINITY 2024
+1_Unity,Identity,Statisches Feld,U-101,E-Feld (Ladungs-Ein.),PHY,Statische Kraftwirkung ruhender Ladungen.,Coulomb 1785
+1_Unity,Identity,Statisches Feld,U-102,B-Feld (Dipol-Ein.),PHY,Statische Magnetwirkung ohne Monopol.,Biot-Savart 1820
+1_Unity,Identity,Thermodynamik,U-103,Dritter Hauptsatz,PHY,Die Einheit der Ordnung am Nullpunkt.,Nernst 1906
+1_Unity,Identity,Quantenmechanik,U-104,Identische Teilchen,PHY,Die absolute Ununterscheidbarkeit der Materie.,Pauli 1925
+1_Unity,Identity,Technisch,U-105,Synchron-Motor,TEC,Die taktgebundene Einheit der Drehung.,Tesla 1887
+1_Unity,Identity,Logik,U-106,Modus Ponens,PHI,Die grundlegende Einheit logischer Inferenz.,Euklid
+1_Unity,Identity,Mathematik,U-107,Kern (Eigenschaften),MAT,Die bewahrende Einheit algebraischer Abbildungen.,Noether 1921
+1_Unity,Identity,Biologie,U-108,PhÃ¤notyp-IdentitÃ¤t,PHY,Die manifeste Einheit der Erscheinung.,Johannsen 1909
+1_Unity,Identity,Juristisch,U-109,Verfassungskonstit.,SOC,Die rechtsschaffende Einheit des Volkes.,SieyÃ¨s 1789
+1_Unity,Identity,Konzeptuell,U-110,Relationaler Fixpunkt,PHI,Das "Hier" in der Matrix der MÃ¶glichkeiten.,TRINITY 2024
+1_Unity,Identity,Audit,U-111,Audit-Unity (R1-Check),PHY,Formale Verifikation der System-SchlieÃŸung.,GKP 2024
+1_Unity,Emergence,Dynamisch,U-223,PhasenÃ¼bergang (Ordn.),PHY,Spontane Entstehung von langreichweitiger Unity.,Landau 1937
+1_Unity,Emergence,Biologisch,U-224,Morphogenese (Form),PHY,Emergenz komplexer Gestalt aus Einzellzellen.,Turing 1952
+1_Unity,Emergence,Soziologisch,U-225,Kollektive Intelligenz,SOC,Emergenz einer Wir-Einheit aus Agenten.,Surowiecki 2004
+1_Unity,Emergence,Physikalisch,U-226,Sternentstehung (Grav.),PHY,Emergenz einer solaren Einheit aus Staub.,Jeans 1902
+1_Unity,Emergence,Information,U-227,Selbstorganisation,TEC,Ordnung aus Chaos durch lokale Interaktion.,Haken 1977
+1_Unity,Emergence,Psychologisch,U-228,Ego-Integration,PSY,Die Reifung zur stabilen PersÃ¶nlichkeits-Unity.,Erikson 1950
+1_Unity,Emergence,Technisch,U-229,Netzeffekt (Metcalfe),TEC,Wertsteigerung durch Anschluss-Einheit.,Metcalfe 1980
+1_Unity,Emergence,Ã–kologisch,U-230,Sukzession (Klimax),PHY,Emergenz stabiler Waldgemeinschaften.,Clements 1916
+1_Unity,Emergence,Chemisch,U-231,Autokatalyse (Stoffw.),PHY,Chemische Einheit als Vorstufe des Lebens.,Eigen 1971
+1_Unity,Emergence,Mathematisch,U-232,StabilitÃ¤ts-Attraktor,MAT,Emergenz von Ordnung im dynamischen System.,Lorenz 1963
+1_Unity,Emergence,Philosophisch,U-233,Hintergrundstrahlung,PHI,Die thermische Einheit des frÃ¼hen Universums.,Penzias 1965
+1_Unity,Emergence,Physikalisch,U-234,Higgs-Mechanismus,PHY,Verleihung von Masse als Einheits-Kopplung.,Higgs 1964
+1_Unity,Emergence,Politisch,U-235,Staatsbildung (Vertrag),SOC,Emergenz der SouverÃ¤nitÃ¤t aus dem Chaos.,Hobbes 1651
+1_Unity,Emergence,Kulturell,U-236,Membildung (Kultur),SOC,Die Ausbreitung einheitlicher Bedeutungseinheiten.,Dawkins 1976
+1_Unity,Emergence,EvolutionÃ¤r,U-237,MultizellularitÃ¤t,PHY,Emergenz des Metazoons als neue Einheit.,Bonner 1988
+1_Unity,Emergence,Ã–konomisch,U-238,WÃ¤hrungsunion (Euro),ECO,Institutionelle Emergenz einer Geld-Einheit.,Maastricht 1992
+1_Unity,Emergence,Digital,U-239,SingularitÃ¤t (KI),TEC,Hypothetische Emergenz einer Super-Intelligenz.,Kurzweil 2005
+1_Unity,Emergence,Kosmisch,U-240,Galaxien-Cluster,PHY,Skalare Einheit der groÃŸrÃ¤umigen Struktur.,Peebles 1980
+1_Unity,Emergence,Linguistisch,U-241,Universalgrammatik,SOC,Die angeborene Einheit menschlicher Sprache.,Chomsky 1957
+1_Unity,Emergence,Kybernetisch,U-242,HomÃ¶orhese (Pfad),PHY,Emergenz stabiler Entwicklungspfade.,Waddington 1957
+1_Unity,Emergence,Neuropsychol.,U-243,Global Workspace,PSY,Emergenz des Bewusstseins durch Vernetzung.,Baars 1988
+1_Unity,Emergence,Historisch,U-244,Archivbildung,SOC,Die dokumentarische Einheit der Geschichte.,Foucault 1969
+1_Unity,Emergence,Juristisch,U-245,Gewohnheitsrecht,SOC,Emergenz der Norm aus der gelebten Praxis.,Savigny 1814
+1_Unity,Emergence,Technisch,U-246,Smart Grid (Takt),TEC,Emergenz synchroner Energienetze.,
+1_Unity,Emergence,Mathematisch,U-247,Zentraler Grenzwerths.,MAT,Emergenz der Ordnung in groÃŸen Stichproben.,Laplace 1812
+1_Unity,Emergence,Physikalisch,U-248,Suprakristall,PHY,Emergenz von Fernordnung aus Nanoteilchen.,Gaponenko 1998
+1_Unity,Emergence,StrukturphÃ¤n.,U-249,Emergenz (R1),PHI,Das Ganze als stabilisierter Fixpunkt.,TRINITY 2024
+1_Unity,Emergence,Audit,U-250,Rel1-Update Audit,PHY,Validierung der strukturellen Reife (Unity).,GKP 2024
+1_Unity,Audit,General,UA-001,UnitaritÃ¤ts-Audit,PHY,Erhaltung der Wahrscheinlichkeits-Summe (1).,SchrÃ¶dinger 1926
+1_Unity,Audit,General,UA-002,Entropie-Audit (S),PHY,Zustand maximaler Ordnung in der Baseline (Unity).,Clausius 1865
+1_Unity,Audit,General,UA-003,Gitter-Check (Struktur),PHY,Symmetrie der atomaren Wiederholung (Unity).,Bravais 1848
+1_Unity,Audit,General,UA-004,Energie-Audit (U),PHY,Konstanz der inneren Energie im System.,Mayer 1842
+1_Unity,Audit,General,UA-005,Invarianz-PrÃ¼fung,PHY,Wahrung der Symmetrie unter Transformation.,Lorentz 1904
+1_Unity,Audit,General,UA-006,Normierung (W-keit),PHY,Zwang zur integralen Einheit (P=1).,Born 1926
+1_Unity,Audit,General,UA-007,Phasen-Audit,PHY,Periodische Konsistenz der Oszillation (Unity).,Heaviside 1893
+1_Unity,Audit,General,UA-008,Symmetrie-Bruch (B),PHY,Nachweis der Fixierung einer Orientierung.,Higgs 1964
+1_Unity,Audit,General,UA-009,Massenspektrometrie,PHY,Identifizierung der molekularen Einheit.,Thomson 1913
+1_Unity,Audit,General,UA-010,Kristall-Audit (Diff.),PHY,Struktureller Fingerabdruck der Ordnung.,Laue 1912
+1_Unity,Audit,General,UA-011,Spektral-Analyse,PHY,Charakteristische Einheit der Atomemission.,Bunsen/Kirchhoff 1859
+1_Unity,Audit,General,UA-012,Audit der Konstanz,PHY,ÃœberprÃ¼fung der Lichtgeschwindigkeit (c=1).,Michelson-Morley 1887
+1_Unity,Audit,General,UA-013,Ladungs-Audit,PHY,IntegritÃ¤t der elektrischen Bilanz.,Millikan 1909
+1_Unity,Audit,General,UA-014,Dynamik-Freeze,PHY,Arretierung des Prozesses zur Status-PrÃ¼fung.,PoincarÃ© 1905
+1_Unity,Audit,General,UA-015,Vektor-Audit (Norm),PHY,Validierung der gerichteten Einheit (Unity).,Gram-Schmidt 1883
+1_Unity,Audit,General,UA-016,PrÃ¤zisions-Fixierung,PHY,Kalibrierung auf den atomaren Standard (Meter/Zeit).,BIPM 1983
+1_Unity,Audit,General,UA-017,Referenz-Audit (Pt/Ir),PHY,Materielle Fixierung der Einheits-IdentitÃ¤t.,Paris 1889
+1_Unity,Audit,General,UA-018,Takt-Synchronisation,PHY,Zeitliche Einheit der verteilten Messung.,IEEE 1588
+1_Unity,Audit,General,UA-019,IntegritÃ¤ts-Hash,PHY,Algorithmischer Beweis der Daten-Unity.,MD5/SHA 1991
+1_Unity,Audit,General,UA-020,Checksum-Verifikation,PHY,Nachweis des fehlerfreien Datentransfers.,Hamming 1950
+1_Unity,Audit,General,UA-021,ACID-Audit (DB),PHY,Garantie der unteilbaren Datensatz-Einheit.,Gray 1981
+1_Unity,Audit,General,UA-022,Zertifikats-Audit,PHY,Beglaubigung der digitalen IdentitÃ¤t.,X.509 1988
+1_Unity,Audit,General,UA-023,IdentitÃ¤ts-Management,PHY,Verwaltung der Benutzer-Unity (Auth/N).,OIDC 2014
+1_Unity,Audit,General,UA-024,Regelkreis-Audit,PHY,StabilitÃ¤t der Zielwert-Fixierung (Unity).,Nyquist 1932
+1_Unity,Audit,General,UA-025,Poka-Yoke Check,PHY,Mechanische Erzwingung der Korrektheit (Unity).,Shingo 1961
+1_Unity,Audit,General,UA-026,Six Sigma Quality,PHY,Statistisches Audit der Fehlerfreiheit.,Smith 1986
+1_Unity,Audit,General,UA-027,Gleichgewichts-Audit,PHY,Fixierung des Marktes/Systems (Fixpunkt).,Nash 1950
+1_Unity,Audit,General,UA-028,Bilanzen-IntegritÃ¤t,PHY,Finanzielle Ãœbereinstimmung (Unity-SÃ¤ule).,GAAP/IFRS
+1_Unity,Audit,General,UA-029,Vertrags-Audit,PHY,Rechtliche SchlieÃŸung des Konsenses (Unity).,Pacta sunt servanda
+1_Unity,Audit,General,UA-030,Compliance-Verif.,PHY,Wahrung der gesetzlichen IdentitÃ¤t.,Sarbanes-Oxley 2002
+1_Unity,Audit,General,UA-031,Norm-Audit (ISO 9001),PHY,Standardisierte Prozess-Einheit.,ISO 1987
+1_Unity,Audit,General,UA-032,Methoden-Validierung,PHY,Wahrung der Erkenntnis-Einheit.,Popper 1934
+1_Unity,Audit,General,UA-033,Reproduzierbark.-Chk,PHY,Garantie der identischen Wiederholung.,Bacon 1620
+1_Unity,Audit,General,UA-034,Peer-Review Audit,PHY,Korrektiv der wissenschaftlichen Unity.,
+1_Unity,Audit,General,UA-035,Ethik-Audit,PHY,Wahrung der moralischen Einheit.,Kant 1785
+1_Unity,Audit,General,UA-036,Anthropisches Audit,PHY,Einhaltung der Feinabstimmungswerte (1).,Barrow/Tipler 1986
+1_Unity,Audit,General,UA-037,Kosmologisches Audit,PHY,Wahrung der Isotropie/HomogenitÃ¤t (Unity).,Planck Mission 2013
+1_Unity,Audit,General,UA-038,RelativitÃ¤ts-Audit,PHY,BestÃ¤tigung der Lorentz-Symmetrie.,Einstein 1905
+1_Unity,Audit,General,UA-039,Symmetrie-Audit,PHY,ÃœberprÃ¼fung der Invarianzgesetze.,Noether 1918
+1_Unity,Audit,General,UA-040,Audit der Statik,PHY,GewÃ¤hrleistung der Last-Bilanz (Summe F=0).,Newton 1687
+1_Unity,Audit,General,UA-041,StabilitÃ¤ts-Audit,PHY,PrÃ¼fung auf Zusammenbruch-Resistenz.,Lyapunov 1892
+1_Unity,Audit,General,UA-042,Resonanz-Check (Fix),PHY,Wahrung des stabilen Schwingungszentrums.,Helmholtz 1863
+1_Unity,Audit,General,UA-043,DÃ¤mpfungs-Audit,PHY,Verhinderung von Divergenz (Unity-Kontrolle).,Nyquist 1932
+1_Unity,Audit,General,UA-044,Audit der Form (H0),PHY,Garantie der strukturellen Reinheit (Rel1).,GKP 2024
+1_Unity,Audit,General,UA-045,KohÃ¤renz-Audit (Phase),PHY,Sicherung der einheitlichen Wellenfront.,Townes 1954
+1_Unity,Audit,General,UA-046,DNA-Sequenz Audit,PHY,Fehlerfreie Kopie der Lebens-Einheit.,Sanger 1977
+1_Unity,Audit,General,UA-047,Epigenetik-Audit,PHY,Wahrung des stabilen PhÃ¤notyps.,Waddington 1942
+1_Unity,Audit,General,UA-048,Gewebe-Audit (Typ),PHY,Funktionale Einheit von ZellverbÃ¤nden.,Virchow 1858
+1_Unity,Audit,General,UA-049,Organkraft-Audit,PHY,Garantie der systemischen Gesundheit.,Bernard 1865
+1_Unity,Audit,General,UA-050,Unity-Abschluss (Sum),PHY,Finale Fusion der Einzelnachweise zur 1.,TRINITY 2024
+1_Unity,Audit,General,UA-051,RelationalitÃ¤t-Gap,PHY,Verlust der Einheit durch radikale Individuation,Habermas 1981
+1_Unity,Audit,General,UA-052,Entkopplung-Check,PHY,Bruch der System-Unity durch Autonomie-Exzess,Luhmann 1984
+1_Unity,Audit,General,UA-053,Signal-Rausch-Audit,PHY,Verlust der Informations-Unity im Medium,Shannon 1948
+1_Unity,Audit,General,UA-054,FragilitÃ¤ts-Audit,PHY,Zerbrechlichkeit starrer Einheitsstrukturen,Taleb 2012
+1_Unity,Audit,General,UA-055,S-Gleichungs Audit,PHY,Wahrung der statistischen Symmetrie (Rel1),SchrÃ¶dinger 1926
+1_Unity,Audit,General,UA-060,Rel1-Impact (Bio),PHY,ZellulÃ¤res Fixpunkt-Modell der Membran,Singer/Nicolson 1972
+1_Unity,Audit,General,UA-065,Rel1-Expansion Audit,PHY,StabilitÃ¤t im expandierenden Universum,Guth 1981
+1_Unity,Audit,General,UA-070,Code-Unity Audit,PHY,Invarianz des Algorithmus (Kompilierung),Hoare 1969
+1_Unity,Audit,General,UA-075,Markt-Statik Check,PHY,StabilitÃ¤t des Fixpreis-Gleichgewichts,Walras 1874
+1_Unity,Audit,General,UA-080,Konstanz-Audit (G),PHY,Messung der universellen Bindungskraft,Cavendish 1798
+1_Unity,Audit,General,UA-085,Masse-Fixierung (kg),PHY,VerschrÃ¤nkung mit der Planck-Konstante,BIPM 2019
+1_Unity,Audit,General,UA-090,LÃ¤ngennorm-Check (m),PHY,Lichtweg-Einheit als physischer Anker,BIPM 1983
+1_Unity,Audit,General,UA-095,Zeit-Norm (Sekunde),PHY,Taktung der CÃ¤sium-Hyperfeinstruktur,BIPM 1967
+1_Unity,Audit,General,UA-100,Die GroÃŸe SchlieÃŸung,PHY,Der terminale Audit der totalen System-Unity (R1).,TRINITY 2024
+2_Loop,Baseline,Dynamisch,L-112,Konjunkturzyklus,ECO,Das periodische Auf und Ab der Wirtschaftslage.,Juglar 1862
+2_Loop,Baseline,Physikalisch,L-113,Carnot-Prozess,PHY,Der ideale Kreisprozess der Thermodynamik.,Carnot 1824
+2_Loop,Baseline,Physikalisch,L-114,Hystereseschleife,PHY,Die verzÃ¶gerte RÃ¼ckkehr in den Ausgangszustand.,Warburg 1881
+2_Loop,Baseline,Dynamisch,L-115,Feedback-Loop (Positiv),TEC,SelbstverstÃ¤rkende RÃ¼ckkopplung (Eskalation).,Wiener 1948
+2_Loop,Baseline,Dynamisch,L-116,Feedback-Loop (Negativ),TEC,Selbstregulierende RÃ¼ckkopplung (Stabilisierung).,Wiener 1948
+2_Loop,Baseline,Dynamisch,L-117,Rekursions-Schleife,MAT,Die Definition einer Funktion durch sich selbst.,Hilbert 1891
+2_Loop,Baseline,Dynamisch,L-118,Oszillations-Takt,PHY,Die regelmÃ¤ÃŸige Wiederkehr eines Zustands.,Huygens 1665
+2_Loop,Baseline,Dynamisch,L-119,Grenzzyklus (Attraktor),MAT,Ein stabiler Orbit in dynamischen Systemen.,PoincarÃ© 1881
+2_Loop,Baseline,Dynamisch,L-120,Chaos-Turbulenz,MAT,Unvorhersehbare Dynamik bei hoher SensitivitÃ¤t.,Lorenz 1963
+2_Loop,Baseline,Physisch,L-121,Wasserkreislauf,PHY,Der globale Austausch von Wasserphasen.,Perrault 1674
+2_Loop,Baseline,Biologisch,L-122,Kohlenstoff-Zyklus,PHY,Der Austausch von CO2 zwischen BiosphÃ¤re/Atm.,Lavoisier 1789
+2_Loop,Baseline,Biologisch,L-123,Stickstoff-Kreislauf,PHY,Umwandlung von Stickstoff in biologische Formen.,Liebig 1840
+2_Loop,Baseline,Biologisch,L-124,Zellzyklus (Mitose),PHY,Die periodische Teilung lebender Zellen.,Flemming 1882
+2_Loop,Baseline,Biologisch,L-125,Metabolismus-Schutz,PHY,Die fortlaufende Erneuerung der Lebensenergie.,Bernard 1865
+2_Loop,Baseline,Biologisch,L-126,Tagesrhythmik (Circ.),PHY,Die innere Uhr biologischer Systeme.,Aschoff 1951
+2_Loop,Baseline,Biologisch,L-127,Menstruationszyklus,PHY,Die hormonelle Periodik der Fruchtbarkeit.,
+2_Loop,Baseline,Biologisch,L-128,Schlaf-Wach-Zyklus,PHY,Die neuronale Oszillation der Regeneration.,
+2_Loop,Baseline,Biologisch,L-129,RÃ¤uber-Beute-Zyklus,PHY,Die zyklische Dynamik von Populationen.,Lotka 1925
+2_Loop,Baseline,Geologisch,L-130,Gesteinskreislauf,PHY,Die Transformation von Sediment/Magma/Metamorph.,Hutton 1785
+2_Loop,Baseline,Astronomisch,L-131,Planetenumlaufbahn,PHY,Die elliptische SchlieÃŸung der Bewegung.,Kepler 1609
+2_Loop,Baseline,Astronomisch,L-132,Sonnenfleckenzyklus,PHY,Die elfjÃ¤hrige Periodik solarer AktivitÃ¤t.,Schwabe 1843
+2_Loop,Baseline,Astronomisch,L-133,PrÃ¤zessionszyklus,PHY,Die Kreiselbewegung der Erdachse (26k J.).,Hipparchos
+2_Loop,Baseline,Astronomisch,L-134,MilankoviÄ‡-Zyklen,PHY,Astronomische Trigger der Eiszeiten.,MilankoviÄ‡ 1920
+2_Loop,Baseline,Physisch,L-135,MeeresstrÃ¶mung (Loop),PHY,Der globale thermohaline Kreislauf.,Rumford 1800
+2_Loop,Baseline,Meteorol.,L-136,Hadley-Zelle (Zirk.),PHY,Der atmosphÃ¤rische WÃ¤rmetransport-Loop.,Hadley 1735
+2_Loop,Baseline,Meteorol.,L-137,El NiÃ±o Southern Osc.,PHY,Die unregelmÃ¤ÃŸige Oszillation im Pazifik.,Walker 1923
+2_Loop,Baseline,Technisch,L-138,Verbrennungs-Takt,TEC,Die zyklische Energieumwandlung (Otto/Diesel).,Otto 1876
+2_Loop,Baseline,Technisch,L-139,KÃ¼hlmittelkreislauf,TEC,Die Abfuhr von Entropie aus dem Prozess.,
+2_Loop,Baseline,Technisch,L-140,Prozess-Scheduler,TEC,Die zyklische Zuweisung von CPU-Zeit.,
+2_Loop,Baseline,Technisch,L-141,Event-Loop (Runtime),TEC,Das HerzstÃ¼ck asynchroner Software.,
+2_Loop,Baseline,Technisch,L-142,Watchdog-Timer,TEC,Der zyklische Check der System-VitalitÃ¤t.,
+2_Loop,Baseline,Technisch,L-143,Schaltkreis-Feedback,TEC,Die elektronische Stabilisierung (OP-AMP).,Black 1927
+2_Loop,Baseline,Mathematisch,L-144,Fourier-Transformation,MAT,Die Zerlegung von Loops in Frequenzen.,Fourier 1822
+2_Loop,Baseline,Mathematisch,L-145,Laplace-Operator,MAT,Die Dynamik des Feldes am Prozesspunkt.,Laplace 1785
+2_Loop,Baseline,Mathematisch,L-146,Differentialgleichung,MAT,Die Sprache der VerÃ¤nderung Ã¼ber die Zeit.,Leibniz 1684
+2_Loop,Baseline,Informatik,L-147,Schleifen-Invariante,TEC,Das BestÃ¤ndige inmitten der Wiederholung.,Hoare 1969
+2_Loop,Baseline,Informatik,L-148,Deadlock (Cycle),TEC,Der tÃ¶dliche Loop der Ressourcen-Sperre.,Coffman 1971
+2_Loop,Baseline,Psychol.,L-149,Lernschleife (Double),PSY,Lernen Ã¼ber das Lernen (Reflexion).,Argyris 1978
+2_Loop,Baseline,Psychol.,L-150,Hamsterrad-Effekt,PSY,Zyklische Bewegung ohne Fortschritt.,
+2_Loop,Baseline,Psychol.,L-151,Trauma-Reaktualis.,PSY,Der schmerzhafte Loop der Erinnerung.,Freud 1920
+2_Loop,Baseline,Soziol.,L-152,Modewellen (Trend),SOC,Die zyklische Erneuerung des Geschmacks.,Simmel 1905
+2_Loop,Baseline,Soziol.,L-153,Generationen-Zyklus,SOC,Die Erneuerung der Gesellschaft (Abfolge).,Mannheim 1928
+2_Loop,Baseline,Soziol.,L-154,Krieg-Frieden-Zyklus,SOC,Die historische Pendelbewegung der Gewalt.,Kant 1795
+2_Loop,Baseline,Soziol.,L-155,Wahlzyklus (Demok.),SOC,Die periodische Legitimation der Macht.,
+2_Loop,Baseline,Ã–konomie,L-156,Kondratjew-Wellen,ECO,Langfristige Innovationszyklen (50 J.).,Kondratjew 1926
+2_Loop,Baseline,Ã–konomie,L-157,Kuznets-Zyklus,ECO,Investitionszyklen in Infrastruktur.,Kuznets 1930
+2_Loop,Baseline,Ã–konomie,L-158,Bull/Bear Cycle,ECO,Die psychologische Dynamik der MÃ¤rkte.,
+2_Loop,Baseline,Management,L-159,Deming-Kreis (PDCA),ECO,Die zyklische QualitÃ¤tsverbesserung.,Deming 1950
+2_Loop,Baseline,Management,L-160,Supply Chain Loop,ECO,Die Kreislaufwirtschaft der Logistik.,
+2_Loop,Baseline,Sprachlich,L-161,Hermeneut. Zirkel,PHI,Das Verstehen des Ganzen aus dem Teil.,Dilthey 1900
+2_Loop,Baseline,Sprachlich,L-162,Rekursion (Syntax),SOC,Die Unendlichkeit der Sprache (Chomsky).,Chomsky 1957
+2_Loop,Baseline,Historisch,L-163,Vicos Weltlauf,PHI,Die zyklische Geschichte (corsi e ricorsi).,Vico 1725
+2_Loop,Baseline,Philosophisch,L-164,Ewige Wiederkunft,PHI,Die radikale Bejahung des Zyklischen.,Nietzsche 1882
+2_Loop,Baseline,Mythologisch,L-165,Ouroboros (Schlange),PHI,Das Symbol der ewigen Erneuerung.,
+2_Loop,Baseline,Mathematisch,L-166,Hilbert-Kurve (Space),MAT,Der Raum-fÃ¼llende rekursive Loop.,Hilbert 1891
+2_Loop,Baseline,Mathematisch,L-167,Benoit-Punkt (Frakt.),MAT,Der Prozess-Generator der SelbstÃ¤hnlichkeit.,Mandelbrot 1975
+2_Loop,Baseline,Physikalisch,L-168,Wilson-Loop (Gauge),PHY,Das MaÃŸ der KrÃ¼mmung im Eichfeld.,Wilson 1974
+2_Loop,Baseline,Physikalisch,L-169,PoincarÃ©-Schnitt,PHY,Die Reduktion der Dynamik auf den DurchstoÃŸ.,PoincarÃ© 1892
+2_Loop,Baseline,Technisch,L-170,Agile Sprint Loop,TEC,Die iterative Entwicklung von Software.,Schwaber 2001
+2_Loop,Baseline,Technisch,L-171,CI/CD Pipeline,TEC,Der zyklische Prozess der Integration.,Humble 2010
+2_Loop,Baseline,Technisch,L-172,A/B Testing Cycle,TEC,Die iterative Marktanpassung.,
+2_Loop,Baseline,Technisch,L-173,Design Thinking Loop,TEC,Die zyklische ProblemlÃ¶sung.,Brown 2008
+2_Loop,Baseline,Systemisch,L-174,Cybernetic Loop,TEC,Die Steuerung durch RÃ¼ckkopplung.,Wiener 1948
+2_Loop,Baseline,Systemisch,L-175,Autopoiese (Matur.),SOC,Die operative SchlieÃŸung des Systems.,Maturana 1972
+2_Loop,Baseline,Systemisch,L-176,Selbstreferenz (Luh.),SOC,Die IdentitÃ¤tsbildung durch Kommunikation.,Luhmann 1984
+2_Loop,Identity,Funktional,L-001,Rekursiver Operator,MAT,Die Funktion, die sich selbst aufruft.,Church 1936
+2_Loop,Identity,Strukturell,L-002,Zyklische Gruppe (Cn),MAT,Symmetrie der periodischen Drehung.,Gauss 1801
+2_Loop,Identity,Strukturell,L-003,Hamilton-Pfad,MAT,Ein Pfad, der jeden Knoten genau einmal besucht.,Hamilton 1856
+2_Loop,Identity,Strukturell,L-004,Euler-Tour,MAT,Ein geschlossener Weg Ã¼ber alle Kanten.,Euler 1736
+2_Loop,Identity,Funktional,L-005,Strange Loop (I am),PHI,Selbstreferenz als Ursprung des Ich.,Hofstadter 1979
+2_Loop,Identity,Funktional,L-006,Quine (Code),TEC,Ein Programm, das seinen Quellcode ausgibt.,Quine 1951
+2_Loop,Identity,Logisch,L-007,LÃ¼gner-Paradoxon,PHI,Satz: Dieser Satz ist falsch (Logik-Loop).,Epimenides
+2_Loop,Identity,Topologisch,L-008,MÃ¶biusband,MAT,Die einseitige FlÃ¤che der Unendlichkeit.,Listing 1858
+2_Loop,Identity,Topologisch,L-009,Kleinsche Flasche,MAT,Der geschlossene Raum ohne Innen/AuÃŸen.,Klein 1882
+2_Loop,Identity,Topologisch,L-010,Knotentheorie (Basis),MAT,Die Klassifikation verschlungener Schleifen.,Lord Kelvin 1867
+2_Loop,Identity,Strukturell,L-011,Fraktaler Attraktor,MAT,Die unendliche Detailtiefe im Grenzprozess.,Lorenz 1963
+2_Loop,Identity,Strukturell,L-012,Bernoulli-Prozess,MAT,Die unendliche Folge unabhÃ¤ngiger Versuche.,Bernoulli 1713
+2_Loop,Identity,Funktional,L-013,Map-Reduce Loop,TEC,Die parallele Verarbeitung groÃŸer Daten.,Google 2004
+2_Loop,Identity,Strukturell,L-014,Syntaktischer Baum,SOC,Die hierarchische Tiefe der Rekursion.,Chomsky 1957
+2_Loop,Identity,Funktional,L-015,Turing-Maschine Loop,TEC,Die Endlosschleife des Halteproblems.,Turing 1936
+2_Loop,Identity,Physikalisch,L-016,Vakuum-Polarisation,PHY,Der kurzzeitige Loop von Teilchengeburten.,Dirac 1934
+2_Loop,Identity,Physikalisch,L-017,Feynman-Diagramm Loo,PHY,Korrekturen hÃ¶herer Ordnung im Quantenfeld.,Feynman 1948
+2_Loop,Identity,Physikalisch,L-018,Ringbeschleuniger,PHY,Der technologische Loop zur Materie-Sondierung.,Lawrence 1932
+2_Loop,Identity,Physikalisch,L-019,Zyklotron-Resonanz,PHY,Die Kopplung von Feld und Umlauf.,Lawrence 1930
+2_Loop,Identity,Physikalisch,L-020,Tokamak (Plasma),PHY,Der magnetische Loop zur Fusion.,Sacharow 1950
+2_Loop,Identity,Astronomisch,L-021,Saturnringe (Loop),PHY,Staub-Resonanz im Fokus der Gravitation.,Cassini 1675
+2_Loop,Identity,Astronomisch,L-022,BinÃ¤rstern-Orbit,PHY,Der gravitationelle Tanz zweier Sonnen.,Herschel 1802
+2_Loop,Identity,Dynamisch,L-023,Oszillierender Stern,PHY,Periodische Helligkeitsschwankung (Cepheiden).,Leavitt 1908
+2_Loop,Identity,Biologisch,L-024,Calvin-Zyklus,PHY,Die biochemische SchlieÃŸung der Kohlefixierung.,Calvin 1950
+2_Loop,Identity,Biologisch,L-025,Krebs-Zyklus (Zitron.),PHY,Der energetische Kern der Zellatmung.,Krebs 1937
+2_Loop,Identity,Biologisch,L-026,Harnstoff-Zyklus,PHY,Die Entgiftungs-Schleife der Leber.,Krebs/Henseleit 1932
+2_Loop,Identity,Biologisch,L-027,Bakterielle Spaltung,PHY,Der unendliche Loop der Zell-IdentitÃ¤t.,
+2_Loop,Identity,Biologisch,L-028,Mykorrhiza-Netz,PHY,Der symbiotische Austausch-Loop.,Frank 1885
+2_Loop,Identity,Neurobiol.,L-029,Alpha-Wellen (Takt),PHY,Die Grund-Oszillation des entspannten Gehirns.,Berger 1924
+2_Loop,Identity,Neurobiol.,L-030,Efferenzkopie (Loop),PHY,Die interne RÃ¼ckmeldung der Handlung.,Holst 1950
+2_Loop,Identity,Neurobiol.,L-031,Theta-Oszillation,PHY,Der Takt der GedÃ¤chtnis-Konsolidierung.,
+2_Loop,Identity,Psychol.,L-032,Operante Kondit.,PSY,Der Loop aus Handlung und VerstÃ¤rkung.,Skinner 1938
+2_Loop,Identity,Psychol.,L-033,Flow-Stabilisierung,PSY,Der dynamische Ausgleich von Skill/Challenge.,Csikszentmihalyi 1975
+2_Loop,Identity,Soziol.,L-034,Kommunikative Schleife,SOC,Sinnbildung durch wechselseitigen Bezug.,Luhmann 1984
+2_Loop,Identity,Soziol.,L-035,Symbolischer Interakt.,SOC,Der Loop der Bedeutungskonstruktion.,Blumer 1937
+2_Loop,Identity,Soziol.,L-036,Ritual-Zyklus,SOC,Die zyklische BestÃ¤tigung der Gruppe.,Durkheim 1912
+2_Loop,Identity,Politisch,L-037,Checks and Balances,SOC,Der institutionelle Loop der Kontrolle.,Madison 1788
+2_Loop,Identity,Ã–konomie,L-038,Multiplikator-Effekt,ECO,Der Ã¶konomische Loop der WertschÃ¶pfung.,Keynes 1936
+2_Loop,Identity,Ã–konomie,L-039,Preis-Lohn-Spirale,ECO,Der inflationÃ¤re RÃ¼ckkopplungs-Loo.,
+2_Loop,Identity,Management,L-040,Agile Retrospektive,ECO,Der Loop der Prozess-Selbstbeobachtung.,Schwaber 2001
+2_Loop,Identity,Information,L-041,CRC-Check (Cycle),TEC,Mathematische SchlieÃŸung zur FehlerprÃ¼fung.,Peterson 1961
+2_Loop,Identity,Information,L-042,Ringpuffer (Daten),TEC,Das endlose Daten-Reservoir im RAM.,
+2_Loop,Identity,Technisch,L-043,PLL (Phase Locked L.),TEC,Die elektronische Synchronisation.,de Bellescize 1932
+2_Loop,Identity,Philosophisch,L-044,Dialektische Aufheb.,PHI,Der Loop von These, Antithese, Synthese.,Hegel 1807
+2_Loop,Identity,Philosophisch,L-045,Metaphysischer Loop,PHI,Die Frage nach dem Grund des Grundes.,Leibniz 1714
+2_Loop,Identity,Historisch,L-046,Generationen-Echo,SOC,Die Wiederkehr historischer Themen.,Strauss/Howe 1991
+2_Loop,Identity,Audit,L-047,Loop-Validierung,PHY,Sicherung der prozessualen IntegritÃ¤t.,GKP 2024
+2_Loop,Identity,Audit,L-048,Takt-PrÃ¤zision,PHY,Messung der Jitter-Freiheit (SynchronitÃ¤t).,IEEE 1588
+2_Loop,Identity,Audit,L-049,Zyklus-StabilitÃ¤t,PHY,Nachweis der Konvergenz im Prozess.,Lyapunov 1892
+2_Loop,Identity,Audit,L-050,RelLoop-Proof,PHY,Formale SchlieÃŸung der Prozess-IdentitÃ¤t.,TRINITY 2024
+2_Loop,Identity,Physik,L-051,MeiÃŸner-Effekt Loop,PHY,Induzierte StrÃ¶me zur Feld-VerdrÃ¤ngung.,MeiÃŸner/Ochsenfeld 1933
+2_Loop,Identity,Astronomie,L-052,Lagrange-Punkte,PHY,Stabile Gleichgewichts-Loops im Orbit.,Lagrange 1772
+2_Loop,Identity,Chemie,L-053,Benzol-Ring (KekulÃ©),PHY,Der geschlossene Loop der Ï€-Elektronen.,KekulÃ© 1865
+2_Loop,Identity,Biologie,L-054,Ã–strogen-Feedback,PHY,Der neuronale Loop der Menopause/PubertÃ¤t.,
+2_Loop,Identity,Informatik,L-055,Spanning Tree Proto,TEC,Vermeidung von Loops im Netz-Gitter.,Radia Perlman 1985
+2_Loop,Identity,Logik,L-056,Tautologie-Check,MAT,Die automatische Verifikation der IdentitÃ¤t.,Robinson 1965
+2_Loop,Identity,Mathematik,L-057,Zeta-Funktion Nullst.,MAT,Die rhythmische Ordnung der Primzahlen.,Riemann 1859
+2_Loop,Identity,Musik,L-058,Kanon (StimmfÃ¼hrung),MUS,Die zeitlich versetzte SelbstÃ¤hnlichkeit.,Bach (OfA)
+2_Loop,Identity,Kunst,L-059,Escher-Metamorphose,ART,Der visuelle Loop der Transformation.,Escher 1937
+2_Loop,Identity,Soziologie,L-060,Giddens' Strukturier.,SOC,DualitÃ¤t von Handeln und Struktur (Loop).,Giddens 1984
+2_Loop,Identity,Physik,L-061,Hamilton-Pfad (Phys),MAT,Minimale Wirkung im Phasenraum.,Hamilton 1834
+2_Loop,Identity,Informatik,L-062,Backpropagation,TEC,Der Fehler-Loop zur Gewichtsanpassung.,Rumelhart 1986
+2_Loop,Identity,Ã–konomie,L-063,ZirkulÃ¤rer Fluss,ECO,Geld/Waren-Loop zwischen Haushalt/Firma.,Quesnay 1758
+2_Loop,Identity,Philosophie,L-064,Hermeneutik (Kreis),PHI,Verstehen als unendlicher Prozess.,Gadamer 1960
+2_Loop,Identity,Geometrie,L-065,Cycloid-Bahn,MAT,Die Rollbewegung des Punktes (Loop).,Huygens 1673
+2_Loop,Identity,Physik,L-066,Synchrotron-Strahl.,PHY,Energieverlust im Loop der Ladung.,Elder 1947
+2_Loop,Identity,Klimatologie,L-067,Albedo-Feedback,PHY,Der Eis-Reflexions-Loop der ErwÃ¤rmung.,
+2_Loop,Identity,Medizin,L-068,Barorezeptor-Reflex,PHY,Der neuronale Blutdruck-Regelkreis.,Hering 1923
+2_Loop,Identity,Technik,L-069,Schrittmotor-Takt,TEC,PrÃ¤zise WinkelschlieÃŸung durch Pulse.,
+2_Loop,Identity,Logik,L-070,Fixpunktsatz (Kleene),MAT,Rekursive AufzÃ¤hlbarkeit als Fixpunkt.,Kleene 1938
+2_Loop,Identity,Informatik,L-071,Y-Combinator,TEC,Der anonyme Rekursions-Operator.,Curry 1958
+2_Loop,Identity,Physik,L-072,Larmor-PrÃ¤zession,PHY,Der Spin-Loop im Magnetfeld.,Larmor 1897
+2_Loop,Identity,Chemie,L-073,Belousov-Zhabotinsky,PHY,Die chemische Uhr jenseits des Gleichgewichts.,Belousov 1951
+2_Loop,Identity,Biologie,L-074,Quorum Sensing,PHY,Der kollektive Feedback-Loop der Bakterien.,Hastings 1970
+2_Loop,Identity,Psychologie,L-075,SelbstbestÃ¤tigung,PSY,Der kognitive Loop der Vorurteilspflege.,
+2_Loop,Identity,Soziologie,L-076,Labeling Approach,SOC,Die Konstruktion der Devianz (Loop).,Becker 1963
+2_Loop,Identity,Recht,L-077,Rechtsprechung (Case),SOC,Die Evolution der Norm durch Anwendung.,Llewellyn 1930
+2_Loop,Identity,Ã–konomie,L-078,Zinseszinseffekt,ECO,Der exponentielle Loop des Kapitals.,Fibonacci 1202
+2_Loop,Identity,Musik,L-079,Sample-Loop,MUS,Die rhythmische Baseline moderner Musik.,Grandmaster Flash
+2_Loop,Identity,Physik,L-080,Aharonov-Bohm Loop,PHY,Phasenverschiebung im feldfreien Raum.,Aharonov 1959
+2_Loop,Identity,Informatik,L-081,Self-Hosting Compil.,TEC,Ein Werkzeug, das sich selbst erzeugt.,Thompson 1984
+2_Loop,Identity,Mathematik,L-082,Mandelbrot-Iteration,MAT,z = zÂ² + c (Der ultimative Loop).,Mandelbrot 1980
+2_Loop,Identity,Physik,L-083,Josephson-Oszill.,PHY,Der Quanten-Loop im Tunnelkontakt.,Josephson 1962
+2_Loop,Identity,Biologie,L-034,Hox-Gen Kaskade,PHY,Der morphogenetische Regel-Loop.,Lewis 1978
+2_Loop,Identity,Neurophys.,L-085,Synaptische Plastiz.,PHY,Der Loop: "Neurons that fire together...",Hebb 1949
+2_Loop,Identity,Physik,L-086,Chern-Simons Loop,PHY,Topologische Quantenfeldtheorie im Loop.,Witten 1989
+2_Loop,Identity,Kosmologie,L-087,Cosmic String Loop,PHY,Topologische Defekte des frÃ¼hen Alls.,Kibble 1976
+2_Loop,Identity,Mathematik,L-088,Jordan-Kurve,MAT,Die Trennung von Innen und AuÃŸen (Unity).,Jordan 1887
+2_Loop,Identity,Technik,L-089,Flywheel-Energiesp.,TEC,Der mechanische Loop der TrÃ¤gheit.,
+2_Loop,Identity,Soziologie,L-090,GlÃ¤serne Decke,SOC,Der unsichtbare Loop der Ausgrenzung.,Morrison 1987
+2_Loop,Identity,Informatik,L-091,Garbage Collection,TEC,Der zyklische Reset wertloser Speicher.,McCarthy 1959
+2_Loop,Identity,Physik,L-092,Landau-Niveaus,PHY,Die Loop-Quantisierung im Magnetfeld.,Landau 1930
+2_Loop,Identity,Chemie,L-093,Haber-Bosch Loop,PHY,Die zyklische Fixierung von Ammoniak.,Haber 1909
+2_Loop,Identity,Biologie,L-094,Apoptose-Check,PHY,Der regulatorische Loop zum Zelltod.,Kerr 1972
+2_Loop,Identity,Psychologie,L-095,Trauerphasen-Loop,PSY,Der dynamische Prozess der Heilung.,KÃ¼bler-Ross 1969
+2_Loop,Identity,Ã–konomie,L-096,Venture Capital Loop,ECO,Vom Start-up zum Exit und zurÃ¼ck.,
+2_Loop,Identity,Informatik,L-097,Finite State Machine,TEC,Die Zustands-Logik im Loop-Gitter.,Mealy 1955
+2_Loop,Identity,Logik,L-098,Resolution (Loop),MAT,Der Beweis-Loop durch Widerspruch.,Robinson 1965
+2_Loop,Identity,Philosophie,L-099,Infinite Regress,PHI,Die Warnung vor dem unendlichen Loop.,Aristoteles
+2_Loop,Identity,TrinitÃ¤t,L-100,Universal Loop (RL),PHI,Die operative Verbindung von Allem und Nichts.,TRINITY 2024
+2_Loop,Identity,Physik,L-101,Vortex-IdentitÃ¤t,PHY,StabilitÃ¤t durch rotierende StrÃ¶mung.,Helmholtz 1858
+2_Loop,Identity,Meteorologie,L-102,Zyklon-Zentrum,PHY,Die Ruhe im Auge des Sturms (Null/Unity).,
+2_Loop,Identity,Technik,L-103,Turbinen-Schaufel,TEC,Die zyklische Impuls-Ãœbertragung.,Parsons 1884
+2_Loop,Identity,Biologie,L-104,Blutkreislauf,PHY,Der fundamentale Transport-Loop.,Harvey 1628
+2_Loop,Identity,Informatik,L-105,Rekursiver Abstieg,TEC,Die Zerlegung von Sprache im Loop.,Knuth 1971
+2_Loop,Identity,Logik,L-106,Modus Tollens,PHI,Die rÃ¼ckschlieÃŸende Logik im Loop.,
+2_Loop,Identity,Mathematik,L-107,Loop-Raum (Î©X),MAT,Der Raum aller Schleifen auf einem Objekt.,Milnor 1956
+2_Loop,Identity,Physik,L-108,Phononen-Gitter,PHY,Die kollektive Oszillation der Atome.,Einstein 1907
+2_Loop,Identity,Soziologie,L-109,Rollenerwartung,SOC,Der Loop aus Performanz und BestÃ¤tigung.,Parsons 1951
+2_Loop,Identity,PhÃ¤nomenol.,L-110,Relationaler Loop,PHI,Die Verbindung zwischen Ursprung und Form.,TRINITY 2024
+2_Loop,Identity,Audit,L-111,Audit-Loop (RL-Chk),PHY,Verifikation der prozessualen KausalitÃ¤t.,GKP 2024
+2_Loop,Emergence,Dynamisch,L-223,Synchronisation,PHY,Spontane Ordnung von Oszillatoren.,Strogatz 2003
+2_Loop,Emergence,Biologisch,L-224,Physiolog. Rhythmus,PHY,Emergenz von Leben durch Taktung.,Wiener 1948
+2_Loop,Emergence,Soziologisch,L-225,Schwarm-Intelligenz,SOC,Emergenz globaler Muster aus lokalen Loops.,Reynolds 1987
+2_Loop,Emergence,Kosmologisch,L-226,Galaxien-Rotation,PHY,Emergenz der Spirale durch Dreh-Loop.,Hubble 1926
+2_Loop,Emergence,Information,L-227,Maschinelles Lernen,TEC,Emergenz von Wissen durch Feedback-Loops.,LeCun 2015
+2_Loop,Emergence,Psychologisch,L-228,Einsicht (Reflexion),PSY,Emergenz von Sinn durch Denk-Loops.,Kohlberg 1958
+2_Loop,Emergence,Technisch,L-229,Regelungstechnik,TEC,Emergenz von StabilitÃ¤t durch Control-Loops.,Black 1934
+2_Loop,Emergence,Ã–kologisch,L-230,Trophische Kaskade,PHY,Emergenz von Balance durch Fress-Loops.,Paine 1966
+2_Loop,Emergence,Chemisch,L-231,Oszillierende Reakt.,PHY,Emergenz von Zeitstrukturen in der Chemie.,Zhabotinsky 1964
+2_Loop,Emergence,Mathematisch,L-232,StabilitÃ¤ts-Inseln,MAT,Emergenz von Ordnung im Chaos-Prozess.,KAM-Theory 1954
+2_Loop,Emergence,Physikalisch,L-233,Supraleitung (Loop),PHY,Emergenz verlustfreier StrÃ¶me.,BCS 1957
+2_Loop,Emergence,EvolutionÃ¤r,L-234,Hypertrophe Loops,PHY,Emergenz von KomplexitÃ¤t durch WettrÃ¼sten.,Dawkins 1982
+2_Loop,Emergence,Politisch,L-235,Macht-Rotation,SOC,Emergenz stabiler Demokratien durch Zyklen.,
+2_Loop,Emergence,Kulturell,L-236,Traditions-Loop,SOC,Emergenz von IdentitÃ¤t durch Wiederholung.,Shils 1981
+2_Loop,Emergence,Technisch,L-237,Edge Computing Loop,TEC,Emergenz lokaler Intelligenz im Gitter.,
+2_Loop,Emergence,Historisch,L-238,Epochenwechsel,SOC,Emergenz des Neuen aus krisenhaften Loops.,Kuhn 1962
+2_Loop,Emergence,Digital,L-239,Algorithm. Trading,ECO,Emergenz von Marktdynamik durch Mikro-Loops.,
+2_Loop,Emergence,Kosmisch,L-240,Cosmic Microwave B.,PHY,Emergenz des Echo-Loops vom Urknall.,Penzias 1965
+2_Loop,Emergence,Kybernetisch,L-241,Homeostase (Global),PHY,Emergenz der PlanetenstabilitÃ¤t.,Lovelock 1972
+2_Loop,Emergence,EvolutionÃ¤r,L-242,Punctuated Equilib.,PHY,Emergenz sprunghafter Loops in der Bio.,Gould 1972
+2_Loop,Emergence,PhÃ¤nomenol.,L-243,Evolution (RL),PHI,Der unendliche Drive der RelationalitÃ¤t.,TRINITY 2024
+2_Loop,Emergence,Audit,L-244,RelLoop-Update Aud.,PHY,Validierung der Prozess-Dynamik (Loop).,GKP 2024
+2_Loop,Audit,General,LA-001,Feedback-Audit,PHY,ÃœberprÃ¼fung der Schleifen-StabilitÃ¤t.,Nyquist 1932
+2_Loop,Audit,General,LA-002,Phasen-Audit (Sync),PHY,Messung der zeitlichen Ãœbereinstimmung.,Huygens 1665
+2_Loop,Audit,General,LA-003,Resonanz-Audit,PHY,Nachweis der Energie-VerstÃ¤rkung im Loop.,Helmholtz 1863
+2_Loop,Audit,General,LA-004,Jitter-Audit (Takt),PHY,StabilitÃ¤ts-Check der Oszillation.,IEEE 1588
+2_Loop,Audit,General,LA-005,Rekursions-Tiefe,PHY,KapazitÃ¤ts-Limit der Verschachtelung.,Chomsky 1957
+2_Loop,Audit,General,LA-006,Zustands-Audit,PHY,Konsistenz der Transitionen im System.,Mealy 1955
+2_Loop,Audit,General,LA-007,IntegritÃ¤ts-Audit,PHY,Sicherung des ungestÃ¶rten Kreislaufs.,Harvey 1628
+2_Loop,Audit,General,LA-008,Effizienz-Audit (Î·),PHY,Messung des Reibungsverlusts im Prozess.,Carnot 1824
+2_Loop,Audit,General,LA-009,Hysterese-Check,PHY,ÃœberprÃ¼fung der PfadabhÃ¤ngigkeit.,Ewing 1881
+2_Loop,Audit,General,LA-010,Limit-Cycle Audit,PHY,StabilitÃ¤t des periodischen Attraktors.,PoincarÃ© 1881
+2_Loop,Audit,General,LA-011,Chaos-Audit (L),PHY,Messung der SensitivitÃ¤t (Exponent).,Lyapunov 1892
+2_Loop,Audit,General,LA-012,Audit der DÃ¤mpfung,PHY,Kontrolle der Schwingungs-Amplitude.,Bessel 1824
+2_Loop,Audit,General,LA-013,Synchronisations-A.,PHY,Audit der kooperativen Taktung.,Wiener 1948
+2_Loop,Audit,General,LA-014,Echtzeit-Audit,PHY,Garantie der deterministischen Antwortzeit.,Lamport 1978
+2_Loop,Audit,General,LA-015,Event-Loop Audit,PHY,Durchsatz-Messung asynchroner Tasks.,
+2_Loop,Audit,General,LA-016,Deadlock-Audit,PHY,Vermeidung von Ressourcen-Zyklen.,Dijkstra 1965
+2_Loop,Audit,General,LA-017,Schleifen-Audit,PHY,Formale Korrektheit der Iteration.,Hoare 1969
+2_Loop,Audit,General,LA-018,Watchdog-Verify,PHY,Sicherung des autonomen Prozess-Resets.,
+2_Loop,Audit,General,LA-019,Metabolismus-Audit,PHY,Energetische Bilanz der Lebens-Loops.,Bernard 1865
+2_Loop,Audit,General,LA-020,DNA-Reparatur Audit,PHY,Wahrung der genetischen KontinuitÃ¤t.,Watson 1953
+2_Loop,Audit,General,LA-021,Zellzyklus-Kontrolle,PHY,Regulation der ordnungsgemÃ¤ÃŸen Teilung.,Nurse 2001
+2_Loop,Audit,General,LA-022,HomÃ¶ostase-Audit,PHY,StabilitÃ¤t der Vital-Loops.,Cannon 1929
+2_Loop,Audit,General,LA-023,Circadian-Audit,PHY,IntegritÃ¤t der inneren Zeitmessung.,Hall/Rosbash 2017
+2_Loop,Audit,General,LA-024,Populations-Audit,PHY,StÃ¶rungs-Check des Ã¶kologischen Loops.,Lotka 1925
+2_Loop,Audit,General,LA-025,Klima-Audit (Loop),PHY,ÃœberprÃ¼fung der RÃ¼ckkopplungseffekte.,IPCC 2021
+2_Loop,Audit,General,LA-026,Albedo-Audit,PHY,Reflexions-Bilanz der eisigen Pole.,
+2_Loop,Audit,General,LA-027,Ozean-Audit (Loop),PHY,Messung des globalen FÃ¶rderbandes.,Broecker 1991
+2_Loop,Audit,General,LA-028,Sonnenzyklus-Audit,PHY,Vorhersage der geomagnetischen StÃ¼rme.,Schwabe 1843
+2_Loop,Audit,General,LA-029,Orbit-Audit (Fix),PHY,Wahrung der orbitalen PrÃ¤zision.,Kepler 1609
+2_Loop,Audit,General,LA-030,Tide-Audit (Loop),PHY,Zyklische Kraftwirkung der Gravitation.,Newton 1687
+2_Loop,Audit,General,LA-031,PrÃ¤zessions-Audit,PHY,Langfristige Orientierung der Erdachse.,Hipparchos
+2_Loop,Audit,General,LA-032,StabilitÃ¤ts-Inseln,PHY,Audit der Resonanz-Positionen im All.,Lagrange 1772
+2_Loop,Audit,General,LA-033,Invarianz-Audit,PHY,Wahrung physikalischer Gesetze im Loop.,Noether 1918
+2_Loop,Audit,General,LA-034,Entropie-Audit (RL),PHY,Kosten der Information im Prozess-Loop.,Landauer 1961
+2_Loop,Audit,General,LA-035,Recycling-Audit,PHY,Wahrung materieller Kreislauf-Unity.,McDonough 2002
+2_Loop,Audit,General,LA-036,Supply-Chain Audit,PHY,IntegritÃ¤t der Waren/Geld-Schleife.,
+2_Loop,Audit,General,LA-037,Marktzyklus-Audit,PHY,StÃ¶rungs-Analyse der Konjunktur.,Schumpeter 1942
+2_Loop,Audit,General,LA-038,Innovations-Audit,PHY,Messung des schÃ¶pferischen Echos.,Kondratjew 1926
+2_Loop,Audit,General,LA-039,Geldumlauf-Audit,PHY,Geschwindigkeit der Prozess-SchlieÃŸung.,Fisher 1911
+2_Loop,Audit,General,LA-040,Agile-Audit (Sprint),PHY,Reflexion der operativen Iteration.,Schwaber 2001
+2_Loop,Audit,General,LA-041,Deming-Check Audit,PHY,PDCA-IntegritÃ¤t der Organisation.,Deming 1950
+2_Loop,Audit,General,LA-042,Lern-Audit (Loop),PHY,EffektivitÃ¤t der Korrektur-Prozesse.,Argyris 1978
+2_Loop,Audit,General,LA-043,Traditions-Audit,PHY,Wahrung kultureller Wiederholbarkeit.,Shils 1981
+2_Loop,Audit,General,LA-044,Dialektik-Verify,PHY,Nachweis der Synthese-Entwicklung.,Hegel 1807
+2_Loop,Audit,General,LA-045,Hermeneutik-Audit,PHY,Wahrung der Kontext-Schleife.,Gadamer 1960
+2_Loop,Audit,General,LA-046,Linguistik-Audit,PHY,Rekursions-IntegritÃ¤t der Sprache.,Chomsky 1957
+2_Loop,Audit,General,LA-047,Logik-Audit (Quine),PHY,Selbst-Definition der Code-Basis.,Quine 1951
+2_Loop,Audit,General,LA-048,Fractal-Audit (Dim),PHY,Skalierungskonsistenz der Schleife.,Mandelbrot 1975
+2_Loop,Audit,General,LA-049,Holographic-Audit,PHY,Info-Gleichheit von Rand und Kern.,Susskind 1995
+2_Loop,Audit,General,LA-050,Total-Loop Audit,PHY,Die ultimative PrÃ¼fung der Prozess-KausalitÃ¤t (RL).,TRINITY 2024
+2_Loop,Audit,General,LA-051,Zeit-Jitter Audit,PHY,Trennung von Loop-Takt und Drift-Rauschen,IEEE 1588
+2_Loop,Audit,General,LA-052,Pfad-Audit (Action),PHY,Minimierungs-Check der Prozess-Wirkung,Lagrange 1788
+2_Loop,Audit,General,LA-053,Speicher-Zirkel Chk,PHY,Verhinderung von Info-Verschlingung,Shannon 1948
+2_Loop,Audit,General,LA-054,Turbo-Audit (Pumpe),PHY,Effizienz der rÃ¼ckgekoppelten Leistung,BÃ¼chi 1905
+2_Loop,Audit,General,LA-055,Iterat. Integral-Chk,PHY,Sicherung der kontinuierlichen Summation,Leibniz 1684
+2_Loop,Audit,General,LA-060,Bio-Feedback Audit,PHY,Regulation der neuronalen Oszillation,Wiener 1948
+2_Loop,Audit,General,LA-065,Galakt. Audit (Loop),PHY,Messung der orbitalen Drift im Zentrum,Oort 1927
+2_Loop,Audit,General,LA-070,Stack-Audit (Recurs),PHY,Vermeidung des kategorialen Ãœberlaufs,Knuth 1968
+2_Loop,Audit,General,LA-075,Audit d. Reinvestit.,PHY,SchlieÃŸung des Kapital-Wachstums-Loops,Marx 1867
+2_Loop,Audit,General,LA-080,Orbit-PrÃ¤zision Chk,PHY,Messung der relativistischen Drehung,Einstein 1915
+2_Loop,Audit,General,LA-085,Masse-Umlauf Audit,PHY,Fixierung der Drehimpuls-Erhaltung,Euler 1765
+2_Loop,Audit,General,LA-090,Licht-Echo Audit,PHY,Messung der Laufzeit im Vakuum-Loop,Fizeau 1849
+2_Loop,Audit,General,LA-095,Kern-Spin Audit,PHY,Resonanz-Check der PrÃ¤zessions-Unity,Rabi 1938
+2_Loop,Audit,General,LA-100,Die Ewige SchlieÃŸung,PHY,Der terminale Audit des unendlichen Seins-Loops (RL).,TRINITY 2024
