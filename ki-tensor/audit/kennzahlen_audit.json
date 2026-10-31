@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-31",
+  "scope": "Local artifacts v3.2-v3.8 plus historic formula register v3.0",
+  "archived_zip_files_seen": 44,
+  "audited_stages": 7,
+  "audited_stage_files": 50,
+  "dlmf_equation_objects": 8520,
+  "dlmf_unique_formula_strings": 7622,
+  "dlmf_exact_duplicates": 898,
+  "historical_nonempty_formula_rows": 151,
+  "historical_unique_formula_strings": 150,
+  "dlmf_formulas_with_exactly_three_annotated_roles": 1037,
+  "distinct_annotated_meaning_triplets": 675,
+  "syntactic_operator_schemas": 6746,
+  "operator_explanation_links": 4645,
+  "formula_tensor_axis_hypothesis_links": 6225,
+  "discovery_hints": 921,
+  "tensor_hypotheses": 3,
+  "structural_tensor_field_positions": 81,
+  "scientifically_validated_new_tensors": 0,
+  "validation_scope": "automated metadata and syntactic analysis, not proof"
+}
