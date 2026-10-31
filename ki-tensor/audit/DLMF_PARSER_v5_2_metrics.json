@@ -1,0 +1,11 @@
+{
+  "source_formulas": 7622,
+  "parse_attempted": 300,
+  "queued_not_executed": 7322,
+  "parse_or_evaluation_error": 284,
+  "unsupported_macro_or_environment": 8,
+  "parsed_not_established": 6,
+  "symbolic_identity_under_parser_assumptions": 2,
+  "new_validated_trinities": 0,
+  "new_validated_tensors": 0
+}
