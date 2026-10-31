@@ -1,0 +1,3 @@
+# KI-Tensor v5.3 – erneuter Parserlauf
+300 DLMF-Gleichungen erneut verarbeitet: 227 Parserfehler; 65 ausgeschlossene Spezial-/Auslassungsformen; zwei symbolische Gleichheitsbefunde; vier rechnerische Gegenbeispielkandidaten; zwei geparst ohne Nachweis.
+**Kein Gegenbeispiel widerlegt bereits eine DLMF-Originalaussage**, weil die Definitionsbereiche noch nicht ausreichend geprüft sind. Neue bestätigte Trinitäten: 0. Die vollständigen Codebuch- und Prüfdateien liegen im Chatpaket KI_Tensor_DLMF_Parser_v5_3_NoLoss.zip. Erforderlich bleiben Makro-Unterstützung, Mehrdeutigkeitskontrolle, Quellbedingungen und Rückrechnung.
