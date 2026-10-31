@@ -1,0 +1,24 @@
+{
+  "same_cohort": 300,
+  "baseline_successful_parses": 8,
+  "new_unambiguous_parse_candidates": 0,
+  "grammar_original": 192,
+  "grammar_tokens": {
+    "DLMF_AT_FUNCTION": 111,
+    "DERIVATIVE_MACRO": 24,
+    "FUNCTION_APPLICATION": 21,
+    "VECTOR_OR_STYLE": 4,
+    "OTHER_MACRO_GRAMMAR": 32
+  },
+  "new_status": {
+    "ELLIPSIS_NEEDS_SOURCE_PATTERN": 38,
+    "BASELINE_ALREADY_PARSED": 8,
+    "PARSE_ERROR": 116,
+    "AMBIGUOUS_PARSE": 2,
+    "UNTYPED_DLMF_FUNCTION": 132,
+    "MATH_ENVIRONMENT": 4
+  },
+  "source_domains_verified": 0,
+  "inverse_proofs_verified": 0,
+  "new_verified_relations": 0
+}
