@@ -12,11 +12,11 @@ METRICS["visual_pages"]=0
 for p in pages:
  s=p.read_text(encoding="utf-8")
  if re.search(r"courseware|Forschungs-Forschungsplattform",s,re.I):ERRORS.append(f"{p.name}: prohibited editorial text")
- if len(re.findall(r"<h1\\b",s))!=1:ERRORS.append(f"{p.name}: requires exactly one h1")
+ if len(re.findall(r"<h1\b",s))!=1:ERRORS.append(f"{p.name}: requires exactly one h1")
  if "<main" not in s:ERRORS.append(f"{p.name}: missing main landmark")
  METRICS["token_pages"]+=("tensor-design.css" in s)
- METRICS["visual_pages"]+=bool(re.search(r"<svg\\b|<img\\b|mermaid",s,re.I))
- for rel in re.findall(r'''(?:href|src)=[\"'](\\./[^\\"'#]+)''',s):
+ METRICS["visual_pages"]+=bool(re.search(r"<svg\b|<img\b|mermaid",s,re.I))
+ for rel in re.findall(r'''(?:href|src)=[\"'](\./[^"'#]+)''',s):
   target=(p.parent/rel).resolve()
   if not target.is_file():ERRORS.append(f"{p.name}: missing {rel}")
 tasks=json.loads((ROOT/"forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json").read_text(encoding="utf-8"))["tasks"]
