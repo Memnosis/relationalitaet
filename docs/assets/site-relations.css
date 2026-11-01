@@ -1,0 +1,11 @@
+/* Tensor site-wide relational design, Phase 2 */
+:root{--link-research:#366d9c;--link-sources:#986723;--link-participate:#b32632;--link-soulution:#1a5c2a}
+.tensor-global-nav nav a.tensor-nav-soulution{background:var(--link-soulution);color:#fff!important;padding:7px 12px;border-radius:999px;font-weight:750}
+.tensor-legal-footer{border-top:1px solid var(--tensor-line,#ccc);padding:16px 18px;margin:40px auto 0;text-align:center;font-size:.85rem;max-width:1100px}
+.tensor-legal-footer a{margin:0 7px}
+.tensor-related{margin:24px 0;border:1px solid #ccd6df;border-left:5px solid var(--link-research);background:color-mix(in srgb,var(--link-research) 7%,white);padding:18px;border-radius:12px}
+.tensor-related[data-relation=sources]{--link-research:var(--link-sources)}
+.tensor-related[data-relation=mitmachen]{--link-research:var(--link-participate)}
+.tensor-related[data-relation=soulution]{--link-research:var(--link-soulution)}
+.tensor-related h3{margin-top:0}
+@media(prefers-color-scheme:dark){.tensor-related{background:color-mix(in srgb,var(--link-research) 12%,#171b21);border-color:color-mix(in srgb,var(--link-research) 60%,#444)}}
