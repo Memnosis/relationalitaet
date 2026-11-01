@@ -1,0 +1,197 @@
+{
+  "schema": "ki-tensor.inventory.v1",
+  "as_of": "2026-11-01",
+  "project": "KI-Tensor",
+  "repository": "Memnosis/relationalitaet",
+  "branch": "main",
+  "scope": "Nur KI-Tensor-Artefakte; andere relationale Publikationen im Stammverzeichnis gehören nicht automatisch dazu.",
+  "source_note": "Historischer Projektbestand aus den in der ChatGPT-Konversation erstellten No-Loss-Paketen; Git-Existenz ist separat ausgewiesen.",
+  "groups": [
+    {
+      "id": "tensor-algebra",
+      "title": "Tensoralgebra",
+      "items": [
+        [
+          "mathe-107",
+          "Mathematische Signaturen 107 Tensoren",
+          "KI_Tensor_Mathematische_Gesamtanalyse_v3_1/TENSOR_107_MATH_SIGNATURES.csv",
+          "local_only",
+          "107 Profile; wissenschaftliche Prüfung offen"
+        ],
+        [
+          "paare-5671",
+          "5.671 mathematische Paarprüfungen",
+          "KI_Tensor_Mathematische_Gesamtanalyse_v3_1/PAIRS_5671.csv",
+          "local_only",
+          "Vergleichsregister, keine bewiesenen Isomorphismen"
+        ],
+        [
+          "algebra-ableitungen",
+          "Algebraische Ableitungen",
+          "KI_Tensor_Algebra_Ableitungen_v3_4/TENSOR_107_ABLEITUNGEN.csv",
+          "local_only",
+          "107 Ableitungs-Prüfprofile"
+        ],
+        [
+          "akten-107",
+          "107 Tensor-Einzelakten",
+          "KI_Tensor_Mathematische_Gesamtanalyse_v3_1/ALLE_107_EINZELAKTEN.md",
+          "local_only",
+          "Historischer Modellstand"
+        ],
+        [
+          "mathe-6",
+          "Sechs Referenzwissenschaften",
+          "KI_Tensor_Git_Cockpit_v3_6/MATHE_FOKUS_6.csv",
+          "local_only",
+          "Logik, Lineare Algebra, Geometrie, Graphen, Dynamik, Chemie"
+        ]
+      ]
+    },
+    {
+      "id": "minimal-ki",
+      "title": "Minimal-KI",
+      "children": [
+        "kernskills",
+        "geometrie-ki",
+        "sprach-ki",
+        "skill-sammlungen",
+        "tests"
+      ],
+      "items": [
+        [
+          "tests-25",
+          "Ausführbare historische Testregister",
+          "KI_Tensor_Forschungscockpit_Tests_v2_5",
+          "local_only",
+          "26 erfolgreiche technische Testfälle in 3 Suites; kein wissenschaftlicher Tensorbeweis"
+        ],
+        [
+          "geoki",
+          "Euler/Geometrie-KI",
+          "KI_Tensor_Integration_v0_4/tests",
+          "local_only",
+          "14 technische Checks"
+        ],
+        [
+          "sprachki",
+          "Sprach-KI/Compiler",
+          "KI_Tensor_Euler_SprachKI_NoLoss_Compiler_v0_2.zip",
+          "local_only",
+          "Integration zu prüfen"
+        ]
+      ]
+    },
+    {
+      "id": "forschung",
+      "title": "Forschung & Tensorfelder",
+      "items": [
+        [
+          "chemie-4",
+          "Vier Chemie-Tensoren",
+          "KI_Tensor_Klassen_Crosswalk_v3_0/CHEMIE_4_AUDIT.csv",
+          "local_only",
+          "Fachliche Validierung offen"
+        ],
+        [
+          "feldakten",
+          "27 Feldakten / historische Relationsprüfung",
+          "KI_Tensor_Klassen_Crosswalk_v3_0/FELDAKTEN_RELATIONEN_27_9.csv",
+          "local_only",
+          "9 aufgefundene Regeln sind nicht automatisch die ursprünglichen 12"
+        ]
+      ]
+    },
+    {
+      "id": "projektsteuerung",
+      "title": "No-Loss & Crosswalk",
+      "items": [
+        [
+          "noloss",
+          "Historischer No-Loss-Master",
+          "KI_Tensor_NoLoss_Konsolidierung_v0_6/noloss_master.sqlite",
+          "local_only",
+          "67.283 Datensätze im Master"
+        ],
+        [
+          "id177",
+          "Tensor-IDs und Versionsreview",
+          "KI_Tensor_Synchronnachzug_v2_9/TENSOR_ID_REVIEW.csv",
+          "local_only",
+          "177 Kennungen mit Prüfklassen"
+        ],
+        [
+          "triad309",
+          "Historische Trinität-/Tensor-Zuordnungen",
+          "KI_Tensor_Synchronnachzug_v2_9/TRIAD_TENSOR_MAPPING.csv",
+          "local_only",
+          "309 technische ID-Zuordnungen"
+        ],
+        [
+          "projektplan",
+          "29 historische Projekte und 106 Aufgaben",
+          "KI_Tensor_Git_Cockpit_v3_6/PROJECTS_BASELINE.csv + TASKS_BASELINE.csv",
+          "local_only",
+          "Nachzug in Master offen"
+        ],
+        [
+          "luecken",
+          "15 Integrationslücken",
+          "KI_Tensor_Git_Cockpit_v3_6/LUECKEN_AUDIT.csv",
+          "local_only",
+          "Gezieltes Review erforderlich"
+        ]
+      ]
+    },
+    {
+      "id": "publikationen",
+      "title": "Publikationen & Codebuch",
+      "items": [
+        [
+          "codebuch",
+          "Codebuch-Delta mathematische Signaturen",
+          "KI_Tensor_Mathematische_Gesamtanalyse_v3_1/CODEBUCH_DELTA.md",
+          "local_only",
+          "Nicht in Masterpublikation eingearbeitet"
+        ],
+        [
+          "gesamtwerk",
+          "Gesamtwerk-Nachtrag",
+          "KI_Tensor_Mathematische_Gesamtanalyse_v3_1/GESAMTWERK_NACHTRAG.md",
+          "local_only",
+          "Versionierter Nachtrag"
+        ]
+      ]
+    },
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "items": [
+        [
+          "site",
+          "GitHub-Pages-Startseite",
+          "docs/index.html",
+          "on_git",
+          "Öffentliches Cockpit",
+          "https://github.com/Memnosis/relationalitaet/blob/main/docs/index.html"
+        ],
+        [
+          "work",
+          "Dashboard-Arbeitsfassung",
+          "dashboard/index.html",
+          "on_git",
+          "Entwicklungsfassung",
+          "https://github.com/Memnosis/relationalitaet/blob/main/dashboard/index.html"
+        ],
+        [
+          "manifest",
+          "KI-Tensor-Projektinventar",
+          "dashboard/data/inventar.json",
+          "on_git",
+          "Dieses Register",
+          "https://github.com/Memnosis/relationalitaet/blob/main/dashboard/data/inventar.json"
+        ]
+      ]
+    }
+  ]
+}
