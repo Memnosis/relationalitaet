@@ -1,0 +1,699 @@
+{
+  "version": "v0.1",
+  "roles": [
+    {
+      "id": "OBS-01-01",
+      "group": "Eingangsbeobachtung",
+      "label": "Format",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-01-02",
+      "group": "Eingangsbeobachtung",
+      "label": "Vollständigkeit",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-01-03",
+      "group": "Eingangsbeobachtung",
+      "label": "Intention",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-01-04",
+      "group": "Eingangsbeobachtung",
+      "label": "Mehrdeutigkeit",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-01-05",
+      "group": "Eingangsbeobachtung",
+      "label": "Sprache",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-01-06",
+      "group": "Eingangsbeobachtung",
+      "label": "Kontext",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-01-07",
+      "group": "Eingangsbeobachtung",
+      "label": "Datenschutz",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-01-08",
+      "group": "Eingangsbeobachtung",
+      "label": "Priorität",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-01-09",
+      "group": "Eingangsbeobachtung",
+      "label": "Widerspruch",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-02-01",
+      "group": "Außenwahrnehmung",
+      "label": "API",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-02-02",
+      "group": "Außenwahrnehmung",
+      "label": "Datenbank",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-02-03",
+      "group": "Außenwahrnehmung",
+      "label": "Bibliotheksfund",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-02-04",
+      "group": "Außenwahrnehmung",
+      "label": "Aktualität",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-02-05",
+      "group": "Außenwahrnehmung",
+      "label": "Lizenz",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-02-06",
+      "group": "Außenwahrnehmung",
+      "label": "Netzwerk",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-02-07",
+      "group": "Außenwahrnehmung",
+      "label": "Sensor",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-02-08",
+      "group": "Außenwahrnehmung",
+      "label": "Umgebung",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-02-09",
+      "group": "Außenwahrnehmung",
+      "label": "Herkunft",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-03-01",
+      "group": "Selbstzustand",
+      "label": "Aktive Skills",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-03-02",
+      "group": "Selbstzustand",
+      "label": "Speicher",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-03-03",
+      "group": "Selbstzustand",
+      "label": "Laufzeit",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-03-04",
+      "group": "Selbstzustand",
+      "label": "Fehler",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-03-05",
+      "group": "Selbstzustand",
+      "label": "Unsicherheit",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-03-06",
+      "group": "Selbstzustand",
+      "label": "Zielzustand",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-03-07",
+      "group": "Selbstzustand",
+      "label": "Queue",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-03-08",
+      "group": "Selbstzustand",
+      "label": "Kosten",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-03-09",
+      "group": "Selbstzustand",
+      "label": "Kontext",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-04-01",
+      "group": "Skill-Eignung",
+      "label": "Signaturen",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-04-02",
+      "group": "Skill-Eignung",
+      "label": "Typen",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-04-03",
+      "group": "Skill-Eignung",
+      "label": "Vorbedingungen",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-04-04",
+      "group": "Skill-Eignung",
+      "label": "Abdeckung",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-04-05",
+      "group": "Skill-Eignung",
+      "label": "Zuverlässigkeit",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-04-06",
+      "group": "Skill-Eignung",
+      "label": "Rechte",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-04-07",
+      "group": "Skill-Eignung",
+      "label": "Alternativen",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-04-08",
+      "group": "Skill-Eignung",
+      "label": "Versionen",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-04-09",
+      "group": "Skill-Eignung",
+      "label": "Kosten",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-05-01",
+      "group": "Komposition",
+      "label": "Reihenfolge",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-05-02",
+      "group": "Komposition",
+      "label": "Parallelität",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-05-03",
+      "group": "Komposition",
+      "label": "Bedingungen",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-05-04",
+      "group": "Komposition",
+      "label": "Schleifen",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-05-05",
+      "group": "Komposition",
+      "label": "Abhängigkeiten",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-05-06",
+      "group": "Komposition",
+      "label": "Makro-Skills",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-05-07",
+      "group": "Komposition",
+      "label": "Widersprüche",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-05-08",
+      "group": "Komposition",
+      "label": "Abbrüche",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-05-09",
+      "group": "Komposition",
+      "label": "Redundanz",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-06-01",
+      "group": "Mathematik",
+      "label": "Definitionsbereich",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-06-02",
+      "group": "Mathematik",
+      "label": "Invariante",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-06-03",
+      "group": "Mathematik",
+      "label": "Dimensionsprüfung",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-06-04",
+      "group": "Mathematik",
+      "label": "Numerische Stabilität",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-06-05",
+      "group": "Mathematik",
+      "label": "Gegenprobe",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-06-06",
+      "group": "Mathematik",
+      "label": "Operator",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-06-07",
+      "group": "Mathematik",
+      "label": "Grenzfall",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-06-08",
+      "group": "Mathematik",
+      "label": "Konsistenz",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-06-09",
+      "group": "Mathematik",
+      "label": "Fehler",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-07-01",
+      "group": "Quellen und Evidenz",
+      "label": "Primärquelle",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-07-02",
+      "group": "Quellen und Evidenz",
+      "label": "Zitat",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-07-03",
+      "group": "Quellen und Evidenz",
+      "label": "Aktualität",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-07-04",
+      "group": "Quellen und Evidenz",
+      "label": "Replikation",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-07-05",
+      "group": "Quellen und Evidenz",
+      "label": "Datenqualität",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-07-06",
+      "group": "Quellen und Evidenz",
+      "label": "Methode",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-07-07",
+      "group": "Quellen und Evidenz",
+      "label": "Bias",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-07-08",
+      "group": "Quellen und Evidenz",
+      "label": "Konfidenz",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-07-09",
+      "group": "Quellen und Evidenz",
+      "label": "Offener Beleg",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-08-01",
+      "group": "Lernen und Optimieren",
+      "label": "Ausgangsleistung",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-08-02",
+      "group": "Lernen und Optimieren",
+      "label": "Variante",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-08-03",
+      "group": "Lernen und Optimieren",
+      "label": "Fehlermuster",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-08-04",
+      "group": "Lernen und Optimieren",
+      "label": "Verbesserung",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-08-05",
+      "group": "Lernen und Optimieren",
+      "label": "Regression",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-08-06",
+      "group": "Lernen und Optimieren",
+      "label": "Generalisierung",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-08-07",
+      "group": "Lernen und Optimieren",
+      "label": "Drift",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-08-08",
+      "group": "Lernen und Optimieren",
+      "label": "Rücknahme",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-08-09",
+      "group": "Lernen und Optimieren",
+      "label": "Minimalität",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-09-01",
+      "group": "Handlungsfolgen",
+      "label": "Erwarteter Zustand",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-09-02",
+      "group": "Handlungsfolgen",
+      "label": "Beobachteter Zustand",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-09-03",
+      "group": "Handlungsfolgen",
+      "label": "Abweichung",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-09-04",
+      "group": "Handlungsfolgen",
+      "label": "Umwelteffekt",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-09-05",
+      "group": "Handlungsfolgen",
+      "label": "Nebenwirkung",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-09-06",
+      "group": "Handlungsfolgen",
+      "label": "Reversibilität",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-09-07",
+      "group": "Handlungsfolgen",
+      "label": "Unsicherheit",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-09-08",
+      "group": "Handlungsfolgen",
+      "label": "Kosten",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-09-09",
+      "group": "Handlungsfolgen",
+      "label": "Information",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-10-01",
+      "group": "Nutzerinteraktion",
+      "label": "Ziel",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-10-02",
+      "group": "Nutzerinteraktion",
+      "label": "Einwilligung",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-10-03",
+      "group": "Nutzerinteraktion",
+      "label": "Verständlichkeit",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-10-04",
+      "group": "Nutzerinteraktion",
+      "label": "Feedback",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-10-05",
+      "group": "Nutzerinteraktion",
+      "label": "Korrekturen",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-10-06",
+      "group": "Nutzerinteraktion",
+      "label": "Rückfragen",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-10-07",
+      "group": "Nutzerinteraktion",
+      "label": "Grenzen",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-10-08",
+      "group": "Nutzerinteraktion",
+      "label": "Risiko",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-10-09",
+      "group": "Nutzerinteraktion",
+      "label": "Erfolg",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-11-01",
+      "group": "Metabeobachtung",
+      "label": "Nutzen",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-11-02",
+      "group": "Metabeobachtung",
+      "label": "Fehlalarm",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-11-03",
+      "group": "Metabeobachtung",
+      "label": "Messkosten",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-11-04",
+      "group": "Metabeobachtung",
+      "label": "Überlappung",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-11-05",
+      "group": "Metabeobachtung",
+      "label": "Widerspruch",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-11-06",
+      "group": "Metabeobachtung",
+      "label": "Beobachtungsdrift",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-11-07",
+      "group": "Metabeobachtung",
+      "label": "Beobachter-Ablation",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-11-08",
+      "group": "Metabeobachtung",
+      "label": "Anpassung",
+      "status": "konzipiert",
+      "is_running": false
+    },
+    {
+      "id": "OBS-11-09",
+      "group": "Metabeobachtung",
+      "label": "Abschaltung",
+      "status": "konzipiert",
+      "is_running": false
+    }
+  ],
+  "notes": "99 Rollen sind konzipiert, nicht implementiert"
+}
