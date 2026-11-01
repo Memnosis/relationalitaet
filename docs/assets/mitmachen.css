@@ -1,1 +1,22 @@
 .tensor-join-fixed{position:fixed;right:18px;bottom:18px;z-index:10000;background:#b32632;color:white!important;border:2px solid #fff;border-radius:999px;padding:12px 19px;font:700 15px/1.2 system-ui;box-shadow:0 6px 22px #0004;text-decoration:none!important}.tensor-join-fixed:hover,.tensor-join-fixed:focus-visible{background:#871722;color:white;outline:3px solid #efb3b8;outline-offset:2px}.tensor-join-inline{color:#b32632!important;font-weight:750}.tensor-join-tag{display:inline-block;border:1px solid #bb4952;color:#a71e2d;background:#fff1f2;border-radius:999px;padding:5px 10px;font-weight:750;font-size:.78rem}.tensor-join-card{border:1px solid #ebb4b8;border-left:5px solid #b32632;background:color-mix(in srgb,#ffe4e6 35%,Canvas);padding:17px;border-radius:13px}.tensor-join-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}.tensor-join-card pre{white-space:pre-wrap;overflow-wrap:anywhere}.tensor-join-card button{border:1px solid #b32632;color:#a21b29;background:transparent;padding:9px;border-radius:8px;cursor:pointer}.tensor-join-card a{color:#aa1f2c}@media(max-width:640px){.tensor-join-fixed{right:10px;bottom:10px;padding:11px 15px}}
+/* Mitmachen visual composition v2 – scoped to body.join-page only. Other pages retain their field theme. */
+body.join-page{background:linear-gradient(180deg,#fff8fc 0,#f8faff 460px,#fff 100%);color:#202441}
+.join-page .join-hero{border-radius:23px;overflow:hidden;padding:clamp(22px,5vw,55px);margin:8px 0 24px;background:radial-gradient(circle at 85% 20%,#ea5974a6,transparent 35%),linear-gradient(125deg,#35134d,#891744 60%,#bf3150);color:white;position:relative}
+.join-page .join-hero h1{color:white;margin:8px 0;font-size:clamp(2.2rem,5vw,4.1rem);max-width:850px;line-height:1.12}
+.join-page .join-hero p{max-width:760px;color:#fff0f5;font-size:1.13rem}
+.join-page .join-hero a{color:white;text-decoration:underline;text-underline-offset:3px}
+.join-page .join-hero .join-tagline{color:#ffd4e3;font-size:.86rem;font-weight:750;letter-spacing:.09em;text-transform:uppercase}
+.join-page .join-six{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:16px 0 25px}
+.join-page .join-six a{display:flex;flex-direction:column;gap:4px;text-decoration:none;color:#22263a;padding:16px;border-radius:16px;border:1px solid #ffffff;background:linear-gradient(135deg,var(--shade),#ffffff);box-shadow:0 7px 24px #2a15400b}
+.join-page .join-six a strong{font-weight:800}.join-page .join-six a small{font-size:.78rem;line-height:1.4}
+.join-page .join-six a:focus-visible{outline:3px solid #ab284a;outline-offset:2px}
+.join-page .join-six .mini{--shade:#f0e3ff}.join-page .join-six .geo{--shade:#ddf3ff}.join-page .join-six .tensor{--shade:#defae8}.join-page .join-six .comp{--shade:#fff2d2}.join-page .join-six .visual{--shade:#f7ddfa}.join-page .join-six .collab{--shade:#ddf8fc}
+.join-page .tensor-nucleus,.join-page .tensor-panel{background:linear-gradient(140deg,#fff9fd,#f4f5ff);border:1px solid #e3dcf0;box-shadow:0 7px 26px #45194c09}
+.join-page .tensor-join-card{background:linear-gradient(125deg,#fff0f2,#ffe0ea);border:1px solid #f6bdc9;border-radius:20px;box-shadow:0 7px 26px #49142e0b}
+.join-page .tensor-join-tag{background:#fff3f5;color:#961c38}
+.join-page .join-media{max-width:240px;float:right;margin:0 0 10px 18px;filter:drop-shadow(0 7px 17px #ef9cbb70)}
+.join-page .join-hero .join-media{max-width:185px}
+.join-page .join-hero .join-cta{display:inline-block;padding:13px 20px;background:#d21740;color:#fff;font-weight:800;text-decoration:none;border-radius:999px;margin:8px 10px 0 0;box-shadow:0 6px 18px #250a2455}
+.join-page .join-hero .join-cta:hover{background:#f13560}
+@media(max-width:750px){.join-page .join-six{grid-template-columns:repeat(2,minmax(0,1fr))}.join-page .join-hero .join-media{max-width:90px}.join-page .join-media{float:none;display:block;margin:0 auto 12px}}
+@media(max-width:450px){.join-page .join-six{grid-template-columns:1fr}}
