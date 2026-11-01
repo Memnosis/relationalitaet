@@ -1,0 +1,175 @@
+{
+  "version": "v0.1",
+  "tasks": [
+    {
+      "id": "GEO-M1",
+      "title": "Generieren – Komponieren – Prüfen – Exportieren",
+      "area": "Geo-KI",
+      "status": "prompt-vorbereitet",
+      "priority": "hoch",
+      "goal": "Verbinde den bestehenden geometrischen Python-Kern mit typisierten Operatoren, einer Testpipeline, mindestens einer SVG-Ausgabe und einer inversen/semantischen Rückprüfung.",
+      "result": "Ein End-to-End-Fall von Grundform über Operatorfolge und Rücktest bis SVG/JSON mit dokumentierten Abnahmekriterien.",
+      "dependencies": [
+        "GEO-OPS-01"
+      ],
+      "source_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json",
+        "https://memnosis.github.io/relationalitaet/medien.html"
+      ],
+      "definition_of_done": [
+        "Reproduzierbare Eingaben und Ausgaben",
+        "Verifizierbare Quellen und Versionen",
+        "Negativtest sowie Rückprobe",
+        "Abnahme und No-Loss-Protokoll"
+      ],
+      "meta_prompt": "Entwickle einen Prompt für GEO-M1: Generieren – Komponieren – Prüfen – Exportieren.\n1. Ausgangsbasis und Ziel: Verbinde den bestehenden geometrischen Python-Kern mit typisierten Operatoren, einer Testpipeline, mindestens einer SVG-Ausgabe und einer inversen/semantischen Rückprüfung.\n2. Wissenschaftliche und technische Originalunterlagen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md\n4. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json\n5. https://memnosis.github.io/relationalitaet/medien.html\n3. Bestandsaudit: Trenne bereits ausführbaren Code, recherchierte Bibliotheken, noch offene Daten und eigene Annahmen.\n4. Eingaben, Formate, Schnittstellen, Semantik, Versionen und Lizenzen.\n5. Konkrete Operatorfolge, Komposition, Prüf- und Rückrechnungslogik.\n6. Fehlerfälle, Nicht-Äquivalenz von Konvertierungen, beobachtete Nebenwirkungen und Rückrollmechanismus.\n7. Liefergegenstände und Tests: Ein End-to-End-Fall von Grundform über Operatorfolge und Rücktest bis SVG/JSON mit dokumentierten Abnahmekriterien.\n8. Definition of Done: Reproduzierbarkeit, Tests und No-Loss-Übergabe.\nErzeuge zuerst den vollständigen Arbeits-Prompt und bestätige keine nicht ausgeführten Operationen."
+    },
+    {
+      "id": "FMT-H01",
+      "title": "Offene Format- und Skillstandards harvesten",
+      "area": "Interoperabilität",
+      "status": "prompt-vorbereitet",
+      "priority": "hoch",
+      "goal": "Erfasse die acht Formatfamilien, Spezifikationen, Bibliotheken und Versionen als nachgewiesenen, maschinenlesbaren Katalog.",
+      "result": "Katalog mit Originalreferenz, Lizenz, Version, Ein-/Ausgabeformat, Adapterstatus und offenen Fragen.",
+      "dependencies": [],
+      "source_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json",
+        "https://memnosis.github.io/relationalitaet/medien.html"
+      ],
+      "definition_of_done": [
+        "Reproduzierbare Eingaben und Ausgaben",
+        "Verifizierbare Quellen und Versionen",
+        "Negativtest sowie Rückprobe",
+        "Abnahme und No-Loss-Protokoll"
+      ],
+      "meta_prompt": "Entwickle einen Prompt für FMT-H01: Offene Format- und Skillstandards harvesten.\n1. Ausgangsbasis und Ziel: Erfasse die acht Formatfamilien, Spezifikationen, Bibliotheken und Versionen als nachgewiesenen, maschinenlesbaren Katalog.\n2. Wissenschaftliche und technische Originalunterlagen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md\n4. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json\n5. https://memnosis.github.io/relationalitaet/medien.html\n3. Bestandsaudit: Trenne bereits ausführbaren Code, recherchierte Bibliotheken, noch offene Daten und eigene Annahmen.\n4. Eingaben, Formate, Schnittstellen, Semantik, Versionen und Lizenzen.\n5. Konkrete Operatorfolge, Komposition, Prüf- und Rückrechnungslogik.\n6. Fehlerfälle, Nicht-Äquivalenz von Konvertierungen, beobachtete Nebenwirkungen und Rückrollmechanismus.\n7. Liefergegenstände und Tests: Katalog mit Originalreferenz, Lizenz, Version, Ein-/Ausgabeformat, Adapterstatus und offenen Fragen.\n8. Definition of Done: Reproduzierbarkeit, Tests und No-Loss-Übergabe.\nErzeuge zuerst den vollständigen Arbeits-Prompt und bestätige keine nicht ausgeführten Operationen."
+    },
+    {
+      "id": "FMT-H02",
+      "title": "Konvertierungsgraph und Roundtrip-Proben",
+      "area": "Interoperabilität",
+      "status": "prompt-vorbereitet",
+      "priority": "hoch",
+      "goal": "Bestimme für Formatpaare verfügbare Adapter und teste Umkehrbarkeit, numerische/semantische Informationsverluste und Metadaten.",
+      "result": "Konvertierungsgraph, Testfälle, Fehlerberichte, Roundtrip-Matrix und Grenzen.",
+      "dependencies": [],
+      "source_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json",
+        "https://memnosis.github.io/relationalitaet/medien.html"
+      ],
+      "definition_of_done": [
+        "Reproduzierbare Eingaben und Ausgaben",
+        "Verifizierbare Quellen und Versionen",
+        "Negativtest sowie Rückprobe",
+        "Abnahme und No-Loss-Protokoll"
+      ],
+      "meta_prompt": "Entwickle einen Prompt für FMT-H02: Konvertierungsgraph und Roundtrip-Proben.\n1. Ausgangsbasis und Ziel: Bestimme für Formatpaare verfügbare Adapter und teste Umkehrbarkeit, numerische/semantische Informationsverluste und Metadaten.\n2. Wissenschaftliche und technische Originalunterlagen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md\n4. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json\n5. https://memnosis.github.io/relationalitaet/medien.html\n3. Bestandsaudit: Trenne bereits ausführbaren Code, recherchierte Bibliotheken, noch offene Daten und eigene Annahmen.\n4. Eingaben, Formate, Schnittstellen, Semantik, Versionen und Lizenzen.\n5. Konkrete Operatorfolge, Komposition, Prüf- und Rückrechnungslogik.\n6. Fehlerfälle, Nicht-Äquivalenz von Konvertierungen, beobachtete Nebenwirkungen und Rückrollmechanismus.\n7. Liefergegenstände und Tests: Konvertierungsgraph, Testfälle, Fehlerberichte, Roundtrip-Matrix und Grenzen.\n8. Definition of Done: Reproduzierbarkeit, Tests und No-Loss-Übergabe.\nErzeuge zuerst den vollständigen Arbeits-Prompt und bestätige keine nicht ausgeführten Operationen."
+    },
+    {
+      "id": "FMT-H03",
+      "title": "CAD/GIS/3D-Operatoren interoperabel testen",
+      "area": "Geo-KI",
+      "status": "prompt-vorbereitet",
+      "priority": "hoch",
+      "goal": "Implementiere kontrollierte Adapter für zwei ausgewählte Bibliotheken, vergleiche Datenmodelle und prüfe Symmetrien, Einheiten und Topologie.",
+      "result": "Ausführbare Beispielkonvertierungen und Regressionstests.",
+      "dependencies": [],
+      "source_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json",
+        "https://memnosis.github.io/relationalitaet/medien.html"
+      ],
+      "definition_of_done": [
+        "Reproduzierbare Eingaben und Ausgaben",
+        "Verifizierbare Quellen und Versionen",
+        "Negativtest sowie Rückprobe",
+        "Abnahme und No-Loss-Protokoll"
+      ],
+      "meta_prompt": "Entwickle einen Prompt für FMT-H03: CAD/GIS/3D-Operatoren interoperabel testen.\n1. Ausgangsbasis und Ziel: Implementiere kontrollierte Adapter für zwei ausgewählte Bibliotheken, vergleiche Datenmodelle und prüfe Symmetrien, Einheiten und Topologie.\n2. Wissenschaftliche und technische Originalunterlagen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md\n4. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json\n5. https://memnosis.github.io/relationalitaet/medien.html\n3. Bestandsaudit: Trenne bereits ausführbaren Code, recherchierte Bibliotheken, noch offene Daten und eigene Annahmen.\n4. Eingaben, Formate, Schnittstellen, Semantik, Versionen und Lizenzen.\n5. Konkrete Operatorfolge, Komposition, Prüf- und Rückrechnungslogik.\n6. Fehlerfälle, Nicht-Äquivalenz von Konvertierungen, beobachtete Nebenwirkungen und Rückrollmechanismus.\n7. Liefergegenstände und Tests: Ausführbare Beispielkonvertierungen und Regressionstests.\n8. Definition of Done: Reproduzierbarkeit, Tests und No-Loss-Übergabe.\nErzeuge zuerst den vollständigen Arbeits-Prompt und bestätige keine nicht ausgeführten Operationen."
+    },
+    {
+      "id": "FMT-H04",
+      "title": "Wissenschaftliche Daten- und Arrayformate prüfen",
+      "area": "Interoperabilität",
+      "status": "prompt-vorbereitet",
+      "priority": "hoch",
+      "goal": "Harvest HDF5, NetCDF-CF, Zarr, Arrow, Parquet, inklusive Schema- und Einheitenmetadaten.",
+      "result": "Versionierte Format-/Schemamatrix, Reproduktionsfälle und dokumentierte Verluste.",
+      "dependencies": [],
+      "source_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json",
+        "https://memnosis.github.io/relationalitaet/medien.html"
+      ],
+      "definition_of_done": [
+        "Reproduzierbare Eingaben und Ausgaben",
+        "Verifizierbare Quellen und Versionen",
+        "Negativtest sowie Rückprobe",
+        "Abnahme und No-Loss-Protokoll"
+      ],
+      "meta_prompt": "Entwickle einen Prompt für FMT-H04: Wissenschaftliche Daten- und Arrayformate prüfen.\n1. Ausgangsbasis und Ziel: Harvest HDF5, NetCDF-CF, Zarr, Arrow, Parquet, inklusive Schema- und Einheitenmetadaten.\n2. Wissenschaftliche und technische Originalunterlagen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md\n4. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json\n5. https://memnosis.github.io/relationalitaet/medien.html\n3. Bestandsaudit: Trenne bereits ausführbaren Code, recherchierte Bibliotheken, noch offene Daten und eigene Annahmen.\n4. Eingaben, Formate, Schnittstellen, Semantik, Versionen und Lizenzen.\n5. Konkrete Operatorfolge, Komposition, Prüf- und Rückrechnungslogik.\n6. Fehlerfälle, Nicht-Äquivalenz von Konvertierungen, beobachtete Nebenwirkungen und Rückrollmechanismus.\n7. Liefergegenstände und Tests: Versionierte Format-/Schemamatrix, Reproduktionsfälle und dokumentierte Verluste.\n8. Definition of Done: Reproduzierbarkeit, Tests und No-Loss-Übergabe.\nErzeuge zuerst den vollständigen Arbeits-Prompt und bestätige keine nicht ausgeführten Operationen."
+    },
+    {
+      "id": "FMT-H05",
+      "title": "API-, MCP- und Workflow-Skills harvesten",
+      "area": "Mini-KI",
+      "status": "prompt-vorbereitet",
+      "priority": "hoch",
+      "goal": "Untersuche Schnittstellen- und Skillstandards, Versionsverträge, Rechte und sichere Ausführung bei OpenAPI, MCP, CWL und anderen.",
+      "result": "Sicherheits- und Interoperabilitätsprofile plus ausführbare Testadapter.",
+      "dependencies": [],
+      "source_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json",
+        "https://memnosis.github.io/relationalitaet/medien.html"
+      ],
+      "definition_of_done": [
+        "Reproduzierbare Eingaben und Ausgaben",
+        "Verifizierbare Quellen und Versionen",
+        "Negativtest sowie Rückprobe",
+        "Abnahme und No-Loss-Protokoll"
+      ],
+      "meta_prompt": "Entwickle einen Prompt für FMT-H05: API-, MCP- und Workflow-Skills harvesten.\n1. Ausgangsbasis und Ziel: Untersuche Schnittstellen- und Skillstandards, Versionsverträge, Rechte und sichere Ausführung bei OpenAPI, MCP, CWL und anderen.\n2. Wissenschaftliche und technische Originalunterlagen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md\n4. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json\n5. https://memnosis.github.io/relationalitaet/medien.html\n3. Bestandsaudit: Trenne bereits ausführbaren Code, recherchierte Bibliotheken, noch offene Daten und eigene Annahmen.\n4. Eingaben, Formate, Schnittstellen, Semantik, Versionen und Lizenzen.\n5. Konkrete Operatorfolge, Komposition, Prüf- und Rückrechnungslogik.\n6. Fehlerfälle, Nicht-Äquivalenz von Konvertierungen, beobachtete Nebenwirkungen und Rückrollmechanismus.\n7. Liefergegenstände und Tests: Sicherheits- und Interoperabilitätsprofile plus ausführbare Testadapter.\n8. Definition of Done: Reproduzierbarkeit, Tests und No-Loss-Übergabe.\nErzeuge zuerst den vollständigen Arbeits-Prompt und bestätige keine nicht ausgeführten Operationen."
+    },
+    {
+      "id": "WEB-PAPER-01",
+      "title": "Tensor-Forschungspaper und wissenschaftliche Einführung verknüpfen",
+      "area": "Tensor",
+      "status": "prompt-vorbereitet",
+      "priority": "hoch",
+      "goal": "Verknüpfe das Logik-Tensor-Original und das Weiterentwicklungspaper im Forschungsbereich und gestalte die drei 3×3-Matrizen mit Quellen.",
+      "result": "Eigenständige Paperseite, originäre Referenzen, 3×3×3-Erklärung und Bildnachweise.",
+      "dependencies": [],
+      "source_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json",
+        "https://memnosis.github.io/relationalitaet/medien.html"
+      ],
+      "definition_of_done": [
+        "Reproduzierbare Eingaben und Ausgaben",
+        "Verifizierbare Quellen und Versionen",
+        "Negativtest sowie Rückprobe",
+        "Abnahme und No-Loss-Protokoll"
+      ],
+      "meta_prompt": "Entwickle einen Prompt für WEB-PAPER-01: Tensor-Forschungspaper und wissenschaftliche Einführung verknüpfen.\n1. Ausgangsbasis und Ziel: Verknüpfe das Logik-Tensor-Original und das Weiterentwicklungspaper im Forschungsbereich und gestalte die drei 3×3-Matrizen mit Quellen.\n2. Wissenschaftliche und technische Originalunterlagen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md\n4. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json\n5. https://memnosis.github.io/relationalitaet/medien.html\n3. Bestandsaudit: Trenne bereits ausführbaren Code, recherchierte Bibliotheken, noch offene Daten und eigene Annahmen.\n4. Eingaben, Formate, Schnittstellen, Semantik, Versionen und Lizenzen.\n5. Konkrete Operatorfolge, Komposition, Prüf- und Rückrechnungslogik.\n6. Fehlerfälle, Nicht-Äquivalenz von Konvertierungen, beobachtete Nebenwirkungen und Rückrollmechanismus.\n7. Liefergegenstände und Tests: Eigenständige Paperseite, originäre Referenzen, 3×3×3-Erklärung und Bildnachweise.\n8. Definition of Done: Reproduzierbarkeit, Tests und No-Loss-Übergabe.\nErzeuge zuerst den vollständigen Arbeits-Prompt und bestätige keine nicht ausgeführten Operationen."
+    }
+  ]
+}
