@@ -1,0 +1,36 @@
+{
+  "schema": "tensor-visual.v0.1",
+  "axes": [
+    {
+      "id": "T",
+      "label": "Trinität",
+      "indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "E",
+      "label": "Element",
+      "indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "R",
+      "label": "Rollenposition",
+      "indices": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "addressPattern": "T{t}.E{e}.R{r}",
+  "cellCount": 27,
+  "modelStatus": "project-defined",
+  "provenance": "New exploratory format; historical chat-image generator not yet recovered"
+}
