@@ -1,0 +1,230 @@
+{
+  "version": "v0.1",
+  "status": "Kandidateninventar, keine vollständige Softwareprüfung",
+  "dimensions": [
+    "format",
+    "version",
+    "schema",
+    "semantics",
+    "provenance",
+    "license",
+    "adapter",
+    "read_write",
+    "roundtrip",
+    "loss_model",
+    "tests"
+  ],
+  "families": [
+    {
+      "id": "FMT-01",
+      "name": "Geometrie 2D/3D",
+      "formats": [
+        "SVG",
+        "DXF",
+        "STEP/IGES",
+        "STL",
+        "OBJ",
+        "PLY",
+        "glTF/GLB",
+        "3MF",
+        "IFC"
+      ],
+      "tools": [
+        "SymPy",
+        "Shapely",
+        "Paper.js",
+        "trimesh",
+        "meshio",
+        "ezdxf",
+        "PyVista",
+        "OpenCascade",
+        "three.js"
+      ],
+      "risks": "Topologie, Toleranzen, Einheiten, CRS, Material, Geometrie-Verlust",
+      "verification": "zu prüfen"
+    },
+    {
+      "id": "FMT-02",
+      "name": "Geodaten",
+      "formats": [
+        "GeoJSON",
+        "GeoParquet",
+        "FlatGeobuf",
+        "GeoTIFF/COG",
+        "STAC",
+        "GeoZarr"
+      ],
+      "tools": [
+        "GDAL/OGR",
+        "Rasterio",
+        "Fiona",
+        "GeoPandas",
+        "pyproj",
+        "xarray"
+      ],
+      "risks": "Koordinatenreferenzsystem, Achsen, Raster-/Vektorübersetzung, Zeitbezug",
+      "verification": "zu prüfen"
+    },
+    {
+      "id": "FMT-03",
+      "name": "Wissenschaftliche Arrays",
+      "formats": [
+        "HDF5",
+        "netCDF-CF",
+        "Zarr",
+        "NPY/NPZ",
+        "Arrow"
+      ],
+      "tools": [
+        "h5py",
+        "netCDF4",
+        "xarray",
+        "zarr",
+        "numpy",
+        "pyarrow"
+      ],
+      "risks": "Achsendefinition, Einheiten, Metadaten, Kompression, Chunking",
+      "verification": "zu prüfen"
+    },
+    {
+      "id": "FMT-04",
+      "name": "Tabellen und Graphen",
+      "formats": [
+        "CSV/TSV",
+        "Parquet",
+        "Arrow IPC",
+        "SQLite",
+        "JSON-LD",
+        "RDF/Turtle",
+        "OWL"
+      ],
+      "tools": [
+        "pandas",
+        "pyarrow",
+        "duckdb",
+        "rdflib",
+        "NetworkX"
+      ],
+      "risks": "Schlüssel, Semantik, Provenienz, Datentypen, Kantenrollen",
+      "verification": "zu prüfen"
+    },
+    {
+      "id": "FMT-05",
+      "name": "API und Skillverträge",
+      "formats": [
+        "OpenAPI",
+        "AsyncAPI",
+        "JSON Schema",
+        "MCP",
+        "gRPC/Protobuf",
+        "GraphQL"
+      ],
+      "tools": [
+        "jsonschema",
+        "pydantic",
+        "OpenAPI Generator",
+        "MCP SDK",
+        "protobuf"
+      ],
+      "risks": "Versionen, Rechte, Effektverträge, Fehlermeldungen, Observability",
+      "verification": "zu prüfen"
+    },
+    {
+      "id": "FMT-06",
+      "name": "Wissenschaftsartefakte",
+      "formats": [
+        "RO-Crate",
+        "DataCite",
+        "DOI",
+        "FAIRsharing",
+        "Frictionless Table Schema",
+        "CWL",
+        "WDL"
+      ],
+      "tools": [
+        "ro-crate-py",
+        "cwltool",
+        "frictionless",
+        "Snakemake"
+      ],
+      "risks": "Evidenz, Reproduktion, Lizenz, Quelle, Messbasis",
+      "verification": "zu prüfen"
+    },
+    {
+      "id": "FMT-07",
+      "name": "Sprachen, Ontologien",
+      "formats": [
+        "UD/CoNLL-U",
+        "TMX",
+        "TBX",
+        "XLIFF",
+        "RDF",
+        "JSON-LD"
+      ],
+      "tools": [
+        "Universal Dependencies",
+        "OPUS",
+        "spaCy",
+        "Stanza",
+        "rdflib"
+      ],
+      "risks": "Lizenz, Wortformen, Kontext, Übersetzungsverlust",
+      "verification": "zu prüfen"
+    },
+    {
+      "id": "FMT-08",
+      "name": "Modell- und Visualisierung",
+      "formats": [
+        "ONNX",
+        "safetensors",
+        "glTF",
+        "SVG",
+        "Mermaid",
+        "Vega-Lite"
+      ],
+      "tools": [
+        "onnxruntime",
+        "transformers",
+        "three.js",
+        "Mermaid",
+        "Vega"
+      ],
+      "risks": "Modellversion, Rendersemantik, ausführbare Sicherheit",
+      "verification": "zu prüfen"
+    }
+  ],
+  "references": [
+    {
+      "name": "OGC Standards",
+      "url": "https://docs.ogc.org/techpaper/26-050/26-050.html"
+    },
+    {
+      "name": "Trimesh Formate",
+      "url": "https://trimesh.org/formats.html"
+    },
+    {
+      "name": "Arrow Formate",
+      "url": "https://arrow.apache.org/docs/format/"
+    },
+    {
+      "name": "Zarr OGC",
+      "url": "https://www.ogc.org/standards/zarr-storage-specification/"
+    },
+    {
+      "name": "ODPS",
+      "url": "https://opendataproducts.org/v4.2/"
+    },
+    {
+      "name": "NetCDF",
+      "url": "https://www.ogc.org/standards/netcdf/"
+    },
+    {
+      "name": "OpenAPI",
+      "url": "https://spec.openapis.org/oas/latest.html"
+    },
+    {
+      "name": "MCP",
+      "url": "https://modelcontextprotocol.io/specification/"
+    }
+  ]
+}
