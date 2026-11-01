@@ -1,5 +1,5 @@
 {
-  "version": "v0.1",
+  "version": "v0.2",
   "source": "Taskkarten-Entwurf, 01.11.2026",
   "total": 18,
   "tasks": [
@@ -9,7 +9,31 @@
       "goal": "definiere einen versionierten Ereignisbus für Eingaben, Skillaufrufe, Messwerte und Korrekturen",
       "result": "Ereignisschema, Referenzimplementierung, 5 Negativtests",
       "status": "geplant",
-      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für OBS-01 – Vertrag Ereignisbus. Auftrag: definiere einen versionierten Ereignisbus für Eingaben, Skillaufrufe, Messwerte und Korrekturen. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: Ereignisschema, Referenzimplementierung, 5 Negativtests. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+      "meta_prompt": "Entwickle einen vollständigen Arbeits-Prompt für den Tensor-Task OBS-01 („Vertrag Ereignisbus“). Ziel: definiere einen versionierten Ereignisbus für Eingaben, Skillaufrufe, Messwerte und Korrekturen. Projektkontext: Minimal-KI, reguläre und optional tensorannotierte Skills, beobachtbare Ausführung. Verwende folgende ausgeschriebene Quelladressen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json\n3. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\nGliedere den Arbeits-Prompt in: 1. Ziel und Scope, 2. Ausgangsbestand/Quellen, 3. Eingaben und Schnittstellen, 4. Arbeitsschritte, 5. Risiken und Gegenproben, 6. Liefergegenstände, 7. Tests und Definition of Done, 8. No-Loss-Rückgabe und Versionsstand. Gefordertes Ergebnis: Ereignisschema, Referenzimplementierung, 5 Negativtests. Trenne belegte Ergebnisse von Hypothesen. Zuerst nur den vollständigen Arbeits-Prompt erzeugen, nicht behaupten, der Task sei ausgeführt.",
+      "project_id": "MINI-KI",
+      "milestone_id": "OBS-VALIDATION",
+      "priority": "hoch",
+      "task_type": "Forschung und Entwicklung",
+      "definition_of_done": [
+        "Ereignisschema, Referenzimplementierung, 5 Negativtests",
+        "Eingabedateien und Versionsstände angegeben",
+        "Mindestens ein Negativ- oder Grenzfalltest dokumentiert",
+        "Ergebnisse mit Herkunft und Prüflog zurückgeführt"
+      ],
+      "dependencies": [],
+      "reference_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "instructions": "Vorhandene Vorarbeiten und Versionsstände prüfen; Arbeitsauftrag schrittweise entwickeln; Annahmen, Eingaben, Abhängigkeiten, Tests und Beweisgrenzen dokumentieren.",
+      "deliverables": [
+        "Ereignisschema, Referenzimplementierung, 5 Negativtests",
+        "Testprotokoll",
+        "No-Loss-Übergabevermerk"
+      ],
+      "acceptance": "Ergebnis vorhanden, Tests reproduzierbar, Quellen und Abweichungen dokumentiert; PM-Abnahme steht aus.",
+      "collaboration": "Offene Aufgabe; Bearbeitung über GitHub-Issue oder Pull Request mit Task-ID"
     },
     {
       "id": "OBS-02",
@@ -17,7 +41,33 @@
       "goal": "implementiere acht prototypische, abschaltbare Kernbeobachter",
       "result": "ausführbarer Prototyp mit Schaltern und Logs",
       "status": "geplant",
-      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für OBS-02 – Acht Kernbeobachter prototypisch ausführen. Auftrag: implementiere acht prototypische, abschaltbare Kernbeobachter. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: ausführbarer Prototyp mit Schaltern und Logs. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+      "meta_prompt": "Entwickle einen vollständigen Arbeits-Prompt für den Tensor-Task OBS-02 („Acht Kernbeobachter prototypisch ausführen“). Ziel: implementiere acht prototypische, abschaltbare Kernbeobachter. Projektkontext: Minimal-KI, reguläre und optional tensorannotierte Skills, beobachtbare Ausführung. Verwende folgende ausgeschriebene Quelladressen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json\n3. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\nGliedere den Arbeits-Prompt in: 1. Ziel und Scope, 2. Ausgangsbestand/Quellen, 3. Eingaben und Schnittstellen, 4. Arbeitsschritte, 5. Risiken und Gegenproben, 6. Liefergegenstände, 7. Tests und Definition of Done, 8. No-Loss-Rückgabe und Versionsstand. Gefordertes Ergebnis: ausführbarer Prototyp mit Schaltern und Logs. Trenne belegte Ergebnisse von Hypothesen. Zuerst nur den vollständigen Arbeits-Prompt erzeugen, nicht behaupten, der Task sei ausgeführt.",
+      "project_id": "MINI-KI",
+      "milestone_id": "OBS-VALIDATION",
+      "priority": "mittel",
+      "task_type": "Forschung und Entwicklung",
+      "definition_of_done": [
+        "ausführbarer Prototyp mit Schaltern und Logs",
+        "Eingabedateien und Versionsstände angegeben",
+        "Mindestens ein Negativ- oder Grenzfalltest dokumentiert",
+        "Ergebnisse mit Herkunft und Prüflog zurückgeführt"
+      ],
+      "dependencies": [
+        "OBS-01"
+      ],
+      "reference_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "instructions": "Vorhandene Vorarbeiten und Versionsstände prüfen; Arbeitsauftrag schrittweise entwickeln; Annahmen, Eingaben, Abhängigkeiten, Tests und Beweisgrenzen dokumentieren.",
+      "deliverables": [
+        "ausführbarer Prototyp mit Schaltern und Logs",
+        "Testprotokoll",
+        "No-Loss-Übergabevermerk"
+      ],
+      "acceptance": "Ergebnis vorhanden, Tests reproduzierbar, Quellen und Abweichungen dokumentiert; PM-Abnahme steht aus.",
+      "collaboration": "Offene Aufgabe; Bearbeitung über GitHub-Issue oder Pull Request mit Task-ID"
     },
     {
       "id": "OBS-03",
@@ -25,7 +75,33 @@
       "goal": "prüfe psychologische und bewusstseinsbezogene Trinitätkandidaten anhand definierter Relationen",
       "result": "Feldakten, wissenschaftliche Abgrenzung, Gegenproben",
       "status": "geplant",
-      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für OBS-03 – Psychologische Trinitätkandidaten relational prüfen. Auftrag: prüfe psychologische und bewusstseinsbezogene Trinitätkandidaten anhand definierter Relationen. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: Feldakten, wissenschaftliche Abgrenzung, Gegenproben. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+      "meta_prompt": "Entwickle einen vollständigen Arbeits-Prompt für den Tensor-Task OBS-03 („Psychologische Trinitätkandidaten relational prüfen“). Ziel: prüfe psychologische und bewusstseinsbezogene Trinitätkandidaten anhand definierter Relationen. Projektkontext: Minimal-KI, reguläre und optional tensorannotierte Skills, beobachtbare Ausführung. Verwende folgende ausgeschriebene Quelladressen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json\n3. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\nGliedere den Arbeits-Prompt in: 1. Ziel und Scope, 2. Ausgangsbestand/Quellen, 3. Eingaben und Schnittstellen, 4. Arbeitsschritte, 5. Risiken und Gegenproben, 6. Liefergegenstände, 7. Tests und Definition of Done, 8. No-Loss-Rückgabe und Versionsstand. Gefordertes Ergebnis: Feldakten, wissenschaftliche Abgrenzung, Gegenproben. Trenne belegte Ergebnisse von Hypothesen. Zuerst nur den vollständigen Arbeits-Prompt erzeugen, nicht behaupten, der Task sei ausgeführt.",
+      "project_id": "MINI-KI",
+      "milestone_id": "OBS-VALIDATION",
+      "priority": "mittel",
+      "task_type": "Forschung und Entwicklung",
+      "definition_of_done": [
+        "Feldakten, wissenschaftliche Abgrenzung, Gegenproben",
+        "Eingabedateien und Versionsstände angegeben",
+        "Mindestens ein Negativ- oder Grenzfalltest dokumentiert",
+        "Ergebnisse mit Herkunft und Prüflog zurückgeführt"
+      ],
+      "dependencies": [
+        "OBS-01"
+      ],
+      "reference_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "instructions": "Vorhandene Vorarbeiten und Versionsstände prüfen; Arbeitsauftrag schrittweise entwickeln; Annahmen, Eingaben, Abhängigkeiten, Tests und Beweisgrenzen dokumentieren.",
+      "deliverables": [
+        "Feldakten, wissenschaftliche Abgrenzung, Gegenproben",
+        "Testprotokoll",
+        "No-Loss-Übergabevermerk"
+      ],
+      "acceptance": "Ergebnis vorhanden, Tests reproduzierbar, Quellen und Abweichungen dokumentiert; PM-Abnahme steht aus.",
+      "collaboration": "Offene Aufgabe; Bearbeitung über GitHub-Issue oder Pull Request mit Task-ID"
     },
     {
       "id": "OBS-04",
@@ -33,7 +109,33 @@
       "goal": "erstelle ein fachlich getrenntes Testmodell für quantenphysikalische Messung, Beobachtungsrückwirkung und Rückkopplung",
       "result": "Simulatorversuch mit Messvertrag und Kontext",
       "status": "geplant",
-      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für OBS-04 – Quantenmessung fachlich modellieren. Auftrag: erstelle ein fachlich getrenntes Testmodell für quantenphysikalische Messung, Beobachtungsrückwirkung und Rückkopplung. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: Simulatorversuch mit Messvertrag und Kontext. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+      "meta_prompt": "Entwickle einen vollständigen Arbeits-Prompt für den Tensor-Task OBS-04 („Quantenmessung fachlich modellieren“). Ziel: erstelle ein fachlich getrenntes Testmodell für quantenphysikalische Messung, Beobachtungsrückwirkung und Rückkopplung. Projektkontext: Minimal-KI, reguläre und optional tensorannotierte Skills, beobachtbare Ausführung. Verwende folgende ausgeschriebene Quelladressen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json\n3. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\nGliedere den Arbeits-Prompt in: 1. Ziel und Scope, 2. Ausgangsbestand/Quellen, 3. Eingaben und Schnittstellen, 4. Arbeitsschritte, 5. Risiken und Gegenproben, 6. Liefergegenstände, 7. Tests und Definition of Done, 8. No-Loss-Rückgabe und Versionsstand. Gefordertes Ergebnis: Simulatorversuch mit Messvertrag und Kontext. Trenne belegte Ergebnisse von Hypothesen. Zuerst nur den vollständigen Arbeits-Prompt erzeugen, nicht behaupten, der Task sei ausgeführt.",
+      "project_id": "MINI-KI",
+      "milestone_id": "OBS-VALIDATION",
+      "priority": "mittel",
+      "task_type": "Forschung und Entwicklung",
+      "definition_of_done": [
+        "Simulatorversuch mit Messvertrag und Kontext",
+        "Eingabedateien und Versionsstände angegeben",
+        "Mindestens ein Negativ- oder Grenzfalltest dokumentiert",
+        "Ergebnisse mit Herkunft und Prüflog zurückgeführt"
+      ],
+      "dependencies": [
+        "OBS-01"
+      ],
+      "reference_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "instructions": "Vorhandene Vorarbeiten und Versionsstände prüfen; Arbeitsauftrag schrittweise entwickeln; Annahmen, Eingaben, Abhängigkeiten, Tests und Beweisgrenzen dokumentieren.",
+      "deliverables": [
+        "Simulatorversuch mit Messvertrag und Kontext",
+        "Testprotokoll",
+        "No-Loss-Übergabevermerk"
+      ],
+      "acceptance": "Ergebnis vorhanden, Tests reproduzierbar, Quellen und Abweichungen dokumentiert; PM-Abnahme steht aus.",
+      "collaboration": "Offene Aufgabe; Bearbeitung über GitHub-Issue oder Pull Request mit Task-ID"
     },
     {
       "id": "OBS-05",
@@ -41,7 +143,33 @@
       "goal": "messe den marginalen Nutzen jedes Beobachters mittels Ablation und paarweisen Wechselwirkungen",
       "result": "Messmatrix 0/3/9/27/54/99, statistische Tests",
       "status": "geplant",
-      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für OBS-05 – Ablation und Beitrag je Beobachter messen. Auftrag: messe den marginalen Nutzen jedes Beobachters mittels Ablation und paarweisen Wechselwirkungen. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: Messmatrix 0/3/9/27/54/99, statistische Tests. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+      "meta_prompt": "Entwickle einen vollständigen Arbeits-Prompt für den Tensor-Task OBS-05 („Ablation und Beitrag je Beobachter messen“). Ziel: messe den marginalen Nutzen jedes Beobachters mittels Ablation und paarweisen Wechselwirkungen. Projektkontext: Minimal-KI, reguläre und optional tensorannotierte Skills, beobachtbare Ausführung. Verwende folgende ausgeschriebene Quelladressen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json\n3. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\nGliedere den Arbeits-Prompt in: 1. Ziel und Scope, 2. Ausgangsbestand/Quellen, 3. Eingaben und Schnittstellen, 4. Arbeitsschritte, 5. Risiken und Gegenproben, 6. Liefergegenstände, 7. Tests und Definition of Done, 8. No-Loss-Rückgabe und Versionsstand. Gefordertes Ergebnis: Messmatrix 0/3/9/27/54/99, statistische Tests. Trenne belegte Ergebnisse von Hypothesen. Zuerst nur den vollständigen Arbeits-Prompt erzeugen, nicht behaupten, der Task sei ausgeführt.",
+      "project_id": "MINI-KI",
+      "milestone_id": "OBS-VALIDATION",
+      "priority": "mittel",
+      "task_type": "Forschung und Entwicklung",
+      "definition_of_done": [
+        "Messmatrix 0/3/9/27/54/99, statistische Tests",
+        "Eingabedateien und Versionsstände angegeben",
+        "Mindestens ein Negativ- oder Grenzfalltest dokumentiert",
+        "Ergebnisse mit Herkunft und Prüflog zurückgeführt"
+      ],
+      "dependencies": [
+        "OBS-01"
+      ],
+      "reference_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "instructions": "Vorhandene Vorarbeiten und Versionsstände prüfen; Arbeitsauftrag schrittweise entwickeln; Annahmen, Eingaben, Abhängigkeiten, Tests und Beweisgrenzen dokumentieren.",
+      "deliverables": [
+        "Messmatrix 0/3/9/27/54/99, statistische Tests",
+        "Testprotokoll",
+        "No-Loss-Übergabevermerk"
+      ],
+      "acceptance": "Ergebnis vorhanden, Tests reproduzierbar, Quellen und Abweichungen dokumentiert; PM-Abnahme steht aus.",
+      "collaboration": "Offene Aufgabe; Bearbeitung über GitHub-Issue oder Pull Request mit Task-ID"
     },
     {
       "id": "SKL-01",
@@ -49,7 +177,31 @@
       "goal": "entwickle einen Adapter für allgemeine Skills, Skripte und MCP-Werkzeuge",
       "result": "typisierter Adapter und sichere Ausführung",
       "status": "geplant",
-      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für SKL-01 – Standard-Skill-Adapter und MCP. Auftrag: entwickle einen Adapter für allgemeine Skills, Skripte und MCP-Werkzeuge. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: typisierter Adapter und sichere Ausführung. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+      "meta_prompt": "Entwickle einen vollständigen Arbeits-Prompt für den Tensor-Task SKL-01 („Standard-Skill-Adapter und MCP“). Ziel: entwickle einen Adapter für allgemeine Skills, Skripte und MCP-Werkzeuge. Projektkontext: Minimal-KI, reguläre und optional tensorannotierte Skills, beobachtbare Ausführung. Verwende folgende ausgeschriebene Quelladressen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json\n3. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\nGliedere den Arbeits-Prompt in: 1. Ziel und Scope, 2. Ausgangsbestand/Quellen, 3. Eingaben und Schnittstellen, 4. Arbeitsschritte, 5. Risiken und Gegenproben, 6. Liefergegenstände, 7. Tests und Definition of Done, 8. No-Loss-Rückgabe und Versionsstand. Gefordertes Ergebnis: typisierter Adapter und sichere Ausführung. Trenne belegte Ergebnisse von Hypothesen. Zuerst nur den vollständigen Arbeits-Prompt erzeugen, nicht behaupten, der Task sei ausgeführt.",
+      "project_id": "MINI-KI",
+      "milestone_id": "SKL-VALIDATION",
+      "priority": "hoch",
+      "task_type": "Forschung und Entwicklung",
+      "definition_of_done": [
+        "typisierter Adapter und sichere Ausführung",
+        "Eingabedateien und Versionsstände angegeben",
+        "Mindestens ein Negativ- oder Grenzfalltest dokumentiert",
+        "Ergebnisse mit Herkunft und Prüflog zurückgeführt"
+      ],
+      "dependencies": [],
+      "reference_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "instructions": "Vorhandene Vorarbeiten und Versionsstände prüfen; Arbeitsauftrag schrittweise entwickeln; Annahmen, Eingaben, Abhängigkeiten, Tests und Beweisgrenzen dokumentieren.",
+      "deliverables": [
+        "typisierter Adapter und sichere Ausführung",
+        "Testprotokoll",
+        "No-Loss-Übergabevermerk"
+      ],
+      "acceptance": "Ergebnis vorhanden, Tests reproduzierbar, Quellen und Abweichungen dokumentiert; PM-Abnahme steht aus.",
+      "collaboration": "Offene Aufgabe; Bearbeitung über GitHub-Issue oder Pull Request mit Task-ID"
     },
     {
       "id": "SKL-02",
@@ -57,7 +209,33 @@
       "goal": "definiere optionale Tensorannotationen für beliebige Skills",
       "result": "versionsfähiges Mapping-Schema für 27 Felder",
       "status": "geplant",
-      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für SKL-02 – Optionale Tensorannotation. Auftrag: definiere optionale Tensorannotationen für beliebige Skills. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: versionsfähiges Mapping-Schema für 27 Felder. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+      "meta_prompt": "Entwickle einen vollständigen Arbeits-Prompt für den Tensor-Task SKL-02 („Optionale Tensorannotation“). Ziel: definiere optionale Tensorannotationen für beliebige Skills. Projektkontext: Minimal-KI, reguläre und optional tensorannotierte Skills, beobachtbare Ausführung. Verwende folgende ausgeschriebene Quelladressen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json\n3. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\nGliedere den Arbeits-Prompt in: 1. Ziel und Scope, 2. Ausgangsbestand/Quellen, 3. Eingaben und Schnittstellen, 4. Arbeitsschritte, 5. Risiken und Gegenproben, 6. Liefergegenstände, 7. Tests und Definition of Done, 8. No-Loss-Rückgabe und Versionsstand. Gefordertes Ergebnis: versionsfähiges Mapping-Schema für 27 Felder. Trenne belegte Ergebnisse von Hypothesen. Zuerst nur den vollständigen Arbeits-Prompt erzeugen, nicht behaupten, der Task sei ausgeführt.",
+      "project_id": "MINI-KI",
+      "milestone_id": "SKL-VALIDATION",
+      "priority": "mittel",
+      "task_type": "Forschung und Entwicklung",
+      "definition_of_done": [
+        "versionsfähiges Mapping-Schema für 27 Felder",
+        "Eingabedateien und Versionsstände angegeben",
+        "Mindestens ein Negativ- oder Grenzfalltest dokumentiert",
+        "Ergebnisse mit Herkunft und Prüflog zurückgeführt"
+      ],
+      "dependencies": [
+        "SKL-01"
+      ],
+      "reference_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "instructions": "Vorhandene Vorarbeiten und Versionsstände prüfen; Arbeitsauftrag schrittweise entwickeln; Annahmen, Eingaben, Abhängigkeiten, Tests und Beweisgrenzen dokumentieren.",
+      "deliverables": [
+        "versionsfähiges Mapping-Schema für 27 Felder",
+        "Testprotokoll",
+        "No-Loss-Übergabevermerk"
+      ],
+      "acceptance": "Ergebnis vorhanden, Tests reproduzierbar, Quellen und Abweichungen dokumentiert; PM-Abnahme steht aus.",
+      "collaboration": "Offene Aufgabe; Bearbeitung über GitHub-Issue oder Pull Request mit Task-ID"
     },
     {
       "id": "SKL-03",
@@ -65,7 +243,33 @@
       "goal": "entwickle sequenzielle, parallele, bedingte und rückgekoppelte Skillkomposition mit Rollback",
       "result": "ausführbare Kompositionsfälle und Wiederherstellung",
       "status": "geplant",
-      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für SKL-03 – Komposition und Rollback. Auftrag: entwickle sequenzielle, parallele, bedingte und rückgekoppelte Skillkomposition mit Rollback. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: ausführbare Kompositionsfälle und Wiederherstellung. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+      "meta_prompt": "Entwickle einen vollständigen Arbeits-Prompt für den Tensor-Task SKL-03 („Komposition und Rollback“). Ziel: entwickle sequenzielle, parallele, bedingte und rückgekoppelte Skillkomposition mit Rollback. Projektkontext: Minimal-KI, reguläre und optional tensorannotierte Skills, beobachtbare Ausführung. Verwende folgende ausgeschriebene Quelladressen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json\n3. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\nGliedere den Arbeits-Prompt in: 1. Ziel und Scope, 2. Ausgangsbestand/Quellen, 3. Eingaben und Schnittstellen, 4. Arbeitsschritte, 5. Risiken und Gegenproben, 6. Liefergegenstände, 7. Tests und Definition of Done, 8. No-Loss-Rückgabe und Versionsstand. Gefordertes Ergebnis: ausführbare Kompositionsfälle und Wiederherstellung. Trenne belegte Ergebnisse von Hypothesen. Zuerst nur den vollständigen Arbeits-Prompt erzeugen, nicht behaupten, der Task sei ausgeführt.",
+      "project_id": "MINI-KI",
+      "milestone_id": "SKL-VALIDATION",
+      "priority": "mittel",
+      "task_type": "Forschung und Entwicklung",
+      "definition_of_done": [
+        "ausführbare Kompositionsfälle und Wiederherstellung",
+        "Eingabedateien und Versionsstände angegeben",
+        "Mindestens ein Negativ- oder Grenzfalltest dokumentiert",
+        "Ergebnisse mit Herkunft und Prüflog zurückgeführt"
+      ],
+      "dependencies": [
+        "SKL-01"
+      ],
+      "reference_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "instructions": "Vorhandene Vorarbeiten und Versionsstände prüfen; Arbeitsauftrag schrittweise entwickeln; Annahmen, Eingaben, Abhängigkeiten, Tests und Beweisgrenzen dokumentieren.",
+      "deliverables": [
+        "ausführbare Kompositionsfälle und Wiederherstellung",
+        "Testprotokoll",
+        "No-Loss-Übergabevermerk"
+      ],
+      "acceptance": "Ergebnis vorhanden, Tests reproduzierbar, Quellen und Abweichungen dokumentiert; PM-Abnahme steht aus.",
+      "collaboration": "Offene Aufgabe; Bearbeitung über GitHub-Issue oder Pull Request mit Task-ID"
     },
     {
       "id": "SKL-04",
@@ -73,7 +277,33 @@
       "goal": "entwickle sichere Skillvarianten und einen regressionsbasierten Verbesserungszyklus",
       "result": "Vorher-nachher-Metriken und Rückrolltest",
       "status": "geplant",
-      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für SKL-04 – Optimierung und Regressionstests. Auftrag: entwickle sichere Skillvarianten und einen regressionsbasierten Verbesserungszyklus. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: Vorher-nachher-Metriken und Rückrolltest. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+      "meta_prompt": "Entwickle einen vollständigen Arbeits-Prompt für den Tensor-Task SKL-04 („Optimierung und Regressionstests“). Ziel: entwickle sichere Skillvarianten und einen regressionsbasierten Verbesserungszyklus. Projektkontext: Minimal-KI, reguläre und optional tensorannotierte Skills, beobachtbare Ausführung. Verwende folgende ausgeschriebene Quelladressen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json\n3. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\nGliedere den Arbeits-Prompt in: 1. Ziel und Scope, 2. Ausgangsbestand/Quellen, 3. Eingaben und Schnittstellen, 4. Arbeitsschritte, 5. Risiken und Gegenproben, 6. Liefergegenstände, 7. Tests und Definition of Done, 8. No-Loss-Rückgabe und Versionsstand. Gefordertes Ergebnis: Vorher-nachher-Metriken und Rückrolltest. Trenne belegte Ergebnisse von Hypothesen. Zuerst nur den vollständigen Arbeits-Prompt erzeugen, nicht behaupten, der Task sei ausgeführt.",
+      "project_id": "MINI-KI",
+      "milestone_id": "SKL-VALIDATION",
+      "priority": "mittel",
+      "task_type": "Forschung und Entwicklung",
+      "definition_of_done": [
+        "Vorher-nachher-Metriken und Rückrolltest",
+        "Eingabedateien und Versionsstände angegeben",
+        "Mindestens ein Negativ- oder Grenzfalltest dokumentiert",
+        "Ergebnisse mit Herkunft und Prüflog zurückgeführt"
+      ],
+      "dependencies": [
+        "SKL-01"
+      ],
+      "reference_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "instructions": "Vorhandene Vorarbeiten und Versionsstände prüfen; Arbeitsauftrag schrittweise entwickeln; Annahmen, Eingaben, Abhängigkeiten, Tests und Beweisgrenzen dokumentieren.",
+      "deliverables": [
+        "Vorher-nachher-Metriken und Rückrolltest",
+        "Testprotokoll",
+        "No-Loss-Übergabevermerk"
+      ],
+      "acceptance": "Ergebnis vorhanden, Tests reproduzierbar, Quellen und Abweichungen dokumentiert; PM-Abnahme steht aus.",
+      "collaboration": "Offene Aufgabe; Bearbeitung über GitHub-Issue oder Pull Request mit Task-ID"
     },
     {
       "id": "PRD-01",
@@ -81,7 +311,35 @@
       "goal": "entwickle ein Modell zur Vorhersage der Folgen eigener Aktionen",
       "result": "Zustand-Aktion-Folge-Protokoll",
       "status": "geplant",
-      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für PRD-01 – Handlungsfolgen-Vorhersagemodell. Auftrag: entwickle ein Modell zur Vorhersage der Folgen eigener Aktionen. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: Zustand-Aktion-Folge-Protokoll. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+      "meta_prompt": "Entwickle einen vollständigen Arbeits-Prompt für den Tensor-Task PRD-01 („Handlungsfolgen-Vorhersagemodell“). Ziel: entwickle ein Modell zur Vorhersage der Folgen eigener Aktionen. Projektkontext: Minimal-KI, reguläre und optional tensorannotierte Skills, beobachtbare Ausführung. Verwende folgende ausgeschriebene Quelladressen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json\n3. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. https://github.com/Memnosis/relationalitaet/tree/main/forschung/geoki/v0_4\nGliedere den Arbeits-Prompt in: 1. Ziel und Scope, 2. Ausgangsbestand/Quellen, 3. Eingaben und Schnittstellen, 4. Arbeitsschritte, 5. Risiken und Gegenproben, 6. Liefergegenstände, 7. Tests und Definition of Done, 8. No-Loss-Rückgabe und Versionsstand. Gefordertes Ergebnis: Zustand-Aktion-Folge-Protokoll. Trenne belegte Ergebnisse von Hypothesen. Zuerst nur den vollständigen Arbeits-Prompt erzeugen, nicht behaupten, der Task sei ausgeführt.",
+      "project_id": "MINI-KI",
+      "milestone_id": "PRD-VALIDATION",
+      "priority": "mittel",
+      "task_type": "Forschung und Entwicklung",
+      "definition_of_done": [
+        "Zustand-Aktion-Folge-Protokoll",
+        "Eingabedateien und Versionsstände angegeben",
+        "Mindestens ein Negativ- oder Grenzfalltest dokumentiert",
+        "Ergebnisse mit Herkunft und Prüflog zurückgeführt"
+      ],
+      "dependencies": [
+        "SKL-01",
+        "OBS-01"
+      ],
+      "reference_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html",
+        "https://github.com/Memnosis/relationalitaet/tree/main/forschung/geoki/v0_4"
+      ],
+      "instructions": "Vorhandene Vorarbeiten und Versionsstände prüfen; Arbeitsauftrag schrittweise entwickeln; Annahmen, Eingaben, Abhängigkeiten, Tests und Beweisgrenzen dokumentieren.",
+      "deliverables": [
+        "Zustand-Aktion-Folge-Protokoll",
+        "Testprotokoll",
+        "No-Loss-Übergabevermerk"
+      ],
+      "acceptance": "Ergebnis vorhanden, Tests reproduzierbar, Quellen und Abweichungen dokumentiert; PM-Abnahme steht aus.",
+      "collaboration": "Offene Aufgabe; Bearbeitung über GitHub-Issue oder Pull Request mit Task-ID"
     },
     {
       "id": "PRD-02",
@@ -89,7 +347,35 @@
       "goal": "kalibriere die Handlungsfolgenprädiktion mit geometrischen Geo-KI-Operatoren",
       "result": "Messung von Vorhersagefehlern und Operator-Gegenproben",
       "status": "geplant",
-      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für PRD-02 – Geo-KI als Kalibrierung. Auftrag: kalibriere die Handlungsfolgenprädiktion mit geometrischen Geo-KI-Operatoren. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: Messung von Vorhersagefehlern und Operator-Gegenproben. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+      "meta_prompt": "Entwickle einen vollständigen Arbeits-Prompt für den Tensor-Task PRD-02 („Geo-KI als Kalibrierung“). Ziel: kalibriere die Handlungsfolgenprädiktion mit geometrischen Geo-KI-Operatoren. Projektkontext: Minimal-KI, reguläre und optional tensorannotierte Skills, beobachtbare Ausführung. Verwende folgende ausgeschriebene Quelladressen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json\n3. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. https://github.com/Memnosis/relationalitaet/tree/main/forschung/geoki/v0_4\nGliedere den Arbeits-Prompt in: 1. Ziel und Scope, 2. Ausgangsbestand/Quellen, 3. Eingaben und Schnittstellen, 4. Arbeitsschritte, 5. Risiken und Gegenproben, 6. Liefergegenstände, 7. Tests und Definition of Done, 8. No-Loss-Rückgabe und Versionsstand. Gefordertes Ergebnis: Messung von Vorhersagefehlern und Operator-Gegenproben. Trenne belegte Ergebnisse von Hypothesen. Zuerst nur den vollständigen Arbeits-Prompt erzeugen, nicht behaupten, der Task sei ausgeführt.",
+      "project_id": "MINI-KI",
+      "milestone_id": "PRD-VALIDATION",
+      "priority": "mittel",
+      "task_type": "Forschung und Entwicklung",
+      "definition_of_done": [
+        "Messung von Vorhersagefehlern und Operator-Gegenproben",
+        "Eingabedateien und Versionsstände angegeben",
+        "Mindestens ein Negativ- oder Grenzfalltest dokumentiert",
+        "Ergebnisse mit Herkunft und Prüflog zurückgeführt"
+      ],
+      "dependencies": [
+        "SKL-01",
+        "OBS-01"
+      ],
+      "reference_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html",
+        "https://github.com/Memnosis/relationalitaet/tree/main/forschung/geoki/v0_4"
+      ],
+      "instructions": "Vorhandene Vorarbeiten und Versionsstände prüfen; Arbeitsauftrag schrittweise entwickeln; Annahmen, Eingaben, Abhängigkeiten, Tests und Beweisgrenzen dokumentieren.",
+      "deliverables": [
+        "Messung von Vorhersagefehlern und Operator-Gegenproben",
+        "Testprotokoll",
+        "No-Loss-Übergabevermerk"
+      ],
+      "acceptance": "Ergebnis vorhanden, Tests reproduzierbar, Quellen und Abweichungen dokumentiert; PM-Abnahme steht aus.",
+      "collaboration": "Offene Aufgabe; Bearbeitung über GitHub-Issue oder Pull Request mit Task-ID"
     },
     {
       "id": "EXT-01",
@@ -97,7 +383,33 @@
       "goal": "vergleiche Quantenbibliotheken als harvestbare wissenschaftliche Skills",
       "result": "Qiskit, Cirq, PennyLane, QuTiP im Prüfregister",
       "status": "geplant",
-      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für EXT-01 – Quantenbibliotheken vergleichen. Auftrag: vergleiche Quantenbibliotheken als harvestbare wissenschaftliche Skills. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: Qiskit, Cirq, PennyLane, QuTiP im Prüfregister. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+      "meta_prompt": "Entwickle einen vollständigen Arbeits-Prompt für den Tensor-Task EXT-01 („Quantenbibliotheken vergleichen“). Ziel: vergleiche Quantenbibliotheken als harvestbare wissenschaftliche Skills. Projektkontext: Minimal-KI, reguläre und optional tensorannotierte Skills, beobachtbare Ausführung. Verwende folgende ausgeschriebene Quelladressen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json\n3. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\nGliedere den Arbeits-Prompt in: 1. Ziel und Scope, 2. Ausgangsbestand/Quellen, 3. Eingaben und Schnittstellen, 4. Arbeitsschritte, 5. Risiken und Gegenproben, 6. Liefergegenstände, 7. Tests und Definition of Done, 8. No-Loss-Rückgabe und Versionsstand. Gefordertes Ergebnis: Qiskit, Cirq, PennyLane, QuTiP im Prüfregister. Trenne belegte Ergebnisse von Hypothesen. Zuerst nur den vollständigen Arbeits-Prompt erzeugen, nicht behaupten, der Task sei ausgeführt.",
+      "project_id": "MINI-KI",
+      "milestone_id": "EXT-VALIDATION",
+      "priority": "mittel",
+      "task_type": "Forschung und Entwicklung",
+      "definition_of_done": [
+        "Qiskit, Cirq, PennyLane, QuTiP im Prüfregister",
+        "Eingabedateien und Versionsstände angegeben",
+        "Mindestens ein Negativ- oder Grenzfalltest dokumentiert",
+        "Ergebnisse mit Herkunft und Prüflog zurückgeführt"
+      ],
+      "dependencies": [
+        "SKL-01"
+      ],
+      "reference_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "instructions": "Vorhandene Vorarbeiten und Versionsstände prüfen; Arbeitsauftrag schrittweise entwickeln; Annahmen, Eingaben, Abhängigkeiten, Tests und Beweisgrenzen dokumentieren.",
+      "deliverables": [
+        "Qiskit, Cirq, PennyLane, QuTiP im Prüfregister",
+        "Testprotokoll",
+        "No-Loss-Übergabevermerk"
+      ],
+      "acceptance": "Ergebnis vorhanden, Tests reproduzierbar, Quellen und Abweichungen dokumentiert; PM-Abnahme steht aus.",
+      "collaboration": "Offene Aufgabe; Bearbeitung über GitHub-Issue oder Pull Request mit Task-ID"
     },
     {
       "id": "EXT-02",
@@ -105,7 +417,33 @@
       "goal": "erstelle eine vergleichbare Testmatrix frei zugänglicher Sprach- und Übersetzungsressourcen",
       "result": "Lizenz-, Abdeckungs- und Qualitätsmatrix",
       "status": "geplant",
-      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für EXT-02 – Freie Sprachressourcen prüfen. Auftrag: erstelle eine vergleichbare Testmatrix frei zugänglicher Sprach- und Übersetzungsressourcen. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: Lizenz-, Abdeckungs- und Qualitätsmatrix. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+      "meta_prompt": "Entwickle einen vollständigen Arbeits-Prompt für den Tensor-Task EXT-02 („Freie Sprachressourcen prüfen“). Ziel: erstelle eine vergleichbare Testmatrix frei zugänglicher Sprach- und Übersetzungsressourcen. Projektkontext: Minimal-KI, reguläre und optional tensorannotierte Skills, beobachtbare Ausführung. Verwende folgende ausgeschriebene Quelladressen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json\n3. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\nGliedere den Arbeits-Prompt in: 1. Ziel und Scope, 2. Ausgangsbestand/Quellen, 3. Eingaben und Schnittstellen, 4. Arbeitsschritte, 5. Risiken und Gegenproben, 6. Liefergegenstände, 7. Tests und Definition of Done, 8. No-Loss-Rückgabe und Versionsstand. Gefordertes Ergebnis: Lizenz-, Abdeckungs- und Qualitätsmatrix. Trenne belegte Ergebnisse von Hypothesen. Zuerst nur den vollständigen Arbeits-Prompt erzeugen, nicht behaupten, der Task sei ausgeführt.",
+      "project_id": "MINI-KI",
+      "milestone_id": "EXT-VALIDATION",
+      "priority": "mittel",
+      "task_type": "Forschung und Entwicklung",
+      "definition_of_done": [
+        "Lizenz-, Abdeckungs- und Qualitätsmatrix",
+        "Eingabedateien und Versionsstände angegeben",
+        "Mindestens ein Negativ- oder Grenzfalltest dokumentiert",
+        "Ergebnisse mit Herkunft und Prüflog zurückgeführt"
+      ],
+      "dependencies": [
+        "SKL-01"
+      ],
+      "reference_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "instructions": "Vorhandene Vorarbeiten und Versionsstände prüfen; Arbeitsauftrag schrittweise entwickeln; Annahmen, Eingaben, Abhängigkeiten, Tests und Beweisgrenzen dokumentieren.",
+      "deliverables": [
+        "Lizenz-, Abdeckungs- und Qualitätsmatrix",
+        "Testprotokoll",
+        "No-Loss-Übergabevermerk"
+      ],
+      "acceptance": "Ergebnis vorhanden, Tests reproduzierbar, Quellen und Abweichungen dokumentiert; PM-Abnahme steht aus.",
+      "collaboration": "Offene Aufgabe; Bearbeitung über GitHub-Issue oder Pull Request mit Task-ID"
     },
     {
       "id": "M20K-01",
@@ -113,7 +451,33 @@
       "goal": "generiere und prüfe ein Register mit 20.000 typisierten Skillobjekten",
       "result": "Index-, Suche-, Dubletten- und Schema-Benchmark",
       "status": "geplant",
-      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für M20K-01 – 20.000-Skillregister. Auftrag: generiere und prüfe ein Register mit 20.000 typisierten Skillobjekten. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: Index-, Suche-, Dubletten- und Schema-Benchmark. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+      "meta_prompt": "Entwickle einen vollständigen Arbeits-Prompt für den Tensor-Task M20K-01 („20.000-Skillregister“). Ziel: generiere und prüfe ein Register mit 20.000 typisierten Skillobjekten. Projektkontext: Minimal-KI, reguläre und optional tensorannotierte Skills, beobachtbare Ausführung. Verwende folgende ausgeschriebene Quelladressen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json\n3. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\nGliedere den Arbeits-Prompt in: 1. Ziel und Scope, 2. Ausgangsbestand/Quellen, 3. Eingaben und Schnittstellen, 4. Arbeitsschritte, 5. Risiken und Gegenproben, 6. Liefergegenstände, 7. Tests und Definition of Done, 8. No-Loss-Rückgabe und Versionsstand. Gefordertes Ergebnis: Index-, Suche-, Dubletten- und Schema-Benchmark. Trenne belegte Ergebnisse von Hypothesen. Zuerst nur den vollständigen Arbeits-Prompt erzeugen, nicht behaupten, der Task sei ausgeführt.",
+      "project_id": "MINI-KI",
+      "milestone_id": "M20K",
+      "priority": "mittel",
+      "task_type": "Forschung und Entwicklung",
+      "definition_of_done": [
+        "Index-, Suche-, Dubletten- und Schema-Benchmark",
+        "Eingabedateien und Versionsstände angegeben",
+        "Mindestens ein Negativ- oder Grenzfalltest dokumentiert",
+        "Ergebnisse mit Herkunft und Prüflog zurückgeführt"
+      ],
+      "dependencies": [
+        "SKL-01"
+      ],
+      "reference_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "instructions": "Vorhandene Vorarbeiten und Versionsstände prüfen; Arbeitsauftrag schrittweise entwickeln; Annahmen, Eingaben, Abhängigkeiten, Tests und Beweisgrenzen dokumentieren.",
+      "deliverables": [
+        "Index-, Suche-, Dubletten- und Schema-Benchmark",
+        "Testprotokoll",
+        "No-Loss-Übergabevermerk"
+      ],
+      "acceptance": "Ergebnis vorhanden, Tests reproduzierbar, Quellen und Abweichungen dokumentiert; PM-Abnahme steht aus.",
+      "collaboration": "Offene Aufgabe; Bearbeitung über GitHub-Issue oder Pull Request mit Task-ID"
     },
     {
       "id": "M20K-02",
@@ -121,7 +485,33 @@
       "goal": "prüfe eine kontrollierte echte Teilmenge des 20.000-Skillregisters",
       "result": "Ausführungsquote, Ressourcen und Fehlerraten",
       "status": "geplant",
-      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für M20K-02 – Ausführbare Teilmenge testen. Auftrag: prüfe eine kontrollierte echte Teilmenge des 20.000-Skillregisters. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: Ausführungsquote, Ressourcen und Fehlerraten. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+      "meta_prompt": "Entwickle einen vollständigen Arbeits-Prompt für den Tensor-Task M20K-02 („Ausführbare Teilmenge testen“). Ziel: prüfe eine kontrollierte echte Teilmenge des 20.000-Skillregisters. Projektkontext: Minimal-KI, reguläre und optional tensorannotierte Skills, beobachtbare Ausführung. Verwende folgende ausgeschriebene Quelladressen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json\n3. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\nGliedere den Arbeits-Prompt in: 1. Ziel und Scope, 2. Ausgangsbestand/Quellen, 3. Eingaben und Schnittstellen, 4. Arbeitsschritte, 5. Risiken und Gegenproben, 6. Liefergegenstände, 7. Tests und Definition of Done, 8. No-Loss-Rückgabe und Versionsstand. Gefordertes Ergebnis: Ausführungsquote, Ressourcen und Fehlerraten. Trenne belegte Ergebnisse von Hypothesen. Zuerst nur den vollständigen Arbeits-Prompt erzeugen, nicht behaupten, der Task sei ausgeführt.",
+      "project_id": "MINI-KI",
+      "milestone_id": "M20K",
+      "priority": "mittel",
+      "task_type": "Forschung und Entwicklung",
+      "definition_of_done": [
+        "Ausführungsquote, Ressourcen und Fehlerraten",
+        "Eingabedateien und Versionsstände angegeben",
+        "Mindestens ein Negativ- oder Grenzfalltest dokumentiert",
+        "Ergebnisse mit Herkunft und Prüflog zurückgeführt"
+      ],
+      "dependencies": [
+        "SKL-01"
+      ],
+      "reference_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "instructions": "Vorhandene Vorarbeiten und Versionsstände prüfen; Arbeitsauftrag schrittweise entwickeln; Annahmen, Eingaben, Abhängigkeiten, Tests und Beweisgrenzen dokumentieren.",
+      "deliverables": [
+        "Ausführungsquote, Ressourcen und Fehlerraten",
+        "Testprotokoll",
+        "No-Loss-Übergabevermerk"
+      ],
+      "acceptance": "Ergebnis vorhanden, Tests reproduzierbar, Quellen und Abweichungen dokumentiert; PM-Abnahme steht aus.",
+      "collaboration": "Offene Aufgabe; Bearbeitung über GitHub-Issue oder Pull Request mit Task-ID"
     },
     {
       "id": "M20K-03",
@@ -129,7 +519,33 @@
       "goal": "weise neu lösbare Aufgabenklassen durch Skillkomposition gegenüber Baselines nach",
       "result": "blind getestete Aufgabenfamilien und Vergleichsresultate",
       "status": "geplant",
-      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für M20K-03 – Neue Aufgabenklassen nachweisen. Auftrag: weise neu lösbare Aufgabenklassen durch Skillkomposition gegenüber Baselines nach. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: blind getestete Aufgabenfamilien und Vergleichsresultate. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+      "meta_prompt": "Entwickle einen vollständigen Arbeits-Prompt für den Tensor-Task M20K-03 („Neue Aufgabenklassen nachweisen“). Ziel: weise neu lösbare Aufgabenklassen durch Skillkomposition gegenüber Baselines nach. Projektkontext: Minimal-KI, reguläre und optional tensorannotierte Skills, beobachtbare Ausführung. Verwende folgende ausgeschriebene Quelladressen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json\n3. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\nGliedere den Arbeits-Prompt in: 1. Ziel und Scope, 2. Ausgangsbestand/Quellen, 3. Eingaben und Schnittstellen, 4. Arbeitsschritte, 5. Risiken und Gegenproben, 6. Liefergegenstände, 7. Tests und Definition of Done, 8. No-Loss-Rückgabe und Versionsstand. Gefordertes Ergebnis: blind getestete Aufgabenfamilien und Vergleichsresultate. Trenne belegte Ergebnisse von Hypothesen. Zuerst nur den vollständigen Arbeits-Prompt erzeugen, nicht behaupten, der Task sei ausgeführt.",
+      "project_id": "MINI-KI",
+      "milestone_id": "M20K",
+      "priority": "mittel",
+      "task_type": "Forschung und Entwicklung",
+      "definition_of_done": [
+        "blind getestete Aufgabenfamilien und Vergleichsresultate",
+        "Eingabedateien und Versionsstände angegeben",
+        "Mindestens ein Negativ- oder Grenzfalltest dokumentiert",
+        "Ergebnisse mit Herkunft und Prüflog zurückgeführt"
+      ],
+      "dependencies": [
+        "SKL-01"
+      ],
+      "reference_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "instructions": "Vorhandene Vorarbeiten und Versionsstände prüfen; Arbeitsauftrag schrittweise entwickeln; Annahmen, Eingaben, Abhängigkeiten, Tests und Beweisgrenzen dokumentieren.",
+      "deliverables": [
+        "blind getestete Aufgabenfamilien und Vergleichsresultate",
+        "Testprotokoll",
+        "No-Loss-Übergabevermerk"
+      ],
+      "acceptance": "Ergebnis vorhanden, Tests reproduzierbar, Quellen und Abweichungen dokumentiert; PM-Abnahme steht aus.",
+      "collaboration": "Offene Aufgabe; Bearbeitung über GitHub-Issue oder Pull Request mit Task-ID"
     },
     {
       "id": "M20K-04",
@@ -137,7 +553,33 @@
       "goal": "bestimme mittels Ablation minimale aktive Skillkonfigurationen",
       "result": "Pareto-Front aus Qualität, Umfang, Zeit, Robustheit",
       "status": "geplant",
-      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für M20K-04 – Minimal-Skillset durch Ablation. Auftrag: bestimme mittels Ablation minimale aktive Skillkonfigurationen. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: Pareto-Front aus Qualität, Umfang, Zeit, Robustheit. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+      "meta_prompt": "Entwickle einen vollständigen Arbeits-Prompt für den Tensor-Task M20K-04 („Minimal-Skillset durch Ablation“). Ziel: bestimme mittels Ablation minimale aktive Skillkonfigurationen. Projektkontext: Minimal-KI, reguläre und optional tensorannotierte Skills, beobachtbare Ausführung. Verwende folgende ausgeschriebene Quelladressen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json\n3. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\nGliedere den Arbeits-Prompt in: 1. Ziel und Scope, 2. Ausgangsbestand/Quellen, 3. Eingaben und Schnittstellen, 4. Arbeitsschritte, 5. Risiken und Gegenproben, 6. Liefergegenstände, 7. Tests und Definition of Done, 8. No-Loss-Rückgabe und Versionsstand. Gefordertes Ergebnis: Pareto-Front aus Qualität, Umfang, Zeit, Robustheit. Trenne belegte Ergebnisse von Hypothesen. Zuerst nur den vollständigen Arbeits-Prompt erzeugen, nicht behaupten, der Task sei ausgeführt.",
+      "project_id": "MINI-KI",
+      "milestone_id": "M20K",
+      "priority": "mittel",
+      "task_type": "Forschung und Entwicklung",
+      "definition_of_done": [
+        "Pareto-Front aus Qualität, Umfang, Zeit, Robustheit",
+        "Eingabedateien und Versionsstände angegeben",
+        "Mindestens ein Negativ- oder Grenzfalltest dokumentiert",
+        "Ergebnisse mit Herkunft und Prüflog zurückgeführt"
+      ],
+      "dependencies": [
+        "SKL-01"
+      ],
+      "reference_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "instructions": "Vorhandene Vorarbeiten und Versionsstände prüfen; Arbeitsauftrag schrittweise entwickeln; Annahmen, Eingaben, Abhängigkeiten, Tests und Beweisgrenzen dokumentieren.",
+      "deliverables": [
+        "Pareto-Front aus Qualität, Umfang, Zeit, Robustheit",
+        "Testprotokoll",
+        "No-Loss-Übergabevermerk"
+      ],
+      "acceptance": "Ergebnis vorhanden, Tests reproduzierbar, Quellen und Abweichungen dokumentiert; PM-Abnahme steht aus.",
+      "collaboration": "Offene Aufgabe; Bearbeitung über GitHub-Issue oder Pull Request mit Task-ID"
     },
     {
       "id": "WEB-01",
@@ -145,7 +587,34 @@
       "goal": "integriere das Forschungsmanuskript und die Taskkarten additiv in die bestehende Tensor-Website",
       "result": "Link-, Darstellungs-, Versions- und Redaktionsabnahme",
       "status": "geplant",
-      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für WEB-01 – Forschung mit Quellen veröffentlichen. Auftrag: integriere das Forschungsmanuskript und die Taskkarten additiv in die bestehende Tensor-Website. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: Link-, Darstellungs-, Versions- und Redaktionsabnahme. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+      "meta_prompt": "Entwickle einen vollständigen Arbeits-Prompt für den Tensor-Task WEB-01 („Forschung mit Quellen veröffentlichen“). Ziel: integriere das Forschungsmanuskript und die Taskkarten additiv in die bestehende Tensor-Website. Projektkontext: Minimal-KI, reguläre und optional tensorannotierte Skills, beobachtbare Ausführung. Verwende folgende ausgeschriebene Quelladressen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json\n3. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\nGliedere den Arbeits-Prompt in: 1. Ziel und Scope, 2. Ausgangsbestand/Quellen, 3. Eingaben und Schnittstellen, 4. Arbeitsschritte, 5. Risiken und Gegenproben, 6. Liefergegenstände, 7. Tests und Definition of Done, 8. No-Loss-Rückgabe und Versionsstand. Gefordertes Ergebnis: Link-, Darstellungs-, Versions- und Redaktionsabnahme. Trenne belegte Ergebnisse von Hypothesen. Zuerst nur den vollständigen Arbeits-Prompt erzeugen, nicht behaupten, der Task sei ausgeführt.",
+      "project_id": "MINI-KI",
+      "milestone_id": "WEB-PUBLISH",
+      "priority": "mittel",
+      "task_type": "Forschung und Entwicklung",
+      "definition_of_done": [
+        "Link-, Darstellungs-, Versions- und Redaktionsabnahme",
+        "Eingabedateien und Versionsstände angegeben",
+        "Mindestens ein Negativ- oder Grenzfalltest dokumentiert",
+        "Ergebnisse mit Herkunft und Prüflog zurückgeführt"
+      ],
+      "dependencies": [
+        "SKL-01"
+      ],
+      "reference_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/BEOBACHTER_99.json",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "instructions": "Vorhandene Vorarbeiten und Versionsstände prüfen; Arbeitsauftrag schrittweise entwickeln; Annahmen, Eingaben, Abhängigkeiten, Tests und Beweisgrenzen dokumentieren.",
+      "deliverables": [
+        "Link-, Darstellungs-, Versions- und Redaktionsabnahme",
+        "Testprotokoll",
+        "No-Loss-Übergabevermerk"
+      ],
+      "acceptance": "Ergebnis vorhanden, Tests reproduzierbar, Quellen und Abweichungen dokumentiert; PM-Abnahme steht aus.",
+      "collaboration": "Offene Aufgabe; Bearbeitung über GitHub-Issue oder Pull Request mit Task-ID"
     }
-  ]
+  ],
+  "pm_schema": "Tensor Task Contract v0.2"
 }
