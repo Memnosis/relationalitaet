@@ -1,0 +1,151 @@
+{
+  "version": "v0.1",
+  "source": "Taskkarten-Entwurf, 01.11.2026",
+  "total": 18,
+  "tasks": [
+    {
+      "id": "OBS-01",
+      "title": "Vertrag Ereignisbus",
+      "goal": "definiere einen versionierten Ereignisbus für Eingaben, Skillaufrufe, Messwerte und Korrekturen",
+      "result": "Ereignisschema, Referenzimplementierung, 5 Negativtests",
+      "status": "geplant",
+      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für OBS-01 – Vertrag Ereignisbus. Auftrag: definiere einen versionierten Ereignisbus für Eingaben, Skillaufrufe, Messwerte und Korrekturen. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: Ereignisschema, Referenzimplementierung, 5 Negativtests. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+    },
+    {
+      "id": "OBS-02",
+      "title": "Acht Kernbeobachter prototypisch ausführen",
+      "goal": "implementiere acht prototypische, abschaltbare Kernbeobachter",
+      "result": "ausführbarer Prototyp mit Schaltern und Logs",
+      "status": "geplant",
+      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für OBS-02 – Acht Kernbeobachter prototypisch ausführen. Auftrag: implementiere acht prototypische, abschaltbare Kernbeobachter. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: ausführbarer Prototyp mit Schaltern und Logs. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+    },
+    {
+      "id": "OBS-03",
+      "title": "Psychologische Trinitätkandidaten relational prüfen",
+      "goal": "prüfe psychologische und bewusstseinsbezogene Trinitätkandidaten anhand definierter Relationen",
+      "result": "Feldakten, wissenschaftliche Abgrenzung, Gegenproben",
+      "status": "geplant",
+      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für OBS-03 – Psychologische Trinitätkandidaten relational prüfen. Auftrag: prüfe psychologische und bewusstseinsbezogene Trinitätkandidaten anhand definierter Relationen. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: Feldakten, wissenschaftliche Abgrenzung, Gegenproben. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+    },
+    {
+      "id": "OBS-04",
+      "title": "Quantenmessung fachlich modellieren",
+      "goal": "erstelle ein fachlich getrenntes Testmodell für quantenphysikalische Messung, Beobachtungsrückwirkung und Rückkopplung",
+      "result": "Simulatorversuch mit Messvertrag und Kontext",
+      "status": "geplant",
+      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für OBS-04 – Quantenmessung fachlich modellieren. Auftrag: erstelle ein fachlich getrenntes Testmodell für quantenphysikalische Messung, Beobachtungsrückwirkung und Rückkopplung. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: Simulatorversuch mit Messvertrag und Kontext. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+    },
+    {
+      "id": "OBS-05",
+      "title": "Ablation und Beitrag je Beobachter messen",
+      "goal": "messe den marginalen Nutzen jedes Beobachters mittels Ablation und paarweisen Wechselwirkungen",
+      "result": "Messmatrix 0/3/9/27/54/99, statistische Tests",
+      "status": "geplant",
+      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für OBS-05 – Ablation und Beitrag je Beobachter messen. Auftrag: messe den marginalen Nutzen jedes Beobachters mittels Ablation und paarweisen Wechselwirkungen. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: Messmatrix 0/3/9/27/54/99, statistische Tests. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+    },
+    {
+      "id": "SKL-01",
+      "title": "Standard-Skill-Adapter und MCP",
+      "goal": "entwickle einen Adapter für allgemeine Skills, Skripte und MCP-Werkzeuge",
+      "result": "typisierter Adapter und sichere Ausführung",
+      "status": "geplant",
+      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für SKL-01 – Standard-Skill-Adapter und MCP. Auftrag: entwickle einen Adapter für allgemeine Skills, Skripte und MCP-Werkzeuge. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: typisierter Adapter und sichere Ausführung. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+    },
+    {
+      "id": "SKL-02",
+      "title": "Optionale Tensorannotation",
+      "goal": "definiere optionale Tensorannotationen für beliebige Skills",
+      "result": "versionsfähiges Mapping-Schema für 27 Felder",
+      "status": "geplant",
+      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für SKL-02 – Optionale Tensorannotation. Auftrag: definiere optionale Tensorannotationen für beliebige Skills. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: versionsfähiges Mapping-Schema für 27 Felder. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+    },
+    {
+      "id": "SKL-03",
+      "title": "Komposition und Rollback",
+      "goal": "entwickle sequenzielle, parallele, bedingte und rückgekoppelte Skillkomposition mit Rollback",
+      "result": "ausführbare Kompositionsfälle und Wiederherstellung",
+      "status": "geplant",
+      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für SKL-03 – Komposition und Rollback. Auftrag: entwickle sequenzielle, parallele, bedingte und rückgekoppelte Skillkomposition mit Rollback. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: ausführbare Kompositionsfälle und Wiederherstellung. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+    },
+    {
+      "id": "SKL-04",
+      "title": "Optimierung und Regressionstests",
+      "goal": "entwickle sichere Skillvarianten und einen regressionsbasierten Verbesserungszyklus",
+      "result": "Vorher-nachher-Metriken und Rückrolltest",
+      "status": "geplant",
+      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für SKL-04 – Optimierung und Regressionstests. Auftrag: entwickle sichere Skillvarianten und einen regressionsbasierten Verbesserungszyklus. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: Vorher-nachher-Metriken und Rückrolltest. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+    },
+    {
+      "id": "PRD-01",
+      "title": "Handlungsfolgen-Vorhersagemodell",
+      "goal": "entwickle ein Modell zur Vorhersage der Folgen eigener Aktionen",
+      "result": "Zustand-Aktion-Folge-Protokoll",
+      "status": "geplant",
+      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für PRD-01 – Handlungsfolgen-Vorhersagemodell. Auftrag: entwickle ein Modell zur Vorhersage der Folgen eigener Aktionen. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: Zustand-Aktion-Folge-Protokoll. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+    },
+    {
+      "id": "PRD-02",
+      "title": "Geo-KI als Kalibrierung",
+      "goal": "kalibriere die Handlungsfolgenprädiktion mit geometrischen Geo-KI-Operatoren",
+      "result": "Messung von Vorhersagefehlern und Operator-Gegenproben",
+      "status": "geplant",
+      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für PRD-02 – Geo-KI als Kalibrierung. Auftrag: kalibriere die Handlungsfolgenprädiktion mit geometrischen Geo-KI-Operatoren. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: Messung von Vorhersagefehlern und Operator-Gegenproben. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+    },
+    {
+      "id": "EXT-01",
+      "title": "Quantenbibliotheken vergleichen",
+      "goal": "vergleiche Quantenbibliotheken als harvestbare wissenschaftliche Skills",
+      "result": "Qiskit, Cirq, PennyLane, QuTiP im Prüfregister",
+      "status": "geplant",
+      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für EXT-01 – Quantenbibliotheken vergleichen. Auftrag: vergleiche Quantenbibliotheken als harvestbare wissenschaftliche Skills. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: Qiskit, Cirq, PennyLane, QuTiP im Prüfregister. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+    },
+    {
+      "id": "EXT-02",
+      "title": "Freie Sprachressourcen prüfen",
+      "goal": "erstelle eine vergleichbare Testmatrix frei zugänglicher Sprach- und Übersetzungsressourcen",
+      "result": "Lizenz-, Abdeckungs- und Qualitätsmatrix",
+      "status": "geplant",
+      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für EXT-02 – Freie Sprachressourcen prüfen. Auftrag: erstelle eine vergleichbare Testmatrix frei zugänglicher Sprach- und Übersetzungsressourcen. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: Lizenz-, Abdeckungs- und Qualitätsmatrix. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+    },
+    {
+      "id": "M20K-01",
+      "title": "20.000-Skillregister",
+      "goal": "generiere und prüfe ein Register mit 20.000 typisierten Skillobjekten",
+      "result": "Index-, Suche-, Dubletten- und Schema-Benchmark",
+      "status": "geplant",
+      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für M20K-01 – 20.000-Skillregister. Auftrag: generiere und prüfe ein Register mit 20.000 typisierten Skillobjekten. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: Index-, Suche-, Dubletten- und Schema-Benchmark. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+    },
+    {
+      "id": "M20K-02",
+      "title": "Ausführbare Teilmenge testen",
+      "goal": "prüfe eine kontrollierte echte Teilmenge des 20.000-Skillregisters",
+      "result": "Ausführungsquote, Ressourcen und Fehlerraten",
+      "status": "geplant",
+      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für M20K-02 – Ausführbare Teilmenge testen. Auftrag: prüfe eine kontrollierte echte Teilmenge des 20.000-Skillregisters. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: Ausführungsquote, Ressourcen und Fehlerraten. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+    },
+    {
+      "id": "M20K-03",
+      "title": "Neue Aufgabenklassen nachweisen",
+      "goal": "weise neu lösbare Aufgabenklassen durch Skillkomposition gegenüber Baselines nach",
+      "result": "blind getestete Aufgabenfamilien und Vergleichsresultate",
+      "status": "geplant",
+      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für M20K-03 – Neue Aufgabenklassen nachweisen. Auftrag: weise neu lösbare Aufgabenklassen durch Skillkomposition gegenüber Baselines nach. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: blind getestete Aufgabenfamilien und Vergleichsresultate. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+    },
+    {
+      "id": "M20K-04",
+      "title": "Minimal-Skillset durch Ablation",
+      "goal": "bestimme mittels Ablation minimale aktive Skillkonfigurationen",
+      "result": "Pareto-Front aus Qualität, Umfang, Zeit, Robustheit",
+      "status": "geplant",
+      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für M20K-04 – Minimal-Skillset durch Ablation. Auftrag: bestimme mittels Ablation minimale aktive Skillkonfigurationen. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: Pareto-Front aus Qualität, Umfang, Zeit, Robustheit. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+    },
+    {
+      "id": "WEB-01",
+      "title": "Forschung mit Quellen veröffentlichen",
+      "goal": "integriere das Forschungsmanuskript und die Taskkarten additiv in die bestehende Tensor-Website",
+      "result": "Link-, Darstellungs-, Versions- und Redaktionsabnahme",
+      "status": "geplant",
+      "meta_prompt": "Entwickle einen ausführbaren, wissenschaftlich nachvollziehbaren Arbeits-Prompt für WEB-01 – Forschung mit Quellen veröffentlichen. Auftrag: integriere das Forschungsmanuskript und die Taskkarten additiv in die bestehende Tensor-Website. Verwende die verlinkten Originalquellen. Trenne belegte Vorarbeit, offene Fragen und Hypothesen. Definiere Eingaben, benötigte Dateien, Implementierung, Negativtests, Abnahme, Prüfsummen und No-Loss-Rückführung. Erwartetes Ergebnis: Link-, Darstellungs-, Versions- und Redaktionsabnahme. Erstelle zuerst nur den Arbeits-Prompt; behaupte keine Ausführung."
+    }
+  ]
+}
