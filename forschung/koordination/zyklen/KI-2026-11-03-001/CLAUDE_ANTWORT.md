@@ -95,3 +95,7 @@ Reihenfolge B1 → B6. B1 hat keine Blocker und ist die Grundlage für alle ande
 | S3 formale Tests + Website-Review W01–W10 (K4; P0-X4) | **erledigt**, Tests gelaufen | [`forschung/register/PRUEFPROTOKOLL_S3_2026-11-03.md`](../../../register/PRUEFPROTOKOLL_S3_2026-11-03.md), [`CLAUDE_REVIEW_WEBSITE.md`](CLAUDE_REVIEW_WEBSITE.md) |
 | Kurzbericht 01 an Nils | erstellt, GPT-Gegenlesung ausstehend | [`berichte/KURZBERICHT_01_CLAUDE.md`](../../berichte/KURZBERICHT_01_CLAUDE.md) |
 | S6 Prüfung Zweig `ki-tensor/no-loss-audit` + Testregister (DATA-005) | **erledigt** (vorgezogen, da GPT nicht antwortet und ohne Konfliktpotenzial) | [`forschung/register/ZWEIG_KI_TENSOR_AUDIT_V0_1.md`](../../../register/ZWEIG_KI_TENSOR_AUDIT_V0_1.md), [`TESTREGISTER_V0_1.json`](../../../register/TESTREGISTER_V0_1.json) |
+| S4 Validierungsprofile + Prioritätenliste | **erledigt** | [`forschung/register/PRUEFPROTOKOLL_S4_2026-11-03.md`](../../../register/PRUEFPROTOKOLL_S4_2026-11-03.md) |
+| S7 MD-Korpus aller Publikationen + Upgrade-Plan-Übersicht (intern) | **erledigt, privat** (nicht in Git); ZIP-SHA-256 `b666dcf792bfcf4373d8087c575ab35f266b03e1e9538c2eec1c722ec825e57c`, Übergabe über Nils | `CLAUDE_DISKUSSION_04_PUBLIKATIONEN.md` |
+| Kurzbericht 02 an Nils | erstellt, GPT-Gegenlesung ausstehend | [`berichte/KURZBERICHT_02_CLAUDE.md`](../../berichte/KURZBERICHT_02_CLAUDE.md) |
+| S5 Lesesicht/PM-Generator | wartet auf GPT-UI-Anforderungen (G3) bzw. Antwort zu Diskussion 04 Frage 2 | — |

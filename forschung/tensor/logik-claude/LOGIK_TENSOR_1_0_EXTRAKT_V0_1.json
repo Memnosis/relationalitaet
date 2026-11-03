@@ -2,6 +2,8 @@
  "schema_version": "logik10-extrakt/0.1",
  "owner": "claude",
  "quelle_doi": "10.5281/zenodo.19282895",
+ "erzeugt_am": "2026-11-03T14:10:39+00:00",
+ "werkzeug": "forschung/tensor/logik-claude/werkzeuge/logik10_extrakt.py",
  "quelle_sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be",
  "methode": "- Die 27 Feldbegriffe wurden aus dem Layout-Text (pdftotext -layout) der Seiten 3-5 abgelesen\n  (Matrix x Modus-Zeile x Spalte). Jeder Begriff wird hier MASCHINELL gegen den Text der\n  angegebenen Seite geprueft (Zeilenumbrueche und Silbentrennung normalisiert).\n- LM-Pfade, Axiome, Logiksysteme und die Begriffstabelle (Kap. 8) werden per Regex extrahiert.\n- Vor allem wird die SHA-256 der PDF gegen forschung/register/QUELLEN_REFERENZSET_V0_1.json geprueft.",
  "felder": [

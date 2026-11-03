@@ -146,6 +146,8 @@ def main(pdf):
 
     ergebnis = {
         "schema_version": "logik10-extrakt/0.1", "owner": "claude", "quelle_doi": DOI,
+        "erzeugt_am": __import__("datetime").datetime.now(__import__("datetime").timezone.utc).replace(microsecond=0).isoformat(),
+        "werkzeug": "forschung/tensor/logik-claude/werkzeuge/logik10_extrakt.py",
         "quelle_sha256": sha, "methode": __doc__.split("Methode:")[1].split("Aufruf")[0].strip(),
         "felder": felder, "lm_pfade": pfade, "axiome": axiome, "logiksysteme": systeme,
         "begriffstabelle_kap8": {"ueberschrift_nennt_100": ueberschrift_100, "zeilen": len(begriffe),

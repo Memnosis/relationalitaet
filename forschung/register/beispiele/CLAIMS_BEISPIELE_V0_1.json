@@ -1,6 +1,5 @@
 {
  "schema_version": "claim/0.1",
- "stand": "2026-11-03T13:45:00Z",
  "owner": "claude",
  "hinweis": "Echte Beispielaussagen fuer DATA-003 / P0-X1. Zitate aus CC-BY-4.0-Werken von Nils Sautter (Zenodo).",
  "claims": [
@@ -208,5 +207,7 @@
    ],
    "anmerkung": "Beispiel für Prozessstatus: Verweis im Original gefunden (S. 17, S. 21), Prüfung der externen Quelle noch nicht versucht. Kandidat für eine öffentliche Mitmach-Quellenprüfung."
   }
- ]
+ ],
+ "methode": "Textstellen in Zenodo-Originalen gelesen (pdftotext/Volltext), Hash gegen QUELLEN_REFERENZSET geprueft; siehe PRUEFPROTOKOLL_S1",
+ "erzeugt_am": "2026-11-03T13:45:00Z"
 }

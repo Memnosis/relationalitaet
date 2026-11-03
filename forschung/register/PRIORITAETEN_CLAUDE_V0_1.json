@@ -1,0 +1,337 @@
+{
+ "schema_version": "prioritaeten/0.1",
+ "owner": "claude",
+ "erzeugt_am": "2026-11-03T14:11:02+00:00",
+ "methode": "SK-PRIORITY (STANDARDS_SKILLS_METHODENREGISTER_V1 §4); Skala 0-3; effort_gering 3 = wenig Aufwand",
+ "hinweis": "Planungsannahmen aus Claude-Sicht (Datenverlust, Provenienz, Referenzintegrität stärker gewichtet), keine Messwerte. GPT führt eine eigene Sicht.",
+ "gewichte_claude": {
+  "urgency": 2,
+  "architecture": 1.5,
+  "leverage": 2,
+  "unblocks": 1.5,
+  "risk": 2,
+  "readiness": 1,
+  "effort_gering": 0.5,
+  "evidence": 0.5
+ },
+ "sortierungen": {
+  "claude_gewichtet": [
+   "DEC-NAV-01",
+   "DEC-PROMPT-01",
+   "F1-TENSOR20",
+   "S5-PM-GEN",
+   "F5-ARCHIVE",
+   "DATA-002",
+   "DATA-004",
+   "S7-MD-KORPUS",
+   "DEC-KT-01",
+   "FRAGE-LOGIK-100",
+   "DQ-003",
+   "STD-D03-SHACL"
+  ],
+  "dringlichkeit": [
+   "DEC-NAV-01",
+   "DEC-PROMPT-01",
+   "F1-TENSOR20",
+   "S5-PM-GEN",
+   "DATA-002",
+   "DATA-004",
+   "F5-ARCHIVE",
+   "S7-MD-KORPUS",
+   "DEC-KT-01",
+   "FRAGE-LOGIK-100",
+   "DQ-003",
+   "STD-D03-SHACL"
+  ],
+  "hebel_blocker": [
+   "DEC-NAV-01",
+   "F1-TENSOR20",
+   "F5-ARCHIVE",
+   "DATA-002",
+   "S5-PM-GEN",
+   "S7-MD-KORPUS",
+   "DATA-004",
+   "DEC-PROMPT-01",
+   "DEC-KT-01",
+   "FRAGE-LOGIK-100",
+   "DQ-003",
+   "STD-D03-SHACL"
+  ],
+  "sofort_machbar": [
+   "DEC-PROMPT-01",
+   "DEC-KT-01",
+   "FRAGE-LOGIK-100",
+   "DQ-003",
+   "DEC-NAV-01",
+   "S7-MD-KORPUS",
+   "S5-PM-GEN",
+   "DATA-004",
+   "F1-TENSOR20",
+   "F5-ARCHIVE",
+   "DATA-002",
+   "STD-D03-SHACL"
+  ]
+ },
+ "eintraege": [
+  {
+   "id": "DEC-NAV-01",
+   "titel": "Menü-Entscheidung, dann Integrationszweig zusammenführen",
+   "owner": "nils→gpt",
+   "scores": {
+    "urgency": 3,
+    "architecture": 3,
+    "leverage": 3,
+    "unblocks": 3,
+    "risk": 2,
+    "readiness": 3,
+    "effort_gering": 2,
+    "evidence": 2
+   },
+   "ermoeglicht": [
+    "Integrationszweig 160 Commits",
+    "W02",
+    "Inkubator-Quellenatlas"
+   ],
+   "stand": "wartet auf Nils",
+   "claude_score": 30.0
+  },
+  {
+   "id": "DEC-PROMPT-01",
+   "titel": "38 Meta-Prompts aus öffentlichen JSON nehmen (bereinigter Export)",
+   "owner": "nils→claude",
+   "scores": {
+    "urgency": 3,
+    "architecture": 1,
+    "leverage": 2,
+    "unblocks": 1,
+    "risk": 3,
+    "readiness": 3,
+    "effort_gering": 3,
+    "evidence": 3
+   },
+   "ermoeglicht": [
+    "PM-PROMPT-01",
+    "Mitmachen-Release"
+   ],
+   "stand": "Werkzeug bereit, wartet auf Nils",
+   "claude_score": 25.0
+  },
+  {
+   "id": "F1-TENSOR20",
+   "titel": "Tensor 2.0 (T1/T3/T5) an Claude übergeben",
+   "owner": "nils/gpt→claude",
+   "scores": {
+    "urgency": 2,
+    "architecture": 3,
+    "leverage": 3,
+    "unblocks": 3,
+    "risk": 1,
+    "readiness": 1,
+    "effort_gering": 3,
+    "evidence": 2
+   },
+   "ermoeglicht": [
+    "DATA-002",
+    "STANDARD-AXIS-CROSSWALK",
+    "WEB-B02-02"
+   ],
+   "stand": "Datei liegt bei GPT/Nils",
+   "claude_score": 24.5
+  },
+  {
+   "id": "DATA-002",
+   "titel": "Achsen A/B/C gegen G mit Beispielen und Nichtabbildbarkeit",
+   "owner": "claude",
+   "scores": {
+    "urgency": 2,
+    "architecture": 3,
+    "leverage": 3,
+    "unblocks": 3,
+    "risk": 1,
+    "readiness": 1,
+    "effort_gering": 1,
+    "evidence": 1
+   },
+   "ermoeglicht": [
+    "WEB-B02-02",
+    "PM-DATA-02",
+    "Publikationsstandard"
+   ],
+   "stand": "blockiert durch F1",
+   "claude_score": 23.0
+  },
+  {
+   "id": "S5-PM-GEN",
+   "titel": "Projektstände und Web-Lesesicht aus Nachweisen erzeugen",
+   "owner": "claude",
+   "scores": {
+    "urgency": 2,
+    "architecture": 2,
+    "leverage": 3,
+    "unblocks": 2,
+    "risk": 2,
+    "readiness": 2,
+    "effort_gering": 2,
+    "evidence": 2
+   },
+   "ermoeglicht": [
+    "PM-WEB-01",
+    "WEB-B02-05",
+    "WEB-B02-07"
+   ],
+   "stand": "wartet auf GPT-UI-Anforderungen (G3)",
+   "claude_score": 24.0
+  },
+  {
+   "id": "DEC-KT-01",
+   "titel": "ki-tensor-Zweig nach main übernehmen",
+   "owner": "nils→claude",
+   "scores": {
+    "urgency": 1,
+    "architecture": 2,
+    "leverage": 2,
+    "unblocks": 1,
+    "risk": 1,
+    "readiness": 3,
+    "effort_gering": 3,
+    "evidence": 3
+   },
+   "ermoeglicht": [
+    "DATA-005",
+    "KI-MATH-01"
+   ],
+   "stand": "geprüft, wartet auf Nils",
+   "claude_score": 18.5
+  },
+  {
+   "id": "S7-MD-KORPUS",
+   "titel": "Interner MD-Korpus aller Publikationen + Upgrade-Plan je Werk",
+   "owner": "claude",
+   "scores": {
+    "urgency": 1,
+    "architecture": 2,
+    "leverage": 3,
+    "unblocks": 2,
+    "risk": 1,
+    "readiness": 3,
+    "effort_gering": 2,
+    "evidence": 1
+   },
+   "ermoeglicht": [
+    "Publikations-Upgrades",
+    "DATA-006"
+   ],
+   "stand": "Dateien vorhanden, privat",
+   "claude_score": 20.5
+  },
+  {
+   "id": "DATA-004",
+   "titel": "Claim- und Beweislückenregister Logik-Tensor, Prompt-Probelauf",
+   "owner": "claude",
+   "scores": {
+    "urgency": 2,
+    "architecture": 2,
+    "leverage": 2,
+    "unblocks": 2,
+    "risk": 2,
+    "readiness": 2,
+    "effort_gering": 1,
+    "evidence": 1
+   },
+   "ermoeglicht": [
+    "WEB-B02-03",
+    "WEB-B02-06",
+    "P0-X4"
+   ],
+   "stand": "Basis (Extrakt, Schema) vorhanden",
+   "claude_score": 21.0
+  },
+  {
+   "id": "F5-ARCHIVE",
+   "titel": "No-Loss-Archive und SQLite privat an Claude",
+   "owner": "nils→claude",
+   "scores": {
+    "urgency": 1,
+    "architecture": 3,
+    "leverage": 3,
+    "unblocks": 3,
+    "risk": 2,
+    "readiness": 1,
+    "effort_gering": 2,
+    "evidence": 1
+   },
+   "ermoeglicht": [
+    "Glossar 1.072",
+    "Codebuch",
+    "2 KT-Skripte",
+    "KI-ARCH-01"
+   ],
+   "stand": "liegt bei Nils/GPT",
+   "claude_score": 23.5
+  },
+  {
+   "id": "DQ-003",
+   "titel": "Inventar doppelt (dashboard/docs) → eine Hauptquelle",
+   "owner": "gpt+claude",
+   "scores": {
+    "urgency": 1,
+    "architecture": 1,
+    "leverage": 1,
+    "unblocks": 0,
+    "risk": 1,
+    "readiness": 3,
+    "effort_gering": 3,
+    "evidence": 3
+   },
+   "ermoeglicht": [
+    "W10"
+   ],
+   "stand": "Absprache nötig",
+   "claude_score": 13.5
+  },
+  {
+   "id": "FRAGE-LOGIK-100",
+   "titel": "100 vs 34 Logik-Begriffe klären",
+   "owner": "nils",
+   "scores": {
+    "urgency": 1,
+    "architecture": 1,
+    "leverage": 1,
+    "unblocks": 1,
+    "risk": 2,
+    "readiness": 3,
+    "effort_gering": 3,
+    "evidence": 3
+   },
+   "ermoeglicht": [
+    "Logik-Publikation"
+   ],
+   "stand": "wartet auf Nils",
+   "claude_score": 17.0
+  },
+  {
+   "id": "STD-D03-SHACL",
+   "titel": "SHACL-Profile",
+   "owner": "claude",
+   "scores": {
+    "urgency": 0,
+    "architecture": 1,
+    "leverage": 1,
+    "unblocks": 0,
+    "risk": 0,
+    "readiness": 0,
+    "effort_gering": 1,
+    "evidence": 0
+   },
+   "ermoeglicht": [],
+   "stand": "erst nach RDF-Export",
+   "claude_score": 4.0
+  }
+ ],
+ "source_commit": "c237f8b",
+ "quellen": [
+  "forschung/koordination/ENTSCHEIDUNGEN_NILS_2026-11-03.md",
+  "forschung/koordination/STANDARDS_SKILLS_METHODENREGISTER_V1_2026-11-03.md",
+  "docs/data/projektmanagement-v1.json"
+ ]
+}

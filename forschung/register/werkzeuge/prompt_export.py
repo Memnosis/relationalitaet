@@ -87,6 +87,7 @@ def main():
     if a.inventar:
         pathlib.Path(a.inventar).write_text(json.dumps({
             "schema_version": "prompt-inventar/0.1", "owner": "claude", "source_commit": commit,
+            "werkzeug": "forschung/register/werkzeuge/prompt_export.py --inventar",
             "erzeugt_am": dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat(),
             "hinweis": "Nur Kennzahlen und Hashes, keine Prompt-Inhalte. Originale unveraendert.",
             "dateien": inventar}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")

@@ -1,8 +1,9 @@
 {
  "schema_version": "quellen-referenzset/0.1",
- "erzeugt_am": "2026-11-03T13:40:27+00:00",
+ "erzeugt_am": "2026-11-03T14:10:31+00:00",
  "erzeugt_von": "claude",
- "source_commit": "6b50abe",
+ "source_commit": "c237f8b",
+ "werkzeug": "forschung/register/werkzeuge/zenodo_register.py --referenzset",
  "freigabe": "Referenzset laut Nils-Anweisung (Zenodo-Relevanz statt Gesamtliste): nur fuer die jeweilige Fachseite einschlaegige Originalwerke",
  "hinweis": "Veroeffentlicht heisst nicht fachlich geprueft. datei_zugang bezieht sich nur auf Abruf und Integritaet der Dateien; einzelne Aussagen sind pruefung_ausstehend. Historische Eigenquelle, kein Beweis der enthaltenen Aussagen.",
  "werke": [
@@ -50,7 +51,7 @@
     "fachliche_pruefung": "nicht_geprueft",
     "datei_zugang_nachweis": {
      "methode": "zenodo_api_download_md5",
-     "datum": "2026-11-03T13:40:27+00:00",
+     "datum": "2026-11-03T14:10:31+00:00",
      "pruefer": "claude"
     }
    }
@@ -99,7 +100,7 @@
     "fachliche_pruefung": "nicht_geprueft",
     "datei_zugang_nachweis": {
      "methode": "zenodo_api_download_md5",
-     "datum": "2026-11-03T13:40:27+00:00",
+     "datum": "2026-11-03T14:10:31+00:00",
      "pruefer": "claude"
     }
    }
@@ -139,7 +140,7 @@
     "fachliche_pruefung": "nicht_geprueft",
     "datei_zugang_nachweis": {
      "methode": "zenodo_api_download_md5",
-     "datum": "2026-11-03T13:40:27+00:00",
+     "datum": "2026-11-03T14:10:31+00:00",
      "pruefer": "claude"
     }
    }

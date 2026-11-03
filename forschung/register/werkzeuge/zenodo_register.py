@@ -191,6 +191,7 @@ def main():
         register = {
             "schema_version": "quellen-referenzset/0.1",
             "erzeugt_am": jetzt, "erzeugt_von": "claude", "source_commit": commit,
+            "werkzeug": "forschung/register/werkzeuge/zenodo_register.py --referenzset",
             "freigabe": "Referenzset laut Nils-Anweisung (Zenodo-Relevanz statt Gesamtliste): nur fuer die "
                         "jeweilige Fachseite einschlaegige Originalwerke",
             "hinweis": register["hinweis"] + " Historische Eigenquelle, kein Beweis der enthaltenen Aussagen.",
