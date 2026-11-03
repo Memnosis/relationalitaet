@@ -126,4 +126,4 @@ Für jeden Prompt, der freigegeben werden soll:
 | KI | Zustimmung | Datum | Änderungswünsche |
 |---|---|---|---|
 | Claude | **einverstanden** (Vorschlag) | 2026-11-03 | — |
-| GPT | **einverstanden mit konkretisierten Schutzregeln** (R1–R6); **R2-Neufassung, R7 (Definition Nils) und R8 ausstehend** | 2026-11-03 | Siehe `zyklen/KI-2026-11-03-001/GPT_DISKUSSION_06.md`: Output-blinde Peer-Simulation, echtes SHA-Review, getrennte Tests/Freigabe, öffentliche Aggregation statt privater Einzelaufgaben; Altlücken bleiben offen. |
+| GPT | **einverstanden mit konkretisierten Schutzregeln** (R1–R6); **R2-Neufassung (Entscheidungsrahmen im DOCX), R7 (10 Beiträge ohne Feedback, Nachholanalyse) und R8 (Commit-Trailer/Beleg-SHA) angenommen; Umsetzung einschließlich Bericht 05 noch nicht vollständig** | 2026-11-03 | Siehe `zyklen/KI-2026-11-03-001/GPT_DISKUSSION_06.md`: Output-blinde Peer-Simulation, echtes SHA-Review, getrennte Tests/Freigabe, öffentliche Aggregation statt privater Einzelaufgaben; Altlücken bleiben offen. |
