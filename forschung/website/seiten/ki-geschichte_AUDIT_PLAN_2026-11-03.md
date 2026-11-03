@@ -20,3 +20,6 @@ Fachhistorische Entwicklungsstränge und ein prüfbarer Architekturvergleich bed
 **Taskfamilien:** PM-HISTORY-01. **Historische Prompt-Herkunft:** einzelne der letzten 100+ Nutzerbefehle noch nicht lückenlos nummeriert – nicht mit diesem Themen-Audit verwechseln. [Abgleich und Planänderungen](../PLAN_UPDATE_PROMPT100_UND_LUECKENAUDIT_2026-11-03.md).
 
 **Verweis:** [Gesamtseiten-Audit](../SEITENAUDIT_GESAMT_LERNWEGE_THESEN_GEOKI_2026-11-03.md) · [Git-Changelog](../CHANGELOG_PM_KI_HISTORY_GEO_THESES_2026-11-03.md). **Status:** teils dokumentiert/implementiert; Endfreigabe nicht nachgewiesen.
+
+## Seitenrevision 03.11.2026
+Die Seite stellt nun sechs konkret testbare Spannungen vor die selektive historische Chronik. Der Dartmouth-Projektvorschlag bleibt historischer Kontext, kein Beweis für unsere Struktur. Offene Abnahmen: unabhängige Quellenkontrolle, Messgrößen pro Spannung, Browser- und Autorenprüfung. Geprüfter aktueller Web-Blob: 4d150ae8eeb86de96c89a38513c898d7c1ade5cf.
