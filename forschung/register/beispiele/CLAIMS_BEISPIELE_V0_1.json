@@ -1,0 +1,208 @@
+{
+ "schema_version": "claim/0.1",
+ "stand": "2026-11-03T13:45:00Z",
+ "owner": "claude",
+ "hinweis": "Echte Beispielaussagen fuer DATA-003 / P0-X1. Zitate aus CC-BY-4.0-Werken von Nils Sautter (Zenodo).",
+ "claims": [
+  {
+   "claim_id": "CLM-LOGIK10-UM-I-ALPHA",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet dem Feld Einheits-Matrix / Kern (I) / Struktur (α), also UM-I-α, den Begriff 'Theorem' zu.",
+   "zitat": "α Struktur    Theorem    Kalkül oder System    Logische Theorieform",
+   "fundstelle": {
+    "seite": 5,
+    "abschnitt": "Tabelle Einheits-Matrix (Rel1)"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T13:45:00Z",
+    "nachweis": "Zenodo-Datei abgerufen, MD5 ok; Textstelle per pdftotext/Volltext gelesen"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Zuordnung ist projektinterne Kodierung des Autors; kein eigener Wahrheitsanspruch"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-003"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-PFAD-PRJ",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 nennt den Projektionspfad LM : PRJ : NM-I-γ → ZM-II-γ → UM-II-γ. Die Fassung in LOGIK_TENSOR_2_1 §5 stimmt damit überein.",
+   "zitat": "LM : PRJ : NM-I-γ → ZM-II-γ → UM-II-γ",
+   "fundstelle": {
+    "seite": 6,
+    "abschnitt": "Feldtheorie, Pfad 1 (wiederholt S. 13)"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T13:45:00Z",
+    "nachweis": "Zenodo-Datei abgerufen, MD5 ok; Textstelle per pdftotext/Volltext gelesen"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Pfadcodierung des Autors; Typ jedes Pfeils (Funktion/Relation) noch offen, siehe LOGIK-PROMPT-05"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-METALOGIK",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "inhaltlich",
+   "aussage": "Die Relationale Logik ist die Meta-Logik, die alle bisherigen Logiksysteme als spezielle Realisierungen derselben trinitären Architektur versteht.",
+   "zitat": "Die Relationale Logik ist keine weitere Variante, sondern die Meta-Logik, die alle bisherigen Logiksysteme als spezielle Realisierungen derselben trinitären Architektur versteht.",
+   "fundstelle": {
+    "seite": 19,
+    "abschnitt": "9.1 Die Möglichkeit einer Relationalen Logik"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T13:45:00Z",
+    "nachweis": "Zenodo-Datei abgerufen, MD5 ok; Textstelle per pdftotext/Volltext gelesen"
+   },
+   "evidenz": {
+    "stufe": "offen",
+    "begruendung": "Starke Behauptung; Einbettungsbeweise und Gegenbeispiele fehlen. Prüfstufen siehe LOGIK_TENSOR_2_1 §7"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-004"
+   ],
+   "konflikte": [
+    "Autorenaussage: Bewertung entscheidet Nils"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-MODUS-PONENS",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "inhaltlich",
+   "aussage": "Die trinitäre Deduktion (A ⊢ ρ(A), ρ(A) ⊢ ρ²(A), ρ²(A) ⊢ ρ⁻¹(A)) ersetzt den klassischen Modus ponens.",
+   "zitat": "Diese Regel ersetzt den klassischen Modus ponens durch eine trinitäre Bewegung, die immer den gesamten relationalen Zyklus durchläuft.",
+   "fundstelle": {
+    "seite": 20,
+    "abschnitt": "9.3 Kernoperatoren und Inferenzregeln"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T13:45:00Z",
+    "nachweis": "Zenodo-Datei abgerufen, MD5 ok; Textstelle per pdftotext/Volltext gelesen"
+   },
+   "evidenz": {
+    "stufe": "offen",
+    "begruendung": "Vergleich mit klassischem Modus ponens als Test geplant (K4, P0-X4)"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-004"
+   ],
+   "test_ids": [
+    "TST-K4-MP-001 (geplant)"
+   ]
+  },
+  {
+   "claim_id": "CLM-FELD10-TM-RST",
+   "source_id": "SRC-ZEN-19153909",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19153910",
+    "version": "1.0",
+    "datei": "Tensor-Feld-Theorie-Field-Theory.md",
+    "sha256": "6d5d705c46e2d5ba766339492c06646aab59814127bfe8500027b20c9802d76a"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Die Feldtheorie 1.0 leitet aus dem Logik-Beispiel LM : RST : UM-II-β → ZM-I-β → NM-I-β eine neutrale Standardform TM : RST mit identischer Feldfolge ab; TM steht für eine neutrale Tensor-Matrix.",
+   "zitat": "Here `TM` stands for a neutral tensor matrix, that is, a standard form not yet worked out in a topic-specific way.",
+   "fundstelle": {
+    "zeile": 170,
+    "abschnitt": "6.4 Reset as a first neutral standard form (EN); LM-Beispiel Zeile 107"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T13:45:00Z",
+    "nachweis": "Zenodo-Datei abgerufen, MD5 ok; Textstelle per pdftotext/Volltext gelesen"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierungsregel des Autors"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-002"
+   ]
+  },
+  {
+   "claim_id": "CLM-PROTEIN-908",
+   "source_id": "SRC-ZEN-19340499",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19340500",
+    "version": null
+   },
+   "aussageart": "inhaltlich",
+   "aussage": "908 berechnete Proteinfaltungen wurden validiert (Titelaussage des Zenodo-Werks).",
+   "fundstelle": {
+    "url": "https://doi.org/10.5281/zenodo.19340500",
+    "abschnitt": "Titel"
+   },
+   "quellenstatus": {
+    "status": "pruefung_ausstehend"
+   },
+   "evidenz": {
+    "stufe": "offen"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "KI-BIO-EVIDENCE"
+   ],
+   "anmerkung": "Beispiel für Prozessstatus: Werk ist abrufbar, Inhalt und Validierung wurden nicht geprüft. Weitreichende numerische Aussagen gesondert auditieren (Register-Regel KI-BIO-EVIDENCE)."
+  }
+ ]
+}

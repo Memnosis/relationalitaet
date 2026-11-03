@@ -1,0 +1,33 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/Memnosis/relationalitaet/forschung/register/schema/web-lesesicht.schema.json",
+ "title": "Reduzierte oeffentliche Lesesicht fuer docs/data/*.json (Entwurf)",
+ "description": "Owner Claude, Version web-lesesicht/0.1 ENTWURF (DR-06). Wird aus den Registern erzeugt, nie von Hand gepflegt. Enthaelt nur Eintraege mit public_release=true. UI-Anforderungen ergaenzt GPT (G3); erst danach baut Claude den Generator.",
+ "type": "object",
+ "required": ["schema_version", "source_commit", "generated_at", "public_release", "eintraege"],
+ "additionalProperties": false,
+ "properties": {
+  "schema_version": {"const": "web-lesesicht/0.1"},
+  "source_commit": {"type": "string", "pattern": "^[0-9a-f]{7,40}$"},
+  "generated_at": {"type": "string", "format": "date-time"},
+  "public_release": {"const": true},
+  "vokabular_version": {"type": "string"},
+  "eintraege": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": ["id", "titel", "quellenstatus", "evidenz"],
+    "additionalProperties": false,
+    "properties": {
+     "id": {"type": "string"},
+     "titel": {"type": "string"},
+     "doi": {"type": "string"},
+     "fundstelle_text": {"type": "string"},
+     "quellenstatus": {"enum": ["digital_verifiziert", "digital_nicht_erreichbar", "handpruefung_noetig", "nur_nils_digital_geprueft", "pruefung_ausstehend"]},
+     "evidenz": {"enum": ["D", "F", "O", "K", "B", "offen"]},
+     "stand": {"type": "string", "format": "date"}
+    }
+   }
+  }
+ }
+}

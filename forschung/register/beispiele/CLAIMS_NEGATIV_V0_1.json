@@ -1,0 +1,210 @@
+{
+ "hinweis": "Jeder Eintrag MUSS vom Validator abgelehnt werden.",
+ "faelle": [
+  {
+   "erwartet": "digital_nicht_erreichbar ohne zugriffsversuch",
+   "claim": {
+    "claim_id": "CLM-NEG-1",
+    "source_id": "SRC-ZEN-19340499",
+    "werk_version": {
+     "doi": "10.5281/zenodo.19340500",
+     "version": null
+    },
+    "aussageart": "inhaltlich",
+    "aussage": "908 berechnete Proteinfaltungen wurden validiert (Titelaussage des Zenodo-Werks).",
+    "fundstelle": {
+     "url": "https://doi.org/10.5281/zenodo.19340500",
+     "abschnitt": "Titel"
+    },
+    "quellenstatus": {
+     "status": "digital_nicht_erreichbar"
+    },
+    "evidenz": {
+     "stufe": "offen"
+    },
+    "redaktion": "nicht_freigegeben",
+    "vertraulichkeit": "oeffentlich",
+    "public_release": false,
+    "task_ids": [
+     "KI-BIO-EVIDENCE"
+    ],
+    "anmerkung": "Beispiel für Prozessstatus: Werk ist abrufbar, Inhalt und Validierung wurden nicht geprüft. Weitreichende numerische Aussagen gesondert auditieren (Register-Regel KI-BIO-EVIDENCE)."
+   }
+  },
+  {
+   "erwartet": "Evidenz F ohne nachweis_refs",
+   "claim": {
+    "claim_id": "CLM-NEG-2",
+    "source_id": "SRC-ZEN-19282894",
+    "werk_version": {
+     "doi": "10.5281/zenodo.19282895",
+     "version": "1.0",
+     "datei": "Logik-Tensor_1_0.pdf",
+     "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+    },
+    "aussageart": "dokumentarisch",
+    "aussage": "Der Logik-Tensor 1.0 ordnet dem Feld Einheits-Matrix / Kern (I) / Struktur (α), also UM-I-α, den Begriff 'Theorem' zu.",
+    "zitat": "α Struktur    Theorem    Kalkül oder System    Logische Theorieform",
+    "fundstelle": {
+     "seite": 5,
+     "abschnitt": "Tabelle Einheits-Matrix (Rel1)"
+    },
+    "quellenstatus": {
+     "status": "digital_verifiziert",
+     "pruefer": "claude",
+     "datum": "2026-11-03T13:45:00Z",
+     "nachweis": "Zenodo-Datei abgerufen, MD5 ok; Textstelle per pdftotext/Volltext gelesen"
+    },
+    "evidenz": {
+     "stufe": "F"
+    },
+    "redaktion": "nicht_freigegeben",
+    "vertraulichkeit": "oeffentlich",
+    "public_release": false,
+    "task_ids": [
+     "DATA-001",
+     "DATA-003"
+    ]
+   }
+  },
+  {
+   "erwartet": "public_release ohne redaktionelle Freigabe",
+   "claim": {
+    "claim_id": "CLM-NEG-3",
+    "source_id": "SRC-ZEN-19282894",
+    "werk_version": {
+     "doi": "10.5281/zenodo.19282895",
+     "version": "1.0",
+     "datei": "Logik-Tensor_1_0.pdf",
+     "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+    },
+    "aussageart": "dokumentarisch",
+    "aussage": "Der Logik-Tensor 1.0 nennt den Projektionspfad LM : PRJ : NM-I-γ → ZM-II-γ → UM-II-γ. Die Fassung in LOGIK_TENSOR_2_1 §5 stimmt damit überein.",
+    "zitat": "LM : PRJ : NM-I-γ → ZM-II-γ → UM-II-γ",
+    "fundstelle": {
+     "seite": 6,
+     "abschnitt": "Feldtheorie, Pfad 1 (wiederholt S. 13)"
+    },
+    "quellenstatus": {
+     "status": "digital_verifiziert",
+     "pruefer": "claude",
+     "datum": "2026-11-03T13:45:00Z",
+     "nachweis": "Zenodo-Datei abgerufen, MD5 ok; Textstelle per pdftotext/Volltext gelesen"
+    },
+    "evidenz": {
+     "stufe": "B",
+     "begruendung": "Pfadcodierung des Autors; Typ jedes Pfeils (Funktion/Relation) noch offen, siehe LOGIK-PROMPT-05"
+    },
+    "redaktion": "nicht_freigegeben",
+    "vertraulichkeit": "oeffentlich",
+    "public_release": true,
+    "task_ids": [
+     "DATA-001"
+    ]
+   }
+  },
+  {
+   "erwartet": "Umlaut-Statuswert statt ASCII-ID",
+   "claim": {
+    "claim_id": "CLM-NEG-4",
+    "source_id": "SRC-ZEN-19340499",
+    "werk_version": {
+     "doi": "10.5281/zenodo.19340500",
+     "version": null
+    },
+    "aussageart": "inhaltlich",
+    "aussage": "908 berechnete Proteinfaltungen wurden validiert (Titelaussage des Zenodo-Werks).",
+    "fundstelle": {
+     "url": "https://doi.org/10.5281/zenodo.19340500",
+     "abschnitt": "Titel"
+    },
+    "quellenstatus": {
+     "status": "prüfung_ausstehend"
+    },
+    "evidenz": {
+     "stufe": "offen"
+    },
+    "redaktion": "nicht_freigegeben",
+    "vertraulichkeit": "oeffentlich",
+    "public_release": false,
+    "task_ids": [
+     "KI-BIO-EVIDENCE"
+    ],
+    "anmerkung": "Beispiel für Prozessstatus: Werk ist abrufbar, Inhalt und Validierung wurden nicht geprüft. Weitreichende numerische Aussagen gesondert auditieren (Register-Regel KI-BIO-EVIDENCE)."
+   }
+  },
+  {
+   "erwartet": "digital_verifiziert ohne Pruefer/Nachweis",
+   "claim": {
+    "claim_id": "CLM-NEG-5",
+    "source_id": "SRC-ZEN-19282894",
+    "werk_version": {
+     "doi": "10.5281/zenodo.19282895",
+     "version": "1.0",
+     "datei": "Logik-Tensor_1_0.pdf",
+     "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+    },
+    "aussageart": "inhaltlich",
+    "aussage": "Die Relationale Logik ist die Meta-Logik, die alle bisherigen Logiksysteme als spezielle Realisierungen derselben trinitären Architektur versteht.",
+    "zitat": "Die Relationale Logik ist keine weitere Variante, sondern die Meta-Logik, die alle bisherigen Logiksysteme als spezielle Realisierungen derselben trinitären Architektur versteht.",
+    "fundstelle": {
+     "seite": 19,
+     "abschnitt": "9.1 Die Möglichkeit einer Relationalen Logik"
+    },
+    "quellenstatus": {
+     "status": "digital_verifiziert"
+    },
+    "evidenz": {
+     "stufe": "offen",
+     "begruendung": "Starke Behauptung; Einbettungsbeweise und Gegenbeispiele fehlen. Prüfstufen siehe LOGIK_TENSOR_2_1 §7"
+    },
+    "redaktion": "nicht_freigegeben",
+    "vertraulichkeit": "oeffentlich",
+    "public_release": false,
+    "task_ids": [
+     "DATA-004"
+    ],
+    "konflikte": [
+     "Autorenaussage: Bewertung entscheidet Nils"
+    ]
+   }
+  },
+  {
+   "erwartet": "unbekannte source_id",
+   "claim": {
+    "claim_id": "CLM-NEG-6",
+    "source_id": "SRC-ZEN-0000",
+    "werk_version": {
+     "doi": "10.5281/zenodo.19282895",
+     "version": "1.0",
+     "datei": "Logik-Tensor_1_0.pdf",
+     "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+    },
+    "aussageart": "dokumentarisch",
+    "aussage": "Der Logik-Tensor 1.0 ordnet dem Feld Einheits-Matrix / Kern (I) / Struktur (α), also UM-I-α, den Begriff 'Theorem' zu.",
+    "zitat": "α Struktur    Theorem    Kalkül oder System    Logische Theorieform",
+    "fundstelle": {
+     "seite": 5,
+     "abschnitt": "Tabelle Einheits-Matrix (Rel1)"
+    },
+    "quellenstatus": {
+     "status": "digital_verifiziert",
+     "pruefer": "claude",
+     "datum": "2026-11-03T13:45:00Z",
+     "nachweis": "Zenodo-Datei abgerufen, MD5 ok; Textstelle per pdftotext/Volltext gelesen"
+    },
+    "evidenz": {
+     "stufe": "B",
+     "begruendung": "Zuordnung ist projektinterne Kodierung des Autors; kein eigener Wahrheitsanspruch"
+    },
+    "redaktion": "nicht_freigegeben",
+    "vertraulichkeit": "oeffentlich",
+    "public_release": false,
+    "task_ids": [
+     "DATA-001",
+     "DATA-003"
+    ]
+   }
+  }
+ ]
+}

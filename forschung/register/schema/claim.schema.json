@@ -1,0 +1,57 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/Memnosis/relationalitaet/forschung/register/schema/claim.schema.json",
+ "title": "Aussage (Claim) mit Quellenstatus, Evidenz und Freigabe",
+ "description": "Owner Claude. Version claim/0.1. Werte aus vokabular.json. Quellenstatus, Evidenz und Redaktion sind voneinander unabhaengig.",
+ "type": "object",
+ "required": ["claim_id", "source_id", "aussageart", "aussage", "fundstelle", "quellenstatus", "evidenz", "redaktion", "vertraulichkeit", "public_release"],
+ "additionalProperties": false,
+ "properties": {
+  "claim_id": {"type": "string", "pattern": "^CLM-[A-Z0-9]+(-[A-Z0-9]+)*$"},
+  "source_id": {"type": "string", "pattern": "^SRC-[A-Z0-9]+(-[A-Z0-9]+)*$"},
+  "werk_version": {"type": "object", "properties": {"doi": {"type": "string"}, "version": {"type": ["string", "null"]}, "datei": {"type": "string"}, "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}}},
+  "aussageart": {"enum": ["dokumentarisch", "inhaltlich"]},
+  "aussage": {"type": "string", "minLength": 5},
+  "zitat": {"type": "string", "maxLength": 400, "description": "kurzes woertliches Zitat; nur aus oeffentlichen Quellen mit passender Lizenz"},
+  "fundstelle": {"type": "object", "minProperties": 1, "properties": {"seite": {"type": "integer", "minimum": 1}, "zeile": {"type": "integer", "minimum": 1}, "abschnitt": {"type": "string"}, "url": {"type": "string"}}},
+  "quellenstatus": {
+   "type": "object",
+   "required": ["status"],
+   "properties": {
+    "status": {"enum": ["digital_verifiziert", "digital_nicht_erreichbar", "handpruefung_noetig", "nur_nils_digital_geprueft", "pruefung_ausstehend"]},
+    "pruefer": {"type": "string"},
+    "datum": {"type": "string", "format": "date-time"},
+    "nachweis": {"type": "string"},
+    "zugriffsversuch": {"type": "object", "required": ["datum", "methode", "ergebnis"], "properties": {"datum": {"type": "string"}, "methode": {"type": "string"}, "ergebnis": {"type": "string"}}},
+    "grund": {"type": "string"}
+   },
+   "allOf": [
+    {"if": {"properties": {"status": {"const": "digital_verifiziert"}}}, "then": {"required": ["pruefer", "datum", "nachweis"]}},
+    {"if": {"properties": {"status": {"const": "digital_nicht_erreichbar"}}}, "then": {"required": ["zugriffsversuch"]}},
+    {"if": {"properties": {"status": {"const": "handpruefung_noetig"}}}, "then": {"required": ["grund"]}}
+   ]
+  },
+  "evidenz": {
+   "type": "object",
+   "required": ["stufe"],
+   "properties": {
+    "stufe": {"enum": ["D", "F", "O", "K", "B", "offen"]},
+    "nachweis_refs": {"type": "array", "items": {"type": "string"}},
+    "begruendung": {"type": "string"}
+   },
+   "if": {"properties": {"stufe": {"enum": ["D", "F", "O"]}}},
+   "then": {"required": ["nachweis_refs"], "properties": {"nachweis_refs": {"minItems": 1}}}
+  },
+  "redaktion": {"enum": ["nicht_freigegeben", "in_pruefung", "freigegeben"]},
+  "vertraulichkeit": {"enum": ["oeffentlich", "intern"]},
+  "public_release": {"type": "boolean"},
+  "task_ids": {"type": "array", "items": {"type": "string"}},
+  "test_ids": {"type": "array", "items": {"type": "string"}},
+  "konflikte": {"type": "array", "items": {"type": "string"}},
+  "anmerkung": {"type": "string"}
+ },
+ "allOf": [
+  {"if": {"properties": {"public_release": {"const": true}}, "required": ["public_release"]},
+   "then": {"properties": {"redaktion": {"const": "freigegeben"}, "vertraulichkeit": {"const": "oeffentlich"}}}}
+ ]
+}

@@ -85,3 +85,11 @@ Reihenfolge B1 → B6. B1 hat keine Blocker und ist die Grundlage für alle ande
 **Es wird nichts gelöscht**, weder Dateien noch Zweige noch Tags. Überholte Stände werden archiviert:
 - Alle 9 Zweige sind zusätzlich als Archivzweig `archiv/<zweig>-2026-11-03` gesichert und in `forschung/koordination/ARCHIV_ZWEIGE_2026-11-03.md` verzeichnet. Ein Tag-Push war aus dieser Sitzung nicht möglich (HTTP 403).
 - Ersetzte Dateien bleiben unter ihrem Namen erhalten; der Nachfolger verweist auf sie.
+
+## 7. Fortschritt (laufend)
+
+| Schritt | Stand | Nachweis |
+|---|---|---|
+| S1 Zenodo-Register + Quellenstatus-Schema (K1, K2; P0-X1, DATA-003) | **erledigt**, Tests gelaufen | [`forschung/register/PRUEFPROTOKOLL_S1_2026-11-03.md`](../../../register/PRUEFPROTOKOLL_S1_2026-11-03.md) |
+| S2 Versionsmanifest + Logik-1.0-Extrakt (K3, K5; P0-X3) | angekündigt | — |
+| S3 formale Tests + Website-Review W01–W10 (K4; P0-X4) | angekündigt | — |

@@ -1,0 +1,2946 @@
+{
+ "schema_version": "quellen-zenodo/0.1",
+ "erzeugt_am": "2026-11-03T13:29:49+00:00",
+ "erzeugt_von": "claude",
+ "source_commit": "8246314",
+ "quelle": {
+  "api": "https://zenodo.org/api/records",
+  "abfrage": "\"Sautter, Nils\", all_versions=true",
+  "treffer_gesamt": 70
+ },
+ "hinweis": "Veroeffentlicht heisst nicht fachlich geprueft. datei_zugang bezieht sich nur auf Abruf und Integritaet der Dateien; einzelne Aussagen sind pruefung_ausstehend.",
+ "zaehlung": {
+  "werke_konzepte": 65,
+  "records_alle_versionen": 70,
+  "dateien": 94,
+  "werke_mit_mehreren_versionen": 4,
+  "dateien_md5_ok": 94,
+  "dateien_in_git_bytegleich": 4
+ },
+ "werke": [
+  {
+   "source_id": "SRC-ZEN-18656782",
+   "concept_doi": "10.5281/zenodo.18656782",
+   "titel": "Neue Relationalität",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18656783,
+     "doi": "10.5281/zenodo.18656783",
+     "version": "1.0",
+     "veroeffentlicht": "2026-02-16",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "Neue_Relationalitaet.pdf",
+       "groesse_bytes": 1789935,
+       "md5_zenodo": "653bbdcb8b78d2b0578cfb9550e48d14",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "d90fe0738bb8e69033754b09e4130ade139830e26576051a4b4d73b9887bf1a8",
+       "in_git_bytegleich": []
+      }
+     ]
+    },
+    {
+     "record_id": 18683995,
+     "doi": "10.5281/zenodo.18683995",
+     "version": null,
+     "veroeffentlicht": "2026-02-18",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "Neue_Relationalitaet (2).pdf",
+       "groesse_bytes": 3063653,
+       "md5_zenodo": "469b9c7754845bed83917a592f604c50",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "bf062ab1645b6a9eda0a18135416355fcd54ef1ed2bcb18eb0140269f2679e85",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18675986",
+   "concept_doi": "10.5281/zenodo.18675986",
+   "titel": "Relationale Einheits Formel",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18675987,
+     "doi": "10.5281/zenodo.18675987",
+     "version": "1.0",
+     "veroeffentlicht": "2026-02-18",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "26sm a-b.pdf",
+       "groesse_bytes": 660619,
+       "md5_zenodo": "b447a84e209b219e19b37317d3f62c95",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "a832b50c112eca6f47ddb817f5b8e3e88cf2ddd67db2fe32ee272564c4d93e38",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18683754",
+   "concept_doi": "10.5281/zenodo.18683754",
+   "titel": "Null Matrix",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18683755,
+     "doi": "10.5281/zenodo.18683755",
+     "version": "2.0",
+     "veroeffentlicht": "2026-02-18",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "Null-Matrix.pdf",
+       "groesse_bytes": 3465572,
+       "md5_zenodo": "33b25511188724cc8a11557972913bac",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "e6d7704d83f1634ce4ce279741a565a492fc7384442d9f3e856e7e9a44f1ecfe",
+       "in_git_bytegleich": []
+      }
+     ]
+    },
+    {
+     "record_id": 18776422,
+     "doi": "10.5281/zenodo.18776422",
+     "version": "2.0",
+     "veroeffentlicht": "2026-02-25",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "Null-Matrix2.pdf",
+       "groesse_bytes": 902832,
+       "md5_zenodo": "83b5dd1e81c39f99ae6d5e3a10ddad16",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "3008c21531d93972c3688fbf6e2067eb5b65ff58d75c5e6055714b5478cd6551",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18710448",
+   "concept_doi": "10.5281/zenodo.18710448",
+   "titel": "Holographische Naturkonstanten",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18710449,
+     "doi": "10.5281/zenodo.18710449",
+     "version": "1.0",
+     "veroeffentlicht": "2026-02-20",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": null,
+     "dateien": [
+      {
+       "name": "relationale-naturkonstante.pdf",
+       "groesse_bytes": 640756,
+       "md5_zenodo": "fe6448c61157fb73ba269787cc87635b",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "c4150517f30546833c069cf46f4d6911297ef3d669b7a9aa0ab457cfb37ef25b",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18716206",
+   "concept_doi": "10.5281/zenodo.18716206",
+   "titel": "Philosophie der Relation von Nichts (0) und Allem (1)",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18716207,
+     "doi": "10.5281/zenodo.18716207",
+     "version": "1.0",
+     "veroeffentlicht": "2026-02-20",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "philosophie-nichts0-allem1.pdf",
+       "groesse_bytes": 927768,
+       "md5_zenodo": "21c29128e93c04d42328ea61bf7652cf",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "94972b588557ba27dd6f04f19e2b4d97a1791c48fd2bfafcd51fdef13462ddf7",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18716597",
+   "concept_doi": "10.5281/zenodo.18716597",
+   "titel": "Philosophy of the Relations of nothing (0) and all (1)",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18716598,
+     "doi": "10.5281/zenodo.18716598",
+     "version": "1.0",
+     "veroeffentlicht": "2026-02-20",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "eng",
+     "dateien": [
+      {
+       "name": "philosophy-nothing0-all1.pdf",
+       "groesse_bytes": 900998,
+       "md5_zenodo": "41660bfa2e0983c15a48565b9ae102ad",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "da407bfb911e4fe1c520c264d6303b710224385d8683f67a00c18101c65ac26c",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18725586",
+   "concept_doi": "10.5281/zenodo.18725586",
+   "titel": "Quellen des Nichts (0), von Allem (1) und dem Zyklus",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18725587,
+     "doi": "10.5281/zenodo.18725587",
+     "version": null,
+     "veroeffentlicht": "2026-02-21",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": null,
+     "dateien": [
+      {
+       "name": "quellen-des-nichts_01.pdf",
+       "groesse_bytes": 1150587,
+       "md5_zenodo": "d4d73f777de9999c8d71857dc1a544c5",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "9cc733ac5fe891853cb59c5d805eec3212ee94b1742dec2fe03e4ad99023e924",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18731791",
+   "concept_doi": "10.5281/zenodo.18731791",
+   "titel": "Sozio-Physik & Relationale Systemtheorie",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18731792,
+     "doi": "10.5281/zenodo.18731792",
+     "version": null,
+     "veroeffentlicht": "2026-02-22",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "sozio-physik-system01.pdf",
+       "groesse_bytes": 914661,
+       "md5_zenodo": "57b3dfd16226760b07b0395b6b2f36f6",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "1887dd5ebe4263d0e5cb9c0205836f2939683e23fb12585f901b916e378a0e78",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18732119",
+   "concept_doi": "10.5281/zenodo.18732119",
+   "titel": "Socio Physics & Relational Systems Theory",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18732120,
+     "doi": "10.5281/zenodo.18732120",
+     "version": "1.0",
+     "veroeffentlicht": "2026-02-22",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": null,
+     "dateien": [
+      {
+       "name": "Socia-Physics-Systems-Theory00en.pdf",
+       "groesse_bytes": 828319,
+       "md5_zenodo": "2a536d26367ff91577676555a9cfbace",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "b8608191f9bfa2140db6f3cbedfcf9fb6edd68fd9c9ef9afa35158e3c703b542",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18732366",
+   "concept_doi": "10.5281/zenodo.18732366",
+   "titel": "Formalization of the Standard Model of Physics: The Holographic Derivation of Physical Constants",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18732367,
+     "doi": "10.5281/zenodo.18732367",
+     "version": null,
+     "veroeffentlicht": "2026-02-22",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "eng",
+     "dateien": [
+      {
+       "name": "holographic-constants01.pdf",
+       "groesse_bytes": 627768,
+       "md5_zenodo": "539736653c3a38eb8a4e52915dadbe60",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "e4022e92d60be7195a1709f32d5d37478d116408c07dceb73602b70d6345dea9",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18733341",
+   "concept_doi": "10.5281/zenodo.18733341",
+   "titel": "Predictions for LHC and Future Colliders: Topological Invariants and Measurable Observables (EN/DE) Vorhersagen für LHC und zukünftige Kollider: Topologische Invarianten und messbare Observablen",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18733342,
+     "doi": "10.5281/zenodo.18733342",
+     "version": null,
+     "veroeffentlicht": "2026-02-22",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "cern-de-en01.pdf",
+       "groesse_bytes": 640110,
+       "md5_zenodo": "91b0c5235b0f3f5c51ca7c44b79e1240",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "88be9043a53204b7f888a9a9c1884c4d3496c821e30e77306bce3f6969305a23",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18734443",
+   "concept_doi": "10.5281/zenodo.18734443",
+   "titel": "Cracks in the Standard Model: Empirical Observables and Theoretical Gaps - Standard Modell der Physik (SM) – Übersicht der Diskrepanzen & Unstimmigkeiten",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18734444,
+     "doi": "10.5281/zenodo.18734444",
+     "version": "1.0",
+     "veroeffentlicht": "2026-02-22",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "cracks-physics-de-en01.pdf",
+       "groesse_bytes": 827458,
+       "md5_zenodo": "214533a561aa32adfc1c67930d194e2b",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "0408deaba60a097fe75f727e23ec45a24e71f74a68b0590e4825c5beadd09d56",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18750136",
+   "concept_doi": "10.5281/zenodo.18750136",
+   "titel": "Dissolving the Micro-Macro Dualism - Auflösung der Trennung von Mikro- & Makrokosmos",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18750137,
+     "doi": "10.5281/zenodo.18750137",
+     "version": "1.0",
+     "veroeffentlicht": "2026-02-23",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "micro-marco-unified-scale01.pdf",
+       "groesse_bytes": 994603,
+       "md5_zenodo": "57a3bd16ef38bc91eb42e4de21c53263",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "f9ba40bff4bfa2b95662a6ce0e1793eb4983c59d6364b89f771470ffe1d575df",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18756601",
+   "concept_doi": "10.5281/zenodo.18756601",
+   "titel": "Relationale Musik - Musik als Höhere Ordnung von Mathematik und Physik",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18756602,
+     "doi": "10.5281/zenodo.18756602",
+     "version": "1.0",
+     "veroeffentlicht": "2026-02-24",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "Relationale-Musik01.pdf",
+       "groesse_bytes": 821302,
+       "md5_zenodo": "b5e108020556f10859e1e76c507ee195",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "14681a2f083df945e2628a403531a82b10e31c045324d3ff6ea25f3efcaa2e84",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18764526",
+   "concept_doi": "10.5281/zenodo.18764526",
+   "titel": "Relational Music - Proof for Music as Higher Order of Math & Physics",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18764527,
+     "doi": "10.5281/zenodo.18764527",
+     "version": "1.0",
+     "veroeffentlicht": "2026-02-25",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "eng",
+     "dateien": [
+      {
+       "name": "relational-music01.pdf",
+       "groesse_bytes": 816099,
+       "md5_zenodo": "e4f18c2cf23c34336000029a1c87c481",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "ecdc1b7f16a1631dd62d6cbaaade0a1e1f7221c058289b6029d191258eb741b9",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18776701",
+   "concept_doi": "10.5281/zenodo.18776701",
+   "titel": "Null Matrix",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18776702,
+     "doi": "10.5281/zenodo.18776702",
+     "version": null,
+     "veroeffentlicht": "2026-02-25",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "eng",
+     "dateien": [
+      {
+       "name": "Null-Matrix_en00.pdf",
+       "groesse_bytes": 896218,
+       "md5_zenodo": "9c89b6a260d6ef17e6a8aaba7b7542ab",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "77fc3fa0c1c4d1160a0fe1e29689d885430747baa3416285ee3942eee4b10ca8",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18778606",
+   "concept_doi": "10.5281/zenodo.18778606",
+   "titel": "Room-Temperature Qubits / Raumtemperatur-Qubits: Path to Cryogenic Cooling Reduction / Weg zur Reduktion kryogener Kühlung via Rel0 Baseline and Rel1 Holography",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18778607,
+     "doi": "10.5281/zenodo.18778607",
+     "version": "1.0",
+     "veroeffentlicht": "2026-02-26",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": null,
+     "dateien": [
+      {
+       "name": "quantum-solution-relational.pdf",
+       "groesse_bytes": 512497,
+       "md5_zenodo": "1df768806505c79a2b04512e9d0bd763",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "08bd90d9c35ad0af276b6965be47c417fce575d346d7705a92dc9131649c35ce",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18790941",
+   "concept_doi": "10.5281/zenodo.18790941",
+   "titel": "Relational Quantum Field Theory",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18790942,
+     "doi": "10.5281/zenodo.18790942",
+     "version": "1.0",
+     "veroeffentlicht": "2026-02-26",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": null,
+     "dateien": [
+      {
+       "name": "Relational Quantum Field Theory.pdf",
+       "groesse_bytes": 226064,
+       "md5_zenodo": "151c9af6e17766e6aa1df6a5851f16bb",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "0516150c4b6e72b578ab71d0179e56b32af70a9b5715f352208c31590170c087",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18802385",
+   "concept_doi": "10.5281/zenodo.18802385",
+   "titel": "Relationale Gravitation - Puls des Vakuum zur Unitarität",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18802386,
+     "doi": "10.5281/zenodo.18802386",
+     "version": "1.0",
+     "veroeffentlicht": "2026-02-27",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "relationale-gravitation00.pdf",
+       "groesse_bytes": 678053,
+       "md5_zenodo": "49e866e1bc6b11de2489056a5b504e3f",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "3078ca39b98039911abc23eb0d332993dc40fba86a3b0a8f89084dd381a42d99",
+       "in_git_bytegleich": [
+        "relationale-gravitation00.pdf"
+       ]
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18802770",
+   "concept_doi": "10.5281/zenodo.18802770",
+   "titel": "Relational Gravity - Pulse of Vacuum for universal Unity",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18802771,
+     "doi": "10.5281/zenodo.18802771",
+     "version": "1.0",
+     "veroeffentlicht": "2026-02-27",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "eng",
+     "dateien": [
+      {
+       "name": "relational-gravity00.pdf",
+       "groesse_bytes": 660042,
+       "md5_zenodo": "0a6a9fae16048541ddbe036af18c43b5",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "4d2f23e9a7ea689e10d3d496ea01366733ceeb3785b9ca27bb62df5b55119443",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18815449",
+   "concept_doi": "10.5281/zenodo.18815449",
+   "titel": "Relationale Fraktale - Der Universelle Takt des Werdens",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18815450,
+     "doi": "10.5281/zenodo.18815450",
+     "version": null,
+     "veroeffentlicht": "2026-02-28",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "relationale-fraktale00.pdf",
+       "groesse_bytes": 1189504,
+       "md5_zenodo": "85635463c8f4658208b287c58fccfbda",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "1f2ef298e62666f06fd84840b16de75c9594e6797aabcdbadbdf50330b0ae9a7",
+       "in_git_bytegleich": [
+        "relationale-fraktale00.pdf"
+       ]
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18816134",
+   "concept_doi": "10.5281/zenodo.18816134",
+   "titel": "Relational Fractality - The Universal Pulse of Becoming",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18816135,
+     "doi": "10.5281/zenodo.18816135",
+     "version": "1.0",
+     "veroeffentlicht": "2026-02-28",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "eng",
+     "dateien": [
+      {
+       "name": "relational-fractals00.pdf",
+       "groesse_bytes": 1091509,
+       "md5_zenodo": "9779b442cb792ba710b7a632f060647a",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "1eeafef66c8c73e586c029af88e2d09bd3b23a42dd3071a6bc214248ddfab709",
+       "in_git_bytegleich": []
+      }
+     ]
+    },
+    {
+     "record_id": 18816408,
+     "doi": "10.5281/zenodo.18816408",
+     "version": "1.1",
+     "veroeffentlicht": "2026-02-28",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "eng",
+     "dateien": [
+      {
+       "name": "relational_fractals_txt002.pdf",
+       "groesse_bytes": 1184186,
+       "md5_zenodo": "aefd4e484a4117cc4d93ca76ee651d0b",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "ef5f0f70465f6475fdc002eaee625f025b8d7a181576a274d42adf4d6f74ef3e",
+       "in_git_bytegleich": [
+        "relational_fractals_txt002.pdf"
+       ]
+      }
+     ]
+    },
+    {
+     "record_id": 18816496,
+     "doi": "10.5281/zenodo.18816496",
+     "version": "1.2",
+     "veroeffentlicht": "2026-02-28",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "eng",
+     "dateien": [
+      {
+       "name": "relational_fractals_002.pdf",
+       "groesse_bytes": 1184187,
+       "md5_zenodo": "5df2e084e548b7c0454599271d2ed4d7",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "ec6762a68c2a72eb2478aa98c1be143d243086f9ca5a3abb0ee68c3ff27a99d7",
+       "in_git_bytegleich": [
+        "relational_fractals_002.pdf"
+       ]
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18818850",
+   "concept_doi": "10.5281/zenodo.18818850",
+   "titel": "Proteinfaltung berechnen - Durchbruch für Biologie und Bioinformatik",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18818851,
+     "doi": "10.5281/zenodo.18818851",
+     "version": "1.0",
+     "veroeffentlicht": "2026-02-28",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "Proteinfaltung-berechnen00.pdf",
+       "groesse_bytes": 5348134,
+       "md5_zenodo": "73eb500555ad5658bace23055cc35e5b",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "307bb2eb145fb08e9dc6502939a0de96fcc97d3af7b2b4a58b4e83a2f6bc59f9",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18819165",
+   "concept_doi": "10.5281/zenodo.18819165",
+   "titel": "Protein Folding Computation - Breakthrue for Biology & Bioinformatics",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18819166,
+     "doi": "10.5281/zenodo.18819166",
+     "version": null,
+     "veroeffentlicht": "2026-02-28",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "eng",
+     "dateien": [
+      {
+       "name": "proteinfolding_computation00.pdf",
+       "groesse_bytes": 5344005,
+       "md5_zenodo": "77caffb5252196fc97ebab65462a0d0d",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "e0a2e25bece4520dd5a44d36c7c6c7f7104093e70ba04311b53c05f0f2838892",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18851573",
+   "concept_doi": "10.5281/zenodo.18851573",
+   "titel": "Relationale Chemie",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18851574,
+     "doi": "10.5281/zenodo.18851574",
+     "version": "1.0",
+     "veroeffentlicht": "2026-03-03",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "relationale-chemie_full.pdf",
+       "groesse_bytes": 2474887,
+       "md5_zenodo": "8661b7e3f9f100bfaccb60e08fe01806",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "b9d2ac822158cc88ca50c36ed8976b01184395e341667476ff58e26130ff9796",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18854399",
+   "concept_doi": "10.5281/zenodo.18854399",
+   "titel": "Das Galaktische Zentrum - relational",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18854400,
+     "doi": "10.5281/zenodo.18854400",
+     "version": "1.0",
+     "veroeffentlicht": "2026-03-03",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "eng",
+     "dateien": [
+      {
+       "name": "Das-galaktische-Zentrum_final.pdf",
+       "groesse_bytes": 4522113,
+       "md5_zenodo": "21098c698a30c3c17c7f5c49bda217cd",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "61aaa6f1450b2215a2a3893c7124d6e81b7e8131b6a16c52436a1b435bc68234",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18854675",
+   "concept_doi": "10.5281/zenodo.18854675",
+   "titel": "Galactic Central - relational",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18854676,
+     "doi": "10.5281/zenodo.18854676",
+     "version": "1.0",
+     "veroeffentlicht": "2026-03-03",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "eng",
+     "dateien": [
+      {
+       "name": "galactic-central_en_final.pdf",
+       "groesse_bytes": 4270718,
+       "md5_zenodo": "098562cc26a54690458f9059e59933b2",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "2abd63b4b04fc33ad728fe80d826b8d381dbfc606120ffd0d2cf3ee7b83037de",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18856410",
+   "concept_doi": "10.5281/zenodo.18856410",
+   "titel": "Relationales Sonnensystem",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18856411,
+     "doi": "10.5281/zenodo.18856411",
+     "version": null,
+     "veroeffentlicht": "2026-03-04",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "relationales-sonnensystem_final.pdf",
+       "groesse_bytes": 567015,
+       "md5_zenodo": "304749c1c9ceea2c92394b2b52f7edbb",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "0d4fd62b420f52503a63a97f747a03e05c997446c5c83cecbaf9940257ef36eb",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18857184",
+   "concept_doi": "10.5281/zenodo.18857184",
+   "titel": "Relational Solar System",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18857185,
+     "doi": "10.5281/zenodo.18857185",
+     "version": null,
+     "veroeffentlicht": "2026-03-04",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "eng",
+     "dateien": [
+      {
+       "name": "relational-solar-system_en_final.pdf",
+       "groesse_bytes": 1417328,
+       "md5_zenodo": "de2cb55f29a7b45e69ea70cb852b64de",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "c6b634819e1da726b7e84f98b16165e1dcea9ac9e01ee90f708fbd4f446cddd4",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18857346",
+   "concept_doi": "10.5281/zenodo.18857346",
+   "titel": "Relationale Zeit",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18857347,
+     "doi": "10.5281/zenodo.18857347",
+     "version": "1.0",
+     "veroeffentlicht": "2026-03-04",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "relationale-zeit_final.pdf",
+       "groesse_bytes": 714990,
+       "md5_zenodo": "7d7e066b2d78caab9073786aaea34180",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "ccc3d834f04dc3e1c8e4464eb9fef163bfdb8dc17e2fc1257ecdfc3d4ed7090c",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18870573",
+   "concept_doi": "10.5281/zenodo.18870573",
+   "titel": "Soziale Operatoren",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18870574,
+     "doi": "10.5281/zenodo.18870574",
+     "version": null,
+     "veroeffentlicht": "2026-03-05",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "Soziale-Operatoren_final.pdf",
+       "groesse_bytes": 891183,
+       "md5_zenodo": "37b0205218ea24af277f18c023d88df5",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "cf9a89ae04b032c258cdfc17812e169d0377417d564f6b136997d4610bd95a61",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18871372",
+   "concept_doi": "10.5281/zenodo.18871372",
+   "titel": "Social Operators - Socio-Physics & Math",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18871373,
+     "doi": "10.5281/zenodo.18871373",
+     "version": null,
+     "veroeffentlicht": "2026-03-05",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "eng",
+     "dateien": [
+      {
+       "name": "social-operators_final.pdf",
+       "groesse_bytes": 881441,
+       "md5_zenodo": "a9f0509069ef595fe9646073cecc71b9",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "8f8386284ae365af02086fff1b7ce6f5fd36ad8bd409f1b1c3686f13a8eae262",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18941898",
+   "concept_doi": "10.5281/zenodo.18941898",
+   "titel": "Relational Information Theory - Relationale Informations Theorie",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18941899,
+     "doi": "10.5281/zenodo.18941899",
+     "version": null,
+     "veroeffentlicht": "2026-03-10",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "relational-information-theory_de_en.pdf",
+       "groesse_bytes": 812395,
+       "md5_zenodo": "884d42a27c542a54d1946ec2dc39caa0",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "23901bb2dc4c2fd64b3265f4e3b189d78100376d62e61cf9d6b0528c3c9143ff",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18978938",
+   "concept_doi": "10.5281/zenodo.18978938",
+   "titel": "Matrix der Trinität - Grundstruktur des Universums",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18978939,
+     "doi": "10.5281/zenodo.18978939",
+     "version": "1.0",
+     "veroeffentlicht": "2026-03-12",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "Matrix_der_Trinitaet_full.pdf",
+       "groesse_bytes": 650043,
+       "md5_zenodo": "7829145e1e01d04d1f7c96e2b72bb539",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "2b7f2a5a8528616e01404690c92da00f88e4c18ef0d697e8fb44bb39acfca0d1",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-18981187",
+   "concept_doi": "10.5281/zenodo.18981187",
+   "titel": "EINheits-Matrix - die grundlegende Einheit der Existenz",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 18981188,
+     "doi": "10.5281/zenodo.18981188",
+     "version": "1.0",
+     "veroeffentlicht": "2026-03-12",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "EINheits-Matrix_final.pdf",
+       "groesse_bytes": 1028437,
+       "md5_zenodo": "e5c57dca5ca9f49c8bbfc54a5ec46dad",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "524c7a33869be117e030949b617ad92091b5cb6c0da780d6c863d52053de04eb",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-19018349",
+   "concept_doi": "10.5281/zenodo.19018349",
+   "titel": "Geometric Deduction of the Weinberg Angle (EN/DE) - Geometrische Deduktion des Weinberg-Winkels",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 19018350,
+     "doi": "10.5281/zenodo.19018350",
+     "version": "1.0",
+     "veroeffentlicht": "2026-03-14",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "weinberg.md",
+       "groesse_bytes": 15641,
+       "md5_zenodo": "786dbac039bb0486405155350ab00ba0",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "b0bf98974a64b0fe96be516b6fce3d006feea0c05f4b1624607071d7dae7242b",
+       "in_git_bytegleich": []
+      },
+      {
+       "name": "geometric-weinberg_de_en.pdf",
+       "groesse_bytes": 276817,
+       "md5_zenodo": "afc6de2f9aaf9b6605b507227c72cb5f",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "f9f4f4cd656de22694fe9ea4d72becc8df1cdc4e29ba41ac57367d9468774681",
+       "in_git_bytegleich": []
+      }
+     ]
+    },
+    {
+     "record_id": 19018786,
+     "doi": "10.5281/zenodo.19018786",
+     "version": null,
+     "veroeffentlicht": "2026-03-14",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "errata-weinberg.pdf",
+       "groesse_bytes": 282141,
+       "md5_zenodo": "91e07c2ae76f90fe3a2a80adb2095072",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "5e40aa3718e4e94d5261c6a0109b70e87ee7bb898ef36cc8bad031310b20f54d",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-19021348",
+   "concept_doi": "10.5281/zenodo.19021348",
+   "titel": "Relational Regularization Scale (EN/DE) Relationale Regularisierungs-Skala",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 19021349,
+     "doi": "10.5281/zenodo.19021349",
+     "version": null,
+     "veroeffentlicht": "2026-03-14",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "Relational Regularization Scale.pdf",
+       "groesse_bytes": 633560,
+       "md5_zenodo": "991d46b679ecf840ce6c241d31e3a58c",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "c2990dc670179e16b4e05418e5030bdf0914767380a4bd70a1ec022ea594ed33",
+       "in_git_bytegleich": []
+      },
+      {
+       "name": "Relational Regularization Scale.md",
+       "groesse_bytes": 30361,
+       "md5_zenodo": "0ec3415d1dc76977f1ecd8f39ce15997",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "11cf2caf25bece7c2e6c9eacb755e2ed3264c95fc8e69e77ef547aa03e4bd1c8",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-19024323",
+   "concept_doi": "10.5281/zenodo.19024323",
+   "titel": "Alpha Metrology: Relationally Motivated Geometric Model of the Fine-Structure Constant",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 19024324,
+     "doi": "10.5281/zenodo.19024324",
+     "version": null,
+     "veroeffentlicht": "2026-03-14",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": null,
+     "dateien": [
+      {
+       "name": "alpha-metrology.md",
+       "groesse_bytes": 19571,
+       "md5_zenodo": "b45c7aa27f30a1ee4b7bfa7b1263abbd",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "797c9dda3a6f580ace88ce6722c7a3aa4bcce7bcc13e744f87613e1a6e2b1317",
+       "in_git_bytegleich": []
+      },
+      {
+       "name": "alpha-metrology.pdf",
+       "groesse_bytes": 479692,
+       "md5_zenodo": "0162773a232262cecc876e68e29540df",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "5e22fcc53bfc74726f5d664b57910db01a383a4c00adc3365e405eb896a8345c",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-19093641",
+   "concept_doi": "10.5281/zenodo.19093641",
+   "titel": "Rel0 and Rel1 in NAND Flash Memory",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 19093642,
+     "doi": "10.5281/zenodo.19093642",
+     "version": "1.0",
+     "veroeffentlicht": "2026-03-18",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": null,
+     "dateien": [
+      {
+       "name": "Rel0 and Rel1 in NAND Flash Memory.md",
+       "groesse_bytes": 24211,
+       "md5_zenodo": "321f6795409b89b357f738191d09dadd",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "3be43a3e684dc6c418ba3581055f9ccbe267dc1d1c184e40efc5317a99a7644b",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-19093861",
+   "concept_doi": "10.5281/zenodo.19093861",
+   "titel": "Rel0 und Rel1 in NAND-Flash-Speicher",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 19093862,
+     "doi": "10.5281/zenodo.19093862",
+     "version": "1.0",
+     "veroeffentlicht": "2026-03-18",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "Rel0 und Rel1 in NAND-Flash-Speicher.md",
+       "groesse_bytes": 26683,
+       "md5_zenodo": "376c4941b0ee3748a21afb513be5ee87",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "3a5c8d8a452631ef399703894cbfb84b410e4797124a169844f969941fdca21d",
+       "in_git_bytegleich": []
+      },
+      {
+       "name": "Rel0 und Rel1 in NAND-Flash-Speicher.pdf",
+       "groesse_bytes": 569403,
+       "md5_zenodo": "082077228feeab39b155e504f358bdba",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "02295d30e6ac523b7f7f4d84726df14469c4b5278fe34f0fc53f21c883f7abf6",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-19095247",
+   "concept_doi": "10.5281/zenodo.19095247",
+   "titel": "Symmetry-Break Costs and Landauer's Principle - Symmetriebrechungskosten und das Landauer-Prinzip",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 19095248,
+     "doi": "10.5281/zenodo.19095248",
+     "version": "1.0",
+     "veroeffentlicht": "2026-03-18",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "eng",
+     "dateien": [
+      {
+       "name": "Symmetry-Break Costs and Landauer’s Principle - Symmetriebrechungskosten und das Landauer-Prinzip.md",
+       "groesse_bytes": 53164,
+       "md5_zenodo": "8ce21af3ef33c103f74459bafce25488",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "0dbe6cb682c4433b0fd94092873b493c72711828424c065a68fe2c129edb0b28",
+       "in_git_bytegleich": []
+      },
+      {
+       "name": "Symmetry-Break Costs and Landauer’s Principle - Symmetriebrechungskosten und das Landauer-Prinzip.pdf",
+       "groesse_bytes": 1221149,
+       "md5_zenodo": "e19421fca86db9fafaf9a58727ebc37e",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "ecef1b9af7e5b4bd571088c3e4e0b112057177714fd751f17ed28d8474e10365",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-19096698",
+   "concept_doi": "10.5281/zenodo.19096698",
+   "titel": "Empirischer Nachweis von Rel0 und Rel1 - Empirical Evidence for Rel0 and Rel1",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 19096699,
+     "doi": "10.5281/zenodo.19096699",
+     "version": "1.0",
+     "veroeffentlicht": "2026-03-18",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "eng",
+     "dateien": [
+      {
+       "name": "Empirischer Nachweis von Rel0 und Rel1 - Empirical Evidence for Rel0 and Rel1.md",
+       "groesse_bytes": 37466,
+       "md5_zenodo": "941a4a7df25ab9ddde7f45333f2db3f6",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "2aa8934b84f9f04fe300217b0a1e2cbd701efdb4b80a2a7ba719c7321c852497",
+       "in_git_bytegleich": []
+      },
+      {
+       "name": "Empirischer Nachweis von Rel0 und Rel1 - Empirical Evidence for Rel0 and Rel1.pdf",
+       "groesse_bytes": 883878,
+       "md5_zenodo": "c5644ef8702d01dec03a63fc79993d71",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "35f0c4c85e361233a3bb1f5d02cd4e3b01d87929cfd0b5b94a4581983dd804a3",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-19097742",
+   "concept_doi": "10.5281/zenodo.19097742",
+   "titel": "Biological Evidence for Rel0 and Rel1 - Biologischer Nachweis von Rel0 und Rel1",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 19097743,
+     "doi": "10.5281/zenodo.19097743",
+     "version": "1.0",
+     "veroeffentlicht": "2026-03-18",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "Biological Evidence for Rel0 and Rel1 - Biologischer Nachweis von Rel0 und Rel1.md",
+       "groesse_bytes": 55196,
+       "md5_zenodo": "bf1b510d0de961142edddbbf1c422238",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "957db092bd45f34697b58e8e6e62dd3719acee6956c4820714338b4d50a65c25",
+       "in_git_bytegleich": []
+      },
+      {
+       "name": "Biological Evidence for Rel0 and Rel1 - Biologischer Nachweis von Rel0 und Rel1.pdf",
+       "groesse_bytes": 1111730,
+       "md5_zenodo": "c153cb0a8193f443b45f8fbc6204a3db",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "186e45f52d9469e13db0595d74176299b673492ff8d60e1817a87d1b5231acb2",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-19098957",
+   "concept_doi": "10.5281/zenodo.19098957",
+   "titel": "Planck 2018 CMB Evidence for Rel0 Dominance at Cosmological Scales - Planck 2018 CMB-Nachweis der Rel0-Dominanz auf kosmologischen Skalen",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 19098958,
+     "doi": "10.5281/zenodo.19098958",
+     "version": "1.0",
+     "veroeffentlicht": "2026-03-18",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "Planck 2018 CMB Evidence for Rel0 Dominance at Cosmological Scales - Planck 2018 CMB-Nachweis der Rel0-Dominanz auf kosmologischen Skalen.md",
+       "groesse_bytes": 40856,
+       "md5_zenodo": "b51ef67529d4eb2c0d26eb6d9d75c7b0",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "fb438475d5e29e2196c9b36b1aa94af7860b27d93ac10e53993ce8ad825168fa",
+       "in_git_bytegleich": []
+      },
+      {
+       "name": "Planck 2018 CMB Evidence for Rel0 Dominance at Cosmological Scales - Planck 2018 CMB-Nachweis der Rel0-Dominanz auf kosmologischen Skalen.pdf",
+       "groesse_bytes": 1029721,
+       "md5_zenodo": "96ccd4ae975f8baf24d3a178541441a6",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "c294449169d563ad4643f8ea3d946b68f47bd5c148e2833f597d75320523f292",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-19124878",
+   "concept_doi": "10.5281/zenodo.19124878",
+   "titel": "Zyklus Matrix — Rel-Rel - Der Übergang in der Neuen Relationalität",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 19124879,
+     "doi": "10.5281/zenodo.19124879",
+     "version": null,
+     "veroeffentlicht": "2026-03-20",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "Zyklus-Matrix.md",
+       "groesse_bytes": 49325,
+       "md5_zenodo": "77b15bd46ec2fdb037f631cb22c7214b",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "1fa69d7add7c89d065f878d785ea20be4d160bd0ef13b977e49036ea181032bd",
+       "in_git_bytegleich": []
+      },
+      {
+       "name": "zyklus-matrix_full.pdf",
+       "groesse_bytes": 999300,
+       "md5_zenodo": "ac6c20f648e94a651064f1fd2312fd6d",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "9998971109332b9b8c25892c327ea7f4b973baea3036f727471780566f37bce4",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-19133277",
+   "concept_doi": "10.5281/zenodo.19133277",
+   "titel": "Holographie-Matrix",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 19133278,
+     "doi": "10.5281/zenodo.19133278",
+     "version": null,
+     "veroeffentlicht": "2026-03-20",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "Holographie-Matrix.pdf",
+       "groesse_bytes": 1023890,
+       "md5_zenodo": "da7c53e3e686ae66cffe1c9f8bbde503",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "ef5e2d4a8fa47bee977cf5b19bdd3af6c6f26cc3239ad109502776064ca51bb6",
+       "in_git_bytegleich": []
+      },
+      {
+       "name": "Holographie-Matrix.md",
+       "groesse_bytes": 53698,
+       "md5_zenodo": "f206cf8c8f39982937473eb69b763be4",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "8f2aafd1274bf0224021aaaa1e13ed99654f12e1050a151dda0face513b63272",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-19152182",
+   "concept_doi": "10.5281/zenodo.19152182",
+   "titel": "Tensor Basics / Grundlagen (EN/DE)",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 19152183,
+     "doi": "10.5281/zenodo.19152183",
+     "version": "1.0",
+     "veroeffentlicht": "2026-03-21",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "Tensor-Basics-Grundlagen.md",
+       "groesse_bytes": 50628,
+       "md5_zenodo": "0d4639d4aa28ab99041ff22de6539e41",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "ba1268bc06c51dd936a1e91d305a80450b9aabf7541ac469649a35484f3d14c8",
+       "in_git_bytegleich": []
+      },
+      {
+       "name": "Tensor-Basics-Grundlagen.pdf",
+       "groesse_bytes": 765842,
+       "md5_zenodo": "e1dd2933835f16f2bb59c8e846d3e8fb",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "058805b8c58bd52ca73578e047fe3a5a23e25334df72d86aa9b9119d067a7ebb",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-19153909",
+   "concept_doi": "10.5281/zenodo.19153909",
+   "titel": "Tensor Field Theory / Feld Theorie (EN/DE)",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 19153910,
+     "doi": "10.5281/zenodo.19153910",
+     "version": "1.0",
+     "veroeffentlicht": "2026-03-21",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "eng",
+     "dateien": [
+      {
+       "name": "Tensor-Feld-Theorie-Field-Theory.md",
+       "groesse_bytes": 31249,
+       "md5_zenodo": "2026049db8c0d8dcdf80cf02ee538d66",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "6d5d705c46e2d5ba766339492c06646aab59814127bfe8500027b20c9802d76a",
+       "in_git_bytegleich": []
+      },
+      {
+       "name": "Tensor-Field-Theory-Feld-Theorie.pdf",
+       "groesse_bytes": 313361,
+       "md5_zenodo": "eed66af3e27167df6235f9b7ee668a54",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "8887bdc89b314d0125f0309b903ed4f924825f220c712b40dc5ed335bcd54e13",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-19183618",
+   "concept_doi": "10.5281/zenodo.19183618",
+   "titel": "The Relational Derivation of the MOND Scale (EN/DE) Die Relationale Herleitung der MOND-Skala",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 19183619,
+     "doi": "10.5281/zenodo.19183619",
+     "version": "1.0",
+     "veroeffentlicht": "2026-03-23",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "MOND-Scale.pdf",
+       "groesse_bytes": 354451,
+       "md5_zenodo": "817864ee2ccc112d6fedffe4d7861ac2",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "88c6c7eb7adfa8059a581491e4ab92b132937faed9bfdfb96617fa9dd5a9330e",
+       "in_git_bytegleich": []
+      },
+      {
+       "name": "MOND-Scale.md",
+       "groesse_bytes": 26228,
+       "md5_zenodo": "6b06a83dc794bd0b8ad1407d2eba4c0e",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "6d9c5119657ab42b8678686284b7298023372ceabd7a5986a3cfaa19d6ceee89",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-19282894",
+   "concept_doi": "10.5281/zenodo.19282894",
+   "titel": "Relationale Logik - der Logik Tensor",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 19282895,
+     "doi": "10.5281/zenodo.19282895",
+     "version": "1.0",
+     "veroeffentlicht": "2026-03-28",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "Logik-Tensor_1_0.pdf",
+       "groesse_bytes": 808676,
+       "md5_zenodo": "22dec6744f4a93f5cdcc37da6c1473a2",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-19340106",
+   "concept_doi": "10.5281/zenodo.19340106",
+   "titel": "Spacetime Gridmatrix – Raumzeit Gittermatrix (EN/DE)",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 19340107,
+     "doi": "10.5281/zenodo.19340107",
+     "version": null,
+     "veroeffentlicht": "2026-03-30",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "eng",
+     "dateien": [
+      {
+       "name": "spacetime-gridmatrix-raumzeit-gittermatrix_final_de_en.pdf",
+       "groesse_bytes": 1007472,
+       "md5_zenodo": "5d5e58100597eac477d824ffba213a81",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "6c8013edc90a0a985a9cedd1546a5a606cd6a90bea9afd4a7de3b686614fac74",
+       "in_git_bytegleich": []
+      },
+      {
+       "name": "spacetime-grid-matrix.md",
+       "groesse_bytes": 41503,
+       "md5_zenodo": "ccc92df46c75eb4de035c24d2770f3bc",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "135c1738a6489a2a1c4cac9b96d2d2c21dfdcc980367a9e9f3cacd2a143e1d3a",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-19340499",
+   "concept_doi": "10.5281/zenodo.19340499",
+   "titel": "Validation of 908 calculated dtermined Protein Foldings - Nachweis der deterministischen Berechnung der Proteinfaltung an 908 Beispielen",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 19340500,
+     "doi": "10.5281/zenodo.19340500",
+     "version": null,
+     "veroeffentlicht": "2026-03-30",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": null,
+     "dateien": [
+      {
+       "name": "GDF_Validation_List_908.md",
+       "groesse_bytes": 71961,
+       "md5_zenodo": "3d69ee2c3a6eb7a751b7a9e3c5952406",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "772dc8796118f64e4f44cbed4d379924113dead318dd42f50069ade96af0b82a",
+       "in_git_bytegleich": []
+      },
+      {
+       "name": "GDF_908_Database.json",
+       "groesse_bytes": 2383667,
+       "md5_zenodo": "8d80f2ab3d95133530c18c1c37190b2e",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "e5779bca1aca17f1f192e5d06c1638fd71560a1afd5ad4122baf67c2185d979d",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-19392516",
+   "concept_doi": "10.5281/zenodo.19392516",
+   "titel": "Zwischenstand Relationaler Nucleus",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 19392517,
+     "doi": "10.5281/zenodo.19392517",
+     "version": null,
+     "veroeffentlicht": "2026-04-02",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "Zwischenstand Relationaler Nucleus.pdf",
+       "groesse_bytes": 165933,
+       "md5_zenodo": "9dcc70cab8b03866bcfc089f60db1760",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "801aa709c4c0c4c6110d03db32c0ed2584144e52d37f0a137aee914ac636c72f",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-19403456",
+   "concept_doi": "10.5281/zenodo.19403456",
+   "titel": "Addendum to Spacetime Gridmatrix (EN/DE)",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 19403457,
+     "doi": "10.5281/zenodo.19403457",
+     "version": null,
+     "veroeffentlicht": "2026-04-03",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "eng",
+     "dateien": [
+      {
+       "name": "Addendum to Spacetime Gridmatrix.pdf",
+       "groesse_bytes": 244558,
+       "md5_zenodo": "42c2c474b8ea4039bc8071b4875ac0e4",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "3412e5cacf321d3df420c944b268b7a8a3d88cde32c3943688b07adbcdba532c",
+       "in_git_bytegleich": []
+      },
+      {
+       "name": "Addendum to Spacetime Gridmatrix.md",
+       "groesse_bytes": 15214,
+       "md5_zenodo": "f7b63e388fe9b8dcb8fbdeb2891c0bd6",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "034b0e03f5ac7629d44f258487ef2fb2f8d4108c2bdaef4e01dfb5045894d679",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-19404055",
+   "concept_doi": "10.5281/zenodo.19404055",
+   "titel": "Documentation of the PDB Distance Analyses (Version 1–5) (EN/DE)",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 19404056,
+     "doi": "10.5281/zenodo.19404056",
+     "version": null,
+     "veroeffentlicht": "2026-04-03",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "eng",
+     "dateien": [
+      {
+       "name": "Atom_Peaks.md",
+       "groesse_bytes": 54486,
+       "md5_zenodo": "2c329abcb1b55fd0af8da7273979d62f",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "b13f69bd3c07fbb550e9d2e31fa5003c93f2c0b54da9dfd7deb7c7780df48868",
+       "in_git_bytegleich": []
+      },
+      {
+       "name": "Atom_Peaks_Appendix.md",
+       "groesse_bytes": 327490,
+       "md5_zenodo": "de788e337239c048befa2e2d5a960014",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "25cb564edbdbd07ca815afcaf52414dfe515f06a71c2c862d4d3315aa0a92a2d",
+       "in_git_bytegleich": []
+      },
+      {
+       "name": "Trinity_Grid_Histogramm_Version5.png",
+       "groesse_bytes": 245951,
+       "md5_zenodo": "6f99e830c6f18962ac35b021519380a2",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "67a9b8977b7b8e7a56b7d44acca83b5d9a734551402beeb62a7fe5fb4b8d8fb1",
+       "in_git_bytegleich": []
+      },
+      {
+       "name": "Atom_Peaks.pdf",
+       "groesse_bytes": 274555,
+       "md5_zenodo": "fcbad4a042296b2d28fdecb297c1a91f",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "2f6bf03597ea31170fb24a41e5c2ea2acb968258a0469556ea6327337d2596e8",
+       "in_git_bytegleich": []
+      },
+      {
+       "name": "Trinity_Grid_Peaks_Vollstaendig_Version5.csv",
+       "groesse_bytes": 19081,
+       "md5_zenodo": "2fe49f0deab2f4f9e8899da1786ab30a",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "4fc0c7fac037e1c4fbab87d55398ca8bb05e8e0186a17548e9473066cf2d8a1f",
+       "in_git_bytegleich": []
+      },
+      {
+       "name": "Atom_Peaks Appendix.pdf",
+       "groesse_bytes": 888192,
+       "md5_zenodo": "54e1728ecbdb72742e574bb7ab71e263",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "9b62ea2dcb4cb16f270ae387e84a3a2cc274d5e9e1489f51d1590446de10cf9b",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-19406995",
+   "concept_doi": "10.5281/zenodo.19406995",
+   "titel": "Soziation - Assoziation & Dissoziation als Komplementäre",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 19406996,
+     "doi": "10.5281/zenodo.19406996",
+     "version": "1.0",
+     "veroeffentlicht": "2026-04-03",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "Soziation_wissenschaftlich.pdf",
+       "groesse_bytes": 668727,
+       "md5_zenodo": "10146447b784dbf4f0fb3e6b94ede2a7",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "b4e0057dc624d6ab27a9da6c9b30e15bde4d90e4e451aeb246f8fdf58fcd0282",
+       "in_git_bytegleich": []
+      },
+      {
+       "name": "Die wissenschaftliche Theorie der Soziation.md",
+       "groesse_bytes": 54930,
+       "md5_zenodo": "5fb5579c98a4f1bdbf1d8b6fa1a3942b",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "5a2a622603558b526dead96afcc2602916ee9352032eecffd93bb5fe0af2db0c",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-20737322",
+   "concept_doi": "10.5281/zenodo.20737322",
+   "titel": "Gaslighting interdisziplinär - Modell realitätsbeschädigender Verletzung",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 20737323,
+     "doi": "10.5281/zenodo.20737323",
+     "version": null,
+     "veroeffentlicht": "2026-06-17",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "Gaslighting-interdisziplinaer.pdf",
+       "groesse_bytes": 2117524,
+       "md5_zenodo": "7b390877acaff9f532ef26288d641614",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "603a8919ccecc1598ff2235ba4c27d0df52dda39811f4598fa3dd3d4c6049455",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-21137665",
+   "concept_doi": "10.5281/zenodo.21137665",
+   "titel": "Erinnerung ist keine Konstruktion",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 21137666,
+     "doi": "10.5281/zenodo.21137666",
+     "version": "1.0",
+     "veroeffentlicht": "2026-07-02",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "Erinnerung-ist-keine-Konstruktion_1.pdf",
+       "groesse_bytes": 1075610,
+       "md5_zenodo": "e109f6fd4fb52cf8b2149f9b84d37e74",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "3ae76e1b0c312f5ff867e1a59f1d2441eff718d88ac5e4a681b8a0ba77e904b3",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-21141391",
+   "concept_doi": "10.5281/zenodo.21141391",
+   "titel": "Soziative Bedeutungsformung",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 21141392,
+     "doi": "10.5281/zenodo.21141392",
+     "version": "1.0",
+     "veroeffentlicht": "2026-07-02",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "Soziative-Bedeutungsforung_oeffentlich.pdf",
+       "groesse_bytes": 588127,
+       "md5_zenodo": "eac2fbf408931a4286363882bf79908d",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "a2ee5237263a8d340a66c1c74a0ac1a4abc2c6c6a54c93ea31c074c4ff22205a",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-21467684",
+   "concept_doi": "10.5281/zenodo.21467684",
+   "titel": "Recht auf analoges Leben",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 21467685,
+     "doi": "10.5281/zenodo.21467685",
+     "version": "1.0",
+     "veroeffentlicht": "2026-07-21",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "Recht auf analoges Leben -01.pdf",
+       "groesse_bytes": 4971188,
+       "md5_zenodo": "a748e2937af6f324290ed421d71f6fdd",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "8bb6c65db9ff1b800015d9e2aceefaae03c37dc835ae70473719cacc70b79b6b",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-21532148",
+   "concept_doi": "10.5281/zenodo.21532148",
+   "titel": "Öffentliches Potenzial - Potenzialarchitektur der Öffentlichkeit: Ein Modell gesellschaftlicher Wahrnehmungs-, Kommunikations-, Handlungs- und Korrekturfähigkeit",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 21532149,
+     "doi": "10.5281/zenodo.21532149",
+     "version": null,
+     "veroeffentlicht": "2026-07-24",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": null,
+     "dateien": [
+      {
+       "name": "OEFFENTLICHES-POTENZIAL_01.pdf",
+       "groesse_bytes": 4893069,
+       "md5_zenodo": "6b44fbfbe4b78baa7000c4b128cb3475",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "4013d69b857a33233ccd133ef5b1860ab3c2dc43a0e849c8cc23a4d14cefbbbd",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-21612144",
+   "concept_doi": "10.5281/zenodo.21612144",
+   "titel": "Soziation Errata",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 21612145,
+     "doi": "10.5281/zenodo.21612145",
+     "version": null,
+     "veroeffentlicht": "2026-07-26",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": null,
+     "dateien": [
+      {
+       "name": "Soziation-Errata_01.pdf",
+       "groesse_bytes": 1005672,
+       "md5_zenodo": "e69a0b7cc85da2fcb3e276908617b10d",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "6fb8563bc0ba8748e590118aa62ac95f43a307146ad7a3da63fe0d6878cc31ad",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-21660267",
+   "concept_doi": "10.5281/zenodo.21660267",
+   "titel": "Soziation 1.9",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 21660268,
+     "doi": "10.5281/zenodo.21660268",
+     "version": "1.9",
+     "veroeffentlicht": "2026-07-29",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "soziative2_0.pdf",
+       "groesse_bytes": 1774325,
+       "md5_zenodo": "5d4cf1e961ea78956ed156b0d27e50b0",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "aeb30005d3ec6e43272506fc68bab5e5574cbbe2960dbd82482e13e22790f5eb",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-22168550",
+   "concept_doi": "10.5281/zenodo.22168550",
+   "titel": "Vom Potenzial zur Frage",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 22168551,
+     "doi": "10.5281/zenodo.22168551",
+     "version": null,
+     "veroeffentlicht": "2026-08-30",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "Potenzial-der-Potenziale-zur-Frage.pdf",
+       "groesse_bytes": 403165,
+       "md5_zenodo": "75ad5ef0fa6b73deaa5c3d34c7e32a9b",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "30ee954305e93b807f6e1919bcdbb124430ca383bd6e285737b4be51dc3d59ea",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-22302955",
+   "concept_doi": "10.5281/zenodo.22302955",
+   "titel": "Operationalisierung der Operationalisierung & Relationen der Relationen -",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 22302956,
+     "doi": "10.5281/zenodo.22302956",
+     "version": null,
+     "veroeffentlicht": "2026-09-04",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "SOULution_Operationalising-Operationalisations-Relations_EN.md",
+       "groesse_bytes": 29922,
+       "md5_zenodo": "56342b9c077d168c828d9a13c5b4e49e",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "94b300abc3c3e4396cef9a0507ab076360f61fd56964b98b579d4731bc716ae8",
+       "in_git_bytegleich": []
+      },
+      {
+       "name": "SOULution_Operationalisierung-Relation_Text_DE.md",
+       "groesse_bytes": 32228,
+       "md5_zenodo": "5c0ee781c646c39a28221440c7d07f52",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "258f9b0d5c3b7345e37c9afa7d7c524021ca3cf2d9051955ef6140adcc3cd8d6",
+       "in_git_bytegleich": []
+      },
+      {
+       "name": "SOULution_Operationalisierung-Relation_DE_EN.pdf",
+       "groesse_bytes": 636990,
+       "md5_zenodo": "517734e4a1e714d2239b8310341cf6e7",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "d1cca5a37e96a1a4972c98eb6b927dadbd7084a289a31f75d7c6462d283b62e3",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:29:49+00:00",
+     "pruefer": "claude"
+    }
+   }
+  }
+ ]
+}
