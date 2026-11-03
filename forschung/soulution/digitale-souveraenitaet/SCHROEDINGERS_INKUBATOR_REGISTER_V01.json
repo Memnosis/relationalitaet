@@ -1,0 +1,106 @@
+{
+  "schema": "soulution.schroedingers-inkubator.v0.1",
+  "as_of": "2026-11-03",
+  "source": {
+    "title": "SCHRÖDINGER’S INKUBATOR – EIERLEGENDE WOLLMILCHSAU",
+    "filename": "schrödinger ERP.pdf",
+    "pages": 1,
+    "location": "conversation upload; bytes not imported to GitHub",
+    "provenance_status": "user_original_verified",
+    "verbatim_core": "Die gesamte Software Infrastruktur, um jedes beliebige Projekt zu realisieren.",
+    "original_domains": [
+      "IDEe/Vision",
+      "Nüchtern: Server/Hosting",
+      "Teamplay & Synergien",
+      "SHARE/Teilen",
+      "ERP & CRM/POS",
+      "Intranet",
+      "Mail",
+      "digitale Downloads",
+      "(Multi-)Shop",
+      "LMS",
+      "Kunst und Sammlerwert"
+    ],
+    "note": "This is a historical concept sheet, not a proven deployed platform."
+  },
+  "projects": [
+    {
+      "id": "SOULUTION",
+      "role": "public digital sovereignty and solutions atlas"
+    },
+    {
+      "id": "COME2UNITY",
+      "role": "people matching, A/N, teams and contributions"
+    },
+    {
+      "id": "SKILLBIB",
+      "role": "reuse of established software capabilities and tests"
+    },
+    {
+      "id": "MINI-KI",
+      "role": "optional testing of skill orchestration, not prerequisite"
+    },
+    {
+      "id": "KI-TENSOR",
+      "role": "optional relational validation and derivations, not generic software label"
+    }
+  ],
+  "reference_ecosystems": [
+    {
+      "name": "Digital Commons EDIC",
+      "url": "https://digital-commons-edic.eu/",
+      "status": "existing_federation"
+    },
+    {
+      "name": "Digital Public Goods Alliance",
+      "url": "https://www.digitalpublicgoods.net/standard",
+      "status": "standard_and_registry"
+    },
+    {
+      "name": "EU Digital Building Blocks",
+      "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/overview",
+      "status": "reusable_EU_components"
+    }
+  ],
+  "modules": [
+    {
+      "id": "IDENTITY",
+      "core": "roles, consent, optional identity",
+      "candidate_status": "research"
+    },
+    {
+      "id": "HOST",
+      "core": "deployment, data, backup, portability",
+      "candidate_status": "research"
+    },
+    {
+      "id": "COMM",
+      "core": "mail, calendar, shared communication",
+      "candidate_status": "research"
+    },
+    {
+      "id": "ERP",
+      "core": "project/resource management, ERP/CRM/POS",
+      "candidate_status": "historical_original"
+    },
+    {
+      "id": "SHOP",
+      "core": "shop, orders, downloads, licenses",
+      "candidate_status": "historical_original"
+    },
+    {
+      "id": "LMS",
+      "core": "learning materials and assessments",
+      "candidate_status": "historical_original"
+    },
+    {
+      "id": "API",
+      "core": "interfaces, event logs, export/import and tests",
+      "candidate_status": "research"
+    }
+  ],
+  "goal": "shared, understandable, portable and maintained software capabilities across different projects",
+  "first_benchmark": "Compare at least three existing open components for one real use case, run one minimal function, verify export, license, permissions and maintenance obligations",
+  "safety": "Never describe this as an installed running system without execution evidence.",
+  "website": "docs/soulution-schroedingers-inkubator.html"
+}
