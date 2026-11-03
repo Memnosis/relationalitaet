@@ -36,6 +36,14 @@ for t in tasks:
     for stage in keys:
         if t.get("stage", {}).get(stage) not in (0, 1):
             errors.append(tid + ": invalid evidence stage " + str(stage))
+    for stage in keys:
+        if t.get("stage", {}).get(stage) == 1:
+            proof = t.get("stage_evidence", {}).get(stage, {})
+            path = proof.get("path", "")
+            if not isinstance(path, str) or not path or ".." in Path(path).parts or not (ROOT / path).is_file():
+                errors.append(tid + ": completed stage without valid evidence path " + str(stage))
+    if "meta_prompt" in t or "raw_prompt" in t:
+        errors.append(tid + ": internal or unapproved raw prompt field in public export")
     for key in required_scales:
         score = t.get("scores", {}).get(key)
         if type(score) is not int or not 0 <= score <= 3:
