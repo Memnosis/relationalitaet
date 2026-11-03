@@ -1,0 +1,71 @@
+{
+  "schema": "relationalitaet.execution-series.v0.1",
+  "as_of": "2026-11-03",
+  "branch": "integration/soulution-shared-core-2026-11-03",
+  "task_status": {
+    "executed_partial": [
+      "WEB-GLOS-01",
+      "WEB-CODE-01",
+      "GEO-OPS-01",
+      "KOMP-01",
+      "VIS-01",
+      "MINI-OBS-01"
+    ],
+    "milestone_partial": [
+      "GEO-M1"
+    ],
+    "not_executed": [
+      "HARV-01",
+      "HARV-02",
+      "HARV-03",
+      "HARV-04",
+      "HARV-05",
+      "HARV-06",
+      "KOL-01"
+    ]
+  },
+  "tests": {
+    "glossary_12": {
+      "definitions": 12,
+      "unique_ids": true,
+      "known_types": true
+    },
+    "codebook_web": {
+      "types": 14,
+      "edges": 12
+    },
+    "geo": {
+      "original": 14,
+      "new": 5,
+      "passed": 19
+    },
+    "geo_m1": {
+      "svg": true,
+      "json": true,
+      "rotation_inverse": true
+    },
+    "compression": {
+      "models": 7,
+      "checks": 32,
+      "original_json_bytes": 3062,
+      "dictionary_json_bytes": 2441,
+      "gzip_original_bytes": 1236,
+      "gzip_dictionary_bytes": 1243,
+      "exact_roundtrip": true
+    },
+    "visual": {
+      "positions": 27,
+      "checks": 4,
+      "passed": 4
+    },
+    "observer": {
+      "cases": 10000,
+      "known_defects": 588,
+      "detected": 588,
+      "false_positive": 0
+    }
+  },
+  "report": "forschung/website/ausfuehrung/SERIE_SELBSTAUSFUEHRUNG_2026-11-03.md",
+  "completed": false,
+  "remark": "Tasks partially completed; separate genuine original data integration and scientific tensor tests remain"
+}
