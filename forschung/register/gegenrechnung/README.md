@@ -6,6 +6,13 @@ Unabhängige Nachprüfung fremder oder älterer Rechenbehauptungen. **Prüfstufe
 |---|---|---|---|---|
 | GR-01 | 7 DLMF-Identitäten aus KI-Tensor v6.6: 1.2.1, 1.2.3, 1.2.4, 1.2.7, 5.5.1, 5.5.2, 5.12.1 | „7 symbolische Identitätsnachweise unter Annahmen“, Grenzfall 1.2.4 bei n=0 (Zweig `ki-tensor/no-loss-audit-2026-10-31`, `ki-tensor/audit/RELATIONSNACHWEISE_v6_6.md`) | **7/7 bestätigt** (symbolisch, numerisch mit 30 Stellen, Grenzfälle). Der Grenzfall n=0 → 1 ist bestätigt. Die Kontrollprobe (falsche Identität) wird erkannt. | `python3 forschung/register/gegenrechnung/dlmf_v6_6_gegenrechnung.py` (benötigt sympy) |
 
+| GR-02 | Rückrechnungen REV-01 bis REV-08 aus KI-Tensor v4.5/v4.6 | REV-01–03 „symbolisch bestanden“; REV-04 nur mit positiven Parametern; REV-05 SIR geschlossen; REV-06 Normierung braucht Anfangsbedingung; REV-07 nur skalares Beispiel, kein Bellman-Beweis; REV-08 Spur 1 ⇏ PSD (`ki-tensor/audit/VERIFIKATION_v4_5.md`, `_v4_6.md`) | **8/8 bestätigt**, jeweils mit Grenzfall (Bedingung verletzt → scheitert bzw. Gegenbeispiel). **REV-04 nur unter Annahme:** Die Formel ist als Nernst-Gleichung rekonstruiert; das Original liegt im nicht synchronisierten Archiv v4.5. | `python3 forschung/register/gegenrechnung/rev_rueckrechnungen.py` (sympy) |
+| GR-03 | 16 Zahlenketten des Zweigs (Bestände, Relationsakten, Feldadressen, Parser-Klassen) | Zahlen in `GESAMTSTAND_v4_2`, `CROSSWALK_v4_1/4_3`, `BESTANDSAUDIT`, `GLOSSAR_RELATION_TENSOR_v4_4`, `RELATIONSCOMPILER_v6_5`, `ALGEBRA_AUTOMATION_v6_4`, `DLMF_PARSER_v5_2_metrics.json`, `DLMF_PARSER_v5_6`, dazu `IMPORTAUDIT…` auf main | **16/16 stimmig**. Jeder benutzte Wert ist wörtlich in der Quelle belegt; das Skript liest die Dateien per `git show` direkt aus dem Zweig. | `python3 forschung/register/gegenrechnung/kt_zahlenketten.py` (ohne Zusatzpakete; im Reproduktionslauf) |
+
+**Hinweise zu GR-03:**
+- Die 16 Ketten sind die prüfbaren Summen und Produkte aus den Zweigberichten. Sie ersetzen die frühere Handrechnung (`ZWEIG_KI_TENSOR_TIEFENANALYSE_V0_1.md`, „16/16“) und sind nicht zwingend dieselbe Auswahl.
+- ZK-13 deutet „342 inkl. Ergänzungen“ als 309 + 21 + 12. Diese Lesart stützt sich auf die Aufteilung in v6.5 und ist eine **Interpretation**.
+
 **Grenzen von GR-01:**
 - Bestätigt ist, dass die DLMF-Identitäten unter den DLMF-Annahmen gelten. Das ist Lehrbuchwissen und wurde korrekt rekonstruiert.
 - **Nicht** bestätigt ist ein Bezug zu Trinitäten oder Tensorachsen. Der Zweig selbst sagt: „0 neu validierte Trinitäten/Tensoren“, „5 rein thematische Matching-Treffer … keine Validierung einer Achse“.
@@ -13,6 +20,6 @@ Unabhängige Nachprüfung fremder oder älterer Rechenbehauptungen. **Prüfstufe
 
 Ergebnisakte: `DLMF_V6_6_GEGENRECHNUNG_ERGEBNIS.json` (sympy 1.13.3, mpmath-Version in der Datei).
 
-**Nächste Kandidaten (je ein kleiner Schritt):**
-- GR-02: Rückrechnungen REV-01 bis REV-08 (`VERIFIKATION_v4_5/4_6.md`)
-- GR-03: die 16 Zahlenketten des Zweigs als Skript statt Handrechnung
+**Ergebnisakten:** `REV_GEGENRECHNUNG_ERGEBNIS.json`, `ZAHLENKETTEN_ERGEBNIS.json`.
+
+**Gesamt:** Der ki-tensor-Zweig ist in allen nachrechenbaren Teilen repliziert: 7 Identitäten, 8 Rückrechnungen, 16 Zahlenketten. Er belegt keine neuen Trinitäten oder Tensoren, und das sagt er auch selbst.

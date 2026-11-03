@@ -1,7 +1,7 @@
 # Reproduktionsbericht Claude-Prüfungen
 
-- Zeit: 2026-11-03T18:17:25+00:00
-- Commit: `31b75648ad1e099e6fcafad2dfbe58ae86acaeb1`
+- Zeit: 2026-11-03T22:41:41+00:00
+- Commit: `b93ff0920cbea9980f49002a713acab673835497`
 - Python: 3.13.18
 
 | Prüfung | Skript (SHA-256, 12 Zeichen) | Exit | Erwartetes Signal gefunden |
@@ -15,6 +15,7 @@
 | PM-Status aus Nachweisen (5) | `forschung/register/tests/test_pm_status.py` `5cb03e84d9e5` | 0 | ja |
 | Abwesenheit R7: 10 Beiträge ohne Feedback (8) | `forschung/koordination/tests/test_abwesenheit.py` `70c4eac36f04` | 0 | ja |
 | Berichtsgenerator roter Rahmen R2 (5) | `forschung/koordination/tests/test_bericht_vorlage.py` `6bd9cdbf963b` | 0 | ja |
+| Gegenrechnung GR-03: 16 Zahlenketten ki-tensor | `forschung/register/gegenrechnung/kt_zahlenketten.py` `4222b191e220` | 0 | ja |
 | GPT-Gegenlauf LOGIK-PROMPT-02 (Kontrolle) | `scripts/gpt_logic02_independent.py` `d93bb6935ab7` | 0 | ja |
 
 **Gesamt: alle Prüfungen bestanden**

@@ -581,6 +581,34 @@
    "ausgefuehrt_von": "claude",
    "ausgefuehrt_am": "2026-11-03",
    "gilt_nur_fuer": "DLMF 1.2.1, 1.2.3, 1.2.4, 1.2.7, 5.5.1, 5.5.2, 5.12.1 unter DLMF-Annahmen; kein Trinitäts- oder Achsennachweis"
+  },
+  {
+   "test_id": "TST-GR-02",
+   "task_ids": [
+    "DEC-KT-01",
+    "DATA-005"
+   ],
+   "gegenstand": "Gegenrechnung REV-01..08 (Umkehrung, Erhaltung, Normierung, Kontraktion, Spur/PSD) mit Grenzfällen; REV-04 als Nernst rekonstruiert (Annahme)",
+   "testart": "gegenrechnung",
+   "datei": "forschung/register/gegenrechnung/rev_rueckrechnungen.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "REV-01..08 Standardformen; REV-04 nur unter Rekonstruktionsannahme"
+  },
+  {
+   "test_id": "TST-GR-03",
+   "task_ids": [
+    "DEC-KT-01",
+    "DATA-005"
+   ],
+   "gegenstand": "16 Zahlenketten des ki-tensor-Zweigs, Werte wörtlich in der Quelle belegt, per git show gelesen",
+   "testart": "gegenrechnung",
+   "datei": "forschung/register/gegenrechnung/kt_zahlenketten.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "Zweig-SHA in ZAHLENKETTEN_ERGEBNIS.json"
   }
  ],
  "verweise_fremde_tests": [

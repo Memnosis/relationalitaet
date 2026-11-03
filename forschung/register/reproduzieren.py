@@ -26,6 +26,7 @@ SCHRITTE = [
     ("PM-Status aus Nachweisen (5)", ["forschung/register/tests/test_pm_status.py"], "OK"),
     ("Abwesenheit R7: 10 Beiträge ohne Feedback (8)", ["forschung/koordination/tests/test_abwesenheit.py"], "OK"),
     ("Berichtsgenerator roter Rahmen R2 (5)", ["forschung/koordination/tests/test_bericht_vorlage.py"], "OK"),
+    ("Gegenrechnung GR-03: 16 Zahlenketten ki-tensor", ["forschung/register/gegenrechnung/kt_zahlenketten.py"], "Gesamt: OK"),
     ("GPT-Gegenlauf LOGIK-PROMPT-02 (Kontrolle)", ["scripts/gpt_logic02_independent.py"], "PASS"),
 ]
 

@@ -1,0 +1,220 @@
+{
+ "schema_version": "gegenrechnung/0.1",
+ "gegenstand": "16 Zahlenketten ki-tensor-Zweig",
+ "zweig_ref": "origin/ki-tensor/no-loss-audit-2026-10-31",
+ "zweig_sha": "cf0bbe13323aa9ed9ca86e0f110256e5c92ab97c",
+ "ergebnisse": [
+  {
+   "id": "ZK-01",
+   "beziehung": "103*3 == 309",
+   "erklaerung": "Gerüste × 3 = Trinitäten",
+   "quellen": [
+    "ki-tensor/audit/GESAMTSTAND_v4_2.md"
+   ],
+   "belege_gefunden": 1,
+   "belege_gesamt": 1,
+   "fehlende_belege": [],
+   "rechnung": true,
+   "ok": true
+  },
+  {
+   "id": "ZK-02",
+   "beziehung": "99*3 == 297",
+   "erklaerung": "Review: Gerüste × 3",
+   "quellen": [
+    "ki-tensor/audit/GESAMTSTAND_v4_2.md"
+   ],
+   "belege_gefunden": 1,
+   "belege_gesamt": 1,
+   "fehlende_belege": [],
+   "rechnung": true,
+   "ok": true
+  },
+  {
+   "id": "ZK-03",
+   "beziehung": "309-297 == 12 == 4*3",
+   "erklaerung": "Differenz = 4 Gerüste im Altbestand",
+   "quellen": [
+    "ki-tensor/audit/GESAMTSTAND_v4_2.md"
+   ],
+   "belege_gefunden": 3,
+   "belege_gesamt": 3,
+   "fehlende_belege": [],
+   "rechnung": true,
+   "ok": true
+  },
+  {
+   "id": "ZK-04",
+   "beziehung": "1072-1008 == 64",
+   "erklaerung": "Glossar v15.4 − v11.5",
+   "quellen": [
+    "ki-tensor/audit/CROSSWALK_v4_1.md"
+   ],
+   "belege_gefunden": 3,
+   "belege_gesamt": 3,
+   "fehlende_belege": [],
+   "rechnung": true,
+   "ok": true
+  },
+  {
+   "id": "ZK-05",
+   "beziehung": "7622+898 == 8520",
+   "erklaerung": "eindeutige Formeln + Dubletten = Gleichungsobjekte",
+   "quellen": [
+    "ki-tensor/audit/BESTANDSAUDIT.md"
+   ],
+   "belege_gefunden": 3,
+   "belege_gesamt": 3,
+   "fehlende_belege": [],
+   "rechnung": true,
+   "ok": true
+  },
+  {
+   "id": "ZK-06",
+   "beziehung": "675+223+23 == 921",
+   "erklaerung": "Entdeckungshinweise",
+   "quellen": [
+    "ki-tensor/audit/BESTANDSAUDIT.md"
+   ],
+   "belege_gefunden": 2,
+   "belege_gesamt": 2,
+   "fehlende_belege": [],
+   "rechnung": true,
+   "ok": true
+  },
+  {
+   "id": "ZK-07",
+   "beziehung": "309+12+9+12+675 == 1017",
+   "erklaerung": "Relationsakten nach Herkunft",
+   "quellen": [
+    "ki-tensor/audit/GLOSSAR_RELATION_TENSOR_v4_4.md",
+    "ki-tensor/audit/CROSSWALK_v4_3.md"
+   ],
+   "belege_gefunden": 2,
+   "belege_gesamt": 2,
+   "fehlende_belege": [],
+   "rechnung": true,
+   "ok": true
+  },
+  {
+   "id": "ZK-08",
+   "beziehung": "103+4 == 107",
+   "erklaerung": "Trios inkl. Chemie",
+   "quellen": [
+    "ki-tensor/audit/GLOSSAR_RELATION_TENSOR_v4_4.md"
+   ],
+   "belege_gefunden": 1,
+   "belege_gesamt": 1,
+   "fehlende_belege": [],
+   "rechnung": true,
+   "ok": true
+  },
+  {
+   "id": "ZK-09",
+   "beziehung": "107*27 == 2889",
+   "erklaerung": "Trios × 27 Feldadressen",
+   "quellen": [
+    "ki-tensor/audit/GLOSSAR_RELATION_TENSOR_v4_4.md"
+   ],
+   "belege_gefunden": 2,
+   "belege_gesamt": 2,
+   "fehlende_belege": [],
+   "rechnung": true,
+   "ok": true
+  },
+  {
+   "id": "ZK-10",
+   "beziehung": "103*27 == 2781",
+   "erklaerung": "historische Gerüste × 27 (Register auf main)",
+   "quellen": [
+    "forschung/register/IMPORTAUDIT_DREI_NOLOSS_ARCHIVE_2026-11-03.md"
+   ],
+   "belege_gefunden": 1,
+   "belege_gesamt": 1,
+   "fehlende_belege": [],
+   "rechnung": true,
+   "ok": true
+  },
+  {
+   "id": "ZK-11",
+   "beziehung": "4*3 == 12",
+   "erklaerung": "Chemie: Tensoren × 3",
+   "quellen": [
+    "ki-tensor/audit/GESAMTSTAND_v4_2.md"
+   ],
+   "belege_gefunden": 1,
+   "belege_gesamt": 1,
+   "fehlende_belege": [],
+   "rechnung": true,
+   "ok": true
+  },
+  {
+   "id": "ZK-12",
+   "beziehung": "309+21+12+132 == 474",
+   "erklaerung": "Aussagenakten v6.5",
+   "quellen": [
+    "ki-tensor/audit/RELATIONSCOMPILER_v6_5.md"
+   ],
+   "belege_gefunden": 3,
+   "belege_gesamt": 3,
+   "fehlende_belege": [],
+   "rechnung": true,
+   "ok": true
+  },
+  {
+   "id": "ZK-13",
+   "beziehung": "1+2+9 == 12 and 309+21+12 == 342 and 342+132 == 474",
+   "erklaerung": "Forschungsmodelle und 342er-Bestand",
+   "quellen": [
+    "ki-tensor/audit/RELATIONSCOMPILER_v6_5.md",
+    "ki-tensor/audit/ALGEBRA_AUTOMATION_v6_4.md"
+   ],
+   "belege_gefunden": 2,
+   "belege_gesamt": 2,
+   "fehlende_belege": [],
+   "rechnung": true,
+   "ok": true
+  },
+  {
+   "id": "ZK-14",
+   "beziehung": "300+7322 == 7622",
+   "erklaerung": "Parser v5.2: versucht + Warteschlange",
+   "quellen": [
+    "ki-tensor/audit/DLMF_PARSER_v5_2_metrics.json"
+   ],
+   "belege_gefunden": 3,
+   "belege_gesamt": 3,
+   "fehlende_belege": [],
+   "rechnung": true,
+   "ok": true
+  },
+  {
+   "id": "ZK-15",
+   "beziehung": "284+8+6+2 == 300",
+   "erklaerung": "Parser v5.2: Klassen summieren auf 300",
+   "quellen": [
+    "ki-tensor/audit/DLMF_PARSER_v5_2_metrics.json"
+   ],
+   "belege_gefunden": 4,
+   "belege_gesamt": 4,
+   "fehlende_belege": [],
+   "rechnung": true,
+   "ok": true
+  },
+  {
+   "id": "ZK-16",
+   "beziehung": "38+8+116+2+132+4 == 300",
+   "erklaerung": "Parser v5.6: Klassen summieren auf 300",
+   "quellen": [
+    "ki-tensor/audit/DLMF_PARSER_v5_6.md"
+   ],
+   "belege_gefunden": 1,
+   "belege_gesamt": 1,
+   "fehlende_belege": [],
+   "rechnung": true,
+   "ok": true
+  }
+ ],
+ "kontrollprobe_erkannt": true,
+ "gesamt": "OK"
+}

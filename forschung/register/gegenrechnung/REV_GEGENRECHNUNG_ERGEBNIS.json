@@ -1,0 +1,98 @@
+{
+ "schema_version": "gegenrechnung/0.1",
+ "gegenstand": "REV-01..08 ki-tensor v4.5/v4.6",
+ "sympy": "1.13.3",
+ "ergebnisse": [
+  {
+   "rev": "REV-01",
+   "behauptung_zweig": "ΔP=RQ → Q=ΔP/R, R≠0",
+   "rekonstruktion": "Q = [DeltaP/R]",
+   "unter_voraussetzung": true,
+   "grenzfall": {
+    "R=0: keine eindeutige Umkehrung": true
+   },
+   "annahme_rekonstruktion": null,
+   "ok": true
+  },
+  {
+   "rev": "REV-02",
+   "behauptung_zweig": "σ=Eε → ε=σ/E, E≠0",
+   "rekonstruktion": "ε = [sigma/E]",
+   "unter_voraussetzung": true,
+   "grenzfall": {
+    "E=0: keine eindeutige Umkehrung": true
+   },
+   "annahme_rekonstruktion": null,
+   "ok": true
+  },
+  {
+   "rev": "REV-03",
+   "behauptung_zweig": "η=P_out/P_in → P_out=ηP_in, P_in≠0",
+   "rekonstruktion": "P_out = [P_in*eta]",
+   "unter_voraussetzung": true,
+   "grenzfall": {
+    "P_in=0: η undefiniert": true
+   },
+   "annahme_rekonstruktion": null,
+   "ok": true
+  },
+  {
+   "rev": "REV-04",
+   "behauptung_zweig": "logarithmische elektrochemische Umformung, positive reelle Parameter",
+   "rekonstruktion": "Q = [exp(F*n*(E0_r - E_c)/(R*T))]",
+   "unter_voraussetzung": true,
+   "grenzfall": {
+    "Q<0: ln(Q) nicht reell": true
+   },
+   "annahme_rekonstruktion": "Formel als Nernst-Gleichung rekonstruiert; Originalformel liegt im nicht synchronisierten Archiv v4.5",
+   "ok": true
+  },
+  {
+   "rev": "REV-05",
+   "behauptung_zweig": "geschlossenes SIR-Beispiel: Gesamtzahl erhalten",
+   "rekonstruktion": "d(S+I+R)/dt = 0",
+   "unter_voraussetzung": true,
+   "grenzfall": {
+    "offenes System (Zuwachs μN−μS) nicht erhalten": true
+   },
+   "annahme_rekonstruktion": null,
+   "ok": true
+  },
+  {
+   "rev": "REV-06",
+   "behauptung_zweig": "Wahrscheinlichkeitsnormierung benötigt Anfangsbedingung",
+   "rekonstruktion": "Σp konstant; =1 nur wenn Σp(0)=1",
+   "unter_voraussetzung": true,
+   "grenzfall": {
+    "Σp(0)=1.2 bleibt 1.2 ≠ 1 (Normierung folgt nicht aus der Dynamik)": true
+   },
+   "annahme_rekonstruktion": null,
+   "ok": true
+  },
+  {
+   "rev": "REV-07",
+   "behauptung_zweig": "skalares Kontraktionsbeispiel, kein allgemeiner Bellman-/Banach-Beweis",
+   "rekonstruktion": "v* = [-r/(gamma - 1)], |T(v)-T(w)| = |γ||v-w|",
+   "unter_voraussetzung": true,
+   "grenzfall": {
+    "γ=1: kein Fixpunkt (r≠0)": true,
+    "Iteration γ=0.9, r=1 → 10": true,
+    "nur skalarer Fall, kein allgemeiner Bellman-Beweis (Bericht stimmt)": true
+   },
+   "annahme_rekonstruktion": null,
+   "ok": true
+  },
+  {
+   "rev": "REV-08",
+   "behauptung_zweig": "Spur 1 allein impliziert keinen positiv semidefiniten Dichteoperator",
+   "rekonstruktion": "Gegenbeispiel diag(2,−1): Spur 1, Eigenwert −1",
+   "unter_voraussetzung": true,
+   "grenzfall": {
+    "echter Dichteoperator ρ=I/2: Spur 1 und PSD": "True"
+   },
+   "annahme_rekonstruktion": null,
+   "ok": true
+  }
+ ],
+ "gesamt": "OK"
+}
