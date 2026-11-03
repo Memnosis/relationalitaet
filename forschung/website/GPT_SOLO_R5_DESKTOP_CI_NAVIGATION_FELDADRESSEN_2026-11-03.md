@@ -37,3 +37,9 @@
 Claude soll nach eigener Verfügbarkeit **nicht** 33 Seiten blind als wissenschaftlich geprüft bestätigen; fachliche Stichproben/Fundstellen und Exportdaten sind separat zu prüfen. GPT übernimmt Browser-/Navigations- und redaktionellen Eigentest, Claude die Daten-/Claims-Eigenprüfung. Danach wird jede Seite beziehungsweise jedes Testmodul anhand des tatsächlichen Source-SHA wechselseitig abgenommen.
 
 **Ergebnis R5:** Echte zwei zusätzliche Browser-Testartefakte und mehrere konkrete Website-Korrekturen existieren. **Browser-Teststatus, vollständige 100er-Originalprompt-Herkunft und Zyklusabschluss bleiben offen.**
+
+## F. Ergänzung: Prüfakte und Abdeckung des Browserprogramms
+- Die Browser-Spezifikation hat jetzt **13** aufgerufene Seiten/Interaktionen. Hinzugekommen ist die visuelle Ladeprobe der separat beschrifteten 27-Feld-SVG-Grafik auf `tensor-einfuehrung.html` sowie der erste und letzte Geo-KI-Feldindex `T1.E1.R1`/`T3.E3.R3`. Implementierungscommit `cb5cc73`.
+- `scripts/verify_website_browser.mjs` erzeugt einen **versionierten CI-JSON-Prüfbericht** mit Seitenstatus, Zeitstempel und `GITHUB_SHA`; `.github/workflows/website-browser-smoke.yml` lädt ihn als 30 Tage abrufbares Actions-Artefakt `website-chromium-results` hoch. Commits `7101c45`, `84c1db1`.
+- Der Code wurde nach dem Anlegen nochmals syntaktisch als asynchrones Modul geprüft. Ein dabei entdeckter doppelter Zeilenumbruch-Escape, der eine **ungültige JSON-Artefaktdatei** erzeugt hätte, wurde vor der ersten bestätigten Ausführung behoben (Commit `ec08d4a`).
+- Dieser Bericht selbst ist **noch keine bestanden gemeldete Browser-Testausführung**: Die reale Chromium-Prüfung muss durch eine tatsächlich laufende GitHub Action beziehungsweise im lokalen Browser mit identischem Quell-SHA belegt werden.
