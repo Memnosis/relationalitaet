@@ -31,4 +31,5 @@ jobs:
         run: |
           node --check docs/assets/tensor-hierarchy.js
           node --check docs/assets/projektmanagement.js
+          node --check docs/assets/anforderungsabdeckung.js
           node --check docs/assets/workflow-stand.js
