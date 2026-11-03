@@ -1,5 +1,5 @@
 {
-  "schema": "ki-tensor.shared.skill-api-incubator-crosswalk.v1",
+  "schema": "ki-tensor.shared.skill-api-incubator-crosswalk.v1.1",
   "as_of": "2026-11-03",
   "mode": "snapshot_crosswalk_not_live_API_sync",
   "original_registers": [
@@ -22,12 +22,16 @@
       "HARV-04",
       "HARV-05"
     ],
-    "source_count": 33,
+    "source_count": 38,
     "existing_skill_count": 6,
     "mitmach_task_count": 13,
     "module_count": 7,
-    "external_interface_candidates": 22,
-    "actual_api_tests": 0
+    "external_interface_candidates": 28,
+    "actual_api_tests": 0,
+    "source_aliases": {
+      "SRC-INK-ACTIVITYPUB-RECOMMENDATION": "SRC-INK-W3C-ACTIVITYPUB"
+    },
+    "source_registry_version": "soulution.inkubator.source-registry.v1.3"
   },
   "modules": [
     {
@@ -53,7 +57,8 @@
       "source_ids": [
         "SRC-INK-EU-COMMONS",
         "SRC-INK-EU-COMMONS-STRAT",
-        "SRC-INK-SOVTECH"
+        "SRC-INK-SOVTECH",
+        "SRC-INK-SAMBA"
       ],
       "existing_skill_ids": [
         "SK-PDF-EXTRACT"
@@ -72,7 +77,8 @@
         "SRC-INK-FORGEJO-NEWS",
         "SRC-INK-FORGEJO-FED",
         "SRC-INK-NEXTCLOUD",
-        "SRC-INK-W3C-ACTIVITYPUB"
+        "SRC-INK-W3C-ACTIVITYPUB",
+        "SRC-INK-MATRIX-SPEC-LATEST"
       ],
       "existing_skill_ids": [
         "SK-EVIDENCE"
@@ -152,7 +158,12 @@
         "SRC-INK-NODE-RED",
         "SRC-INK-W3C-ACTIVITYPUB",
         "SRC-INK-OSV",
-        "SRC-INK-SLSA"
+        "SRC-INK-SLSA",
+        "SRC-INK-SAMBA",
+        "SRC-INK-OSI",
+        "SRC-INK-MATRIX-SPEC-LATEST",
+        "SRC-INK-WINE",
+        "SRC-INK-OPENSSL-SOURCE"
       ],
       "existing_skill_ids": [
         "SK-REL",
@@ -374,10 +385,35 @@
   ],
   "external_interface_candidates": [
     {
+      "source_id": "SRC-INK-EU-INTEROP",
+      "api_or_interface_name": "Interoperable Europe",
+      "source_url": "https://interoperable-europe.ec.europa.eu/Interoperable-Europe-Act-Regulation",
+      "type": "standard",
+      "source_read_status": "retrieved_and_reviewed",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
+      "source_id": "SRC-INK-DPG",
+      "api_or_interface_name": "Digital Public Goods Standard",
+      "source_url": "https://www.digitalpublicgoods.net/standard",
+      "type": "standard",
+      "source_read_status": "official_url_candidate_requires_direct_content_review",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
       "source_id": "SRC-INK-FRAPPE",
       "api_or_interface_name": "Frappe Framework DocTypes",
       "source_url": "https://docs.frappe.io/framework/user/en/basics/doctypes",
       "type": "erp_framework",
+      "source_read_status": "retrieved_and_reviewed",
       "access_test": "not_run",
       "auth_test": "not_run",
       "license_test": "not_run",
@@ -389,6 +425,7 @@
       "api_or_interface_name": "Frappe schema migrations",
       "source_url": "https://docs.frappe.io/framework/user/en/guides/deployment/migrations",
       "type": "erp_framework",
+      "source_read_status": "retrieved_and_reviewed",
       "access_test": "not_run",
       "auth_test": "not_run",
       "license_test": "not_run",
@@ -400,6 +437,7 @@
       "api_or_interface_name": "Matrix official server ecosystem",
       "source_url": "https://www.matrix.org/ecosystem/servers/",
       "type": "federation",
+      "source_read_status": "retrieved_and_reviewed",
       "access_test": "not_run",
       "auth_test": "not_run",
       "license_test": "not_run",
@@ -411,6 +449,7 @@
       "api_or_interface_name": "Matrix standards and introduction",
       "source_url": "https://matrix.org/docs/",
       "type": "federation",
+      "source_read_status": "retrieved_and_reviewed",
       "access_test": "not_run",
       "auth_test": "not_run",
       "license_test": "not_run",
@@ -422,6 +461,7 @@
       "api_or_interface_name": "Matrix Docs October 2026 homeserver comparison",
       "source_url": "https://matrixdocs.github.io/docs/servers/comparison",
       "type": "federation",
+      "source_read_status": "retrieved_and_reviewed",
       "access_test": "not_run",
       "auth_test": "not_run",
       "license_test": "not_run",
@@ -433,6 +473,7 @@
       "api_or_interface_name": "Forgejo federation FAQ",
       "source_url": "https://forgejo.org/faq/",
       "type": "federation",
+      "source_read_status": "retrieved_and_reviewed",
       "access_test": "not_run",
       "auth_test": "not_run",
       "license_test": "not_run",
@@ -444,6 +485,7 @@
       "api_or_interface_name": "OpenSSF projects",
       "source_url": "https://openssf.org/projects/",
       "type": "security",
+      "source_read_status": "retrieved_and_reviewed",
       "access_test": "not_run",
       "auth_test": "not_run",
       "license_test": "not_run",
@@ -455,6 +497,7 @@
       "api_or_interface_name": "OpenSSF OSPS Baseline",
       "source_url": "https://baseline.openssf.org/",
       "type": "security",
+      "source_read_status": "retrieved_and_reviewed",
       "access_test": "not_run",
       "auth_test": "not_run",
       "license_test": "not_run",
@@ -466,6 +509,7 @@
       "api_or_interface_name": "OpenSSF Scorecard",
       "source_url": "https://openssf.org/scorecard/",
       "type": "security",
+      "source_read_status": "retrieved_and_reviewed",
       "access_test": "not_run",
       "auth_test": "not_run",
       "license_test": "not_run",
@@ -477,6 +521,7 @@
       "api_or_interface_name": "Sigstore project",
       "source_url": "https://openssf.org/projects/sigstore/",
       "type": "security",
+      "source_read_status": "retrieved_and_reviewed",
       "access_test": "not_run",
       "auth_test": "not_run",
       "license_test": "not_run",
@@ -488,6 +533,7 @@
       "api_or_interface_name": "OpenSSF SBOM tooling",
       "source_url": "https://openssf.org/technical-initiatives/sbom-tools/",
       "type": "security",
+      "source_read_status": "retrieved_and_reviewed",
       "access_test": "not_run",
       "auth_test": "not_run",
       "license_test": "not_run",
@@ -499,6 +545,7 @@
       "api_or_interface_name": "Rustls project",
       "source_url": "https://github.com/rustls/rustls",
       "type": "security_library",
+      "source_read_status": "retrieved_and_reviewed",
       "access_test": "not_run",
       "auth_test": "not_run",
       "license_test": "not_run",
@@ -510,6 +557,7 @@
       "api_or_interface_name": "libsodium docs",
       "source_url": "https://doc.libsodium.org/doc",
       "type": "security_library",
+      "source_read_status": "retrieved_and_reviewed",
       "access_test": "not_run",
       "auth_test": "not_run",
       "license_test": "not_run",
@@ -521,6 +569,7 @@
       "api_or_interface_name": "OpenSSL activity/maintainers",
       "source_url": "https://status.openssl.org/",
       "type": "security_library",
+      "source_read_status": "retrieved_and_reviewed",
       "access_test": "not_run",
       "auth_test": "not_run",
       "license_test": "not_run",
@@ -532,6 +581,7 @@
       "api_or_interface_name": "Keycloak website",
       "source_url": "https://www.keycloak.org/",
       "type": "identity",
+      "source_read_status": "official_url_candidate_requires_direct_content_review",
       "access_test": "not_run",
       "auth_test": "not_run",
       "license_test": "not_run",
@@ -543,6 +593,7 @@
       "api_or_interface_name": "Authentik documentation",
       "source_url": "https://docs.goauthentik.io/",
       "type": "identity",
+      "source_read_status": "official_url_candidate_requires_direct_content_review",
       "access_test": "not_run",
       "auth_test": "not_run",
       "license_test": "not_run",
@@ -554,6 +605,7 @@
       "api_or_interface_name": "n8n licensing",
       "source_url": "https://docs.n8n.io/sustainable-use-license/",
       "type": "workflows",
+      "source_read_status": "official_url_candidate_requires_direct_content_review",
       "access_test": "not_run",
       "auth_test": "not_run",
       "license_test": "not_run",
@@ -565,6 +617,7 @@
       "api_or_interface_name": "Node-RED",
       "source_url": "https://nodered.org/",
       "type": "workflows",
+      "source_read_status": "official_url_candidate_requires_direct_content_review",
       "access_test": "not_run",
       "auth_test": "not_run",
       "license_test": "not_run",
@@ -576,6 +629,7 @@
       "api_or_interface_name": "ActivityPub W3C recommendation",
       "source_url": "https://www.w3.org/TR/activitypub/",
       "type": "federation",
+      "source_read_status": "retrieved_and_reviewed",
       "access_test": "not_run",
       "auth_test": "not_run",
       "license_test": "not_run",
@@ -587,6 +641,7 @@
       "api_or_interface_name": "EU Digital Identity Wallet",
       "source_url": "https://digital-strategy.ec.europa.eu/en/policies/eudi-wallet-implementation",
       "type": "identity",
+      "source_read_status": "official_url_candidate_requires_direct_content_review",
       "access_test": "not_run",
       "auth_test": "not_run",
       "license_test": "not_run",
@@ -598,6 +653,7 @@
       "api_or_interface_name": "OSV vulnerability database",
       "source_url": "https://osv.dev/",
       "type": "security",
+      "source_read_status": "official_url_candidate_requires_direct_content_review",
       "access_test": "not_run",
       "auth_test": "not_run",
       "license_test": "not_run",
@@ -609,6 +665,55 @@
       "api_or_interface_name": "SLSA framework",
       "source_url": "https://slsa.dev/",
       "type": "security",
+      "source_read_status": "official_url_candidate_requires_direct_content_review",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
+      "source_id": "SRC-INK-SAMBA",
+      "api_or_interface_name": "Samba interoperability with Windows and AD",
+      "source_url": "https://www.samba.org/",
+      "type": "reverse_engineering",
+      "source_read_status": "retrieved_and_reviewed",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
+      "source_id": "SRC-INK-MATRIX-SPEC-LATEST",
+      "api_or_interface_name": "Matrix specification latest",
+      "source_url": "https://spec.matrix.org/latest/",
+      "type": "federation",
+      "source_read_status": "retrieved_and_reviewed",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
+      "source_id": "SRC-INK-WINE",
+      "api_or_interface_name": "WineHQ software compatibility",
+      "source_url": "https://www.winehq.org/",
+      "type": "reverse_engineering",
+      "source_read_status": "official_url_candidate_requires_direct_content_review",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
+      "source_id": "SRC-INK-OPENSSL-SOURCE",
+      "api_or_interface_name": "OpenSSL source/docs",
+      "source_url": "https://www.openssl.org/",
+      "type": "security_library",
+      "source_read_status": "retrieved_and_reviewed",
       "access_test": "not_run",
       "auth_test": "not_run",
       "license_test": "not_run",
