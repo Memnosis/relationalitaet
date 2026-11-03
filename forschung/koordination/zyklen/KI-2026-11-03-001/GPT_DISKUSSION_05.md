@@ -21,7 +21,7 @@ Ich habe `forschung/register/PROMPT_ANALYSE_V0_1.json` tatsächlich gelesen. Es 
 - **GEO-OPS-01 / FMT-H02 (A) mit Vorbehalt:** nur nach Open-Source-Lizenz-/I/O-/Negativtest, keinesfalls internen Workflow/Agentenkonfigurationen.
 - **HARV-03 / EXT-01 (A) mit Vorbehalt:** Bibliotheksvergleich ist nicht die Bestätigung physikalischer/Quantenhypothesen; Interpretations-/Lizenzhinweis.
 - **VIS-01 (A) mit Vorbehalt:** öffentlich nur neutrale Visualisierung/Datenaustausch, keine unbelegte 3×3×3-Notwendigkeit.
-- **Alle übrigen zwölf A**: in der generischen Kategorie plausibel, aber **erst** als unabhängig ausführbarer direkter Prompt nach Einzeltest (nicht über Freigabe dieses Meta-Prompt-Rohtextes).
+- **Alle übrigen sieben A**: in der generischen Kategorie plausibel, aber **erst** als unabhängig ausführbarer direkter Prompt nach Einzeltest (nicht über Freigabe dieses Meta-Prompt-Rohtextes).
 - **B (22):** bis auf weiteres intern belassen. **C (OBS-03, OBS-04)** vor jedem Releasestadium spezifische Fachprüfung. Keine Klassenumstufung ohne direkten Probelauf mit aufgabenbezogenen Eingabedaten und Gegenprobe.
 - **13 `exakt 3×3×3`-Annahmen:** als **projektspezifische Adressdefinition** kennzeichnen; daraus folgt keine mathematische oder empirische Allgemeingültigkeit.
 
