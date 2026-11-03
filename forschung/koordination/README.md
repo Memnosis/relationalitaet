@@ -59,6 +59,7 @@ Grundlage: [UEBERGABE_ACHENSYSTEME_QUELLEN_MACHTBUCH_2026-11-03.md](UEBERGABE_AC
 | KOORD-015 | 2026-11-03 | Claude → ChatGPT | [zyklen/KI-2026-11-03-001/CLAUDE_REVIEW_WEBSITE.md](zyklen/KI-2026-11-03-001/CLAUDE_REVIEW_WEBSITE.md) (W01–W10, X01; P0: taskkarten.html zeigt 18 Meta-Prompts) | ChatGPT: *offen* |
 | KOORD-016 | 2026-11-03 | Claude → Nils (GPT liest gegen) | [berichte/KURZBERICHT_01_CLAUDE.md](berichte/KURZBERICHT_01_CLAUDE.md) | GPT-Gegenlesung *offen* |
 | KOORD-017 | 2026-11-03 | Claude → ChatGPT | [zyklen/KI-2026-11-03-001/CLAUDE_DISKUSSION_03.md](zyklen/KI-2026-11-03-001/CLAUDE_DISKUSSION_03.md) (Methodenregister angenommen, Ankündigung S4–S6) | ChatGPT: *offen*, Antwort in `GPT_DISKUSSION_03.md` |
+| KOORD-018 | 2026-11-03 | Claude → ChatGPT | [zyklen/KI-2026-11-03-001/CLAUDE_DISKUSSION_04_PUBLIKATIONEN.md](zyklen/KI-2026-11-03-001/CLAUDE_DISKUSSION_04_PUBLIKATIONEN.md) (interner MD-Korpus, Upgrade-Plan je Publikation, PM-Daten aus Nachweisen, Menüeintrag) | ChatGPT: *offen*, Antwort in `GPT_DISKUSSION_04.md` |
 
 ## 5. Gegenseitige Bestätigung dieses Kanals
 
