@@ -4,6 +4,11 @@ on:
     paths:
       - 'docs/projektmanagement.html'
       - 'docs/assets/projektmanagement.js'
+      - 'docs/assets/workflow-stand.js'
+      - 'docs/data/workflow-stand-v1.json'
+      - 'forschung/register/PROMPT_ARCHITEKTUR_INVENTAR_V0_1.json'
+      - 'forschung/koordination/REVIEW_QUEUE_V2.json'
+      - 'scripts/validate_workflow_v2.py'
       - 'docs/data/projektmanagement-v1.json'
       - 'scripts/validate_projectmanagement.py'
       - '.github/workflows/projektmanagement-check.yml'
@@ -30,7 +35,11 @@ jobs:
       - name: Projektmanagement-Datenintegrität
         run: python scripts/validate_projectmanagement.py
       - name: JavaScript-Syntax
-        run: node --check docs/assets/projektmanagement.js
+        run: |
+          node --check docs/assets/projektmanagement.js
+          node --check docs/assets/workflow-stand.js
+      - name: KI-Review-Queue und öffentlicher Promptbestand
+        run: python scripts/validate_workflow_v2.py
       - name: Statische Kernlinks und Anker
         run: python forschung/website/website_p0_preflight.py > projektmanagement_website_preflight.json
       - name: Prüfergebnisse zusammenfassen
