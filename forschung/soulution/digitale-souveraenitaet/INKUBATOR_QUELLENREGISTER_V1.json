@@ -1,0 +1,663 @@
+{
+  "schema": "soulution.inkubator.source-registry.v1",
+  "as_of": "2026-11-03",
+  "scope": "Curated candidates and anchored primary sources; not a harvested software catalog",
+  "quality_policy": {
+    "levels": [
+      "original_primary",
+      "secondary_reference",
+      "not_directly_reviewed"
+    ],
+    "status_distinction": "URL present does not mean an API was tested or a project integrated",
+    "license": "Must be checked at repository/release level before use",
+    "legal": "Interoperability does not imply copy permission",
+    "financial": "external providers listed as candidates, no project partnerships asserted"
+  },
+  "sources": [
+    {
+      "id": "SRC-INK-EU-COMMONS",
+      "kind": "digital_commons",
+      "title": "Digital Commons EDIC – projects",
+      "url": "https://digital-commons-edic.eu/projects/",
+      "authority": "primary",
+      "topic": "international_cooperation",
+      "abstract": "national workspace suites, shared components, sovereign tech fund",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-MOD-01",
+        "SOUL-SOFTWARE-01"
+      ],
+      "incubator_module_ids": [
+        "HOST",
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-EU-COMMONS-STRAT",
+      "kind": "digital_commons",
+      "title": "Digital Commons EDIC strategy October 2026",
+      "url": "https://digital-commons-edic.eu/news/2026-10-27-assembly-decisions/",
+      "authority": "primary",
+      "topic": "dated_2026",
+      "abstract": "implementation strategy 2026-2027",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-MOD-01",
+        "SOUL-SOFTWARE-01"
+      ],
+      "incubator_module_ids": [
+        "HOST",
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-EU-INTEROP",
+      "kind": "standard",
+      "title": "Interoperable Europe",
+      "url": "https://interoperable-europe.ec.europa.eu/Interoperable-Europe-Act-Regulation",
+      "authority": "primary",
+      "topic": "legal_organizational_semantic_technical",
+      "abstract": "4 interoperability dimensions",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-INT-01",
+        "HARV-06"
+      ],
+      "incubator_module_ids": [
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-DPG",
+      "kind": "standard",
+      "title": "Digital Public Goods Standard",
+      "url": "https://www.digitalpublicgoods.net/standard",
+      "authority": "primary",
+      "topic": "selection_framework",
+      "abstract": "public goods qualification not security guarantee",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-INT-01",
+        "HARV-06"
+      ],
+      "incubator_module_ids": [
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-FRAPPE",
+      "kind": "erp_framework",
+      "title": "Frappe Framework DocTypes",
+      "url": "https://docs.frappe.io/framework/user/en/basics/doctypes",
+      "authority": "primary",
+      "topic": "metadata_driven_erp",
+      "abstract": "data-model driven forms APIs core",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-MOD-01",
+        "INC-COMP-01"
+      ],
+      "incubator_module_ids": [
+        "ERP",
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-FRAPPE-MIGRATION",
+      "kind": "erp_framework",
+      "title": "Frappe schema migrations",
+      "url": "https://docs.frappe.io/framework/user/en/guides/deployment/migrations",
+      "authority": "primary",
+      "topic": "upgrade_compatibility",
+      "abstract": "migration and versioning",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-MOD-01",
+        "INC-COMP-01"
+      ],
+      "incubator_module_ids": [
+        "ERP",
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-APPBUILD",
+      "kind": "dashboard",
+      "title": "Open-source low-code overview (secondary)",
+      "url": "https://www.itechguides.com/build-your-next-app-with-these-open-source-low-code-no-code-platforms/",
+      "authority": "secondary",
+      "topic": "comparative_discovery",
+      "abstract": "appsmith budibase tooljet baserow nocodb directus n8n candidates; verify with primary docs",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-MOD-01"
+      ],
+      "incubator_module_ids": [
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-MATRIX-SERV",
+      "kind": "federation",
+      "title": "Matrix official server ecosystem",
+      "url": "https://www.matrix.org/ecosystem/servers/",
+      "authority": "primary",
+      "topic": "homeserver_alternatives",
+      "abstract": "Synapse Tuwunel Continuwuity",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-INT-01"
+      ],
+      "incubator_module_ids": [
+        "COMM",
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-MATRIX-SPEC",
+      "kind": "federation",
+      "title": "Matrix standards and introduction",
+      "url": "https://matrix.org/docs/",
+      "authority": "primary",
+      "topic": "communications_protocol",
+      "abstract": "federation and bridges",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-INT-01"
+      ],
+      "incubator_module_ids": [
+        "COMM",
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-MATRIX-HELP",
+      "kind": "federation",
+      "title": "Matrix Docs October 2026 homeserver comparison",
+      "url": "https://matrixdocs.github.io/docs/servers/comparison",
+      "authority": "secondary",
+      "topic": "2026_comparison",
+      "abstract": "technical crosscheck not operated service",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-INT-01"
+      ],
+      "incubator_module_ids": [
+        "COMM",
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-FORGEJO-NEWS",
+      "kind": "collaboration",
+      "title": "Forgejo 2026 updates",
+      "url": "https://forgejo.org/news/",
+      "authority": "primary",
+      "topic": "self_hosted_forge",
+      "abstract": "community-owned collaboration",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-MOD-01"
+      ],
+      "incubator_module_ids": [
+        "COMM"
+      ]
+    },
+    {
+      "id": "SRC-INK-FORGEJO-FED",
+      "kind": "federation",
+      "title": "Forgejo federation FAQ",
+      "url": "https://forgejo.org/faq/",
+      "authority": "primary",
+      "topic": "experimental_federation",
+      "abstract": "ActivityPub under development; do not call production-ready",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-INT-01"
+      ],
+      "incubator_module_ids": [
+        "COMM",
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-OSSSF",
+      "kind": "security",
+      "title": "OpenSSF projects",
+      "url": "https://openssf.org/projects/",
+      "authority": "primary",
+      "topic": "security_frameworks",
+      "abstract": "SLSA sigstore OSV schema etc",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-INT-01"
+      ],
+      "incubator_module_ids": [
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-OSPS",
+      "kind": "security",
+      "title": "OpenSSF OSPS Baseline",
+      "url": "https://baseline.openssf.org/",
+      "authority": "primary",
+      "topic": "maturity_baseline",
+      "abstract": "current version 2026-08-28; check version pinned",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-INT-01"
+      ],
+      "incubator_module_ids": [
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-SCORECARD",
+      "kind": "security",
+      "title": "OpenSSF Scorecard",
+      "url": "https://openssf.org/scorecard/",
+      "authority": "primary",
+      "topic": "automated_risk",
+      "abstract": "heuristic security indicator, not guarantee",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-INT-01"
+      ],
+      "incubator_module_ids": [
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-SIGSTORE",
+      "kind": "security",
+      "title": "Sigstore project",
+      "url": "https://openssf.org/projects/sigstore/",
+      "authority": "primary",
+      "topic": "release_attestation",
+      "abstract": "artifact signatures and transparency logs",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-INT-01"
+      ],
+      "incubator_module_ids": [
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-SBOM",
+      "kind": "security",
+      "title": "OpenSSF SBOM tooling",
+      "url": "https://openssf.org/technical-initiatives/sbom-tools/",
+      "authority": "primary",
+      "topic": "dependency_inventory",
+      "abstract": "software bill of materials and cross-format tools",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-INT-01"
+      ],
+      "incubator_module_ids": [
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-RUSTLS",
+      "kind": "security_library",
+      "title": "Rustls project",
+      "url": "https://github.com/rustls/rustls",
+      "authority": "primary",
+      "topic": "tls_library",
+      "abstract": "provider-based TLS, safe defaults",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-MOD-01",
+        "INC-API-01"
+      ],
+      "incubator_module_ids": [
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-LIBSODIUM",
+      "kind": "security_library",
+      "title": "libsodium docs",
+      "url": "https://doc.libsodium.org/doc",
+      "authority": "primary",
+      "topic": "crypto_library",
+      "abstract": "cross-platform crypto operations",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-MOD-01",
+        "INC-API-01"
+      ],
+      "incubator_module_ids": [
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-OPENSSL",
+      "kind": "security_library",
+      "title": "OpenSSL activity/maintainers",
+      "url": "https://status.openssl.org/",
+      "authority": "primary",
+      "topic": "maintainer_ecosystem",
+      "abstract": "maintainer roles and contributions",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-MOD-01",
+        "INC-API-01"
+      ],
+      "incubator_module_ids": [
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-EU-DIRECTIVE",
+      "kind": "legal",
+      "title": "Directive 2009/24/EC article 6",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32009L0024",
+      "authority": "primary",
+      "topic": "interoperability_decompilation",
+      "abstract": "conditions for independently developed compatibility",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-CLOSED-01"
+      ],
+      "incubator_module_ids": [
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-SAS-JUDGMENT",
+      "kind": "legal",
+      "title": "EU Court SAS Institute v WPL C-406/10",
+      "url": "https://infocuria.curia.europa.eu/tabs/redirect/juris/liste.jsf?num=c-406%2F10",
+      "authority": "primary",
+      "topic": "functions_languages_formats",
+      "abstract": "copyright does not itself protect program functionality",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-CLOSED-01"
+      ],
+      "incubator_module_ids": [
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-KEYCLOAK",
+      "kind": "identity",
+      "title": "Keycloak website",
+      "url": "https://www.keycloak.org/",
+      "authority": "primary",
+      "topic": "OIDC_SAML",
+      "abstract": "identity and access management candidate, not integrated",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-API-01"
+      ],
+      "incubator_module_ids": [
+        "IDENTITY"
+      ]
+    },
+    {
+      "id": "SRC-INK-AUTHENTIK",
+      "kind": "identity",
+      "title": "Authentik documentation",
+      "url": "https://docs.goauthentik.io/",
+      "authority": "primary",
+      "topic": "SSO",
+      "abstract": "open-source IAM alternative; verify exact licensing",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-API-01"
+      ],
+      "incubator_module_ids": [
+        "IDENTITY"
+      ]
+    },
+    {
+      "id": "SRC-INK-ERP-NEXT",
+      "kind": "erp",
+      "title": "ERPNext documentation",
+      "url": "https://docs.erpnext.com/",
+      "authority": "primary",
+      "topic": "ERP",
+      "abstract": "complete solution candidate",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-MOD-01"
+      ],
+      "incubator_module_ids": [
+        "ERP"
+      ]
+    },
+    {
+      "id": "SRC-INK-NEXTCLOUD",
+      "kind": "collaboration",
+      "title": "Nextcloud official",
+      "url": "https://nextcloud.com/",
+      "authority": "primary",
+      "topic": "files_groupware",
+      "abstract": "collaboration suite candidate",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-MOD-01"
+      ],
+      "incubator_module_ids": [
+        "COMM"
+      ]
+    },
+    {
+      "id": "SRC-INK-N8N",
+      "kind": "workflows",
+      "title": "n8n licensing",
+      "url": "https://docs.n8n.io/sustainable-use-license/",
+      "authority": "primary",
+      "topic": "source_available_not_necessarily_osi_open_source",
+      "abstract": "license restriction must be tested",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-COMP-01"
+      ],
+      "incubator_module_ids": [
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-NODE-RED",
+      "kind": "workflows",
+      "title": "Node-RED",
+      "url": "https://nodered.org/",
+      "authority": "primary",
+      "topic": "flow_based_programming",
+      "abstract": "low-code tool chaining candidate",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-COMP-01"
+      ],
+      "incubator_module_ids": [
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-W3C-ACTIVITYPUB",
+      "kind": "federation",
+      "title": "ActivityPub W3C recommendation",
+      "url": "https://www.w3.org/TR/activitypub/",
+      "authority": "primary",
+      "topic": "fediverse_standard",
+      "abstract": "social object protocol; not Matrix protocol",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-INT-01"
+      ],
+      "incubator_module_ids": [
+        "COMM",
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-SOVTECH",
+      "kind": "maintenance",
+      "title": "Sovereign Tech Agency",
+      "url": "https://www.sovereign.tech/",
+      "authority": "primary",
+      "topic": "maintenance_financing",
+      "abstract": "fund critical infrastructure",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-MOD-01"
+      ],
+      "incubator_module_ids": [
+        "HOST"
+      ]
+    },
+    {
+      "id": "SRC-INK-EUDI-WALLET",
+      "kind": "identity",
+      "title": "EU Digital Identity Wallet",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/eudi-wallet-implementation",
+      "authority": "primary",
+      "topic": "identity_standard",
+      "abstract": "regulated ID use; not a generic mandatory project login",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-API-01"
+      ],
+      "incubator_module_ids": [
+        "IDENTITY"
+      ]
+    },
+    {
+      "id": "SRC-INK-OSV",
+      "kind": "security",
+      "title": "OSV vulnerability database",
+      "url": "https://osv.dev/",
+      "authority": "primary",
+      "topic": "vulnerabilities_api",
+      "abstract": "machine-readable vulnerabilities",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-INT-01"
+      ],
+      "incubator_module_ids": [
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-SLSA",
+      "kind": "security",
+      "title": "SLSA framework",
+      "url": "https://slsa.dev/",
+      "authority": "primary",
+      "topic": "build_provenance",
+      "abstract": "software supply chain integrity",
+      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-INT-01"
+      ],
+      "incubator_module_ids": [
+        "API"
+      ]
+    }
+  ]
+}
