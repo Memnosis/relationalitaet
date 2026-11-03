@@ -37,7 +37,20 @@
  ],
  "prompt_execution_status": "passed",
  "public_release": "not_approved",
- "reviewer": "GPT (ausstehend)",
+ "reviewer": "GPT (Gegenlauf erfolgt; Bestätigung des Vergleichs ausstehend)",
  "approved_for_publication": false,
- "befund_zum_prompt": "Kalkül und Rückgabeformat im Prompt vorgeben; E1-Einleitung für Mitmachende ergänzen"
+ "befund_zum_prompt": "Kalkül und Rückgabeformat im Prompt vorgeben; E1-Einleitung für Mitmachende ergänzen",
+ "r4": {
+  "eigenlauf": "claude",
+  "gegenlauf": {
+   "ki": "gpt",
+   "datei": "forschung/koordination/zyklen/KI-2026-11-03-001/GPT_LOGIK_PROMPT_02_UNABHAENGIGER_TEST.md",
+   "skript": "scripts/gpt_logic02_independent.py",
+   "skript_sha256": "d93bb6935ab7d1c0197575dd9bc9d1ede0dd987b43f13a74da567795e24d05d6",
+   "von_claude_reproduziert": true
+  },
+  "vergleich": "forschung/koordination/zyklen/KI-2026-11-03-001/CLAUDE_R4_VERGLEICH_LOGIK-PROMPT-02.md",
+  "status": "compared",
+  "ergebnis": "übereinstimmend; Prompt unterbestimmt (Kalkül, Rückgabeformat) → v2 vorgeschlagen"
+ }
 }

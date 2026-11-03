@@ -10,7 +10,9 @@
   "doppelt_gefuehrt": 20,
   "wechselseitig_getestet": 0,
   "modell_probelaeufe": 1,
-  "quellenfall_tests_bestanden": 12
+  "quellenfall_tests_bestanden": 12,
+  "r4_verglichen": 1,
+  "r4_hinweis": "LOGIK-PROMPT-02: Erstlauf Claude + blinder Gegenlauf GPT, verglichen (übereinstimmend); H1: blinder Lauf Claude mit eigener Eingabe, Vergleich ausstehend"
  },
  "hinweis": "20 Objekte (13 Mitmach + 7 Geo/Format) stehen sowohl in den main-JSON als auch in der Promptbibliothek des Integrationszweigs. Die 15 Folgeprompts aus ZWEITTEST_UND_FOLGEPROMPTS_V0_2 (Zweig) sind nicht mitgezählt (Selbstoptimierungs-Varianten zu den 15 Fachforschungs-Prompts).",
  "eintraege": [
