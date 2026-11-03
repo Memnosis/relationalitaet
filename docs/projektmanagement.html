@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Projektmanagement · Tensor-Forschung</title>
+<meta name="description" content="Nachweisbares Projektmanagement für KI-Tensor, Geo-KI, Quellen, Logik, Website und die gemeinsame GPT-/Claude-Arbeit.">
+<link rel="stylesheet" href="./assets/tensor-design.css"><link rel="stylesheet" href="./assets/tensor-navigation.css">
+<link rel="stylesheet" href="./assets/tensor-hierarchy.css"><link rel="stylesheet" href="./assets/tensor-learning-modules.css">
+<style>
+:root{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;--pm-a:#086c78;--pm-b:#58719b;--pm-c:#8e5a2c}
+*{box-sizing:border-box}body{margin:0;background:var(--tensor-bg,#f8fafb);color:var(--tensor-text,#17272e);line-height:1.58}
+header,main,footer{max-width:1160px;margin:auto;padding:21px}main{padding-top:32px}
+a{color:var(--tensor-accent,#086c78)}h1{font-size:clamp(2rem,3.4vw,2.8rem);line-height:1.15;margin:0 0 12px}h2{font-size:1.55rem;margin:0 0 13px}h3{font-size:1.13rem;margin:0 0 8px}
+.intro{max-width:78ch;font-size:1.07rem}.eyebrow{font-size:.78rem;letter-spacing:.09em;text-transform:uppercase;color:var(--tensor-muted,#435961);font-weight:750}
+.pm-head{display:flex;align-items:center;gap:12px}.pm-icon{width:26px;height:26px;stroke:currentColor;fill:none;stroke-width:1.7}
+.pm-intro{padding:15px 0 18px}.pm-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:19px 0}
+.pm-stat{border:1px solid var(--tensor-line,#bbb);border-radius:13px;padding:15px;background:var(--tensor-surface,#fff)}
+.pm-stat strong{display:block;font-size:1.7rem;line-height:1.1}.pm-stat small{color:var(--tensor-muted,#435961)}
+.pm-panel{border:1px solid var(--tensor-line,#bbb);border-radius:14px;padding:21px;margin:24px 0;background:var(--tensor-surface,#fff)}
+.pm-controls{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.pm-controls label{display:flex;flex-direction:column;font-size:.9rem;font-weight:650;gap:6px}
+.pm-controls select{padding:9px 11px;border:1px solid var(--tensor-line,#bbb);border-radius:8px;background:Canvas;color:CanvasText;font:inherit}
+.pm-control-help{font-size:.85rem;color:var(--tensor-muted,#435961)}
+.pm-tasks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:17px}
+.pm-task{border:1px solid var(--tensor-line,#bbb);border-left:5px solid var(--pm-a);border-radius:13px;padding:18px;min-width:0}
+.pm-task[data-owner=claude]{border-left-color:var(--pm-b)}.pm-task[data-owner=both]{border-left-color:var(--pm-c)}
+.pm-top{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between}
+.pm-meta{font-size:.8rem;color:var(--tensor-muted,#435961)}.pm-title{margin:9px 0}
+.pm-badge{border:1px solid var(--tensor-line,#bbb);border-radius:16px;padding:2px 8px;font-size:.76rem;font-weight:650}
+.pm-progress{height:11px;background:color-mix(in srgb,var(--tensor-text,#17272e) 12%,transparent);border-radius:40px;overflow:hidden;margin:8px 0}
+.pm-progress-fill{height:100%;background:var(--pm-a);border-radius:40px;transition:width .2s}
+.pm-task[data-owner=claude] .pm-progress-fill{background:var(--pm-b)}
+.pm-task[data-owner=both] .pm-progress-fill{background:var(--pm-c)}
+.pm-stages{display:flex;flex-wrap:wrap;gap:5px;margin:11px 0}
+.pm-stage{border:1px solid var(--tensor-line,#bbb);border-radius:7px;padding:2px 6px;font-size:.73rem}
+.pm-stage[data-done=yes]{font-weight:700;background:color-mix(in srgb,var(--pm-a) 13%,transparent)}
+.pm-links{margin-top:11px;display:flex;flex-wrap:wrap;gap:10px;font-size:.87rem}
+.pm-task details{border-top:1px solid var(--tensor-line,#bbb);padding-top:10px;margin-top:12px}
+.pm-task summary{cursor:pointer;font-weight:700}.pm-task details p{font-size:.91rem;margin:8px 0}
+.pm-table{width:100%;border-collapse:collapse;margin-top:12px}.pm-table th,.pm-table td{border-bottom:1px solid var(--tensor-line,#bbb);padding:9px 11px;text-align:left;vertical-align:top}.pm-table th{font-size:.85rem}.pm-impact-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.pm-list{padding-left:20px}.pm-list li{margin-bottom:8px}.pm-muted{color:var(--tensor-muted,#435961)}
+.pm-legend{margin:10px 0 0;font-size:.88rem}.pm-legend code{background:color-mix(in srgb,var(--tensor-text,#17272e) 7%,transparent);padding:2px 5px;border-radius:5px}
+.pm-task a:focus-visible,button:focus-visible,select:focus-visible{outline:3px solid var(--tensor-accent,#086c78);outline-offset:3px}
+.pm-empty{padding:18px;border:1px dashed var(--tensor-line,#bbb);border-radius:10px}
+@media(max-width:920px){.pm-tasks,.pm-impact-grid{grid-template-columns:1fr}.pm-stats{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.pm-controls{grid-template-columns:1fr}.pm-stat{padding:12px}main{padding:14px}}
+</style><script src="./assets/tensor-hierarchy.js" defer></script>
+<script src="./assets/projektmanagement.js" defer></script></head>
+<body><header class="tensor-global-nav"><div class="tensor-nav-inner"><a class="tensor-brand" href="./index.html"><img src="./assets/media/tensor-triquetra.svg" alt="">Tensor</a><nav aria-label="Hauptnavigation"><a href="./index.html">Start</a><a href="./tensor-einfuehrung.html">Tensor verstehen</a><a href="./geoki.html">Geo-KI</a><a href="./bibliothek.html">Forschung</a><a href="./projektstand.html">Projektstand</a><a href="./projektmanagement.html" aria-current="page">Projektmanagement</a><a href="./mitmachen.html">Mitmachen</a></nav></div></header>
+<main>
+<section class="pm-intro"><p class="eyebrow">Projektsteuerung · Aufgaben, Nachweise, Schlüsselwirkungen</p><h1>Was ist tatsächlich erledigt – und was bringt uns am meisten weiter?</h1>
+<p class="intro">Hier wird die gemeinsame Forschung von GPT und Claude als nachvollziehbare Arbeit sichtbar: Wer bearbeitet welche Aufgabe? Was ist bereits beschrieben, umgesetzt oder geprüft? Und welche Ergebnisse werden für andere Projekte gebraucht? Die Prioritäten lassen sich aus der Sicht beider KIs vergleichen.</p>
+<p class="pm-muted"><strong>Wichtig:</strong> Dies ist eine datierte öffentliche Auswahl von Aufgabenfamilien, keine vollständige Rekonstruktion der letzten 100+ Einzelbefehle. Die Fortschrittsbalken messen dokumentierte Bearbeitungsstufen, keine Prozentzahl bewiesener Wissenschaft.</p></section>
+<section aria-labelledby="pm-status-title"><div class="pm-head"><svg class="pm-icon" aria-hidden="true"><use href="./assets/media/research-icons.svg#work"></use></svg><h2 id="pm-status-title">Arbeitsstand im Überblick</h2></div>
+<div class="pm-stats" id="pm-stats"><div class="pm-stat"><strong>–</strong><small>Aufgaben</small></div><div class="pm-stat"><strong>–</strong><small>GPT</small></div><div class="pm-stat"><strong>–</strong><small>Claude</small></div><div class="pm-stat"><strong>–</strong><small>Vollständig freigegeben</small></div></div>
+<p class="pm-control-help" id="pm-snapshot">Die veröffentlichte Registerversion wird geladen …</p></section>
+<section class="pm-panel" aria-labelledby="pm-filters-title"><h2 id="pm-filters-title">Was ist als Nächstes dran?</h2><p>Eine Aufgabe kann für Claude wegen Quellensicherheit zuerst kommen und für GPT wegen ihrer Auswirkung auf die Website. Die Sortierungen sind transparent gewichtet und lassen sich umstellen.</p>
+<div class="pm-controls"><label for="pm-owner">Zuständigkeit<select id="pm-owner"><option value="all">Beide KIs</option><option value="gpt">GPT · Website</option><option value="claude">Claude · Daten und Forschung</option><option value="both">Gemeinsame Arbeit</option></select></label>
+<label for="pm-order">Sortierung<select id="pm-order"><option value="gpt">GPT-Reihenfolge</option><option value="claude">Claude-Reihenfolge</option><option value="urgency">Dringlichkeit</option><option value="architecture">Architekturwirkung</option><option value="leverage">Schlüsselwirkung</option><option value="unblocks">Freigeschaltete Folgeaufgaben</option><option value="risk">Risiko</option><option value="readiness">Sofort bearbeitbar</option></select></label>
+<label for="pm-priority">Priorität<select id="pm-priority"><option value="all">Alle Prioritäten</option><option value="P0">P0 · sofort</option><option value="P1">P1 · wichtig</option><option value="P2">P2 · später</option></select></label></div>
+<p class="pm-control-help" id="pm-sort-explain" aria-live="polite">GPT-Gewichtung: Dringlichkeit, Architektur, Sichtbarkeit und vorhandene Eingaben.</p>
+<div id="pm-task-list" class="pm-tasks" aria-live="polite"><p>Lade Aufgabenregister …</p></div>
+</section>
+<section class="pm-panel" aria-labelledby="pm-impact-title"><div class="pm-head"><svg class="pm-icon" aria-hidden="true"><use href="./assets/media/research-icons.svg#nature"></use></svg><h2 id="pm-impact-title">Welche Schritte wirken auf welche Forschungsfelder?</h2></div>
+<p>Die Wirkungsansicht zeigt ausdrücklich dokumentierte Beziehungen. <em>„Ermöglicht“</em> bedeutet eine Arbeitsabhängigkeit oder geplante Anschlusswirkung – keinen bereits gemessenen wissenschaftlichen Leistungseffekt.</p>
+<div class="pm-impact-grid"><div><h3>Aufgaben mit besonders vielen direkten Anschlussaufgaben</h3><ol id="pm-impact-top" class="pm-list"></ol></div>
+<div><h3>Betroffene Felder und Projekte</h3><div class="pm-table-wrap"><table class="pm-table"><thead><tr><th>Feld</th><th>Aufgabenbezüge</th></tr></thead><tbody id="pm-domains"></tbody></table></div></div></div>
+</section>
+<section class="pm-panel" aria-labelledby="pm-method-title"><h2 id="pm-method-title">So wird Fortschritt nachgewiesen</h2>
+<ol class="pm-list"><li><strong>Bestand:</strong> Original oder Prüfobjekt tatsächlich erfasst.</li><li><strong>Beschrieben:</strong> Frage, Ausgangslage und erwartetes Ergebnis konkret spezifiziert.</li><li><strong>Umgesetzt:</strong> nachprüfbare Datei, Code oder Fachartefakt vorhanden.</li><li><strong>Getestet:</strong> tatsächliche Ausführung mit beobachtetem Ergebnis, Fehlern und Gegenprobe dokumentiert.</li><li><strong>Gegengeprüft:</strong> die zweite KI hat den aktuellen Stand anhand von Git-Versionen geprüft.</li><li><strong>Freigegeben:</strong> erforderliche fachliche beziehungsweise redaktionelle Abnahme erfolgt.</li></ol>
+<p>Eine fehlende Stufe bleibt offen, selbst wenn bereits viele Dokumente erstellt wurden. <a href="https://github.com/Memnosis/relationalitaet/blob/main/forschung/koordination/STANDARDS_SKILLS_METHODENREGISTER_V1_2026-11-03.md">Anerkannte Standards, Prüfmethoden und Skills</a> · <a href="./projektstand.html">Bisheriger Projektstand</a> · <a href="./mitmachen.html">Öffentliche Forschungsaufgaben</a>.</p>
+</section>
+<section class="tensor-learning" aria-labelledby="pm-follow-title"><p class="learn-kicker">Gemeinsame Forschung</p><h2 id="pm-follow-title">Was folgt nach jeder Austausch-Runde?</h2><p>Nach jedem vollständig von beiden KIs bestätigten Zyklus wird ein Ergebnisbericht mit Tests, offenen Fragen und Prioritätsänderungen erstellt. Nach jeweils drei abgeschlossenen Zyklen folgt eine gemeinsame Analyse; nach den Analysen zu Zyklus 3, 6 und 9 entscheidet der Autor über die weitere Strategie oder eine Verlängerung auf zwölf Zyklen.</p>
+<p><a href="https://github.com/Memnosis/relationalitaet/issues/3">Zwei-KI-Austausch auf GitHub</a> · <a href="https://github.com/Memnosis/relationalitaet/blob/main/forschung/koordination/RHYTHMUS_3_3_9_12_KI_AUSTAUSCH_2026-11-03.md">Regeln und Berichte</a>.</p></section>
+</main><footer>Tensor · Forschungsplattform · Aufgabenstand nach Git-Register · <a href="./impressum.html">Impressum und Rechte</a></footer>
+<a class="tensor-join-fixed" href="./mitmachen.html" aria-label="Mitmachen und Forschungsaufgaben">Mitmachen</a>
+</body></html>
