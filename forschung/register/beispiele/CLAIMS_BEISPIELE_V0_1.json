@@ -23,7 +23,11 @@
     "status": "digital_verifiziert",
     "pruefer": "claude",
     "datum": "2026-11-03T13:45:00Z",
-    "nachweis": "Zenodo-Datei abgerufen, MD5 ok; Textstelle per pdftotext/Volltext gelesen"
+    "nachweis": "Zenodo-Datei abgerufen, MD5 ok; Textstelle per pdftotext/Volltext gelesen; Sichtprüfung der Originalseite",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -57,7 +61,11 @@
     "status": "digital_verifiziert",
     "pruefer": "claude",
     "datum": "2026-11-03T13:45:00Z",
-    "nachweis": "Zenodo-Datei abgerufen, MD5 ok; Textstelle per pdftotext/Volltext gelesen"
+    "nachweis": "Zenodo-Datei abgerufen, MD5 ok; Textstelle per pdftotext/Volltext gelesen; Sichtprüfung der Originalseite",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -90,7 +98,11 @@
     "status": "digital_verifiziert",
     "pruefer": "claude",
     "datum": "2026-11-03T13:45:00Z",
-    "nachweis": "Zenodo-Datei abgerufen, MD5 ok; Textstelle per pdftotext/Volltext gelesen"
+    "nachweis": "Zenodo-Datei abgerufen, MD5 ok; Textstelle per pdftotext/Volltext gelesen; Sichtprüfung der Originalseite",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "offen",
@@ -126,7 +138,11 @@
     "status": "digital_verifiziert",
     "pruefer": "claude",
     "datum": "2026-11-03T13:45:00Z",
-    "nachweis": "Zenodo-Datei abgerufen, MD5 ok; Textstelle per pdftotext/Volltext gelesen"
+    "nachweis": "Zenodo-Datei abgerufen, MD5 ok; Textstelle per pdftotext/Volltext gelesen; Sichtprüfung der Originalseite",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "offen",
@@ -162,7 +178,10 @@
     "status": "digital_verifiziert",
     "pruefer": "claude",
     "datum": "2026-11-03T13:45:00Z",
-    "nachweis": "Zenodo-Datei abgerufen, MD5 ok; Textstelle per pdftotext/Volltext gelesen"
+    "nachweis": "Zenodo-Datei abgerufen, MD5 ok; Textstelle per pdftotext/Volltext gelesen; Originaltext (Markdown) an Zeile gelesen",
+    "pruefmethode": [
+     "volltext_gelesen"
+    ]
    },
    "evidenz": {
     "stufe": "B",

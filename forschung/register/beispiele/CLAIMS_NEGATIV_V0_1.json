@@ -213,6 +213,46 @@
      "DATA-003"
     ]
    }
+  },
+  {
+   "erwartet": "digital_verifiziert nur maschinell geprüft",
+   "claim": {
+    "claim_id": "CLM-NEG-7",
+    "source_id": "SRC-ZEN-19282894",
+    "werk_version": {
+     "doi": "10.5281/zenodo.19282895",
+     "version": "1.0",
+     "datei": "Logik-Tensor_1_0.pdf",
+     "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+    },
+    "aussageart": "dokumentarisch",
+    "aussage": "Der Logik-Tensor 1.0 ordnet dem Feld Einheits-Matrix / Kern (I) / Struktur (α), also UM-I-α, den Begriff 'Theorem' zu.",
+    "zitat": "α Struktur    Theorem    Kalkül oder System    Logische Theorieform",
+    "fundstelle": {
+     "seite": 5,
+     "abschnitt": "Tabelle Einheits-Matrix (Rel1)"
+    },
+    "quellenstatus": {
+     "status": "digital_verifiziert",
+     "pruefer": "claude",
+     "datum": "2026-11-03T13:45:00Z",
+     "nachweis": "Zenodo-Datei abgerufen, MD5 ok; Textstelle per pdftotext/Volltext gelesen; Sichtprüfung der Originalseite",
+     "pruefmethode": [
+      "maschinell"
+     ]
+    },
+    "evidenz": {
+     "stufe": "B",
+     "begruendung": "Zuordnung ist projektinterne Kodierung des Autors; kein eigener Wahrheitsanspruch"
+    },
+    "redaktion": "nicht_freigegeben",
+    "vertraulichkeit": "oeffentlich",
+    "public_release": false,
+    "task_ids": [
+     "DATA-001",
+     "DATA-003"
+    ]
+   }
   }
  ]
 }

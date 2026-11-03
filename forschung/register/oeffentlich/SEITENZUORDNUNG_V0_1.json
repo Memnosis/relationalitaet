@@ -1,0 +1,57 @@
+{
+ "schema_version": "seitenzuordnung/0.1",
+ "owner": "claude",
+ "stand": "2026-11-03",
+ "status": "Vorschlag Claude, Prüfung durch GPT ausstehend (R1)",
+ "hinweis": "Zuordnung Aussage → Webseite/Abschnitt (claim_relevance). Viele-zu-viele erlaubt. Rolle traegt_abschnitt = Relevanz, kein Beweis.",
+ "regeln": [
+  {
+   "claim_praefix": "CLM-LOGIK10-FELD-",
+   "page_id": "tensor-paper",
+   "section_id": "logik-forschungsstand",
+   "rolle": "traegt_abschnitt"
+  },
+  {
+   "claim_praefix": "CLM-LOGIK10-PFAD-",
+   "page_id": "tensor-paper",
+   "section_id": "logik-forschungsstand",
+   "rolle": "traegt_abschnitt"
+  },
+  {
+   "claim_praefix": "CLM-LOGIK10-AXIOM-",
+   "page_id": "tensor-paper",
+   "section_id": "logik-forschungsstand",
+   "rolle": "historischer_kontext"
+  },
+  {
+   "claim_praefix": "CLM-LOGIK10-SYSTEM-",
+   "page_id": "tensor-paper",
+   "section_id": "logik-forschungsstand",
+   "rolle": "historischer_kontext"
+  },
+  {
+   "claim_praefix": "CLM-LOGIK10-METALOGIK",
+   "page_id": "tensor-paper",
+   "section_id": "logik-forschungsstand",
+   "rolle": "historischer_kontext"
+  },
+  {
+   "claim_praefix": "CLM-LOGIK10-MODUS-PONENS",
+   "page_id": "tensoralgebra",
+   "section_id": "algebra-lernpfad",
+   "rolle": "historischer_kontext"
+  },
+  {
+   "claim_praefix": "CLM-LOGIK10-KAP8-ANZAHL",
+   "page_id": "bibliothek",
+   "section_id": "quellen-pruefweg",
+   "rolle": "historischer_kontext"
+  },
+  {
+   "claim_praefix": "CLM-FELD10-",
+   "page_id": "tensor-einfuehrung",
+   "section_id": "tensor-grundlagen-heute",
+   "rolle": "historischer_kontext"
+  }
+ ]
+}

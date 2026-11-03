@@ -21,6 +21,7 @@
 | FRAGE-LOGIK-100 | **unbekannt; nachliefern und verbessern (Upgrade)** | Upgrade-Aufgabe Logik-Tensor, Entwurf P-NEU-03 |
 | DEC-KT-01 | **genauer analysieren** | erledigt: `forschung/register/ZWEIG_KI_TENSOR_TIEFENANALYSE_V0_1.md` (16/16 Zahlenketten stimmig, 0 bewiesene Trinitäten/Tensoren, 22 fehlende Archivpakete). Empfehlung: übernehmen, als Archiv gekennzeichnet. **Bitte erneut entscheiden: „KT: a/b/c“** |
 | NEU · DEC-AUDIT-20 | **alle 20 Zyklen Sicherheits- und Regel-Audit sowie Change-Management-Analyse über die 20 Schritte**, von beiden KIs vereinbart; danach eine zusätzliche Sicherheits- und Regelschleife. Dazu gehören Archiv, alte Versionen, Backup-Regeln und die **Möglichkeit, unnötige mehrfache Altbestände zu löschen** | Vorschlag Claude in `CLAUDE_DISKUSSION_05.md`; Einigung mit GPT ausstehend |
+| Berichte (Nachtrag) | **Berichte abwechselnd**: einmal Claude, einmal GPT; vorher analysieren beide, Uneinigkeiten unter den KIs klären | Bericht 04 Claude, Bericht 05 GPT, …; Regeln v2 R1/R2 |
 
 ---
 

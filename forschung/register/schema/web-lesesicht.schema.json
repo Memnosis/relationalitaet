@@ -1,31 +1,137 @@
 {
  "$schema": "https://json-schema.org/draft/2020-12/schema",
  "$id": "https://github.com/Memnosis/relationalitaet/forschung/register/schema/web-lesesicht.schema.json",
- "title": "Reduzierte oeffentliche Lesesicht fuer docs/data/*.json (Entwurf)",
- "description": "Owner Claude, Version web-lesesicht/0.1 ENTWURF (DR-06). Wird aus den Registern erzeugt, nie von Hand gepflegt. Enthaelt nur Eintraege mit public_release=true. UI-Anforderungen ergaenzt GPT (G3); erst danach baut Claude den Generator.",
+ "title": "Öffentliche Lesesicht für docs/data (v0.2)",
+ "description": "Owner Claude; Felder laut GPT_DISKUSSION_02_ZENODO §5. Nur Einträge mit public_release=true, vertraulichkeit=oeffentlich und Quelle im Referenzset. Wird erzeugt (werkzeuge/lesesicht.py), nie von Hand gepflegt. v0.1 (Entwurf) ist in der Git-Historie.",
  "type": "object",
- "required": ["schema_version", "source_commit", "generated_at", "public_release", "eintraege"],
+ "required": [
+  "schema_version",
+  "source_commit",
+  "generated_at",
+  "public_release",
+  "eintraege"
+ ],
  "additionalProperties": false,
  "properties": {
-  "schema_version": {"const": "web-lesesicht/0.1"},
-  "source_commit": {"type": "string", "pattern": "^[0-9a-f]{7,40}$"},
-  "generated_at": {"type": "string", "format": "date-time"},
-  "public_release": {"const": true},
-  "vokabular_version": {"type": "string"},
+  "schema_version": {
+   "const": "web-lesesicht/0.2"
+  },
+  "source_commit": {
+   "type": "string",
+   "pattern": "^[0-9a-f]{7,40}$"
+  },
+  "generated_at": {
+   "type": "string"
+  },
+  "public_release": {
+   "const": true
+  },
+  "seiten": {
+   "type": "array",
+   "items": {
+    "enum": [
+     "tensor-einfuehrung",
+     "tensor-paper",
+     "tensoralgebra",
+     "bibliothek"
+    ]
+   }
+  },
   "eintraege": {
    "type": "array",
    "items": {
     "type": "object",
-    "required": ["id", "titel", "quellenstatus", "evidenz"],
     "additionalProperties": false,
+    "required": [
+     "claim_id",
+     "page_id",
+     "section_id",
+     "short_claim",
+     "source_id",
+     "title",
+     "version_doi",
+     "pinpoint",
+     "source_access",
+     "evidence_level",
+     "review_state",
+     "public_release",
+     "license",
+     "source_commit"
+    ],
     "properties": {
-     "id": {"type": "string"},
-     "titel": {"type": "string"},
-     "doi": {"type": "string"},
-     "fundstelle_text": {"type": "string"},
-     "quellenstatus": {"enum": ["digital_verifiziert", "digital_nicht_erreichbar", "handpruefung_noetig", "nur_nils_digital_geprueft", "pruefung_ausstehend"]},
-     "evidenz": {"enum": ["D", "F", "O", "K", "B", "offen"]},
-     "stand": {"type": "string", "format": "date"}
+     "claim_id": {
+      "type": "string",
+      "pattern": "^CLM-"
+     },
+     "page_id": {
+      "enum": [
+       "tensor-einfuehrung",
+       "tensor-paper",
+       "tensoralgebra",
+       "bibliothek"
+      ]
+     },
+     "section_id": {
+      "type": "string"
+     },
+     "short_claim": {
+      "type": "string",
+      "maxLength": 300
+     },
+     "source_id": {
+      "type": "string"
+     },
+     "title": {
+      "type": "string"
+     },
+     "version_doi": {
+      "type": "string",
+      "pattern": "^10\\."
+     },
+     "pinpoint": {
+      "type": "string"
+     },
+     "source_access": {
+      "enum": [
+       "digital_verifiziert",
+       "digital_nicht_erreichbar",
+       "handpruefung_noetig",
+       "nur_nils_digital_geprueft",
+       "pruefung_ausstehend"
+      ]
+     },
+     "evidence_level": {
+      "enum": [
+       "D",
+       "F",
+       "O",
+       "K",
+       "B",
+       "offen"
+      ]
+     },
+     "review_state": {
+      "enum": [
+       "owner_checked",
+       "peer_reviewed",
+       "approved"
+      ]
+     },
+     "public_release": {
+      "const": true
+     },
+     "license": {
+      "type": "string"
+     },
+     "source_commit": {
+      "type": "string"
+     },
+     "rolle": {
+      "enum": [
+       "traegt_abschnitt",
+       "historischer_kontext"
+      ]
+     }
     }
    }
   }

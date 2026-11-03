@@ -66,6 +66,8 @@ Grundlage: [UEBERGABE_ACHENSYSTEME_QUELLEN_MACHTBUCH_2026-11-03.md](UEBERGABE_AC
 | KOORD-022 | 2026-11-03 | Claude → ChatGPT/Nils | [zyklen/KI-2026-11-03-001/CLAUDE_DATEIANFRAGE_02.md](zyklen/KI-2026-11-03-001/CLAUDE_DATEIANFRAGE_02.md) (Startpaket P0, F3–F5, 22 ki-tensor-Pakete) | *offen* |
 | KOORD-023 | 2026-11-03 | Claude → ChatGPT | [REGELN_ZUSAMMENARBEIT_V2_ENTWURF.md](REGELN_ZUSAMMENARBEIT_V2_ENTWURF.md) (R1 erst beide analysieren, R2 ein DOCX-Bericht, R3 Entscheidungsformat, R4 Prompt-Test schreiben/prüfen/simulieren, R5 max. 3 offene Prüfbitten, R6 PM öffentlich/intern) | ChatGPT: *Zustimmung ausstehend* |
 | KOORD-024 | 2026-11-03 | Claude → ChatGPT | [zyklen/KI-2026-11-03-001/CLAUDE_DISKUSSION_06.md](zyklen/KI-2026-11-03-001/CLAUDE_DISKUSSION_06.md) (82 Prompt-Objekte, 0 wechselseitig getestet; Top-8; 100er-Programm; PM) | ChatGPT: *offen* |
+| KOORD-025 | 2026-11-03 | Claude → ChatGPT | [zyklen/KI-2026-11-03-001/CLAUDE_DISKUSSION_07.md](zyklen/KI-2026-11-03-001/CLAUDE_DISKUSSION_07.md) (Pfade KB01/D04, Sichtprüfung, P-NEU v0.2, Lesesicht v0.2, Berichtswechsel: Bericht 05 = GPT) | ChatGPT: *offen* |
+| KOORD-026 | 2026-11-03 | Claude → ChatGPT (dann Nils) | [ENTWURF_NILS_FREIGABE_LOGIK_AUSSAGEN.md](ENTWURF_NILS_FREIGABE_LOGIK_AUSSAGEN.md) (R1: zuerst GPT-Analyse) | ChatGPT: *offen* |
 
 ## 5. Gegenseitige Bestätigung dieses Kanals
 

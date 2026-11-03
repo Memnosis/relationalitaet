@@ -385,6 +385,90 @@
    "ausgefuehrt_von": "claude",
    "ausgefuehrt_am": "2026-11-03",
    "gilt_nur_fuer": "Kalkül H bzw. Gödel-Logik G3; Probelauf LOGIK-PROMPT-02"
+  },
+  {
+   "test_id": "TST-LS-01",
+   "task_ids": [
+    "DATA-003",
+    "DATA-004"
+   ],
+   "gegenstand": "Lesesicht leer ohne Freigabe",
+   "testart": "unittest",
+   "datei": "forschung/register/tests/test_lesesicht.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "Lesesicht v0.2"
+  },
+  {
+   "test_id": "TST-LS-02",
+   "task_ids": [
+    "DATA-003",
+    "DATA-004"
+   ],
+   "gegenstand": "freigegebener Claim erscheint mit allen Feldern",
+   "testart": "unittest",
+   "datei": "forschung/register/tests/test_lesesicht.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "Lesesicht v0.2"
+  },
+  {
+   "test_id": "TST-LS-03",
+   "task_ids": [
+    "DATA-003",
+    "DATA-004"
+   ],
+   "gegenstand": "interne Claims nie, auch mit Freigabe",
+   "testart": "unittest",
+   "datei": "forschung/register/tests/test_lesesicht.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "Lesesicht v0.2"
+  },
+  {
+   "test_id": "TST-LS-04",
+   "task_ids": [
+    "DATA-003",
+    "DATA-004"
+   ],
+   "gegenstand": "Quelle außerhalb Referenzset ausgeschlossen",
+   "testart": "unittest",
+   "datei": "forschung/register/tests/test_lesesicht.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "Lesesicht v0.2"
+  },
+  {
+   "test_id": "TST-LS-05",
+   "task_ids": [
+    "DATA-003",
+    "DATA-004"
+   ],
+   "gegenstand": "Ausgabe schema-gültig, Zusatzfeld abgelehnt",
+   "testart": "unittest",
+   "datei": "forschung/register/tests/test_lesesicht.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "Lesesicht v0.2"
+  },
+  {
+   "test_id": "TST-SICHT-LOGIK10",
+   "task_ids": [
+    "DATA-003",
+    "DATA-004"
+   ],
+   "gegenstand": "Sichtprüfung Originalseiten 3–6, 14–20: alle Fundstellen bestätigt",
+   "testart": "sichtpruefung",
+   "datei": "Zenodo 19282895, Seitenbilder",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "Fundstellen des Logik-Tensors 1.0"
   }
  ],
  "verweise_fremde_tests": [

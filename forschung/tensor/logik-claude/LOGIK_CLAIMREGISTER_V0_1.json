@@ -1,16 +1,16 @@
 {
  "schema_version": "claim-register/0.1",
  "owner": "claude",
- "erzeugt_am": "2026-11-03T14:38:01+00:00",
+ "erzeugt_am": "2026-11-03T15:05:35+00:00",
  "source_commit": "c072967",
  "werkzeug": "Inline-Generator aus LOGIK_TENSOR_1_0_EXTRAKT_V0_1.json (Commit siehe source_commit)",
  "quelle": "Logik-Tensor 1.0, Zenodo 10.5281/zenodo.19282895",
  "hinweis": "Dokumentarische Aussagen prüfen nur „steht so im Original“. Inhaltliche Thesen tragen Evidenz „offen“ und eine benannte Beweislücke. Weitere Kernthesen (Meta-Logik S.19, Modus ponens S.20) stehen bereits in beispiele/CLAIMS_BEISPIELE_V0_1.json.",
  "zaehlung": {
-  "gesamt": 46,
-  "dokumentarisch": 43,
-  "inhaltlich": 3,
-  "mit_beweisluecke": 19
+  "gesamt": 48,
+  "dokumentarisch": 44,
+  "inhaltlich": 4,
+  "mit_beweisluecke": 21
  },
  "claims": [
   {
@@ -31,8 +31,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -64,8 +68,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -97,8 +105,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -130,8 +142,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -163,8 +179,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -196,8 +216,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -229,8 +253,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -262,8 +290,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -295,8 +327,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -328,8 +364,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -361,8 +401,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -394,8 +438,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -427,8 +475,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -460,8 +512,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -493,8 +549,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -526,8 +586,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -559,8 +623,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -592,8 +660,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -625,8 +697,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -658,8 +734,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -691,8 +771,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -724,8 +808,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -757,8 +845,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -790,8 +882,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -823,8 +919,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -856,8 +956,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -889,8 +993,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -922,8 +1030,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -955,8 +1067,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -988,8 +1104,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -1021,8 +1141,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -1054,8 +1178,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -1087,8 +1215,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -1120,8 +1252,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -1153,8 +1289,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -1186,8 +1326,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -1219,8 +1363,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -1252,8 +1400,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -1285,8 +1437,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -1318,8 +1474,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -1351,8 +1511,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -1384,8 +1548,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -1417,8 +1585,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "offen",
@@ -1450,8 +1622,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "offen",
@@ -1483,8 +1659,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "offen",
@@ -1516,8 +1696,12 @@
    "quellenstatus": {
     "status": "digital_verifiziert",
     "pruefer": "claude",
-    "datum": "2026-11-03T14:38:01+00:00",
-    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
    },
    "evidenz": {
     "stufe": "B",
@@ -1530,6 +1714,80 @@
     "DATA-004"
    ],
    "anmerkung": "Beweislücke: Fassung mit 100 Begriffen unbekannt; Upgrade geplant (P-NEU-03)"
+  },
+  {
+   "claim_id": "CLM-LOGIK10-ANKUENDIGUNG-100",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 kündigt in der Einführung an, er „ordnet 100 zentrale Begriffe mit klarem Tensorstatus ein“.",
+   "fundstelle": {
+    "seite": 3,
+    "abschnitt": "1. Einführung (Schluss)"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Ankündigung des Autors"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-004"
+   ],
+   "anmerkung": "Beweislücke: Kapitel 8 enthält 34 Begriffe (S. 16–18, Sichtprüfung); Differenz zur Ankündigung offen (Upgrade P-NEU-03)"
+  },
+  {
+   "claim_id": "CLM-LOGIK10-ZUKUNFT-EINBETTUNG",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "inhaltlich",
+   "aussage": "Der Tensor ermögliche es, auch zukünftige Logiksysteme (z. B. quantenlogische oder kategorientheoretische) präzise in denselben Tensor einzubetten.",
+   "fundstelle": {
+    "seite": 15,
+    "abschnitt": "7. Meta-Logik, Erläuterung"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T15:05:35+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text gefunden (logik10_extrakt.py, 6 Gegenproben) UND Sichtprüfung der gerenderten Originalseiten 3–6, 14–20 durch Claude (Seitenbild gelesen, Begriff/Wortlaut am Ort bestätigt)",
+    "pruefmethode": [
+     "maschinell",
+     "sichtpruefung"
+    ]
+   },
+   "evidenz": {
+    "stufe": "offen",
+    "begruendung": "starke These ohne Nachweis"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-004"
+   ],
+   "anmerkung": "Beweislücke: Einbettungsbegriff nicht definiert; keine Beispiel-Einbettung angegeben"
   }
  ]
 }

@@ -65,6 +65,9 @@ def pruefe_claim(c, quellen):
         for k in ("pruefer", "datum", "nachweis"):
             if not q.get(k):
                 f.append(f"digital_verifiziert verlangt {k}")
+        pm = q.get("pruefmethode")
+        if pm is not None and set(pm) <= {"maschinell"}:
+            f.append("digital_verifiziert nicht allein auf maschineller Extraktion (Regel GPT_DISKUSSION_05 §4)")
     if st == "digital_nicht_erreichbar":
         zv = q.get("zugriffsversuch") or {}
         if not all(zv.get(k) for k in ("datum", "methode", "ergebnis")):

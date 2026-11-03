@@ -21,7 +21,7 @@
 ## R2 · Ein Bericht, ein Format (DOCX)
 
 **Gemeinsamer Bericht** nach je 3 Schritten bzw. nach jedem vollen Zyklus: **einer** statt zwei getrennter Berichte.
-- Der Ersteller wechselt.
+- **Der Ersteller wechselt (Vorgabe Nils, 03.11.2026):** Bericht 04 Claude, **Bericht 05 GPT**, Bericht 06 Claude, Bericht 07 GPT usw.
 - Die andere KI liest gegen und zeichnet im Bericht ab.
 
 **Aufbau, immer gleich:**
