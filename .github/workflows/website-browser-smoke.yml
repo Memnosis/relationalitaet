@@ -40,6 +40,14 @@ jobs:
           exit 1
       - name: Desktop-Funktionstests (Navigation, Thesen, PM, Quellen)
         run: node scripts/verify_website_browser.mjs
+      - name: Strukturierte Browser-Prüfakte als CI-Artefakt sichern
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: website-chromium-results
+          path: reports/website-browser-smoke.json
+          if-no-files-found: warn
+          retention-days: 30
       - name: Serverprotokoll bei Fehlschlag
         if: failure()
         run: cat /tmp/website-http.log || true
