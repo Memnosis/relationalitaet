@@ -1,0 +1,787 @@
+{
+  "schema": "ki-100-cycle-program/0.1",
+  "created": "2026-11-03",
+  "full_cycle_definition": "handoff + delivered artifact + owner self-check + peer review + peer acknowledgement + final cycle report",
+  "target_full_cycles": 100,
+  "verified_full_cycles": 0,
+  "assignment_policy": "20 focus slots out of 100; global cycle number assigned only on actual start; proposed 12 Mitmach and 8 internal slots may change by owner approval",
+  "milestones": {
+    "each_full_cycle": "owner reports, peer review and revised ranking",
+    "each_three": "review effects and task re-prioritization",
+    "each_twenty": "security, rules, change-management and archival restore audit",
+    "cycle_100": "anonymised, evidence-grounded methods and results report DOCX, publication only after approval"
+  },
+  "focus_slots": [
+    {
+      "slot": "M-01",
+      "theme": "Öffentliche Begriffs-/Quellenprüfungen",
+      "focus": "mitmachen",
+      "task_ids": [
+        "WEB-GLOS-01",
+        "HARV-05",
+        "HARV-06"
+      ],
+      "coverage": "initial IDs; include all actual UI journeys",
+      "assigned_cycle": null,
+      "status": "reserved_not_started",
+      "exit_criteria": [
+        "All assigned action IDs: public-safety and functional inventory",
+        "direct prompt/agent/meta distinction + recorded positive and negative tests",
+        "participant can return verified result without repository write permission",
+        "owner self-verification + cross-review + decision on each publication"
+      ]
+    },
+    {
+      "slot": "M-02",
+      "theme": "Formel-/Wissensbestände und Zugriffsgrenzen",
+      "focus": "mitmachen",
+      "task_ids": [
+        "HARV-01",
+        "HARV-02",
+        "HARV-03"
+      ],
+      "coverage": "initial IDs; include all actual UI journeys",
+      "assigned_cycle": null,
+      "status": "reserved_not_started",
+      "exit_criteria": [
+        "All assigned action IDs: public-safety and functional inventory",
+        "direct prompt/agent/meta distinction + recorded positive and negative tests",
+        "participant can return verified result without repository write permission",
+        "owner self-verification + cross-review + decision on each publication"
+      ]
+    },
+    {
+      "slot": "M-03",
+      "theme": "Sprach-/Skill-/Codebuch-Taskpfade",
+      "focus": "mitmachen",
+      "task_ids": [
+        "HARV-04",
+        "WEB-CODE-01",
+        "KOL-01"
+      ],
+      "coverage": "initial IDs; include all actual UI journeys",
+      "assigned_cycle": null,
+      "status": "reserved_not_started",
+      "exit_criteria": [
+        "All assigned action IDs: public-safety and functional inventory",
+        "direct prompt/agent/meta distinction + recorded positive and negative tests",
+        "participant can return verified result without repository write permission",
+        "owner self-verification + cross-review + decision on each publication"
+      ]
+    },
+    {
+      "slot": "M-04",
+      "theme": "Geo-KI-Operatoren und öffentliche Ausgangsformen",
+      "focus": "mitmachen",
+      "task_ids": [
+        "GEO-OPS-01",
+        "GEO-M1",
+        "FMT-H01"
+      ],
+      "coverage": "initial IDs; include all actual UI journeys",
+      "assigned_cycle": null,
+      "status": "reserved_not_started",
+      "exit_criteria": [
+        "All assigned action IDs: public-safety and functional inventory",
+        "direct prompt/agent/meta distinction + recorded positive and negative tests",
+        "participant can return verified result without repository write permission",
+        "owner self-verification + cross-review + decision on each publication"
+      ]
+    },
+    {
+      "slot": "M-05",
+      "theme": "Geometrie- und Austauschformat-Roundtrips",
+      "focus": "mitmachen",
+      "task_ids": [
+        "FMT-H02",
+        "FMT-H03",
+        "FMT-H04"
+      ],
+      "coverage": "initial IDs; include all actual UI journeys",
+      "assigned_cycle": null,
+      "status": "reserved_not_started",
+      "exit_criteria": [
+        "All assigned action IDs: public-safety and functional inventory",
+        "direct prompt/agent/meta distinction + recorded positive and negative tests",
+        "participant can return verified result without repository write permission",
+        "owner self-verification + cross-review + decision on each publication"
+      ]
+    },
+    {
+      "slot": "M-06",
+      "theme": "APIs, Forschungsedition, grafische Arbeitsmittel",
+      "focus": "mitmachen",
+      "task_ids": [
+        "FMT-H05",
+        "WEB-PAPER-01",
+        "VIS-01"
+      ],
+      "coverage": "initial IDs; include all actual UI journeys",
+      "assigned_cycle": null,
+      "status": "reserved_not_started",
+      "exit_criteria": [
+        "All assigned action IDs: public-safety and functional inventory",
+        "direct prompt/agent/meta distinction + recorded positive and negative tests",
+        "participant can return verified result without repository write permission",
+        "owner self-verification + cross-review + decision on each publication"
+      ]
+    },
+    {
+      "slot": "M-07",
+      "theme": "Mini-KI Beobachter und Verträge",
+      "focus": "mitmachen",
+      "task_ids": [
+        "MINI-OBS-01",
+        "OBS-01",
+        "OBS-02"
+      ],
+      "coverage": "initial IDs; include all actual UI journeys",
+      "assigned_cycle": null,
+      "status": "reserved_not_started",
+      "exit_criteria": [
+        "All assigned action IDs: public-safety and functional inventory",
+        "direct prompt/agent/meta distinction + recorded positive and negative tests",
+        "participant can return verified result without repository write permission",
+        "owner self-verification + cross-review + decision on each publication"
+      ]
+    },
+    {
+      "slot": "M-08",
+      "theme": "Grenzen psychologischer/physikalischer Aussagen",
+      "focus": "mitmachen",
+      "task_ids": [
+        "OBS-03",
+        "OBS-04",
+        "OBS-05"
+      ],
+      "coverage": "initial IDs; include all actual UI journeys",
+      "assigned_cycle": null,
+      "status": "reserved_not_started",
+      "exit_criteria": [
+        "All assigned action IDs: public-safety and functional inventory",
+        "direct prompt/agent/meta distinction + recorded positive and negative tests",
+        "participant can return verified result without repository write permission",
+        "owner self-verification + cross-review + decision on each publication"
+      ]
+    },
+    {
+      "slot": "M-09",
+      "theme": "Skill-Adapter, Komposition und Rollback",
+      "focus": "mitmachen",
+      "task_ids": [
+        "SKL-01",
+        "SKL-02",
+        "SKL-03",
+        "SKL-04"
+      ],
+      "coverage": "initial IDs; include all actual UI journeys",
+      "assigned_cycle": null,
+      "status": "reserved_not_started",
+      "exit_criteria": [
+        "All assigned action IDs: public-safety and functional inventory",
+        "direct prompt/agent/meta distinction + recorded positive and negative tests",
+        "participant can return verified result without repository write permission",
+        "owner self-verification + cross-review + decision on each publication"
+      ]
+    },
+    {
+      "slot": "M-10",
+      "theme": "Vorhersage und externe Ressourcen",
+      "focus": "mitmachen",
+      "task_ids": [
+        "PRD-01",
+        "PRD-02",
+        "EXT-01",
+        "EXT-02"
+      ],
+      "coverage": "initial IDs; include all actual UI journeys",
+      "assigned_cycle": null,
+      "status": "reserved_not_started",
+      "exit_criteria": [
+        "All assigned action IDs: public-safety and functional inventory",
+        "direct prompt/agent/meta distinction + recorded positive and negative tests",
+        "participant can return verified result without repository write permission",
+        "owner self-verification + cross-review + decision on each publication"
+      ]
+    },
+    {
+      "slot": "M-11",
+      "theme": "Großes Skillregister und Minimalisierung",
+      "focus": "mitmachen",
+      "task_ids": [
+        "M20K-01",
+        "M20K-02",
+        "M20K-03",
+        "M20K-04"
+      ],
+      "coverage": "initial IDs; include all actual UI journeys",
+      "assigned_cycle": null,
+      "status": "reserved_not_started",
+      "exit_criteria": [
+        "All assigned action IDs: public-safety and functional inventory",
+        "direct prompt/agent/meta distinction + recorded positive and negative tests",
+        "participant can return verified result without repository write permission",
+        "owner self-verification + cross-review + decision on each publication"
+      ]
+    },
+    {
+      "slot": "M-12",
+      "theme": "Integrations-/Gesamtretest aller Mitmachpfade",
+      "focus": "mitmachen",
+      "task_ids": [
+        "KOMP-01",
+        "WEB-01"
+      ],
+      "coverage": "initial IDs; include all actual UI journeys",
+      "assigned_cycle": null,
+      "status": "reserved_not_started",
+      "exit_criteria": [
+        "All assigned action IDs: public-safety and functional inventory",
+        "direct prompt/agent/meta distinction + recorded positive and negative tests",
+        "participant can return verified result without repository write permission",
+        "owner self-verification + cross-review + decision on each publication"
+      ]
+    },
+    {
+      "slot": "I-01",
+      "theme": "Originalquellen und private Zenodo-/Git-/Archiv-Versionen",
+      "focus": "internal_completion",
+      "task_ids": [],
+      "assigned_cycle": null,
+      "status": "reserved_not_started",
+      "exit_criteria": [
+        "Original source/version and hash preserved in private store",
+        "scientific claim or technical test bounded and explicitly reproducible",
+        "negative results and missing inputs documented",
+        "authorial publication decision separated from technical completion"
+      ]
+    },
+    {
+      "slot": "I-02",
+      "theme": "Originalthesen, wissenschaftliche Behauptungen und Evidenzakten",
+      "focus": "internal_completion",
+      "task_ids": [],
+      "assigned_cycle": null,
+      "status": "reserved_not_started",
+      "exit_criteria": [
+        "Original source/version and hash preserved in private store",
+        "scientific claim or technical test bounded and explicitly reproducible",
+        "negative results and missing inputs documented",
+        "authorial publication decision separated from technical completion"
+      ]
+    },
+    {
+      "slot": "I-03",
+      "theme": "27 Logikfelder, drei Achsensichten und dritter Faktor",
+      "focus": "internal_completion",
+      "task_ids": [],
+      "assigned_cycle": null,
+      "status": "reserved_not_started",
+      "exit_criteria": [
+        "Original source/version and hash preserved in private store",
+        "scientific claim or technical test bounded and explicitly reproducible",
+        "negative results and missing inputs documented",
+        "authorial publication decision separated from technical completion"
+      ]
+    },
+    {
+      "slot": "I-04",
+      "theme": "Logik-Tensor 2.0/2.1 und 34/100 Begriffe",
+      "focus": "internal_completion",
+      "task_ids": [],
+      "assigned_cycle": null,
+      "status": "reserved_not_started",
+      "exit_criteria": [
+        "Original source/version and hash preserved in private store",
+        "scientific claim or technical test bounded and explicitly reproducible",
+        "negative results and missing inputs documented",
+        "authorial publication decision separated from technical completion"
+      ]
+    },
+    {
+      "slot": "I-05",
+      "theme": "Tensor-/Feldtheorie und Operator-/Gegenbeweise",
+      "focus": "internal_completion",
+      "task_ids": [],
+      "assigned_cycle": null,
+      "status": "reserved_not_started",
+      "exit_criteria": [
+        "Original source/version and hash preserved in private store",
+        "scientific claim or technical test bounded and explicitly reproducible",
+        "negative results and missing inputs documented",
+        "authorial publication decision separated from technical completion"
+      ]
+    },
+    {
+      "slot": "I-06",
+      "theme": "Glossar, Formeln/Parser und Nachzieh-Compiler",
+      "focus": "internal_completion",
+      "task_ids": [],
+      "assigned_cycle": null,
+      "status": "reserved_not_started",
+      "exit_criteria": [
+        "Original source/version and hash preserved in private store",
+        "scientific claim or technical test bounded and explicitly reproducible",
+        "negative results and missing inputs documented",
+        "authorial publication decision separated from technical completion"
+      ]
+    },
+    {
+      "slot": "I-07",
+      "theme": "Mini-KI, Skill-Komposition und faire Benchmarks",
+      "focus": "internal_completion",
+      "task_ids": [],
+      "assigned_cycle": null,
+      "status": "reserved_not_started",
+      "exit_criteria": [
+        "Original source/version and hash preserved in private store",
+        "scientific claim or technical test bounded and explicitly reproducible",
+        "negative results and missing inputs documented",
+        "authorial publication decision separated from technical completion"
+      ]
+    },
+    {
+      "slot": "I-08",
+      "theme": "Interne Manuskripte, Prompt- und Quellenfreigabe",
+      "focus": "internal_completion",
+      "task_ids": [],
+      "assigned_cycle": null,
+      "status": "reserved_not_started",
+      "exit_criteria": [
+        "Original source/version and hash preserved in private store",
+        "scientific claim or technical test bounded and explicitly reproducible",
+        "negative results and missing inputs documented",
+        "authorial publication decision separated from technical completion"
+      ]
+    }
+  ],
+  "mitmach_inventory": {
+    "count": 38,
+    "sources": [
+      {
+        "path": "forschung/website/MITMACH_TASKS.json",
+        "source_sha": "322e8317c98049a16394502cae2db7379d8cf8af",
+        "count": 13
+      },
+      {
+        "path": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
+        "source_sha": "cf913d20ee559b024b4d8362ba8e3e6fe891c6f3",
+        "count": 7
+      },
+      {
+        "path": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+        "source_sha": "f19416ee042ab453f401f21fb9f0c3acd4f7dd92",
+        "count": 18
+      }
+    ],
+    "actions": [
+      {
+        "action_id": "WEB-GLOS-01",
+        "source_path": "forschung/website/MITMACH_TASKS.json",
+        "reserved_slot": "M-01",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "WEB-CODE-01",
+        "source_path": "forschung/website/MITMACH_TASKS.json",
+        "reserved_slot": "M-03",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "HARV-01",
+        "source_path": "forschung/website/MITMACH_TASKS.json",
+        "reserved_slot": "M-02",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "HARV-02",
+        "source_path": "forschung/website/MITMACH_TASKS.json",
+        "reserved_slot": "M-02",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "HARV-03",
+        "source_path": "forschung/website/MITMACH_TASKS.json",
+        "reserved_slot": "M-02",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "HARV-04",
+        "source_path": "forschung/website/MITMACH_TASKS.json",
+        "reserved_slot": "M-03",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "HARV-05",
+        "source_path": "forschung/website/MITMACH_TASKS.json",
+        "reserved_slot": "M-01",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "HARV-06",
+        "source_path": "forschung/website/MITMACH_TASKS.json",
+        "reserved_slot": "M-01",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "MINI-OBS-01",
+        "source_path": "forschung/website/MITMACH_TASKS.json",
+        "reserved_slot": "M-07",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "GEO-OPS-01",
+        "source_path": "forschung/website/MITMACH_TASKS.json",
+        "reserved_slot": "M-04",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "KOMP-01",
+        "source_path": "forschung/website/MITMACH_TASKS.json",
+        "reserved_slot": "M-12",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "VIS-01",
+        "source_path": "forschung/website/MITMACH_TASKS.json",
+        "reserved_slot": "M-06",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "KOL-01",
+        "source_path": "forschung/website/MITMACH_TASKS.json",
+        "reserved_slot": "M-03",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "GEO-M1",
+        "source_path": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
+        "reserved_slot": "M-04",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "FMT-H01",
+        "source_path": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
+        "reserved_slot": "M-04",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "FMT-H02",
+        "source_path": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
+        "reserved_slot": "M-05",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "FMT-H03",
+        "source_path": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
+        "reserved_slot": "M-05",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "FMT-H04",
+        "source_path": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
+        "reserved_slot": "M-05",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "FMT-H05",
+        "source_path": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
+        "reserved_slot": "M-06",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "WEB-PAPER-01",
+        "source_path": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
+        "reserved_slot": "M-06",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "OBS-01",
+        "source_path": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+        "reserved_slot": "M-07",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "OBS-02",
+        "source_path": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+        "reserved_slot": "M-07",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "OBS-03",
+        "source_path": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+        "reserved_slot": "M-08",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "OBS-04",
+        "source_path": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+        "reserved_slot": "M-08",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "OBS-05",
+        "source_path": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+        "reserved_slot": "M-08",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "SKL-01",
+        "source_path": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+        "reserved_slot": "M-09",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "SKL-02",
+        "source_path": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+        "reserved_slot": "M-09",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "SKL-03",
+        "source_path": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+        "reserved_slot": "M-09",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "SKL-04",
+        "source_path": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+        "reserved_slot": "M-09",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "PRD-01",
+        "source_path": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+        "reserved_slot": "M-10",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "PRD-02",
+        "source_path": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+        "reserved_slot": "M-10",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "EXT-01",
+        "source_path": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+        "reserved_slot": "M-10",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "EXT-02",
+        "source_path": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+        "reserved_slot": "M-10",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "M20K-01",
+        "source_path": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+        "reserved_slot": "M-11",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "M20K-02",
+        "source_path": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+        "reserved_slot": "M-11",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "M20K-03",
+        "source_path": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+        "reserved_slot": "M-11",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "M20K-04",
+        "source_path": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+        "reserved_slot": "M-11",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      },
+      {
+        "action_id": "WEB-01",
+        "source_path": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+        "reserved_slot": "M-12",
+        "analysis_status": "inventory_only",
+        "actual_functional_test": "not_verified",
+        "direct_prompt_trial": "not_approved_or_not_verified",
+        "cross_review": "pending",
+        "release": "not_approved"
+      }
+    ],
+    "warning": "38 meta-prompt objects are not the complete inventory of website participant actions; forms/navigation/copy/export/return paths need separate audit"
+  },
+  "study_export_contract": {
+    "public_fields": [
+      "cycle_id",
+      "method",
+      "task_ids",
+      "input_refs_redacted",
+      "test_scope",
+      "baseline",
+      "observation",
+      "negative_findings",
+      "limitations",
+      "authorisation",
+      "review_status",
+      "metrics",
+      "improvements"
+    ],
+    "private_fields": [
+      "raw_conversation",
+      "unreleased_prompts",
+      "full_private_sources",
+      "unpublished_manuscripts",
+      "credential_or_identity_data"
+    ],
+    "publication_rule": "public export must not reveal private fields or unapproved internal assets"
+  },
+  "release_status": "planning_only"
+}
