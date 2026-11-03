@@ -4,7 +4,7 @@
 **Kernpaper · Forschungs- und Konzeptfassung v1.0 · 3. November 2026**  
 **SOULution – Wissen verbinden. Lösungen möglich machen.**
 
-![Originale Projektgrafik: Schrödinger’s Inkubator – Mit möglichst wenigen möglichst viele Funktionen üblicher digitaler Dienste abdecken.](assets/schroedingers-inkubator1.png)
+*Originale Projektgrafik „Schrödinger’s Inkubator“: Mit möglichst wenigen Logins, Mitwirkenden und Software-/App-Bausteinen möglichst viele Funktionen abdecken. Grafik vorhanden und in der digitalen Paperfassung gesetzt; GitHub-Binärasset noch nicht übernommen.*
 
 > **Leitidee:** „Mit möglichst Wenigen möglichst viele Funktionen üblicher digitaler Dienste abdecken.“ – vorhandene Originalgrafik. Das ursprüngliche einseitige Konzeptblatt formuliert ergänzend: „Die gesamte Software Infrastruktur, um jedes beliebige Projekt zu realisieren.“ [Q1]
 
@@ -28,7 +28,7 @@ Damit enthält der Entwurf mindestens drei Aussagen: Erstens wiederholen sich no
 
 Die zwei übermittelten Projektgrafiken verdichten das Motiv. Die eine stellt die Frage, wie mit möglichst wenigen „Logins, Mitwirkenden, Software/Apps“ möglichst viele digitale Dienste abgedeckt werden können. Die andere zeigt den Inkubator als eigene Projektidentität. Beide werden unverändert als Originalgrafiken verwendet; sie ersetzen nicht das Originalblatt und sind keine Nachweise eines fertigen Produkts.
 
-![Originale Projektgrafik: Schrödinger’s Inkubator mit eigener Bildmarke.](assets/schroedingers-inkubator.png)
+*Zweite originale Inkubator-Projektgrafik mit eigener Bildmarke. Im bereitgestellten digitalen Paper-Paket enthalten; GitHub-Binärasset noch nicht übernommen.*
 
 **Abgrenzung:** Die im weiteren Text vorgeschlagene modulare Architektur und die Übertragung auf KI und Tensoren sind aus dieser Idee entwickelte Forschungsannahmen. Sie stehen nicht wörtlich in der historischen Ein-Seiten-Quelle.
 
