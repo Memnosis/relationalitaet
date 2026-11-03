@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 370" role="img" aria-label="27 eindeutig adressierte Tensorpositionen in drei Dreiergruppen. Nur Struktur, keine fachlich validierten Relationen.">
+<rect width="900" height="370" fill="#fff"/>
+<text x="15" y="25" fill="#24415b" font-size="17">3 Trinitäten × 3 Elemente × 3 Rollen = 27 Adressen</text>
+<text x="15" y="51" fill="#24415b" font-size="13">Trinität 1 · Strukturstatus</text>
+<rect x="15" y="60" width="88" height="87" rx="7" fill="#e5edf8" stroke="#718293"/>
+<text x="23" y="108" fill="#24415b" font-size="13">T1-E1-R1</text>
+<rect x="109" y="60" width="88" height="87" rx="7" fill="#e5edf8" stroke="#718293"/>
+<text x="117" y="108" fill="#24415b" font-size="13">T1-E1-R2</text>
+<rect x="203" y="60" width="88" height="87" rx="7" fill="#e5edf8" stroke="#718293"/>
+<text x="211" y="108" fill="#24415b" font-size="13">T1-E1-R3</text>
+<rect x="15" y="155" width="88" height="87" rx="7" fill="#e5edf8" stroke="#718293"/>
+<text x="23" y="203" fill="#24415b" font-size="13">T1-E2-R1</text>
+<rect x="109" y="155" width="88" height="87" rx="7" fill="#e5edf8" stroke="#718293"/>
+<text x="117" y="203" fill="#24415b" font-size="13">T1-E2-R2</text>
+<rect x="203" y="155" width="88" height="87" rx="7" fill="#e5edf8" stroke="#718293"/>
+<text x="211" y="203" fill="#24415b" font-size="13">T1-E2-R3</text>
+<rect x="15" y="250" width="88" height="87" rx="7" fill="#e5edf8" stroke="#718293"/>
+<text x="23" y="298" fill="#24415b" font-size="13">T1-E3-R1</text>
+<rect x="109" y="250" width="88" height="87" rx="7" fill="#e5edf8" stroke="#718293"/>
+<text x="117" y="298" fill="#24415b" font-size="13">T1-E3-R2</text>
+<rect x="203" y="250" width="88" height="87" rx="7" fill="#e5edf8" stroke="#718293"/>
+<text x="211" y="298" fill="#24415b" font-size="13">T1-E3-R3</text>
+<text x="308" y="51" fill="#24415b" font-size="13">Trinität 2 · Strukturstatus</text>
+<rect x="308" y="60" width="88" height="87" rx="7" fill="#e8f4e9" stroke="#718293"/>
+<text x="316" y="108" fill="#24415b" font-size="13">T2-E1-R1</text>
+<rect x="402" y="60" width="88" height="87" rx="7" fill="#e8f4e9" stroke="#718293"/>
+<text x="410" y="108" fill="#24415b" font-size="13">T2-E1-R2</text>
+<rect x="496" y="60" width="88" height="87" rx="7" fill="#e8f4e9" stroke="#718293"/>
+<text x="504" y="108" fill="#24415b" font-size="13">T2-E1-R3</text>
+<rect x="308" y="155" width="88" height="87" rx="7" fill="#e8f4e9" stroke="#718293"/>
+<text x="316" y="203" fill="#24415b" font-size="13">T2-E2-R1</text>
+<rect x="402" y="155" width="88" height="87" rx="7" fill="#e8f4e9" stroke="#718293"/>
+<text x="410" y="203" fill="#24415b" font-size="13">T2-E2-R2</text>
+<rect x="496" y="155" width="88" height="87" rx="7" fill="#e8f4e9" stroke="#718293"/>
+<text x="504" y="203" fill="#24415b" font-size="13">T2-E2-R3</text>
+<rect x="308" y="250" width="88" height="87" rx="7" fill="#e8f4e9" stroke="#718293"/>
+<text x="316" y="298" fill="#24415b" font-size="13">T2-E3-R1</text>
+<rect x="402" y="250" width="88" height="87" rx="7" fill="#e8f4e9" stroke="#718293"/>
+<text x="410" y="298" fill="#24415b" font-size="13">T2-E3-R2</text>
+<rect x="496" y="250" width="88" height="87" rx="7" fill="#e8f4e9" stroke="#718293"/>
+<text x="504" y="298" fill="#24415b" font-size="13">T2-E3-R3</text>
+<text x="601" y="51" fill="#24415b" font-size="13">Trinität 3 · Strukturstatus</text>
+<rect x="601" y="60" width="88" height="87" rx="7" fill="#f9edde" stroke="#718293"/>
+<text x="609" y="108" fill="#24415b" font-size="13">T3-E1-R1</text>
+<rect x="695" y="60" width="88" height="87" rx="7" fill="#f9edde" stroke="#718293"/>
+<text x="703" y="108" fill="#24415b" font-size="13">T3-E1-R2</text>
+<rect x="789" y="60" width="88" height="87" rx="7" fill="#f9edde" stroke="#718293"/>
+<text x="797" y="108" fill="#24415b" font-size="13">T3-E1-R3</text>
+<rect x="601" y="155" width="88" height="87" rx="7" fill="#f9edde" stroke="#718293"/>
+<text x="609" y="203" fill="#24415b" font-size="13">T3-E2-R1</text>
+<rect x="695" y="155" width="88" height="87" rx="7" fill="#f9edde" stroke="#718293"/>
+<text x="703" y="203" fill="#24415b" font-size="13">T3-E2-R2</text>
+<rect x="789" y="155" width="88" height="87" rx="7" fill="#f9edde" stroke="#718293"/>
+<text x="797" y="203" fill="#24415b" font-size="13">T3-E2-R3</text>
+<rect x="601" y="250" width="88" height="87" rx="7" fill="#f9edde" stroke="#718293"/>
+<text x="609" y="298" fill="#24415b" font-size="13">T3-E3-R1</text>
+<rect x="695" y="250" width="88" height="87" rx="7" fill="#f9edde" stroke="#718293"/>
+<text x="703" y="298" fill="#24415b" font-size="13">T3-E3-R2</text>
+<rect x="789" y="250" width="88" height="87" rx="7" fill="#f9edde" stroke="#718293"/>
+<text x="797" y="298" fill="#24415b" font-size="13">T3-E3-R3</text>
+<text x="15" y="359" fill="#536576" font-size="12">Keine wissenschaftlich validierten Tensorfelder oder Relationen behauptet</text></svg>
