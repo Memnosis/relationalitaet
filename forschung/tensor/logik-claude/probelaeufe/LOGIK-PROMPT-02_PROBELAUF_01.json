@@ -1,0 +1,43 @@
+{
+ "schema_version": "prompt-ausfuehrung/0.1",
+ "owner": "claude",
+ "prompt_id": "LOGIK-PROMPT-02",
+ "revision": "2.1 Entwurf, Blob fb659e47295d7caf3c3225f6860da2250016925d (Commit f3ca054)",
+ "quelle": "forschung/tensor/LOGIK_TENSOR_2_1_FORSCHUNGS-UND_PROMPTEDITION_ENTWURF.md",
+ "input_snapshot": {
+  "prompt_text_sha256": "d66aae1d2fa94e21a5415a423bf9b582673a92ee1aaeafabc436e009f2e7bc56",
+  "prompt_text": "Erkläre und beweise für einen exakt spezifizierten Kalkül, unter welchen Voraussetzungen syntaktische Ableitbarkeit semantische Folgerung impliziert; dokumentiere den Umfang des Satzes und einen Vergleich mit einer Logik, für die andere Resultate gelten.",
+  "zusatzvorgaben": "keine; Kalkül vom Ausführenden gewählt (Kalkül H)"
+ },
+ "tool_version": "Claude (Anthropic) in Claude Code Cloud-Session; Modellkennung nicht im Repository (Vorgabe der Ausführungsumgebung); Python 3.13.18",
+ "executed_at": "2026-11-03T14:37:31+00:00",
+ "executed_by": "claude",
+ "output": {
+  "datei": "forschung/tensor/logik-claude/probelaeufe/LOGIK-PROMPT-02_PROBELAUF_01.md",
+  "sha256": "99ebb8885a3caacb10e6cb1c63273882ce2211e42e57b8aa0ac79a3ce0099d1b"
+ },
+ "validators": [
+  {
+   "datei": "forschung/tensor/logik-claude/tests/test_logik_prompt02.py",
+   "sha256": "9b09cd69386ad13f90ab46b94a9e6db143c2ef500d7599a22c6f10c3f853a483",
+   "ergebnis": "8/8 bestanden",
+   "mutationstests": "2 eingebaute Fehler jeweils erkannt"
+  }
+ ],
+ "negatives": [
+  "Bejahung des Konsequens: Gegenmodell p=falsch, q=wahr",
+  "unzulässige Regel „aus φ→ψ und ψ folgt φ“: Gegenmodell",
+  "fehlerhafte Herleitung vom Beweisprüfer abgelehnt",
+  "A3, Tertium non datur, Peirce in G3 ungültig"
+ ],
+ "grenzen": [
+  "Vollständigkeit nur zitiert (Post 1921, Kompaktheit), nicht bewiesen",
+  "Korrektheitsbeweis von Hand, Teilschritte maschinell geprüft",
+  "keine Bewertung der trinitären Deduktion möglich, da deren Semantik nicht formal angegeben ist"
+ ],
+ "prompt_execution_status": "passed",
+ "public_release": "not_approved",
+ "reviewer": "GPT (ausstehend)",
+ "approved_for_publication": false,
+ "befund_zum_prompt": "Kalkül und Rückgabeformat im Prompt vorgeben; E1-Einleitung für Mitmachende ergänzen"
+}

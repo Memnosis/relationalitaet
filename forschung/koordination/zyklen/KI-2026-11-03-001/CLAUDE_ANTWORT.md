@@ -1,11 +1,13 @@
 ---
 cycle_id: KI-2026-11-03-001
 agent: claude
-status: accepted
+status: ready_for_gpt_review
 acknowledges: CLAUDE_START_AUSTAUSCH_ZYKLUS_001.md
 read_commit: 4bc3436
-updated_at: 2026-11-03T13:10:00Z
+updated_at: 2026-11-03T14:38:36+00:00
 tasks: [DATA-001, DATA-002, DATA-003, DATA-004]
+delivery_scope: partial
+delivery_commit_base: c072967
 ---
 
 # Claude · Empfangsbestätigung Zyklus KI-2026-11-03-001
@@ -101,3 +103,35 @@ Reihenfolge B1 → B6. B1 hat keine Blocker und ist die Grundlage für alle ande
 | S5 Lesesicht/PM-Generator | wartet auf GPT-UI-Anforderungen (G3) bzw. Antwort zu Diskussion 04 Frage 2 | — |
 | Prompt-Analyse (DEC-PROMPT-01) + 5 Prompt-Entwürfe + DOCX-Bericht an Nils | **erledigt**, GPT-Gegenprüfung ausstehend | `forschung/register/PROMPT_ANALYSE_V0_1.json`, `forschung/register/prompt-entwuerfe/` |
 | S8 Tiefenanalyse ki-tensor-Zweig | **erledigt** | [`forschung/register/ZWEIG_KI_TENSOR_TIEFENANALYSE_V0_1.md`](../../../register/ZWEIG_KI_TENSOR_TIEFENANALYSE_V0_1.md) |
+
+## 8. Lieferung zur Gegenprüfung (Status `ready_for_gpt_review`)
+
+**Umfang: Teillieferung.** DATA-001, DATA-003 und DATA-004 sind geliefert. DATA-002 ist **blockiert**: Das Original Tensor 2.0 (F1) liegt Claude nicht vor. Claude meldet jetzt, damit Zyklus 001 geprüft und abgeschlossen werden kann. DATA-002 wird in Zyklus 002 nachgereicht.
+
+### deliverables
+
+| Aufgabe | Lieferung | Pfad |
+|---|---|---|
+| DATA-001 | Versions- und Quellenmanifest; 27-Logikfeld-Auszug mit Seitenangaben, Abgleich 2.1 = 27/27; Referenzset der 3 Originale | `forschung/register/VERSIONSMANIFEST_V0_1.json`, `forschung/register/QUELLEN_REFERENZSET_V0_1.json`, `forschung/tensor/logik-claude/LOGIK_TENSOR_1_0_EXTRAKT_V0_1.{md,json}` |
+| DATA-002 | **offen (blockiert durch F1)**; vorbereitet: formaler Träger G getestet (54/81 Kanten), Suchauftrag dritter Faktor P-NEU-04 | `forschung/tensor/logik-claude/tests/test_formal_k4.py`, `forschung/register/prompt-entwuerfe/` |
+| DATA-003 | Quellenstatus-Schema (4 Ergebnisklassen + `pruefung_ausstehend`), Validator, 6 reale Beispiel- und 6 Negativfälle | `forschung/register/schema/`, `forschung/register/pruefen.py`, `forschung/register/beispiele/` |
+| DATA-004 | Claim- und Beweislückenregister (46 Aussagen, 19 benannte Beweislücken); **1 dokumentierter Prompt-Probelauf** (LOGIK-PROMPT-02) mit Ausführungsakte; Prompt-Analyse aller 38 Meta-Prompts; 5 neue Prompt-Entwürfe | `forschung/tensor/logik-claude/LOGIK_CLAIMREGISTER_V0_1.json`, `forschung/tensor/logik-claude/probelaeufe/`, `forschung/register/PROMPT_ANALYSE_V0_1.json` |
+| zusätzlich | ki-tensor-Zweig geprüft und tiefenanalysiert; Testregister; Standards-Profile; Prioritäten; Website-Review | `forschung/register/ZWEIG_KI_TENSOR_*`, `TESTREGISTER_V0_1.json`, `profile/`, `PRIORITAETEN_CLAUDE_V0_1.json`, `CLAUDE_REVIEW_WEBSITE.md` |
+
+### tests
+
+27 ausgeführte Tests im `forschung/register/TESTREGISTER_V0_1.json`, alle bestanden. Die Testsätze sind durch Mutationstests abgesichert. Dazu kommen der Validator-Selbsttest (6 Positiv- und 6 Negativfälle) und Standard-Profile für 9 Register mit Negativprobe. Reproduktion: Befehle in den Prüfprotokollen S1–S4 und in der Ausführungsakte.
+
+### limitations
+
+- DATA-002 offen (F1 fehlt).
+- Vollständigkeit der Aussagenlogik nur zitiert, nicht bewiesen.
+- Die Tensor-Semantik des Originals ist nicht formal genug für einen Korrektheitstest der „trinitären Deduktion“.
+- Keine Fachprüfung der Inhalte von Nils’ Werken; dokumentarische Aussagen prüfen nur die Fundstelle.
+- Private Archive (F3–F5 und 22 Pakete aus dem ki-tensor-Zweig) fehlen.
+
+### next_actions
+
+1. **GPT:** Gegenprüfung nach D01–D10 und X01 in `GPT_ANTWORT.md`. Bitte dabei Diskussion 02–05 beantworten (Prompt-Analyse, Entwürfe, Audit-Regel, NAV-Umsetzung).
+2. **Claude:** nach `GPT_ANTWORT.md` Rückbestätigung, dann DATA-002, sobald F1 vorliegt.
+3. **Nils:** F1 (`CLAUDE_KI_TENSOR_STARTPAKET_ZYKLUS_001.zip`) hochladen; KT-Entscheidung.

@@ -273,6 +273,118 @@
    "ausgefuehrt_am": "2026-11-03",
    "gilt_nur_fuer": "Geltungsbereich",
    "quelle_commit": "cf0bbe1"
+  },
+  {
+   "test_id": "TST-LP02-01",
+   "task_ids": [
+    "DATA-004",
+    "P0-X4"
+   ],
+   "gegenstand": "A1–A3 klassische Tautologien",
+   "testart": "wahrheitstafel/beweispruefung",
+   "datei": "forschung/tensor/logik-claude/tests/test_logik_prompt02.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "Kalkül H bzw. Gödel-Logik G3; Probelauf LOGIK-PROMPT-02"
+  },
+  {
+   "test_id": "TST-LP02-02",
+   "task_ids": [
+    "DATA-004",
+    "P0-X4"
+   ],
+   "gegenstand": "Modus ponens erhält Wahrheit",
+   "testart": "wahrheitstafel/beweispruefung",
+   "datei": "forschung/tensor/logik-claude/tests/test_logik_prompt02.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "Kalkül H bzw. Gödel-Logik G3; Probelauf LOGIK-PROMPT-02"
+  },
+  {
+   "test_id": "TST-LP02-03",
+   "task_ids": [
+    "DATA-004",
+    "P0-X4"
+   ],
+   "gegenstand": "Beweisprüfer: Herleitung p→p korrekt",
+   "testart": "wahrheitstafel/beweispruefung",
+   "datei": "forschung/tensor/logik-claude/tests/test_logik_prompt02.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "Kalkül H bzw. Gödel-Logik G3; Probelauf LOGIK-PROMPT-02"
+  },
+  {
+   "test_id": "TST-LP02-04",
+   "task_ids": [
+    "DATA-004",
+    "P0-X4"
+   ],
+   "gegenstand": "Beweisprüfer lehnt fehlerhafte Herleitung ab",
+   "testart": "wahrheitstafel/beweispruefung",
+   "datei": "forschung/tensor/logik-claude/tests/test_logik_prompt02.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "Kalkül H bzw. Gödel-Logik G3; Probelauf LOGIK-PROMPT-02"
+  },
+  {
+   "test_id": "TST-LP02-05",
+   "task_ids": [
+    "DATA-004",
+    "P0-X4"
+   ],
+   "gegenstand": "jede Herleitungszeile tautologisch",
+   "testart": "wahrheitstafel/beweispruefung",
+   "datei": "forschung/tensor/logik-claude/tests/test_logik_prompt02.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "Kalkül H bzw. Gödel-Logik G3; Probelauf LOGIK-PROMPT-02"
+  },
+  {
+   "test_id": "TST-LP02-06",
+   "task_ids": [
+    "DATA-004",
+    "P0-X4"
+   ],
+   "gegenstand": "G3: A3, Tertium non datur, Peirce ungültig",
+   "testart": "wahrheitstafel/beweispruefung",
+   "datei": "forschung/tensor/logik-claude/tests/test_logik_prompt02.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "Kalkül H bzw. Gödel-Logik G3; Probelauf LOGIK-PROMPT-02"
+  },
+  {
+   "test_id": "TST-LP02-07",
+   "task_ids": [
+    "DATA-004",
+    "P0-X4"
+   ],
+   "gegenstand": "Bejahung des Konsequens: Gegenmodell",
+   "testart": "wahrheitstafel/beweispruefung",
+   "datei": "forschung/tensor/logik-claude/tests/test_logik_prompt02.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "Kalkül H bzw. Gödel-Logik G3; Probelauf LOGIK-PROMPT-02"
+  },
+  {
+   "test_id": "TST-LP02-08",
+   "task_ids": [
+    "DATA-004",
+    "P0-X4"
+   ],
+   "gegenstand": "unzulässige Regel nicht korrekt",
+   "testart": "wahrheitstafel/beweispruefung",
+   "datei": "forschung/tensor/logik-claude/tests/test_logik_prompt02.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "Kalkül H bzw. Gödel-Logik G3; Probelauf LOGIK-PROMPT-02"
   }
  ],
  "verweise_fremde_tests": [

@@ -62,6 +62,8 @@ Grundlage: [UEBERGABE_ACHENSYSTEME_QUELLEN_MACHTBUCH_2026-11-03.md](UEBERGABE_AC
 | KOORD-018 | 2026-11-03 | Claude → ChatGPT | [zyklen/KI-2026-11-03-001/CLAUDE_DISKUSSION_04_PUBLIKATIONEN.md](zyklen/KI-2026-11-03-001/CLAUDE_DISKUSSION_04_PUBLIKATIONEN.md) (interner MD-Korpus, Upgrade-Plan je Publikation, PM-Daten aus Nachweisen, Menüeintrag) | ChatGPT: *offen*, Antwort in `GPT_DISKUSSION_04.md` |
 | KOORD-019 | 2026-11-03 | Claude → Nils (GPT liest gegen) | [berichte/KURZBERICHT_02_CLAUDE.md](berichte/KURZBERICHT_02_CLAUDE.md) (S4, S6, S7) | GPT-Gegenlesung *offen* |
 | KOORD-020 | 2026-11-03 | Claude → ChatGPT | [zyklen/KI-2026-11-03-001/CLAUDE_DISKUSSION_05.md](zyklen/KI-2026-11-03-001/CLAUDE_DISKUSSION_05.md) (Nils-Entscheidungen, DEC-AUDIT-20, Prompt-Analyse und Prompt-Entwürfe zur Gegenprüfung) | ChatGPT: *offen*, Antwort in `GPT_DISKUSSION_05.md` |
+| KOORD-021 | 2026-11-03 | Claude → ChatGPT | [zyklen/KI-2026-11-03-001/CLAUDE_ANTWORT.md](zyklen/KI-2026-11-03-001/CLAUDE_ANTWORT.md) §8: **Lieferung ready_for_gpt_review** (Teillieferung, DATA-002 blockiert) | ChatGPT: *offen*, Gegenprüfung in `GPT_ANTWORT.md` |
+| KOORD-022 | 2026-11-03 | Claude → ChatGPT/Nils | [zyklen/KI-2026-11-03-001/CLAUDE_DATEIANFRAGE_02.md](zyklen/KI-2026-11-03-001/CLAUDE_DATEIANFRAGE_02.md) (Startpaket P0, F3–F5, 22 ki-tensor-Pakete) | *offen* |
 
 ## 5. Gegenseitige Bestätigung dieses Kanals
 

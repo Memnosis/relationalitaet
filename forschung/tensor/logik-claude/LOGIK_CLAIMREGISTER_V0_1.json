@@ -1,0 +1,1535 @@
+{
+ "schema_version": "claim-register/0.1",
+ "owner": "claude",
+ "erzeugt_am": "2026-11-03T14:38:01+00:00",
+ "source_commit": "c072967",
+ "werkzeug": "Inline-Generator aus LOGIK_TENSOR_1_0_EXTRAKT_V0_1.json (Commit siehe source_commit)",
+ "quelle": "Logik-Tensor 1.0, Zenodo 10.5281/zenodo.19282895",
+ "hinweis": "Dokumentarische Aussagen prüfen nur „steht so im Original“. Inhaltliche Thesen tragen Evidenz „offen“ und eine benannte Beweislücke. Weitere Kernthesen (Meta-Logik S.19, Modus ponens S.20) stehen bereits in beispiele/CLAIMS_BEISPIELE_V0_1.json.",
+ "zaehlung": {
+  "gesamt": 46,
+  "dokumentarisch": 43,
+  "inhaltlich": 3,
+  "mit_beweisluecke": 19
+ },
+ "claims": [
+  {
+   "claim_id": "CLM-LOGIK10-FELD-NM-I-A",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet NM-I-α (Null-Matrix / Kern / Struktur) den Begriff „Symbolischer Trägerraum“ zu.",
+   "fundstelle": {
+    "seite": 3,
+    "abschnitt": "Tabelle Null-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-FELD-NM-II-A",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet NM-II-α (Null-Matrix / Kreislauf / Struktur) den Begriff „Syntaxgerüst“ zu.",
+   "fundstelle": {
+    "seite": 3,
+    "abschnitt": "Tabelle Null-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-FELD-NM-III-A",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet NM-III-α (Null-Matrix / Öffnung / Struktur) den Begriff „Grenz- und Paradoxraum“ zu.",
+   "fundstelle": {
+    "seite": 3,
+    "abschnitt": "Tabelle Null-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-FELD-NM-I-B",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet NM-I-β (Null-Matrix / Kern / Funktion) den Begriff „Axiomatische Setzung“ zu.",
+   "fundstelle": {
+    "seite": 3,
+    "abschnitt": "Tabelle Null-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-FELD-NM-II-B",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet NM-II-β (Null-Matrix / Kreislauf / Funktion) den Begriff „Ableitungsbereitschaft“ zu.",
+   "fundstelle": {
+    "seite": 3,
+    "abschnitt": "Tabelle Null-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-FELD-NM-III-B",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet NM-III-β (Null-Matrix / Öffnung / Funktion) den Begriff „Entscheidungsbereitschaft“ zu.",
+   "fundstelle": {
+    "seite": 3,
+    "abschnitt": "Tabelle Null-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-FELD-NM-I-G",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet NM-I-γ (Null-Matrix / Kern / Relation) den Begriff „Relationale Vorordnung“ zu.",
+   "fundstelle": {
+    "seite": 4,
+    "abschnitt": "Tabelle Null-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-FELD-NM-II-G",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet NM-II-γ (Null-Matrix / Kreislauf / Relation) den Begriff „Semantischer Möglichkeitsraum“ zu.",
+   "fundstelle": {
+    "seite": 4,
+    "abschnitt": "Tabelle Null-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-FELD-NM-III-G",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet NM-III-γ (Null-Matrix / Öffnung / Relation) den Begriff „Offene Geltungsspannung“ zu.",
+   "fundstelle": {
+    "seite": 4,
+    "abschnitt": "Tabelle Null-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-FELD-ZM-I-A",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet ZM-I-α (Zyklus-Matrix / Kern / Struktur) den Begriff „Inferenzschritt“ zu.",
+   "fundstelle": {
+    "seite": 4,
+    "abschnitt": "Tabelle Zyklus-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-FELD-ZM-II-A",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet ZM-II-α (Zyklus-Matrix / Kreislauf / Struktur) den Begriff „Beweisgang“ zu.",
+   "fundstelle": {
+    "seite": 4,
+    "abschnitt": "Tabelle Zyklus-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-FELD-ZM-III-A",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet ZM-III-α (Zyklus-Matrix / Öffnung / Struktur) den Begriff „Modallogische Öffnung“ zu.",
+   "fundstelle": {
+    "seite": 4,
+    "abschnitt": "Tabelle Zyklus-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-FELD-ZM-I-B",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet ZM-I-β (Zyklus-Matrix / Kern / Funktion) den Begriff „Regelanwendung“ zu.",
+   "fundstelle": {
+    "seite": 4,
+    "abschnitt": "Tabelle Zyklus-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-FELD-ZM-II-B",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet ZM-II-β (Zyklus-Matrix / Kreislauf / Funktion) den Begriff „Transformation und Umformung“ zu.",
+   "fundstelle": {
+    "seite": 4,
+    "abschnitt": "Tabelle Zyklus-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-FELD-ZM-III-B",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet ZM-III-β (Zyklus-Matrix / Öffnung / Funktion) den Begriff „Rekursive Entscheidungsprozesse“ zu.",
+   "fundstelle": {
+    "seite": 4,
+    "abschnitt": "Tabelle Zyklus-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-FELD-ZM-I-G",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet ZM-I-γ (Zyklus-Matrix / Kern / Relation) den Begriff „Operator der Ableitung“ zu.",
+   "fundstelle": {
+    "seite": 4,
+    "abschnitt": "Tabelle Zyklus-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-FELD-ZM-II-G",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet ZM-II-γ (Zyklus-Matrix / Kreislauf / Relation) den Begriff „Syntax-Semantik-Übergang“ zu.",
+   "fundstelle": {
+    "seite": 4,
+    "abschnitt": "Tabelle Zyklus-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-FELD-ZM-III-G",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet ZM-III-γ (Zyklus-Matrix / Öffnung / Relation) den Begriff „Netz logischer Korrespondenzen“ zu.",
+   "fundstelle": {
+    "seite": 4,
+    "abschnitt": "Tabelle Zyklus-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-FELD-UM-I-A",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet UM-I-α (Einheits-Matrix / Kern / Struktur) den Begriff „Theorem“ zu.",
+   "fundstelle": {
+    "seite": 5,
+    "abschnitt": "Tabelle Einheits-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-FELD-UM-II-A",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet UM-II-α (Einheits-Matrix / Kreislauf / Struktur) den Begriff „Kalkül oder System“ zu.",
+   "fundstelle": {
+    "seite": 5,
+    "abschnitt": "Tabelle Einheits-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-FELD-UM-III-A",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet UM-III-α (Einheits-Matrix / Öffnung / Struktur) den Begriff „Logische Theorieform“ zu.",
+   "fundstelle": {
+    "seite": 5,
+    "abschnitt": "Tabelle Einheits-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-FELD-UM-I-B",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet UM-I-β (Einheits-Matrix / Kern / Funktion) den Begriff „Geltungsfunktion“ zu.",
+   "fundstelle": {
+    "seite": 5,
+    "abschnitt": "Tabelle Einheits-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-FELD-UM-II-B",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet UM-II-β (Einheits-Matrix / Kreislauf / Funktion) den Begriff „Konsistenz / Vollständigkeit“ zu.",
+   "fundstelle": {
+    "seite": 5,
+    "abschnitt": "Tabelle Einheits-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-FELD-UM-III-B",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet UM-III-β (Einheits-Matrix / Öffnung / Funktion) den Begriff „Entscheidbarkeitsraum“ zu.",
+   "fundstelle": {
+    "seite": 5,
+    "abschnitt": "Tabelle Einheits-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-FELD-UM-I-G",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet UM-I-γ (Einheits-Matrix / Kern / Relation) den Begriff „Äquivalenz und Identität“ zu.",
+   "fundstelle": {
+    "seite": 5,
+    "abschnitt": "Tabelle Einheits-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-FELD-UM-II-G",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet UM-II-γ (Einheits-Matrix / Kreislauf / Relation) den Begriff „Modellklasse“ zu.",
+   "fundstelle": {
+    "seite": 5,
+    "abschnitt": "Tabelle Einheits-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-FELD-UM-III-G",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet UM-III-γ (Einheits-Matrix / Öffnung / Relation) den Begriff „Offene Korrespondenz logischer Systeme“ zu.",
+   "fundstelle": {
+    "seite": 5,
+    "abschnitt": "Tabelle Einheits-Matrix"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Kodierung des Autors; Zuordnung ist Modellentscheidung"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-001",
+    "DATA-004"
+   ]
+  },
+  {
+   "claim_id": "CLM-LOGIK10-PFAD-PRJ",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 nennt den Pfad LM : PRJ : NM-I-γ → ZM-II-γ → UM-II-γ.",
+   "fundstelle": {
+    "seite": 6,
+    "abschnitt": "Feldtheorie – Wechselwirkungen"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Pfadcodierung; Typ der Pfeile (Funktion/Relation) offen"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-004"
+   ],
+   "anmerkung": "Beweislücke: Pfeiltyp und Umkehrbarkeit nicht definiert (LOGIK-PROMPT-05)"
+  },
+  {
+   "claim_id": "CLM-LOGIK10-PFAD-RST",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 nennt den Pfad LM : RST : UM-II-β → ZM-I-β → NM-I-β.",
+   "fundstelle": {
+    "seite": 6,
+    "abschnitt": "Feldtheorie – Wechselwirkungen"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Pfadcodierung; Typ der Pfeile (Funktion/Relation) offen"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-004"
+   ],
+   "anmerkung": "Beweislücke: Pfeiltyp und Umkehrbarkeit nicht definiert (LOGIK-PROMPT-05)"
+  },
+  {
+   "claim_id": "CLM-LOGIK10-PFAD-CYC",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 nennt den Pfad LM : CYC : ZM-II-α → ZM-II-β → ZM-II-γ.",
+   "fundstelle": {
+    "seite": 6,
+    "abschnitt": "Feldtheorie – Wechselwirkungen"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Pfadcodierung; Typ der Pfeile (Funktion/Relation) offen"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-004"
+   ],
+   "anmerkung": "Beweislücke: Pfeiltyp und Umkehrbarkeit nicht definiert (LOGIK-PROMPT-05)"
+  },
+  {
+   "claim_id": "CLM-LOGIK10-AXIOM-1",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 setzt als Axiom 9.2.1: Axiom der Trinitären Differenzierung.",
+   "fundstelle": {
+    "seite": 19,
+    "abschnitt": "9.2 Die Axiome als logische Grundlage"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Setzung des Autors (Axiom), kein Wahrheitsanspruch prüfbar"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-004"
+   ],
+   "anmerkung": "Beweislücke: Unabhängigkeit und Widerspruchsfreiheit der fünf Axiome nicht untersucht"
+  },
+  {
+   "claim_id": "CLM-LOGIK10-AXIOM-2",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 setzt als Axiom 9.2.2: Axiom der Dreifachen Gliederung.",
+   "fundstelle": {
+    "seite": 19,
+    "abschnitt": "9.2 Die Axiome als logische Grundlage"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Setzung des Autors (Axiom), kein Wahrheitsanspruch prüfbar"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-004"
+   ],
+   "anmerkung": "Beweislücke: Unabhängigkeit und Widerspruchsfreiheit der fünf Axiome nicht untersucht"
+  },
+  {
+   "claim_id": "CLM-LOGIK10-AXIOM-3",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 setzt als Axiom 9.2.3: Axiom der Dreifachen Modalität.",
+   "fundstelle": {
+    "seite": 19,
+    "abschnitt": "9.2 Die Axiome als logische Grundlage"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Setzung des Autors (Axiom), kein Wahrheitsanspruch prüfbar"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-004"
+   ],
+   "anmerkung": "Beweislücke: Unabhängigkeit und Widerspruchsfreiheit der fünf Axiome nicht untersucht"
+  },
+  {
+   "claim_id": "CLM-LOGIK10-AXIOM-4",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 setzt als Axiom 9.2.4: Axiom der Relationalen Kontinuität und Diskontinuität.",
+   "fundstelle": {
+    "seite": 19,
+    "abschnitt": "9.2 Die Axiome als logische Grundlage"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Setzung des Autors (Axiom), kein Wahrheitsanspruch prüfbar"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-004"
+   ],
+   "anmerkung": "Beweislücke: Unabhängigkeit und Widerspruchsfreiheit der fünf Axiome nicht untersucht"
+  },
+  {
+   "claim_id": "CLM-LOGIK10-AXIOM-5",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 setzt als Axiom 9.2.5: Axiom der Offenen Ganzheit.",
+   "fundstelle": {
+    "seite": 19,
+    "abschnitt": "9.2 Die Axiome als logische Grundlage"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Setzung des Autors (Axiom), kein Wahrheitsanspruch prüfbar"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-004"
+   ],
+   "anmerkung": "Beweislücke: Unabhängigkeit und Widerspruchsfreiheit der fünf Axiome nicht untersucht"
+  },
+  {
+   "claim_id": "CLM-LOGIK10-SYSTEM-KLASSISC",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet der Klassische Logik die dominanten Felder NM-II-α, ZM-II-β, UM-II-β zu.",
+   "fundstelle": {
+    "seite": 14,
+    "abschnitt": "7. Meta-Logik, Tabelle Logiksysteme"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Zuordnung des Autors"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-004"
+   ],
+   "anmerkung": "Beweislücke: keine strukturerhaltende Abbildung des Systems auf die Felder angegeben"
+  },
+  {
+   "claim_id": "CLM-LOGIK10-SYSTEM-INTUITIO",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet der Intuitionistische Logik die dominanten Felder NM-I-β, ZM-I-β, UM-I-α zu.",
+   "fundstelle": {
+    "seite": 14,
+    "abschnitt": "7. Meta-Logik, Tabelle Logiksysteme"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Zuordnung des Autors"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-004"
+   ],
+   "anmerkung": "Beweislücke: keine strukturerhaltende Abbildung des Systems auf die Felder angegeben"
+  },
+  {
+   "claim_id": "CLM-LOGIK10-SYSTEM-MODALE",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet der Modale Logik die dominanten Felder NM-III-γ, ZM-III-α, UM-III-γ zu.",
+   "fundstelle": {
+    "seite": 14,
+    "abschnitt": "7. Meta-Logik, Tabelle Logiksysteme"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Zuordnung des Autors"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-004"
+   ],
+   "anmerkung": "Beweislücke: keine strukturerhaltende Abbildung des Systems auf die Felder angegeben"
+  },
+  {
+   "claim_id": "CLM-LOGIK10-SYSTEM-MEHRWERT",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet der Mehrwertige Logik die dominanten Felder NM-II-γ, ZM-II-β, UM-II-β zu.",
+   "fundstelle": {
+    "seite": 14,
+    "abschnitt": "7. Meta-Logik, Tabelle Logiksysteme"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Zuordnung des Autors"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-004"
+   ],
+   "anmerkung": "Beweislücke: keine strukturerhaltende Abbildung des Systems auf die Felder angegeben"
+  },
+  {
+   "claim_id": "CLM-LOGIK10-SYSTEM-PARAKONS",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet der Parakonsistente Logik die dominanten Felder NM-III-α, ZM-I-γ, UM-II-β zu.",
+   "fundstelle": {
+    "seite": 14,
+    "abschnitt": "7. Meta-Logik, Tabelle Logiksysteme"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Zuordnung des Autors"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-004"
+   ],
+   "anmerkung": "Beweislücke: keine strukturerhaltende Abbildung des Systems auf die Felder angegeben"
+  },
+  {
+   "claim_id": "CLM-LOGIK10-SYSTEM-RELEVANZ",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet der Relevanzlogik die dominanten Felder NM-I-γ, ZM-II-γ, UM-I-γ zu.",
+   "fundstelle": {
+    "seite": 14,
+    "abschnitt": "7. Meta-Logik, Tabelle Logiksysteme"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Zuordnung des Autors"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-004"
+   ],
+   "anmerkung": "Beweislücke: keine strukturerhaltende Abbildung des Systems auf die Felder angegeben"
+  },
+  {
+   "claim_id": "CLM-LOGIK10-SYSTEM-ALGEBRAI",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Der Logik-Tensor 1.0 ordnet der Algebraische Logik die dominanten Felder NM-II-α, ZM-II-γ, UM-II-γ zu.",
+   "fundstelle": {
+    "seite": 14,
+    "abschnitt": "7. Meta-Logik, Tabelle Logiksysteme"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Zuordnung des Autors"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-004"
+   ],
+   "anmerkung": "Beweislücke: keine strukturerhaltende Abbildung des Systems auf die Felder angegeben"
+  },
+  {
+   "claim_id": "CLM-LOGIK10-EINBETTUNG",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "inhaltlich",
+   "aussage": "Jede bekannte Logik (klassisch, intuitionistisch, modal, parakonsistent, algebraisch) lässt sich kohärent in den 3×3×3-Tensor einbetten.",
+   "fundstelle": {
+    "seite": 19,
+    "abschnitt": "9.1"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "offen",
+    "begruendung": "starke These ohne formalen Nachweis"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-004"
+   ],
+   "anmerkung": "Beweislücke: Einbettung nicht definiert (Objekte, Morphismen, erhaltene Folgerungsrelation); Gegenbeispiele nicht gesucht"
+  },
+  {
+   "claim_id": "CLM-LOGIK10-SEMANTIK",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "inhaltlich",
+   "aussage": "Ein Ausdruck ist genau dann gültig, wenn er in allen drei Matrizen und allen drei Modi konsistent zugeordnet werden kann.",
+   "fundstelle": {
+    "seite": 20,
+    "abschnitt": "9.3 Semantik"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "offen",
+    "begruendung": "starke These ohne formalen Nachweis"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-004"
+   ],
+   "anmerkung": "Beweislücke: „konsistent zugeordnet“ formal nicht definiert; ohne formale Semantik keine Korrektheits-/Vollständigkeitsprüfung möglich (Probelauf LOGIK-PROMPT-02)"
+  },
+  {
+   "claim_id": "CLM-LOGIK10-ONTOLOGISCH",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "inhaltlich",
+   "aussage": "Die Relationale Logik ist keine Erweiterung der klassischen Logik, sondern deren ontologische Grundlage.",
+   "fundstelle": {
+    "seite": 19,
+    "abschnitt": "9.1"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "offen",
+    "begruendung": "starke These ohne formalen Nachweis"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-004"
+   ],
+   "anmerkung": "Beweislücke: philosophische These; Kriterium für „Grundlage“ nicht angegeben"
+  },
+  {
+   "claim_id": "CLM-LOGIK10-KAP8-ANZAHL",
+   "source_id": "SRC-ZEN-19282894",
+   "werk_version": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "aussageart": "dokumentarisch",
+   "aussage": "Kapitel 8 ist mit „100 Logik-Begriffe“ überschrieben und enthält 34 Tabellenzeilen (7 Außenraum, 27 Feldbegriffe).",
+   "fundstelle": {
+    "seite": 16,
+    "abschnitt": "8. 100 Logik-Begriffe"
+   },
+   "quellenstatus": {
+    "status": "digital_verifiziert",
+    "pruefer": "claude",
+    "datum": "2026-11-03T14:38:01+00:00",
+    "nachweis": "Fundstelle maschinell im PDF-Text geprüft (logik10_extrakt.py, TST-LOGIK10-FELDER-001)"
+   },
+   "evidenz": {
+    "stufe": "B",
+    "begruendung": "Zählung maschinell (logik10_extrakt.py)"
+   },
+   "redaktion": "nicht_freigegeben",
+   "vertraulichkeit": "oeffentlich",
+   "public_release": false,
+   "task_ids": [
+    "DATA-004"
+   ],
+   "anmerkung": "Beweislücke: Fassung mit 100 Begriffen unbekannt; Upgrade geplant (P-NEU-03)"
+  }
+ ]
+}

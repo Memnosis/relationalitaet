@@ -3,7 +3,7 @@
   "cycle_id": "KI-2026-11-03-001",
   "date": "2026-11-03",
   "owner": "Nils Sautter",
-  "stage": "claude_accepted",
+  "stage": "awaiting_gpt_review",
   "task_ids": {
     "claude": [
       "DATA-001",
@@ -31,7 +31,7 @@
   "acknowledgements": {
     "gpt_handoff_created": true,
     "claude_received": true,
-    "claude_delivered": false,
+    "claude_delivered": true,
     "gpt_reviewed": false,
     "claude_acknowledged_review": false,
     "cycle_report_created": false

@@ -28,6 +28,7 @@ CLAUDE_REGISTER = [
     "forschung/tensor/logik-claude/LOGIK_TENSOR_1_0_EXTRAKT_V0_1.json",
     "forschung/register/PRIORITAETEN_CLAUDE_V0_1.json",
     "forschung/register/PROMPT_ANALYSE_V0_1.json",
+    "forschung/tensor/logik-claude/LOGIK_CLAIMREGISTER_V0_1.json",
 ]
 ID_FELDER = ("source_id", "claim_id", "test_id", "adresse", "pfad", "datei", "id")
 # Primaer-ID je Listentyp (sonst wuerden z. B. Claims ueber ihre source_id gezaehlt)
