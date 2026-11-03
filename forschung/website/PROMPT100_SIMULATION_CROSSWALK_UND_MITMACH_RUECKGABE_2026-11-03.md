@@ -12,7 +12,7 @@
 
 ## B. Ausgeführte lokale Simulation – rein synthetische Daten
 
-Ein privater rekonstruierbarer Parser und fünf Unittests wurden in der GPT-Ausführungsumgebung tatsächlich ausgeführt: **5/5 PASS**. Darunter ein Export mit 100 **erfundenen** Nachrichten, Auswahl ausschließlich der User-Rolle aus freigegebenen Test-Gesprächen, Sortierung nach tatsächlichem Timestamp, keine automatische Bearbeitungsfreigabe, fehlender Timestamp als Fehler und öffentlicher Export ohne Originaltexte.
+Ein privater rekonstruierbarer Parser und sechs Unittests wurden in der GPT-Ausführungsumgebung tatsächlich ausgeführt: **6/6 PASS**. Darunter ein Export mit 100 **erfundenen** Nachrichten, Auswahl ausschließlich der User-Rolle aus freigegebenen Test-Gesprächen, Sortierung nach tatsächlichem Timestamp, keine automatische Bearbeitungsfreigabe, fehlender Timestamp als Fehler und öffentlicher Export ohne Originaltexte.
 
 Ein zusätzlicher deterministischer Stressfall modelliert absichtlich:
 - 40 Nachrichten mit je einer vorhandenen Anforderung;
@@ -69,3 +69,20 @@ Erst nach tatsächlicher Quellenfreigabe darf die öffentliche Aggregation als n
 **Originalnachrichten-Abdeckung** = verifizierte echte Quellnachrichten / 100. **Zuordnungsqualität** = manuell geprüfte Nachricht↔Aufgabe-Kanten / alle vorgeschlagenen Kanten. **Taskabdeckung** = Aufgaben mit belegter Originalherkunft / aktuell geführte Aufgaben. **Umsetzungsgrad** = Aufgaben mit ausgeführtem Test / in Scope befindliche Aufgaben. **Gegengeprüfter Abschluss** = tatsächlich fremdgeprüfte Aufgaben mit ggf. Autorfreigabe / dafür vorgesehene Aufgaben. Keine dieser Zahlen darf aus bloßer Dateiexistenz gefolgert werden.
 
 **Status heute:** 72 bestehende atomisierte Anforderungen sind dokumentiert und mit Dateien referenziert; **100 originale Nutzertexte und ihre vollständige Aufgabenbeziehung sind noch nicht verifiziert.** Der neue Parser und die Simulationsdaten ermöglichen die Rekonstruktion, sobald die private Originalquelle zugänglich ist.
+
+## G. Nachgezogene Verbesserung: echte unterschiedliche Statuswerte statt Scheinerledigung
+Die Ausgangsdatei enthält 72 Tasks mit einer großen Vielfalt freier `status`-Texte. Um die Planung ohne Datenverlust zu ermöglichen, wurde **zusätzlich** `forschung/website/ANFORDERUNGSSTATUS_NORMALISIERUNG_V1.json` angelegt (Commit `c456faa`). Der Originalstatus bleibt je Task unverändert. Eine **heuristische, nicht unabhängig bestätigte** Klasse wird nur für die nächste Prüfwarteschlange vorgeschlagen:
+- 23 `artifact_present_not_accepted` (Datei/Umsetzung behauptet, fachliche Abnahme fehlt);
+- 22 `open_or_blocked`;
+- 13 `partial_or_unclear`;
+- 8 `planned_or_documented`;
+- 6 `test_or_review_incomplete`.
+
+Dies sind **Klassifikationen von Altstatus-Strings**, keine unabhängigen Prüfresultate. In diesem zusätzlichen Register sind **0 eigenständig dokumentierte Abschlussabnahmen** gespeichert; daraus folgt nicht, dass in der Welt keine Arbeit abgeschlossen wäre.
+
+Die lokale Quellparser-Version berücksichtigt jetzt außerdem mehrere nummerierte `conversations*.json`-Dateien und den ZIP-Export. **Sechs von sechs** lokalen Unit-Tests bestanden; Git-Ausführung und Actions-Bericht bleiben separat offen.
+
+### Sicherheits- und Revisionshinweise
+- Ein ChatGPT-Export kann vertrauliche Daten anderer Gespräche enthalten; zum Abgleich werden ausschließlich explizit ausgewählte Projektchat-IDs verwendet. Die private `conversations.json` oder ZIP-Datei wird nicht auf `main` veröffentlicht.
+- Durch rein lexikalisches Matching werden einzelne Fachbegriffe möglicherweise zu schwach oder falsch erkannt. Nullfunde sind Suchhinweise und kein Nachweis, dass eine neue Aufgabe entstanden ist.
+- Browser-Download und JSON-Schema der neuen öffentlichen Rückgabeseite wurden in den Playwright-Code aufgenommen; eine bestätigte echte End-to-End-Einreichung **existiert weiterhin nicht**.
