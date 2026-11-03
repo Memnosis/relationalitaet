@@ -7,6 +7,7 @@ const weights={
  gpt:{urgency:4,architecture:3,leverage:3,unblocks:3,risk:3,readiness:2,effort:-1},
  claude:{urgency:4,architecture:4,leverage:3,unblocks:3,risk:4,readiness:2,effort:-1}
 };
+const scoreScale={priority:{P0:12,P1:8,P2:4},dimensions:"Scores are project planning assumptions (0 to 3); not impact evidence."};
 const sortDescriptions={
  gpt:"GPT-Reihenfolge: öffentliche Wirkung, technische Risiken, Architektur und notwendige Eingangsdaten werden kombiniert. Dies ist eine transparente Planungsannahme.",
  claude:"Claude-Reihenfolge: Provenienz- und Fehlerrisiken, Architektur, Quellensicherheit sowie die Zahl abhängiger Arbeiten erhalten zusätzliches Gewicht.",
@@ -39,10 +40,12 @@ function evidenceLink(t){
  const a=el("a","Nachweisdatei");a.href="https://github.com/Memnosis/relationalitaet/blob/main/"+t.evidence;
  a.target="_blank";a.rel="noopener noreferrer";return a;
 }
-function taskCard(t,stages,mode){
+function taskCard(t,stages,mode,position){
  const box=el("article",null,"pm-task");box.dataset.owner=t.owner;box.id="task-"+t.id;
  const top=el("div",null,"pm-top");const left=el("span",t.id+" · "+(ownerLabels[t.owner]||t.owner),"pm-meta");
  const badges=el("div");badges.append(makeBadge(t.priority));top.append(left,badges);box.append(top);
+ const rankLabel=weights[mode]? "Rang "+position+" · "+score(t,mode)+" Planpunkte ("+(mode==="gpt"?"GPT":"Claude")+")":"Rang "+position+" · Sortierwert "+rank(t,mode);
+ box.append(el("p",rankLabel,"pm-rank-score"));
  box.append(el("h3",t.title,"pm-title"));
  const pct=percent(t,stages);
  const meter=el("div",null,"pm-progress");meter.setAttribute("role","progressbar");meter.setAttribute("aria-label","Dokumentierte Bearbeitungsstufen für "+t.title);meter.setAttribute("aria-valuemin","0");meter.setAttribute("aria-valuemax","100");meter.setAttribute("aria-valuenow",String(pct));
@@ -58,7 +61,9 @@ function taskCard(t,stages,mode){
  const req=el("p","Benötigt: "+(t.requires?.length?t.requires.join(", "):"keine als Pflicht eingetragene Voraufgabe"));details.append(req);
  details.append(el("p","Ermöglicht unmittelbar: "+(direct.length?direct.join(", "):"keine dokumentierte Folgeaufgabe")));
  const w=el("p","Planungswerte (0–3): Dringlichkeit "+t.scores.urgency+", Architektur "+t.scores.architecture+", Hebel "+t.scores.leverage+", Risiko "+t.scores.risk+", Bereitschaft "+t.scores.readiness+".");details.append(w);
- if(weights[mode])details.append(el("p","Gewichteter Prioritätswert: "+score(t,mode)+". Der Wert bewertet Aufgabenplanung, keinen Fortschritt oder wissenschaftlichen Beweis."));
+ if(weights[mode]){const weightsText=Object.entries(weights[mode]).map(([key,w])=>key+" × "+w).join("; ");
+ details.append(el("p","Nachrechenbar: Priorität "+t.priority+" = "+(priorityNum(t.priority)*4)+" Basispunkte; "+weightsText+"."));
+ details.append(el("p","Gesamt: "+score(t,mode)+" Planpunkte. Scores 0–3 sind redaktionelle Prognosen; kein gemessener Nutzen, keine Freigabe."));}
  const trace=el("div");trace.append(el("p","Nachweise je erreichte Stufe (Datei/Version):","pm-meta"));
  const list=el("ul",null,"pm-list");
  for(const st of stages){const ev=t.stage_evidence?.[st.key];if(t.stage?.[st.key]===1&&ev?.path){
@@ -73,12 +78,12 @@ function taskCard(t,stages,mode){
 function redraw(){
  if(!snapshot)return;
  const own=$("pm-owner").value,order=$("pm-order").value,pri=$("pm-priority").value;
- $("pm-sort-explain").textContent=sortDescriptions[order];
+ $("pm-sort-explain").textContent=sortDescriptions[order]+" · Rangplätze gelten nur innerhalb der gewählten öffentlichen Auswahl. Für interne Fachaufgaben stehen ausschließlich Summen zur Verfügung.";
  const tasks=snapshot.tasks.filter(t=>(own==="all"||t.owner===own||(own==="gpt"&&t.owner==="both")||(own==="claude"&&t.owner==="both"))&&(pri==="all"||t.priority===pri));
  tasks.sort((a,b)=>rank(b,order)-rank(a,order)||a.id.localeCompare(b.id));
  const host=$("pm-task-list");host.replaceChildren();
  if(!tasks.length){const label=own==="claude"?"Interne Forschungsarbeiten werden hier nur als aggregierte Statuszahlen geführt. Öffentliche Einzelkarten erscheinen nach geprüfter Freigabe.":"Für diese Auswahl sind noch keine Aufgaben in der öffentlichen Lesesicht vorhanden.";host.append(el("p",label,"pm-empty"));return}
- for(const t of tasks)host.append(taskCard(t,snapshot.stages,order));
+ for(const [i,t] of tasks.entries())host.append(taskCard(t,snapshot.stages,order,i+1));
 }
 function initStats(){
  const tasks=snapshot.tasks,allDone=tasks.filter(t=>snapshot.stages.every(s=>t.stage?.[s.key]===1));
