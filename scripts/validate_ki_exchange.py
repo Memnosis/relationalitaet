@@ -49,7 +49,7 @@ for status_file in found:
         if not re.search(r"(?m)^cycle_id:\s*"+re.escape(ident)+r"\s*$", text):
             errors.append(f"{ident}: Claude receipt lacks matching cycle_id")
     summary.append(f"## {ident}")
-    summary.append(f"- Stage: \`{state.get('stage','unknown')}\`")
+    summary.append(f"- Stage: `{state.get('stage','unknown')}`")
     for field in requested:
         summary.append(f"- {field}: {'yes' if flags.get(field) else 'no'}")
     summary.append("")
