@@ -1,0 +1,46 @@
+{
+  "schema": "ki-exchange-cycle/0.1",
+  "cycle_id": "KI-2026-11-03-001",
+  "date": "2026-11-03",
+  "owner": "Nils Sautter",
+  "stage": "awaiting_claude_receipt",
+  "task_ids": {
+    "claude": [
+      "DATA-001",
+      "DATA-002",
+      "DATA-003",
+      "DATA-004",
+      "DATA-005",
+      "DATA-006"
+    ],
+    "gpt": [
+      "WEB-001",
+      "WEB-002",
+      "WEB-003",
+      "WEB-004",
+      "WEB-005",
+      "WEB-006"
+    ]
+  },
+  "files": {
+    "handoff": "forschung/koordination/CLAUDE_START_AUSTAUSCH_ZYKLUS_001.md",
+    "claude_response": "forschung/koordination/zyklen/KI-2026-11-03-001/CLAUDE_ANTWORT.md",
+    "gpt_response": "forschung/koordination/zyklen/KI-2026-11-03-001/GPT_ANTWORT.md",
+    "report": "forschung/koordination/zyklen/KI-2026-11-03-001/ZYKLUSBERICHT.md"
+  },
+  "acknowledgements": {
+    "gpt_handoff_created": true,
+    "claude_received": false,
+    "claude_delivered": false,
+    "gpt_reviewed": false,
+    "claude_acknowledged_review": false,
+    "cycle_report_created": false
+  },
+  "publication": {
+    "new_logik_tensor_publication": "working_draft",
+    "raw_internal_prompts_public_release": "not_approved",
+    "website_changes": "GPT_only"
+  },
+  "completion_rule": "Completed only when Claude acceptance+delivery and GPT review and Claude reciprocal acknowledgement and cycle report are all independently documented",
+  "communication_rule": "No automated agent invocation is claimed; GitHub Actions can validate handoff artifacts."
+}
