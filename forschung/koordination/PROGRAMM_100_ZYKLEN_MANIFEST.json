@@ -4,7 +4,7 @@
   "full_cycle_definition": "handoff + delivered artifact + owner self-check + peer review + peer acknowledgement + final cycle report",
   "target_full_cycles": 100,
   "verified_full_cycles": 0,
-  "assignment_policy": "20 focus slots out of 100; global cycle number assigned only on actual start; proposed 12 Mitmach and 8 internal slots may change by owner approval Scope of all 82 object occurrences must be inventoried before claiming that all participation prompts are covered.",
+  "assignment_policy": "20 reserved focus cycles / 100 total, provisional 12 Mitmach and 8 internal, not executed; revise ID-level assignment for all 82 distinct IDs before claiming full action coverage",
   "milestones": {
     "each_full_cycle": "owner reports, peer review and revised ranking",
     "each_three": "review effects and task re-prioritization",
@@ -756,7 +756,7 @@
         "release": "not_approved"
       }
     ],
-    "warning": "38 meta-prompt objects are not the complete inventory of website participant actions; forms/navigation/copy/export/return paths need separate audit The independent prompt architecture register records 82 occurrences (20 overlaps), including branch-only materials; 38 is a strict subset."
+    "warning": "38 exact source IDs are mapped to 12 proposed Mitmach slots, from a total of 82 distinct prompt IDs (102 occurrences, 20 SHA-matching duplicates); full participation/workflow inventory remains pending."
   },
   "study_export_contract": {
     "public_fields": [
@@ -788,10 +788,10 @@
     "as_of": "2026-11-03",
     "source": "forschung/register/PROMPT_ARCHITEKTUR_INVENTAR_V0_1.json",
     "source_blob_sha": "2ea5acb52923ae59daa5ef09cfb5b37e8132114e",
-    "object_occurrences": 82,
+    "object_occurrences": 102,
     "groups": 8,
     "overlap_occurrences": 20,
-    "distinct_prompts": "not_yet_independently_deduplicated",
+    "distinct_prompts": 82,
     "reciprocal_prompt_tests": 0,
     "model_trial_count": 1,
     "group_counts": {
@@ -804,6 +804,11 @@
       "SOULUTION": 6,
       "CLAUDE-ENTWURF": 5
     },
-    "mapping_note": "The existing 38 individual source IDs are mapped to the 12 Mitmach reserved slots; the other 44 source occurrences are not yet mapped to unique checked IDs. Allocation incomplete pending reviewed crosswalk."
+    "mapping_note": "82 distinct IDs from 102 occurrences, 20 SHA-identical duplicates in main/integration branch. Existing 38 exact task IDs remain a verified subset of those 82; 44 distinct additional IDs have not yet been assigned to individual focus slots.",
+    "source_crosswalk": "forschung/register/PROMPT_CROSSWALK_V0_1.json",
+    "crosswalk_sha": "57bcb2e7379f9e2eac5c18a1c977541e20062dd0",
+    "unique_ids": 82,
+    "group_counts_sum": 82,
+    "reciprocal_pair_comparisons": 1
   }
 }
