@@ -1,0 +1,99 @@
+{
+  "schema_version": "user-requirement-coverage-public/0.2",
+  "as_of": "2026-11-03",
+  "scope": "72 atomized user-derived requirements in 9 topic groups; not a complete literal chronological list of exactly the last 100 user messages",
+  "source_file": "forschung/website/LETZTE_100_PROMPTS_QUELLEN_CROSSWALK_V1.json",
+  "source_blob_sha": "0e938a9988e046ad3dd843435c250106df0f76e2",
+  "atomic_requirements": 72,
+  "source_file_refs_checked": 72,
+  "source_file_refs_present": 72,
+  "exact_last_100_original_messages_verified": false,
+  "independent_task_completion_count": "not_determined",
+  "groups": [
+    {
+      "field": "Governance",
+      "items": 8,
+      "assigned_owner": "gpt",
+      "verified_original_messages": 0,
+      "source_path_checks": 8,
+      "independent_completion_checks": 0
+    },
+    {
+      "field": "Website-Struktur",
+      "items": 8,
+      "assigned_owner": "gpt",
+      "verified_original_messages": 0,
+      "source_path_checks": 8,
+      "independent_completion_checks": 0
+    },
+    {
+      "field": "Tensor-Logik-Feld",
+      "items": 8,
+      "assigned_owner": "both",
+      "verified_original_messages": 0,
+      "source_path_checks": 8,
+      "independent_completion_checks": 0
+    },
+    {
+      "field": "KI und Geo",
+      "items": 8,
+      "assigned_owner": "gpt",
+      "verified_original_messages": 0,
+      "source_path_checks": 8,
+      "independent_completion_checks": 0
+    },
+    {
+      "field": "Inkubator und SOULution",
+      "items": 8,
+      "assigned_owner": "gpt",
+      "verified_original_messages": 0,
+      "source_path_checks": 8,
+      "independent_completion_checks": 0
+    },
+    {
+      "field": "Thesen/Quellen",
+      "items": 8,
+      "assigned_owner": "both",
+      "verified_original_messages": 0,
+      "source_path_checks": 8,
+      "independent_completion_checks": 0
+    },
+    {
+      "field": "Publikationen/Design",
+      "items": 8,
+      "assigned_owner": "both",
+      "verified_original_messages": 0,
+      "source_path_checks": 8,
+      "independent_completion_checks": 0
+    },
+    {
+      "field": "Workflow / Mitmachen",
+      "items": 8,
+      "assigned_owner": "both",
+      "verified_original_messages": 0,
+      "source_path_checks": 8,
+      "independent_completion_checks": 0
+    },
+    {
+      "field": "Website-Qualität",
+      "items": 8,
+      "assigned_owner": "gpt",
+      "verified_original_messages": 0,
+      "source_path_checks": 8,
+      "independent_completion_checks": 0
+    }
+  ],
+  "note": "Existence of a referenced file is not verification of the task's implementation, completeness, quality, or scientific evidence. The eight equal-size item groups reflect editorial classification, not an observed distribution of 100 messages.",
+  "status_source_path": "forschung/website/ANFORDERUNGSSTATUS_NORMALISIERUNG_V1.json",
+  "status_source_sha": "a6b60eb3490613f79326691ab51f111dff5bd5c9",
+  "status_classes": {
+    "artifact_present_not_accepted": 23,
+    "partial_or_unclear": 13,
+    "open_or_blocked": 22,
+    "test_or_review_incomplete": 6,
+    "planned_or_documented": 8
+  },
+  "normalization_warning": "Heuristic grouping of existing informal status strings, not proof of implementation, peer review or project completion.",
+  "reviewed_original_messages": 0,
+  "verified_completion_from_this_ledger": 0
+}
