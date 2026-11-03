@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""No-loss website smoke test for the 33 documented pages.
+"""No-loss website smoke test for the 34 documented pages.
 
 Validates existing pages, common navigation, local assets/links,
 known source JSON files, and the 72 traceable requirement IDs.
@@ -36,8 +36,8 @@ class Scan(HTMLParser):
 
 text = INDEX.read_text(encoding="utf-8")
 slugs = list(dict.fromkeys(re.findall(r"\./([a-z0-9-]+)_AUDIT_PLAN_2026-11-03\.md", text)))
-if len(slugs) != 33:
-    errors.append("expected 33 independently documented pages, got " + str(len(slugs)))
+if len(slugs) != 34:
+    errors.append("expected 34 independently documented pages, got " + str(len(slugs)))
 scans = {}
 all_links = 0
 
