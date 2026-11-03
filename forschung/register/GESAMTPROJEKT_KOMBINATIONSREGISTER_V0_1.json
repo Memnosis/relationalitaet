@@ -1,8 +1,8 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.3.0",
   "generated_on": "2026-11-03",
   "description": "Decision-oriented portfolio of GitHub task objects plus tasks derived from uploaded source registers; includes accountable decision role, urgency, leverage, prompt maturity and evidence limits. Does not contain 100 individual historical prompts.",
-  "record_count": 40,
+  "record_count": 44,
   "source_files": [
     "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
     "forschung/soulution/FIN_DEM_ROOM_FORSCHUNGSMODULE_V4.md",
@@ -59,7 +59,38 @@
       "scientific_or_technical_test_status": "test_not_verified",
       "visibility": "conditional_public",
       "editorial_release": "not_approved",
-      "next_gate": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve"
+      "next_gate": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve",
+      "publication_audit": {
+        "task_visibility_candidate": "public_excerpt_only",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "Only an independent bounded verification/research subtask, stripped of internal dependencies, unapproved architecture and original internal prompts",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "meta_prompt_draft": true,
+        "agent_io_contract_needed": true,
+        "trial_and_editorial_review_needed": true,
+        "description_stage": "meta_draft_available",
+        "evidence_note": "Task title, source origin and relevant description available; requirements and trial record require item-specific audit",
+        "next_preparation": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve",
+        "author_decision": "No immediate personal action; prepare facts and bring only conflicting alternatives to Nils"
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "draft_only",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "FMT-H01",
@@ -102,7 +133,38 @@
       "scientific_or_technical_test_status": "test_not_verified",
       "visibility": "conditional_public",
       "editorial_release": "not_approved",
-      "next_gate": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve"
+      "next_gate": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve",
+      "publication_audit": {
+        "task_visibility_candidate": "public_candidate",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "A narrowly scoped task with licensed public source material, replicable tests and no internal model conclusions",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "meta_prompt_draft": true,
+        "agent_io_contract_needed": true,
+        "trial_and_editorial_review_needed": true,
+        "description_stage": "meta_draft_available",
+        "evidence_note": "Task title, source origin and relevant description available; requirements and trial record require item-specific audit",
+        "next_preparation": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve",
+        "author_decision": "No immediate personal action; prepare facts and bring only conflicting alternatives to Nils"
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "draft_only",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "FMT-H02",
@@ -145,7 +207,38 @@
       "scientific_or_technical_test_status": "test_not_verified",
       "visibility": "conditional_public",
       "editorial_release": "not_approved",
-      "next_gate": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve"
+      "next_gate": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve",
+      "publication_audit": {
+        "task_visibility_candidate": "public_candidate",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "A narrowly scoped task with licensed public source material, replicable tests and no internal model conclusions",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "meta_prompt_draft": true,
+        "agent_io_contract_needed": true,
+        "trial_and_editorial_review_needed": true,
+        "description_stage": "meta_draft_available",
+        "evidence_note": "Task title, source origin and relevant description available; requirements and trial record require item-specific audit",
+        "next_preparation": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve",
+        "author_decision": "No immediate personal action; prepare facts and bring only conflicting alternatives to Nils"
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "draft_only",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "FMT-H03",
@@ -188,7 +281,38 @@
       "scientific_or_technical_test_status": "test_not_verified",
       "visibility": "conditional_public",
       "editorial_release": "not_approved",
-      "next_gate": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve"
+      "next_gate": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve",
+      "publication_audit": {
+        "task_visibility_candidate": "public_candidate",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "A narrowly scoped task with licensed public source material, replicable tests and no internal model conclusions",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "meta_prompt_draft": true,
+        "agent_io_contract_needed": true,
+        "trial_and_editorial_review_needed": true,
+        "description_stage": "meta_draft_available",
+        "evidence_note": "Task title, source origin and relevant description available; requirements and trial record require item-specific audit",
+        "next_preparation": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve",
+        "author_decision": "No immediate personal action; prepare facts and bring only conflicting alternatives to Nils"
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "draft_only",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "FMT-H04",
@@ -231,7 +355,38 @@
       "scientific_or_technical_test_status": "test_not_verified",
       "visibility": "conditional_public",
       "editorial_release": "not_approved",
-      "next_gate": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve"
+      "next_gate": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve",
+      "publication_audit": {
+        "task_visibility_candidate": "public_candidate",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "A narrowly scoped task with licensed public source material, replicable tests and no internal model conclusions",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "meta_prompt_draft": true,
+        "agent_io_contract_needed": true,
+        "trial_and_editorial_review_needed": true,
+        "description_stage": "meta_draft_available",
+        "evidence_note": "Task title, source origin and relevant description available; requirements and trial record require item-specific audit",
+        "next_preparation": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve",
+        "author_decision": "No immediate personal action; prepare facts and bring only conflicting alternatives to Nils"
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "draft_only",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "FMT-H05",
@@ -274,7 +429,38 @@
       "scientific_or_technical_test_status": "test_not_verified",
       "visibility": "conditional_public",
       "editorial_release": "not_approved",
-      "next_gate": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve"
+      "next_gate": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve",
+      "publication_audit": {
+        "task_visibility_candidate": "public_candidate",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "A narrowly scoped task with licensed public source material, replicable tests and no internal model conclusions",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "meta_prompt_draft": true,
+        "agent_io_contract_needed": true,
+        "trial_and_editorial_review_needed": true,
+        "description_stage": "meta_draft_available",
+        "evidence_note": "Task title, source origin and relevant description available; requirements and trial record require item-specific audit",
+        "next_preparation": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve",
+        "author_decision": "No immediate personal action; prepare facts and bring only conflicting alternatives to Nils"
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "draft_only",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "WEB-PAPER-01",
@@ -317,7 +503,38 @@
       "scientific_or_technical_test_status": "test_not_verified",
       "visibility": "internal_until_approved",
       "editorial_release": "not_approved",
-      "next_gate": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve"
+      "next_gate": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve",
+      "publication_audit": {
+        "task_visibility_candidate": "internal_core",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "Internal coordination, core architecture, unpublished material or unapproved author decisions",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "meta_prompt_draft": true,
+        "agent_io_contract_needed": true,
+        "trial_and_editorial_review_needed": true,
+        "description_stage": "partial_task_defined",
+        "evidence_note": "Seiten- und Paperbezug beschrieben; Meta-Prompt vorhanden, keine dokumentierte Ausführungsakte.",
+        "next_preparation": "Vorhandene Texte und Quellenabgleich zu einer redaktionell prüfbaren Einführung zusammentragen.",
+        "author_decision": "Wortlaut und Freigabestatus der Einführung entscheiden."
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "draft_only",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "FIN-OPS-01",
@@ -350,7 +567,39 @@
       "scientific_or_technical_test_status": "test_not_verified",
       "visibility": "conditional_public",
       "editorial_release": "not_approved",
-      "next_gate": "Separate prompt into prompt/agent/meta contracts, execute trial and perform editorial review"
+      "next_gate": "Separate prompt into prompt/agent/meta contracts, execute trial and perform editorial review",
+      "publication_audit": {
+        "task_visibility_candidate": "public_candidate",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "A narrowly scoped task with licensed public source material, replicable tests and no internal model conclusions",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "topic_prompt_draft": true,
+        "agent_io_contract_needed": true,
+        "meta_dependencies_needed": true,
+        "trial_and_editorial_review_needed": true,
+        "description_stage": "topic_draft_available",
+        "evidence_note": "Task title, source origin and relevant description available; requirements and trial record require item-specific audit",
+        "next_preparation": "Separate prompt into prompt/agent/meta contracts, execute trial and perform editorial review",
+        "author_decision": "No immediate personal action; prepare facts and bring only conflicting alternatives to Nils"
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "FIN-OPS-02",
@@ -383,7 +632,39 @@
       "scientific_or_technical_test_status": "test_not_verified",
       "visibility": "conditional_public",
       "editorial_release": "not_approved",
-      "next_gate": "Separate prompt into prompt/agent/meta contracts, execute trial and perform editorial review"
+      "next_gate": "Separate prompt into prompt/agent/meta contracts, execute trial and perform editorial review",
+      "publication_audit": {
+        "task_visibility_candidate": "public_candidate",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "A narrowly scoped task with licensed public source material, replicable tests and no internal model conclusions",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "topic_prompt_draft": true,
+        "agent_io_contract_needed": true,
+        "meta_dependencies_needed": true,
+        "trial_and_editorial_review_needed": true,
+        "description_stage": "topic_draft_available",
+        "evidence_note": "Task title, source origin and relevant description available; requirements and trial record require item-specific audit",
+        "next_preparation": "Separate prompt into prompt/agent/meta contracts, execute trial and perform editorial review",
+        "author_decision": "No immediate personal action; prepare facts and bring only conflicting alternatives to Nils"
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "DEM-OPS-01",
@@ -416,7 +697,39 @@
       "scientific_or_technical_test_status": "test_not_verified",
       "visibility": "conditional_public",
       "editorial_release": "not_approved",
-      "next_gate": "Separate prompt into prompt/agent/meta contracts, execute trial and perform editorial review"
+      "next_gate": "Separate prompt into prompt/agent/meta contracts, execute trial and perform editorial review",
+      "publication_audit": {
+        "task_visibility_candidate": "public_candidate",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "A narrowly scoped task with licensed public source material, replicable tests and no internal model conclusions",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "topic_prompt_draft": true,
+        "agent_io_contract_needed": true,
+        "meta_dependencies_needed": true,
+        "trial_and_editorial_review_needed": true,
+        "description_stage": "topic_draft_available",
+        "evidence_note": "Task title, source origin and relevant description available; requirements and trial record require item-specific audit",
+        "next_preparation": "Separate prompt into prompt/agent/meta contracts, execute trial and perform editorial review",
+        "author_decision": "No immediate personal action; prepare facts and bring only conflicting alternatives to Nils"
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "DEM-OPS-02",
@@ -449,7 +762,39 @@
       "scientific_or_technical_test_status": "test_not_verified",
       "visibility": "internal_until_approved",
       "editorial_release": "not_approved",
-      "next_gate": "Separate prompt into prompt/agent/meta contracts, execute trial and perform editorial review"
+      "next_gate": "Separate prompt into prompt/agent/meta contracts, execute trial and perform editorial review",
+      "publication_audit": {
+        "task_visibility_candidate": "public_excerpt_only",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "Only an independent bounded verification/research subtask, stripped of internal dependencies, unapproved architecture and original internal prompts",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "topic_prompt_draft": true,
+        "agent_io_contract_needed": true,
+        "meta_dependencies_needed": true,
+        "trial_and_editorial_review_needed": true,
+        "description_stage": "partial_task_defined",
+        "evidence_note": "Fachfrage im SOULution-Aufgabentext; Bias-, Datenschutz- und Minderheiten-Methodik noch zu spezifizieren.",
+        "next_preparation": "Anonymisierte Musterdaten und Mess-/Geltungskriterien statt Personenprofile definieren.",
+        "author_decision": "Risikogrenzen und öffentliche Aufgabenfassung freigeben."
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "ROOM-OPS-01",
@@ -482,7 +827,39 @@
       "scientific_or_technical_test_status": "test_not_verified",
       "visibility": "conditional_public",
       "editorial_release": "not_approved",
-      "next_gate": "Separate prompt into prompt/agent/meta contracts, execute trial and perform editorial review"
+      "next_gate": "Separate prompt into prompt/agent/meta contracts, execute trial and perform editorial review",
+      "publication_audit": {
+        "task_visibility_candidate": "public_excerpt_only",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "Only an independent bounded verification/research subtask, stripped of internal dependencies, unapproved architecture and original internal prompts",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "topic_prompt_draft": true,
+        "agent_io_contract_needed": true,
+        "meta_dependencies_needed": true,
+        "trial_and_editorial_review_needed": true,
+        "description_stage": "topic_draft_available",
+        "evidence_note": "Task title, source origin and relevant description available; requirements and trial record require item-specific audit",
+        "next_preparation": "Separate prompt into prompt/agent/meta contracts, execute trial and perform editorial review",
+        "author_decision": "No immediate personal action; prepare facts and bring only conflicting alternatives to Nils"
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "ROOM-OPS-02",
@@ -515,7 +892,39 @@
       "scientific_or_technical_test_status": "test_not_verified",
       "visibility": "conditional_public",
       "editorial_release": "not_approved",
-      "next_gate": "Separate prompt into prompt/agent/meta contracts, execute trial and perform editorial review"
+      "next_gate": "Separate prompt into prompt/agent/meta contracts, execute trial and perform editorial review",
+      "publication_audit": {
+        "task_visibility_candidate": "public_excerpt_only",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "Only an independent bounded verification/research subtask, stripped of internal dependencies, unapproved architecture and original internal prompts",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "topic_prompt_draft": true,
+        "agent_io_contract_needed": true,
+        "meta_dependencies_needed": true,
+        "trial_and_editorial_review_needed": true,
+        "description_stage": "topic_draft_available",
+        "evidence_note": "Task title, source origin and relevant description available; requirements and trial record require item-specific audit",
+        "next_preparation": "Separate prompt into prompt/agent/meta contracts, execute trial and perform editorial review",
+        "author_decision": "No immediate personal action; prepare facts and bring only conflicting alternatives to Nils"
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "KI-ARCH-01",
@@ -547,7 +956,38 @@
       "scientific_or_technical_test_status": "archive_integrity_only",
       "visibility": "internal",
       "editorial_release": "not_approved",
-      "next_gate": "Extract and validate original records before drafting a public prompt"
+      "next_gate": "Extract and validate original records before drafting a public prompt",
+      "publication_audit": {
+        "task_visibility_candidate": "internal_core",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "Internal coordination, core architecture, unpublished material or unapproved author decisions",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "technical_input_available",
+        "evidence_note": "v4.2-SQLite und weitere ZIPs erneut verfügbar; Importaudit existiert, Masterübernahme nach Git offen.",
+        "next_preparation": "Hash-/Versionscrosswalk und Importtests ausführen.",
+        "author_decision": "Nur Konflikt- und Rechteentscheidungen vorlegen."
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "KI-TRI-01",
@@ -579,7 +1019,38 @@
       "scientific_or_technical_test_status": "source_verification_pending",
       "visibility": "internal",
       "editorial_release": "not_approved",
-      "next_gate": "Extract and validate original records before drafting a public prompt"
+      "next_gate": "Extract and validate original records before drafting a public prompt",
+      "publication_audit": {
+        "task_visibility_candidate": "internal_core",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "Internal coordination, core architecture, unpublished material or unapproved author decisions",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "task_scoped_but_no_prompt",
+        "evidence_note": "Task title, source origin and relevant description available; requirements and trial record require item-specific audit",
+        "next_preparation": "Extract and validate original records before drafting a public prompt",
+        "author_decision": "No immediate personal action; prepare facts and bring only conflicting alternatives to Nils"
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "KI-FELD-01",
@@ -611,7 +1082,38 @@
       "scientific_or_technical_test_status": "test_not_verified",
       "visibility": "internal",
       "editorial_release": "not_approved",
-      "next_gate": "Extract and validate original records before drafting a public prompt"
+      "next_gate": "Extract and validate original records before drafting a public prompt",
+      "publication_audit": {
+        "task_visibility_candidate": "public_excerpt_only",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "Only an independent bounded verification/research subtask, stripped of internal dependencies, unapproved architecture and original internal prompts",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "partial_task_defined",
+        "evidence_note": "27 Feldakten + 12 Relationspositionen bekannt; genaue Originalquellen-/Gegenprüfakte je Objekt noch offen.",
+        "next_preparation": "Priorisierte Objektliste mit Originalbeleg, Relationsbehauptung, Gegenfall und Test anlegen.",
+        "author_decision": "Reihenfolge der fachlichen Prüfungen und Veröffentlichung belastbarer Aussagen freigeben."
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "KI-REL-01",
@@ -643,7 +1145,38 @@
       "scientific_or_technical_test_status": "test_not_verified",
       "visibility": "partial_public",
       "editorial_release": "not_approved",
-      "next_gate": "Extract and validate original records before drafting a public prompt"
+      "next_gate": "Extract and validate original records before drafting a public prompt",
+      "publication_audit": {
+        "task_visibility_candidate": "public_excerpt_only",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "Only an independent bounded verification/research subtask, stripped of internal dependencies, unapproved architecture and original internal prompts",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "task_scoped_but_no_prompt",
+        "evidence_note": "Task title, source origin and relevant description available; requirements and trial record require item-specific audit",
+        "next_preparation": "Extract and validate original records before drafting a public prompt",
+        "author_decision": "No immediate personal action; prepare facts and bring only conflicting alternatives to Nils"
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "KI-MATH-01",
@@ -675,7 +1208,38 @@
       "scientific_or_technical_test_status": "historical_tests_reported_no_rerun",
       "visibility": "internal",
       "editorial_release": "not_approved",
-      "next_gate": "Extract and validate original records before drafting a public prompt"
+      "next_gate": "Extract and validate original records before drafting a public prompt",
+      "publication_audit": {
+        "task_visibility_candidate": "internal_core",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "Internal coordination, core architecture, unpublished material or unapproved author decisions",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "task_scoped_but_no_prompt",
+        "evidence_note": "Task title, source origin and relevant description available; requirements and trial record require item-specific audit",
+        "next_preparation": "Extract and validate original records before drafting a public prompt",
+        "author_decision": "No immediate personal action; prepare facts and bring only conflicting alternatives to Nils"
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "KI-REG-01",
@@ -707,7 +1271,38 @@
       "scientific_or_technical_test_status": "source_verification_pending",
       "visibility": "partial_public",
       "editorial_release": "not_approved",
-      "next_gate": "Extract and validate original records before drafting a public prompt"
+      "next_gate": "Extract and validate original records before drafting a public prompt",
+      "publication_audit": {
+        "task_visibility_candidate": "public_excerpt_only",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "Only an independent bounded verification/research subtask, stripped of internal dependencies, unapproved architecture and original internal prompts",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "technical_input_available",
+        "evidence_note": "1008er und 1072er Glossarstände verfügbar; 935 Platzhalter in 1008er, keine bestätigten Primärbelege.",
+        "next_preparation": "Dubletten, Herkunft, Definitionen und Fachbelegstatus maschinenlesbar abgleichen.",
+        "author_decision": "Nur kollidierende fachliche Definitionen entscheiden."
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "KI-REG-02",
@@ -739,7 +1334,38 @@
       "scientific_or_technical_test_status": "source_verification_pending",
       "visibility": "partial_public",
       "editorial_release": "not_approved",
-      "next_gate": "Extract and validate original records before drafting a public prompt"
+      "next_gate": "Extract and validate original records before drafting a public prompt",
+      "publication_audit": {
+        "task_visibility_candidate": "public_excerpt_only",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "Only an independent bounded verification/research subtask, stripped of internal dependencies, unapproved architecture and original internal prompts",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "partial_task_defined",
+        "evidence_note": "Mehrere Quellregister/-links vorhanden, kein vollständiges kanonisches System.",
+        "next_preparation": "Source-ID, Claim-ID, Fundstelle und Versionsverknüpfungen bauen.",
+        "author_decision": "Nur strittige Quellen-/Geltungsentscheidungen vorlegen."
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "KI-REG-03",
@@ -771,7 +1397,38 @@
       "scientific_or_technical_test_status": "test_not_verified",
       "visibility": "partial_public",
       "editorial_release": "not_approved",
-      "next_gate": "Extract and validate original records before drafting a public prompt"
+      "next_gate": "Extract and validate original records before drafting a public prompt",
+      "publication_audit": {
+        "task_visibility_candidate": "public_excerpt_only",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "Only an independent bounded verification/research subtask, stripped of internal dependencies, unapproved architecture and original internal prompts",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "task_scoped_but_no_prompt",
+        "evidence_note": "Task title, source origin and relevant description available; requirements and trial record require item-specific audit",
+        "next_preparation": "Extract and validate original records before drafting a public prompt",
+        "author_decision": "No immediate personal action; prepare facts and bring only conflicting alternatives to Nils"
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "KI-COMP-01",
@@ -803,7 +1460,38 @@
       "scientific_or_technical_test_status": "end_to_end_test_pending",
       "visibility": "internal",
       "editorial_release": "not_approved",
-      "next_gate": "Extract and validate original records before drafting a public prompt"
+      "next_gate": "Extract and validate original records before drafting a public prompt",
+      "publication_audit": {
+        "task_visibility_candidate": "internal_core",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "Internal coordination, core architecture, unpublished material or unapproved author decisions",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "partial_task_defined",
+        "evidence_note": "Compiler-Konzept und Teilimplementierungen historisch beschrieben; vollständiger End-to-End-Nachzug offen.",
+        "next_preparation": "Änderungsereignis an einer Quelle bis Glossar, Test, Website und Prompt-Export reproduzieren.",
+        "author_decision": "Testkriterien bestätigen; technische Implementierung delegieren."
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "SOUL-ATLAS-01",
@@ -835,7 +1523,38 @@
       "scientific_or_technical_test_status": "source_verification_pending",
       "visibility": "partial_public",
       "editorial_release": "not_approved",
-      "next_gate": "Extract and validate original records before drafting a public prompt"
+      "next_gate": "Extract and validate original records before drafting a public prompt",
+      "publication_audit": {
+        "task_visibility_candidate": "public_excerpt_only",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "Only an independent bounded verification/research subtask, stripped of internal dependencies, unapproved architecture and original internal prompts",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "task_scoped_but_no_prompt",
+        "evidence_note": "Task title, source origin and relevant description available; requirements and trial record require item-specific audit",
+        "next_preparation": "Extract and validate original records before drafting a public prompt",
+        "author_decision": "No immediate personal action; prepare facts and bring only conflicting alternatives to Nils"
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "KI-PROMPT-01",
@@ -867,7 +1586,38 @@
       "scientific_or_technical_test_status": "historical_prompt_sequence_incomplete",
       "visibility": "internal",
       "editorial_release": "not_approved",
-      "next_gate": "Extract and validate original records before drafting a public prompt"
+      "next_gate": "Extract and validate original records before drafting a public prompt",
+      "publication_audit": {
+        "task_visibility_candidate": "internal_core",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "Internal coordination, core architecture, unpublished material or unapproved author decisions",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "partial_task_defined",
+        "evidence_note": "40 Aufgabenfamilien inventarisiert, 100 Original-Einzelprompts noch nicht lückenlos erfasst.",
+        "next_preparation": "Originalbefehle mit Zeitstempel und Teilanforderung importieren; keine Zusammenfassung als wortwörtlichen Prompt ausgeben.",
+        "author_decision": "Grenzen der öffentlichen Verwendung historischer Originalprompts festlegen."
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "KI-WELT-100",
@@ -894,7 +1644,38 @@
         "agent",
         "meta"
       ],
-      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt.",
+      "publication_audit": {
+        "task_visibility_candidate": "public_excerpt_only",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "origin_may_be_user_upload",
+        "public_scope": "Only an independent bounded verification/research subtask, stripped of internal dependencies, unapproved architecture and original internal prompts",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "partial_task_defined",
+        "evidence_note": "100 Welten und 300 Kandidaten liegen als CSV vor; keine individuelle Primärbeleg-Abnahme.",
+        "next_preparation": "Pilotwissenschaften anhand Quellenzugang, mathematischer Form, Prüfbarkeit und Hebelwirkung gewichten.",
+        "author_decision": "Priorisierte Pilotwelten für tiefe Fachprüfung festlegen."
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "KI-MODEL-135",
@@ -921,7 +1702,38 @@
         "agent",
         "meta"
       ],
-      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt.",
+      "publication_audit": {
+        "task_visibility_candidate": "public_excerpt_only",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "origin_may_be_user_upload",
+        "public_scope": "Only an independent bounded verification/research subtask, stripped of internal dependencies, unapproved architecture and original internal prompts",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "task_scoped_but_no_prompt",
+        "evidence_note": "Task title, source origin and relevant description available; requirements and trial record require item-specific audit",
+        "next_preparation": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt.",
+        "author_decision": "No immediate personal action; prepare facts and bring only conflicting alternatives to Nils"
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "KI-TEST-08",
@@ -948,7 +1760,38 @@
         "agent",
         "meta"
       ],
-      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt.",
+      "publication_audit": {
+        "task_visibility_candidate": "public_excerpt_only",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "origin_may_be_user_upload",
+        "public_scope": "Only an independent bounded verification/research subtask, stripped of internal dependencies, unapproved architecture and original internal prompts",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "test_plan_defined",
+        "evidence_note": "Acht v4.4-Testserien liegen als Roadmap vor; Durchführung nicht nachgewiesen.",
+        "next_preparation": "Testdaten/Referenzwerte und ausführbare Skripte je Serie ergänzen.",
+        "author_decision": "Nur fachlich relevante Gegenbeispiele bewerten."
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "KI-AXIS-23",
@@ -975,7 +1818,38 @@
         "agent",
         "meta"
       ],
-      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt.",
+      "publication_audit": {
+        "task_visibility_candidate": "public_excerpt_only",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "origin_may_be_user_upload",
+        "public_scope": "Only an independent bounded verification/research subtask, stripped of internal dependencies, unapproved architecture and original internal prompts",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "task_scoped_but_no_prompt",
+        "evidence_note": "Task title, source origin and relevant description available; requirements and trial record require item-specific audit",
+        "next_preparation": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt.",
+        "author_decision": "No immediate personal action; prepare facts and bring only conflicting alternatives to Nils"
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "KI-GF-12",
@@ -1002,7 +1876,38 @@
         "agent",
         "meta"
       ],
-      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt.",
+      "publication_audit": {
+        "task_visibility_candidate": "public_excerpt_only",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "origin_may_be_user_upload",
+        "public_scope": "Only an independent bounded verification/research subtask, stripped of internal dependencies, unapproved architecture and original internal prompts",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "task_scoped_but_no_prompt",
+        "evidence_note": "Task title, source origin and relevant description available; requirements and trial record require item-specific audit",
+        "next_preparation": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt.",
+        "author_decision": "No immediate personal action; prepare facts and bring only conflicting alternatives to Nils"
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "KI-CONF-27",
@@ -1029,7 +1934,38 @@
         "agent",
         "meta"
       ],
-      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt.",
+      "publication_audit": {
+        "task_visibility_candidate": "public_excerpt_only",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "origin_may_be_user_upload",
+        "public_scope": "Only an independent bounded verification/research subtask, stripped of internal dependencies, unapproved architecture and original internal prompts",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "task_scoped_but_no_prompt",
+        "evidence_note": "Task title, source origin and relevant description available; requirements and trial record require item-specific audit",
+        "next_preparation": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt.",
+        "author_decision": "No immediate personal action; prepare facts and bring only conflicting alternatives to Nils"
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "KI-AXIS-X",
@@ -1056,7 +1992,38 @@
         "agent",
         "meta"
       ],
-      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt.",
+      "publication_audit": {
+        "task_visibility_candidate": "internal_core",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "origin_may_be_user_upload",
+        "public_scope": "Internal coordination, core architecture, unpublished material or unapproved author decisions",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "decision_brief_needed",
+        "evidence_note": "Trennung historischer und neuer Achsenmodelle ist beschrieben; Auswahlvarianten und formaler Crosswalk noch nicht entscheidungsreif.",
+        "next_preparation": "Zwei Alternativen mit konkreten Zuordnungsbeispielen, Nichtgleichsetzungen und Verlustfolgen prüfen.",
+        "author_decision": "Achsenmodelle verbinden oder bewusst getrennt führen; fachliche Änderung freigeben."
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "KI-OPS-25",
@@ -1083,7 +2050,38 @@
         "agent",
         "meta"
       ],
-      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt.",
+      "publication_audit": {
+        "task_visibility_candidate": "public_excerpt_only",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "origin_may_be_user_upload",
+        "public_scope": "Only an independent bounded verification/research subtask, stripped of internal dependencies, unapproved architecture and original internal prompts",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "task_scoped_but_no_prompt",
+        "evidence_note": "Task title, source origin and relevant description available; requirements and trial record require item-specific audit",
+        "next_preparation": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt.",
+        "author_decision": "No immediate personal action; prepare facts and bring only conflicting alternatives to Nils"
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "KI-GLOSS-1008",
@@ -1110,7 +2108,38 @@
         "agent",
         "meta"
       ],
-      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt.",
+      "publication_audit": {
+        "task_visibility_candidate": "public_candidate",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "origin_may_be_user_upload",
+        "public_scope": "A narrowly scoped task with licensed public source material, replicable tests and no internal model conclusions",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "task_scoped_but_no_prompt",
+        "evidence_note": "Task title, source origin and relevant description available; requirements and trial record require item-specific audit",
+        "next_preparation": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt.",
+        "author_decision": "No immediate personal action; prepare facts and bring only conflicting alternatives to Nils"
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "KI-MEDIA-PROMPT",
@@ -1137,7 +2166,38 @@
         "agent",
         "meta"
       ],
-      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt.",
+      "publication_audit": {
+        "task_visibility_candidate": "public_excerpt_only",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "Only an independent bounded verification/research subtask, stripped of internal dependencies, unapproved architecture and original internal prompts",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "task_scoped_but_no_prompt",
+        "evidence_note": "Task title, source origin and relevant description available; requirements and trial record require item-specific audit",
+        "next_preparation": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt.",
+        "author_decision": "No immediate personal action; prepare facts and bring only conflicting alternatives to Nils"
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "KI-AGENT-META",
@@ -1164,7 +2224,38 @@
         "agent",
         "meta"
       ],
-      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt.",
+      "publication_audit": {
+        "task_visibility_candidate": "public_excerpt_only",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "Only an independent bounded verification/research subtask, stripped of internal dependencies, unapproved architecture and original internal prompts",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "task_scoped_but_no_prompt",
+        "evidence_note": "Task title, source origin and relevant description available; requirements and trial record require item-specific audit",
+        "next_preparation": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt.",
+        "author_decision": "No immediate personal action; prepare facts and bring only conflicting alternatives to Nils"
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "WEB-NAV-TEST",
@@ -1191,7 +2282,38 @@
         "agent",
         "meta"
       ],
-      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt.",
+      "publication_audit": {
+        "task_visibility_candidate": "public_candidate",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "A narrowly scoped task with licensed public source material, replicable tests and no internal model conclusions",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "technical_input_available",
+        "evidence_note": "Hierarchisches Navigationsskript und CSS im Git; Dateiziele teilweise geprüft, Browser-/Screenreader-Abnahme ausstehend.",
+        "next_preparation": "Desktop/Mobil/Tastatur/Touch, alte Links und Assets gegen Regression testen.",
+        "author_decision": "Keine Autorenentscheidung erforderlich, außer bei gewünschter Änderung der Gruppierung."
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "WEB-PUBLISH-GATE",
@@ -1218,7 +2340,38 @@
         "agent",
         "meta"
       ],
-      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt.",
+      "publication_audit": {
+        "task_visibility_candidate": "internal_core",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "Internal coordination, core architecture, unpublished material or unapproved author decisions",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "partial_task_defined",
+        "evidence_note": "Rechte-/Publikationskriterien im Website-Plan; Cover-/Versionsregister ist nicht abgenommen.",
+        "next_preparation": "Präzise Liste vorliegender öffentlicher Bücher, Quellenlinks und unveröffentlichter Arbeitsstände erstellen.",
+        "author_decision": "Freizugebende Buchfassungen, Cover und redaktionelle Texte entscheiden."
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "WEB-PROMPT-RETURN",
@@ -1245,7 +2398,38 @@
         "agent",
         "meta"
       ],
-      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt.",
+      "publication_audit": {
+        "task_visibility_candidate": "public_excerpt_only",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "Only an independent bounded verification/research subtask, stripped of internal dependencies, unapproved architecture and original internal prompts",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "task_scoped_but_no_prompt",
+        "evidence_note": "Task title, source origin and relevant description available; requirements and trial record require item-specific audit",
+        "next_preparation": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt.",
+        "author_decision": "No immediate personal action; prepare facts and bring only conflicting alternatives to Nils"
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "KI-BIO-EVIDENCE",
@@ -1272,7 +2456,38 @@
         "agent",
         "meta"
       ],
-      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt.",
+      "publication_audit": {
+        "task_visibility_candidate": "internal_core",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "origin_may_be_user_upload",
+        "public_scope": "Internal coordination, core architecture, unpublished material or unapproved author decisions",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "research_review_needed",
+        "evidence_note": "Historische Arbeit enthält weitreichende numerische Behauptungen ohne unabhängigen Nachweis.",
+        "next_preparation": "Claims, Einheiten, Datenquelle, numerische Reproduzierbarkeit und Gegenmodelle getrennt auditieren.",
+        "author_decision": "Nur quellenbelegte Aussagen als veröffentlichte Forschung ausweisen."
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
     },
     {
       "id": "SOUL-SYNC",
@@ -1299,7 +2514,222 @@
         "agent",
         "meta"
       ],
-      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt.",
+      "publication_audit": {
+        "task_visibility_candidate": "internal_core",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "existing_git_exposure": "source_path_in_public_repository_check_content",
+        "public_scope": "Internal coordination, core architecture, unpublished material or unapproved author decisions",
+        "gate": [
+          "source_scope_and_rights_review",
+          "sample_input_output_and_acceptance",
+          "documented_prompt_execution",
+          "factual_error_review",
+          "nils_editorial_signoff"
+        ]
+      },
+      "preparation_audit": {
+        "task_description_present": true,
+        "prompt_draft_needed": true,
+        "agent_and_meta_scoping_needed": true,
+        "description_stage": "task_scoped_but_no_prompt",
+        "evidence_note": "Task title, source origin and relevant description available; requirements and trial record require item-specific audit",
+        "next_preparation": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt.",
+        "author_decision": "No immediate personal action; prepare facts and bring only conflicting alternatives to Nils"
+      },
+      "prompt_audit": {
+        "prompt_layer": "concept_or_text_identified",
+        "agent_layer": "not_validated",
+        "meta_layer": "not_validated",
+        "trial_evidence": "none_attached_to_task_register",
+        "trial_method": "requires_prompt_version_input_output_model_and_date",
+        "publication_status": "not_approved"
+      }
+    },
+    {
+      "id": "WEB-UPGRADE-100",
+      "title": "Gesamt-Upgrade der bestehenden Website und Abgleich der letzten 100+ Einzelbefehle",
+      "urgency": "P0",
+      "project": "Website / Projektsteuerung",
+      "accountability": "automation_with_nils_approval",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "status": "plan_drafted",
+      "kind": "website_governance",
+      "origin": {
+        "path": "forschung/website/UPGRADE_100PLUS_PROMPTARCHITEKTUR_2026-11-03.md",
+        "source_type": "github"
+      },
+      "historical_observation": "100+ Gesamtplan im Git; nur Teilinventar mit 40 Aufgabenfamilien, keine originalgetreue vollständige 100er-Befehlsliste",
+      "description": "Konkretisierung aller Originalprompts, No-Loss-Abgleich, P0/P1/P2-Klassen, Navigationsstabilität und Regression der bestehenden Fachseiten; Website-Erweiterung statt Ersetzen",
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "editorial_release": "not_approved",
+      "public_release": "review_required",
+      "publication_audit": {
+        "task_visibility_candidate": "internal_core",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "public_scope": "Publish only independently useful overview or public-facing methods; internal work instructions stay internal",
+        "gate": [
+          "scoping",
+          "trial",
+          "review",
+          "signoff"
+        ]
+      },
+      "preparation_audit": {
+        "description_stage": "structured_plan_present",
+        "evidence_note": "100+ Gesamtplan im Git; nur Teilinventar mit 40 Aufgabenfamilien, keine originalgetreue vollständige 100er-Befehlsliste",
+        "next_preparation": "Konkretisierung aller Originalprompts, No-Loss-Abgleich, P0/P1/P2-Klassen, Navigationsstabilität und Regression der bestehenden Fachseiten; Website-Erweiterung statt Ersetzen",
+        "author_decision": "Only overarching public messaging and final editorial releases require Nils; technical details can be implemented and tested independently"
+      },
+      "prompt_audit": {
+        "prompt_layer": "not_published",
+        "agent_layer": "not_validated",
+        "meta_layer": "plan_documented",
+        "trial_evidence": "none_attached_to_task_register",
+        "publication_status": "not_approved"
+      }
+    },
+    {
+      "id": "WEB-PUBLIC-TASKS",
+      "title": "Freigabe-Gate für öffentliche Forschungsprompts und Mitmachaufgaben",
+      "urgency": "P0",
+      "project": "Website / Mitmachen",
+      "accountability": "automation_with_nils_approval",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "status": "plan_drafted",
+      "kind": "website_governance",
+      "origin": {
+        "path": "forschung/website/UPGRADE_100PLUS_PROMPTARCHITEKTUR_2026-11-03.md",
+        "source_type": "github"
+      },
+      "historical_observation": "Auf GitHub existieren öffentlich sichtbare Meta-Prompt-Texte ohne individuelles redaktionelles Freigabeprotokoll; Kennzeichnung ersetzt keinen Zugriffsschutz",
+      "description": "Prompt-Ebene, Agenten-I/O, Meta-Voraussetzungen, Testakte, Quellen-/Glossarversionen und redaktionelle Abnahme als einheitliches Aufgaben-Objekt verbinden.",
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "editorial_release": "not_approved",
+      "public_release": "review_required",
+      "publication_audit": {
+        "task_visibility_candidate": "internal_core",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "public_scope": "Publish only independently useful overview or public-facing methods; internal work instructions stay internal",
+        "gate": [
+          "scoping",
+          "trial",
+          "review",
+          "signoff"
+        ]
+      },
+      "preparation_audit": {
+        "description_stage": "structured_plan_present",
+        "evidence_note": "Auf GitHub existieren öffentlich sichtbare Meta-Prompt-Texte ohne individuelles redaktionelles Freigabeprotokoll; Kennzeichnung ersetzt keinen Zugriffsschutz",
+        "next_preparation": "Prompt-Ebene, Agenten-I/O, Meta-Voraussetzungen, Testakte, Quellen-/Glossarversionen und redaktionelle Abnahme als einheitliches Aufgaben-Objekt verbinden.",
+        "author_decision": "Only overarching public messaging and final editorial releases require Nils; technical details can be implemented and tested independently"
+      },
+      "prompt_audit": {
+        "prompt_layer": "not_published",
+        "agent_layer": "not_validated",
+        "meta_layer": "plan_documented",
+        "trial_evidence": "none_attached_to_task_register",
+        "publication_status": "not_approved"
+      }
+    },
+    {
+      "id": "WEB-PUBLISHED-PROMPT-AUDIT",
+      "title": "Bestehende veröffentlichte Rohprompts und interne Architekturanteile im öffentlichen Git auditeren",
+      "urgency": "P0",
+      "project": "Website / Datenschutz",
+      "accountability": "research_plus_nils_decision",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "status": "plan_drafted",
+      "kind": "website_governance",
+      "origin": {
+        "path": "forschung/website/UPGRADE_100PLUS_PROMPTARCHITEKTUR_2026-11-03.md",
+        "source_type": "github"
+      },
+      "historical_observation": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json enthält sieben meta_prompt-Felder im öffentlichen Main-Zweig",
+      "description": "Öffentlichen Quelltext, bestehende GEO-Meta-Prompts und Mitmach-Karten auf internen Planungsinhalt prüfen; historische Inhalte erhalten, freizugebende Nutzertexte redigieren. Veröffentlichung auf Git ist bereits Veröffentlichung.",
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "editorial_release": "not_approved",
+      "public_release": "review_required",
+      "publication_audit": {
+        "task_visibility_candidate": "internal_core",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "public_scope": "Publish only independently useful overview or public-facing methods; internal work instructions stay internal",
+        "gate": [
+          "scoping",
+          "trial",
+          "review",
+          "signoff"
+        ]
+      },
+      "preparation_audit": {
+        "description_stage": "structured_plan_present",
+        "evidence_note": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json enthält sieben meta_prompt-Felder im öffentlichen Main-Zweig",
+        "next_preparation": "Öffentlichen Quelltext, bestehende GEO-Meta-Prompts und Mitmach-Karten auf internen Planungsinhalt prüfen; historische Inhalte erhalten, freizugebende Nutzertexte redigieren. Veröffentlichung auf Git ist bereits Veröffentlichung.",
+        "author_decision": "Only overarching public messaging and final editorial releases require Nils; technical details can be implemented and tested independently"
+      },
+      "prompt_audit": {
+        "prompt_layer": "not_published",
+        "agent_layer": "not_validated",
+        "meta_layer": "plan_documented",
+        "trial_evidence": "none_attached_to_task_register",
+        "publication_status": "not_approved"
+      }
+    },
+    {
+      "id": "WEB-PROJECT-DASHBOARD",
+      "title": "Projektstand aus Statusregister statt unverifizierten Fortschrittsannahmen generieren",
+      "urgency": "P1",
+      "project": "Website / Dashboard",
+      "accountability": "automation_with_nils_approval",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "status": "plan_drafted",
+      "kind": "website_governance",
+      "origin": {
+        "path": "forschung/website/UPGRADE_100PLUS_PROMPTARCHITEKTUR_2026-11-03.md",
+        "source_type": "github"
+      },
+      "historical_observation": "docs/projektstand.html zeigt historischen Bestand, aber noch keine automatisch erzeugte 100+-Aufgabensteuerung",
+      "description": "P0-Aggregate, menschliche Entscheidungen, geprüfte öffentliche Aufgaben, Test- und Freigabestufen aus verifiziertem Register darstellen, interne Einzelobjekte nicht im Frontend exponieren.",
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "editorial_release": "not_approved",
+      "public_release": "review_required",
+      "publication_audit": {
+        "task_visibility_candidate": "public_excerpt_only",
+        "raw_prompt_visibility": "not_authorized_for_new_publication",
+        "public_prompt_release": "blocked_until_verified_trial_and_editorial_approval",
+        "public_scope": "Publish only independently useful overview or public-facing methods; internal work instructions stay internal",
+        "gate": [
+          "scoping",
+          "trial",
+          "review",
+          "signoff"
+        ]
+      },
+      "preparation_audit": {
+        "description_stage": "structured_plan_present",
+        "evidence_note": "docs/projektstand.html zeigt historischen Bestand, aber noch keine automatisch erzeugte 100+-Aufgabensteuerung",
+        "next_preparation": "P0-Aggregate, menschliche Entscheidungen, geprüfte öffentliche Aufgaben, Test- und Freigabestufen aus verifiziertem Register darstellen, interne Einzelobjekte nicht im Frontend exponieren.",
+        "author_decision": "Only overarching public messaging and final editorial releases require Nils; technical details can be implemented and tested independently"
+      },
+      "prompt_audit": {
+        "prompt_layer": "not_published",
+        "agent_layer": "not_validated",
+        "meta_layer": "plan_documented",
+        "trial_evidence": "none_attached_to_task_register",
+        "publication_status": "not_approved"
+      }
     }
   ],
   "governance": {
@@ -1310,5 +2740,6 @@
     "prompt_spec_status": "not_prepared / meta_draft_in_repo / topic_prompt_in_source_document are document availability states, not testing",
     "prompt_execution_status": "none_verified means no recorded prompt trial linked to this row; does NOT mean the underlying scientific/model code was never run",
     "editorial_release": "not_approved for all public prompt releases in this registry"
-  }
+  },
+  "audit_scope": "44 unique task families, not the 100 original prompts; raw prompt visibility not implied by task visibility; all public prompt releases require approved trial"
 }
