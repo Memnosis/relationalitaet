@@ -45,3 +45,18 @@
 
 ## Standards
 [Design, Leserwissen, PDF/DOCX/MD](../../koordination/DESIGN_TEXT_PUBLIKATIONSSTANDARD_V1_2026-11-03.md) · [Anwendungsstandards und Skills](../../koordination/STANDARDS_SKILLS_METHODENREGISTER_V1_2026-11-03.md) · [Planänderungen und Aufgabe-100+-Lücke](../PLAN_UPDATE_PROMPT100_UND_LUECKENAUDIT_2026-11-03.md).
+
+## Acht weitere Seiten aus dem bisher separaten Integrationszweig (Upgrade R3)
+
+Die Fachtexte wurden in `main` unter dem beschlossenen siebenpunktigen Hauptmenü zusammengeführt. Die alten Originale im Zweig bleiben erhalten. **Damit bestehen 33 einzelne Seiten-Auditakten; die tatsächliche Browser- und fachliche Endabnahme ist weiterhin offen.**
+
+- [`ki-systeme.html` – Upgrade/Prüfplan](./ki-systeme_AUDIT_PLAN_2026-11-03.md) · [Fachseite](../../../docs/ki-systeme.html)
+- [`ki-kernforschung.html` – Upgrade/Prüfplan](./ki-kernforschung_AUDIT_PLAN_2026-11-03.md) · [Fachseite](../../../docs/ki-kernforschung.html)
+- [`codebuch.html` – Upgrade/Prüfplan](./codebuch_AUDIT_PLAN_2026-11-03.md) · [Fachseite](../../../docs/codebuch.html)
+- [`soulution-schroedingers-inkubator.html` – Upgrade/Prüfplan](./soulution-schroedingers-inkubator_AUDIT_PLAN_2026-11-03.md) · [Fachseite](../../../docs/soulution-schroedingers-inkubator.html)
+- [`soulution-inkubator-quellen.html` – Upgrade/Prüfplan](./soulution-inkubator-quellen_AUDIT_PLAN_2026-11-03.md) · [Fachseite](../../../docs/soulution-inkubator-quellen.html)
+- [`soulution-ki-kreativrechte.html` – Upgrade/Prüfplan](./soulution-ki-kreativrechte_AUDIT_PLAN_2026-11-03.md) · [Fachseite](../../../docs/soulution-ki-kreativrechte.html)
+- [`soulution-weltwissen-dividende.html` – Upgrade/Prüfplan](./soulution-weltwissen-dividende_AUDIT_PLAN_2026-11-03.md) · [Fachseite](../../../docs/soulution-weltwissen-dividende.html)
+- [`wissen-macht-wirklichkeit.html` – Upgrade/Prüfplan](./wissen-macht-wirklichkeit_AUDIT_PLAN_2026-11-03.md) · [Fachseite](../../../docs/wissen-macht-wirklichkeit.html)
+
+**Nicht übernommen:** `docs/promptbibliothek.html` mit der 47er-Bibliothek, soweit dort nicht freigegebene Meta-Prompttexte referenziert werden; stattdessen die öffentliche aggregierte Lesesicht `docs/projektmanagement.html#prompt-workflow`. Die übrigen Konfliktdateien aus dem Zweig werden nicht ohne Original-/Regressionstest überschrieben.
