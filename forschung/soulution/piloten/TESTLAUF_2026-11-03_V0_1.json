@@ -1,0 +1,139 @@
+{
+  "schema": "soulution.test-run.v0.1",
+  "date": "2026-11-03",
+  "case_id": "SVIK-001",
+  "summary": "Teiltest: 15 Aufgaben triagiert, 6 synthetische Fristen-Gegenproben bestanden, mehrere Datenzugriffe geblockt; keine Publikationsfreigabe",
+  "statuses": [
+    {
+      "id": "VP-01",
+      "status": "teilrecherchiert",
+      "detail": "NKR 2024 meldet 45 fällige Evaluationen; zehn eindeutige Einzelakten noch nicht validiert"
+    },
+    {
+      "id": "VP-02",
+      "status": "technisch_getestet_fachlich_offen",
+      "detail": "6/6 synthetische Fristen-Unit-Tests bestanden; echte Rechtsfälle fehlen"
+    },
+    {
+      "id": "VP-03",
+      "status": "blockiert",
+      "detail": "DIP-API dokumentiert; HTTPS aus Testumgebung nicht erreichbar; kein Delta-Abruf"
+    },
+    {
+      "id": "VP-04",
+      "status": "teilrecherchiert",
+      "detail": "Gesetzliche Grundlagen identifiziert; Norm-/Fristen-Crosswalk offen"
+    },
+    {
+      "id": "VP-05",
+      "status": "blockiert",
+      "detail": "SVIK-Datendownloadangebote nachgewiesen; kein direkter Dateidownload aus Testumgebung"
+    },
+    {
+      "id": "VP-06",
+      "status": "offen",
+      "detail": "Keine Quelltabelle maschinell eingelesen; kein Empfängerfluss nachgerechnet"
+    },
+    {
+      "id": "VP-07",
+      "status": "offen",
+      "detail": "BMF-/IW-Rechenwege nicht unabhängig reproduziert"
+    },
+    {
+      "id": "VP-08",
+      "status": "teilrecherchiert",
+      "detail": "BMF-Monitoringbericht und Ziel-/Meilensteinansatz nachgewiesen; Vollakte fehlt"
+    },
+    {
+      "id": "VP-09",
+      "status": "offen",
+      "detail": "Fünf konkrete Kontrollketten nicht abgearbeitet"
+    },
+    {
+      "id": "VP-10",
+      "status": "teilrecherchiert",
+      "detail": "Vorhandene Lösungen gesichtet, Vergleichstests fehlen"
+    },
+    {
+      "id": "VP-11",
+      "status": "offen",
+      "detail": "Noch keine zwei wirklich identischen Durchläufe auf eingefrorenem Datensatz"
+    },
+    {
+      "id": "VP-12",
+      "status": "teilgetestet",
+      "detail": "GitHub-15-Task-Register, 7 Quellgruppen, 6 Skillkandidaten, 6 Inventargruppen gelesen; keine Ausführung von Skills"
+    },
+    {
+      "id": "VP-13",
+      "status": "offen",
+      "detail": "Keine fachlich validierte Relations-/Tensorübernahme"
+    },
+    {
+      "id": "VP-14",
+      "status": "blockiert",
+      "detail": "Originalbücher nicht als vollständige Original-PDFs in der Testumgebung; No-Loss-Datei vorhanden"
+    },
+    {
+      "id": "VP-15",
+      "status": "teilgetestet",
+      "detail": "Draft-PR #2 und Projektdateien vorhanden; UI-/Linktests offen"
+    }
+  ],
+  "evidence": [
+    {
+      "source": "NKR Jahresbericht 2024",
+      "url": "https://www.normenkontrollrat.de/Webs/NKR/SharedDocs/Downloads/DE/Jahresberichte/2024-jahresbericht.pdf?__blob=publicationFile&v=3",
+      "verified_as": "indexed document / official text",
+      "note": "45 fällige Evaluationen; acht fertig ohne Unterrichtung, keine identifizierten 45 Einzelakten"
+    },
+    {
+      "source": "BMF SVIK Monitoringbericht 2025",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/Broschueren_Bestellservice/svik-monitoringbericht-2025.html",
+      "verified_as": "official publication listing",
+      "note": "348-seitiger Bericht; Veröffentlichung 01.06.2026, keine vollständige tabellarische Reproduktion"
+    },
+    {
+      "source": "Bundeshaushalt SVIK Portal",
+      "url": "https://www.bundeshaushalt.de/DE/SVIK/ueber-das-sondervermoegen.html",
+      "verified_as": "official indexed portal",
+      "note": "Bund- und Länder-Dashboard erwähnt; Download-Test scheiterte an Netzwerk der Testumgebung"
+    },
+    {
+      "source": "DIP API Kurzdokumentation",
+      "url": "https://dip.bundestag.de/documents/informationsblatt_zur_dip_api.pdf",
+      "verified_as": "official indexed documentation",
+      "note": "REST API und aktualisiert-Filter; Live-Abruf nicht erfolgreich"
+    }
+  ],
+  "tests": {
+    "name": "synthetic_deadline_classifier",
+    "executed": true,
+    "environment": "local Python unittest",
+    "cases": 6,
+    "passed": 6,
+    "failed": 0,
+    "rule": "fristenbezogene Statusklassifikation anhand vorgegebener Daten, KEINE automatische Normfristenberechnung",
+    "cases_passed": [
+      "future/not due",
+      "on-time",
+      "late",
+      "due and no evidence",
+      "law changed",
+      "unverified evidence"
+    ]
+  },
+  "access_attempts": [
+    {
+      "host": "bundeshaushalt.de",
+      "result": "connection_error",
+      "interpretation": "test_environment_blocker_only"
+    },
+    {
+      "host": "search.dip.bundestag.de",
+      "result": "connection_error",
+      "interpretation": "test_environment_blocker_only"
+    }
+  ],
+  "publication_ready": false
+}

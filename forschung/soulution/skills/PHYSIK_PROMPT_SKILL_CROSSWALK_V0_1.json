@@ -1,0 +1,149 @@
+{
+  "schema": "soulution.physics-prompt-skill-crosswalk.v0.1",
+  "as_of": "2026-11-03",
+  "status": "partial_integration_not_tensor_validated",
+  "physics_test": {
+    "id": "PHYS-OSC-001",
+    "test_count": 9,
+    "passed": 9,
+    "physics_position_error_m": 9.892442420778025e-11,
+    "max_relative_energy_drift": 1.3189923227704034e-10
+  },
+  "skills": [
+    {
+      "id": "PHYS-S01",
+      "name": "Modell/Parameter",
+      "state": "partial"
+    },
+    {
+      "id": "PHYS-S02",
+      "name": "Symbolik",
+      "state": "executed"
+    },
+    {
+      "id": "PHYS-S03",
+      "name": "Numerik",
+      "state": "executed"
+    },
+    {
+      "id": "PHYS-S04",
+      "name": "Gegenprobe",
+      "state": "executed"
+    },
+    {
+      "id": "PHYS-S05",
+      "name": "Rueckrechnung/Dimension",
+      "state": "executed"
+    },
+    {
+      "id": "PHYS-S06",
+      "name": "Skillgraph",
+      "state": "executed"
+    }
+  ],
+  "prompts": {
+    "H1": [
+      "SK-PDF-EXTRACT",
+      "SK-EVIDENCE"
+    ],
+    "H2": [
+      "SK-FIN-FLOW",
+      "SK-VIZ",
+      "PHYS-S05"
+    ],
+    "H3": [
+      "SK-EVIDENCE",
+      "PHYS-S04"
+    ],
+    "H4": [
+      "SK-LEGAL-TRACE",
+      "SK-EVIDENCE"
+    ],
+    "H5": [
+      "SK-EVIDENCE",
+      "SK-VIZ"
+    ],
+    "P01": [
+      "SK-PDF-EXTRACT",
+      "SK-EVIDENCE"
+    ],
+    "P02": [
+      "SK-FIN-FLOW",
+      "SK-VIZ"
+    ],
+    "P03": [
+      "SK-EVIDENCE",
+      "PHYS-S04"
+    ],
+    "P04": [
+      "SK-FIN-FLOW",
+      "SK-EVIDENCE",
+      "PHYS-S05"
+    ],
+    "P05": [
+      "SK-EVIDENCE",
+      "SK-VIZ"
+    ],
+    "P06": [
+      "SK-PDF-EXTRACT",
+      "PHYS-S06"
+    ],
+    "P07": [
+      "SK-LEGAL-TRACE",
+      "SK-EVIDENCE"
+    ],
+    "P08": [
+      "SK-REL",
+      "PHYS-S06"
+    ]
+  },
+  "non_prompt_tests": [
+    {
+      "id": "PHYS-OSC-001",
+      "status": "executed",
+      "checks": 9
+    },
+    {
+      "id": "PHYS-ROUTE-001",
+      "status": "structural_simulation",
+      "checks": 3
+    },
+    {
+      "id": "TENSOR-GATE-001",
+      "status": "synthetic_structure_check",
+      "checks": 3
+    }
+  ],
+  "libraries": [
+    {
+      "name": "SymPy",
+      "state": "installed_executed"
+    },
+    {
+      "name": "SciPy",
+      "state": "installed_executed"
+    },
+    {
+      "name": "NumPy",
+      "state": "installed_executed"
+    },
+    {
+      "name": "NetworkX",
+      "state": "installed_executed"
+    },
+    {
+      "name": "QuTiP",
+      "state": "candidate_not_installed"
+    },
+    {
+      "name": "Scikit-HEP",
+      "state": "candidate_not_installed"
+    }
+  ],
+  "limitations": [
+    "No successful new third party package download: DNS blocked",
+    "No real multiagent execution",
+    "No validated trinity or 27-field tensor",
+    "Prompt mapping is conceptual, not benchmarking outcome"
+  ]
+}

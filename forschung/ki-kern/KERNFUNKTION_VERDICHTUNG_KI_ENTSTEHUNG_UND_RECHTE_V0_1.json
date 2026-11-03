@@ -1,0 +1,98 @@
+{
+  "schema": "ki-tensor.kernskill-wissensvernetzung-forschung.v0.1",
+  "date": "2026-11-03",
+  "status": "research_plan_not_executed",
+  "main_question": "Welche Fähigkeiten, insbesondere unabhängig geprüfte Ableitungen, entstehen durch klare Kernskills, deren selektive Komposition, breite Wissensvernetzung, relationale Tensorisierung und lernende Erweiterungen?",
+  "benchmarks": [
+    "Minimal",
+    "Selektiv",
+    "Vernetzt",
+    "Tensoriert",
+    "LernendHybrid"
+  ],
+  "metric_priority": [
+    "independent_correct_derivations",
+    "solved_unseen_task_classes",
+    "source_traceability",
+    "negative_test_detection",
+    "latency",
+    "memory",
+    "code_reuse"
+  ],
+  "tensor_qualification": "three independently justified trinitates of three elements, 27 fully tested positions, no automatic validation",
+  "tasks": [
+    {
+      "id": "KI-KERN-01",
+      "title": "Verdichtetes wissenschaftliches Kernskillinventar",
+      "prompt": "Prüfe zehn vorhandene wissenschaftliche Skills auf implementierten Kern, Originalbibliothek, Eingaben, Ausgaben, Tests, Geltungsbedingungen, Wiederverwendung und Quellen. Identifiziere vollständig ausgeführte und bloß geplante Skills getrennt.",
+      "acceptance": "10 nachvollziehbare Skillakten; wenigstens 3 echte negative Tests",
+      "status": "open_not_executed",
+      "role": "meta_research"
+    },
+    {
+      "id": "KI-KERN-02",
+      "title": "Architekturvergleich Minimal/Selektiv/Maximal/Tensor/Lernend",
+      "prompt": "Gib allen fünf Systemvarianten denselben eingefrorenen Aufgaben- und Quellenbestand. Protokolliere zusätzliche korrekte Ableitungen, ungeprüfte Behauptungen, Kosten, Ausführungszeit, Speicher, Generalisierung und Fehlerraten. Ein tensoriertes System ohne geprüfte Trinitäten bleibt Versuchsarm ohne validiertes Resultat.",
+      "acceptance": "Versionierter Benchmark und Gegenproben, Nullresultate dokumentiert",
+      "status": "open_not_executed",
+      "role": "meta_research"
+    },
+    {
+      "id": "KI-KERN-03",
+      "title": "Gesichertes Tensor-Ableitungsspektrum",
+      "prompt": "Rekonstruiere eine fachlich geprüfte Relationsfamilie und vergleiche ihre bekannten und neuen korrekten Aussagen gegen eine gewöhnliche Skillkette. Drei Trinitäten mit je drei Elementen und 27 Positionen sind Voraussetzung, nicht Ergebnisersatz.",
+      "acceptance": "Fachlich geprüfte Feldakten, neue richtige Ableitungen oder belegtes Nullresultat",
+      "status": "open_not_executed",
+      "role": "meta_research"
+    },
+    {
+      "id": "KI-EPI-001",
+      "title": "Weltwissen und epistemische Abhängigkeit",
+      "prompt": "Untersuche am kontrollierten Korpus aus übersetzter Fiktion, empirischem Wissen, abhängigen Sekundärquellen und widersprüchlichen Studien, wie ein KI- oder Regelsystem Aussagenquellen, Unabhängigkeit, Geltung und Korrektur unterscheidet.",
+      "acceptance": "Quellengraph, unabhängige Referenzwertung und dokumentierte Fehlerklassen",
+      "status": "open_not_executed",
+      "role": "meta_research"
+    },
+    {
+      "id": "KI-RECHTE-001",
+      "title": "Trainingsdaten: gesellschaftliche und rechtliche Rechenschaft",
+      "prompt": "Vergleiche private Filesharing-Verfahren und KI-Trainingsdatenfälle nach Land, Jahr, Beschaffungsweg, Verwendungsart, Anspruchsgrundlage, Zivil-/Strafverfahren, Rechtsfolge, Vergütung, Macht und Rechenschaft. Trenne rechtskräftige Feststellungen und Vergleiche von Vorwürfen.",
+      "acceptance": "Quellengebundene Vergleichsmatrix ohne pauschale Strafbehauptungen",
+      "status": "open_not_executed",
+      "role": "meta_research"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bartz v. Anthropic fair-use order 2025",
+      "url": "https://www.wipo.int/wipolex/en/text/600719",
+      "purpose": "training versus pirated storage distinction"
+    },
+    {
+      "title": "Bartz final class settlement 2026",
+      "url": "https://law.justia.com/cases/federal/district-courts/california/candce/4%3A2024cv05417/434709/680/",
+      "purpose": "civil settlement, no criminal conviction"
+    },
+    {
+      "title": "EFF RIAA v the People",
+      "url": "https://www.eff.org/wp/riaa-v-people-five-years-later",
+      "purpose": "historical private filesharing enforcement"
+    },
+    {
+      "title": "UrhG §44b",
+      "url": "https://www.gesetze-im-internet.de/urhg/__44b.html",
+      "purpose": "German TDM rule"
+    },
+    {
+      "title": "UrhG §97a",
+      "url": "https://www.gesetze-im-internet.de/urhg/__97a.html",
+      "purpose": "German copyright cease/desist warnings"
+    },
+    {
+      "title": "EU AI Act Article 53",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53",
+      "purpose": "GPAI transparency and copyright policies"
+    }
+  ],
+  "website": "docs/ki-kernforschung.html"
+}

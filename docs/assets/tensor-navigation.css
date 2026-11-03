@@ -4,3 +4,15 @@ body:has(> .tensor-global-nav){max-width:none!important;margin:0!important;paddi
 body:has(> .tensor-global-nav) > main{width:min(100% - 32px,1080px);max-width:1080px;margin:24px auto;padding:0!important}
 body:has(> .tensor-global-nav) > footer{max-width:1080px;margin:22px auto;padding:15px}
 body.join-page:has(> .tensor-global-nav)>main{width:min(100% - 32px,1120px);max-width:1120px}
+
+/* Reusable interoperability frames: a portable function, task, prompt, agent or meta-position. */
+.interop-frame{display:block;border:1px solid #9eafad;border-left:5px solid #5a9474;border-radius:11px;padding:13px 16px;margin:13px 0 16px;background:color-mix(in srgb,Canvas 93%,#8abca1);overflow-wrap:anywhere;scroll-margin-top:85px}
+.interop-frame .interop-frame-title{display:block;font-weight:750;margin:0 0 7px;font-size:.92rem}
+.interop-frame .interop-frame-meta{font-size:.78rem;opacity:.78;margin:6px 0}
+.interop-frame details{border:1px solid #9eafad77;border-radius:8px;padding:9px 11px;margin-top:8px;background:color-mix(in srgb,Canvas 96%,#9cb0bd)}
+.interop-frame summary{cursor:pointer;font-weight:650}
+.interop-frame pre{max-width:100%;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.5}
+.interop-frame[data-role="meta"],.interop-frame-meta-task{border-color:#7e99b8;border-left-color:#517da3;background:color-mix(in srgb,Canvas 93%,#a9c9e1)}
+.interop-frame[data-role="agent"]{border-color:#9c8cbe;border-left-color:#866ca8;background:color-mix(in srgb,Canvas 93%,#bbace1)}
+.interop-frame[data-role="open-research"]{border-color:#b88086;border-left-color:#ae4854;background:color-mix(in srgb,Canvas 93%,#e8b9bf)}
+.interop-frame[data-role="skill"]{border-color:#769585;border-left-color:#427a62;background:color-mix(in srgb,Canvas 93%,#a8c6b7)}

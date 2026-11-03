@@ -1,0 +1,56 @@
+{
+  "schema": "soulution.structure-simulation.v0.1",
+  "as_of": "2026-11-03",
+  "checks": [
+    {
+      "id": "AGENT-ROLES-001",
+      "passed": true,
+      "kind": "simulated_typed_handoffs",
+      "note": "4 logical role interfaces, missing source ID rejected; not autonomous agent execution"
+    },
+    {
+      "id": "MINIKI-FEEDBACK-001",
+      "passed": true,
+      "kind": "deterministic_policy",
+      "baseline_energy_drift": 7803.692302681244,
+      "adjusted_energy_drift": 8.243139504315877e-11,
+      "note": "preprogrammed method selection; no learned adaptation"
+    },
+    {
+      "id": "CHAPTER-SKILL-001",
+      "passed": true,
+      "kind": "chapter_dependency_graph",
+      "chapters": 13
+    },
+    {
+      "id": "SOURCE-STATUS-001",
+      "passed": true,
+      "kind": "missing_data_semantics",
+      "note": "network failure not mapped to absence of data"
+    }
+  ],
+  "other_tests": [
+    {
+      "id": "PHYS-OSC-001",
+      "passed": 9,
+      "of": 9
+    },
+    {
+      "id": "PHYS-ROUTE-001",
+      "passed": 3,
+      "of": 3
+    },
+    {
+      "id": "TENSOR-GATE-001",
+      "passed": 3,
+      "of": 3,
+      "meaning": "formal count check only; no relation validation"
+    }
+  ],
+  "reproducible_source": "Conversation attachment SOULution_Physik_Skillbibliothek_Pilot_v01.zip; scripts run_physics_skill_tests.py and run_nonprompt_structure_tests.py",
+  "limitations": [
+    "No real autonomous agents were run",
+    "No physics tensor validated",
+    "No fresh external library download succeeded"
+  ]
+}

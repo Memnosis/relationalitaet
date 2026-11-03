@@ -5,7 +5,7 @@
       "id": "GEO-M1",
       "title": "Generieren – Komponieren – Prüfen – Exportieren",
       "area": "Geo-KI",
-      "status": "prompt-vorbereitet",
+      "status": "teilweise-ausgefuehrt",
       "priority": "hoch",
       "goal": "Verbinde den bestehenden geometrischen Python-Kern mit typisierten Operatoren, einer Testpipeline, mindestens einer SVG-Ausgabe und einer inversen/semantischen Rückprüfung.",
       "result": "Ein End-to-End-Fall von Grundform über Operatorfolge und Rücktest bis SVG/JSON mit dokumentierten Abnahmekriterien.",
@@ -25,7 +25,22 @@
         "Negativtest sowie Rückprobe",
         "Abnahme und No-Loss-Protokoll"
       ],
-      "meta_prompt": "Entwickle einen Prompt für GEO-M1: Generieren – Komponieren – Prüfen – Exportieren.\n1. Ausgangsbasis und Ziel: Verbinde den bestehenden geometrischen Python-Kern mit typisierten Operatoren, einer Testpipeline, mindestens einer SVG-Ausgabe und einer inversen/semantischen Rückprüfung.\n2. Wissenschaftliche und technische Originalunterlagen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md\n4. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json\n5. https://memnosis.github.io/relationalitaet/medien.html\n3. Bestandsaudit: Trenne bereits ausführbaren Code, recherchierte Bibliotheken, noch offene Daten und eigene Annahmen.\n4. Eingaben, Formate, Schnittstellen, Semantik, Versionen und Lizenzen.\n5. Konkrete Operatorfolge, Komposition, Prüf- und Rückrechnungslogik.\n6. Fehlerfälle, Nicht-Äquivalenz von Konvertierungen, beobachtete Nebenwirkungen und Rückrollmechanismus.\n7. Liefergegenstände und Tests: Ein End-to-End-Fall von Grundform über Operatorfolge und Rücktest bis SVG/JSON mit dokumentierten Abnahmekriterien.\n8. Definition of Done: Reproduzierbarkeit, Tests und No-Loss-Übergabe.\nErzeuge zuerst den vollständigen Arbeits-Prompt und bestätige keine nicht ausgeführten Operationen."
+      "meta_prompt": "Entwickle einen Prompt für GEO-M1: Generieren – Komponieren – Prüfen – Exportieren.\n1. Ausgangsbasis und Ziel: Verbinde den bestehenden geometrischen Python-Kern mit typisierten Operatoren, einer Testpipeline, mindestens einer SVG-Ausgabe und einer inversen/semantischen Rückprüfung.\n2. Wissenschaftliche und technische Originalunterlagen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md\n4. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json\n5. https://memnosis.github.io/relationalitaet/medien.html\n3. Bestandsaudit: Trenne bereits ausführbaren Code, recherchierte Bibliotheken, noch offene Daten und eigene Annahmen.\n4. Eingaben, Formate, Schnittstellen, Semantik, Versionen und Lizenzen.\n5. Konkrete Operatorfolge, Komposition, Prüf- und Rückrechnungslogik.\n6. Fehlerfälle, Nicht-Äquivalenz von Konvertierungen, beobachtete Nebenwirkungen und Rückrollmechanismus.\n7. Liefergegenstände und Tests: Ein End-to-End-Fall von Grundform über Operatorfolge und Rücktest bis SVG/JSON mit dokumentierten Abnahmekriterien.\n8. Definition of Done: Reproduzierbarkeit, Tests und No-Loss-Übergabe.\nErzeuge zuerst den vollständigen Arbeits-Prompt und bestätige keine nicht ausgeführten Operationen.",
+      "execution": {
+        "as_of": "2026-11-03",
+        "status": "local_e2e_test_executed",
+        "result": "Geometrie aus v0.4 geladen, Rotation und Rückrotation geprüft; erhaltene Polygonfläche geprüft; dazu aus derselben Eingabe SVG und JSON erstellt.",
+        "limits": [
+          "Only 2D rotation + inverse, not full generic operator pipeline",
+          "Rendered SVG not visually browser-tested",
+          "Semantic reconstruction limited to numeric inverse"
+        ],
+        "evidence": [
+          "forschung/geoki/v0_4/src/geometry.py",
+          "forschung/geoki/v0_4/tests/test_composition_extension.py",
+          "docs/assets/media/geoki_rotation_verified.svg"
+        ]
+      }
     },
     {
       "id": "FMT-H01",

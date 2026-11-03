@@ -1,0 +1,256 @@
+{
+  "schema": "soulution.shared-crosswalk.v0.1",
+  "as_of": "2026-11-03",
+  "status": "review_required",
+  "principle": "one-source-multiple-uses-separate-verification",
+  "sources": [
+    {
+      "id": "REG-SOUL",
+      "path": "forschung/soulution/register",
+      "kind": "existing_git",
+      "reuse": [
+        "publication",
+        "operations",
+        "research objects"
+      ],
+      "gap": "not yet unified machine registry"
+    },
+    {
+      "id": "REG-TASK",
+      "path": "forschung/website/MITMACH_TASKS.json",
+      "kind": "existing_git",
+      "reuse": [
+        "tasks",
+        "prompt metadata",
+        "links"
+      ],
+      "gap": "add project and skill references"
+    },
+    {
+      "id": "REG-INV",
+      "path": "docs/data/inventar.json",
+      "kind": "existing_git",
+      "reuse": [
+        "inventory and historical status"
+      ],
+      "gap": "local_only entries must not be counted as imported"
+    },
+    {
+      "id": "REG-GLOSS",
+      "path": "docs/data/glossar-kern.json",
+      "kind": "existing_git",
+      "reuse": [
+        "terminology"
+      ],
+      "gap": "validate historical glossary crosswalk"
+    },
+    {
+      "id": "REG-TEST",
+      "path": "forschung/register/B3_B4_ERGEBNISBILANZ.md",
+      "kind": "existing_git",
+      "reuse": [
+        "audit",
+        "test summaries"
+      ],
+      "gap": "machine-test records and source evidence"
+    },
+    {
+      "id": "REG-SKILL",
+      "path": "forschung/minimal-ki/beobachter-v0_1",
+      "kind": "existing_git",
+      "reuse": [
+        "observer prototype"
+      ],
+      "gap": "executable and repeatability audit"
+    },
+    {
+      "id": "REG-PUB",
+      "path": "forschung/website/SOULUTION_TIEFENPLAN_UND_FINANZSIMULATION_2026-11-01.md",
+      "kind": "existing_git",
+      "reuse": [
+        "object schema",
+        "financial simulation plan"
+      ],
+      "gap": "connect new evidence-pilot"
+    }
+  ],
+  "object_families": [
+    {
+      "type": "source",
+      "shared": true,
+      "required": [
+        "id",
+        "uri",
+        "publisher",
+        "version",
+        "retrieved_at",
+        "rights",
+        "status"
+      ]
+    },
+    {
+      "type": "claim",
+      "shared": true,
+      "required": [
+        "id",
+        "source_ids",
+        "claim_kind",
+        "definition",
+        "evidence_status"
+      ]
+    },
+    {
+      "type": "institution",
+      "shared": true,
+      "required": [
+        "id",
+        "legal_basis",
+        "responsibility",
+        "valid_from",
+        "source_ids"
+      ]
+    },
+    {
+      "type": "financial_flow",
+      "shared": true,
+      "required": [
+        "id",
+        "amount",
+        "currency",
+        "period",
+        "budget_stage",
+        "source_ids",
+        "from_id",
+        "to_id"
+      ]
+    },
+    {
+      "type": "goal_evaluation",
+      "shared": true,
+      "required": [
+        "id",
+        "goal_id",
+        "metric",
+        "baseline",
+        "due_date",
+        "status",
+        "source_ids"
+      ]
+    },
+    {
+      "type": "relation",
+      "shared": true,
+      "required": [
+        "id",
+        "subject_id",
+        "predicate",
+        "object_id",
+        "source_ids",
+        "test_ids"
+      ]
+    },
+    {
+      "type": "skill",
+      "shared": true,
+      "required": [
+        "id",
+        "input_schema",
+        "output_schema",
+        "implementation",
+        "license",
+        "tests",
+        "status"
+      ]
+    },
+    {
+      "type": "prompt",
+      "shared": true,
+      "required": [
+        "id",
+        "reader_version",
+        "professional_task_id",
+        "expected_output",
+        "validation"
+      ]
+    },
+    {
+      "type": "tensor_candidate",
+      "shared": false,
+      "required": [
+        "id",
+        "trinity_ids",
+        "field_count",
+        "relations",
+        "evidence",
+        "tests",
+        "status"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "soulution",
+      "owns": [
+        "problem",
+        "solution",
+        "operationalization"
+      ],
+      "consumes": [
+        "source",
+        "claim",
+        "relation",
+        "skill",
+        "test"
+      ]
+    },
+    {
+      "id": "research-engine",
+      "owns": [
+        "workflow",
+        "run",
+        "verification"
+      ],
+      "consumes": [
+        "source",
+        "claim",
+        "relation",
+        "skill",
+        "test"
+      ]
+    },
+    {
+      "id": "ki-tensor",
+      "owns": [
+        "trinity",
+        "tensor_candidate",
+        "field"
+      ],
+      "consumes": [
+        "source",
+        "claim",
+        "relation",
+        "skill",
+        "test"
+      ]
+    },
+    {
+      "id": "mini-ki",
+      "owns": [
+        "orchestration",
+        "learning_trial"
+      ],
+      "consumes": [
+        "skill",
+        "workflow",
+        "test"
+      ]
+    }
+  ],
+  "rules": [
+    "Never promote local_only to on_git without actual artifact",
+    "No duplicate source records for each project",
+    "No tensor accepted merely for three-item grouping",
+    "Separate planned, executed and validated skills",
+    "Cite original versions and status; no invented completeness claims"
+  ]
+}

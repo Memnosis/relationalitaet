@@ -1,0 +1,1374 @@
+{
+  "schema": "soulution.promptbibliothek.v1",
+  "as_of": "2026-11-03",
+  "source_count": 4,
+  "source_files": [
+    "forschung/soulution/shared/buch-prompts-v0.1.json",
+    "forschung/soulution/piloten/VORPUBLIKATION_TASKS_V0_1.json",
+    "forschung/website/MITMACH_TASKS.json",
+    "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json"
+  ],
+  "scope": "H1-H5, 15 VP, 13 Mitmach, 7 Geo/Format, 7 central/metaprompts",
+  "policy": {
+    "source_of_truth": "per original file; copy retains IDs; avoid duplicate skills",
+    "test_levels": [
+      "draft",
+      "source_case_verified",
+      "structural_test",
+      "actual_execution",
+      "independently_validated"
+    ],
+    "execution_first": true,
+    "meta_prompt_frame_required": true,
+    "never_claim_all_tested": true
+  },
+  "counts": {
+    "leser": 5,
+    "fachforschung": 15,
+    "mitmachen": 13,
+    "geoki_format": 7,
+    "meta": 7
+  },
+  "validation": {
+    "unique_ids": true,
+    "nonempty_prompts": true,
+    "explicit_status": true,
+    "all_have_io": true,
+    "claim_limit": "source-case confirmation is NOT an AI response execution benchmark",
+    "status_set": [
+      "source_case_verified_not_llm_benchmarked",
+      "open_not_completed",
+      "prior_partial_rule_test_requires_reconcile",
+      "partial_test_with_evidence",
+      "prompt_prepared_only",
+      "designed_not_benchmarked"
+    ]
+  },
+  "source_based_cases": {
+    "count": 12,
+    "anchored": 12,
+    "executed_model_benchmarks": 0,
+    "evidence_source": "local artifact promptbibliothek/source_case_results.json"
+  },
+  "items": [
+    {
+      "id": "H1",
+      "family": "leser",
+      "title": "Kann das stimmen?",
+      "prompt": "Prüfe die Behauptung [TEXT]. Finde Ursprung, Datierung, Originalquelle und Gegenbefunde. Trenne belegte Aussagen, Interpretation und offene Fragen. Nenne Fundstellen und sage ausdrücklich, was nicht geprüft werden konnte.",
+      "purpose": "claim-check",
+      "inputs": [
+        "konkrete Fragestellung",
+        "Stichtag bzw Zeitraum",
+        "Originalquellen soweit verfügbar"
+      ],
+      "outputs": [
+        "strukturierte Antwort",
+        "Fundstellen",
+        "Unsicherheiten",
+        "nächster Prüfschritt"
+      ],
+      "tests": {
+        "construction": "passed_source_case",
+        "source_case_id": "H1",
+        "model_output": "single_model_authored_demonstration_not_independently_validated",
+        "independent_scientific_validation": "not_complete",
+        "model_comparison": "not_run",
+        "example_description": "Transparenz durch Veröffentlichung genügt nicht ohne tatsächlichen Zugang, Prüfung und Rechenschaft (Öffentliches Potenzial)."
+      },
+      "status": "single_demonstration_with_source_case_not_independently_validated",
+      "links": {
+        "professional_tasks": [
+          "VP-01",
+          "VP-07",
+          "VP-11"
+        ],
+        "site": "docs/wissen-macht-wirklichkeit.html",
+        "example": "local conversation artifact LESERPROMPTS_5_ANWENDUNGSBEISPIELE.md"
+      },
+      "provenance": "forschung/soulution/shared/buch-prompts-v0.1.json"
+    },
+    {
+      "id": "H2",
+      "family": "leser",
+      "title": "Folge dem Geld",
+      "prompt": "Untersuche [AUSGABE] für [JAHR]. Unterscheide Kreditermächtigung, Ansatz, Bewilligung, Auszahlung und wirtschaftliche Folgeflüsse. Zeichne nur belegte Flüsse; zeige Quellen, Unbekanntes und mögliche Doppelzählungen.",
+      "purpose": "financial-flow",
+      "inputs": [
+        "konkrete Fragestellung",
+        "Stichtag bzw Zeitraum",
+        "Originalquellen soweit verfügbar"
+      ],
+      "outputs": [
+        "strukturierte Antwort",
+        "Fundstellen",
+        "Unsicherheiten",
+        "nächster Prüfschritt"
+      ],
+      "tests": {
+        "construction": "passed_source_case",
+        "source_case_id": "H2",
+        "model_output": "single_model_authored_demonstration_not_independently_validated",
+        "independent_scientific_validation": "not_complete",
+        "model_comparison": "not_run",
+        "example_description": "Originalbücher enthalten keine auszahlungsgenauen SVIK-Endempfänger; Aufgabe muss Datenlücke statt erfundener Geldflüsse ausweisen."
+      },
+      "status": "single_demonstration_with_source_case_not_independently_validated",
+      "links": {
+        "professional_tasks": [
+          "VP-05",
+          "VP-06",
+          "VP-11"
+        ],
+        "site": "docs/wissen-macht-wirklichkeit.html",
+        "example": "local conversation artifact LESERPROMPTS_5_ANWENDUNGSBEISPIELE.md"
+      },
+      "provenance": "forschung/soulution/shared/buch-prompts-v0.1.json"
+    },
+    {
+      "id": "H3",
+      "family": "leser",
+      "title": "Woher wissen wir das?",
+      "prompt": "Untersuche [MASSNAHME] und [WIRKUNG]. Unterscheide Erwartungen, empirische Beobachtungen und kausale Evaluationen; dokumentiere Studie, Zeitraum, Methode, Unsicherheit und Gegenbefunde.",
+      "purpose": "evidence",
+      "inputs": [
+        "konkrete Fragestellung",
+        "Stichtag bzw Zeitraum",
+        "Originalquellen soweit verfügbar"
+      ],
+      "outputs": [
+        "strukturierte Antwort",
+        "Fundstellen",
+        "Unsicherheiten",
+        "nächster Prüfschritt"
+      ],
+      "tests": {
+        "construction": "passed_source_case",
+        "source_case_id": "H3",
+        "model_output": "single_model_authored_demonstration_not_independently_validated",
+        "independent_scientific_validation": "not_complete",
+        "model_comparison": "not_run",
+        "example_description": "Das Öffentlichkeits-Audit ist ein Theorie- und Forschungsmodell, dessen vollständige unabhängige Validierung nicht aus dem Buchtext folgt."
+      },
+      "status": "single_demonstration_with_source_case_not_independently_validated",
+      "links": {
+        "professional_tasks": [
+          "VP-08",
+          "VP-09",
+          "VP-11"
+        ],
+        "site": "docs/wissen-macht-wirklichkeit.html",
+        "example": "local conversation artifact LESERPROMPTS_5_ANWENDUNGSBEISPIELE.md"
+      },
+      "provenance": "forschung/soulution/shared/buch-prompts-v0.1.json"
+    },
+    {
+      "id": "H4",
+      "family": "leser",
+      "title": "Prüfe den öffentlichen Auftrag",
+      "prompt": "Prüfe [VORHABEN] zum Stichtag [DATUM]. Ermittle Problem, Evidenz, Ziel, Indikator, Haushaltsmittel, Evaluation, Kontrolle und Rechenschaft. Unterscheide durchgeführt, geplant, noch nicht fällig, nicht gefunden und eingeschränkt zugänglich. Gib eine quellengebundene Prüfakte aus.",
+      "purpose": "public-account",
+      "inputs": [
+        "konkrete Fragestellung",
+        "Stichtag bzw Zeitraum",
+        "Originalquellen soweit verfügbar"
+      ],
+      "outputs": [
+        "strukturierte Antwort",
+        "Fundstellen",
+        "Unsicherheiten",
+        "nächster Prüfschritt"
+      ],
+      "tests": {
+        "construction": "passed_source_case",
+        "source_case_id": "H4",
+        "model_output": "single_model_authored_demonstration_not_independently_validated",
+        "independent_scientific_validation": "not_complete",
+        "model_comparison": "not_run",
+        "example_description": "Fünf Rechenschaftsstufen aus Mediale Potenziale als Prüfrahmen; keine pauschale Feststellung staatlicher Pflichtverletzung."
+      },
+      "status": "single_demonstration_with_source_case_not_independently_validated",
+      "links": {
+        "professional_tasks": [
+          "VP-01",
+          "VP-03",
+          "VP-04",
+          "VP-08",
+          "VP-11"
+        ],
+        "site": "docs/wissen-macht-wirklichkeit.html",
+        "example": "local conversation artifact LESERPROMPTS_5_ANWENDUNGSBEISPIELE.md"
+      },
+      "provenance": "forschung/soulution/shared/buch-prompts-v0.1.json"
+    },
+    {
+      "id": "H5",
+      "family": "leser",
+      "title": "Was könnte funktionieren?",
+      "prompt": "Untersuche [PROBLEM]. Finde vorhandene Lösungen, Einsatzbedingungen, Ressourcen, dokumentierte Wirkungen und Unsicherheiten. Schlage eine überprüfbare Anschlussfrage vor und vermeide unbelegte Erfolgsbehauptungen.",
+      "purpose": "solution",
+      "inputs": [
+        "konkrete Fragestellung",
+        "Stichtag bzw Zeitraum",
+        "Originalquellen soweit verfügbar"
+      ],
+      "outputs": [
+        "strukturierte Antwort",
+        "Fundstellen",
+        "Unsicherheiten",
+        "nächster Prüfschritt"
+      ],
+      "tests": {
+        "construction": "passed_source_case",
+        "source_case_id": "H5",
+        "model_output": "single_model_authored_demonstration_not_independently_validated",
+        "independent_scientific_validation": "not_complete",
+        "model_comparison": "not_run",
+        "example_description": "Isolierte Lösungskraft durch Dokumentation und Lernmedien anschlussfähig machen; strukturelle Wirkung bleibt fallbezogen zu testen."
+      },
+      "status": "single_demonstration_with_source_case_not_independently_validated",
+      "links": {
+        "professional_tasks": [
+          "VP-10",
+          "VP-11",
+          "VP-12"
+        ],
+        "site": "docs/wissen-macht-wirklichkeit.html",
+        "example": "local conversation artifact LESERPROMPTS_5_ANWENDUNGSBEISPIELE.md"
+      },
+      "provenance": "forschung/soulution/shared/buch-prompts-v0.1.json"
+    },
+    {
+      "id": "VP-01",
+      "family": "fachforschung",
+      "title": "Historischer Evaluierungs- und Fristenatlas",
+      "prompt": "Extrahiere aus drei datierten NKR-Berichten eine quellengenaue Stichprobe von mindestens 10 einzeln identifizierbaren Evaluierungspflichten. Erfasse Rechtsbasis, zuständige Stelle, Fristauslöser, Fälligkeit, tatsächliche Durchführung, Bericht/Übermittlung, Publikationsdatum, Verfügbarkeit und Änderungen. Trenne nicht auffindbar von verspätet belegt und von nicht fällig. Berechne nur bei nachgewiesenem Nenner eine Fristquote.",
+      "purpose": "reproduzierbarer Forschungsauftrag",
+      "inputs": [
+        "NKR-Berichte, Gesetze und Evaluationsberichte"
+      ],
+      "outputs": [
+        "10 Fallakten mit Quellen und Datumslogik; mindestens 2 vollständig rückverfolgt"
+      ],
+      "tests": {
+        "construction": "registered",
+        "model_output": "not_verified",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "open_not_completed",
+      "links": {
+        "pilot": "SVIK-001",
+        "site": "docs/wissen-macht-wirklichkeit.html"
+      },
+      "provenance": "forschung/soulution/piloten/VORPUBLIKATION_TASKS_V0_1.json"
+    },
+    {
+      "id": "VP-02",
+      "family": "fachforschung",
+      "title": "Fristenregelmaschine und Negativtests",
+      "prompt": "Entwirf eine maschinenlesbare Fristenregel für die Fälle aus VP-01. Prüfe Inkrafttreten, Übergangsrecht, Friständerung, Durchführung, Übermittlung und Veröffentlichung getrennt. Teste 6 Gegenfälle einschließlich noch nicht fällig, nicht veröffentlicht aber durchgeführt, geändert, aufgehoben, verspätet und unbekannt.",
+      "purpose": "reproduzierbarer Forschungsauftrag",
+      "inputs": [
+        "Rechtsquellen, Datumsereignisse, VP-01"
+      ],
+      "outputs": [
+        "6 reproduzierbare Tests mit richtigem Status und Beleg"
+      ],
+      "tests": {
+        "construction": "registered",
+        "model_output": "not_verified",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "prior_partial_rule_test_requires_reconcile",
+      "links": {
+        "pilot": "SVIK-001",
+        "site": "docs/wissen-macht-wirklichkeit.html"
+      },
+      "provenance": "forschung/soulution/piloten/VORPUBLIKATION_TASKS_V0_1.json"
+    },
+    {
+      "id": "VP-03",
+      "family": "fachforschung",
+      "title": "Laufende Entscheidungen und Änderungsmonitor",
+      "prompt": "Prüfe die tatsächliche maschinenlesbare Abrufbarkeit aktueller Verfahrensdaten. Erfasse eine begrenzte Menge neuer/geänderter Vorgänge samt ID, Zeitstempel, amtlicher Quelle und Version. Simuliere mindestens zwei aufeinanderfolgende Abrufe und dokumentiere echte Differenzen ohne erfundene Ereignisse.",
+      "purpose": "reproduzierbarer Forschungsauftrag",
+      "inputs": [
+        "DIP, Bundestagsdrucksachen, ausgewählte Regierungsseiten"
+      ],
+      "outputs": [
+        "Datenabruf, Schema, Deltaprotokoll und Fehlerfall"
+      ],
+      "tests": {
+        "construction": "registered",
+        "model_output": "not_verified",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "open_not_completed",
+      "links": {
+        "pilot": "SVIK-001",
+        "site": "docs/wissen-macht-wirklichkeit.html"
+      },
+      "provenance": "forschung/soulution/piloten/VORPUBLIKATION_TASKS_V0_1.json"
+    },
+    {
+      "id": "VP-04",
+      "family": "fachforschung",
+      "title": "SVIK-Rechts- und Zuständigkeitskette",
+      "prompt": "Ermittle für SVIK jede einschlägige Pflicht und Zuständigkeit mit genauer Normfassung, Fristauslöser, Adressat, Berichtsempfänger und Kontrollbefugnis. Trenne Rechtspflicht, verwaltungsinternen Standard und Forschungsforderung.",
+      "purpose": "reproduzierbarer Forschungsauftrag",
+      "inputs": [
+        "GG, SVIKG, LuKIFG, BMF, Bundestag"
+      ],
+      "outputs": [
+        "Quellengebundene Verantwortungs- und Pflichtmatrix"
+      ],
+      "tests": {
+        "construction": "registered",
+        "model_output": "not_verified",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "open_not_completed",
+      "links": {
+        "pilot": "SVIK-001",
+        "site": "docs/wissen-macht-wirklichkeit.html"
+      },
+      "provenance": "forschung/soulution/piloten/VORPUBLIKATION_TASKS_V0_1.json"
+    },
+    {
+      "id": "VP-05",
+      "family": "fachforschung",
+      "title": "SVIK-Datenzugang und Dateiverarbeitbarkeit",
+      "prompt": "Versuche die amtlichen Downloads tatsächlich herunterzuladen. Dokumentiere URL, Zugangsbedingungen, MIME-Format, Dateihash, Datenjahr, Spalten, Metadaten, Lizenz und maschinelle Lesbarkeit. Trenne öffentlich genannt, erreichbar, heruntergeladen und erfolgreich geparst.",
+      "purpose": "reproduzierbarer Forschungsauftrag",
+      "inputs": [
+        "Bundeshaushalt-Bundesdashboard, Länderdashboard, KTF"
+      ],
+      "outputs": [
+        "Mindestens je 1 belastbarer Datensatz für Bund, Länder und KTF ODER dokumentierter Blocker"
+      ],
+      "tests": {
+        "construction": "registered",
+        "model_output": "not_verified",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "open_not_completed",
+      "links": {
+        "pilot": "SVIK-001",
+        "site": "docs/wissen-macht-wirklichkeit.html"
+      },
+      "provenance": "forschung/soulution/piloten/VORPUBLIKATION_TASKS_V0_1.json"
+    },
+    {
+      "id": "VP-06",
+      "family": "fachforschung",
+      "title": "Finanzfluss Plan–Ist–Bindung–Empfänger",
+      "prompt": "Rekonstruiere die drei Finanzierungssäulen und einen ausgewählten Haushaltstitel mit Ermächtigung, Soll, Bindung, Ist, Erstattung, Empfänger und Leistungsstand. Rechne Summen und Doppelzählungen gegen. Lege für nicht verfügbare Endempfängerdaten explizite Lücken an.",
+      "purpose": "reproduzierbarer Forschungsauftrag",
+      "inputs": [
+        "SVIK-Datensätze und Haushaltspläne"
+      ],
+      "outputs": [
+        "Reproduzierbare Finanzflussakte und Nachrechnung"
+      ],
+      "tests": {
+        "construction": "registered",
+        "model_output": "not_verified",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "open_not_completed",
+      "links": {
+        "pilot": "SVIK-001",
+        "site": "docs/wissen-macht-wirklichkeit.html"
+      },
+      "provenance": "forschung/soulution/piloten/VORPUBLIKATION_TASKS_V0_1.json"
+    },
+    {
+      "id": "VP-07",
+      "family": "fachforschung",
+      "title": "Zusätzlichkeit: Methoden- und Gegenvergleich",
+      "prompt": "Rekonstruiere beide öffentlich verwendeten Zusätzlichkeitsdefinitionen mit Jahren, Bezugsgrößen, Gegenmodellen und Quellen. Prüfe die Rechenwege soweit verfügbar. Stelle Prozentwerte erst bei identischem Nenner einander gegenüber; andernfalls erkläre den Unterschied.",
+      "purpose": "reproduzierbarer Forschungsauftrag",
+      "inputs": [
+        "BMF-Analyse, IW-Analyse, Haushaltsdaten"
+      ],
+      "outputs": [
+        "Methoden-Crosswalk, Rechenversuch, Grenzen"
+      ],
+      "tests": {
+        "construction": "registered",
+        "model_output": "not_verified",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "open_not_completed",
+      "links": {
+        "pilot": "SVIK-001",
+        "site": "docs/wissen-macht-wirklichkeit.html"
+      },
+      "provenance": "forschung/soulution/piloten/VORPUBLIKATION_TASKS_V0_1.json"
+    },
+    {
+      "id": "VP-08",
+      "family": "fachforschung",
+      "title": "Ziele–Meilensteine–Output–Wirkung",
+      "prompt": "Wähle einen konkreten SVIK-Haushaltstitel. Verbinde Mittelabfluss, definierte Zielindikatoren, Meilensteine, nachgewiesenen Output, Outcome und Impact. Prüfe welche Indikatoren nur Planungsfortschritt abbilden und ob Vergleiche zwischen Fachbereichen zulässig sind.",
+      "purpose": "reproduzierbarer Forschungsauftrag",
+      "inputs": [
+        "BMF-Monitoring, Fachressorts, Evaluationen"
+      ],
+      "outputs": [
+        "Eine vollständige Musterakte oder transparent belegte Lücken"
+      ],
+      "tests": {
+        "construction": "registered",
+        "model_output": "not_verified",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "open_not_completed",
+      "links": {
+        "pilot": "SVIK-001",
+        "site": "docs/wissen-macht-wirklichkeit.html"
+      },
+      "provenance": "forschung/soulution/piloten/VORPUBLIKATION_TASKS_V0_1.json"
+    },
+    {
+      "id": "VP-09",
+      "family": "fachforschung",
+      "title": "Prüf- und Kontrollqualität",
+      "prompt": "Ordne für eine Stichprobe von mindestens fünf Maßnahmen Rechtskontrolle, Mittelverwendungsprüfung, Evaluation, unabhängige Prüfung und Nachsteuerung zu. Prüfe Veröffentlichung, Frist, methodische Qualität und dokumentierte Folgen getrennt.",
+      "purpose": "reproduzierbarer Forschungsauftrag",
+      "inputs": [
+        "NKR, Bundesrechnungshof, Bundestag, Fachministerien"
+      ],
+      "outputs": [
+        "5 Kontrollketten mit Nachweisstatus"
+      ],
+      "tests": {
+        "construction": "registered",
+        "model_output": "not_verified",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "open_not_completed",
+      "links": {
+        "pilot": "SVIK-001",
+        "site": "docs/wissen-macht-wirklichkeit.html"
+      },
+      "provenance": "forschung/soulution/piloten/VORPUBLIKATION_TASKS_V0_1.json"
+    },
+    {
+      "id": "VP-10",
+      "family": "fachforschung",
+      "title": "Lösungs- und Alternativenatlas",
+      "prompt": "Identifiziere vorhandene Monitoring-, Evaluations- und Datenwerkzeuge, ihre Schnittstellen, Lizenzen und Grenzen. Vergleiche zwei Verbesserungsvorschläge anhand der festgestellten Lücken statt ein paralleles Dashboard vorauszusetzen.",
+      "purpose": "reproduzierbarer Forschungsauftrag",
+      "inputs": [
+        "Vorhandene amtliche und wissenschaftliche Werkzeuge"
+      ],
+      "outputs": [
+        "2 belegte Lösungen plus Integrationsempfehlung"
+      ],
+      "tests": {
+        "construction": "registered",
+        "model_output": "not_verified",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "open_not_completed",
+      "links": {
+        "pilot": "SVIK-001",
+        "site": "docs/wissen-macht-wirklichkeit.html"
+      },
+      "provenance": "forschung/soulution/piloten/VORPUBLIKATION_TASKS_V0_1.json"
+    },
+    {
+      "id": "VP-11",
+      "family": "fachforschung",
+      "title": "Prompt-Benchmark und zwei Durchläufe",
+      "prompt": "Führe H1–H5 sowie die professionellen P01–P08 auf demselben eingefrorenen Quellenstand aus. Vergleiche Vollständigkeit, Datenverfügbarkeit, Fehler, prüfbare Aussagen, Aufwand und wiederverwendbare Datenobjekte. Wiederhole den Test nach Prompt-Optimierung mit gleicher Testmenge.",
+      "purpose": "reproduzierbarer Forschungsauftrag",
+      "inputs": [
+        "VP-01 bis VP-10 Ergebnisse"
+      ],
+      "outputs": [
+        "Vorher/Nachher-Testmatrix samt Quellen, Fehlerklassen und Nachprüfungen"
+      ],
+      "tests": {
+        "construction": "registered",
+        "model_output": "not_verified",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "open_not_completed",
+      "links": {
+        "pilot": "SVIK-001",
+        "site": "docs/wissen-macht-wirklichkeit.html"
+      },
+      "provenance": "forschung/soulution/piloten/VORPUBLIKATION_TASKS_V0_1.json"
+    },
+    {
+      "id": "VP-12",
+      "family": "fachforschung",
+      "title": "Gemeinsame Skill- und Datenbank-Wiederverwendung",
+      "prompt": "Ordne jedem benötigten Skill und Datentyp eine existierende Quelle oder einen belegten Fehlbestand zu. Unterscheide on_git, local_only, Kandidat, ausführbar, getestet und validiert. Vermeide neue Kopien gemeinsamer Quellenobjekte.",
+      "purpose": "reproduzierbarer Forschungsauftrag",
+      "inputs": [
+        "Existierende Git-Register, Inventar, historische Bestände"
+      ],
+      "outputs": [
+        "Crosswalk und 3 kleine ausführbare Skilltests oder begründete Blocker"
+      ],
+      "tests": {
+        "construction": "registered",
+        "model_output": "not_verified",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "open_not_completed",
+      "links": {
+        "pilot": "SVIK-001",
+        "site": "docs/wissen-macht-wirklichkeit.html"
+      },
+      "provenance": "forschung/soulution/piloten/VORPUBLIKATION_TASKS_V0_1.json"
+    },
+    {
+      "id": "VP-13",
+      "family": "fachforschung",
+      "title": "Relations- und Tensorübergabe",
+      "prompt": "Extrahiere nur quellengebundene, typisierte Relationskandidaten mit Träger, Definition, Geltung, Test und Gegenbeispiel. Prüfe vorhandene Tensorregister auf Duplikate. Gib Kandidaten an KI-Tensor weiter; bestätige keinen 3×3×3-Tensor ohne drei geprüfte Trinitäten und 27 geprüfte Feldpositionen.",
+      "purpose": "reproduzierbarer Forschungsauftrag",
+      "inputs": [
+        "Geprüfte Befunde VP-01 bis VP-12"
+      ],
+      "outputs": [
+        "Relationsakten, kein erfundener Tensorabschluss"
+      ],
+      "tests": {
+        "construction": "registered",
+        "model_output": "not_verified",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "open_not_completed",
+      "links": {
+        "pilot": "SVIK-001",
+        "site": "docs/wissen-macht-wirklichkeit.html"
+      },
+      "provenance": "forschung/soulution/piloten/VORPUBLIKATION_TASKS_V0_1.json"
+    },
+    {
+      "id": "VP-14",
+      "family": "fachforschung",
+      "title": "Buchbelege, Originalcover und Didaktik-Abnahme",
+      "prompt": "Sichere Originalcover und exakte Buchauszüge mit Seitenangaben. Leite nur geprüfte Zahlen und Beispiele in den Haupttext ab. Erkläre notwendige Relationen verständlich; Seitenzahl nach didaktischem Bedarf. Kennzeichne Leserprompt, Metakasten, Profi-Anhang und Forschungsstand; teste fachfremde Lesbarkeit.",
+      "purpose": "reproduzierbarer Forschungsauftrag",
+      "inputs": [
+        "Originalbücher, validierte Testakten"
+      ],
+      "outputs": [
+        "Quellenfeste Doppelseitenplanung und redaktionelle Freigabeliste"
+      ],
+      "tests": {
+        "construction": "registered",
+        "model_output": "not_verified",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "open_not_completed",
+      "links": {
+        "pilot": "SVIK-001",
+        "site": "docs/wissen-macht-wirklichkeit.html"
+      },
+      "provenance": "forschung/soulution/piloten/VORPUBLIKATION_TASKS_V0_1.json"
+    },
+    {
+      "id": "VP-15",
+      "family": "fachforschung",
+      "title": "Digitale Anhänge und Website-Crosswalk",
+      "prompt": "Verknüpfe die fünf Hauptprompts und Profi-Aufgaben mit stabilen IDs, Quellenakten und Ergebnissen. Prüfe Links, Originaldateien, Lizenzen und Publikationsstatus auf eigenem Branch. Verwende vorhandene Register und Diagramm-/Designregeln.",
+      "purpose": "reproduzierbarer Forschungsauftrag",
+      "inputs": [
+        "Vorhandene SOULution-Seite, Mitmachen, Git-Register"
+      ],
+      "outputs": [
+        "Validierter Navigationstest und aktualisierter Quellen-/Promptatlas"
+      ],
+      "tests": {
+        "construction": "registered",
+        "model_output": "not_verified",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "open_not_completed",
+      "links": {
+        "pilot": "SVIK-001",
+        "site": "docs/wissen-macht-wirklichkeit.html"
+      },
+      "provenance": "forschung/soulution/piloten/VORPUBLIKATION_TASKS_V0_1.json"
+    },
+    {
+      "id": "WEB-GLOS-01",
+      "family": "mitmachen",
+      "title": "Glossar v15.4 vollständig integrieren",
+      "prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task WEB-GLOS-01 (Glossar v15.4 vollständig integrieren).\n1. Auftrag: Prüfe die 1.072 historischen Glossareinträge, ihre Qualitätsstände und Quellen. Entwirf Import, stabile Anker, Begriffskarten, Hover und fachliche Prüfungen.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: Vollständiges versionsgebundenes Glossar mit Quellenbeziehungen und Tests.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe.",
+      "purpose": "Prüfe die 1.072 historischen Glossareinträge, ihre Qualitätsstände und Quellen. Entwirf Import, stabile Anker, Begriffskarten, Hover und fachliche Prüfungen.",
+      "inputs": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "outputs": [
+        "Vollständiges versionsgebundenes Glossar mit Quellenbeziehungen und Tests"
+      ],
+      "tests": {
+        "construction": "registered",
+        "execution": "partial_execution_evidence",
+        "model_output": "not_benchmarked",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "partial_test_with_evidence",
+      "links": {
+        "files": [
+          "forschung/website/ausfuehrung/GLOSSAR_VALIDIERUNG_V01.json",
+          "docs/glossar.html"
+        ],
+        "next_test": "Importiere eine tatsächliche CSV aus dem historischen Archiv, protokolliere Version, Quell-IDs und Definitionen und gleiche 1008 Zeilen gegen den 1072er Inventarstand ab. Ohne Original nur vorhandene 12 Webbegriffe pflegen.",
+        "site": "docs/mitmachen.html#WEB-GLOS-01"
+      },
+      "provenance": "forschung/website/MITMACH_TASKS.json"
+    },
+    {
+      "id": "WEB-CODE-01",
+      "family": "mitmachen",
+      "title": "Codebuch relational auf der Website anbinden",
+      "prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task WEB-CODE-01 (Codebuch relational auf der Website anbinden).\n1. Auftrag: Prüfe historische Codebuchtypen und Register. Entwirf einen versionierten Objektgraphen mit Quellen, Formeln, Relationen, Tests und Glossareinträgen, samt Links zu Taskkarten.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: Navigierbare Codebuchkarten mit IDs, Rückverweisen und Importprotokoll.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe.",
+      "purpose": "Prüfe historische Codebuchtypen und Register. Entwirf einen versionierten Objektgraphen mit Quellen, Formeln, Relationen, Tests und Glossareinträgen, samt Links zu Taskkarten.",
+      "inputs": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "outputs": [
+        "Navigierbare Codebuchkarten mit IDs, Rückverweisen und Importprotokoll"
+      ],
+      "tests": {
+        "construction": "registered",
+        "execution": "partial_execution_evidence",
+        "model_output": "not_benchmarked",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "partial_test_with_evidence",
+      "links": {
+        "files": [
+          "docs/data/codebuch-web-index.json",
+          "docs/codebuch.html"
+        ],
+        "next_test": "Teste eine kleine Auswahl echter Codebuchobjekte mit Original-ID, Verweis, Gegenprobe und Fundstelle. Die 12 Webbegriffe sind derzeit nur strukturell auf Typen gemappt.",
+        "site": "docs/mitmachen.html#WEB-CODE-01"
+      },
+      "provenance": "forschung/website/MITMACH_TASKS.json"
+    },
+    {
+      "id": "HARV-01",
+      "family": "mitmachen",
+      "title": "DLMF-Formelernte reproduzierbar vervollständigen",
+      "prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task HARV-01 (DLMF-Formelernte reproduzierbar vervollständigen).\n1. Auftrag: Prüfe v3.0 bis v3.5 anhand historischer Versionen, Formatdeltas, Signaturen und Operatorrelationen; konserviere Herkunft.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: Reproduzierbare Ernte mit versionsgebundener Ausgabedatenbank.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe.",
+      "purpose": "Prüfe v3.0 bis v3.5 anhand historischer Versionen, Formatdeltas, Signaturen und Operatorrelationen; konserviere Herkunft.",
+      "inputs": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "outputs": [
+        "Reproduzierbare Ernte mit versionsgebundener Ausgabedatenbank"
+      ],
+      "tests": {
+        "construction": "registered",
+        "execution": "not_run",
+        "model_output": "not_benchmarked",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "prompt_prepared_only",
+      "links": {
+        "files": [],
+        "next_test": "Suche die bestehenden Harvesting-Originalarchive in verfügbaren Projektbeständen. Wenn echte Input- und Outputdaten vorliegen, führe einen Batch für ein benanntes DLMF-Kapitel mit Prüfsummen aus.",
+        "site": "docs/mitmachen.html#HARV-01"
+      },
+      "provenance": "forschung/website/MITMACH_TASKS.json"
+    },
+    {
+      "id": "HARV-02",
+      "family": "mitmachen",
+      "title": "Wissenschaftsmining v2.7 und Codebuch v3.7/v3.8 testen",
+      "prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task HARV-02 (Wissenschaftsmining v2.7 und Codebuch v3.7/v3.8 testen).\n1. Auftrag: Führe archivierte Miningschritte in isolierter Umgebung erneut aus und dokumentiere alle Unterschiede und Gegenproben.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: E2E-Protokoll mit Fehlern und identifizierbaren Einzeldaten.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe.",
+      "purpose": "Führe archivierte Miningschritte in isolierter Umgebung erneut aus und dokumentiere alle Unterschiede und Gegenproben.",
+      "inputs": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "outputs": [
+        "E2E-Protokoll mit Fehlern und identifizierbaren Einzeldaten"
+      ],
+      "tests": {
+        "construction": "registered",
+        "execution": "not_run",
+        "model_output": "not_benchmarked",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "prompt_prepared_only",
+      "links": {
+        "files": [],
+        "next_test": "Versuche den historischen Parser aus v2.7 mit einem vorhandenen Originalbeispiel auszuführen und protokolliere Abhängigkeiten, Fehler und Ergebnisdeltas.",
+        "site": "docs/mitmachen.html#HARV-02"
+      },
+      "provenance": "forschung/website/MITMACH_TASKS.json"
+    },
+    {
+      "id": "HARV-03",
+      "family": "mitmachen",
+      "title": "Physik- und Quantenbibliotheken harvesten",
+      "prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task HARV-03 (Physik- und Quantenbibliotheken harvesten).\n1. Auftrag: Prüfe Qiskit, Cirq, PennyLane und QuTiP auf echte Methoden, Operatoren, Eingaben, Outputs, Lizenzen und Testfälle.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: Fach-Skillregister und reproduzierbare Stichprobentests.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe.",
+      "purpose": "Prüfe Qiskit, Cirq, PennyLane und QuTiP auf echte Methoden, Operatoren, Eingaben, Outputs, Lizenzen und Testfälle.",
+      "inputs": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "outputs": [
+        "Fach-Skillregister und reproduzierbare Stichprobentests"
+      ],
+      "tests": {
+        "construction": "registered",
+        "execution": "not_run",
+        "model_output": "not_benchmarked",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "prompt_prepared_only",
+      "links": {
+        "files": [],
+        "next_test": "Führe einen konkreten Operatorvergleich mit SymPy und einer zweiten installierten Physikbibliothek aus; externe Quantenpakete nur nach erfolgreicher Installation als getestet markieren.",
+        "site": "docs/mitmachen.html#HARV-03"
+      },
+      "provenance": "forschung/website/MITMACH_TASKS.json"
+    },
+    {
+      "id": "HARV-04",
+      "family": "mitmachen",
+      "title": "Sprachdaten und Übersetzungsmodelle harvesten",
+      "prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task HARV-04 (Sprachdaten und Übersetzungsmodelle harvesten).\n1. Auftrag: Prüfe freie Lexika, Universal Dependencies, OPUS, Wikidata sowie freie Sprach- und Übersetzungsmodelle auf Abdeckung und Lizenzen.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: Vergleichsregister mit Aufgaben- und Rekonstruktionstests.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe.",
+      "purpose": "Prüfe freie Lexika, Universal Dependencies, OPUS, Wikidata sowie freie Sprach- und Übersetzungsmodelle auf Abdeckung und Lizenzen.",
+      "inputs": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "outputs": [
+        "Vergleichsregister mit Aufgaben- und Rekonstruktionstests"
+      ],
+      "tests": {
+        "construction": "registered",
+        "execution": "not_run",
+        "model_output": "not_benchmarked",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "prompt_prepared_only",
+      "links": {
+        "files": [],
+        "next_test": "Nimm ein offenes Lexikon mit Versions-/Lizenzmetadaten, importiere ein kleines Beispieldatenset und kontrolliere Encoding, IDs und Dubletten.",
+        "site": "docs/mitmachen.html#HARV-04"
+      },
+      "provenance": "forschung/website/MITMACH_TASKS.json"
+    },
+    {
+      "id": "HARV-05",
+      "family": "mitmachen",
+      "title": "Wissenschaftliche Dreierfamilien quellenbasiert finden",
+      "prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task HARV-05 (Wissenschaftliche Dreierfamilien quellenbasiert finden).\n1. Auftrag: Ernte Modelle, Beweise und definierte Rollenfamilien, prüfe Gegenbeispiele und mappe Kandidaten auf vorhandene Trinitäten.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: Validierungsfähige Dreierkarten mit Quellen und Gegenproben.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe.",
+      "purpose": "Ernte Modelle, Beweise und definierte Rollenfamilien, prüfe Gegenbeispiele und mappe Kandidaten auf vorhandene Trinitäten.",
+      "inputs": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "outputs": [
+        "Validierungsfähige Dreierkarten mit Quellen und Gegenproben"
+      ],
+      "tests": {
+        "construction": "registered",
+        "execution": "not_run",
+        "model_output": "not_benchmarked",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "prompt_prepared_only",
+      "links": {
+        "files": [],
+        "next_test": "Wähle eine wissenschaftliche Relationsfamilie aus bereits geprüften Physikformeln und teste eine plausible Dreierbeziehung durch Rückrechnung und Gegenbeispiel.",
+        "site": "docs/mitmachen.html#HARV-05"
+      },
+      "provenance": "forschung/website/MITMACH_TASKS.json"
+    },
+    {
+      "id": "HARV-06",
+      "family": "mitmachen",
+      "title": "API-, Skill- und Toolkataloge inventarisieren",
+      "prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task HARV-06 (API-, Skill- und Toolkataloge inventarisieren).\n1. Auftrag: Prüfe öffentlich dokumentierte API-/Skillregister, Schnittstellen und Skillsysteme auf Nutzbarkeit, Versionen und Rechte.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: Nachweisbares, dedupliziertes Außenwahrnehmungs- und Skillregister.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe.",
+      "purpose": "Prüfe öffentlich dokumentierte API-/Skillregister, Schnittstellen und Skillsysteme auf Nutzbarkeit, Versionen und Rechte.",
+      "inputs": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "outputs": [
+        "Nachweisbares, dedupliziertes Außenwahrnehmungs- und Skillregister"
+      ],
+      "tests": {
+        "construction": "registered",
+        "execution": "not_run",
+        "model_output": "not_benchmarked",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "prompt_prepared_only",
+      "links": {
+        "files": [],
+        "next_test": "Inventarisiere einen tatsächlich zugänglichen API-/Skillkatalog mit dokumentierter Authentisierung, Nutzungsgrenzen, zwei Beispielen und Validierung der Felder.",
+        "site": "docs/mitmachen.html#HARV-06"
+      },
+      "provenance": "forschung/website/MITMACH_TASKS.json"
+    },
+    {
+      "id": "MINI-OBS-01",
+      "family": "mitmachen",
+      "title": "Beobachter aus Messereignissen generieren",
+      "prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task MINI-OBS-01 (Beobachter aus Messereignissen generieren).\n1. Auftrag: Entwirf beobachtende Skills, die Ausführung, Nutzerintention, Fehler, Folgen und Skillkombinationen messen; teste ihre Zusatzkosten.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: Schaltbare Beobachter, Ereignisbus und Ablation.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe.",
+      "purpose": "Entwirf beobachtende Skills, die Ausführung, Nutzerintention, Fehler, Folgen und Skillkombinationen messen; teste ihre Zusatzkosten.",
+      "inputs": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "outputs": [
+        "Schaltbare Beobachter, Ereignisbus und Ablation"
+      ],
+      "tests": {
+        "construction": "registered",
+        "execution": "partial_execution_evidence",
+        "model_output": "not_benchmarked",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "partial_test_with_evidence",
+      "links": {
+        "files": [
+          "forschung/minimal-ki/beobachter-v0_1/TEST_MINIOBS_SYNTHETIC.py",
+          "forschung/website/ausfuehrung/MINI_OBS_TEST_V01.json"
+        ],
+        "next_test": "Ersetze den synthetischen Kontrollfehler durch realen Geo-KI-Testoutput; messe zusätzlichen Nutzen und Kosten des Beobachters gegen einen Lauf ohne Beobachter.",
+        "site": "docs/mitmachen.html#MINI-OBS-01"
+      },
+      "provenance": "forschung/website/MITMACH_TASKS.json"
+    },
+    {
+      "id": "GEO-OPS-01",
+      "family": "mitmachen",
+      "title": "Geo-KI-Operatoren mit Gegenproben erweitern",
+      "prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task GEO-OPS-01 (Geo-KI-Operatoren mit Gegenproben erweitern).\n1. Auftrag: Entwickle und teste geometrische Transformationen, Invarianten und Verkettungen anhand vorhandener Geo-KI-Tests.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: Mathematische Tests und ausführbare Beispielausgaben.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe.",
+      "purpose": "Entwickle und teste geometrische Transformationen, Invarianten und Verkettungen anhand vorhandener Geo-KI-Tests.",
+      "inputs": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "outputs": [
+        "Mathematische Tests und ausführbare Beispielausgaben"
+      ],
+      "tests": {
+        "construction": "registered",
+        "execution": "partial_execution_evidence",
+        "model_output": "not_benchmarked",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "partial_test_with_evidence",
+      "links": {
+        "files": [
+          "forschung/geoki/v0_4/src/geometry.py",
+          "forschung/geoki/v0_4/tests/test_geo_euler.py",
+          "forschung/geoki/v0_4/tests/test_extra.py"
+        ],
+        "next_test": "Erweitere die 19 bestehenden Geometrietests um robuste Randfälle, typisierte Eingaben, Signatur- und Fehlermeldungsprüfungen.",
+        "site": "docs/mitmachen.html#GEO-OPS-01"
+      },
+      "provenance": "forschung/website/MITMACH_TASKS.json"
+    },
+    {
+      "id": "KOMP-01",
+      "family": "mitmachen",
+      "title": "Regelverdichtung und Rekonstruktion prüfen",
+      "prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task KOMP-01 (Regelverdichtung und Rekonstruktion prüfen).\n1. Auftrag: Vergleiche Originaldaten, komprimierte Regelrepräsentationen, Rekonstruktionsgüte und Laufzeit.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: Messbare Qualitäts-, Größen- und Fehlermatrix.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe.",
+      "purpose": "Vergleiche Originaldaten, komprimierte Regelrepräsentationen, Rekonstruktionsgüte und Laufzeit.",
+      "inputs": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "outputs": [
+        "Messbare Qualitäts-, Größen- und Fehlermatrix"
+      ],
+      "tests": {
+        "construction": "registered",
+        "execution": "partial_execution_evidence",
+        "model_output": "not_benchmarked",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "partial_test_with_evidence",
+      "links": {
+        "files": [
+          "forschung/soulution/skills/PHYSIK_SKILLATLAS_UND_TESTBERICHT_V0_1.md"
+        ],
+        "next_test": "Vergleiche auf identischen Physikdaten JSON, Wörterbuchformat, gzip, zlib und eine tatsächlich aus Tensorrelationen rekonstruierbare Form. Erhalte exakte Rückprüfung und gleiche Metadaten.",
+        "site": "docs/mitmachen.html#KOMP-01"
+      },
+      "provenance": "forschung/website/MITMACH_TASKS.json"
+    },
+    {
+      "id": "VIS-01",
+      "family": "mitmachen",
+      "title": "Tensor und Datengraph visuell erforschen",
+      "prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task VIS-01 (Tensor und Datengraph visuell erforschen).\n1. Auftrag: Entwickle zugängliche Visualisierung der 27 Tensorpositionen und ihrer übergeordneten Relationen mit Bildbeschreibungen.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: SVG-/Diagrammmodule mit didaktischen Erklärungen.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe.",
+      "purpose": "Entwickle zugängliche Visualisierung der 27 Tensorpositionen und ihrer übergeordneten Relationen mit Bildbeschreibungen.",
+      "inputs": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "outputs": [
+        "SVG-/Diagrammmodule mit didaktischen Erklärungen"
+      ],
+      "tests": {
+        "construction": "registered",
+        "execution": "partial_execution_evidence",
+        "model_output": "not_benchmarked",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "partial_test_with_evidence",
+      "links": {
+        "files": [
+          "forschung/website/ausfuehrung/VIS27_STRUKTURTEST_V01.json"
+        ],
+        "next_test": "Binde die 27 strukturgeprüften Positionen an echte, quellengebundene Feldakten. Zeige unvalidierte Positionen sichtbar als offen.",
+        "site": "docs/mitmachen.html#VIS-01"
+      },
+      "provenance": "forschung/website/MITMACH_TASKS.json"
+    },
+    {
+      "id": "KOL-01",
+      "family": "mitmachen",
+      "title": "KI-Kollegen und Taskübergabe vergleichen",
+      "prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task KOL-01 (KI-Kollegen und Taskübergabe vergleichen).\n1. Auftrag: Teste Delegation von Meta-Prompts an verschiedene ausführende Systeme mit identischen Quellen und Akzeptanztests.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: Übertragbarer Taskvertrag und Ergebnisaudit.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe.",
+      "purpose": "Teste Delegation von Meta-Prompts an verschiedene ausführende Systeme mit identischen Quellen und Akzeptanztests.",
+      "inputs": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
+        "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
+      ],
+      "outputs": [
+        "Übertragbarer Taskvertrag und Ergebnisaudit"
+      ],
+      "tests": {
+        "construction": "registered",
+        "execution": "not_run",
+        "model_output": "not_benchmarked",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "prompt_prepared_only",
+      "links": {
+        "files": [],
+        "next_test": "Führe denselben fachlichen Datensatz durch zwei tatsächlich verfügbare Modelle oder Ausführungswege und vergleiche Quellen, Korrektheit, Fehler und Aufwände.",
+        "site": "docs/mitmachen.html#KOL-01"
+      },
+      "provenance": "forschung/website/MITMACH_TASKS.json"
+    },
+    {
+      "id": "GEO-M1",
+      "family": "geoki_format",
+      "title": "Generieren – Komponieren – Prüfen – Exportieren",
+      "prompt": "Entwickle einen Prompt für GEO-M1: Generieren – Komponieren – Prüfen – Exportieren.\n1. Ausgangsbasis und Ziel: Verbinde den bestehenden geometrischen Python-Kern mit typisierten Operatoren, einer Testpipeline, mindestens einer SVG-Ausgabe und einer inversen/semantischen Rückprüfung.\n2. Wissenschaftliche und technische Originalunterlagen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md\n4. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json\n5. https://memnosis.github.io/relationalitaet/medien.html\n3. Bestandsaudit: Trenne bereits ausführbaren Code, recherchierte Bibliotheken, noch offene Daten und eigene Annahmen.\n4. Eingaben, Formate, Schnittstellen, Semantik, Versionen und Lizenzen.\n5. Konkrete Operatorfolge, Komposition, Prüf- und Rückrechnungslogik.\n6. Fehlerfälle, Nicht-Äquivalenz von Konvertierungen, beobachtete Nebenwirkungen und Rückrollmechanismus.\n7. Liefergegenstände und Tests: Ein End-to-End-Fall von Grundform über Operatorfolge und Rücktest bis SVG/JSON mit dokumentierten Abnahmekriterien.\n8. Definition of Done: Reproduzierbarkeit, Tests und No-Loss-Übergabe.\nErzeuge zuerst den vollständigen Arbeits-Prompt und bestätige keine nicht ausgeführten Operationen.",
+      "purpose": "Verbinde den bestehenden geometrischen Python-Kern mit typisierten Operatoren, einer Testpipeline, mindestens einer SVG-Ausgabe und einer inversen/semantischen Rückprüfung.",
+      "inputs": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json",
+        "https://memnosis.github.io/relationalitaet/medien.html"
+      ],
+      "outputs": [
+        "Ein End-to-End-Fall von Grundform über Operatorfolge und Rücktest bis SVG/JSON mit dokumentierten Abnahmekriterien."
+      ],
+      "tests": {
+        "construction": "registered",
+        "execution": "partial_execution_evidence",
+        "model_output": "not_benchmarked",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "partial_test_with_evidence",
+      "links": {
+        "files": [
+          "forschung/geoki/v0_4/src/geometry.py",
+          "forschung/geoki/v0_4/tests/test_composition_extension.py",
+          "docs/assets/media/geoki_rotation_verified.svg"
+        ],
+        "site": "docs/mitmachen.html#GEO-M1"
+      },
+      "provenance": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json"
+    },
+    {
+      "id": "FMT-H01",
+      "family": "geoki_format",
+      "title": "Offene Format- und Skillstandards harvesten",
+      "prompt": "Entwickle einen Prompt für FMT-H01: Offene Format- und Skillstandards harvesten.\n1. Ausgangsbasis und Ziel: Erfasse die acht Formatfamilien, Spezifikationen, Bibliotheken und Versionen als nachgewiesenen, maschinenlesbaren Katalog.\n2. Wissenschaftliche und technische Originalunterlagen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md\n4. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json\n5. https://memnosis.github.io/relationalitaet/medien.html\n3. Bestandsaudit: Trenne bereits ausführbaren Code, recherchierte Bibliotheken, noch offene Daten und eigene Annahmen.\n4. Eingaben, Formate, Schnittstellen, Semantik, Versionen und Lizenzen.\n5. Konkrete Operatorfolge, Komposition, Prüf- und Rückrechnungslogik.\n6. Fehlerfälle, Nicht-Äquivalenz von Konvertierungen, beobachtete Nebenwirkungen und Rückrollmechanismus.\n7. Liefergegenstände und Tests: Katalog mit Originalreferenz, Lizenz, Version, Ein-/Ausgabeformat, Adapterstatus und offenen Fragen.\n8. Definition of Done: Reproduzierbarkeit, Tests und No-Loss-Übergabe.\nErzeuge zuerst den vollständigen Arbeits-Prompt und bestätige keine nicht ausgeführten Operationen.",
+      "purpose": "Erfasse die acht Formatfamilien, Spezifikationen, Bibliotheken und Versionen als nachgewiesenen, maschinenlesbaren Katalog.",
+      "inputs": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json",
+        "https://memnosis.github.io/relationalitaet/medien.html"
+      ],
+      "outputs": [
+        "Katalog mit Originalreferenz, Lizenz, Version, Ein-/Ausgabeformat, Adapterstatus und offenen Fragen."
+      ],
+      "tests": {
+        "construction": "registered",
+        "execution": "not_run",
+        "model_output": "not_benchmarked",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "prompt_prepared_only",
+      "links": {
+        "files": [],
+        "site": "docs/mitmachen.html#FMT-H01"
+      },
+      "provenance": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json"
+    },
+    {
+      "id": "FMT-H02",
+      "family": "geoki_format",
+      "title": "Konvertierungsgraph und Roundtrip-Proben",
+      "prompt": "Entwickle einen Prompt für FMT-H02: Konvertierungsgraph und Roundtrip-Proben.\n1. Ausgangsbasis und Ziel: Bestimme für Formatpaare verfügbare Adapter und teste Umkehrbarkeit, numerische/semantische Informationsverluste und Metadaten.\n2. Wissenschaftliche und technische Originalunterlagen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md\n4. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json\n5. https://memnosis.github.io/relationalitaet/medien.html\n3. Bestandsaudit: Trenne bereits ausführbaren Code, recherchierte Bibliotheken, noch offene Daten und eigene Annahmen.\n4. Eingaben, Formate, Schnittstellen, Semantik, Versionen und Lizenzen.\n5. Konkrete Operatorfolge, Komposition, Prüf- und Rückrechnungslogik.\n6. Fehlerfälle, Nicht-Äquivalenz von Konvertierungen, beobachtete Nebenwirkungen und Rückrollmechanismus.\n7. Liefergegenstände und Tests: Konvertierungsgraph, Testfälle, Fehlerberichte, Roundtrip-Matrix und Grenzen.\n8. Definition of Done: Reproduzierbarkeit, Tests und No-Loss-Übergabe.\nErzeuge zuerst den vollständigen Arbeits-Prompt und bestätige keine nicht ausgeführten Operationen.",
+      "purpose": "Bestimme für Formatpaare verfügbare Adapter und teste Umkehrbarkeit, numerische/semantische Informationsverluste und Metadaten.",
+      "inputs": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json",
+        "https://memnosis.github.io/relationalitaet/medien.html"
+      ],
+      "outputs": [
+        "Konvertierungsgraph, Testfälle, Fehlerberichte, Roundtrip-Matrix und Grenzen."
+      ],
+      "tests": {
+        "construction": "registered",
+        "execution": "not_run",
+        "model_output": "not_benchmarked",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "prompt_prepared_only",
+      "links": {
+        "files": [],
+        "site": "docs/mitmachen.html#FMT-H02"
+      },
+      "provenance": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json"
+    },
+    {
+      "id": "FMT-H03",
+      "family": "geoki_format",
+      "title": "CAD/GIS/3D-Operatoren interoperabel testen",
+      "prompt": "Entwickle einen Prompt für FMT-H03: CAD/GIS/3D-Operatoren interoperabel testen.\n1. Ausgangsbasis und Ziel: Implementiere kontrollierte Adapter für zwei ausgewählte Bibliotheken, vergleiche Datenmodelle und prüfe Symmetrien, Einheiten und Topologie.\n2. Wissenschaftliche und technische Originalunterlagen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md\n4. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json\n5. https://memnosis.github.io/relationalitaet/medien.html\n3. Bestandsaudit: Trenne bereits ausführbaren Code, recherchierte Bibliotheken, noch offene Daten und eigene Annahmen.\n4. Eingaben, Formate, Schnittstellen, Semantik, Versionen und Lizenzen.\n5. Konkrete Operatorfolge, Komposition, Prüf- und Rückrechnungslogik.\n6. Fehlerfälle, Nicht-Äquivalenz von Konvertierungen, beobachtete Nebenwirkungen und Rückrollmechanismus.\n7. Liefergegenstände und Tests: Ausführbare Beispielkonvertierungen und Regressionstests.\n8. Definition of Done: Reproduzierbarkeit, Tests und No-Loss-Übergabe.\nErzeuge zuerst den vollständigen Arbeits-Prompt und bestätige keine nicht ausgeführten Operationen.",
+      "purpose": "Implementiere kontrollierte Adapter für zwei ausgewählte Bibliotheken, vergleiche Datenmodelle und prüfe Symmetrien, Einheiten und Topologie.",
+      "inputs": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json",
+        "https://memnosis.github.io/relationalitaet/medien.html"
+      ],
+      "outputs": [
+        "Ausführbare Beispielkonvertierungen und Regressionstests."
+      ],
+      "tests": {
+        "construction": "registered",
+        "execution": "not_run",
+        "model_output": "not_benchmarked",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "prompt_prepared_only",
+      "links": {
+        "files": [],
+        "site": "docs/mitmachen.html#FMT-H03"
+      },
+      "provenance": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json"
+    },
+    {
+      "id": "FMT-H04",
+      "family": "geoki_format",
+      "title": "Wissenschaftliche Daten- und Arrayformate prüfen",
+      "prompt": "Entwickle einen Prompt für FMT-H04: Wissenschaftliche Daten- und Arrayformate prüfen.\n1. Ausgangsbasis und Ziel: Harvest HDF5, NetCDF-CF, Zarr, Arrow, Parquet, inklusive Schema- und Einheitenmetadaten.\n2. Wissenschaftliche und technische Originalunterlagen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md\n4. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json\n5. https://memnosis.github.io/relationalitaet/medien.html\n3. Bestandsaudit: Trenne bereits ausführbaren Code, recherchierte Bibliotheken, noch offene Daten und eigene Annahmen.\n4. Eingaben, Formate, Schnittstellen, Semantik, Versionen und Lizenzen.\n5. Konkrete Operatorfolge, Komposition, Prüf- und Rückrechnungslogik.\n6. Fehlerfälle, Nicht-Äquivalenz von Konvertierungen, beobachtete Nebenwirkungen und Rückrollmechanismus.\n7. Liefergegenstände und Tests: Versionierte Format-/Schemamatrix, Reproduktionsfälle und dokumentierte Verluste.\n8. Definition of Done: Reproduzierbarkeit, Tests und No-Loss-Übergabe.\nErzeuge zuerst den vollständigen Arbeits-Prompt und bestätige keine nicht ausgeführten Operationen.",
+      "purpose": "Harvest HDF5, NetCDF-CF, Zarr, Arrow, Parquet, inklusive Schema- und Einheitenmetadaten.",
+      "inputs": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json",
+        "https://memnosis.github.io/relationalitaet/medien.html"
+      ],
+      "outputs": [
+        "Versionierte Format-/Schemamatrix, Reproduktionsfälle und dokumentierte Verluste."
+      ],
+      "tests": {
+        "construction": "registered",
+        "execution": "not_run",
+        "model_output": "not_benchmarked",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "prompt_prepared_only",
+      "links": {
+        "files": [],
+        "site": "docs/mitmachen.html#FMT-H04"
+      },
+      "provenance": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json"
+    },
+    {
+      "id": "FMT-H05",
+      "family": "geoki_format",
+      "title": "API-, MCP- und Workflow-Skills harvesten",
+      "prompt": "Entwickle einen Prompt für FMT-H05: API-, MCP- und Workflow-Skills harvesten.\n1. Ausgangsbasis und Ziel: Untersuche Schnittstellen- und Skillstandards, Versionsverträge, Rechte und sichere Ausführung bei OpenAPI, MCP, CWL und anderen.\n2. Wissenschaftliche und technische Originalunterlagen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md\n4. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json\n5. https://memnosis.github.io/relationalitaet/medien.html\n3. Bestandsaudit: Trenne bereits ausführbaren Code, recherchierte Bibliotheken, noch offene Daten und eigene Annahmen.\n4. Eingaben, Formate, Schnittstellen, Semantik, Versionen und Lizenzen.\n5. Konkrete Operatorfolge, Komposition, Prüf- und Rückrechnungslogik.\n6. Fehlerfälle, Nicht-Äquivalenz von Konvertierungen, beobachtete Nebenwirkungen und Rückrollmechanismus.\n7. Liefergegenstände und Tests: Sicherheits- und Interoperabilitätsprofile plus ausführbare Testadapter.\n8. Definition of Done: Reproduzierbarkeit, Tests und No-Loss-Übergabe.\nErzeuge zuerst den vollständigen Arbeits-Prompt und bestätige keine nicht ausgeführten Operationen.",
+      "purpose": "Untersuche Schnittstellen- und Skillstandards, Versionsverträge, Rechte und sichere Ausführung bei OpenAPI, MCP, CWL und anderen.",
+      "inputs": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json",
+        "https://memnosis.github.io/relationalitaet/medien.html"
+      ],
+      "outputs": [
+        "Sicherheits- und Interoperabilitätsprofile plus ausführbare Testadapter."
+      ],
+      "tests": {
+        "construction": "registered",
+        "execution": "not_run",
+        "model_output": "not_benchmarked",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "prompt_prepared_only",
+      "links": {
+        "files": [],
+        "site": "docs/mitmachen.html#FMT-H05"
+      },
+      "provenance": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json"
+    },
+    {
+      "id": "WEB-PAPER-01",
+      "family": "geoki_format",
+      "title": "Tensor-Forschungspaper und wissenschaftliche Einführung verknüpfen",
+      "prompt": "Entwickle einen Prompt für WEB-PAPER-01: Tensor-Forschungspaper und wissenschaftliche Einführung verknüpfen.\n1. Ausgangsbasis und Ziel: Verknüpfe das Logik-Tensor-Original und das Weiterentwicklungspaper im Forschungsbereich und gestalte die drei 3×3-Matrizen mit Quellen.\n2. Wissenschaftliche und technische Originalunterlagen:\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md\n4. https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json\n5. https://memnosis.github.io/relationalitaet/medien.html\n3. Bestandsaudit: Trenne bereits ausführbaren Code, recherchierte Bibliotheken, noch offene Daten und eigene Annahmen.\n4. Eingaben, Formate, Schnittstellen, Semantik, Versionen und Lizenzen.\n5. Konkrete Operatorfolge, Komposition, Prüf- und Rückrechnungslogik.\n6. Fehlerfälle, Nicht-Äquivalenz von Konvertierungen, beobachtete Nebenwirkungen und Rückrollmechanismus.\n7. Liefergegenstände und Tests: Eigenständige Paperseite, originäre Referenzen, 3×3×3-Erklärung und Bildnachweise.\n8. Definition of Done: Reproduzierbarkeit, Tests und No-Loss-Übergabe.\nErzeuge zuerst den vollständigen Arbeits-Prompt und bestätige keine nicht ausgeführten Operationen.",
+      "purpose": "Verknüpfe das Logik-Tensor-Original und das Weiterentwicklungspaper im Forschungsbereich und gestalte die drei 3×3-Matrizen mit Quellen.",
+      "inputs": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json",
+        "https://memnosis.github.io/relationalitaet/medien.html"
+      ],
+      "outputs": [
+        "Eigenständige Paperseite, originäre Referenzen, 3×3×3-Erklärung und Bildnachweise."
+      ],
+      "tests": {
+        "construction": "registered",
+        "execution": "not_run",
+        "model_output": "not_benchmarked",
+        "independent_scientific_validation": "not_complete"
+      },
+      "status": "prompt_prepared_only",
+      "links": {
+        "files": [],
+        "site": "docs/mitmachen.html#WEB-PAPER-01"
+      },
+      "provenance": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json"
+    },
+    {
+      "id": "MP-01",
+      "family": "meta",
+      "title": "Zentraler Prompt-Prompt",
+      "prompt": "Analysiere und entwickle ein noch besseres Prompting als: [vollständiger Ausgangs-Prompt]. Identifiziere fachliche Lücken, Quellenbedarf, fehlende Daten, alternative Methoden, vorhandene Skills und Tests; erhalte die Intention, vermeide unnötige Komplexität, gib eine kopierbare Neufassung samt Testkriterien und kleinstmöglicher Restaufgabe aus.",
+      "purpose": "methodische Promptoptimierung",
+      "tests": {
+        "construction": "editorial_draft",
+        "model_output": "not_benchmarked",
+        "independent_scientific_validation": "not_applicable"
+      },
+      "status": "designed_not_benchmarked",
+      "inputs": [
+        "Gegenstand/Originalquelle"
+      ],
+      "outputs": [
+        "prüfbare Gliederung oder Arbeitsvorlage"
+      ],
+      "links": {
+        "site": "docs/promptbibliothek.html"
+      },
+      "provenance": "editorial synthesis 2026-11-03"
+    },
+    {
+      "id": "PP-SYSTEM",
+      "family": "meta",
+      "title": "Selbsterklärung des Gesamtsystems",
+      "prompt": "Erkläre anhand [THEMA] die Unterschiede zwischen Mini-Prompt, Struktur-Prompt, Fachanalyse, Skill, Agenten und Meta-Ebene. Zeige vorhandene und nur geplante Funktionen getrennt und erkläre KI-Tensor und Mini-KI als eigene Fortführungen.",
+      "purpose": "didaktische Selbstbeschreibung",
+      "tests": {
+        "construction": "editorial_draft",
+        "model_output": "not_benchmarked",
+        "independent_scientific_validation": "not_applicable"
+      },
+      "status": "designed_not_benchmarked",
+      "inputs": [
+        "Gegenstand/Originalquelle"
+      ],
+      "outputs": [
+        "prüfbare Gliederung oder Arbeitsvorlage"
+      ],
+      "links": {
+        "site": "docs/promptbibliothek.html"
+      },
+      "provenance": "editorial synthesis 2026-11-03"
+    },
+    {
+      "id": "P-STRUKTUR",
+      "family": "meta",
+      "title": "Themenkomplex gliedern",
+      "prompt": "Gliedere [THEMA] vollständig nach relevanten Ebenen, Begriffen, Quellen, Mechanismen, Gegenpositionen und prüfbaren Relationen; unterscheide etabliertes Fachwissen, eigene Rekonstruktion und offene Forschung.",
+      "purpose": "eigenständige Struktur statt sofortige Antwort",
+      "tests": {
+        "construction": "source_case_verified",
+        "source_case_id": "STRUCT-01",
+        "model_output": "not_benchmarked"
+      },
+      "status": "source_case_verified_not_llm_benchmarked",
+      "inputs": [
+        "Gegenstand/Originalquelle"
+      ],
+      "outputs": [
+        "prüfbare Gliederung oder Arbeitsvorlage"
+      ],
+      "links": {
+        "site": "docs/promptbibliothek.html"
+      },
+      "provenance": "editorial synthesis 2026-11-03"
+    },
+    {
+      "id": "P-SYNTHESE",
+      "family": "meta",
+      "title": "Ergebnisse quellengebunden verbinden",
+      "prompt": "Vergleiche [ERGEBNIS A] und [ERGEBNIS B] nach Geltungsbedingungen, Herkunft, Widersprüchen, gemeinsamen Modellen und erklärten Lücken. Erzeuge eine Synthese ohne ungesicherte Gleichsetzung.",
+      "purpose": "Themen-/Fachsynthese",
+      "tests": {
+        "construction": "source_case_verified",
+        "source_case_id": "SYNTH-01",
+        "model_output": "not_benchmarked"
+      },
+      "status": "source_case_verified_not_llm_benchmarked",
+      "inputs": [
+        "Gegenstand/Originalquelle"
+      ],
+      "outputs": [
+        "prüfbare Gliederung oder Arbeitsvorlage"
+      ],
+      "links": {
+        "site": "docs/promptbibliothek.html"
+      },
+      "provenance": "editorial synthesis 2026-11-03"
+    },
+    {
+      "id": "P-AGENTEN",
+      "family": "meta",
+      "title": "Agenten- und Skillwerkstatt",
+      "prompt": "Beschreibe für [FORSCHUNGSFRAGE] die geeigneten Rollen, existierenden Kernskills, typisierten Ein- und Ausgaben, unabhängigen Gegenprüfungen und Ausführungsgrenzen; trenne Rollenplanung von tatsächlicher Ausführung.",
+      "purpose": "Agentenplanung",
+      "tests": {
+        "construction": "source_case_verified",
+        "source_case_id": "AGENT-01",
+        "model_output": "not_benchmarked"
+      },
+      "status": "source_case_verified_not_llm_benchmarked",
+      "inputs": [
+        "Gegenstand/Originalquelle"
+      ],
+      "outputs": [
+        "prüfbare Gliederung oder Arbeitsvorlage"
+      ],
+      "links": {
+        "site": "docs/promptbibliothek.html"
+      },
+      "provenance": "editorial synthesis 2026-11-03"
+    },
+    {
+      "id": "P-META",
+      "family": "meta",
+      "title": "Welche KI-Architektur braucht die Aufgabe?",
+      "prompt": "Untersuche, welche Teilaufgaben durch konventionelle Software, Regeln, neuronale Modelle, Sprachmodelle, Datenbanken, Agenten oder tensorannotierte Operatoren erfüllt werden. Begründe Auswahl, Daten- und Testanforderungen und nenne Gegenbeispiele.",
+      "purpose": "Architekturreflexion",
+      "tests": {
+        "construction": "source_case_verified",
+        "source_case_id": "META-01",
+        "model_output": "not_benchmarked"
+      },
+      "status": "source_case_verified_not_llm_benchmarked",
+      "inputs": [
+        "Gegenstand/Originalquelle"
+      ],
+      "outputs": [
+        "prüfbare Gliederung oder Arbeitsvorlage"
+      ],
+      "links": {
+        "site": "docs/promptbibliothek.html"
+      },
+      "provenance": "editorial synthesis 2026-11-03"
+    },
+    {
+      "id": "P-SKILL",
+      "family": "meta",
+      "title": "Skillkern und trinitäre Relationsprüfung",
+      "prompt": "Identifiziere den funktionalen Kern von [SKILL], seine tatsächliche Implementierung und Tests; prüfe Quellen, Typen und Geltungsbedingungen. Trenne eine didaktische Dreiteilung von einer fachlich belegten Trinität und einem validierten 3×3×3-Tensor.",
+      "purpose": "Skillverdichtung und relationale Prüfung",
+      "tests": {
+        "construction": "source_case_verified",
+        "source_case_id": "SKILL-01",
+        "model_output": "not_benchmarked"
+      },
+      "status": "source_case_verified_not_llm_benchmarked",
+      "inputs": [
+        "Gegenstand/Originalquelle"
+      ],
+      "outputs": [
+        "prüfbare Gliederung oder Arbeitsvorlage"
+      ],
+      "links": {
+        "site": "docs/promptbibliothek.html"
+      },
+      "provenance": "editorial synthesis 2026-11-03"
+    }
+  ],
+  "counts_by_status": {
+    "single_demonstration_with_source_case_not_independently_validated": 5,
+    "open_not_completed": 14,
+    "prior_partial_rule_test_requires_reconcile": 1,
+    "partial_test_with_evidence": 7,
+    "prompt_prepared_only": 13,
+    "designed_not_benchmarked": 2,
+    "source_case_verified_not_llm_benchmarked": 5
+  },
+  "version": "v1.1"
+}

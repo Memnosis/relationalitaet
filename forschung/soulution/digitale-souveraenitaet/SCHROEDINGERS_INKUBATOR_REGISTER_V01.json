@@ -1,0 +1,198 @@
+{
+  "schema": "soulution.schroedingers-inkubator.v0.2",
+  "as_of": "2026-11-03",
+  "source": {
+    "title": "SCHRÖDINGER’S INKUBATOR – EIERLEGENDE WOLLMILCHSAU",
+    "filename": "schrödinger ERP.pdf",
+    "pages": 1,
+    "location": "conversation upload; bytes not imported to GitHub",
+    "provenance_status": "user_original_verified",
+    "verbatim_core": "Die gesamte Software Infrastruktur, um jedes beliebige Projekt zu realisieren.",
+    "original_domains": [
+      "IDEe/Vision",
+      "Nüchtern: Server/Hosting",
+      "Teamplay & Synergien",
+      "SHARE/Teilen",
+      "ERP & CRM/POS",
+      "Intranet",
+      "Mail",
+      "digitale Downloads",
+      "(Multi-)Shop",
+      "LMS",
+      "Kunst und Sammlerwert"
+    ],
+    "note": "This is a historical concept sheet, not a proven deployed platform."
+  },
+  "projects": [
+    {
+      "id": "SOULUTION",
+      "role": "public digital sovereignty and solutions atlas"
+    },
+    {
+      "id": "COME2UNITY",
+      "role": "people matching, A/N, teams and contributions"
+    },
+    {
+      "id": "SKILLBIB",
+      "role": "reuse of established software capabilities and tests"
+    },
+    {
+      "id": "MINI-KI",
+      "role": "optional testing of skill orchestration, not prerequisite"
+    },
+    {
+      "id": "KI-TENSOR",
+      "role": "optional relational validation and derivations, not generic software label"
+    }
+  ],
+  "reference_ecosystems": [
+    {
+      "name": "Digital Commons EDIC",
+      "url": "https://digital-commons-edic.eu/",
+      "status": "existing_federation"
+    },
+    {
+      "name": "Digital Public Goods Alliance",
+      "url": "https://www.digitalpublicgoods.net/standard",
+      "status": "standard_and_registry"
+    },
+    {
+      "name": "EU Digital Building Blocks",
+      "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/overview",
+      "status": "reusable_EU_components"
+    }
+  ],
+  "modules": [
+    {
+      "id": "IDENTITY",
+      "core": "roles, consent, optional identity",
+      "candidate_status": "research"
+    },
+    {
+      "id": "HOST",
+      "core": "deployment, data, backup, portability",
+      "candidate_status": "research"
+    },
+    {
+      "id": "COMM",
+      "core": "mail, calendar, shared communication",
+      "candidate_status": "research"
+    },
+    {
+      "id": "ERP",
+      "core": "project/resource management, ERP/CRM/POS",
+      "candidate_status": "historical_original"
+    },
+    {
+      "id": "SHOP",
+      "core": "shop, orders, downloads, licenses",
+      "candidate_status": "historical_original"
+    },
+    {
+      "id": "LMS",
+      "core": "learning materials and assessments",
+      "candidate_status": "historical_original"
+    },
+    {
+      "id": "API",
+      "core": "interfaces, event logs, export/import and tests",
+      "candidate_status": "research"
+    }
+  ],
+  "goal": "shared, understandable, portable and maintained software capabilities across different projects",
+  "first_benchmark": "Compare at least three existing open components for one real use case, run one minimal function, verify export, license, permissions and maintenance obligations",
+  "safety": "Never describe this as an installed running system without execution evidence.",
+  "website": "docs/soulution-schroedingers-inkubator.html",
+  "architecture_hypothesis": {
+    "statement": "Software is increasingly composed from reusable, independently testable, proven core modules",
+    "status": "research_hypothesis_not_forecast_fact",
+    "comparisons": [
+      "existing_monolithic_application",
+      "modular_open_source_composition",
+      "documented_proprietary_API_adapter",
+      "independently_created_compatible_implementation"
+    ],
+    "measures": [
+      "new_use_cases_solved",
+      "correctness",
+      "interface_failure_rate",
+      "development_effort",
+      "maintenance_cost",
+      "vendor_lockin",
+      "portability",
+      "security",
+      "semantic_equivalence"
+    ],
+    "avoid": "Do not conflate API connection, scientific skill or AI capability"
+  },
+  "interoperability": {
+    "role": "crosscutting_SOULution_software_and_KI_TENSOR_project_vector",
+    "layers": [
+      "technical",
+      "semantic",
+      "organizational",
+      "legal"
+    ],
+    "source": "https://interoperable-europe.ec.europa.eu/Interoperable-Europe-Act-Regulation",
+    "requirements": [
+      "stable_identifiers",
+      "input_output_contracts",
+      "units_and_semantics",
+      "license_compliance",
+      "provenance",
+      "test_oracles",
+      "export_import",
+      "rollback_and_versioning"
+    ]
+  },
+  "closed_source": {
+    "preferred_order": [
+      "open_source_with_compatible_license",
+      "published_standard",
+      "official_API",
+      "lawful_data_export",
+      "limited_lawful_interoperability_research"
+    ],
+    "eu_basis": "Directive 2009/24/EC article 6",
+    "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009L0024",
+    "limitation": "No blanket permission for unauthorized copying, protection bypass or near-identical proprietary code reproduction; case-by-case legal review"
+  },
+  "research_tasks": [
+    {
+      "id": "INC-MOD-01",
+      "title": "Inventory actually existing open-source modules for one workflow",
+      "status": "open",
+      "done": "three products verified; licenses and export tests captured"
+    },
+    {
+      "id": "INC-API-01",
+      "title": "Execute one real cross-program interface test",
+      "status": "open",
+      "done": "identical typed inputs and outputs plus errors and round-trip checked"
+    },
+    {
+      "id": "INC-INT-01",
+      "title": "Verify interoperability at technical semantic organizational legal layers",
+      "status": "open",
+      "done": "all four layers documented including negative cases"
+    },
+    {
+      "id": "INC-COMP-01",
+      "title": "Compare modular versus monolithic implementation",
+      "status": "open",
+      "done": "same use case; effort, correctness, resources and maintenance compared"
+    },
+    {
+      "id": "INC-CLOSED-01",
+      "title": "Document official API and interoperability legal boundary of one proprietary system",
+      "status": "open",
+      "done": "documented source, standard and lawful interface, no unauthorized copied code"
+    }
+  ],
+  "publication_policy": {
+    "printed_appendices_exist": false,
+    "deliverable": "digital research annexes and publishable web/documents",
+    "historical_pdf_status": "only original one-page user PDF, not a printed book",
+    "book_style": "reader-friendly without internal task IDs; technical work in GitHub"
+  }
+}

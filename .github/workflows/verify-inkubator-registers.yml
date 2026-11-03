@@ -1,0 +1,22 @@
+name: Verify Inkubator Source and Skill Registers
+on:
+  pull_request:
+    paths:
+      - 'forschung/soulution/digitale-souveraenitaet/**'
+      - 'forschung/soulution/shared/skills-v0.1.json'
+      - 'forschung/website/MITMACH_TASKS.json'
+      - 'docs/data/inkubator-quellenregister.json'
+      - '.github/workflows/verify-inkubator-registers.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-registers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate refs and public source mirror
+        run: python forschung/soulution/digitale-souveraenitaet/sync_registers.py --check

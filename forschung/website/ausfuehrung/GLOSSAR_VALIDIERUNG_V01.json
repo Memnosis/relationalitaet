@@ -1,0 +1,18 @@
+{
+  "id": "WEB-GLOS-01",
+  "stage": "web_preview_validated_historical_import_blocked",
+  "tests": {
+    "term_count": 12,
+    "unique_ids": true,
+    "unique_anchors": true,
+    "definitions_present": true,
+    "status_tracked": true,
+    "unknown_type_codes": [],
+    "historic_claim": 1072,
+    "original_row_count_indicated_in_wegweiser": 1008,
+    "preview_count": 12,
+    "missing_original_count": 1060
+  },
+  "blocker": "Original 1008-row CSV is marked local_only. User Library copy exists by search but raw-byte materialization returned unauthorized; 1072 historical entry count is not same as the 1008 row snapshot. Cannot claim full v15.4 import.",
+  "next": "Import actual archival CSV bytes; verify 1008/1072 versions with row IDs and provenance; never synthesize 64 entries."
+}

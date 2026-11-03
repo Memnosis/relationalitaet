@@ -1,0 +1,77 @@
+{
+  "schema": "soulution.case.v0.1",
+  "id": "SVIK-001",
+  "title": "Sondervermögen Infrastruktur und Klimaneutralität",
+  "status": "initial_case_not_a_completed_audit",
+  "as_of": "2026-11-03",
+  "principle": "legal authorization != appropriation != disbursement != output != impact",
+  "source_candidates": [
+    {
+      "id": "SVIK-LAW-01",
+      "url": "https://www.gesetze-im-internet.de/gg/art_143h.html",
+      "kind": "constitutional"
+    },
+    {
+      "id": "SVIK-LAW-02",
+      "url": "https://www.gesetze-im-internet.de/svikg/BJNR0E60A0025.html",
+      "kind": "law"
+    },
+    {
+      "id": "SVIK-PORTAL",
+      "url": "https://www.bundeshaushalt.de/",
+      "kind": "budget portal"
+    }
+  ],
+  "claims_to_verify": [
+    {
+      "text": "500 billion euro funding authority",
+      "type": "legal_authorization",
+      "status": "source_review_required"
+    },
+    {
+      "text": "Funds attributed to infrastructure, Länder/municipalities and KTF",
+      "type": "allocation",
+      "status": "source_review_required"
+    }
+  ],
+  "research_tasks": [
+    {
+      "id": "SOL-SVIK-01",
+      "prompt": "Follow published authorization, budget and outflow, separately; never equate them.",
+      "output": "budget flow record",
+      "skill_ids": [
+        "SK-FIN-FLOW",
+        "SK-LEGAL-TRACE"
+      ]
+    },
+    {
+      "id": "SOL-SVIK-02",
+      "prompt": "Identify objectives, milestones, indicator definitions, evaluation status and legal review requirements.",
+      "output": "evidence and obligation record",
+      "skill_ids": [
+        "SK-EVIDENCE",
+        "SK-LEGAL-TRACE"
+      ]
+    },
+    {
+      "id": "SOL-SVIK-03",
+      "prompt": "Trace a single bridge-maintenance budget position with source documents, payments, output and unknown effects.",
+      "output": "one fully linked pilot case",
+      "skill_ids": [
+        "SK-PDF-EXTRACT",
+        "SK-FIN-FLOW",
+        "SK-VIZ",
+        "SK-REL"
+      ]
+    }
+  ],
+  "tensor_handoff": {
+    "status": "candidate_only",
+    "relation_families": [
+      "authorization-allocation-use",
+      "resource-output-outcome",
+      "target-measure-deviation"
+    ],
+    "rule": "exactly 3 trinitaties of 3 elements per confirmed tensor; all 27 fields require examination"
+  }
+}

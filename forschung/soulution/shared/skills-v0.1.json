@@ -1,0 +1,78 @@
+{
+  "schema": "soulution.shared-skills.v0.1",
+  "as_of": "2026-11-03",
+  "status": "discovery_only; no execution claims",
+  "definitions": {
+    "skill": "Reusable capability with specified input/output and verification",
+    "prompt": "Natural-language instruction, not automatically an executable skill"
+  },
+  "items": [
+    {
+      "id": "SK-PDF-EXTRACT",
+      "name": "Dokumentenextraktion",
+      "input": "PDF/HTML",
+      "output": "text with page/section anchors",
+      "candidate_tools": [
+        "existing parsers, to be inventoried"
+      ],
+      "test": "known-document extraction + source offsets",
+      "state": "candidate"
+    },
+    {
+      "id": "SK-LEGAL-TRACE",
+      "name": "Rechtsquellen- und Zuständigkeitsabgleich",
+      "input": "law or government measure",
+      "output": "dated legal provenance and obligations",
+      "candidate_tools": [
+        "official legal databases"
+      ],
+      "test": "citation, validity date and jurisdiction",
+      "state": "candidate"
+    },
+    {
+      "id": "SK-FIN-FLOW",
+      "name": "Haushaltsfluss-Normalisierung",
+      "input": "budget tables",
+      "output": "flows with year, Soll/Ist, receiver, unit",
+      "candidate_tools": [
+        "CSV/JSON + data analysis libraries"
+      ],
+      "test": "sum reconciliation, avoid double count",
+      "state": "candidate"
+    },
+    {
+      "id": "SK-EVIDENCE",
+      "name": "Evidenz- und Evaluationsakte",
+      "input": "claim and source corpus",
+      "output": "evidence with distinct prediction/observed/evaluated statuses",
+      "candidate_tools": [
+        "document retrieval and human review"
+      ],
+      "test": "original-source trace and counterevidence",
+      "state": "candidate"
+    },
+    {
+      "id": "SK-VIZ",
+      "name": "Daten- und Relationsvisualisierung",
+      "input": "validated numeric/graph objects",
+      "output": "chart or diagram + reproducible parameters",
+      "candidate_tools": [
+        "existing visualization libraries"
+      ],
+      "test": "numbers, labels, units match inputs",
+      "state": "candidate"
+    },
+    {
+      "id": "SK-REL",
+      "name": "Relationskandidaten",
+      "input": "typed claims and models",
+      "output": "relation candidates with tests",
+      "candidate_tools": [
+        "existing Tensor relation work"
+      ],
+      "test": "carrier/operator/scope and counterexample",
+      "state": "candidate"
+    }
+  ],
+  "integration_rule": "Reuse existing implementations once their repository paths, licenses, signatures and executable test results have been verified. Do not create competing copies."
+}

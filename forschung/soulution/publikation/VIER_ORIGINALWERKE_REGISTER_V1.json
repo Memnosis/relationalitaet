@@ -1,0 +1,38 @@
+{
+  "schema": "soulution.original-book-source-ledger.v1",
+  "as_of": "2026-11-03",
+  "works": [
+    {
+      "id": "BOOK-OEFFENTLICH",
+      "title": "Öffentliches Potenzial",
+      "pdf_pages": 171,
+      "user_supplied_pdf": "OEFFENTLICHES-POTENZIAL_01(1).pdf",
+      "cover": "oeffentliches-potenzial-titelbild(1).png",
+      "repo_asset_status": "not_uploaded"
+    },
+    {
+      "id": "BOOK-MEDIAL",
+      "title": "Mediale Potenziale",
+      "pdf_pages": 33,
+      "user_supplied_pdf": "Mediale_Potenziale_01(1).pdf",
+      "cover": "mediale-potenziale-cover(1).png",
+      "repo_asset_status": "not_uploaded",
+      "historical_area_versions": "nine domains in 2026 monograph differ from current site; crosswalk required"
+    },
+    {
+      "id": "BOOK-MACHT",
+      "title": "MACHT WISSENSCHAFT POLITIK – Evidente Evidenz",
+      "user_supplied_pdf": "Macht-Wissenschaft-Politik-evidente-Evidenz(1).pdf",
+      "cover": "PDF original title page",
+      "repo_asset_status": "not_uploaded"
+    },
+    {
+      "id": "BOOK-MAFIA",
+      "title": "Wirtschafts-Simulationen und andere Mafia-Spiele",
+      "user_supplied_pdf": "prior Library source",
+      "cover": "existing book ad shown on Mediale Potenziale PDF page 23; independent original cover file not verified in this runtime",
+      "repo_asset_status": "not_uploaded"
+    }
+  ],
+  "rule": "Use only existing original covers and author-provided book promotions; no invented cover redesigns."
+}

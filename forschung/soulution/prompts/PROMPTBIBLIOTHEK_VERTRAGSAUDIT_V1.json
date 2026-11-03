@@ -1,0 +1,472 @@
+{
+  "schema": "soulution.prompt-contract-audit.v0.1",
+  "as_of": "2026-11-03",
+  "counts": {
+    "total": 47,
+    "complete": 47,
+    "legacy_conflict": 20,
+    "has_executed_model_benchmark": 0,
+    "partial_execution": 7,
+    "source_based_cases_reported": 12
+  },
+  "findings": {
+    "reproducible_inputs_missing": [],
+    "legacy_prompt_first_ids": [
+      "WEB-GLOS-01",
+      "WEB-CODE-01",
+      "HARV-01",
+      "HARV-02",
+      "HARV-03",
+      "HARV-04",
+      "HARV-05",
+      "HARV-06",
+      "MINI-OBS-01",
+      "GEO-OPS-01",
+      "KOMP-01",
+      "VIS-01",
+      "KOL-01",
+      "GEO-M1",
+      "FMT-H01",
+      "FMT-H02",
+      "FMT-H03",
+      "FMT-H04",
+      "FMT-H05",
+      "WEB-PAPER-01"
+    ],
+    "non_null_status_count": 47,
+    "source_books_have_not_yet_benchmarked_model_outputs": true,
+    "main_branch_not_published": true
+  },
+  "criteria": [
+    "Metadata and minimum prompt presence",
+    "Inputs and outputs",
+    "Provenance and execution status separation",
+    "Prompt-first legacy instruction detected, must not overwrite historical text",
+    "No false claim of completed model tests"
+  ],
+  "checks": [
+    {
+      "id": "H1",
+      "record_complete": true,
+      "source_status": "source_case_verified_not_llm_benchmarked",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_run_controlled"
+    },
+    {
+      "id": "H2",
+      "record_complete": true,
+      "source_status": "source_case_verified_not_llm_benchmarked",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_run_controlled"
+    },
+    {
+      "id": "H3",
+      "record_complete": true,
+      "source_status": "source_case_verified_not_llm_benchmarked",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_run_controlled"
+    },
+    {
+      "id": "H4",
+      "record_complete": true,
+      "source_status": "source_case_verified_not_llm_benchmarked",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_run_controlled"
+    },
+    {
+      "id": "H5",
+      "record_complete": true,
+      "source_status": "source_case_verified_not_llm_benchmarked",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_run_controlled"
+    },
+    {
+      "id": "VP-01",
+      "record_complete": true,
+      "source_status": "open_not_completed",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_verified"
+    },
+    {
+      "id": "VP-02",
+      "record_complete": true,
+      "source_status": "prior_partial_rule_test_requires_reconcile",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_verified"
+    },
+    {
+      "id": "VP-03",
+      "record_complete": true,
+      "source_status": "open_not_completed",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_verified"
+    },
+    {
+      "id": "VP-04",
+      "record_complete": true,
+      "source_status": "open_not_completed",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_verified"
+    },
+    {
+      "id": "VP-05",
+      "record_complete": true,
+      "source_status": "open_not_completed",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_verified"
+    },
+    {
+      "id": "VP-06",
+      "record_complete": true,
+      "source_status": "open_not_completed",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_verified"
+    },
+    {
+      "id": "VP-07",
+      "record_complete": true,
+      "source_status": "open_not_completed",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_verified"
+    },
+    {
+      "id": "VP-08",
+      "record_complete": true,
+      "source_status": "open_not_completed",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_verified"
+    },
+    {
+      "id": "VP-09",
+      "record_complete": true,
+      "source_status": "open_not_completed",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_verified"
+    },
+    {
+      "id": "VP-10",
+      "record_complete": true,
+      "source_status": "open_not_completed",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_verified"
+    },
+    {
+      "id": "VP-11",
+      "record_complete": true,
+      "source_status": "open_not_completed",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_verified"
+    },
+    {
+      "id": "VP-12",
+      "record_complete": true,
+      "source_status": "open_not_completed",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_verified"
+    },
+    {
+      "id": "VP-13",
+      "record_complete": true,
+      "source_status": "open_not_completed",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_verified"
+    },
+    {
+      "id": "VP-14",
+      "record_complete": true,
+      "source_status": "open_not_completed",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_verified"
+    },
+    {
+      "id": "VP-15",
+      "record_complete": true,
+      "source_status": "open_not_completed",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_verified"
+    },
+    {
+      "id": "WEB-GLOS-01",
+      "record_complete": true,
+      "source_status": "partial_test_with_evidence",
+      "source_links": true,
+      "legacy_prompt_first": true,
+      "legacy_task_uses_prompt_as_output": true,
+      "model_benchmark": "not_benchmarked"
+    },
+    {
+      "id": "WEB-CODE-01",
+      "record_complete": true,
+      "source_status": "partial_test_with_evidence",
+      "source_links": true,
+      "legacy_prompt_first": true,
+      "legacy_task_uses_prompt_as_output": true,
+      "model_benchmark": "not_benchmarked"
+    },
+    {
+      "id": "HARV-01",
+      "record_complete": true,
+      "source_status": "prompt_prepared_only",
+      "source_links": true,
+      "legacy_prompt_first": true,
+      "legacy_task_uses_prompt_as_output": true,
+      "model_benchmark": "not_benchmarked"
+    },
+    {
+      "id": "HARV-02",
+      "record_complete": true,
+      "source_status": "prompt_prepared_only",
+      "source_links": true,
+      "legacy_prompt_first": true,
+      "legacy_task_uses_prompt_as_output": true,
+      "model_benchmark": "not_benchmarked"
+    },
+    {
+      "id": "HARV-03",
+      "record_complete": true,
+      "source_status": "prompt_prepared_only",
+      "source_links": true,
+      "legacy_prompt_first": true,
+      "legacy_task_uses_prompt_as_output": true,
+      "model_benchmark": "not_benchmarked"
+    },
+    {
+      "id": "HARV-04",
+      "record_complete": true,
+      "source_status": "prompt_prepared_only",
+      "source_links": true,
+      "legacy_prompt_first": true,
+      "legacy_task_uses_prompt_as_output": true,
+      "model_benchmark": "not_benchmarked"
+    },
+    {
+      "id": "HARV-05",
+      "record_complete": true,
+      "source_status": "prompt_prepared_only",
+      "source_links": true,
+      "legacy_prompt_first": true,
+      "legacy_task_uses_prompt_as_output": true,
+      "model_benchmark": "not_benchmarked"
+    },
+    {
+      "id": "HARV-06",
+      "record_complete": true,
+      "source_status": "prompt_prepared_only",
+      "source_links": true,
+      "legacy_prompt_first": true,
+      "legacy_task_uses_prompt_as_output": true,
+      "model_benchmark": "not_benchmarked"
+    },
+    {
+      "id": "MINI-OBS-01",
+      "record_complete": true,
+      "source_status": "partial_test_with_evidence",
+      "source_links": true,
+      "legacy_prompt_first": true,
+      "legacy_task_uses_prompt_as_output": true,
+      "model_benchmark": "not_benchmarked"
+    },
+    {
+      "id": "GEO-OPS-01",
+      "record_complete": true,
+      "source_status": "partial_test_with_evidence",
+      "source_links": true,
+      "legacy_prompt_first": true,
+      "legacy_task_uses_prompt_as_output": true,
+      "model_benchmark": "not_benchmarked"
+    },
+    {
+      "id": "KOMP-01",
+      "record_complete": true,
+      "source_status": "partial_test_with_evidence",
+      "source_links": true,
+      "legacy_prompt_first": true,
+      "legacy_task_uses_prompt_as_output": true,
+      "model_benchmark": "not_benchmarked"
+    },
+    {
+      "id": "VIS-01",
+      "record_complete": true,
+      "source_status": "partial_test_with_evidence",
+      "source_links": true,
+      "legacy_prompt_first": true,
+      "legacy_task_uses_prompt_as_output": true,
+      "model_benchmark": "not_benchmarked"
+    },
+    {
+      "id": "KOL-01",
+      "record_complete": true,
+      "source_status": "prompt_prepared_only",
+      "source_links": true,
+      "legacy_prompt_first": true,
+      "legacy_task_uses_prompt_as_output": true,
+      "model_benchmark": "not_benchmarked"
+    },
+    {
+      "id": "GEO-M1",
+      "record_complete": true,
+      "source_status": "partial_test_with_evidence",
+      "source_links": true,
+      "legacy_prompt_first": true,
+      "legacy_task_uses_prompt_as_output": true,
+      "model_benchmark": "not_benchmarked"
+    },
+    {
+      "id": "FMT-H01",
+      "record_complete": true,
+      "source_status": "prompt_prepared_only",
+      "source_links": true,
+      "legacy_prompt_first": true,
+      "legacy_task_uses_prompt_as_output": true,
+      "model_benchmark": "not_benchmarked"
+    },
+    {
+      "id": "FMT-H02",
+      "record_complete": true,
+      "source_status": "prompt_prepared_only",
+      "source_links": true,
+      "legacy_prompt_first": true,
+      "legacy_task_uses_prompt_as_output": true,
+      "model_benchmark": "not_benchmarked"
+    },
+    {
+      "id": "FMT-H03",
+      "record_complete": true,
+      "source_status": "prompt_prepared_only",
+      "source_links": true,
+      "legacy_prompt_first": true,
+      "legacy_task_uses_prompt_as_output": true,
+      "model_benchmark": "not_benchmarked"
+    },
+    {
+      "id": "FMT-H04",
+      "record_complete": true,
+      "source_status": "prompt_prepared_only",
+      "source_links": true,
+      "legacy_prompt_first": true,
+      "legacy_task_uses_prompt_as_output": true,
+      "model_benchmark": "not_benchmarked"
+    },
+    {
+      "id": "FMT-H05",
+      "record_complete": true,
+      "source_status": "prompt_prepared_only",
+      "source_links": true,
+      "legacy_prompt_first": true,
+      "legacy_task_uses_prompt_as_output": true,
+      "model_benchmark": "not_benchmarked"
+    },
+    {
+      "id": "WEB-PAPER-01",
+      "record_complete": true,
+      "source_status": "prompt_prepared_only",
+      "source_links": true,
+      "legacy_prompt_first": true,
+      "legacy_task_uses_prompt_as_output": true,
+      "model_benchmark": "not_benchmarked"
+    },
+    {
+      "id": "MP-01",
+      "record_complete": true,
+      "source_status": "designed_not_benchmarked",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_benchmarked"
+    },
+    {
+      "id": "PP-SYSTEM",
+      "record_complete": true,
+      "source_status": "designed_not_benchmarked",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_benchmarked"
+    },
+    {
+      "id": "P-STRUKTUR",
+      "record_complete": true,
+      "source_status": "source_case_verified_not_llm_benchmarked",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_benchmarked"
+    },
+    {
+      "id": "P-SYNTHESE",
+      "record_complete": true,
+      "source_status": "source_case_verified_not_llm_benchmarked",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_benchmarked"
+    },
+    {
+      "id": "P-AGENTEN",
+      "record_complete": true,
+      "source_status": "source_case_verified_not_llm_benchmarked",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_benchmarked"
+    },
+    {
+      "id": "P-META",
+      "record_complete": true,
+      "source_status": "source_case_verified_not_llm_benchmarked",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_benchmarked"
+    },
+    {
+      "id": "P-SKILL",
+      "record_complete": true,
+      "source_status": "source_case_verified_not_llm_benchmarked",
+      "source_links": true,
+      "legacy_prompt_first": false,
+      "legacy_task_uses_prompt_as_output": false,
+      "model_benchmark": "not_benchmarked"
+    }
+  ]
+}
