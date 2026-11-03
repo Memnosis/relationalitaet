@@ -1,0 +1,47 @@
+name: Projektmanagement P0 - Daten und Skript prüfen
+on:
+  push:
+    paths:
+      - 'docs/projektmanagement.html'
+      - 'docs/assets/projektmanagement.js'
+      - 'docs/data/projektmanagement-v1.json'
+      - 'scripts/validate_projectmanagement.py'
+      - '.github/workflows/projektmanagement-check.yml'
+  pull_request:
+    paths:
+      - 'docs/projektmanagement.html'
+      - 'docs/assets/projektmanagement.js'
+      - 'docs/data/projektmanagement-v1.json'
+      - 'scripts/validate_projectmanagement.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Projektmanagement-Datenintegrität
+        run: python scripts/validate_projectmanagement.py
+      - name: JavaScript-Syntax
+        run: node --check docs/assets/projektmanagement.js
+      - name: Statische Kernlinks und Anker
+        run: python forschung/website/website_p0_preflight.py > projektmanagement_website_preflight.json
+      - name: Prüfergebnisse zusammenfassen
+        if: always()
+        run: |
+          if test -f projektmanagement_website_preflight.json; then
+            python -c "import json; x=json.load(open('projektmanagement_website_preflight.json')); print('Static pages:',x['pages'],'Findings:',x['counts'])" >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Statischen Bericht hochladen
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: projektmanagement-static-review
+          path: projektmanagement_website_preflight.json
