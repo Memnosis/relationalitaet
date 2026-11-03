@@ -1,0 +1,37 @@
+name: KI-Austausch validieren
+on:
+  push:
+    paths:
+      - 'forschung/koordination/zyklen/**'
+      - 'scripts/validate_ki_exchange.py'
+      - '.github/workflows/ki-austausch.yml'
+  pull_request:
+    paths:
+      - 'forschung/koordination/zyklen/**'
+      - 'scripts/validate_ki_exchange.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  pruefen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Austauschstatus und Bestätigungen prüfen
+        run: python scripts/validate_ki_exchange.py
+      - name: Prüfbericht als Artefakt sichern
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ki-austausch-pruefbericht
+          path: ki_exchange_validation_report.md
+      - name: Kurzbericht in GitHub Actions anzeigen
+        if: always()
+        shell: bash
+        run: |
+          if test -f ki_exchange_validation_report.md; then
+            cat ki_exchange_validation_report.md >> "$GITHUB_STEP_SUMMARY"
+          fi
