@@ -21,3 +21,34 @@
 .tensor-learning .learn-state[data-kind=test]{border-style:double;border-width:3px}
 .tensor-learning code{overflow-wrap:anywhere}
 @media(max-width:540px){.tensor-learning{padding:16px}.tensor-learning-step{padding:13px}}
+
+/* Publication/learning grammar v1: sans-serif, framed blocks, existing SVG icons. */
+.tensor-learning,.tensor-learning *:not(code):not(pre):not(math){font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+.tensor-learning .learn-icon{width:22px;height:22px;flex:0 0 22px;stroke:currentColor;stroke-width:1.7;fill:none;vertical-align:middle}
+.tensor-learning .learn-heading{display:flex;align-items:center;gap:11px;margin-bottom:10px}
+.tensor-learning .learn-heading h2{margin:0}
+.tensor-learning .learn-levels{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:18px 0}
+.tensor-learning .learn-level{min-width:0;border:1px solid var(--tensor-line,#aaa);border-radius:12px;padding:17px;background:var(--tensor-surface,Canvas)}
+.tensor-learning .learn-level h3{margin:0 0 8px;font-size:1.05rem}
+.tensor-learning .learn-level p{margin:0}
+.tensor-learning .learn-level .learn-caption{display:block;margin-bottom:8px;color:var(--tensor-muted,GrayText);font-size:.8rem;font-weight:650}
+.tensor-learning .learn-level[data-depth=understand]{border-top:4px solid var(--tensor-accent,#086c78)}
+.tensor-learning .learn-level[data-depth=compare]{border-top:4px solid var(--algebra,#3d6a3e)}
+.tensor-learning .learn-level[data-depth=evidence]{border-top:4px solid var(--mini,#5d4f9a)}
+.tensor-learning .learn-section-steps{counter-reset:learn-steps;list-style:none;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.tensor-learning .learn-section-steps li{counter-increment:learn-steps;border:1px solid var(--tensor-line,#aaa);border-radius:10px;padding:13px}
+.tensor-learning .learn-section-steps li::before{content:counter(learn-steps) " · ";font-weight:800;color:var(--tensor-accent,#086c78)}
+.tensor-learning .learn-links{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}
+.tensor-learning .learn-links a{display:inline-block;border:1px solid var(--tensor-line,#aaa);border-radius:8px;padding:9px 12px;text-decoration:none}
+.tensor-learning .learn-links a:hover{text-decoration:underline}
+.tensor-learning .learn-figure{border:1px solid var(--tensor-line,#aaa);background:color-mix(in srgb,var(--tensor-accent,#086c78) 5%,var(--tensor-surface,Canvas));border-radius:10px;padding:15px;margin:16px 0}
+.tensor-learning .learn-figure .learn-path{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap}
+.tensor-learning .learn-figure .learn-node{border:1px solid var(--tensor-line,#aaa);border-radius:7px;padding:10px;min-width:110px;text-align:center;font-size:.92rem}
+.tensor-learning .learn-figure .learn-arrow{font-size:1.25rem;font-weight:700;color:var(--tensor-accent,#086c78)}
+.tensor-learning .learn-figure figcaption{font-size:.85rem;color:var(--tensor-muted,GrayText);margin-top:11px}
+.tensor-learning .learn-table-scroll{overflow-x:auto;max-width:100%}
+.tensor-learning .learn-table-scroll table{width:100%;border-collapse:collapse;min-width:570px}
+.tensor-learning .learn-table-scroll th,.tensor-learning .learn-table-scroll td{text-align:left;padding:9px 11px;border:1px solid var(--tensor-line,#aaa)}
+.tensor-learning .learn-table-scroll th:first-child{width:125px}
+.tensor-learning .learn-muted{color:var(--tensor-muted,GrayText)}
+@media(max-width:860px){.tensor-learning .learn-levels,.tensor-learning .learn-section-steps{grid-template-columns:1fr}}
