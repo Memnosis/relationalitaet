@@ -1,0 +1,240 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Gemeinsame Zustandsakte - Vorschlagsformat eines kanonischen Snapshots",
+  "description": "PROPOSAL v0.1, nicht freigegeben und nicht automatisch öffentlich",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "snapshot_id",
+    "source_commit",
+    "input_manifest_sha256",
+    "visibility",
+    "entities",
+    "events"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "zustandsakte/0.1-proposal"
+    },
+    "snapshot_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_commit": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "input_manifest_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "visibility": {
+      "enum": [
+        "private",
+        "public_projection"
+      ]
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "type",
+          "owner",
+          "work",
+          "validation",
+          "science",
+          "exchange",
+          "release",
+          "cycle",
+          "evidence_ids"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 3
+          },
+          "type": {
+            "enum": [
+              "task",
+              "claim",
+              "source",
+              "test",
+              "prompt",
+              "skill",
+              "relation",
+              "trinity",
+              "tensor",
+              "field",
+              "review",
+              "decision",
+              "cycle",
+              "publication"
+            ]
+          },
+          "owner": {
+            "enum": [
+              "gpt",
+              "claude",
+              "joint",
+              "nils",
+              "external"
+            ]
+          },
+          "work": {
+            "enum": [
+              "queued",
+              "working",
+              "delivered",
+              "blocked",
+              "canceled",
+              "not_applicable"
+            ]
+          },
+          "validation": {
+            "enum": [
+              "untested",
+              "owner_tested",
+              "peer_tested",
+              "reproduced",
+              "replicated",
+              "failed",
+              "inconclusive",
+              "not_applicable"
+            ]
+          },
+          "science": {
+            "enum": [
+              "unassessed",
+              "supported_with_scope",
+              "contradicted",
+              "unresolved",
+              "not_applicable"
+            ]
+          },
+          "exchange": {
+            "enum": [
+              "awaiting_response",
+              "responded",
+              "acknowledged",
+              "disputed",
+              "closed",
+              "not_applicable"
+            ]
+          },
+          "release": {
+            "enum": [
+              "private",
+              "candidate",
+              "author_approved",
+              "published",
+              "withheld",
+              "revoked"
+            ]
+          },
+          "cycle": {
+            "enum": [
+              "open",
+              "blocked",
+              "eligible_for_closure",
+              "closed",
+              "not_applicable"
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "depends_on": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "source_scope": {
+            "type": "string"
+          },
+          "public_summary": {
+            "type": "string",
+            "maxLength": 240
+          }
+        }
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "event_id",
+          "entity_id",
+          "kind",
+          "actor",
+          "source_commit",
+          "evidence_refs"
+        ],
+        "properties": {
+          "event_id": {
+            "type": "string",
+            "minLength": 3
+          },
+          "entity_id": {
+            "type": "string",
+            "minLength": 3
+          },
+          "kind": {
+            "enum": [
+              "created",
+              "submitted",
+              "delivered",
+              "test_run",
+              "peer_review",
+              "acknowledged",
+              "disputed",
+              "decision",
+              "release_granted",
+              "release_revoked",
+              "superseded",
+              "blocked"
+            ]
+          },
+          "actor": {
+            "enum": [
+              "gpt",
+              "claude",
+              "nils",
+              "validator",
+              "external"
+            ]
+          },
+          "source_commit": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{40}$"
+          },
+          "occurred_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          },
+          "supersedes": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
