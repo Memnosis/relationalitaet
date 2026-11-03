@@ -4,6 +4,7 @@ const form=document.getElementById("contribution");
 if(!form)return;
 const status=document.getElementById("status");
 const fields=["task","question","method","result","source","negative","teststatus"];
+const requested=new URLSearchParams(location.search).get("task");if(requested&&/^[A-Za-z0-9][A-Za-z0-9._-]{1,69}$/.test(requested))document.getElementById("task").value=requested;
 function record(){
  if(!form.reportValidity())throw Error("Bitte alle Pflichtfelder ausfüllen.");
  const v=Object.fromEntries(fields.map(id=>[id,document.getElementById(id).value.trim()]));
