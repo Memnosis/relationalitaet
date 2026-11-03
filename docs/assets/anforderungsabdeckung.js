@@ -5,10 +5,10 @@ if(!root)return;
 const elt=(tag,text)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=text;return e};
 (async()=>{
 try{
-const response=await fetch("./data/anforderungsabdeckung-v1.json",{cache:"no-store"});
+const response=await fetch("./data/anforderungsabdeckung-v2.json",{cache:"no-store"});
 if(!response.ok)throw Error("HTTP "+response.status);
 const d=await response.json();
-if(d.schema_version!=="user-requirement-coverage-public/0.1"||!Array.isArray(d.groups))throw Error("Schema");
+if(d.schema_version!=="user-requirement-coverage-public/0.2"||!Array.isArray(d.groups))throw Error("Schema");
 root.replaceChildren();
 const summary=elt("p",d.atomic_requirements+" konkretisierte Anforderungen in "+d.groups.length+" Themenfeldern. Für "+d.source_file_refs_present+" Positionen wurde die Existenz der jeweils zugeordneten Git-Datei geprüft. Die exakten letzten 100 Originalnachrichten sind noch nicht vollständig rekonstruiert.");
 root.append(summary);
