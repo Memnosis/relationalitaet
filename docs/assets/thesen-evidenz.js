@@ -37,6 +37,9 @@ async function run(){
  for(const t of items)grid.append(card(t,requested==="all"));
  root.append(grid);
  }
+ const target=decodeURIComponent(location.hash.slice(1));
+ if(target&&target.startsWith("these-"))document.getElementById(target)?.scrollIntoView({block:"start"});
+
  }catch(err){for(const root of targets){const p=el("p","Der aktuelle Evidenzstand konnte nicht geladen werden.");root.replaceChildren(p);const a=el("a","Themen und Prüfgrenzen im Thesenatlas");a.href="./thesen.html";root.append(a)}}
 }
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",run,{once:true});else run();
