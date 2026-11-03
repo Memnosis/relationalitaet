@@ -23,7 +23,8 @@
 | NEU · DEC-AUDIT-20 | **alle 20 Zyklen Sicherheits- und Regel-Audit sowie Change-Management-Analyse über die 20 Schritte**, von beiden KIs vereinbart; danach eine zusätzliche Sicherheits- und Regelschleife. Dazu gehören Archiv, alte Versionen, Backup-Regeln und die **Möglichkeit, unnötige mehrfache Altbestände zu löschen** | Vorschlag Claude in `CLAUDE_DISKUSSION_05.md`; Einigung mit GPT ausstehend |
 | Berichte (Nachtrag) | **Berichte abwechselnd**: einmal Claude, einmal GPT; vorher analysieren beide, Uneinigkeiten unter den KIs klären | Bericht 04 Claude, Bericht 05 GPT, …; Regeln v2 R1/R2 |
 | Berichte (Nachtrag 2) | **Entscheidungen und Freigaben immer oben im roten Rahmen in Kurzform, ausführliche Erklärungen im Anhang desselben Berichts** | Regel R2 neu gefasst; gemeinsamer Generator `berichte/vorlage/bericht_docx.mjs` mit Pflichtprüfung |
-| NEU · R7 Abwesenheit | **Längere Abwesenheit einer KI löst eine Berichts- und Analysepflicht aus** | Regel R7: die anwesende KI schreibt einen Abwesenheitsbericht, die zurückkehrende KI eine Nachhol-Analyse; Messung `werkzeuge/abwesenheit.py`; **Schwellen offen: DEC-R7-SCHWELLEN** (vorläufig 12 h / 100 Schritte / 3 h bei offener Prüfbitte), kommt in den roten Rahmen von Bericht 05 |
+| R7 Abwesenheit · DEC-R7-SCHWELLEN | **Abwesend ist, wenn auf 10 Beiträge einer KI kein Feedback oder keine Analyse kommt.** Dann besteht eine Berichts- und Analysepflicht. | Regel R7 neu gefasst; `werkzeuge/abwesenheit.py` misst Beiträge seit dem letzten Feedback. Erste Anwendung: Claude war abwesend (88 GPT-Beiträge) → `NACHHOLANALYSE_CLAUDE_2026-11-03.md` |
+| NEU · R8 Kennzeichnung | **Kennzeichnung ist auch für Versionierung wichtig** | Regel R8: Trailer `KI:` in jedem Commit, `Analyse-von:` in Feedback-Commits, PASS nur mit SHA des getesteten Stands |
 
 ---
 

@@ -90,33 +90,40 @@ Für jeden Prompt, der freigegeben werden soll:
 
 ## R7 · Abwesenheit löst Bericht und Nachhol-Analyse aus
 
-**Vorgabe Nils (03.11.2026):** „Wenn eine oder die andere KI über längere Zyklen abwesend war, löst das neue Berichts-/Analysepflicht aus.“
+**Vorgaben Nils (03.11.2026):**
+- „Wenn eine oder die andere KI über längere Zyklen abwesend war, löst das neue Berichts-/Analysepflicht aus.“
+- **Definition:** „Abwesend ist, wenn auf 10 Beiträge einer KI kein Feedback oder Analyse kommt.“ (damit ist DEC-R7-SCHWELLEN entschieden)
 
-**Messung:** `forschung/koordination/werkzeuge/abwesenheit.py` misst aus der Git-Historie, nicht von Hand (Exit 3 = ausgelöst; Tests in `forschung/koordination/tests/test_abwesenheit.py`). Eine KI gilt als **abwesend**, wenn die andere KI seit ihrem letzten Commit aktiv war und mindestens eines zutrifft:
-
-| Auslöser | vorläufiger Wert | Begründung |
-|---|---|---|
-| Zeit seit dem letzten eigenen Commit | ≥ 12 h | etwa ein Arbeitstag Pause |
-| Arbeitsschritte der anderen KI (eindeutige Commit-Betreffe) | ≥ 100 | GPT legt eine Änderung oft als mehrere Datei-Commits ab, daher keine Rohzählung; am 03.11. waren es rund 60 Schritte in 2 h |
-| offene Prüfbitte an die KI (`REVIEW_QUEUE_V2`, awaiting_response) | ≥ 3 h | eine offene Prüfbitte blockiert die andere KI |
-
-Sobald es verifizierte volle Zyklen gibt (`PROGRAMM_100_ZYKLEN_MANIFEST`), kommt als weiterer Auslöser hinzu: „ein voller Zyklus ohne eigenen Beitrag“. Die Schwellen entscheidet Nils (`DEC-R7-SCHWELLEN`); bis dahin gelten die vorläufigen Werte.
+**Messung** mit `forschung/koordination/werkzeuge/abwesenheit.py` aus der Git-Historie (Exit 3 = ausgelöst; Tests in `forschung/koordination/tests/test_abwesenheit.py`):
+- **Beitrag** = ein Arbeitsschritt = eine eindeutige Commit-Betreffzeile. Mehrere Datei-Commits mit gleichem Betreff zählen einmal.
+- **Feedback oder Analyse** = ein Commit der anderen KI mit
+  - dem Trailer `Analyse-von: <sha>..<sha>` oder `Feedback-zu: <ID>` (R8, bevorzugt), oder
+  - einer Feedback-Datei unter `forschung/koordination/` (Name enthält DISKUSSION, ANTWORT, REVIEW, ANALYSE, NACHHOL, VERGLEICH oder EINGANGSKONTROLLE) oder einer Änderung an `REVIEW_QUEUE_V2.json`.
+- **Abwesend** ist eine KI, wenn die andere KI seit ihrem letzten Feedback **10 oder mehr Beiträge** gemacht hat. Eigene Arbeit ohne Feedback setzt den Zähler nicht zurück.
 
 **Pflichten bei Auslösung:**
-1. **Die anwesende KI** schreibt einen **Abwesenheitsbericht** an Nils (DOCX, Typ `abwesenheitsbericht`, roter Rahmen wie R2).
-   - Inhalt: was sich seitdem geändert hat, was durch die Abwesenheit blockiert ist, offene Prüfbitten, Entscheidungen.
-   - Er unterbricht den Berichtswechsel nicht und trägt den Vermerk „Sicht einer KI, Gegenlesung ausstehend“ (Ausnahme zu R1).
-2. **Die zurückkehrende KI** erstellt **vor neuer eigener Arbeit** eine **Nachhol-Analyse** aller Schritte seit ihrem letzten Commit: `NACHHOLANALYSE_<KI>_<DATUM>.md` mit Commit-Bereich, Befunden, Zustimmung oder Widerspruch je Änderung, die ihren Bereich berührt.
-   - Danach zeichnet sie den Abwesenheitsbericht gegen.
+1. **Die abwesende KI** schreibt **vor neuer eigener Arbeit** eine **Nachhol-Analyse** aller Beiträge seitdem: `NACHHOLANALYSE_<KI>_<DATUM>.md` mit Commit-Bereich, Ergebnis je Thema (einverstanden / Fehler / Abweichung / Hinweis) und Nachweisen. Commit mit dem Trailer `Analyse-von:`.
+2. **Die anwesende KI** schreibt einen **Abwesenheitsbericht** an Nils (DOCX, Typ `abwesenheitsbericht`, roter Rahmen wie R2), wenn die Abwesenheit **30 oder mehr** Beiträge umfasst oder offene Prüfbitten blockiert sind. Er unterbricht den Berichtswechsel nicht und trägt den Vermerk „Sicht einer KI, Gegenlesung ausstehend“.
 3. Der **nächste reguläre Bericht** (R2) enthält einen Abschnitt „Nachhol-Analyse“ mit den Ergebnissen.
 4. Sicherheitsfunde aus der Nachhol-Analyse gehen sofort an Nils (Ausnahme R1).
+5. **Vor jedem Koordinations-Commit** führt jede KI `abwesenheit.py` aus und liest neue Feedback-Dateien der anderen KI. So kreuzen sich keine Anfragen mehr.
 
-**Zuordnung der Commits:** Claude-Commits tragen den Trailer `Claude-Session:`. Alle anderen werden vorläufig GPT zugeordnet, also auch eigene Commits von Nils.
-- **Bitte an GPT:** künftig den Trailer `KI: gpt` setzen; dann zählt das Werkzeug streng.
+## R8 · Kennzeichnung und Versionierung
+
+**Vorgabe Nils (03.11.2026):** „Kennzeichnung ist auch für Versionierung wichtig.“
+
+1. **Jeder Commit nennt seine Urheberschaft** als Git-Trailer in der letzten Zeile der Nachricht:
+   - `KI: claude`, `KI: gpt` oder `KI: nils`
+   - Claude setzt zusätzlich `Claude-Session:` (Sitzungsnachweis).
+   - Ohne Kennung ordnet das Werkzeug vorläufig GPT zu; mit `--streng` zählt der Commit nicht.
+2. **Feedback-Commits nennen ihren Bezug:** `Analyse-von: <erster>..<letzter SHA>` oder `Feedback-zu: <REV-/DEC-/KOORD-ID>`.
+3. **Testbehauptungen nennen den getesteten Stand:** „PASS“ gilt nur mit dem Commit-SHA (oder dem Datei-SHA-256) des tatsächlich getesteten Codes und dem Befehl. Ein Lauf in einer anderen Umgebung mit nicht committetem Code ist ein **Vorab-Lauf**, kein PASS. *(Anlass: Nachhol-Analyse F1: „6/6 PASS“ dokumentiert, im Repo 3/3 ERROR.)*
+4. **Artefakte tragen Versionen im Namen oder im Kopf** (`_V0_1`, `schema_version`). Neue Fassung = neue Version, die alte bleibt erhalten (nie löschen, R0). Git-Tags sind in dieser Umgebung gesperrt (403). Deshalb tragen Versionsstände ihre Commit-SHA im Versionsmanifest (`forschung/register/VERSIONSMANIFEST_V0_1.json`).
+5. **Berichte an Nils** nennen den Commit-SHA des Stands, auf dem sie beruhen.
 
 ## Zustimmung
 
 | KI | Zustimmung | Datum | Änderungswünsche |
 |---|---|---|---|
 | Claude | **einverstanden** (Vorschlag) | 2026-11-03 | — |
-| GPT | **einverstanden mit konkretisierten Schutzregeln** (R1–R6); **R2-Neufassung und R7 ausstehend** | 2026-11-03 | Siehe `zyklen/KI-2026-11-03-001/GPT_DISKUSSION_06.md`: Output-blinde Peer-Simulation, echtes SHA-Review, getrennte Tests/Freigabe, öffentliche Aggregation statt privater Einzelaufgaben; Altlücken bleiben offen. |
+| GPT | **einverstanden mit konkretisierten Schutzregeln** (R1–R6); **R2-Neufassung, R7 (Definition Nils) und R8 ausstehend** | 2026-11-03 | Siehe `zyklen/KI-2026-11-03-001/GPT_DISKUSSION_06.md`: Output-blinde Peer-Simulation, echtes SHA-Review, getrennte Tests/Freigabe, öffentliche Aggregation statt privater Einzelaufgaben; Altlücken bleiben offen. |

@@ -48,38 +48,38 @@
    }
   },
   {
-   "id": "DEC-R7-SCHWELLEN",
-   "art": "entscheidung",
+   "id": "FREIGABE-LOGIK",
+   "art": "freigabe",
    "prio": "P1",
-   "frage_kurz": "Ab wann gilt eine KI als abwesend, sodass ein Abwesenheitsbericht und eine Nachhol-Analyse Pflicht werden?",
+   "frage_kurz": "Dürfen 35 rein dokumentarische Aussagen aus deinem Logik-Tensor 1.0 mit Seitenangabe auf der Website erscheinen?",
    "optionen_kurz": [
-    "a: 12 h oder 100 Arbeitsschritte, bei offener Prüfbitte schon nach 3 h",
-    "b: strenger: 6 h / 50 Schritte / 2 h",
-    "c: lockerer: 24 h / 200 Schritte / 6 h"
+    "a: alle 35 (27 Felder, 3 Pfade, 5 Axiome)",
+    "b: nur die 27 Feldzuordnungen",
+    "c: nichts"
    ],
    "empfehlung": {
     "claude": "a",
     "gpt": "ausstehend"
    },
-   "antwortformat": "R7: a",
+   "antwortformat": "FREIGABE-LOGIK: a",
    "erklaerung": {
-    "worum": "Du hast festgelegt: Ist eine KI über längere Zeit abwesend, muss danach berichtet und nachanalysiert werden. Dafür braucht es eine messbare Grenze. Das Werkzeug abwesenheit.py misst sie aus der Git-Historie.",
-    "warum_jetzt": "GPT arbeitet sehr schnell (am 03.11. rund 60 Arbeitsschritte in 2 Stunden). Ist die Grenze zu niedrig, wird ständig Abwesenheit gemeldet; ist sie zu hoch, übersieht eine KI zu viel.",
+    "worum": "Die Website zeigt Quellenkarten nur zu freigegebenen Aussagen. Bisher ist keine freigegeben. Die 35 Aussagen sagen nur: „So steht es im Original auf Seite X.“ Jede ist maschinell und per Sichtprüfung der Seite bestätigt.",
+    "warum_jetzt": "Die technische Lesesicht ist fertig und getestet. Ohne Freigabe bleibt die Logik-Seite ohne belegte Quellenkarten.",
     "optionen": [
      {
       "id": "a",
-      "text": "12 Stunden oder 100 Arbeitsschritte der anderen KI; ist eine Prüfbitte offen, schon nach 3 Stunden",
-      "folgen": "etwa ein Bericht pro Arbeitstag Pause; offene Prüfbitten werden schnell eskaliert"
+      "text": "Alle 35 freigeben",
+      "folgen": "GPT kann eine belegte Feldtabelle mit Seitenangaben zeigen; starke Thesen (Meta-Logik usw.) bleiben unveröffentlicht"
      }
     ],
     "empfehlung_begruendung": {
-     "claude": "a: Bei GPTs Tempo entsprechen 100 Schritte etwa einem halben Arbeitstag. Offene Prüfbitten blockieren die andere KI und sollten deshalb schneller zählen.",
-     "gpt": "ausstehend"
+     "claude": "a: Die Inhalte sind ohnehin öffentlich (Zenodo, CC-BY-4.0); die Freigabe betrifft nur die Darstellung mit Fundstelle.",
+     "gpt": "ausstehend (R1)"
     },
-    "wenn_nicht": "Es gilt Variante a als vorläufiger Wert.",
+    "wenn_nicht": "Die Logik-Seite zeigt weiter keine belegten Quellenkarten.",
     "hintergrund": [
-     "forschung/koordination/REGELN_ZUSAMMENARBEIT_V2_ENTWURF.md R7",
-     "forschung/koordination/werkzeuge/abwesenheit.py"
+     "forschung/koordination/ENTWURF_NILS_FREIGABE_LOGIK_AUSSAGEN.md",
+     "forschung/tensor/logik-claude/LOGIK_CLAIMREGISTER_V0_1.json"
     ]
    }
   }
@@ -108,7 +108,7 @@
   {
    "strang": "Governance",
    "farbe": "gelb",
-   "satz": "Regeln v2 gelten; R7 (Abwesenheit) wartet auf GPTs Zustimmung."
+   "satz": "Regeln v2 gelten; R7 (10 Beiträge ohne Feedback) und R8 (Kennzeichnung) warten auf GPTs Zustimmung."
   }
  ],
  "erledigt": [

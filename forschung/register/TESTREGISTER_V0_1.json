@@ -546,7 +546,7 @@
     "GOV-R2",
     "GOV-R7"
    ],
-   "gegenstand": "Abwesenheit: Zuordnung, Zeit-, Schritt- und Prüfbitten-Auslöser, Datei-Commits als ein Schritt (7 Fälle)",
+   "gegenstand": "Abwesenheit nach Definition Nils (10 Beiträge ohne Feedback/Analyse): Kennzeichnung, Feedback-Erkennung, 9/10-Grenze, kein Reset durch eigene Arbeit, Reset durch Feedback, Datei-Commits, Nils zählt nicht (8 Fälle)",
    "testart": "unittest",
    "datei": "forschung/koordination/tests/test_abwesenheit.py",
    "ergebnis": "bestanden",

@@ -1,7 +1,7 @@
 # Reproduktionsbericht Claude-Prüfungen
 
-- Zeit: 2026-11-03T17:15:58+00:00
-- Commit: `d91ed58484c0674f77b67958f4ae294c05a9c6da`
+- Zeit: 2026-11-03T18:17:25+00:00
+- Commit: `31b75648ad1e099e6fcafad2dfbe58ae86acaeb1`
 - Python: 3.13.18
 
 | Prüfung | Skript (SHA-256, 12 Zeichen) | Exit | Erwartetes Signal gefunden |
@@ -13,7 +13,7 @@
 | Probelauf LOGIK-PROMPT-02 (8) | `forschung/tensor/logik-claude/tests/test_logik_prompt02.py` `9b09cd69386a` | 0 | ja |
 | Lesesicht v0.2 (5) | `forschung/register/tests/test_lesesicht.py` `d997491b8bec` | 0 | ja |
 | PM-Status aus Nachweisen (5) | `forschung/register/tests/test_pm_status.py` `5cb03e84d9e5` | 0 | ja |
-| Abwesenheitserkennung R7 (7) | `forschung/koordination/tests/test_abwesenheit.py` `84ee64c50c4a` | 0 | ja |
+| Abwesenheit R7: 10 Beiträge ohne Feedback (8) | `forschung/koordination/tests/test_abwesenheit.py` `70c4eac36f04` | 0 | ja |
 | Berichtsgenerator roter Rahmen R2 (5) | `forschung/koordination/tests/test_bericht_vorlage.py` `6bd9cdbf963b` | 0 | ja |
 | GPT-Gegenlauf LOGIK-PROMPT-02 (Kontrolle) | `scripts/gpt_logic02_independent.py` `d93bb6935ab7` | 0 | ja |
 

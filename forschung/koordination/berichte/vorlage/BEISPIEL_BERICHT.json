@@ -3,7 +3,10 @@
  "titel": "Muster für Berichte an Nils (keine echten Freigaben)",
  "datum": "2026-11-03",
  "ersteller": "claude",
- "gegengelesen": {"von": "gpt", "status": "ausstehend"},
+ "gegengelesen": {
+  "von": "gpt",
+  "status": "ausstehend"
+ },
  "typ": "regelbericht",
  "entscheidungen": [
   {
@@ -11,52 +14,136 @@
    "art": "entscheidung",
    "prio": "P2",
    "frage_kurz": "Soll der Zweig ki-tensor/no-loss-audit (28 Prüfberichte, 12 Programme) als Archivordner in main übernommen werden?",
-   "optionen_kurz": ["a: übernehmen, als Archiv gekennzeichnet", "b: im Zweig lassen"],
-   "empfehlung": {"claude": "a", "gpt": "ausstehend"},
+   "optionen_kurz": [
+    "a: übernehmen, als Archiv gekennzeichnet",
+    "b: im Zweig lassen"
+   ],
+   "empfehlung": {
+    "claude": "a",
+    "gpt": "ausstehend"
+   },
    "antwortformat": "KT: a",
    "erklaerung": {
     "worum": "Der Zweig enthält die Formel-Prüfungen vom 31.10. Claude hat sie nachgerechnet: 16 von 16 Zahlenketten stimmen, kein neuer Tensor wurde bewiesen, und das steht auch ehrlich so in den Berichten.",
     "warum_jetzt": "Solange der Zweig getrennt liegt, findet ihn niemand, und die 22 fehlenden Archivpakete lassen sich nicht zuordnen.",
     "optionen": [
-     {"id": "a", "text": "Claude übernimmt den Zweig als Ordner ki-tensor/ mit Archiv-Kennzeichnung.", "folgen": "öffentlich sichtbar, keine Konflikte mit der Website; die Berichte werden auffindbar und zitierbar"},
-     {"id": "b", "text": "Der Zweig bleibt, wie er ist.", "folgen": "nichts geht verloren, aber die Inhalte sind schwer zu finden und werden im Projektmanagement nicht gezählt"}
+     {
+      "id": "a",
+      "text": "Claude übernimmt den Zweig als Ordner ki-tensor/ mit Archiv-Kennzeichnung.",
+      "folgen": "öffentlich sichtbar, keine Konflikte mit der Website; die Berichte werden auffindbar und zitierbar"
+     },
+     {
+      "id": "b",
+      "text": "Der Zweig bleibt, wie er ist.",
+      "folgen": "nichts geht verloren, aber die Inhalte sind schwer zu finden und werden im Projektmanagement nicht gezählt"
+     }
     ],
-    "empfehlung_begruendung": {"claude": "a: Die Inhalte sind geprüft, enthalten keine sensiblen Daten und sind ehrlich formuliert.", "gpt": "ausstehend (R1: GPT analysiert vor dem Versand)"},
+    "empfehlung_begruendung": {
+     "claude": "a: Die Inhalte sind geprüft, enthalten keine sensiblen Daten und sind ehrlich formuliert.",
+     "gpt": "ausstehend (R1: GPT analysiert vor dem Versand)"
+    },
     "wenn_nicht": "Der Zweig bleibt liegen; dabei entsteht kein Schaden.",
-    "hintergrund": ["forschung/register/ZWEIG_KI_TENSOR_TIEFENANALYSE_V0_1.md", "forschung/register/ZWEIG_KI_TENSOR_AUDIT_V0_1.md"]
+    "hintergrund": [
+     "forschung/register/ZWEIG_KI_TENSOR_TIEFENANALYSE_V0_1.md",
+     "forschung/register/ZWEIG_KI_TENSOR_AUDIT_V0_1.md"
+    ]
    }
   },
   {
-   "id": "DEC-R7-SCHWELLEN",
-   "art": "entscheidung",
+   "id": "FREIGABE-LOGIK",
+   "art": "freigabe",
    "prio": "P1",
-   "frage_kurz": "Ab wann gilt eine KI als abwesend, sodass ein Abwesenheitsbericht und eine Nachhol-Analyse Pflicht werden?",
-   "optionen_kurz": ["a: 12 h oder 100 Arbeitsschritte, bei offener Prüfbitte schon nach 3 h", "b: strenger: 6 h / 50 Schritte / 2 h", "c: lockerer: 24 h / 200 Schritte / 6 h"],
-   "empfehlung": {"claude": "a", "gpt": "ausstehend"},
-   "antwortformat": "R7: a",
+   "frage_kurz": "Dürfen 35 rein dokumentarische Aussagen aus deinem Logik-Tensor 1.0 mit Seitenangabe auf der Website erscheinen?",
+   "optionen_kurz": [
+    "a: alle 35 (27 Felder, 3 Pfade, 5 Axiome)",
+    "b: nur die 27 Feldzuordnungen",
+    "c: nichts"
+   ],
+   "empfehlung": {
+    "claude": "a",
+    "gpt": "ausstehend"
+   },
+   "antwortformat": "FREIGABE-LOGIK: a",
    "erklaerung": {
-    "worum": "Du hast festgelegt: Ist eine KI über längere Zeit abwesend, muss danach berichtet und nachanalysiert werden. Dafür braucht es eine messbare Grenze. Das Werkzeug abwesenheit.py misst sie aus der Git-Historie.",
-    "warum_jetzt": "GPT arbeitet sehr schnell (am 03.11. rund 60 Arbeitsschritte in 2 Stunden). Ist die Grenze zu niedrig, wird ständig Abwesenheit gemeldet; ist sie zu hoch, übersieht eine KI zu viel.",
+    "worum": "Die Website zeigt Quellenkarten nur zu freigegebenen Aussagen. Bisher ist keine freigegeben. Die 35 Aussagen sagen nur: „So steht es im Original auf Seite X.“ Jede ist maschinell und per Sichtprüfung der Seite bestätigt.",
+    "warum_jetzt": "Die technische Lesesicht ist fertig und getestet. Ohne Freigabe bleibt die Logik-Seite ohne belegte Quellenkarten.",
     "optionen": [
-     {"id": "a", "text": "12 Stunden oder 100 Arbeitsschritte der anderen KI; ist eine Prüfbitte offen, schon nach 3 Stunden", "folgen": "etwa ein Bericht pro Arbeitstag Pause; offene Prüfbitten werden schnell eskaliert"},
-     {"id": "b", "text": "6 h / 50 Schritte / 2 h", "folgen": "mehr Berichte, häufigere Unterbrechungen"},
-     {"id": "c", "text": "24 h / 200 Schritte / 6 h", "folgen": "weniger Berichte, aber Gefahr, dass große Änderungen ungeprüft bleiben"}
+     {
+      "id": "a",
+      "text": "Alle 35 freigeben",
+      "folgen": "GPT kann eine belegte Feldtabelle mit Seitenangaben zeigen; starke Thesen (Meta-Logik usw.) bleiben unveröffentlicht"
+     },
+     {
+      "id": "b",
+      "text": "Nur die 27 Feldzuordnungen",
+      "folgen": "Die Feldtabelle erscheint, Pfade und Axiome fehlen"
+     },
+     {
+      "id": "c",
+      "text": "Nichts freigeben",
+      "folgen": "Die Seite bleibt ohne Quellenkarten"
+     }
     ],
-    "empfehlung_begruendung": {"claude": "a: Bei GPTs Tempo entsprechen 100 Schritte etwa einem halben Arbeitstag. Offene Prüfbitten blockieren die andere KI und sollten deshalb schneller zählen.", "gpt": "ausstehend"},
-    "wenn_nicht": "Es gilt Variante a als vorläufiger Wert.",
-    "hintergrund": ["forschung/koordination/REGELN_ZUSAMMENARBEIT_V2_ENTWURF.md R7", "forschung/koordination/werkzeuge/abwesenheit.py"]
+    "empfehlung_begruendung": {
+     "claude": "a: Die Inhalte sind ohnehin öffentlich (Zenodo, CC-BY-4.0); die Freigabe betrifft nur die Darstellung mit Fundstelle.",
+     "gpt": "ausstehend (R1)"
+    },
+    "wenn_nicht": "Die Logik-Seite zeigt weiter keine belegten Quellenkarten.",
+    "hintergrund": [
+     "forschung/koordination/ENTWURF_NILS_FREIGABE_LOGIK_AUSSAGEN.md",
+     "forschung/tensor/logik-claude/LOGIK_CLAIMREGISTER_V0_1.json"
+    ]
    }
   }
  ],
  "ampel": [
-  {"strang": "Daten", "farbe": "gruen", "satz": "Register, Validatoren und Reproduktion laufen; 8 von 8 Prüfungen OK."},
-  {"strang": "Prompts", "farbe": "gelb", "satz": "Ein Prompt ist wechselseitig verglichen; Freigaben gibt es noch keine."},
-  {"strang": "Website", "farbe": "gruen", "satz": "Das 7-Punkte-Menü ist umgesetzt; die Browsertests laufen."},
-  {"strang": "Publikationen", "farbe": "gelb", "satz": "Der Upgrade-Plan steht; das Startpaket für Tensor 2.0 fehlt."},
-  {"strang": "Governance", "farbe": "gelb", "satz": "Regeln v2 gelten; R7 (Abwesenheit) wartet auf GPTs Zustimmung."}
+  {
+   "strang": "Daten",
+   "farbe": "gruen",
+   "satz": "Register, Validatoren und Reproduktion laufen; 8 von 8 Prüfungen OK."
+  },
+  {
+   "strang": "Prompts",
+   "farbe": "gelb",
+   "satz": "Ein Prompt ist wechselseitig verglichen; Freigaben gibt es noch keine."
+  },
+  {
+   "strang": "Website",
+   "farbe": "gruen",
+   "satz": "Das 7-Punkte-Menü ist umgesetzt; die Browsertests laufen."
+  },
+  {
+   "strang": "Publikationen",
+   "farbe": "gelb",
+   "satz": "Der Upgrade-Plan steht; das Startpaket für Tensor 2.0 fehlt."
+  },
+  {
+   "strang": "Governance",
+   "farbe": "gelb",
+   "satz": "Regeln v2 gelten; R7 (10 Beiträge ohne Feedback) und R8 (Kennzeichnung) warten auf GPTs Zustimmung."
+  }
  ],
- "erledigt": [{"text": "Projektmanagement-Stand wird aus Nachweisen berechnet", "nachweis": "forschung/register/werkzeuge/pm_status.py"}],
- "haengt": [{"text": "Tensor-2.0-Startpaket fehlt, deshalb sind die Achsen B nicht prüfbar", "verantwortlich": "Nils (Upload)"}],
- "naechste": {"claude": ["Nachhol-Analyse der GPT-Schritte"], "gpt": ["Bericht 05"]},
- "fundstellen": ["forschung/koordination/REGELN_ZUSAMMENARBEIT_V2_ENTWURF.md"]
+ "erledigt": [
+  {
+   "text": "Projektmanagement-Stand wird aus Nachweisen berechnet",
+   "nachweis": "forschung/register/werkzeuge/pm_status.py"
+  }
+ ],
+ "haengt": [
+  {
+   "text": "Tensor-2.0-Startpaket fehlt, deshalb sind die Achsen B nicht prüfbar",
+   "verantwortlich": "Nils (Upload)"
+  }
+ ],
+ "naechste": {
+  "claude": [
+   "Nachhol-Analyse der GPT-Schritte"
+  ],
+  "gpt": [
+   "Bericht 05"
+  ]
+ },
+ "fundstellen": [
+  "forschung/koordination/REGELN_ZUSAMMENARBEIT_V2_ENTWURF.md"
+ ]
 }
