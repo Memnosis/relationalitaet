@@ -1,6 +1,6 @@
 /* Project management v1.0: read-only public summary; no internal prompts or APIs. */
 (()=>{"use strict";
-const dataUrl="./data/projektmanagement-v1.json";
+const dataUrl="./data/projektmanagement-public-v2.json";
 const $=id=>document.getElementById(id);
 const ownerLabels={gpt:"GPT · Website",claude:"Claude · Daten/Forschung",both:"GPT + Claude"};
 const weights={
@@ -77,12 +77,12 @@ function redraw(){
  const tasks=snapshot.tasks.filter(t=>(own==="all"||t.owner===own||(own==="gpt"&&t.owner==="both")||(own==="claude"&&t.owner==="both"))&&(pri==="all"||t.priority===pri));
  tasks.sort((a,b)=>rank(b,order)-rank(a,order)||a.id.localeCompare(b.id));
  const host=$("pm-task-list");host.replaceChildren();
- if(!tasks.length){host.append(el("p","Für diese Auswahl sind noch keine Aufgaben in der öffentlichen Lesesicht vorhanden.","pm-empty"));return}
+ if(!tasks.length){const label=own==="claude"?"Interne Forschungsarbeiten werden hier nur als aggregierte Statuszahlen geführt. Öffentliche Einzelkarten erscheinen nach geprüfter Freigabe.":"Für diese Auswahl sind noch keine Aufgaben in der öffentlichen Lesesicht vorhanden.";host.append(el("p",label,"pm-empty"));return}
  for(const t of tasks)host.append(taskCard(t,snapshot.stages,order));
 }
 function initStats(){
  const tasks=snapshot.tasks,allDone=tasks.filter(t=>snapshot.stages.every(s=>t.stage?.[s.key]===1));
- const values=[[tasks.length,"Aufgaben in dieser öffentlichen Auswahl"],[tasks.filter(t=>t.owner==="gpt").length,"GPT-Aufgaben"],[tasks.filter(t=>t.owner==="claude").length,"Claude-Aufgaben"],[allDone.length,"In allen sechs Stufen bestätigt"]];
+ const values=[[tasks.length,"Aufgaben in dieser öffentlichen Auswahl"],[tasks.filter(t=>t.owner==="gpt").length,"GPT-Aufgaben"],[snapshot.internal_summary?.count||0,"Interne Forschungsaufgaben (aggregiert)"],[allDone.length,"In allen sechs Stufen bestätigt"]];
  $("pm-stats").replaceChildren();
  for(const [n,label] of values){const box=el("div",null,"pm-stat");box.append(el("strong",String(n)),el("small",label));$("pm-stats").append(box)}
  $("pm-snapshot").textContent="Datenstand: "+snapshot.snapshot_date+" · "+snapshot.notes;
@@ -107,14 +107,14 @@ async function load(){
  try{
  const response=await fetch(dataUrl,{cache:"no-store"});if(!response.ok)throw new Error("HTTP "+response.status);
  const data=await response.json();
- if(data.schema_version!=="pm-public-curated/0.1"||!Array.isArray(data.tasks)||!Array.isArray(data.stages))throw new Error("Unbekanntes Datenformat");
+ if(data.schema_version!=="pm-public-curated/0.2"||!Array.isArray(data.tasks)||!Array.isArray(data.stages))throw new Error("Unbekanntes Datenformat");
  const ids=data.tasks.map(t=>t.id);
  if(new Set(ids).size!==ids.length)throw new Error("Doppelte Aufgaben-IDs");
  snapshot=data;initStats();initImpact();redraw();
  }catch(err){
  $("pm-snapshot").textContent="Der öffentliche Aufgabenstand konnte nicht geladen werden ("+err.message+").";
  const h=$("pm-task-list");h.replaceChildren();const p=el("p","Die Datenansicht ist derzeit nicht verfügbar. Das Register bleibt auf GitHub einsehbar.");h.append(p);
- const a=el("a","Öffentliches Aufgabenregister öffnen");a.href="https://github.com/Memnosis/relationalitaet/blob/main/docs/data/projektmanagement-v1.json";h.append(a);
+ const a=el("a","Öffentliches Aufgabenregister öffnen");a.href="https://github.com/Memnosis/relationalitaet/blob/main/docs/data/projektmanagement-public-v2.json";h.append(a);
  }
 }
 for(const id of ["pm-owner","pm-order","pm-priority"])$(id)?.addEventListener("change",redraw);
