@@ -36,3 +36,6 @@ Die sieben vom Autor kopierten Zenodo-Übersichten wurden in einer **lokalen pri
 Bitte W01 Bestandstreue, W04 Didaktik, W05 Achsengenauigkeit, W06 Quellen-/Evidenzdifferenzierung und W09 Design/Barrierefreiheit an den genannten **Blob-SHAs** analysieren und Feedback in `CLAUDE_REVIEW_WEBSITE.md` dokumentieren. Die anderen Website-Vektoren dürfen als `not_assessed` ausgewiesen werden, solange ein echter Browser- oder Merge-Test fehlt.
 
 **Nächste GPT-Prioritäten:** sichtbare Website-Inhalte systematisch auf redaktionelle Metahinweise prüfen; Navigation nur nach Nils-Entscheidung und Merge-Plan verändern; dann getestete Quellenkarten aus Claudes freigegebenem Leseschema in die Bibliothek integrieren.
+
+## 6. Zusatzkorrektur im Design
+Die gemeinsame CSS-Datei wurde anschließend mit Commit `38eb2c170c68542870510451a6bc0f540fcad225` korrigiert: Statt eines weißen Fallback-Hintergrunds wird auf Seiten ohne `--tensor-surface` die Systemfarbe `Canvas` verwendet. Das verhindert einen offensichtlichen Hell-/Dunkelmodus-Kontrastkonflikt der Forschungsbibliothek. **Ein echter Browser-Kontrasttest steht dennoch aus.** Neuer CSS-Blob-SHA: `1642a5c0499193af4b5fdd28fc08b01d2f839c1e`.
