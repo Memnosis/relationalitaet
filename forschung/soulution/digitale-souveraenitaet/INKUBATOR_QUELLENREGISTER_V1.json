@@ -1,5 +1,5 @@
 {
-  "schema": "soulution.inkubator.source-registry.v1.1",
+  "schema": "soulution.inkubator.source-registry.v1.2",
   "as_of": "2026-11-03",
   "scope": "Curated candidates and anchored primary sources; not a harvested software catalog",
   "quality_policy": {
@@ -11,7 +11,21 @@
     "status_distinction": "URL present does not mean an API was tested or a project integrated",
     "license": "Must be checked at repository/release level before use",
     "legal": "Interoperability does not imply copy permission",
-    "financial": "external providers listed as candidates, no project partnerships asserted"
+    "financial": "external providers listed as candidates, no project partnerships asserted",
+    "interpretation": "source_read_status=reviewed means public source content was retrieved and compared, NOT software installed or audited",
+    "update_protocol": "new version or observation must preserve previous status and timestamp, never silently overwrite legal status",
+    "required_fields": [
+      "id",
+      "url",
+      "kind",
+      "source_read_status",
+      "source_type",
+      "last_checked",
+      "integration_status",
+      "license_review",
+      "tasks",
+      "incubator_module_ids"
+    ]
   },
   "sources": [
     {
@@ -22,7 +36,6 @@
       "authority": "primary",
       "topic": "international_cooperation",
       "abstract": "national workspace suites, shared components, sovereign tech fund",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -33,7 +46,11 @@
       "incubator_module_ids": [
         "HOST",
         "API"
-      ]
+      ],
+      "source_read_status": "retrieved_and_reviewed",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-EU-COMMONS-STRAT",
@@ -43,7 +60,6 @@
       "authority": "primary",
       "topic": "dated_2026",
       "abstract": "implementation strategy 2026-2027",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -54,7 +70,11 @@
       "incubator_module_ids": [
         "HOST",
         "API"
-      ]
+      ],
+      "source_read_status": "retrieved_and_reviewed",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-EU-INTEROP",
@@ -64,7 +84,6 @@
       "authority": "primary",
       "topic": "legal_organizational_semantic_technical",
       "abstract": "4 interoperability dimensions",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -74,7 +93,11 @@
       ],
       "incubator_module_ids": [
         "API"
-      ]
+      ],
+      "source_read_status": "retrieved_and_reviewed",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-DPG",
@@ -84,7 +107,6 @@
       "authority": "primary",
       "topic": "selection_framework",
       "abstract": "public goods qualification not security guarantee",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -94,7 +116,11 @@
       ],
       "incubator_module_ids": [
         "API"
-      ]
+      ],
+      "source_read_status": "official_url_candidate_requires_direct_content_review",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-FRAPPE",
@@ -104,7 +130,6 @@
       "authority": "primary",
       "topic": "metadata_driven_erp",
       "abstract": "data-model driven forms APIs core",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -115,7 +140,11 @@
       "incubator_module_ids": [
         "ERP",
         "API"
-      ]
+      ],
+      "source_read_status": "retrieved_and_reviewed",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-FRAPPE-MIGRATION",
@@ -125,7 +154,6 @@
       "authority": "primary",
       "topic": "upgrade_compatibility",
       "abstract": "migration and versioning",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -136,7 +164,11 @@
       "incubator_module_ids": [
         "ERP",
         "API"
-      ]
+      ],
+      "source_read_status": "retrieved_and_reviewed",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-APPBUILD",
@@ -146,7 +178,6 @@
       "authority": "secondary",
       "topic": "comparative_discovery",
       "abstract": "appsmith budibase tooljet baserow nocodb directus n8n candidates; verify with primary docs",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -155,7 +186,11 @@
       ],
       "incubator_module_ids": [
         "API"
-      ]
+      ],
+      "source_read_status": "official_url_candidate_requires_direct_content_review",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "third_party_comparison"
     },
     {
       "id": "SRC-INK-MATRIX-SERV",
@@ -165,7 +200,6 @@
       "authority": "primary",
       "topic": "homeserver_alternatives",
       "abstract": "Synapse Tuwunel Continuwuity",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -175,7 +209,11 @@
       "incubator_module_ids": [
         "COMM",
         "API"
-      ]
+      ],
+      "source_read_status": "retrieved_and_reviewed",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-MATRIX-SPEC",
@@ -185,7 +223,6 @@
       "authority": "primary",
       "topic": "communications_protocol",
       "abstract": "federation and bridges",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -195,7 +232,11 @@
       "incubator_module_ids": [
         "COMM",
         "API"
-      ]
+      ],
+      "source_read_status": "retrieved_and_reviewed",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-MATRIX-HELP",
@@ -205,7 +246,6 @@
       "authority": "secondary",
       "topic": "2026_comparison",
       "abstract": "technical crosscheck not operated service",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -215,7 +255,11 @@
       "incubator_module_ids": [
         "COMM",
         "API"
-      ]
+      ],
+      "source_read_status": "retrieved_and_reviewed",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "third_party_comparison"
     },
     {
       "id": "SRC-INK-FORGEJO-NEWS",
@@ -225,7 +269,6 @@
       "authority": "primary",
       "topic": "self_hosted_forge",
       "abstract": "community-owned collaboration",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -234,7 +277,11 @@
       ],
       "incubator_module_ids": [
         "COMM"
-      ]
+      ],
+      "source_read_status": "retrieved_and_reviewed",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-FORGEJO-FED",
@@ -244,7 +291,6 @@
       "authority": "primary",
       "topic": "experimental_federation",
       "abstract": "ActivityPub under development; do not call production-ready",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -254,7 +300,11 @@
       "incubator_module_ids": [
         "COMM",
         "API"
-      ]
+      ],
+      "source_read_status": "retrieved_and_reviewed",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-OSSSF",
@@ -264,7 +314,6 @@
       "authority": "primary",
       "topic": "security_frameworks",
       "abstract": "SLSA sigstore OSV schema etc",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -273,7 +322,11 @@
       ],
       "incubator_module_ids": [
         "API"
-      ]
+      ],
+      "source_read_status": "retrieved_and_reviewed",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-OSPS",
@@ -283,7 +336,6 @@
       "authority": "primary",
       "topic": "maturity_baseline",
       "abstract": "current version 2026-08-28; check version pinned",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -292,7 +344,11 @@
       ],
       "incubator_module_ids": [
         "API"
-      ]
+      ],
+      "source_read_status": "retrieved_and_reviewed",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-SCORECARD",
@@ -302,7 +358,6 @@
       "authority": "primary",
       "topic": "automated_risk",
       "abstract": "heuristic security indicator, not guarantee",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -311,7 +366,11 @@
       ],
       "incubator_module_ids": [
         "API"
-      ]
+      ],
+      "source_read_status": "retrieved_and_reviewed",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-SIGSTORE",
@@ -321,7 +380,6 @@
       "authority": "primary",
       "topic": "release_attestation",
       "abstract": "artifact signatures and transparency logs",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -330,7 +388,11 @@
       ],
       "incubator_module_ids": [
         "API"
-      ]
+      ],
+      "source_read_status": "retrieved_and_reviewed",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-SBOM",
@@ -340,7 +402,6 @@
       "authority": "primary",
       "topic": "dependency_inventory",
       "abstract": "software bill of materials and cross-format tools",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -349,7 +410,11 @@
       ],
       "incubator_module_ids": [
         "API"
-      ]
+      ],
+      "source_read_status": "retrieved_and_reviewed",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-RUSTLS",
@@ -359,7 +424,6 @@
       "authority": "primary",
       "topic": "tls_library",
       "abstract": "provider-based TLS, safe defaults",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -369,7 +433,11 @@
       ],
       "incubator_module_ids": [
         "API"
-      ]
+      ],
+      "source_read_status": "retrieved_and_reviewed",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-LIBSODIUM",
@@ -379,7 +447,6 @@
       "authority": "primary",
       "topic": "crypto_library",
       "abstract": "cross-platform crypto operations",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -389,7 +456,11 @@
       ],
       "incubator_module_ids": [
         "API"
-      ]
+      ],
+      "source_read_status": "retrieved_and_reviewed",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-OPENSSL",
@@ -399,7 +470,6 @@
       "authority": "primary",
       "topic": "maintainer_ecosystem",
       "abstract": "maintainer roles and contributions",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -409,7 +479,11 @@
       ],
       "incubator_module_ids": [
         "API"
-      ]
+      ],
+      "source_read_status": "retrieved_and_reviewed",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-EU-DIRECTIVE",
@@ -419,7 +493,6 @@
       "authority": "primary",
       "topic": "interoperability_decompilation",
       "abstract": "conditions for independently developed compatibility",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -428,7 +501,11 @@
       ],
       "incubator_module_ids": [
         "API"
-      ]
+      ],
+      "source_read_status": "retrieved_and_reviewed",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-SAS-JUDGMENT",
@@ -438,7 +515,6 @@
       "authority": "primary",
       "topic": "functions_languages_formats",
       "abstract": "copyright does not itself protect program functionality",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -447,7 +523,11 @@
       ],
       "incubator_module_ids": [
         "API"
-      ]
+      ],
+      "source_read_status": "retrieved_and_reviewed",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-KEYCLOAK",
@@ -457,7 +537,6 @@
       "authority": "primary",
       "topic": "OIDC_SAML",
       "abstract": "identity and access management candidate, not integrated",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -466,7 +545,11 @@
       ],
       "incubator_module_ids": [
         "IDENTITY"
-      ]
+      ],
+      "source_read_status": "official_url_candidate_requires_direct_content_review",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-AUTHENTIK",
@@ -476,7 +559,6 @@
       "authority": "primary",
       "topic": "SSO",
       "abstract": "open-source IAM alternative; verify exact licensing",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -485,7 +567,11 @@
       ],
       "incubator_module_ids": [
         "IDENTITY"
-      ]
+      ],
+      "source_read_status": "official_url_candidate_requires_direct_content_review",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-ERP-NEXT",
@@ -495,7 +581,6 @@
       "authority": "primary",
       "topic": "ERP",
       "abstract": "complete solution candidate",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -504,7 +589,11 @@
       ],
       "incubator_module_ids": [
         "ERP"
-      ]
+      ],
+      "source_read_status": "official_url_candidate_requires_direct_content_review",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-NEXTCLOUD",
@@ -514,7 +603,6 @@
       "authority": "primary",
       "topic": "files_groupware",
       "abstract": "collaboration suite candidate",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -523,7 +611,11 @@
       ],
       "incubator_module_ids": [
         "COMM"
-      ]
+      ],
+      "source_read_status": "official_url_candidate_requires_direct_content_review",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-N8N",
@@ -533,7 +625,6 @@
       "authority": "primary",
       "topic": "source_available_not_necessarily_osi_open_source",
       "abstract": "license restriction must be tested",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -542,7 +633,11 @@
       ],
       "incubator_module_ids": [
         "API"
-      ]
+      ],
+      "source_read_status": "official_url_candidate_requires_direct_content_review",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-NODE-RED",
@@ -552,7 +647,6 @@
       "authority": "primary",
       "topic": "flow_based_programming",
       "abstract": "low-code tool chaining candidate",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -561,7 +655,11 @@
       ],
       "incubator_module_ids": [
         "API"
-      ]
+      ],
+      "source_read_status": "official_url_candidate_requires_direct_content_review",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-W3C-ACTIVITYPUB",
@@ -571,7 +669,6 @@
       "authority": "primary",
       "topic": "fediverse_standard",
       "abstract": "social object protocol; not Matrix protocol",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -581,7 +678,11 @@
       "incubator_module_ids": [
         "COMM",
         "API"
-      ]
+      ],
+      "source_read_status": "retrieved_and_reviewed",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-SOVTECH",
@@ -591,7 +692,6 @@
       "authority": "primary",
       "topic": "maintenance_financing",
       "abstract": "fund critical infrastructure",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -600,7 +700,11 @@
       ],
       "incubator_module_ids": [
         "HOST"
-      ]
+      ],
+      "source_read_status": "official_url_candidate_requires_direct_content_review",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-EUDI-WALLET",
@@ -610,7 +714,6 @@
       "authority": "primary",
       "topic": "identity_standard",
       "abstract": "regulated ID use; not a generic mandatory project login",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -619,7 +722,11 @@
       ],
       "incubator_module_ids": [
         "IDENTITY"
-      ]
+      ],
+      "source_read_status": "official_url_candidate_requires_direct_content_review",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-OSV",
@@ -629,7 +736,6 @@
       "authority": "primary",
       "topic": "vulnerabilities_api",
       "abstract": "machine-readable vulnerabilities",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -638,7 +744,11 @@
       ],
       "incubator_module_ids": [
         "API"
-      ]
+      ],
+      "source_read_status": "official_url_candidate_requires_direct_content_review",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-SLSA",
@@ -648,7 +758,6 @@
       "authority": "primary",
       "topic": "build_provenance",
       "abstract": "software supply chain integrity",
-      "verified": "2026-11-03 external web retrieval for central sources; others remain primary-URL candidates until direct read",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -657,7 +766,11 @@
       ],
       "incubator_module_ids": [
         "API"
-      ]
+      ],
+      "source_read_status": "official_url_candidate_requires_direct_content_review",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-SAMBA",
@@ -667,7 +780,6 @@
       "authority": "primary",
       "topic": "windows_compatibility",
       "abstract": "mature GPL alternative interoperating with proprietary ecosystems",
-      "verified": "2026-11-03 primary source retrieval, docs or homepage; independent code/compatibility test not executed",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -678,7 +790,11 @@
       "incubator_module_ids": [
         "API",
         "HOST"
-      ]
+      ],
+      "source_read_status": "retrieved_and_reviewed",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-OSI",
@@ -688,7 +804,6 @@
       "authority": "primary",
       "topic": "open_source_qualification",
       "abstract": "distinguish OSI-compliant open source from source-available licenses",
-      "verified": "2026-11-03 primary source retrieval, docs or homepage; independent code/compatibility test not executed",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -697,7 +812,11 @@
       ],
       "incubator_module_ids": [
         "API"
-      ]
+      ],
+      "source_read_status": "retrieved_and_reviewed",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-MATRIX-SPEC-LATEST",
@@ -707,7 +826,6 @@
       "authority": "primary",
       "topic": "matrix_event_federation",
       "abstract": "homeserver protocol, replicated event graph and room semantics",
-      "verified": "2026-11-03 primary source retrieval, docs or homepage; independent code/compatibility test not executed",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -717,7 +835,11 @@
       "incubator_module_ids": [
         "COMM",
         "API"
-      ]
+      ],
+      "source_read_status": "retrieved_and_reviewed",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-ACTIVITYPUB-RECOMMENDATION",
@@ -727,7 +849,6 @@
       "authority": "primary",
       "topic": "social_federation",
       "abstract": "social-object delivery; different from Matrix rooms",
-      "verified": "2026-11-03 primary source retrieval, docs or homepage; independent code/compatibility test not executed",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -737,7 +858,11 @@
       "incubator_module_ids": [
         "COMM",
         "API"
-      ]
+      ],
+      "source_read_status": "retrieved_and_reviewed",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-WINE",
@@ -747,7 +872,6 @@
       "authority": "primary",
       "topic": "compatibility_layer",
       "abstract": "API-compatible independently implemented software candidate, verify legal project background",
-      "verified": "2026-11-03 primary source retrieval, docs or homepage; independent code/compatibility test not executed",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -756,7 +880,11 @@
       ],
       "incubator_module_ids": [
         "API"
-      ]
+      ],
+      "source_read_status": "official_url_candidate_requires_direct_content_review",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     },
     {
       "id": "SRC-INK-OPENSSL-SOURCE",
@@ -766,7 +894,6 @@
       "authority": "primary",
       "topic": "cryptography",
       "abstract": "mature TLS/crypto dependency case",
-      "verified": "2026-11-03 primary source retrieval, docs or homepage; independent code/compatibility test not executed",
       "license_review": "not_completed",
       "last_checked": "2026-11-03",
       "integration_status": "candidate_not_integrated",
@@ -775,10 +902,28 @@
       ],
       "incubator_module_ids": [
         "API"
-      ]
+      ],
+      "source_read_status": "retrieved_and_reviewed",
+      "implementation_status": "not_tested",
+      "licence_verified": false,
+      "source_type": "organization_or_standard_origin"
     }
   ],
   "source_status_counts": {
     "candidate_not_integrated": 39
+  },
+  "quality_counts": {
+    "total": 39,
+    "source_content_reviewed": 26,
+    "urls_pending_direct_review": 13,
+    "software_installation_tests": 0,
+    "license_checks_completed": 0
+  },
+  "audit": {
+    "unique_ids": true,
+    "url_http_https": true,
+    "all_required": true,
+    "duplicates": 1,
+    "unsupported_id": []
   }
 }
