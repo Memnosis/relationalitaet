@@ -2,7 +2,7 @@
   "schema_version": "pm-public-curated/0.1",
   "snapshot_date": "2026-11-03",
   "scope": "selected_verified_task_families_not_full_historical_inventory",
-  "notes": "Planning scores (0..3) are editorial estimates, not scientific measurements. Stage checks indicate verified artifacts only; end-to-end browser tests and AI reciprocal cycle open. This is a public-safe excerpt without internal prompts or unpublished original content.",
+  "notes": "Planning scores (0..3) are editorial estimates, not scientific measurements. Stage checks indicate verified artifacts only; end-to-end browser tests and AI reciprocal cycle open. This is a public-safe excerpt without internal prompts or unpublished original content. Revision 2 adds source links per evidence stage and records recent website implementation steps; no new scientific proof.",
   "stages": [
     {
       "key": "inventory",
@@ -65,7 +65,19 @@
         "Mitmachen"
       ],
       "evidence": "forschung/koordination/STANDARDS_SKILLS_METHODENREGISTER_V1_2026-11-03.md",
-      "next": "Aus Standards reproduzierbare Profile, Tests und Datenverträge ableiten."
+      "next": "Aus Standards reproduzierbare Profile, Tests und Datenverträge ableiten.",
+      "stage_evidence": {
+        "inventory": {
+          "path": "forschung/koordination/STANDARDS_SKILLS_METHODENREGISTER_V1_2026-11-03.md",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "specification": {
+          "path": "forschung/koordination/STANDARDS_SKILLS_METHODENREGISTER_V1_2026-11-03.md",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        }
+      }
     },
     {
       "id": "PM-DATA-01",
@@ -104,7 +116,19 @@
         "Mitmachen"
       ],
       "evidence": "forschung/koordination/ZYKLUS_001_ZENODO_RELEVANZ_STATT_GESAMTLISTE_2026-11-03.md",
-      "next": "Private Masterquellen getrennt erhalten und freigegebene Web-Projektion validieren."
+      "next": "Private Masterquellen getrennt erhalten und freigegebene Web-Projektion validieren.",
+      "stage_evidence": {
+        "inventory": {
+          "path": "forschung/koordination/ZYKLUS_001_ZENODO_RELEVANZ_STATT_GESAMTLISTE_2026-11-03.md",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "specification": {
+          "path": "forschung/koordination/ZYKLUS_001_ZENODO_RELEVANZ_STATT_GESAMTLISTE_2026-11-03.md",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        }
+      }
     },
     {
       "id": "PM-DATA-02",
@@ -142,7 +166,19 @@
         "Publikationen"
       ],
       "evidence": "forschung/koordination/BRIEFING_DATEN_KI_TENSOR_STANDARD_PUBLIKATIONEN_2026-11-03.md",
-      "next": "A/B/C/G getrennt abgleichen; Primärquellen und echte Nichtentsprechungen."
+      "next": "A/B/C/G getrennt abgleichen; Primärquellen und echte Nichtentsprechungen.",
+      "stage_evidence": {
+        "inventory": {
+          "path": "forschung/koordination/BRIEFING_DATEN_KI_TENSOR_STANDARD_PUBLIKATIONEN_2026-11-03.md",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "specification": {
+          "path": "forschung/koordination/BRIEFING_DATEN_KI_TENSOR_STANDARD_PUBLIKATIONEN_2026-11-03.md",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        }
+      }
     },
     {
       "id": "PM-WEB-01",
@@ -178,8 +214,31 @@
         "Forschung",
         "Mitmachen"
       ],
-      "evidence": "forschung/website/WEB_UPGRADE_BUENDEL_02_TENSOR_LOGIK_2026-11-03.md",
-      "next": "Die echte Seitenfunktion und Claudes Gegenprüfung abnehmen."
+      "evidence": "docs/projektmanagement.html",
+      "next": "JS-/Desktop-Funktion, Datenvalidierung und Claudes fachliches Aufgabenreview abnehmen.",
+      "stage_evidence": {
+        "inventory": {
+          "path": "docs/projektmanagement.html",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "specification": {
+          "path": "docs/projektmanagement.html",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "implementation": {
+          "path": "docs/projektmanagement.html",
+          "kind": "source_or_working_evidence",
+          "review": "static_git_artifact_not_end_to_end_test"
+        }
+      },
+      "last_activity": {
+        "date": "2026-11-03",
+        "stage": "implementation",
+        "commit": "2f2bf80ba01ae64f3757aff05d7fae7eb89332c4",
+        "summary": "Neuer öffentlicher Web-/Auditstand in Git; Browser und fachliches Peerreview noch offen"
+      }
     },
     {
       "id": "PM-WEB-02",
@@ -189,7 +248,7 @@
       "stage": {
         "inventory": 1,
         "specification": 1,
-        "implementation": 0,
+        "implementation": 1,
         "testing": 0,
         "peer_review": 0,
         "release": 0
@@ -214,8 +273,31 @@
         "Website",
         "Alle Projekte"
       ],
-      "evidence": "forschung/website/PLAN_TENSOR_LOGIK_FELDTHEORIE_STANDARD_UPGRADE_2026-11-03.md",
-      "next": "Seitenweise Lücken, Querverweise und Prioritätsfolgen dokumentieren."
+      "evidence": "forschung/website/SEITENAUDIT_GESAMT_LERNWEGE_THESEN_GEOKI_2026-11-03.md",
+      "next": "Claude-Fach-/Didaktik-Gegenprüfung durchführen, Abweichungen pro Seite abarbeiten.",
+      "stage_evidence": {
+        "inventory": {
+          "path": "forschung/website/SEITENAUDIT_GESAMT_LERNWEGE_THESEN_GEOKI_2026-11-03.md",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "specification": {
+          "path": "forschung/website/SEITENAUDIT_GESAMT_LERNWEGE_THESEN_GEOKI_2026-11-03.md",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "implementation": {
+          "path": "forschung/website/SEITENAUDIT_GESAMT_LERNWEGE_THESEN_GEOKI_2026-11-03.md",
+          "kind": "source_or_working_evidence",
+          "review": "static_git_artifact_not_end_to_end_test"
+        }
+      },
+      "last_activity": {
+        "date": "2026-11-03",
+        "stage": "implementation",
+        "commit": "8cfb453b0b1871655c939543c4eecd66b254e0de",
+        "summary": "Neuer öffentlicher Web-/Auditstand in Git; Browser und fachliches Peerreview noch offen"
+      }
     },
     {
       "id": "PM-NAV-01",
@@ -249,7 +331,19 @@
         "Barrierefreiheit"
       ],
       "evidence": "forschung/koordination/zyklen/KI-2026-11-03-001/GPT_REVIEW_DATEN_VORLAEUFIG.md",
-      "next": "16 betroffene Seiten und 4 geschützte Anker gegenprüfen, nicht automatisch mergen."
+      "next": "16 betroffene Seiten und 4 geschützte Anker gegenprüfen, nicht automatisch mergen.",
+      "stage_evidence": {
+        "inventory": {
+          "path": "forschung/koordination/zyklen/KI-2026-11-03-001/GPT_REVIEW_DATEN_VORLAEUFIG.md",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "specification": {
+          "path": "forschung/koordination/zyklen/KI-2026-11-03-001/GPT_REVIEW_DATEN_VORLAEUFIG.md",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        }
+      }
     },
     {
       "id": "PM-HISTORY-01",
@@ -258,8 +352,8 @@
       "priority": "P1",
       "stage": {
         "inventory": 1,
-        "specification": 0,
-        "implementation": 0,
+        "specification": 1,
+        "implementation": 1,
         "testing": 0,
         "peer_review": 0,
         "release": 0
@@ -286,8 +380,31 @@
         "Tensor",
         "Bildung"
       ],
-      "evidence": "docs/minimal-ki.html",
-      "next": "Historische KI-Paradigmen und eigenes Programm didaktisch mit Quellen vergleichen."
+      "evidence": "docs/ki-geschichte.html",
+      "next": "Claudes Fachreview und konkreter Vergleich zu Regel-/Agent-/Lernbaselines; Browserabnahme.",
+      "stage_evidence": {
+        "inventory": {
+          "path": "docs/ki-geschichte.html",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "specification": {
+          "path": "docs/ki-geschichte.html",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "implementation": {
+          "path": "docs/ki-geschichte.html",
+          "kind": "source_or_working_evidence",
+          "review": "static_git_artifact_not_end_to_end_test"
+        }
+      },
+      "last_activity": {
+        "date": "2026-11-03",
+        "stage": "implementation",
+        "commit": "29941a279a925c97992c8e3d73deb96ca57b10af",
+        "summary": "Neuer öffentlicher Web-/Auditstand in Git; Browser und fachliches Peerreview noch offen"
+      }
     },
     {
       "id": "PM-GEO-01",
@@ -296,8 +413,8 @@
       "priority": "P1",
       "stage": {
         "inventory": 1,
-        "specification": 0,
-        "implementation": 0,
+        "specification": 1,
+        "implementation": 1,
         "testing": 0,
         "peer_review": 0,
         "release": 0
@@ -323,8 +440,31 @@
         "Inkubator",
         "Mitmachen"
       ],
-      "evidence": "docs/geoki.html",
-      "next": "GEOS/Shapely, CGAL, OpenCASCADE, QGIS/PostGIS und GeoJSON mit Kriterien und Grenzen vergleichen."
+      "evidence": "docs/geoki-systeme.html",
+      "next": "Bibliotheken mit identischen Geometriedaten praktisch benchmarken, Lizenzen/Versionen prüfen.",
+      "stage_evidence": {
+        "inventory": {
+          "path": "docs/geoki-systeme.html",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "specification": {
+          "path": "docs/geoki-systeme.html",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "implementation": {
+          "path": "docs/geoki-systeme.html",
+          "kind": "source_or_working_evidence",
+          "review": "static_git_artifact_not_end_to_end_test"
+        }
+      },
+      "last_activity": {
+        "date": "2026-11-03",
+        "stage": "implementation",
+        "commit": "b47f391d42f37a0e88632e77bcc53026d4e064ed",
+        "summary": "Neuer öffentlicher Web-/Auditstand in Git; Browser und fachliches Peerreview noch offen"
+      }
     },
     {
       "id": "PM-THESIS-01",
@@ -364,7 +504,19 @@
         "Mitmachen"
       ],
       "evidence": "forschung/tensor/LOGIK_TENSOR_2_1_FORSCHUNGS-UND_PROMPTEDITION_ENTWURF.md",
-      "next": "Originalthesen mit IDs, Originalwortlaut und Status, Hypothesen nicht als Tatsachen publizieren."
+      "next": "Originalthesen mit IDs, Originalwortlaut und Status, Hypothesen nicht als Tatsachen publizieren.",
+      "stage_evidence": {
+        "inventory": {
+          "path": "forschung/tensor/LOGIK_TENSOR_2_1_FORSCHUNGS-UND_PROMPTEDITION_ENTWURF.md",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "specification": {
+          "path": "forschung/tensor/LOGIK_TENSOR_2_1_FORSCHUNGS-UND_PROMPTEDITION_ENTWURF.md",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        }
+      }
     },
     {
       "id": "PM-THESIS-WEB",
@@ -400,8 +552,15 @@
         "Mitmachen",
         "Publikationen"
       ],
-      "evidence": "forschung/tensor/LOGIK_TENSOR_2_1_FORSCHUNGS-UND_PROMPTEDITION_ENTWURF.md",
-      "next": "Erst nach Claudes freigegebener These-Claim-Lesesicht echte Einzelaussagen veröffentlichen."
+      "evidence": "docs/thesen.html",
+      "next": "Didaktischer Theseneinstieg existiert; einzelne Aussagen und Tests erst nach Claudes originalgetreuem Quellenexport anbinden.",
+      "stage_evidence": {
+        "inventory": {
+          "path": "docs/thesen.html",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        }
+      }
     },
     {
       "id": "PM-LOGIK-01",
@@ -438,7 +597,19 @@
         "Publikationen"
       ],
       "evidence": "forschung/tensor/LOGIK_TENSOR_2_0_GOLDSTANDARD_ARBEITSSTAND_2026-11-03.md",
-      "next": "Originalquellen und Gegenmodelle prüfen, danach fachliches Manuskript freigeben lassen."
+      "next": "Originalquellen und Gegenmodelle prüfen, danach fachliches Manuskript freigeben lassen.",
+      "stage_evidence": {
+        "inventory": {
+          "path": "forschung/tensor/LOGIK_TENSOR_2_0_GOLDSTANDARD_ARBEITSSTAND_2026-11-03.md",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "specification": {
+          "path": "forschung/tensor/LOGIK_TENSOR_2_0_GOLDSTANDARD_ARBEITSSTAND_2026-11-03.md",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        }
+      }
     },
     {
       "id": "PM-PROMPT-01",
@@ -474,8 +645,20 @@
         "Prompts",
         "Agenten"
       ],
-      "evidence": "forschung/website/CHANGELOG_DESIGN_TEXT_LERNPFAD_P0_2026-11-03.md",
-      "next": "20 Rohprompts privat sichern, einzelne Versionen testen und öffentliches Exportformat prüfen."
+      "evidence": "forschung/koordination/zyklen/KI-2026-11-03-001/CLAUDE_REVIEW_WEBSITE.md",
+      "next": "38 bestehende Rohprompts (13+7+18) privat sichern, Varianten einzeln prüfen, öffentlichen Minimalexport entwerfen.",
+      "stage_evidence": {
+        "inventory": {
+          "path": "forschung/koordination/zyklen/KI-2026-11-03-001/CLAUDE_REVIEW_WEBSITE.md",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "specification": {
+          "path": "forschung/koordination/zyklen/KI-2026-11-03-001/CLAUDE_REVIEW_WEBSITE.md",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        }
+      }
     },
     {
       "id": "PM-CYCLE-01",
@@ -511,7 +694,25 @@
         "Projektsteuerung"
       ],
       "evidence": "forschung/koordination/RHYTHMUS_3_3_9_12_KI_AUSTAUSCH_2026-11-03.md",
-      "next": "Claude-Lieferung + GPT-Gegenprüfung + Rückbestätigung + Bericht vollständig nachweisen."
+      "next": "Claude-Lieferung + GPT-Gegenprüfung + Rückbestätigung + Bericht vollständig nachweisen.",
+      "stage_evidence": {
+        "inventory": {
+          "path": "forschung/koordination/RHYTHMUS_3_3_9_12_KI_AUSTAUSCH_2026-11-03.md",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "specification": {
+          "path": "forschung/koordination/RHYTHMUS_3_3_9_12_KI_AUSTAUSCH_2026-11-03.md",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "implementation": {
+          "path": "forschung/koordination/RHYTHMUS_3_3_9_12_KI_AUSTAUSCH_2026-11-03.md",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        }
+      }
     }
-  ]
+  ],
+  "data_revision": 2
 }
