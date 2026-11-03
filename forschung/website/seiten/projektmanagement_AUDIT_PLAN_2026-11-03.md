@@ -20,3 +20,9 @@ Vollständiger 100+-Crosswalk und tatsächlich unabhängig verifizierte Abschlü
 **Taskfamilien:** PM-WEB-01, PM-CYCLE-01. **Historische Prompt-Herkunft:** einzelne der letzten 100+ Nutzerbefehle noch nicht lückenlos nummeriert – nicht mit diesem Themen-Audit verwechseln. [Abgleich und Planänderungen](../PLAN_UPDATE_PROMPT100_UND_LUECKENAUDIT_2026-11-03.md).
 
 **Verweis:** [Gesamtseiten-Audit](../SEITENAUDIT_GESAMT_LERNWEGE_THESEN_GEOKI_2026-11-03.md) · [Git-Changelog](../CHANGELOG_PM_KI_HISTORY_GEO_THESES_2026-11-03.md). **Status:** teils dokumentiert/implementiert; Endfreigabe nicht nachgewiesen.
+
+## R5 · Endlich browserfähig prüfbarer R6-Workflow (03.11.2026)
+
+**Tatsächlich korrigiert:** Bearbeitungsstufen sind nicht länger stillschweigend als externe Freigabe beschriftet; die Promptübersicht trennt 82 eindeutige IDs von 102 Vorkommen, der Anforderungsbereich zeigt 72 atomisierte Aufträge und lässt die exakte Folge der letzten 100 Originalnachrichten ausdrücklich offen.
+
+**Neues Abnahmeinstrument:** `.github/workflows/website-browser-smoke.yml` mit Chromium und `scripts/verify_website_browser.mjs` prüft HTML/JS-Rendering, sieben Menüpunkte, 7 öffentliche Aufgaben, Filter GPT/Claude/P0/Risiko, aggregierte interne Datensicht, sechs Thesenkarten und zwölf repräsentative Seiten. Die Testakte wird als strukturierte CI-Artefakt-JSON mit Quell-SHA gespeichert. **Der erste erfolgreiche CI-Lauf ist noch nicht belegt**; erst dessen Ergebnis darf die Teststufe dieser Aufgabe verändern.
