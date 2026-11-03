@@ -9,14 +9,18 @@
     {
       "path": "forschung/koordination/zyklen/KI-2026-11-03-001/STATUS.json",
       "sha": "405af8cc1b7baaec12b7628289b69ed45350cfe0"
+    },
+    {
+      "path": "forschung/register/PROMPT_CROSSWALK_V0_1.json",
+      "sha": "57bcb2e7379f9e2eac5c18a1c977541e20062dd0"
     }
   ],
-  "description": "Redigierte, von Claude als Quelle dokumentierte Bestandszahlen; keine Rohprompts und keine privaten Einzelaufgaben. Der Datenabgleich und die gegenseitige Prüfung sind noch offen.",
+  "description": "Aggregierte öffentliche Bestandszahlen aus Claudes crosswalk 102 Fundstellen / 82 eindeutige IDs und 20 bytegleiche Überschneidungen. Eine unabhängige vollständige R4-Ausführung ist noch nicht als abgeschlossen freigegeben.",
   "prompt_overview": {
-    "objects": 82,
+    "objects": 102,
     "groups": 8,
     "overlapping_occurrences": 20,
-    "unique_count_verified": false,
+    "unique_count_verified": true,
     "mutually_tested": 0,
     "model_trials_reported": 1,
     "partial_source_case_tests_reported": 12,
@@ -53,7 +57,10 @@
         "name": "Neue Prüfentwürfe",
         "count": 5
       }
-    ]
+    ],
+    "unique_ids": 82,
+    "counting_rule": "8 group counts sum to 82 unique IDs, with 20 matching occurrences duplicated in the integration branch, yielding 102 occurrences. Claude's crosswalk reports matching SHA for all 20 overlaps.",
+    "r4_compared_partial": 1
   },
   "cycle_overview": {
     "target": 100,
@@ -89,5 +96,5 @@
     }
   ],
   "public_privacy": "aggregate_only",
-  "status": "review_pending"
+  "status": "review_pending_R4_partial_comparison"
 }
