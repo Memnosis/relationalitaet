@@ -1,0 +1,139 @@
+{
+  "schema_version": "thesis-public-thematic/0.1",
+  "as_of": "2026-11-03",
+  "scope": "Sechs thematische Forschungslinien aus bestehenden öffentlich dokumentierten Seiten; keine vollständige Liste historischer originaler Thesen-IDs.",
+  "evidence_levels": [
+    {
+      "id": "E0",
+      "label": "These formuliert",
+      "definition": "Forschungsbehauptung erfasst; noch keine fachliche Prüfaussage belegt"
+    },
+    {
+      "id": "E1",
+      "label": "Begriffe und Modell",
+      "definition": "Begriffe, Träger, Bedingungen und überprüfbare Behauptung ausformuliert"
+    },
+    {
+      "id": "E2",
+      "label": "Formale oder technische Probe",
+      "definition": "Nachvollziehbare Einzelrechnung oder konkrete technische Probe; belegt nur ihren ausdrücklich begrenzten Gegenstand"
+    },
+    {
+      "id": "E3",
+      "label": "Unabhängig gegengeprüft",
+      "definition": "Wesentliche Schlussfolgerung unabhängig anhand Quelle und Test reproduziert"
+    },
+    {
+      "id": "E4",
+      "label": "Im beanspruchten Bereich bestätigt",
+      "definition": "Geeignete belastbare Nachweise und Grenzen für die genaue fachliche Behauptung dokumentiert"
+    }
+  ],
+  "theses": [
+    {
+      "id": "TH-THEMA-01",
+      "title": "Sind trinitäre Beziehungen mehr als eine Klassifikation?",
+      "question": "Bringt die 3×3×3-Adressierung einen nachweisbaren Erkenntnis- oder Rechenvorteil gegenüber bekannten Strukturen?",
+      "evidence": "E1",
+      "evidence_note": "27 Adressen und verschiedene Achsenmodelle sind dokumentiert; die Notwendigkeit der Dreiteilung und ein allgemeiner Vorteil sind nicht belegt.",
+      "field": "Tensor / Algebra",
+      "page": "tensor-einfuehrung.html",
+      "anchor": "tensor-grundlagen-heute",
+      "evidence_for": "Modellbeschreibung, nicht die behauptete Überlegenheit",
+      "status": "offen",
+      "test": "Typisierter Vergleich zu Paar-/Graphmodellen mit mindestens einem Gegenmodell",
+      "depends_on": [
+        "PM-DATA-02",
+        "PM-LOGIK-01"
+      ],
+      "icon": "cube"
+    },
+    {
+      "id": "TH-THEMA-02",
+      "title": "Kann der Logik-Tensor eine relationale Meta-Logik begründen?",
+      "question": "Gibt es einen eigenen wohldefinierten Kalkül mit Syntax, Semantik und kontrollierter Übertragung auf bekannte Logiken?",
+      "evidence": "E1",
+      "evidence_note": "Historische drei Matrizen und ein separat gültiger Modus-ponens-Schluss sind beschrieben; ein neuer Kalkül, Korrektheit und Vollständigkeit sind nicht belegt.",
+      "field": "Logik",
+      "page": "tensor-paper.html",
+      "anchor": "logik-forschungsstand",
+      "evidence_for": "historische Modellordnung; die Meta-Logik-Behauptung bleibt offen",
+      "status": "offen",
+      "test": "Syntax, Inferenz, Semantik und gegenbeispielbasierte Übersetzung formalisieren",
+      "depends_on": [
+        "PM-DATA-02",
+        "PM-THESIS-01"
+      ],
+      "icon": "network"
+    },
+    {
+      "id": "TH-THEMA-03",
+      "title": "Welche Wirkungen folgen aus der relationalen Feldordnung?",
+      "question": "Welche Operatoren und Dynamiken sind in bestimmten Modellklassen definierbar, und wo endet der Schluss auf reale Wirkungen?",
+      "evidence": "E1",
+      "evidence_note": "Diskrete Graph-/Operatorbeispiele sind erarbeitet; ihre Existenz rechtfertigt keine allgemeine physikalische oder biologische Feldbehauptung.",
+      "field": "Feldtheorie / Algebra",
+      "page": "tensoralgebra.html",
+      "anchor": "algebra-lernpfad",
+      "evidence_for": "mathematische Strukturbeispiele, nicht fächerübergreifende Wirkung",
+      "status": "offen",
+      "test": "Formal definierte Graphoperatoren mit Invarianz- und Negativproben",
+      "depends_on": [
+        "PM-DATA-02",
+        "PM-THESIS-01"
+      ],
+      "icon": "network"
+    },
+    {
+      "id": "TH-THEMA-04",
+      "title": "Erhöht Komposition kleiner KI-Funktionen die Leistung?",
+      "question": "Verbessern Gedächtnis, Regelverdichtung, Komposition und Rückkopplung gemessene Ergebnisse gegenüber einfacheren Baselines?",
+      "evidence": "E1",
+      "evidence_note": "Die vier Kernfunktionen und begrenzte Vorhersagetests sind dokumentiert; keine allgemeine Überlegenheit einer Mini-KI nachgewiesen.",
+      "field": "Mini-KI",
+      "page": "minimal-ki.html",
+      "anchor": "ki-geschichte-anschluss",
+      "evidence_for": "Forschungsarchitektur, nicht messbaren Leistungsgewinn",
+      "status": "offen",
+      "test": "Gleicher Input/Rechenaufwand, stabile Baselines, Blind-/Negativproben",
+      "depends_on": [
+        "PM-CYCLE-01"
+      ],
+      "icon": "brain"
+    },
+    {
+      "id": "TH-THEMA-05",
+      "title": "Führt höhere Vernetzungsdichte zu neuen Fähigkeiten?",
+      "question": "Zeigt sich bei kontrolliert steigendem Vernetzungsgrad ein belastbarer nichtlinearer Leistungswechsel?",
+      "evidence": "E1",
+      "evidence_note": "Das Studiendesign und eine Hypothese sind öffentlich beschrieben; unabhängige replizierte Leistungskurve fehlt.",
+      "field": "Vernetzung / KI-Kollegen",
+      "page": "vernetzung-ki.html",
+      "anchor": "",
+      "evidence_for": "Prüfkonzept, nicht kritische Schwelle",
+      "status": "offen",
+      "test": "Vernetzungsgrad isoliert variieren; Aufgaben und Rechenbudget konstant",
+      "depends_on": [
+        "PM-CYCLE-01"
+      ],
+      "icon": "network"
+    },
+    {
+      "id": "TH-THEMA-06",
+      "title": "Nützt die kombinierte Geo-KI mehr als einzelne Geometriewerkzeuge?",
+      "question": "Erhöht die typisierte und gegengeprüfte Kombination existierender Geometrie-Skills Robustheit, Wiederverwendung oder Genauigkeit?",
+      "evidence": "E1",
+      "evidence_note": "Formengenerator und Werkzeugvergleich existieren, aber kein fairer reproduzierter Vergleich nach konsistenten Leistungsmaßen.",
+      "field": "Geo-KI",
+      "page": "geoki.html",
+      "anchor": "geo-werkzeugvergleich",
+      "evidence_for": "Werkzeugstrategie, nicht Leistungsnachweis",
+      "status": "offen",
+      "test": "Roundtrip und toleranzbasierte Benchmarks mit Shapely/SymPy/CAD an identischen Daten",
+      "depends_on": [
+        "PM-GEO-01"
+      ],
+      "icon": "shapes"
+    }
+  ]
+}
