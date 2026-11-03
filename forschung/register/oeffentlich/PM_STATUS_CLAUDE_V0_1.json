@@ -1,8 +1,8 @@
 {
  "schema_version": "pm-status/0.1",
  "owner": "claude",
- "source_commit": "e28f80f",
- "generated_at": "2026-11-03T15:14:25+00:00",
+ "source_commit": "dbeb303",
+ "generated_at": "2026-11-03T23:13:39+00:00",
  "regeln": "forschung/register/oeffentlich/EVIDENZREGELN_PM_V0_1.json",
  "skala": "0 kein Nachweis, 0.5 Teilnachweis, 1 Nachweis",
  "public_safe": true,

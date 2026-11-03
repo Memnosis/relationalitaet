@@ -1,0 +1,67 @@
+{
+ "schema_version": "prompt-input-snapshot/0.1",
+ "prompt_id": "P-NEU-01",
+ "prompt_quelle": "forschung/register/prompt-entwuerfe/PROMPT_ENTWUERFE_CLAUDE_V0_2.md",
+ "prompt_text_sha256": "be4a7b4770ab27d75974108bdb5f57cfa9c54129a5a719ab9fc0d6e1c2200edc",
+ "faelle": [
+  {
+   "fall": "C1-POS",
+   "claim_id": "CLM-LOGIK10-METALOGIK",
+   "aussage": "Die Relationale Logik ist die Meta-Logik, die alle bisherigen Logiksysteme als spezielle Realisierungen derselben trinitären Architektur versteht.",
+   "quelle": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "fundstelle": {
+    "seite": 19,
+    "abschnitt": "9.1"
+   },
+   "erwartet": "gefunden"
+  },
+  {
+   "fall": "C2-NEG-SEITE",
+   "claim_id": "CLM-LOGIK10-METALOGIK",
+   "aussage": "Die Relationale Logik ist die Meta-Logik, die alle bisherigen Logiksysteme als spezielle Realisierungen derselben trinitären Architektur versteht.",
+   "quelle": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "fundstelle": {
+    "seite": 7
+   },
+   "erwartet": "andere_stelle"
+  },
+  {
+   "fall": "C3-WORTLAUT",
+   "claim_id": "CLM-LOGIK10-MODUS-PONENS",
+   "aussage": "Die trinitäre Deduktion (A ⊢ ρ(A), ρ(A) ⊢ ρ²(A), ρ²(A) ⊢ ρ⁻¹(A)) ersetzt den klassischen Modus ponens.",
+   "quelle": {
+    "doi": "10.5281/zenodo.19282895",
+    "version": "1.0",
+    "datei": "Logik-Tensor_1_0.pdf",
+    "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
+   },
+   "fundstelle": {
+    "seite": 20,
+    "abschnitt": "9.3"
+   },
+   "erwartet": "gefunden"
+  },
+  {
+   "fall": "C4-UNERREICHBAR",
+   "claim_id": "TEST-DOI-UNGUELTIG",
+   "aussage": "Testaussage",
+   "quelle": {
+    "doi": "10.5281/zenodo.0000001"
+   },
+   "fundstelle": {
+    "seite": 1
+   },
+   "erwartet": "zugriff_gelungen=false"
+  }
+ ]
+}

@@ -1,7 +1,7 @@
 # Reproduktionsbericht Claude-Prüfungen
 
-- Zeit: 2026-11-03T22:41:41+00:00
-- Commit: `b93ff0920cbea9980f49002a713acab673835497`
+- Zeit: 2026-11-03T23:13:37+00:00
+- Commit: `dbeb30395efec9ea2fc51eaa72510c4ffcb68610`
 - Python: 3.13.18
 
 | Prüfung | Skript (SHA-256, 12 Zeichen) | Exit | Erwartetes Signal gefunden |

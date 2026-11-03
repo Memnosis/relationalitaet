@@ -1,0 +1,82 @@
+{
+ "schema_version": "prompt-run/0.1",
+ "prompt_id": "P-NEU-01",
+ "lauf": "owner_run_01",
+ "r4": {
+  "status": "owner_run",
+  "naechster_schritt": "GPT: blinde Analyse und Simulation mit derselben Eingabe (Snapshot-SHA), ohne diese Ausgaben zu lesen"
+ },
+ "input_snapshot": "forschung/register/prompt-tests/P-NEU-01_INPUT_SNAPSHOT_01.json",
+ "input_sha256": "4ad74ce376c0132b0c140afd246e97a636d7c3d77292ec8c12650680aa2ba24d",
+ "prompt_text_sha256": "be4a7b4770ab27d75974108bdb5f57cfa9c54129a5a719ab9fc0d6e1c2200edc",
+ "pruefmittel": "pdftotext (Poppler) je Seite + Volltextsuche; doi.org-Auflösung per HTTPS",
+ "ergebnisse": [
+  {
+   "source_version": "Zenodo 10.5281/zenodo.19282895, Version 1.0, PDF-SHA-256 3d297797…c6be",
+   "verification_actor": "claude (Owner-Lauf)",
+   "access_method": "doi",
+   "checked_at": "2026-11-03T23:10:00Z",
+   "claim_id": "CLM-LOGIK10-METALOGIK",
+   "fall": "C1-POS",
+   "zugriff_gelungen": true,
+   "zugriff_fehlergrund": "",
+   "ergebnis": "gefunden",
+   "zitat": "Die Relationale Logik ist keine weitere Variante, sondern die Meta-Logik, die alle bisherigen Logiksysteme als spezielle Realisierungen derselben trinitären Architektur versteht.",
+   "seite": 19,
+   "einschraenkung_gefunden": "S. 15: „Der Tensor fungiert hier als Meta-Logik: Er ist nicht selbst ein weiteres Logiksystem …“ – unterscheidet Tensor (Rahmen) von Relationaler Logik (System); kein Widerspruch, aber Präzisierungsbedarf.",
+   "unsicherheiten": "Die Aussage im Register lässt „keine weitere Variante, sondern“ aus; sinngleich, aber nicht wortgleich."
+  },
+  {
+   "source_version": "Zenodo 10.5281/zenodo.19282895, Version 1.0, PDF-SHA-256 3d297797…c6be",
+   "verification_actor": "claude (Owner-Lauf)",
+   "access_method": "doi",
+   "checked_at": "2026-11-03T23:10:00Z",
+   "claim_id": "CLM-LOGIK10-METALOGIK",
+   "fall": "C2-NEG-SEITE",
+   "zugriff_gelungen": true,
+   "zugriff_fehlergrund": "",
+   "ergebnis": "andere_stelle",
+   "zitat": "",
+   "seite": 19,
+   "einschraenkung_gefunden": "",
+   "unsicherheiten": "S. 7 enthält die Vergleichs-Signatur des Logik-Tensors (SIG[LM] …), nicht die Aussage; Volltextsuche über alle 22 Seiten findet den Wortlaut nur auf S. 19."
+  },
+  {
+   "source_version": "Zenodo 10.5281/zenodo.19282895, Version 1.0, PDF-SHA-256 3d297797…c6be",
+   "verification_actor": "claude (Owner-Lauf)",
+   "access_method": "doi",
+   "checked_at": "2026-11-03T23:10:00Z",
+   "claim_id": "CLM-LOGIK10-MODUS-PONENS",
+   "fall": "C3-WORTLAUT",
+   "zugriff_gelungen": true,
+   "zugriff_fehlergrund": "",
+   "ergebnis": "gefunden",
+   "zitat": "Grundlegende Inferenzregel (Trinitäre Deduktion): A ⊢ ρ(A) … ρ(A) ⊢ ρ²(A) … ρ²(A) ⊢ ρ⁻¹(A) … Diese Regel ersetzt den klassischen Modus ponens durch eine trinitäre Bewegung, die immer …",
+   "seite": 20,
+   "einschraenkung_gefunden": "Keine Einschränkung im selben Werk gefunden (Modus ponens kommt im Volltext nur einmal vor).",
+   "unsicherheiten": "Zitat gekürzt (drei Formelzeilen + ein Satz); Regel-Klammerzusätze („Projektion in den Vollzug“ usw.) ausgelassen."
+  },
+  {
+   "source_version": "",
+   "verification_actor": "claude (Owner-Lauf)",
+   "access_method": "doi",
+   "checked_at": "2026-11-03T23:10:00Z",
+   "claim_id": "TEST-DOI-UNGUELTIG",
+   "fall": "C4-UNERREICHBAR",
+   "zugriff_gelungen": false,
+   "zugriff_fehlergrund": "doi.org antwortet HTTP 404 für 10.5281/zenodo.0000001",
+   "ergebnis": "nicht_gefunden",
+   "zitat": "",
+   "seite": null,
+   "einschraenkung_gefunden": "",
+   "unsicherheiten": "Schema verlangt ein ergebnis auch bei misslungenem Zugriff; ‚nicht_gefunden‘ ist hier irreführend (siehe Befund B1)."
+  }
+ ],
+ "erwartung_erfuellt": {
+  "C1-POS": true,
+  "C2-NEG-SEITE": true,
+  "C3-WORTLAUT": true,
+  "C4-UNERREICHBAR": "teilweise (Zugriff korrekt false, Ergebniswert unpassend)"
+ },
+ "public_release": "not_approved"
+}

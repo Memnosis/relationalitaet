@@ -609,6 +609,19 @@
    "ausgefuehrt_von": "claude",
    "ausgefuehrt_am": "2026-11-03",
    "gilt_nur_fuer": "Zweig-SHA in ZAHLENKETTEN_ERGEBNIS.json"
+  },
+  {
+   "test_id": "TST-R4-PNEU01-01",
+   "task_ids": [
+    "PM-PROMPT-01"
+   ],
+   "gegenstand": "P-NEU-01 Eigenlauf (R4 owner_run): 4 Fälle, 3 erfüllt, 1 teilweise (Schema ohne nicht_pruefbar)",
+   "testart": "prompt_owner_run",
+   "datei": "forschung/register/prompt-tests/P-NEU-01_OWNER_RUN_01.json",
+   "ergebnis": "bestanden_mit_befunden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "Prompt-SHA be4a7b47…, Eingabe-SHA 4ad74ce3…"
   }
  ],
  "verweise_fremde_tests": [

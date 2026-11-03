@@ -1,0 +1,158 @@
+{
+ "schema_version": "bestandszahlen/0.1",
+ "owner": "claude",
+ "stand": "2026-11-03",
+ "zweck": "Jede öffentlich verwendete Bestandszahl mit Bedeutung, Quelle und Prüfnachweis; löst DQ-002 (Glossarfassungen) und die Mehrdeutigkeit von „100“",
+ "regel": "Öffentlich wird eine Zahl nur mit Bezugsobjekt genannt (z. B. „309 Trinitäten in 103 Entwürfen“, nie „309 Trinitäten“ allein als Befund).",
+ "zahlen": [
+  {
+   "wert": "309",
+   "bedeutung": "Trinitäten (Achsen) in 103 historischen 3×3×3-Gerüsten, Stand v10.7",
+   "quelle": "GESAMTSTAND_v4_2 / CROSSWALK_v4_1",
+   "pruefung": "ZK-01"
+  },
+  {
+   "wert": "297",
+   "bedeutung": "Trinitäten im historischen Review v10.9 (99 Gerüste); 12 Achsen aus 4 Gerüsten fehlen im Review, sind nicht gelöscht",
+   "quelle": "CROSSWALK_v4_1",
+   "pruefung": "ZK-02, ZK-03"
+  },
+  {
+   "wert": "103",
+   "bedeutung": "historische 3×3×3-Tensorgerüste (Entwürfe, keine geprüften Tensoren)",
+   "quelle": "CROSSWALK_v4_1",
+   "pruefung": "ZK-01"
+  },
+  {
+   "wert": "107",
+   "bedeutung": "Tensorachsen-Trios = 103 historische + 4 Chemie v9.6",
+   "quelle": "GLOSSAR_RELATION_TENSOR_v4_4",
+   "pruefung": "ZK-08"
+  },
+  {
+   "wert": "2.781",
+   "bedeutung": "Feldadressen = 103 × 27 (Register auf main)",
+   "quelle": "IMPORTAUDIT_DREI_NOLOSS_ARCHIVE_2026-11-03",
+   "pruefung": "ZK-10"
+  },
+  {
+   "wert": "2.889",
+   "bedeutung": "Feldprüfpositionen = 107 × 27 (inkl. Chemie)",
+   "quelle": "GLOSSAR_RELATION_TENSOR_v4_4",
+   "pruefung": "ZK-09"
+  },
+  {
+   "wert": "1.008",
+   "bedeutung": "Glossar v11.5 (historische Zwischenfassung)",
+   "quelle": "CROSSWALK_v4_1",
+   "pruefung": "ZK-04"
+  },
+  {
+   "wert": "1.072",
+   "bedeutung": "Glossar v15.4 (maßgeblich laut B3/B4) = 1.008 + 64 neue Zeilen",
+   "quelle": "CROSSWALK_v4_1",
+   "pruefung": "ZK-04"
+  },
+  {
+   "wert": "12",
+   "bedeutung": "Kernbegriffe der Website-Lesesicht docs/data/glossar-kern.json (Auswahl, kein drittes Glossar)",
+   "quelle": "docs/data/glossar-kern.json",
+   "pruefung": "—"
+  },
+  {
+   "wert": "1.017",
+   "bedeutung": "Relationsakten nach Herkunft: 309 + 12 Chemie + 9 CORE + 12 P112 + 675 DLMF-Rohtripel",
+   "quelle": "GLOSSAR_RELATION_TENSOR_v4_4, CROSSWALK_v4_3",
+   "pruefung": "ZK-07"
+  },
+  {
+   "wert": "474",
+   "bedeutung": "Aussagen-/Hypothesenakten v6.5 = 309 + 21 + 12 + 132",
+   "quelle": "RELATIONSCOMPILER_v6_5",
+   "pruefung": "ZK-12, ZK-13"
+  },
+  {
+   "wert": "8.520",
+   "bedeutung": "DLMF-Gleichungsobjekte = 7.622 eindeutige Formeltexte + 898 Dubletten",
+   "quelle": "BESTANDSAUDIT",
+   "pruefung": "ZK-05"
+  },
+  {
+   "wert": "921",
+   "bedeutung": "Entdeckungshinweise = 675 Tripel + 223 Achsenbrücken + 23 Operatorpaare (Hinweise, keine Belege)",
+   "quelle": "BESTANDSAUDIT",
+   "pruefung": "ZK-06"
+  },
+  {
+   "wert": "300",
+   "bedeutung": "DLMF-Formeln, an denen der Parser tatsächlich lief (von 7.622)",
+   "quelle": "DLMF_PARSER_v5_2_metrics",
+   "pruefung": "ZK-14, ZK-15, ZK-16"
+  },
+  {
+   "wert": "7",
+   "bedeutung": "DLMF-Identitäten v6.6, unabhängig nachgerechnet",
+   "quelle": "RELATIONSNACHWEISE_v6_6",
+   "pruefung": "GR-01"
+  },
+  {
+   "wert": "8",
+   "bedeutung": "Rückrechnungen REV-01..08, unabhängig nachgerechnet (REV-04 mit Rekonstruktionsannahme)",
+   "quelle": "VERIFIKATION_v4_5/4_6",
+   "pruefung": "GR-02"
+  },
+  {
+   "wert": "0",
+   "bedeutung": "neu bewiesene Trinitäten oder Tensoren im ki-tensor-Zweig (so der Zweig selbst)",
+   "quelle": "kennzahlen_audit.json",
+   "pruefung": "—"
+  },
+  {
+   "wert": "82 / 102",
+   "bedeutung": "eindeutige Prompt-IDs / Vorkommen in den Quellen (20 doppelt, textgleich)",
+   "quelle": "PROMPT_CROSSWALK_V0_1.json",
+   "pruefung": "Crosswalk-Test"
+  },
+  {
+   "wert": "65 / 70 / 94",
+   "bedeutung": "Zenodo-Werke / Werkversionen / Dateien (Stand 03.11.2026)",
+   "quelle": "privates Gesamtregister; öffentlich nur Referenzset",
+   "pruefung": "MD5 geprüft"
+  },
+  {
+   "wert": "34",
+   "bedeutung": "dokumentierte Logik-Begriffe in Kap. 8 des Logik-Tensors 1.0 (27 Feld + 7 Außenraum); Kapitelüberschrift nennt 100",
+   "quelle": "LOGIK_TENSOR_1_0_EXTRAKT_V0_1",
+   "pruefung": "logik10_extrakt.py"
+  }
+ ],
+ "mehrdeutig_100": [
+  {
+   "bezeichnung": "100 Fachkarten",
+   "bedeutung": "ki-tensor v6.8, maschinell erzeugt"
+  },
+  {
+   "bezeichnung": "100 Thesenentwürfe",
+   "bedeutung": "ki-tensor v6.9, maschinell, KEINE Originalthesen"
+  },
+  {
+   "bezeichnung": "100 Welten",
+   "bedeutung": "Projektbestand (Welten-Konzept)"
+  },
+  {
+   "bezeichnung": "100 Logik-Begriffe",
+   "bedeutung": "Kapitelüberschrift Logik-Tensor 1.0; dokumentiert sind 34"
+  },
+  {
+   "bezeichnung": "100 Zyklen",
+   "bedeutung": "Programm KI-Austausch, 0 verifiziert"
+  },
+  {
+   "bezeichnung": "100 Prompts / letzte 100 Nachrichten",
+   "bedeutung": "Rekonstruktionsaufgabe GPT, nicht verifiziert"
+  }
+ ],
+ "dq_status": {
+  "DQ-002": "geklärt: 1.008 (v11.5) und 1.072 (v15.4) sind Fassungen, Differenz 64 belegt (ZK-04); 12 ist eine Website-Auswahl, kein Glossar"
+ }
+}
