@@ -1,0 +1,169 @@
+{
+  "schema": "soulution.source-anchor-suite.v1",
+  "as_of": "2026-11-03",
+  "method": "local Python PDF text search on user-uploaded originals; deterministic source availability test, NOT generated model answers",
+  "source_books": {
+    "BOOK-OEFFENTLICH": {
+      "pages": 171
+    },
+    "BOOK-MEDIAL": {
+      "pages": 33
+    }
+  },
+  "case_count": 12,
+  "passed": 12,
+  "model_benchmarks": 0,
+  "cases": [
+    {
+      "id": "H1",
+      "source_id": "BOOK-OEFFENTLICH",
+      "queries_found": [
+        "Transparenz",
+        "Rechenschaft"
+      ],
+      "source_anchor_pass": true,
+      "qualification": "Begriffliche Quellentrennung vorhanden; keine Behördenpflicht daraus ableitbar.",
+      "model_output_executed": false,
+      "independent_validation": false
+    },
+    {
+      "id": "H2",
+      "source_id": "BOOK-MEDIAL",
+      "queries_found": [
+        "Finanzierung",
+        "Geld und Verträge"
+      ],
+      "source_anchor_pass": true,
+      "qualification": "Keine SVIK-Auszahlungsdaten im Original; dieser Teil der Aufgabe bleibt datenbedingt offen.",
+      "model_output_executed": false,
+      "independent_validation": false
+    },
+    {
+      "id": "H3",
+      "source_id": "BOOK-OEFFENTLICH",
+      "queries_found": [
+        "wissenschaftlicher Status",
+        "empirische"
+      ],
+      "source_anchor_pass": true,
+      "qualification": "Grenzen der wissenschaftlichen Auditvalidierung im Werk thematisiert.",
+      "model_output_executed": false,
+      "independent_validation": false
+    },
+    {
+      "id": "H4",
+      "source_id": "BOOK-MEDIAL",
+      "queries_found": [
+        "fünf Stufen",
+        "Konsequenz"
+      ],
+      "source_anchor_pass": true,
+      "qualification": "Rechenschaftsstruktur als konzeptionelle Quelle, nicht Nachweis einer realen SVIK-Rechenschaft.",
+      "model_output_executed": false,
+      "independent_validation": false
+    },
+    {
+      "id": "H5",
+      "source_id": "BOOK-MEDIAL",
+      "queries_found": [
+        "isolierte Lösungskraft",
+        "Prozesskaskaden"
+      ],
+      "source_anchor_pass": true,
+      "qualification": "Einzelfalllösung und strukturelle Gesamtlösung zu unterscheiden.",
+      "model_output_executed": false,
+      "independent_validation": false
+    },
+    {
+      "id": "STRUCT-01",
+      "source_id": "BOOK-MEDIAL",
+      "queries_found": [
+        "Marktplatz",
+        "Stream",
+        "Benutzeroberfläche",
+        "Feld"
+      ],
+      "source_anchor_pass": true,
+      "qualification": "Vorhandene Gliederung in acht medialen Ebenen.",
+      "model_output_executed": false,
+      "independent_validation": false
+    },
+    {
+      "id": "SYNTH-01",
+      "source_id": "BOOK-OEFFENTLICH",
+      "queries_found": [
+        "Medien",
+        "Korrektur"
+      ],
+      "source_anchor_pass": true,
+      "qualification": "Synthese benötigt Quell- und Modellgrenzen.",
+      "model_output_executed": false,
+      "independent_validation": false
+    },
+    {
+      "id": "SKILL-01",
+      "source_id": "BOOK-MEDIAL",
+      "queries_found": [
+        "Software und offene Datenformate",
+        "Benutzeroberfläche"
+      ],
+      "source_anchor_pass": true,
+      "qualification": "Buchtext kein Nachweis installierter Skills.",
+      "model_output_executed": false,
+      "independent_validation": false
+    },
+    {
+      "id": "AGENT-01",
+      "source_id": "BOOK-MEDIAL",
+      "queries_found": [
+        "Prozesskaskaden",
+        "Netzwerk"
+      ],
+      "source_anchor_pass": true,
+      "qualification": "Funktionen planbar, nicht autonom ausgeführt.",
+      "model_output_executed": false,
+      "independent_validation": false
+    },
+    {
+      "id": "META-01",
+      "source_id": "BOOK-MEDIAL",
+      "queries_found": [
+        "generative Systeme",
+        "mediale Architektur"
+      ],
+      "source_anchor_pass": true,
+      "qualification": "Architekturbehauptung keine KI-Modellmessung.",
+      "model_output_executed": false,
+      "independent_validation": false
+    },
+    {
+      "id": "OPT-01",
+      "source_id": "BOOK-OEFFENTLICH",
+      "queries_found": [
+        "Prüfhypothesen",
+        "Quellen"
+      ],
+      "source_anchor_pass": true,
+      "qualification": "Optimierung verlangt gesonderten Benchmark.",
+      "model_output_executed": false,
+      "independent_validation": false
+    },
+    {
+      "id": "CITIZEN-01",
+      "source_id": "BOOK-OEFFENTLICH",
+      "queries_found": [
+        "institutioneller Anschluss",
+        "Grundrechte"
+      ],
+      "source_anchor_pass": true,
+      "qualification": "Bürgerrechenschaft ist leitend, nicht eigener KI-Assistent.",
+      "model_output_executed": false,
+      "independent_validation": false
+    }
+  ],
+  "limitations": [
+    "Full Python script and per-page excerpt in downloadable conversation artifact",
+    "Source anchors are not verified factual results beyond their source works",
+    "No external scientific validation or SVIK case data evaluated by this suite"
+  ]
+}
