@@ -1,0 +1,45 @@
+name: Website Desktop Browser Regression
+on:
+  push:
+    paths:
+      - 'docs/**'
+      - 'scripts/verify_website_browser.mjs'
+      - '.github/workflows/website-browser-smoke.yml'
+  pull_request:
+    paths:
+      - 'docs/**'
+      - 'scripts/verify_website_browser.mjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  desktop-chromium:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Chromium-Testabhängigkeit
+        run: |
+          npm install --no-save playwright@1.58.2
+          npx playwright install chromium --with-deps
+      - name: Website im lokalen HTTP-Server ausliefern
+        run: |
+          python -m http.server 8765 --directory docs > /tmp/website-http.log 2>&1 &
+          echo $! > /tmp/website-http.pid
+          for i in {1..30}; do
+            if curl -fsS http://127.0.0.1:8765/index.html > /dev/null; then exit 0; fi
+            sleep 1
+          done
+          cat /tmp/website-http.log
+          exit 1
+      - name: Desktop-Funktionstests (Navigation, Thesen, PM, Quellen)
+        run: node scripts/verify_website_browser.mjs
+      - name: Serverprotokoll bei Fehlschlag
+        if: failure()
+        run: cat /tmp/website-http.log || true
