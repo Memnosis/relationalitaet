@@ -1,0 +1,243 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Public research cycle result export",
+  "description": "Release-gated study record: evidence and reproducible outcomes, not private inter-agent conversation.",
+  "type": "object",
+  "required": [
+    "cycle_id",
+    "task_ids",
+    "method",
+    "owner_checks",
+    "peer_check",
+    "results",
+    "limitations",
+    "release_status"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "cycle_id": {
+      "type": "string",
+      "pattern": "^KI-[A-Za-z0-9-]+$"
+    },
+    "task_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "method": {
+      "type": "object",
+      "required": [
+        "research_question",
+        "test_design",
+        "method_version"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "research_question": {
+          "type": "string"
+        },
+        "test_design": {
+          "type": "string"
+        },
+        "method_version": {
+          "type": "string"
+        },
+        "standards": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "artifact_refs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "artifact_id",
+          "public_ref",
+          "hash"
+        ],
+        "properties": {
+          "artifact_id": {
+            "type": "string"
+          },
+          "public_ref": {
+            "type": "string"
+          },
+          "hash": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "role": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "owner_checks": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "role",
+          "status",
+          "evidence_ref"
+        ],
+        "properties": {
+          "role": {
+            "enum": [
+              "gpt_website",
+              "claude_data"
+            ]
+          },
+          "status": {
+            "enum": [
+              "not_started",
+              "partial",
+              "tested",
+              "accepted",
+              "failed"
+            ]
+          },
+          "evidence_ref": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "peer_check": {
+      "type": "object",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "pending",
+            "accepted",
+            "changes_requested",
+            "failed"
+          ]
+        },
+        "ref": {
+          "type": "string"
+        },
+        "reviewer": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "claim",
+          "status",
+          "evidence_ref"
+        ],
+        "properties": {
+          "claim": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "supported_in_scope",
+              "not_supported",
+              "inconclusive",
+              "not_tested"
+            ]
+          },
+          "evidence_ref": {
+            "type": "string"
+          },
+          "baseline": {
+            "type": "string"
+          },
+          "observed_measurement": {
+            "type": "string"
+          },
+          "affected_domains": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "negative_findings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "security_audit": {
+      "type": "object",
+      "properties": {
+        "public_private_separated": {
+          "type": "boolean"
+        },
+        "publication_history_reviewed": {
+          "type": "boolean"
+        },
+        "privacy_risk": {
+          "enum": [
+            "none_known",
+            "under_review",
+            "requires_action"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "release_status": {
+      "enum": [
+        "draft_private",
+        "review_pending",
+        "author_approved_public"
+      ]
+    },
+    "author_approval_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "export_version": {
+      "type": "string"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "release_status": {
+            "const": "author_approved_public"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "author_approval_ref"
+        ]
+      }
+    }
+  ]
+}
