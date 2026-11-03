@@ -1,0 +1,51 @@
+{
+ "schema_ref": "origin/proposal/zustandsakte-v01-2026-11-04",
+ "schema_commit": "2912100c18596abdf8c1807cbb885c8892e2d9a9",
+ "basis_gueltig": true,
+ "proben": [
+  {
+   "nr": "P1",
+   "regel": "öffentliche Projektion enthält keinen privaten Eintrag",
+   "quelle_im_entwurf": "Publikationsschutz: „Nie ein öffentliches Full-Snapshot mit private-Flags“",
+   "erzwungen": false
+  },
+  {
+   "nr": "P2",
+   "regel": "Wert ‚skipped‘ existiert (SKIP ist eigener Status)",
+   "quelle_im_entwurf": "Evidenzregeln + T05",
+   "erzwungen": false
+  },
+  {
+   "nr": "P3",
+   "regel": "doppelte event_id wird abgelehnt",
+   "quelle_im_entwurf": "T02",
+   "erzwungen": false
+  },
+  {
+   "nr": "P4",
+   "regel": "Ereignis zu unbekannter Entität wird abgelehnt",
+   "quelle_im_entwurf": "T03 (dangling)",
+   "erzwungen": false
+  },
+  {
+   "nr": "P5",
+   "regel": "snapshot_id ist ein Hash (für denselben Snapshot in Website und DOCX)",
+   "quelle_im_entwurf": "Q6, T12",
+   "erzwungen": false
+  },
+  {
+   "nr": "P6",
+   "regel": "test_run verlangt Exitcode, Skript- und Eingabe-SHA",
+   "quelle_im_entwurf": "Evidenzregeln: „tatsächlicher Lauf mit Exitcode, Input-/Skript-SHA …“",
+   "erzwungen": false
+  },
+  {
+   "nr": "P7",
+   "regel": "peer_tested/reproduced/replicated verlangt Nachweis-IDs",
+   "quelle_im_entwurf": "T03: „kein peer_review=1“ ohne Beleg",
+   "erzwungen": false
+  }
+ ],
+ "erzwungen": 0,
+ "gesamt": 7
+}
