@@ -1,0 +1,226 @@
+{
+  "schema": "soulution.organizations.creative-ai-rights.v0.1",
+  "date": "2026-11-03",
+  "scope": "Sprecher, Synchron, Musik, Urhebervertretung; nicht abschließender Branchenatlas",
+  "source_rule": "Verbandsstandpunkte, Gerichtsentscheidungen, laufende Verfahren und rechtliche Forderungen strikt unterscheiden",
+  "research_goals": [
+    "Quellgebundene Positionen vergleichbar machen",
+    "Kontroll- und Vergütungsrechte je Nutzungsstufe erfassen",
+    "Rechtsverfahren aktualisieren ohne Schuldvorwegnahme",
+    "Verantwortung und gesellschaftliche Rechenschaft unter SOULution einordnen"
+  ],
+  "organizations": [
+    {
+      "id": "ORG-VDS",
+      "name": "Verband Deutscher Sprecher:innen (VDS)",
+      "group": "sprechende_kreative",
+      "strategy": [
+        "vertrag_kritik",
+        "datenschutzbeschwerde",
+        "kartellbeschwerde",
+        "lizenzleitfaden"
+      ],
+      "claims": [
+        {
+          "date": "2026-02-09",
+          "what": "VDS präsentiert Spirit Legal Gutachten mit Kritik am Netflix AOR",
+          "kind": "verbandsgutachten_nicht_gerichtsurteil",
+          "source": "https://www.sprecherverband.de/aktuelles/rechtsgutachten-netflix-vertrag-gefaehrdet-existenzgrundlage-deutscher-synchronsprecherinnen/"
+        },
+        {
+          "date": "2026-09-03",
+          "what": "VDS meldet Beschwerde beim Bundeskartellamt und Unterstützung von Datenschutzbeschwerden",
+          "kind": "verbandserklaerung_einreichung",
+          "source": "https://www.sprecherverband.de/aktuelles/netflix-ki-training-vds-forciert-pruefung-durch-bundeskartellamt-und-datenschutzaufsicht/"
+        },
+        {
+          "date": "2025-04",
+          "what": "Internationaler KI-Gagenkompass",
+          "kind": "verbandsempfehlung",
+          "source": "https://www.sprecherverband.de/sprachsynthese-generative-ki/"
+        }
+      ],
+      "open": [
+        "Reaktionen der Behörden",
+        "Rechtliche Bewertung der individuellen AOR-Vertragsfassungen",
+        "Vergütungswirkung"
+      ]
+    },
+    {
+      "id": "ORG-BFFS",
+      "name": "Bundesverband Schauspiel (BFFS)",
+      "group": "schauspiel_synchron",
+      "strategy": [
+        "kollektivvertrag",
+        "separate_output_einwilligung",
+        "nachverhandlung"
+      ],
+      "claims": [
+        {
+          "date": "2025-06-25",
+          "what": "BFFS veröffentlicht Netflix-Regelung für KI im Synchronbereich",
+          "kind": "verbandserklaerung",
+          "source": "https://www.bffs.de/pressemitteilung-bffs-und-netflix-einigen-sich-auf-regeln-fuer-den-einsatz-von-ki/"
+        },
+        {
+          "date": "2026-04-01",
+          "what": "BFFS erläutert, dass Training nicht automatisch Klonverwendung freigibt, und benennt fehlende feste gesonderte Vergütung für Training",
+          "kind": "verbaendefaq",
+          "source": "https://www.bffs.de/information-zu-bffs-netflix-vertraegen-zu-regeln-fuer-den-einsatz-von-ki/"
+        }
+      ],
+      "open": [
+        "Konkrete AOR-Umsetzung",
+        "Vergütungsmodell für KI-Training",
+        "Mehrheitliche Branchenakzeptanz"
+      ]
+    },
+    {
+      "id": "ORG-BSD-UVA",
+      "name": "Bundesverband Synchronregie und Dialogbuch / United Voice Artists",
+      "group": "synchron_international",
+      "strategy": [
+        "gemeinsame_synchronposition"
+      ],
+      "claims": [
+        {
+          "date": "2024-12-12",
+          "what": "Gemeinsames Statement mit VDS gegen KI-generierte Synchronisationen",
+          "kind": "verbandserklaerung",
+          "source": "https://www.sprecherverband.de/aktuelles/statement-zu-ki-generierten-synchronisationen-von-vds-bsd-und-uva/"
+        }
+      ],
+      "open": [
+        "Konkrete regionale Rechts- und Vergütungsstandards"
+      ]
+    },
+    {
+      "id": "ORG-GEMA",
+      "name": "GEMA",
+      "group": "musik_urheber",
+      "strategy": [
+        "lizenzierung",
+        "klagen"
+      ],
+      "claims": [
+        {
+          "date": "2025-11-11",
+          "what": "LG München I gibt in GEMA gegen OpenAI wesentlichen Unterlassungs-/Auskunfts-/Schadensersatzansprüchen bezüglich Liedtexten statt",
+          "kind": "erstinstanzliches_gerichtsurteil",
+          "source": "https://www.justiz.bayern.de/gerichte-und-behoerden/landgericht/muenchen-1/presse/2025/11.php"
+        },
+        {
+          "date": "2026-07-31",
+          "what": "GEMA berichtet über erstinstanzlichen gerichtlichen Erfolg im Verfahren gegen Suno",
+          "kind": "verbandserklaerung_zu_gerichtsurteil",
+          "source": "https://www.gema.de/de/w/suno-entscheidung-2026"
+        }
+      ],
+      "open": [
+        "Aktueller Berufungsstand und Rechtskraft",
+        "Lizenzierungsabrechnung für Training und Ausgabe"
+      ]
+    },
+    {
+      "id": "ORG-GVL",
+      "name": "GVL",
+      "group": "musik_ausuebende_und_hersteller",
+      "strategy": [
+        "leistungsschutz",
+        "kollektivposition"
+      ],
+      "claims": [
+        {
+          "date": "2024-11-07",
+          "what": "GVL schließt sich internationalem Statement gegen unlizenzierte Trainingsnutzung kreativer Leistungen an",
+          "kind": "verbaendestatement",
+          "source": "https://gvl.de/aktuelles/gvl-unterzeichnet-statement-ai-training"
+        },
+        {
+          "date": null,
+          "what": "GVL beschreibt ihre Berechtigtengruppen einschließlich Musiker und Sprecher",
+          "kind": "register",
+          "source": "https://gvl.de/ueber-uns/die-gvl-berechtigten"
+        }
+      ],
+      "open": [
+        "Welche Rechte an einzelnen Aufnahmen für KI lizenziert werden"
+      ]
+    },
+    {
+      "id": "ORG-DMR",
+      "name": "Deutscher Musikrat",
+      "group": "musik_kulturpolitik",
+      "strategy": [
+        "kulturpolitik",
+        "living_paper",
+        "regulierung"
+      ],
+      "claims": [
+        {
+          "date": "2024-10",
+          "what": "Follow-up zum Living Paper Künstliche Intelligenz und Musik",
+          "kind": "fachposition",
+          "source": "https://www.musikrat.de/media/publikationen"
+        }
+      ],
+      "open": [
+        "Messbare Arbeitsmarkt- und Kulturwirkungen"
+      ]
+    },
+    {
+      "id": "ORG-IU",
+      "name": "Initiative Urheberrecht",
+      "group": "branchen_dachverband",
+      "strategy": [
+        "drei_saeulen_regulierung_aufsicht_durchsetzung",
+        "eu_kulturpolitik"
+      ],
+      "claims": [
+        {
+          "date": "2025-10-14",
+          "what": "Drei-Säulen-Modell aus Regulierung, Aufsicht und Rechtsdurchsetzung",
+          "kind": "politische_forderung",
+          "source": "https://urheber.info/diskurs/kurzversion-des-3-saulen-modells"
+        },
+        {
+          "date": "2026-09-11",
+          "what": "Stellungnahme zur EU-KI-Strategie Kultur und Kreativsektoren",
+          "kind": "politische_forderung",
+          "source": "https://urheber.info/diskurs/ki-strategie-der-eu-fur-den-kultur-und-kreativsektor"
+        },
+        {
+          "date": "2026-10-16",
+          "what": "Bund/Länder-Agenda Kultur & KI berichtet",
+          "kind": "verbandsbericht_ueber_politik",
+          "source": "https://urheber.info/diskurs/gemeinsames-eckpunktepapier-zu-kultur-und-ki"
+        }
+      ],
+      "open": [
+        "Wirkungen der neuen EU- und Bundesregelungen"
+      ]
+    },
+    {
+      "id": "ORG-VUT",
+      "name": "Verband unabhängiger Musikunternehmer*innen (VUT)",
+      "group": "independent_musik",
+      "strategy": [
+        "nutzungsgerechte_verguetung"
+      ],
+      "claims": [
+        {
+          "date": "2026-01-15",
+          "what": "Position gegen pauschale Direktvergütungsansprüche im Streaming zugunsten genauer Nutzungsabrechnung",
+          "kind": "verbandspolitische_stellungnahme_nicht_spezifisch_ki",
+          "source": "https://www.vut.de/stellungnahme-direktverguetungsansprueche/"
+        }
+      ],
+      "open": [
+        "Übertragbarkeit auf KI-Trainingslizenzierung",
+        "Verteilung nach unabhängigen Künstlergruppen"
+      ]
+    }
+  ],
+  "task_id": "SOUL-KI-RECHTE-01",
+  "website": "docs/soulution-ki-kreativrechte.html"
+}
