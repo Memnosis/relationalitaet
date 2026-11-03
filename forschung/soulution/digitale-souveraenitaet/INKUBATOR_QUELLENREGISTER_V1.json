@@ -1,5 +1,5 @@
 {
-  "schema": "soulution.inkubator.source-registry.v1.2",
+  "schema": "soulution.inkubator.source-registry.v1.3",
   "as_of": "2026-11-03",
   "scope": "Curated candidates and anchored primary sources; not a harvested software catalog",
   "quality_policy": {
@@ -682,7 +682,10 @@
       "source_read_status": "retrieved_and_reviewed",
       "implementation_status": "not_tested",
       "licence_verified": false,
-      "source_type": "organization_or_standard_origin"
+      "source_type": "organization_or_standard_origin",
+      "alias_ids": [
+        "SRC-INK-ACTIVITYPUB-RECOMMENDATION"
+      ]
     },
     {
       "id": "SRC-INK-SOVTECH",
@@ -842,29 +845,6 @@
       "source_type": "organization_or_standard_origin"
     },
     {
-      "id": "SRC-INK-ACTIVITYPUB-RECOMMENDATION",
-      "kind": "federation",
-      "title": "W3C ActivityPub Recommendation",
-      "url": "https://www.w3.org/TR/activitypub/",
-      "authority": "primary",
-      "topic": "social_federation",
-      "abstract": "social-object delivery; different from Matrix rooms",
-      "license_review": "not_completed",
-      "last_checked": "2026-11-03",
-      "integration_status": "candidate_not_integrated",
-      "tasks": [
-        "INC-INT-01"
-      ],
-      "incubator_module_ids": [
-        "COMM",
-        "API"
-      ],
-      "source_read_status": "retrieved_and_reviewed",
-      "implementation_status": "not_tested",
-      "licence_verified": false,
-      "source_type": "organization_or_standard_origin"
-    },
-    {
       "id": "SRC-INK-WINE",
       "kind": "reverse_engineering",
       "title": "WineHQ software compatibility",
@@ -913,8 +893,8 @@
     "candidate_not_integrated": 39
   },
   "quality_counts": {
-    "total": 39,
-    "source_content_reviewed": 26,
+    "total": 38,
+    "source_content_reviewed": 25,
     "urls_pending_direct_review": 13,
     "software_installation_tests": 0,
     "license_checks_completed": 0
@@ -923,7 +903,10 @@
     "unique_ids": true,
     "url_http_https": true,
     "all_required": true,
-    "duplicates": 1,
+    "duplicates": 0,
     "unsupported_id": []
+  },
+  "alias_map": {
+    "SRC-INK-ACTIVITYPUB-RECOMMENDATION": "SRC-INK-W3C-ACTIVITYPUB"
   }
 }
