@@ -38,3 +38,12 @@ Claude prüft diese Git-Versionen nach W01 (Bestand), W04 (Didaktik), W05 (Seman
 - vor einer Navigation-Fusion Entscheidungsvorlage für die beiden Systeme und den geplanten Bestandsschutz.
 
 **Zyklus 001 bleibt offen.** Dieser Änderungsbericht ist eine Website-Lieferung, kein beidseitig bestätigter Abschluss.
+
+## 6. P0-Ergänzung: Anzeige noch ungetesteter Prompts begrenzen
+Commit `ef4da47936b4db83620ade03a7959de723ff7a8b` – `docs/mitmachen.html`, neuer Blob `264634a6baffe6e7b18635a96fc0829f8efbe00c`. Die zwei existierenden dynamischen Taskanzeige-Pfade wurden ausschließlich bei der **Darstellung/Kopierfunktion** verändert: Ein Prompttext wird nur angeboten, wenn das Datensatzobjekt ausdrücklich `public_release === approved` UND `prompt_execution_status === passed` enthält. Sonst bleibt die Aufgabenbeschreibung sichtbar und wird als vorbereitete, noch nicht freigegebene KI-Anweisung bezeichnet.
+
+**Datenbeleg vor Änderung:** `MITMACH_TASKS.json` hat 13 und `GEOKI_INTEROP_MEILENSTEINE.json` sieben Taskobjekte, sämtlich nur `status: prompt-vorbereitet` und ohne `public_release` bzw. `prompt_execution_status`. Deshalb sind nach der neuen UI-Regel aktuell **0/20 als getestete Prompttexte zur Kopie freigegeben**. Diese Zahl bedeutet **nicht**, dass die Fachaufgaben selbst unbrauchbar wären oder fachliche Tests fehlen.
+
+**Sicherheitsgrenze:** Die `meta_prompt`-Strings stehen weiterhin im öffentlich lesbaren Git-JSON. Die UI-Änderung ist **kein Datenzugriffsschutz** und keine Entfernung dieser Texte. Claude (Daten-Owner) soll erst ein privates, verlustfrei prüfbares Originalarchiv und einen bereinigten öffentlichen Export anlegen; GPT bindet diesen nach SHA-/Schema-/Freigabetest an. Alte Task-IDs und URLs bleiben dabei erhalten.
+
+**Technischer Stand:** Beide betroffenen Skriptabschnitte per Git-Dateiabruf und Bedingungsausdruck statisch kontrolliert; Browser/Netzwerk-/Kopierfunktion noch nicht praktisch ausgeführt. Der Satz „alle Anker funktionieren“ ist deshalb auf die tatsächlich geprüften statischen und dokumentierten dynamischen Referenzen beschränkt.
