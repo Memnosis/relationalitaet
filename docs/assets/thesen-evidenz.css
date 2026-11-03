@@ -1,0 +1,15 @@
+/* Public thesis evidence overview. Level label is textual, not proof by color. */
+.th-evidence-section{margin:28px 0;padding:20px;border:1px solid var(--tensor-line,#9da9b0);border-radius:14px;background:var(--tensor-surface,Canvas);font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+.th-evidence-section h2{margin:0 0 13px}.th-evidence-intro{max-width:85ch}
+.th-evidence-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:14px;margin:18px 0}
+.th-evidence-card{border:1px solid var(--tensor-line,#a0a0a0);border-left:4px solid var(--tensor-accent,#176c75);padding:17px;border-radius:12px;min-width:0;background:var(--tensor-surface,Canvas)}
+.th-evidence-heading{display:flex;gap:10px;align-items:flex-start}.th-evidence-heading h3{font-size:1.06rem;line-height:1.35;margin:0 0 10px}
+.th-evidence-icon{width:25px;height:25px;flex:0 0 25px;stroke:currentColor;stroke-width:1.5;fill:none}
+.th-evidence-meta{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin:7px 0 10px}
+.th-evidence-id{font-size:.78rem;opacity:.83}
+.th-evidence-level{font-size:.78rem;border:1px dashed currentColor;border-radius:22px;padding:3px 9px;font-weight:700}
+.th-evidence-card p{margin:8px 0;font-size:.95rem}
+.th-evidence-caveat{padding-top:9px;border-top:1px solid var(--tensor-line,#aaa)}
+.th-evidence-card details{padding-top:10px;margin-top:11px}.th-evidence-card summary{cursor:pointer;font-weight:700}
+.th-evidence-card summary:focus-visible{outline:3px solid var(--tensor-accent,#176c75);outline-offset:3px}
+.th-evidence-legend{display:flex;gap:8px;flex-wrap:wrap}.th-evidence-legend span{font-size:.8rem;border:1px solid var(--tensor-line,#999);padding:3px 8px;border-radius:8px}
