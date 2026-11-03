@@ -2,7 +2,7 @@
 """Private-first original message crosswalk. Never commit input, private output,
 or real user messages to the public repository. Candidate mappings need review.
 """
-import argparse, json, re, sys
+import argparse, json, re, sys, zipfile
 from pathlib import Path
 from datetime import datetime, timezone
 
@@ -10,8 +10,24 @@ STOP=set("der die das und von mit fuer für auf eine einer einem einen als oder 
 def tokens(text):
     return set(w for w in re.findall(r"[^\\W\\d_][\\w-]{2,}",text.lower()) if w not in STOP)
 
+def load_export(path):
+    """Read a local ChatGPT JSON export, ZIP export or folder of numbered JSON files."""
+    path=Path(path)
+    if path.is_dir():
+        candidates=sorted(path.glob("conversations*.json"))
+        batches=[json.loads(x.read_text(encoding="utf-8")) for x in candidates]
+    elif path.suffix.lower()==".zip":
+        with zipfile.ZipFile(path) as archive:
+            names=sorted(x for x in archive.namelist() if Path(x).name.startswith("conversations") and x.endswith(".json"))
+            batches=[json.loads(archive.read(name)) for name in names]
+    else:
+        batches=[json.loads(path.read_text(encoding="utf-8"))]
+    if not batches or any(not isinstance(batch,list) for batch in batches):
+        raise ValueError("No valid conversation export found")
+    return [convo for batch in batches for convo in batch]
+
 def run(args):
-    chats=json.loads(Path(args.export).read_text(encoding="utf-8"))
+    chats=load_export(args.export)
     allowed=set(json.loads(Path(args.allowlist).read_text(encoding="utf-8")))
     tasks=json.loads(Path(args.requirements).read_text(encoding="utf-8"))["requirements"]
     if not isinstance(chats,list) or not allowed:raise ValueError("Explicit non-empty project chat allowlist and conversation export required")
