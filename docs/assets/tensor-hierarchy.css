@@ -1,0 +1,17 @@
+/* Additive navigation layer; the older HTML navigation remains a no-script fallback. */
+.tensor-global-nav .tensor-hierarchical-nav{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:6px 9px;overflow:visible;scrollbar-width:auto}
+.tensor-hierarchical-nav>a,.tensor-hierarchical-nav summary{display:inline-flex;align-items:center;min-height:36px;padding:7px 10px!important;box-sizing:border-box;color:#f5f5f7!important;font-size:.88rem!important;line-height:1.2;white-space:nowrap;cursor:pointer;text-decoration:none!important;border-radius:8px}
+.tensor-hierarchical-nav details{position:relative;border:0;margin:0;padding:0;background:transparent;border-radius:0}
+.tensor-hierarchical-nav summary{list-style:none;font-weight:550}
+.tensor-hierarchical-nav summary::-webkit-details-marker{display:none}
+.tensor-hierarchical-nav summary::after{content:"⌄";margin-left:7px;opacity:.8}
+.tensor-hierarchical-nav details[open] summary,.tensor-hierarchical-nav summary:hover,.tensor-hierarchical-nav>a:hover,.tensor-hierarchical-nav a:focus-visible,.tensor-hierarchical-nav summary:focus-visible{background:#30343d!important;outline-offset:2px}
+.tensor-hierarchical-nav .tensor-nav-active summary,.tensor-hierarchical-nav>a[aria-current=page]{box-shadow:inset 0 -2px #a2d4d2}
+.tensor-hierarchical-nav .tensor-nav-menu{position:absolute;z-index:90;top:calc(100% + 5px);left:0;min-width:228px;max-width:min(90vw,340px);padding:7px;background:#20242c;box-shadow:0 10px 28px #0006;border:1px solid #555b66;border-radius:12px;display:grid;gap:2px}
+.tensor-hierarchical-nav .tensor-nav-menu a{display:block!important;padding:10px 12px!important;white-space:normal!important;color:#fff!important;border-radius:7px;font-size:.86rem!important;text-decoration:none!important}
+.tensor-hierarchical-nav .tensor-nav-menu a:hover,.tensor-hierarchical-nav .tensor-nav-menu a:focus-visible{background:#39424c!important}
+.tensor-hierarchical-nav .tensor-nav-menu a[aria-current=page]{background:#324e54!important;font-weight:700}
+.tensor-hierarchical-nav>.tensor-nav-join,.tensor-hierarchical-nav .tensor-nav-join summary{background:#b32632!important;border-radius:999px;font-weight:700}
+.tensor-hierarchical-nav>.tensor-nav-soulution,.tensor-hierarchical-nav .tensor-nav-soulution summary{background:#1a5c2a!important;border-radius:999px;font-weight:700}
+@media(max-width:850px){.tensor-global-nav .tensor-nav-inner{align-items:flex-start;flex-wrap:wrap}.tensor-global-nav .tensor-hierarchical-nav{justify-content:flex-start;width:100%;min-width:0}.tensor-hierarchical-nav .tensor-nav-menu{left:0}}
+@media(max-width:420px){.tensor-hierarchical-nav details{position:static}.tensor-hierarchical-nav .tensor-nav-menu{left:8px;right:8px;max-width:none;min-width:0}}
