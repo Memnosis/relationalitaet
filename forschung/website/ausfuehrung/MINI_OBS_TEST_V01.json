@@ -1,0 +1,12 @@
+{
+  "schema": "miniki.observer.synthetic-run.v0.1",
+  "date": "2026-11-03",
+  "task": "MINI-OBS-01",
+  "sample_cases": 10000,
+  "controlled_faults": 588,
+  "detected": 588,
+  "false_positives": 0,
+  "reported_run_time_ratio": 2.966302030857883,
+  "interpretation": "cost ratio is extremely noisy in short Python microbenchmark; observer has direct oracle",
+  "status": "synthetic_not_integrated"
+}
