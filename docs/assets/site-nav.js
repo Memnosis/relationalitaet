@@ -15,9 +15,10 @@ const items=[
   ['Aufgabenkarten','taskkarten.html'],['Medien & Grafik','medien.html'],
   ['Projektstand','projektstand.html']]},
  {type:'group',label:'SOULution & Publikationen',members:[
-  ['SOULution · neun Bereiche','soulution.html'],['Wissen, Macht und Wirklichkeit','wissen-macht-wirklichkeit.html'],
+  ['SOULution · neun Bereiche','soulution.html'],
   ['KI, Stimmen und Musikrechte','soulution-ki-kreativrechte.html'],
-  ['Weltwissen und KI-Kritik','ki-kernforschung.html#urheberrecht'],
+  ['Digitale Souveränität · Inkubator','soulution-schroedingers-inkubator.html'],
+  ['Weltwissen und KI-Kritik','soulution-weltwissen-dividende.html'],
   ['Bürgerforschung & Rechenschaft','soulution.html#ki-forschungsfrage']]},
  {type:'link',label:'Mitmachen',href:'mitmachen.html'}
 ];
