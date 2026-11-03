@@ -1,0 +1,39 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Projektportfolio und Nachbereitungsprioritäten · KI-Tensor</title>
+<meta name="description" content="Projektübergreifende Forschungsfelder, nächste Prüfschritte, Risiken und Wirkungsschätzungen; ohne interne KI-Rohkommunikation">
+<link rel="stylesheet" href="./assets/tensor-design.css"><link rel="stylesheet" href="./assets/tensor-hierarchy.css"><script src="./assets/tensor-hierarchy.js" defer></script>
+<style>
+:root{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+body{margin:0;line-height:1.6;background:var(--tensor-bg,#f9fafc);color:var(--tensor-text,#17272e)}
+header,main,footer{max-width:1120px;margin:auto;padding:22px}
+h1{line-height:1.18;max-width:22ch}
+a{color:var(--tensor-accent,#146c77)}
+.panel{border:1px solid var(--tensor-line,#bbc6cb);padding:20px;border-radius:14px;margin:22px 0;background:var(--tensor-surface,#fff)}
+fieldset{border:0;padding:0;display:flex;gap:16px;flex-wrap:wrap;align-items:end}
+fieldset label{display:flex;flex-direction:column;font-weight:650;gap:6px}
+select{font:inherit;padding:10px;border-radius:9px;border:1px solid #88939f;background:Canvas;color:CanvasText}
+#portfolio-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.portfolio-card{border:1px solid var(--tensor-line,#bbc6cb);border-left:5px solid #167482;border-radius:12px;padding:17px;min-width:0}
+.portfolio-card[data-priority=P1]{border-left-color:#96793e}
+.portfolio-card h3{font-size:1.12rem;margin:6px 0}
+.p-meta{font-size:.88rem;color:var(--tensor-muted,#52616b)}
+.p-score{font-size:1rem;font-weight:750;font-variant-numeric:tabular-nums}
+#portfolio-summary{font-weight:650}summary{cursor:pointer}
+@media(max-width:760px){#portfolio-cards{grid-template-columns:1fr}}
+</style></head><body>
+<header class="tensor-global-nav"><div class="tensor-nav-inner"><a class="tensor-brand" href="./index.html">Tensor</a><nav aria-label="Hauptnavigation"><a href="./index.html">Start</a><a href="./projektmanagement.html">Projektmanagement</a><a href="./mitmachen.html">Mitmachen</a></nav></div></header>
+<main><p><a href="./projektmanagement.html">Projektmanagement</a> / Portfolio</p>
+<h1>Wo bringt die nächste Nachbereitung am meisten?</h1>
+<p>Die Forschungsfelder unterscheiden sich in wissenschaftlicher Reife, vorhandenen Tests und ihrer Wirkung auf Folgearbeiten. Die Einstufungen sind <strong>vorläufige redaktionelle Bewertungen</strong>; ein hoher Rang ist kein wissenschaftlicher Nachweis.</p>
+<section class="panel"><h2>Projektfelder vergleichen</h2>
+<fieldset><label for="port-sort">Reihenfolge<select id="port-sort"><option value="priority">P0 vor P1, dann Schlüsselwirkung</option><option value="leverage">Abhängigkeiten und Hebelwirkung</option><option value="risk">Fehler- und Verlustrisiko</option><option value="name">Alphabetisch</option></select></label>
+<label for="port-focus">Filter<select id="port-focus"><option value="all">Alle öffentlichen Arbeitsfelder</option><option value="P0">P0 – Vorziehen</option><option value="P1">P1 – Danach</option></select></label></fieldset>
+<p id="portfolio-summary" aria-live="polite">Projektübersicht wird geladen.</p>
+<div id="portfolio-cards" aria-live="polite"><p>Die Projektfelder werden geladen.</p></div></section>
+<section class="panel"><h2>Wie werden Projekte zur Abnahme vorbereitet?</h2>
+<p>Eine Webseite oder ein Forschungsmodul durchläuft getrennte Prüfungen für Vollständigkeit, Verständlichkeit, Quellen, Technik, negative Befunde, Gegenprüfung und Autorfreigabe. Es wird erst als abnahmereif bezeichnet, wenn die benötigten Nachweise vorliegen – nicht schon, weil eine Datei existiert oder eine Fortschrittsanzeige vollständig gefüllt ist.</p>
+<p><a href="./projektmanagement.html#prompt-workflow">Prompt-Testpipeline und Aufgabenverifikation</a> · <a href="./mitmachen.html">Mitmachaktionen prüfen und übernehmen</a> · <a href="./thesen.html">Thesen und Evidenzgrade</a></p>
+<details><summary>Grenzen des Portfolios und Datenquellen</summary><p>Diese öffentliche Auswahl zeigt 15 mit bestehenden Git-Seiten verknüpfte Forschungslinien; sie umfasst nicht alle früher diskutierten Projekte und keine vollständige chronologische Rekonstruktion der letzten 100 Originalanweisungen. Interne Forschungsakten, unveröffentlichte Werkstände und operative KI-Gespräche erscheinen hier nicht.</p><a href="./data/projektportfolio-v1.json">Quellen- und Planungsdaten als JSON</a></details>
+</section></main>
+<footer><a href="./impressum.html">Impressum und Datenschutz</a> · <a href="./projektmanagement.html">Projektmanagement</a></footer>
+<script src="./assets/projektportfolio.js" defer></script></body></html>
