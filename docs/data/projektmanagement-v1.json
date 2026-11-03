@@ -2,7 +2,7 @@
   "schema_version": "pm-public-curated/0.1",
   "snapshot_date": "2026-11-03",
   "scope": "selected_verified_task_families_not_full_historical_inventory",
-  "notes": "Planning scores (0..3) are editorial estimates, not scientific measurements. Stage checks indicate verified artifacts only; end-to-end browser tests and AI reciprocal cycle open. This is a public-safe excerpt without internal prompts or unpublished original content. Revision 2 adds source links per evidence stage and records recent website implementation steps; no new scientific proof.",
+  "notes": "Planning scores (0..3) are editorial estimates, not scientific measurements. Stage checks indicate verified artifacts only; end-to-end browser tests and AI reciprocal cycle open. This is a public-safe excerpt without internal prompts or unpublished original content. Revision 2 adds source links per evidence stage and records recent website implementation steps; no new scientific proof. Owner self-check and independent peer review now separated; neither is inferred from an existing artifact.",
   "stages": [
     {
       "key": "inventory",
@@ -77,6 +77,13 @@
           "kind": "source_or_working_evidence",
           "review": "not_necessarily_independently_validated"
         }
+      },
+      "owner_verification": {
+        "primary": "claude",
+        "primary_status": "not_independently_verified_by_gpt",
+        "primary_report": "forschung/koordination/zyklen/KI-2026-11-03-001/CLAUDE_REVIEW_WEBSITE.md",
+        "independent_peer_status": "pending",
+        "end_to_end_status": "not_verified"
       }
     },
     {
@@ -128,6 +135,13 @@
           "kind": "source_or_working_evidence",
           "review": "not_necessarily_independently_validated"
         }
+      },
+      "owner_verification": {
+        "primary": "claude",
+        "primary_status": "not_independently_verified_by_gpt",
+        "primary_report": "forschung/koordination/zyklen/KI-2026-11-03-001/CLAUDE_REVIEW_WEBSITE.md",
+        "independent_peer_status": "pending",
+        "end_to_end_status": "not_verified"
       }
     },
     {
@@ -178,6 +192,13 @@
           "kind": "source_or_working_evidence",
           "review": "not_necessarily_independently_validated"
         }
+      },
+      "owner_verification": {
+        "primary": "claude",
+        "primary_status": "not_independently_verified_by_gpt",
+        "primary_report": "forschung/koordination/zyklen/KI-2026-11-03-001/CLAUDE_REVIEW_WEBSITE.md",
+        "independent_peer_status": "pending",
+        "end_to_end_status": "not_verified"
       }
     },
     {
@@ -238,6 +259,13 @@
         "stage": "implementation",
         "commit": "2f2bf80ba01ae64f3757aff05d7fae7eb89332c4",
         "summary": "Neuer öffentlicher Web-/Auditstand in Git; Browser und fachliches Peerreview noch offen"
+      },
+      "owner_verification": {
+        "primary": "gpt",
+        "primary_status": "partial_evidence_only",
+        "primary_report": "forschung/website/CHANGELOG_PM_KI_HISTORY_GEO_THESES_2026-11-03.md",
+        "independent_peer_status": "pending",
+        "end_to_end_status": "not_verified"
       }
     },
     {
@@ -297,6 +325,13 @@
         "stage": "implementation",
         "commit": "8cfb453b0b1871655c939543c4eecd66b254e0de",
         "summary": "Neuer öffentlicher Web-/Auditstand in Git; Browser und fachliches Peerreview noch offen"
+      },
+      "owner_verification": {
+        "primary": "gpt",
+        "primary_status": "partial_evidence_only",
+        "primary_report": "forschung/website/CHANGELOG_PM_KI_HISTORY_GEO_THESES_2026-11-03.md",
+        "independent_peer_status": "pending",
+        "end_to_end_status": "not_verified"
       }
     },
     {
@@ -343,6 +378,13 @@
           "kind": "source_or_working_evidence",
           "review": "not_necessarily_independently_validated"
         }
+      },
+      "owner_verification": {
+        "primary": "gpt",
+        "primary_status": "partial_evidence_only",
+        "primary_report": "forschung/website/CHANGELOG_PM_KI_HISTORY_GEO_THESES_2026-11-03.md",
+        "independent_peer_status": "pending",
+        "end_to_end_status": "not_verified"
       }
     },
     {
@@ -404,6 +446,13 @@
         "stage": "implementation",
         "commit": "29941a279a925c97992c8e3d73deb96ca57b10af",
         "summary": "Neuer öffentlicher Web-/Auditstand in Git; Browser und fachliches Peerreview noch offen"
+      },
+      "owner_verification": {
+        "primary": "gpt",
+        "primary_status": "partial_evidence_only",
+        "primary_report": "forschung/website/CHANGELOG_PM_KI_HISTORY_GEO_THESES_2026-11-03.md",
+        "independent_peer_status": "pending",
+        "end_to_end_status": "not_verified"
       }
     },
     {
@@ -464,6 +513,13 @@
         "stage": "implementation",
         "commit": "b47f391d42f37a0e88632e77bcc53026d4e064ed",
         "summary": "Neuer öffentlicher Web-/Auditstand in Git; Browser und fachliches Peerreview noch offen"
+      },
+      "owner_verification": {
+        "primary": "gpt",
+        "primary_status": "partial_evidence_only",
+        "primary_report": "forschung/website/CHANGELOG_PM_KI_HISTORY_GEO_THESES_2026-11-03.md",
+        "independent_peer_status": "pending",
+        "end_to_end_status": "not_verified"
       }
     },
     {
@@ -516,6 +572,13 @@
           "kind": "source_or_working_evidence",
           "review": "not_necessarily_independently_validated"
         }
+      },
+      "owner_verification": {
+        "primary": "claude",
+        "primary_status": "not_independently_verified_by_gpt",
+        "primary_report": "forschung/koordination/zyklen/KI-2026-11-03-001/CLAUDE_REVIEW_WEBSITE.md",
+        "independent_peer_status": "pending",
+        "end_to_end_status": "not_verified"
       }
     },
     {
@@ -560,6 +623,13 @@
           "kind": "source_or_working_evidence",
           "review": "not_necessarily_independently_validated"
         }
+      },
+      "owner_verification": {
+        "primary": "gpt",
+        "primary_status": "partial_evidence_only",
+        "primary_report": "forschung/website/CHANGELOG_PM_KI_HISTORY_GEO_THESES_2026-11-03.md",
+        "independent_peer_status": "pending",
+        "end_to_end_status": "not_verified"
       }
     },
     {
@@ -609,6 +679,13 @@
           "kind": "source_or_working_evidence",
           "review": "not_necessarily_independently_validated"
         }
+      },
+      "owner_verification": {
+        "primary": "claude",
+        "primary_status": "not_independently_verified_by_gpt",
+        "primary_report": "forschung/koordination/zyklen/KI-2026-11-03-001/CLAUDE_REVIEW_WEBSITE.md",
+        "independent_peer_status": "pending",
+        "end_to_end_status": "not_verified"
       }
     },
     {
@@ -658,6 +735,13 @@
           "kind": "source_or_working_evidence",
           "review": "not_necessarily_independently_validated"
         }
+      },
+      "owner_verification": {
+        "primary": "claude",
+        "primary_status": "not_independently_verified_by_gpt",
+        "primary_report": "forschung/koordination/zyklen/KI-2026-11-03-001/CLAUDE_REVIEW_WEBSITE.md",
+        "independent_peer_status": "pending",
+        "end_to_end_status": "not_verified"
       }
     },
     {
@@ -711,8 +795,21 @@
           "kind": "source_or_working_evidence",
           "review": "not_necessarily_independently_validated"
         }
+      },
+      "owner_verification": {
+        "primary": "both",
+        "primary_status": "joint_signoff_pending",
+        "primary_report": "forschung/koordination/zyklen/KI-2026-11-03-001/STATUS.json",
+        "independent_peer_status": "pending",
+        "end_to_end_status": "not_verified"
       }
     }
   ],
-  "data_revision": 2
+  "data_revision": 3,
+  "owner_review_policy": {
+    "gpt": "GPT prüft zunächst nur eigene Website-Aufgaben gegen Dateien, Diff, Tests und Deployment",
+    "claude": "Claude prüft zunächst nur eigene Daten-/Forschungsaufgaben gegen originale Quellen, Schemas, Ausführungen",
+    "both": "Gemeinsame Aufgaben benötigen getrennte Eigennachweise beider KIs und gegenseitiges Review",
+    "completion": "Freigabe setzt tatsächliche Tests und erforderliche Gegenprüfung voraus; ein artefaktgestützter Zwischenstand ist nicht Abschluss"
+  }
 }
