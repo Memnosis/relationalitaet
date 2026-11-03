@@ -1,0 +1,24 @@
+name: KI Peer-Response Gate
+on:
+  push:
+    paths:
+      - 'forschung/koordination/zyklen/**'
+      - 'scripts/validate_ki_discussion_gate.py'
+      - '.github/workflows/ki-diskussion-gate.yml'
+  pull_request:
+    paths:
+      - 'forschung/koordination/zyklen/**'
+      - 'scripts/validate_ki_discussion_gate.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  peer-response-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Pflichtantworten und fehlende Originale prüfen
+        run: python scripts/validate_ki_discussion_gate.py --strict
