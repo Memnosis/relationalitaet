@@ -60,7 +60,14 @@ await visit('ki-kernforschung.html');
 await visit('codebuch.html');
 await visit('soulution-schroedingers-inkubator.html');
 await visit('soulution-inkubator-quellen.html');
-await visit('mitmachen.html');
+await visit('mitmachen.html',async p=>{
+ await p.locator('#tasks .tensor-join-card').first().waitFor({timeout:12000});
+ const count=await p.locator('#tasks .tensor-join-card').count();
+ if(count!==13)throw Error('Expected 13 public task IDs, got '+count);
+ if(await p.locator('#tasks pre').count()>0)throw Error('Unexpected raw or approved prompt text in the unapproved public catalog');
+ const link=await p.locator('#tasks .tensor-join-card').first().locator('a[href*="mitmachen-rueckgabe.html"]').getAttribute('href');
+ if(!link?.includes('?task='))throw Error('Result form link missing public task ID');
+});
 await visit('geoki.html',async p=>{
  const points=p.locator('#matrix rect');
  if(await points.count()!==27)throw Error('Tensor schematic must have exactly 27 selectable addresses');
