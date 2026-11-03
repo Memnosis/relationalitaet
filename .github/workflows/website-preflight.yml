@@ -1,0 +1,36 @@
+name: Website P0 Preflight
+on:
+  push:
+    paths:
+      - "docs/**"
+      - "forschung/website/website_p0_preflight.py"
+      - ".github/workflows/website-preflight.yml"
+  pull_request:
+    paths:
+      - "docs/**"
+      - "forschung/website/website_p0_preflight.py"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  static-preflight:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Inspect website without rewriting
+        run: python forschung/website/website_p0_preflight.py > website_p0_preflight.json
+      - name: Write summary
+        if: always()
+        shell: bash
+        run: |
+          if test -f website_p0_preflight.json; then
+            python -c "import json; x=json.load(open('website_p0_preflight.json')); print('Pages:',x['pages'],'Findings:',x['counts'],'Static-only; browser review outstanding.')" >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: website-p0-preflight
+          path: website_p0_preflight.json
