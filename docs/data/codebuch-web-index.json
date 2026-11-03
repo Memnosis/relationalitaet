@@ -1,0 +1,260 @@
+{
+  "schema": "ki-tensor.web-codebook-index.v0.1",
+  "as_of": "2026-11-03",
+  "source": "docs/data/glossar-kern.json",
+  "scope": "12 curated web preview terms ONLY, not the historical 1008/1072 records",
+  "object_type_codes": [
+    "SRC",
+    "MOD",
+    "ELM",
+    "TRI",
+    "TEN",
+    "FLD",
+    "REL",
+    "OPR",
+    "TH",
+    "TST",
+    "PRF",
+    "SKL",
+    "PUB",
+    "VER"
+  ],
+  "glossary_nodes": [
+    {
+      "id": "GLOSS-WEB-trinität",
+      "term": "Trinität",
+      "code": "TRI",
+      "anchor": "glossar.html#trinität",
+      "source": "docs/data/glossar-kern.json",
+      "evidence_status": "editorial_preview_unvalidated",
+      "links": [
+        {
+          "target": "CODE-TRI",
+          "type": "concept_to_type"
+        }
+      ]
+    },
+    {
+      "id": "GLOSS-WEB-tensor",
+      "term": "Tensor",
+      "code": "TEN",
+      "anchor": "glossar.html#tensor",
+      "source": "docs/data/glossar-kern.json",
+      "evidence_status": "editorial_preview_unvalidated",
+      "links": [
+        {
+          "target": "CODE-TEN",
+          "type": "concept_to_type"
+        }
+      ]
+    },
+    {
+      "id": "GLOSS-WEB-operator",
+      "term": "Operator",
+      "code": "OPR",
+      "anchor": "glossar.html#operator",
+      "source": "docs/data/glossar-kern.json",
+      "evidence_status": "editorial_preview_unvalidated",
+      "links": [
+        {
+          "target": "CODE-OPR",
+          "type": "concept_to_type"
+        }
+      ]
+    },
+    {
+      "id": "GLOSS-WEB-relation",
+      "term": "Relation",
+      "code": "REL",
+      "anchor": "glossar.html#relation",
+      "source": "docs/data/glossar-kern.json",
+      "evidence_status": "editorial_preview_unvalidated",
+      "links": [
+        {
+          "target": "CODE-REL",
+          "type": "concept_to_type"
+        }
+      ]
+    },
+    {
+      "id": "GLOSS-WEB-skill",
+      "term": "Skill",
+      "code": "SKL",
+      "anchor": "glossar.html#skill",
+      "source": "docs/data/glossar-kern.json",
+      "evidence_status": "editorial_preview_unvalidated",
+      "links": [
+        {
+          "target": "CODE-SKL",
+          "type": "concept_to_type"
+        }
+      ]
+    },
+    {
+      "id": "GLOSS-WEB-quelle",
+      "term": "Quelle",
+      "code": "SRC",
+      "anchor": "glossar.html#quelle",
+      "source": "docs/data/glossar-kern.json",
+      "evidence_status": "editorial_preview_unvalidated",
+      "links": [
+        {
+          "target": "CODE-SRC",
+          "type": "concept_to_type"
+        }
+      ]
+    },
+    {
+      "id": "GLOSS-WEB-codebuch",
+      "term": "Codebuch",
+      "code": "VER",
+      "anchor": "glossar.html#codebuch",
+      "source": "docs/data/glossar-kern.json",
+      "evidence_status": "editorial_preview_unvalidated",
+      "links": [
+        {
+          "target": "CODE-VER",
+          "type": "concept_to_type"
+        }
+      ]
+    },
+    {
+      "id": "GLOSS-WEB-harvesting",
+      "term": "Harvesting",
+      "code": "MOD",
+      "anchor": "glossar.html#harvesting",
+      "source": "docs/data/glossar-kern.json",
+      "evidence_status": "editorial_preview_unvalidated",
+      "links": [
+        {
+          "target": "CODE-MOD",
+          "type": "concept_to_type"
+        }
+      ]
+    },
+    {
+      "id": "GLOSS-WEB-beobachter",
+      "term": "Beobachter",
+      "code": "TST",
+      "anchor": "glossar.html#beobachter",
+      "source": "docs/data/glossar-kern.json",
+      "evidence_status": "editorial_preview_unvalidated",
+      "links": [
+        {
+          "target": "CODE-TST",
+          "type": "concept_to_type"
+        }
+      ]
+    },
+    {
+      "id": "GLOSS-WEB-invariante",
+      "term": "Invariante",
+      "code": "OPR",
+      "anchor": "glossar.html#invariante",
+      "source": "docs/data/glossar-kern.json",
+      "evidence_status": "editorial_preview_unvalidated",
+      "links": [
+        {
+          "target": "CODE-OPR",
+          "type": "concept_to_type"
+        }
+      ]
+    },
+    {
+      "id": "GLOSS-WEB-nucleus",
+      "term": "Nucleus",
+      "code": "MOD",
+      "anchor": "glossar.html#nucleus",
+      "source": "docs/data/glossar-kern.json",
+      "evidence_status": "editorial_preview_unvalidated",
+      "links": [
+        {
+          "target": "CODE-MOD",
+          "type": "concept_to_type"
+        }
+      ]
+    },
+    {
+      "id": "GLOSS-WEB-evidenz",
+      "term": "Evidenz",
+      "code": "PRF",
+      "anchor": "glossar.html#evidenz",
+      "source": "docs/data/glossar-kern.json",
+      "evidence_status": "editorial_preview_unvalidated",
+      "links": [
+        {
+          "target": "CODE-PRF",
+          "type": "concept_to_type"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "GLOSS-WEB-trinität",
+      "to": "CODE-TRI",
+      "type": "concept_to_type"
+    },
+    {
+      "from": "GLOSS-WEB-tensor",
+      "to": "CODE-TEN",
+      "type": "concept_to_type"
+    },
+    {
+      "from": "GLOSS-WEB-operator",
+      "to": "CODE-OPR",
+      "type": "concept_to_type"
+    },
+    {
+      "from": "GLOSS-WEB-relation",
+      "to": "CODE-REL",
+      "type": "concept_to_type"
+    },
+    {
+      "from": "GLOSS-WEB-skill",
+      "to": "CODE-SKL",
+      "type": "concept_to_type"
+    },
+    {
+      "from": "GLOSS-WEB-quelle",
+      "to": "CODE-SRC",
+      "type": "concept_to_type"
+    },
+    {
+      "from": "GLOSS-WEB-codebuch",
+      "to": "CODE-VER",
+      "type": "concept_to_type"
+    },
+    {
+      "from": "GLOSS-WEB-harvesting",
+      "to": "CODE-MOD",
+      "type": "concept_to_type"
+    },
+    {
+      "from": "GLOSS-WEB-beobachter",
+      "to": "CODE-TST",
+      "type": "concept_to_type"
+    },
+    {
+      "from": "GLOSS-WEB-invariante",
+      "to": "CODE-OPR",
+      "type": "concept_to_type"
+    },
+    {
+      "from": "GLOSS-WEB-nucleus",
+      "to": "CODE-MOD",
+      "type": "concept_to_type"
+    },
+    {
+      "from": "GLOSS-WEB-evidenz",
+      "to": "CODE-PRF",
+      "type": "concept_to_type"
+    }
+  ],
+  "relation_validation": "structural crosswalk only, not semantic or scientific validation",
+  "tests": {
+    "unique_ids": true,
+    "all_target_codes_defined": true,
+    "all_terms_have_edges": true
+  }
+}
