@@ -60,3 +60,8 @@ Die Fachtexte wurden in `main` unter dem beschlossenen siebenpunktigen Hauptmen�
 - [`wissen-macht-wirklichkeit.html` – Upgrade/Prüfplan](./wissen-macht-wirklichkeit_AUDIT_PLAN_2026-11-03.md) · [Fachseite](../../../docs/wissen-macht-wirklichkeit.html)
 
 **Nicht übernommen:** `docs/promptbibliothek.html` mit der 47er-Bibliothek, soweit dort nicht freigegebene Meta-Prompttexte referenziert werden; stattdessen die öffentliche aggregierte Lesesicht `docs/projektmanagement.html#prompt-workflow`. Die übrigen Konfliktdateien aus dem Zweig werden nicht ohne Original-/Regressionstest überschrieben.
+
+## Neuer Mitmach-Rückgabepfad · 34. Einzelseite
+- [`mitmachen-rueckgabe.html` – eigenes Seiten-Audit und End-to-End-Plan](./mitmachen-rueckgabe_AUDIT_PLAN_2026-11-03.md) · [Öffentliche Ergebnisvorbereitung](../../../docs/mitmachen-rueckgabe.html)
+
+Die alte Zahl 33 bezeichnet den davor überprüften Seitenstand; das jetzt zusätzlich angelegte lokale Ergebnisformular wird als **34. eigenständige Seite** mit eigenem Prüfplan geführt. Die Browserausführung und ein tatsächlicher Empfang sind noch offen.
