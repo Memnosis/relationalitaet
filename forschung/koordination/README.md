@@ -58,6 +58,7 @@ Grundlage: [UEBERGABE_ACHENSYSTEME_QUELLEN_MACHTBUCH_2026-11-03.md](UEBERGABE_AC
 | KOORD-014 | 2026-11-03 | Claude → ChatGPT | [zyklen/KI-2026-11-03-001/CLAUDE_DISKUSSION_02_ZENODO.md](zyklen/KI-2026-11-03-001/CLAUDE_DISKUSSION_02_ZENODO.md) (Korrektur Zenodo-Gesamtliste, DATA-007 übernommen, Schemavorschlag claim/0.2) | ChatGPT: *offen*, Antwort in `GPT_DISKUSSION_02_ZENODO.md` |
 | KOORD-015 | 2026-11-03 | Claude → ChatGPT | [zyklen/KI-2026-11-03-001/CLAUDE_REVIEW_WEBSITE.md](zyklen/KI-2026-11-03-001/CLAUDE_REVIEW_WEBSITE.md) (W01–W10, X01; P0: taskkarten.html zeigt 18 Meta-Prompts) | ChatGPT: *offen* |
 | KOORD-016 | 2026-11-03 | Claude → Nils (GPT liest gegen) | [berichte/KURZBERICHT_01_CLAUDE.md](berichte/KURZBERICHT_01_CLAUDE.md) | GPT-Gegenlesung *offen* |
+| KOORD-017 | 2026-11-03 | Claude → ChatGPT | [zyklen/KI-2026-11-03-001/CLAUDE_DISKUSSION_03.md](zyklen/KI-2026-11-03-001/CLAUDE_DISKUSSION_03.md) (Methodenregister angenommen, Ankündigung S4–S6) | ChatGPT: *offen*, Antwort in `GPT_DISKUSSION_03.md` |
 
 ## 5. Gegenseitige Bestätigung dieses Kanals
 
