@@ -86,3 +86,18 @@ Die lokale Quellparser-Version berücksichtigt jetzt außerdem mehrere nummerier
 - Ein ChatGPT-Export kann vertrauliche Daten anderer Gespräche enthalten; zum Abgleich werden ausschließlich explizit ausgewählte Projektchat-IDs verwendet. Die private `conversations.json` oder ZIP-Datei wird nicht auf `main` veröffentlicht.
 - Durch rein lexikalisches Matching werden einzelne Fachbegriffe möglicherweise zu schwach oder falsch erkannt. Nullfunde sind Suchhinweise und kein Nachweis, dass eine neue Aufgabe entstanden ist.
 - Browser-Download und JSON-Schema der neuen öffentlichen Rückgabeseite wurden in den Playwright-Code aufgenommen; eine bestätigte echte End-to-End-Einreichung **existiert weiterhin nicht**.
+
+## H. Sicherheit und Wiederverwendbarkeit der öffentlichen Mitmachkarten
+
+Bei der Prüfung der echten `docs/mitmachen.html` wurde ein Problem des älteren Schemas festgestellt: Der Client bezog alle 13 Aufgaben direkt aus `forschung/website/MITMACH_TASKS.json`, welches auch `meta_prompt`-Texte und interne Quellenlisten enthält. **Ein UI-Gate verschleiert solche Daten nicht vor öffentlichem Zugriff.**
+
+**Nachgezogene Website-Änderungen:**
+- `docs/data/mitmach-public-v2.json` – 13 öffentliche IDs mit Titeln und Themen, **ohne** `meta_prompt`, unveröffentlichte Quellen-URLs oder angeblich erfolgreiche Prompt-Ausführung.
+- `docs/assets/mitmachen-karten.js` – neuer Renderer greift ausschließlich auf diese bereinigte Projektion zu; ein direkter Prompt könnte in einer späteren Revision nur mit ausdrücklich dokumentiertem `approved` und `passed` erscheinen.
+- `docs/mitmachen.html` – alten Inlinereader entfernt, auf bereinigte Datenansicht umgestellt und irreführende Kopieranweisung zu Roh-Metaprompts korrigiert.
+- `docs/quellen-und-uebergabe.html` – direkter Rohregister-Link durch Taskkarten-Ansicht mit Freigabestatus ersetzt.
+- Die Karte verlinkt eine **lokale** Ergebnisvorbereitung mit automatisch übernommener, validierter Task-ID und optional einen manuell zu eröffnenden GitHub-Issue-Dialog, **ohne** fremde unveröffentlichte Ziele oder Quellenlisten vorzufüllen.
+- `scripts/verify_website_browser.mjs` – ergänzt um 13 gerenderte Karten, **keine** Rohprompt-Texte, Ergebnislink und Export-JSON-Status. Der tatsächliche CI-Lauf bleibt offen.
+- `forschung/website/seiten/mitmachen-rueckgabe_AUDIT_PLAN_2026-11-03.md` – eigener Nachweis für die neue **34. Website-Seite**; Index und statischer Auditumfang wurden nachgezogen.
+
+**Nicht behoben:** Das alte Rohregister bleibt in `main` und möglicherweise in der Git-Historie öffentlich erreichbar. Für tatsächliche Zugangsbeschränkung müssen Originaldaten in ein externes privates Ziel kopiert und nach Hash-/Restoreprobe sowie Autorenfreigabe die öffentliche Geschichte risikobewertet bereinigt werden; eine neue öffentliche Projektionsdatei allein ist **keine Privatisierung**.
