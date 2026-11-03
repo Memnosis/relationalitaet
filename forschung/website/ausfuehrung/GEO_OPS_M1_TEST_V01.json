@@ -1,0 +1,12 @@
+{
+  "schema": "geoki.m1.reproducible-run.v0.1",
+  "date": "2026-11-03",
+  "status": "partial_e2e",
+  "based_on": "forschung/geoki/v0_4/src/geometry.py",
+  "original_tests": 14,
+  "additional_tests": 5,
+  "passed": 19,
+  "failed": 0,
+  "artifact": "docs/assets/media/geoki_rotation_verified.svg",
+  "scope": "2D rotation+inverse+polygon area; SVG/JSON created; generic pipeline not complete"
+}
