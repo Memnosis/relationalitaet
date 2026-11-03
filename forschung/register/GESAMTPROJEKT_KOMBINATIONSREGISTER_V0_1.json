@@ -1,8 +1,8 @@
 {
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
   "generated_on": "2026-11-03",
-  "description": "Combined research registry derived from two existing GitHub task files plus explicitly provisional historical reconstruction tasks. Not a reconstruction of missing original archives.",
-  "record_count": 24,
+  "description": "Decision-oriented portfolio of GitHub task objects plus tasks derived from uploaded source registers; includes accountable decision role, urgency, leverage, prompt maturity and evidence limits. Does not contain 100 individual historical prompts.",
+  "record_count": 40,
   "source_files": [
     "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
     "forschung/soulution/FIN_DEM_ROOM_FORSCHUNGSMODULE_V4.md",
@@ -49,7 +49,17 @@
         "agent",
         "meta"
       ],
-      "test_status": "not_verified_in_combined_registry"
+      "test_status": "not_verified_in_combined_registry",
+      "accountability": "automation_with_nils_approval",
+      "urgency": "P1",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "prompt_spec_status": "meta_draft_in_repo",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "test_not_verified",
+      "visibility": "conditional_public",
+      "editorial_release": "not_approved",
+      "next_gate": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve"
     },
     {
       "id": "FMT-H01",
@@ -82,7 +92,17 @@
         "agent",
         "meta"
       ],
-      "test_status": "not_verified_in_combined_registry"
+      "test_status": "not_verified_in_combined_registry",
+      "accountability": "public_candidate",
+      "urgency": "P1",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "prompt_spec_status": "meta_draft_in_repo",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "test_not_verified",
+      "visibility": "conditional_public",
+      "editorial_release": "not_approved",
+      "next_gate": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve"
     },
     {
       "id": "FMT-H02",
@@ -115,7 +135,17 @@
         "agent",
         "meta"
       ],
-      "test_status": "not_verified_in_combined_registry"
+      "test_status": "not_verified_in_combined_registry",
+      "accountability": "public_candidate",
+      "urgency": "P1",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "prompt_spec_status": "meta_draft_in_repo",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "test_not_verified",
+      "visibility": "conditional_public",
+      "editorial_release": "not_approved",
+      "next_gate": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve"
     },
     {
       "id": "FMT-H03",
@@ -148,7 +178,17 @@
         "agent",
         "meta"
       ],
-      "test_status": "not_verified_in_combined_registry"
+      "test_status": "not_verified_in_combined_registry",
+      "accountability": "public_candidate",
+      "urgency": "P2",
+      "architecture_impact": 2,
+      "leverage": 2,
+      "prompt_spec_status": "meta_draft_in_repo",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "test_not_verified",
+      "visibility": "conditional_public",
+      "editorial_release": "not_approved",
+      "next_gate": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve"
     },
     {
       "id": "FMT-H04",
@@ -181,7 +221,17 @@
         "agent",
         "meta"
       ],
-      "test_status": "not_verified_in_combined_registry"
+      "test_status": "not_verified_in_combined_registry",
+      "accountability": "public_candidate",
+      "urgency": "P2",
+      "architecture_impact": 2,
+      "leverage": 2,
+      "prompt_spec_status": "meta_draft_in_repo",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "test_not_verified",
+      "visibility": "conditional_public",
+      "editorial_release": "not_approved",
+      "next_gate": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve"
     },
     {
       "id": "FMT-H05",
@@ -214,7 +264,17 @@
         "agent",
         "meta"
       ],
-      "test_status": "not_verified_in_combined_registry"
+      "test_status": "not_verified_in_combined_registry",
+      "accountability": "public_candidate",
+      "urgency": "P1",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "prompt_spec_status": "meta_draft_in_repo",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "test_not_verified",
+      "visibility": "conditional_public",
+      "editorial_release": "not_approved",
+      "next_gate": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve"
     },
     {
       "id": "WEB-PAPER-01",
@@ -247,7 +307,17 @@
         "agent",
         "meta"
       ],
-      "test_status": "not_verified_in_combined_registry"
+      "test_status": "not_verified_in_combined_registry",
+      "accountability": "nils_editorial_decision",
+      "urgency": "P1",
+      "architecture_impact": 2,
+      "leverage": 2,
+      "prompt_spec_status": "meta_draft_in_repo",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "test_not_verified",
+      "visibility": "internal_until_approved",
+      "editorial_release": "not_approved",
+      "next_gate": "Extract a bounded task prompt, execute a documented trial, review sources and editorially approve"
     },
     {
       "id": "FIN-OPS-01",
@@ -270,7 +340,17 @@
         "agent",
         "meta"
       ],
-      "test_status": "not_verified_in_combined_registry"
+      "test_status": "not_verified_in_combined_registry",
+      "accountability": "public_candidate",
+      "urgency": "P1",
+      "architecture_impact": 2,
+      "leverage": 3,
+      "prompt_spec_status": "topic_prompt_in_source_document",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "test_not_verified",
+      "visibility": "conditional_public",
+      "editorial_release": "not_approved",
+      "next_gate": "Separate prompt into prompt/agent/meta contracts, execute trial and perform editorial review"
     },
     {
       "id": "FIN-OPS-02",
@@ -293,7 +373,17 @@
         "agent",
         "meta"
       ],
-      "test_status": "not_verified_in_combined_registry"
+      "test_status": "not_verified_in_combined_registry",
+      "accountability": "public_candidate",
+      "urgency": "P2",
+      "architecture_impact": 1,
+      "leverage": 2,
+      "prompt_spec_status": "topic_prompt_in_source_document",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "test_not_verified",
+      "visibility": "conditional_public",
+      "editorial_release": "not_approved",
+      "next_gate": "Separate prompt into prompt/agent/meta contracts, execute trial and perform editorial review"
     },
     {
       "id": "DEM-OPS-01",
@@ -316,7 +406,17 @@
         "agent",
         "meta"
       ],
-      "test_status": "not_verified_in_combined_registry"
+      "test_status": "not_verified_in_combined_registry",
+      "accountability": "public_candidate",
+      "urgency": "P2",
+      "architecture_impact": 2,
+      "leverage": 2,
+      "prompt_spec_status": "topic_prompt_in_source_document",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "test_not_verified",
+      "visibility": "conditional_public",
+      "editorial_release": "not_approved",
+      "next_gate": "Separate prompt into prompt/agent/meta contracts, execute trial and perform editorial review"
     },
     {
       "id": "DEM-OPS-02",
@@ -339,7 +439,17 @@
         "agent",
         "meta"
       ],
-      "test_status": "not_verified_in_combined_registry"
+      "test_status": "not_verified_in_combined_registry",
+      "accountability": "nils_editorial_decision",
+      "urgency": "P2",
+      "architecture_impact": 2,
+      "leverage": 2,
+      "prompt_spec_status": "topic_prompt_in_source_document",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "test_not_verified",
+      "visibility": "internal_until_approved",
+      "editorial_release": "not_approved",
+      "next_gate": "Separate prompt into prompt/agent/meta contracts, execute trial and perform editorial review"
     },
     {
       "id": "ROOM-OPS-01",
@@ -362,7 +472,17 @@
         "agent",
         "meta"
       ],
-      "test_status": "not_verified_in_combined_registry"
+      "test_status": "not_verified_in_combined_registry",
+      "accountability": "automation_with_nils_approval",
+      "urgency": "P2",
+      "architecture_impact": 2,
+      "leverage": 2,
+      "prompt_spec_status": "topic_prompt_in_source_document",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "test_not_verified",
+      "visibility": "conditional_public",
+      "editorial_release": "not_approved",
+      "next_gate": "Separate prompt into prompt/agent/meta contracts, execute trial and perform editorial review"
     },
     {
       "id": "ROOM-OPS-02",
@@ -385,7 +505,17 @@
         "agent",
         "meta"
       ],
-      "test_status": "not_verified_in_combined_registry"
+      "test_status": "not_verified_in_combined_registry",
+      "accountability": "automation_with_nils_approval",
+      "urgency": "P2",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "prompt_spec_status": "topic_prompt_in_source_document",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "test_not_verified",
+      "visibility": "conditional_public",
+      "editorial_release": "not_approved",
+      "next_gate": "Separate prompt into prompt/agent/meta contracts, execute trial and perform editorial review"
     },
     {
       "id": "KI-ARCH-01",
@@ -407,7 +537,17 @@
         "agent",
         "meta"
       ],
-      "test_status": "not_run"
+      "test_status": "not_run",
+      "accountability": "automation_with_nils_approval",
+      "urgency": "P0",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "archive_integrity_only",
+      "visibility": "internal",
+      "editorial_release": "not_approved",
+      "next_gate": "Extract and validate original records before drafting a public prompt"
     },
     {
       "id": "KI-TRI-01",
@@ -429,7 +569,17 @@
         "agent",
         "meta"
       ],
-      "test_status": "not_run"
+      "test_status": "not_run",
+      "accountability": "automation_with_nils_approval",
+      "urgency": "P0",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "source_verification_pending",
+      "visibility": "internal",
+      "editorial_release": "not_approved",
+      "next_gate": "Extract and validate original records before drafting a public prompt"
     },
     {
       "id": "KI-FELD-01",
@@ -451,7 +601,17 @@
         "agent",
         "meta"
       ],
-      "test_status": "not_run"
+      "test_status": "not_run",
+      "accountability": "research_plus_nils_decision",
+      "urgency": "P0",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "test_not_verified",
+      "visibility": "internal",
+      "editorial_release": "not_approved",
+      "next_gate": "Extract and validate original records before drafting a public prompt"
     },
     {
       "id": "KI-REL-01",
@@ -473,7 +633,17 @@
         "agent",
         "meta"
       ],
-      "test_status": "not_run"
+      "test_status": "not_run",
+      "accountability": "research_plus_nils_decision",
+      "urgency": "P1",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "test_not_verified",
+      "visibility": "partial_public",
+      "editorial_release": "not_approved",
+      "next_gate": "Extract and validate original records before drafting a public prompt"
     },
     {
       "id": "KI-MATH-01",
@@ -495,7 +665,17 @@
         "agent",
         "meta"
       ],
-      "test_status": "not_run"
+      "test_status": "not_run",
+      "accountability": "automation_with_nils_approval",
+      "urgency": "P1",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "historical_tests_reported_no_rerun",
+      "visibility": "internal",
+      "editorial_release": "not_approved",
+      "next_gate": "Extract and validate original records before drafting a public prompt"
     },
     {
       "id": "KI-REG-01",
@@ -517,7 +697,17 @@
         "agent",
         "meta"
       ],
-      "test_status": "not_run"
+      "test_status": "not_run",
+      "accountability": "automation_with_nils_approval",
+      "urgency": "P0",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "source_verification_pending",
+      "visibility": "partial_public",
+      "editorial_release": "not_approved",
+      "next_gate": "Extract and validate original records before drafting a public prompt"
     },
     {
       "id": "KI-REG-02",
@@ -539,7 +729,17 @@
         "agent",
         "meta"
       ],
-      "test_status": "not_run"
+      "test_status": "not_run",
+      "accountability": "automation_with_nils_approval",
+      "urgency": "P0",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "source_verification_pending",
+      "visibility": "partial_public",
+      "editorial_release": "not_approved",
+      "next_gate": "Extract and validate original records before drafting a public prompt"
     },
     {
       "id": "KI-REG-03",
@@ -561,7 +761,17 @@
         "agent",
         "meta"
       ],
-      "test_status": "not_run"
+      "test_status": "not_run",
+      "accountability": "automation_with_nils_approval",
+      "urgency": "P1",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "test_not_verified",
+      "visibility": "partial_public",
+      "editorial_release": "not_approved",
+      "next_gate": "Extract and validate original records before drafting a public prompt"
     },
     {
       "id": "KI-COMP-01",
@@ -583,7 +793,17 @@
         "agent",
         "meta"
       ],
-      "test_status": "not_run"
+      "test_status": "not_run",
+      "accountability": "automation_with_nils_approval",
+      "urgency": "P0",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "end_to_end_test_pending",
+      "visibility": "internal",
+      "editorial_release": "not_approved",
+      "next_gate": "Extract and validate original records before drafting a public prompt"
     },
     {
       "id": "SOUL-ATLAS-01",
@@ -605,7 +825,17 @@
         "agent",
         "meta"
       ],
-      "test_status": "not_run"
+      "test_status": "not_run",
+      "accountability": "automation_with_nils_approval",
+      "urgency": "P1",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "source_verification_pending",
+      "visibility": "partial_public",
+      "editorial_release": "not_approved",
+      "next_gate": "Extract and validate original records before drafting a public prompt"
     },
     {
       "id": "KI-PROMPT-01",
@@ -627,7 +857,458 @@
         "agent",
         "meta"
       ],
-      "test_status": "not_run"
+      "test_status": "not_run",
+      "accountability": "automation_with_nils_approval",
+      "urgency": "P0",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "historical_prompt_sequence_incomplete",
+      "visibility": "internal",
+      "editorial_release": "not_approved",
+      "next_gate": "Extract and validate original records before drafting a public prompt"
+    },
+    {
+      "id": "KI-WELT-100",
+      "title": "100 Welten und 300 Achsen auf Primärquellen-/27er-Zulässigkeit prüfen",
+      "project": "KI-Tensor",
+      "kind": "integration_and_validation_task",
+      "status": "planned_from_supplied_source",
+      "origin": {
+        "path": "src_01_100_Welten_Prioritaeten_und_Nachweisluecken",
+        "source_type": "user_upload"
+      },
+      "historical_observation": "100 Weltregister als Kandidaten, individuelle Fachvalidierung 0/100",
+      "accountability": "research_plus_nils_decision",
+      "urgency": "P0",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "as_described_in_observation",
+      "visibility": "internal_until_review",
+      "editorial_release": "not_approved",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+    },
+    {
+      "id": "KI-MODEL-135",
+      "title": "Fünf Modelle mit 135 Kombinationsslots typisieren",
+      "project": "KI-Tensor",
+      "kind": "integration_and_validation_task",
+      "status": "planned_from_supplied_source",
+      "origin": {
+        "path": "src_02_5_Modelle_135_Kombinationen",
+        "source_type": "user_upload"
+      },
+      "historical_observation": "135 Slots, keine automatische Bestätigung 135 fachlicher Felder",
+      "accountability": "research_plus_nils_decision",
+      "urgency": "P1",
+      "architecture_impact": 3,
+      "leverage": 2,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "as_described_in_observation",
+      "visibility": "internal_until_review",
+      "editorial_release": "not_approved",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+    },
+    {
+      "id": "KI-TEST-08",
+      "title": "Acht v4.4-Testserien konkret ausführen",
+      "project": "KI-Tensor",
+      "kind": "integration_and_validation_task",
+      "status": "planned_from_supplied_source",
+      "origin": {
+        "path": "src_05_8_Testserien_Roadmap",
+        "source_type": "user_upload"
+      },
+      "historical_observation": "Roadmap enthält acht Testdesigns; Durchführung dieser Serie nicht belegt",
+      "accountability": "automation_with_nils_approval",
+      "urgency": "P0",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "as_described_in_observation",
+      "visibility": "internal_until_review",
+      "editorial_release": "not_approved",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+    },
+    {
+      "id": "KI-AXIS-23",
+      "title": "Achsenalgebra v2.3 und 20 berichtete Interaktionsläufe reproduzieren",
+      "project": "KI-Tensor",
+      "kind": "integration_and_validation_task",
+      "status": "planned_from_supplied_source",
+      "origin": {
+        "path": "00_Paper_Achsenalgebra_und_Komposition(1).md",
+        "source_type": "user_upload"
+      },
+      "historical_observation": "20 Läufe im Paper berichtet; zugehörige Skripte und Einzelergebnisse im aktuellen Upload nicht vollständig",
+      "accountability": "research_plus_nils_decision",
+      "urgency": "P1",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "as_described_in_observation",
+      "visibility": "internal_until_review",
+      "editorial_release": "not_approved",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+    },
+    {
+      "id": "KI-GF-12",
+      "title": "Zwölf Funktionsfamilien und 324 Positionshypothesen prüfen",
+      "project": "KI-Tensor",
+      "kind": "integration_and_validation_task",
+      "status": "planned_from_supplied_source",
+      "origin": {
+        "path": "00_Gesamtstudie_v53(1).md",
+        "source_type": "user_upload"
+      },
+      "historical_observation": "12 funktionale Arbeitsfamilien, 324 unbestätigte Zuordnungskandidaten",
+      "accountability": "research_plus_nils_decision",
+      "urgency": "P1",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "as_described_in_observation",
+      "visibility": "internal_until_review",
+      "editorial_release": "not_approved",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+    },
+    {
+      "id": "KI-CONF-27",
+      "title": "Confinement-Simulation, 27 äußere Kanten und 27 Tripelaudits validieren",
+      "project": "Physik",
+      "kind": "integration_and_validation_task",
+      "status": "planned_from_supplied_source",
+      "origin": {
+        "path": "05_27_tripelaudit(1).csv",
+        "source_type": "user_upload"
+      },
+      "historical_observation": "Synthetische Daten; keine experimentellen QCD-Daten",
+      "accountability": "research_plus_nils_decision",
+      "urgency": "P1",
+      "architecture_impact": 2,
+      "leverage": 2,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "as_described_in_observation",
+      "visibility": "internal_until_review",
+      "editorial_release": "not_approved",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+    },
+    {
+      "id": "KI-AXIS-X",
+      "title": "Crosswalk ältere NM/ZM/UM und neuere T1/T2/T3 Achsen",
+      "project": "KI-Tensor",
+      "kind": "integration_and_validation_task",
+      "status": "planned_from_supplied_source",
+      "origin": {
+        "path": "Tensor-Basics-Grundlagen_.md",
+        "source_type": "user_upload"
+      },
+      "historical_observation": "Getrennte semantische Achsensysteme, keine automatische Gleichsetzung",
+      "accountability": "nils_editorial_decision",
+      "urgency": "P0",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "as_described_in_observation",
+      "visibility": "internal_until_review",
+      "editorial_release": "not_approved",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+    },
+    {
+      "id": "KI-OPS-25",
+      "title": "M17–M25 Operator-/Selbstbezug-/Workflowtests",
+      "project": "Mini-KI",
+      "kind": "integration_and_validation_task",
+      "status": "planned_from_supplied_source",
+      "origin": {
+        "path": "KI_Tensor_Gesamtarchiv_No_Loss_2026-10-29(1).md",
+        "source_type": "user_upload"
+      },
+      "historical_observation": "Neun geplante Anschlussversuche, historische Berichte für frühere Serien",
+      "accountability": "automation_with_nils_approval",
+      "urgency": "P1",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "as_described_in_observation",
+      "visibility": "internal_until_review",
+      "editorial_release": "not_approved",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+    },
+    {
+      "id": "KI-GLOSS-1008",
+      "title": "1008er Glossar mit 935 Platzhaltern und 73 Donordefinitionen sanieren",
+      "project": "Übergreifend",
+      "kind": "integration_and_validation_task",
+      "status": "planned_from_supplied_source",
+      "origin": {
+        "path": "Glossar_1008_revidiert(2).csv",
+        "source_type": "user_upload"
+      },
+      "historical_observation": "0 individuell mit konkretem Fachbeleg bestätigte Definitionen in diesem CSV",
+      "accountability": "public_candidate",
+      "urgency": "P0",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "as_described_in_observation",
+      "visibility": "internal_until_review",
+      "editorial_release": "not_approved",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+    },
+    {
+      "id": "KI-MEDIA-PROMPT",
+      "title": "Kontextprompts am aktuellen Abschnitt mit Probelauf entwickeln",
+      "project": "Website",
+      "kind": "integration_and_validation_task",
+      "status": "planned_from_supplied_source",
+      "origin": {
+        "path": "forschung/website/UPGRADE_100PLUS_PROMPTARCHITEKTUR_2026-11-03.md",
+        "source_type": "github"
+      },
+      "historical_observation": "Einstiegsfragen konzipiert; freigegebene dokumentierte Testläufe nicht nachgewiesen",
+      "accountability": "automation_with_nils_approval",
+      "urgency": "P1",
+      "architecture_impact": 2,
+      "leverage": 3,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "as_described_in_observation",
+      "visibility": "internal_until_review",
+      "editorial_release": "not_approved",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+    },
+    {
+      "id": "KI-AGENT-META",
+      "title": "Prompt-, Agenten-, Meta-Ebene als getestete Forschungsobjekte ausbauen",
+      "project": "Website",
+      "kind": "integration_and_validation_task",
+      "status": "planned_from_supplied_source",
+      "origin": {
+        "path": "docs/tensoralgebra.html",
+        "source_type": "github"
+      },
+      "historical_observation": "Designkarten vorhanden; keine End-to-End-Validierung als Agentensystem",
+      "accountability": "automation_with_nils_approval",
+      "urgency": "P1",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "as_described_in_observation",
+      "visibility": "internal_until_review",
+      "editorial_release": "not_approved",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+    },
+    {
+      "id": "WEB-NAV-TEST",
+      "title": "Hierarchische Navigation, Anker, responsive und Tastatur testen",
+      "project": "Website",
+      "kind": "integration_and_validation_task",
+      "status": "planned_from_supplied_source",
+      "origin": {
+        "path": "docs/assets/tensor-hierarchy.js",
+        "source_type": "github"
+      },
+      "historical_observation": "Repository-Dateiverweise geprüft; Browser-/Screenreader-Abnahme offen",
+      "accountability": "automation_with_nils_approval",
+      "urgency": "P0",
+      "architecture_impact": 2,
+      "leverage": 3,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "as_described_in_observation",
+      "visibility": "internal_until_review",
+      "editorial_release": "not_approved",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+    },
+    {
+      "id": "WEB-PUBLISH-GATE",
+      "title": "Publikationsfreigabe, Buchcover und Rechtebestand abgleichen",
+      "project": "Website",
+      "kind": "integration_and_validation_task",
+      "status": "planned_from_supplied_source",
+      "origin": {
+        "path": "docs/medien.html",
+        "source_type": "github"
+      },
+      "historical_observation": "Bisherige Medien erhalten; getrennte Freigabe unfertiger Bücher nötig",
+      "accountability": "nils_editorial_decision",
+      "urgency": "P1",
+      "architecture_impact": 2,
+      "leverage": 3,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "as_described_in_observation",
+      "visibility": "internal_until_review",
+      "editorial_release": "not_approved",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+    },
+    {
+      "id": "WEB-PROMPT-RETURN",
+      "title": "Externes Prompt-Exportpaket mit Quellen-/Glossarversion und Ergebnisrückgabe",
+      "project": "Website",
+      "kind": "integration_and_validation_task",
+      "status": "planned_from_supplied_source",
+      "origin": {
+        "path": "forschung/website/UPGRADE_100PLUS_PROMPTARCHITEKTUR_2026-11-03.md",
+        "source_type": "github"
+      },
+      "historical_observation": "Konzept vorhanden; kein bestätigter vollständiger Import-/Review-Lauf",
+      "accountability": "automation_with_nils_approval",
+      "urgency": "P1",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "as_described_in_observation",
+      "visibility": "internal_until_review",
+      "editorial_release": "not_approved",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+    },
+    {
+      "id": "KI-BIO-EVIDENCE",
+      "title": "Biologische Relationen und weitreichende numerische Thesen gesondert prüfen",
+      "project": "Physik / Biologie",
+      "kind": "integration_and_validation_task",
+      "status": "planned_from_supplied_source",
+      "origin": {
+        "path": "rel-bio-recherche3 (3).md",
+        "source_type": "user_upload"
+      },
+      "historical_observation": "Historischer Hypothesentext; Präzisions-/Leistungsbehauptungen nicht unabhängig bestätigt",
+      "accountability": "research_plus_nils_decision",
+      "urgency": "P1",
+      "architecture_impact": 2,
+      "leverage": 2,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "as_described_in_observation",
+      "visibility": "internal_until_review",
+      "editorial_release": "not_approved",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
+    },
+    {
+      "id": "SOUL-SYNC",
+      "title": "SOULution-Atlas, Fähigkeiten und neun Lösungsbereiche durch stabile IDs verknüpfen",
+      "project": "SOULution",
+      "kind": "integration_and_validation_task",
+      "status": "planned_from_supplied_source",
+      "origin": {
+        "path": "docs/soulution.html",
+        "source_type": "github"
+      },
+      "historical_observation": "Historisches Atlasinventar, Synchronisierung offen",
+      "accountability": "automation_with_nils_approval",
+      "urgency": "P1",
+      "architecture_impact": 3,
+      "leverage": 3,
+      "prompt_spec_status": "not_prepared",
+      "prompt_execution_status": "none_verified",
+      "scientific_or_technical_test_status": "as_described_in_observation",
+      "visibility": "internal_until_review",
+      "editorial_release": "not_approved",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "next_gate": "Create a bounded acceptance contract and distinguish test of subject matter from execution test of the prompt."
     }
-  ]
+  ],
+  "governance": {
+    "urgency": "P0 blocker or integrity risk; P1 critical foundation or leverage; P2 subsequent work",
+    "architecture_impact": "0 unrelated to core; 1 local; 2 shared component; 3 cross-project foundation",
+    "leverage": "0 narrow; 1 local; 2 reused in several contexts; 3 many downstream tasks unblocked",
+    "accountability": "nils_editorial_decision = explicit author/publisher choice; research_plus_nils_decision = evidence first and sign-off; automation_with_nils_approval = execution can be automated with human approval; public_candidate = possible external task after review",
+    "prompt_spec_status": "not_prepared / meta_draft_in_repo / topic_prompt_in_source_document are document availability states, not testing",
+    "prompt_execution_status": "none_verified means no recorded prompt trial linked to this row; does NOT mean the underlying scientific/model code was never run",
+    "editorial_release": "not_approved for all public prompt releases in this registry"
+  }
 }
