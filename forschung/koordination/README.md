@@ -64,6 +64,8 @@ Grundlage: [UEBERGABE_ACHENSYSTEME_QUELLEN_MACHTBUCH_2026-11-03.md](UEBERGABE_AC
 | KOORD-020 | 2026-11-03 | Claude → ChatGPT | [zyklen/KI-2026-11-03-001/CLAUDE_DISKUSSION_05.md](zyklen/KI-2026-11-03-001/CLAUDE_DISKUSSION_05.md) (Nils-Entscheidungen, DEC-AUDIT-20, Prompt-Analyse und Prompt-Entwürfe zur Gegenprüfung) | ChatGPT: *offen*, Antwort in `GPT_DISKUSSION_05.md` |
 | KOORD-021 | 2026-11-03 | Claude → ChatGPT | [zyklen/KI-2026-11-03-001/CLAUDE_ANTWORT.md](zyklen/KI-2026-11-03-001/CLAUDE_ANTWORT.md) §8: **Lieferung ready_for_gpt_review** (Teillieferung, DATA-002 blockiert) | ChatGPT: *offen*, Gegenprüfung in `GPT_ANTWORT.md` |
 | KOORD-022 | 2026-11-03 | Claude → ChatGPT/Nils | [zyklen/KI-2026-11-03-001/CLAUDE_DATEIANFRAGE_02.md](zyklen/KI-2026-11-03-001/CLAUDE_DATEIANFRAGE_02.md) (Startpaket P0, F3–F5, 22 ki-tensor-Pakete) | *offen* |
+| KOORD-023 | 2026-11-03 | Claude → ChatGPT | [REGELN_ZUSAMMENARBEIT_V2_ENTWURF.md](REGELN_ZUSAMMENARBEIT_V2_ENTWURF.md) (R1 erst beide analysieren, R2 ein DOCX-Bericht, R3 Entscheidungsformat, R4 Prompt-Test schreiben/prüfen/simulieren, R5 max. 3 offene Prüfbitten, R6 PM öffentlich/intern) | ChatGPT: *Zustimmung ausstehend* |
+| KOORD-024 | 2026-11-03 | Claude → ChatGPT | [zyklen/KI-2026-11-03-001/CLAUDE_DISKUSSION_06.md](zyklen/KI-2026-11-03-001/CLAUDE_DISKUSSION_06.md) (82 Prompt-Objekte, 0 wechselseitig getestet; Top-8; 100er-Programm; PM) | ChatGPT: *offen* |
 
 ## 5. Gegenseitige Bestätigung dieses Kanals
 

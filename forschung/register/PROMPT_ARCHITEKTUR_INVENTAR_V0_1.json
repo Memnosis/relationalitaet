@@ -1,0 +1,136 @@
+{
+ "schema_version": "prompt-architektur/0.1",
+ "owner": "claude",
+ "erzeugt_am": "2026-11-03T14:57:21+00:00",
+ "source_commit": "2d8d240",
+ "methode": "Repository-Suche (main und Integrationszweig) nach Prompt-Objekten; Zählung je Quelle; Teststand aus vorhandenen Status-Feldern (promptbibliothek-v1 counts_by_status, Vertragsaudit) und Claudes Ausführungsakten",
+ "zaehlung": {
+  "objekte_gesamt": 82,
+  "gruppen": 8,
+  "doppelt_gefuehrt": 20,
+  "wechselseitig_getestet": 0,
+  "modell_probelaeufe": 1,
+  "quellenfall_tests_bestanden": 12
+ },
+ "hinweis": "20 Objekte (13 Mitmach + 7 Geo/Format) stehen sowohl in den main-JSON als auch in der Promptbibliothek des Integrationszweigs. Die 15 Folgeprompts aus ZWEITTEST_UND_FOLGEPROMPTS_V0_2 (Zweig) sind nicht mitgezählt (Selbstoptimierungs-Varianten zu den 15 Fachforschungs-Prompts).",
+ "eintraege": [
+  {
+   "gruppe": "MITMACH",
+   "titel": "Mitmach-Aufgaben",
+   "quelle": "forschung/website/MITMACH_TASKS.json",
+   "zweig": "main",
+   "anzahl": 13,
+   "teststand": {
+    "analysiert": 13
+   },
+   "analysiert_von": [
+    "claude (PROMPT_ANALYSE_V0_1)",
+    "gpt (Vertragsaudit, Zweig)"
+   ],
+   "id": "MITMACH"
+  },
+  {
+   "gruppe": "GEO-FMT",
+   "titel": "Geo-KI/Format",
+   "quelle": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
+   "zweig": "main",
+   "anzahl": 7,
+   "teststand": {
+    "analysiert": 2,
+    "quellenfall_teiltest": 5
+   },
+   "analysiert_von": [
+    "claude",
+    "gpt (Zweig)"
+   ],
+   "id": "GEO-FMT"
+  },
+  {
+   "gruppe": "OBS-TASK",
+   "titel": "Beobachter-Taskkarten",
+   "quelle": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+   "zweig": "main",
+   "anzahl": 18,
+   "teststand": {
+    "analysiert": 18
+   },
+   "analysiert_von": [
+    "claude"
+   ],
+   "id": "OBS-TASK"
+  },
+  {
+   "gruppe": "LESER",
+   "titel": "Leser-/Buch-Prompts",
+   "quelle": "forschung/soulution/shared/buch-prompts-v0.1.json + docs/data/promptbibliothek-v1.json",
+   "zweig": "integration/soulution-shared-core-2026-11-03",
+   "anzahl": 5,
+   "teststand": {
+    "quellenfall_teiltest": 5
+   },
+   "analysiert_von": [
+    "gpt (Zweig)"
+   ],
+   "id": "LESER"
+  },
+  {
+   "gruppe": "FACH-META",
+   "titel": "Fachforschung (15) + zentrale Meta-Prompts (7)",
+   "quelle": "docs/data/promptbibliothek-v1.json",
+   "zweig": "integration/soulution-shared-core-2026-11-03",
+   "anzahl": 22,
+   "teststand": {
+    "analysiert": 14,
+    "quellenfall_teiltest": 8
+   },
+   "analysiert_von": [
+    "gpt (Zweig)"
+   ],
+   "id": "FACH-META"
+  },
+  {
+   "gruppe": "LOGIK21",
+   "titel": "LOGIK-PROMPT-01…06",
+   "quelle": "forschung/tensor/LOGIK_TENSOR_2_1_FORSCHUNGS-UND_PROMPTEDITION_ENTWURF.md",
+   "zweig": "main",
+   "anzahl": 6,
+   "teststand": {
+    "beschrieben": 5,
+    "modell_probelauf": 1
+   },
+   "analysiert_von": [
+    "gpt (Autor)",
+    "claude (Probelauf LOGIK-PROMPT-02)"
+   ],
+   "id": "LOGIK21"
+  },
+  {
+   "gruppe": "SOUL-MOD",
+   "titel": "SOULution Forschungsmodule (6 Prompts)",
+   "quelle": "forschung/soulution/FIN_DEM_ROOM_FORSCHUNGSMODULE_V4.md",
+   "zweig": "main",
+   "anzahl": 6,
+   "teststand": {
+    "beschrieben": 6
+   },
+   "analysiert_von": [
+    "—"
+   ],
+   "id": "SOUL-MOD"
+  },
+  {
+   "gruppe": "CLAUDE-NEU",
+   "titel": "P-NEU-01…05",
+   "quelle": "forschung/register/prompt-entwuerfe/PROMPT_ENTWUERFE_CLAUDE_V0_1.md",
+   "zweig": "main",
+   "anzahl": 5,
+   "teststand": {
+    "beschrieben": 5
+   },
+   "analysiert_von": [
+    "claude (Autor)"
+   ],
+   "id": "CLAUDE-NEU"
+  }
+ ]
+}
