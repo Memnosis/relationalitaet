@@ -24,14 +24,24 @@
 - **Der Ersteller wechselt (Vorgabe Nils, 03.11.2026):** Bericht 04 Claude, **Bericht 05 GPT**, Bericht 06 Claude, Bericht 07 GPT usw.
 - Die andere KI liest gegen und zeichnet im Bericht ab.
 
-**Aufbau, immer gleich:**
-1. **Ampel und Kernaussage:** ein Satz pro Strang (Daten, Prompts, Website, Publikationen, Governance)
-2. **Grafik Fortschritt:** Stufen statt Prozent (fehlt · erfasst · geprüft · gegengeprüft · freigegeben), aus Registerdaten erzeugt
-3. **Was erledigt wurde:** mit Nachweis-Link
-4. **Was hängt und warum:** Blocker mit Verantwortlichem
-5. **Entscheidungen für Nils** im Format R3
+**Aufbau, immer gleich** (Vorgabe Nils, 03.11.2026: „Freigabe und Entscheidungen immer im Bericht an prominenter Stelle mit rotem Rahmen in Kurzform und ausführliche Erklärungen unten angehängt, damit ich alle Infos zur Entscheidung bei Fragen auf einem Bericht habe“):
+0. **ROTER RAHMEN ganz oben, direkt unter dem Titel:** alle offenen Entscheidungen **und** Freigaben in Kurzform.
+   - Je Zeile: ID · Priorität · Frage in einem Satz (höchstens 160 Zeichen) · Optionen in Stichworten · Empfehlung Claude **und** GPT · Antwortformat · Verweis „Anhang A*n*“.
+   - Der Rahmen erscheint **immer**, auch wenn nichts offen ist (dann steht dort „keine offen“).
+1. **Ampel und Kernaussage:** ein Satz pro Strang (Daten, Prompts, Website, Publikationen, Governance); Farbe immer mit Wort, nie Farbe allein
+2. **Abwesenheit (R7)**, nur wenn ausgelöst
+3. **Grafik Fortschritt:** Stufen statt Prozent (fehlt · erfasst · geprüft · gegengeprüft · freigegeben), aus Registerdaten erzeugt
+4. **Was erledigt wurde:** mit Nachweis-Link
+5. **Was hängt und warum:** Blocker mit Verantwortlichem
 6. **Nächste Schritte** je KI
-7. **Anhang:** Fundstellen
+7. **Anhang A:** ausführliche Erklärung **jeder** Entscheidung aus dem roten Rahmen im Format R3, auf eigener Seite. Nils muss für eine Entscheidung keine andere Datei öffnen.
+8. **Anhang B:** Fundstellen
+
+**Werkzeug für beide KIs:** `forschung/koordination/berichte/vorlage/bericht_docx.mjs` erzeugt das DOCX aus einer JSON-Datei. Muster: `BEISPIEL_BERICHT.json`.
+- Der Generator **verweigert** den Bericht, wenn eine Entscheidung im Rahmen keine vollständige R3-Erklärung im Anhang hat, eine KI-Empfehlung fehlt (Wert „ausstehend“ ist erlaubt) oder ein Abwesenheitsbericht ohne Abwesenheitsangaben ist.
+- Ins öffentliche Repository schreibt er nicht.
+- Tests: `forschung/koordination/tests/test_bericht_vorlage.py`.
+- GPT kann ein eigenes Werkzeug nutzen, wenn das Ergebnis denselben Aufbau hat.
 
 **Gestaltung:** serifenlose Schrift (Textstandard v1), Farben nach validierter Palette, jede Grafik mit Textalternative (Tabelle).
 
@@ -78,9 +88,35 @@ Für jeden Prompt, der freigegeben werden soll:
 | Intern für Nils | alle Aufgaben, Prompts, Archive, Blocker, Entscheidungen, Grafiken | gemeinsamer DOCX-Bericht (R2), privat übergeben; kein öffentliches Git |
 | Erzeugung | Stufen werden **aus Nachweisen erzeugt** (Prüfprotokolle, Testregister, `STATUS.json`), nicht von Hand gepflegt | Generator Claude, Darstellung GPT |
 
+## R7 · Abwesenheit löst Bericht und Nachhol-Analyse aus
+
+**Vorgabe Nils (03.11.2026):** „Wenn eine oder die andere KI über längere Zyklen abwesend war, löst das neue Berichts-/Analysepflicht aus.“
+
+**Messung:** `forschung/koordination/werkzeuge/abwesenheit.py` misst aus der Git-Historie, nicht von Hand (Exit 3 = ausgelöst; Tests in `forschung/koordination/tests/test_abwesenheit.py`). Eine KI gilt als **abwesend**, wenn die andere KI seit ihrem letzten Commit aktiv war und mindestens eines zutrifft:
+
+| Auslöser | vorläufiger Wert | Begründung |
+|---|---|---|
+| Zeit seit dem letzten eigenen Commit | ≥ 12 h | etwa ein Arbeitstag Pause |
+| Arbeitsschritte der anderen KI (eindeutige Commit-Betreffe) | ≥ 100 | GPT legt eine Änderung oft als mehrere Datei-Commits ab, daher keine Rohzählung; am 03.11. waren es rund 60 Schritte in 2 h |
+| offene Prüfbitte an die KI (`REVIEW_QUEUE_V2`, awaiting_response) | ≥ 3 h | eine offene Prüfbitte blockiert die andere KI |
+
+Sobald es verifizierte volle Zyklen gibt (`PROGRAMM_100_ZYKLEN_MANIFEST`), kommt als weiterer Auslöser hinzu: „ein voller Zyklus ohne eigenen Beitrag“. Die Schwellen entscheidet Nils (`DEC-R7-SCHWELLEN`); bis dahin gelten die vorläufigen Werte.
+
+**Pflichten bei Auslösung:**
+1. **Die anwesende KI** schreibt einen **Abwesenheitsbericht** an Nils (DOCX, Typ `abwesenheitsbericht`, roter Rahmen wie R2).
+   - Inhalt: was sich seitdem geändert hat, was durch die Abwesenheit blockiert ist, offene Prüfbitten, Entscheidungen.
+   - Er unterbricht den Berichtswechsel nicht und trägt den Vermerk „Sicht einer KI, Gegenlesung ausstehend“ (Ausnahme zu R1).
+2. **Die zurückkehrende KI** erstellt **vor neuer eigener Arbeit** eine **Nachhol-Analyse** aller Schritte seit ihrem letzten Commit: `NACHHOLANALYSE_<KI>_<DATUM>.md` mit Commit-Bereich, Befunden, Zustimmung oder Widerspruch je Änderung, die ihren Bereich berührt.
+   - Danach zeichnet sie den Abwesenheitsbericht gegen.
+3. Der **nächste reguläre Bericht** (R2) enthält einen Abschnitt „Nachhol-Analyse“ mit den Ergebnissen.
+4. Sicherheitsfunde aus der Nachhol-Analyse gehen sofort an Nils (Ausnahme R1).
+
+**Zuordnung der Commits:** Claude-Commits tragen den Trailer `Claude-Session:`. Alle anderen werden vorläufig GPT zugeordnet, also auch eigene Commits von Nils.
+- **Bitte an GPT:** künftig den Trailer `KI: gpt` setzen; dann zählt das Werkzeug streng.
+
 ## Zustimmung
 
 | KI | Zustimmung | Datum | Änderungswünsche |
 |---|---|---|---|
 | Claude | **einverstanden** (Vorschlag) | 2026-11-03 | — |
-| GPT | **einverstanden mit konkretisierten Schutzregeln** | 2026-11-03 | Siehe `zyklen/KI-2026-11-03-001/GPT_DISKUSSION_06.md`: Output-blinde Peer-Simulation, echtes SHA-Review, getrennte Tests/Freigabe, öffentliche Aggregation statt privater Einzelaufgaben; Altlücken bleiben offen. |
+| GPT | **einverstanden mit konkretisierten Schutzregeln** (R1–R6); **R2-Neufassung und R7 ausstehend** | 2026-11-03 | Siehe `zyklen/KI-2026-11-03-001/GPT_DISKUSSION_06.md`: Output-blinde Peer-Simulation, echtes SHA-Review, getrennte Tests/Freigabe, öffentliche Aggregation statt privater Einzelaufgaben; Altlücken bleiben offen. |

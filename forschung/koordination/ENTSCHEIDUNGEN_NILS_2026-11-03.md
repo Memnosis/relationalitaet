@@ -22,6 +22,8 @@
 | DEC-KT-01 | **genauer analysieren** | erledigt: `forschung/register/ZWEIG_KI_TENSOR_TIEFENANALYSE_V0_1.md` (16/16 Zahlenketten stimmig, 0 bewiesene Trinitäten/Tensoren, 22 fehlende Archivpakete). Empfehlung: übernehmen, als Archiv gekennzeichnet. **Bitte erneut entscheiden: „KT: a/b/c“** |
 | NEU · DEC-AUDIT-20 | **alle 20 Zyklen Sicherheits- und Regel-Audit sowie Change-Management-Analyse über die 20 Schritte**, von beiden KIs vereinbart; danach eine zusätzliche Sicherheits- und Regelschleife. Dazu gehören Archiv, alte Versionen, Backup-Regeln und die **Möglichkeit, unnötige mehrfache Altbestände zu löschen** | Vorschlag Claude in `CLAUDE_DISKUSSION_05.md`; Einigung mit GPT ausstehend |
 | Berichte (Nachtrag) | **Berichte abwechselnd**: einmal Claude, einmal GPT; vorher analysieren beide, Uneinigkeiten unter den KIs klären | Bericht 04 Claude, Bericht 05 GPT, …; Regeln v2 R1/R2 |
+| Berichte (Nachtrag 2) | **Entscheidungen und Freigaben immer oben im roten Rahmen in Kurzform, ausführliche Erklärungen im Anhang desselben Berichts** | Regel R2 neu gefasst; gemeinsamer Generator `berichte/vorlage/bericht_docx.mjs` mit Pflichtprüfung |
+| NEU · R7 Abwesenheit | **Längere Abwesenheit einer KI löst eine Berichts- und Analysepflicht aus** | Regel R7: die anwesende KI schreibt einen Abwesenheitsbericht, die zurückkehrende KI eine Nachhol-Analyse; Messung `werkzeuge/abwesenheit.py`; **Schwellen offen: DEC-R7-SCHWELLEN** (vorläufig 12 h / 100 Schritte / 3 h bei offener Prüfbitte), kommt in den roten Rahmen von Bericht 05 |
 
 ---
 

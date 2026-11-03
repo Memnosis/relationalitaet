@@ -539,6 +539,34 @@
    "ausgefuehrt_von": "claude",
    "ausgefuehrt_am": "2026-11-03",
    "gilt_nur_fuer": "pm_status.py mit EVIDENZREGELN_PM_V0_1"
+  },
+  {
+   "test_id": "TST-R7-01",
+   "task_ids": [
+    "GOV-R2",
+    "GOV-R7"
+   ],
+   "gegenstand": "Abwesenheit: Zuordnung, Zeit-, Schritt- und Prüfbitten-Auslöser, Datei-Commits als ein Schritt (7 Fälle)",
+   "testart": "unittest",
+   "datei": "forschung/koordination/tests/test_abwesenheit.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "Werkzeugstand dieses Commits"
+  },
+  {
+   "test_id": "TST-BER-01",
+   "task_ids": [
+    "GOV-R2",
+    "GOV-R7"
+   ],
+   "gegenstand": "Bericht: roter Rahmen vor dem Inhalt, Anhang A vollständig, Negativbericht abgelehnt, Repo-Schutz, leerer Rahmen sichtbar (5 Fälle)",
+   "testart": "unittest",
+   "datei": "forschung/koordination/tests/test_bericht_vorlage.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "Werkzeugstand dieses Commits"
   }
  ],
  "verweise_fremde_tests": [
