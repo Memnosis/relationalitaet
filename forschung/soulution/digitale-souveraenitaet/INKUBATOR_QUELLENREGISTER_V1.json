@@ -1,5 +1,5 @@
 {
-  "schema": "soulution.inkubator.source-registry.v1",
+  "schema": "soulution.inkubator.source-registry.v1.1",
   "as_of": "2026-11-03",
   "scope": "Curated candidates and anchored primary sources; not a harvested software catalog",
   "quality_policy": {
@@ -658,6 +658,127 @@
       "incubator_module_ids": [
         "API"
       ]
+    },
+    {
+      "id": "SRC-INK-SAMBA",
+      "kind": "reverse_engineering",
+      "title": "Samba interoperability with Windows and AD",
+      "url": "https://www.samba.org/",
+      "authority": "primary",
+      "topic": "windows_compatibility",
+      "abstract": "mature GPL alternative interoperating with proprietary ecosystems",
+      "verified": "2026-11-03 primary source retrieval, docs or homepage; independent code/compatibility test not executed",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-CLOSED-01",
+        "INC-API-01"
+      ],
+      "incubator_module_ids": [
+        "API",
+        "HOST"
+      ]
+    },
+    {
+      "id": "SRC-INK-OSI",
+      "kind": "license",
+      "title": "Open Source Definition",
+      "url": "https://opensource.org/osd",
+      "authority": "primary",
+      "topic": "open_source_qualification",
+      "abstract": "distinguish OSI-compliant open source from source-available licenses",
+      "verified": "2026-11-03 primary source retrieval, docs or homepage; independent code/compatibility test not executed",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-MOD-01"
+      ],
+      "incubator_module_ids": [
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-MATRIX-SPEC-LATEST",
+      "kind": "federation",
+      "title": "Matrix specification latest",
+      "url": "https://spec.matrix.org/latest/",
+      "authority": "primary",
+      "topic": "matrix_event_federation",
+      "abstract": "homeserver protocol, replicated event graph and room semantics",
+      "verified": "2026-11-03 primary source retrieval, docs or homepage; independent code/compatibility test not executed",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-INT-01"
+      ],
+      "incubator_module_ids": [
+        "COMM",
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-ACTIVITYPUB-RECOMMENDATION",
+      "kind": "federation",
+      "title": "W3C ActivityPub Recommendation",
+      "url": "https://www.w3.org/TR/activitypub/",
+      "authority": "primary",
+      "topic": "social_federation",
+      "abstract": "social-object delivery; different from Matrix rooms",
+      "verified": "2026-11-03 primary source retrieval, docs or homepage; independent code/compatibility test not executed",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-INT-01"
+      ],
+      "incubator_module_ids": [
+        "COMM",
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-WINE",
+      "kind": "reverse_engineering",
+      "title": "WineHQ software compatibility",
+      "url": "https://www.winehq.org/",
+      "authority": "primary",
+      "topic": "compatibility_layer",
+      "abstract": "API-compatible independently implemented software candidate, verify legal project background",
+      "verified": "2026-11-03 primary source retrieval, docs or homepage; independent code/compatibility test not executed",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-CLOSED-01"
+      ],
+      "incubator_module_ids": [
+        "API"
+      ]
+    },
+    {
+      "id": "SRC-INK-OPENSSL-SOURCE",
+      "kind": "security_library",
+      "title": "OpenSSL source/docs",
+      "url": "https://www.openssl.org/",
+      "authority": "primary",
+      "topic": "cryptography",
+      "abstract": "mature TLS/crypto dependency case",
+      "verified": "2026-11-03 primary source retrieval, docs or homepage; independent code/compatibility test not executed",
+      "license_review": "not_completed",
+      "last_checked": "2026-11-03",
+      "integration_status": "candidate_not_integrated",
+      "tasks": [
+        "INC-MOD-01"
+      ],
+      "incubator_module_ids": [
+        "API"
+      ]
     }
-  ]
+  ],
+  "source_status_counts": {
+    "candidate_not_integrated": 39
+  }
 }
