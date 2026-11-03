@@ -36,8 +36,8 @@ def scan(root):
   urls=[]
   if rel in pages:urls+=pages[rel].refs
   if p.suffix.lower() in ('.md','.txt'):
-   urls += re.findall(r'\\[[^\\]]+\\]\\(([^)]+)\\)',text)
-  urls += re.findall(r'https?://[^\\s\"\\'<>),]+',text)
+   urls += re.findall(r"\[[^\]]+\]\(([^)]+)\)",text)
+  urls += re.findall(r"https?://[^\s\"'<>),]+",text)
   for url in dict.fromkeys(urls):
    u=urlparse(url);fragment=unquote(u.fragment)
    if u.scheme in ('http','https'):
@@ -65,5 +65,5 @@ def scan(root):
 if __name__=='__main__':
  a=argparse.ArgumentParser();a.add_argument('--root',type=Path,default=Path('.'));a.add_argument('--out',type=Path,default=Path('full_source_inventory.json'));args=a.parse_args()
  result=scan(args.root);args.out.parent.mkdir(parents=True,exist_ok=True)
- args.out.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\\n',encoding='utf8')
+ args.out.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
  print('Files:',result['files_total'],'Links missing:',len(result['missing_local_links']),'Dynamic anchors:',len(result['uncertain_dynamic_anchors']))
