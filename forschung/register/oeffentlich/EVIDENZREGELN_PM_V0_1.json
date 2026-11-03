@@ -1,0 +1,217 @@
+{
+ "schema_version": "evidenzregeln/0.1",
+ "owner": "claude",
+ "stand": "2026-11-03",
+ "zweck": "Deklarierte, prüfbare Regeln: welcher Nachweis welche PM-Stufe belegt. Die Stufenwerte selbst werden NICHT von Hand gesetzt, sondern von werkzeuge/pm_status.py aus Dateien, Testregister und Zyklusstatus berechnet (R6, REV-003).",
+ "stufen": [
+  "inventory",
+  "specification",
+  "implementation",
+  "testing",
+  "peer_review",
+  "release"
+ ],
+ "bewertung": {
+  "1": "Nachweis vollständig",
+  "0.5": "Teilnachweis (z. B. nur Teilumfang oder Teilprüfung)",
+  "0": "kein Nachweis"
+ },
+ "aufgaben": {
+  "PM-DATA-01": {
+   "inventory": {
+    "dateien": [
+     "forschung/register/QUELLEN_REFERENZSET_V0_1.json"
+    ]
+   },
+   "specification": {
+    "dateien": [
+     "forschung/register/schema/claim.schema.json",
+     "forschung/register/schema/web-lesesicht.schema.json"
+    ]
+   },
+   "implementation": {
+    "dateien": [
+     "forschung/register/pruefen.py",
+     "forschung/register/werkzeuge/lesesicht.py"
+    ]
+   },
+   "testing": {
+    "tests": [
+     "TST-REG-SCHEMA-001",
+     "TST-LS-01",
+     "TST-LS-02",
+     "TST-LS-03",
+     "TST-LS-04",
+     "TST-LS-05"
+    ]
+   },
+   "peer_review": {
+    "zyklus_flag": "gpt_reviewed",
+    "teil_flag": "gpt_partial_review_delivered"
+   },
+   "release": {
+    "oeffentliche_eintraege": "forschung/register/oeffentlich/LESESICHT_V0_2.json"
+   }
+  },
+  "PM-DATA-02": {
+   "inventory": {
+    "dateien": [
+     "forschung/register/VERSIONSMANIFEST_V0_1.json"
+    ]
+   },
+   "specification": {
+    "dateien": [
+     "forschung/tensor/logik-claude/LOGIK_TENSOR_1_0_EXTRAKT_V0_1.md"
+    ]
+   },
+   "implementation": {
+    "dateien": [
+     "forschung/tensor/logik-claude/LOGIK_TENSOR_1_0_EXTRAKT_V0_1.json",
+     "forschung/register/werkzeuge/versionsmanifest.py"
+    ],
+    "teil_wenn_fehlt": [
+     "forschung/tensor/logik-claude/STANDARD_AXIS_CROSSWALK_V0_1.json"
+    ]
+   },
+   "testing": {
+    "tests": [
+     "TST-LOGIK10-FELDER-001",
+     "TST-LOGIK10-V21-001",
+     "TST-SICHT-LOGIK10"
+    ]
+   },
+   "peer_review": {
+    "zyklus_flag": "gpt_reviewed",
+    "teil_flag": "gpt_partial_review_delivered"
+   },
+   "release": {
+    "nie_vor": "Freigabe Nils"
+   }
+  },
+  "PM-STD-01": {
+   "inventory": {
+    "dateien": [
+     "forschung/koordination/STANDARDS_SKILLS_METHODENREGISTER_V1_2026-11-03.md"
+    ]
+   },
+   "specification": {
+    "dateien": [
+     "forschung/register/PRUEFPROTOKOLL_S4_2026-11-03.md"
+    ]
+   },
+   "implementation": {
+    "dateien": [
+     "forschung/register/profile/profile_pruefen.py"
+    ]
+   },
+   "testing": {
+    "reproduktion": "Standard-Profile"
+   },
+   "peer_review": {
+    "zyklus_flag": "gpt_reviewed",
+    "teil_flag": "gpt_partial_review_delivered"
+   },
+   "release": {
+    "nie_vor": "Freigabe Nils"
+   }
+  },
+  "PM-PROMPT-01": {
+   "inventory": {
+    "dateien": [
+     "forschung/register/PROMPT_INVENTAR_V0_1.json",
+     "forschung/register/PROMPT_CROSSWALK_V0_1.json"
+    ]
+   },
+   "specification": {
+    "dateien": [
+     "forschung/register/PROMPT_ANALYSE_V0_1.json",
+     "forschung/register/prompt-entwuerfe/PROMPT_ENTWUERFE_CLAUDE_V0_2.md"
+    ]
+   },
+   "implementation": {
+    "dateien": [
+     "forschung/register/werkzeuge/prompt_export.py"
+    ]
+   },
+   "testing": {
+    "r4_verglichen": "forschung/koordination/zyklen/KI-2026-11-03-001/CLAUDE_R4_VERGLEICH_LOGIK-PROMPT-02.md",
+    "teil": true
+   },
+   "peer_review": {
+    "dateien": [
+     "forschung/koordination/zyklen/KI-2026-11-03-001/GPT_REVIEW_PROMPT_ANALYSE_V0_1.md"
+    ]
+   },
+   "release": {
+    "nie_vor": "DEC-PROMPT-01 / Freigabe Nils"
+   }
+  },
+  "PM-LOGIK-01": {
+   "inventory": {
+    "dateien": [
+     "forschung/tensor/logik-claude/LOGIK_TENSOR_1_0_EXTRAKT_V0_1.json"
+    ]
+   },
+   "specification": {
+    "dateien": [
+     "forschung/tensor/logik-claude/LOGIK_CLAIMREGISTER_V0_1.json"
+    ]
+   },
+   "implementation": {
+    "dateien": [
+     "forschung/tensor/logik-claude/probelaeufe/LOGIK-PROMPT-02_PROBELAUF_01.json"
+    ],
+    "teil_wenn_fehlt": [
+     "forschung/tensor/LOGIK_TENSOR_2_0_MANUSKRIPT_PRIVAT_GEPRUEFT.flag"
+    ]
+   },
+   "testing": {
+    "tests": [
+     "TST-LP02-01",
+     "TST-LP02-02",
+     "TST-LP02-03",
+     "TST-LP02-04",
+     "TST-LP02-05",
+     "TST-LP02-06",
+     "TST-LP02-07",
+     "TST-LP02-08"
+    ]
+   },
+   "peer_review": {
+    "dateien": [
+     "forschung/koordination/zyklen/KI-2026-11-03-001/GPT_LOGIK_PROMPT_02_UNABHAENGIGER_TEST.md"
+    ],
+    "teil": true
+   },
+   "release": {
+    "nie_vor": "Freigabe Nils"
+   }
+  },
+  "PM-THESIS-01": {
+   "inventory": {
+    "dateien": [
+     "forschung/register/ZWEIG_KI_TENSOR_TIEFENANALYSE_V0_1.md"
+    ]
+   },
+   "specification": {
+    "dateien": [
+     "forschung/register/prompt-entwuerfe/PROMPT_ENTWUERFE_CLAUDE_V0_2.md"
+    ]
+   },
+   "implementation": {
+    "dateien": [
+     "forschung/tensor/logik-claude/THESEN_ORIGINAL_INVENTAR_V0_1.json"
+    ]
+   },
+   "testing": {
+    "tests": []
+   },
+   "peer_review": {
+    "zyklus_flag": "gpt_reviewed"
+   },
+   "release": {
+    "nie_vor": "Freigabe Nils"
+   }
+  }
+ }
+}

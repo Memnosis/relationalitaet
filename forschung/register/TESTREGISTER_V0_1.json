@@ -469,6 +469,76 @@
    "ausgefuehrt_von": "claude",
    "ausgefuehrt_am": "2026-11-03",
    "gilt_nur_fuer": "Fundstellen des Logik-Tensors 1.0"
+  },
+  {
+   "test_id": "TST-PM-01",
+   "task_ids": [
+    "REV-003",
+    "PM-WEB-01"
+   ],
+   "gegenstand": "Stufen aus echten Nachweisen berechnet",
+   "testart": "unittest",
+   "datei": "forschung/register/tests/test_pm_status.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "pm_status.py mit EVIDENZREGELN_PM_V0_1"
+  },
+  {
+   "test_id": "TST-PM-02",
+   "task_ids": [
+    "REV-003",
+    "PM-WEB-01"
+   ],
+   "gegenstand": "ohne Tests keine Teststufe",
+   "testart": "unittest",
+   "datei": "forschung/register/tests/test_pm_status.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "pm_status.py mit EVIDENZREGELN_PM_V0_1"
+  },
+  {
+   "test_id": "TST-PM-03",
+   "task_ids": [
+    "REV-003",
+    "PM-WEB-01"
+   ],
+   "gegenstand": "manuelles „checked“ ignoriert",
+   "testart": "unittest",
+   "datei": "forschung/register/tests/test_pm_status.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "pm_status.py mit EVIDENZREGELN_PM_V0_1"
+  },
+  {
+   "test_id": "TST-PM-04",
+   "task_ids": [
+    "REV-003",
+    "PM-WEB-01"
+   ],
+   "gegenstand": "Release nie ohne Freigabe",
+   "testart": "unittest",
+   "datei": "forschung/register/tests/test_pm_status.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "pm_status.py mit EVIDENZREGELN_PM_V0_1"
+  },
+  {
+   "test_id": "TST-PM-05",
+   "task_ids": [
+    "REV-003",
+    "PM-WEB-01"
+   ],
+   "gegenstand": "volle GPT-Prüfung hebt Peer-Stufe",
+   "testart": "unittest",
+   "datei": "forschung/register/tests/test_pm_status.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "pm_status.py mit EVIDENZREGELN_PM_V0_1"
   }
  ],
  "verweise_fremde_tests": [

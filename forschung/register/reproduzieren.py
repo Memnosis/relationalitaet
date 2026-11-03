@@ -23,6 +23,7 @@ SCHRITTE = [
     ("Formale Tests K4 (8)", ["forschung/tensor/logik-claude/tests/test_formal_k4.py"], "OK"),
     ("Probelauf LOGIK-PROMPT-02 (8)", ["forschung/tensor/logik-claude/tests/test_logik_prompt02.py"], "OK"),
     ("Lesesicht v0.2 (5)", ["forschung/register/tests/test_lesesicht.py"], "OK"),
+    ("PM-Status aus Nachweisen (5)", ["forschung/register/tests/test_pm_status.py"], "OK"),
     ("GPT-Gegenlauf LOGIK-PROMPT-02 (Kontrolle)", ["scripts/gpt_logic02_independent.py"], "PASS"),
 ]
 

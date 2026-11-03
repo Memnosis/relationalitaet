@@ -1,17 +1,18 @@
 # Reproduktionsbericht Claude-Prüfungen
 
-- Zeit: 2026-11-03T15:12:00+00:00
-- Commit: `4c2a7e9aff91af56e4c00dadd362c1834fe05d77`
+- Zeit: 2026-11-03T15:14:25+00:00
+- Commit: `e28f80faf13239d55510d5b2869dd6262152685d`
 - Python: 3.13.18
 
 | Prüfung | Skript (SHA-256, 12 Zeichen) | Exit | Erwartetes Signal gefunden |
 |---|---|---|---|
 | Validator Claims (6 positiv, 7 negativ) | `forschung/register/pruefen.py` `a548882c5921` | 0 | ja |
 | Logik-Aussagenregister (48) | `forschung/register/pruefen.py` `a548882c5921` | 0 | ja |
-| Standard-Profile (FAIR/PROV/SemVer/DCAT) + Negativprobe | `forschung/register/profile/profile_pruefen.py` `9bcfa755758d` | 0 | ja |
+| Standard-Profile (FAIR/PROV/SemVer/DCAT) + Negativprobe | `forschung/register/profile/profile_pruefen.py` `3f0ee2714dc4` | 0 | ja |
 | Formale Tests K4 (8) | `forschung/tensor/logik-claude/tests/test_formal_k4.py` `bc8f455b23cb` | 0 | ja |
 | Probelauf LOGIK-PROMPT-02 (8) | `forschung/tensor/logik-claude/tests/test_logik_prompt02.py` `9b09cd69386a` | 0 | ja |
 | Lesesicht v0.2 (5) | `forschung/register/tests/test_lesesicht.py` `d997491b8bec` | 0 | ja |
+| PM-Status aus Nachweisen (5) | `forschung/register/tests/test_pm_status.py` `5cb03e84d9e5` | 0 | ja |
 | GPT-Gegenlauf LOGIK-PROMPT-02 (Kontrolle) | `scripts/gpt_logic02_independent.py` `d93bb6935ab7` | 0 | ja |
 
 **Gesamt: alle Prüfungen bestanden**

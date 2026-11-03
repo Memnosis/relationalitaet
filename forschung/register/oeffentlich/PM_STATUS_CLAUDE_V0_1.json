@@ -1,0 +1,204 @@
+{
+ "schema_version": "pm-status/0.1",
+ "owner": "claude",
+ "source_commit": "e28f80f",
+ "generated_at": "2026-11-03T15:14:25+00:00",
+ "regeln": "forschung/register/oeffentlich/EVIDENZREGELN_PM_V0_1.json",
+ "skala": "0 kein Nachweis, 0.5 Teilnachweis, 1 Nachweis",
+ "public_safe": true,
+ "tasks": [
+  {
+   "task_id": "PM-DATA-01",
+   "owner": "claude",
+   "stages": {
+    "inventory": 1.0,
+    "specification": 1.0,
+    "implementation": 1.0,
+    "testing": 1.0,
+    "peer_review": 0.5,
+    "release": 0.0
+   },
+   "evidence": {
+    "inventory": [
+     "forschung/register/QUELLEN_REFERENZSET_V0_1.json#f9774da117c14918"
+    ],
+    "specification": [
+     "forschung/register/schema/claim.schema.json#232873fc4e6a76c9",
+     "forschung/register/schema/web-lesesicht.schema.json#003f6540255de41f"
+    ],
+    "implementation": [
+     "forschung/register/pruefen.py#a548882c5921400e",
+     "forschung/register/werkzeuge/lesesicht.py#21449596d402d781"
+    ],
+    "testing": [
+     "TST-REG-SCHEMA-001",
+     "TST-LS-01",
+     "TST-LS-02",
+     "TST-LS-03",
+     "TST-LS-04",
+     "TST-LS-05"
+    ],
+    "peer_review": [
+     "STATUS.json:gpt_partial_review_delivered"
+    ],
+    "release": []
+   }
+  },
+  {
+   "task_id": "PM-DATA-02",
+   "owner": "claude",
+   "stages": {
+    "inventory": 1.0,
+    "specification": 1.0,
+    "implementation": 0.5,
+    "testing": 1.0,
+    "peer_review": 0.5,
+    "release": 0.0
+   },
+   "evidence": {
+    "inventory": [
+     "forschung/register/VERSIONSMANIFEST_V0_1.json#a1d5f263ea1ebf4f"
+    ],
+    "specification": [
+     "forschung/tensor/logik-claude/LOGIK_TENSOR_1_0_EXTRAKT_V0_1.md#95b1cd497bc9b652"
+    ],
+    "implementation": [
+     "forschung/tensor/logik-claude/LOGIK_TENSOR_1_0_EXTRAKT_V0_1.json#ef592f5d77b42e69",
+     "forschung/register/werkzeuge/versionsmanifest.py#77e76c80e8aeb0ca"
+    ],
+    "testing": [
+     "TST-LOGIK10-FELDER-001",
+     "TST-LOGIK10-V21-001",
+     "TST-SICHT-LOGIK10"
+    ],
+    "peer_review": [
+     "STATUS.json:gpt_partial_review_delivered"
+    ],
+    "release": []
+   }
+  },
+  {
+   "task_id": "PM-STD-01",
+   "owner": "claude",
+   "stages": {
+    "inventory": 1.0,
+    "specification": 1.0,
+    "implementation": 1.0,
+    "testing": 1.0,
+    "peer_review": 0.5,
+    "release": 0.0
+   },
+   "evidence": {
+    "inventory": [
+     "forschung/koordination/STANDARDS_SKILLS_METHODENREGISTER_V1_2026-11-03.md#660e2ac7f86ab675"
+    ],
+    "specification": [
+     "forschung/register/PRUEFPROTOKOLL_S4_2026-11-03.md#1f1f9df3bafb516d"
+    ],
+    "implementation": [
+     "forschung/register/profile/profile_pruefen.py#3f0ee2714dc4ab65"
+    ],
+    "testing": [
+     "forschung/register/REPRODUKTIONSBERICHT_CLAUDE_2026-11-03.md"
+    ],
+    "peer_review": [
+     "STATUS.json:gpt_partial_review_delivered"
+    ],
+    "release": []
+   }
+  },
+  {
+   "task_id": "PM-PROMPT-01",
+   "owner": "claude",
+   "stages": {
+    "inventory": 1.0,
+    "specification": 1.0,
+    "implementation": 1.0,
+    "testing": 0.5,
+    "peer_review": 1.0,
+    "release": 0.0
+   },
+   "evidence": {
+    "inventory": [
+     "forschung/register/PROMPT_INVENTAR_V0_1.json#59f1b4a30392e612",
+     "forschung/register/PROMPT_CROSSWALK_V0_1.json#016a78e2b7499006"
+    ],
+    "specification": [
+     "forschung/register/PROMPT_ANALYSE_V0_1.json#be3b31ca9bb280e7",
+     "forschung/register/prompt-entwuerfe/PROMPT_ENTWUERFE_CLAUDE_V0_2.md#f5f418286da6310e"
+    ],
+    "implementation": [
+     "forschung/register/werkzeuge/prompt_export.py#5b10a38b43b20f0c"
+    ],
+    "testing": [
+     "forschung/koordination/zyklen/KI-2026-11-03-001/CLAUDE_R4_VERGLEICH_LOGIK-PROMPT-02.md#ff2019138f208022"
+    ],
+    "peer_review": [
+     "forschung/koordination/zyklen/KI-2026-11-03-001/GPT_REVIEW_PROMPT_ANALYSE_V0_1.md#c7ba54643149346d"
+    ],
+    "release": []
+   }
+  },
+  {
+   "task_id": "PM-LOGIK-01",
+   "owner": "claude",
+   "stages": {
+    "inventory": 1.0,
+    "specification": 1.0,
+    "implementation": 0.5,
+    "testing": 1.0,
+    "peer_review": 0.5,
+    "release": 0.0
+   },
+   "evidence": {
+    "inventory": [
+     "forschung/tensor/logik-claude/LOGIK_TENSOR_1_0_EXTRAKT_V0_1.json#ef592f5d77b42e69"
+    ],
+    "specification": [
+     "forschung/tensor/logik-claude/LOGIK_CLAIMREGISTER_V0_1.json#ddedf16a735cf530"
+    ],
+    "implementation": [
+     "forschung/tensor/logik-claude/probelaeufe/LOGIK-PROMPT-02_PROBELAUF_01.json#0f5d8b04f1b82c7e"
+    ],
+    "testing": [
+     "TST-LP02-01",
+     "TST-LP02-02",
+     "TST-LP02-03",
+     "TST-LP02-04",
+     "TST-LP02-05",
+     "TST-LP02-06",
+     "TST-LP02-07",
+     "TST-LP02-08"
+    ],
+    "peer_review": [
+     "forschung/koordination/zyklen/KI-2026-11-03-001/GPT_LOGIK_PROMPT_02_UNABHAENGIGER_TEST.md#a2f4e92fcffd449d"
+    ],
+    "release": []
+   }
+  },
+  {
+   "task_id": "PM-THESIS-01",
+   "owner": "claude",
+   "stages": {
+    "inventory": 1.0,
+    "specification": 1.0,
+    "implementation": 0.0,
+    "testing": 0.0,
+    "peer_review": 0.0,
+    "release": 0.0
+   },
+   "evidence": {
+    "inventory": [
+     "forschung/register/ZWEIG_KI_TENSOR_TIEFENANALYSE_V0_1.md#bf766e1e09eb4a4b"
+    ],
+    "specification": [
+     "forschung/register/prompt-entwuerfe/PROMPT_ENTWUERFE_CLAUDE_V0_2.md#f5f418286da6310e"
+    ],
+    "implementation": [],
+    "testing": [],
+    "peer_review": [],
+    "release": []
+   }
+  }
+ ]
+}
