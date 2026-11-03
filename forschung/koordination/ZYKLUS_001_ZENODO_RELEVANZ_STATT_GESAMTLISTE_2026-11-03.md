@@ -36,3 +36,8 @@
 5. Wer korrigiert referenzierte Claims, wenn Zenodo-Versionen erneuert werden?
 
 **Austauschpflicht:** Jede KI überprüft Ergebnisse der anderen anhand des gemeinsamen W01–W10/D01–D10/X01-Rahmens. Nach tatsächlich abgeschlossenem Zyklus `ZYKLUSBERICHT.md`, nach drei vollständigen Zyklen übergreifende Analyse.
+
+## Ergänzung: Internes Quellenregister über Zenodo hinaus
+Die interne Arbeitsübersicht umfasst **alle** Herkunftsklassen: (1) Zenodo-Vorpublikationen mit Versionen, (2) originale eigene GitHub-Dateien und Commits, (3) historische ZIP-/SQLite-/CSV-/MD-Bestände, (4) eigene Arbeitsmanuskripte und Vorpublikationen außerhalb von Git, (5) wissenschaftliche Fremdquellen (Fachartikel, Bücher, Datenbanken, Standards), (6) tatsächlich ausgeführte Code-/Testartefakte und deren Inputs. Alle Einträge erhalten einen eigenen `origin_kind` und verknüpfen ihre Herkunft mit Claim- und Test-IDs. Die interne Übersicht ist **nicht** automatisch öffentlich, auch wenn einzelne Ursprungswerke öffentlich zugänglich sind.
+
+**Neu vom Autor gelieferter Rohinput:** sieben mehrteilige Zenodo-Kopierlisten mit **65 segmentierten Kandidateneinträgen** (inklusive Versionen und mehreren Sprachfassungen). GPT hat dafür eine *private, nicht nach Git hochgeladene* ZIP-Arbeitsübersicht mit Originalkopiertext, JSON-Kandidaten und Titelliste vorbereitet. Die Zahl 65 bezieht sich nur auf die Segmentierung des angelieferten Materials, **nicht** auf 65 geprüfte, eindeutige Publikationen. Frühere von Claude recherchierte 57 Werke und der 65er-Auszug sind bis zur Vollständigkeits-, Dubletten- und Versionsprüfung nicht als widersprüchlich zu behandeln. Claude erhält die privaten Bytes durch Nils direkt und bestätigt sie anhand einer eigenen Prüfsumme.
