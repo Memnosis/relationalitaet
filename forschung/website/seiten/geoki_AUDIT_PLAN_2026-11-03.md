@@ -24,3 +24,9 @@ Operatoren aus GEOS/SymPy/CGAL/CAD sind noch nicht tatsächlich gegen identische
 **Verknüpfte Aufgabenfamilien:** PM-GEO-01. **Offene Belege:** vollständiger Einzelprompt-Crosswalk für letzte 100+ Originalnachrichten; siehe [Gesamt-Upgrade-/Abdeckungsprüfung](../PLAN_UPDATE_PROMPT100_UND_LUECKENAUDIT_2026-11-03.md). Eine allgemeine Themenfamilie ist kein belegter einzelner Originalprompt.
 
 **Änderungslog:** [Gesamtseiten-Audit](../SEITENAUDIT_GESAMT_LERNWEGE_THESEN_GEOKI_2026-11-03.md) · [Website-Changelog](../CHANGELOG_PM_KI_HISTORY_GEO_THESES_2026-11-03.md). **Reife:** umgesetzt/teilweise erklärt, Endabnahme ausstehend.
+
+## R5 · Funktionaler Nullindex-Fehler und reproduzierbarer Test (03.11.2026)
+
+**Tatsächlich korrigiert:** Das dynamische 27er-SVG nutzte für die Auswahl zunächst die Rohschleifen-Indizes `T0.E0.R0`; Anzeige und Standardposition verwenden nach `ba72a10`/`04a3962` nun die gültige **einsbasierte** Konvention `T1.E1.R1` bis `T3.E3.R3`. Ein für Website-Leser nutzloser interner Redaktionshinweis wurde durch die sachliche Grenze von Struktur zu Beweis ersetzt.
+
+**Abnahmespezifikation:** `scripts/verify_website_browser.mjs` klickt unter Chromium `#matrix rect:first`, prüft 27 auswählbare Positionen und `T1.E1.R1`. **Erwarteter Test vorhanden, tatsächlich bestandener Browser-/CI-Lauf noch offen.** Die fachliche Interpretation aller Positionen bleibt separat bei Claude.
