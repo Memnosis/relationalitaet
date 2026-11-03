@@ -82,7 +82,7 @@ for slug in slugs:
 
 for name in ("codebuch-web-index.json", "inkubator-quellenregister.json",
              "projektmanagement-public-v2.json", "workflow-stand-v1.json",
-             "thesen-uebersicht-v1.json"):
+             "thesen-uebersicht-v1.json", "mitmach-public-v2.json", "mitmachen-ergebnis-schema-v1.json"):
     file = DOCS / "data" / name
     if not file.is_file():
         errors.append("missing public JSON " + name)
