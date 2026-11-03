@@ -46,7 +46,21 @@
         "PM-DATA-02",
         "PM-LOGIK-01"
       ],
-      "icon": "cube"
+      "icon": "algebra",
+      "original_thesis_id": null,
+      "review": {
+        "gpt": {
+          "status": "editorial_mapping_only",
+          "verified_at": "2026-11-03",
+          "basis": "tensor-einfuehrung.html"
+        },
+        "claude": {
+          "status": "pending",
+          "verified_at": null,
+          "basis": null
+        }
+      },
+      "evidence_scope": "Vorläufige Einstufung der öffentlich beschriebenen spezifischen Forschungsbehauptung; unabhängige Prüfung und Originalthesen-Crosswalk offen."
     },
     {
       "id": "TH-THEMA-02",
@@ -64,7 +78,21 @@
         "PM-DATA-02",
         "PM-THESIS-01"
       ],
-      "icon": "network"
+      "icon": "education",
+      "original_thesis_id": null,
+      "review": {
+        "gpt": {
+          "status": "editorial_mapping_only",
+          "verified_at": "2026-11-03",
+          "basis": "tensor-paper.html"
+        },
+        "claude": {
+          "status": "pending",
+          "verified_at": null,
+          "basis": null
+        }
+      },
+      "evidence_scope": "Vorläufige Einstufung der öffentlich beschriebenen spezifischen Forschungsbehauptung; unabhängige Prüfung und Originalthesen-Crosswalk offen."
     },
     {
       "id": "TH-THEMA-03",
@@ -82,7 +110,21 @@
         "PM-DATA-02",
         "PM-THESIS-01"
       ],
-      "icon": "network"
+      "icon": "nature",
+      "original_thesis_id": null,
+      "review": {
+        "gpt": {
+          "status": "editorial_mapping_only",
+          "verified_at": "2026-11-03",
+          "basis": "tensoralgebra.html"
+        },
+        "claude": {
+          "status": "pending",
+          "verified_at": null,
+          "basis": null
+        }
+      },
+      "evidence_scope": "Vorläufige Einstufung der öffentlich beschriebenen spezifischen Forschungsbehauptung; unabhängige Prüfung und Originalthesen-Crosswalk offen."
     },
     {
       "id": "TH-THEMA-04",
@@ -99,7 +141,21 @@
       "depends_on": [
         "PM-CYCLE-01"
       ],
-      "icon": "brain"
+      "icon": "work",
+      "original_thesis_id": null,
+      "review": {
+        "gpt": {
+          "status": "editorial_mapping_only",
+          "verified_at": "2026-11-03",
+          "basis": "minimal-ki.html"
+        },
+        "claude": {
+          "status": "pending",
+          "verified_at": null,
+          "basis": null
+        }
+      },
+      "evidence_scope": "Vorläufige Einstufung der öffentlich beschriebenen spezifischen Forschungsbehauptung; unabhängige Prüfung und Originalthesen-Crosswalk offen."
     },
     {
       "id": "TH-THEMA-05",
@@ -116,7 +172,21 @@
       "depends_on": [
         "PM-CYCLE-01"
       ],
-      "icon": "network"
+      "icon": "communication",
+      "original_thesis_id": null,
+      "review": {
+        "gpt": {
+          "status": "editorial_mapping_only",
+          "verified_at": "2026-11-03",
+          "basis": "vernetzung-ki.html"
+        },
+        "claude": {
+          "status": "pending",
+          "verified_at": null,
+          "basis": null
+        }
+      },
+      "evidence_scope": "Vorläufige Einstufung der öffentlich beschriebenen spezifischen Forschungsbehauptung; unabhängige Prüfung und Originalthesen-Crosswalk offen."
     },
     {
       "id": "TH-THEMA-06",
@@ -133,7 +203,22 @@
       "depends_on": [
         "PM-GEO-01"
       ],
-      "icon": "shapes"
+      "icon": "compass",
+      "original_thesis_id": null,
+      "review": {
+        "gpt": {
+          "status": "editorial_mapping_only",
+          "verified_at": "2026-11-03",
+          "basis": "geoki.html"
+        },
+        "claude": {
+          "status": "pending",
+          "verified_at": null,
+          "basis": null
+        }
+      },
+      "evidence_scope": "Vorläufige Einstufung der öffentlich beschriebenen spezifischen Forschungsbehauptung; unabhängige Prüfung und Originalthesen-Crosswalk offen."
     }
-  ]
+  ],
+  "limitations": "Diese sechs Karten sind didaktische Themenfamilien, keine vollständig ermittelten Originalthesen. Der Evidenzgrad bezieht sich jeweils ausdrücklich auf die behauptete allgemeine wissenschaftliche Aussage, nicht auf benutzte etablierte Beispiele."
 }
