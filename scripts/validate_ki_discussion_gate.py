@@ -34,7 +34,7 @@ def main():
             errors.append(f"discussion {idx}: reply state not acknowledged in register")
     for f in BASE.glob("CLAUDE_DISKUSSION_*.md"):
         import re
-        m=re.search(r"CLAUDE_DISKUSSION_(\\d+)",f.name)
+        m=re.search(r"CLAUDE_DISKUSSION_(\d+)",f.name)
         if m and m.group(1) not in registered:
             errors.append(f"unregistered incoming discussion: {f.name}")
     for r in data.get("peer_reviews",[]):
