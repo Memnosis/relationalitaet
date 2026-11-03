@@ -1,0 +1,144 @@
+{
+  "schema": "soulution.prepublication-tasks.v0.1",
+  "as_of": "2026-11-03",
+  "status": "planning_not_executed",
+  "project": "SVIK-001",
+  "policy": "test-first_publish-after",
+  "tasks": [
+    {
+      "id": "VP-01",
+      "title": "Historischer Evaluierungs- und Fristenatlas",
+      "priority": "P0",
+      "sources": "NKR-Berichte, Gesetze und Evaluationsberichte",
+      "prompt": "Extrahiere aus drei datierten NKR-Berichten eine quellengenaue Stichprobe von mindestens 10 einzeln identifizierbaren Evaluierungspflichten. Erfasse Rechtsbasis, zuständige Stelle, Fristauslöser, Fälligkeit, tatsächliche Durchführung, Bericht/Übermittlung, Publikationsdatum, Verfügbarkeit und Änderungen. Trenne nicht auffindbar von verspätet belegt und von nicht fällig. Berechne nur bei nachgewiesenem Nenner eine Fristquote.",
+      "acceptance": "10 Fallakten mit Quellen und Datumslogik; mindestens 2 vollständig rückverfolgt",
+      "status": "open"
+    },
+    {
+      "id": "VP-02",
+      "title": "Fristenregelmaschine und Negativtests",
+      "priority": "P0",
+      "sources": "Rechtsquellen, Datumsereignisse, VP-01",
+      "prompt": "Entwirf eine maschinenlesbare Fristenregel für die Fälle aus VP-01. Prüfe Inkrafttreten, Übergangsrecht, Friständerung, Durchführung, Übermittlung und Veröffentlichung getrennt. Teste 6 Gegenfälle einschließlich noch nicht fällig, nicht veröffentlicht aber durchgeführt, geändert, aufgehoben, verspätet und unbekannt.",
+      "acceptance": "6 reproduzierbare Tests mit richtigem Status und Beleg",
+      "status": "open"
+    },
+    {
+      "id": "VP-03",
+      "title": "Laufende Entscheidungen und Änderungsmonitor",
+      "priority": "P0",
+      "sources": "DIP, Bundestagsdrucksachen, ausgewählte Regierungsseiten",
+      "prompt": "Prüfe die tatsächliche maschinenlesbare Abrufbarkeit aktueller Verfahrensdaten. Erfasse eine begrenzte Menge neuer/geänderter Vorgänge samt ID, Zeitstempel, amtlicher Quelle und Version. Simuliere mindestens zwei aufeinanderfolgende Abrufe und dokumentiere echte Differenzen ohne erfundene Ereignisse.",
+      "acceptance": "Datenabruf, Schema, Deltaprotokoll und Fehlerfall",
+      "status": "open"
+    },
+    {
+      "id": "VP-04",
+      "title": "SVIK-Rechts- und Zuständigkeitskette",
+      "priority": "P0",
+      "sources": "GG, SVIKG, LuKIFG, BMF, Bundestag",
+      "prompt": "Ermittle für SVIK jede einschlägige Pflicht und Zuständigkeit mit genauer Normfassung, Fristauslöser, Adressat, Berichtsempfänger und Kontrollbefugnis. Trenne Rechtspflicht, verwaltungsinternen Standard und Forschungsforderung.",
+      "acceptance": "Quellengebundene Verantwortungs- und Pflichtmatrix",
+      "status": "open"
+    },
+    {
+      "id": "VP-05",
+      "title": "SVIK-Datenzugang und Dateiverarbeitbarkeit",
+      "priority": "P0",
+      "sources": "Bundeshaushalt-Bundesdashboard, Länderdashboard, KTF",
+      "prompt": "Versuche die amtlichen Downloads tatsächlich herunterzuladen. Dokumentiere URL, Zugangsbedingungen, MIME-Format, Dateihash, Datenjahr, Spalten, Metadaten, Lizenz und maschinelle Lesbarkeit. Trenne öffentlich genannt, erreichbar, heruntergeladen und erfolgreich geparst.",
+      "acceptance": "Mindestens je 1 belastbarer Datensatz für Bund, Länder und KTF ODER dokumentierter Blocker",
+      "status": "open"
+    },
+    {
+      "id": "VP-06",
+      "title": "Finanzfluss Plan–Ist–Bindung–Empfänger",
+      "priority": "P0",
+      "sources": "SVIK-Datensätze und Haushaltspläne",
+      "prompt": "Rekonstruiere die drei Finanzierungssäulen und einen ausgewählten Haushaltstitel mit Ermächtigung, Soll, Bindung, Ist, Erstattung, Empfänger und Leistungsstand. Rechne Summen und Doppelzählungen gegen. Lege für nicht verfügbare Endempfängerdaten explizite Lücken an.",
+      "acceptance": "Reproduzierbare Finanzflussakte und Nachrechnung",
+      "status": "open"
+    },
+    {
+      "id": "VP-07",
+      "title": "Zusätzlichkeit: Methoden- und Gegenvergleich",
+      "priority": "P0",
+      "sources": "BMF-Analyse, IW-Analyse, Haushaltsdaten",
+      "prompt": "Rekonstruiere beide öffentlich verwendeten Zusätzlichkeitsdefinitionen mit Jahren, Bezugsgrößen, Gegenmodellen und Quellen. Prüfe die Rechenwege soweit verfügbar. Stelle Prozentwerte erst bei identischem Nenner einander gegenüber; andernfalls erkläre den Unterschied.",
+      "acceptance": "Methoden-Crosswalk, Rechenversuch, Grenzen",
+      "status": "open"
+    },
+    {
+      "id": "VP-08",
+      "title": "Ziele–Meilensteine–Output–Wirkung",
+      "priority": "P0",
+      "sources": "BMF-Monitoring, Fachressorts, Evaluationen",
+      "prompt": "Wähle einen konkreten SVIK-Haushaltstitel. Verbinde Mittelabfluss, definierte Zielindikatoren, Meilensteine, nachgewiesenen Output, Outcome und Impact. Prüfe welche Indikatoren nur Planungsfortschritt abbilden und ob Vergleiche zwischen Fachbereichen zulässig sind.",
+      "acceptance": "Eine vollständige Musterakte oder transparent belegte Lücken",
+      "status": "open"
+    },
+    {
+      "id": "VP-09",
+      "title": "Prüf- und Kontrollqualität",
+      "priority": "P1",
+      "sources": "NKR, Bundesrechnungshof, Bundestag, Fachministerien",
+      "prompt": "Ordne für eine Stichprobe von mindestens fünf Maßnahmen Rechtskontrolle, Mittelverwendungsprüfung, Evaluation, unabhängige Prüfung und Nachsteuerung zu. Prüfe Veröffentlichung, Frist, methodische Qualität und dokumentierte Folgen getrennt.",
+      "acceptance": "5 Kontrollketten mit Nachweisstatus",
+      "status": "open"
+    },
+    {
+      "id": "VP-10",
+      "title": "Lösungs- und Alternativenatlas",
+      "priority": "P1",
+      "sources": "Vorhandene amtliche und wissenschaftliche Werkzeuge",
+      "prompt": "Identifiziere vorhandene Monitoring-, Evaluations- und Datenwerkzeuge, ihre Schnittstellen, Lizenzen und Grenzen. Vergleiche zwei Verbesserungsvorschläge anhand der festgestellten Lücken statt ein paralleles Dashboard vorauszusetzen.",
+      "acceptance": "2 belegte Lösungen plus Integrationsempfehlung",
+      "status": "open"
+    },
+    {
+      "id": "VP-11",
+      "title": "Prompt-Benchmark und zwei Durchläufe",
+      "priority": "P0",
+      "sources": "VP-01 bis VP-10 Ergebnisse",
+      "prompt": "Führe H1–H5 sowie die professionellen P01–P08 auf demselben eingefrorenen Quellenstand aus. Vergleiche Vollständigkeit, Datenverfügbarkeit, Fehler, prüfbare Aussagen, Aufwand und wiederverwendbare Datenobjekte. Wiederhole den Test nach Prompt-Optimierung mit gleicher Testmenge.",
+      "acceptance": "Vorher/Nachher-Testmatrix samt Quellen, Fehlerklassen und Nachprüfungen",
+      "status": "open"
+    },
+    {
+      "id": "VP-12",
+      "title": "Gemeinsame Skill- und Datenbank-Wiederverwendung",
+      "priority": "P0",
+      "sources": "Existierende Git-Register, Inventar, historische Bestände",
+      "prompt": "Ordne jedem benötigten Skill und Datentyp eine existierende Quelle oder einen belegten Fehlbestand zu. Unterscheide on_git, local_only, Kandidat, ausführbar, getestet und validiert. Vermeide neue Kopien gemeinsamer Quellenobjekte.",
+      "acceptance": "Crosswalk und 3 kleine ausführbare Skilltests oder begründete Blocker",
+      "status": "open"
+    },
+    {
+      "id": "VP-13",
+      "title": "Relations- und Tensorübergabe",
+      "priority": "P1",
+      "sources": "Geprüfte Befunde VP-01 bis VP-12",
+      "prompt": "Extrahiere nur quellengebundene, typisierte Relationskandidaten mit Träger, Definition, Geltung, Test und Gegenbeispiel. Prüfe vorhandene Tensorregister auf Duplikate. Gib Kandidaten an KI-Tensor weiter; bestätige keinen 3×3×3-Tensor ohne drei geprüfte Trinitäten und 27 geprüfte Feldpositionen.",
+      "acceptance": "Relationsakten, kein erfundener Tensorabschluss",
+      "status": "open"
+    },
+    {
+      "id": "VP-14",
+      "title": "Buchbelege, Originalcover und Didaktik-Abnahme",
+      "priority": "P0",
+      "sources": "Originalbücher, validierte Testakten",
+      "prompt": "Sichere Originalcover und exakte Buchauszüge mit Seitenangaben. Leite nur geprüfte Zahlen und Beispiele in den Haupttext ab. Erkläre notwendige Relationen verständlich; Seitenzahl nach didaktischem Bedarf. Kennzeichne Leserprompt, Metakasten, Profi-Anhang und Forschungsstand; teste fachfremde Lesbarkeit.",
+      "acceptance": "Quellenfeste Doppelseitenplanung und redaktionelle Freigabeliste",
+      "status": "open"
+    },
+    {
+      "id": "VP-15",
+      "title": "Digitale Anhänge und Website-Crosswalk",
+      "priority": "P1",
+      "sources": "Vorhandene SOULution-Seite, Mitmachen, Git-Register",
+      "prompt": "Verknüpfe die fünf Hauptprompts und Profi-Aufgaben mit stabilen IDs, Quellenakten und Ergebnissen. Prüfe Links, Originaldateien, Lizenzen und Publikationsstatus auf eigenem Branch. Verwende vorhandene Register und Diagramm-/Designregeln.",
+      "acceptance": "Validierter Navigationstest und aktualisierter Quellen-/Promptatlas",
+      "status": "open"
+    }
+  ]
+}
