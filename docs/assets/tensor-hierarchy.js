@@ -2,8 +2,8 @@
 (()=>{"use strict";
 const groups=[
  {title:"Start",url:"index.html"},
- {title:"Forschung",items:[["Tensor verstehen","tensor-einfuehrung.html"],["Tensoralgebra","tensoralgebra.html"],["Forschungsbibliothek","bibliothek.html"],["Glossar & Codebuch","glossar.html"],["Formelernte","harvesting.html"]]},
- {title:"Projekte",items:[["Projektübersicht","projektstand.html"],["Projektmanagement","projektmanagement.html"],["Mini-KI","minimal-ki.html"],["Geo-KI","geoki.html"],["Komprimierung","komprimierung.html"],["Visuelle Engine","visuelle-engine.html"],["KI-Kollegen","vernetzung-ki.html"]]},
+ {title:"Forschung",items:[["Tensor verstehen","tensor-einfuehrung.html"],["KI-Geschichte & Ansätze","ki-geschichte.html"],["Forschungsthesen","thesen.html"],["Tensoralgebra","tensoralgebra.html"],["Forschungsbibliothek","bibliothek.html"],["Glossar & Codebuch","glossar.html"],["Formelernte","harvesting.html"]]},
+ {title:"Projekte",items:[["Projektübersicht","projektstand.html"],["Projektmanagement","projektmanagement.html"],["Mini-KI","minimal-ki.html"],["Geo-KI","geoki.html"],["Geo-KI Werkzeuge","geoki-systeme.html"],["Komprimierung","komprimierung.html"],["Visuelle Engine","visuelle-engine.html"],["KI-Kollegen","vernetzung-ki.html"]]},
  {title:"Inkubator",url:"inkubator.html"},
  {title:"Publikationen",items:[["Medien & Publikationen","medien.html"],["Forschungsbibliothek","bibliothek.html"],["SOULution Publikationen","soulution.html#publikationen"]]},
  {title:"Mitmachen",items:[["Mitmachprojekte","mitmachen.html"],["Forschungs-Taskkarten","taskkarten.html"],["Tensoralgebra weiterentwickeln","tensoralgebra.html#algebra-weiterentwickeln"]],special:"join"},
