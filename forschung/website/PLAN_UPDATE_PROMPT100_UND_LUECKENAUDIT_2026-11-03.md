@@ -74,3 +74,54 @@ Jeder einzelne Originalauftrag erhält `USER-PROMPT-<Datum>-<Index>`, **exakten*
 - [Thematische Thesendaten](../../docs/data/thesen-uebersicht-v1.json).
 
 **Wesentliche Schlussfolgerung:** Nachweisbar viele Schritte **halb umgesetzt oder noch nicht verifiziert**, aber aus der hier verfügbaren Quellenbasis **kein nachgewiesener endgültiger Verlust von Git-Aufträgen**. Die lückenlose Gegenprobe zu genau 100 Originalnachrichten bleibt offen.
+
+## 6. Zwischenstand GPT-Solo-Runde während Claudes Pause · 03.11.2026
+
+**Arbeitsmodus:** Während Claude nicht verfügbar ist, bearbeitet GPT ausschließlich eigene Website-/Plan- und statische Integrationstests. Keine Claude-Datenarchive verändert, keine gegenseitige KI-Prüfung oder abgeschlossener Zyklus behauptet.
+
+### 6.1 Website-Umbau – jetzt tatsächlich in `main`
+Aus `integration/soulution-shared-core-2026-11-03` wurden acht **zuvor nicht in main vorhandene** HTML-Fachseiten unter originaler URL selektiv übernommen:
+- `docs/ki-systeme.html` – historischer KI-Systemvergleich.
+- `docs/ki-kernforschung.html` – Skills, KI-Kernfunktionen und weiterführende Forschungsfragen.
+- `docs/codebuch.html` – kompakter Codebuch-Webindex.
+- `docs/soulution-schroedingers-inkubator.html` – digital-souveräne Softwareentwicklung.
+- `docs/soulution-inkubator-quellen.html` – Werkzeug-/Quellenatlas.
+- `docs/soulution-ki-kreativrechte.html` – KI und kreative Rechte.
+- `docs/soulution-weltwissen-dividende.html` – Weltwissen und KI-Dividende.
+- `docs/wissen-macht-wirklichkeit.html` – gesellschaftliche Forschungs- und Publikationsbezüge.
+
+Mit übernommen wurden die benötigten bereinigten Daten `docs/data/codebuch-web-index.json` (12 Glossar-/Objektknoten) und `docs/data/inkubator-quellenregister.json` (38 Werkzeug-/Quellenkandidaten). Auf allen importierten HTML-Seiten wurde **ausschließlich die Zweig-Navigation `site-nav.js` durch die von Nils entschiedene 7-Gruppen-Navigation `tensor-hierarchy.js` ersetzt**. Die alte Zweigfassung bleibt als Vergleichsquelle erhalten.
+
+Das Hauptmenü `docs/assets/tensor-hierarchy.js` führt diese Seiten unter den passenden bestehenden sieben Gruppen; es wurde **nicht durch das konkurrierende `site-nav.js` ersetzt**. Die Startseite enthält einen neuen vertiefenden Lernwegblock. `docs/inkubator.html` differenziert Forschungsinkubator und Schrödingers Inkubator, ohne die beiden vorhandenen Ansätze zu vermischen.
+
+**Gezielt nicht importiert:** `docs/promptbibliothek.html` / `docs/data/promptbibliothek-v1.json` mit noch nicht vollständig freigegebenen ausführbaren Prompttexten. Ein Verweis auf diese noch nicht zugängliche Seite wurde auf zwei bereits integrierten Fachseiten korrigiert: öffentlich wird stattdessen der aggregierte Prüfstand gezeigt.
+
+### 6.2 Einzel-Audits und Originalauftragsabdeckung
+- Frühere 25 individuelle Website-Auditakten plus 8 neue aus dem Integrationszweig = **33 dokumentierte Auditpläne**; Index `forschung/website/seiten/README.md` nachgezogen.
+- `forschung/website/LETZTE_100_PROMPTS_QUELLEN_CROSSWALK_V1.json` hält **72 atomisierte, in vorhandenen Plänen und bisher sichtbaren Nutzeranweisungen begründete Anforderungen** in 9 Domänen fest, jeweils mit Status, Owner und existierendem Projektartefakt.
+- **Diese 72 Anforderungen sind weder 72 wörtliche Originalprompts noch ein vollständiger Nachweis der letzten 100 Nachrichten.** Für echte chronologische 100er-Originalprüfung bleibt die tatsächliche Chat-/Projekt-Exportliste mit Zeitstempel/Message-ID notwendig. Das Register markiert `verified_exact_100_message_sequence=false` und keine `original_text_verified`-Bestätigung. Es enthält keine unbearbeiteten Nutzer-Rohprompts.
+- Aus 72 Aufgaben lässt sich daher **keine exakte Erledigtquote der letzten 100 Nachrichten** berechnen. Insbesondere erfüllen 33 Audits nicht automatisch 33 Userprompts.
+
+### 6.3 Statische Qualitätssicherung
+- Vorhandene neue Links und Assets anhand des aktuellen Git-Hauptzweigs stichprobenartig überprüft; neue Abhängigkeiten Codebuch/Quellenatlas geladen.
+- `scripts/validate_site_integration.py` prüft künftig Originaldateien, Navigation, lokale Links, JSON und 72er-Quellenledger. `.github/workflows/site-integration-review.yml` wurde ergänzt.
+- **Ein erfolgreicher CI-Lauf, ein vollständiger Browser-/Tastatur-/Screenreader-Test und ein extern verifizierter Pages-Abruf sind weiter offen.** Der direkte öffentliche Pages-Abruf in dieser Runde konnte technisch nicht bestätigt werden.
+
+### 6.4 Gegenüber dem alten Plan neu gewichtete P0-Folge
+1. **P0 / GPT:** Link-/Anchor-/Desktop-Regression der acht neu importierten Seiten und bestehenden sieben Gruppen, insbesondere Codebuch/Quellenatlas-JSON.
+2. **P0 / GPT:** R6-öffentliche Aufgabenlesesicht 7 Web-/gemeinsame Karten und 6 aggregierte Claude-Datenaufgaben beibehalten; keine privaten Prompts oder vollständigen privaten Aufträge anzeigen.
+3. **P0 / GPT:** echte Zuordnung der letzten 100 Originalanweisungen auf vorhandene 72 Atom-Aufträge erst bei vollständiger Originalnachrichten-Quellfolge; lückenlose Verlust-/Offenliste führen.
+4. **P0 / GPT + später Claude:** Integrationszweig-Diff der verbleibenden **geänderten** Seiten gegen die aktuellen Git-Seiten; Zweigvarianten nicht blind ersetzen. Öffentliche Claims vor Veröffentlichung fachlich gegenprüfen.
+5. **P1 / GPT:** Buch-/Cover-/Quellenwege auf den neuen SOULution-Unterseiten auditieren, ohne Originalveröffentlichungen umzuschreiben.
+6. **P1 / GPT + später Claude:** echte Tests und Quellen-/Skillregister mit öffentlich zulässiger Resultatprojektion verbinden; keine Komposition als bewiesenen KI-Leistungsvorteil deklarieren.
+
+### 6.5 Offene bzw. nur teilfertige Arbeiten – nach der Solo-Runde
+Der vorherige GAP-001 bis GAP-016-Bestand bleibt als **historischer Befund** bestehen. Verschiedene Punkte sind inzwischen teilweise weitergekommen:
+- **GAP-001:** jetzt 72 atomisierte Anforderungen mit Artefaktverweis; die **Originalfolge der exakt letzten 100 Nachrichten fehlt**.
+- **GAP-003:** statische Validatoren und CI-Workflows ergänzt; **Live-Browser-/Pages-Abnahme fehlt**.
+- **GAP-008:** beschlossenes 7er-Menü bleibt; acht neue Seiten selektiv integriert; **kompletter Zweigmerge und dessen Konflikt-Regression fehlen**.
+- **GAP-009:** beide Inkubatoren nun fachlich differenziert und gegenseitig verlinkt; **vollständige Standard-/Tool-/Testfamilien fehlen**.
+- **GAP-011:** erweiterte KI-Seiten und Geo-Werkzeugarchitektur zugänglich; **unabhängige Fach-/Benchmarkabnahme fehlt**.
+- **GAP-012:** ungeprüfte Promptbibliothek bewusst zurückgestellt; **extern nutzbarer Ende-zu-Ende-Mitmachworkflow bleibt offen**.
+
+**Erkenntnis:** Kein nachgewiesener Verlust der importierten Git-Seiten. Die eigentliche wissenschaftliche/technische Endprüfung und die lückenlose Originalprompt-Abnahme sind weiterhin zu leisten, bevor von „fertig“ gesprochen wird.
