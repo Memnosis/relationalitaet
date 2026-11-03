@@ -1,0 +1,14 @@
+/* Prompt function layers for the existing research design system.
+   The field's existing color remains dominant. */
+.prompt-layer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:16px 0}
+.prompt-layer{border:1px solid var(--tensor-line,#ccd6dc);border-left:5px solid var(--layer-accent,#64818b);background:var(--tensor-surface,#fff);border-radius:12px;padding:16px;min-width:0}
+.prompt-layer[data-layer=prompt]{--layer-accent:#34868c}
+.prompt-layer[data-layer=agent]{--layer-accent:#7b659b}
+.prompt-layer[data-layer=meta]{--layer-accent:#bb843f}
+.prompt-layer .layer-heading{display:flex;align-items:center;gap:9px;font-weight:750;margin:0 0 8px}
+.prompt-layer .layer-symbol{width:32px;height:32px;border:1px solid currentColor;border-radius:9px;display:grid;place-items:center;color:var(--layer-accent)}
+.prompt-layer p{margin:0 0 12px}
+.prompt-layer small{display:block;opacity:.8}
+.prompt-state-line{font-size:.82rem;border-top:1px solid var(--tensor-line,#ccd6dc);padding-top:9px;margin-top:9px}
+.prompt-state-line strong{font-weight:700}
+@media(prefers-color-scheme:dark){.prompt-layer[data-layer=prompt]{--layer-accent:#79d5d5}.prompt-layer[data-layer=agent]{--layer-accent:#c3a7e8}.prompt-layer[data-layer=meta]{--layer-accent:#e1b875}}
