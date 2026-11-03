@@ -44,6 +44,13 @@ await visit('projektmanagement.html',async p=>{
  await p.locator('#pm-priority').selectOption('P0');
  await p.locator('#pm-order').selectOption('risk');
 });
+await visit('tensor-einfuehrung.html',async p=>{
+ const detail=p.locator('details').filter({has:p.getByText('Alle 27 Adressen als beschriftete Struktur ansehen')});
+ await detail.locator('summary').click();
+ const figure=detail.locator('img[src$="tensor_27_structure_only.svg"]');
+ await figure.waitFor();
+ if(!(await figure.evaluate(img=>img.complete && img.naturalWidth>0)))throw Error('27-address diagram missing or unreadable');
+});
 await visit('thesen.html',async p=>{
  await p.locator('[data-thesis-ref="all"] .th-evidence-card').first().waitFor({timeout:12000});
  if(await p.locator('[data-thesis-ref="all"] .th-evidence-card').count()!==6)throw Error('Expected six scoped theme cards');
@@ -60,6 +67,9 @@ await visit('geoki.html',async p=>{
  await points.first().click();
  const chosen=await p.locator('#selected').innerText();
  if(!chosen.includes('T1.E1.R1'))throw Error('Incorrect first address, expected T1.E1.R1; got '+chosen);
+ await points.last().click();
+ const last=await p.locator('#selected').innerText();
+ if(!last.includes('T3.E3.R3'))throw Error('Incorrect final address, expected T3.E3.R3; got '+last);
 });
 await visit('glossar.html');
 await visit('interoperabilitaet.html');
