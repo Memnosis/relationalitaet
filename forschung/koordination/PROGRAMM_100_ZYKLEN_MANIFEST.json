@@ -4,7 +4,7 @@
   "full_cycle_definition": "handoff + delivered artifact + owner self-check + peer review + peer acknowledgement + final cycle report",
   "target_full_cycles": 100,
   "verified_full_cycles": 0,
-  "assignment_policy": "20 focus slots out of 100; global cycle number assigned only on actual start; proposed 12 Mitmach and 8 internal slots may change by owner approval",
+  "assignment_policy": "20 focus slots out of 100; global cycle number assigned only on actual start; proposed 12 Mitmach and 8 internal slots may change by owner approval Scope of all 82 object occurrences must be inventoried before claiming that all participation prompts are covered.",
   "milestones": {
     "each_full_cycle": "owner reports, peer review and revised ranking",
     "each_three": "review effects and task re-prioritization",
@@ -756,7 +756,7 @@
         "release": "not_approved"
       }
     ],
-    "warning": "38 meta-prompt objects are not the complete inventory of website participant actions; forms/navigation/copy/export/return paths need separate audit"
+    "warning": "38 meta-prompt objects are not the complete inventory of website participant actions; forms/navigation/copy/export/return paths need separate audit The independent prompt architecture register records 82 occurrences (20 overlaps), including branch-only materials; 38 is a strict subset."
   },
   "study_export_contract": {
     "public_fields": [
@@ -783,5 +783,27 @@
     ],
     "publication_rule": "public export must not reveal private fields or unapproved internal assets"
   },
-  "release_status": "planning_only"
+  "release_status": "planning_only",
+  "inventory_scope_update": {
+    "as_of": "2026-11-03",
+    "source": "forschung/register/PROMPT_ARCHITEKTUR_INVENTAR_V0_1.json",
+    "source_blob_sha": "2ea5acb52923ae59daa5ef09cfb5b37e8132114e",
+    "object_occurrences": 82,
+    "groups": 8,
+    "overlap_occurrences": 20,
+    "distinct_prompts": "not_yet_independently_deduplicated",
+    "reciprocal_prompt_tests": 0,
+    "model_trial_count": 1,
+    "group_counts": {
+      "MITMACH": 13,
+      "GEO-FMT": 7,
+      "OBS-TASK": 18,
+      "LESER": 5,
+      "FACH-META": 22,
+      "LOGIK21": 6,
+      "SOULUTION": 6,
+      "CLAUDE-ENTWURF": 5
+    },
+    "mapping_note": "The existing 38 individual source IDs are mapped to the 12 Mitmach reserved slots; the other 44 source occurrences are not yet mapped to unique checked IDs. Allocation incomplete pending reviewed crosswalk."
+  }
 }
