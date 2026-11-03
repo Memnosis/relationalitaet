@@ -11,9 +11,20 @@ Ablauf:
 3. Repository-Dateien per SHA-256 mit den Zenodo-Dateien abgleichen (bytegleich).
 4. Register als JSON schreiben.
 
-Aufruf (aus dem Repository-Wurzelordner):
+VERTRAULICHKEIT (Anweisung Nils, 2026-11-03, siehe
+forschung/koordination/ZYKLUS_001_ZENODO_RELEVANZ_STATT_GESAMTLISTE_2026-11-03.md):
+Die Gesamtliste aller Werke ist INTERN und darf nicht nach `main`. Das Skript verweigert
+deshalb, ein Gesamtregister innerhalb des Repositorys zu schreiben. Ins Repository darf
+nur ein freigegebenes Referenzset (--referenzset DOI ...).
+
+Aufrufe (aus dem Repository-Wurzelordner):
+    # privates Gesamtregister, Ziel ausserhalb des Repositorys:
     python3 forschung/register/werkzeuge/zenodo_register.py --pruefen /tmp/zenodo \
-        --aus forschung/register/QUELLEN_ZENODO_V0_1.json
+        --aus /privater/ort/QUELLEN_ZENODO_VOLL.json
+    # oeffentliches Referenzset nur mit freigegebenen DOIs:
+    python3 forschung/register/werkzeuge/zenodo_register.py --pruefen /tmp/zenodo \
+        --referenzset 10.5281/zenodo.19282895 10.5281/zenodo.19152183 10.5281/zenodo.19153910 \
+        --aus forschung/register/QUELLEN_REFERENZSET_V0_1.json
 
 Statusbedeutung (siehe forschung/register/schema/vokabular.json):
 - datei_zugang = digital_verifiziert: Datei wurde abgerufen, Groesse und MD5 stimmen.
@@ -94,10 +105,11 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--pruefen", help="Download-Ordner ausserhalb des Repos; ohne Angabe nur Metadaten")
     ap.add_argument("--aus", required=True, help="Ausgabedatei JSON")
+    ap.add_argument("--referenzset", nargs="+", help="nur diese freigegebenen Versions-DOIs ausgeben (oeffentlich)")
     a = ap.parse_args()
 
     wurzel = pathlib.Path(subprocess.run(["git", "rev-parse", "--show-toplevel"], capture_output=True,
-                                         text=True, check=True).stdout.strip())
+                                         text=True, check=True).stdout.strip()).resolve()
     commit = subprocess.run(["git", "-C", str(wurzel), "rev-parse", "--short", "HEAD"], capture_output=True,
                             text=True).stdout.strip()
     jetzt = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
@@ -167,8 +179,29 @@ def main():
         alle = [d for w in werke.values() for v in w["versionen"] for d in v["dateien"]]
         register["zaehlung"]["dateien_md5_ok"] = sum(1 for d in alle if d.get("md5_ok") and d.get("groesse_ok"))
         register["zaehlung"]["dateien_in_git_bytegleich"] = sum(1 for d in alle if d.get("in_git_bytegleich"))
+    if a.referenzset:
+        frei = set(a.referenzset)
+        auswahl = [w for w in register["werke"] if any(v["doi"] in frei for v in w["versionen"])]
+        fehlend = frei - {v["doi"] for w in auswahl for v in w["versionen"]}
+        if fehlend:
+            sys.exit(f"DOIs nicht gefunden: {sorted(fehlend)}")
+        # nur die freigegebenen Versionen behalten, keine Zahlen ueber den Gesamtbestand
+        for w in auswahl:
+            w["versionen"] = [v for v in w["versionen"] if v["doi"] in frei]
+        register = {
+            "schema_version": "quellen-referenzset/0.1",
+            "erzeugt_am": jetzt, "erzeugt_von": "claude", "source_commit": commit,
+            "freigabe": "Referenzset laut Nils-Anweisung (Zenodo-Relevanz statt Gesamtliste): nur fuer die "
+                        "jeweilige Fachseite einschlaegige Originalwerke",
+            "hinweis": register["hinweis"] + " Historische Eigenquelle, kein Beweis der enthaltenen Aussagen.",
+            "werke": auswahl,
+        }
+    ziel = pathlib.Path(a.aus).resolve()
+    if not a.referenzset and (ziel == wurzel or wurzel in ziel.parents):
+        sys.exit("Abbruch: Gesamtregister ist intern und darf nicht ins Repository (Ziel ausserhalb waehlen "
+                 "oder --referenzset verwenden).")
     pathlib.Path(a.aus).write_text(json.dumps(register, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    print(json.dumps(register["zaehlung"], ensure_ascii=False))
+    print(json.dumps(register.get("zaehlung", {"werke_referenzset": len(register["werke"])}), ensure_ascii=False))
 
 
 if __name__ == "__main__":

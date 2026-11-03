@@ -11,6 +11,7 @@ Aufrufe (aus dem Repository-Wurzelordner):
 Exit-Code 0 = alles wie erwartet, 1 = Fehler.
 """
 import json
+import os
 import pathlib
 import re
 import sys
@@ -18,14 +19,17 @@ import sys
 BASIS = pathlib.Path(__file__).resolve().parent
 VOK = json.loads((BASIS / "schema/vokabular.json").read_text(encoding="utf-8"))
 SCHEMA = json.loads((BASIS / "schema/claim.schema.json").read_text(encoding="utf-8"))
-ZENODO = BASIS / "QUELLEN_ZENODO_V0_1.json"
+# Oeffentliches Referenzset; ein privates Gesamtregister kann per Umgebungsvariable QUELLEN_REGISTER
+# (Pfad ausserhalb des Repositorys) zusaetzlich angegeben werden.
+ZENODO = BASIS / "QUELLEN_REFERENZSET_V0_1.json"
 
 
 def bekannte_quellen():
-    if not ZENODO.exists():
-        return set()
-    reg = json.loads(ZENODO.read_text(encoding="utf-8"))
-    return {w["source_id"] for w in reg["werke"]}
+    ids = set()
+    for pfad in (ZENODO, pathlib.Path(os.environ["QUELLEN_REGISTER"]) if os.environ.get("QUELLEN_REGISTER") else None):
+        if pfad and pfad.exists():
+            ids |= {w["source_id"] for w in json.loads(pfad.read_text(encoding="utf-8"))["werke"]}
+    return ids
 
 
 def werte(kategorie):

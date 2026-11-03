@@ -5,30 +5,34 @@
    "erwartet": "digital_nicht_erreichbar ohne zugriffsversuch",
    "claim": {
     "claim_id": "CLM-NEG-1",
-    "source_id": "SRC-ZEN-19340499",
+    "source_id": "SRC-ZEN-19282894",
     "werk_version": {
-     "doi": "10.5281/zenodo.19340500",
-     "version": null
+     "doi": "10.5281/zenodo.19282895",
+     "version": "1.0",
+     "datei": "Logik-Tensor_1_0.pdf",
+     "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
     },
     "aussageart": "inhaltlich",
-    "aussage": "908 berechnete Proteinfaltungen wurden validiert (Titelaussage des Zenodo-Werks).",
+    "aussage": "Der Begriff 'Syntaxgerüst' (Regelwerk wohlgeformter Ausdrücke) ist in Church (1956), Introduction to Mathematical Logic, belegt; der Logik-Tensor 1.0 führt dies als Quelle [4] mit Klarheitsgrad 'klar'.",
     "fundstelle": {
-     "url": "https://doi.org/10.5281/zenodo.19340500",
-     "abschnitt": "Titel"
+     "seite": 17,
+     "abschnitt": "Begriffstabelle, Zeile Syntaxgerüst; Quellenverzeichnis S. 21, [4]"
     },
     "quellenstatus": {
      "status": "digital_nicht_erreichbar"
     },
     "evidenz": {
-     "stufe": "offen"
+     "stufe": "offen",
+     "begruendung": "Externe Fundstelle bei Church (1956) noch nicht eingesehen; Buch nicht frei digital"
     },
     "redaktion": "nicht_freigegeben",
     "vertraulichkeit": "oeffentlich",
     "public_release": false,
     "task_ids": [
-     "KI-BIO-EVIDENCE"
+     "DATA-001",
+     "DATA-003"
     ],
-    "anmerkung": "Beispiel für Prozessstatus: Werk ist abrufbar, Inhalt und Validierung wurden nicht geprüft. Weitreichende numerische Aussagen gesondert auditieren (Register-Regel KI-BIO-EVIDENCE)."
+    "anmerkung": "Beispiel für Prozessstatus: Verweis im Original gefunden (S. 17, S. 21), Prüfung der externen Quelle noch nicht versucht. Kandidat für eine öffentliche Mitmach-Quellenprüfung."
    }
   },
   {
@@ -107,30 +111,34 @@
    "erwartet": "Umlaut-Statuswert statt ASCII-ID",
    "claim": {
     "claim_id": "CLM-NEG-4",
-    "source_id": "SRC-ZEN-19340499",
+    "source_id": "SRC-ZEN-19282894",
     "werk_version": {
-     "doi": "10.5281/zenodo.19340500",
-     "version": null
+     "doi": "10.5281/zenodo.19282895",
+     "version": "1.0",
+     "datei": "Logik-Tensor_1_0.pdf",
+     "sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be"
     },
     "aussageart": "inhaltlich",
-    "aussage": "908 berechnete Proteinfaltungen wurden validiert (Titelaussage des Zenodo-Werks).",
+    "aussage": "Der Begriff 'Syntaxgerüst' (Regelwerk wohlgeformter Ausdrücke) ist in Church (1956), Introduction to Mathematical Logic, belegt; der Logik-Tensor 1.0 führt dies als Quelle [4] mit Klarheitsgrad 'klar'.",
     "fundstelle": {
-     "url": "https://doi.org/10.5281/zenodo.19340500",
-     "abschnitt": "Titel"
+     "seite": 17,
+     "abschnitt": "Begriffstabelle, Zeile Syntaxgerüst; Quellenverzeichnis S. 21, [4]"
     },
     "quellenstatus": {
      "status": "prüfung_ausstehend"
     },
     "evidenz": {
-     "stufe": "offen"
+     "stufe": "offen",
+     "begruendung": "Externe Fundstelle bei Church (1956) noch nicht eingesehen; Buch nicht frei digital"
     },
     "redaktion": "nicht_freigegeben",
     "vertraulichkeit": "oeffentlich",
     "public_release": false,
     "task_ids": [
-     "KI-BIO-EVIDENCE"
+     "DATA-001",
+     "DATA-003"
     ],
-    "anmerkung": "Beispiel für Prozessstatus: Werk ist abrufbar, Inhalt und Validierung wurden nicht geprüft. Weitreichende numerische Aussagen gesondert auditieren (Register-Regel KI-BIO-EVIDENCE)."
+    "anmerkung": "Beispiel für Prozessstatus: Verweis im Original gefunden (S. 17, S. 21), Prüfung der externen Quelle noch nicht versucht. Kandidat für eine öffentliche Mitmach-Quellenprüfung."
    }
   },
   {

@@ -1,0 +1,148 @@
+{
+ "schema_version": "quellen-referenzset/0.1",
+ "erzeugt_am": "2026-11-03T13:40:27+00:00",
+ "erzeugt_von": "claude",
+ "source_commit": "6b50abe",
+ "freigabe": "Referenzset laut Nils-Anweisung (Zenodo-Relevanz statt Gesamtliste): nur fuer die jeweilige Fachseite einschlaegige Originalwerke",
+ "hinweis": "Veroeffentlicht heisst nicht fachlich geprueft. datei_zugang bezieht sich nur auf Abruf und Integritaet der Dateien; einzelne Aussagen sind pruefung_ausstehend. Historische Eigenquelle, kein Beweis der enthaltenen Aussagen.",
+ "werke": [
+  {
+   "source_id": "SRC-ZEN-19152182",
+   "concept_doi": "10.5281/zenodo.19152182",
+   "titel": "Tensor Basics / Grundlagen (EN/DE)",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 19152183,
+     "doi": "10.5281/zenodo.19152183",
+     "version": "1.0",
+     "veroeffentlicht": "2026-03-21",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "Tensor-Basics-Grundlagen.md",
+       "groesse_bytes": 50628,
+       "md5_zenodo": "0d4639d4aa28ab99041ff22de6539e41",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "ba1268bc06c51dd936a1e91d305a80450b9aabf7541ac469649a35484f3d14c8",
+       "in_git_bytegleich": []
+      },
+      {
+       "name": "Tensor-Basics-Grundlagen.pdf",
+       "groesse_bytes": 765842,
+       "md5_zenodo": "e1dd2933835f16f2bb59c8e846d3e8fb",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "058805b8c58bd52ca73578e047fe3a5a23e25334df72d86aa9b9119d067a7ebb",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:40:27+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-19153909",
+   "concept_doi": "10.5281/zenodo.19153909",
+   "titel": "Tensor Field Theory / Feld Theorie (EN/DE)",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 19153910,
+     "doi": "10.5281/zenodo.19153910",
+     "version": "1.0",
+     "veroeffentlicht": "2026-03-21",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "eng",
+     "dateien": [
+      {
+       "name": "Tensor-Feld-Theorie-Field-Theory.md",
+       "groesse_bytes": 31249,
+       "md5_zenodo": "2026049db8c0d8dcdf80cf02ee538d66",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "6d5d705c46e2d5ba766339492c06646aab59814127bfe8500027b20c9802d76a",
+       "in_git_bytegleich": []
+      },
+      {
+       "name": "Tensor-Field-Theory-Feld-Theorie.pdf",
+       "groesse_bytes": 313361,
+       "md5_zenodo": "eed66af3e27167df6235f9b7ee668a54",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "8887bdc89b314d0125f0309b903ed4f924825f220c712b40dc5ed335bcd54e13",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:40:27+00:00",
+     "pruefer": "claude"
+    }
+   }
+  },
+  {
+   "source_id": "SRC-ZEN-19282894",
+   "concept_doi": "10.5281/zenodo.19282894",
+   "titel": "Relationale Logik - der Logik Tensor",
+   "autoren": [
+    "Sautter, Nils"
+   ],
+   "versionen": [
+    {
+     "record_id": 19282895,
+     "doi": "10.5281/zenodo.19282895",
+     "version": "1.0",
+     "veroeffentlicht": "2026-03-28",
+     "lizenz": "cc-by-4.0",
+     "zugang": "open",
+     "sprache": "deu",
+     "dateien": [
+      {
+       "name": "Logik-Tensor_1_0.pdf",
+       "groesse_bytes": 808676,
+       "md5_zenodo": "22dec6744f4a93f5cdcc37da6c1473a2",
+       "groesse_ok": true,
+       "md5_ok": true,
+       "sha256_eigener_download": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be",
+       "in_git_bytegleich": []
+      }
+     ]
+    }
+   ],
+   "status": {
+    "datei_zugang": "digital_verifiziert",
+    "belegpruefung": "pruefung_ausstehend",
+    "fachliche_pruefung": "nicht_geprueft",
+    "datei_zugang_nachweis": {
+     "methode": "zenodo_api_download_md5",
+     "datum": "2026-11-03T13:40:27+00:00",
+     "pruefer": "claude"
+    }
+   }
+  }
+ ]
+}

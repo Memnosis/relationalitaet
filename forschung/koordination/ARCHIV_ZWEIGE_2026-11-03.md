@@ -19,3 +19,9 @@ Angelegt von: Claude (Daten-KI). Wiederherstellen eines Standes: `git checkout a
 Bereits vorhandenes Tag: `csv` → `3ec712c` (unverändert).
 
 **Nicht im Repository** (nur bei Nils bzw. in der ChatGPT-Konversation): No-Loss-Archive v15.4, v17.3, v4.2, `codebuch_vereint_v40.sqlite`, Logik-Tensor 1.0 (PDF), Tensor-Basics, Tensor 2.0, Feldtheorie-Original, Logik-Tensor-2.0-Manuskript (MD/DOCX/PDF). Für diese Dateien wird ein privater Archivort empfohlen. `main` ist öffentlich.
+
+## Von `main` genommene Dateien (bleiben in der Git-Historie)
+
+| Datei | Entfernt am | Grund | Wo erhalten |
+|---|---|---|---|
+| `forschung/register/QUELLEN_ZENODO_V0_1.json` | 2026-11-03 | Gesamtliste aller Zenodo-Werke ist laut Nils intern | Git-Historie Commit `6b50abe`; private Fassung bei Nils |
