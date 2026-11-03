@@ -21,6 +21,20 @@
 **Empfehlung Claude:** c. **GPT:** verlangt ebenfalls genau ein Menü und deine Entscheidung (P0-X2); das Website-Bündel 02 nennt vorläufig b.
 **Wenn nicht entschieden wird:** Der Zweig bleibt liegen, die Konflikte wachsen.
 
+## P0 · DEC-PROMPT-01 · Sollen die internen KI-Anweisungen aus den öffentlichen Dateien genommen werden?
+
+**Einfach erklärt:** Drei öffentliche Dateien enthalten 38 vollständige Meta-Prompts (interne Arbeitsanweisungen an KIs), keiner davon freigegeben oder getestet. GPT blendet sie auf `mitmachen.html` schon aus, auf `taskkarten.html` sind sie noch sichtbar und kopierbar. Aber auch ausgeblendet kann sie jeder in den Dateien auf GitHub lesen.
+
+| Variante | Was passiert |
+|---|---|
+| a | Bleiben öffentlich; GPT blendet sie nur auf allen Seiten aus |
+| b | Auf `main` durch bereinigte Fassungen ersetzen: Aufgaben bleiben vollständig, statt des Prompt-Texts steht ein Prüfsummen-Verweis. Die Originale bleiben in der Git-Historie und privat bei dir. Claude hat das verlustfrei getestet. |
+| c | Einzeln prüfen: was du freigibst, bleibt öffentlich, der Rest wie b |
+
+**Empfehlung Claude:** b jetzt, später c für einzelne Prompts. **GPT:** fordert in `86fb9db` ebenfalls einen bereinigten öffentlichen Export.
+**Hinweis:** Was schon auf GitHub war, bleibt in der Historie sichtbar. b und c verhindern nur, dass es weiter verbreitet und angezeigt wird.
+**Wenn nicht entschieden wird:** Die Prompts bleiben öffentlich lesbar.
+
 ## P1 · DEC-INK-01 · Zwei Seiten heißen „Inkubator“. Was tun?
 
 **Einfach erklärt:** Es gibt den „Forschungsinkubator“ (wie Menschen mit ihrer KI mitforschen) und „Schrödinger’s Inkubator“ (digitale Souveränität, offene Software). Inhaltlich sind das zwei verschiedene Dinge mit demselben Wort.

@@ -1,0 +1,77 @@
+{
+ "schema_version": "prompt-inventar/0.1",
+ "owner": "claude",
+ "source_commit": "3260a35",
+ "erzeugt_am": "2026-11-03T13:52:33+00:00",
+ "hinweis": "Nur Kennzahlen und Hashes, keine Prompt-Inhalte. Originale unveraendert.",
+ "dateien": [
+  {
+   "datei": "forschung/website/MITMACH_TASKS.json",
+   "sha256": "79dfc681d2882dc8f6af33d316f5cf893afbc2c734d7b91a4d1677cbd30865e6",
+   "eintraege": 13,
+   "mit_prompt_text": 13,
+   "freigegeben_und_getestet": 0,
+   "prompt_zeichen": 18734,
+   "ids_mit_prompt": [
+    "WEB-GLOS-01",
+    "WEB-CODE-01",
+    "HARV-01",
+    "HARV-02",
+    "HARV-03",
+    "HARV-04",
+    "HARV-05",
+    "HARV-06",
+    "MINI-OBS-01",
+    "GEO-OPS-01",
+    "KOMP-01",
+    "VIS-01",
+    "KOL-01"
+   ]
+  },
+  {
+   "datei": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
+   "sha256": "792acf65886eb67cf0cebc44469da58c1ef56fc2539c90c72272a146e8e22924",
+   "eintraege": 7,
+   "mit_prompt_text": 7,
+   "freigegeben_und_getestet": 0,
+   "prompt_zeichen": 9943,
+   "ids_mit_prompt": [
+    "GEO-M1",
+    "FMT-H01",
+    "FMT-H02",
+    "FMT-H03",
+    "FMT-H04",
+    "FMT-H05",
+    "WEB-PAPER-01"
+   ]
+  },
+  {
+   "datei": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+   "sha256": "08caaa1ea582d96d67f4cab15f7cd9d9b51f04dc838b0f47fce9ed180547bab6",
+   "eintraege": 18,
+   "mit_prompt_text": 18,
+   "freigegeben_und_getestet": 0,
+   "prompt_zeichen": 19886,
+   "ids_mit_prompt": [
+    "OBS-01",
+    "OBS-02",
+    "OBS-03",
+    "OBS-04",
+    "OBS-05",
+    "SKL-01",
+    "SKL-02",
+    "SKL-03",
+    "SKL-04",
+    "PRD-01",
+    "PRD-02",
+    "EXT-01",
+    "EXT-02",
+    "M20K-01",
+    "M20K-02",
+    "M20K-03",
+    "M20K-04",
+    "WEB-01"
+   ]
+  }
+ ]
+}

@@ -6,54 +6,142 @@
  "quellenstatus": {
   "beschreibung": "Ergebnis einer Quellen- bzw. Fundstellenpruefung. Unabhaengig von Evidenz und Redaktion.",
   "werte": {
-   "digital_verifiziert": {"label_de": "Digital verifiziert", "bedingung": "Pruefer, Datum, Fundstelle und Nachweis (Hash oder URL) dokumentiert"},
-   "digital_nicht_erreichbar": {"label_de": "Digital nicht erreichbar", "bedingung": "nur nach dokumentiertem Zugriffsversuch (Datum, Methode, Ergebnis)"},
-   "handpruefung_noetig": {"label_de": "Handprüfung nötig", "bedingung": "manueller Zugriff oder Prüfung erforderlich, Grund angeben"},
-   "nur_nils_digital_geprueft": {"label_de": "Nur von Nils digital geprüft", "bedingung": "Dritte koennen die Pruefung derzeit nicht reproduzieren; keine Veroeffentlichung privater Belege noetig"},
-   "pruefung_ausstehend": {"label_de": "Prüfung ausstehend", "bedingung": "Prozessstatus: noch kein Pruefversuch; ist KEIN Ergebnis", "art": "prozess"}
+   "digital_verifiziert": {
+    "label_de": "Digital verifiziert",
+    "bedingung": "Pruefer, Datum, Fundstelle und Nachweis (Hash oder URL) dokumentiert"
+   },
+   "digital_nicht_erreichbar": {
+    "label_de": "Digital nicht erreichbar",
+    "bedingung": "nur nach dokumentiertem Zugriffsversuch (Datum, Methode, Ergebnis)"
+   },
+   "handpruefung_noetig": {
+    "label_de": "Handprüfung nötig",
+    "bedingung": "manueller Zugriff oder Prüfung erforderlich, Grund angeben"
+   },
+   "nur_nils_digital_geprueft": {
+    "label_de": "Nur von Nils digital geprüft",
+    "bedingung": "Dritte koennen die Pruefung derzeit nicht reproduzieren; keine Veroeffentlichung privater Belege noetig"
+   },
+   "pruefung_ausstehend": {
+    "label_de": "Prüfung ausstehend",
+    "bedingung": "Prozessstatus: noch kein Pruefversuch; ist KEIN Ergebnis",
+    "art": "prozess"
+   }
   }
  },
  "evidenz": {
   "beschreibung": "Wissenschaftliche Belegart der Aussage selbst. Unabhaengig davon, ob die Quelle gefunden wurde.",
   "werte": {
-   "D": {"label_de": "Mathematisch abgeleitet", "bedingung": "Beweis- oder Rechenreferenz in nachweis_refs"},
-   "F": {"label_de": "Fachlich belegt", "bedingung": "unabhaengige Fachquelle in nachweis_refs"},
-   "O": {"label_de": "Operationalisiert und getestet", "bedingung": "Test-ID mit Ausfuehrungsakte in nachweis_refs"},
-   "K": {"label_de": "Plausibler Kandidat", "bedingung": "begruendete Hypothese, nicht belegt"},
-   "B": {"label_de": "Zusatzcode", "bedingung": "Projektinterne Kodierung oder Zuordnung ohne eigenen Wahrheitsanspruch"},
-   "offen": {"label_de": "Offen (Ø)", "bedingung": "noch nicht bewertet"}
+   "D": {
+    "label_de": "Mathematisch abgeleitet",
+    "bedingung": "Beweis- oder Rechenreferenz in nachweis_refs"
+   },
+   "F": {
+    "label_de": "Fachlich belegt",
+    "bedingung": "unabhaengige Fachquelle in nachweis_refs"
+   },
+   "O": {
+    "label_de": "Operationalisiert und getestet",
+    "bedingung": "Test-ID mit Ausfuehrungsakte in nachweis_refs"
+   },
+   "K": {
+    "label_de": "Plausibler Kandidat",
+    "bedingung": "begruendete Hypothese, nicht belegt"
+   },
+   "B": {
+    "label_de": "Zusatzcode",
+    "bedingung": "Projektinterne Kodierung oder Zuordnung ohne eigenen Wahrheitsanspruch"
+   },
+   "offen": {
+    "label_de": "Offen (Ø)",
+    "bedingung": "noch nicht bewertet"
+   }
   }
  },
  "aussageart": {
   "beschreibung": "Was behauptet die Aussage?",
   "werte": {
-   "dokumentarisch": {"label_de": "Steht so in der Quelle", "hinweis": "Prueft nur, dass die Quelle das sagt, nicht ob es stimmt"},
-   "inhaltlich": {"label_de": "Inhaltliche Behauptung", "hinweis": "Behauptung ueber die Welt, Mathematik oder Logik"}
+   "dokumentarisch": {
+    "label_de": "Steht so in der Quelle",
+    "hinweis": "Prueft nur, dass die Quelle das sagt, nicht ob es stimmt"
+   },
+   "inhaltlich": {
+    "label_de": "Inhaltliche Behauptung",
+    "hinweis": "Behauptung ueber die Welt, Mathematik oder Logik"
+   }
   }
  },
  "redaktion": {
   "werte": {
-   "nicht_freigegeben": {"label_de": "Nicht freigegeben"},
-   "in_pruefung": {"label_de": "In redaktioneller Prüfung"},
-   "freigegeben": {"label_de": "Redaktionell freigegeben", "bedingung": "nur durch Nils"}
+   "nicht_freigegeben": {
+    "label_de": "Nicht freigegeben"
+   },
+   "in_pruefung": {
+    "label_de": "In redaktioneller Prüfung"
+   },
+   "freigegeben": {
+    "label_de": "Redaktionell freigegeben",
+    "bedingung": "nur durch Nils"
+   }
   }
  },
  "vertraulichkeit": {
   "werte": {
-   "oeffentlich": {"label_de": "Öffentlich"},
-   "intern": {"label_de": "Intern, nicht nach main"}
+   "oeffentlich": {
+    "label_de": "Öffentlich"
+   },
+   "intern": {
+    "label_de": "Intern, nicht nach main"
+   }
   }
  },
  "fachliche_pruefung": {
   "werte": {
-   "nicht_geprueft": {"label_de": "Fachlich nicht geprüft"},
-   "teilweise_geprueft": {"label_de": "Teilweise fachlich geprüft"},
-   "geprueft": {"label_de": "Fachlich geprüft", "bedingung": "Pruefer, Datum, Pruefbericht"}
+   "nicht_geprueft": {
+    "label_de": "Fachlich nicht geprüft"
+   },
+   "teilweise_geprueft": {
+    "label_de": "Teilweise fachlich geprüft"
+   },
+   "geprueft": {
+    "label_de": "Fachlich geprüft",
+    "bedingung": "Pruefer, Datum, Pruefbericht"
+   }
   }
  },
  "alias_typ": {
   "werte": {
-   "legacy": {"label_de": "Älterer Alias", "bedingung": "kontext_version und quelle Pflicht; ersetzt nie die Original-ID (DR-04)"}
+   "legacy": {
+    "label_de": "Älterer Alias",
+    "bedingung": "kontext_version und quelle Pflicht; ersetzt nie die Original-ID (DR-04)"
+   }
+  }
+ },
+ "prompt_freigabe": {
+  "beschreibung": "Freigabe eines Prompt-Textes zur oeffentlichen Anzeige. Feldname public_release in Aufgaben-Registern; Werte abgestimmt mit GPT (ef4da47, mitmachen.html).",
+  "werte": {
+   "approved": {
+    "label_de": "Zur Veröffentlichung freigegeben",
+    "bedingung": "nur durch Nils"
+   },
+   "not_approved": {
+    "label_de": "Nicht freigegeben"
+   }
+  }
+ },
+ "prompt_ausfuehrung": {
+  "beschreibung": "Ergebnis eines dokumentierten Probelaufs. Feldname prompt_execution_status. Ein Fachtest ersetzt keinen Prompt-Test.",
+  "werte": {
+   "passed": {
+    "label_de": "Probelauf bestanden",
+    "bedingung": "Ausfuehrungsakte mit prompt_id, revision, input_snapshot, tool_version, executed_at, output_hash"
+   },
+   "failed": {
+    "label_de": "Probelauf nicht bestanden"
+   },
+   "not_run": {
+    "label_de": "Noch kein Probelauf"
+   }
   }
  }
 }
