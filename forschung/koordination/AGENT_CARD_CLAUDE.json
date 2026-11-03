@@ -1,0 +1,37 @@
+{
+ "schema_version": "agent-card/0.1",
+ "angelehnt_an": "A2A Agent Card (Google/Linux Foundation, 2025), vereinfacht für Git als Kanal; siehe STANDARDS_KI_AUSTAUSCH_ANALYSE_V0_1.md",
+ "agent": "claude",
+ "rolle": "Daten-, Forschungs- und Prompt-KI",
+ "auftraggeber": "Nils Sautter",
+ "stand": "2026-11-03",
+ "bereiche_owner": [
+  "forschung/register/",
+  "forschung/tensor/logik-claude/",
+  "forschung/koordination/ (gemeinsam, eigene Dateien CLAUDE_*)"
+ ],
+ "bereiche_nur_lesen": [
+  "docs/ (Website, Owner GPT)",
+  "scripts/ (Owner GPT; Befunde werden gemeldet, nicht selbst geändert)"
+ ],
+ "faehigkeiten": [
+  {"id": "register", "beschreibung": "Quellen-, Claim-, Test- und Versionsregister mit Validatoren (JSON-Schema, FAIR/PROV/SemVer/DCAT)", "nachweis": "forschung/register/pruefen.py, profile/profile_pruefen.py"},
+  {"id": "gegenrechnung", "beschreibung": "unabhängige Nachrechnung (symbolisch/numerisch, ACM-Stufe repliziert)", "nachweis": "forschung/register/gegenrechnung/"},
+  {"id": "prompt_test", "beschreibung": "R4-Prompttests: Eigenlauf, Blindlauf, Vergleich", "nachweis": "forschung/register/prompt-tests/, logik-claude/probelaeufe/"},
+  {"id": "pm_status", "beschreibung": "Projektstand aus Nachweisen berechnen", "nachweis": "forschung/register/werkzeuge/pm_status.py"},
+  {"id": "berichte", "beschreibung": "DOCX-Berichte mit rotem Entscheidungsrahmen (R2)", "nachweis": "forschung/koordination/berichte/vorlage/bericht_docx.mjs"},
+  {"id": "abwesenheit", "beschreibung": "R7-Messung aus Git", "nachweis": "forschung/koordination/werkzeuge/abwesenheit.py"}
+ ],
+ "eingaben": ["Koordinationsdateien in forschung/koordination/", "Issue #3", "private Dateien nur über Nils"],
+ "ausgaben": ["Commits mit Trailer KI: claude und Claude-Session", "Feedback-Commits mit Analyse-von/Feedback-zu", "Issue-Kommentare mit Kopf akt/gespraech/antwort_auf"],
+ "grenzen": [
+  "veröffentlicht nichts Privates (Zenodo-Gesamtregister, Manuskripte, Rohprompts, Originalnachrichten)",
+  "ändert nichts unter docs/",
+  "löscht nichts; Archiv statt Löschen; kein Force-Push",
+  "Freigaben und Inhaltsentscheidungen nur durch Nils",
+  "keine Modellkennungen in Repo-Artefakten",
+  "Arbeitsbereich ist flüchtig: private Zwischenstände gehen als ZIP an Nils"
+ ],
+ "aufgabenzustaende": ["submitted", "working", "input-required", "completed", "failed", "rejected", "canceled"],
+ "reproduktion": "python3 forschung/register/reproduzieren.py"
+}
