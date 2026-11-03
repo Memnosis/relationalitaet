@@ -1,0 +1,262 @@
+{
+  "schema": "quality-gates/0.1",
+  "snapshot": "2026-11-03",
+  "standards": [
+    "ISO/IEC 25010:2023",
+    "WCAG 2.2",
+    "DORA release-metrics (adapted)"
+  ],
+  "checks": [
+    "Gliederung fachlich ausformuliert",
+    "Kernaussagen mit Fundstellen oder als These markiert",
+    "Korrekte Geltungsbedingungen und Gegenfälle",
+    "Funktion und lokale Verweise geprüft",
+    "Zugänglichkeit und Design geprüft",
+    "Medien- und Quellenrechte freigegeben",
+    "Eigentest und unabhängige Gegenprüfung",
+    "Autorenabnahme mit Versionsnachweis"
+  ],
+  "check_count": 8,
+  "pages": [
+    {
+      "id": "index",
+      "url": "./index.html",
+      "plan": "forschung/website/seiten/index_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "ki-geschichte",
+      "url": "./ki-geschichte.html",
+      "plan": "forschung/website/seiten/ki-geschichte_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "tensor-einfuehrung",
+      "url": "./tensor-einfuehrung.html",
+      "plan": "forschung/website/seiten/tensor-einfuehrung_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "minimal-ki",
+      "url": "./minimal-ki.html",
+      "plan": "forschung/website/seiten/minimal-ki_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "tensor-paper",
+      "url": "./tensor-paper.html",
+      "plan": "forschung/website/seiten/tensor-paper_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "tensoralgebra",
+      "url": "./tensoralgebra.html",
+      "plan": "forschung/website/seiten/tensoralgebra_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "thesen",
+      "url": "./thesen.html",
+      "plan": "forschung/website/seiten/thesen_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "geoki",
+      "url": "./geoki.html",
+      "plan": "forschung/website/seiten/geoki_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "geoki-systeme",
+      "url": "./geoki-systeme.html",
+      "plan": "forschung/website/seiten/geoki-systeme_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "interoperabilitaet",
+      "url": "./interoperabilitaet.html",
+      "plan": "forschung/website/seiten/interoperabilitaet_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "harvesting",
+      "url": "./harvesting.html",
+      "plan": "forschung/website/seiten/harvesting_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "glossar",
+      "url": "./glossar.html",
+      "plan": "forschung/website/seiten/glossar_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "komprimierung",
+      "url": "./komprimierung.html",
+      "plan": "forschung/website/seiten/komprimierung_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "visuelle-engine",
+      "url": "./visuelle-engine.html",
+      "plan": "forschung/website/seiten/visuelle-engine_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "bibliothek",
+      "url": "./bibliothek.html",
+      "plan": "forschung/website/seiten/bibliothek_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "soulution",
+      "url": "./soulution.html",
+      "plan": "forschung/website/seiten/soulution_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "medien",
+      "url": "./medien.html",
+      "plan": "forschung/website/seiten/medien_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "inkubator",
+      "url": "./inkubator.html",
+      "plan": "forschung/website/seiten/inkubator_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "vernetzung-ki",
+      "url": "./vernetzung-ki.html",
+      "plan": "forschung/website/seiten/vernetzung-ki_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "projektstand",
+      "url": "./projektstand.html",
+      "plan": "forschung/website/seiten/projektstand_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "projektmanagement",
+      "url": "./projektmanagement.html",
+      "plan": "forschung/website/seiten/projektmanagement_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "mitmachen",
+      "url": "./mitmachen.html",
+      "plan": "forschung/website/seiten/mitmachen_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "taskkarten",
+      "url": "./taskkarten.html",
+      "plan": "forschung/website/seiten/taskkarten_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "quellen-und-uebergabe",
+      "url": "./quellen-und-uebergabe.html",
+      "plan": "forschung/website/seiten/quellen-und-uebergabe_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "impressum",
+      "url": "./impressum.html",
+      "plan": "forschung/website/seiten/impressum_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "ki-systeme",
+      "url": "./ki-systeme.html",
+      "plan": "forschung/website/seiten/ki-systeme_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "ki-kernforschung",
+      "url": "./ki-kernforschung.html",
+      "plan": "forschung/website/seiten/ki-kernforschung_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "codebuch",
+      "url": "./codebuch.html",
+      "plan": "forschung/website/seiten/codebuch_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "soulution-schroedingers-inkubator",
+      "url": "./soulution-schroedingers-inkubator.html",
+      "plan": "forschung/website/seiten/soulution-schroedingers-inkubator_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "soulution-inkubator-quellen",
+      "url": "./soulution-inkubator-quellen.html",
+      "plan": "forschung/website/seiten/soulution-inkubator-quellen_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "soulution-ki-kreativrechte",
+      "url": "./soulution-ki-kreativrechte.html",
+      "plan": "forschung/website/seiten/soulution-ki-kreativrechte_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "soulution-weltwissen-dividende",
+      "url": "./soulution-weltwissen-dividende.html",
+      "plan": "forschung/website/seiten/soulution-weltwissen-dividende_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "wissen-macht-wirklichkeit",
+      "url": "./wissen-macht-wirklichkeit.html",
+      "plan": "forschung/website/seiten/wissen-macht-wirklichkeit_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    },
+    {
+      "id": "mitmachen-rueckgabe",
+      "url": "./mitmachen-rueckgabe.html",
+      "plan": "forschung/website/seiten/mitmachen-rueckgabe_AUDIT_PLAN_2026-11-03.md",
+      "all_checks_status": "not_assessed",
+      "author_approval": "not_recorded"
+    }
+  ],
+  "accepted_count": "not_determined",
+  "rule": "A website file or plan is not a passed quality gate."
+}
