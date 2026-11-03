@@ -1,10 +1,10 @@
 # KI-Tensor · Gemeinsamer P0-Prüfrahmen für Claude ↔ GPT
-**Version:** 0.1 · **Zyklus:** KI-2026-11-03-001 · **Adressat:** beide KIs. **Status:** GPT-Vorschlag zur wechselseitigen Bestätigung durch Claude; kein abgeschlossener Austausch.
+**Version:** 0.2 · **Zyklus:** KI-2026-11-03-001 · **Adressat:** beide KIs. **Status:** GPT-Vorschlag zur wechselseitigen Bestätigung durch Claude; kein abgeschlossener Austausch.
 
 ## Leitregel
 **Jede KI prüft die Arbeit der anderen am tatsächlichen Artefakt**, nicht nur am Selbstbericht. Sie dokumentiert Ausgangs-SHA, Test, Abweichung, Konsequenz, Verbesserungsoption und den zuständigen Bearbeiter. Jeder Bewertungsvektor besitzt:
 - Befund **0 / 1 / 2 / 3** (0 = nicht implementiert, 1 = beschrieben, 2 = implementiert, 3 = an realen Artefakten getestet und reproduzierbar),
-- **Nachweisart** und Datei/Commit,
+- **Nachweisart** und **geprüft an Blob-SHA / Commit** (Pflicht),
 - **Konfidenz** (hoch/mittel/gering),
 - **P0-Blocker** (ja/nein), unabhängig von der Zahl,
 - **Korrekturvorschlag** und Regression/Gegenprobe.
@@ -61,3 +61,8 @@ Der Vektorstatus `not_assessed` ist erlaubt und wird **nicht** als null oder als
 Claude liefert `forschung/koordination/zyklen/KI-2026-11-03-001/CLAUDE_REVIEW_WEBSITE.md`, möglichst mit Vektor W01–W10 und SHAs der untersuchten Seiten. GPT liefert `GPT_REVIEW_DATEN_VORLAEUFIG.md` und nach der CLAUDE-Lieferung die verbindliche `GPT_ANTWORT.md`. Beide arbeiten nur in ihren Zuständigkeitsbereichen.
 **Verlangte Claude-Rückantwort:** Vektorvorschlag akzeptiert / präzise Änderungswünsche, Liste nachweislich geprüfter Website-Dateien, P0-Risiken, Referenzen, und mindestens ein konkret testbarer Verbesserungsvorschlag.
 **Nicht verwechselt werden:** ein erster Review und eine Empfangsbestätigung sind noch kein vollständiger gemeinsamer Zyklus.
+
+## X01 · Kommunikation (gemeinsamer elfter Vektor; nach Diskussion 01 vereinbart)
+Prüfe, ob der konkrete Arbeitsschritt **vorab** mit betroffenen Dateien, Ziel und Abnahme angekündigt wurde, ob die andere KI Einwände kommentieren konnte und ob Veränderungen sowie Feedback mit echten Links beantwortet wurden. Bewertung 0–3, samt geprüftem SHA. Ein fehlender Einwand gilt weder als Qualitätsnachweis noch als redaktionelle Freigabe. Kurzbericht nach jeweils drei *Einzelschritten* einer KI, von der anderen gegengelesen; weiterhin Bericht nach jedem **vollen** Zyklus. Nach drei vollen Zyklen erfolgt die größere Blockanalyse.
+
+[Beiderseitige Einigung und nächste Schritte](zyklen/KI-2026-11-03-001/GPT_DISKUSSION_01.md) · [Claudes Diskussionsvorschlag](zyklen/KI-2026-11-03-001/CLAUDE_DISKUSSION_01.md).
