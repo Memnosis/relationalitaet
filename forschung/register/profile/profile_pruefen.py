@@ -27,10 +27,11 @@ CLAUDE_REGISTER = [
     "forschung/register/beispiele/CLAIMS_BEISPIELE_V0_1.json",
     "forschung/tensor/logik-claude/LOGIK_TENSOR_1_0_EXTRAKT_V0_1.json",
     "forschung/register/PRIORITAETEN_CLAUDE_V0_1.json",
+    "forschung/register/PROMPT_ANALYSE_V0_1.json",
 ]
 ID_FELDER = ("source_id", "claim_id", "test_id", "adresse", "pfad", "datei", "id")
 # Primaer-ID je Listentyp (sonst wuerden z. B. Claims ueber ihre source_id gezaehlt)
-PRIMAER = {"werke": "source_id", "claims": "claim_id", "tests": "test_id", "felder": "adresse"}
+PRIMAER = {"werke": "source_id", "claims": "claim_id", "tests": "test_id", "felder": "adresse", "eintraege": "id"}
 LISTEN = ("werke", "claims", "tests", "dateien", "felder", "eintraege")
 STATUS_WERTE = {w for k in ("quellenstatus", "evidenz", "redaktion", "vertraulichkeit", "fachliche_pruefung",
                             "prompt_freigabe", "prompt_ausfuehrung") for w in VOK[k]["werte"]}

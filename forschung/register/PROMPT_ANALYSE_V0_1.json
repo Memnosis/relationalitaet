@@ -1,0 +1,827 @@
+{
+ "schema_version": "prompt-analyse/0.1",
+ "owner": "claude",
+ "erzeugt_am": "2026-11-03T14:22:58+00:00",
+ "source_commit": "7fbd227",
+ "methode": "automatische Prüfung (Sicherheit, Links, Ähnlichkeit) + inhaltliche Einzelbewertung nach 7 Freigabekriterien; Prompt-Texte nicht enthalten (nur SHA-256)",
+ "gemeinsame_befunde": [
+  "Alle 38 sind Meta-Prompts (lassen einen Arbeits-Prompt entwerfen); öffentlich geeignet ist erst der getestete Arbeits-Prompt.",
+  "Hohe Schablonenähnlichkeit (typisch 87 %): Texte unterscheiden sich fast nur in Titel, Ziel und Quellen.",
+  "13 Prompts setzen „jeder Tensor hat exakt 3×3×3 Positionen“ als Tatsache; öffentlich als Projektdefinition kennzeichnen.",
+  "Keine Sicherheitsfunde: keine privaten Pfade, Kontaktdaten, Archivnamen oder Zugangsdaten; alle Links vorhanden.",
+  "Kein Prompt hat einen dokumentierten Probelauf; daher ist derzeit keiner nach der gemeinsamen Regel freigabefähig."
+ ],
+ "zaehlung": {
+  "A": 14,
+  "B": 22,
+  "C": 2
+ },
+ "klassen": {
+  "A": "Freigabekandidat: nach Umschreiben in einen direkten Arbeits-Prompt und dokumentiertem Probelauf",
+  "B": "intern belassen (Projektsteuerung, Architektur oder private Daten nötig)",
+  "C": "fachlich heikel: erst Fachprüfung, dann Entscheidung"
+ },
+ "eintraege": [
+  {
+   "id": "HARV-05",
+   "datei": "forschung/website/MITMACH_TASKS.json",
+   "titel": "Wissenschaftliche Dreierfamilien quellenbasiert finden",
+   "zeichen": 1449,
+   "meta_prompt_sha256": "2c19e20bb2da93a50c9affdd0d3dec75003c01385e81a26ef95307e82bf476ee",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "KOMP-01",
+    "quote": 0.86
+   },
+   "heikle_begriffe": [
+    "beweise",
+    "exakt 3×3×3"
+   ],
+   "klasse": "A",
+   "klasse_text": "Freigabekandidat: nach Umschreiben in einen direkten Arbeits-Prompt und dokumentiertem Probelauf",
+   "prioritaet": 1,
+   "begruendung": "Kernfrage des Projekts (quellenbasierte Dreierfamilien), passt zur Suche nach dem trinitären dritten Faktor (DEC-AX); „Beweise“ vorsichtiger formulieren",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "WEB-GLOS-01",
+   "datei": "forschung/website/MITMACH_TASKS.json",
+   "titel": "Glossar v15.4 vollständig integrieren",
+   "zeichen": 1485,
+   "meta_prompt_sha256": "7991f7ff64c4b8b7c17984cfb4240627c5efebcbfb809143547be2410ff33d67",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "HARV-01",
+    "quote": 0.86
+   },
+   "heikle_begriffe": [
+    "exakt 3×3×3"
+   ],
+   "klasse": "A",
+   "klasse_text": "Freigabekandidat: nach Umschreiben in einen direkten Arbeits-Prompt und dokumentiertem Probelauf",
+   "prioritaet": 1,
+   "begruendung": "Glossar mit 935 Definitionslücken: ideale, kleinteilige öffentliche Aufgabe; Quellen öffentlich; als direkter Arbeits-Prompt je Begriff umschreiben",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "FMT-H02",
+   "datei": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
+   "titel": "Konvertierungsgraph und Roundtrip-Proben",
+   "zeichen": 1403,
+   "meta_prompt_sha256": "6ec4fb705f3ddf8234724435f34902df85e5523a8f626eb3b2eb041d897e9d9b",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "FMT-H04",
+    "quote": 0.85
+   },
+   "heikle_begriffe": [],
+   "klasse": "A",
+   "klasse_text": "Freigabekandidat: nach Umschreiben in einen direkten Arbeits-Prompt und dokumentiertem Probelauf",
+   "prioritaet": 2,
+   "begruendung": "Konvertierungsgraph und Roundtrip: klar prüfbar mit Positiv- und Negativfällen",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "GEO-OPS-01",
+   "datei": "forschung/website/MITMACH_TASKS.json",
+   "titel": "Geo-KI-Operatoren mit Gegenproben erweitern",
+   "zeichen": 1424,
+   "meta_prompt_sha256": "46e2e965b9a8b04f2326ee9069e11b4e59966b5a691b79d1f091a9251a9b0090",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "KOL-01",
+    "quote": 0.87
+   },
+   "heikle_begriffe": [
+    "exakt 3×3×3"
+   ],
+   "klasse": "A",
+   "klasse_text": "Freigabekandidat: nach Umschreiben in einen direkten Arbeits-Prompt und dokumentiertem Probelauf",
+   "prioritaet": 2,
+   "begruendung": "Geo-Operatoren mit Gegenproben: prüfbar, Geo-KI-Kern ist öffentlich",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "EXT-01",
+   "datei": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+   "titel": "Quantenbibliotheken vergleichen",
+   "zeichen": 1086,
+   "meta_prompt_sha256": "35bbcf5af3bdc1704bb8321598a6da410f473432b4450c9c06b4a918058d5b2b",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "SKL-02",
+    "quote": 0.88
+   },
+   "heikle_begriffe": [
+    "quantenbibliotheken"
+   ],
+   "klasse": "A",
+   "klasse_text": "Freigabekandidat: nach Umschreiben in einen direkten Arbeits-Prompt und dokumentiertem Probelauf",
+   "prioritaet": 3,
+   "begruendung": "Quantenbibliotheken vergleichen: technischer Vergleich, keine Physikaussage",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "EXT-02",
+   "datei": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+   "titel": "Freie Sprachressourcen prüfen",
+   "zeichen": 1098,
+   "meta_prompt_sha256": "d4df5b4131cb6d0d4e1ff7b61e0459e69c863f9eec323211050e13aff03fd189",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "EXT-01",
+    "quote": 0.87
+   },
+   "heikle_begriffe": [],
+   "klasse": "A",
+   "klasse_text": "Freigabekandidat: nach Umschreiben in einen direkten Arbeits-Prompt und dokumentiertem Probelauf",
+   "prioritaet": 3,
+   "begruendung": "freie Sprachressourcen prüfen: Lizenzprüfung als Kern",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "FMT-H01",
+   "datei": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
+   "titel": "Offene Format- und Skillstandards harvesten",
+   "zeichen": 1425,
+   "meta_prompt_sha256": "55d26c1f57fcd63836db7267dc64619aa6f58a24aa63a9efe77ab64f5b491cf3",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "FMT-H05",
+    "quote": 0.84
+   },
+   "heikle_begriffe": [],
+   "klasse": "A",
+   "klasse_text": "Freigabekandidat: nach Umschreiben in einen direkten Arbeits-Prompt und dokumentiertem Probelauf",
+   "prioritaet": 3,
+   "begruendung": "offene Format- und Skillstandards sammeln: rein recherchierend, geringes Risiko",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "FMT-H03",
+   "datei": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
+   "titel": "CAD/GIS/3D-Operatoren interoperabel testen",
+   "zeichen": 1399,
+   "meta_prompt_sha256": "fc59beb9f3cb3c18f6914ff86b3b3489354c36e76792d51d35000ad583dd1026",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "FMT-H04",
+    "quote": 0.85
+   },
+   "heikle_begriffe": [],
+   "klasse": "A",
+   "klasse_text": "Freigabekandidat: nach Umschreiben in einen direkten Arbeits-Prompt und dokumentiertem Probelauf",
+   "prioritaet": 3,
+   "begruendung": "CAD/GIS/3D-Operatoren testen: Lizenzen (z. B. Open CASCADE, CGAL) beachten",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "FMT-H04",
+   "datei": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
+   "titel": "Wissenschaftliche Daten- und Arrayformate prüfen",
+   "zeichen": 1376,
+   "meta_prompt_sha256": "d6413c91be5b9671f7d8065e6d073838a34180ddcf2b19f346d8e1f67248e56c",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "FMT-H02",
+    "quote": 0.85
+   },
+   "heikle_begriffe": [],
+   "klasse": "A",
+   "klasse_text": "Freigabekandidat: nach Umschreiben in einen direkten Arbeits-Prompt und dokumentiertem Probelauf",
+   "prioritaet": 3,
+   "begruendung": "wissenschaftliche Datenformate prüfen: rein technisch",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "FMT-H05",
+   "datei": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
+   "titel": "API-, MCP- und Workflow-Skills harvesten",
+   "zeichen": 1400,
+   "meta_prompt_sha256": "fe6db4f7221198e049f94d3e5c5c949173eb2976f2318171b30078fe313e8f23",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "FMT-H04",
+    "quote": 0.85
+   },
+   "heikle_begriffe": [],
+   "klasse": "A",
+   "klasse_text": "Freigabekandidat: nach Umschreiben in einen direkten Arbeits-Prompt und dokumentiertem Probelauf",
+   "prioritaet": 3,
+   "begruendung": "API-/MCP-/Workflow-Skills sammeln: rein recherchierend",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "HARV-03",
+   "datei": "forschung/website/MITMACH_TASKS.json",
+   "titel": "Physik- und Quantenbibliotheken harvesten",
+   "zeichen": 1424,
+   "meta_prompt_sha256": "b7bc989ed95cf218615c53e6b2892b5eea451064f794d33848c64a08612cac71",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "HARV-01",
+    "quote": 0.87
+   },
+   "heikle_begriffe": [
+    "exakt 3×3×3",
+    "quantenbibliotheken"
+   ],
+   "klasse": "A",
+   "klasse_text": "Freigabekandidat: nach Umschreiben in einen direkten Arbeits-Prompt und dokumentiertem Probelauf",
+   "prioritaet": 3,
+   "begruendung": "Physik-/Quantenbibliotheken sammeln: Bibliotheksvergleich ist unkritisch, keine Physikaussage",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "HARV-04",
+   "datei": "forschung/website/MITMACH_TASKS.json",
+   "titel": "Sprachdaten und Übersetzungsmodelle harvesten",
+   "zeichen": 1446,
+   "meta_prompt_sha256": "96e0b2406999c2df2c899ee7e74f7de3ac65bd8a95b009c6b3211489808194e6",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "HARV-03",
+    "quote": 0.87
+   },
+   "heikle_begriffe": [
+    "exakt 3×3×3"
+   ],
+   "klasse": "A",
+   "klasse_text": "Freigabekandidat: nach Umschreiben in einen direkten Arbeits-Prompt und dokumentiertem Probelauf",
+   "prioritaet": 3,
+   "begruendung": "Sprachdaten und Übersetzungsmodelle: Lizenzen besonders prüfen lassen",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "HARV-06",
+   "datei": "forschung/website/MITMACH_TASKS.json",
+   "titel": "API-, Skill- und Toolkataloge inventarisieren",
+   "zeichen": 1446,
+   "meta_prompt_sha256": "6622239912bcbfb5ea8f28ed2893f601034bb0444ee16d5ad5ac8b1b6dd057e4",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "KOMP-01",
+    "quote": 0.86
+   },
+   "heikle_begriffe": [
+    "exakt 3×3×3"
+   ],
+   "klasse": "A",
+   "klasse_text": "Freigabekandidat: nach Umschreiben in einen direkten Arbeits-Prompt und dokumentiertem Probelauf",
+   "prioritaet": 3,
+   "begruendung": "API-/Skill-Kataloge inventarisieren: rein recherchierend",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "VIS-01",
+   "datei": "forschung/website/MITMACH_TASKS.json",
+   "titel": "Tensor und Datengraph visuell erforschen",
+   "zeichen": 1421,
+   "meta_prompt_sha256": "a717a6bc875a9e47e364157c318a10e277c256e632e8b2b269793cfafb00a0ff",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "KOL-01",
+    "quote": 0.86
+   },
+   "heikle_begriffe": [
+    "exakt 3×3×3"
+   ],
+   "klasse": "A",
+   "klasse_text": "Freigabekandidat: nach Umschreiben in einen direkten Arbeits-Prompt und dokumentiertem Probelauf",
+   "prioritaet": 3,
+   "begruendung": "Tensor und Datengraph visuell erforschen: öffentlich geeignet, Ergebnisformat (SVG/JSON) festlegen",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "GEO-M1",
+   "datei": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
+   "titel": "Generieren – Komponieren – Prüfen – Exportieren",
+   "zeichen": 1492,
+   "meta_prompt_sha256": "b83fe74027a0982462d68fa375a9fb3a34c7c96d368e7330a5fce9ac732879ab",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "FMT-H04",
+    "quote": 0.81
+   },
+   "heikle_begriffe": [],
+   "klasse": "B",
+   "klasse_text": "intern belassen (Projektsteuerung, Architektur oder private Daten nötig)",
+   "prioritaet": 2,
+   "begruendung": "Kernpipeline Geo-KI: interne Architektur; Teilaufgaben später als GEO-OPS-01 öffentlich",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "HARV-01",
+   "datei": "forschung/website/MITMACH_TASKS.json",
+   "titel": "DLMF-Formelernte reproduzierbar vervollständigen",
+   "zeichen": 1444,
+   "meta_prompt_sha256": "503452af4144531049eeae6cdf5f92666fba7324cfa08dd5f10bb2ad74f3ea3b",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "HARV-03",
+    "quote": 0.87
+   },
+   "heikle_begriffe": [
+    "exakt 3×3×3"
+   ],
+   "klasse": "B",
+   "klasse_text": "intern belassen (Projektsteuerung, Architektur oder private Daten nötig)",
+   "prioritaet": 2,
+   "begruendung": "braucht private DLMF-Rohdaten und Archive; extern nicht ausführbar",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "HARV-02",
+   "datei": "forschung/website/MITMACH_TASKS.json",
+   "titel": "Wissenschaftsmining v2.7 und Codebuch v3.7/v3.8 testen",
+   "zeichen": 1445,
+   "meta_prompt_sha256": "2ac83ae9f85d51818b5bd61bf00a4677c52791c34e7cb533c50f0c0d7919d576",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "KOMP-01",
+    "quote": 0.86
+   },
+   "heikle_begriffe": [
+    "exakt 3×3×3"
+   ],
+   "klasse": "B",
+   "klasse_text": "intern belassen (Projektsteuerung, Architektur oder private Daten nötig)",
+   "prioritaet": 2,
+   "begruendung": "braucht private Archive v2.7/v3.7/v3.8; extern nicht ausführbar",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "OBS-01",
+   "datei": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+   "titel": "Vertrag Ereignisbus",
+   "zeichen": 1107,
+   "meta_prompt_sha256": "8489d56f5f6bedcc943d2f746a54493e186262aaf63b125f1ebcee5183e1a55e",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "SKL-02",
+    "quote": 0.88
+   },
+   "heikle_begriffe": [],
+   "klasse": "B",
+   "klasse_text": "intern belassen (Projektsteuerung, Architektur oder private Daten nötig)",
+   "prioritaet": 2,
+   "begruendung": "Ereignisbus-Vertrag: interne Architektur",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "WEB-CODE-01",
+   "datei": "forschung/website/MITMACH_TASKS.json",
+   "titel": "Codebuch relational auf der Website anbinden",
+   "zeichen": 1507,
+   "meta_prompt_sha256": "752f04fef0ba0db54657b837a78100c1555b04eb42ad91534e8ac05f04049f9f",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "HARV-03",
+    "quote": 0.84
+   },
+   "heikle_begriffe": [
+    "exakt 3×3×3"
+   ],
+   "klasse": "B",
+   "klasse_text": "intern belassen (Projektsteuerung, Architektur oder private Daten nötig)",
+   "prioritaet": 2,
+   "begruendung": "Website-Integration des Codebuchs: interne Umsetzung GPT/Claude",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "KOL-01",
+   "datei": "forschung/website/MITMACH_TASKS.json",
+   "titel": "KI-Kollegen und Taskübergabe vergleichen",
+   "zeichen": 1409,
+   "meta_prompt_sha256": "7aa9987a9c4b6a8d31ab7145f2959d1989827c94fb01e0e31070c24ccf97dea3",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "KOMP-01",
+    "quote": 0.87
+   },
+   "heikle_begriffe": [
+    "exakt 3×3×3"
+   ],
+   "klasse": "B",
+   "klasse_text": "intern belassen (Projektsteuerung, Architektur oder private Daten nötig)",
+   "prioritaet": 3,
+   "begruendung": "KI-Kollegen und Taskübergabe: interne Zusammenarbeit der KIs",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "KOMP-01",
+   "datei": "forschung/website/MITMACH_TASKS.json",
+   "titel": "Regelverdichtung und Rekonstruktion prüfen",
+   "zeichen": 1396,
+   "meta_prompt_sha256": "fe829561d64c0d86b1dd19287be6057bb8228d0b38f427a471537952167359cf",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "KOL-01",
+    "quote": 0.87
+   },
+   "heikle_begriffe": [
+    "exakt 3×3×3"
+   ],
+   "klasse": "B",
+   "klasse_text": "intern belassen (Projektsteuerung, Architektur oder private Daten nötig)",
+   "prioritaet": 3,
+   "begruendung": "Regelverdichtung: interne Forschungsmethode",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "M20K-01",
+   "datei": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+   "titel": "20.000-Skillregister",
+   "zeichen": 1075,
+   "meta_prompt_sha256": "9e0f99de53628c5cde2d5171ec04ba32613e44ad6304d4a51a614ffe66f58d55",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "M20K-04",
+    "quote": 0.88
+   },
+   "heikle_begriffe": [
+    "20.000"
+   ],
+   "klasse": "B",
+   "klasse_text": "intern belassen (Projektsteuerung, Architektur oder private Daten nötig)",
+   "prioritaet": 3,
+   "begruendung": "20.000-Skillregister: interne Strategie; Größenangabe nicht öffentlich als Ziel verkünden",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "M20K-02",
+   "datei": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+   "titel": "Ausführbare Teilmenge testen",
+   "zeichen": 1077,
+   "meta_prompt_sha256": "e0f727e668ccd4c2019a3c32b9f72be3c251c512cbcdc739a458e16b9f16db24",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "SKL-02",
+    "quote": 0.89
+   },
+   "heikle_begriffe": [
+    "20.000"
+   ],
+   "klasse": "B",
+   "klasse_text": "intern belassen (Projektsteuerung, Architektur oder private Daten nötig)",
+   "prioritaet": 3,
+   "begruendung": "Teilmenge des 20.000-Registers testen: intern",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "M20K-03",
+   "datei": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+   "titel": "Neue Aufgabenklassen nachweisen",
+   "zeichen": 1107,
+   "meta_prompt_sha256": "f4133036a96e0cb874381129b2f949d835a3879005aa67cdd1ee8b2a26a8f2ac",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "M20K-02",
+    "quote": 0.87
+   },
+   "heikle_begriffe": [],
+   "klasse": "B",
+   "klasse_text": "intern belassen (Projektsteuerung, Architektur oder private Daten nötig)",
+   "prioritaet": 3,
+   "begruendung": "neue Aufgabenklassen nachweisen: intern",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "M20K-04",
+   "datei": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+   "titel": "Minimal-Skillset durch Ablation",
+   "zeichen": 1083,
+   "meta_prompt_sha256": "fec446fee2d3a3704d5ce3f4e429ebc8f653376862a9dc0dff74851d1d8e77c1",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "M20K-01",
+    "quote": 0.88
+   },
+   "heikle_begriffe": [],
+   "klasse": "B",
+   "klasse_text": "intern belassen (Projektsteuerung, Architektur oder private Daten nötig)",
+   "prioritaet": 3,
+   "begruendung": "Minimal-Skillset durch Ablation: intern",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "MINI-OBS-01",
+   "datei": "forschung/website/MITMACH_TASKS.json",
+   "titel": "Beobachter aus Messereignissen generieren",
+   "zeichen": 1438,
+   "meta_prompt_sha256": "ebf9a9f82737b2cb10594fcf4762e455e7cf0238e4dcf551f373621dfca08b17",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "KOL-01",
+    "quote": 0.86
+   },
+   "heikle_begriffe": [
+    "exakt 3×3×3"
+   ],
+   "klasse": "B",
+   "klasse_text": "intern belassen (Projektsteuerung, Architektur oder private Daten nötig)",
+   "prioritaet": 3,
+   "begruendung": "Beobachter aus Messereignissen: interne Mini-KI-Architektur",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "OBS-02",
+   "datei": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+   "titel": "Acht Kernbeobachter prototypisch ausführen",
+   "zeichen": 1085,
+   "meta_prompt_sha256": "7838303988d048be3f134b171fe6053236575aceea5fb51c80ce68deec368209",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "M20K-02",
+    "quote": 0.88
+   },
+   "heikle_begriffe": [],
+   "klasse": "B",
+   "klasse_text": "intern belassen (Projektsteuerung, Architektur oder private Daten nötig)",
+   "prioritaet": 3,
+   "begruendung": "acht Kernbeobachter: interne Architektur",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "OBS-05",
+   "datei": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+   "titel": "Ablation und Beitrag je Beobachter messen",
+   "zeichen": 1118,
+   "meta_prompt_sha256": "65a1c7947bf7f9994b6a3279bf5854a2ede96c5e2bf3e51e8a41166a59e10259",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "M20K-04",
+    "quote": 0.87
+   },
+   "heikle_begriffe": [],
+   "klasse": "B",
+   "klasse_text": "intern belassen (Projektsteuerung, Architektur oder private Daten nötig)",
+   "prioritaet": 3,
+   "begruendung": "Ablation je Beobachter: interne Evaluation",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "PRD-01",
+   "datei": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+   "titel": "Handlungsfolgen-Vorhersagemodell",
+   "zeichen": 1141,
+   "meta_prompt_sha256": "ac5a315057892100546e68ea53478f54dd13e5554c4d75dec01581a9d0f56116",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "PRD-02",
+    "quote": 0.88
+   },
+   "heikle_begriffe": [],
+   "klasse": "B",
+   "klasse_text": "intern belassen (Projektsteuerung, Architektur oder private Daten nötig)",
+   "prioritaet": 3,
+   "begruendung": "Handlungsfolgen-Vorhersage: interne Forschung, Aussagen vorsichtig",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "PRD-02",
+   "datei": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+   "titel": "Geo-KI als Kalibrierung",
+   "zeichen": 1169,
+   "meta_prompt_sha256": "1863d3cfb0fbc4a86cb8552fcf537a3deeeceb4c054039a52ebd040f3e0f78d9",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "PRD-01",
+    "quote": 0.88
+   },
+   "heikle_begriffe": [],
+   "klasse": "B",
+   "klasse_text": "intern belassen (Projektsteuerung, Architektur oder private Daten nötig)",
+   "prioritaet": 3,
+   "begruendung": "Geo-KI als Kalibrierung: interne Forschung",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "SKL-01",
+   "datei": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+   "titel": "Standard-Skill-Adapter und MCP",
+   "zeichen": 1082,
+   "meta_prompt_sha256": "d5781274277a4e6e3a49eaa651fea023ec63e0618fec4f43d370647b825b761c",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "M20K-02",
+    "quote": 0.88
+   },
+   "heikle_begriffe": [],
+   "klasse": "B",
+   "klasse_text": "intern belassen (Projektsteuerung, Architektur oder private Daten nötig)",
+   "prioritaet": 3,
+   "begruendung": "Skill-Adapter und MCP: interne Architektur",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "SKL-02",
+   "datei": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+   "titel": "Optionale Tensorannotation",
+   "zeichen": 1067,
+   "meta_prompt_sha256": "0078222833645a9516eda097f82841f4c8cdefe6fa381875b9af778698a15015",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "M20K-02",
+    "quote": 0.89
+   },
+   "heikle_begriffe": [],
+   "klasse": "B",
+   "klasse_text": "intern belassen (Projektsteuerung, Architektur oder private Daten nötig)",
+   "prioritaet": 3,
+   "begruendung": "optionale Tensorannotation: interne Architektur",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "SKL-03",
+   "datei": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+   "titel": "Komposition und Rollback",
+   "zeichen": 1105,
+   "meta_prompt_sha256": "82b653c0f6b0af8b656465a99bd11abc8bb282712b00d2f702624d89dcbfbae4",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "SKL-01",
+    "quote": 0.88
+   },
+   "heikle_begriffe": [],
+   "klasse": "B",
+   "klasse_text": "intern belassen (Projektsteuerung, Architektur oder private Daten nötig)",
+   "prioritaet": 3,
+   "begruendung": "Komposition und Rollback: interne Architektur",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "SKL-04",
+   "datei": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+   "titel": "Optimierung und Regressionstests",
+   "zeichen": 1093,
+   "meta_prompt_sha256": "243a788a90ebccd2b566a0e7a5ccea3adf7dae3dcb0ff9a8697b35c9d022f00a",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "SKL-02",
+    "quote": 0.88
+   },
+   "heikle_begriffe": [],
+   "klasse": "B",
+   "klasse_text": "intern belassen (Projektsteuerung, Architektur oder private Daten nötig)",
+   "prioritaet": 3,
+   "begruendung": "Optimierung und Regressionstests: interne Architektur",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "WEB-01",
+   "datei": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+   "titel": "Forschung mit Quellen veröffentlichen",
+   "zeichen": 1123,
+   "meta_prompt_sha256": "cc3b4de592c8153c5f410abf8c80bdc4934dcb629b35813dcee00e6c8d9be078",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "EXT-01",
+    "quote": 0.86
+   },
+   "heikle_begriffe": [],
+   "klasse": "B",
+   "klasse_text": "intern belassen (Projektsteuerung, Architektur oder private Daten nötig)",
+   "prioritaet": 3,
+   "begruendung": "Forschung mit Quellen veröffentlichen: interne Redaktion",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "WEB-PAPER-01",
+   "datei": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
+   "titel": "Tensor-Forschungspaper und wissenschaftliche Einführung verknüpfen",
+   "zeichen": 1448,
+   "meta_prompt_sha256": "ffb71a333f75e4ced226cb69404d45a01a4e3d9487f62a67fb28ef904e789309",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "FMT-H04",
+    "quote": 0.83
+   },
+   "heikle_begriffe": [],
+   "klasse": "B",
+   "klasse_text": "intern belassen (Projektsteuerung, Architektur oder private Daten nötig)",
+   "prioritaet": 3,
+   "begruendung": "redaktionelle Verknüpfung Paper/Einführung: interne Redaktion",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "OBS-03",
+   "datei": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+   "titel": "Psychologische Trinitätkandidaten relational prüfen",
+   "zeichen": 1135,
+   "meta_prompt_sha256": "488a4ca6270e11b5656d2dc46667aaf2755e6a3c0f0d62d5d8cd5ea9930e5c0b",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "M20K-02",
+    "quote": 0.86
+   },
+   "heikle_begriffe": [
+    "bewusstseinsbezogene",
+    "psychologische"
+   ],
+   "klasse": "C",
+   "klasse_text": "fachlich heikel: erst Fachprüfung, dann Entscheidung",
+   "prioritaet": 2,
+   "begruendung": "psychologische und bewusstseinsbezogene Trinitätkandidaten: fachlich heikel, braucht Fachprüfung und Ethikrahmen vor Veröffentlichung",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  },
+  {
+   "id": "OBS-04",
+   "datei": "forschung/minimal-ki/beobachter-v0_1/TASKKARTEN.json",
+   "titel": "Quantenmessung fachlich modellieren",
+   "zeichen": 1135,
+   "meta_prompt_sha256": "f62a10d91c59f564152d51e3da5bb763a8eff6f2e929ef7a3e4e3203cca4acfa",
+   "sicherheit": "keine Treffer (Pfade, Kontakte, Archivnamen, Zugangsdaten)",
+   "links": "alle vorhanden",
+   "aehnlichkeit_max": {
+    "id": "SKL-02",
+    "quote": 0.86
+   },
+   "heikle_begriffe": [
+    "quantenmessung",
+    "quantenphysikalische"
+   ],
+   "klasse": "C",
+   "klasse_text": "fachlich heikel: erst Fachprüfung, dann Entscheidung",
+   "prioritaet": 2,
+   "begruendung": "Quantenmessung fachlich modellieren: physikalische Aussagen, braucht Fachprüfung",
+   "public_release": "not_approved",
+   "prompt_execution_status": "not_run"
+  }
+ ],
+ "stand": "Entwurf zur Gegenprüfung durch GPT; Entscheidung Nils (DEC-PROMPT-01)"
+}

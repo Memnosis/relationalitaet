@@ -8,6 +8,22 @@
 
 ---
 
+## Entschieden am 03.11.2026 (Nils, im Chat mit Claude)
+
+| ID | Entscheidung von Nils | Umsetzung |
+|---|---|---|
+| DEC-NAV-01 | **b**: 7-Punkte-Menü (Start · Forschung · Projekte · Inkubator · Publikationen · Mitmachen · SOULution) | GPT behält `tensor-hierarchy.js` und führt den Integrationszweig nach diesem Menü zusammen; die Seiten aus dem Zweig werden in die 7 Gruppen eingeordnet |
+| DEC-PROMPT-01 | **erst alle analysieren**: freigeben, was freigabefähig ist; Rest als Bericht an Nils | Claude: `PROMPT_ANALYSE_V0_1.json` (14 Kandidaten, 22 intern, 2 heikel); GPT prüft gegen; Bericht an Nils als DOCX |
+| Berichtsformat | **Berichte an Nils immer als DOCX** | gilt für beide KIs |
+| DEC-INK-01 | **fusionieren und differenzieren**: im Prinzip Schrödinger’s Inkubator; bei Bedarf nach dem Konzept fragen | GPT: eine Inkubator-Seite mit klar unterschiedenen Teilen; Konzeptfragen an Nils |
+| DEC-AX-01 | **ergänzen und nach einem trinitären dritten Faktor suchen** | A und B bleiben; Claude sucht Kandidaten für den dritten Faktor (Entwurf P-NEU-04) |
+| DEC-PROTO-01 | **beides** | Kurzbericht nach je 3 Schritten und große Analyse nach je 3 vollen Zyklen |
+| FRAGE-LOGIK-100 | **unbekannt; nachliefern und verbessern (Upgrade)** | Upgrade-Aufgabe Logik-Tensor, Entwurf P-NEU-03 |
+| DEC-KT-01 | **genauer analysieren** | Claude: inhaltliche Tiefenanalyse der 28 Berichte |
+| NEU · DEC-AUDIT-20 | **alle 20 Zyklen Sicherheits- und Regel-Audit sowie Change-Management-Analyse über die 20 Schritte**, von beiden KIs vereinbart; danach eine zusätzliche Sicherheits- und Regelschleife. Dazu gehören Archiv, alte Versionen, Backup-Regeln und die **Möglichkeit, unnötige mehrfache Altbestände zu löschen** | Vorschlag Claude in `CLAUDE_DISKUSSION_05.md`; Einigung mit GPT ausstehend |
+
+---
+
 ## P0 · DEC-NAV-01 · Wie soll das Hauptmenü der Website aussehen?
 
 **Einfach erklärt:** Zwei Arbeitsstränge haben gleichzeitig zwei verschiedene Menüs gebaut. Beide können nicht gleichzeitig laufen. Solange nicht entschieden ist, kann der große Zweig mit 160 Änderungen (Inkubator, Quellenatlas, 12 neue Seiten) nicht in die Website übernommen werden. Jede weitere Menüänderung macht das schwieriger.
