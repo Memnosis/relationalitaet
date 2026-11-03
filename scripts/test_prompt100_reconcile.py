@@ -44,4 +44,25 @@ class TestProvenance(unittest.TestCase):
         self.assertEqual(pub["selected_messages"],100)
         self.assertEqual(pub["human_reviewed_links"],0)
         self.assertTrue(all("original" in x for x in priv["records"]))
+    def test_private_export_cannot_write_inside_public_repo(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            d=Path(tmp)
+            (d/"in.json").write_text("[]",encoding="utf-8")
+            (d/"allow.json").write_text('["project"]',encoding="utf-8")
+            forbidden=SCRIPT.parent/"test-secret-must-never-exist.json"
+            cmd=[sys.executable,str(SCRIPT),"--export",str(d/"in.json"),"--allowlist",str(d/"allow.json"),"--requirements",str(REQ),"--private-out",str(forbidden),"--public-out",str(d/"aggregate.json")]
+            result=subprocess.run(cmd,capture_output=True,text=True)
+            self.assertEqual(result.returncode,2,result.stderr)
+            self.assertIn("inside the public Git checkout",result.stderr)
+            self.assertFalse(forbidden.exists())
+    def test_public_export_cannot_write_inside_public_repo(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            d=Path(tmp)
+            (d/"in.json").write_text("[]",encoding="utf-8")
+            (d/"allow.json").write_text('["project"]',encoding="utf-8")
+            forbidden=SCRIPT.parent/"test-unreviewed-aggregate.json"
+            cmd=[sys.executable,str(SCRIPT),"--export",str(d/"in.json"),"--allowlist",str(d/"allow.json"),"--requirements",str(REQ),"--private-out",str(d/"secret.json"),"--public-out",str(forbidden)]
+            result=subprocess.run(cmd,capture_output=True,text=True)
+            self.assertEqual(result.returncode,2,result.stderr)
+            self.assertFalse(forbidden.exists())
 if __name__=="__main__":unittest.main(verbosity=2)
