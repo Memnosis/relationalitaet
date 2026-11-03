@@ -30,3 +30,8 @@ Ein vollständiger quellenverankerter Crosswalk ist weiterhin nicht belegt.
 **Tatsächlich integriert:** Die im Integrationszweig bereits vorhandene `docs/assets/media/tensor_27_structure_only.svg` wurde verlustfrei nach `main` übernommen und als optional aufklappbare, vollständig beschriftete 27-Adressenansicht neben der historischen Würfel-Anschauung zugänglich gemacht. Der Leser erhält die notwendige Unterscheidung von Adressschema, mathematischem Tensor und überprüften fachlichen Relationen.
 
 **Abnahme offen:** visuelles Browser-Rendering, SVG-Lesbarkeit bei Desktop-/Druckansicht, tatsächliche Originalfeldaktenevidenz und korrektes Mapping A/B/C/G; kein E3/E4-Status ohne Quellen-/Beweisakte.
+
+## Fachliche Seitenrevision · 03.11.2026
+Der bisherige Einstieg mit Ring-/Würfelgrafiken und unaufgelöstem Begriff „Feldakte“ wurde durch den mathematischen Tensorbegriff, einen expliziten 2D-Basiswechsel, sechs erläuterte Forschungsprozessschritte und klar getrennte Projekthypothesen ersetzt. Die historische Darstellung ist im Git weiter rekonstruierbar. Abnahme ausstehend: fachlicher Tensor-Review, Prozessbeispiel aus Dynamik/Feldtheorie, Browser- und Accessibility-Test, Nils' Autorenfreigabe.
+
+Quellstand der aktuellen Webdatei: `f0c48ef92a6ac9cf03bc3458af18fcc2867c5d5c`.
