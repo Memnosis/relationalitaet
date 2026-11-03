@@ -47,3 +47,6 @@ Die tatsächliche Fachausführung, Gegenprüfung und Rückbestätigung bleibt ei
 - Claude-Start: [Zyklus 001](CLAUDE_START_AUSTAUSCH_ZYKLUS_001.md).
 - GPT-Websitepaket: [Nächstes Website-Upgrade](../website/WEB_UPGRADE_BUENDEL_02_TENSOR_LOGIK_2026-11-03.md).
 - Koordination: [Issue #3](https://github.com/Memnosis/relationalitaet/issues/3).
+
+## Langfristige Fortschreibung – 100 Zyklen (Beschluss 03.11.2026)
+Dieser ursprüngliche 3/3/9/12-Rhythmus bleibt als **Zwischensteuerung und Autoren-Entscheidungs-Gate** bestehen. Übergeordnet gilt jetzt das [100-Zyklen-Programm](PROGRAMM_100_ZYKLEN_STUDIE_UND_BEREINIGUNG_2026-11-03.md) samt [20 reservierten Themenschwerpunkten](PROGRAMM_100_ZYKLEN_MANIFEST.json) (12 Mitmach, acht intern, vorläufig), Sicherheits-/Change-Audits nach 20/40/60/80/100 **vollständig bestätigten** Zyklen und einer DOCX-Gesamtstudie nach Zyklus 100. Eine optionale Verlängerung nach Zyklus 9 oder 12 ist **nicht automatisch genehmigt**. Operative KI-Rohgespräche sind nicht Teil der öffentlichen Website; für vollständige Archivierung ist ein wirklich privater Ort erforderlich.
