@@ -71,6 +71,24 @@ await visit('geoki.html',async p=>{
  const last=await p.locator('#selected').innerText();
  if(!last.includes('T3.E3.R3'))throw Error('Incorrect final address, expected T3.E3.R3; got '+last);
 });
+await visit('mitmachen-rueckgabe.html',async p=>{
+ const form=p.locator('#contribution');
+ await form.locator('#task').fill('GEO-OPS-01');
+ await form.locator('#question').fill('Kann die Rotation eine Fläche erhalten?');
+ await form.locator('#method').fill('Synthetische Geometrie-Eingaben und dokumentierte Schritte');
+ await form.locator('#result').fill('Simulierter Testfall: positives Resultat nur im beschriebenen Scope');
+ await form.locator('#source').fill('https://example.org/public-example');
+ await form.locator('#negative').fill('Grenzfälle wurden noch nicht geprüft');
+ await form.locator('#teststatus').selectOption('run_by_contributor');
+ const download=p.waitForEvent('download');
+ await p.locator('#download-result').click();
+ const file=await download;
+ if(file.suggestedFilename()!=='forschungsbeitrag-GEO-OPS-01.json')throw Error('Wrong export filename');
+ const local=await file.path();
+ const content=JSON.parse(fs.readFileSync(local,'utf8'));
+ if(content.task_id!=='GEO-OPS-01'||content.submission_status!=='not_submitted'||content.publication_approved!==false)throw Error('Unsafe or incorrect result contract');
+ if(!(await p.locator('#status').innerText()).includes('noch nicht eingereicht'))throw Error('Missing no-submission disclaimer');
+});
 await visit('glossar.html');
 await visit('interoperabilitaet.html');
 await browser.close();
