@@ -1,0 +1,150 @@
+{
+  "schema": "soulution.world-knowledge-rights-dividend.v0.1",
+  "as_of": "2026-11-03",
+  "status": "source_based_framework_not_economic_or_legal_adjudication",
+  "distinctions": [
+    "common_knowledge_and_public_domain",
+    "copyrighted_expression_and_creative_performance",
+    "personality_appearance_voice_and_biography",
+    "publicly_financed_research",
+    "lawfully_restricted_private_data"
+  ],
+  "jurisdictions": [
+    {
+      "jurisdiction": "DE",
+      "name": "KunstUrhG §§22–23",
+      "topic": "right_to_own_image",
+      "status": "in_force",
+      "source": "https://www.gesetze-im-internet.de/kunsturhg/__22.html",
+      "limits": "exceptions and context-specific balancing"
+    },
+    {
+      "jurisdiction": "DE",
+      "name": "BGB §823 personality protection",
+      "topic": "personality_protection",
+      "status": "in_force",
+      "source": "https://www.gesetze-im-internet.de/bgb/__823.html",
+      "limits": "specific elements and jurisprudence require case review"
+    },
+    {
+      "jurisdiction": "EU",
+      "name": "AI Act Article 50",
+      "topic": "synthetic_media_transparency",
+      "status": "applies_2026_08_02_with_transition",
+      "source": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+      "limits": "labeling is not consent or licensing"
+    },
+    {
+      "jurisdiction": "DK",
+      "name": "L49 2026",
+      "topic": "persona_voice_appearance_digital_replicas",
+      "status": "bill_introduced_not_enacted",
+      "source": "https://www.ft.dk/samling/20261/lovforslag/l49/index.htm",
+      "limits": "parody satire and freedom of expression safeguards"
+    },
+    {
+      "jurisdiction": "US_TN",
+      "name": "ELVIS Act Public Chapter 588 (2024)",
+      "topic": "voice_appearance_name_likeness",
+      "status": "in_force",
+      "source": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB2091&ga=113",
+      "limits": "state law and exemptions"
+    },
+    {
+      "jurisdiction": "US_CA",
+      "name": "AB2602 and AB1836 (2024)",
+      "topic": "digital_replicas_performers_living_and_deceased",
+      "status": "in_force",
+      "source": "https://www.gov.ca.gov/2024/09/17/governor-newsom-signs-bills-to-protect-digital-likeness-of-performers/",
+      "limits": "specific use categories and exceptions"
+    },
+    {
+      "jurisdiction": "US_FED",
+      "name": "NO FAKES Act 2026",
+      "topic": "federal_digital_replica_proposal",
+      "status": "proposed_not_enacted",
+      "source": "https://nofakesact.org/about/",
+      "limits": "verify congress.gov bill text before future reporting"
+    },
+    {
+      "jurisdiction": "UK",
+      "name": "2026 copyright AI report, digital replicas",
+      "topic": "possible_new_personality_right",
+      "status": "policy_review_not_new_law",
+      "source": "https://www.gov.uk/government/publications/report-and-impact-assessment-on-copyright-and-artificial-intelligence/report-on-copyright-and-artificial-intelligence",
+      "limits": "common law and sector rights only partial protection"
+    }
+  ],
+  "heritage": {
+    "reference": "https://www.unesco.org/en/memory-world",
+    "legal_guardrail": "Cultural destruction in conflict has specific legal standards; ordinary deletion, lawful privacy removal and genocide/crimes against humanity must not be equated without qualifying evidence",
+    "open_research": "Whether a new legal concept of irreversible knowledge destruction is needed"
+  },
+  "economic_value": {
+    "components": [
+      "incremental_productivity_and_value_added",
+      "license_revenues",
+      "publicly_financed_knowledge_returns",
+      "avoided_costs",
+      "educational_access_benefit",
+      "heritage_option_value"
+    ],
+    "double_count_warning": "Do not simply add all components",
+    "basic_income": "proposed policy scenario, no verified global pot",
+    "distribution_candidates": [
+      "public_infrastructure_dividend",
+      "capital_and_corporate_tax_receipts",
+      "public_knowledge_fund",
+      "universal_access_to_essential_open_services"
+    ],
+    "sources": [
+      "https://www.imf.org/en/Blogs/Articles/2024/06/17/fiscal-policy-can-help-broaden-the-gains-of-ai-to-humanity",
+      "https://www.imf.org/en/Blogs/Articles/2024/01/14/ai-will-transform-the-global-economy-lets-make-sure-it-benefits-humanity"
+    ]
+  },
+  "tasks": [
+    {
+      "id": "SOUL-PERSONA-01",
+      "goal": "Compare consent, revocation, remedies, synthetic output and digital persona for four jurisdictions",
+      "status": "open",
+      "outputs": [
+        "law_status_matrix",
+        "fact_cases",
+        "counterchecks"
+      ]
+    },
+    {
+      "id": "SOUL-WISSEN-01",
+      "goal": "Build verified status register for heritage preservation and documentary access, avoiding ungrounded criminal classification",
+      "status": "open",
+      "outputs": [
+        "cultural_heritage_risk_taxonomy",
+        "access_constraints",
+        "legal_classification"
+      ]
+    },
+    {
+      "id": "SOUL-DIVIDENDE-01",
+      "goal": "Test 4 different distribution models with actual value capture, tax, cost and participation data",
+      "status": "open",
+      "outputs": [
+        "economic_model",
+        "sources",
+        "sensitivity_analysis",
+        "double_count_checks"
+      ]
+    },
+    {
+      "id": "SOUL-SOFTWARE-01",
+      "goal": "Map existing digital building blocks for cooperative sovereign operations",
+      "status": "open",
+      "outputs": [
+        "component_inventory",
+        "license_matrix",
+        "real_interoperability_test"
+      ]
+    }
+  ],
+  "website": "docs/soulution-weltwissen-dividende.html",
+  "link_to_original_concept": "forschung/soulution/digitale-souveraenitaet/SCHROEDINGERS_INKUBATOR_REGISTER_V01.json"
+}
