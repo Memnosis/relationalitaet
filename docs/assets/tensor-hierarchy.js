@@ -2,10 +2,10 @@
 (()=>{"use strict";
 const groups=[
  {title:"Start",url:"index.html"},
- {title:"Forschung",items:[["Tensor verstehen","tensor-einfuehrung.html"],["KI-Geschichte & Ansätze","ki-geschichte.html"],["Forschungsthesen","thesen.html"],["Tensoralgebra","tensoralgebra.html"],["Forschungsbibliothek","bibliothek.html"],["Glossar & Codebuch","glossar.html"],["Formelernte","harvesting.html"]]},
+ {title:"Forschung",items:[["Tensor verstehen","tensor-einfuehrung.html"],["KI-Geschichte & Ansätze","ki-geschichte.html"],["KI-Systeme im Vergleich","ki-systeme.html"],["KI-Kernforschung & Skills","ki-kernforschung.html"],["Forschungsthesen","thesen.html"],["Tensoralgebra","tensoralgebra.html"],["Forschungsbibliothek","bibliothek.html"],["Glossar & Codebuch","glossar.html"],["Codebuch-Webindex","codebuch.html"],["Formelernte","harvesting.html"]]},
  {title:"Projekte",items:[["Projektübersicht","projektstand.html"],["Projektmanagement","projektmanagement.html"],["Mini-KI","minimal-ki.html"],["Geo-KI","geoki.html"],["Geo-KI Werkzeuge","geoki-systeme.html"],["Komprimierung","komprimierung.html"],["Visuelle Engine","visuelle-engine.html"],["KI-Kollegen","vernetzung-ki.html"]]},
- {title:"Inkubator",url:"inkubator.html"},
- {title:"Publikationen",items:[["Medien & Publikationen","medien.html"],["Forschungsbibliothek","bibliothek.html"],["SOULution Publikationen","soulution.html#publikationen"]]},
+ {title:"Inkubator",items:[["Forschungsinkubator","inkubator.html"],["Schrödingers Inkubator","soulution-schroedingers-inkubator.html"],["Quellen und Projektvergleich","soulution-inkubator-quellen.html"]]},
+ {title:"Publikationen",items:[["Medien & Publikationen","medien.html"],["Forschungsbibliothek","bibliothek.html"],["SOULution Publikationen","soulution.html#publikationen"],["Wissen Macht Wirklichkeit","wissen-macht-wirklichkeit.html"],["KI und kreative Rechte","soulution-ki-kreativrechte.html"],["Weltwissen und KI-Dividende","soulution-weltwissen-dividende.html"]]},
  {title:"Mitmachen",items:[["Mitmachprojekte","mitmachen.html"],["Forschungs-Taskkarten","taskkarten.html"],["Tensoralgebra weiterentwickeln","tensoralgebra.html#algebra-weiterentwickeln"]],special:"join"},
  {title:"SOULution",url:"soulution.html",special:"soulution"}
 ];
