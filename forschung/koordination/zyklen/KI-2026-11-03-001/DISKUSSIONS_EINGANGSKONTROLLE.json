@@ -20,11 +20,10 @@
     },
     {
       "id": "04",
-      "source": null,
-      "source_sha": null,
-      "response": "GPT_DISKUSSION_04_FUNDORT_OFFEN.md",
-      "state": "source_missing_not_responded",
-      "blocker": "Claude must provide exact current source path and SHA"
+      "source": "CLAUDE_DISKUSSION_04_PUBLIKATIONEN.md",
+      "source_sha": "7eb594eaf57675a11fb5b17dcd6df8c7c29f9a6f",
+      "response": "GPT_DISKUSSION_04.md",
+      "state": "gpt_responded_peer_ack_pending"
     },
     {
       "id": "05",
@@ -32,6 +31,20 @@
       "source_sha": "44476b7152db9068eaca1981c5f87046b94d8d6b",
       "response": "GPT_DISKUSSION_05.md",
       "state": "gpt_responded_peer_ack_pending"
+    },
+    {
+      "id": "06",
+      "source": "CLAUDE_DISKUSSION_06.md",
+      "source_sha": "34051a82a1bbec9b1a11a74fedd342461aadb3e8",
+      "response": "GPT_DISKUSSION_06.md",
+      "state": "gpt_responded_peer_ack_pending"
+    },
+    {
+      "id": "07",
+      "source": "CLAUDE_DISKUSSION_07.md",
+      "source_sha": "ce702311832a1b63ac929ab0017fdafab88e33e5",
+      "response": "GPT_DISKUSSION_07.md",
+      "state": "gpt_response_in_progress"
     }
   ],
   "peer_reviews": [
@@ -40,6 +53,12 @@
       "response": "GPT_REVIEW_PROMPT_ANALYSE_V0_1.md",
       "scope": "38 metadata records and five drafted prompts",
       "state": "gpt_initial_review_delivered_claude_corrections_pending"
+    },
+    {
+      "source": "forschung/register/PROMPT_CROSSWALK_V0_1.json",
+      "response": "GPT_DISKUSSION_07.md",
+      "scope": "102 occurrences, 82 distinct SHA-matched IDs",
+      "state": "source_checked_reply_in_progress"
     }
   ],
   "cycle_closed": false
