@@ -1,0 +1,304 @@
+{
+ "schema_version": "testregister/0.1",
+ "owner": "claude",
+ "erzeugt_am": "2026-11-03T14:09:18+00:00",
+ "regel": "Nur tatsächlich ausgeführte Tests. Ein bestandener Test belegt nur seinen Gegenstand (gilt_nur_fuer), keine Tensor- oder Feldtheorie. Prompt-Tests werden getrennt geführt.",
+ "tests": [
+  {
+   "test_id": "TST-K4-MP-001",
+   "task_ids": [
+    "P0-X4",
+    "DATA-004"
+   ],
+   "gegenstand": "Modus ponens {P, P→Q} ⊨ Q",
+   "testart": "wahrheitstafel",
+   "datei": "forschung/tensor/logik-claude/tests/test_formal_k4.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "klassische Aussagenlogik"
+  },
+  {
+   "test_id": "TST-K4-MP-002",
+   "task_ids": [
+    "P0-X4",
+    "DATA-004"
+   ],
+   "gegenstand": "Gegenmodell {P→Q} ⊭ Q (P=Q=falsch)",
+   "testart": "wahrheitstafel",
+   "datei": "forschung/tensor/logik-claude/tests/test_formal_k4.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "klassische Aussagenlogik"
+  },
+  {
+   "test_id": "TST-K4-MP-003",
+   "task_ids": [
+    "P0-X4"
+   ],
+   "gegenstand": "Bejahung des Konsequens ungültig",
+   "testart": "wahrheitstafel",
+   "datei": "forschung/tensor/logik-claude/tests/test_formal_k4.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "klassische Aussagenlogik"
+  },
+  {
+   "test_id": "TST-K4-G-001",
+   "task_ids": [
+    "KI-TRI-01",
+    "KI-TEST-08"
+   ],
+   "gegenstand": "P3□P3□P3: 27 Knoten, 54 Kanten",
+   "testart": "graphrechnung",
+   "datei": "forschung/tensor/logik-claude/tests/test_formal_k4.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "formaler Träger G"
+  },
+  {
+   "test_id": "TST-K4-G-002",
+   "task_ids": [
+    "KI-TRI-01",
+    "KI-TEST-08"
+   ],
+   "gegenstand": "K3□K3□K3: 81 Kanten",
+   "testart": "graphrechnung",
+   "datei": "forschung/tensor/logik-claude/tests/test_formal_k4.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "formaler Träger G"
+  },
+  {
+   "test_id": "TST-K4-G-003",
+   "task_ids": [
+    "KI-AXIS-23",
+    "KI-TEST-08"
+   ],
+   "gegenstand": "Mittelschicht trennt im Pfadmodell, nicht im Hammingmodell",
+   "testart": "graphrechnung",
+   "datei": "forschung/tensor/logik-claude/tests/test_formal_k4.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "formaler Träger G",
+   "anmerkung": "bestätigt Befund T-TENSOR-GRAPH-001 aus TESTNACHZUG_TEILPAKET"
+  },
+  {
+   "test_id": "TST-K4-G-004",
+   "task_ids": [
+    "KI-TEST-08"
+   ],
+   "gegenstand": "Zentrum (1,1,1) ist kein Schnittknoten",
+   "testart": "graphrechnung",
+   "datei": "forschung/tensor/logik-claude/tests/test_formal_k4.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "formaler Träger G"
+  },
+  {
+   "test_id": "TST-K4-ALG-001",
+   "task_ids": [
+    "WEB-B02-04"
+   ],
+   "gegenstand": "ℤ27 ≇ (ℤ3)³",
+   "testart": "gruppenrechnung",
+   "datei": "forschung/tensor/logik-claude/tests/test_formal_k4.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "Gegenbeispiel auf tensoralgebra.html"
+  },
+  {
+   "test_id": "TST-LOGIK10-FELDER-001",
+   "task_ids": [
+    "DATA-001",
+    "P0-X3"
+   ],
+   "gegenstand": "27 Feldbegriffe auf angegebener Seite des Originals",
+   "testart": "textabgleich",
+   "datei": "forschung/tensor/logik-claude/werkzeuge/logik10_extrakt.py",
+   "ergebnis": "bestanden (27/27, 6 Gegenproben korrekt negativ)",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "Logik-Tensor 1.0, Zenodo 19282895"
+  },
+  {
+   "test_id": "TST-LOGIK10-V21-001",
+   "task_ids": [
+    "DATA-001"
+   ],
+   "gegenstand": "Feldtabelle 2.1 §4 gleich Original",
+   "testart": "textabgleich",
+   "datei": "forschung/tensor/logik-claude/werkzeuge/logik10_extrakt.py",
+   "ergebnis": "bestanden (27/27)",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "Arbeitsfassung 2.1"
+  },
+  {
+   "test_id": "TST-REG-SCHEMA-001",
+   "task_ids": [
+    "DATA-003",
+    "P0-X1"
+   ],
+   "gegenstand": "Validator: 6 Positiv-, 6 Negativfälle",
+   "testart": "schemapruefung",
+   "datei": "forschung/register/pruefen.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "claim/0.1"
+  },
+  {
+   "test_id": "TST-KT-V66-01",
+   "task_ids": [
+    "DATA-005",
+    "KI-MATH-01"
+   ],
+   "gegenstand": "DLMF 1.2.1 symbolisch null unter angegebenem Bereich",
+   "testart": "symbolisch+numerisch",
+   "datei": "ki-tensor/pipeline/v66_verify_relations.py (Zweig)",
+   "ergebnis": "bestanden (sympy) und numerisch bestätigt (mpmath)",
+   "ausgefuehrt_von": "claude (Reproduktion)",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "bekannte DLMF-Identität, kein Tensorbeleg",
+   "quelle_commit": "cf0bbe1"
+  },
+  {
+   "test_id": "TST-KT-V66-02",
+   "task_ids": [
+    "DATA-005",
+    "KI-MATH-01"
+   ],
+   "gegenstand": "DLMF 1.2.3 symbolisch null unter angegebenem Bereich",
+   "testart": "symbolisch+numerisch",
+   "datei": "ki-tensor/pipeline/v66_verify_relations.py (Zweig)",
+   "ergebnis": "bestanden (sympy) und numerisch bestätigt (mpmath)",
+   "ausgefuehrt_von": "claude (Reproduktion)",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "bekannte DLMF-Identität, kein Tensorbeleg",
+   "quelle_commit": "cf0bbe1"
+  },
+  {
+   "test_id": "TST-KT-V66-03",
+   "task_ids": [
+    "DATA-005",
+    "KI-MATH-01"
+   ],
+   "gegenstand": "DLMF 1.2.4 symbolisch null unter angegebenem Bereich",
+   "testart": "symbolisch+numerisch",
+   "datei": "ki-tensor/pipeline/v66_verify_relations.py (Zweig)",
+   "ergebnis": "bestanden (sympy) und numerisch bestätigt (mpmath)",
+   "ausgefuehrt_von": "claude (Reproduktion)",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "bekannte DLMF-Identität, kein Tensorbeleg",
+   "quelle_commit": "cf0bbe1"
+  },
+  {
+   "test_id": "TST-KT-V66-04",
+   "task_ids": [
+    "DATA-005",
+    "KI-MATH-01"
+   ],
+   "gegenstand": "DLMF 1.2.7 symbolisch null unter angegebenem Bereich",
+   "testart": "symbolisch+numerisch",
+   "datei": "ki-tensor/pipeline/v66_verify_relations.py (Zweig)",
+   "ergebnis": "bestanden (sympy) und numerisch bestätigt (mpmath)",
+   "ausgefuehrt_von": "claude (Reproduktion)",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "bekannte DLMF-Identität, kein Tensorbeleg",
+   "quelle_commit": "cf0bbe1"
+  },
+  {
+   "test_id": "TST-KT-V66-05",
+   "task_ids": [
+    "DATA-005",
+    "KI-MATH-01"
+   ],
+   "gegenstand": "DLMF 5.5.1 symbolisch null unter angegebenem Bereich",
+   "testart": "symbolisch+numerisch",
+   "datei": "ki-tensor/pipeline/v66_verify_relations.py (Zweig)",
+   "ergebnis": "bestanden (sympy) und numerisch bestätigt (mpmath)",
+   "ausgefuehrt_von": "claude (Reproduktion)",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "bekannte DLMF-Identität, kein Tensorbeleg",
+   "quelle_commit": "cf0bbe1"
+  },
+  {
+   "test_id": "TST-KT-V66-06",
+   "task_ids": [
+    "DATA-005",
+    "KI-MATH-01"
+   ],
+   "gegenstand": "DLMF 5.5.2 symbolisch null unter angegebenem Bereich",
+   "testart": "symbolisch+numerisch",
+   "datei": "ki-tensor/pipeline/v66_verify_relations.py (Zweig)",
+   "ergebnis": "bestanden (sympy) und numerisch bestätigt (mpmath)",
+   "ausgefuehrt_von": "claude (Reproduktion)",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "bekannte DLMF-Identität, kein Tensorbeleg",
+   "quelle_commit": "cf0bbe1"
+  },
+  {
+   "test_id": "TST-KT-V66-07",
+   "task_ids": [
+    "DATA-005",
+    "KI-MATH-01"
+   ],
+   "gegenstand": "DLMF 5.12.1 symbolisch null unter angegebenem Bereich",
+   "testart": "symbolisch+numerisch",
+   "datei": "ki-tensor/pipeline/v66_verify_relations.py (Zweig)",
+   "ergebnis": "bestanden (sympy) und numerisch bestätigt (mpmath)",
+   "ausgefuehrt_von": "claude (Reproduktion)",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "bekannte DLMF-Identität, kein Tensorbeleg",
+   "quelle_commit": "cf0bbe1"
+  },
+  {
+   "test_id": "TST-KT-V66-GEGEN",
+   "task_ids": [
+    "DATA-005"
+   ],
+   "gegenstand": "DLMF 1.2.4 gilt nicht für n=0",
+   "testart": "gegenbeispiel",
+   "datei": "ki-tensor/pipeline/v66_verify_relations.py (Zweig)",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude (Reproduktion)",
+   "ausgefuehrt_am": "2026-11-03",
+   "gilt_nur_fuer": "Geltungsbereich",
+   "quelle_commit": "cf0bbe1"
+  }
+ ],
+ "verweise_fremde_tests": [
+  {
+   "test_id": "T-MINI-PRED-001",
+   "quelle": "forschung/register/TESTNACHZUG_TEILPAKET_2026-11-03.md",
+   "ergebnis_laut_quelle": "Abweichung 0,5043 gegenüber 0,5044 dokumentiert",
+   "von_claude_wiederholt": false
+  },
+  {
+   "test_id": "T-MINI-PRED-002",
+   "quelle": "forschung/register/TESTNACHZUG_TEILPAKET_2026-11-03.md",
+   "ergebnis_laut_quelle": "Regelbaseline gleich gut",
+   "von_claude_wiederholt": false
+  },
+  {
+   "test_id": "T-TENSOR-GRAPH-001",
+   "quelle": "forschung/register/TESTNACHZUG_TEILPAKET_2026-11-03.md",
+   "ergebnis_laut_quelle": "54/81 Kanten, Mittelschicht",
+   "von_claude_wiederholt": true
+  },
+  {
+   "test_id": "T-CONF-REGISTER-001",
+   "quelle": "forschung/register/TESTNACHZUG_TEILPAKET_2026-11-03.md",
+   "ergebnis_laut_quelle": "Registerstruktur ok, keine QCD-Validierung",
+   "von_claude_wiederholt": false
+  }
+ ]
+}

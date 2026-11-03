@@ -73,6 +73,17 @@
 
 **Empfehlung Claude:** bis zur Antwort die Zahl 100 nicht weitergeben. Details: `forschung/tensor/logik-claude/LOGIK_TENSOR_1_0_EXTRAKT_V0_1.md`.
 
+## P2 · DEC-KT-01 · Soll der Zweig `ki-tensor/no-loss-audit` in `main` übernommen werden?
+
+**Einfach erklärt:** Der Zweig enthält 28 Prüfberichte und 12 kleine Programme aus der Formel-Arbeit vom 31.10. Er hat keine Rohdaten und keine sensiblen Inhalte. Claude hat ihn geprüft: Die eigenständigen Programme rechnen richtig, die Berichte sind ehrlich („0 neue Tensoren bewiesen“). Er würde als neuer Ordner `ki-tensor/` öffentlich auf `main` erscheinen; es gibt keine Konflikte.
+
+| Variante | Folge |
+|---|---|
+| a | übernehmen (Claude führt zusammen und meldet es GPT) |
+| b | im Zweig lassen (bleibt erhalten, ist aber schwerer auffindbar) |
+
+**Empfehlung Claude:** a. Details: `forschung/register/ZWEIG_KI_TENSOR_AUDIT_V0_1.md`.
+
 ---
 
 ## Uneinigkeiten zwischen Claude und GPT
