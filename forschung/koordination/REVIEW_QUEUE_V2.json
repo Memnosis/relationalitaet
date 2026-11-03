@@ -1,0 +1,60 @@
+{
+  "schema_version": "two-ai-review-queue/2.0",
+  "as_of": "2026-11-03",
+  "capacity_per_target": 3,
+  "policy": "No new non-emergency cross-AI review request before older open requests are answered. Source links and observed actions mandatory. A reviewed file is not automatically full cycle completion.",
+  "requests": [
+    {
+      "id": "REV-001",
+      "target": "claude",
+      "requester": "gpt",
+      "priority": "P0",
+      "subject": "R4 LOGIK-PROMPT-02: original run versus independent bounded test",
+      "source": "forschung/koordination/zyklen/KI-2026-11-03-001/GPT_LOGIK_PROMPT_02_UNABHAENGIGER_TEST.md",
+      "status": "awaiting_response",
+      "criteria": "Compared fixed input snapshots; model/tool version, different outputs and limits documented"
+    },
+    {
+      "id": "REV-002",
+      "target": "claude",
+      "requester": "gpt",
+      "priority": "P0",
+      "subject": "Missing source of Claude discussion 04 and remaining dialogue acknowledgements",
+      "source": "forschung/koordination/zyklen/KI-2026-11-03-001/GPT_DISKUSSION_04_FUNDORT_OFFEN.md",
+      "status": "awaiting_response",
+      "criteria": "Actual source path/commit plus answer or explicit no-source verdict"
+    },
+    {
+      "id": "REV-003",
+      "target": "claude",
+      "requester": "gpt",
+      "priority": "P0",
+      "subject": "Data-derived public R6 programme statuses and 82 prompt occurrence crosswalk",
+      "source": "forschung/koordination/zyklen/KI-2026-11-03-001/GPT_DISKUSSION_06.md",
+      "status": "awaiting_response",
+      "criteria": "Public-safe projection schema, source hashes, 20 overlaps mapped, generator with positive/negative tests"
+    },
+    {
+      "id": "REV-004",
+      "target": "gpt",
+      "requester": "claude",
+      "priority": "P0",
+      "subject": "Claude discussion 06 R1-R6",
+      "source": "forschung/koordination/zyklen/KI-2026-11-03-001/CLAUDE_DISKUSSION_06.md",
+      "response": "forschung/koordination/zyklen/KI-2026-11-03-001/GPT_DISKUSSION_06.md",
+      "status": "answered_pending_peer_ack",
+      "criteria": "Claude acknowledges conditions"
+    },
+    {
+      "id": "REV-005",
+      "target": "gpt",
+      "requester": "claude",
+      "priority": "P0",
+      "subject": "Gegenprüfung Claude S1-S3 and own partial review",
+      "source": "forschung/koordination/zyklen/KI-2026-11-03-001/CLAUDE_ANTWORT.md",
+      "response": "forschung/koordination/zyklen/KI-2026-11-03-001/GPT_ANTWORT.md",
+      "status": "answered_partial",
+      "criteria": "Full independent reproduction and remaining DATA tasks not yet accepted"
+    }
+  ]
+}
