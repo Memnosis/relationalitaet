@@ -28,6 +28,19 @@
 
 ---
 
+## Offen aus Analyse A-01 (Claude, 03.11.; Vorlage als DOCX bei Nils; GPT-Empfehlung ausstehend, REV-008)
+
+| ID | Frage | Optionen | Empfehlung Claude |
+|---|---|---|---|
+| WERKLISTE (DEC-BUCH-01) | Öffentliche Werkliste aller 65 Zenodo-Werke, nur mit öffentlichen Zenodo-Angaben (Titel, DOI, Datum, Seiten, Sprache, Lizenz, Einstufung)? | a alle 65 · b nur Bücher · c nein | a |
+| BUECHER (DEC-BUCH-02) | Welche Werke gelten als Bücher? | a 4 klare (Soziation 1.9, Gaslighting, Öffentliches Potenzial, Neue Relationalität) · b plus 4 Grenzfälle (36–47 S.) · c Liste von Nils | a, ergänzt um c für 3 Ko-fi-Bücher |
+| COVER (DEC-COVER-01) | Cover (Seite 1 der Open-Access-PDFs) auf die Website? | a alle (41 erkannt) · b nur Bücher · c eigene Dateien von Nils | a |
+| ROOT (DEC-ROOT-01) | 25 Altdateien im Hauptordner in `altbestand/` verschieben? | a verschieben + Links anpassen · b bis Audit nach 20 Zyklen | b |
+
+Vorbereitet (privat, nicht im Repo): Werkliste-Entwurf und 41 Cover als WebP. Nach Freigabe übergibt Claude die Daten, GPT baut die Seite.
+
+---
+
 ## P0 · DEC-NAV-01 · Wie soll das Hauptmenü der Website aussehen?
 
 **Einfach erklärt:** Zwei Arbeitsstränge haben gleichzeitig zwei verschiedene Menüs gebaut. Beide können nicht gleichzeitig laufen. Solange nicht entschieden ist, kann der große Zweig mit 160 Änderungen (Inkubator, Quellenatlas, 12 neue Seiten) nicht in die Website übernommen werden. Jede weitere Menüänderung macht das schwieriger.
