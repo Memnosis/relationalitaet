@@ -1,0 +1,31 @@
+{
+  "schema_version": "mitmach-ergebnis-schema/0.1",
+  "description": "Schema of a manually reviewed, locally exported research contribution; no server receipt asserted.",
+  "required": [
+    "schema_version",
+    "task_id",
+    "question",
+    "method_and_inputs",
+    "observation",
+    "test_status",
+    "submission_status",
+    "publication_approved"
+  ],
+  "fields": {
+    "schema_version": "mitmach-ergebnis/0.1",
+    "task_id": "2-70 letter-digit-dot-hyphen-underscore characters",
+    "question": "nonempty text",
+    "method_and_inputs": "nonempty text",
+    "observation": "nonempty text",
+    "public_source_and_pinpoint": "optional text",
+    "negative_findings": "optional text",
+    "test_status": [
+      "not_run",
+      "run_by_contributor",
+      "negative_result"
+    ],
+    "independent_review": "pending",
+    "publication_approved": false,
+    "submission_status": "not_submitted"
+  }
+}
