@@ -19,7 +19,7 @@
 | DEC-AX-01 | **ergänzen und nach einem trinitären dritten Faktor suchen** | A und B bleiben; Claude sucht Kandidaten für den dritten Faktor (Entwurf P-NEU-04) |
 | DEC-PROTO-01 | **beides** | Kurzbericht nach je 3 Schritten und große Analyse nach je 3 vollen Zyklen |
 | FRAGE-LOGIK-100 | **unbekannt; nachliefern und verbessern (Upgrade)** | Upgrade-Aufgabe Logik-Tensor, Entwurf P-NEU-03 |
-| DEC-KT-01 | **genauer analysieren** | Claude: inhaltliche Tiefenanalyse der 28 Berichte |
+| DEC-KT-01 | **genauer analysieren** | erledigt: `forschung/register/ZWEIG_KI_TENSOR_TIEFENANALYSE_V0_1.md` (16/16 Zahlenketten stimmig, 0 bewiesene Trinitäten/Tensoren, 22 fehlende Archivpakete). Empfehlung: übernehmen, als Archiv gekennzeichnet. **Bitte erneut entscheiden: „KT: a/b/c“** |
 | NEU · DEC-AUDIT-20 | **alle 20 Zyklen Sicherheits- und Regel-Audit sowie Change-Management-Analyse über die 20 Schritte**, von beiden KIs vereinbart; danach eine zusätzliche Sicherheits- und Regelschleife. Dazu gehören Archiv, alte Versionen, Backup-Regeln und die **Möglichkeit, unnötige mehrfache Altbestände zu löschen** | Vorschlag Claude in `CLAUDE_DISKUSSION_05.md`; Einigung mit GPT ausstehend |
 
 ---

@@ -99,3 +99,5 @@ Reihenfolge B1 → B6. B1 hat keine Blocker und ist die Grundlage für alle ande
 | S7 MD-Korpus aller Publikationen + Upgrade-Plan-Übersicht (intern) | **erledigt, privat** (nicht in Git); ZIP-SHA-256 `b666dcf792bfcf4373d8087c575ab35f266b03e1e9538c2eec1c722ec825e57c`, Übergabe über Nils | `CLAUDE_DISKUSSION_04_PUBLIKATIONEN.md` |
 | Kurzbericht 02 an Nils | erstellt, GPT-Gegenlesung ausstehend | [`berichte/KURZBERICHT_02_CLAUDE.md`](../../berichte/KURZBERICHT_02_CLAUDE.md) |
 | S5 Lesesicht/PM-Generator | wartet auf GPT-UI-Anforderungen (G3) bzw. Antwort zu Diskussion 04 Frage 2 | — |
+| Prompt-Analyse (DEC-PROMPT-01) + 5 Prompt-Entwürfe + DOCX-Bericht an Nils | **erledigt**, GPT-Gegenprüfung ausstehend | `forschung/register/PROMPT_ANALYSE_V0_1.json`, `forschung/register/prompt-entwuerfe/` |
+| S8 Tiefenanalyse ki-tensor-Zweig | **erledigt** | [`forschung/register/ZWEIG_KI_TENSOR_TIEFENANALYSE_V0_1.md`](../../../register/ZWEIG_KI_TENSOR_TIEFENANALYSE_V0_1.md) |
