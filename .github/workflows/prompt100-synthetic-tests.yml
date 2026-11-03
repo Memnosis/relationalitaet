@@ -1,0 +1,19 @@
+name: Prompt Provenance Tests
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/prompt100_reconcile.py'
+      - 'scripts/test_prompt100_reconcile.py'
+      - '.github/workflows/prompt100-synthetic-tests.yml'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s scripts -p test_prompt100_reconcile.py -v
