@@ -72,7 +72,7 @@ Für jedes Feld prüfen wir getrennt (i) etablierte Definition des Fachbegriffs,
 
 Die ursprüngliche Feldtheorie enthält Pfade wie:
 - `LM:PRJ:NM-I-γ → ZM-II-γ → UM-II-γ` (Logik-Pilotprojektion),
-- `LM:RCT:UM-II-β → ZM-I-β → NM-I-β` (hier neue Arbeitskennung `RCT`, deren historische Abkürzung `RST` separat erhalten bleibt),
+- `LM:RST:UM-II-β → ZM-I-β → NM-I-β` (historische Reset-Kennung `RST` bleibt unverändert),
 - `LM:CYC:ZM-II-α → ZM-II-β → ZM-II-γ` (Kreislaufdarstellung).
 
 **Status:** Solche Pfeile bilden zunächst beschriftete fachliche Übergangsbehauptungen ab. Ob es Funktionen, Relationen, rekonstruierbare Schritte, reversible Isomorphismen oder nur didaktische Zusammenhänge sind, muss pro Pfeil entschieden werden. Insbesondere ist `ρ⁻¹` nicht allein deswegen die echte Umkehrfunktion, weil ein „Reset“ möglich ist. Bei nichtbijektivem `ρ` können etwa Präbildermengen oder eine alternative Rekonstruktionsprozedur vorliegen.
