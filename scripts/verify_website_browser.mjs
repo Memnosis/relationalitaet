@@ -51,6 +51,13 @@ await visit('codebuch.html');
 await visit('soulution-schroedingers-inkubator.html');
 await visit('soulution-inkubator-quellen.html');
 await visit('mitmachen.html');
+await visit('geoki.html',async p=>{
+ const points=p.locator('#matrix rect');
+ if(await points.count()!==27)throw Error('Tensor schematic must have exactly 27 selectable addresses');
+ await points.first().click();
+ const chosen=await p.locator('#selected').innerText();
+ if(!chosen.includes('T1.E1.R1'))throw Error('Incorrect first address, expected T1.E1.R1; got '+chosen);
+});
 await visit('glossar.html');
 await visit('interoperabilitaet.html');
 await browser.close();
