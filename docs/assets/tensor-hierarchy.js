@@ -6,7 +6,7 @@ const groups=[
  {title:"Projekte",items:[["Projektübersicht","projektstand.html"],["Projektmanagement","projektmanagement.html"],["Mini-KI","minimal-ki.html"],["Geo-KI","geoki.html"],["Geo-KI Werkzeuge","geoki-systeme.html"],["Komprimierung","komprimierung.html"],["Visuelle Engine","visuelle-engine.html"],["KI-Kollegen","vernetzung-ki.html"]]},
  {title:"Inkubator",items:[["Forschungsinkubator","inkubator.html"],["Schrödingers Inkubator","soulution-schroedingers-inkubator.html"],["Quellen und Projektvergleich","soulution-inkubator-quellen.html"]]},
  {title:"Publikationen",items:[["Medien & Publikationen","medien.html"],["Forschungsbibliothek","bibliothek.html"],["SOULution Publikationen","soulution.html#publikationen"],["Wissen Macht Wirklichkeit","wissen-macht-wirklichkeit.html"],["KI und kreative Rechte","soulution-ki-kreativrechte.html"],["Weltwissen und KI-Dividende","soulution-weltwissen-dividende.html"]]},
- {title:"Mitmachen",items:[["Mitmachprojekte","mitmachen.html"],["Forschungs-Taskkarten","taskkarten.html"],["Tensoralgebra weiterentwickeln","tensoralgebra.html#algebra-weiterentwickeln"]],special:"join"},
+ {title:"Mitmachen",items:[["Mitmachprojekte","mitmachen.html"],["Forschungs-Taskkarten","taskkarten.html"],["Ergebnis zurückgeben","mitmachen-rueckgabe.html"],["Tensoralgebra weiterentwickeln","tensoralgebra.html#algebra-weiterentwickeln"]],special:"join"},
  {title:"SOULution",url:"soulution.html",special:"soulution"}
 ];
 function init(){
