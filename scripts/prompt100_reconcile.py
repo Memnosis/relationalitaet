@@ -27,6 +27,15 @@ def load_export(path):
     return [convo for batch in batches for convo in batch]
 
 def run(args):
+    root=Path(__file__).resolve().parents[1]
+    private_path=Path(args.private_out).resolve()
+    public_path=Path(args.public_out).resolve()
+    if private_path.is_relative_to(root):
+        raise ValueError("private transcript must not be exported inside the public Git checkout")
+    if public_path.is_relative_to(root):
+        raise ValueError("unreviewed aggregate must not be exported inside the public Git checkout")
+    if private_path==public_path:
+        raise ValueError("private and public output paths must differ")
     chats=load_export(args.export)
     allowed=set(json.loads(Path(args.allowlist).read_text(encoding="utf-8")))
     tasks=json.loads(Path(args.requirements).read_text(encoding="utf-8"))["requirements"]
@@ -43,7 +52,7 @@ def run(args):
                 issues.append({"chat_id":cid,"message_id":mid,"problem":"missing_create_time"});continue
             c=m.get("content") or {}
             parts=c.get("parts") if c.get("content_type")=="text" else None
-            message="\\n".join(x for x in (parts or []) if isinstance(x,str)).strip()
+            message="\n".join(x for x in (parts or []) if isinstance(x,str)).strip()
             if not message:
                 issues.append({"chat_id":cid,"message_id":mid,"problem":"nontext_or_empty"});continue
             msgs.append({"chat_id":cid,"message_id":mid,"utc":when,"text":message})
@@ -64,8 +73,8 @@ def run(args):
         private.append({"sequence":seq,"chat_id":m["chat_id"],"message_id":m["message_id"],"timestamp_utc":datetime.fromtimestamp(m["utc"],timezone.utc).isoformat(),"original":m["text"],"candidates":candidates[:12],"decision":"requires_manual_review"})
     public={"schema_version":"prompt100-aggregate/0.1","selected_messages":len(private),"requested_messages":args.limit,"source_complete":len(private)==args.limit and not issues,"source_issues":len(issues),"atomic_requirements":len(tasks),"suggested_links":sum(len(r["candidates"]) for r in private),"human_reviewed_links":0,"verified_task_completions":None,"scope":"only explicitly allowed project conversations","note":"Lexical links are search hints, not verified semantic, revision or completion decisions. No raw user text is exported."}
     priv={"schema_version":"prompt100-private/0.1","records":private,"source_issues":issues,"edge_types":["creates","repeats","modifies","replaces","cancels","clarifies","not_related"],"review_required":True}
-    Path(args.private_out).write_text(json.dumps(priv,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
-    Path(args.public_out).write_text(json.dumps(public,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+    Path(args.private_out).write_text(json.dumps(priv,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    Path(args.public_out).write_text(json.dumps(public,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(json.dumps(public,ensure_ascii=False))
 
 if __name__=="__main__":
