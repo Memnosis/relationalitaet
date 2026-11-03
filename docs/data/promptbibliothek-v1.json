@@ -71,17 +71,20 @@
       "tests": {
         "construction": "passed_source_case",
         "source_case_id": "H1",
-        "model_output": "not_run_controlled",
-        "independent_scientific_validation": "not_complete"
+        "model_output": "single_model_authored_demonstration_not_independently_validated",
+        "independent_scientific_validation": "not_complete",
+        "model_comparison": "not_run",
+        "example_description": "Transparenz durch Veröffentlichung genügt nicht ohne tatsächlichen Zugang, Prüfung und Rechenschaft (Öffentliches Potenzial)."
       },
-      "status": "source_case_verified_not_llm_benchmarked",
+      "status": "single_demonstration_with_source_case_not_independently_validated",
       "links": {
         "professional_tasks": [
           "VP-01",
           "VP-07",
           "VP-11"
         ],
-        "site": "docs/wissen-macht-wirklichkeit.html"
+        "site": "docs/wissen-macht-wirklichkeit.html",
+        "example": "local conversation artifact LESERPROMPTS_5_ANWENDUNGSBEISPIELE.md"
       },
       "provenance": "forschung/soulution/shared/buch-prompts-v0.1.json"
     },
@@ -105,17 +108,20 @@
       "tests": {
         "construction": "passed_source_case",
         "source_case_id": "H2",
-        "model_output": "not_run_controlled",
-        "independent_scientific_validation": "not_complete"
+        "model_output": "single_model_authored_demonstration_not_independently_validated",
+        "independent_scientific_validation": "not_complete",
+        "model_comparison": "not_run",
+        "example_description": "Originalbücher enthalten keine auszahlungsgenauen SVIK-Endempfänger; Aufgabe muss Datenlücke statt erfundener Geldflüsse ausweisen."
       },
-      "status": "source_case_verified_not_llm_benchmarked",
+      "status": "single_demonstration_with_source_case_not_independently_validated",
       "links": {
         "professional_tasks": [
           "VP-05",
           "VP-06",
           "VP-11"
         ],
-        "site": "docs/wissen-macht-wirklichkeit.html"
+        "site": "docs/wissen-macht-wirklichkeit.html",
+        "example": "local conversation artifact LESERPROMPTS_5_ANWENDUNGSBEISPIELE.md"
       },
       "provenance": "forschung/soulution/shared/buch-prompts-v0.1.json"
     },
@@ -139,17 +145,20 @@
       "tests": {
         "construction": "passed_source_case",
         "source_case_id": "H3",
-        "model_output": "not_run_controlled",
-        "independent_scientific_validation": "not_complete"
+        "model_output": "single_model_authored_demonstration_not_independently_validated",
+        "independent_scientific_validation": "not_complete",
+        "model_comparison": "not_run",
+        "example_description": "Das Öffentlichkeits-Audit ist ein Theorie- und Forschungsmodell, dessen vollständige unabhängige Validierung nicht aus dem Buchtext folgt."
       },
-      "status": "source_case_verified_not_llm_benchmarked",
+      "status": "single_demonstration_with_source_case_not_independently_validated",
       "links": {
         "professional_tasks": [
           "VP-08",
           "VP-09",
           "VP-11"
         ],
-        "site": "docs/wissen-macht-wirklichkeit.html"
+        "site": "docs/wissen-macht-wirklichkeit.html",
+        "example": "local conversation artifact LESERPROMPTS_5_ANWENDUNGSBEISPIELE.md"
       },
       "provenance": "forschung/soulution/shared/buch-prompts-v0.1.json"
     },
@@ -173,10 +182,12 @@
       "tests": {
         "construction": "passed_source_case",
         "source_case_id": "H4",
-        "model_output": "not_run_controlled",
-        "independent_scientific_validation": "not_complete"
+        "model_output": "single_model_authored_demonstration_not_independently_validated",
+        "independent_scientific_validation": "not_complete",
+        "model_comparison": "not_run",
+        "example_description": "Fünf Rechenschaftsstufen aus Mediale Potenziale als Prüfrahmen; keine pauschale Feststellung staatlicher Pflichtverletzung."
       },
-      "status": "source_case_verified_not_llm_benchmarked",
+      "status": "single_demonstration_with_source_case_not_independently_validated",
       "links": {
         "professional_tasks": [
           "VP-01",
@@ -185,7 +196,8 @@
           "VP-08",
           "VP-11"
         ],
-        "site": "docs/wissen-macht-wirklichkeit.html"
+        "site": "docs/wissen-macht-wirklichkeit.html",
+        "example": "local conversation artifact LESERPROMPTS_5_ANWENDUNGSBEISPIELE.md"
       },
       "provenance": "forschung/soulution/shared/buch-prompts-v0.1.json"
     },
@@ -209,17 +221,20 @@
       "tests": {
         "construction": "passed_source_case",
         "source_case_id": "H5",
-        "model_output": "not_run_controlled",
-        "independent_scientific_validation": "not_complete"
+        "model_output": "single_model_authored_demonstration_not_independently_validated",
+        "independent_scientific_validation": "not_complete",
+        "model_comparison": "not_run",
+        "example_description": "Isolierte Lösungskraft durch Dokumentation und Lernmedien anschlussfähig machen; strukturelle Wirkung bleibt fallbezogen zu testen."
       },
-      "status": "source_case_verified_not_llm_benchmarked",
+      "status": "single_demonstration_with_source_case_not_independently_validated",
       "links": {
         "professional_tasks": [
           "VP-10",
           "VP-11",
           "VP-12"
         ],
-        "site": "docs/wissen-macht-wirklichkeit.html"
+        "site": "docs/wissen-macht-wirklichkeit.html",
+        "example": "local conversation artifact LESERPROMPTS_5_ANWENDUNGSBEISPIELE.md"
       },
       "provenance": "forschung/soulution/shared/buch-prompts-v0.1.json"
     },
@@ -1345,5 +1360,15 @@
       },
       "provenance": "editorial synthesis 2026-11-03"
     }
-  ]
+  ],
+  "counts_by_status": {
+    "single_demonstration_with_source_case_not_independently_validated": 5,
+    "open_not_completed": 14,
+    "prior_partial_rule_test_requires_reconcile": 1,
+    "partial_test_with_evidence": 7,
+    "prompt_prepared_only": 13,
+    "designed_not_benchmarked": 2,
+    "source_case_verified_not_llm_benchmarked": 5
+  },
+  "version": "v1.1"
 }
