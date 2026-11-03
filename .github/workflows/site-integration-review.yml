@@ -1,0 +1,34 @@
+name: Website Integration and No-Loss Coverage
+on:
+  push:
+    paths:
+      - 'docs/**'
+      - 'forschung/website/LETZTE_100_PROMPTS_QUELLEN_CROSSWALK_V1.json'
+      - 'forschung/website/seiten/**'
+      - 'scripts/validate_site_integration.py'
+      - '.github/workflows/site-integration-review.yml'
+  pull_request:
+    paths:
+      - 'docs/**'
+      - 'forschung/website/LETZTE_100_PROMPTS_QUELLEN_CROSSWALK_V1.json'
+      - 'scripts/validate_site_integration.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Selective integration and 72 atomic task audit
+        run: python scripts/validate_site_integration.py
+      - name: Existing public project-management privacy contract
+        run: python scripts/validate_pm_public_v2.py
+      - name: JavaScript syntax
+        run: |
+          node --check docs/assets/tensor-hierarchy.js
+          node --check docs/assets/projektmanagement.js
+          node --check docs/assets/workflow-stand.js
