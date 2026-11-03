@@ -52,6 +52,8 @@ function taskCard(t,stages,mode){
  const impacts=el("p","Wirkt auf: "+(t.domains||[]).join(" · "),"pm-meta");box.append(impacts);
  const direct=(t.enables||[]).filter(id=>snapshot.tasks.some(x=>x.id===id));
  box.append(el("p","Nächster Schritt: "+t.next,"pm-meta"));
+ const verification=t.owner_verification||{};const primaryLabel=verification.primary_status==="partial_evidence_only"?"Eigennachweise vorhanden – Abschluss noch offen":verification.primary_status==="not_independently_verified_by_gpt"?"Claude-Eigenprüfung getrennt nachzuweisen":verification.primary_status==="joint_signoff_pending"?"Beide KIs müssen gesondert bestätigen":"Eigennachweise noch offen";
+ box.append(el("p","Aufgabenverifikation: "+primaryLabel+" · Gegenevaluation: "+(verification.independent_peer_status==="pending"?"ausstehend":"siehe Prüfakte"),"pm-meta"));
  const details=el("details");const sum=el("summary","Abhängigkeiten, Schlüsselwirkung und Nachweise");details.append(sum);
  const req=el("p","Benötigt: "+(t.requires?.length?t.requires.join(", "):"keine als Pflicht eingetragene Voraufgabe"));details.append(req);
  details.append(el("p","Ermöglicht unmittelbar: "+(direct.length?direct.join(", "):"keine dokumentierte Folgeaufgabe")));
