@@ -1,0 +1,203 @@
+{
+  "schema": "tensor.address-grid.structural.v0.1",
+  "date": "2026-11-03",
+  "status": "structural_only_no_scientific_relation_validation",
+  "count": 27,
+  "positions": [
+    {
+      "id": "T1-E1-R1",
+      "trinity": 1,
+      "element": 1,
+      "role": 1,
+      "status": "structure_only"
+    },
+    {
+      "id": "T1-E1-R2",
+      "trinity": 1,
+      "element": 1,
+      "role": 2,
+      "status": "structure_only"
+    },
+    {
+      "id": "T1-E1-R3",
+      "trinity": 1,
+      "element": 1,
+      "role": 3,
+      "status": "structure_only"
+    },
+    {
+      "id": "T1-E2-R1",
+      "trinity": 1,
+      "element": 2,
+      "role": 1,
+      "status": "structure_only"
+    },
+    {
+      "id": "T1-E2-R2",
+      "trinity": 1,
+      "element": 2,
+      "role": 2,
+      "status": "structure_only"
+    },
+    {
+      "id": "T1-E2-R3",
+      "trinity": 1,
+      "element": 2,
+      "role": 3,
+      "status": "structure_only"
+    },
+    {
+      "id": "T1-E3-R1",
+      "trinity": 1,
+      "element": 3,
+      "role": 1,
+      "status": "structure_only"
+    },
+    {
+      "id": "T1-E3-R2",
+      "trinity": 1,
+      "element": 3,
+      "role": 2,
+      "status": "structure_only"
+    },
+    {
+      "id": "T1-E3-R3",
+      "trinity": 1,
+      "element": 3,
+      "role": 3,
+      "status": "structure_only"
+    },
+    {
+      "id": "T2-E1-R1",
+      "trinity": 2,
+      "element": 1,
+      "role": 1,
+      "status": "structure_only"
+    },
+    {
+      "id": "T2-E1-R2",
+      "trinity": 2,
+      "element": 1,
+      "role": 2,
+      "status": "structure_only"
+    },
+    {
+      "id": "T2-E1-R3",
+      "trinity": 2,
+      "element": 1,
+      "role": 3,
+      "status": "structure_only"
+    },
+    {
+      "id": "T2-E2-R1",
+      "trinity": 2,
+      "element": 2,
+      "role": 1,
+      "status": "structure_only"
+    },
+    {
+      "id": "T2-E2-R2",
+      "trinity": 2,
+      "element": 2,
+      "role": 2,
+      "status": "structure_only"
+    },
+    {
+      "id": "T2-E2-R3",
+      "trinity": 2,
+      "element": 2,
+      "role": 3,
+      "status": "structure_only"
+    },
+    {
+      "id": "T2-E3-R1",
+      "trinity": 2,
+      "element": 3,
+      "role": 1,
+      "status": "structure_only"
+    },
+    {
+      "id": "T2-E3-R2",
+      "trinity": 2,
+      "element": 3,
+      "role": 2,
+      "status": "structure_only"
+    },
+    {
+      "id": "T2-E3-R3",
+      "trinity": 2,
+      "element": 3,
+      "role": 3,
+      "status": "structure_only"
+    },
+    {
+      "id": "T3-E1-R1",
+      "trinity": 3,
+      "element": 1,
+      "role": 1,
+      "status": "structure_only"
+    },
+    {
+      "id": "T3-E1-R2",
+      "trinity": 3,
+      "element": 1,
+      "role": 2,
+      "status": "structure_only"
+    },
+    {
+      "id": "T3-E1-R3",
+      "trinity": 3,
+      "element": 1,
+      "role": 3,
+      "status": "structure_only"
+    },
+    {
+      "id": "T3-E2-R1",
+      "trinity": 3,
+      "element": 2,
+      "role": 1,
+      "status": "structure_only"
+    },
+    {
+      "id": "T3-E2-R2",
+      "trinity": 3,
+      "element": 2,
+      "role": 2,
+      "status": "structure_only"
+    },
+    {
+      "id": "T3-E2-R3",
+      "trinity": 3,
+      "element": 2,
+      "role": 3,
+      "status": "structure_only"
+    },
+    {
+      "id": "T3-E3-R1",
+      "trinity": 3,
+      "element": 3,
+      "role": 1,
+      "status": "structure_only"
+    },
+    {
+      "id": "T3-E3-R2",
+      "trinity": 3,
+      "element": 3,
+      "role": 2,
+      "status": "structure_only"
+    },
+    {
+      "id": "T3-E3-R3",
+      "trinity": 3,
+      "element": 3,
+      "role": 3,
+      "status": "structure_only"
+    }
+  ],
+  "tests": {
+    "count27": true,
+    "unique27": true,
+    "reversible_address": true,
+    "negative_claim": "structural enumeration does NOT validate scientific tensor"
+  }
+}
