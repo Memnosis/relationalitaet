@@ -11,6 +11,7 @@ root=Path(__file__).resolve().parents[1]
 queue=json.loads((root/"forschung/koordination/REVIEW_QUEUE_V2.json").read_text())
 public=json.loads((root/"docs/data/workflow-stand-v1.json").read_text())
 inventory=json.loads((root/"forschung/register/PROMPT_ARCHITEKTUR_INVENTAR_V0_1.json").read_text())
+crosswalk=json.loads((root/"forschung/register/PROMPT_CROSSWALK_V0_1.json").read_text())
 errors=[]
 if queue.get("schema_version")!="two-ai-review-queue/2.0":errors.append("unknown review queue schema")
 open_request=[x for x in queue["requests"] if x["status"]=="awaiting_response"]
@@ -26,11 +27,13 @@ if public.get("schema_version")!="public-workflow/1.0":errors.append("unknown pu
 p=public["prompt_overview"]
 counts=[int(g["count"]) for g in p["labels"]]
 actual=inventory["zaehlung"]
-if sum(counts)!=actual["objekte_gesamt"] or p["objects"]!=actual["objekte_gesamt"]:
-    errors.append("public prompt total disagrees with source inventory")
+if sum(counts)!=actual["objekte_gesamt"] or p["unique_ids"]!=crosswalk["zaehlung"]["eindeutige_ids"]:
+    errors.append("public distinct prompt count disagrees with source inventory")
+if p["objects"]!=crosswalk["zaehlung"]["vorkommen"]:
+    errors.append("public occurrence count disagrees with crosswalk")
 if p["overlapping_occurrences"]!=actual["doppelt_gefuehrt"]:errors.append("overlap count disagrees with source inventory")
 if p["mutually_tested"]!=actual["wechselseitig_getestet"]:errors.append("mutual tested count disagrees with source inventory")
-if p.get("unique_count_verified") is not False:errors.append("do not infer unique prompts before crosswalk")
+if p.get("unique_count_verified") is not True:errors.append("unique IDs must be tied to the source crosswalk")
 if public["cycle_overview"]["verified"]!=0:errors.append("cycle closure needs separate status evidence")
 if public.get("public_privacy")!="aggregate_only":errors.append("public UI must use aggregate-only projection")
 raw_terms=("meta_prompt","raw_prompt","private_manuscript","credential")
