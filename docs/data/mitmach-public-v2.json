@@ -1,0 +1,126 @@
+{
+  "schema_version": "mitmach-public/0.2",
+  "source_path": "forschung/website/MITMACH_TASKS.json",
+  "source_blob_sha": "322e8317c98049a16394502cae2db7379d8cf8af",
+  "source_count": 13,
+  "scope": "Public-safe inventory of task IDs, titles and area; no raw meta prompt, internal source URLs or unapproved outputs.",
+  "tasks": [
+    {
+      "id": "WEB-GLOS-01",
+      "title": "Glossar v15.4 vollständig integrieren",
+      "area": "Tensor",
+      "status": "Fachaufgabe in Vorbereitung",
+      "public_summary": "Prüfbare Aufgabenbeschreibung und direkter Arbeits-Prompt folgen nach tatsächlichem Test und redaktioneller Freigabe.",
+      "public_release": "not_approved",
+      "prompt_execution_status": "not_run"
+    },
+    {
+      "id": "WEB-CODE-01",
+      "title": "Codebuch relational auf der Website anbinden",
+      "area": "Tensor",
+      "status": "Fachaufgabe in Vorbereitung",
+      "public_summary": "Prüfbare Aufgabenbeschreibung und direkter Arbeits-Prompt folgen nach tatsächlichem Test und redaktioneller Freigabe.",
+      "public_release": "not_approved",
+      "prompt_execution_status": "not_run"
+    },
+    {
+      "id": "HARV-01",
+      "title": "DLMF-Formelernte reproduzierbar vervollständigen",
+      "area": "Tensor",
+      "status": "Fachaufgabe in Vorbereitung",
+      "public_summary": "Prüfbare Aufgabenbeschreibung und direkter Arbeits-Prompt folgen nach tatsächlichem Test und redaktioneller Freigabe.",
+      "public_release": "not_approved",
+      "prompt_execution_status": "not_run"
+    },
+    {
+      "id": "HARV-02",
+      "title": "Wissenschaftsmining v2.7 und Codebuch v3.7/v3.8 testen",
+      "area": "Tensor",
+      "status": "Fachaufgabe in Vorbereitung",
+      "public_summary": "Prüfbare Aufgabenbeschreibung und direkter Arbeits-Prompt folgen nach tatsächlichem Test und redaktioneller Freigabe.",
+      "public_release": "not_approved",
+      "prompt_execution_status": "not_run"
+    },
+    {
+      "id": "HARV-03",
+      "title": "Physik- und Quantenbibliotheken harvesten",
+      "area": "Geo-KI",
+      "status": "Fachaufgabe in Vorbereitung",
+      "public_summary": "Prüfbare Aufgabenbeschreibung und direkter Arbeits-Prompt folgen nach tatsächlichem Test und redaktioneller Freigabe.",
+      "public_release": "not_approved",
+      "prompt_execution_status": "not_run"
+    },
+    {
+      "id": "HARV-04",
+      "title": "Sprachdaten und Übersetzungsmodelle harvesten",
+      "area": "Komprimierung",
+      "status": "Fachaufgabe in Vorbereitung",
+      "public_summary": "Prüfbare Aufgabenbeschreibung und direkter Arbeits-Prompt folgen nach tatsächlichem Test und redaktioneller Freigabe.",
+      "public_release": "not_approved",
+      "prompt_execution_status": "not_run"
+    },
+    {
+      "id": "HARV-05",
+      "title": "Wissenschaftliche Dreierfamilien quellenbasiert finden",
+      "area": "Tensor",
+      "status": "Fachaufgabe in Vorbereitung",
+      "public_summary": "Prüfbare Aufgabenbeschreibung und direkter Arbeits-Prompt folgen nach tatsächlichem Test und redaktioneller Freigabe.",
+      "public_release": "not_approved",
+      "prompt_execution_status": "not_run"
+    },
+    {
+      "id": "HARV-06",
+      "title": "API-, Skill- und Toolkataloge inventarisieren",
+      "area": "KI-Kollegen",
+      "status": "Fachaufgabe in Vorbereitung",
+      "public_summary": "Prüfbare Aufgabenbeschreibung und direkter Arbeits-Prompt folgen nach tatsächlichem Test und redaktioneller Freigabe.",
+      "public_release": "not_approved",
+      "prompt_execution_status": "not_run"
+    },
+    {
+      "id": "MINI-OBS-01",
+      "title": "Beobachter aus Messereignissen generieren",
+      "area": "Mini-KI",
+      "status": "Fachaufgabe in Vorbereitung",
+      "public_summary": "Prüfbare Aufgabenbeschreibung und direkter Arbeits-Prompt folgen nach tatsächlichem Test und redaktioneller Freigabe.",
+      "public_release": "not_approved",
+      "prompt_execution_status": "not_run"
+    },
+    {
+      "id": "GEO-OPS-01",
+      "title": "Geo-KI-Operatoren mit Gegenproben erweitern",
+      "area": "Geo-KI",
+      "status": "Fachaufgabe in Vorbereitung",
+      "public_summary": "Prüfbare Aufgabenbeschreibung und direkter Arbeits-Prompt folgen nach tatsächlichem Test und redaktioneller Freigabe.",
+      "public_release": "not_approved",
+      "prompt_execution_status": "not_run"
+    },
+    {
+      "id": "KOMP-01",
+      "title": "Regelverdichtung und Rekonstruktion prüfen",
+      "area": "Komprimierung",
+      "status": "Fachaufgabe in Vorbereitung",
+      "public_summary": "Prüfbare Aufgabenbeschreibung und direkter Arbeits-Prompt folgen nach tatsächlichem Test und redaktioneller Freigabe.",
+      "public_release": "not_approved",
+      "prompt_execution_status": "not_run"
+    },
+    {
+      "id": "VIS-01",
+      "title": "Tensor und Datengraph visuell erforschen",
+      "area": "Visuelle Engine",
+      "status": "Fachaufgabe in Vorbereitung",
+      "public_summary": "Prüfbare Aufgabenbeschreibung und direkter Arbeits-Prompt folgen nach tatsächlichem Test und redaktioneller Freigabe.",
+      "public_release": "not_approved",
+      "prompt_execution_status": "not_run"
+    },
+    {
+      "id": "KOL-01",
+      "title": "KI-Kollegen und Taskübergabe vergleichen",
+      "area": "KI-Kollegen",
+      "status": "Fachaufgabe in Vorbereitung",
+      "public_summary": "Prüfbare Aufgabenbeschreibung und direkter Arbeits-Prompt folgen nach tatsächlichem Test und redaktioneller Freigabe.",
+      "public_release": "not_approved",
+      "prompt_execution_status": "not_run"
+    }
+  ]
+}
