@@ -1,0 +1,82 @@
+{
+ "schema_version": "gegenrechnung/0.1",
+ "gegenstand": "KI-Tensor v6.6, 7 DLMF-Identitäten",
+ "quelle_formeln": "https://dlmf.nist.gov (1.2, 5.5, 5.12), abgerufen 2026-11-03",
+ "sympy": "1.13.3",
+ "mpmath": "1.3.0",
+ "ergebnisse": [
+  {
+   "dlmf": "1.2.1",
+   "formel": "C(n,k) = n!/((n-k)!k!) = C(n,n-k)",
+   "annahmen": "n,k ganz, 0<=k<=n",
+   "symbolisch": true,
+   "numerisch": "3/3",
+   "grenzfaelle": {
+    "symmetrie_allgemein_symbolisch": true
+   },
+   "ergebnis": "bestaetigt"
+  },
+  {
+   "dlmf": "1.2.3",
+   "formel": "sum_{k=0}^{n} C(n,k) = 2^n",
+   "annahmen": "n ganz >= 0",
+   "symbolisch": true,
+   "numerisch": "4/4",
+   "grenzfaelle": {},
+   "ergebnis": "bestaetigt"
+  },
+  {
+   "dlmf": "1.2.4",
+   "formel": "sum_{k=0}^{n} (-1)^k C(n,k) = 0",
+   "annahmen": "n ganz >= 1 (DLMF)",
+   "symbolisch": true,
+   "numerisch": "4/4",
+   "grenzfaelle": {
+    "n=0 liefert 1 (Zweig-Befund bestätigt)": true
+   },
+   "ergebnis": "bestaetigt"
+  },
+  {
+   "dlmf": "1.2.7",
+   "formel": "C(z+1,k) = C(z,k) + C(z,k-1)",
+   "annahmen": "z komplex, k ganz >= 1",
+   "symbolisch": true,
+   "numerisch": "3/3",
+   "grenzfaelle": {},
+   "ergebnis": "bestaetigt"
+  },
+  {
+   "dlmf": "5.5.1",
+   "formel": "Gamma(z+1) = z Gamma(z)",
+   "annahmen": "z != 0,-1,-2,... (Pole)",
+   "symbolisch": true,
+   "numerisch": "4/4",
+   "grenzfaelle": {
+    "Pol bei z=0 erkannt": true
+   },
+   "ergebnis": "bestaetigt"
+  },
+  {
+   "dlmf": "5.5.2",
+   "formel": "psi(z+1) = psi(z) + 1/z",
+   "annahmen": "z != 0,-1,-2,...",
+   "symbolisch": true,
+   "numerisch": "3/3",
+   "grenzfaelle": {},
+   "ergebnis": "bestaetigt"
+  },
+  {
+   "dlmf": "5.12.1",
+   "formel": "B(a,b) = ∫0^1 t^(a-1)(1-t)^(b-1) dt = Γ(a)Γ(b)/Γ(a+b)",
+   "annahmen": "Re a > 0, Re b > 0",
+   "symbolisch": true,
+   "numerisch": "3/3",
+   "grenzfaelle": {
+    "a=0 außerhalb (Integral divergent, Γ(0) Pol)": true
+   },
+   "ergebnis": "bestaetigt"
+  }
+ ],
+ "kontrollprobe_falsche_identitaet_erkannt": true,
+ "gesamt": "OK"
+}
