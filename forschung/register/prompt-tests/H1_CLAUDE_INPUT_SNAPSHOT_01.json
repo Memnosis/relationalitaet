@@ -1,0 +1,18 @@
+{
+ "prompt_id": "H1",
+ "prompt_text": "Prüfe die Behauptung [TEXT]. Finde Ursprung, Datierung, Originalquelle und Gegenbefunde. Trenne belegte Aussagen, Interpretation und offene Fragen. Nenne Fundstellen und sage ausdrücklich, was nicht geprüft werden konnte.",
+ "prompt_sha256": "fa0bb55b050dd0b25784962c2c380addd503c6f074dc0e7f3267624932af5eec",
+ "quelle": "docs/data/promptbibliothek-v1.json (Zweig integration/soulution-shared-core-2026-11-03, Blob 4e09282)",
+ "faelle": [
+  {
+   "fall": "H1-C-POS",
+   "text": "„Die Relationale Logik ist keine weitere Variante, sondern die Meta-Logik, die alle bisherigen Logiksysteme als spezielle Realisierungen derselben trinitären Architektur versteht.“",
+   "erwartung": "Ursprung und Datum belegbar; Gegenbefunde aus der Fachliteratur benennbar; Allgemeinheitsanspruch nicht belegt"
+  },
+  {
+   "fall": "H1-C-NEG",
+   "text": "„Der Logik-Tensor wurde am 21.03.2026 veröffentlicht und erstmals hat damit jemand Logiksysteme in einem gemeinsamen Rahmen verglichen.“",
+   "erwartung": "Datierung falsch (28.03.2026); „erstmals“ durch ältere Rahmen widerlegt oder zumindest nicht haltbar"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "schema_version": "prompt-ausfuehrung/0.1",
+ "owner": "claude",
+ "prompt_id": "H1",
+ "r4_schritt": "4 · unabhängiger Gegenlauf (blind), mit eigener Eingabe",
+ "revision": "promptbibliothek-v1.json Blob 4e09282509879f5cbceccf3638f307740b5f6d6e (Zweig integration/soulution-shared-core-2026-11-03)",
+ "blindheit": "gelesen: prompt, inputs, title, purpose; NICHT gelesen: outputs, tests, provenance, BUCHQUELLEN_FALLTESTS",
+ "input_snapshot": {
+  "datei": "forschung/register/prompt-tests/H1_CLAUDE_INPUT_SNAPSHOT_01.json",
+  "sha256": "a985549f4382fec12b09bcb528e8375f252abec5b05ef39b0127b3e439fbe19e",
+  "prompt_text_sha256": "fa0bb55b050dd0b25784962c2c380addd503c6f074dc0e7f3267624932af5eec"
+ },
+ "tool_version": "Claude (Anthropic), Claude Code Cloud-Session; Modellkennung nicht im Repository; keine Websuche in diesem Lauf",
+ "executed_at": "2026-11-03T15:10:17+00:00",
+ "executed_by": "claude",
+ "output": {
+  "datei": "forschung/register/prompt-tests/H1_CLAUDE_BLIND_01.md",
+  "sha256": "25045816ae07d373c20053ee42fbdaff920e78d61899913aee910d2a4ca9bb12",
+  "versiegelt": true,
+  "versiegelt_hinweis": "Ergebnis vor Kenntnis des GPT-Autorlaufs committet; Vergleich erst danach (R4, GPT_DISKUSSION_06)"
+ },
+ "validators": [
+  "Fundstellen S. 14, 15, 16, 19, 20 per Sichtprüfung (TST-SICHT-LOGIK10)",
+  "Datum per Zenodo-Metadaten und PDF-Fußzeile",
+  "Negativfall: falsches Datum erkannt, „erstmals“ zurückgeführt"
+ ],
+ "negatives": [
+  "H1-C-NEG: Datierung 21.03. statt 28.03. erkannt; Ursprung der Verwechslung benannt"
+ ],
+ "grenzen": [
+  "Literatur-Gegenbefunde aus Fachwissen, nicht digital geprüft",
+  "Eingabe ≠ GPT-Autoreingabe; identischer Vergleich erst nach Übermittlung der GPT-Eingabe"
+ ],
+ "prompt_execution_status": "peer_run_independent_input",
+ "public_release": "not_approved",
+ "reviewer": "GPT (Vergleich ausstehend)"
+}
