@@ -1,0 +1,477 @@
+{
+  "schema_version": "pm-public-curated/0.2",
+  "snapshot_date": "2026-11-03",
+  "source_schema": "pm-public-curated/0.1",
+  "source_blob_sha": "75a0d4285ffc90b3ca9971304f32412d7d8fe42d",
+  "scope": "public website task cards plus aggregated internal tasks; not yet generated from Claude's canonical evidence-register",
+  "notes": "Die interne Forschungsarbeit wird auf der Website nur als Summe geführt. Bestehende vollständige ältere JSON-Datei bleibt aufgrund der Git-Historie öffentlich und muss separat rechtlich/redaktionell bereinigt werden.",
+  "stages": [
+    {
+      "key": "inventory",
+      "label": "Bestand"
+    },
+    {
+      "key": "specification",
+      "label": "Beschrieben"
+    },
+    {
+      "key": "implementation",
+      "label": "Umgesetzt"
+    },
+    {
+      "key": "testing",
+      "label": "Getestet"
+    },
+    {
+      "key": "peer_review",
+      "label": "Gegenprüfung"
+    },
+    {
+      "key": "release",
+      "label": "Freigegeben"
+    }
+  ],
+  "internal_summary": {
+    "count": 6,
+    "completed_6_stages": 0,
+    "stage_counts": {
+      "inventory": 6,
+      "specification": 6,
+      "implementation": 0,
+      "testing": 0,
+      "peer_review": 0,
+      "release": 0
+    },
+    "review_status": "Claude-Eigenprüfung und GPT-Gegenprüfung nicht für alle Positionen abgeschlossen; Stand ist eine vorläufige Bestandsprojektion, kein geprüfter fachlicher Gesamtstand"
+  },
+  "tasks": [
+    {
+      "id": "PM-WEB-01",
+      "title": "Projektmanagement-Dashboard und Task-Wirkungswege",
+      "owner": "gpt",
+      "priority": "P0",
+      "stage": {
+        "inventory": 1,
+        "specification": 1,
+        "implementation": 1,
+        "testing": 0,
+        "peer_review": 0,
+        "release": 0
+      },
+      "scores": {
+        "urgency": 3,
+        "architecture": 3,
+        "leverage": 3,
+        "unblocks": 3,
+        "risk": 2,
+        "readiness": 3,
+        "effort": 2
+      },
+      "requires": [],
+      "enables": [
+        "PM-WEB-02"
+      ],
+      "domains": [
+        "Projektsteuerung",
+        "Website",
+        "Forschung",
+        "Mitmachen"
+      ],
+      "evidence": "docs/projektmanagement.html",
+      "next": "JS-/Desktop-Funktion, Datenvalidierung und Claudes fachliches Aufgabenreview abnehmen.",
+      "stage_evidence": {
+        "inventory": {
+          "path": "docs/projektmanagement.html",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "specification": {
+          "path": "docs/projektmanagement.html",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "implementation": {
+          "path": "docs/projektmanagement.html",
+          "kind": "source_or_working_evidence",
+          "review": "static_git_artifact_not_end_to_end_test"
+        }
+      },
+      "last_activity": {
+        "date": "2026-11-03",
+        "stage": "implementation",
+        "commit": "2f2bf80ba01ae64f3757aff05d7fae7eb89332c4",
+        "summary": "Neuer öffentlicher Web-/Auditstand in Git; Browser und fachliches Peerreview noch offen"
+      },
+      "owner_verification": {
+        "primary": "gpt",
+        "primary_status": "partial_evidence_only",
+        "independent_peer_status": "pending",
+        "end_to_end_status": "not_verified"
+      },
+      "private_dependency_count": 2,
+      "public_status_note": "Eigene Website-Nachweise, keine fremde Fachfreigabe"
+    },
+    {
+      "id": "PM-WEB-02",
+      "title": "Gesamtaudit: sämtliche Fachseiten und Lernvoraussetzungen",
+      "owner": "gpt",
+      "priority": "P0",
+      "stage": {
+        "inventory": 1,
+        "specification": 1,
+        "implementation": 1,
+        "testing": 0,
+        "peer_review": 0,
+        "release": 0
+      },
+      "scores": {
+        "urgency": 3,
+        "architecture": 3,
+        "leverage": 3,
+        "unblocks": 2,
+        "risk": 2,
+        "readiness": 3,
+        "effort": 2
+      },
+      "requires": [],
+      "enables": [
+        "PM-HISTORY-01",
+        "PM-GEO-01"
+      ],
+      "domains": [
+        "Didaktik",
+        "Website",
+        "Alle Projekte"
+      ],
+      "evidence": "forschung/website/SEITENAUDIT_GESAMT_LERNWEGE_THESEN_GEOKI_2026-11-03.md",
+      "next": "Claude-Fach-/Didaktik-Gegenprüfung durchführen, Abweichungen pro Seite abarbeiten.",
+      "stage_evidence": {
+        "inventory": {
+          "path": "forschung/website/SEITENAUDIT_GESAMT_LERNWEGE_THESEN_GEOKI_2026-11-03.md",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "specification": {
+          "path": "forschung/website/SEITENAUDIT_GESAMT_LERNWEGE_THESEN_GEOKI_2026-11-03.md",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "implementation": {
+          "path": "forschung/website/SEITENAUDIT_GESAMT_LERNWEGE_THESEN_GEOKI_2026-11-03.md",
+          "kind": "source_or_working_evidence",
+          "review": "static_git_artifact_not_end_to_end_test"
+        }
+      },
+      "last_activity": {
+        "date": "2026-11-03",
+        "stage": "implementation",
+        "commit": "8cfb453b0b1871655c939543c4eecd66b254e0de",
+        "summary": "Neuer öffentlicher Web-/Auditstand in Git; Browser und fachliches Peerreview noch offen"
+      },
+      "owner_verification": {
+        "primary": "gpt",
+        "primary_status": "partial_evidence_only",
+        "independent_peer_status": "pending",
+        "end_to_end_status": "not_verified"
+      },
+      "private_dependency_count": 1,
+      "public_status_note": "Eigene Website-Nachweise, keine fremde Fachfreigabe"
+    },
+    {
+      "id": "PM-NAV-01",
+      "title": "Zwei Navigationssysteme verlustfrei vergleichen",
+      "owner": "gpt",
+      "priority": "P0",
+      "stage": {
+        "inventory": 1,
+        "specification": 1,
+        "implementation": 0,
+        "testing": 0,
+        "peer_review": 0,
+        "release": 0
+      },
+      "scores": {
+        "urgency": 3,
+        "architecture": 3,
+        "leverage": 3,
+        "unblocks": 3,
+        "risk": 3,
+        "readiness": 2,
+        "effort": 3
+      },
+      "requires": [],
+      "enables": [
+        "PM-WEB-02"
+      ],
+      "domains": [
+        "Navigation",
+        "Website",
+        "Barrierefreiheit"
+      ],
+      "evidence": "forschung/koordination/zyklen/KI-2026-11-03-001/GPT_REVIEW_DATEN_VORLAEUFIG.md",
+      "next": "16 betroffene Seiten und 4 geschützte Anker gegenprüfen, nicht automatisch mergen.",
+      "stage_evidence": {
+        "inventory": {
+          "path": "",
+          "kind": "source_or_working_evidence",
+          "review": "referenced source withheld from public detail"
+        },
+        "specification": {
+          "path": "",
+          "kind": "source_or_working_evidence",
+          "review": "referenced source withheld from public detail"
+        }
+      },
+      "owner_verification": {
+        "primary": "gpt",
+        "primary_status": "partial_evidence_only",
+        "independent_peer_status": "pending",
+        "end_to_end_status": "not_verified"
+      },
+      "private_dependency_count": 0,
+      "public_status_note": "Eigene Website-Nachweise, keine fremde Fachfreigabe"
+    },
+    {
+      "id": "PM-HISTORY-01",
+      "title": "Geschichte der KI, alternative KI-Systeme und Forschungsweg",
+      "owner": "gpt",
+      "priority": "P1",
+      "stage": {
+        "inventory": 1,
+        "specification": 1,
+        "implementation": 1,
+        "testing": 0,
+        "peer_review": 0,
+        "release": 0
+      },
+      "scores": {
+        "urgency": 2,
+        "architecture": 2,
+        "leverage": 3,
+        "unblocks": 2,
+        "risk": 1,
+        "readiness": 2,
+        "effort": 2
+      },
+      "requires": [
+        "PM-WEB-02"
+      ],
+      "enables": [
+        "PM-GEO-01"
+      ],
+      "domains": [
+        "Einführung",
+        "Mini-KI",
+        "Tensor",
+        "Bildung"
+      ],
+      "evidence": "docs/ki-geschichte.html",
+      "next": "Claudes Fachreview und konkreter Vergleich zu Regel-/Agent-/Lernbaselines; Browserabnahme.",
+      "stage_evidence": {
+        "inventory": {
+          "path": "docs/ki-geschichte.html",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "specification": {
+          "path": "docs/ki-geschichte.html",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "implementation": {
+          "path": "docs/ki-geschichte.html",
+          "kind": "source_or_working_evidence",
+          "review": "static_git_artifact_not_end_to_end_test"
+        }
+      },
+      "last_activity": {
+        "date": "2026-11-03",
+        "stage": "implementation",
+        "commit": "29941a279a925c97992c8e3d73deb96ca57b10af",
+        "summary": "Neuer öffentlicher Web-/Auditstand in Git; Browser und fachliches Peerreview noch offen"
+      },
+      "owner_verification": {
+        "primary": "gpt",
+        "primary_status": "partial_evidence_only",
+        "independent_peer_status": "pending",
+        "end_to_end_status": "not_verified"
+      },
+      "private_dependency_count": 1,
+      "public_status_note": "Eigene Website-Nachweise, keine fremde Fachfreigabe"
+    },
+    {
+      "id": "PM-GEO-01",
+      "title": "Geo-KI: bestehende Systeme, Datenbanken, Schnittstellen",
+      "owner": "gpt",
+      "priority": "P1",
+      "stage": {
+        "inventory": 1,
+        "specification": 1,
+        "implementation": 1,
+        "testing": 0,
+        "peer_review": 0,
+        "release": 0
+      },
+      "scores": {
+        "urgency": 2,
+        "architecture": 2,
+        "leverage": 3,
+        "unblocks": 2,
+        "risk": 1,
+        "readiness": 2,
+        "effort": 2
+      },
+      "requires": [
+        "PM-WEB-02"
+      ],
+      "enables": [],
+      "domains": [
+        "Geo-KI",
+        "Skills",
+        "Inkubator",
+        "Mitmachen"
+      ],
+      "evidence": "docs/geoki-systeme.html",
+      "next": "Bibliotheken mit identischen Geometriedaten praktisch benchmarken, Lizenzen/Versionen prüfen.",
+      "stage_evidence": {
+        "inventory": {
+          "path": "docs/geoki-systeme.html",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "specification": {
+          "path": "docs/geoki-systeme.html",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "implementation": {
+          "path": "docs/geoki-systeme.html",
+          "kind": "source_or_working_evidence",
+          "review": "static_git_artifact_not_end_to_end_test"
+        }
+      },
+      "last_activity": {
+        "date": "2026-11-03",
+        "stage": "implementation",
+        "commit": "b47f391d42f37a0e88632e77bcc53026d4e064ed",
+        "summary": "Neuer öffentlicher Web-/Auditstand in Git; Browser und fachliches Peerreview noch offen"
+      },
+      "owner_verification": {
+        "primary": "gpt",
+        "primary_status": "partial_evidence_only",
+        "independent_peer_status": "pending",
+        "end_to_end_status": "not_verified"
+      },
+      "private_dependency_count": 1,
+      "public_status_note": "Eigene Website-Nachweise, keine fremde Fachfreigabe"
+    },
+    {
+      "id": "PM-THESIS-WEB",
+      "title": "Öffentlicher Thesenatlas mit klarer wissenschaftlicher Zuordnung",
+      "owner": "gpt",
+      "priority": "P1",
+      "stage": {
+        "inventory": 1,
+        "specification": 0,
+        "implementation": 0,
+        "testing": 0,
+        "peer_review": 0,
+        "release": 0
+      },
+      "scores": {
+        "urgency": 2,
+        "architecture": 3,
+        "leverage": 3,
+        "unblocks": 2,
+        "risk": 3,
+        "readiness": 1,
+        "effort": 2
+      },
+      "requires": [],
+      "enables": [],
+      "domains": [
+        "Website",
+        "Thesen",
+        "Mitmachen",
+        "Publikationen"
+      ],
+      "evidence": "docs/thesen.html",
+      "next": "Didaktischer Theseneinstieg existiert; einzelne Aussagen und Tests erst nach Claudes originalgetreuem Quellenexport anbinden.",
+      "stage_evidence": {
+        "inventory": {
+          "path": "docs/thesen.html",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        }
+      },
+      "owner_verification": {
+        "primary": "gpt",
+        "primary_status": "partial_evidence_only",
+        "independent_peer_status": "pending",
+        "end_to_end_status": "not_verified"
+      },
+      "private_dependency_count": 2,
+      "public_status_note": "Eigene Website-Nachweise, keine fremde Fachfreigabe"
+    },
+    {
+      "id": "PM-CYCLE-01",
+      "title": "Zwei-KI-Gegenprüfung und Abschlüsse nach jedem vollen Zyklus",
+      "owner": "both",
+      "priority": "P0",
+      "stage": {
+        "inventory": 1,
+        "specification": 1,
+        "implementation": 1,
+        "testing": 0,
+        "peer_review": 0,
+        "release": 0
+      },
+      "scores": {
+        "urgency": 3,
+        "architecture": 3,
+        "leverage": 3,
+        "unblocks": 3,
+        "risk": 2,
+        "readiness": 3,
+        "effort": 2
+      },
+      "requires": [],
+      "enables": [
+        "PM-WEB-02"
+      ],
+      "domains": [
+        "Website",
+        "Daten",
+        "Forschung",
+        "Projektsteuerung"
+      ],
+      "evidence": "forschung/koordination/RHYTHMUS_3_3_9_12_KI_AUSTAUSCH_2026-11-03.md",
+      "next": "Claude-Lieferung + GPT-Gegenprüfung + Rückbestätigung + Bericht vollständig nachweisen.",
+      "stage_evidence": {
+        "inventory": {
+          "path": "forschung/koordination/RHYTHMUS_3_3_9_12_KI_AUSTAUSCH_2026-11-03.md",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "specification": {
+          "path": "forschung/koordination/RHYTHMUS_3_3_9_12_KI_AUSTAUSCH_2026-11-03.md",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        },
+        "implementation": {
+          "path": "forschung/koordination/RHYTHMUS_3_3_9_12_KI_AUSTAUSCH_2026-11-03.md",
+          "kind": "source_or_working_evidence",
+          "review": "not_necessarily_independently_validated"
+        }
+      },
+      "owner_verification": {
+        "primary": "both",
+        "primary_status": "joint_signoff_pending",
+        "independent_peer_status": "pending",
+        "end_to_end_status": "not_verified"
+      },
+      "private_dependency_count": 1,
+      "public_status_note": "Eigene Website-Nachweise, keine fremde Fachfreigabe"
+    }
+  ]
+}
