@@ -1,0 +1,633 @@
+{
+  "schema_version": "0.1.0",
+  "generated_on": "2026-11-03",
+  "description": "Combined research registry derived from two existing GitHub task files plus explicitly provisional historical reconstruction tasks. Not a reconstruction of missing original archives.",
+  "record_count": 24,
+  "source_files": [
+    "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
+    "forschung/soulution/FIN_DEM_ROOM_FORSCHUNGSMODULE_V4.md",
+    "forschung/website/UPGRADE_100PLUS_PROMPTARCHITEKTUR_2026-11-03.md"
+  ],
+  "rules": {
+    "no_loss": true,
+    "stable_ids": true,
+    "source_glossary_sync_required": true,
+    "external_prompts_require_execution_and_editorial_approval": true,
+    "historical_count_not_equal_to_imported_rows": true
+  },
+  "records": [
+    {
+      "id": "GEO-M1",
+      "project": "Geo-KI",
+      "title": "Generieren – Komponieren – Prüfen – Exportieren",
+      "kind": "research_task",
+      "status": "prompt_prepared_not_approved",
+      "origin": {
+        "path": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
+        "id": "GEO-M1"
+      },
+      "goal": "Verbinde den bestehenden geometrischen Python-Kern mit typisierten Operatoren, einer Testpipeline, mindestens einer SVG-Ausgabe und einer inversen/semantischen Rückprüfung.",
+      "acceptance": [
+        "Reproduzierbare Eingaben und Ausgaben",
+        "Verifizierbare Quellen und Versionen",
+        "Negativtest sowie Rückprobe",
+        "Abnahme und No-Loss-Protokoll"
+      ],
+      "dependencies": [
+        "GEO-OPS-01"
+      ],
+      "source_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json",
+        "https://memnosis.github.io/relationalitaet/medien.html"
+      ],
+      "public_release": "review_required",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "test_status": "not_verified_in_combined_registry"
+    },
+    {
+      "id": "FMT-H01",
+      "project": "Interoperabilität",
+      "title": "Offene Format- und Skillstandards harvesten",
+      "kind": "research_task",
+      "status": "prompt_prepared_not_approved",
+      "origin": {
+        "path": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
+        "id": "FMT-H01"
+      },
+      "goal": "Erfasse die acht Formatfamilien, Spezifikationen, Bibliotheken und Versionen als nachgewiesenen, maschinenlesbaren Katalog.",
+      "acceptance": [
+        "Reproduzierbare Eingaben und Ausgaben",
+        "Verifizierbare Quellen und Versionen",
+        "Negativtest sowie Rückprobe",
+        "Abnahme und No-Loss-Protokoll"
+      ],
+      "dependencies": [],
+      "source_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json",
+        "https://memnosis.github.io/relationalitaet/medien.html"
+      ],
+      "public_release": "review_required",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "test_status": "not_verified_in_combined_registry"
+    },
+    {
+      "id": "FMT-H02",
+      "project": "Interoperabilität",
+      "title": "Konvertierungsgraph und Roundtrip-Proben",
+      "kind": "research_task",
+      "status": "prompt_prepared_not_approved",
+      "origin": {
+        "path": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
+        "id": "FMT-H02"
+      },
+      "goal": "Bestimme für Formatpaare verfügbare Adapter und teste Umkehrbarkeit, numerische/semantische Informationsverluste und Metadaten.",
+      "acceptance": [
+        "Reproduzierbare Eingaben und Ausgaben",
+        "Verifizierbare Quellen und Versionen",
+        "Negativtest sowie Rückprobe",
+        "Abnahme und No-Loss-Protokoll"
+      ],
+      "dependencies": [],
+      "source_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json",
+        "https://memnosis.github.io/relationalitaet/medien.html"
+      ],
+      "public_release": "review_required",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "test_status": "not_verified_in_combined_registry"
+    },
+    {
+      "id": "FMT-H03",
+      "project": "Geo-KI",
+      "title": "CAD/GIS/3D-Operatoren interoperabel testen",
+      "kind": "research_task",
+      "status": "prompt_prepared_not_approved",
+      "origin": {
+        "path": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
+        "id": "FMT-H03"
+      },
+      "goal": "Implementiere kontrollierte Adapter für zwei ausgewählte Bibliotheken, vergleiche Datenmodelle und prüfe Symmetrien, Einheiten und Topologie.",
+      "acceptance": [
+        "Reproduzierbare Eingaben und Ausgaben",
+        "Verifizierbare Quellen und Versionen",
+        "Negativtest sowie Rückprobe",
+        "Abnahme und No-Loss-Protokoll"
+      ],
+      "dependencies": [],
+      "source_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json",
+        "https://memnosis.github.io/relationalitaet/medien.html"
+      ],
+      "public_release": "review_required",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "test_status": "not_verified_in_combined_registry"
+    },
+    {
+      "id": "FMT-H04",
+      "project": "Interoperabilität",
+      "title": "Wissenschaftliche Daten- und Arrayformate prüfen",
+      "kind": "research_task",
+      "status": "prompt_prepared_not_approved",
+      "origin": {
+        "path": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
+        "id": "FMT-H04"
+      },
+      "goal": "Harvest HDF5, NetCDF-CF, Zarr, Arrow, Parquet, inklusive Schema- und Einheitenmetadaten.",
+      "acceptance": [
+        "Reproduzierbare Eingaben und Ausgaben",
+        "Verifizierbare Quellen und Versionen",
+        "Negativtest sowie Rückprobe",
+        "Abnahme und No-Loss-Protokoll"
+      ],
+      "dependencies": [],
+      "source_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json",
+        "https://memnosis.github.io/relationalitaet/medien.html"
+      ],
+      "public_release": "review_required",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "test_status": "not_verified_in_combined_registry"
+    },
+    {
+      "id": "FMT-H05",
+      "project": "Mini-KI",
+      "title": "API-, MCP- und Workflow-Skills harvesten",
+      "kind": "research_task",
+      "status": "prompt_prepared_not_approved",
+      "origin": {
+        "path": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
+        "id": "FMT-H05"
+      },
+      "goal": "Untersuche Schnittstellen- und Skillstandards, Versionsverträge, Rechte und sichere Ausführung bei OpenAPI, MCP, CWL und anderen.",
+      "acceptance": [
+        "Reproduzierbare Eingaben und Ausgaben",
+        "Verifizierbare Quellen und Versionen",
+        "Negativtest sowie Rückprobe",
+        "Abnahme und No-Loss-Protokoll"
+      ],
+      "dependencies": [],
+      "source_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json",
+        "https://memnosis.github.io/relationalitaet/medien.html"
+      ],
+      "public_release": "review_required",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "test_status": "not_verified_in_combined_registry"
+    },
+    {
+      "id": "WEB-PAPER-01",
+      "project": "Tensor",
+      "title": "Tensor-Forschungspaper und wissenschaftliche Einführung verknüpfen",
+      "kind": "research_task",
+      "status": "prompt_prepared_not_approved",
+      "origin": {
+        "path": "forschung/website/GEOKI_INTEROP_MEILENSTEINE.json",
+        "id": "WEB-PAPER-01"
+      },
+      "goal": "Verknüpfe das Logik-Tensor-Original und das Weiterentwicklungspaper im Forschungsbereich und gestalte die drei 3×3-Matrizen mit Quellen.",
+      "acceptance": [
+        "Reproduzierbare Eingaben und Ausgaben",
+        "Verifizierbare Quellen und Versionen",
+        "Negativtest sowie Rückprobe",
+        "Abnahme und No-Loss-Protokoll"
+      ],
+      "dependencies": [],
+      "source_urls": [
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md",
+        "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json",
+        "https://memnosis.github.io/relationalitaet/medien.html"
+      ],
+      "public_release": "review_required",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "test_status": "not_verified_in_combined_registry"
+    },
+    {
+      "id": "FIN-OPS-01",
+      "project": "SOULution",
+      "title": "Bundeshaushalt / Quellenharmonisierung",
+      "kind": "research_task",
+      "status": "planned_not_approved",
+      "origin": {
+        "path": "forschung/soulution/FIN_DEM_ROOM_FORSCHUNGSMODULE_V4.md",
+        "id": "FIN-OPS-01"
+      },
+      "acceptance": [
+        "offene Beispieldaten, Datenjahr, Einheit, Klassifikation, Lizenz und Importtest"
+      ],
+      "dependencies": [],
+      "source_urls": [],
+      "public_release": "review_required",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "test_status": "not_verified_in_combined_registry"
+    },
+    {
+      "id": "FIN-OPS-02",
+      "project": "SOULution",
+      "title": "Wohnkosten-Sankey",
+      "kind": "research_task",
+      "status": "planned_not_approved",
+      "origin": {
+        "path": "forschung/soulution/FIN_DEM_ROOM_FORSCHUNGSMODULE_V4.md",
+        "id": "FIN-OPS-02"
+      },
+      "acceptance": [
+        "reproduzierbare Rechnung, Parameter, Fehlergrenzen und lesbare Tabelle"
+      ],
+      "dependencies": [],
+      "source_urls": [],
+      "public_release": "review_required",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "test_status": "not_verified_in_combined_registry"
+    },
+    {
+      "id": "DEM-OPS-01",
+      "project": "SOULution",
+      "title": "Demokratieportal-Vergleich",
+      "kind": "research_task",
+      "status": "planned_not_approved",
+      "origin": {
+        "path": "forschung/soulution/FIN_DEM_ROOM_FORSCHUNGSMODULE_V4.md",
+        "id": "DEM-OPS-01"
+      },
+      "acceptance": [
+        "Pol.is, Decidim, CONSUL: strukturierte Funktionsmatrix, Datenschutz, Verfahrensanschluss"
+      ],
+      "dependencies": [],
+      "source_urls": [],
+      "public_release": "review_required",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "test_status": "not_verified_in_combined_registry"
+    },
+    {
+      "id": "DEM-OPS-02",
+      "project": "SOULution",
+      "title": "öffentliche Gemeinsamkeiten / Minderheiten",
+      "kind": "research_task",
+      "status": "planned_not_approved",
+      "origin": {
+        "path": "forschung/soulution/FIN_DEM_ROOM_FORSCHUNGSMODULE_V4.md",
+        "id": "DEM-OPS-02"
+      },
+      "acceptance": [
+        "freiwillige Testdaten, Biasprüfung, Differenz von Stichprobe/Mehrheit und sichtbare Gegenpositionen"
+      ],
+      "dependencies": [],
+      "source_urls": [],
+      "public_release": "review_required",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "test_status": "not_verified_in_combined_registry"
+    },
+    {
+      "id": "ROOM-OPS-01",
+      "project": "SOULution",
+      "title": "Situation Room",
+      "kind": "research_task",
+      "status": "planned_not_approved",
+      "origin": {
+        "path": "forschung/soulution/FIN_DEM_ROOM_FORSCHUNGSMODULE_V4.md",
+        "id": "ROOM-OPS-01"
+      },
+      "acceptance": [
+        "öffentliche Lage, Probleme, Quellen, Zeit, Akteure, Varianten, Evidenz und Revision"
+      ],
+      "dependencies": [],
+      "source_urls": [],
+      "public_release": "review_required",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "test_status": "not_verified_in_combined_registry"
+    },
+    {
+      "id": "ROOM-OPS-02",
+      "project": "SOULution",
+      "title": "War Room",
+      "kind": "research_task",
+      "status": "planned_not_approved",
+      "origin": {
+        "path": "forschung/soulution/FIN_DEM_ROOM_FORSCHUNGSMODULE_V4.md",
+        "id": "ROOM-OPS-02"
+      },
+      "acceptance": [
+        "Rollen, Tasks, Lieferobjekte, Abnahmen, Crosswalk und Fortschrittsbericht"
+      ],
+      "dependencies": [],
+      "source_urls": [],
+      "public_release": "review_required",
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "test_status": "not_verified_in_combined_registry"
+    },
+    {
+      "id": "KI-ARCH-01",
+      "title": "No-Loss historische Archive und Versionscrosswalk",
+      "project": "KI-Tensor",
+      "kind": "reconstruction_task",
+      "status": "reconstruction_required",
+      "historical_observation": "44 historische Archivstände",
+      "reconstruction_status": "historical_inventory_unverified",
+      "origin": {
+        "path": "forschung/website/UPGRADE_100PLUS_PROMPTARCHITEKTUR_2026-11-03.md"
+      },
+      "public_release": "internal_until_review",
+      "dependencies": [
+        "KI-REG-02"
+      ],
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "test_status": "not_run"
+    },
+    {
+      "id": "KI-TRI-01",
+      "title": "Trinitäten und Tensorgrundgerüste vollständig typisieren",
+      "project": "KI-Tensor",
+      "kind": "reconstruction_task",
+      "status": "reconstruction_required",
+      "historical_observation": "309 Trinitäten, 103 Tensorgrundgerüste, 177 Tensor-Kennungen",
+      "reconstruction_status": "historical_counts_not_record_complete",
+      "origin": {
+        "path": "forschung/website/UPGRADE_100PLUS_PROMPTARCHITEKTUR_2026-11-03.md"
+      },
+      "public_release": "internal_until_review",
+      "dependencies": [
+        "KI-REG-02"
+      ],
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "test_status": "not_run"
+    },
+    {
+      "id": "KI-FELD-01",
+      "title": "27 Feldakten und 12 Relationspositionen Originalquellenprüfung",
+      "project": "KI-Tensor",
+      "kind": "reconstruction_task",
+      "status": "reconstruction_required",
+      "historical_observation": "27 priorisierte Feldakten, 12 Relations-IDs, 270 übrige Feldpositionen",
+      "reconstruction_status": "source_validation_pending",
+      "origin": {
+        "path": "forschung/website/UPGRADE_100PLUS_PROMPTARCHITEKTUR_2026-11-03.md"
+      },
+      "public_release": "internal_until_review",
+      "dependencies": [
+        "KI-REG-02"
+      ],
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "test_status": "not_run"
+    },
+    {
+      "id": "KI-REL-01",
+      "title": "Relationsaussagen mit Gegenproben und Evidenzstatus",
+      "project": "KI-Tensor",
+      "kind": "reconstruction_task",
+      "status": "reconstruction_required",
+      "historical_observation": "1017 historische Relationsaussagen",
+      "reconstruction_status": "test_corpus_not_verified",
+      "origin": {
+        "path": "forschung/website/UPGRADE_100PLUS_PROMPTARCHITEKTUR_2026-11-03.md"
+      },
+      "public_release": "internal_until_review",
+      "dependencies": [
+        "KI-REG-02"
+      ],
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "test_status": "not_run"
+    },
+    {
+      "id": "KI-MATH-01",
+      "title": "Wissenschaftliches Formelarchiv und Parserstände",
+      "project": "KI-Tensor",
+      "kind": "reconstruction_task",
+      "status": "reconstruction_required",
+      "historical_observation": "7622 DLMF-Formeln, 675 Rohtripel, 192 Parserfehler in 300 Testfällen",
+      "reconstruction_status": "source_corpus_not_imported",
+      "origin": {
+        "path": "forschung/website/UPGRADE_100PLUS_PROMPTARCHITEKTUR_2026-11-03.md"
+      },
+      "public_release": "internal_until_review",
+      "dependencies": [
+        "KI-REG-02"
+      ],
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "test_status": "not_run"
+    },
+    {
+      "id": "KI-REG-01",
+      "title": "Glossar mit Definitionen und Provenienz",
+      "project": "übergreifend",
+      "kind": "reconstruction_task",
+      "status": "reconstruction_required",
+      "historical_observation": "1072 historische Begriffe; 1008er CSV gesondert bekannt",
+      "reconstruction_status": "full_records_not_verified",
+      "origin": {
+        "path": "forschung/website/UPGRADE_100PLUS_PROMPTARCHITEKTUR_2026-11-03.md"
+      },
+      "public_release": "internal_until_review",
+      "dependencies": [
+        "KI-REG-02"
+      ],
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "test_status": "not_run"
+    },
+    {
+      "id": "KI-REG-02",
+      "title": "Kanonisches Quellenregister mit Fundstellen",
+      "project": "übergreifend",
+      "kind": "reconstruction_task",
+      "status": "reconstruction_required",
+      "historical_observation": "Quellen → Modell → Formel → Relation → Trinität → Tensor → Feld → Test → Beweisakte → Publikation",
+      "reconstruction_status": "canonical_records_not_verified",
+      "origin": {
+        "path": "forschung/website/UPGRADE_100PLUS_PROMPTARCHITEKTUR_2026-11-03.md"
+      },
+      "public_release": "internal_until_review",
+      "dependencies": [
+        "KI-REG-02"
+      ],
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "test_status": "not_run"
+    },
+    {
+      "id": "KI-REG-03",
+      "title": "Skill-/API-/Operatoren-Register zusammenführen",
+      "project": "übergreifend",
+      "kind": "reconstruction_task",
+      "status": "reconstruction_required",
+      "historical_observation": "107 mathematische Träger/Operatoren als historische Kennzahl",
+      "reconstruction_status": "full_records_not_verified",
+      "origin": {
+        "path": "forschung/website/UPGRADE_100PLUS_PROMPTARCHITEKTUR_2026-11-03.md"
+      },
+      "public_release": "internal_until_review",
+      "dependencies": [
+        "KI-REG-02"
+      ],
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "test_status": "not_run"
+    },
+    {
+      "id": "KI-COMP-01",
+      "title": "Ereignis-Nachzieh-Compiler und Regressionstests integrieren",
+      "project": "KI-Tensor",
+      "kind": "reconstruction_task",
+      "status": "reconstruction_required",
+      "historical_observation": "Änderungen bis Tests, Publikationen, Glossar nachziehen",
+      "reconstruction_status": "end_to_end_not_verified",
+      "origin": {
+        "path": "forschung/website/UPGRADE_100PLUS_PROMPTARCHITEKTUR_2026-11-03.md"
+      },
+      "public_release": "internal_until_review",
+      "dependencies": [
+        "KI-REG-02"
+      ],
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "test_status": "not_run"
+    },
+    {
+      "id": "SOUL-ATLAS-01",
+      "title": "SOULution Lösungsatlas rekonstruieren",
+      "project": "SOULution",
+      "kind": "reconstruction_task",
+      "status": "reconstruction_required",
+      "historical_observation": "3203 Nodes, 128 Atlas-Objekte, 141 Plattformen",
+      "reconstruction_status": "full_records_not_verified",
+      "origin": {
+        "path": "forschung/website/UPGRADE_100PLUS_PROMPTARCHITEKTUR_2026-11-03.md"
+      },
+      "public_release": "internal_until_review",
+      "dependencies": [
+        "KI-REG-02"
+      ],
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "test_status": "not_run"
+    },
+    {
+      "id": "KI-PROMPT-01",
+      "title": "100+ Originalprompts zu Anforderungen und Freigaben abgleichen",
+      "project": "übergreifend",
+      "kind": "reconstruction_task",
+      "status": "reconstruction_required",
+      "historical_observation": "52 rekonstruierte Anforderungskomplexe; keine 100 Einzelprompt-Abnahme",
+      "reconstruction_status": "full_history_not_imported",
+      "origin": {
+        "path": "forschung/website/UPGRADE_100PLUS_PROMPTARCHITEKTUR_2026-11-03.md"
+      },
+      "public_release": "internal_until_review",
+      "dependencies": [
+        "KI-REG-02"
+      ],
+      "prompt_layers": [
+        "prompt",
+        "agent",
+        "meta"
+      ],
+      "test_status": "not_run"
+    }
+  ]
+}
