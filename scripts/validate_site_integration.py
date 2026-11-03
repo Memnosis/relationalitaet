@@ -102,6 +102,22 @@ for item in data["requirements"]:
     if item.get("original_text_verified"):
         errors.append(item["id"] + ": original user wording improperly declared proven")
 
+public = DOCS / "data/anforderungsabdeckung-v1.json"
+if public.is_file():
+    summary = json.loads(public.read_text(encoding="utf-8"))
+    if summary.get("schema_version") != "user-requirement-coverage-public/0.1":
+        errors.append("unsupported public requirement summary")
+    if summary.get("atomic_requirements") != len(ids):
+        errors.append("public task count differs from source requirements")
+    if sum(x["items"] for x in summary.get("groups", [])) != len(ids):
+        errors.append("public task group count mismatch")
+    if summary.get("exact_last_100_original_messages_verified") is not False:
+        errors.append("unsupported claim that all 100 original user prompts were verified")
+    if summary.get("source_file_refs_present") != len(ids):
+        errors.append("public source file presence claim disagrees with full ledger")
+else:
+    errors.append("public requirement summary missing")
+
 print("Audited site pages:", len(slugs), "HTML href/src references:", all_links,
       "traceable atomic tasks:", len(ids))
 for warning in warnings[:30]:
