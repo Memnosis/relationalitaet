@@ -82,7 +82,7 @@ function redraw(){
 }
 function initStats(){
  const tasks=snapshot.tasks,allDone=tasks.filter(t=>snapshot.stages.every(s=>t.stage?.[s.key]===1));
- const values=[[tasks.length,"Aufgaben in dieser öffentlichen Auswahl"],[tasks.filter(t=>t.owner==="gpt").length,"GPT-Aufgaben"],[snapshot.internal_summary?.count||0,"Interne Forschungsaufgaben (aggregiert)"],[allDone.length,"In allen sechs Stufen bestätigt"]];
+ const values=[[tasks.length,"Aufgaben in dieser öffentlichen Auswahl"],[tasks.filter(t=>t.owner==="gpt").length,"GPT-Aufgaben"],[snapshot.internal_summary?.count||0,"Interne Forschungsaufgaben (aggregiert)"],[allDone.length,"Sechs Stufen eingetragen (nicht automatisch gegengeprüft)"]];
  $("pm-stats").replaceChildren();
  for(const [n,label] of values){const box=el("div",null,"pm-stat");box.append(el("strong",String(n)),el("small",label));$("pm-stats").append(box)}
  $("pm-snapshot").textContent="Datenstand: "+snapshot.snapshot_date+" · "+snapshot.notes;
