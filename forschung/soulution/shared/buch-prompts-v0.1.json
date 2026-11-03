@@ -1,0 +1,77 @@
+{
+  "schema": "soulution.book-prompts.v0.1",
+  "status": "draft_not_released",
+  "as_of": "2026-11-03",
+  "items": [
+    {
+      "id": "H1",
+      "title": "Kann das stimmen?",
+      "reader_prompt": "Prüfe die Behauptung [TEXT]. Finde Ursprung, Datierung, Originalquelle und Gegenbefunde. Trenne belegte Aussagen, Interpretation und offene Fragen. Nenne Fundstellen und sage ausdrücklich, was nicht geprüft werden konnte.",
+      "task_type": "claim-check",
+      "status": "redaction_draft",
+      "professional_task_id": null,
+      "validation": [
+        "primary-source tracing",
+        "separate finding and inference",
+        "declare unknowns"
+      ],
+      "publication": "Wissen, Macht und Wirklichkeit"
+    },
+    {
+      "id": "H2",
+      "title": "Folge dem Geld",
+      "reader_prompt": "Untersuche [AUSGABE] für [JAHR]. Unterscheide Kreditermächtigung, Ansatz, Bewilligung, Auszahlung und wirtschaftliche Folgeflüsse. Zeichne nur belegte Flüsse; zeige Quellen, Unbekanntes und mögliche Doppelzählungen.",
+      "task_type": "financial-flow",
+      "status": "redaction_draft",
+      "professional_task_id": null,
+      "validation": [
+        "primary-source tracing",
+        "separate finding and inference",
+        "declare unknowns"
+      ],
+      "publication": "Wissen, Macht und Wirklichkeit"
+    },
+    {
+      "id": "H3",
+      "title": "Woher wissen wir das?",
+      "reader_prompt": "Untersuche [MASSNAHME] und [WIRKUNG]. Unterscheide Erwartungen, empirische Beobachtungen und kausale Evaluationen; dokumentiere Studie, Zeitraum, Methode, Unsicherheit und Gegenbefunde.",
+      "task_type": "evidence",
+      "status": "redaction_draft",
+      "professional_task_id": null,
+      "validation": [
+        "primary-source tracing",
+        "separate finding and inference",
+        "declare unknowns"
+      ],
+      "publication": "Wissen, Macht und Wirklichkeit"
+    },
+    {
+      "id": "H4",
+      "title": "Prüfe den öffentlichen Auftrag",
+      "reader_prompt": "Prüfe [VORHABEN] zum Stichtag [DATUM]. Ermittle Problem, Evidenz, Ziel, Indikator, Haushaltsmittel, Evaluation, Kontrolle und Rechenschaft. Unterscheide durchgeführt, geplant, noch nicht fällig, nicht gefunden und eingeschränkt zugänglich. Gib eine quellengebundene Prüfakte aus.",
+      "task_type": "public-account",
+      "status": "redaction_draft",
+      "professional_task_id": null,
+      "validation": [
+        "primary-source tracing",
+        "separate finding and inference",
+        "declare unknowns"
+      ],
+      "publication": "Wissen, Macht und Wirklichkeit"
+    },
+    {
+      "id": "H5",
+      "title": "Was könnte funktionieren?",
+      "reader_prompt": "Untersuche [PROBLEM]. Finde vorhandene Lösungen, Einsatzbedingungen, Ressourcen, dokumentierte Wirkungen und Unsicherheiten. Schlage eine überprüfbare Anschlussfrage vor und vermeide unbelegte Erfolgsbehauptungen.",
+      "task_type": "solution",
+      "status": "redaction_draft",
+      "professional_task_id": null,
+      "validation": [
+        "primary-source tracing",
+        "separate finding and inference",
+        "declare unknowns"
+      ],
+      "publication": "Wissen, Macht und Wirklichkeit"
+    }
+  ]
+}
