@@ -148,14 +148,28 @@
       "area": "Mini-KI",
       "goal": "Entwirf beobachtende Skills, die Ausführung, Nutzerintention, Fehler, Folgen und Skillkombinationen messen; teste ihre Zusatzkosten.",
       "result": "Schaltbare Beobachter, Ereignisbus und Ablation",
-      "status": "prompt-vorbereitet",
+      "status": "teilweise-ausgefuehrt",
       "source_urls": [
         "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md",
         "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md",
         "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
         "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
       ],
-      "meta_prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task MINI-OBS-01 (Beobachter aus Messereignissen generieren).\n1. Auftrag: Entwirf beobachtende Skills, die Ausführung, Nutzerintention, Fehler, Folgen und Skillkombinationen messen; teste ihre Zusatzkosten.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: Schaltbare Beobachter, Ereignisbus und Ablation.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe."
+      "meta_prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task MINI-OBS-01 (Beobachter aus Messereignissen generieren).\n1. Auftrag: Entwirf beobachtende Skills, die Ausführung, Nutzerintention, Fehler, Folgen und Skillkombinationen messen; teste ihre Zusatzkosten.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: Schaltbare Beobachter, Ereignisbus und Ablation.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe.",
+      "execution": {
+        "as_of": "2026-11-03",
+        "status": "synthetic_observer_executed",
+        "result": "10.000 deterministische Rechenfälle, 588 bewusst eingeführte Fehler, alle 588 vom Referenzbeobachter erkannt, keine Fehlalarme",
+        "limitations": [
+          "Beobachter kennt die Referenzberechnung; keine selbständige Fehlererkenntnis unbekannter Modelle",
+          "Ein kurzer Python-Lauf ist keine belastbare Latenzmessung",
+          "Keine persistente Mini-KI, keine autonomen Agenten"
+        ],
+        "evidence": [
+          "forschung/minimal-ki/beobachter-v0_1/TEST_MINIOBS_SYNTHETIC.py",
+          "forschung/website/ausfuehrung/MINI_OBS_TEST_V01.json"
+        ]
+      }
     },
     {
       "id": "GEO-OPS-01",
