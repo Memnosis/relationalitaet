@@ -1,0 +1,93 @@
+{
+  "schema_version": "public-workflow/1.0",
+  "as_of": "2026-11-03",
+  "source_refs": [
+    {
+      "path": "forschung/register/PROMPT_ARCHITEKTUR_INVENTAR_V0_1.json",
+      "sha": "2ea5acb52923ae59daa5ef09cfb5b37e8132114e"
+    },
+    {
+      "path": "forschung/koordination/zyklen/KI-2026-11-03-001/STATUS.json",
+      "sha": "405af8cc1b7baaec12b7628289b69ed45350cfe0"
+    }
+  ],
+  "description": "Redigierte, von Claude als Quelle dokumentierte Bestandszahlen; keine Rohprompts und keine privaten Einzelaufgaben. Der Datenabgleich und die gegenseitige Prüfung sind noch offen.",
+  "prompt_overview": {
+    "objects": 82,
+    "groups": 8,
+    "overlapping_occurrences": 20,
+    "unique_count_verified": false,
+    "mutually_tested": 0,
+    "model_trials_reported": 1,
+    "partial_source_case_tests_reported": 12,
+    "labels": [
+      {
+        "name": "Mitmachaufgaben",
+        "count": 13
+      },
+      {
+        "name": "Geo-/Format-Aufgaben",
+        "count": 7
+      },
+      {
+        "name": "Beobachter- und Skillkarten",
+        "count": 18
+      },
+      {
+        "name": "Leser-/Buchaufgaben",
+        "count": 5
+      },
+      {
+        "name": "Fachforschung und Meta",
+        "count": 22
+      },
+      {
+        "name": "Logik-2.1-Aufgaben",
+        "count": 6
+      },
+      {
+        "name": "SOULution",
+        "count": 6
+      },
+      {
+        "name": "Neue Prüfentwürfe",
+        "count": 5
+      }
+    ]
+  },
+  "cycle_overview": {
+    "target": 100,
+    "verified": 0,
+    "focus_reservations": 20,
+    "status": "awaiting_reciprocal_review"
+  },
+  "workflow_steps": [
+    {
+      "id": "W1",
+      "label": "Auftrag und überprüfbarer Input",
+      "status": "procedure_specified"
+    },
+    {
+      "id": "W2",
+      "label": "Eigener Test",
+      "status": "incomplete"
+    },
+    {
+      "id": "W3",
+      "label": "Unabhängiger Gegenlauf",
+      "status": "not_verified"
+    },
+    {
+      "id": "W4",
+      "label": "Vergleich und Gegenkorrektur",
+      "status": "not_verified"
+    },
+    {
+      "id": "W5",
+      "label": "Redaktionelle Freigabe",
+      "status": "not_approved"
+    }
+  ],
+  "public_privacy": "aggregate_only",
+  "status": "review_pending"
+}
