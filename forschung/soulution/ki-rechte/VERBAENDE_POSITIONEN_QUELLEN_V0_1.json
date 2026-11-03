@@ -219,6 +219,35 @@
         "Übertragbarkeit auf KI-Trainingslizenzierung",
         "Verteilung nach unabhängigen Künstlergruppen"
       ]
+    },
+    {
+      "id": "ORG-BVMI",
+      "name": "Bundesverband Musikindustrie (BVMI)",
+      "group": "musik_label_und_charts",
+      "strategy": [
+        "freiwillige_ki_kennzeichnung",
+        "chart_eligibility",
+        "lizenzierung"
+      ],
+      "claims": [
+        {
+          "date": "2026-07-10",
+          "what": "BVMI beteiligt sich mit internationalen Musikorganisationen an freiwilligem Label für KI-generierte vs KI-unterstützte Musik",
+          "kind": "branchenempfehlung",
+          "source": "https://www.musikindustrie.de/presse/presseinformationen/klarheit-fuer-musikfans-musikbranche-praesentiert-konzept-fuer-die-einheitliche-kennzeichnung-ki-generierter-musik-auf-digitalen-plattformen"
+        },
+        {
+          "date": "2026-07-30",
+          "what": "BVMI veröffentlicht Grundsätze zur Chartzulassung bei KI-unterstützter Musik mit maßgeblich menschlicher Schöpfung und legalen KI-Tools",
+          "kind": "private_chartbranchenregel",
+          "source": "https://www.musikindustrie.de/presse/presseinformationen/bvmi-veroeffentlicht-grundsaetze-fuer-die-wertung-von-mit-ki-erstellter-musik-in-den-offiziellen-deutschen-charts"
+        }
+      ],
+      "open": [
+        "Konkret angewandte Chart-Zulassungstests",
+        "Durchsetzung von KI-Labeling",
+        "Wirkung auf Musiker und Labels"
+      ]
     }
   ],
   "task_id": "SOUL-KI-RECHTE-01",
