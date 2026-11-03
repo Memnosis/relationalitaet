@@ -1,5 +1,5 @@
 {
-  "version": "v1.1-execution-aware",
+  "version": "v1.2-execution-first",
   "type": "website-collaboration-examples-and-harvesting",
   "tasks": [
     {
@@ -25,7 +25,10 @@
           "docs/glossar.html"
         ],
         "limitation": "Historischer Originalimport 1008 Zeilen / 1072 Bestandsvermerk nicht durchgeführt; Bibliotheks-CSV nicht als Rohbytes materialisierbar"
-      }
+      },
+      "task_mode": "execute_first_then_followup_prompt",
+      "next_executable_test": "Importiere eine tatsächliche CSV aus dem historischen Archiv, protokolliere Version, Quell-IDs und Definitionen und gleiche 1008 Zeilen gegen den 1072er Inventarstand ab. Ohne Original nur vorhandene 12 Webbegriffe pflegen.",
+      "legacy_prompt_note": "Original meta_prompt is preserved as historical task formulation, NOT a claim that prompt generation completes this task."
     },
     {
       "id": "WEB-CODE-01",
@@ -50,7 +53,10 @@
           "docs/codebuch.html"
         ],
         "limitation": "Kein historisches Gesamtkodebuch, keine fachwissenschaftlich bestätigten Relationskanten"
-      }
+      },
+      "task_mode": "execute_first_then_followup_prompt",
+      "next_executable_test": "Teste eine kleine Auswahl echter Codebuchobjekte mit Original-ID, Verweis, Gegenprobe und Fundstelle. Die 12 Webbegriffe sind derzeit nur strukturell auf Typen gemappt.",
+      "legacy_prompt_note": "Original meta_prompt is preserved as historical task formulation, NOT a claim that prompt generation completes this task."
     },
     {
       "id": "HARV-01",
@@ -65,7 +71,10 @@
         "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
         "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
       ],
-      "meta_prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task HARV-01 (DLMF-Formelernte reproduzierbar vervollständigen).\n1. Auftrag: Prüfe v3.0 bis v3.5 anhand historischer Versionen, Formatdeltas, Signaturen und Operatorrelationen; konserviere Herkunft.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: Reproduzierbare Ernte mit versionsgebundener Ausgabedatenbank.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe."
+      "meta_prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task HARV-01 (DLMF-Formelernte reproduzierbar vervollständigen).\n1. Auftrag: Prüfe v3.0 bis v3.5 anhand historischer Versionen, Formatdeltas, Signaturen und Operatorrelationen; konserviere Herkunft.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: Reproduzierbare Ernte mit versionsgebundener Ausgabedatenbank.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe.",
+      "task_mode": "execute_first_then_followup_prompt",
+      "next_executable_test": "Suche die bestehenden Harvesting-Originalarchive in verfügbaren Projektbeständen. Wenn echte Input- und Outputdaten vorliegen, führe einen Batch für ein benanntes DLMF-Kapitel mit Prüfsummen aus.",
+      "legacy_prompt_note": "Original meta_prompt is preserved as historical task formulation, NOT a claim that prompt generation completes this task."
     },
     {
       "id": "HARV-02",
@@ -80,7 +89,10 @@
         "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
         "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
       ],
-      "meta_prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task HARV-02 (Wissenschaftsmining v2.7 und Codebuch v3.7/v3.8 testen).\n1. Auftrag: Führe archivierte Miningschritte in isolierter Umgebung erneut aus und dokumentiere alle Unterschiede und Gegenproben.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: E2E-Protokoll mit Fehlern und identifizierbaren Einzeldaten.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe."
+      "meta_prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task HARV-02 (Wissenschaftsmining v2.7 und Codebuch v3.7/v3.8 testen).\n1. Auftrag: Führe archivierte Miningschritte in isolierter Umgebung erneut aus und dokumentiere alle Unterschiede und Gegenproben.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: E2E-Protokoll mit Fehlern und identifizierbaren Einzeldaten.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe.",
+      "task_mode": "execute_first_then_followup_prompt",
+      "next_executable_test": "Versuche den historischen Parser aus v2.7 mit einem vorhandenen Originalbeispiel auszuführen und protokolliere Abhängigkeiten, Fehler und Ergebnisdeltas.",
+      "legacy_prompt_note": "Original meta_prompt is preserved as historical task formulation, NOT a claim that prompt generation completes this task."
     },
     {
       "id": "HARV-03",
@@ -95,7 +107,10 @@
         "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
         "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
       ],
-      "meta_prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task HARV-03 (Physik- und Quantenbibliotheken harvesten).\n1. Auftrag: Prüfe Qiskit, Cirq, PennyLane und QuTiP auf echte Methoden, Operatoren, Eingaben, Outputs, Lizenzen und Testfälle.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: Fach-Skillregister und reproduzierbare Stichprobentests.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe."
+      "meta_prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task HARV-03 (Physik- und Quantenbibliotheken harvesten).\n1. Auftrag: Prüfe Qiskit, Cirq, PennyLane und QuTiP auf echte Methoden, Operatoren, Eingaben, Outputs, Lizenzen und Testfälle.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: Fach-Skillregister und reproduzierbare Stichprobentests.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe.",
+      "task_mode": "execute_first_then_followup_prompt",
+      "next_executable_test": "Führe einen konkreten Operatorvergleich mit SymPy und einer zweiten installierten Physikbibliothek aus; externe Quantenpakete nur nach erfolgreicher Installation als getestet markieren.",
+      "legacy_prompt_note": "Original meta_prompt is preserved as historical task formulation, NOT a claim that prompt generation completes this task."
     },
     {
       "id": "HARV-04",
@@ -110,7 +125,10 @@
         "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
         "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
       ],
-      "meta_prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task HARV-04 (Sprachdaten und Übersetzungsmodelle harvesten).\n1. Auftrag: Prüfe freie Lexika, Universal Dependencies, OPUS, Wikidata sowie freie Sprach- und Übersetzungsmodelle auf Abdeckung und Lizenzen.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: Vergleichsregister mit Aufgaben- und Rekonstruktionstests.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe."
+      "meta_prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task HARV-04 (Sprachdaten und Übersetzungsmodelle harvesten).\n1. Auftrag: Prüfe freie Lexika, Universal Dependencies, OPUS, Wikidata sowie freie Sprach- und Übersetzungsmodelle auf Abdeckung und Lizenzen.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: Vergleichsregister mit Aufgaben- und Rekonstruktionstests.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe.",
+      "task_mode": "execute_first_then_followup_prompt",
+      "next_executable_test": "Nimm ein offenes Lexikon mit Versions-/Lizenzmetadaten, importiere ein kleines Beispieldatenset und kontrolliere Encoding, IDs und Dubletten.",
+      "legacy_prompt_note": "Original meta_prompt is preserved as historical task formulation, NOT a claim that prompt generation completes this task."
     },
     {
       "id": "HARV-05",
@@ -125,7 +143,10 @@
         "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
         "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
       ],
-      "meta_prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task HARV-05 (Wissenschaftliche Dreierfamilien quellenbasiert finden).\n1. Auftrag: Ernte Modelle, Beweise und definierte Rollenfamilien, prüfe Gegenbeispiele und mappe Kandidaten auf vorhandene Trinitäten.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: Validierungsfähige Dreierkarten mit Quellen und Gegenproben.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe."
+      "meta_prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task HARV-05 (Wissenschaftliche Dreierfamilien quellenbasiert finden).\n1. Auftrag: Ernte Modelle, Beweise und definierte Rollenfamilien, prüfe Gegenbeispiele und mappe Kandidaten auf vorhandene Trinitäten.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: Validierungsfähige Dreierkarten mit Quellen und Gegenproben.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe.",
+      "task_mode": "execute_first_then_followup_prompt",
+      "next_executable_test": "Wähle eine wissenschaftliche Relationsfamilie aus bereits geprüften Physikformeln und teste eine plausible Dreierbeziehung durch Rückrechnung und Gegenbeispiel.",
+      "legacy_prompt_note": "Original meta_prompt is preserved as historical task formulation, NOT a claim that prompt generation completes this task."
     },
     {
       "id": "HARV-06",
@@ -140,7 +161,10 @@
         "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
         "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
       ],
-      "meta_prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task HARV-06 (API-, Skill- und Toolkataloge inventarisieren).\n1. Auftrag: Prüfe öffentlich dokumentierte API-/Skillregister, Schnittstellen und Skillsysteme auf Nutzbarkeit, Versionen und Rechte.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: Nachweisbares, dedupliziertes Außenwahrnehmungs- und Skillregister.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe."
+      "meta_prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task HARV-06 (API-, Skill- und Toolkataloge inventarisieren).\n1. Auftrag: Prüfe öffentlich dokumentierte API-/Skillregister, Schnittstellen und Skillsysteme auf Nutzbarkeit, Versionen und Rechte.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: Nachweisbares, dedupliziertes Außenwahrnehmungs- und Skillregister.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe.",
+      "task_mode": "execute_first_then_followup_prompt",
+      "next_executable_test": "Inventarisiere einen tatsächlich zugänglichen API-/Skillkatalog mit dokumentierter Authentisierung, Nutzungsgrenzen, zwei Beispielen und Validierung der Felder.",
+      "legacy_prompt_note": "Original meta_prompt is preserved as historical task formulation, NOT a claim that prompt generation completes this task."
     },
     {
       "id": "MINI-OBS-01",
@@ -169,7 +193,10 @@
           "forschung/minimal-ki/beobachter-v0_1/TEST_MINIOBS_SYNTHETIC.py",
           "forschung/website/ausfuehrung/MINI_OBS_TEST_V01.json"
         ]
-      }
+      },
+      "task_mode": "execute_first_then_followup_prompt",
+      "next_executable_test": "Ersetze den synthetischen Kontrollfehler durch realen Geo-KI-Testoutput; messe zusätzlichen Nutzen und Kosten des Beobachters gegen einen Lauf ohne Beobachter.",
+      "legacy_prompt_note": "Original meta_prompt is preserved as historical task formulation, NOT a claim that prompt generation completes this task."
     },
     {
       "id": "GEO-OPS-01",
@@ -195,7 +222,10 @@
           "forschung/geoki/v0_4/tests/test_extra.py"
         ],
         "limitation": "Erweiterte mathematische Tests lokal ausgeführt; robustere geometrische Operationen, 3D und externe Algorithmen noch offen"
-      }
+      },
+      "task_mode": "execute_first_then_followup_prompt",
+      "next_executable_test": "Erweitere die 19 bestehenden Geometrietests um robuste Randfälle, typisierte Eingaben, Signatur- und Fehlermeldungsprüfungen.",
+      "legacy_prompt_note": "Original meta_prompt is preserved as historical task formulation, NOT a claim that prompt generation completes this task."
     },
     {
       "id": "KOMP-01",
@@ -219,7 +249,10 @@
           "forschung/soulution/skills/PHYSIK_SKILLATLAS_UND_TESTBERICHT_V0_1.md"
         ],
         "limitation": "Keine tensorbasierte Kompression, kein Vorteil gegenüber gzip, keine vollständigen Trajektorien"
-      }
+      },
+      "task_mode": "execute_first_then_followup_prompt",
+      "next_executable_test": "Vergleiche auf identischen Physikdaten JSON, Wörterbuchformat, gzip, zlib und eine tatsächlich aus Tensorrelationen rekonstruierbare Form. Erhalte exakte Rückprüfung und gleiche Metadaten.",
+      "legacy_prompt_note": "Original meta_prompt is preserved as historical task formulation, NOT a claim that prompt generation completes this task."
     },
     {
       "id": "VIS-01",
@@ -243,7 +276,10 @@
           "forschung/website/ausfuehrung/VIS27_STRUKTURTEST_V01.json"
         ],
         "limitation": "Keine fachlich validierte Tensorstruktur oder interaktive Relationsvisualisierung"
-      }
+      },
+      "task_mode": "execute_first_then_followup_prompt",
+      "next_executable_test": "Binde die 27 strukturgeprüften Positionen an echte, quellengebundene Feldakten. Zeige unvalidierte Positionen sichtbar als offen.",
+      "legacy_prompt_note": "Original meta_prompt is preserved as historical task formulation, NOT a claim that prompt generation completes this task."
     },
     {
       "id": "KOL-01",
@@ -258,7 +294,11 @@
         "https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md",
         "https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html"
       ],
-      "meta_prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task KOL-01 (KI-Kollegen und Taskübergabe vergleichen).\n1. Auftrag: Teste Delegation von Meta-Prompts an verschiedene ausführende Systeme mit identischen Quellen und Akzeptanztests.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: Übertragbarer Taskvertrag und Ergebnisaudit.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe."
+      "meta_prompt": "Entwickle einen fachlich konkreten, reproduzierbaren Arbeits-Prompt für Task KOL-01 (KI-Kollegen und Taskübergabe vergleichen).\n1. Auftrag: Teste Delegation von Meta-Prompts an verschiedene ausführende Systeme mit identischen Quellen und Akzeptanztests.\n2. Worum es im relationalen Tensor-Projekt geht: fachliche Quellen, eigenständige Rekonstruktion, explizite Relationen, Gegenproben und No-Loss-Rückführung; jeder Tensor hat exakt 3×3×3 Positionen, normale Skills bleiben nutzbar.\n3. Eingaben und Quellen (URLs vollständig angeben):\n1. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/BESTANDSWEGWEISER.md\n2. https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/B3_B4_ERGEBNISBILANZ.md\n3. https://github.com/Memnosis/relationalitaet/blob/main/forschung/minimal-ki/beobachter-v0_1/PAPER.md\n4. https://memnosis.github.io/relationalitaet/quellen-und-uebergabe.html\n4. Prüfe, welche Originalarchive zusätzlich beschafft werden müssen. Erfinde keine nicht veröffentlichten Daten oder Resultate.\n5. Gliedere den zu entwickelnden Arbeits-Prompt in Ziel, vorhandenen Stand, Abhängigkeiten, konkrete Arbeitsschritte, Eingabe-/Ausgabeformate, Quellenprüfung, Tests, Gegenproben, Risiken, Definition of Done und Rückgabe.\n6. Gewünschtes Lieferergebnis: Übertragbarer Taskvertrag und Ergebnisaudit.\n7. Erstelle zuerst den Prompt, nicht den behaupteten Abschluss der Aufgabe.",
+      "task_mode": "execute_first_then_followup_prompt",
+      "next_executable_test": "Führe denselben fachlichen Datensatz durch zwei tatsächlich verfügbare Modelle oder Ausführungswege und vergleiche Quellen, Korrektheit, Fehler und Aufwände.",
+      "legacy_prompt_note": "Original meta_prompt is preserved as historical task formulation, NOT a claim that prompt generation completes this task."
     }
-  ]
+  ],
+  "execution_policy": "First inspect existing implementation/data, execute a minimal real test, document evidence and negative checks, only then create a new prompt for genuine remaining work. Keep original meta_prompt for no-loss historical context."
 }
