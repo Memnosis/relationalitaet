@@ -57,6 +57,14 @@ function taskCard(t,stages,mode){
  details.append(el("p","Ermöglicht unmittelbar: "+(direct.length?direct.join(", "):"keine dokumentierte Folgeaufgabe")));
  const w=el("p","Planungswerte (0–3): Dringlichkeit "+t.scores.urgency+", Architektur "+t.scores.architecture+", Hebel "+t.scores.leverage+", Risiko "+t.scores.risk+", Bereitschaft "+t.scores.readiness+".");details.append(w);
  if(weights[mode])details.append(el("p","Gewichteter Prioritätswert: "+score(t,mode)+". Der Wert bewertet Aufgabenplanung, keinen Fortschritt oder wissenschaftlichen Beweis."));
+ const trace=el("div");trace.append(el("p","Nachweise je erreichte Stufe (Datei/Version):","pm-meta"));
+ const list=el("ul",null,"pm-list");
+ for(const st of stages){const ev=t.stage_evidence?.[st.key];if(t.stage?.[st.key]===1&&ev?.path){
+ const li=el("li");li.append(el("strong",st.label+" · "));
+ const a=el("a",ev.path.split("/").pop());a.href="https://github.com/Memnosis/relationalitaet/blob/main/"+ev.path;a.target="_blank";a.rel="noopener noreferrer";li.append(a);list.append(li);
+ }}
+ if(list.children.length){trace.append(list);details.append(trace)}
+ if(t.last_activity){details.append(el("p","Letzter dokumentierter Änderungsschritt: "+t.last_activity.date+" · "+t.last_activity.summary));const a=el("a","Commit und Änderung öffnen");a.href="https://github.com/Memnosis/relationalitaet/commit/"+t.last_activity.commit;details.append(a)}
  details.append(evidenceLink(t));box.append(details);
  return box;
 }
