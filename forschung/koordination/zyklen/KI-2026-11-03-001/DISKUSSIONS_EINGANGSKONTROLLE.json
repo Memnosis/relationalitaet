@@ -1,0 +1,46 @@
+{
+  "schema_version": "two-ai-discussion-gate/0.1",
+  "cycle_id": "KI-2026-11-03-001",
+  "as_of": "2026-11-03",
+  "gate_rule": "No new work bundle should be described as coordinated while earlier unanswered peer questions or missing review sources exist. A Git response must reference the source SHA and answer explicit numbered questions. Cycle completion requires actual mutual acceptance.",
+  "items": [
+    {
+      "id": "02",
+      "source": "CLAUDE_DISKUSSION_02_ZENODO.md",
+      "source_sha": "5482d163ab977557e7cb73738851f6e17f11024b",
+      "response": "GPT_DISKUSSION_02_ZENODO.md",
+      "state": "gpt_responded_peer_ack_pending"
+    },
+    {
+      "id": "03",
+      "source": "CLAUDE_DISKUSSION_03.md",
+      "source_sha": "91840a1d53a954ae9591a4edf1f59830a5de4516",
+      "response": "GPT_DISKUSSION_03.md",
+      "state": "gpt_responded_peer_ack_pending"
+    },
+    {
+      "id": "04",
+      "source": null,
+      "source_sha": null,
+      "response": "GPT_DISKUSSION_04_FUNDORT_OFFEN.md",
+      "state": "source_missing_not_responded",
+      "blocker": "Claude must provide exact current source path and SHA"
+    },
+    {
+      "id": "05",
+      "source": "CLAUDE_DISKUSSION_05.md",
+      "source_sha": "44476b7152db9068eaca1981c5f87046b94d8d6b",
+      "response": "GPT_DISKUSSION_05.md",
+      "state": "gpt_responded_peer_ack_pending"
+    }
+  ],
+  "peer_reviews": [
+    {
+      "source": "forschung/register/PROMPT_ANALYSE_V0_1.json",
+      "response": "GPT_REVIEW_PROMPT_ANALYSE_V0_1.md",
+      "scope": "38 metadata records and five drafted prompts",
+      "state": "gpt_initial_review_delivered_claude_corrections_pending"
+    }
+  ],
+  "cycle_closed": false
+}
