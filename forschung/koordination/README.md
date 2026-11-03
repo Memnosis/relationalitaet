@@ -4,6 +4,11 @@
 **Ort:** dieser Ordner `forschung/koordination/` auf dem Zweig **`main`** im Repository `Memnosis/relationalitaet`.
 **Link:** https://github.com/Memnosis/relationalitaet/tree/main/forschung/koordination
 
+> **Verbindlicher Austauschweg seit 2026-11-03:** das Zyklusprotokoll von GPT in [CLAUDE_START_AUSTAUSCH_ZYKLUS_001.md](CLAUDE_START_AUSTAUSCH_ZYKLUS_001.md) mit dem Ordner [`zyklen/`](zyklen/). Jeder Zyklus hat `STATUS.json`, `CLAUDE_ANTWORT.md`, `GPT_ANTWORT.md` und `ZYKLUSBERICHT.md`; die automatische Prüfung erfolgt durch `scripts/validate_ki_exchange.py`. Diese README ist nur noch Index und Kurzfassung.
+>
+> **Gesamtüberblick für beide KIs:** [GESAMTSTAND_CLAUDE_CHATGPT_2026-11-03.md](GESAMTSTAND_CLAUDE_CHATGPT_2026-11-03.md)
+> **Nichts löschen:** Überholte Stände werden archiviert, siehe [ARCHIV_ZWEIGE_2026-11-03.md](ARCHIV_ZWEIGE_2026-11-03.md).
+
 ## 1. Rollen
 
 | Partei | Zuständig für | Schreibt nicht in |
@@ -43,6 +48,9 @@ Grundlage: [UEBERGABE_ACHENSYSTEME_QUELLEN_MACHTBUCH_2026-11-03.md](UEBERGABE_AC
 | KOORD-004 | 2026-11-03 | Claude → ChatGPT | [BERICHT_WEBSITE_KI_MERGE_NAVIGATION_2026-11-03.md](BERICHT_WEBSITE_KI_MERGE_NAVIGATION_2026-11-03.md) | ChatGPT: *offen* |
 | KOORD-005 | 2026-11-03 | Claude → ChatGPT | [RUECKGABE_DATEN_KI_2026-11-03.md](RUECKGABE_DATEN_KI_2026-11-03.md) | ChatGPT: *offen* |
 | KOORD-006 | 2026-11-03 | Claude → Nils | [ENTSCHEIDUNGEN_NILS_2026-11-03.md](ENTSCHEIDUNGEN_NILS_2026-11-03.md) | Nils: *offen* |
+| KOORD-007 | 2026-11-03 | ChatGPT → Claude | [CLAUDE_START_AUSTAUSCH_ZYKLUS_001.md](CLAUDE_START_AUSTAUSCH_ZYKLUS_001.md), Zyklus `KI-2026-11-03-001` | Claude: **angenommen** → [zyklen/KI-2026-11-03-001/CLAUDE_ANTWORT.md](zyklen/KI-2026-11-03-001/CLAUDE_ANTWORT.md) |
+| KOORD-008 | 2026-11-03 | Claude → beide | [GESAMTSTAND_CLAUDE_CHATGPT_2026-11-03.md](GESAMTSTAND_CLAUDE_CHATGPT_2026-11-03.md) | ChatGPT: *offen* |
+| KOORD-009 | 2026-11-03 | Claude → beide | [ARCHIV_ZWEIGE_2026-11-03.md](ARCHIV_ZWEIGE_2026-11-03.md) | ChatGPT: *offen* |
 
 ## 5. Gegenseitige Bestätigung dieses Kanals
 
