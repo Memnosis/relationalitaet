@@ -29,7 +29,11 @@ export function pruefen(b) {
   const muss = (cond, msg) => { if (!cond) f.push(msg); };
   for (const k of ["nummer", "titel", "datum", "ersteller", "typ", "entscheidungen", "ampel"]) muss(k in b, `Pflichtfeld fehlt: ${k}`);
   muss(["claude", "gpt"].includes(b.ersteller), "ersteller muss claude oder gpt sein");
-  muss(["regelbericht", "abwesenheitsbericht"].includes(b.typ), "typ muss regelbericht oder abwesenheitsbericht sein");
+  muss(["regelbericht", "abwesenheitsbericht", "analyse"].includes(b.typ), "typ muss regelbericht, abwesenheitsbericht oder analyse sein");
+  for (const a of b.abschnitte || []) {
+    muss(a.titel, "Abschnitt ohne titel");
+    if (a.tabelle) muss(a.tabelle.kopf && a.tabelle.zeilen && a.tabelle.breiten && a.tabelle.kopf.length === a.tabelle.breiten.length, `Abschnitt ${a.titel}: tabelle braucht kopf, zeilen, breiten gleicher Länge`);
+  }
   if (b.typ === "abwesenheitsbericht") muss(b.abwesenheit && b.abwesenheit.ki && b.abwesenheit.seit_commit, "Abwesenheitsbericht braucht abwesenheit.ki und abwesenheit.seit_commit (R7)");
   const ids = new Set();
   for (const e of b.entscheidungen || []) {
@@ -108,7 +112,7 @@ export function bauen(b, basis = ".") {
   const k = [];
   k.push(new Paragraph({ heading: HeadingLevel.TITLE, children: [new TextRun(`Bericht ${b.nummer} · ${b.titel}`)] }));
   const gegen = b.gegengelesen ? `${b.gegengelesen.von}: ${b.gegengelesen.status}` : "ausstehend";
-  k.push(p([n(`${b.datum} · erstellt von ${b.ersteller === "claude" ? "Claude" : "GPT"} · gegengelesen von ${gegen} · ${b.typ === "abwesenheitsbericht" ? "ABWESENHEITSBERICHT (R7)" : "Regelbericht (R2)"}`, { color: TEXT2, size: 18 })]));
+  k.push(p([n(`${b.datum} · erstellt von ${b.ersteller === "claude" ? "Claude" : "GPT"} · gegengelesen von ${gegen} · ${b.typ === "abwesenheitsbericht" ? "ABWESENHEITSBERICHT (R7)" : b.typ === "analyse" ? "Analyse auf Anfrage (Sicht einer KI, Gegenlesung ausstehend)" : "Regelbericht (R2)"}`, { color: TEXT2, size: 18 })]));
   k.push(roterRahmen(b), p(""));
   k.push(h("1 · Ampel und Kernaussage"));
   k.push(tabelle(["Strang", "Stand", "Kernaussage"], b.ampel.map(a => [a.strang, [p([fett(`● ${AMPEL[a.farbe][1]}`, { color: AMPEL[a.farbe][0], size: 18 })])], a.satz]), [1800, 1100, 6460]));
@@ -121,8 +125,15 @@ export function bauen(b, basis = ".") {
   }
   let nr = b.abwesenheit ? 2 : 1;
   const nh = (t) => h(`${++nr} · ${t}`);
+  for (const a of b.abschnitte || []) {
+    k.push(nh(a.titel));
+    for (const x of a.absaetze || []) k.push(p(x));
+    if (a.tabelle) { k.push(tabelle(a.tabelle.kopf, a.tabelle.zeilen, a.tabelle.breiten)); k.push(p("")); }
+    for (const x of a.punkte || []) k.push(punkt(x));
+    for (const x of a.nach || []) k.push(p(x));
+  }
   if ((b.grafiken || []).length) {
-    k.push(nh("Fortschritt in Grafiken"));
+    k.push(nh(b.grafiken_titel || "Fortschritt in Grafiken"));
     for (const g of b.grafiken) {
       const dat = path.resolve(basis, g.datei);
       if (fs.existsSync(dat)) k.push(new Paragraph({ alignment: AlignmentType.CENTER, children: [new ImageRun({ type: "png", data: fs.readFileSync(dat), transformation: { width: g.breite || 600, height: g.hoehe || 300 }, altText: { title: g.titel, description: g.textalternative, name: g.titel } })] }));
