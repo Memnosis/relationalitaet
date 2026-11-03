@@ -24,3 +24,9 @@ Ein vollständiger quellenverankerter Crosswalk ist weiterhin nicht belegt.
 **Verknüpfte Aufgabenfamilien:** PM-DATA-02, PM-THESIS-01. **Offene Belege:** vollständiger Einzelprompt-Crosswalk für letzte 100+ Originalnachrichten; siehe [Gesamt-Upgrade-/Abdeckungsprüfung](../PLAN_UPDATE_PROMPT100_UND_LUECKENAUDIT_2026-11-03.md). Eine allgemeine Themenfamilie ist kein belegter einzelner Originalprompt.
 
 **Änderungslog:** [Gesamtseiten-Audit](../SEITENAUDIT_GESAMT_LERNWEGE_THESEN_GEOKI_2026-11-03.md) · [Website-Changelog](../CHANGELOG_PM_KI_HISTORY_GEO_THESES_2026-11-03.md). **Reife:** umgesetzt/teilweise erklärt, Endabnahme ausstehend.
+
+## R5 · Differenzierte Strukturgrafik statt neuer Feldbeweis (03.11.2026)
+
+**Tatsächlich integriert:** Die im Integrationszweig bereits vorhandene `docs/assets/media/tensor_27_structure_only.svg` wurde verlustfrei nach `main` übernommen und als optional aufklappbare, vollständig beschriftete 27-Adressenansicht neben der historischen Würfel-Anschauung zugänglich gemacht. Der Leser erhält die notwendige Unterscheidung von Adressschema, mathematischem Tensor und überprüften fachlichen Relationen.
+
+**Abnahme offen:** visuelles Browser-Rendering, SVG-Lesbarkeit bei Desktop-/Druckansicht, tatsächliche Originalfeldaktenevidenz und korrektes Mapping A/B/C/G; kein E3/E4-Status ohne Quellen-/Beweisakte.
