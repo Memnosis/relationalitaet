@@ -1,0 +1,517 @@
+{
+  "schema_version": "pm-public-curated/0.1",
+  "snapshot_date": "2026-11-03",
+  "scope": "selected_verified_task_families_not_full_historical_inventory",
+  "notes": "Planning scores (0..3) are editorial estimates, not scientific measurements. Stage checks indicate verified artifacts only; end-to-end browser tests and AI reciprocal cycle open. This is a public-safe excerpt without internal prompts or unpublished original content.",
+  "stages": [
+    {
+      "key": "inventory",
+      "label": "Bestand"
+    },
+    {
+      "key": "specification",
+      "label": "Beschrieben"
+    },
+    {
+      "key": "implementation",
+      "label": "Umgesetzt"
+    },
+    {
+      "key": "testing",
+      "label": "Getestet"
+    },
+    {
+      "key": "peer_review",
+      "label": "Gegenprüfung"
+    },
+    {
+      "key": "release",
+      "label": "Freigegeben"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "PM-STD-01",
+      "title": "Standards und Skillregister operationalisieren",
+      "owner": "claude",
+      "priority": "P0",
+      "stage": {
+        "inventory": 1,
+        "specification": 1,
+        "implementation": 0,
+        "testing": 0,
+        "peer_review": 0,
+        "release": 0
+      },
+      "scores": {
+        "urgency": 3,
+        "architecture": 3,
+        "leverage": 3,
+        "unblocks": 3,
+        "risk": 2,
+        "readiness": 2,
+        "effort": 2
+      },
+      "requires": [],
+      "enables": [
+        "PM-DATA-01",
+        "PM-THESIS-01",
+        "PM-WEB-01"
+      ],
+      "domains": [
+        "Daten",
+        "Website",
+        "Wissenschaft",
+        "Mitmachen"
+      ],
+      "evidence": "forschung/koordination/STANDARDS_SKILLS_METHODENREGISTER_V1_2026-11-03.md",
+      "next": "Aus Standards reproduzierbare Profile, Tests und Datenverträge ableiten."
+    },
+    {
+      "id": "PM-DATA-01",
+      "title": "Freigegebenes Quellen-/Claim-Leseschema",
+      "owner": "claude",
+      "priority": "P0",
+      "stage": {
+        "inventory": 1,
+        "specification": 1,
+        "implementation": 0,
+        "testing": 0,
+        "peer_review": 0,
+        "release": 0
+      },
+      "scores": {
+        "urgency": 3,
+        "architecture": 3,
+        "leverage": 3,
+        "unblocks": 3,
+        "risk": 3,
+        "readiness": 2,
+        "effort": 2
+      },
+      "requires": [
+        "PM-STD-01"
+      ],
+      "enables": [
+        "PM-WEB-01",
+        "PM-THESIS-01",
+        "PM-PROMPT-01"
+      ],
+      "domains": [
+        "Quellen",
+        "Thesen",
+        "Website",
+        "Mitmachen"
+      ],
+      "evidence": "forschung/koordination/ZYKLUS_001_ZENODO_RELEVANZ_STATT_GESAMTLISTE_2026-11-03.md",
+      "next": "Private Masterquellen getrennt erhalten und freigegebene Web-Projektion validieren."
+    },
+    {
+      "id": "PM-DATA-02",
+      "title": "Versionen, 27 Logikfelder und Achsen-Crosswalk",
+      "owner": "claude",
+      "priority": "P0",
+      "stage": {
+        "inventory": 1,
+        "specification": 1,
+        "implementation": 0,
+        "testing": 0,
+        "peer_review": 0,
+        "release": 0
+      },
+      "scores": {
+        "urgency": 3,
+        "architecture": 3,
+        "leverage": 3,
+        "unblocks": 3,
+        "risk": 3,
+        "readiness": 2,
+        "effort": 3
+      },
+      "requires": [
+        "PM-STD-01"
+      ],
+      "enables": [
+        "PM-THESIS-01",
+        "PM-LOGIK-01"
+      ],
+      "domains": [
+        "Tensor",
+        "Logik",
+        "Feldtheorie",
+        "Publikationen"
+      ],
+      "evidence": "forschung/koordination/BRIEFING_DATEN_KI_TENSOR_STANDARD_PUBLIKATIONEN_2026-11-03.md",
+      "next": "A/B/C/G getrennt abgleichen; Primärquellen und echte Nichtentsprechungen."
+    },
+    {
+      "id": "PM-WEB-01",
+      "title": "Projektmanagement-Dashboard und Task-Wirkungswege",
+      "owner": "gpt",
+      "priority": "P0",
+      "stage": {
+        "inventory": 1,
+        "specification": 1,
+        "implementation": 1,
+        "testing": 0,
+        "peer_review": 0,
+        "release": 0
+      },
+      "scores": {
+        "urgency": 3,
+        "architecture": 3,
+        "leverage": 3,
+        "unblocks": 3,
+        "risk": 2,
+        "readiness": 3,
+        "effort": 2
+      },
+      "requires": [],
+      "enables": [
+        "PM-WEB-02",
+        "PM-THESIS-01",
+        "PM-PROMPT-01"
+      ],
+      "domains": [
+        "Projektsteuerung",
+        "Website",
+        "Forschung",
+        "Mitmachen"
+      ],
+      "evidence": "forschung/website/WEB_UPGRADE_BUENDEL_02_TENSOR_LOGIK_2026-11-03.md",
+      "next": "Die echte Seitenfunktion und Claudes Gegenprüfung abnehmen."
+    },
+    {
+      "id": "PM-WEB-02",
+      "title": "Gesamtaudit: sämtliche Fachseiten und Lernvoraussetzungen",
+      "owner": "gpt",
+      "priority": "P0",
+      "stage": {
+        "inventory": 1,
+        "specification": 1,
+        "implementation": 0,
+        "testing": 0,
+        "peer_review": 0,
+        "release": 0
+      },
+      "scores": {
+        "urgency": 3,
+        "architecture": 3,
+        "leverage": 3,
+        "unblocks": 2,
+        "risk": 2,
+        "readiness": 3,
+        "effort": 2
+      },
+      "requires": [],
+      "enables": [
+        "PM-HISTORY-01",
+        "PM-GEO-01",
+        "PM-THESIS-01"
+      ],
+      "domains": [
+        "Didaktik",
+        "Website",
+        "Alle Projekte"
+      ],
+      "evidence": "forschung/website/PLAN_TENSOR_LOGIK_FELDTHEORIE_STANDARD_UPGRADE_2026-11-03.md",
+      "next": "Seitenweise Lücken, Querverweise und Prioritätsfolgen dokumentieren."
+    },
+    {
+      "id": "PM-NAV-01",
+      "title": "Zwei Navigationssysteme verlustfrei vergleichen",
+      "owner": "gpt",
+      "priority": "P0",
+      "stage": {
+        "inventory": 1,
+        "specification": 1,
+        "implementation": 0,
+        "testing": 0,
+        "peer_review": 0,
+        "release": 0
+      },
+      "scores": {
+        "urgency": 3,
+        "architecture": 3,
+        "leverage": 3,
+        "unblocks": 3,
+        "risk": 3,
+        "readiness": 2,
+        "effort": 3
+      },
+      "requires": [],
+      "enables": [
+        "PM-WEB-02"
+      ],
+      "domains": [
+        "Navigation",
+        "Website",
+        "Barrierefreiheit"
+      ],
+      "evidence": "forschung/koordination/zyklen/KI-2026-11-03-001/GPT_REVIEW_DATEN_VORLAEUFIG.md",
+      "next": "16 betroffene Seiten und 4 geschützte Anker gegenprüfen, nicht automatisch mergen."
+    },
+    {
+      "id": "PM-HISTORY-01",
+      "title": "Geschichte der KI, alternative KI-Systeme und Forschungsweg",
+      "owner": "gpt",
+      "priority": "P1",
+      "stage": {
+        "inventory": 1,
+        "specification": 0,
+        "implementation": 0,
+        "testing": 0,
+        "peer_review": 0,
+        "release": 0
+      },
+      "scores": {
+        "urgency": 2,
+        "architecture": 2,
+        "leverage": 3,
+        "unblocks": 2,
+        "risk": 1,
+        "readiness": 2,
+        "effort": 2
+      },
+      "requires": [
+        "PM-WEB-02"
+      ],
+      "enables": [
+        "PM-LOGIK-01",
+        "PM-GEO-01"
+      ],
+      "domains": [
+        "Einführung",
+        "Mini-KI",
+        "Tensor",
+        "Bildung"
+      ],
+      "evidence": "docs/minimal-ki.html",
+      "next": "Historische KI-Paradigmen und eigenes Programm didaktisch mit Quellen vergleichen."
+    },
+    {
+      "id": "PM-GEO-01",
+      "title": "Geo-KI: bestehende Systeme, Datenbanken, Schnittstellen",
+      "owner": "gpt",
+      "priority": "P1",
+      "stage": {
+        "inventory": 1,
+        "specification": 0,
+        "implementation": 0,
+        "testing": 0,
+        "peer_review": 0,
+        "release": 0
+      },
+      "scores": {
+        "urgency": 2,
+        "architecture": 2,
+        "leverage": 3,
+        "unblocks": 2,
+        "risk": 1,
+        "readiness": 2,
+        "effort": 2
+      },
+      "requires": [
+        "PM-WEB-02"
+      ],
+      "enables": [
+        "PM-PROMPT-01"
+      ],
+      "domains": [
+        "Geo-KI",
+        "Skills",
+        "Inkubator",
+        "Mitmachen"
+      ],
+      "evidence": "docs/geoki.html",
+      "next": "GEOS/Shapely, CGAL, OpenCASCADE, QGIS/PostGIS und GeoJSON mit Kriterien und Grenzen vergleichen."
+    },
+    {
+      "id": "PM-THESIS-01",
+      "title": "Thesenregister: Ursprung, Gegenhypothese, Tests, Seitenbezüge",
+      "owner": "claude",
+      "priority": "P0",
+      "stage": {
+        "inventory": 1,
+        "specification": 1,
+        "implementation": 0,
+        "testing": 0,
+        "peer_review": 0,
+        "release": 0
+      },
+      "scores": {
+        "urgency": 3,
+        "architecture": 3,
+        "leverage": 3,
+        "unblocks": 3,
+        "risk": 3,
+        "readiness": 2,
+        "effort": 3
+      },
+      "requires": [
+        "PM-DATA-01",
+        "PM-DATA-02"
+      ],
+      "enables": [
+        "PM-THESIS-WEB",
+        "PM-LOGIK-01"
+      ],
+      "domains": [
+        "Thesen",
+        "Quellen",
+        "Feldtheorie",
+        "Publikationen",
+        "Mitmachen"
+      ],
+      "evidence": "forschung/tensor/LOGIK_TENSOR_2_1_FORSCHUNGS-UND_PROMPTEDITION_ENTWURF.md",
+      "next": "Originalthesen mit IDs, Originalwortlaut und Status, Hypothesen nicht als Tatsachen publizieren."
+    },
+    {
+      "id": "PM-THESIS-WEB",
+      "title": "Öffentlicher Thesenatlas mit klarer wissenschaftlicher Zuordnung",
+      "owner": "gpt",
+      "priority": "P1",
+      "stage": {
+        "inventory": 1,
+        "specification": 0,
+        "implementation": 0,
+        "testing": 0,
+        "peer_review": 0,
+        "release": 0
+      },
+      "scores": {
+        "urgency": 2,
+        "architecture": 3,
+        "leverage": 3,
+        "unblocks": 2,
+        "risk": 3,
+        "readiness": 1,
+        "effort": 2
+      },
+      "requires": [
+        "PM-THESIS-01"
+      ],
+      "enables": [
+        "PM-PROMPT-01"
+      ],
+      "domains": [
+        "Website",
+        "Thesen",
+        "Mitmachen",
+        "Publikationen"
+      ],
+      "evidence": "forschung/tensor/LOGIK_TENSOR_2_1_FORSCHUNGS-UND_PROMPTEDITION_ENTWURF.md",
+      "next": "Erst nach Claudes freigegebener These-Claim-Lesesicht echte Einzelaussagen veröffentlichen."
+    },
+    {
+      "id": "PM-LOGIK-01",
+      "title": "Logik-Tensor 2.0: Lehrbuch, Matrizen und Feldprüfung",
+      "owner": "claude",
+      "priority": "P1",
+      "stage": {
+        "inventory": 1,
+        "specification": 1,
+        "implementation": 0,
+        "testing": 0,
+        "peer_review": 0,
+        "release": 0
+      },
+      "scores": {
+        "urgency": 2,
+        "architecture": 3,
+        "leverage": 3,
+        "unblocks": 2,
+        "risk": 2,
+        "readiness": 2,
+        "effort": 3
+      },
+      "requires": [
+        "PM-DATA-02"
+      ],
+      "enables": [
+        "PM-THESIS-WEB"
+      ],
+      "domains": [
+        "Logik",
+        "Tensor",
+        "Feldtheorie",
+        "Publikationen"
+      ],
+      "evidence": "forschung/tensor/LOGIK_TENSOR_2_0_GOLDSTANDARD_ARBEITSSTAND_2026-11-03.md",
+      "next": "Originalquellen und Gegenmodelle prüfen, danach fachliches Manuskript freigeben lassen."
+    },
+    {
+      "id": "PM-PROMPT-01",
+      "title": "Öffentliche Prompt-Exporte statt ungeprüfter Rohprompts",
+      "owner": "claude",
+      "priority": "P0",
+      "stage": {
+        "inventory": 1,
+        "specification": 1,
+        "implementation": 0,
+        "testing": 0,
+        "peer_review": 0,
+        "release": 0
+      },
+      "scores": {
+        "urgency": 3,
+        "architecture": 3,
+        "leverage": 3,
+        "unblocks": 2,
+        "risk": 3,
+        "readiness": 2,
+        "effort": 2
+      },
+      "requires": [
+        "PM-DATA-01"
+      ],
+      "enables": [
+        "PM-THESIS-WEB"
+      ],
+      "domains": [
+        "Mitmachen",
+        "Sicherheit",
+        "Prompts",
+        "Agenten"
+      ],
+      "evidence": "forschung/website/CHANGELOG_DESIGN_TEXT_LERNPFAD_P0_2026-11-03.md",
+      "next": "20 Rohprompts privat sichern, einzelne Versionen testen und öffentliches Exportformat prüfen."
+    },
+    {
+      "id": "PM-CYCLE-01",
+      "title": "Zwei-KI-Gegenprüfung und Abschlüsse nach jedem vollen Zyklus",
+      "owner": "both",
+      "priority": "P0",
+      "stage": {
+        "inventory": 1,
+        "specification": 1,
+        "implementation": 1,
+        "testing": 0,
+        "peer_review": 0,
+        "release": 0
+      },
+      "scores": {
+        "urgency": 3,
+        "architecture": 3,
+        "leverage": 3,
+        "unblocks": 3,
+        "risk": 2,
+        "readiness": 3,
+        "effort": 2
+      },
+      "requires": [],
+      "enables": [
+        "PM-STD-01",
+        "PM-WEB-02"
+      ],
+      "domains": [
+        "Website",
+        "Daten",
+        "Forschung",
+        "Projektsteuerung"
+      ],
+      "evidence": "forschung/koordination/RHYTHMUS_3_3_9_12_KI_AUSTAUSCH_2026-11-03.md",
+      "next": "Claude-Lieferung + GPT-Gegenprüfung + Rückbestätigung + Bericht vollständig nachweisen."
+    }
+  ]
+}
