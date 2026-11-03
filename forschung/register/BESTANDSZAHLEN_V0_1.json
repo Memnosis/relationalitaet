@@ -124,6 +124,48 @@
    "bedeutung": "dokumentierte Logik-Begriffe in Kap. 8 des Logik-Tensors 1.0 (27 Feld + 7 Außenraum); Kapitelüberschrift nennt 100",
    "quelle": "LOGIK_TENSOR_1_0_EXTRAKT_V0_1",
    "pruefung": "logik10_extrakt.py"
+  },
+  {
+   "wert": "72",
+   "bedeutung": "atomisierte Arbeitsanforderungen aus Projektgesprächen (GPT-Rekonstruktion, keine verifizierten Originalnachrichten)",
+   "quelle": "forschung/website/LETZTE_100_PROMPTS_QUELLEN_CROSSWALK_V1.json",
+   "pruefung": "verified_exact_100_message_sequence=false"
+  },
+  {
+   "wert": "44",
+   "bedeutung": "Aufgabenfamilien im Gesamtprojekt-Kombinationsregister (von GPT angelegt, Altbestand)",
+   "quelle": "forschung/register/GESAMTPROJEKT_KOMBINATIONSREGISTER_V0_1.json",
+   "pruefung": "—"
+  },
+  {
+   "wert": "13 = 7 + 6",
+   "bedeutung": "öffentliche PM-Auswahl: 7 GPT-Karten + 6 Claude-Aufgaben als Summe",
+   "quelle": "docs/data/projektmanagement-public-v2.json",
+   "pruefung": "validate_pm_public_v2.py"
+  },
+  {
+   "wert": "15",
+   "bedeutung": "öffentliche Forschungslinien im Projektportfolio (Planungsgröße)",
+   "quelle": "docs/data/projektportfolio-v1.json",
+   "pruefung": "—"
+  },
+  {
+   "wert": "33 / 34 / 35",
+   "bedeutung": "Website-Seiten mit eigener Auditakte (33 bzw. 34, wächst je Runde) / HTML-Seiten in docs/ insgesamt (35)",
+   "quelle": "forschung/website/seiten/; docs/*.html",
+   "pruefung": "validate_site_integration.py"
+  },
+  {
+   "wert": "38",
+   "bedeutung": "Meta-Prompts in drei öffentlichen Quelldateien (Teilmenge der 82)",
+   "quelle": "PROMPT_INVENTAR_V0_1.json",
+   "pruefung": "Crosswalk"
+  },
+  {
+   "wert": "20 = 12 + 8",
+   "bedeutung": "reservierte Schwerpunktzyklen im 100-Zyklen-Programm (12 Mitmachen, 8 intern), noch nicht von Nils bestätigt",
+   "quelle": "PROGRAMM_100_ZYKLEN_MANIFEST.json",
+   "pruefung": "—"
   }
  ],
  "mehrdeutig_100": [
@@ -154,5 +196,6 @@
  ],
  "dq_status": {
   "DQ-002": "geklärt: 1.008 (v11.5) und 1.072 (v15.4) sind Fassungen, Differenz 64 belegt (ZK-04); 12 ist eine Website-Auswahl, kein Glossar"
- }
+ },
+ "regel_website": "Vorschlag: Jede öffentlich genannte Zahl verweist auf einen Eintrag hier (Prüfung in validate_site_integration.py, Owner GPT)."
 }

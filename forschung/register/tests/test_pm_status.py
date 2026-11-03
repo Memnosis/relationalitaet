@@ -38,5 +38,17 @@ class PMStatus(unittest.TestCase):
         self.assertEqual(self.run_(status=st)["PM-DATA-01"]["peer_review"], 1.0)
 
 
+    def test_aggregat_format_wie_gpt_internal_summary(self):
+        tasks = [{"task_id": "A", "stages": {s: 1.0 for s in pm.STUFEN}},
+                 {"task_id": "B", "stages": dict({s: 0.0 for s in pm.STUFEN}, inventory=1.0, testing=0.5)}]
+        ag = pm.aggregat(tasks)
+        self.assertEqual(set(ag["internal_summary"]), {"count", "completed_6_stages", "stage_counts", "review_status"})
+        self.assertEqual(ag["internal_summary"]["count"], 2)
+        self.assertEqual(ag["internal_summary"]["completed_6_stages"], 1)
+        self.assertEqual(ag["internal_summary"]["stage_counts"]["inventory"], 2)
+        self.assertEqual(ag["internal_summary"]["stage_counts"]["testing"], 1)  # 0.5 zählt nicht voll
+        self.assertEqual(ag["stage_counts_partial"]["testing"], 1)
+        self.assertNotIn("task_id", str(ag))  # keine Einzelaufgaben (R6)
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

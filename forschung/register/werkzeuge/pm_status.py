@@ -50,8 +50,24 @@ def berechne(regeln, testreg, repro_text, status, lesesicht_n):
     return out
 
 
+STUFEN = ["inventory", "specification", "implementation", "testing", "peer_review", "release"]
+
+
+def aggregat(tasks):
+    """Claude-Anteil im Format von GPTs internal_summary (pm-public-curated/0.2): nur Summen, keine Einzelaufgaben (R6).
+    stage_counts zählt Aufgaben mit vollem Nachweis (Wert 1); Teilnachweise (0.5) stehen getrennt und zählen dort nicht."""
+    voll = {s: sum(1 for t in tasks if t["stages"][s] >= 1) for s in STUFEN}
+    teil = {s: sum(1 for t in tasks if 0 < t["stages"][s] < 1) for s in STUFEN}
+    return {"internal_summary": {"count": len(tasks), "completed_6_stages": sum(1 for t in tasks if all(t["stages"][s] >= 1 for s in STUFEN)),
+                                 "stage_counts": voll,
+                                 "review_status": "aus Nachweisen berechnet (Dateien, Testregister, Reproduktion, Zyklus-Flags); Teilnachweise nicht mitgezählt; Freigabe nur durch Nils"},
+            "stage_counts_partial": teil}
+
+
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument("--aus", required=True); a = ap.parse_args()
+    ap = argparse.ArgumentParser(); ap.add_argument("--aus", required=True)
+    ap.add_argument("--aggregat", help="zusätzlich: Claude-Summe im Format internal_summary (pm-public-curated/0.2) für GPT")
+    a = ap.parse_args()
     if (W / "docs") in pathlib.Path(a.aus).resolve().parents:
         sys.exit("Abbruch: nicht direkt nach docs/ schreiben (GPT übernimmt nach Review).")
     lade = lambda p: json.loads((W / p).read_text(encoding="utf-8"))
@@ -66,6 +82,15 @@ def main():
            "public_safe": True, "tasks": res}
     pathlib.Path(a.aus).write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     for t in res: print(t["task_id"], t["stages"])
+    if a.aggregat:
+        if (W / "docs") in pathlib.Path(a.aggregat).resolve().parents:
+            sys.exit("Abbruch: nicht direkt nach docs/ schreiben (GPT übernimmt nach Review).")
+        ag = {"schema_version": "pm-claude-aggregat/0.2", "ziel_schema": "pm-public-curated/0.2 → internal_summary", "owner": "claude",
+              "source_commit": commit, "generated_at": out["generated_at"], "quelle": a.aus,
+              "uebernahme": "GPT ersetzt docs/data/projektmanagement-public-v2.json → internal_summary 1:1 durch das Objekt internal_summary dieser Datei",
+              **aggregat(res)}
+        pathlib.Path(a.aggregat).write_text(json.dumps(ag, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        print("Aggregat:", ag["internal_summary"]["stage_counts"])
 
 
 if __name__ == "__main__":

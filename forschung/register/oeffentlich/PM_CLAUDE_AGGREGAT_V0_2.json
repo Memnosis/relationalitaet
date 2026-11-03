@@ -1,0 +1,30 @@
+{
+ "schema_version": "pm-claude-aggregat/0.2",
+ "ziel_schema": "pm-public-curated/0.2 → internal_summary",
+ "owner": "claude",
+ "source_commit": "7e0403a",
+ "generated_at": "2026-11-03T23:58:46+00:00",
+ "quelle": "forschung/register/oeffentlich/PM_STATUS_CLAUDE_V0_1.json",
+ "uebernahme": "GPT ersetzt docs/data/projektmanagement-public-v2.json → internal_summary 1:1 durch das Objekt internal_summary dieser Datei",
+ "internal_summary": {
+  "count": 6,
+  "completed_6_stages": 0,
+  "stage_counts": {
+   "inventory": 6,
+   "specification": 6,
+   "implementation": 3,
+   "testing": 4,
+   "peer_review": 1,
+   "release": 0
+  },
+  "review_status": "aus Nachweisen berechnet (Dateien, Testregister, Reproduktion, Zyklus-Flags); Teilnachweise nicht mitgezählt; Freigabe nur durch Nils"
+ },
+ "stage_counts_partial": {
+  "inventory": 0,
+  "specification": 0,
+  "implementation": 2,
+  "testing": 1,
+  "peer_review": 4,
+  "release": 0
+ }
+}

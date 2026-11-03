@@ -1,7 +1,7 @@
 # Reproduktionsbericht Claude-Prüfungen
 
-- Zeit: 2026-11-03T23:13:37+00:00
-- Commit: `dbeb30395efec9ea2fc51eaa72510c4ffcb68610`
+- Zeit: 2026-11-03T23:59:25+00:00
+- Commit: `7e0403a7adbd14f4b285036f7f5f0ac6d076269a`
 - Python: 3.13.18
 
 | Prüfung | Skript (SHA-256, 12 Zeichen) | Exit | Erwartetes Signal gefunden |
@@ -12,7 +12,7 @@
 | Formale Tests K4 (8) | `forschung/tensor/logik-claude/tests/test_formal_k4.py` `bc8f455b23cb` | 0 | ja |
 | Probelauf LOGIK-PROMPT-02 (8) | `forschung/tensor/logik-claude/tests/test_logik_prompt02.py` `9b09cd69386a` | 0 | ja |
 | Lesesicht v0.2 (5) | `forschung/register/tests/test_lesesicht.py` `d997491b8bec` | 0 | ja |
-| PM-Status aus Nachweisen (5) | `forschung/register/tests/test_pm_status.py` `5cb03e84d9e5` | 0 | ja |
+| PM-Status aus Nachweisen (5) | `forschung/register/tests/test_pm_status.py` `a1583fbe9b39` | 0 | ja |
 | Abwesenheit R7: 10 Beiträge ohne Feedback (8) | `forschung/koordination/tests/test_abwesenheit.py` `70c4eac36f04` | 0 | ja |
 | Berichtsgenerator roter Rahmen R2 (5) | `forschung/koordination/tests/test_bericht_vorlage.py` `6bd9cdbf963b` | 0 | ja |
 | Gegenrechnung GR-03: 16 Zahlenketten ki-tensor | `forschung/register/gegenrechnung/kt_zahlenketten.py` `4222b191e220` | 0 | ja |

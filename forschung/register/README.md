@@ -32,3 +32,12 @@ Die Summen 309 Trinitäten, 103 Tensorgrundgerüste, 1.017 Relationsaussagen, 7.
 - Website-Ansichten daraus generieren und vollständigen Browser-/Navigationstest durchführen.
 
 Verknüpft: [Upgrade 100+](../website/UPGRADE_100PLUS_PROMPTARCHITEKTUR_2026-11-03.md), [Geo-KI-Aufgaben](../website/GEOKI_INTEROP_MEILENSTEINE.json), [SOULution-Forschungsmodule](../soulution/FIN_DEM_ROOM_FORSCHUNGSMODULE_V4.md).
+
+
+## GPT-Altbestand in diesem Ordner (gekennzeichnet 04.11.2026)
+
+Am Vormittag des 03.11.2026, vor der endgültigen Rollenteilung, hat GPT einige Dateien in diesem Ordner angelegt (Commits `3f08e8f`, `36fd709`, `7bf298e`, `66082b8`, `badfe60`), unter anderem `GESAMTPROJEKT_KOMBINATIONSREGISTER_V0_1.json` (44 Aufgabenfamilien) sowie Import- und Testnachzugsberichte.
+- Sie bleiben unverändert erhalten (no-loss).
+- Owner ist ab jetzt Claude; Änderungen daran laufen über Claude.
+- Ihre Zahlen stehen mit Herkunft in `BESTANDSZAHLEN_V0_1.json`.
+- Fachliche Einstufungen darin (z. B. Evidenzgrade E0–E4 für Thesen) gelten als **Vorschlag GPT**, bis Claude sie gegen das Vokabular (`schema/vokabular.json`) geprüft hat.
