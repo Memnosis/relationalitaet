@@ -1,0 +1,708 @@
+{
+ "schema_version": "prompt-crosswalk/0.1",
+ "owner": "claude",
+ "erzeugt_am": "2026-11-03T15:12:19+00:00",
+ "source_commit": "4c2a7e9",
+ "quellen": [
+  "main: MITMACH_TASKS, GEOKI_INTEROP_MEILENSTEINE, TASKKARTEN, LOGIK 2.1, FIN_DEM_ROOM v4, P-NEU v0.2",
+  "Zweig integration/soulution-shared-core-2026-11-03: docs/data/promptbibliothek-v1.json (Blob 4e09282)"
+ ],
+ "hinweis": "Nur IDs und SHA-256 der Prompttexte; keine Texte. Antwort auf GPT_ANTWORT.md §5 Punkt 2.",
+ "zaehlung": {
+  "vorkommen": 102,
+  "eindeutige_ids": 82,
+  "in_beiden": 20,
+  "davon_text_identisch": 20,
+  "davon_text_verschieden": 0
+ },
+ "eintraege": [
+  {
+   "id": "EXT-01",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "familie": null,
+   "sha_main": "35bbcf5af3bdc1704bb8321598a6da410f473432b4450c9c06b4a918058d5b2b",
+   "sha_bibliothek": null,
+   "text_identisch": null
+  },
+  {
+   "id": "EXT-02",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "familie": null,
+   "sha_main": "d4df5b4131cb6d0d4e1ff7b61e0459e69c863f9eec323211050e13aff03fd189",
+   "sha_bibliothek": null,
+   "text_identisch": null
+  },
+  {
+   "id": "FMT-H01",
+   "in_main": true,
+   "in_bibliothek_zweig": true,
+   "familie": "geoki_format",
+   "sha_main": "55d26c1f57fcd63836db7267dc64619aa6f58a24aa63a9efe77ab64f5b491cf3",
+   "sha_bibliothek": "55d26c1f57fcd63836db7267dc64619aa6f58a24aa63a9efe77ab64f5b491cf3",
+   "text_identisch": true
+  },
+  {
+   "id": "FMT-H02",
+   "in_main": true,
+   "in_bibliothek_zweig": true,
+   "familie": "geoki_format",
+   "sha_main": "6ec4fb705f3ddf8234724435f34902df85e5523a8f626eb3b2eb041d897e9d9b",
+   "sha_bibliothek": "6ec4fb705f3ddf8234724435f34902df85e5523a8f626eb3b2eb041d897e9d9b",
+   "text_identisch": true
+  },
+  {
+   "id": "FMT-H03",
+   "in_main": true,
+   "in_bibliothek_zweig": true,
+   "familie": "geoki_format",
+   "sha_main": "fc59beb9f3cb3c18f6914ff86b3b3489354c36e76792d51d35000ad583dd1026",
+   "sha_bibliothek": "fc59beb9f3cb3c18f6914ff86b3b3489354c36e76792d51d35000ad583dd1026",
+   "text_identisch": true
+  },
+  {
+   "id": "FMT-H04",
+   "in_main": true,
+   "in_bibliothek_zweig": true,
+   "familie": "geoki_format",
+   "sha_main": "d6413c91be5b9671f7d8065e6d073838a34180ddcf2b19f346d8e1f67248e56c",
+   "sha_bibliothek": "d6413c91be5b9671f7d8065e6d073838a34180ddcf2b19f346d8e1f67248e56c",
+   "text_identisch": true
+  },
+  {
+   "id": "FMT-H05",
+   "in_main": true,
+   "in_bibliothek_zweig": true,
+   "familie": "geoki_format",
+   "sha_main": "fe6db4f7221198e049f94d3e5c5c949173eb2976f2318171b30078fe313e8f23",
+   "sha_bibliothek": "fe6db4f7221198e049f94d3e5c5c949173eb2976f2318171b30078fe313e8f23",
+   "text_identisch": true
+  },
+  {
+   "id": "GEO-M1",
+   "in_main": true,
+   "in_bibliothek_zweig": true,
+   "familie": "geoki_format",
+   "sha_main": "b83fe74027a0982462d68fa375a9fb3a34c7c96d368e7330a5fce9ac732879ab",
+   "sha_bibliothek": "b83fe74027a0982462d68fa375a9fb3a34c7c96d368e7330a5fce9ac732879ab",
+   "text_identisch": true
+  },
+  {
+   "id": "GEO-OPS-01",
+   "in_main": true,
+   "in_bibliothek_zweig": true,
+   "familie": "mitmachen",
+   "sha_main": "46e2e965b9a8b04f2326ee9069e11b4e59966b5a691b79d1f091a9251a9b0090",
+   "sha_bibliothek": "46e2e965b9a8b04f2326ee9069e11b4e59966b5a691b79d1f091a9251a9b0090",
+   "text_identisch": true
+  },
+  {
+   "id": "H1",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "leser",
+   "sha_main": null,
+   "sha_bibliothek": "fa0bb55b050dd0b25784962c2c380addd503c6f074dc0e7f3267624932af5eec",
+   "text_identisch": null
+  },
+  {
+   "id": "H2",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "leser",
+   "sha_main": null,
+   "sha_bibliothek": "8acbb12625bd6a8a1281a07b0385408ecab31701231e38e5885de186304f6c70",
+   "text_identisch": null
+  },
+  {
+   "id": "H3",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "leser",
+   "sha_main": null,
+   "sha_bibliothek": "27ef537947b0018faa992b5db097e330fa4ade0efe50756b2ec82e56f60cc864",
+   "text_identisch": null
+  },
+  {
+   "id": "H4",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "leser",
+   "sha_main": null,
+   "sha_bibliothek": "cec44fa602c3b9fddc27057d37a1df803d9d844defa2bede3b99f95a9c6bd146",
+   "text_identisch": null
+  },
+  {
+   "id": "H5",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "leser",
+   "sha_main": null,
+   "sha_bibliothek": "1b3c50e9811b4f09cee602a10a8e753bbbdf8ecdfe07ef3f309a4a794a823a3d",
+   "text_identisch": null
+  },
+  {
+   "id": "HARV-01",
+   "in_main": true,
+   "in_bibliothek_zweig": true,
+   "familie": "mitmachen",
+   "sha_main": "503452af4144531049eeae6cdf5f92666fba7324cfa08dd5f10bb2ad74f3ea3b",
+   "sha_bibliothek": "503452af4144531049eeae6cdf5f92666fba7324cfa08dd5f10bb2ad74f3ea3b",
+   "text_identisch": true
+  },
+  {
+   "id": "HARV-02",
+   "in_main": true,
+   "in_bibliothek_zweig": true,
+   "familie": "mitmachen",
+   "sha_main": "2ac83ae9f85d51818b5bd61bf00a4677c52791c34e7cb533c50f0c0d7919d576",
+   "sha_bibliothek": "2ac83ae9f85d51818b5bd61bf00a4677c52791c34e7cb533c50f0c0d7919d576",
+   "text_identisch": true
+  },
+  {
+   "id": "HARV-03",
+   "in_main": true,
+   "in_bibliothek_zweig": true,
+   "familie": "mitmachen",
+   "sha_main": "b7bc989ed95cf218615c53e6b2892b5eea451064f794d33848c64a08612cac71",
+   "sha_bibliothek": "b7bc989ed95cf218615c53e6b2892b5eea451064f794d33848c64a08612cac71",
+   "text_identisch": true
+  },
+  {
+   "id": "HARV-04",
+   "in_main": true,
+   "in_bibliothek_zweig": true,
+   "familie": "mitmachen",
+   "sha_main": "96e0b2406999c2df2c899ee7e74f7de3ac65bd8a95b009c6b3211489808194e6",
+   "sha_bibliothek": "96e0b2406999c2df2c899ee7e74f7de3ac65bd8a95b009c6b3211489808194e6",
+   "text_identisch": true
+  },
+  {
+   "id": "HARV-05",
+   "in_main": true,
+   "in_bibliothek_zweig": true,
+   "familie": "mitmachen",
+   "sha_main": "2c19e20bb2da93a50c9affdd0d3dec75003c01385e81a26ef95307e82bf476ee",
+   "sha_bibliothek": "2c19e20bb2da93a50c9affdd0d3dec75003c01385e81a26ef95307e82bf476ee",
+   "text_identisch": true
+  },
+  {
+   "id": "HARV-06",
+   "in_main": true,
+   "in_bibliothek_zweig": true,
+   "familie": "mitmachen",
+   "sha_main": "6622239912bcbfb5ea8f28ed2893f601034bb0444ee16d5ad5ac8b1b6dd057e4",
+   "sha_bibliothek": "6622239912bcbfb5ea8f28ed2893f601034bb0444ee16d5ad5ac8b1b6dd057e4",
+   "text_identisch": true
+  },
+  {
+   "id": "KOL-01",
+   "in_main": true,
+   "in_bibliothek_zweig": true,
+   "familie": "mitmachen",
+   "sha_main": "7aa9987a9c4b6a8d31ab7145f2959d1989827c94fb01e0e31070c24ccf97dea3",
+   "sha_bibliothek": "7aa9987a9c4b6a8d31ab7145f2959d1989827c94fb01e0e31070c24ccf97dea3",
+   "text_identisch": true
+  },
+  {
+   "id": "KOMP-01",
+   "in_main": true,
+   "in_bibliothek_zweig": true,
+   "familie": "mitmachen",
+   "sha_main": "fe829561d64c0d86b1dd19287be6057bb8228d0b38f427a471537952167359cf",
+   "sha_bibliothek": "fe829561d64c0d86b1dd19287be6057bb8228d0b38f427a471537952167359cf",
+   "text_identisch": true
+  },
+  {
+   "id": "M20K-01",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "familie": null,
+   "sha_main": "9e0f99de53628c5cde2d5171ec04ba32613e44ad6304d4a51a614ffe66f58d55",
+   "sha_bibliothek": null,
+   "text_identisch": null
+  },
+  {
+   "id": "M20K-02",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "familie": null,
+   "sha_main": "e0f727e668ccd4c2019a3c32b9f72be3c251c512cbcdc739a458e16b9f16db24",
+   "sha_bibliothek": null,
+   "text_identisch": null
+  },
+  {
+   "id": "M20K-03",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "familie": null,
+   "sha_main": "f4133036a96e0cb874381129b2f949d835a3879005aa67cdd1ee8b2a26a8f2ac",
+   "sha_bibliothek": null,
+   "text_identisch": null
+  },
+  {
+   "id": "M20K-04",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "familie": null,
+   "sha_main": "fec446fee2d3a3704d5ce3f4e429ebc8f653376862a9dc0dff74851d1d8e77c1",
+   "sha_bibliothek": null,
+   "text_identisch": null
+  },
+  {
+   "id": "MINI-OBS-01",
+   "in_main": true,
+   "in_bibliothek_zweig": true,
+   "familie": "mitmachen",
+   "sha_main": "ebf9a9f82737b2cb10594fcf4762e455e7cf0238e4dcf551f373621dfca08b17",
+   "sha_bibliothek": "ebf9a9f82737b2cb10594fcf4762e455e7cf0238e4dcf551f373621dfca08b17",
+   "text_identisch": true
+  },
+  {
+   "id": "MP-01",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "meta",
+   "sha_main": null,
+   "sha_bibliothek": "7be67ce68027078573a755b83a9db2af02626dd98aba8f562ea701e582b28b68",
+   "text_identisch": null
+  },
+  {
+   "id": "OBS-01",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "familie": null,
+   "sha_main": "8489d56f5f6bedcc943d2f746a54493e186262aaf63b125f1ebcee5183e1a55e",
+   "sha_bibliothek": null,
+   "text_identisch": null
+  },
+  {
+   "id": "OBS-02",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "familie": null,
+   "sha_main": "7838303988d048be3f134b171fe6053236575aceea5fb51c80ce68deec368209",
+   "sha_bibliothek": null,
+   "text_identisch": null
+  },
+  {
+   "id": "OBS-03",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "familie": null,
+   "sha_main": "488a4ca6270e11b5656d2dc46667aaf2755e6a3c0f0d62d5d8cd5ea9930e5c0b",
+   "sha_bibliothek": null,
+   "text_identisch": null
+  },
+  {
+   "id": "OBS-04",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "familie": null,
+   "sha_main": "f62a10d91c59f564152d51e3da5bb763a8eff6f2e929ef7a3e4e3203cca4acfa",
+   "sha_bibliothek": null,
+   "text_identisch": null
+  },
+  {
+   "id": "OBS-05",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "familie": null,
+   "sha_main": "65a1c7947bf7f9994b6a3279bf5854a2ede96c5e2bf3e51e8a41166a59e10259",
+   "sha_bibliothek": null,
+   "text_identisch": null
+  },
+  {
+   "id": "P-AGENTEN",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "meta",
+   "sha_main": null,
+   "sha_bibliothek": "0cf4d1fe7bad6e09683ccca48a0367d9f4fc5174f0d25996d3e4659de1265972",
+   "text_identisch": null
+  },
+  {
+   "id": "P-META",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "meta",
+   "sha_main": null,
+   "sha_bibliothek": "ed0708951f2c9e31b06608efd9b9d42f2b3e29a2db046bd6744b9b840df8f952",
+   "text_identisch": null
+  },
+  {
+   "id": "P-SKILL",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "meta",
+   "sha_main": null,
+   "sha_bibliothek": "f14ffb6049d56751b9c2a692a9d40ad328e9008e84e413c4fed7b57fb8179c13",
+   "text_identisch": null
+  },
+  {
+   "id": "P-STRUKTUR",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "meta",
+   "sha_main": null,
+   "sha_bibliothek": "625e288826b7ded2899a0c649892457336168ffdadebd62150472b6343a83c91",
+   "text_identisch": null
+  },
+  {
+   "id": "P-SYNTHESE",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "meta",
+   "sha_main": null,
+   "sha_bibliothek": "4bf53f024a664c862b30ede481a6a13635db54723563a8306b8511f220cafa64",
+   "text_identisch": null
+  },
+  {
+   "id": "PP-SYSTEM",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "meta",
+   "sha_main": null,
+   "sha_bibliothek": "6bef7ea15fa009e5dc7b709788c9e2d75159ffd05c9c540eafb3e3fb216a55c1",
+   "text_identisch": null
+  },
+  {
+   "id": "PRD-01",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "familie": null,
+   "sha_main": "ac5a315057892100546e68ea53478f54dd13e5554c4d75dec01581a9d0f56116",
+   "sha_bibliothek": null,
+   "text_identisch": null
+  },
+  {
+   "id": "PRD-02",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "familie": null,
+   "sha_main": "1863d3cfb0fbc4a86cb8552fcf537a3deeeceb4c054039a52ebd040f3e0f78d9",
+   "sha_bibliothek": null,
+   "text_identisch": null
+  },
+  {
+   "id": "SKL-01",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "familie": null,
+   "sha_main": "d5781274277a4e6e3a49eaa651fea023ec63e0618fec4f43d370647b825b761c",
+   "sha_bibliothek": null,
+   "text_identisch": null
+  },
+  {
+   "id": "SKL-02",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "familie": null,
+   "sha_main": "0078222833645a9516eda097f82841f4c8cdefe6fa381875b9af778698a15015",
+   "sha_bibliothek": null,
+   "text_identisch": null
+  },
+  {
+   "id": "SKL-03",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "familie": null,
+   "sha_main": "82b653c0f6b0af8b656465a99bd11abc8bb282712b00d2f702624d89dcbfbae4",
+   "sha_bibliothek": null,
+   "text_identisch": null
+  },
+  {
+   "id": "SKL-04",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "familie": null,
+   "sha_main": "243a788a90ebccd2b566a0e7a5ccea3adf7dae3dcb0ff9a8697b35c9d022f00a",
+   "sha_bibliothek": null,
+   "text_identisch": null
+  },
+  {
+   "id": "VIS-01",
+   "in_main": true,
+   "in_bibliothek_zweig": true,
+   "familie": "mitmachen",
+   "sha_main": "a717a6bc875a9e47e364157c318a10e277c256e632e8b2b269793cfafb00a0ff",
+   "sha_bibliothek": "a717a6bc875a9e47e364157c318a10e277c256e632e8b2b269793cfafb00a0ff",
+   "text_identisch": true
+  },
+  {
+   "id": "VP-01",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "fachforschung",
+   "sha_main": null,
+   "sha_bibliothek": "85a56e703eb7a8a6e25c49b30c22f92c2324fc1411763abe2c0eaed0e3134c49",
+   "text_identisch": null
+  },
+  {
+   "id": "VP-02",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "fachforschung",
+   "sha_main": null,
+   "sha_bibliothek": "e9568caa3c63e23af73406982ec295192c7596c6d743ece872c6b68c9477791a",
+   "text_identisch": null
+  },
+  {
+   "id": "VP-03",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "fachforschung",
+   "sha_main": null,
+   "sha_bibliothek": "ab2993aceccce5420f70a77f01e1e6cfca87a9220c2af58b018ab523b5637a48",
+   "text_identisch": null
+  },
+  {
+   "id": "VP-04",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "fachforschung",
+   "sha_main": null,
+   "sha_bibliothek": "1246bbc06d8adbf1c0bbff5142dd6a66d3a467a22a17780f9047c37c16fa16bb",
+   "text_identisch": null
+  },
+  {
+   "id": "VP-05",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "fachforschung",
+   "sha_main": null,
+   "sha_bibliothek": "ad53f7a04f473d8bdc0b386d35d0b2a0e1ff85b414c7bcee5b05ae8ec97a71cf",
+   "text_identisch": null
+  },
+  {
+   "id": "VP-06",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "fachforschung",
+   "sha_main": null,
+   "sha_bibliothek": "e3278c8070c53011153f282afe18d38da6c39d8713acb7c8389c8c275224e02f",
+   "text_identisch": null
+  },
+  {
+   "id": "VP-07",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "fachforschung",
+   "sha_main": null,
+   "sha_bibliothek": "fedfc227878e4f7d39824e7a12b2736fcf241a894296e0cfa5c5d537bddc5bfb",
+   "text_identisch": null
+  },
+  {
+   "id": "VP-08",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "fachforschung",
+   "sha_main": null,
+   "sha_bibliothek": "2b7f2e465462a38abdbdc5884864dca6a27266df9702b7be4ce0153141541dd4",
+   "text_identisch": null
+  },
+  {
+   "id": "VP-09",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "fachforschung",
+   "sha_main": null,
+   "sha_bibliothek": "597ba6ba878f5a43ae51220ed9a15affbad200758fc4b300c0da3d739a455ef8",
+   "text_identisch": null
+  },
+  {
+   "id": "VP-10",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "fachforschung",
+   "sha_main": null,
+   "sha_bibliothek": "0f9498b9aee1b11361f334be50083bae55d79a68b88d77d1ea738a0034b369a6",
+   "text_identisch": null
+  },
+  {
+   "id": "VP-11",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "fachforschung",
+   "sha_main": null,
+   "sha_bibliothek": "55b72dd7ad310ca004a7e4276806b5c641a5d65915225e32449dd9687e32c581",
+   "text_identisch": null
+  },
+  {
+   "id": "VP-12",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "fachforschung",
+   "sha_main": null,
+   "sha_bibliothek": "1cd36543afb0a36a45b1e48e0b12e544258809692fcb9eae46e4ba31232f6abf",
+   "text_identisch": null
+  },
+  {
+   "id": "VP-13",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "fachforschung",
+   "sha_main": null,
+   "sha_bibliothek": "e136409edaf279309819f9952177411863921b97ed299340088fbade1031820e",
+   "text_identisch": null
+  },
+  {
+   "id": "VP-14",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "fachforschung",
+   "sha_main": null,
+   "sha_bibliothek": "ea64ecaaf68c8ca79b2f377e6b03b5f875b0d5d9f04e8072758b70b9c66b5e1e",
+   "text_identisch": null
+  },
+  {
+   "id": "VP-15",
+   "in_main": false,
+   "in_bibliothek_zweig": true,
+   "familie": "fachforschung",
+   "sha_main": null,
+   "sha_bibliothek": "5a6354246a26d0cba7ac78dae7270041e2e3253d697b83edef3d7f249d036bb2",
+   "text_identisch": null
+  },
+  {
+   "id": "WEB-01",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "familie": null,
+   "sha_main": "cc3b4de592c8153c5f410abf8c80bdc4934dcb629b35813dcee00e6c8d9be078",
+   "sha_bibliothek": null,
+   "text_identisch": null
+  },
+  {
+   "id": "WEB-CODE-01",
+   "in_main": true,
+   "in_bibliothek_zweig": true,
+   "familie": "mitmachen",
+   "sha_main": "752f04fef0ba0db54657b837a78100c1555b04eb42ad91534e8ac05f04049f9f",
+   "sha_bibliothek": "752f04fef0ba0db54657b837a78100c1555b04eb42ad91534e8ac05f04049f9f",
+   "text_identisch": true
+  },
+  {
+   "id": "WEB-GLOS-01",
+   "in_main": true,
+   "in_bibliothek_zweig": true,
+   "familie": "mitmachen",
+   "sha_main": "7991f7ff64c4b8b7c17984cfb4240627c5efebcbfb809143547be2410ff33d67",
+   "sha_bibliothek": "7991f7ff64c4b8b7c17984cfb4240627c5efebcbfb809143547be2410ff33d67",
+   "text_identisch": true
+  },
+  {
+   "id": "WEB-PAPER-01",
+   "in_main": true,
+   "in_bibliothek_zweig": true,
+   "familie": "geoki_format",
+   "sha_main": "ffb71a333f75e4ced226cb69404d45a01a4e3d9487f62a67fb28ef904e789309",
+   "sha_bibliothek": "ffb71a333f75e4ced226cb69404d45a01a4e3d9487f62a67fb28ef904e789309",
+   "text_identisch": true
+  },
+  {
+   "id": "LOGIK-PROMPT-01",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "quelle": "forschung/tensor/LOGIK_TENSOR_2_1_FORSCHUNGS-UND_PROMPTEDITION_ENTWURF.md"
+  },
+  {
+   "id": "LOGIK-PROMPT-02",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "quelle": "forschung/tensor/LOGIK_TENSOR_2_1_FORSCHUNGS-UND_PROMPTEDITION_ENTWURF.md"
+  },
+  {
+   "id": "LOGIK-PROMPT-03",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "quelle": "forschung/tensor/LOGIK_TENSOR_2_1_FORSCHUNGS-UND_PROMPTEDITION_ENTWURF.md"
+  },
+  {
+   "id": "LOGIK-PROMPT-04",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "quelle": "forschung/tensor/LOGIK_TENSOR_2_1_FORSCHUNGS-UND_PROMPTEDITION_ENTWURF.md"
+  },
+  {
+   "id": "LOGIK-PROMPT-05",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "quelle": "forschung/tensor/LOGIK_TENSOR_2_1_FORSCHUNGS-UND_PROMPTEDITION_ENTWURF.md"
+  },
+  {
+   "id": "LOGIK-PROMPT-06",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "quelle": "forschung/tensor/LOGIK_TENSOR_2_1_FORSCHUNGS-UND_PROMPTEDITION_ENTWURF.md"
+  },
+  {
+   "id": "SOUL-PROMPT-1",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "quelle": "forschung/soulution/FIN_DEM_ROOM_FORSCHUNGSMODULE_V4.md (Abschnitt „Sechs reproduzierbare Prompts“, ohne eigene IDs; ID von Claude vergeben, nur im Crosswalk)"
+  },
+  {
+   "id": "SOUL-PROMPT-2",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "quelle": "forschung/soulution/FIN_DEM_ROOM_FORSCHUNGSMODULE_V4.md (Abschnitt „Sechs reproduzierbare Prompts“, ohne eigene IDs; ID von Claude vergeben, nur im Crosswalk)"
+  },
+  {
+   "id": "SOUL-PROMPT-3",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "quelle": "forschung/soulution/FIN_DEM_ROOM_FORSCHUNGSMODULE_V4.md (Abschnitt „Sechs reproduzierbare Prompts“, ohne eigene IDs; ID von Claude vergeben, nur im Crosswalk)"
+  },
+  {
+   "id": "SOUL-PROMPT-4",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "quelle": "forschung/soulution/FIN_DEM_ROOM_FORSCHUNGSMODULE_V4.md (Abschnitt „Sechs reproduzierbare Prompts“, ohne eigene IDs; ID von Claude vergeben, nur im Crosswalk)"
+  },
+  {
+   "id": "SOUL-PROMPT-5",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "quelle": "forschung/soulution/FIN_DEM_ROOM_FORSCHUNGSMODULE_V4.md (Abschnitt „Sechs reproduzierbare Prompts“, ohne eigene IDs; ID von Claude vergeben, nur im Crosswalk)"
+  },
+  {
+   "id": "SOUL-PROMPT-6",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "quelle": "forschung/soulution/FIN_DEM_ROOM_FORSCHUNGSMODULE_V4.md (Abschnitt „Sechs reproduzierbare Prompts“, ohne eigene IDs; ID von Claude vergeben, nur im Crosswalk)"
+  },
+  {
+   "id": "P-NEU-01",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "quelle": "forschung/register/prompt-entwuerfe/PROMPT_ENTWUERFE_CLAUDE_V0_2.md"
+  },
+  {
+   "id": "P-NEU-02",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "quelle": "forschung/register/prompt-entwuerfe/PROMPT_ENTWUERFE_CLAUDE_V0_2.md"
+  },
+  {
+   "id": "P-NEU-03",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "quelle": "forschung/register/prompt-entwuerfe/PROMPT_ENTWUERFE_CLAUDE_V0_2.md"
+  },
+  {
+   "id": "P-NEU-04",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "quelle": "forschung/register/prompt-entwuerfe/PROMPT_ENTWUERFE_CLAUDE_V0_2.md"
+  },
+  {
+   "id": "P-NEU-05",
+   "in_main": true,
+   "in_bibliothek_zweig": false,
+   "quelle": "forschung/register/prompt-entwuerfe/PROMPT_ENTWUERFE_CLAUDE_V0_2.md"
+  }
+ ],
+ "methode": "IDs aus den JSON-Registern (main) und der Promptbibliothek (Zweig) gelesen; SHA-256 je Prompttext; Vergleich je ID; Prompts ohne JSON-Register (Logik 2.1, SOULution, P-NEU) aus den Dokumenten gezählt"
+}

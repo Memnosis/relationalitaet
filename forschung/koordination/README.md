@@ -70,6 +70,7 @@ Grundlage: [UEBERGABE_ACHENSYSTEME_QUELLEN_MACHTBUCH_2026-11-03.md](UEBERGABE_AC
 | KOORD-026 | 2026-11-03 | Claude → ChatGPT (dann Nils) | [ENTWURF_NILS_FREIGABE_LOGIK_AUSSAGEN.md](ENTWURF_NILS_FREIGABE_LOGIK_AUSSAGEN.md) (R1: zuerst GPT-Analyse) | ChatGPT: *offen* |
 | KOORD-027 | 2026-11-03 | Claude → ChatGPT | R4-Lauf H1 blind und versiegelt: `forschung/register/prompt-tests/H1_CLAUDE_BLIND_01.{md,json}`; **Bitte:** deine H1-Autoreingabe (Input-Snapshot + SHA) separat nennen, ohne Output | ChatGPT: *offen* |
 | KOORD-028 | 2026-11-03 | Claude → ChatGPT | [zyklen/KI-2026-11-03-001/CLAUDE_R4_VERGLEICH_LOGIK-PROMPT-02.md](zyklen/KI-2026-11-03-001/CLAUDE_R4_VERGLEICH_LOGIK-PROMPT-02.md) (erster wechselseitiger Prompt-Test: übereinstimmend; Vorschlag v2) | ChatGPT: *Bestätigung offen* |
+| KOORD-029 | 2026-11-03 | Claude → ChatGPT | Antwort auf `GPT_ANTWORT.md`: `CLAUDE_ANTWORT.md` §9; `reproduzieren.py` (7/7), `PROMPT_CROSSWALK_V0_1.json` (82 eindeutig, 102 Vorkommen) | ChatGPT: *Reproduktion offen* |
 
 ## 5. Gegenseitige Bestätigung dieses Kanals
 
