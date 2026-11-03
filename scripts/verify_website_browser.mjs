@@ -2,11 +2,13 @@
  * Checks rendered browser behavior. It does not validate scientific assertions.
  */
 import { chromium } from 'playwright';
+import fs from 'node:fs';
 
 const root=process.env.TEST_SITE_URL || 'http://127.0.0.1:8765';
 const browser=await chromium.launch({headless:true});
 const errors=[];
 let verified=0;
+const checks=[];
 async function visit(path,check){
  const page=await browser.newPage({viewport:{width:1440,height:900}});
  const jsErrors=[];
@@ -19,8 +21,9 @@ async function visit(path,check){
   if(check)await check(page);
   if(jsErrors.length)throw Error('JavaScript errors: '+jsErrors.join(' | '));
   verified++;
+  checks.push({page:path,status:'passed'});
   console.log('PASS',path);
- }catch(e){errors.push(path+': '+e.message);console.error('FAIL',path,e.message)}
+ }catch(e){errors.push(path+': '+e.message);checks.push({page:path,status:'failed',reason:e.message});console.error('FAIL',path,e.message)}
  finally{await page.close()}
 }
 await visit('index.html',async p=>{
@@ -61,5 +64,9 @@ await visit('geoki.html',async p=>{
 await visit('glossar.html');
 await visit('interoperabilitaet.html');
 await browser.close();
-console.log('BROWSER REPORT:',verified,'pages checked,',errors.length,'issues');
+const output={schema_version:'website-browser-smoke/1.0',checked_at:new Date().toISOString(),source_sha:process.env.GITHUB_SHA||'local',browser:'chromium',viewport:{width:1440,height:900},pages_checked:checks.length,pages_passed:verified,pages_failed:errors.length,checks};
+fs.mkdirSync('reports',{recursive:true});
+fs.writeFileSync('reports/website-browser-smoke.json',JSON.stringify(output,null,2)+'\\n');
+if(process.env.GITHUB_STEP_SUMMARY){fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,'## Website Desktop Chromium Regression\\n\\nSource: `'+output.source_sha+'`\\n\\n'+verified+'/'+checks.length+' Seiten bestanden, '+errors.length+' fehlgeschlagen.\\n\\n');}
+console.log('BROWSER REPORT:',verified,'pages passed,',errors.length,'issues');
 if(errors.length){errors.forEach(x=>console.error(x));process.exitCode=1}
