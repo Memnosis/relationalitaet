@@ -1,0 +1,904 @@
+{
+ "schema_version": "logik10-extrakt/0.1",
+ "owner": "claude",
+ "quelle_doi": "10.5281/zenodo.19282895",
+ "quelle_sha256": "3d297797a6a41aafab891476d076813a4f7c447e64e8898f801c733c6d48c6be",
+ "methode": "- Die 27 Feldbegriffe wurden aus dem Layout-Text (pdftotext -layout) der Seiten 3-5 abgelesen\n  (Matrix x Modus-Zeile x Spalte). Jeder Begriff wird hier MASCHINELL gegen den Text der\n  angegebenen Seite geprueft (Zeilenumbrueche und Silbentrennung normalisiert).\n- LM-Pfade, Axiome, Logiksysteme und die Begriffstabelle (Kap. 8) werden per Regex extrahiert.\n- Vor allem wird die SHA-256 der PDF gegen forschung/register/QUELLEN_REFERENZSET_V0_1.json geprueft.",
+ "felder": [
+  {
+   "adresse": "NM-I-α",
+   "begriff": "Symbolischer Trägerraum",
+   "matrix": "Null-Matrix",
+   "schicht": "Rel0",
+   "spalte": "Kern",
+   "modus": "Struktur",
+   "seite": 3,
+   "im_seitentext_gefunden": true
+  },
+  {
+   "adresse": "NM-II-α",
+   "begriff": "Syntaxgerüst",
+   "matrix": "Null-Matrix",
+   "schicht": "Rel0",
+   "spalte": "Kreislauf",
+   "modus": "Struktur",
+   "seite": 3,
+   "im_seitentext_gefunden": true
+  },
+  {
+   "adresse": "NM-III-α",
+   "begriff": "Grenz- und Paradoxraum",
+   "matrix": "Null-Matrix",
+   "schicht": "Rel0",
+   "spalte": "Öffnung",
+   "modus": "Struktur",
+   "seite": 3,
+   "im_seitentext_gefunden": true
+  },
+  {
+   "adresse": "NM-I-β",
+   "begriff": "Axiomatische Setzung",
+   "matrix": "Null-Matrix",
+   "schicht": "Rel0",
+   "spalte": "Kern",
+   "modus": "Funktion",
+   "seite": 3,
+   "im_seitentext_gefunden": true
+  },
+  {
+   "adresse": "NM-II-β",
+   "begriff": "Ableitungsbereitschaft",
+   "matrix": "Null-Matrix",
+   "schicht": "Rel0",
+   "spalte": "Kreislauf",
+   "modus": "Funktion",
+   "seite": 3,
+   "im_seitentext_gefunden": true
+  },
+  {
+   "adresse": "NM-III-β",
+   "begriff": "Entscheidungsbereitschaft",
+   "matrix": "Null-Matrix",
+   "schicht": "Rel0",
+   "spalte": "Öffnung",
+   "modus": "Funktion",
+   "seite": 3,
+   "im_seitentext_gefunden": true
+  },
+  {
+   "adresse": "NM-I-γ",
+   "begriff": "Relationale Vorordnung",
+   "matrix": "Null-Matrix",
+   "schicht": "Rel0",
+   "spalte": "Kern",
+   "modus": "Relation",
+   "seite": 4,
+   "im_seitentext_gefunden": true
+  },
+  {
+   "adresse": "NM-II-γ",
+   "begriff": "Semantischer Möglichkeitsraum",
+   "matrix": "Null-Matrix",
+   "schicht": "Rel0",
+   "spalte": "Kreislauf",
+   "modus": "Relation",
+   "seite": 4,
+   "im_seitentext_gefunden": true
+  },
+  {
+   "adresse": "NM-III-γ",
+   "begriff": "Offene Geltungsspannung",
+   "matrix": "Null-Matrix",
+   "schicht": "Rel0",
+   "spalte": "Öffnung",
+   "modus": "Relation",
+   "seite": 4,
+   "im_seitentext_gefunden": true
+  },
+  {
+   "adresse": "ZM-I-α",
+   "begriff": "Inferenzschritt",
+   "matrix": "Zyklus-Matrix",
+   "schicht": "Rel-Rel",
+   "spalte": "Kern",
+   "modus": "Struktur",
+   "seite": 4,
+   "im_seitentext_gefunden": true
+  },
+  {
+   "adresse": "ZM-II-α",
+   "begriff": "Beweisgang",
+   "matrix": "Zyklus-Matrix",
+   "schicht": "Rel-Rel",
+   "spalte": "Kreislauf",
+   "modus": "Struktur",
+   "seite": 4,
+   "im_seitentext_gefunden": true
+  },
+  {
+   "adresse": "ZM-III-α",
+   "begriff": "Modallogische Öffnung",
+   "matrix": "Zyklus-Matrix",
+   "schicht": "Rel-Rel",
+   "spalte": "Öffnung",
+   "modus": "Struktur",
+   "seite": 4,
+   "im_seitentext_gefunden": true
+  },
+  {
+   "adresse": "ZM-I-β",
+   "begriff": "Regelanwendung",
+   "matrix": "Zyklus-Matrix",
+   "schicht": "Rel-Rel",
+   "spalte": "Kern",
+   "modus": "Funktion",
+   "seite": 4,
+   "im_seitentext_gefunden": true
+  },
+  {
+   "adresse": "ZM-II-β",
+   "begriff": "Transformation und Umformung",
+   "matrix": "Zyklus-Matrix",
+   "schicht": "Rel-Rel",
+   "spalte": "Kreislauf",
+   "modus": "Funktion",
+   "seite": 4,
+   "im_seitentext_gefunden": true
+  },
+  {
+   "adresse": "ZM-III-β",
+   "begriff": "Rekursive Entscheidungsprozesse",
+   "matrix": "Zyklus-Matrix",
+   "schicht": "Rel-Rel",
+   "spalte": "Öffnung",
+   "modus": "Funktion",
+   "seite": 4,
+   "im_seitentext_gefunden": true
+  },
+  {
+   "adresse": "ZM-I-γ",
+   "begriff": "Operator der Ableitung",
+   "matrix": "Zyklus-Matrix",
+   "schicht": "Rel-Rel",
+   "spalte": "Kern",
+   "modus": "Relation",
+   "seite": 4,
+   "im_seitentext_gefunden": true
+  },
+  {
+   "adresse": "ZM-II-γ",
+   "begriff": "Syntax-Semantik-Übergang",
+   "matrix": "Zyklus-Matrix",
+   "schicht": "Rel-Rel",
+   "spalte": "Kreislauf",
+   "modus": "Relation",
+   "seite": 4,
+   "im_seitentext_gefunden": true
+  },
+  {
+   "adresse": "ZM-III-γ",
+   "begriff": "Netz logischer Korrespondenzen",
+   "matrix": "Zyklus-Matrix",
+   "schicht": "Rel-Rel",
+   "spalte": "Öffnung",
+   "modus": "Relation",
+   "seite": 4,
+   "im_seitentext_gefunden": true
+  },
+  {
+   "adresse": "UM-I-α",
+   "begriff": "Theorem",
+   "matrix": "Einheits-Matrix",
+   "schicht": "Rel1",
+   "spalte": "Kern",
+   "modus": "Struktur",
+   "seite": 5,
+   "im_seitentext_gefunden": true
+  },
+  {
+   "adresse": "UM-II-α",
+   "begriff": "Kalkül oder System",
+   "matrix": "Einheits-Matrix",
+   "schicht": "Rel1",
+   "spalte": "Kreislauf",
+   "modus": "Struktur",
+   "seite": 5,
+   "im_seitentext_gefunden": true
+  },
+  {
+   "adresse": "UM-III-α",
+   "begriff": "Logische Theorieform",
+   "matrix": "Einheits-Matrix",
+   "schicht": "Rel1",
+   "spalte": "Öffnung",
+   "modus": "Struktur",
+   "seite": 5,
+   "im_seitentext_gefunden": true
+  },
+  {
+   "adresse": "UM-I-β",
+   "begriff": "Geltungsfunktion",
+   "matrix": "Einheits-Matrix",
+   "schicht": "Rel1",
+   "spalte": "Kern",
+   "modus": "Funktion",
+   "seite": 5,
+   "im_seitentext_gefunden": true
+  },
+  {
+   "adresse": "UM-II-β",
+   "begriff": "Konsistenz / Vollständigkeit",
+   "matrix": "Einheits-Matrix",
+   "schicht": "Rel1",
+   "spalte": "Kreislauf",
+   "modus": "Funktion",
+   "seite": 5,
+   "im_seitentext_gefunden": true
+  },
+  {
+   "adresse": "UM-III-β",
+   "begriff": "Entscheidbarkeitsraum",
+   "matrix": "Einheits-Matrix",
+   "schicht": "Rel1",
+   "spalte": "Öffnung",
+   "modus": "Funktion",
+   "seite": 5,
+   "im_seitentext_gefunden": true
+  },
+  {
+   "adresse": "UM-I-γ",
+   "begriff": "Äquivalenz und Identität",
+   "matrix": "Einheits-Matrix",
+   "schicht": "Rel1",
+   "spalte": "Kern",
+   "modus": "Relation",
+   "seite": 5,
+   "im_seitentext_gefunden": true
+  },
+  {
+   "adresse": "UM-II-γ",
+   "begriff": "Modellklasse",
+   "matrix": "Einheits-Matrix",
+   "schicht": "Rel1",
+   "spalte": "Kreislauf",
+   "modus": "Relation",
+   "seite": 5,
+   "im_seitentext_gefunden": true
+  },
+  {
+   "adresse": "UM-III-γ",
+   "begriff": "Offene Korrespondenz logischer Systeme",
+   "matrix": "Einheits-Matrix",
+   "schicht": "Rel1",
+   "spalte": "Öffnung",
+   "modus": "Relation",
+   "seite": 5,
+   "im_seitentext_gefunden": true
+  }
+ ],
+ "lm_pfade": [
+  {
+   "code": "LM : PRJ : NM-I-γ → ZM-II-γ → UM-II-γ",
+   "typ": "PRJ",
+   "seiten": [
+    6,
+    7,
+    13
+   ]
+  },
+  {
+   "code": "LM : RST : UM-II-β → ZM-I-β → NM-I-β",
+   "typ": "RST",
+   "seiten": [
+    6
+   ]
+  },
+  {
+   "code": "LM : CYC : ZM-II-α → ZM-II-β → ZM-II-γ",
+   "typ": "CYC",
+   "seiten": [
+    6
+   ]
+  }
+ ],
+ "axiome": [
+  {
+   "nr": "9.2.1",
+   "titel": "Axiom der Trinitären Differenzierung",
+   "seite": 19
+  },
+  {
+   "nr": "9.2.2",
+   "titel": "Axiom der Dreifachen Gliederung",
+   "seite": 19
+  },
+  {
+   "nr": "9.2.3",
+   "titel": "Axiom der Dreifachen Modalität",
+   "seite": 19
+  },
+  {
+   "nr": "9.2.4",
+   "titel": "Axiom der Relationalen Kontinuität und Diskontinuität",
+   "seite": 19
+  },
+  {
+   "nr": "9.2.5",
+   "titel": "Axiom der Offenen Ganzheit",
+   "seite": 19
+  }
+ ],
+ "logiksysteme": [
+  {
+   "system": "Klassische Logik",
+   "dominante_felder": [
+    "NM-II-α",
+    "ZM-II-β",
+    "UM-II-β"
+   ],
+   "seiten": [
+    14,
+    15
+   ]
+  },
+  {
+   "system": "Intuitionistische Logik",
+   "dominante_felder": [
+    "NM-I-β",
+    "ZM-I-β",
+    "UM-I-α"
+   ],
+   "seiten": [
+    14,
+    15
+   ]
+  },
+  {
+   "system": "Modale Logik",
+   "dominante_felder": [
+    "NM-III-γ",
+    "ZM-III-α",
+    "UM-III-γ"
+   ],
+   "seiten": [
+    14,
+    15
+   ]
+  },
+  {
+   "system": "Mehrwertige Logik",
+   "dominante_felder": [
+    "NM-II-γ",
+    "ZM-II-β",
+    "UM-II-β"
+   ],
+   "seiten": [
+    14,
+    15
+   ]
+  },
+  {
+   "system": "Parakonsistente Logik",
+   "dominante_felder": [
+    "NM-III-α",
+    "ZM-I-γ",
+    "UM-II-β"
+   ],
+   "seiten": [
+    14,
+    15
+   ]
+  },
+  {
+   "system": "Relevanzlogik",
+   "dominante_felder": [
+    "NM-I-γ",
+    "ZM-II-γ",
+    "UM-I-γ"
+   ],
+   "seiten": [
+    14,
+    15
+   ]
+  },
+  {
+   "system": "Algebraische Logik",
+   "dominante_felder": [
+    "NM-II-α",
+    "ZM-II-γ",
+    "UM-II-γ"
+   ],
+   "seiten": [
+    14,
+    15
+   ]
+  }
+ ],
+ "begriffstabelle_kap8": {
+  "ueberschrift_nennt_100": true,
+  "zeilen": 34,
+  "nach_block": {
+   "8.1 Außenraum-Begriffe": 7,
+   "8.2 Baseline (Rel0) – Vorbereitende Begriffe": 9,
+   "8.3 Emergenz (Rel-Rel) – Vollzugsbegriffe": 9,
+   "8.4 Identität (Rel1) – Manifeste Begriffe": 9
+  },
+  "eintraege": [
+   {
+    "block": "8.1 Außenraum-Begriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Induktion",
+    "kurzdefinition_erste_zeile": "Schluss vom Einzelnen auf das Allgemeine",
+    "tensorstatus": "außerhalb",
+    "quelle": "[4]",
+    "seite": 16
+   },
+   {
+    "block": "8.1 Außenraum-Begriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Abduktion",
+    "kurzdefinition_erste_zeile": "hypothesenbildender Schluss",
+    "tensorstatus": "außerhalb",
+    "quelle": "[4]",
+    "seite": 16
+   },
+   {
+    "block": "8.1 Außenraum-Begriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Ontologie",
+    "kurzdefinition_erste_zeile": "Lehre vom Sein und den",
+    "tensorstatus": "außerhalb",
+    "quelle": "[1]",
+    "seite": 16
+   },
+   {
+    "block": "8.1 Außenraum-Begriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Epistemologie",
+    "kurzdefinition_erste_zeile": "Lehre des Wissens und seiner Grenzen",
+    "tensorstatus": "außerhalb",
+    "quelle": "[1]",
+    "seite": 16
+   },
+   {
+    "block": "8.1 Außenraum-Begriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Heuristik",
+    "kurzdefinition_erste_zeile": "Such- und Leitverfahren",
+    "tensorstatus": "außerhalb",
+    "quelle": "[4]",
+    "seite": 16
+   },
+   {
+    "block": "8.1 Außenraum-Begriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Diagrammatische",
+    "kurzdefinition_erste_zeile": "logisches Arbeiten mit Diagrammen",
+    "tensorstatus": "offen",
+    "quelle": "[7]",
+    "seite": 16
+   },
+   {
+    "block": "8.1 Außenraum-Begriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Institution Theory",
+    "kurzdefinition_erste_zeile": "Theorie der Beziehungen formaler Systeme",
+    "tensorstatus": "offen",
+    "quelle": "[8]",
+    "seite": 16
+   },
+   {
+    "block": "8.2 Baseline (Rel0) – Vorbereitende Begriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Symbolischer Trägerraum",
+    "kurzdefinition_erste_zeile": "Raum der Zeichen und Symbole",
+    "tensorstatus": "klar",
+    "quelle": "[1]",
+    "seite": 16
+   },
+   {
+    "block": "8.2 Baseline (Rel0) – Vorbereitende Begriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Axiomatische Setzung",
+    "kurzdefinition_erste_zeile": "Ausgezeichnete Grundsätze eines",
+    "tensorstatus": "klar",
+    "quelle": "[2]",
+    "seite": 16
+   },
+   {
+    "block": "8.2 Baseline (Rel0) – Vorbereitende Begriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Relationale Vorordnung",
+    "kurzdefinition_erste_zeile": "Erste Abhängigkeiten zwischen",
+    "tensorstatus": "klar",
+    "quelle": "[3]",
+    "seite": 17
+   },
+   {
+    "block": "8.2 Baseline (Rel0) – Vorbereitende Begriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Syntaxgerüst",
+    "kurzdefinition_erste_zeile": "Regelwerk wohlgeformter Ausdrücke",
+    "tensorstatus": "klar",
+    "quelle": "[4]",
+    "seite": 17
+   },
+   {
+    "block": "8.2 Baseline (Rel0) – Vorbereitende Begriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Ableitungsbereitschaft",
+    "kurzdefinition_erste_zeile": "Vorhandensein von Regeln für",
+    "tensorstatus": "klar",
+    "quelle": "[5]",
+    "seite": 17
+   },
+   {
+    "block": "8.2 Baseline (Rel0) – Vorbereitende Begriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Semantischer",
+    "kurzdefinition_erste_zeile": "Raum möglicher Interpretationen",
+    "tensorstatus": "klar",
+    "quelle": "[3]",
+    "seite": 17
+   },
+   {
+    "block": "8.2 Baseline (Rel0) – Vorbereitende Begriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Grenz- und Paradoxraum",
+    "kurzdefinition_erste_zeile": "Raum von Widerspruchsfiguren",
+    "tensorstatus": "klar",
+    "quelle": "[6]",
+    "seite": 17
+   },
+   {
+    "block": "8.2 Baseline (Rel0) – Vorbereitende Begriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Entscheidungsbereitschaft",
+    "kurzdefinition_erste_zeile": "Bereitschaft zur algorithmischen",
+    "tensorstatus": "klar",
+    "quelle": "[7]",
+    "seite": 17
+   },
+   {
+    "block": "8.2 Baseline (Rel0) – Vorbereitende Begriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Offene Geltungsspannung",
+    "kurzdefinition_erste_zeile": "Raum konkurrierender Semantiken",
+    "tensorstatus": "klar",
+    "quelle": "[8]",
+    "seite": 17
+   },
+   {
+    "block": "8.3 Emergenz (Rel-Rel) – Vollzugsbegriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Inferenzschritt",
+    "kurzdefinition_erste_zeile": "Kleinste strukturierte Bewegung",
+    "tensorstatus": "klar",
+    "quelle": "[5]",
+    "seite": 17
+   },
+   {
+    "block": "8.3 Emergenz (Rel-Rel) – Vollzugsbegriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Regelanwendung",
+    "kurzdefinition_erste_zeile": "Konkrete Ausführung einer Regel",
+    "tensorstatus": "klar",
+    "quelle": "[5]",
+    "seite": 17
+   },
+   {
+    "block": "8.3 Emergenz (Rel-Rel) – Vollzugsbegriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Operator der Ableitung",
+    "kurzdefinition_erste_zeile": "Schlussoperator von Prämissen zu",
+    "tensorstatus": "klar",
+    "quelle": "[3]",
+    "seite": 17
+   },
+   {
+    "block": "8.3 Emergenz (Rel-Rel) – Vollzugsbegriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Beweisgang",
+    "kurzdefinition_erste_zeile": "Organisierte Sequenz von Schritten",
+    "tensorstatus": "klar",
+    "quelle": "[5]",
+    "seite": 17
+   },
+   {
+    "block": "8.3 Emergenz (Rel-Rel) – Vollzugsbegriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Transformation und",
+    "kurzdefinition_erste_zeile": "Umformung von Formeln",
+    "tensorstatus": "klar",
+    "quelle": "[4]",
+    "seite": 17
+   },
+   {
+    "block": "8.3 Emergenz (Rel-Rel) – Vollzugsbegriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Syntax-Semantik-Übergang",
+    "kurzdefinition_erste_zeile": "Vermittlung zwischen Zeichen und",
+    "tensorstatus": "klar",
+    "quelle": "[3]",
+    "seite": 17
+   },
+   {
+    "block": "8.3 Emergenz (Rel-Rel) – Vollzugsbegriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Modallogische Öffnung",
+    "kurzdefinition_erste_zeile": "Raum möglicher Welten",
+    "tensorstatus": "klar",
+    "quelle": "[8]",
+    "seite": 17
+   },
+   {
+    "block": "8.3 Emergenz (Rel-Rel) – Vollzugsbegriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Rekursive",
+    "kurzdefinition_erste_zeile": "Algorithmischer Vollzug mit",
+    "tensorstatus": "klar",
+    "quelle": "[7]",
+    "seite": 17
+   },
+   {
+    "block": "8.3 Emergenz (Rel-Rel) – Vollzugsbegriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Netz logischer",
+    "kurzdefinition_erste_zeile": "Beziehungen zwischen Logiken",
+    "tensorstatus": "klar",
+    "quelle": "[9]",
+    "seite": 18
+   },
+   {
+    "block": "8.4 Identität (Rel1) – Manifeste Begriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Theorem",
+    "kurzdefinition_erste_zeile": "Bewiesener Satz",
+    "tensorstatus": "klar",
+    "quelle": "[2]",
+    "seite": 18
+   },
+   {
+    "block": "8.4 Identität (Rel1) – Manifeste Begriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Geltungsfunktion",
+    "kurzdefinition_erste_zeile": "Semantische Bestimmung der",
+    "tensorstatus": "klar",
+    "quelle": "[3]",
+    "seite": 18
+   },
+   {
+    "block": "8.4 Identität (Rel1) – Manifeste Begriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Äquivalenz und Identität",
+    "kurzdefinition_erste_zeile": "Wechselseitige logische",
+    "tensorstatus": "klar",
+    "quelle": "[1]",
+    "seite": 18
+   },
+   {
+    "block": "8.4 Identität (Rel1) – Manifeste Begriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Kalkül oder System",
+    "kurzdefinition_erste_zeile": "Formales Schlusssystem",
+    "tensorstatus": "klar",
+    "quelle": "[2]",
+    "seite": 18
+   },
+   {
+    "block": "8.4 Identität (Rel1) – Manifeste Begriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Konsistenz / Vollständigkeit",
+    "kurzdefinition_erste_zeile": "Widerspruchsfreiheit und",
+    "tensorstatus": "klar",
+    "quelle": "[6]",
+    "seite": 18
+   },
+   {
+    "block": "8.4 Identität (Rel1) – Manifeste Begriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Modellklasse",
+    "kurzdefinition_erste_zeile": "Menge ähnlicher interpretierender",
+    "tensorstatus": "klar",
+    "quelle": "[3]",
+    "seite": 18
+   },
+   {
+    "block": "8.4 Identität (Rel1) – Manifeste Begriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Logische Theorieform",
+    "kurzdefinition_erste_zeile": "Größerer Theoriehorizont",
+    "tensorstatus": "klar",
+    "quelle": "[9]",
+    "seite": 18
+   },
+   {
+    "block": "8.4 Identität (Rel1) – Manifeste Begriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Entscheidbarkeitsraum",
+    "kurzdefinition_erste_zeile": "Raum entscheidbarer Fragen",
+    "tensorstatus": "klar",
+    "quelle": "[7]",
+    "seite": 18
+   },
+   {
+    "block": "8.4 Identität (Rel1) – Manifeste Begriffe",
+    "hinweis": "mehrzeilige Begriffsnamen nur mit erster Zeile erfasst",
+    "begriff_erste_zeile": "Offene Korrespondenz",
+    "kurzdefinition_erste_zeile": "Übersetzungen und Metalogik",
+    "tensorstatus": "klar",
+    "quelle": "[9]",
+    "seite": 18
+   }
+  ]
+ },
+ "abgleich_2_1": {
+  "datei": "forschung/tensor/LOGIK_TENSOR_2_1_FORSCHUNGS-UND_PROMPTEDITION_ENTWURF.md",
+  "zeilen_verglichen": 27,
+  "identisch": 27,
+  "details": [
+   {
+    "adresse": "NM-I-α",
+    "original_1_0": "Symbolischer Trägerraum",
+    "fassung_2_1": "Symbolischer Trägerraum",
+    "identisch": true
+   },
+   {
+    "adresse": "ZM-I-α",
+    "original_1_0": "Inferenzschritt",
+    "fassung_2_1": "Inferenzschritt",
+    "identisch": true
+   },
+   {
+    "adresse": "UM-I-α",
+    "original_1_0": "Theorem",
+    "fassung_2_1": "Theorem",
+    "identisch": true
+   },
+   {
+    "adresse": "NM-I-β",
+    "original_1_0": "Axiomatische Setzung",
+    "fassung_2_1": "Axiomatische Setzung",
+    "identisch": true
+   },
+   {
+    "adresse": "ZM-I-β",
+    "original_1_0": "Regelanwendung",
+    "fassung_2_1": "Regelanwendung",
+    "identisch": true
+   },
+   {
+    "adresse": "UM-I-β",
+    "original_1_0": "Geltungsfunktion",
+    "fassung_2_1": "Geltungsfunktion",
+    "identisch": true
+   },
+   {
+    "adresse": "NM-I-γ",
+    "original_1_0": "Relationale Vorordnung",
+    "fassung_2_1": "Relationale Vorordnung",
+    "identisch": true
+   },
+   {
+    "adresse": "ZM-I-γ",
+    "original_1_0": "Operator der Ableitung",
+    "fassung_2_1": "Operator der Ableitung",
+    "identisch": true
+   },
+   {
+    "adresse": "UM-I-γ",
+    "original_1_0": "Äquivalenz und Identität",
+    "fassung_2_1": "Äquivalenz und Identität",
+    "identisch": true
+   },
+   {
+    "adresse": "NM-II-α",
+    "original_1_0": "Syntaxgerüst",
+    "fassung_2_1": "Syntaxgerüst",
+    "identisch": true
+   },
+   {
+    "adresse": "ZM-II-α",
+    "original_1_0": "Beweisgang",
+    "fassung_2_1": "Beweisgang",
+    "identisch": true
+   },
+   {
+    "adresse": "UM-II-α",
+    "original_1_0": "Kalkül oder System",
+    "fassung_2_1": "Kalkül oder System",
+    "identisch": true
+   },
+   {
+    "adresse": "NM-II-β",
+    "original_1_0": "Ableitungsbereitschaft",
+    "fassung_2_1": "Ableitungsbereitschaft",
+    "identisch": true
+   },
+   {
+    "adresse": "ZM-II-β",
+    "original_1_0": "Transformation und Umformung",
+    "fassung_2_1": "Transformation und Umformung",
+    "identisch": true
+   },
+   {
+    "adresse": "UM-II-β",
+    "original_1_0": "Konsistenz / Vollständigkeit",
+    "fassung_2_1": "Konsistenz / Vollständigkeit",
+    "identisch": true
+   },
+   {
+    "adresse": "NM-II-γ",
+    "original_1_0": "Semantischer Möglichkeitsraum",
+    "fassung_2_1": "Semantischer Möglichkeitsraum",
+    "identisch": true
+   },
+   {
+    "adresse": "ZM-II-γ",
+    "original_1_0": "Syntax-Semantik-Übergang",
+    "fassung_2_1": "Syntax-Semantik-Übergang",
+    "identisch": true
+   },
+   {
+    "adresse": "UM-II-γ",
+    "original_1_0": "Modellklasse",
+    "fassung_2_1": "Modellklasse",
+    "identisch": true
+   },
+   {
+    "adresse": "NM-III-α",
+    "original_1_0": "Grenz- und Paradoxraum",
+    "fassung_2_1": "Grenz- und Paradoxraum",
+    "identisch": true
+   },
+   {
+    "adresse": "ZM-III-α",
+    "original_1_0": "Modallogische Öffnung",
+    "fassung_2_1": "Modallogische Öffnung",
+    "identisch": true
+   },
+   {
+    "adresse": "UM-III-α",
+    "original_1_0": "Logische Theorieform",
+    "fassung_2_1": "Logische Theorieform",
+    "identisch": true
+   },
+   {
+    "adresse": "NM-III-β",
+    "original_1_0": "Entscheidungsbereitschaft",
+    "fassung_2_1": "Entscheidungsbereitschaft",
+    "identisch": true
+   },
+   {
+    "adresse": "ZM-III-β",
+    "original_1_0": "Rekursive Entscheidungsprozesse",
+    "fassung_2_1": "Rekursive Entscheidungsprozesse",
+    "identisch": true
+   },
+   {
+    "adresse": "UM-III-β",
+    "original_1_0": "Entscheidbarkeitsraum",
+    "fassung_2_1": "Entscheidbarkeitsraum",
+    "identisch": true
+   },
+   {
+    "adresse": "NM-III-γ",
+    "original_1_0": "Offene Geltungsspannung",
+    "fassung_2_1": "Offene Geltungsspannung",
+    "identisch": true
+   },
+   {
+    "adresse": "ZM-III-γ",
+    "original_1_0": "Netz logischer Korrespondenzen",
+    "fassung_2_1": "Netz logischer Korrespondenzen",
+    "identisch": true
+   },
+   {
+    "adresse": "UM-III-γ",
+    "original_1_0": "Offene Korrespondenz logischer Systeme",
+    "fassung_2_1": "Offene Korrespondenz logischer Systeme",
+    "identisch": true
+   }
+  ]
+ }
+}

@@ -90,6 +90,6 @@ Reihenfolge B1 → B6. B1 hat keine Blocker und ist die Grundlage für alle ande
 
 | Schritt | Stand | Nachweis |
 |---|---|---|
-| S1 Zenodo-Register + Quellenstatus-Schema (K1, K2; P0-X1, DATA-003) | **erledigt**, Tests gelaufen | [`forschung/register/PRUEFPROTOKOLL_S1_2026-11-03.md`](../../../register/PRUEFPROTOKOLL_S1_2026-11-03.md) |
-| S2 Versionsmanifest + Logik-1.0-Extrakt (K3, K5; P0-X3) | angekündigt | — |
+| S1 Zenodo-Register + Quellenstatus-Schema (K1, K2; P0-X1, DATA-003) | **erledigt**, korrigiert (Gesamtliste von `main` genommen, siehe `CLAUDE_DISKUSSION_02_ZENODO.md`) | [`forschung/register/PRUEFPROTOKOLL_S1_2026-11-03.md`](../../../register/PRUEFPROTOKOLL_S1_2026-11-03.md) |
+| S2 Versionsmanifest + Logik-1.0-Extrakt (K3, K5; P0-X3) | **erledigt**, Tests gelaufen | [`forschung/register/PRUEFPROTOKOLL_S2_2026-11-03.md`](../../../register/PRUEFPROTOKOLL_S2_2026-11-03.md) |
 | S3 formale Tests + Website-Review W01–W10 (K4; P0-X4) | angekündigt | — |

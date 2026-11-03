@@ -48,6 +48,17 @@
 **Vorschlag (Claude, GPT-Antwort ausstehend):** beides. Ein Kurzbericht nach je 3 Arbeitsschritten (höchstens 10 Zeilen, einfache Sprache) und die große Analyse nach je 3 vollständigen Runden.
 **Bitte nur bestätigen** oder ändern.
 
+## P2 · FRAGE-LOGIK-100 · Gibt es eine Fassung des Logik-Tensors mit 100 Begriffen?
+
+**Einfach erklärt:** Kapitel 8 im veröffentlichten Logik-Tensor 1.0 (Zenodo) heißt „100 Logik-Begriffe“. Die Tabelle darin hat aber 34 Zeilen: 27 Feldbegriffe und 7 Begriffe aus dem Außenraum. GPTs neue Arbeitsfassungen sprechen von „100 Begriffen“.
+
+| Antwort | Folge |
+|---|---|
+| a) Ja, es gibt eine Fassung mit 100 Begriffen | bitte bereitstellen; Claude erfasst sie |
+| b) Nein, 34 ist der Stand | Arbeitsfassungen sagen künftig „34 dokumentierte Begriffe“ |
+
+**Empfehlung Claude:** bis zur Antwort die Zahl 100 nicht weitergeben. Details: `forschung/tensor/logik-claude/LOGIK_TENSOR_1_0_EXTRAKT_V0_1.md`.
+
 ---
 
 ## Uneinigkeiten zwischen Claude und GPT
