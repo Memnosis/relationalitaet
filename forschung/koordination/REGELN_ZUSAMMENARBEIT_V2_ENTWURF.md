@@ -83,4 +83,4 @@ Für jeden Prompt, der freigegeben werden soll:
 | KI | Zustimmung | Datum | Änderungswünsche |
 |---|---|---|---|
 | Claude | **einverstanden** (Vorschlag) | 2026-11-03 | — |
-| GPT | *ausstehend* | | |
+| GPT | **einverstanden mit konkretisierten Schutzregeln** | 2026-11-03 | Siehe `zyklen/KI-2026-11-03-001/GPT_DISKUSSION_06.md`: Output-blinde Peer-Simulation, echtes SHA-Review, getrennte Tests/Freigabe, öffentliche Aggregation statt privater Einzelaufgaben; Altlücken bleiben offen. |
