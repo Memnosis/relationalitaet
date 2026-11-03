@@ -1,0 +1,626 @@
+{
+  "schema": "ki-tensor.shared.skill-api-incubator-crosswalk.v1",
+  "as_of": "2026-11-03",
+  "mode": "snapshot_crosswalk_not_live_API_sync",
+  "original_registers": [
+    "forschung/soulution/digitale-souveraenitaet/INKUBATOR_QUELLENREGISTER_V1.json",
+    "forschung/soulution/shared/skills-v0.1.json",
+    "forschung/website/MITMACH_TASKS.json",
+    "forschung/soulution/digitale-souveraenitaet/SCHROEDINGERS_INKUBATOR_REGISTER_V01.json",
+    "forschung/soulution/shared/crosswalk-v0.1.json"
+  ],
+  "principle": "references_only_no_loss",
+  "checks": {
+    "sources_unique": true,
+    "all_links_exist": true,
+    "all_skill_ids_resolve": true,
+    "all_task_ids_resolve": true,
+    "skill_status_preserved": true,
+    "unmapped_tasks": [
+      "HARV-01",
+      "HARV-02",
+      "HARV-04",
+      "HARV-05"
+    ],
+    "source_count": 33,
+    "existing_skill_count": 6,
+    "mitmach_task_count": 13,
+    "module_count": 7,
+    "external_interface_candidates": 22,
+    "actual_api_tests": 0
+  },
+  "modules": [
+    {
+      "module_id": "IDENTITY",
+      "core": "roles, consent, optional identity",
+      "source_ids": [
+        "SRC-INK-KEYCLOAK",
+        "SRC-INK-AUTHENTIK",
+        "SRC-INK-EUDI-WALLET"
+      ],
+      "existing_skill_ids": [
+        "SK-LEGAL-TRACE"
+      ],
+      "related_task_ids": [
+        "HARV-06"
+      ],
+      "status": "crosswalk_proposed_no_module_integration",
+      "existing_skill_definition_count": 1
+    },
+    {
+      "module_id": "HOST",
+      "core": "deployment, data, backup, portability",
+      "source_ids": [
+        "SRC-INK-EU-COMMONS",
+        "SRC-INK-EU-COMMONS-STRAT",
+        "SRC-INK-SOVTECH"
+      ],
+      "existing_skill_ids": [
+        "SK-PDF-EXTRACT"
+      ],
+      "related_task_ids": [],
+      "status": "crosswalk_proposed_no_module_integration",
+      "existing_skill_definition_count": 1
+    },
+    {
+      "module_id": "COMM",
+      "core": "mail, calendar, shared communication",
+      "source_ids": [
+        "SRC-INK-MATRIX-SERV",
+        "SRC-INK-MATRIX-SPEC",
+        "SRC-INK-MATRIX-HELP",
+        "SRC-INK-FORGEJO-NEWS",
+        "SRC-INK-FORGEJO-FED",
+        "SRC-INK-NEXTCLOUD",
+        "SRC-INK-W3C-ACTIVITYPUB"
+      ],
+      "existing_skill_ids": [
+        "SK-EVIDENCE"
+      ],
+      "related_task_ids": [
+        "HARV-06"
+      ],
+      "status": "crosswalk_proposed_no_module_integration",
+      "existing_skill_definition_count": 1
+    },
+    {
+      "module_id": "ERP",
+      "core": "project/resource management, ERP/CRM/POS",
+      "source_ids": [
+        "SRC-INK-FRAPPE",
+        "SRC-INK-FRAPPE-MIGRATION",
+        "SRC-INK-ERP-NEXT"
+      ],
+      "existing_skill_ids": [
+        "SK-FIN-FLOW"
+      ],
+      "related_task_ids": [],
+      "status": "crosswalk_proposed_no_module_integration",
+      "existing_skill_definition_count": 1
+    },
+    {
+      "module_id": "SHOP",
+      "core": "shop, orders, downloads, licenses",
+      "source_ids": [],
+      "existing_skill_ids": [
+        "SK-FIN-FLOW"
+      ],
+      "related_task_ids": [],
+      "status": "crosswalk_proposed_no_module_integration",
+      "existing_skill_definition_count": 1
+    },
+    {
+      "module_id": "LMS",
+      "core": "learning materials and assessments",
+      "source_ids": [],
+      "existing_skill_ids": [
+        "SK-PDF-EXTRACT",
+        "SK-EVIDENCE"
+      ],
+      "related_task_ids": [
+        "WEB-GLOS-01"
+      ],
+      "status": "crosswalk_proposed_no_module_integration",
+      "existing_skill_definition_count": 2
+    },
+    {
+      "module_id": "API",
+      "core": "interfaces, event logs, export/import and tests",
+      "source_ids": [
+        "SRC-INK-EU-COMMONS",
+        "SRC-INK-EU-COMMONS-STRAT",
+        "SRC-INK-EU-INTEROP",
+        "SRC-INK-DPG",
+        "SRC-INK-FRAPPE",
+        "SRC-INK-FRAPPE-MIGRATION",
+        "SRC-INK-APPBUILD",
+        "SRC-INK-MATRIX-SERV",
+        "SRC-INK-MATRIX-SPEC",
+        "SRC-INK-MATRIX-HELP",
+        "SRC-INK-FORGEJO-FED",
+        "SRC-INK-OSSSF",
+        "SRC-INK-OSPS",
+        "SRC-INK-SCORECARD",
+        "SRC-INK-SIGSTORE",
+        "SRC-INK-SBOM",
+        "SRC-INK-RUSTLS",
+        "SRC-INK-LIBSODIUM",
+        "SRC-INK-OPENSSL",
+        "SRC-INK-EU-DIRECTIVE",
+        "SRC-INK-SAS-JUDGMENT",
+        "SRC-INK-N8N",
+        "SRC-INK-NODE-RED",
+        "SRC-INK-W3C-ACTIVITYPUB",
+        "SRC-INK-OSV",
+        "SRC-INK-SLSA"
+      ],
+      "existing_skill_ids": [
+        "SK-REL",
+        "SK-VIZ"
+      ],
+      "related_task_ids": [
+        "WEB-CODE-01",
+        "HARV-03",
+        "HARV-06",
+        "MINI-OBS-01",
+        "GEO-OPS-01",
+        "KOMP-01",
+        "VIS-01",
+        "KOL-01"
+      ],
+      "status": "crosswalk_proposed_no_module_integration",
+      "existing_skill_definition_count": 2
+    }
+  ],
+  "existing_skill_records": [
+    {
+      "id": "SK-PDF-EXTRACT",
+      "display_name": "Dokumentenextraktion",
+      "state": "candidate",
+      "original_path": "forschung/soulution/shared/skills-v0.1.json",
+      "implementation": "not_verified"
+    },
+    {
+      "id": "SK-LEGAL-TRACE",
+      "display_name": "Rechtsquellen- und Zuständigkeitsabgleich",
+      "state": "candidate",
+      "original_path": "forschung/soulution/shared/skills-v0.1.json",
+      "implementation": "not_verified"
+    },
+    {
+      "id": "SK-FIN-FLOW",
+      "display_name": "Haushaltsfluss-Normalisierung",
+      "state": "candidate",
+      "original_path": "forschung/soulution/shared/skills-v0.1.json",
+      "implementation": "not_verified"
+    },
+    {
+      "id": "SK-EVIDENCE",
+      "display_name": "Evidenz- und Evaluationsakte",
+      "state": "candidate",
+      "original_path": "forschung/soulution/shared/skills-v0.1.json",
+      "implementation": "not_verified"
+    },
+    {
+      "id": "SK-VIZ",
+      "display_name": "Daten- und Relationsvisualisierung",
+      "state": "candidate",
+      "original_path": "forschung/soulution/shared/skills-v0.1.json",
+      "implementation": "not_verified"
+    },
+    {
+      "id": "SK-REL",
+      "display_name": "Relationskandidaten",
+      "state": "candidate",
+      "original_path": "forschung/soulution/shared/skills-v0.1.json",
+      "implementation": "not_verified"
+    }
+  ],
+  "task_records": [
+    {
+      "id": "WEB-GLOS-01",
+      "source_id": "forschung/website/MITMACH_TASKS.json",
+      "state": "teilweise-ausgefuehrt",
+      "original_goal": "Prüfe die 1.072 historischen Glossareinträge, ihre Qualitätsstände und Quellen. Entwirf Import, stabile Anker, Begriffskarten, Hover und fachliche Prüfungen.",
+      "incubator_modules": [
+        "LMS"
+      ],
+      "execution_evidence_paths": [
+        "forschung/website/ausfuehrung/GLOSSAR_VALIDIERUNG_V01.json",
+        "docs/glossar.html"
+      ],
+      "sync_status": "linked"
+    },
+    {
+      "id": "WEB-CODE-01",
+      "source_id": "forschung/website/MITMACH_TASKS.json",
+      "state": "teilweise-ausgefuehrt",
+      "original_goal": "Prüfe historische Codebuchtypen und Register. Entwirf einen versionierten Objektgraphen mit Quellen, Formeln, Relationen, Tests und Glossareinträgen, samt Links zu Taskkarten.",
+      "incubator_modules": [
+        "API"
+      ],
+      "execution_evidence_paths": [
+        "docs/data/codebuch-web-index.json",
+        "docs/codebuch.html"
+      ],
+      "sync_status": "linked"
+    },
+    {
+      "id": "HARV-01",
+      "source_id": "forschung/website/MITMACH_TASKS.json",
+      "state": "prompt-vorbereitet",
+      "original_goal": "Prüfe v3.0 bis v3.5 anhand historischer Versionen, Formatdeltas, Signaturen und Operatorrelationen; konserviere Herkunft.",
+      "incubator_modules": [],
+      "execution_evidence_paths": [],
+      "sync_status": "unmapped_not_deleted"
+    },
+    {
+      "id": "HARV-02",
+      "source_id": "forschung/website/MITMACH_TASKS.json",
+      "state": "prompt-vorbereitet",
+      "original_goal": "Führe archivierte Miningschritte in isolierter Umgebung erneut aus und dokumentiere alle Unterschiede und Gegenproben.",
+      "incubator_modules": [],
+      "execution_evidence_paths": [],
+      "sync_status": "unmapped_not_deleted"
+    },
+    {
+      "id": "HARV-03",
+      "source_id": "forschung/website/MITMACH_TASKS.json",
+      "state": "prompt-vorbereitet",
+      "original_goal": "Prüfe Qiskit, Cirq, PennyLane und QuTiP auf echte Methoden, Operatoren, Eingaben, Outputs, Lizenzen und Testfälle.",
+      "incubator_modules": [
+        "API"
+      ],
+      "execution_evidence_paths": [],
+      "sync_status": "linked"
+    },
+    {
+      "id": "HARV-04",
+      "source_id": "forschung/website/MITMACH_TASKS.json",
+      "state": "prompt-vorbereitet",
+      "original_goal": "Prüfe freie Lexika, Universal Dependencies, OPUS, Wikidata sowie freie Sprach- und Übersetzungsmodelle auf Abdeckung und Lizenzen.",
+      "incubator_modules": [],
+      "execution_evidence_paths": [],
+      "sync_status": "unmapped_not_deleted"
+    },
+    {
+      "id": "HARV-05",
+      "source_id": "forschung/website/MITMACH_TASKS.json",
+      "state": "prompt-vorbereitet",
+      "original_goal": "Ernte Modelle, Beweise und definierte Rollenfamilien, prüfe Gegenbeispiele und mappe Kandidaten auf vorhandene Trinitäten.",
+      "incubator_modules": [],
+      "execution_evidence_paths": [],
+      "sync_status": "unmapped_not_deleted"
+    },
+    {
+      "id": "HARV-06",
+      "source_id": "forschung/website/MITMACH_TASKS.json",
+      "state": "prompt-vorbereitet",
+      "original_goal": "Prüfe öffentlich dokumentierte API-/Skillregister, Schnittstellen und Skillsysteme auf Nutzbarkeit, Versionen und Rechte.",
+      "incubator_modules": [
+        "API",
+        "IDENTITY",
+        "COMM"
+      ],
+      "execution_evidence_paths": [],
+      "sync_status": "linked"
+    },
+    {
+      "id": "MINI-OBS-01",
+      "source_id": "forschung/website/MITMACH_TASKS.json",
+      "state": "teilweise-ausgefuehrt",
+      "original_goal": "Entwirf beobachtende Skills, die Ausführung, Nutzerintention, Fehler, Folgen und Skillkombinationen messen; teste ihre Zusatzkosten.",
+      "incubator_modules": [
+        "API"
+      ],
+      "execution_evidence_paths": [
+        "forschung/minimal-ki/beobachter-v0_1/TEST_MINIOBS_SYNTHETIC.py",
+        "forschung/website/ausfuehrung/MINI_OBS_TEST_V01.json"
+      ],
+      "sync_status": "linked"
+    },
+    {
+      "id": "GEO-OPS-01",
+      "source_id": "forschung/website/MITMACH_TASKS.json",
+      "state": "teilweise-ausgefuehrt",
+      "original_goal": "Entwickle und teste geometrische Transformationen, Invarianten und Verkettungen anhand vorhandener Geo-KI-Tests.",
+      "incubator_modules": [
+        "API"
+      ],
+      "execution_evidence_paths": [
+        "forschung/geoki/v0_4/src/geometry.py",
+        "forschung/geoki/v0_4/tests/test_geo_euler.py",
+        "forschung/geoki/v0_4/tests/test_extra.py"
+      ],
+      "sync_status": "linked"
+    },
+    {
+      "id": "KOMP-01",
+      "source_id": "forschung/website/MITMACH_TASKS.json",
+      "state": "teilweise-ausgefuehrt",
+      "original_goal": "Vergleiche Originaldaten, komprimierte Regelrepräsentationen, Rekonstruktionsgüte und Laufzeit.",
+      "incubator_modules": [
+        "API"
+      ],
+      "execution_evidence_paths": [
+        "forschung/soulution/skills/PHYSIK_SKILLATLAS_UND_TESTBERICHT_V0_1.md"
+      ],
+      "sync_status": "linked"
+    },
+    {
+      "id": "VIS-01",
+      "source_id": "forschung/website/MITMACH_TASKS.json",
+      "state": "teilweise-ausgefuehrt",
+      "original_goal": "Entwickle zugängliche Visualisierung der 27 Tensorpositionen und ihrer übergeordneten Relationen mit Bildbeschreibungen.",
+      "incubator_modules": [
+        "API"
+      ],
+      "execution_evidence_paths": [
+        "forschung/website/ausfuehrung/VIS27_STRUKTURTEST_V01.json"
+      ],
+      "sync_status": "linked"
+    },
+    {
+      "id": "KOL-01",
+      "source_id": "forschung/website/MITMACH_TASKS.json",
+      "state": "prompt-vorbereitet",
+      "original_goal": "Teste Delegation von Meta-Prompts an verschiedene ausführende Systeme mit identischen Quellen und Akzeptanztests.",
+      "incubator_modules": [
+        "API"
+      ],
+      "execution_evidence_paths": [],
+      "sync_status": "linked"
+    }
+  ],
+  "external_interface_candidates": [
+    {
+      "source_id": "SRC-INK-FRAPPE",
+      "api_or_interface_name": "Frappe Framework DocTypes",
+      "source_url": "https://docs.frappe.io/framework/user/en/basics/doctypes",
+      "type": "erp_framework",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
+      "source_id": "SRC-INK-FRAPPE-MIGRATION",
+      "api_or_interface_name": "Frappe schema migrations",
+      "source_url": "https://docs.frappe.io/framework/user/en/guides/deployment/migrations",
+      "type": "erp_framework",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
+      "source_id": "SRC-INK-MATRIX-SERV",
+      "api_or_interface_name": "Matrix official server ecosystem",
+      "source_url": "https://www.matrix.org/ecosystem/servers/",
+      "type": "federation",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
+      "source_id": "SRC-INK-MATRIX-SPEC",
+      "api_or_interface_name": "Matrix standards and introduction",
+      "source_url": "https://matrix.org/docs/",
+      "type": "federation",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
+      "source_id": "SRC-INK-MATRIX-HELP",
+      "api_or_interface_name": "Matrix Docs October 2026 homeserver comparison",
+      "source_url": "https://matrixdocs.github.io/docs/servers/comparison",
+      "type": "federation",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
+      "source_id": "SRC-INK-FORGEJO-FED",
+      "api_or_interface_name": "Forgejo federation FAQ",
+      "source_url": "https://forgejo.org/faq/",
+      "type": "federation",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
+      "source_id": "SRC-INK-OSSSF",
+      "api_or_interface_name": "OpenSSF projects",
+      "source_url": "https://openssf.org/projects/",
+      "type": "security",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
+      "source_id": "SRC-INK-OSPS",
+      "api_or_interface_name": "OpenSSF OSPS Baseline",
+      "source_url": "https://baseline.openssf.org/",
+      "type": "security",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
+      "source_id": "SRC-INK-SCORECARD",
+      "api_or_interface_name": "OpenSSF Scorecard",
+      "source_url": "https://openssf.org/scorecard/",
+      "type": "security",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
+      "source_id": "SRC-INK-SIGSTORE",
+      "api_or_interface_name": "Sigstore project",
+      "source_url": "https://openssf.org/projects/sigstore/",
+      "type": "security",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
+      "source_id": "SRC-INK-SBOM",
+      "api_or_interface_name": "OpenSSF SBOM tooling",
+      "source_url": "https://openssf.org/technical-initiatives/sbom-tools/",
+      "type": "security",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
+      "source_id": "SRC-INK-RUSTLS",
+      "api_or_interface_name": "Rustls project",
+      "source_url": "https://github.com/rustls/rustls",
+      "type": "security_library",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
+      "source_id": "SRC-INK-LIBSODIUM",
+      "api_or_interface_name": "libsodium docs",
+      "source_url": "https://doc.libsodium.org/doc",
+      "type": "security_library",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
+      "source_id": "SRC-INK-OPENSSL",
+      "api_or_interface_name": "OpenSSL activity/maintainers",
+      "source_url": "https://status.openssl.org/",
+      "type": "security_library",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
+      "source_id": "SRC-INK-KEYCLOAK",
+      "api_or_interface_name": "Keycloak website",
+      "source_url": "https://www.keycloak.org/",
+      "type": "identity",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
+      "source_id": "SRC-INK-AUTHENTIK",
+      "api_or_interface_name": "Authentik documentation",
+      "source_url": "https://docs.goauthentik.io/",
+      "type": "identity",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
+      "source_id": "SRC-INK-N8N",
+      "api_or_interface_name": "n8n licensing",
+      "source_url": "https://docs.n8n.io/sustainable-use-license/",
+      "type": "workflows",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
+      "source_id": "SRC-INK-NODE-RED",
+      "api_or_interface_name": "Node-RED",
+      "source_url": "https://nodered.org/",
+      "type": "workflows",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
+      "source_id": "SRC-INK-W3C-ACTIVITYPUB",
+      "api_or_interface_name": "ActivityPub W3C recommendation",
+      "source_url": "https://www.w3.org/TR/activitypub/",
+      "type": "federation",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
+      "source_id": "SRC-INK-EUDI-WALLET",
+      "api_or_interface_name": "EU Digital Identity Wallet",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/policies/eudi-wallet-implementation",
+      "type": "identity",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
+      "source_id": "SRC-INK-OSV",
+      "api_or_interface_name": "OSV vulnerability database",
+      "source_url": "https://osv.dev/",
+      "type": "security",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    },
+    {
+      "source_id": "SRC-INK-SLSA",
+      "api_or_interface_name": "SLSA framework",
+      "source_url": "https://slsa.dev/",
+      "type": "security",
+      "access_test": "not_run",
+      "auth_test": "not_run",
+      "license_test": "not_run",
+      "version_pin": "missing",
+      "status": "external_candidate"
+    }
+  ],
+  "gaps": [
+    "Need Github full tree inventory of all sources, including hidden dirs and historical archives",
+    "No verified runtime API access or license inventory for external systems",
+    "Need code-level import of existing skills before classifying as executable",
+    "Local_only historical science datasets not materialized",
+    "Human review of semantic links required"
+  ]
+}
