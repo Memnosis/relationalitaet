@@ -86,3 +86,13 @@ body.ux-site-v3 main .ux-legacy-heading-icon{display:inline-block!important;widt
 body.ux-site-v3 main h2{overflow-wrap:anywhere;min-width:0}
 body.ux-site-v3 main .ux-grid > :is(article,.ux-card),body.ux-site-v3 main .ai-grid > :is(article,.ai-card){min-height:0}
 body.ux-site-v3 main a[href$="ki-geschichte.html"],body.ux-site-v3 main a[href*="ki-geschichte.html#"]{max-width:100%;overflow-wrap:break-word}
+
+/* Fachdossier KI-Geschichte: ein gemeinsamer Rahmen für sechs Entwicklungskarten. */
+body.ux-site-v3 main .ai-grid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px!important}
+body.ux-site-v3 main .ai-grid > .ai-card{display:flex;flex-direction:column;align-items:stretch;min-width:0;max-width:100%;gap:8px;padding:17px;border:1px solid var(--ux-line);border-top:3px solid var(--ux-ki);border-radius:12px;background:var(--ux-panel);box-sizing:border-box}
+body.ux-site-v3 main .ai-card h3{line-height:1.28;margin:2px 0 4px;font-size:1.04rem;overflow-wrap:anywhere}
+body.ux-site-v3 main .ai-card p{margin:3px 0 9px;line-height:1.56;max-width:none}
+body.ux-site-v3 main .ai-card a{align-self:flex-start;margin-top:auto;max-width:100%;overflow-wrap:anywhere;line-height:1.4;display:inline-block;text-decoration:underline;text-underline-offset:3px}
+body.ux-site-v3 main .ai-year{color:var(--ux-ki);font-size:.82rem;line-height:1.3}
+@media(max-width:790px){body.ux-site-v3 main .ai-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:530px){body.ux-site-v3 main .ai-grid{grid-template-columns:1fr}}
