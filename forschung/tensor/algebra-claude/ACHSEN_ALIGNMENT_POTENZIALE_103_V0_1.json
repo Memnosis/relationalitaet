@@ -1,0 +1,2554 @@
+{
+  "schema": "tensor-pair-axis-alignment/0.1",
+  "status": "structural_candidates_not_mathematical_alignment",
+  "method": "six axis permutations maximize count of identical normalized axis-role words, without scientific semantics",
+  "summary": {
+    "pairs_total": 5253,
+    "pairs_with_any_exact_role": 149,
+    "by_number_of_covered_axes": {
+      "1": 144,
+      "2": 5
+    },
+    "pairs_with_two_or_more_covered_axes": 5,
+    "pairs_with_all_three_covered_axes": 0
+  },
+  "pairs": [
+    {
+      "a": "FACH-F007",
+      "b": "FACH-F015",
+      "score": 3,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        2,
+        1,
+        0
+      ],
+      "axes_positive": 2,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F006",
+      "b": "FACH-F043",
+      "score": 2,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        1
+      ],
+      "axes_positive": 2,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F010",
+      "b": "FACH-F064",
+      "score": 2,
+      "axis_permutation": [
+        1,
+        0,
+        2
+      ],
+      "axis_shared": [
+        1,
+        1,
+        0
+      ],
+      "axes_positive": 2,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F020",
+      "b": "FACH-F045",
+      "score": 2,
+      "axis_permutation": [
+        1,
+        0,
+        2
+      ],
+      "axis_shared": [
+        1,
+        1,
+        0
+      ],
+      "axes_positive": 2,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F052",
+      "b": "FACH-F098",
+      "score": 2,
+      "axis_permutation": [
+        2,
+        1,
+        0
+      ],
+      "axis_shared": [
+        1,
+        0,
+        1
+      ],
+      "axes_positive": 2,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F001",
+      "b": "FACH-F063",
+      "score": 2,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        2,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F075",
+      "b": "FACH-F090",
+      "score": 2,
+      "axis_permutation": [
+        1,
+        2,
+        0
+      ],
+      "axis_shared": [
+        0,
+        0,
+        2
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F075",
+      "b": "CORE-T1",
+      "score": 2,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        0,
+        0,
+        2
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F090",
+      "b": "CORE-T1",
+      "score": 2,
+      "axis_permutation": [
+        2,
+        0,
+        1
+      ],
+      "axis_shared": [
+        2,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "CORE-T1",
+      "b": "CORE-T3",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        2,
+        0
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F001",
+      "b": "FACH-F005",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        2,
+        1
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F001",
+      "b": "FACH-F045",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        2,
+        0
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F001",
+      "b": "FACH-F062",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        2,
+        1
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F001",
+      "b": "FACH-F074",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        2,
+        0
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F001",
+      "b": "FACH-F084",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        2,
+        1
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F002",
+      "b": "CORE-T3",
+      "score": 1,
+      "axis_permutation": [
+        2,
+        0,
+        1
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F003",
+      "b": "FACH-F017",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F003",
+      "b": "FACH-F053",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F004",
+      "b": "FACH-F016",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F006",
+      "b": "FACH-F011",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F006",
+      "b": "FACH-F016",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F006",
+      "b": "FACH-F045",
+      "score": 1,
+      "axis_permutation": [
+        2,
+        0,
+        1
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F006",
+      "b": "FACH-F067",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F006",
+      "b": "CORE-T2",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        0,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F007",
+      "b": "FACH-F008",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F007",
+      "b": "FACH-F022",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        0,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F009",
+      "b": "FACH-F014",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F009",
+      "b": "FACH-F038",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        0,
+        2
+      ],
+      "axis_shared": [
+        0,
+        1,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F009",
+      "b": "FACH-F090",
+      "score": 1,
+      "axis_permutation": [
+        2,
+        0,
+        1
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F010",
+      "b": "FACH-F087",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        0,
+        2
+      ],
+      "axis_shared": [
+        0,
+        1,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F011",
+      "b": "FACH-F016",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F011",
+      "b": "FACH-F017",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F011",
+      "b": "FACH-F043",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F011",
+      "b": "FACH-F044",
+      "score": 1,
+      "axis_permutation": [
+        2,
+        0,
+        1
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F011",
+      "b": "FACH-F056",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F011",
+      "b": "FACH-F067",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F011",
+      "b": "CORE-T2",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        0,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F012",
+      "b": "FACH-F030",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        2,
+        1
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F013",
+      "b": "FACH-F015",
+      "score": 1,
+      "axis_permutation": [
+        2,
+        0,
+        1
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F013",
+      "b": "FACH-F028",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        2,
+        1
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F014",
+      "b": "FACH-F090",
+      "score": 1,
+      "axis_permutation": [
+        2,
+        0,
+        1
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F015",
+      "b": "FACH-F022",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        0,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F016",
+      "b": "FACH-F031",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        0,
+        1,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F016",
+      "b": "FACH-F043",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F016",
+      "b": "FACH-F067",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F016",
+      "b": "CORE-T2",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        0,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F017",
+      "b": "FACH-F027",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F017",
+      "b": "FACH-F053",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F019",
+      "b": "FACH-F021",
+      "score": 1,
+      "axis_permutation": [
+        2,
+        0,
+        1
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F020",
+      "b": "FACH-F031",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        0,
+        1,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F020",
+      "b": "FACH-F050",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        2,
+        0
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F020",
+      "b": "FACH-F069",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        2,
+        1
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F021",
+      "b": "FACH-F023",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        2,
+        1
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F022",
+      "b": "FACH-F028",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        2,
+        0
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F022",
+      "b": "FACH-F056",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        2,
+        0
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F023",
+      "b": "FACH-F050",
+      "score": 1,
+      "axis_permutation": [
+        2,
+        0,
+        1
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F024",
+      "b": "FACH-F044",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F024",
+      "b": "FACH-F098",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F026",
+      "b": "FACH-F045",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        2,
+        1
+      ],
+      "axis_shared": [
+        0,
+        1,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F026",
+      "b": "CORE-T2",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F028",
+      "b": "FACH-F056",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F029",
+      "b": "FACH-F030",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F029",
+      "b": "FACH-F088",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F030",
+      "b": "FACH-F032",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F030",
+      "b": "FACH-F069",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        2,
+        0
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F030",
+      "b": "FACH-F081",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        2,
+        1
+      ],
+      "axis_shared": [
+        0,
+        1,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F030",
+      "b": "FACH-F090",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        2,
+        0
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F030",
+      "b": "FACH-F095",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        2,
+        0
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F031",
+      "b": "FACH-F045",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F033",
+      "b": "FACH-F035",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        0,
+        2
+      ],
+      "axis_shared": [
+        0,
+        1,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F033",
+      "b": "FACH-F079",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        0,
+        2
+      ],
+      "axis_shared": [
+        0,
+        1,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F035",
+      "b": "FACH-F079",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F036",
+      "b": "FACH-F052",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        0,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F037",
+      "b": "FACH-F055",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F040",
+      "b": "FACH-F057",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        0,
+        2
+      ],
+      "axis_shared": [
+        0,
+        1,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F042",
+      "b": "FACH-F046",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        2,
+        0
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F043",
+      "b": "FACH-F049",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F043",
+      "b": "FACH-F050",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        2,
+        0
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F043",
+      "b": "FACH-F051",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F043",
+      "b": "FACH-F065",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F043",
+      "b": "FACH-F067",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F043",
+      "b": "FACH-F084",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F043",
+      "b": "FACH-F091",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        2,
+        0
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F043",
+      "b": "CORE-T2",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        0,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F044",
+      "b": "FACH-F049",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        0,
+        1,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F044",
+      "b": "FACH-F056",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        2,
+        0
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F044",
+      "b": "FACH-F098",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F045",
+      "b": "FACH-F047",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        0,
+        1,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F045",
+      "b": "FACH-F074",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F047",
+      "b": "FACH-F059",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        0,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F047",
+      "b": "FACH-F084",
+      "score": 1,
+      "axis_permutation": [
+        2,
+        0,
+        1
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F047",
+      "b": "FACH-F094",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        2,
+        1
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F048",
+      "b": "FACH-F097",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        0,
+        1,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F049",
+      "b": "FACH-F065",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F049",
+      "b": "FACH-F084",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F050",
+      "b": "FACH-F051",
+      "score": 1,
+      "axis_permutation": [
+        2,
+        0,
+        1
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F050",
+      "b": "FACH-F091",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F051",
+      "b": "FACH-F055",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F051",
+      "b": "FACH-F091",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F051",
+      "b": "FACH-F092",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        0,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F052",
+      "b": "FACH-F053",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F053",
+      "b": "FACH-F055",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        2,
+        1
+      ],
+      "axis_shared": [
+        0,
+        1,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F055",
+      "b": "FACH-F057",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        2,
+        1
+      ],
+      "axis_shared": [
+        0,
+        1,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F057",
+      "b": "FACH-F078",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        0,
+        1,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F059",
+      "b": "FACH-F060",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F059",
+      "b": "FACH-F063",
+      "score": 1,
+      "axis_permutation": [
+        2,
+        0,
+        1
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F059",
+      "b": "FACH-F080",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F060",
+      "b": "FACH-F080",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F061",
+      "b": "FACH-F070",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        0,
+        1,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F062",
+      "b": "FACH-F084",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        0,
+        1,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F063",
+      "b": "FACH-F075",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        0,
+        1,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F064",
+      "b": "FACH-F087",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F065",
+      "b": "FACH-F084",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F066",
+      "b": "FACH-F075",
+      "score": 1,
+      "axis_permutation": [
+        2,
+        0,
+        1
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F066",
+      "b": "FACH-F076",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F066",
+      "b": "FACH-F090",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F066",
+      "b": "CORE-T1",
+      "score": 1,
+      "axis_permutation": [
+        2,
+        0,
+        1
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F066",
+      "b": "CORE-T3",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F067",
+      "b": "CORE-T2",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        0,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F068",
+      "b": "FACH-F080",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F068",
+      "b": "FACH-F092",
+      "score": 1,
+      "axis_permutation": [
+        2,
+        0,
+        1
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F069",
+      "b": "FACH-F088",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        0,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F069",
+      "b": "FACH-F090",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F069",
+      "b": "FACH-F095",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F071",
+      "b": "FACH-F092",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F071",
+      "b": "FACH-F100",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F075",
+      "b": "FACH-F076",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        2,
+        0
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F075",
+      "b": "FACH-F088",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F075",
+      "b": "FACH-F089",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F075",
+      "b": "CORE-T3",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        2,
+        0
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F076",
+      "b": "FACH-F090",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F076",
+      "b": "CORE-T1",
+      "score": 1,
+      "axis_permutation": [
+        2,
+        0,
+        1
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F076",
+      "b": "CORE-T3",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F078",
+      "b": "FACH-F081",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F078",
+      "b": "FACH-F086",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F081",
+      "b": "FACH-F082",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        2,
+        0
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F081",
+      "b": "FACH-F086",
+      "score": 1,
+      "axis_permutation": [
+        2,
+        0,
+        1
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F083",
+      "b": "FACH-F097",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        2,
+        1
+      ],
+      "axis_shared": [
+        0,
+        1,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F084",
+      "b": "FACH-F086",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        2,
+        0
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F085",
+      "b": "FACH-F089",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F086",
+      "b": "CORE-T1",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        0,
+        1,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F088",
+      "b": "FACH-F090",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        2,
+        0
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F088",
+      "b": "CORE-T1",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F090",
+      "b": "FACH-F095",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F090",
+      "b": "CORE-T2",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        2,
+        1
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F090",
+      "b": "CORE-T3",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F091",
+      "b": "FACH-F092",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        0,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F092",
+      "b": "FACH-F100",
+      "score": 1,
+      "axis_permutation": [
+        0,
+        1,
+        2
+      ],
+      "axis_shared": [
+        1,
+        0,
+        0
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    },
+    {
+      "a": "FACH-F093",
+      "b": "FACH-F094",
+      "score": 1,
+      "axis_permutation": [
+        1,
+        2,
+        0
+      ],
+      "axis_shared": [
+        0,
+        0,
+        1
+      ],
+      "axes_positive": 1,
+      "review": "alignment_hypothesis_only"
+    }
+  ],
+  "limits": [
+    "Zero three-axis role matches does NOT exclude mathematical isomorphisms via different vocabulary.",
+    "The association of roles and axes needs semantic alignment; this is not proof of class difference."
+  ]
+}
