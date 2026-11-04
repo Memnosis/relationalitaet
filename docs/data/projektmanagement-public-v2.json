@@ -3,8 +3,8 @@
   "snapshot_date": "2026-11-03",
   "source_schema": "pm-public-curated/0.1",
   "source_blob_sha": "75a0d4285ffc90b3ca9971304f32412d7d8fe42d",
-  "scope": "public website task cards plus aggregated internal tasks; not yet generated from Claude's canonical evidence-register",
-  "notes": "Die interne Forschungsarbeit wird auf der Website nur als Summe geführt. Bestehende vollständige ältere JSON-Datei bleibt aufgrund der Git-Historie öffentlich und muss separat rechtlich/redaktionell bereinigt werden.",
+  "scope": "Public website task cards plus Claude-derived aggregate from PM_CLAUDE_AGGREGAT_V0_2.json; not a full integrated canonical evidence snapshot",
+  "notes": "Claude internal_summary copied from evidence-based aggregate (source: forschung/register/oeffentlich/PM_CLAUDE_AGGREGAT_V0_2.json). Only fully evidenced stages counted, partial stages excluded. Legacy source and history still visible; privacy audit separate.",
   "stages": [
     {
       "key": "inventory",
@@ -37,12 +37,12 @@
     "stage_counts": {
       "inventory": 6,
       "specification": 6,
-      "implementation": 0,
-      "testing": 0,
-      "peer_review": 0,
+      "implementation": 3,
+      "testing": 4,
+      "peer_review": 1,
       "release": 0
     },
-    "review_status": "Claude-Eigenprüfung und GPT-Gegenprüfung nicht für alle Positionen abgeschlossen; Stand ist eine vorläufige Bestandsprojektion, kein geprüfter fachlicher Gesamtstand"
+    "review_status": "aus Nachweisen berechnet (Dateien, Testregister, Reproduktion, Zyklus-Flags); Teilnachweise nicht mitgezählt; Freigabe nur durch Nils"
   },
   "tasks": [
     {
