@@ -35,11 +35,11 @@ def main():
     expected = {}
     hist = {str(i):0 for i in range(4)}
     for a,b in itertools.combinations(rows,2):
-        left = [{norm(z) for z in axis["elements"]} for axis in a["axes"]]
-        right = [{norm(z) for z in axis["elements"]} for axis in b["axes"]]
+        left = [[norm(z) for z in axis["elements"]] for axis in a["axes"]]
+        right = [[norm(z) for z in axis["elements"]] for axis in b["axes"]]
         best = (-1,-1,(),())
         for p in itertools.permutations(range(3)):
-            matched = tuple(len(left[i] & right[p[i]]) for i in range(3))
+            matched = tuple(sum(z in right[p[i]] for z in left[i]) for i in range(3))
             coverage = sum(n > 0 for n in matched)
             score = sum(matched)
             if (coverage,score) > best[:2]:
