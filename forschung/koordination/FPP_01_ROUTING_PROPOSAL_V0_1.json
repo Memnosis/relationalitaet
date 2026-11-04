@@ -1,0 +1,225 @@
+{
+  "schema_version": "fpp-routing/0.1-proposal",
+  "status": "proposal_not_deployed",
+  "created": "2026-11-04",
+  "governance": {
+    "source_of_truth": "one canonical object and immutable version, many derived projections",
+    "machine_changes": "draft_only_pending_review",
+    "release": "requires_object_owner_and_editorial_approval",
+    "conflicts": "record_both_versions_and_open_comparison",
+    "non_pass_states": [
+      "not_assessed",
+      "skip",
+      "open",
+      "contradicted"
+    ],
+    "coordination": "forschung/koordination/REVIEW_QUEUE_V2.json",
+    "cycle": "forschung/koordination/zyklen/KI-2026-11-03-001/STATUS.json"
+  },
+  "routes": [
+    {
+      "kind": "formula",
+      "primary": "forschung/tensor/formeln/",
+      "primary_status": "directory_confirmed",
+      "derived": [
+        "tensor_algebra",
+        "harvesting_page",
+        "glossary",
+        "source_register"
+      ],
+      "review": "mathematical_and_domain"
+    },
+    {
+      "kind": "derived_relation",
+      "primary": "forschung/tensor/algebra-claude/BEFUNDREGISTER_TENSOR_V0_1.json",
+      "primary_status": "existing_register_candidates_not_unified",
+      "derived": [
+        "tensor_algebra",
+        "affected_tensors",
+        "theses",
+        "source_register",
+        "glossary",
+        "harvesting_page"
+      ],
+      "review": "math_repro_domain"
+    },
+    {
+      "kind": "tensor",
+      "primary": "forschung/tensor/algebra-claude/schema/tensor-1.0.schema.json",
+      "primary_status": "schema_only_not_an_object_store",
+      "derived": [
+        "tensor_foundations",
+        "tensor_public_data",
+        "harvesting_page",
+        "glossary",
+        "source_register"
+      ],
+      "review": "27_field_scientific_and_editorial"
+    },
+    {
+      "kind": "skill",
+      "primary": "existing_skills_to_be_crosswalked",
+      "primary_status": "unresolved_canonical_path",
+      "derived": [
+        "mini_ai",
+        "geo_ai",
+        "visual_engine",
+        "algebra",
+        "skill_public_data"
+      ],
+      "review": "implementation_tests_domain"
+    },
+    {
+      "kind": "source",
+      "primary": "existing_shared_source_register_to_be_verified",
+      "primary_status": "unresolved_canonical_path",
+      "derived": [
+        "all_dependent_objects"
+      ],
+      "review": "provenance_licence"
+    },
+    {
+      "kind": "glossary_entry",
+      "primary": "existing_shared_glossary_to_be_verified",
+      "primary_status": "unresolved_canonical_path",
+      "derived": [
+        "publications",
+        "website",
+        "related_models"
+      ],
+      "review": "terminology_and_source"
+    },
+    {
+      "kind": "method_analysis",
+      "primary": "forschung/koordination/",
+      "primary_status": "existing_coordination_not_unified_analysis_store",
+      "derived": [
+        "relevant_methods_paper",
+        "source_register",
+        "related_findings"
+      ],
+      "review": "independent_peer_review"
+    },
+    {
+      "kind": "website_finding",
+      "primary": "forschung/website/",
+      "primary_status": "directory_confirmed",
+      "derived": [
+        "affected_site",
+        "regression_tests",
+        "website_audit"
+      ],
+      "review": "browser_and_editorial"
+    }
+  ],
+  "publication_manifests": [
+    {
+      "id": "PUB-TENSOR-ALGEBRA",
+      "path": "docs/tensoralgebra.html",
+      "kind": "website_deep_dive",
+      "accepted": [
+        "derived_relation",
+        "proof",
+        "counterexample",
+        "method_analysis"
+      ],
+      "release": "review"
+    },
+    {
+      "id": "PUB-TENSOR-BASICS",
+      "path": "docs/tensor-einfuehrung.html",
+      "kind": "website_overview",
+      "accepted": [
+        "tensor",
+        "triad",
+        "field",
+        "method_analysis"
+      ],
+      "release": "review"
+    },
+    {
+      "id": "PUB-HARVEST",
+      "path": "docs/harvesting.html",
+      "kind": "website_overview",
+      "accepted": [
+        "formula",
+        "derived_relation",
+        "discovery_method",
+        "failure_case"
+      ],
+      "release": "review"
+    },
+    {
+      "id": "PUB-DATA",
+      "path": "docs/forschungsdaten.html",
+      "kind": "public_data_view",
+      "accepted": [
+        "tensor",
+        "triad",
+        "skill",
+        "field",
+        "finding"
+      ],
+      "release": "source_and_evidence_check"
+    },
+    {
+      "id": "PUB-KI",
+      "path": "docs/ki-systeme.html",
+      "kind": "website_overview",
+      "accepted": [
+        "skill",
+        "method_analysis",
+        "benchmark"
+      ],
+      "release": "review"
+    },
+    {
+      "id": "PUB-FACHREGISTER",
+      "path": "docs/publikationen.html",
+      "kind": "publications_index",
+      "accepted": [
+        "paper",
+        "glossary_entry",
+        "codebook",
+        "source"
+      ],
+      "release": "editorial"
+    }
+  ],
+  "mandatory_impact_checks": [
+    "source_register",
+    "glossary",
+    "codebook",
+    "skills",
+    "tests",
+    "related_triads",
+    "related_tensors",
+    "research_findings",
+    "publication_routes",
+    "public_data_projection"
+  ],
+  "example": {
+    "object_id": "REL-PFV-001-PROVISIONAL",
+    "status": "example_not_registered",
+    "origin_formula_ids": [
+      "F025",
+      "F026",
+      "F027"
+    ],
+    "derived_relation": "P=F*v",
+    "conditions": [
+      "t != 0",
+      "matching physical definitions",
+      "vector case: scalar product F dot v"
+    ],
+    "destinations": [
+      "tensor_algebra",
+      "harvesting_page",
+      "related_tensors",
+      "glossary"
+    ],
+    "math_status": "independently_checked_example",
+    "domain_status": "pending",
+    "editorial_status": "not_released"
+  }
+}
