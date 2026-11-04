@@ -1,0 +1,252 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/koordination/FPP_01_EVENT_SCHEMA_V0_1.json",
+  "title": "FPP-01 Cross-AI Research Event / proposal",
+  "description": "Proposal for minimal cross-AI metadata envelope; structural validity is not scientific correctness.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "event_id",
+    "object_id",
+    "object_type",
+    "object_version",
+    "event_type",
+    "actor",
+    "timestamp",
+    "source_refs",
+    "input_hashes",
+    "result",
+    "math_status",
+    "domain_status",
+    "review_status",
+    "visibility",
+    "intended_destinations",
+    "related_ids",
+    "required_tests"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "fpp-event/0.1"
+    },
+    "event_id": {
+      "type": "string",
+      "minLength": 3
+    },
+    "object_id": {
+      "type": "string",
+      "minLength": 3
+    },
+    "object_type": {
+      "enum": [
+        "formula",
+        "relation",
+        "triad",
+        "tensor",
+        "field",
+        "proof",
+        "counterexample",
+        "skill",
+        "source",
+        "glossary_entry",
+        "analysis",
+        "publication",
+        "website_finding",
+        "decision"
+      ]
+    },
+    "object_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "event_type": {
+      "enum": [
+        "discovered",
+        "imported",
+        "parsed",
+        "typed",
+        "derived",
+        "counterchecked",
+        "reproduced",
+        "reviewed",
+        "decision",
+        "impact_proposed",
+        "merged",
+        "released",
+        "superseded",
+        "refuted"
+      ]
+    },
+    "actor": {
+      "type": "object",
+      "required": [
+        "id",
+        "type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 2
+        },
+        "type": {
+          "enum": [
+            "human",
+            "software_agent",
+            "software_tool",
+            "institution"
+          ]
+        },
+        "software_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "input_hashes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "resource",
+          "sha256"
+        ],
+        "properties": {
+          "resource": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-fA-F0-9]{64}$"
+          }
+        }
+      }
+    },
+    "result": {
+      "type": "object",
+      "required": [
+        "summary",
+        "artifact_ref"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "summary": {
+          "type": "string"
+        },
+        "artifact_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "conditions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "counterexamples": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "math_status": {
+      "enum": [
+        "not_assessed",
+        "candidate",
+        "symbolically_derived",
+        "counterchecked",
+        "independently_reproduced",
+        "restricted",
+        "refuted"
+      ]
+    },
+    "domain_status": {
+      "enum": [
+        "not_assessed",
+        "pending",
+        "accepted_in_domain",
+        "restricted_validity",
+        "refuted",
+        "conflicted"
+      ]
+    },
+    "review_status": {
+      "enum": [
+        "unsubmitted",
+        "submitted",
+        "needs_evidence",
+        "accepted",
+        "change_requested",
+        "rejected"
+      ]
+    },
+    "visibility": {
+      "enum": [
+        "private",
+        "internal",
+        "public_candidate",
+        "public_released"
+      ]
+    },
+    "intended_destinations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "required_tests": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "cycle_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "review_request_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "licence": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "editorial_owner": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}
