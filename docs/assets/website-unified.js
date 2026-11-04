@@ -1,50 +1,81 @@
-/* Site information architecture v2: present one shared navigation, retain old detail URLs as deep links. */
-(function(){
-"use strict";
-const items=[["Start","index.html"],["KI","ki-systeme.html"],["Tensor","tensor-einfuehrung.html"],["Projekte","projektstand.html"],["Harvesting","harvesting.html"],["Publikationen","publikationen.html"],["Mitmachen","mitmachen.html"],["SOULution","soulution.html"]];
-function ready(){
-document.body.classList.add("ux-site-v2");
-const hereFile=location.pathname.split("/").pop()||"index.html";
-const families={"ki-systeme.html":["var(--ux-ki)","◈"],"ki-geschichte.html":["var(--ux-ki)","⌛"],"ki-kernforschung.html":["var(--ux-ki)","⌘"],"vernetzung-ki.html":["var(--ux-ki)","⇄"],"minimal-ki.html":["var(--ux-mini)","◈"],"komprimierung.html":["var(--ux-kompr)","⌁"],"visuelle-engine.html":["var(--ux-visual)","▧"],"geoki.html":["var(--ux-geo)","◇"],"tensor-einfuehrung.html":["var(--ux-tensor)","▦"],"tensoralgebra.html":["var(--ux-tensor)","∑"],"harvesting.html":["var(--ux-harv)","◎"],"projektstand.html":["var(--ux-projekte)","▦"],"projektportfolio.html":["var(--ux-projekte)","▦"],"projektmanagement.html":["var(--ux-projekte)","▦"],"inkubator.html":["var(--ux-ink)","◇"],"bibliothek.html":["var(--ux-pub)","▤"],"codebuch.html":["var(--ux-pub)","▤"],"glossar.html":["var(--ux-pub)","▤"],"thesen.html":["var(--ux-pub)","▤"],"medien.html":["var(--ux-pub)","▤"],"publikationen.html":["var(--ux-pub)","▤"],"soulution.html":["var(--ux-soul)","❧"]};
-const info=families[hereFile]||["var(--ux-tensor)","◈"];
-document.body.style.setProperty("--ux-page-accent",info[0]);document.body.style.setProperty("--ux-page-icon",'"'+info[1]+'"');
-/* Existing sprite provides consistent icons; never rely on platform-dependent emoji glyphs. */
-const icons={"ki-ansaetze":"ki","ki-geschichte":"history","ki-kernforschung":"workflow","ki-kollegen":"colleagues","ki-publikationen":"book","vier-kernprojekte":"project","vier-projekte":"project","projektportfolio":"project","tensor-algebra-block":"algebra","inkubator-uebersicht":"inkubator","inkubator-deep-dive":"book","inkubator-quellen":"database","daten-explorer":"database","status-grenzen":"tensor","daten-originale":"book"};
-const toneIcons={ki:"ki",tensor:"tensor",mini:"mini",geo:"earth",kompr:"compress",visual:"eye",projekte:"project",pub:"book",ink:"inkubator",harv:"harvest",soul:"colleagues"};
-document.querySelectorAll(".ux-topic").forEach(function(section){
-  const holder=section.querySelector(".ux-topic-head > .ux-topic-icon");
-  if(!holder)return;
-  const name=icons[section.id]||toneIcons[section.dataset.tone]||"tensor";
-  const ns="http://www.w3.org/2000/svg",svg=document.createElementNS(ns,"svg"),use=document.createElementNS(ns,"use");
-  svg.setAttribute("width","26");svg.setAttribute("height","26");svg.setAttribute("viewBox","0 0 24 24");
-  svg.setAttribute("aria-hidden","true");use.setAttribute("href","./assets/tensor-icons.svg#"+name);
-  svg.append(use);holder.replaceChildren(svg);
-});
-const nav=document.querySelector(".tensor-global-nav nav,header nav[aria-label='Hauptnavigation']");
-if(nav){
-  nav.classList.add("ux-site-nav");nav.setAttribute("aria-label","Hauptnavigation");
-  const here=location.pathname.split("/").pop()||"index.html";
-  const sections={"ki-geschichte.html":"ki-systeme.html","ki-kernforschung.html":"ki-systeme.html","minimal-ki.html":"projektstand.html","geoki.html":"projektstand.html","komprimierung.html":"projektstand.html","visuelle-engine.html":"projektstand.html","tensoralgebra.html":"tensor-einfuehrung.html","bibliothek.html":"publikationen.html","inkubator.html":"publikationen.html","soulution-schroedingers-inkubator.html":"publikationen.html","soulution-inkubator-quellen.html":"publikationen.html","medien.html":"publikationen.html","projektmanagement.html":"projektstand.html","thesen.html":"publikationen.html","codebuch.html":"publikationen.html"};
-  const current=sections[here]||here;
-  nav.replaceChildren(...items.map(([label,href])=>{
-let a=document.createElement("a");a.href="./"+href;
-const sym={Start:"project",KI:"ki",Tensor:"tensor",Projekte:"project",Harvesting:"harvest",Publikationen:"book",Mitmachen:"colleagues",SOULution:"colleagues"}[label];
-const svg=document.createElementNS("http://www.w3.org/2000/svg","svg"),use=document.createElementNS("http://www.w3.org/2000/svg","use");
-svg.setAttribute("viewBox","0 0 24 24");svg.setAttribute("width","16");svg.setAttribute("height","16");svg.setAttribute("aria-hidden","true");use.setAttribute("href","./assets/tensor-icons.svg#"+sym);svg.append(use);
-a.append(svg,document.createTextNode(label));if(href===current)a.setAttribute("aria-current","page");
-if(label==="Mitmachen")a.classList.add("tensor-nav-join");
-if(label==="SOULution")a.classList.add("tensor-nav-soulution");
-return a;
-}));
+/* Forschungsplattform · einzige aktive Navigation + Themenwegweiser · v3.1
+   Historische Detail-URLs bleiben erhalten. Keine zweite Navigationsinstanz. */
+(()=>{"use strict";
+const items=[["Start","index.html","project"],["KI","ki-systeme.html","ki"],["Tensor","tensor-einfuehrung.html","tensor"],["Projekte","projektstand.html","project"],["Harvesting","harvesting.html","harvest"],["Publikationen","publikationen.html","book"],["Mitmachen","mitmachen.html","colleagues"],["SOULution","soulution.html","colleagues"]];
+const parents={
+"ki-geschichte.html":"ki-systeme.html","ki-kernforschung.html":"ki-systeme.html","vernetzung-ki.html":"ki-systeme.html",
+"minimal-ki.html":"projektstand.html","geoki.html":"projektstand.html","geoki-systeme.html":"projektstand.html","komprimierung.html":"projektstand.html","visuelle-engine.html":"projektstand.html",
+"tensoralgebra.html":"tensor-einfuehrung.html","tensor-paper.html":"tensor-einfuehrung.html",
+"bibliothek.html":"publikationen.html","inkubator.html":"publikationen.html","soulution-schroedingers-inkubator.html":"publikationen.html","soulution-inkubator-quellen.html":"publikationen.html","medien.html":"publikationen.html","projektmanagement.html":"projektstand.html","projektportfolio.html":"projektstand.html","thesen.html":"publikationen.html","codebuch.html":"publikationen.html","glossar.html":"publikationen.html","forschungsdaten.html":"publikationen.html","interoperabilitaet.html":"publikationen.html",
+"taskkarten.html":"mitmachen.html","mitmachen-rueckgabe.html":"mitmachen.html","quellen-und-uebergabe.html":"publikationen.html","soulution-ki-kreativrechte.html":"soulution.html","soulution-weltwissen-dividende.html":"soulution.html","wissen-macht-wirklichkeit.html":"soulution.html"
+};
+const palettes={ki:["var(--ux-ki)","ki"],tensor:["var(--ux-tensor)","tensor"],mini:["var(--ux-mini)","mini"],geo:["var(--ux-geo)","earth"],kompr:["var(--ux-kompr)","compress"],visual:["var(--ux-visual)","eye"],projekte:["var(--ux-projekte)","project"],pub:["var(--ux-pub)","book"],ink:["var(--ux-ink)","inkubator"],harv:["var(--ux-harv)","harvest"],soul:["var(--ux-soul)","colleagues"]};
+const roles={
+"ki-systeme.html":"ki","ki-geschichte.html":"ki","ki-kernforschung.html":"ki","vernetzung-ki.html":"ki",
+"minimal-ki.html":"mini","komprimierung.html":"kompr","visuelle-engine.html":"visual","geoki.html":"geo","geoki-systeme.html":"geo",
+"tensor-einfuehrung.html":"tensor","tensoralgebra.html":"tensor","tensor-paper.html":"tensor",
+"harvesting.html":"harv","projektstand.html":"projekte","projektportfolio.html":"projekte","projektmanagement.html":"projekte",
+"inkubator.html":"ink","soulution-schroedingers-inkubator.html":"ink","soulution-inkubator-quellen.html":"ink",
+"bibliothek.html":"pub","codebuch.html":"pub","glossar.html":"pub","thesen.html":"pub","medien.html":"pub","publikationen.html":"pub","forschungsdaten.html":"pub","interoperabilitaet.html":"pub","quellen-und-uebergabe.html":"pub",
+"soulution.html":"soul","soulution-ki-kreativrechte.html":"soul","soulution-weltwissen-dividende.html":"soul","wissen-macht-wirklichkeit.html":"soul",
+"mitmachen.html":"projekte","mitmachen-rueckgabe.html":"projekte","taskkarten.html":"projekte"
+};
+const iconMap={"ki-ansaetze":"ki","ki-geschichte":"history","ki-kernforschung":"workflow","ki-kollegen":"colleagues","ki-publikationen":"book","vier-kernprojekte":"project","vier-projekte":"project","projektportfolio":"project","tensor-algebra-block":"algebra","inkubator-uebersicht":"inkubator","inkubator-deep-dive":"book","inkubator-quellen":"database","daten-explorer":"database","status-grenzen":"tensor","daten-originale":"book"};
+const key=location.pathname.split("/").pop()||"index.html";const active=parents[key]||key;const labelFor=Object.fromEntries(items.map(x=>[x[1],x[0]]));
+function svgSymbol(name,size){const ns="http://www.w3.org/2000/svg",svg=document.createElementNS(ns,"svg"),use=document.createElementNS(ns,"use");svg.setAttribute("viewBox","0 0 24 24");svg.setAttribute("width",String(size));svg.setAttribute("height",String(size));svg.setAttribute("aria-hidden","true");use.setAttribute("href","./assets/tensor-icons.svg#"+name);svg.append(use);return svg;}
+function init(){
+ document.body.classList.add("ux-site-v3");document.body.classList.remove("ux-site-v2");
+ const role=roles[key]||"tensor",theme=palettes[role]||palettes.tensor;
+ document.body.style.setProperty("--ux-page-accent",theme[0]);
+ document.body.style.setProperty("--ux-page-icon",'"'+theme[1]+'"');
+ const header=document.querySelector("header.tensor-global-nav"),old=header?.querySelector("nav");
+ if(header&&old){
+  const nav=document.createElement("nav");nav.className="ux-site-nav";nav.setAttribute("aria-label","Hauptnavigation");
+  for(const [name,href,icon] of items){
+   const a=document.createElement("a");a.href="./"+href;a.append(svgSymbol(icon,16),document.createTextNode(name));
+   if(href===active)a.setAttribute("aria-current",key===href?"page":"location");
+   if(name==="Mitmachen")a.classList.add("tensor-nav-join");
+   if(name==="SOULution")a.classList.add("tensor-nav-soulution");
+   nav.append(a);
+  }
+  old.replaceWith(nav); /* ersetzt auch die vom alten Hierarchie-Skript erzeugte Navigation */
+ }
+ document.querySelectorAll(".ux-topic").forEach(section=>{
+  const icon=section.querySelector(".ux-topic-head > .ux-topic-icon");if(!icon)return;
+  const tone=section.dataset.tone||role;
+  icon.replaceChildren(svgSymbol(iconMap[section.id]||palettes[tone]?.[1]||"tensor",27));
+ });
+ const main=document.querySelector("main");
+ if(main && key!=="index.html"){
+  const crumbs=document.createElement("nav");crumbs.className="ux-breadcrumb";crumbs.setAttribute("aria-label","Brotkrumennavigation");
+  const home=document.createElement("a");home.href="./index.html";home.textContent="Start";crumbs.append(home);
+  if(active!==key){const parent=document.createElement("a");parent.href="./"+active;parent.textContent=labelFor[active]||"Übersicht";crumbs.append(parent);}
+  const now=document.createElement("span");now.setAttribute("aria-current","page");const h=main.querySelector("h1");now.textContent=key===active?(labelFor[active]||"Thema"):(h?.textContent?.trim().slice(0,65)||"Vertiefung");crumbs.append(now);
+  main.insertBefore(crumbs,main.firstChild);
+  // Nur einen Inhaltswegweiser: vorhandene Fach- und Lerngliederung hat Vorrang.
+  const hasLocal=main.querySelector("nav.ux-inline-nav,nav.geo-chapters,nav.tns-lead-nav,nav.join-six");
+  if(!hasLocal){
+   const sections=[...main.querySelectorAll(":scope > section")].filter(s=>s.querySelector("h2"));
+   const used=new Set([...main.querySelectorAll("[id]")].map(e=>e.id));
+   let entries=[];
+   for(const [i,s] of sections.entries()){
+    const h=s.querySelector("h2");if(!h)continue;
+    if(!s.id){let id="thema-"+h.textContent.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,40);
+      let base=id,n=2;while(used.has(id))id=base+"-"+n++;s.id=id;used.add(id);}
+    const label=h.textContent.trim().replace(/\s+/g," ").slice(0,50);if(label)entries.push([label,s.id]);
+   }
+   if(entries.length>=2){
+    const nav=document.createElement("nav");nav.className="ux-context-nav";nav.setAttribute("aria-label","Abschnitte dieser Seite");
+    const title=document.createElement("span");title.className="ux-context-title";title.textContent="Auf dieser Seite";nav.append(title);
+    const holder=document.createElement("div");holder.className="ux-context-links";
+    for(const [label,id] of entries.slice(0,8)){const a=document.createElement("a");a.href="#"+id;a.textContent=label;holder.append(a);}
+    if(entries.length>8){const d=document.createElement("details"),summary=document.createElement("summary");summary.textContent="Alle "+entries.length+" Themen";d.append(summary);for(const [label,id] of entries.slice(8)){const a=document.createElement("a");a.href="#"+id;a.textContent=label;d.append(a);}holder.append(d);}
+    nav.append(holder);const hero=main.querySelector(":scope > .ux-hero,:scope > .geo-hero");if(hero)hero.after(nav);else crumbs.after(nav);
+   }
+  }
+ }
+ const footer=document.querySelector("body > footer");
+ if(footer){let pm=footer.querySelector('a[href$="projektmanagement.html"]');if(!pm){pm=document.createElement("a");pm.href="./projektmanagement.html";pm.textContent="Projektmanagement";footer.append(" · ",pm);}pm.classList.add("ux-stealth-pm");pm.setAttribute("aria-label","Projektmanagement und Aufgabenstand");}
 }
-let foot=document.querySelector("body > footer");
-if(foot){
-let link=foot.querySelector('a[href$="projektmanagement.html"]');
-if(!link){link=document.createElement("a");link.href="./projektmanagement.html";link.textContent="Projektmanagement";link.setAttribute("aria-label","Projektmanagement und Aufgabenstand");link.className="ux-stealth-pm";foot.append(" · ",link);}
-else link.classList.add("ux-stealth-pm");
-function hide(){const c=getComputedStyle(foot).backgroundColor;const b=getComputedStyle(document.body).backgroundColor;link.style.color=(!c||c==="rgba(0, 0, 0, 0)"||c==="transparent")?b:c;}
-hide();link.addEventListener("blur",hide);link.addEventListener("focus",()=>{link.style.color=getComputedStyle(foot).color;});link.addEventListener("mouseenter",()=>{link.style.color=getComputedStyle(foot).color;});link.addEventListener("mouseleave",hide);
-}
-}
-if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",ready);else ready();
+if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init,{once:true});else init();
 })();
