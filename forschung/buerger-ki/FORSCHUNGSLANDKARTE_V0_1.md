@@ -7,7 +7,7 @@
 
 **Acht Räume:** Recht; Medizin; Patientenakten; Jobcenter/Soziales; Netzwerke und Begegnung; Bildung/Kultur/Prävention; gesellschaftliche Erfüllungsfähigkeit; KI/Benchmark/Tensor-Rückfluss.
 
-**Inventar:** 8 Räume, 32 offene Fragen, 8 Thesen, 8 Operationalisierungen, 15 Glossareinträge, 10 Quellen.
+**Aktueller maschinenlesbarer Inventarstand:** 9 Räume, 39 offene Fragen, 11 Thesen, 11 Operationalisierungen, 20 Glossarbegriffe, 14 Quellen. Dieser Text bewahrt den ursprünglichen Startbestand; die nachfolgenden Erweiterungen sind im Änderungsabschnitt dokumentiert.
 
 ## Vollständige Fragenliste
 
@@ -102,3 +102,14 @@ Ein Quellenregistereintrag ist kein geprüfter wissenschaftlicher Befund. Eine Q
 - Neuer Skill: Testdatensatz, Positiv/Negativ/Grenztest, Rückrechnung sofern möglich, Regression.
 - Übernahme Tensor: Operatorfamilie, Typen, Invariante, Gegenprobe und unabhängige Abnahme.
 - Die Forschungsdaten sind **nur** im Bürger-KI-Bereich gespeichert; globale Register werden erst durch gesonderte freigegebene Crosswalk-Migration angepasst.
+
+
+## Ergänzung 2026-11-04: Schutzpflichten, Rechtsverletzungen und vermeidbare Schäden
+
+Die Klasse **BK-RECHT-SCHUTZ-001** wurde als eigener neunter Forschungsraum ergänzt. Sie enthält sieben neue Fragen (BK-Q-033 bis BK-Q-039), drei Thesen (BK-T-009 bis BK-T-011), drei Operationalisierungen (BK-O-009 bis BK-O-011), fünf Glossarbegriffe (BK-G-016 bis BK-G-020) und vier Quellen (BK-SRC-SCH-001 bis BK-SRC-SCH-004).
+
+**No-Loss-Fachakte:** [Schutzpflichten, Rechtsverletzungen und vermeidbare Schäden](./SCHUTZPFLICHTEN_RECHTSVERLETZUNGEN_VERMEIDBARE_SCHAEDEN_V1_0.md).
+
+**Siebenstufiger Prüfprozess:** Frage → Rechtsposition → Tatsachen → Nachweis → Gegenprüfung → Lösung → Wirkung. Die öffentliche Website unter `docs/buerger-ki-schutzpflichten.html` erklärt die methodischen Schritte und den Therapieplatz-Vertikaltest. Die volle Datenstruktur steht in [FORSCHUNGSLANDKARTE_V0_1.json](./FORSCHUNGSLANDKARTE_V0_1.json).
+
+**Verbindliche Grenze:** Die Kategorien schädlich, vermeidbar, pflichtwidrig, grundrechtswidrig, strafbar bleiben voneinander getrennt. Kein öffentliches Schuldetikett ohne entsprechende Prüfung. Weitere Detailquellen, Rechtsstand- und Kausaltests stehen aus.
