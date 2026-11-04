@@ -1,0 +1,341 @@
+{
+  "schema": "skill-public-overview/1.0",
+  "date": "2026-11-04",
+  "status_notice": "Veröffentlichte, quellengestützte Teilinventare. Keine Aussage über den gesamten historischen Skillpool.",
+  "implemented_geoki_functions": [
+    {
+      "id": "GEO-OP-ROTATE",
+      "name": "rotate",
+      "signature": "rotate(v,angle)",
+      "type": "python_function",
+      "status": "implemented_in_geoki_v0_4",
+      "source": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+      "test_report": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+      "limitations": "Testbericht bezieht sich auf die gesamte Geo-KI-v0.4-Suite (14/14), nicht auf eine individuelle formale Fachfreigabe."
+    },
+    {
+      "id": "GEO-OP-ROTATE_COMPLEX",
+      "name": "rotate_complex",
+      "signature": "rotate_complex(v,angle)",
+      "type": "python_function",
+      "status": "implemented_in_geoki_v0_4",
+      "source": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+      "test_report": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+      "limitations": "Testbericht bezieht sich auf die gesamte Geo-KI-v0.4-Suite (14/14), nicht auf eine individuelle formale Fachfreigabe."
+    },
+    {
+      "id": "GEO-OP-POLYGON_AREA",
+      "name": "polygon_area",
+      "signature": "polygon_area(vertices)",
+      "type": "python_function",
+      "status": "implemented_in_geoki_v0_4",
+      "source": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+      "test_report": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+      "limitations": "Testbericht bezieht sich auf die gesamte Geo-KI-v0.4-Suite (14/14), nicht auf eine individuelle formale Fachfreigabe."
+    },
+    {
+      "id": "GEO-OP-POLYGON_AREA_TRIANGULATED",
+      "name": "polygon_area_triangulated",
+      "signature": "polygon_area_triangulated(vertices)",
+      "type": "python_function",
+      "status": "implemented_in_geoki_v0_4",
+      "source": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+      "test_report": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+      "limitations": "Testbericht bezieht sich auf die gesamte Geo-KI-v0.4-Suite (14/14), nicht auf eine individuelle formale Fachfreigabe."
+    },
+    {
+      "id": "GEO-OP-EULER_CHARACTERISTIC",
+      "name": "euler_characteristic",
+      "signature": "euler_characteristic(v,e,f)",
+      "type": "python_function",
+      "status": "implemented_in_geoki_v0_4",
+      "source": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+      "test_report": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+      "limitations": "Testbericht bezieht sich auf die gesamte Geo-KI-v0.4-Suite (14/14), nicht auf eine individuelle formale Fachfreigabe."
+    },
+    {
+      "id": "GEO-OP-EULER_STEP",
+      "name": "euler_step",
+      "signature": "euler_step(x,h,a)",
+      "type": "python_function",
+      "status": "implemented_in_geoki_v0_4",
+      "source": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+      "test_report": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+      "limitations": "Testbericht bezieht sich auf die gesamte Geo-KI-v0.4-Suite (14/14), nicht auf eine individuelle formale Fachfreigabe."
+    },
+    {
+      "id": "GEO-OP-EXPONENTIAL_SOLUTION",
+      "name": "exponential_solution",
+      "signature": "exponential_solution(x,h,a)",
+      "type": "python_function",
+      "status": "implemented_in_geoki_v0_4",
+      "source": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+      "test_report": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+      "limitations": "Testbericht bezieht sich auf die gesamte Geo-KI-v0.4-Suite (14/14), nicht auf eine individuelle formale Fachfreigabe."
+    },
+    {
+      "id": "GEO-OP-TRANSLATE",
+      "name": "translate",
+      "signature": "translate(v,delta)",
+      "type": "python_function",
+      "status": "implemented_in_geoki_v0_4",
+      "source": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+      "test_report": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+      "limitations": "Testbericht bezieht sich auf die gesamte Geo-KI-v0.4-Suite (14/14), nicht auf eine individuelle formale Fachfreigabe."
+    },
+    {
+      "id": "GEO-OP-REFLECT_X",
+      "name": "reflect_x",
+      "signature": "reflect_x(v)",
+      "type": "python_function",
+      "status": "implemented_in_geoki_v0_4",
+      "source": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+      "test_report": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+      "limitations": "Testbericht bezieht sich auf die gesamte Geo-KI-v0.4-Suite (14/14), nicht auf eine individuelle formale Fachfreigabe."
+    },
+    {
+      "id": "GEO-OP-SCALE",
+      "name": "scale",
+      "signature": "scale(v,s)",
+      "type": "python_function",
+      "status": "implemented_in_geoki_v0_4",
+      "source": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+      "test_report": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+      "limitations": "Testbericht bezieht sich auf die gesamte Geo-KI-v0.4-Suite (14/14), nicht auf eine individuelle formale Fachfreigabe."
+    },
+    {
+      "id": "GEO-OP-AFFINE",
+      "name": "affine",
+      "signature": "affine(v,m,t)",
+      "type": "python_function",
+      "status": "implemented_in_geoki_v0_4",
+      "source": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+      "test_report": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+      "limitations": "Testbericht bezieht sich auf die gesamte Geo-KI-v0.4-Suite (14/14), nicht auf eine individuelle formale Fachfreigabe."
+    },
+    {
+      "id": "GEO-OP-BEZIER2",
+      "name": "bezier2",
+      "signature": "bezier2(p0,p1,p2,t)",
+      "type": "python_function",
+      "status": "implemented_in_geoki_v0_4",
+      "source": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+      "test_report": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+      "limitations": "Testbericht bezieht sich auf die gesamte Geo-KI-v0.4-Suite (14/14), nicht auf eine individuelle formale Fachfreigabe."
+    },
+    {
+      "id": "GEO-OP-SEGMENT_INTERSECTION",
+      "name": "segment_intersection",
+      "signature": "segment_intersection(a,b,c,d)",
+      "type": "python_function",
+      "status": "implemented_in_geoki_v0_4",
+      "source": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/src/geometry.py",
+      "test_report": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/geoki/v0_4/TESTRESULT.md",
+      "limitations": "Testbericht bezieht sich auf die gesamte Geo-KI-v0.4-Suite (14/14), nicht auf eine individuelle formale Fachfreigabe."
+    }
+  ],
+  "interop_format_families": [
+    {
+      "id": "FMT-01",
+      "name": "Geometrie 2D/3D",
+      "formats": [
+        "SVG",
+        "DXF",
+        "STEP/IGES",
+        "STL",
+        "OBJ",
+        "PLY",
+        "glTF/GLB",
+        "3MF",
+        "IFC"
+      ],
+      "tools": [
+        "SymPy",
+        "Shapely",
+        "Paper.js",
+        "trimesh",
+        "meshio",
+        "ezdxf",
+        "PyVista",
+        "OpenCascade",
+        "three.js"
+      ],
+      "risks": "Topologie, Toleranzen, Einheiten, CRS, Material, Geometrie-Verlust",
+      "verification": "zu prüfen",
+      "type": "format_skill_candidate",
+      "status": "not_integrated_not_validated",
+      "source": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json"
+    },
+    {
+      "id": "FMT-02",
+      "name": "Geodaten",
+      "formats": [
+        "GeoJSON",
+        "GeoParquet",
+        "FlatGeobuf",
+        "GeoTIFF/COG",
+        "STAC",
+        "GeoZarr"
+      ],
+      "tools": [
+        "GDAL/OGR",
+        "Rasterio",
+        "Fiona",
+        "GeoPandas",
+        "pyproj",
+        "xarray"
+      ],
+      "risks": "Koordinatenreferenzsystem, Achsen, Raster-/Vektorübersetzung, Zeitbezug",
+      "verification": "zu prüfen",
+      "type": "format_skill_candidate",
+      "status": "not_integrated_not_validated",
+      "source": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json"
+    },
+    {
+      "id": "FMT-03",
+      "name": "Wissenschaftliche Arrays",
+      "formats": [
+        "HDF5",
+        "netCDF-CF",
+        "Zarr",
+        "NPY/NPZ",
+        "Arrow"
+      ],
+      "tools": [
+        "h5py",
+        "netCDF4",
+        "xarray",
+        "zarr",
+        "numpy",
+        "pyarrow"
+      ],
+      "risks": "Achsendefinition, Einheiten, Metadaten, Kompression, Chunking",
+      "verification": "zu prüfen",
+      "type": "format_skill_candidate",
+      "status": "not_integrated_not_validated",
+      "source": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json"
+    },
+    {
+      "id": "FMT-04",
+      "name": "Tabellen und Graphen",
+      "formats": [
+        "CSV/TSV",
+        "Parquet",
+        "Arrow IPC",
+        "SQLite",
+        "JSON-LD",
+        "RDF/Turtle",
+        "OWL"
+      ],
+      "tools": [
+        "pandas",
+        "pyarrow",
+        "duckdb",
+        "rdflib",
+        "NetworkX"
+      ],
+      "risks": "Schlüssel, Semantik, Provenienz, Datentypen, Kantenrollen",
+      "verification": "zu prüfen",
+      "type": "format_skill_candidate",
+      "status": "not_integrated_not_validated",
+      "source": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json"
+    },
+    {
+      "id": "FMT-05",
+      "name": "API und Skillverträge",
+      "formats": [
+        "OpenAPI",
+        "AsyncAPI",
+        "JSON Schema",
+        "MCP",
+        "gRPC/Protobuf",
+        "GraphQL"
+      ],
+      "tools": [
+        "jsonschema",
+        "pydantic",
+        "OpenAPI Generator",
+        "MCP SDK",
+        "protobuf"
+      ],
+      "risks": "Versionen, Rechte, Effektverträge, Fehlermeldungen, Observability",
+      "verification": "zu prüfen",
+      "type": "format_skill_candidate",
+      "status": "not_integrated_not_validated",
+      "source": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json"
+    },
+    {
+      "id": "FMT-06",
+      "name": "Wissenschaftsartefakte",
+      "formats": [
+        "RO-Crate",
+        "DataCite",
+        "DOI",
+        "FAIRsharing",
+        "Frictionless Table Schema",
+        "CWL",
+        "WDL"
+      ],
+      "tools": [
+        "ro-crate-py",
+        "cwltool",
+        "frictionless",
+        "Snakemake"
+      ],
+      "risks": "Evidenz, Reproduktion, Lizenz, Quelle, Messbasis",
+      "verification": "zu prüfen",
+      "type": "format_skill_candidate",
+      "status": "not_integrated_not_validated",
+      "source": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json"
+    },
+    {
+      "id": "FMT-07",
+      "name": "Sprachen, Ontologien",
+      "formats": [
+        "UD/CoNLL-U",
+        "TMX",
+        "TBX",
+        "XLIFF",
+        "RDF",
+        "JSON-LD"
+      ],
+      "tools": [
+        "Universal Dependencies",
+        "OPUS",
+        "spaCy",
+        "Stanza",
+        "rdflib"
+      ],
+      "risks": "Lizenz, Wortformen, Kontext, Übersetzungsverlust",
+      "verification": "zu prüfen",
+      "type": "format_skill_candidate",
+      "status": "not_integrated_not_validated",
+      "source": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json"
+    },
+    {
+      "id": "FMT-08",
+      "name": "Modell- und Visualisierung",
+      "formats": [
+        "ONNX",
+        "safetensors",
+        "glTF",
+        "SVG",
+        "Mermaid",
+        "Vega-Lite"
+      ],
+      "tools": [
+        "onnxruntime",
+        "transformers",
+        "three.js",
+        "Mermaid",
+        "Vega"
+      ],
+      "risks": "Modellversion, Rendersemantik, ausführbare Sicherheit",
+      "verification": "zu prüfen",
+      "type": "format_skill_candidate",
+      "status": "not_integrated_not_validated",
+      "source": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json"
+    }
+  ],
+  "technical_source": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md"
+}
