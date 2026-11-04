@@ -1,7 +1,7 @@
 {
  "schema_version": "befundregister-tensor/0.1",
  "owner": "claude",
- "stand": "2026-11-04",
+ "stand": "2026-11-04 (v0.1, Nachtrag Muster)",
  "algebra_lauf_sha256": "60f0063f16587e8545f520a3227c1ac0935dfb792da9bbe268a2d04700499e6e",
  "verarbeitung": "Rohergebnis (Lauf) → Befund mit ID, Reifegrad, Belegart → Gegenlauf andere KI (P3) → Fachfrage an Nils (Vorlage, roter Rahmen) → nach Freigabe: Website-Projektion und Kapitel im Grundlagenwerk. Nichts Bewertendes über Nils' Werke geht vor seiner Freigabe öffentlich.",
  "befunde": [
@@ -68,9 +68,10 @@
   },
   {
    "id": "BEF-T005",
-   "aussage": "Neue formale Beziehung: Soziation-1.9-Zyklus ∘ Logik-Reset, NM-II-α → … → NM-I-β (P1, P2 Korpus, P3 eigen)",
+   "aussage": "Neue formale Beziehungen (2 verschiedene Folgen): Kreislauf ∘ Logik-Reset – NM-II-β → … → NM-I-β (Holographie) und NM-II-α → … → NM-I-β (Soziation 1.9); P1, P2 (Korpus), P3 eigen",
    "art": "algebra",
    "betrifft": [
+    "T-HOLO",
     "T-SOZ19",
     "T-LOGIK"
    ],
@@ -83,11 +84,10 @@
   },
   {
    "id": "BEF-T006",
-   "aussage": "3 von 7 veröffentlichten Tensoren deklarieren keine Pfade (algebraisch leer): Neutral, Zyklus, Soziation (April)",
+   "aussage": "2 von 9 Tensoren ohne Pfade (Neutral, Soziation April); Zyklus-Matrix hat über das Zitat in der Feldtheorie einen CYC-Pfad",
    "art": "struktur",
    "betrifft": [
     "T-NEUTRAL",
-    "T-ZYKLUS",
     "T-SOZ"
    ],
    "nachweis": "ALGEBRA_LAUF_V0_1.json",
@@ -169,6 +169,66 @@
    "belegart": "D",
    "naechster_schritt": "GPT repliziert, dann Nils",
    "nils_frage": "C1",
+   "public_release": "not_approved"
+  },
+  {
+   "id": "BEF-T012",
+   "aussage": "Neun Pfadmuster gelten im ganzen Bestand ausnahmslos (je 1–4 Fälle): Projektion beginnt in NM-I-γ, bleibt in γ, endet in UM; Zyklus ganz in Klasse II und durch die Würfelmitte ZM-II-β; Traversal ganz in Klasse III; Reset endet in NM und wechselt die Klasse; Rekonstruktion in Klasse II",
+   "art": "muster",
+   "betrifft": [
+    "alle"
+   ],
+   "nachweis": "MUSTER_V0_1.json",
+   "reifegrad": "E2",
+   "belegart": "D",
+   "naechster_schritt": "mehr Tensoren (103 historische) zum Bestätigen/Widerlegen; GPT repliziert",
+   "nils_frage": null,
+   "public_release": "not_approved"
+  },
+  {
+   "id": "BEF-T013",
+   "aussage": "Signatur und Pfade stimmen nicht ganz überein: SIG[HM] nennt PRJ/REC/RES, die Holographie nutzt aber auch CYC; RES ohne Pfad; SIG[Bedeutungsformung] nennt CYC/CON/REC ohne Pfad",
+   "art": "struktur",
+   "betrifft": [
+    "T-HOLO",
+    "T-BF"
+   ],
+   "nachweis": "MUSTER_V0_1.json → signaturen",
+   "reifegrad": "E2",
+   "belegart": "B",
+   "naechster_schritt": "Frage an Nils (Signatur ergänzen oder Pfad anders typisieren)",
+   "nils_frage": "SIG-HM",
+   "public_release": "not_approved"
+  },
+  {
+   "id": "BEF-T014",
+   "aussage": "Der Autor besitzt ein eigenes formales Format: Pfade mit Herkunftskürzel (HM/ZM/LM/SOZ/BF/TM : TYP : Pfad) und Signaturen SIG[X] = {Typen} | AX | DOM | RST | PAT | REP; Typen umfassen auch TRV, ADP, CON, RES",
+   "art": "struktur",
+   "betrifft": [
+    "T-FELD",
+    "T-SOZ19",
+    "T-LOGIK"
+   ],
+   "nachweis": "Feldtheorie Z. 121–209, Soziation 1.9 Z. 1234–1247, Logik-Tensor S. 7",
+   "reifegrad": "E2",
+   "belegart": "D",
+   "naechster_schritt": "in tensor/1.0 aufnehmen (Signaturfeld)",
+   "nils_frage": null,
+   "public_release": "not_approved"
+  },
+  {
+   "id": "BEF-T015",
+   "aussage": "Kürzel TM ungeklärt: „TM : RST : UM-II-β → ZM-I-β → NM-I-β“ (Feldtheorie) ist pfadgleich mit dem Logik-Reset",
+   "art": "struktur",
+   "betrifft": [
+    "T-TM",
+    "T-LOGIK"
+   ],
+   "nachweis": "Feldtheorie Z. 186/429",
+   "reifegrad": "E1",
+   "belegart": "B",
+   "naechster_schritt": "Frage: Wofür steht TM?",
+   "nils_frage": "TM",
    "public_release": "not_approved"
   }
  ]

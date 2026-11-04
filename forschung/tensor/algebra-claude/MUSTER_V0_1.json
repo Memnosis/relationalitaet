@@ -1,0 +1,211 @@
+{
+ "schema_version": "muster/0.1",
+ "pfade_typisiert": 14,
+ "typen": {
+  "ADP": 1,
+  "CYC": 4,
+  "PRJ": 4,
+  "REC": 1,
+  "RST": 3,
+  "TRV": 1
+ },
+ "muster": [
+  {
+   "muster": "M1 Projektion entspringt NM-I-γ",
+   "typ": "PRJ",
+   "beschreibung": "Jede Projektion beginnt in Basis-Kern-Relation (latente Ganzheit)",
+   "n": 4,
+   "erfuellt": 4,
+   "ausnahmen": [],
+   "status": "bestaetigt_im_korpus"
+  },
+  {
+   "muster": "M2 Projektion bleibt im Modus γ",
+   "typ": "PRJ",
+   "beschreibung": "Projektion ist eine Relationsbewegung",
+   "n": 4,
+   "erfuellt": 4,
+   "ausnahmen": [],
+   "status": "bestaetigt_im_korpus"
+  },
+  {
+   "muster": "M3 Projektion endet in UM",
+   "typ": "PRJ",
+   "beschreibung": "Projektion endet in der Identität",
+   "n": 4,
+   "erfuellt": 4,
+   "ausnahmen": [],
+   "status": "bestaetigt_im_korpus"
+  },
+  {
+   "muster": "M4 Zyklus liegt ganz in Klasse II",
+   "typ": "CYC",
+   "beschreibung": "Zyklus = Kreislauf-Klasse",
+   "n": 4,
+   "erfuellt": 4,
+   "ausnahmen": [],
+   "status": "bestaetigt_im_korpus"
+  },
+  {
+   "muster": "M5 Zyklus geht durch die Würfelmitte ZM-II-β",
+   "typ": "CYC",
+   "beschreibung": "jeder Kreislauf passiert das Zentrum des Tensors",
+   "n": 4,
+   "erfuellt": 4,
+   "ausnahmen": [],
+   "status": "bestaetigt_im_korpus"
+  },
+  {
+   "muster": "M6 Traversal liegt ganz in Klasse III",
+   "typ": "TRV",
+   "beschreibung": "Traversal = Öffnungs-Klasse",
+   "n": 1,
+   "erfuellt": 1,
+   "ausnahmen": [],
+   "status": "bestaetigt_im_korpus"
+  },
+  {
+   "muster": "M7 Reset endet in NM",
+   "typ": "RST",
+   "beschreibung": "Reset führt in die Basis",
+   "n": 3,
+   "erfuellt": 3,
+   "ausnahmen": [],
+   "status": "bestaetigt_im_korpus"
+  },
+  {
+   "muster": "M8 Reset wechselt die Klasse",
+   "typ": "RST",
+   "beschreibung": "Reset ist keine exakte Umkehr (vgl. Regel U)",
+   "n": 3,
+   "erfuellt": 3,
+   "ausnahmen": [],
+   "status": "bestaetigt_im_korpus"
+  },
+  {
+   "muster": "M9 Rekonstruktion liegt in Klasse II",
+   "typ": "REC",
+   "beschreibung": "Rekonstruktion im Kreislauf",
+   "n": 1,
+   "erfuellt": 1,
+   "ausnahmen": [],
+   "status": "bestaetigt_im_korpus"
+  }
+ ],
+ "signaturen": [
+  {
+   "signatur": "Bedeutungsformung",
+   "deklarierte_typen": [
+    "PRJ",
+    "CYC",
+    "CON",
+    "REC"
+   ],
+   "typen_in_pfaden": [
+    "PRJ"
+   ],
+   "pfadtypen_nicht_in_signatur": [],
+   "signaturtypen_ohne_pfad": [
+    "CON",
+    "CYC",
+    "REC"
+   ],
+   "ax": [],
+   "ax_als_pfad_belegt": null,
+   "quelle": "T-SOZ19"
+  },
+  {
+   "signatur": "HM",
+   "deklarierte_typen": [
+    "PRJ",
+    "REC",
+    "RES"
+   ],
+   "typen_in_pfaden": [
+    "CYC",
+    "PRJ",
+    "REC"
+   ],
+   "pfadtypen_nicht_in_signatur": [
+    "CYC"
+   ],
+   "signaturtypen_ohne_pfad": [
+    "RES"
+   ],
+   "ax": [
+    "NM-I-γ",
+    "ZM-II-γ",
+    "UM-III-γ"
+   ],
+   "ax_als_pfad_belegt": true,
+   "quelle": "T-FELD"
+  },
+  {
+   "signatur": "ZM",
+   "deklarierte_typen": [
+    "CYC"
+   ],
+   "typen_in_pfaden": [
+    "CYC"
+   ],
+   "pfadtypen_nicht_in_signatur": [],
+   "signaturtypen_ohne_pfad": [],
+   "ax": [
+    "ZM-II-α",
+    "ZM-II-β",
+    "ZM-II-γ"
+   ],
+   "ax_als_pfad_belegt": true,
+   "quelle": "T-FELD"
+  },
+  {
+   "signatur": "LM",
+   "deklarierte_typen": [
+    "PRJ",
+    "CYC",
+    "RST"
+   ],
+   "typen_in_pfaden": [
+    "CYC",
+    "PRJ",
+    "RST"
+   ],
+   "pfadtypen_nicht_in_signatur": [],
+   "signaturtypen_ohne_pfad": [],
+   "ax": [
+    "NM-I-γ",
+    "ZM-II-γ",
+    "UM-II-γ"
+   ],
+   "ax_als_pfad_belegt": true,
+   "quelle": "T-LOGIK"
+  }
+ ],
+ "haeufigste_adressen": [
+  [
+   "ZM-II-γ",
+   5
+  ],
+  [
+   "ZM-II-β",
+   5
+  ],
+  [
+   "UM-II-β",
+   5
+  ],
+  [
+   "NM-I-γ",
+   4
+  ],
+  [
+   "UM-III-γ",
+   2
+  ],
+  [
+   "NM-II-β",
+   2
+  ]
+ ],
+ "hinweis": "Kleine Fallzahlen: Muster sind Vermutungen (E1/E2), bis die 103 historischen Tensoren geprüft sind."
+}

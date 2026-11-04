@@ -1,5 +1,5 @@
 {
- "schema_version": "tensoren-publikationen/0.1",
+ "schema_version": "tensoren-publikationen/0.2",
  "owner": "claude",
  "erzeugt_am": "2026-11-04",
  "lizenz_quellen": "CC BY 4.0 (Zenodo), Autor Nils Sautter",
@@ -33,6 +33,7 @@
    },
    "anzahl_felder": 18,
    "pfade": [],
+   "signaturen": [],
    "qualitaet": "maschinell aus PDF-Konvertierung; Sichtprüfung ausstehend",
    "mehrfach_belegt": {
     "ZM-I-α": 2,
@@ -99,7 +100,8 @@
       "UM-III-γ"
      ],
      "typ": null,
-     "zeile": "**NM-I-γ → ZM-II-γ → UM-III-γ**"
+     "zeile": "**NM-I-γ → ZM-II-γ → UM-III-γ**",
+     "praefix": null
     },
     {
      "adressen": [
@@ -108,7 +110,8 @@
       "UM-I-α"
      ],
      "typ": null,
-     "zeile": "**NM-I-α → ZM-I-α → UM-I-α**"
+     "zeile": "**NM-I-α → ZM-I-α → UM-I-α**",
+     "praefix": null
     },
     {
      "adressen": [
@@ -117,9 +120,44 @@
       "UM-II-β"
      ],
      "typ": null,
-     "zeile": "**NM-II-β → ZM-II-β → UM-II-β**"
+     "zeile": "**NM-II-β → ZM-II-β → UM-II-β**",
+     "praefix": null
+    },
+    {
+     "adressen": [
+      "NM-I-γ",
+      "ZM-II-γ",
+      "UM-III-γ"
+     ],
+     "typ": "PRJ",
+     "zeile": "- `HM : PRJ : NM-I-γ -> ZM-II-γ -> UM-III-γ`",
+     "praefix": "HM",
+     "zitiert_in": "T-FELD"
+    },
+    {
+     "adressen": [
+      "NM-II-β",
+      "ZM-II-β",
+      "UM-II-β"
+     ],
+     "typ": "CYC",
+     "zeile": "`HM : CYC : NM-II-β -> ZM-II-β -> UM-II-β`",
+     "praefix": "HM",
+     "zitiert_in": "T-FELD"
+    },
+    {
+     "adressen": [
+      "NM-II-β",
+      "ZM-II-β",
+      "UM-II-β"
+     ],
+     "typ": "REC",
+     "zeile": "`HM : REC : NM-II-β -> ZM-II-β -> UM-II-β`",
+     "praefix": "HM",
+     "zitiert_in": "T-FELD"
     }
    ],
+   "signaturen": [],
    "qualitaet": "maschinell aus PDF-Konvertierung; Sichtprüfung ausstehend",
    "mehrfach_belegt": {
     "NM-I-γ": 9,
@@ -169,7 +207,20 @@
     "ZM-III-γ": "Kollektiver holographischer Prozess"
    },
    "anzahl_felder": 9,
-   "pfade": [],
+   "pfade": [
+    {
+     "adressen": [
+      "ZM-II-α",
+      "ZM-II-β",
+      "ZM-II-γ"
+     ],
+     "typ": "CYC",
+     "zeile": "- `ZM : CYC : ZM-II-α -> ZM-II-β -> ZM-II-γ`",
+     "praefix": "ZM",
+     "zitiert_in": "T-FELD"
+    }
+   ],
+   "signaturen": [],
    "qualitaet": "maschinell aus PDF-Konvertierung; Sichtprüfung ausstehend",
    "mehrfach_belegt": {
     "ZM-I-γ": 2
@@ -212,6 +263,7 @@
    },
    "anzahl_felder": 27,
    "pfade": [],
+   "signaturen": [],
    "qualitaet": "maschinell aus PDF-Konvertierung; Sichtprüfung ausstehend",
    "mehrfach_belegt": {}
   },
@@ -255,20 +307,12 @@
     {
      "adressen": [
       "NM-I-γ",
-      "ZM-II-γ",
-      "UM-III-γ"
-     ],
-     "typ": "PRJ",
-     "zeile": "BF : PRJ : NM-I-γ -> ZM-II-γ -> UM-III-γ"
-    },
-    {
-     "adressen": [
-      "NM-I-γ",
       "ZM-I-γ",
       "UM-I-γ"
      ],
      "typ": "PRJ",
-     "zeile": "NM-I-γ → ZM-I-γ → UM-I-γ"
+     "zeile": "NM-I-γ → ZM-I-γ → UM-I-γ",
+     "praefix": "SOZ"
     },
     {
      "adressen": [
@@ -277,7 +321,8 @@
       "UM-II-β"
      ],
      "typ": "CYC",
-     "zeile": "NM-II-α → ZM-II-β → UM-II-β"
+     "zeile": "NM-II-α → ZM-II-β → UM-II-β",
+     "praefix": "SOZ"
     },
     {
      "adressen": [
@@ -285,8 +330,9 @@
       "ZM-III-γ",
       "UM-III-α"
      ],
-     "typ": null,
-     "zeile": "NM-III-α → ZM-III-γ → UM-III-α"
+     "typ": "TRV",
+     "zeile": "NM-III-α → ZM-III-γ → UM-III-α",
+     "praefix": "SOZ"
     },
     {
      "adressen": [
@@ -295,7 +341,8 @@
       "NM-III-γ"
      ],
      "typ": "RST",
-     "zeile": "UM-II-α → ZM-III-α → NM-III-γ"
+     "zeile": "UM-II-α → ZM-III-α → NM-III-γ",
+     "praefix": "SOZ"
     },
     {
      "adressen": [
@@ -303,8 +350,26 @@
       "ZM-I-γ",
       "UM-III-α"
      ],
-     "typ": null,
-     "zeile": "UM-I-γ → ZM-I-γ → UM-III-α"
+     "typ": "ADP",
+     "zeile": "UM-I-γ → ZM-I-γ → UM-III-α",
+     "praefix": "SOZ"
+    }
+   ],
+   "signaturen": [
+    {
+     "name": "Bedeutungsformung",
+     "typen": [
+      "PRJ",
+      "CYC",
+      "CON",
+      "REC"
+     ],
+     "ax": [],
+     "ax_text": "Form → Spiegelung → Handlung",
+     "dom": [
+      "γ",
+      "II"
+     ]
     }
    ],
    "qualitaet": "maschinell aus PDF-Konvertierung; Sichtprüfung ausstehend",
@@ -361,62 +426,56 @@
       "ZM-II-γ",
       "UM-III-γ"
      ],
-     "typ": "PRJ",
-     "zeile": "- `HM : PRJ : NM-I-γ -> ZM-II-γ -> UM-III-γ`"
+     "typ": null,
+     "zeile": "`NM-I-γ -> ZM-II-γ -> UM-III-γ`.",
+     "praefix": null
     },
     {
      "adressen": [
-      "ZM-II-α",
+      "NM-II-β",
       "ZM-II-β",
-      "ZM-II-γ"
+      "UM-II-β"
      ],
-     "typ": "CYC",
-     "zeile": "- `ZM : CYC : ZM-II-α -> ZM-II-β -> ZM-II-γ`"
-    },
+     "typ": null,
+     "zeile": "`NM-II-β -> ZM-II-β -> UM-II-β`",
+     "praefix": null
+    }
+   ],
+   "signaturen": [
     {
-     "adressen": [
-      "UM-II-β",
-      "ZM-I-β",
-      "NM-I-β"
+     "name": "HM",
+     "typen": [
+      "PRJ",
+      "REC",
+      "RES"
      ],
-     "typ": "RST",
-     "zeile": "- `LM : RST : UM-II-β -> ZM-I-β -> NM-I-β`"
-    },
-    {
-     "adressen": [
+     "ax": [
       "NM-I-γ",
       "ZM-II-γ",
       "UM-III-γ"
      ],
-     "typ": null,
-     "zeile": "`NM-I-γ -> ZM-II-γ -> UM-III-γ`."
+     "ax_text": "NM-I-γ -> ZM-II-γ -> UM-III-γ",
+     "dom": [
+      "γ",
+      "II",
+      "ZM"
+     ]
     },
     {
-     "adressen": [
-      "NM-II-β",
-      "ZM-II-β",
-      "UM-II-β"
+     "name": "ZM",
+     "typen": [
+      "CYC"
      ],
-     "typ": null,
-     "zeile": "`NM-II-β -> ZM-II-β -> UM-II-β`"
-    },
-    {
-     "adressen": [
-      "NM-II-β",
+     "ax": [
+      "ZM-II-α",
       "ZM-II-β",
-      "UM-II-β"
+      "ZM-II-γ"
      ],
-     "typ": "CYC",
-     "zeile": "`HM : CYC : NM-II-β -> ZM-II-β -> UM-II-β`"
-    },
-    {
-     "adressen": [
-      "NM-II-β",
-      "ZM-II-β",
-      "UM-II-β"
-     ],
-     "typ": "REC",
-     "zeile": "`HM : REC : NM-II-β -> ZM-II-β -> UM-II-β`"
+     "ax_text": "ZM-II-α -> ZM-II-β -> ZM-II-γ",
+     "dom": [
+      "II",
+      "β"
+     ]
     }
    ],
    "qualitaet": "maschinell aus PDF-Konvertierung; Sichtprüfung ausstehend",
@@ -432,6 +491,27 @@
   },
   {
    "id": "T-LOGIK",
+   "signaturen": [
+    {
+     "name": "LM",
+     "typen": [
+      "PRJ",
+      "CYC",
+      "RST"
+     ],
+     "ax": [
+      "NM-I-γ",
+      "ZM-II-γ",
+      "UM-II-γ"
+     ],
+     "ax_text": "S. 7",
+     "dom": [
+      "γ-Relation",
+      "II-Kreislauf",
+      "ZM-Emergenz"
+     ]
+    }
+   ],
    "titel": "Relationale Logik – der Logik-Tensor 1.0",
    "konzept_doi": "10.5281/zenodo.19282894",
    "fundstelle_hinweis": "S. 3–6 (Felder), S. 7 (Pfade)",
@@ -507,6 +587,54 @@
     }
    ],
    "qualitaet": "maschinell + Sichtprüfung S. 3–6, 14–20 (digital_verifiziert)",
+   "mehrfach_belegt": {}
+  },
+  {
+   "id": "T-BF",
+   "titel": "Bedeutungsformung (in Soziation 1.9)",
+   "konzept_doi": null,
+   "fundstelle_hinweis": "nur zitiert",
+   "felder": {},
+   "anzahl_felder": 0,
+   "pfade": [
+    {
+     "adressen": [
+      "NM-I-γ",
+      "ZM-II-γ",
+      "UM-III-γ"
+     ],
+     "typ": "PRJ",
+     "zeile": "BF : PRJ : NM-I-γ -> ZM-II-γ -> UM-III-γ",
+     "praefix": "BF",
+     "zitiert_in": "T-SOZ19"
+    }
+   ],
+   "signaturen": [],
+   "qualitaet": "nur aus Zitat in anderem Werk",
+   "mehrfach_belegt": {}
+  },
+  {
+   "id": "T-TM",
+   "titel": "TM (Bedeutung des Kürzels offen)",
+   "konzept_doi": null,
+   "fundstelle_hinweis": "nur zitiert",
+   "felder": {},
+   "anzahl_felder": 0,
+   "pfade": [
+    {
+     "adressen": [
+      "UM-II-β",
+      "ZM-I-β",
+      "NM-I-β"
+     ],
+     "typ": "RST",
+     "zeile": "`TM : RST : UM-II-β -> ZM-I-β -> NM-I-β`",
+     "praefix": "TM",
+     "zitiert_in": "T-FELD"
+    }
+   ],
+   "signaturen": [],
+   "qualitaet": "nur aus Zitat in anderem Werk",
    "mehrfach_belegt": {}
   }
  ]

@@ -1,0 +1,218 @@
+{
+ "schema_version": "fragensammlung/0.1",
+ "owner": "claude (Pflege gemeinsam mit GPT)",
+ "stand": "2026-11-04",
+ "regel": "Vorgabe Nils 04.11.: offene Fragen als solche aufnehmen und erst sammeln. Fragen an Nils werden gebündelt vorgelegt (roter Rahmen), wenn genug gesammelt ist oder eine Frage blockiert.",
+ "fragen": [
+  {
+   "id": "Q-T01",
+   "an": "nils",
+   "kategorie": "fachlich",
+   "frage": "Soll die Projektion im Logik-Tensor in Klasse II enden (UM-II-γ) oder in Klasse III wie in Holographie, Feldtheorie und Soziation 1.9 (UM-III-γ)?",
+   "kontext": "Variante, BEF-T003",
+   "quelle": "Logik-Tensor 1.0 S. 6/7",
+   "dringlichkeit": "mittel",
+   "status": "offen"
+  },
+  {
+   "id": "Q-T02",
+   "an": "nils",
+   "kategorie": "fachlich",
+   "frage": "Epidemiologie FACH-F054: Ist die doppelte Achse „Suszeptible – Infizierte – Genesene“ Absicht? Vorschlag für Achse 3: „Übertragung – Verlauf – Immunität“.",
+   "kontext": "A1-Verstoß, BEF-T008",
+   "quelle": "GPT-Befund 04.11.",
+   "dringlichkeit": "mittel",
+   "status": "offen"
+  },
+  {
+   "id": "Q-T03",
+   "an": "nils",
+   "kategorie": "fachlich",
+   "frage": "Wofür steht das Kürzel TM (in der Feldtheorie: „TM : RST : UM-II-β → ZM-I-β → NM-I-β“)?",
+   "kontext": "BEF-T015",
+   "quelle": "Feldtheorie Z. 186",
+   "dringlichkeit": "niedrig",
+   "status": "offen"
+  },
+  {
+   "id": "Q-T04",
+   "an": "nils",
+   "kategorie": "fachlich",
+   "frage": "Signatur der Holographie: Soll CYC in SIG[HM] aufgenommen werden (die Holographie nutzt CYC), und welcher Pfad gehört zu RES (Resonanz)?",
+   "kontext": "BEF-T013",
+   "quelle": "Feldtheorie Z. 161/205",
+   "dringlichkeit": "niedrig",
+   "status": "offen"
+  },
+  {
+   "id": "Q-T05",
+   "an": "nils",
+   "kategorie": "fachlich",
+   "frage": "Satz zum Modus ponens (Logik-Tensor S. 20): Präzisierung „ergänzt“ statt „ersetzt“? (erst nach GPT-Replikation von C1 vorlegen)",
+   "kontext": "BEF-T011 / C1",
+   "quelle": "C1_MODUS_PONENS.md",
+   "dringlichkeit": "niedrig",
+   "status": "offen"
+  },
+  {
+   "id": "Q-T06",
+   "an": "nils",
+   "kategorie": "fachlich",
+   "frage": "Bedeutung der Pfadtypen TRV (Traversal), ADP (Adaption), CON und RES: gibt es Definitionen? Bisher nur je 0–1 Beispiel.",
+   "kontext": "Typregeln v0.2 decken sie nicht ab",
+   "quelle": "Soziation 1.9 Z. 3414/3446, SIG-Zeilen",
+   "dringlichkeit": "mittel",
+   "status": "offen"
+  },
+  {
+   "id": "Q-O01",
+   "an": "nils",
+   "kategorie": "organisatorisch",
+   "frage": "Privaten GitHub-Bereich anlegen (beschlossen 04.11.) – Name an Claude.",
+   "kontext": "Speicherort für 103 Tensoren, Werkliste, Chats",
+   "quelle": "Entscheidung SPEICHER",
+   "dringlichkeit": "hoch",
+   "status": "offen"
+  },
+  {
+   "id": "Q-O02",
+   "an": "nils",
+   "kategorie": "organisatorisch",
+   "frage": "Dürfen die Achsenrollen der 103 historischen Tensoren (3×3 Begriffe je Tensor, ohne Volltexte) vorab öffentlich geteilt werden?",
+   "kontext": "beschleunigt Musterprüfung",
+   "quelle": "TENSOR_KERN_ARCHITEKTUR §5",
+   "dringlichkeit": "mittel",
+   "status": "offen"
+  },
+  {
+   "id": "Q-O03",
+   "an": "nils",
+   "kategorie": "organisatorisch",
+   "frage": "ki-tensor-Zweig als Archiv übernehmen (KT)?",
+   "kontext": "alles Nachrechenbare repliziert",
+   "quelle": "Entscheidungsblatt",
+   "dringlichkeit": "niedrig",
+   "status": "offen"
+  },
+  {
+   "id": "Q-O04",
+   "an": "nils",
+   "kategorie": "organisatorisch",
+   "frage": "Ablauf Chat-Export: zuerst Liste der Chat-Titel zur Auswahl?",
+   "kontext": "Entscheidung CHATEXPORT = ja",
+   "quelle": "Entscheidungsblatt",
+   "dringlichkeit": "niedrig",
+   "status": "offen"
+  },
+  {
+   "id": "Q-O05",
+   "an": "nils",
+   "kategorie": "organisatorisch",
+   "frage": "Freigabe der 35 dokumentarischen Logik-Aussagen für die Website (nach GPT-Vorprüfung).",
+   "kontext": "ENTWURF_NILS_FREIGABE_LOGIK_AUSSAGEN",
+   "quelle": "—",
+   "dringlichkeit": "niedrig",
+   "status": "offen"
+  },
+  {
+   "id": "Q-G01",
+   "an": "gpt",
+   "kategorie": "prozess",
+   "frage": "Zyklus 001 Umfang v0.2: Zustimmung per SHA, Reproduktionslauf mit sympy, SHA für WEB-001..003.",
+   "kontext": "SCOPE_ZYKLUS_001_V0_2",
+   "quelle": "Issue #3",
+   "dringlichkeit": "hoch",
+   "status": "offen"
+  },
+  {
+   "id": "Q-G02",
+   "an": "gpt",
+   "kategorie": "daten",
+   "frage": "Gesamtinventar_v10_7.md (103 Tensoren) in den privaten Speicher, als tensor/1.0-Akten.",
+   "kontext": "Kernfreischaltung",
+   "quelle": "TENSOR_KERN_ARCHITEKTUR",
+   "dringlichkeit": "hoch",
+   "status": "offen"
+  },
+  {
+   "id": "Q-G03",
+   "an": "gpt",
+   "kategorie": "pruefung",
+   "frage": "Unabhängige Replikation: Typalgebra, Regel U, Muster M1–M9, C1, GR-01..03.",
+   "kontext": "P3 unabhängig",
+   "quelle": "REV-006 + Algebra",
+   "dringlichkeit": "mittel",
+   "status": "offen"
+  },
+  {
+   "id": "Q-G04",
+   "an": "gpt",
+   "kategorie": "daten",
+   "frage": "Formeln und Fundstellen für die Brücke F007 ↔ F015.",
+   "kontext": "Gegenprobe",
+   "quelle": "GPT-Kommentar 04.11. 01:36",
+   "dringlichkeit": "niedrig",
+   "status": "offen"
+  },
+  {
+   "id": "Q-G05",
+   "an": "gpt",
+   "kategorie": "website",
+   "frage": "Website-Hebel H1–H5 annehmen/ändern; Web-Projektion TENSOR_PFADE_WEB erwünscht?",
+   "kontext": "nach Zyklus 001",
+   "quelle": "ANTWORT_GPT_TENSORMODUL",
+   "dringlichkeit": "mittel",
+   "status": "offen"
+  },
+  {
+   "id": "Q-F01",
+   "an": "forschung",
+   "kategorie": "daten",
+   "frage": "Gelten die Muster M1–M9 auch in den 103 historischen Tensoren?",
+   "kontext": "n je Muster 1–4",
+   "quelle": "MUSTER_V0_1.json",
+   "dringlichkeit": "hoch",
+   "status": "offen"
+  },
+  {
+   "id": "Q-F02",
+   "an": "forschung",
+   "kategorie": "daten",
+   "frage": "Regel U für Klasse I und III: Es fehlen Testfälle (alle Hysterese-Fälle liegen in Klasse II).",
+   "kontext": "Zyklus-Matrix-Tabelle",
+   "quelle": "ALGEBRA_LAUF → regel_U",
+   "dringlichkeit": "mittel",
+   "status": "offen"
+  },
+  {
+   "id": "Q-F03",
+   "an": "forschung",
+   "kategorie": "fachlich",
+   "frage": "Ist die Verkettung über Fachgrenzen sinnvoll (Soziation-Zyklus ∘ Logik-Reset)? Kriterium für fachliche Kompatibilität fehlt (P1 prüft nur Belegung und Typ).",
+   "kontext": "BEF-T005",
+   "quelle": "typalgebra P1",
+   "dringlichkeit": "mittel",
+   "status": "offen"
+  },
+  {
+   "id": "Q-F04",
+   "an": "forschung",
+   "kategorie": "daten",
+   "frage": "Feldbegriffe Soziation 1.9 aus PDF-Konvertierung lückenhaft – Sichtprüfung am Original.",
+   "kontext": "Beispieltensor für die Website",
+   "quelle": "TENSOREN_PUBLIKATIONEN",
+   "dringlichkeit": "mittel",
+   "status": "offen"
+  },
+  {
+   "id": "Q-F05",
+   "an": "forschung",
+   "kategorie": "daten",
+   "frage": "2 von 9 Tensoren ohne Pfade (Neutral, Soziation April): Pfade nachtragen oder als reine Vokabulare führen?",
+   "kontext": "BEF-T006",
+   "quelle": "—",
+   "dringlichkeit": "niedrig",
+   "status": "offen"
+  }
+ ]
+}
