@@ -1,0 +1,195 @@
+{
+  "schema": "variant-25/0.1",
+  "date": "2026-11-04",
+  "source_script": "forschung/tensor/algebra-claude/suchmatrix_varianten_25.py",
+  "status": "reference_math_tests_only",
+  "total": 25,
+  "passed": 25,
+  "regime_counts": {
+    "exact": 5,
+    "conditional": 6,
+    "lossy": 5,
+    "representation": 3,
+    "special_case": 1,
+    "other": 3,
+    "non_equivalent": 2
+  },
+  "tests": [
+    {
+      "id": "V01",
+      "description": "affine inverse",
+      "regime": "exact",
+      "status": "reference_passed",
+      "project_tensor_evidence": "not_assessed"
+    },
+    {
+      "id": "V02",
+      "description": "square inverse branches",
+      "regime": "conditional",
+      "status": "reference_passed",
+      "project_tensor_evidence": "not_assessed"
+    },
+    {
+      "id": "V03",
+      "description": "projection",
+      "regime": "lossy",
+      "status": "reference_passed",
+      "project_tensor_evidence": "not_assessed"
+    },
+    {
+      "id": "V04",
+      "description": "matrix inverse",
+      "regime": "exact",
+      "status": "reference_passed",
+      "project_tensor_evidence": "not_assessed"
+    },
+    {
+      "id": "V05",
+      "description": "singular matrix",
+      "regime": "lossy",
+      "status": "reference_passed",
+      "project_tensor_evidence": "not_assessed"
+    },
+    {
+      "id": "V06",
+      "description": "differentiate integrate",
+      "regime": "conditional",
+      "status": "reference_passed",
+      "project_tensor_evidence": "not_assessed"
+    },
+    {
+      "id": "V07",
+      "description": "finite-time ODE inverse",
+      "regime": "exact",
+      "status": "reference_passed",
+      "project_tensor_evidence": "not_assessed"
+    },
+    {
+      "id": "V08",
+      "description": "nondimensionalization",
+      "regime": "representation",
+      "status": "reference_passed",
+      "project_tensor_evidence": "not_assessed"
+    },
+    {
+      "id": "V09",
+      "description": "reactor special case",
+      "regime": "special_case",
+      "status": "reference_passed",
+      "project_tensor_evidence": "not_assessed"
+    },
+    {
+      "id": "V10",
+      "description": "unitary inverse",
+      "regime": "exact",
+      "status": "reference_passed",
+      "project_tensor_evidence": "not_assessed"
+    },
+    {
+      "id": "V11",
+      "description": "measurement loses phase",
+      "regime": "lossy",
+      "status": "reference_passed",
+      "project_tensor_evidence": "not_assessed"
+    },
+    {
+      "id": "V12",
+      "description": "tensor contraction",
+      "regime": "lossy",
+      "status": "reference_passed",
+      "project_tensor_evidence": "not_assessed"
+    },
+    {
+      "id": "V13",
+      "description": "orthogonal basis change",
+      "regime": "representation",
+      "status": "reference_passed",
+      "project_tensor_evidence": "not_assessed"
+    },
+    {
+      "id": "V14",
+      "description": "similarity transform",
+      "regime": "representation",
+      "status": "reference_passed",
+      "project_tensor_evidence": "not_assessed"
+    },
+    {
+      "id": "V15",
+      "description": "noncommutative product",
+      "regime": "other",
+      "status": "reference_passed",
+      "project_tensor_evidence": "not_assessed"
+    },
+    {
+      "id": "V16",
+      "description": "rank invariant",
+      "regime": "other",
+      "status": "reference_passed",
+      "project_tensor_evidence": "not_assessed"
+    },
+    {
+      "id": "V17",
+      "description": "Wigner selection rules",
+      "regime": "other",
+      "status": "reference_passed",
+      "project_tensor_evidence": "not_assessed"
+    },
+    {
+      "id": "V18",
+      "description": "Bayes reverse conditional",
+      "regime": "conditional",
+      "status": "reference_passed",
+      "project_tensor_evidence": "not_assessed"
+    },
+    {
+      "id": "V19",
+      "description": "squaring adds roots",
+      "regime": "non_equivalent",
+      "status": "reference_passed",
+      "project_tensor_evidence": "not_assessed"
+    },
+    {
+      "id": "V20",
+      "description": "complex log branches",
+      "regime": "conditional",
+      "status": "reference_passed",
+      "project_tensor_evidence": "not_assessed"
+    },
+    {
+      "id": "V21",
+      "description": "pseudoinverse",
+      "regime": "conditional",
+      "status": "reference_passed",
+      "project_tensor_evidence": "not_assessed"
+    },
+    {
+      "id": "V22",
+      "description": "invertible contraction iteration",
+      "regime": "exact",
+      "status": "reference_passed",
+      "project_tensor_evidence": "not_assessed"
+    },
+    {
+      "id": "V23",
+      "description": "singular Jacobian",
+      "regime": "conditional",
+      "status": "reference_passed",
+      "project_tensor_evidence": "not_assessed"
+    },
+    {
+      "id": "V24",
+      "description": "cancellation excluded domain",
+      "regime": "non_equivalent",
+      "status": "reference_passed",
+      "project_tensor_evidence": "not_assessed"
+    },
+    {
+      "id": "V25",
+      "description": "average loses data",
+      "regime": "lossy",
+      "status": "reference_passed",
+      "project_tensor_evidence": "not_assessed"
+    }
+  ],
+  "classification_note": "These operation classes are not exclusive mathematical tensor species; source 103 objects have no certified inverse map."
+}
