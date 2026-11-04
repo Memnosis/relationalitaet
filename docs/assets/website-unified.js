@@ -26,7 +26,16 @@ if(nav){
   const here=location.pathname.split("/").pop()||"index.html";
   const sections={"ki-geschichte.html":"ki-systeme.html","ki-kernforschung.html":"ki-systeme.html","minimal-ki.html":"projektstand.html","geoki.html":"projektstand.html","komprimierung.html":"projektstand.html","visuelle-engine.html":"projektstand.html","tensoralgebra.html":"tensor-einfuehrung.html","bibliothek.html":"publikationen.html","inkubator.html":"publikationen.html","soulution-schroedingers-inkubator.html":"publikationen.html","soulution-inkubator-quellen.html":"publikationen.html","medien.html":"publikationen.html","projektmanagement.html":"projektstand.html","thesen.html":"publikationen.html","codebuch.html":"publikationen.html"};
   const current=sections[here]||here;
-  nav.replaceChildren(...items.map(([label,href])=>{let a=document.createElement("a");a.href="./"+href;a.textContent=label;if(href===current)a.setAttribute("aria-current","page");if(label==="SOULution")a.style.color="var(--ux-soul,#49a477)";return a;}));
+  nav.replaceChildren(...items.map(([label,href])=>{
+let a=document.createElement("a");a.href="./"+href;
+const sym={Start:"project",KI:"ki",Tensor:"tensor",Projekte:"project",Harvesting:"harvest",Publikationen:"book",Mitmachen:"colleagues",SOULution:"colleagues"}[label];
+const svg=document.createElementNS("http://www.w3.org/2000/svg","svg"),use=document.createElementNS("http://www.w3.org/2000/svg","use");
+svg.setAttribute("viewBox","0 0 24 24");svg.setAttribute("width","16");svg.setAttribute("height","16");svg.setAttribute("aria-hidden","true");use.setAttribute("href","./assets/tensor-icons.svg#"+sym);svg.append(use);
+a.append(svg,document.createTextNode(label));if(href===current)a.setAttribute("aria-current","page");
+if(label==="Mitmachen")a.classList.add("tensor-nav-join");
+if(label==="SOULution")a.classList.add("tensor-nav-soulution");
+return a;
+}));
 }
 let foot=document.querySelector("body > footer");
 if(foot){
