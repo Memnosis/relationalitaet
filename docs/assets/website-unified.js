@@ -3,6 +3,11 @@
 "use strict";
 const items=[["Start","index.html"],["KI","ki-systeme.html"],["Tensor","tensor-einfuehrung.html"],["Projekte","projektstand.html"],["Harvesting","harvesting.html"],["Publikationen","publikationen.html"],["Mitmachen","mitmachen.html"],["SOULution","soulution.html"]];
 function ready(){
+document.body.classList.add("ux-site-v2");
+const hereFile=location.pathname.split("/").pop()||"index.html";
+const families={"ki-systeme.html":["var(--ux-ki)","◈"],"ki-geschichte.html":["var(--ux-ki)","⌛"],"ki-kernforschung.html":["var(--ux-ki)","⌘"],"vernetzung-ki.html":["var(--ux-ki)","⇄"],"minimal-ki.html":["var(--ux-mini)","◈"],"komprimierung.html":["var(--ux-kompr)","⌁"],"visuelle-engine.html":["var(--ux-visual)","▧"],"geoki.html":["var(--ux-geo)","◇"],"tensor-einfuehrung.html":["var(--ux-tensor)","▦"],"tensoralgebra.html":["var(--ux-tensor)","∑"],"harvesting.html":["var(--ux-harv)","◎"],"projektstand.html":["var(--ux-projekte)","▦"],"projektportfolio.html":["var(--ux-projekte)","▦"],"projektmanagement.html":["var(--ux-projekte)","▦"],"inkubator.html":["var(--ux-ink)","◇"],"bibliothek.html":["var(--ux-pub)","▤"],"codebuch.html":["var(--ux-pub)","▤"],"glossar.html":["var(--ux-pub)","▤"],"thesen.html":["var(--ux-pub)","▤"],"medien.html":["var(--ux-pub)","▤"],"publikationen.html":["var(--ux-pub)","▤"],"soulution.html":["var(--ux-soul)","❧"]};
+const info=families[hereFile]||["var(--ux-tensor)","◈"];
+document.body.style.setProperty("--ux-page-accent",info[0]);document.body.style.setProperty("--ux-page-icon",'"'+info[1]+'"');
 const nav=document.querySelector(".tensor-global-nav nav,header nav[aria-label='Hauptnavigation']");
 if(nav){
   nav.classList.add("ux-site-nav");nav.setAttribute("aria-label","Hauptnavigation");
