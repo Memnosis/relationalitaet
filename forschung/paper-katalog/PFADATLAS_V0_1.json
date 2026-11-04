@@ -1,0 +1,175 @@
+{
+  "schema": "ki-tensor-path-map/0.1",
+  "date": "2026-11-04",
+  "status": "research_draft_not_released",
+  "separation": [
+    "historical_originals",
+    "current_research",
+    "participation",
+    "approved_publications"
+  ],
+  "paths": [
+    {
+      "id": "PATH-KI-INTRO",
+      "title": "KI verstehen",
+      "steps": [
+        "KI-Begriff",
+        "Entwicklung",
+        "Selbstlernen",
+        "Prompts",
+        "Skills",
+        "Agenten",
+        "Mini-KI",
+        "Mitmachen"
+      ],
+      "entry": "to_develop",
+      "sources": "pending_specific_source_crosswalk",
+      "tests": "not_run",
+      "publication": "not_approved"
+    },
+    {
+      "id": "PATH-SELF-LEARN",
+      "title": "Selbstlernen prüfen",
+      "steps": [
+        "Zustand",
+        "Lernoperation",
+        "Feedback",
+        "Vorher-Nachher",
+        "Persistenz",
+        "Transfer",
+        "Gegenbeispiel"
+      ],
+      "entry": "to_develop",
+      "sources": "pending_specific_source_crosswalk",
+      "tests": "not_run",
+      "publication": "not_approved"
+    },
+    {
+      "id": "PATH-TENSOR",
+      "title": "Tensor nachprüfen",
+      "steps": [
+        "Begriff",
+        "Rollenstruktur",
+        "Quellen",
+        "Formel",
+        "Rechenprobe",
+        "Gegenprobe",
+        "Review"
+      ],
+      "entry": "to_develop",
+      "sources": "pending_specific_source_crosswalk",
+      "tests": "not_run",
+      "publication": "not_approved"
+    },
+    {
+      "id": "PATH-PROMPT-SKILL",
+      "title": "Prompt zu Skill",
+      "steps": [
+        "Frage",
+        "Kompetenzen",
+        "Skills",
+        "Verdichtung",
+        "Messung",
+        "Agenten"
+      ],
+      "entry": "to_develop",
+      "sources": "pending_specific_source_crosswalk",
+      "tests": "not_run",
+      "publication": "not_approved"
+    },
+    {
+      "id": "PATH-READER",
+      "title": "Mit eigener KI mitdiskutieren",
+      "steps": [
+        "Fachfrage",
+        "Freigabe-Prompt",
+        "Eigener Chat",
+        "Ergebnis exportieren",
+        "Moderierter Thread",
+        "Review"
+      ],
+      "entry": "to_develop",
+      "sources": "pending_specific_source_crosswalk",
+      "tests": "not_run",
+      "publication": "not_approved"
+    },
+    {
+      "id": "PATH-DEVELOPER",
+      "title": "IT-Mitmachen",
+      "steps": [
+        "Task",
+        "Implementierung",
+        "Test",
+        "Pull Request",
+        "Review"
+      ],
+      "entry": "to_develop",
+      "sources": "pending_specific_source_crosswalk",
+      "tests": "not_run",
+      "publication": "not_approved"
+    },
+    {
+      "id": "PATH-BOOKS",
+      "title": "Publikationen lesen und erwerben",
+      "steps": [
+        "Thema",
+        "Originalwerk",
+        "Leseprobe",
+        "Quellen",
+        "Forschung",
+        "Freigegebener Kauflink"
+      ],
+      "entry": "to_develop",
+      "sources": "pending_specific_source_crosswalk",
+      "tests": "not_run",
+      "publication": "not_approved"
+    },
+    {
+      "id": "PATH-PAPER",
+      "title": "Forschungsakte zum Paper",
+      "steps": [
+        "Original",
+        "Volltext",
+        "Daten",
+        "Tests",
+        "Paper",
+        "Prüfung"
+      ],
+      "entry": "to_develop",
+      "sources": "pending_specific_source_crosswalk",
+      "tests": "not_run",
+      "publication": "not_approved"
+    },
+    {
+      "id": "PATH-HISTORY",
+      "title": "Projektgeschichte",
+      "steps": [
+        "Originalstand",
+        "Version",
+        "Konflikt",
+        "Änderung",
+        "Gegenwart"
+      ],
+      "entry": "to_develop",
+      "sources": "pending_specific_source_crosswalk",
+      "tests": "not_run",
+      "publication": "not_approved"
+    },
+    {
+      "id": "PATH-AGENT",
+      "title": "Agenten und Welten",
+      "steps": [
+        "Umgebung",
+        "Zustand",
+        "Handlung",
+        "Beobachtung",
+        "Feedback",
+        "Test"
+      ],
+      "entry": "to_develop",
+      "sources": "pending_specific_source_crosswalk",
+      "tests": "not_run",
+      "publication": "not_approved"
+    }
+  ]
+}
