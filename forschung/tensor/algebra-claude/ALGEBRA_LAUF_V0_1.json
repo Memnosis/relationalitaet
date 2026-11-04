@@ -1,0 +1,758 @@
+{
+ "schema_version": "algebra-lauf/0.1",
+ "owner": "claude",
+ "algebra": "typalgebra.py v0.1",
+ "eingabe_sha256": "89f4b4dd0f32829ddc3432914c968eb85688c2a5e218b6bc042a6a6effa90549",
+ "tensoren": [
+  {
+   "id": "T-NEUTRAL",
+   "felder": 18,
+   "pfade": 0,
+   "typkonflikte": [],
+   "mehrfachtypen": []
+  },
+  {
+   "id": "T-HOLO",
+   "felder": 27,
+   "pfade": 3,
+   "typkonflikte": [],
+   "mehrfachtypen": []
+  },
+  {
+   "id": "T-ZYKLUS",
+   "felder": 9,
+   "pfade": 0,
+   "typkonflikte": [],
+   "mehrfachtypen": []
+  },
+  {
+   "id": "T-SOZ",
+   "felder": 27,
+   "pfade": 0,
+   "typkonflikte": [],
+   "mehrfachtypen": []
+  },
+  {
+   "id": "T-SOZ19",
+   "felder": 27,
+   "pfade": 6,
+   "typkonflikte": [],
+   "mehrfachtypen": []
+  },
+  {
+   "id": "T-FELD",
+   "felder": 7,
+   "pfade": 7,
+   "typkonflikte": [],
+   "mehrfachtypen": [
+    {
+     "pfad": [
+      "NM-II-β",
+      "ZM-II-β",
+      "UM-II-β"
+     ],
+     "typen": [
+      "CYC",
+      "REC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T-LOGIK",
+   "felder": 27,
+   "pfade": 3,
+   "typkonflikte": [],
+   "mehrfachtypen": []
+  }
+ ],
+ "typ_konsistenz_autor": {
+  "PRJ": {
+   "erfuellt": 4,
+   "gesamt": 4,
+   "abweichend": []
+  },
+  "CYC": {
+   "erfuellt": 4,
+   "gesamt": 4,
+   "abweichend": []
+  },
+  "RST": {
+   "erfuellt": 3,
+   "gesamt": 3,
+   "abweichend": []
+  },
+  "REC": {
+   "erfuellt": 1,
+   "gesamt": 1,
+   "abweichend": []
+  }
+ },
+ "paare": 21,
+ "klassen": {
+  "teilweise_gleich": 3,
+  "variante": 3,
+  "unbestimmt": 15
+ },
+ "verkettungskandidaten": 7,
+ "neue_beziehungen_P1_P2_P3eigen": 1,
+ "davon_geschlossene_umlaeufe": 0,
+ "davon_hysterese": 1,
+ "ergebnis_sha256": "60f0063f16587e8545f520a3227c1ac0935dfb792da9bbe268a2d04700499e6e",
+ "ergebnisse": [
+  {
+   "paar": [
+    "T-FELD",
+    "T-HOLO"
+   ],
+   "vergleich": {
+    "klasse": "teilweise_gleich",
+    "gemeinsame_pfade": [
+     [
+      "NM-I-γ",
+      "ZM-II-γ",
+      "UM-III-γ"
+     ],
+     [
+      "NM-II-β",
+      "ZM-II-β",
+      "UM-II-β"
+     ]
+    ],
+    "varianten": [],
+    "typkonflikte": []
+   },
+   "ueberlagerung": [
+    {
+     "verkettung": [
+      "NM-II-β",
+      "ZM-II-β",
+      "UM-II-β",
+      "ZM-I-β",
+      "NM-I-β"
+     ],
+     "aus": [
+      "T-HOLO",
+      "T-FELD"
+     ],
+     "typen": [
+      "~auf",
+      "RST"
+     ],
+     "geschlossener_umlauf": false,
+     "hysterese": true,
+     "hysterese_abweichung": {
+      "start": "NM-II-β",
+      "ende": "NM-I-β",
+      "klasse": [
+       "II",
+       "I"
+      ],
+      "modus": [
+       "β",
+       "β"
+      ]
+     },
+     "P1_aussageerhalt": false,
+     "P1_detail": {
+      "typ_ok": true,
+      "felder_belegt": false
+     },
+     "P2_neu": false,
+     "P3_reproduzierbar": "eigen",
+     "P2_neu_korpus": false,
+     "bereits_enthalten_in": [
+      "T-FELD"
+     ],
+     "gilt_als_neue_beziehung": false
+    }
+   ],
+   "P3_deterministisch": true
+  },
+  {
+   "paar": [
+    "T-FELD",
+    "T-LOGIK"
+   ],
+   "vergleich": {
+    "klasse": "variante",
+    "gemeinsame_pfade": [
+     [
+      "UM-II-β",
+      "ZM-I-β",
+      "NM-I-β"
+     ],
+     [
+      "ZM-II-α",
+      "ZM-II-β",
+      "ZM-II-γ"
+     ]
+    ],
+    "varianten": [
+     {
+      "t1": [
+       "NM-I-γ",
+       "ZM-II-γ",
+       "UM-III-γ"
+      ],
+      "t2": [
+       "NM-I-γ",
+       "ZM-II-γ",
+       "UM-II-γ"
+      ]
+     }
+    ],
+    "typkonflikte": []
+   },
+   "ueberlagerung": [
+    {
+     "verkettung": [
+      "NM-II-β",
+      "ZM-II-β",
+      "UM-II-β",
+      "ZM-I-β",
+      "NM-I-β"
+     ],
+     "aus": [
+      "T-FELD",
+      "T-LOGIK"
+     ],
+     "typen": [
+      "~auf",
+      "RST"
+     ],
+     "geschlossener_umlauf": false,
+     "hysterese": true,
+     "hysterese_abweichung": {
+      "start": "NM-II-β",
+      "ende": "NM-I-β",
+      "klasse": [
+       "II",
+       "I"
+      ],
+      "modus": [
+       "β",
+       "β"
+      ]
+     },
+     "P1_aussageerhalt": false,
+     "P1_detail": {
+      "typ_ok": true,
+      "felder_belegt": false
+     },
+     "P2_neu": false,
+     "P3_reproduzierbar": "eigen",
+     "P2_neu_korpus": false,
+     "bereits_enthalten_in": [
+      "T-FELD"
+     ],
+     "gilt_als_neue_beziehung": false
+    },
+    {
+     "verkettung": [
+      "NM-II-β",
+      "ZM-II-β",
+      "UM-II-β",
+      "ZM-I-β",
+      "NM-I-β"
+     ],
+     "aus": [
+      "T-FELD",
+      "T-LOGIK"
+     ],
+     "typen": [
+      "CYC",
+      "RST"
+     ],
+     "geschlossener_umlauf": false,
+     "hysterese": true,
+     "hysterese_abweichung": {
+      "start": "NM-II-β",
+      "ende": "NM-I-β",
+      "klasse": [
+       "II",
+       "I"
+      ],
+      "modus": [
+       "β",
+       "β"
+      ]
+     },
+     "P1_aussageerhalt": false,
+     "P1_detail": {
+      "typ_ok": true,
+      "felder_belegt": false
+     },
+     "P2_neu": false,
+     "P3_reproduzierbar": "eigen",
+     "P2_neu_korpus": false,
+     "bereits_enthalten_in": [
+      "T-FELD"
+     ],
+     "gilt_als_neue_beziehung": false
+    },
+    {
+     "verkettung": [
+      "NM-II-β",
+      "ZM-II-β",
+      "UM-II-β",
+      "ZM-I-β",
+      "NM-I-β"
+     ],
+     "aus": [
+      "T-FELD",
+      "T-LOGIK"
+     ],
+     "typen": [
+      "REC",
+      "RST"
+     ],
+     "geschlossener_umlauf": false,
+     "hysterese": true,
+     "hysterese_abweichung": {
+      "start": "NM-II-β",
+      "ende": "NM-I-β",
+      "klasse": [
+       "II",
+       "I"
+      ],
+      "modus": [
+       "β",
+       "β"
+      ]
+     },
+     "P1_aussageerhalt": false,
+     "P1_detail": {
+      "typ_ok": true,
+      "felder_belegt": false
+     },
+     "P2_neu": false,
+     "P3_reproduzierbar": "eigen",
+     "P2_neu_korpus": false,
+     "bereits_enthalten_in": [
+      "T-FELD"
+     ],
+     "gilt_als_neue_beziehung": false
+    }
+   ],
+   "P3_deterministisch": true
+  },
+  {
+   "paar": [
+    "T-FELD",
+    "T-NEUTRAL"
+   ],
+   "vergleich": {
+    "klasse": "unbestimmt",
+    "grund": "mindestens ein Tensor ohne deklarierte Pfade",
+    "typkonflikte": []
+   },
+   "ueberlagerung": [],
+   "P3_deterministisch": true
+  },
+  {
+   "paar": [
+    "T-FELD",
+    "T-SOZ"
+   ],
+   "vergleich": {
+    "klasse": "unbestimmt",
+    "grund": "mindestens ein Tensor ohne deklarierte Pfade",
+    "typkonflikte": []
+   },
+   "ueberlagerung": [],
+   "P3_deterministisch": true
+  },
+  {
+   "paar": [
+    "T-FELD",
+    "T-SOZ19"
+   ],
+   "vergleich": {
+    "klasse": "teilweise_gleich",
+    "gemeinsame_pfade": [
+     [
+      "NM-I-γ",
+      "ZM-II-γ",
+      "UM-III-γ"
+     ]
+    ],
+    "varianten": [],
+    "typkonflikte": []
+   },
+   "ueberlagerung": [
+    {
+     "verkettung": [
+      "NM-II-α",
+      "ZM-II-β",
+      "UM-II-β",
+      "ZM-I-β",
+      "NM-I-β"
+     ],
+     "aus": [
+      "T-SOZ19",
+      "T-FELD"
+     ],
+     "typen": [
+      "CYC",
+      "RST"
+     ],
+     "geschlossener_umlauf": false,
+     "hysterese": true,
+     "hysterese_abweichung": {
+      "start": "NM-II-α",
+      "ende": "NM-I-β",
+      "klasse": [
+       "II",
+       "I"
+      ],
+      "modus": [
+       "α",
+       "β"
+      ]
+     },
+     "P1_aussageerhalt": false,
+     "P1_detail": {
+      "typ_ok": true,
+      "felder_belegt": false
+     },
+     "P2_neu": true,
+     "P3_reproduzierbar": "eigen",
+     "P2_neu_korpus": true,
+     "bereits_enthalten_in": [],
+     "gilt_als_neue_beziehung": false
+    }
+   ],
+   "P3_deterministisch": true
+  },
+  {
+   "paar": [
+    "T-FELD",
+    "T-ZYKLUS"
+   ],
+   "vergleich": {
+    "klasse": "unbestimmt",
+    "grund": "mindestens ein Tensor ohne deklarierte Pfade",
+    "typkonflikte": []
+   },
+   "ueberlagerung": [],
+   "P3_deterministisch": true
+  },
+  {
+   "paar": [
+    "T-HOLO",
+    "T-LOGIK"
+   ],
+   "vergleich": {
+    "klasse": "variante",
+    "gemeinsame_pfade": [],
+    "varianten": [
+     {
+      "t1": [
+       "NM-I-γ",
+       "ZM-II-γ",
+       "UM-III-γ"
+      ],
+      "t2": [
+       "NM-I-γ",
+       "ZM-II-γ",
+       "UM-II-γ"
+      ]
+     }
+    ],
+    "typkonflikte": []
+   },
+   "ueberlagerung": [
+    {
+     "verkettung": [
+      "NM-II-β",
+      "ZM-II-β",
+      "UM-II-β",
+      "ZM-I-β",
+      "NM-I-β"
+     ],
+     "aus": [
+      "T-HOLO",
+      "T-LOGIK"
+     ],
+     "typen": [
+      "~auf",
+      "RST"
+     ],
+     "geschlossener_umlauf": false,
+     "hysterese": true,
+     "hysterese_abweichung": {
+      "start": "NM-II-β",
+      "ende": "NM-I-β",
+      "klasse": [
+       "II",
+       "I"
+      ],
+      "modus": [
+       "β",
+       "β"
+      ]
+     },
+     "P1_aussageerhalt": true,
+     "P1_detail": {
+      "typ_ok": true,
+      "felder_belegt": true
+     },
+     "P2_neu": true,
+     "P3_reproduzierbar": "eigen",
+     "P2_neu_korpus": false,
+     "bereits_enthalten_in": [
+      "T-FELD"
+     ],
+     "gilt_als_neue_beziehung": false
+    }
+   ],
+   "P3_deterministisch": true
+  },
+  {
+   "paar": [
+    "T-HOLO",
+    "T-NEUTRAL"
+   ],
+   "vergleich": {
+    "klasse": "unbestimmt",
+    "grund": "mindestens ein Tensor ohne deklarierte Pfade",
+    "typkonflikte": []
+   },
+   "ueberlagerung": [],
+   "P3_deterministisch": true
+  },
+  {
+   "paar": [
+    "T-HOLO",
+    "T-SOZ"
+   ],
+   "vergleich": {
+    "klasse": "unbestimmt",
+    "grund": "mindestens ein Tensor ohne deklarierte Pfade",
+    "typkonflikte": []
+   },
+   "ueberlagerung": [],
+   "P3_deterministisch": true
+  },
+  {
+   "paar": [
+    "T-HOLO",
+    "T-SOZ19"
+   ],
+   "vergleich": {
+    "klasse": "teilweise_gleich",
+    "gemeinsame_pfade": [
+     [
+      "NM-I-γ",
+      "ZM-II-γ",
+      "UM-III-γ"
+     ]
+    ],
+    "varianten": [],
+    "typkonflikte": []
+   },
+   "ueberlagerung": [],
+   "P3_deterministisch": true
+  },
+  {
+   "paar": [
+    "T-HOLO",
+    "T-ZYKLUS"
+   ],
+   "vergleich": {
+    "klasse": "unbestimmt",
+    "grund": "mindestens ein Tensor ohne deklarierte Pfade",
+    "typkonflikte": []
+   },
+   "ueberlagerung": [],
+   "P3_deterministisch": true
+  },
+  {
+   "paar": [
+    "T-LOGIK",
+    "T-NEUTRAL"
+   ],
+   "vergleich": {
+    "klasse": "unbestimmt",
+    "grund": "mindestens ein Tensor ohne deklarierte Pfade",
+    "typkonflikte": []
+   },
+   "ueberlagerung": [],
+   "P3_deterministisch": true
+  },
+  {
+   "paar": [
+    "T-LOGIK",
+    "T-SOZ"
+   ],
+   "vergleich": {
+    "klasse": "unbestimmt",
+    "grund": "mindestens ein Tensor ohne deklarierte Pfade",
+    "typkonflikte": []
+   },
+   "ueberlagerung": [],
+   "P3_deterministisch": true
+  },
+  {
+   "paar": [
+    "T-LOGIK",
+    "T-SOZ19"
+   ],
+   "vergleich": {
+    "klasse": "variante",
+    "gemeinsame_pfade": [],
+    "varianten": [
+     {
+      "t1": [
+       "NM-I-γ",
+       "ZM-II-γ",
+       "UM-II-γ"
+      ],
+      "t2": [
+       "NM-I-γ",
+       "ZM-II-γ",
+       "UM-III-γ"
+      ]
+     }
+    ],
+    "typkonflikte": []
+   },
+   "ueberlagerung": [
+    {
+     "verkettung": [
+      "NM-II-α",
+      "ZM-II-β",
+      "UM-II-β",
+      "ZM-I-β",
+      "NM-I-β"
+     ],
+     "aus": [
+      "T-SOZ19",
+      "T-LOGIK"
+     ],
+     "typen": [
+      "CYC",
+      "RST"
+     ],
+     "geschlossener_umlauf": false,
+     "hysterese": true,
+     "hysterese_abweichung": {
+      "start": "NM-II-α",
+      "ende": "NM-I-β",
+      "klasse": [
+       "II",
+       "I"
+      ],
+      "modus": [
+       "α",
+       "β"
+      ]
+     },
+     "P1_aussageerhalt": true,
+     "P1_detail": {
+      "typ_ok": true,
+      "felder_belegt": true
+     },
+     "P2_neu": true,
+     "P3_reproduzierbar": "eigen",
+     "P2_neu_korpus": true,
+     "bereits_enthalten_in": [],
+     "gilt_als_neue_beziehung": true
+    }
+   ],
+   "P3_deterministisch": true
+  },
+  {
+   "paar": [
+    "T-LOGIK",
+    "T-ZYKLUS"
+   ],
+   "vergleich": {
+    "klasse": "unbestimmt",
+    "grund": "mindestens ein Tensor ohne deklarierte Pfade",
+    "typkonflikte": []
+   },
+   "ueberlagerung": [],
+   "P3_deterministisch": true
+  },
+  {
+   "paar": [
+    "T-NEUTRAL",
+    "T-SOZ"
+   ],
+   "vergleich": {
+    "klasse": "unbestimmt",
+    "grund": "mindestens ein Tensor ohne deklarierte Pfade",
+    "typkonflikte": []
+   },
+   "ueberlagerung": [],
+   "P3_deterministisch": true
+  },
+  {
+   "paar": [
+    "T-NEUTRAL",
+    "T-SOZ19"
+   ],
+   "vergleich": {
+    "klasse": "unbestimmt",
+    "grund": "mindestens ein Tensor ohne deklarierte Pfade",
+    "typkonflikte": []
+   },
+   "ueberlagerung": [],
+   "P3_deterministisch": true
+  },
+  {
+   "paar": [
+    "T-NEUTRAL",
+    "T-ZYKLUS"
+   ],
+   "vergleich": {
+    "klasse": "unbestimmt",
+    "grund": "mindestens ein Tensor ohne deklarierte Pfade",
+    "typkonflikte": []
+   },
+   "ueberlagerung": [],
+   "P3_deterministisch": true
+  },
+  {
+   "paar": [
+    "T-SOZ",
+    "T-SOZ19"
+   ],
+   "vergleich": {
+    "klasse": "unbestimmt",
+    "grund": "mindestens ein Tensor ohne deklarierte Pfade",
+    "typkonflikte": []
+   },
+   "ueberlagerung": [],
+   "P3_deterministisch": true
+  },
+  {
+   "paar": [
+    "T-SOZ",
+    "T-ZYKLUS"
+   ],
+   "vergleich": {
+    "klasse": "unbestimmt",
+    "grund": "mindestens ein Tensor ohne deklarierte Pfade",
+    "typkonflikte": []
+   },
+   "ueberlagerung": [],
+   "P3_deterministisch": true
+  },
+  {
+   "paar": [
+    "T-SOZ19",
+    "T-ZYKLUS"
+   ],
+   "vergleich": {
+    "klasse": "unbestimmt",
+    "grund": "mindestens ein Tensor ohne deklarierte Pfade",
+    "typkonflikte": []
+   },
+   "ueberlagerung": [],
+   "P3_deterministisch": true
+  }
+ ]
+}

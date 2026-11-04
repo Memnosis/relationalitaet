@@ -636,6 +636,19 @@
    "ausgefuehrt_von": "claude",
    "ausgefuehrt_am": "2026-11-04",
    "gilt_nur_fuer": "Lesart „ersetzt = dasselbe inhaltliche Schließen“; Urteil contradicted_with_scope; E2"
+  },
+  {
+   "test_id": "TST-ALG-01",
+   "task_ids": [
+    "ALGEBRA-01"
+   ],
+   "gegenstand": "Typisierte Tensoralgebra v0.2: Typregeln, Vergleichsklassen, Überlagerung mit P1/P2 (Korpus)/P3, Hysterese; 17 konstruierte Fälle inkl. Negativproben",
+   "testart": "unittest",
+   "datei": "forschung/tensor/algebra-claude/tests/test_typalgebra.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-04",
+   "gilt_nur_fuer": "7 veröffentlichte Tensoren; nicht die 103 local_only-Gerüste"
   }
  ],
  "verweise_fremde_tests": [

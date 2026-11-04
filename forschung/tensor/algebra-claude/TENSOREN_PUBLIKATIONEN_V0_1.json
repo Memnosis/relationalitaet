@@ -1,0 +1,513 @@
+{
+ "schema_version": "tensoren-publikationen/0.1",
+ "owner": "claude",
+ "erzeugt_am": "2026-11-04",
+ "lizenz_quellen": "CC BY 4.0 (Zenodo), Autor Nils Sautter",
+ "hinweis": "Nur kurze Feldbegriffe und Pfade mit DOI; keine Volltexte.",
+ "tensoren": [
+  {
+   "id": "T-NEUTRAL",
+   "titel": "Tensor Basics / Grundlagen",
+   "konzept_doi": "10.5281/zenodo.19152183",
+   "fundstelle_hinweis": "Abschnitt 12, Tabellen",
+   "quelle_md_sha256": "6ca0bccde97cf2fd3a6ba0a8f108c6a4cd8ef66792254ea85f55c653a6b949a6",
+   "felder": {
+    "UM-I-α": "Identitäts-Kern-Struktur",
+    "UM-I-β": "Identitäts-Kern-Funktion",
+    "UM-I-γ": "Identitäts-Kern-Relation",
+    "UM-II-α": "Identitäts-Kreislauf-Struktur",
+    "UM-II-β": "Identitäts-Kreislauf-Funktion",
+    "UM-II-γ": "Identitäts-Kreislauf-Relation",
+    "UM-III-α": "Identitäts-Öffnungs-Struktur",
+    "UM-III-β": "Identitäts-Öffnungs-Funktion",
+    "UM-III-γ": "Identitäts-Öffnungs-Relation",
+    "ZM-I-α": "Emergenz-Kern-Struktur",
+    "ZM-I-β": "Emergenz-Kern-Funktion",
+    "ZM-I-γ": "Emergenz-Kern-Relation",
+    "ZM-II-α": "Emergenz-Kreislauf-Struktur",
+    "ZM-II-β": "Emergenz-Kreislauf-Funktion",
+    "ZM-II-γ": "Emergenz-Kreislauf-Relation",
+    "ZM-III-α": "Emergenz-Öffnungs-Struktur",
+    "ZM-III-β": "Emergenz-Öffnungs-Funktion",
+    "ZM-III-γ": "Emergenz-Öffnungs-Relation"
+   },
+   "anzahl_felder": 18,
+   "pfade": [],
+   "qualitaet": "maschinell aus PDF-Konvertierung; Sichtprüfung ausstehend",
+   "mehrfach_belegt": {
+    "ZM-I-α": 2,
+    "ZM-I-β": 2,
+    "ZM-I-γ": 2,
+    "ZM-II-α": 2,
+    "ZM-II-β": 2,
+    "ZM-II-γ": 2,
+    "ZM-III-α": 2,
+    "ZM-III-β": 2,
+    "ZM-III-γ": 2,
+    "UM-I-α": 2,
+    "UM-I-β": 2,
+    "UM-I-γ": 2,
+    "UM-II-α": 2,
+    "UM-II-β": 2,
+    "UM-II-γ": 2,
+    "UM-III-α": 2,
+    "UM-III-β": 2,
+    "UM-III-γ": 2
+   }
+  },
+  {
+   "id": "T-HOLO",
+   "titel": "Holographie-Matrix",
+   "konzept_doi": "10.5281/zenodo.19133278",
+   "fundstelle_hinweis": "Feldtabellen und Achsen",
+   "quelle_md_sha256": "ffd1e571c47d254329b8c5fd38e1dbdbe9ea675d958652a12478b1a364fff612",
+   "felder": {
+    "NM-I-α": "holographischer Grundbound",
+    "NM-I-β": "latente Grenzflächenruhe",
+    "NM-I-γ": "latent grenzflächig vorhandene Ganzheitsinformation",
+    "NM-II-α": "Referenzgrenze der Kodierung",
+    "NM-II-β": "Entropiedichte-Basis",
+    "NM-II-γ": "Lightsheet-Reservoir",
+    "NM-III-α": "Grenzbildung der Projektion",
+    "NM-III-β": "Reset vor Rekodierung",
+    "NM-III-γ": "Paradoxgrenze Innen/Außen",
+    "UM-I-α": "manifeste Dualitätsstruktur",
+    "UM-I-β": "messbare Flächen-/Entropiedynamik",
+    "UM-I-γ": "holographisches Holon",
+    "UM-II-α": "rekonstruierte Geometrie",
+    "UM-II-β": "Page-/Insel-/Entropiedynamik",
+    "UM-II-γ": "Rand-Bulk-Korrespondenz als Objekt",
+    "UM-III-α": "emergentes holographisches System",
+    "UM-III-β": "ko-evolutive Rekonstruktion",
+    "UM-III-γ": "manifeste holographische Gesamteinheit",
+    "ZM-I-α": "Projektionsregel",
+    "ZM-I-β": "Kodierungsakt",
+    "ZM-I-γ": "Grenzflächenvermittlung",
+    "ZM-II-α": "Bulk-Rand-Übersetzung",
+    "ZM-II-β": "Extremalflächen-Dynamik",
+    "ZM-II-γ": "aktive Übertragung oder Projektion",
+    "ZM-III-α": "Dualitätsverzweigung",
+    "ZM-III-β": "Rekonstruktionsprozess",
+    "ZM-III-γ": "verteilte Ganzes-im-Teil-Kopplung"
+   },
+   "anzahl_felder": 27,
+   "pfade": [
+    {
+     "adressen": [
+      "NM-I-γ",
+      "ZM-II-γ",
+      "UM-III-γ"
+     ],
+     "typ": null,
+     "zeile": "**NM-I-γ → ZM-II-γ → UM-III-γ**"
+    },
+    {
+     "adressen": [
+      "NM-I-α",
+      "ZM-I-α",
+      "UM-I-α"
+     ],
+     "typ": null,
+     "zeile": "**NM-I-α → ZM-I-α → UM-I-α**"
+    },
+    {
+     "adressen": [
+      "NM-II-β",
+      "ZM-II-β",
+      "UM-II-β"
+     ],
+     "typ": null,
+     "zeile": "**NM-II-β → ZM-II-β → UM-II-β**"
+    }
+   ],
+   "qualitaet": "maschinell aus PDF-Konvertierung; Sichtprüfung ausstehend",
+   "mehrfach_belegt": {
+    "NM-I-γ": 9,
+    "ZM-II-γ": 10,
+    "UM-III-γ": 8,
+    "NM-I-α": 10,
+    "NM-I-β": 6,
+    "NM-II-α": 5,
+    "NM-II-β": 7,
+    "NM-II-γ": 7,
+    "NM-III-α": 5,
+    "NM-III-β": 5,
+    "NM-III-γ": 5,
+    "ZM-I-α": 6,
+    "ZM-I-β": 6,
+    "ZM-I-γ": 5,
+    "ZM-II-α": 6,
+    "ZM-II-β": 10,
+    "ZM-III-α": 6,
+    "ZM-III-β": 10,
+    "ZM-III-γ": 5,
+    "UM-I-α": 7,
+    "UM-I-β": 6,
+    "UM-I-γ": 6,
+    "UM-II-α": 8,
+    "UM-II-β": 6,
+    "UM-II-γ": 9,
+    "UM-III-α": 7,
+    "UM-III-β": 7
+   }
+  },
+  {
+   "id": "T-ZYKLUS",
+   "titel": "Zyklus-Matrix (Rel-Rel)",
+   "konzept_doi": "10.5281/zenodo.19124879",
+   "fundstelle_hinweis": "ZM-Felder",
+   "quelle_md_sha256": "41a578680809d85f553ecea68f6769d076232b914215471ac83e41512db6911c",
+   "felder": {
+    "ZM-I-α": "Struktureller Loop (formal-algebraisch)",
+    "ZM-I-β": "Takt-Loop (funktional-dynamisch)",
+    "ZM-I-γ": "Holographischer Selbst-Loop",
+    "ZM-II-α": "Kreislauf-Geometrie (formal-algebraisch)",
+    "ZM-II-β": "Kreislauf-Rhythmus",
+    "ZM-II-γ": "Kreislauf-Information",
+    "ZM-III-α": "Bifurkation",
+    "ZM-III-β": "Ko-Evolution",
+    "ZM-III-γ": "Kollektiver holographischer Prozess"
+   },
+   "anzahl_felder": 9,
+   "pfade": [],
+   "qualitaet": "maschinell aus PDF-Konvertierung; Sichtprüfung ausstehend",
+   "mehrfach_belegt": {
+    "ZM-I-γ": 2
+   }
+  },
+  {
+   "id": "T-SOZ",
+   "titel": "Soziation – Assoziation/Dissoziation als Komplementäre",
+   "konzept_doi": "10.5281/zenodo.19406996",
+   "fundstelle_hinweis": "Tabelle SM-*",
+   "quelle_md_sha256": "8e9b541bd0864b728f962051441458e5c2402f725dafeb7cc4d72f06f6bbd9ba",
+   "felder": {
+    "NM-I-α": "Latente strukturelle Assoziationspotenzialität (Reservoir möglicher Ganzheiten)",
+    "NM-I-β": "Latente funktionelle Dissoziationsfähigkeit (vorbereitender Auswahlmechanismus)",
+    "NM-I-γ": "Latente relationale Soziationsvorordnung (komplementäre Balance im Reservoir)",
+    "NM-II-α": "Latente rhythmische Assoziationsstrukturen",
+    "NM-II-β": "Latente rhythmische Dissoziationszyklen",
+    "NM-II-γ": "Latente relationale Soziationskreisläufe",
+    "NM-III-α": "Offene latente Assoziationsstrukturen",
+    "NM-III-β": "Offene latente Dissoziationsfähigkeit",
+    "NM-III-γ": "Offene latente Soziationsrelation",
+    "UM-I-α": "Stabile strukturelle Selektive Ganzheit",
+    "UM-I-β": "Stabile funktionelle Balance der Urkräfte",
+    "UM-I-γ": "Stabile relationale Selbstkohärenz",
+    "UM-II-α": "Zyklische Assoziationsstrukturen (Mustererkennung)",
+    "UM-II-β": "Zyklische Dissoziationsfunktion (Ordnungen aus Chaos)",
+    "UM-II-γ": "Zyklische Soziationsrelation (Prozesse statt Zustände)",
+    "UM-III-α": "Offene strukturelle Ganzheit (Teile im Ganzen ganz)",
+    "UM-III-β": "Offene funktionelle Verschränkung",
+    "UM-III-γ": "Offene relationale Soziation",
+    "ZM-I-α": "Struktureller Symmetriebruch zwischen Assoziation und Dissoziation",
+    "ZM-I-β": "Akute Dissoziationsschübe im aktiven Filterprozess",
+    "ZM-I-γ": "Erste relationale Balance von Assoziation und Dissoziation",
+    "ZM-II-α": "Rhythmische Assoziationsstrukturen im aktiven Prozess",
+    "ZM-II-β": "Rhythmische Dissoziationsfunktion (operativer ρ-Kreislauf)",
+    "ZM-II-γ": "Rhythmisches komplementäres Zusammenspiel der Urkräfte",
+    "ZM-III-α": "Öffnung zu neuer Assoziationsstruktur",
+    "ZM-III-β": "Öffnung zu neuer Dissoziationsfähigkeit",
+    "ZM-III-γ": "Öffnung zu neuer Soziationsrelation"
+   },
+   "anzahl_felder": 27,
+   "pfade": [],
+   "qualitaet": "maschinell aus PDF-Konvertierung; Sichtprüfung ausstehend",
+   "mehrfach_belegt": {}
+  },
+  {
+   "id": "T-SOZ19",
+   "titel": "Soziation 1.9",
+   "konzept_doi": "10.5281/zenodo.21660268",
+   "fundstelle_hinweis": "Feld- und Pfadabschnitte",
+   "quelle_md_sha256": "f21e3c631a3f85f7a6d814801558f9332beae7c7e3f4d646f1076259c48eeb22",
+   "felder": {
+    "NM-I-α": "Relata- und",
+    "NM-I-β": "Assoziierbarkeit",
+    "NM-I-γ": "Vorordnungen, Constraints und erlaubte Übergänge sind formal präzisierbar",
+    "NM-II-α": "Rückkopplungsarchitekturen besitzen eigenständige System- und Prozessmodelle",
+    "NM-II-β": "Plastizität und",
+    "NM-II-γ": "bestehende Kopplungsdisposition",
+    "NM-III-α": "Grenze und",
+    "NM-III-β": "Variations- und",
+    "NM-III-γ": "alternativer",
+    "UM-I-α": "manifestierte",
+    "UM-I-β": "Wie wird Funktion definiert, ohne sie mit Wirkung, Nutzen oder Norm zu vermischen?",
+    "UM-I-γ": "Ab wann ist eine Relation stabilisiert statt nur wiederholt beobachtet?",
+    "UM-II-α": "Regime, Attraktor und Modul besitzen formale wie empirische Entsprechungen",
+    "UM-II-β": "Resilienz und",
+    "UM-II-γ": "Wann wird Wiederholung zu Institutionalisierung?",
+    "UM-III-α": "Multilayer-Architekturen sind formal ausgearbeitet",
+    "UM-III-β": "Wie lässt sich Folgepotenzial unabhängig von späteren Manifestationen messen?",
+    "UM-III-γ": "offene Korrespondenz",
+    "ZM-I-α": "Relationsereignis oder oder Trajektorie",
+    "ZM-I-β": "relationale Operation Lernen und Adaptation",
+    "ZM-I-γ": "Kopplung und Entkopplung",
+    "ZM-II-α": "Prozesspfad",
+    "ZM-II-β": "Regulation,",
+    "ZM-II-γ": "Rückkopplung und Koordination",
+    "ZM-III-α": "Bifurkation",
+    "ZM-III-β": "Exploration",
+    "ZM-III-γ": "Traversal,"
+   },
+   "anzahl_felder": 27,
+   "pfade": [
+    {
+     "adressen": [
+      "NM-I-γ",
+      "ZM-II-γ",
+      "UM-III-γ"
+     ],
+     "typ": "PRJ",
+     "zeile": "BF : PRJ : NM-I-γ -> ZM-II-γ -> UM-III-γ"
+    },
+    {
+     "adressen": [
+      "NM-I-γ",
+      "ZM-I-γ",
+      "UM-I-γ"
+     ],
+     "typ": "PRJ",
+     "zeile": "NM-I-γ → ZM-I-γ → UM-I-γ"
+    },
+    {
+     "adressen": [
+      "NM-II-α",
+      "ZM-II-β",
+      "UM-II-β"
+     ],
+     "typ": "CYC",
+     "zeile": "NM-II-α → ZM-II-β → UM-II-β"
+    },
+    {
+     "adressen": [
+      "NM-III-α",
+      "ZM-III-γ",
+      "UM-III-α"
+     ],
+     "typ": null,
+     "zeile": "NM-III-α → ZM-III-γ → UM-III-α"
+    },
+    {
+     "adressen": [
+      "UM-II-α",
+      "ZM-III-α",
+      "NM-III-γ"
+     ],
+     "typ": "RST",
+     "zeile": "UM-II-α → ZM-III-α → NM-III-γ"
+    },
+    {
+     "adressen": [
+      "UM-I-γ",
+      "ZM-I-γ",
+      "UM-III-α"
+     ],
+     "typ": null,
+     "zeile": "UM-I-γ → ZM-I-γ → UM-III-α"
+    }
+   ],
+   "qualitaet": "maschinell aus PDF-Konvertierung; Sichtprüfung ausstehend",
+   "mehrfach_belegt": {
+    "NM-I-α": 8,
+    "NM-III-β": 19,
+    "NM-III-γ": 12,
+    "ZM-III-α": 12,
+    "ZM-II-α": 7,
+    "ZM-I-α": 10,
+    "ZM-II-β": 15,
+    "ZM-III-β": 9,
+    "ZM-I-β": 23,
+    "ZM-III-γ": 17,
+    "UM-I-α": 8,
+    "UM-II-β": 11,
+    "NM-I-γ": 12,
+    "NM-II-α": 11,
+    "UM-II-α": 9,
+    "UM-III-α": 8,
+    "UM-I-β": 8,
+    "UM-I-γ": 20,
+    "UM-II-γ": 14,
+    "UM-III-β": 19,
+    "NM-III-α": 7,
+    "NM-II-β": 7,
+    "ZM-I-γ": 12,
+    "ZM-II-γ": 8,
+    "NM-I-β": 15,
+    "NM-II-γ": 16,
+    "UM-III-γ": 15
+   }
+  },
+  {
+   "id": "T-FELD",
+   "titel": "Tensor Field Theory / Feld-Theorie",
+   "konzept_doi": "10.5281/zenodo.19153910",
+   "fundstelle_hinweis": "Kodierungsbeispiele",
+   "quelle_md_sha256": "8454032d1c0518b07721f1a2608a78e04739f75ca7cab91d46713ba1fc530e4c",
+   "felder": {
+    "NM-I-α": "ordered carrier space of field locations",
+    "NM-I-γ": "latent coupling possibility of the fields",
+    "UM-II-β": "stabilized interaction form",
+    "UM-III-γ": "comparable overall signature of the field",
+    "ZM-II-α": "as cycle geometry,",
+    "ZM-II-β": "as cycle rhythm,",
+    "ZM-II-γ": "as cycle information."
+   },
+   "anzahl_felder": 7,
+   "pfade": [
+    {
+     "adressen": [
+      "NM-I-γ",
+      "ZM-II-γ",
+      "UM-III-γ"
+     ],
+     "typ": "PRJ",
+     "zeile": "- `HM : PRJ : NM-I-γ -> ZM-II-γ -> UM-III-γ`"
+    },
+    {
+     "adressen": [
+      "ZM-II-α",
+      "ZM-II-β",
+      "ZM-II-γ"
+     ],
+     "typ": "CYC",
+     "zeile": "- `ZM : CYC : ZM-II-α -> ZM-II-β -> ZM-II-γ`"
+    },
+    {
+     "adressen": [
+      "UM-II-β",
+      "ZM-I-β",
+      "NM-I-β"
+     ],
+     "typ": "RST",
+     "zeile": "- `LM : RST : UM-II-β -> ZM-I-β -> NM-I-β`"
+    },
+    {
+     "adressen": [
+      "NM-I-γ",
+      "ZM-II-γ",
+      "UM-III-γ"
+     ],
+     "typ": null,
+     "zeile": "`NM-I-γ -> ZM-II-γ -> UM-III-γ`."
+    },
+    {
+     "adressen": [
+      "NM-II-β",
+      "ZM-II-β",
+      "UM-II-β"
+     ],
+     "typ": null,
+     "zeile": "`NM-II-β -> ZM-II-β -> UM-II-β`"
+    },
+    {
+     "adressen": [
+      "NM-II-β",
+      "ZM-II-β",
+      "UM-II-β"
+     ],
+     "typ": "CYC",
+     "zeile": "`HM : CYC : NM-II-β -> ZM-II-β -> UM-II-β`"
+    },
+    {
+     "adressen": [
+      "NM-II-β",
+      "ZM-II-β",
+      "UM-II-β"
+     ],
+     "typ": "REC",
+     "zeile": "`HM : REC : NM-II-β -> ZM-II-β -> UM-II-β`"
+    }
+   ],
+   "qualitaet": "maschinell aus PDF-Konvertierung; Sichtprüfung ausstehend",
+   "mehrfach_belegt": {
+    "ZM-II-α": 2,
+    "ZM-II-β": 4,
+    "ZM-II-γ": 4,
+    "NM-I-α": 2,
+    "NM-I-γ": 2,
+    "UM-II-β": 2,
+    "UM-III-γ": 2
+   }
+  },
+  {
+   "id": "T-LOGIK",
+   "titel": "Relationale Logik – der Logik-Tensor 1.0",
+   "konzept_doi": "10.5281/zenodo.19282894",
+   "fundstelle_hinweis": "S. 3–6 (Felder), S. 7 (Pfade)",
+   "quelle": "forschung/tensor/logik-claude/LOGIK_TENSOR_1_0_EXTRAKT_V0_1.json",
+   "felder": {
+    "NM-I-α": "Symbolischer Trägerraum",
+    "NM-I-β": "Axiomatische Setzung",
+    "NM-I-γ": "Relationale Vorordnung",
+    "NM-II-α": "Syntaxgerüst",
+    "NM-II-β": "Ableitungsbereitschaft",
+    "NM-II-γ": "Semantischer Möglichkeitsraum",
+    "NM-III-α": "Grenz- und Paradoxraum",
+    "NM-III-β": "Entscheidungsbereitschaft",
+    "NM-III-γ": "Offene Geltungsspannung",
+    "UM-I-α": "Theorem",
+    "UM-I-β": "Geltungsfunktion",
+    "UM-I-γ": "Äquivalenz und Identität",
+    "UM-II-α": "Kalkül oder System",
+    "UM-II-β": "Konsistenz / Vollständigkeit",
+    "UM-II-γ": "Modellklasse",
+    "UM-III-α": "Logische Theorieform",
+    "UM-III-β": "Entscheidbarkeitsraum",
+    "UM-III-γ": "Offene Korrespondenz logischer Systeme",
+    "ZM-I-α": "Inferenzschritt",
+    "ZM-I-β": "Regelanwendung",
+    "ZM-I-γ": "Operator der Ableitung",
+    "ZM-II-α": "Beweisgang",
+    "ZM-II-β": "Transformation und Umformung",
+    "ZM-II-γ": "Syntax-Semantik-Übergang",
+    "ZM-III-α": "Modallogische Öffnung",
+    "ZM-III-β": "Rekursive Entscheidungsprozesse",
+    "ZM-III-γ": "Netz logischer Korrespondenzen"
+   },
+   "anzahl_felder": 27,
+   "pfade": [
+    {
+     "adressen": [
+      "NM-I-γ",
+      "ZM-II-γ",
+      "UM-II-γ"
+     ],
+     "typ": "PRJ",
+     "zeile": "LM : PRJ : NM-I-γ → ZM-II-γ → UM-II-γ",
+     "seiten": [
+      6,
+      7,
+      13
+     ]
+    },
+    {
+     "adressen": [
+      "UM-II-β",
+      "ZM-I-β",
+      "NM-I-β"
+     ],
+     "typ": "RST",
+     "zeile": "LM : RST : UM-II-β → ZM-I-β → NM-I-β",
+     "seiten": [
+      6
+     ]
+    },
+    {
+     "adressen": [
+      "ZM-II-α",
+      "ZM-II-β",
+      "ZM-II-γ"
+     ],
+     "typ": "CYC",
+     "zeile": "LM : CYC : ZM-II-α → ZM-II-β → ZM-II-γ",
+     "seiten": [
+      6
+     ]
+    }
+   ],
+   "qualitaet": "maschinell + Sichtprüfung S. 3–6, 14–20 (digital_verifiziert)",
+   "mehrfach_belegt": {}
+  }
+ ]
+}
