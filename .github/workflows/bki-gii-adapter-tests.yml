@@ -4,6 +4,7 @@ on:
     paths:
       - 'forschung/buerger-ki/bki_gii_adapter.py'
       - 'forschung/buerger-ki/test_bki_gii_adapter.py'
+      - 'forschung/buerger-ki/bki_gii_live_smoke.py'
       - '.github/workflows/bki-gii-adapter-tests.yml'
   pull_request:
     paths:
@@ -22,3 +23,13 @@ jobs:
           python-version: '3.12'
       - name: Validate local XML source adapter without network access
         run: python -m unittest discover -s forschung/buerger-ki -p 'test_bki_gii_adapter.py' -v
+      - name: Validate official GII ZIP resources and required paragraphs
+        if: github.event_name == 'workflow_dispatch'
+        run: python forschung/buerger-ki/bki_gii_live_smoke.py
+      - name: Retain machine-readable source audit
+        if: github.event_name == 'workflow_dispatch' && always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bki-gii-source-audit
+          path: bki_gii_live_result.json
+          if-no-files-found: ignore
