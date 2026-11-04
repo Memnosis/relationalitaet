@@ -52,51 +52,83 @@
   "paths": [
     {
       "id": "PATH-INTELLIGENCE-01",
-      "title": "Sind wir überhaupt intelligent?",
+      "title": "Sind wir überhaupt intelligent? Vom Menschen zur KI und zurück",
       "audience": [
         "leser",
         "forschung"
       ],
       "steps": [
         {
-          "id": "Q-INT",
+          "id": "INT-01",
           "type": "question",
-          "title": "Sind wir überhaupt intelligent?",
-          "url_or_ref": "ki-systeme.html",
-          "origin": "research_prompt",
-          "evidence_status": "open_question"
+          "title": "Was nennen wir Intelligenz?",
+          "url_or_ref": "ki-kernforschung.html#messung",
+          "origin": "research_path_overlay",
+          "evidence_status": "draft_needs_review"
         },
         {
-          "id": "D-INT",
+          "id": "INT-02",
           "type": "definition",
-          "title": "Welche Intelligenzdefinition?",
+          "title": "Menschliche Intelligenz und Selbstbeschreibung",
           "url_or_ref": "ki-kernforschung.html#messung",
-          "origin": "research_synthesis",
-          "evidence_status": "multiple_competing_definitions"
+          "origin": "research_path_overlay",
+          "evidence_status": "draft_needs_review"
         },
         {
-          "id": "B-INT",
+          "id": "INT-03",
           "type": "benchmark",
-          "title": "Wie messen wir Intelligenz?",
-          "url_or_ref": "ki-kernforschung.html#messung",
-          "origin": "research_synthesis",
-          "evidence_status": "review_required"
+          "title": "Langzeitwirkung, kollektive Selbstregulation und ökologische Grenzen",
+          "url_or_ref": "erkenntnispfade.html#ki-bis-ki",
+          "origin": "research_path_overlay",
+          "evidence_status": "draft_needs_review"
         },
         {
-          "id": "S-INT",
+          "id": "INT-04",
+          "type": "benchmark",
+          "title": "Wer wählt die Maßstäbe?",
+          "url_or_ref": "erkenntnispfade.html#ki-bis-ki",
+          "origin": "research_path_overlay",
+          "evidence_status": "draft_needs_review"
+        },
+        {
+          "id": "INT-05",
+          "type": "definition",
+          "title": "Was bedeutet Lernen?",
+          "url_or_ref": "minimal-ki.html",
+          "origin": "research_path_overlay",
+          "evidence_status": "draft_needs_review"
+        },
+        {
+          "id": "INT-06",
+          "type": "source",
+          "title": "Die historische Entwicklung künstlicher Intelligenz",
+          "url_or_ref": "ki-geschichte.html",
+          "origin": "research_path_overlay",
+          "evidence_status": "draft_needs_review"
+        },
+        {
+          "id": "INT-07",
+          "type": "test",
+          "title": "Was zeigen KI-Benchmarks tatsächlich?",
+          "url_or_ref": "ki-systeme.html",
+          "origin": "research_path_overlay",
+          "evidence_status": "draft_needs_review"
+        },
+        {
+          "id": "INT-08",
           "type": "paper",
-          "title": "Definitions- und Benchmark-Paper",
+          "title": "Was KI über menschliche Intelligenz sichtbar macht",
           "url_or_ref": "../forschung/paper-katalog/PAPER_KT_2026_008_INTELLIGENZ_DEFINITION_BENCHMARK.md",
-          "origin": "research_draft",
-          "evidence_status": "draft"
+          "origin": "research_path_overlay",
+          "evidence_status": "draft_needs_review"
         },
         {
-          "id": "M-INT",
+          "id": "INT-09",
           "type": "action",
-          "title": "Eigene Fragestellung einreichen",
+          "title": "Neue Definitionen, Tests und Fragen beitragen",
           "url_or_ref": "mitmachen.html",
-          "origin": "current_site",
-          "evidence_status": "entry_exists_not_specialized"
+          "origin": "research_path_overlay",
+          "evidence_status": "draft_needs_review"
         }
       ]
     },
