@@ -1,0 +1,1 @@
+Wigner-3j-Studie: 3375 getestete Parameterkombinationen, 303 bestehen die Vorbedingungen, 293 liefern einen von null verschiedenen Wert, 10 ergeben trotz Vorbedingungen Null. Quelle: https://dlmf.nist.gov/34.2. Alles Forschungstests, keine freigegebenen Projekttensoren.
