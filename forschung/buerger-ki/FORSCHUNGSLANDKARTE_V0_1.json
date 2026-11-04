@@ -50,6 +50,13 @@
       "title": "Skills, Benchmarks und Tensor-Rückfluss",
       "icon": "workflow",
       "status": "offen"
+    },
+    {
+      "id": "SCHUTZ",
+      "title": "Schutzpflichten, Rechtsverletzungen und vermeidbare Schäden",
+      "icon": "shield-check",
+      "status": "offen",
+      "documentation": "BK-RECHT-SCHUTZ-001"
     }
   ],
   "questions": [
@@ -544,6 +551,97 @@
       "thesis_ids": [],
       "operationalization_ids": [],
       "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-033",
+      "domain": "SCHUTZ",
+      "question": "Welche konkrete individuelle Rechtsposition, institutionelle Pflicht oder Schutzpflicht ist berührt?",
+      "source_ids": [],
+      "skill_ids": [],
+      "operator_family": "norm-interpretation",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Unterscheidung Rechtsfrage/empirischer Befund/Gegenprüfung erforderlich"
+    },
+    {
+      "id": "BK-Q-034",
+      "domain": "SCHUTZ",
+      "question": "Welche zeitlich datierten Warnsignale waren welchen zuständigen Stellen bekannt?",
+      "source_ids": [],
+      "skill_ids": [],
+      "operator_family": "temporal-provenance",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Unterscheidung Rechtsfrage/empirischer Befund/Gegenprüfung erforderlich"
+    },
+    {
+      "id": "BK-Q-035",
+      "domain": "SCHUTZ",
+      "question": "Welche zumutbaren Handlungsalternativen bestanden zum relevanten Zeitpunkt?",
+      "source_ids": [],
+      "skill_ids": [],
+      "operator_family": "counterfactual-options",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Unterscheidung Rechtsfrage/empirischer Befund/Gegenprüfung erforderlich"
+    },
+    {
+      "id": "BK-Q-036",
+      "domain": "SCHUTZ",
+      "question": "Welche messbaren Folgen sind tatsächlich eingetreten und wie sicher ist die Kausalzuordnung?",
+      "source_ids": [],
+      "skill_ids": [],
+      "operator_family": "causal-inference",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Unterscheidung Rechtsfrage/empirischer Befund/Gegenprüfung erforderlich"
+    },
+    {
+      "id": "BK-Q-037",
+      "domain": "SCHUTZ",
+      "question": "Wann reicht ein Schutzdefizit rechtlich für eine Schutzpflichtverletzung?",
+      "source_ids": [],
+      "skill_ids": [],
+      "operator_family": "constitutional-standard",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Unterscheidung Rechtsfrage/empirischer Befund/Gegenprüfung erforderlich"
+    },
+    {
+      "id": "BK-Q-038",
+      "domain": "SCHUTZ",
+      "question": "Welche vermeidbaren Belastungen könnten Prävention und gelebte Fehlerkultur reduzieren?",
+      "source_ids": [],
+      "skill_ids": [],
+      "operator_family": "prevention",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Unterscheidung Rechtsfrage/empirischer Befund/Gegenprüfung erforderlich"
+    },
+    {
+      "id": "BK-Q-039",
+      "domain": "SCHUTZ",
+      "question": "Welche Korrekturmaßnahmen verbessern nachweislich reale Ergebnisse?",
+      "source_ids": [],
+      "skill_ids": [],
+      "operator_family": "impact-evaluation",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Unterscheidung Rechtsfrage/empirischer Befund/Gegenprüfung erforderlich"
     }
   ],
   "theses": [
@@ -645,6 +743,42 @@
         "BK-Q-032"
       ],
       "kind": "null-hypothesis",
+      "status": "offen",
+      "counterevidence_required": true,
+      "source_ids": [],
+      "operationalization_ids": []
+    },
+    {
+      "id": "BK-T-009",
+      "claim": "Ein statistisch beobachteter Gesundheitsschaden beweist weder unmittelbar Pflichtverletzung noch individuelle Zurechnung.",
+      "kind": "logical-distinction",
+      "question_ids": [
+        "BK-Q-033"
+      ],
+      "status": "offen",
+      "counterevidence_required": true,
+      "source_ids": [],
+      "operationalization_ids": []
+    },
+    {
+      "id": "BK-T-010",
+      "claim": "Frühe Fehlerkorrektur und präventive Maßnahmen können unter bestimmten Bedingungen vermeidbare Belastungen verringern.",
+      "kind": "causal-hypothesis",
+      "question_ids": [
+        "BK-Q-034"
+      ],
+      "status": "offen",
+      "counterevidence_required": true,
+      "source_ids": [],
+      "operationalization_ids": []
+    },
+    {
+      "id": "BK-T-011",
+      "claim": "Eine an Normen, Prozessen und Ergebnissen orientierte Prüfung reduziert sachwidrige Gleichsetzungen von politischem Konflikt und Rechtsverletzung.",
+      "kind": "method-hypothesis",
+      "question_ids": [
+        "BK-Q-035"
+      ],
       "status": "offen",
       "counterevidence_required": true,
       "source_ids": [],
@@ -763,6 +897,48 @@
       ],
       "status": "spezifiziert",
       "test_status": "nicht durchgeführt"
+    },
+    {
+      "id": "BK-O-009",
+      "name": "Schutzpflicht-Mapping",
+      "metric": "Anteil der Testfälle mit korrekt benannter Norm, Adressat, Pflicht und Grenze",
+      "method": "Unabhängige juristische Referenzfälle und Gegenbeispiele",
+      "question_ids": [
+        "BK-Q-033"
+      ],
+      "thesis_ids": [
+        "BK-T-009"
+      ],
+      "status": "spezifiziert",
+      "test_status": "nicht durchgeführt"
+    },
+    {
+      "id": "BK-O-010",
+      "name": "Warnsignal- und Reaktionschronologie",
+      "metric": "Anteil datierter Signale mit belegter Quelle, Empfänger und dokumentierter Antwort",
+      "method": "Quellenvollständigkeit, Zeitgeltung, Unbekanntes separat",
+      "question_ids": [
+        "BK-Q-034"
+      ],
+      "thesis_ids": [
+        "BK-T-010"
+      ],
+      "status": "spezifiziert",
+      "test_status": "nicht durchgeführt"
+    },
+    {
+      "id": "BK-O-011",
+      "name": "Korrektur- und Präventionswirkung",
+      "metric": "Veränderung validierter Zielindikatoren gegenüber geeigneter Baseline",
+      "method": "Konfundierung, Ausgangslage, Nebenwirkungen und Unsicherheit",
+      "question_ids": [
+        "BK-Q-035"
+      ],
+      "thesis_ids": [
+        "BK-T-011"
+      ],
+      "status": "spezifiziert",
+      "test_status": "nicht durchgeführt"
     }
   ],
   "glossary": [
@@ -870,6 +1046,41 @@
       "definition": "Gezielter Test, dessen Ergebnis eine These, einen Skill oder deren Geltungsbereich einschränken oder widerlegen kann.",
       "status": "arbeitsdefinition",
       "source_ids": []
+    },
+    {
+      "id": "BK-G-016",
+      "term": "Schutzpflicht",
+      "definition": "Staatliche grundrechtliche Pflicht zum Schutz bestimmter Rechtsgüter, deren konkrete Umsetzung innerhalb rechtlicher Grenzen Gestaltungsspielräume belässt.",
+      "status": "arbeitsdefinition",
+      "source_ids": []
+    },
+    {
+      "id": "BK-G-017",
+      "term": "Untermaßverbot",
+      "definition": "Verfassungsrechtlicher Maßstab dafür, ob der Staat das gebotene Mindestmaß wirksamen Schutzes unterschreitet.",
+      "status": "arbeitsdefinition",
+      "source_ids": []
+    },
+    {
+      "id": "BK-G-018",
+      "term": "Kausale Zurechnung",
+      "definition": "Gesonderte fachliche oder rechtliche Prüfung, ob ein bestimmtes Handeln oder Unterlassen einen festgestellten Schaden verursacht hat und zugerechnet werden kann.",
+      "status": "arbeitsdefinition",
+      "source_ids": []
+    },
+    {
+      "id": "BK-G-019",
+      "term": "Struktur-Prozess-Ergebnis-Indikator",
+      "definition": "Unterscheidung von normativ-institutionellen Grundlagen, tatsächlich ergriffenen Maßnahmen und beobachtbaren Resultaten.",
+      "status": "arbeitsdefinition",
+      "source_ids": []
+    },
+    {
+      "id": "BK-G-020",
+      "term": "Vermeidbarer Schaden",
+      "definition": "Unter definierten Bedingungen durch eine realistische wirksame Maßnahme potenziell verhinderter Nachteil; Einzelfallursache ist gesondert zu prüfen.",
+      "status": "arbeitsdefinition",
+      "source_ids": []
     }
   ],
   "sources": [
@@ -962,6 +1173,42 @@
       "checked_on": "2026-11-04",
       "verification": "Existenz und einschlägiger Regelungsinhalt geprüft; vollständige Fachauslegung und historische Fassungen offen",
       "review_status": "primärquellen-erfasst"
+    },
+    {
+      "id": "BK-SRC-SCH-001",
+      "title": "BVerfG 26.07.2016 – Schutzpflicht und Untermaßverbot",
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2016/07/ls20160726_1bvl000815.html",
+      "source_type": "primary-judgment",
+      "checked_on": "2026-11-04",
+      "verification": "Quelle und einschlägiger Grundgehalt geprüft; Detailauslegung und konkrete Anwendung offen",
+      "review_status": "primärquellen-erfasst"
+    },
+    {
+      "id": "BK-SRC-SCH-002",
+      "title": "BVerfG 15.04.2026 – menschenwürdiges Existenzminimum",
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2026/04/ls20260415_1bvl000521.html",
+      "source_type": "primary-judgment",
+      "checked_on": "2026-11-04",
+      "verification": "Quelle und einschlägiger Grundgehalt geprüft; Detailauslegung und konkrete Anwendung offen",
+      "review_status": "primärquellen-erfasst"
+    },
+    {
+      "id": "BK-SRC-SCH-003",
+      "title": "OHCHR – Struktur-, Prozess- und Ergebnisindikatoren",
+      "url": "https://www.ohchr.org/sites/default/files/Documents/Issues/HRIndicators/handbook_governance_statistics.pdf",
+      "source_type": "methodological-source",
+      "checked_on": "2026-11-04",
+      "verification": "Quelle und einschlägiger Grundgehalt geprüft; Detailauslegung und konkrete Anwendung offen",
+      "review_status": "primärquellen-erfasst"
+    },
+    {
+      "id": "BK-SRC-SCH-004",
+      "title": "§ 20a SGB V – Prävention in Lebenswelten",
+      "url": "https://www.gesetze-im-internet.de/sgb_5/__20a.html",
+      "source_type": "primary-law",
+      "checked_on": "2026-11-04",
+      "verification": "Quelle und einschlägiger Grundgehalt geprüft; Detailauslegung und konkrete Anwendung offen",
+      "review_status": "primärquellen-erfasst"
     }
   ],
   "relations": [
@@ -987,13 +1234,21 @@
     }
   ],
   "counts": {
-    "domains": 8,
-    "questions": 32,
-    "theses": 8,
-    "operationalizations": 8,
-    "glossary_terms": 15,
-    "sources": 10
+    "domains": 9,
+    "questions": 39,
+    "theses": 11,
+    "operationalizations": 11,
+    "glossary_terms": 20,
+    "sources": 14
   },
   "status": "initiale Forschungslandkarte; kein abgeschlossener empirischer Befund",
-  "private_data": "Keine Falldaten oder hochgeladenen Gesundheitsakten"
+  "private_data": "Keine Falldaten oder hochgeladenen Gesundheitsakten",
+  "last_update": "2026-11-04",
+  "changelog": [
+    {
+      "date": "2026-11-04",
+      "change": "Schutzpflichten und vermeidbare Schäden als abgegrenzte Analysedomäne; ergänzte Fragestellungen, Quellen, Thesen, Operationalisierungen, Glossar",
+      "doc_id": "BK-RECHT-SCHUTZ-001"
+    }
+  ]
 }
