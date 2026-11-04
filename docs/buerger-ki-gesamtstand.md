@@ -37,6 +37,25 @@ Bürger-KI ist **nicht** auf Psychotherapie, Gesundheitsakten, Sozialleistungen,
 
 **Wichtig:** Ein messbarer sozialer Bedarf ist nicht automatisch eine einklagbare Individualleistung. Ebenso ist ein hohes Problemausmaß nicht automatisch der Nachweis einer konkreten Rechtsverletzung. Die Landkarte bildet gerade diese Unterschiede ab.
 
+## Phase 1 · Selbstverständnis und Bedeutung von „vernetzt“ (Präzisierung 04.11.2026)
+
+**Verbindliche Leitidee:** Bürger-KI entwickelt und prüft KI-Fähigkeiten (Skills), mit denen Menschen ihre Rechte wirksamer wahrnehmen, konkrete Anliegen bearbeiten und Lösungen erschließen können. Der Nutzen ist an der konkreten Aufgabe zu messen. Bürger-KI ist weder eine Fallverwaltung noch eine Plattform für persönliche Anträge.
+
+**„Vernetzt“ hat fünf aufeinander aufbauende Bedeutungen:**
+1. **Wissensvernetzung:** Rechtliche und fachliche Quellen, Definitionen, Fragestellungen und Prüfmethoden werden in Relation gesetzt.
+2. **Skillvernetzung:** Atomare KI-Fähigkeiten werden mit transparenten Ein-/Ausgaben zu brauchbaren, überprüfbaren Aufgabensequenzen verbunden.
+3. **Anwendungsübergreifende Wiederverwendung:** Eine geprüfte Operation kann in Gesundheit, Sozialleistungen, Wohnen, Bildung oder Verwaltung nutzbar sein – sofern die fachlichen Voraussetzungen jeweils erfüllt sind.
+4. **Anschluss an reale bestehende Hilfen:** Anlaufstellen, Selbsthilfe, Beratung und vorhandene Initiativen sind mögliche Kontakte, aber kein Betreiber einer gemeinsamen Bürger-KI-Fallplattform.
+5. **Forschungsrückfluss:** Getestete Erkenntnisse, Fehler und Operatoren verbessern die Skills und können über eine getrennte, geprüfte Schnittstelle an den KI-Tensor übergeben und zurückgeführt werden.
+
+**Nicht damit gemeint:** Das automatische Zusammenführen persönlicher Fälle, gemeinsamer Patientenakten, einer Fallstatistik oder ein sich selbst organisierender Schwarm miteinander kommunizierender KIs. Solche Systeme sind weder Bestandteil noch Voraussetzung dieser Phase.
+
+**Öffentlicher Einstieg:** „Rechte verstehen. Tatsächliche Erfüllung prüfen.“ Die Therapieplatzsuche bleibt der erste exemplarische Forschungsfall, nicht die Begrenzung des Projekts.
+
+**Abnahme Phase 1:** (a) Kernbotschaft und Vernetzungsbegriff sind auf der öffentlichen Hauptseite sichtbar; (b) die No-Loss-Gesamtfassung ist synchronisiert; (c) die nächsten Ausbauschritte können diese Definition als Ausgangspunkt verwenden. Dies bestätigt eine redaktionelle Klärung, **keine** Implementierung oder Validierung sämtlicher Skills.
+
+---
+
 ## 2. Das gemeinsame Arbeitsprinzip – vom Problem zur tatsächlichen Wirkung
 
 **Grundfolge:**
