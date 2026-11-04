@@ -1,0 +1,119 @@
+{
+ "schema_version": "atlas-import/0.1",
+ "hinweis": "Rohimport aus den veröffentlichten Zenodo-Fassungen (pdftotext). Begriffe, Zuordnungen und Beschreibungen unverändert übernommen; Satzfehler der Umwandlung teilweise automatisch bereinigt (Feld „korrigiert“). Fachliche Prüfung steht aus.",
+ "werke": {
+  "null_matrix_v1": {
+   "titel": "Null-Matrix (18.02.2026)",
+   "doi": "10.5281/zenodo.18683755",
+   "eintraege": 170
+  },
+  "null_matrix_v2": {
+   "titel": "Null-Matrix (25.02.2026, DE)",
+   "doi": "10.5281/zenodo.18776422",
+   "eintraege": 314
+  },
+  "null_matrix_v3": {
+   "titel": "Null-Matrix (25.02.2026, EN)",
+   "doi": "10.5281/zenodo.18776702",
+   "eintraege": 312
+  },
+  "einheits_matrix": {
+   "titel": "EINheits-Matrix (12.03.2026)",
+   "doi": "10.5281/zenodo.18981188",
+   "eintraege": 333
+  },
+  "trinitaets_matrix": {
+   "titel": "Matrix der Trinität (12.03.2026)",
+   "doi": "10.5281/zenodo.18978939",
+   "eintraege": 50
+  },
+  "trinitaets_matrix_themen": {
+   "titel": "Matrix der Trinität · Themen mit Status",
+   "doi": "10.5281/zenodo.18978939",
+   "eintraege": 35
+  },
+  "trinitaets_matrix_struktur": {
+   "titel": "Matrix der Trinität · Strukturelle Erweiterung",
+   "doi": "10.5281/zenodo.18978939",
+   "eintraege": 15
+  },
+  "zyklus_matrix": {
+   "titel": "Zyklus-Matrix (20.03.2026)",
+   "doi": "10.5281/zenodo.19124879",
+   "eintraege": 100
+  }
+ },
+ "gesamt": {
+  "eintraege": 1329,
+  "je_pol": {
+   "Rel0": 796,
+   "Rel1": 333,
+   "Trinität": 100,
+   "Rel-Rel": 100
+  },
+  "begriffe_eindeutig_de": 944,
+  "polübergreifende_begriffe": 4
+ },
+ "polübergreifend": [
+  {
+   "begriff": "fixpunkt",
+   "werke": [
+    "einheits_matrix",
+    "null_matrix_v2"
+   ],
+   "pole": [
+    "Rel0",
+    "Rel1"
+   ],
+   "ids": [
+    "null_matrix_v2:P-050",
+    "einheits_matrix:U-020"
+   ]
+  },
+  {
+   "begriff": "shannon entropie",
+   "werke": [
+    "null_matrix_v1",
+    "zyklus_matrix"
+   ],
+   "pole": [
+    "Rel-Rel",
+    "Rel0"
+   ],
+   "ids": [
+    "null_matrix_v1:MONO-002",
+    "zyklus_matrix:ZM-030"
+   ]
+  },
+  {
+   "begriff": "strange loop",
+   "werke": [
+    "null_matrix_v1",
+    "zyklus_matrix"
+   ],
+   "pole": [
+    "Rel-Rel",
+    "Rel0"
+   ],
+   "ids": [
+    "null_matrix_v1:EDGE-004",
+    "zyklus_matrix:ZM-031"
+   ]
+  },
+  {
+   "begriff": "terminal objekt",
+   "werke": [
+    "einheits_matrix",
+    "null_matrix_v1"
+   ],
+   "pole": [
+    "Rel0",
+    "Rel1"
+   ],
+   "ids": [
+    "null_matrix_v1:LEG-046",
+    "einheits_matrix:U-030"
+   ]
+  }
+ ]
+}
