@@ -1,0 +1,333 @@
+{
+  "schema": "bki-practice-crosswalk/0.1",
+  "as_of": "2026-11-05",
+  "paper": "../paper-gesundheitsamt-jugendamt-praxiswissen-crosswalk-v0-1.md",
+  "scope": "Professional sites, education portals, professional case variations and wikis",
+  "rule": "BKI-WA-RED-001: no source original texts in reconstructed output",
+  "identity_threshold": "same action conditions exceptions legal regime territorial scope and effective interval, each independently verified",
+  "sources": [
+    {
+      "id": "PRX-DE-01",
+      "region": "DE",
+      "domain": "social_assistance",
+      "title": "Tacheles Sozialhilfe: Wuppertaler Weisungen",
+      "url": "https://www.tacheles-sozialhilfe.de/informationen/weisungen-wuppertal.html",
+      "category": "civil_society_repository",
+      "knowledge_kind": "administrative_instructions_index",
+      "norm_topics": [
+        "SGB II",
+        "SGB XII",
+        "WoGG",
+        "AsylbLG",
+        "UVG"
+      ],
+      "suggested_links": [
+        "W-003",
+        "W-013"
+      ],
+      "critical_boundary": "official_origin_attachments_must_be_individually_verified",
+      "discovery_status": "landing_page_identified",
+      "content_review_status": "partial",
+      "case_extraction_status": "not_started",
+      "original_text_storage": false
+    },
+    {
+      "id": "PRX-DE-02",
+      "region": "DE",
+      "domain": "social_assistance",
+      "title": "BA Wissensdatenbank SGB II",
+      "url": "https://www.arbeitsagentur.de/wissensdatenbank-sgbii",
+      "category": "official_knowledge_base",
+      "knowledge_kind": "exception_cases_and_change_history",
+      "norm_topics": [
+        "SGB II"
+      ],
+      "suggested_links": [
+        "W-003",
+        "W-004"
+      ],
+      "critical_boundary": "agency_kb_not_universal_local_instruction",
+      "discovery_status": "landing_page_identified",
+      "content_review_status": "partial",
+      "case_extraction_status": "not_started",
+      "original_text_storage": false
+    },
+    {
+      "id": "PRX-DE-03",
+      "region": "DE",
+      "domain": "social_assistance",
+      "title": "Sozialrecht-Justament",
+      "url": "https://www.sozialrecht-justament.de/",
+      "category": "independent_professional_analysis",
+      "knowledge_kind": "education_and_legal_explanations",
+      "norm_topics": [
+        "SGB II",
+        "SGB X"
+      ],
+      "suggested_links": [
+        "W-003"
+      ],
+      "critical_boundary": "analysis_not_binding",
+      "discovery_status": "landing_page_identified",
+      "content_review_status": "partial",
+      "case_extraction_status": "not_started",
+      "original_text_storage": false
+    },
+    {
+      "id": "PRX-DE-04",
+      "region": "DE",
+      "domain": "child_welfare",
+      "title": "Jugendhilfeportal Info-Pool",
+      "url": "https://jugendhilfeportal.de/services",
+      "category": "professional_portal",
+      "knowledge_kind": "materials_projects_institutions_and_law",
+      "norm_topics": [
+        "SGB VIII",
+        "KKG"
+      ],
+      "suggested_links": [
+        "DE-J-01",
+        "DE-J-03"
+      ],
+      "critical_boundary": "index_not_authority",
+      "discovery_status": "landing_page_identified",
+      "content_review_status": "partial",
+      "case_extraction_status": "not_started",
+      "original_text_storage": false
+    },
+    {
+      "id": "PRX-DE-05",
+      "region": "DE-NW",
+      "domain": "child_welfare",
+      "title": "Kinderschutz-Zentren: Fall-Werkstätten",
+      "url": "https://www.kinderschutz-zentren.org/arbeitsfelder/lernen-aus-fallverlaeufen-im-kinderschutz/",
+      "category": "professional_research_project",
+      "knowledge_kind": "retrospective_case_learning",
+      "norm_topics": [
+        "SGB VIII § 8a",
+        "LKG NRW"
+      ],
+      "suggested_links": [
+        "DE-J-04"
+      ],
+      "critical_boundary": "case_literature_not_normative_instruction",
+      "discovery_status": "landing_page_identified",
+      "content_review_status": "partial",
+      "case_extraction_status": "not_started",
+      "original_text_storage": false
+    },
+    {
+      "id": "PRX-DE-06",
+      "region": "DE",
+      "domain": "child_welfare",
+      "title": "FokusJugendamt Wissensplattform",
+      "url": "https://www.fokus-jugendamt.de/",
+      "category": "academic_transfer_project",
+      "knowledge_kind": "checklists_factsheets_guides",
+      "norm_topics": [
+        "SGB VIII"
+      ],
+      "suggested_links": [
+        "DE-J-01",
+        "DE-J-03"
+      ],
+      "critical_boundary": "transfer_material_not_binding",
+      "discovery_status": "landing_page_identified",
+      "content_review_status": "partial",
+      "case_extraction_status": "not_started",
+      "original_text_storage": false
+    },
+    {
+      "id": "PRX-DE-07",
+      "region": "DE",
+      "domain": "child_welfare",
+      "title": "Kinderschutz-Zentren: InsoFa-Handreichung",
+      "url": "https://www.kinderschutz-zentren.org/arbeitsfelder/lernen-aus-fallverlaeufen-im-kinderschutz/",
+      "category": "professional_education",
+      "knowledge_kind": "case_based_professional_reflection",
+      "norm_topics": [
+        "SGB VIII § 8a"
+      ],
+      "suggested_links": [
+        "DE-J-02"
+      ],
+      "critical_boundary": "do_not_extract_real_person_cases",
+      "discovery_status": "landing_page_identified",
+      "content_review_status": "partial",
+      "case_extraction_status": "not_started",
+      "original_text_storage": false
+    },
+    {
+      "id": "PRX-DE-08",
+      "region": "DE",
+      "domain": "public_health",
+      "title": "RKI KRINKO FAQ",
+      "url": "https://www.rki.de/SharedDocs/FAQs/DE/KRINKO/KRINKO_gesamt.html",
+      "category": "official_professional_explanation",
+      "knowledge_kind": "regional_hygiene_rules_and_practical_answers",
+      "norm_topics": [
+        "IfSG"
+      ],
+      "suggested_links": [
+        "DE-G-01",
+        "DE-G-04"
+      ],
+      "critical_boundary": "rki_explanation_not_local_order",
+      "discovery_status": "landing_page_identified",
+      "content_review_status": "partial",
+      "case_extraction_status": "not_started",
+      "original_text_storage": false
+    },
+    {
+      "id": "PRX-DE-09",
+      "region": "DE",
+      "domain": "public_health",
+      "title": "RKI ÖGD Legionellose-Materialien",
+      "url": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Infektionskrankheiten-A-Z/L/Legionellose/OEGD/Leitfaden.html",
+      "category": "official_professional_guidance",
+      "knowledge_kind": "outbreak_case_handling",
+      "norm_topics": [
+        "IfSG"
+      ],
+      "suggested_links": [
+        "DE-G-01",
+        "DE-G-02"
+      ],
+      "critical_boundary": "professional_guideline_not_binding",
+      "discovery_status": "landing_page_identified",
+      "content_review_status": "partial",
+      "case_extraction_status": "not_started",
+      "original_text_storage": false
+    },
+    {
+      "id": "PRX-CH-01",
+      "region": "CH",
+      "domain": "social_assistance",
+      "title": "SKOS Praxisbeispiele",
+      "url": "https://skos.ch/skos-richtlinien/praxishilfen/praxisbeispiele",
+      "category": "professional_case_library",
+      "knowledge_kind": "historical_and_updated_case_variants",
+      "norm_topics": [
+        "kantonales Sozialhilferecht",
+        "SKOS-Richtlinien"
+      ],
+      "suggested_links": [],
+      "critical_boundary": "canton_adoption_must_be_verified",
+      "discovery_status": "landing_page_identified",
+      "content_review_status": "partial",
+      "case_extraction_status": "not_started",
+      "original_text_storage": false
+    },
+    {
+      "id": "PRX-CH-02",
+      "region": "CH",
+      "domain": "social_assistance",
+      "title": "SKOS Richtlinienportal",
+      "url": "https://skos.ch/skos-richtlinien/aktuelle-richtlinien",
+      "category": "professional_rules_and_explanations",
+      "knowledge_kind": "rules_commentary_practice_help_separated",
+      "norm_topics": [
+        "kantonales Sozialhilferecht"
+      ],
+      "suggested_links": [
+        "CH-J-01"
+      ],
+      "critical_boundary": "skos_is_not_automatically_binding_in_all_cantons",
+      "discovery_status": "landing_page_identified",
+      "content_review_status": "partial",
+      "case_extraction_status": "not_started",
+      "original_text_storage": false
+    },
+    {
+      "id": "PRX-INT-01",
+      "region": "INT",
+      "domain": "child_welfare",
+      "title": "UNICEF child protection resource library",
+      "url": "https://www.unicef.org/protection",
+      "category": "international_reference",
+      "knowledge_kind": "education_and_international_policy",
+      "norm_topics": [],
+      "suggested_links": [],
+      "critical_boundary": "no_domestic_legal_transfer",
+      "discovery_status": "landing_page_identified",
+      "content_review_status": "partial",
+      "case_extraction_status": "not_started",
+      "original_text_storage": false
+    }
+  ],
+  "links": [
+    {
+      "practice_id": "PRX-DE-01",
+      "authority_ref": "W-003",
+      "norm_or_topic": "SGB II",
+      "relation": "same_norm_family",
+      "review": "candidate_context_only",
+      "identity_claim": false,
+      "verified_rule_identity": false
+    },
+    {
+      "practice_id": "PRX-DE-01",
+      "authority_ref": "W-013",
+      "norm_or_topic": "SGB XII / örtliche Praxis",
+      "relation": "similar_issuer_or_local_scope",
+      "review": "candidate_context_only",
+      "identity_claim": false,
+      "verified_rule_identity": false
+    },
+    {
+      "practice_id": "PRX-DE-02",
+      "authority_ref": "W-003",
+      "norm_or_topic": "SGB II",
+      "relation": "same_norm_family",
+      "review": "candidate_context_only",
+      "identity_claim": false,
+      "verified_rule_identity": false
+    },
+    {
+      "practice_id": "PRX-DE-05",
+      "authority_ref": "DE-J-04",
+      "norm_or_topic": "SGB VIII § 8a / LKG NRW",
+      "relation": "same_function_and_state",
+      "review": "candidate_needs_page_review",
+      "identity_claim": false,
+      "verified_rule_identity": false
+    },
+    {
+      "practice_id": "PRX-DE-06",
+      "authority_ref": "DE-J-03",
+      "norm_or_topic": "SGB VIII Hilfeplanung",
+      "relation": "same_function",
+      "review": "candidate_context_only",
+      "identity_claim": false,
+      "verified_rule_identity": false
+    },
+    {
+      "practice_id": "PRX-DE-08",
+      "authority_ref": "DE-G-04",
+      "norm_or_topic": "IfSG Hygiene",
+      "relation": "same_general_field_not_same_instruction",
+      "review": "related_only",
+      "identity_claim": false,
+      "verified_rule_identity": false
+    },
+    {
+      "practice_id": "PRX-DE-09",
+      "authority_ref": "DE-G-01",
+      "norm_or_topic": "Legionellose",
+      "relation": "same_official_guide",
+      "review": "direct_source_family",
+      "identity_claim": false,
+      "verified_rule_identity": false
+    },
+    {
+      "practice_id": "PRX-CH-01",
+      "authority_ref": "CH-J-01",
+      "norm_or_topic": "Kindesunterhalt / Sozialhilfe",
+      "relation": "cross_domain_case_not_same_authority",
+      "review": "analogy_only",
+      "identity_claim": false,
+      "verified_rule_identity": false
+    }
+  ],
+  "reviewed_identity_links": 0
+}
