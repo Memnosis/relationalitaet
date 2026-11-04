@@ -1,0 +1,543 @@
+{
+  "schema": "bki-goal-lexicon/0.1",
+  "date": "2026-11-05",
+  "status": "seed_draft_not_fachlich_abgenommen",
+  "paper": "../../forschung/buerger-ki/KERNPAPER_ZIEL_HANDLUNGSATLAS_LEXIKON_META_V0_1.md",
+  "source_policy": "BKI-WA-RED-001",
+  "concepts": [
+    {
+      "id": "BKI-C001",
+      "label": "Bewilligung",
+      "description_own": "Eine behördliche Entscheidung, durch die eine beantragte Leistung oder Berechtigung zugesprochen wird; nicht identisch mit tatsächlichem Erhalt.",
+      "aliases": [
+        "Zusage",
+        "Genehmigung"
+      ],
+      "domain": "administrative_decision",
+      "jurisdictions": [
+        "DE"
+      ],
+      "official_urls": [
+        "https://www.gesetze-im-internet.de/vwvfg/__35.html"
+      ],
+      "wikipedia_url": "https://de.wikipedia.org/wiki/Verwaltungsakt",
+      "wikidata_qid": null,
+      "wikidata_identity_status": "not_checked",
+      "review_status": "draft_unreviewed",
+      "text_copied": false
+    },
+    {
+      "id": "BKI-C002",
+      "label": "Leistungserfüllung",
+      "description_own": "Der tatsächlich erreichte Zustand, in dem eine geschuldete Leistung entsprechend ihrem maßgeblichen Inhalt erbracht wurde.",
+      "aliases": [
+        "Erfüllung",
+        "Auszahlung"
+      ],
+      "domain": "outcome",
+      "jurisdictions": [
+        "DE"
+      ],
+      "official_urls": [],
+      "wikipedia_url": null,
+      "wikidata_qid": null,
+      "wikidata_identity_status": "not_checked",
+      "review_status": "draft_unreviewed",
+      "text_copied": false
+    },
+    {
+      "id": "BKI-C003",
+      "label": "Verwaltungsakt",
+      "description_own": "Rechtlich besonders definierte behördliche Regelung mit Außenwirkung; konkrete Merkmale hängen vom einschlägigen Verfahrensrecht ab.",
+      "aliases": [
+        "Bescheid"
+      ],
+      "domain": "legal_procedure",
+      "jurisdictions": [
+        "DE"
+      ],
+      "official_urls": [
+        "https://www.gesetze-im-internet.de/vwvfg/__35.html"
+      ],
+      "wikipedia_url": "https://de.wikipedia.org/wiki/Verwaltungsakt",
+      "wikidata_qid": null,
+      "wikidata_identity_status": "not_checked",
+      "review_status": "draft_unreviewed",
+      "text_copied": false
+    },
+    {
+      "id": "BKI-C004",
+      "label": "Verwaltungsvorschrift",
+      "description_own": "Regelung für die verwaltungsinterne Anwendung; der konkrete Rechtscharakter und Adressatenkreis sind gesondert zu prüfen.",
+      "aliases": [
+        "Dienstanweisung",
+        "Vollzugshinweis"
+      ],
+      "domain": "administration",
+      "jurisdictions": [
+        "DE"
+      ],
+      "official_urls": [
+        "https://www.verwaltungsvorschriften-im-internet.de/"
+      ],
+      "wikipedia_url": "https://de.wikipedia.org/wiki/Verwaltungsvorschrift",
+      "wikidata_qid": null,
+      "wikidata_identity_status": "not_checked",
+      "review_status": "draft_unreviewed",
+      "text_copied": false
+    },
+    {
+      "id": "BKI-C005",
+      "label": "Zuständigkeit",
+      "description_own": "Zuordnung einer Aufgabe oder Befugnis zu einer Stelle nach anwendbarer organisatorischer und fachlicher Regelung.",
+      "aliases": [
+        "zuständige Behörde",
+        "Anlaufstelle"
+      ],
+      "domain": "administration",
+      "jurisdictions": [
+        "DE",
+        "AT",
+        "CH"
+      ],
+      "official_urls": [
+        "https://docs.fitko.de/fim/docs/leistungen_neu/klickpfad/erlaeuterungen/begriffe/"
+      ],
+      "wikipedia_url": "https://de.wikipedia.org/wiki/Zust%C3%A4ndigkeit",
+      "wikidata_qid": null,
+      "wikidata_identity_status": "not_checked",
+      "review_status": "draft_unreviewed",
+      "text_copied": false
+    },
+    {
+      "id": "BKI-C006",
+      "label": "Leistungsobjekt",
+      "description_own": "Im FIM-Kontext der Gegenstand, auf den sich eine mögliche Verwaltungsleistung bezieht, nicht die konkrete behördliche Verrichtung.",
+      "aliases": [
+        "Leistungsgegenstand"
+      ],
+      "domain": "FIM",
+      "jurisdictions": [
+        "DE"
+      ],
+      "official_urls": [
+        "https://docs.fitko.de/fim/docs/leistungen_neu/klickpfad/erlaeuterungen/begriffe/"
+      ],
+      "wikipedia_url": null,
+      "wikidata_qid": null,
+      "wikidata_identity_status": "not_checked",
+      "review_status": "draft_unreviewed",
+      "text_copied": false
+    },
+    {
+      "id": "BKI-C007",
+      "label": "Verrichtung",
+      "description_own": "Im FIM-Kontext die behördliche Tätigkeit zu einem Leistungsobjekt; mit dem Gegenstand der Leistung nicht zu verwechseln.",
+      "aliases": [
+        "Verfahrenshandlung"
+      ],
+      "domain": "FIM",
+      "jurisdictions": [
+        "DE"
+      ],
+      "official_urls": [
+        "https://docs.fitko.de/fim/docs/leistungen_neu/klickpfad/erlaeuterungen/begriffe/"
+      ],
+      "wikipedia_url": null,
+      "wikidata_qid": null,
+      "wikidata_identity_status": "not_checked",
+      "review_status": "draft_unreviewed",
+      "text_copied": false
+    },
+    {
+      "id": "BKI-C008",
+      "label": "Amtsermittlung",
+      "description_own": "Funktion behördlicher Sachverhaltsaufklärung; die geltenden Pflichten unterscheiden sich nach VwVfG, SGB X oder AO.",
+      "aliases": [
+        "Sachverhaltsermittlung"
+      ],
+      "domain": "cross_law_function",
+      "jurisdictions": [
+        "DE"
+      ],
+      "official_urls": [
+        "https://www.gesetze-im-internet.de/vwvfg/__24.html",
+        "https://www.gesetze-im-internet.de/sgb_10/__20.html",
+        "https://www.gesetze-im-internet.de/ao_1977/__88.html"
+      ],
+      "wikipedia_url": "https://de.wikipedia.org/wiki/Untersuchungsgrundsatz",
+      "wikidata_qid": null,
+      "wikidata_identity_status": "not_checked",
+      "review_status": "draft_unreviewed",
+      "text_copied": false
+    },
+    {
+      "id": "BKI-C009",
+      "label": "Jugendamt",
+      "description_own": "Deutsche Jugendhilfebehörde mit Aufgaben nach SGB VIII, nicht begriffsgleich mit Kindesschutzstellen in anderen Staaten.",
+      "aliases": [
+        "Jugendhilfeamt"
+      ],
+      "domain": "child_welfare",
+      "jurisdictions": [
+        "DE"
+      ],
+      "official_urls": [
+        "https://www.gesetze-im-internet.de/sgb_8/"
+      ],
+      "wikipedia_url": "https://de.wikipedia.org/wiki/Jugendamt",
+      "wikidata_qid": null,
+      "wikidata_identity_status": "not_checked",
+      "review_status": "draft_unreviewed",
+      "text_copied": false
+    },
+    {
+      "id": "BKI-C010",
+      "label": "KESB",
+      "description_own": "Schweizer Kindes- und Erwachsenenschutzbehörde mit schweizerischem Rechts- und Organisationsrahmen, nicht identisch mit dem deutschen Jugendamt.",
+      "aliases": [
+        "Kindesschutzbehörde"
+      ],
+      "domain": "child_welfare",
+      "jurisdictions": [
+        "CH"
+      ],
+      "official_urls": [
+        "https://www.kokes.ch/de/publikationen/praxisanleitung-kindesschutzrecht-mit-mustern"
+      ],
+      "wikipedia_url": "https://de.wikipedia.org/wiki/Kindes-_und_Erwachsenenschutzbeh%C3%B6rde",
+      "wikidata_qid": null,
+      "wikidata_identity_status": "not_checked",
+      "review_status": "draft_unreviewed",
+      "text_copied": false
+    },
+    {
+      "id": "BKI-C011",
+      "label": "Erfolgskriterium",
+      "description_own": "Vor einer Prüfung explizit bestimmtes Merkmal, anhand dessen ein Ziel als erreicht, teilweise erreicht oder unerreicht gilt.",
+      "aliases": [
+        "Zielerfüllungskriterium"
+      ],
+      "domain": "meta_goal",
+      "jurisdictions": [
+        "INT"
+      ],
+      "official_urls": [],
+      "wikipedia_url": null,
+      "wikidata_qid": null,
+      "wikidata_identity_status": "not_checked",
+      "review_status": "draft_unreviewed",
+      "text_copied": false
+    },
+    {
+      "id": "BKI-C012",
+      "label": "Handlungsoption",
+      "description_own": "Eine unter bestimmten Voraussetzungen mögliche Vorgehensweise, deren Eignung und Zulässigkeit gesondert geprüft werden.",
+      "aliases": [
+        "Lösungsweg",
+        "Alternative"
+      ],
+      "domain": "meta_goal",
+      "jurisdictions": [
+        "INT"
+      ],
+      "official_urls": [],
+      "wikipedia_url": null,
+      "wikidata_qid": null,
+      "wikidata_identity_status": "not_checked",
+      "review_status": "draft_unreviewed",
+      "text_copied": false
+    }
+  ],
+  "goals": [
+    {
+      "id": "BKI-G001",
+      "label": "Eine bewilligte Leistung tatsächlich erhalten",
+      "intended_outcome": "Tatsächliche Erfüllung statt bloßer formaler Zusage prüfen",
+      "concept_ids": [
+        "BKI-C001",
+        "BKI-C002",
+        "BKI-C011"
+      ],
+      "subgoal_ids": [
+        "BKI-G002"
+      ],
+      "success_criteria": [
+        "Ergebnis und Einschränkungen quellenbezogen geprüft"
+      ],
+      "alternative_paths": [],
+      "validation": "draft",
+      "skill_ids": []
+    },
+    {
+      "id": "BKI-G002",
+      "label": "Verfahrensstand verstehen",
+      "intended_outcome": "Bewilligung, Fälligkeit, Auszahlung und Nachweis auseinanderhalten",
+      "concept_ids": [
+        "BKI-C001",
+        "BKI-C003"
+      ],
+      "subgoal_ids": [],
+      "success_criteria": [
+        "Ergebnis und Einschränkungen quellenbezogen geprüft"
+      ],
+      "alternative_paths": [],
+      "validation": "draft",
+      "skill_ids": []
+    },
+    {
+      "id": "BKI-G003",
+      "label": "Passende Stelle finden",
+      "intended_outcome": "Für eine definierte Aufgabe eine belegbar zuständige Anlaufstelle identifizieren",
+      "concept_ids": [
+        "BKI-C005",
+        "BKI-C006",
+        "BKI-C007"
+      ],
+      "subgoal_ids": [],
+      "success_criteria": [
+        "Ergebnis und Einschränkungen quellenbezogen geprüft"
+      ],
+      "alternative_paths": [],
+      "validation": "draft",
+      "skill_ids": []
+    },
+    {
+      "id": "BKI-G004",
+      "label": "Behördliche Aussage überprüfen",
+      "intended_outcome": "Rechtsregime, Quelle, Verfahren und behauptete Handlungsfolge nachvollziehen",
+      "concept_ids": [
+        "BKI-C003",
+        "BKI-C004",
+        "BKI-C008"
+      ],
+      "subgoal_ids": [],
+      "success_criteria": [
+        "Ergebnis und Einschränkungen quellenbezogen geprüft"
+      ],
+      "alternative_paths": [],
+      "validation": "draft",
+      "skill_ids": []
+    },
+    {
+      "id": "BKI-G005",
+      "label": "Hilfen für Kinder und Familien verstehen",
+      "intended_outcome": "Unterstützung, Zuständigkeiten und Verfahrensunterschiede nach Rechtsraum unterscheiden",
+      "concept_ids": [
+        "BKI-C009",
+        "BKI-C010"
+      ],
+      "subgoal_ids": [],
+      "success_criteria": [
+        "Ergebnis und Einschränkungen quellenbezogen geprüft"
+      ],
+      "alternative_paths": [],
+      "validation": "draft",
+      "skill_ids": []
+    },
+    {
+      "id": "BKI-G006",
+      "label": "Alternative Handlungswege vergleichen",
+      "intended_outcome": "Mehrere fachlich mögliche Lösungswege samt Bedingungen untersuchen",
+      "concept_ids": [
+        "BKI-C011",
+        "BKI-C012"
+      ],
+      "subgoal_ids": [],
+      "success_criteria": [
+        "Ergebnis und Einschränkungen quellenbezogen geprüft"
+      ],
+      "alternative_paths": [],
+      "validation": "draft",
+      "skill_ids": []
+    },
+    {
+      "id": "BKI-G007",
+      "label": "Einen unbekannten Fachbegriff erschließen",
+      "intended_outcome": "Mehrdeutigkeit, Kontext und Quellen der Begriffsverwendung identifizieren",
+      "concept_ids": [
+        "BKI-C005",
+        "BKI-C011"
+      ],
+      "subgoal_ids": [],
+      "success_criteria": [
+        "Ergebnis und Einschränkungen quellenbezogen geprüft"
+      ],
+      "alternative_paths": [],
+      "validation": "draft",
+      "skill_ids": []
+    },
+    {
+      "id": "BKI-G008",
+      "label": "Unvollständiges Verwaltungswissen erkennen",
+      "intended_outcome": "Evidenzlücken, Zeitstände und ungeklärte Zuständigkeitsketten sichtbar machen",
+      "concept_ids": [
+        "BKI-C004",
+        "BKI-C008"
+      ],
+      "subgoal_ids": [],
+      "success_criteria": [
+        "Ergebnis und Einschränkungen quellenbezogen geprüft"
+      ],
+      "alternative_paths": [],
+      "validation": "draft",
+      "skill_ids": []
+    }
+  ],
+  "relations": [
+    {
+      "subject": "BKI-C001",
+      "predicate": "distinct_from",
+      "object": "BKI-C002",
+      "reason": "Bewilligung begründet nicht automatisch Vollzug der Leistung",
+      "review_status": "draft_needs_independent_check"
+    },
+    {
+      "subject": "BKI-C006",
+      "predicate": "distinct_from",
+      "object": "BKI-C007",
+      "reason": "FIM Gegenstand vs Tätigkeit",
+      "review_status": "draft_needs_independent_check"
+    },
+    {
+      "subject": "BKI-C009",
+      "predicate": "functional_analogy_not_identity",
+      "object": "BKI-C010",
+      "reason": "DE/CH Aufgabenraum unterscheidet sich",
+      "review_status": "draft_needs_independent_check"
+    },
+    {
+      "subject": "BKI-C008",
+      "predicate": "has_domain_variant",
+      "object": "BKI-C003",
+      "reason": "Verfahrensrecht vor Anwendung bestimmen",
+      "review_status": "draft_needs_independent_check"
+    },
+    {
+      "subject": "BKI-G001",
+      "predicate": "uses_concept",
+      "object": "BKI-C002",
+      "reason": "Erfolg ist reale Erfüllung",
+      "review_status": "draft_needs_independent_check"
+    },
+    {
+      "subject": "BKI-G003",
+      "predicate": "uses_concept",
+      "object": "BKI-C005",
+      "reason": "Zuständigkeit wird geprüft",
+      "review_status": "draft_needs_independent_check"
+    },
+    {
+      "subject": "BKI-G007",
+      "predicate": "uses_concept",
+      "object": "BKI-C011",
+      "reason": "Verstehen selbst ist Ergebnis",
+      "review_status": "draft_needs_independent_check"
+    }
+  ],
+  "tests": [
+    {
+      "id": "BKI-ZHA-T01",
+      "question": "Was ist der Unterschied zwischen Bewilligung und Auszahlung?",
+      "concept_ids": [
+        "BKI-C001",
+        "BKI-C002"
+      ],
+      "negative_constraint": "do_not_equate",
+      "strategies": [
+        "S0_direct",
+        "S1_lexicon",
+        "S2_goal",
+        "S3_source_review"
+      ],
+      "gold_review_status": "not_prepared",
+      "execution_status": "not_run"
+    },
+    {
+      "id": "BKI-ZHA-T02",
+      "question": "Welche Stelle ist für die Meldebescheinigung zuständig?",
+      "concept_ids": [
+        "BKI-C005",
+        "BKI-C006",
+        "BKI-C007"
+      ],
+      "negative_constraint": "cannot_invent_local_office",
+      "strategies": [
+        "S0_direct",
+        "S1_lexicon",
+        "S2_goal",
+        "S3_source_review"
+      ],
+      "gold_review_status": "not_prepared",
+      "execution_status": "not_run"
+    },
+    {
+      "id": "BKI-ZHA-T03",
+      "question": "Ist eine interne Weisung automatisch ein Gesetz?",
+      "concept_ids": [
+        "BKI-C004",
+        "BKI-C003"
+      ],
+      "negative_constraint": "do_not_equate",
+      "strategies": [
+        "S0_direct",
+        "S1_lexicon",
+        "S2_goal",
+        "S3_source_review"
+      ],
+      "gold_review_status": "not_prepared",
+      "execution_status": "not_run"
+    },
+    {
+      "id": "BKI-ZHA-T04",
+      "question": "Welche Hilfen stehen Familien offen?",
+      "concept_ids": [
+        "BKI-C009",
+        "BKI-C012"
+      ],
+      "negative_constraint": "missing_context_not_false_certainty",
+      "strategies": [
+        "S0_direct",
+        "S1_lexicon",
+        "S2_goal",
+        "S3_source_review"
+      ],
+      "gold_review_status": "not_prepared",
+      "execution_status": "not_run"
+    },
+    {
+      "id": "BKI-ZHA-T05",
+      "question": "Sind Jugendamt und KESB dasselbe?",
+      "concept_ids": [
+        "BKI-C009",
+        "BKI-C010"
+      ],
+      "negative_constraint": "different_jurisdictions",
+      "strategies": [
+        "S0_direct",
+        "S1_lexicon",
+        "S2_goal",
+        "S3_source_review"
+      ],
+      "gold_review_status": "not_prepared",
+      "execution_status": "not_run"
+    },
+    {
+      "id": "BKI-ZHA-T06",
+      "question": "Welche Amtsermittlung ist hier vorgeschrieben?",
+      "concept_ids": [
+        "BKI-C008"
+      ],
+      "negative_constraint": "must_identify_legal_regime",
+      "strategies": [
+        "S0_direct",
+        "S1_lexicon",
+        "S2_goal",
+        "S3_source_review"
+      ],
+      "gold_review_status": "not_prepared",
+      "execution_status": "not_run"
+    }
+  ],
+  "executions": []
+}
