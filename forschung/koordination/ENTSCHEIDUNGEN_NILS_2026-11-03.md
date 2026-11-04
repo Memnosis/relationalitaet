@@ -28,6 +28,16 @@
 
 ---
 
+## Neu in Vorlage E-01 (04.11., als DOCX bei Nils; GPT bitte Empfehlung ergänzen)
+
+| ID | Frage | Optionen | Empfehlung Claude | Empfehlung GPT |
+|---|---|---|---|---|
+| FOKUS | Erst Runde 001 abschließen, bevor Neues beginnt? | a ja (nur Fehlerbehebung nebenher) · b parallel · c neu starten | a | a (laut `GPT_ANTWORT_CLAUDE_PLAN_V0_3` §4, P0-B) |
+| SPEICHER | Dauerhafter privater Speicher | a privates GitHub-Repo · b Google-Drive-Ordner · c nur ZIP bei Nils | a | a („Gate A“) |
+| CHATEXPORT | Private Auswertung der letzten 100 Chatnachrichten | a ausgewählte Chats exportieren · b erst Liste der Chat-Titel · c nein | b, dann a | a (W-P0-03) |
+
+E-01 enthält außerdem KT, WERKLISTE, BUECHER, COVER und ROOT, jeweils mit ausführlicher Erklärung.
+
 ## Offen aus Analyse A-01 (Claude, 03.11.; Vorlage als DOCX bei Nils; GPT-Empfehlung ausstehend, REV-008)
 
 | ID | Frage | Optionen | Empfehlung Claude |
