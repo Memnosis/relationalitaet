@@ -99,22 +99,22 @@
   },
   {
    "id": "BEF-T007",
-   "aussage": "F034 Reaktionskinetik ist Spezialfall von F096 Verfahrenstechnik (F=0, r=S·v, V≠0)",
+   "aussage": "F034 Reaktionskinetik ist Spezialfall von F096 Verfahrenstechnik (F=0, r=S·v, V≠0); im ganzen 103er-Inventar die EINZIGE Formelbrücke mit gleicher Zustandsgröße (c) unter d/dt",
    "art": "gegenprobe",
    "betrifft": [
     "FACH-F034",
     "FACH-F096"
    ],
-   "nachweis": "bruecke_f034_f096.py (Claude) + GPT-Befund 04.11. 01:36",
+   "nachweis": "bruecke_f034_f096.py; Formelanker in docs/data/tensor-inventar-v10_7.json (ce74166) stimmen mit GPT-Zitat überein; ANALYSE_103_V0_1.json",
    "reifegrad": "E2→E3 nach SHA-Beleg GPT",
    "belegart": "D",
-   "naechster_schritt": "Primärakte v10.7 abgleichen",
+   "naechster_schritt": "GPT belegt eigenen Rechenweg mit SHA → E3",
    "nils_frage": null,
    "public_release": "not_approved"
   },
   {
    "id": "BEF-T008",
-   "aussage": "FACH-F054 Epidemiologie: Achse 1 = Achse 3 wortgleich (A1 verletzt, ≤18 statt 27 unterscheidbare Felder)",
+   "aussage": "FACH-F054 Epidemiologie: Achse 1 = Achse 3 wortgleich (A1 verletzt, ≤18 statt 27 unterscheidbare Felder) – im 103er-Inventar der EINZIGE Fall identischer Achsen (1/103)",
    "art": "struktur",
    "betrifft": [
     "FACH-F054"
@@ -229,6 +229,63 @@
    "belegart": "B",
    "naechster_schritt": "Frage: Wofür steht TM?",
    "nils_frage": "TM",
+   "public_release": "not_approved"
+  },
+  {
+   "id": "BEF-T016",
+   "aussage": "Kandidatenachsen nicht unabhängig: In 44 von 103 Gerüsten teilt eine neue Kandidatenachse (A2/A3) eine Rolle mit der vorgeprüften Achse A1; alle 53 Überschneidungen liegen zwischen A1 und A2/A3, keine zwischen A2 und A3",
+   "art": "struktur",
+   "betrifft": [
+    "103 Gerüste"
+   ],
+   "nachweis": "ANALYSE_103_V0_1.json → a1_teil, teilueberschneidung_achsenpaare",
+   "reifegrad": "E2",
+   "belegart": "D",
+   "naechster_schritt": "Entstehung der Kandidatenachsen klären (maschinell aus A1 abgeleitet?); Rollen ersetzen oder Doppelung begründen",
+   "nils_frage": null,
+   "public_release": "not_approved"
+  },
+  {
+   "id": "BEF-T017",
+   "aussage": "Die 103 historischen Gerüste enthalten keine Pfade; die Pfadmuster M1–M9 und Regel U sind dort NICHT prüfbar",
+   "art": "struktur",
+   "betrifft": [
+    "103 Gerüste"
+   ],
+   "nachweis": "ANALYSE_103_V0_1.json",
+   "reifegrad": "E2",
+   "belegart": "D",
+   "naechster_schritt": "Pfade für ausgewählte Gerüste erst erarbeiten (Feldtheorie-Verfahren §3)",
+   "nils_frage": null,
+   "public_release": "not_approved"
+  },
+  {
+   "id": "BEF-T018",
+   "aussage": "Nur 2 von 309 Achsen tragen die neutrale Tensorsprache (Logik F001: Rel0/Rel-Rel/Rel1 und Struktur/Funktion/Relation); alle anderen sind fachspezifisch – die Zuordnung Fachachse → (M, K, S) ist nirgends festgelegt",
+   "art": "struktur",
+   "betrifft": [
+    "103 Gerüste"
+   ],
+   "nachweis": "ANALYSE_103_V0_1.json → neutrale_achsen",
+   "reifegrad": "E2",
+   "belegart": "D",
+   "naechster_schritt": "Abbildung Fachachse → M/K/S je Gerüst festlegen (Voraussetzung für 27-Adress-Algebra)",
+   "nils_frage": null,
+   "public_release": "not_approved"
+  },
+  {
+   "id": "BEF-T019",
+   "aussage": "Rekonstruktion REV-04 als Nernst-Gleichung durch die Quelle gestützt: Formelanker F035 Elektrochemie „E=E°−RT/(nF)ln Q“",
+   "art": "gegenprobe",
+   "betrifft": [
+    "FACH-F035",
+    "REV-04"
+   ],
+   "nachweis": "tensor-inventar-v10_7.json; register/gegenrechnung/rev_rueckrechnungen.py",
+   "reifegrad": "E2",
+   "belegart": "D",
+   "naechster_schritt": "REV-04 von „Annahme“ auf „durch Formelanker gestützt“ setzen",
+   "nils_frage": null,
    "public_release": "not_approved"
   }
  ]

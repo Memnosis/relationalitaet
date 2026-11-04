@@ -31,6 +31,7 @@ SCHRITTE = [
     ("Typisierte Tensoralgebra (23)", ["forschung/tensor/algebra-claude/tests/test_typalgebra.py"], "OK"),
     ("Algebra-Lauf über alle veröffentlichten Tensoren", ["forschung/tensor/algebra-claude/lauf_alle.py"], "Gesamt: OK"),
     ("Musteranalyse M1–M9 über alle Tensoren", ["forschung/tensor/algebra-claude/muster.py"], "Gesamt: OK"),
+    ("Analyse der 103 historischen Gerüste", ["forschung/tensor/algebra-claude/analyse_103.py"], "Gesamt: OK"),
     ("Brücke F034/F096 (sympy)", ["forschung/tensor/algebra-claude/bruecke_f034_f096.py"], "Gesamt: OK"),
     ("Gegenrechnung GR-01: 7 DLMF-Identitäten (sympy)", ["forschung/register/gegenrechnung/dlmf_v6_6_gegenrechnung.py"], "Gesamt: OK"),
     ("Gegenrechnung GR-02: REV-01..08 (sympy)", ["forschung/register/gegenrechnung/rev_rueckrechnungen.py"], "Gesamt: OK"),

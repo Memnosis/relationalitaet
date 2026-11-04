@@ -1,0 +1,941 @@
+{
+ "schema_version": "analyse-103/0.1",
+ "owner": "claude",
+ "quelle": "docs/data/tensor-inventar-v10_7.json",
+ "quelle_commit": "ce74166",
+ "zusammenfassung": {
+  "gerueste": 103,
+  "achsen": 309,
+  "a1_identische_achsen": 1,
+  "a1_teilueberschneidungen": 53,
+  "formelanker_vorhanden": 100,
+  "formeltypen": {
+   "verhaeltnis": 34,
+   "potenzgesetz": 9,
+   "dynamik_ode": 7,
+   "logarithmisch": 6,
+   "summe_bilanz": 6,
+   "linear_matrix": 3,
+   "exponentiell": 2
+  },
+  "brueckenkandidaten_gleiche_zustandsgroesse": 1,
+  "neutrale_achsen": 2,
+  "pfade_im_inventar": 0,
+  "M1_M9_pruefbar": false,
+  "hinweis": "Keine Pfade im Inventar: Pfadmuster und Regel U sind an den 103 Gerüsten NICHT prüfbar. Lexikalische und Formelbefunde sind Kandidaten, keine Belege."
+ },
+ "a1": [
+  {
+   "tensor": "FACH-F054",
+   "name": "Epidemiologie",
+   "regel": "A1",
+   "achsen": [
+    "A1",
+    "A3"
+   ],
+   "rollen": [
+    "Suszeptible",
+    "Infizierte",
+    "Genesene"
+   ],
+   "folge": "Felder (x, y, z) und (z, y, x) fallen inhaltlich zusammen; effektiv höchstens 18 statt 27 unterscheidbare Felder"
+  }
+ ],
+ "a1_teil": [
+  {
+   "tensor": "FACH-F005",
+   "name": "Analysis",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "ableitung"
+   ]
+  },
+  {
+   "tensor": "FACH-F008",
+   "name": "Topologie",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "stetigkeit"
+   ]
+  },
+  {
+   "tensor": "FACH-F008",
+   "name": "Topologie",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A3"
+   ],
+   "gemeinsam": [
+    "homotopie"
+   ]
+  },
+  {
+   "tensor": "FACH-F011",
+   "name": "Klassische Mechanik",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "hamiltonfunktion"
+   ]
+  },
+  {
+   "tensor": "FACH-F012",
+   "name": "Kontinuumsmechanik",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "spannung"
+   ]
+  },
+  {
+   "tensor": "FACH-F013",
+   "name": "Elektrodynamik",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "feldtensor"
+   ]
+  },
+  {
+   "tensor": "FACH-F017",
+   "name": "Quantenfeldtheorie",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "korrelator"
+   ]
+  },
+  {
+   "tensor": "FACH-F018",
+   "name": "Starke Wechselwirkung",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "farbladung"
+   ]
+  },
+  {
+   "tensor": "FACH-F020",
+   "name": "Thermische Physik",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "mikrozustand"
+   ]
+  },
+  {
+   "tensor": "FACH-F020",
+   "name": "Thermische Physik",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A3"
+   ],
+   "gemeinsam": [
+    "freie energie"
+   ]
+  },
+  {
+   "tensor": "FACH-F022",
+   "name": "Kosmologie",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "skalenfaktor"
+   ]
+  },
+  {
+   "tensor": "FACH-F025",
+   "name": "Supraleitung",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "ordnungsparameter"
+   ]
+  },
+  {
+   "tensor": "FACH-F027",
+   "name": "Plasmaphysik",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A3"
+   ],
+   "gemeinsam": [
+    "feld"
+   ]
+  },
+  {
+   "tensor": "FACH-F028",
+   "name": "Fluiddynamik",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A3"
+   ],
+   "gemeinsam": [
+    "viskosität"
+   ]
+  },
+  {
+   "tensor": "FACH-F029",
+   "name": "Akustik",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "druckstörung"
+   ]
+  },
+  {
+   "tensor": "FACH-F031",
+   "name": "Quantenchemie",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "energie"
+   ]
+  },
+  {
+   "tensor": "FACH-F031",
+   "name": "Quantenchemie",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A3"
+   ],
+   "gemeinsam": [
+    "elektronendichte"
+   ]
+  },
+  {
+   "tensor": "FACH-F033",
+   "name": "Thermodynamische Chemie",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "chemisches potential"
+   ]
+  },
+  {
+   "tensor": "FACH-F042",
+   "name": "Genetik",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "genotyp"
+   ]
+  },
+  {
+   "tensor": "FACH-F042",
+   "name": "Genetik",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A3"
+   ],
+   "gemeinsam": [
+    "phänotyp"
+   ]
+  },
+  {
+   "tensor": "FACH-F045",
+   "name": "Biophysik",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "konformation"
+   ]
+  },
+  {
+   "tensor": "FACH-F046",
+   "name": "Evolution",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "variation"
+   ]
+  },
+  {
+   "tensor": "FACH-F046",
+   "name": "Evolution",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A3"
+   ],
+   "gemeinsam": [
+    "selektion"
+   ]
+  },
+  {
+   "tensor": "FACH-F047",
+   "name": "Ökologie",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "population"
+   ]
+  },
+  {
+   "tensor": "FACH-F048",
+   "name": "Mikrobiologie",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "wachstum"
+   ]
+  },
+  {
+   "tensor": "FACH-F048",
+   "name": "Mikrobiologie",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A3"
+   ],
+   "gemeinsam": [
+    "hemmung"
+   ]
+  },
+  {
+   "tensor": "FACH-F053",
+   "name": "Pharmakodynamik",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "rezeptorbelegung"
+   ]
+  },
+  {
+   "tensor": "FACH-F057",
+   "name": "Neurowissenschaften",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A3"
+   ],
+   "gemeinsam": [
+    "verhalten"
+   ]
+  },
+  {
+   "tensor": "FACH-F058",
+   "name": "Diagnostik",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "sensitivität"
+   ]
+  },
+  {
+   "tensor": "FACH-F061",
+   "name": "Algorithmen",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A3"
+   ],
+   "gemeinsam": [
+    "algorithmus"
+   ]
+  },
+  {
+   "tensor": "FACH-F065",
+   "name": "Deep Learning",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "repräsentation"
+   ]
+  },
+  {
+   "tensor": "FACH-F067",
+   "name": "Reinforcement Learning",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A3"
+   ],
+   "gemeinsam": [
+    "belohnung"
+   ]
+  },
+  {
+   "tensor": "FACH-F072",
+   "name": "Phonologie",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "phonem"
+   ]
+  },
+  {
+   "tensor": "FACH-F073",
+   "name": "Morphologie",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "morphem"
+   ]
+  },
+  {
+   "tensor": "FACH-F074",
+   "name": "Syntax",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "konstituente"
+   ]
+  },
+  {
+   "tensor": "FACH-F075",
+   "name": "Semantik",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "ausdruck"
+   ]
+  },
+  {
+   "tensor": "FACH-F076",
+   "name": "Pragmatik",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "äußerung"
+   ]
+  },
+  {
+   "tensor": "FACH-F078",
+   "name": "Kognitionspsychologie",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "reiz"
+   ]
+  },
+  {
+   "tensor": "FACH-F078",
+   "name": "Kognitionspsychologie",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A3"
+   ],
+   "gemeinsam": [
+    "entscheidung"
+   ]
+  },
+  {
+   "tensor": "FACH-F080",
+   "name": "Didaktik",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A3"
+   ],
+   "gemeinsam": [
+    "intervention"
+   ]
+  },
+  {
+   "tensor": "FACH-F083",
+   "name": "Finanzwissenschaft",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "risiko"
+   ]
+  },
+  {
+   "tensor": "FACH-F084",
+   "name": "Soziologie",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "akteur"
+   ]
+  },
+  {
+   "tensor": "FACH-F085",
+   "name": "Politikwissenschaft",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A3"
+   ],
+   "gemeinsam": [
+    "institution"
+   ]
+  },
+  {
+   "tensor": "FACH-F087",
+   "name": "Ökonometrie",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A3"
+   ],
+   "gemeinsam": [
+    "schätzung"
+   ]
+  },
+  {
+   "tensor": "FACH-F088",
+   "name": "Kommunikationswissenschaft",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A3"
+   ],
+   "gemeinsam": [
+    "rezeption"
+   ]
+  },
+  {
+   "tensor": "FACH-F089",
+   "name": "Anthropologie",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "praxis"
+   ]
+  },
+  {
+   "tensor": "FACH-F089",
+   "name": "Anthropologie",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A3"
+   ],
+   "gemeinsam": [
+    "bedeutung"
+   ]
+  },
+  {
+   "tensor": "FACH-F094",
+   "name": "Bauingenieurwesen",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A3"
+   ],
+   "gemeinsam": [
+    "verformung"
+   ]
+  },
+  {
+   "tensor": "FACH-F095",
+   "name": "Energietechnik",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "nutzenergie"
+   ]
+  },
+  {
+   "tensor": "FACH-F097",
+   "name": "Landwirtschaft",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A3"
+   ],
+   "gemeinsam": [
+    "ertrag"
+   ]
+  },
+  {
+   "tensor": "FACH-F098",
+   "name": "Umwelttechnik",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A3"
+   ],
+   "gemeinsam": [
+    "exposition"
+   ]
+  },
+  {
+   "tensor": "FACH-F099",
+   "name": "Designwissenschaft",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A2"
+   ],
+   "gemeinsam": [
+    "anforderung"
+   ]
+  },
+  {
+   "tensor": "FACH-F099",
+   "name": "Designwissenschaft",
+   "regel": "A1-teil",
+   "achsen": [
+    "A1",
+    "A3"
+   ],
+   "gemeinsam": [
+    "prototyp"
+   ]
+  }
+ ],
+ "formeltypen": {
+  "FACH-F001": [],
+  "FACH-F002": [],
+  "FACH-F003": [],
+  "FACH-F004": [
+   "linear_matrix"
+  ],
+  "FACH-F005": [],
+  "FACH-F006": [],
+  "FACH-F007": [],
+  "FACH-F008": [],
+  "FACH-F009": [],
+  "FACH-F010": [],
+  "FACH-F011": [
+   "verhaeltnis"
+  ],
+  "FACH-F012": [],
+  "FACH-F013": [],
+  "FACH-F014": [
+   "potenzgesetz"
+  ],
+  "FACH-F015": [],
+  "FACH-F016": [],
+  "FACH-F017": [
+   "exponentiell"
+  ],
+  "FACH-F018": [
+   "verhaeltnis"
+  ],
+  "FACH-F019": [
+   "verhaeltnis"
+  ],
+  "FACH-F020": [
+   "logarithmisch"
+  ],
+  "FACH-F021": [
+   "potenzgesetz",
+   "verhaeltnis"
+  ],
+  "FACH-F022": [
+   "potenzgesetz",
+   "verhaeltnis"
+  ],
+  "FACH-F023": [
+   "verhaeltnis"
+  ],
+  "FACH-F024": [
+   "potenzgesetz",
+   "verhaeltnis"
+  ],
+  "FACH-F025": [],
+  "FACH-F026": [],
+  "FACH-F027": [
+   "verhaeltnis"
+  ],
+  "FACH-F028": [
+   "potenzgesetz",
+   "verhaeltnis"
+  ],
+  "FACH-F029": [
+   "dynamik_ode",
+   "potenzgesetz",
+   "verhaeltnis"
+  ],
+  "FACH-F030": [],
+  "FACH-F031": [],
+  "FACH-F032": [
+   "verhaeltnis"
+  ],
+  "FACH-F033": [
+   "summe_bilanz"
+  ],
+  "FACH-F034": [
+   "dynamik_ode",
+   "linear_matrix",
+   "verhaeltnis"
+  ],
+  "FACH-F035": [
+   "logarithmisch",
+   "verhaeltnis"
+  ],
+  "FACH-F036": [
+   "summe_bilanz",
+   "verhaeltnis"
+  ],
+  "FACH-F037": [
+   "verhaeltnis"
+  ],
+  "FACH-F038": [
+   "verhaeltnis"
+  ],
+  "FACH-F039": [
+   "verhaeltnis"
+  ],
+  "FACH-F040": [],
+  "FACH-F041": [
+   "verhaeltnis"
+  ],
+  "FACH-F042": [
+   "potenzgesetz"
+  ],
+  "FACH-F043": [],
+  "FACH-F044": [
+   "logarithmisch",
+   "verhaeltnis"
+  ],
+  "FACH-F045": [
+   "exponentiell",
+   "potenzgesetz",
+   "verhaeltnis"
+  ],
+  "FACH-F046": [],
+  "FACH-F047": [],
+  "FACH-F048": [
+   "verhaeltnis"
+  ],
+  "FACH-F049": [
+   "dynamik_ode",
+   "summe_bilanz",
+   "verhaeltnis"
+  ],
+  "FACH-F050": [
+   "dynamik_ode",
+   "verhaeltnis"
+  ],
+  "FACH-F051": [],
+  "FACH-F052": [
+   "dynamik_ode",
+   "verhaeltnis"
+  ],
+  "FACH-F053": [
+   "verhaeltnis"
+  ],
+  "FACH-F054": [
+   "dynamik_ode",
+   "verhaeltnis"
+  ],
+  "FACH-F055": [
+   "verhaeltnis"
+  ],
+  "FACH-F056": [],
+  "FACH-F057": [
+   "logarithmisch",
+   "summe_bilanz",
+   "verhaeltnis"
+  ],
+  "FACH-F058": [],
+  "FACH-F059": [
+   "verhaeltnis"
+  ],
+  "FACH-F060": [],
+  "FACH-F061": [
+   "logarithmisch"
+  ],
+  "FACH-F062": [],
+  "FACH-F063": [],
+  "FACH-F064": [],
+  "FACH-F065": [],
+  "FACH-F066": [],
+  "FACH-F067": [],
+  "FACH-F068": [],
+  "FACH-F069": [
+   "logarithmisch",
+   "summe_bilanz",
+   "verhaeltnis"
+  ],
+  "FACH-F070": [],
+  "FACH-F071": [
+   "verhaeltnis"
+  ],
+  "FACH-F072": [],
+  "FACH-F073": [],
+  "FACH-F074": [],
+  "FACH-F075": [],
+  "FACH-F076": [
+   "verhaeltnis"
+  ],
+  "FACH-F077": [],
+  "FACH-F078": [],
+  "FACH-F079": [],
+  "FACH-F080": [],
+  "FACH-F081": [],
+  "FACH-F082": [],
+  "FACH-F083": [
+   "summe_bilanz"
+  ],
+  "FACH-F084": [],
+  "FACH-F085": [],
+  "FACH-F086": [],
+  "FACH-F087": [],
+  "FACH-F088": [],
+  "FACH-F089": [],
+  "FACH-F090": [],
+  "FACH-F091": [],
+  "FACH-F092": [
+   "linear_matrix"
+  ],
+  "FACH-F093": [],
+  "FACH-F094": [],
+  "FACH-F095": [
+   "verhaeltnis"
+  ],
+  "FACH-F096": [
+   "dynamik_ode",
+   "verhaeltnis"
+  ],
+  "FACH-F097": [],
+  "FACH-F098": [
+   "potenzgesetz"
+  ],
+  "FACH-F099": [],
+  "FACH-F100": [],
+  "CORE-T1": [],
+  "CORE-T2": [],
+  "CORE-T3": []
+ },
+ "ohne_formel": [
+  "CORE-T1",
+  "CORE-T2",
+  "CORE-T3"
+ ],
+ "brueckenkandidaten": [
+  {
+   "art": "gleiche_zustandsgroesse",
+   "groesse": "c",
+   "paar": [
+    "FACH-F034",
+    "FACH-F096"
+   ],
+   "namen": [
+    "Reaktionskinetik",
+    "Verfahrenstechnik"
+   ],
+   "formeln": [
+    "dc/dt=S v(c)",
+    "V dc/dt=F(c_in−c)+Vr(c)"
+   ]
+  }
+ ],
+ "neutrale_achsen": [
+  {
+   "tensor": "FACH-F001",
+   "achse": 2,
+   "rollen": [
+    "Rel0",
+    "Rel-Rel",
+    "Rel1"
+   ]
+  },
+  {
+   "tensor": "FACH-F001",
+   "achse": 3,
+   "rollen": [
+    "Struktur",
+    "Funktion",
+    "Relation"
+   ]
+  }
+ ]
+}

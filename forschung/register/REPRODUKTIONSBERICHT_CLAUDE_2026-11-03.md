@@ -1,7 +1,7 @@
 # Reproduktionsbericht Claude-Prüfungen
 
-- Zeit: 2026-11-04T02:12:23+00:00
-- Commit: `6b3d472f3ab79d5df8ae821f912d0450b9c92584`
+- Zeit: 2026-11-04T03:02:36+00:00
+- Commit: `019336ab97ca0f19ac58d99d236245bcb0010263`
 - Python: 3.13.18
 
 | Prüfung | Skript (SHA-256, 12 Zeichen) | Exit | Ergebnis |
@@ -20,6 +20,7 @@
 | Typisierte Tensoralgebra (23) | `forschung/tensor/algebra-claude/tests/test_typalgebra.py` `432d1a8169af` | 0 | ja |
 | Algebra-Lauf über alle veröffentlichten Tensoren | `forschung/tensor/algebra-claude/lauf_alle.py` `d6ea26b499e3` | 0 | ja |
 | Musteranalyse M1–M9 über alle Tensoren | `forschung/tensor/algebra-claude/muster.py` `8a6f8581e329` | 0 | ja |
+| Analyse der 103 historischen Gerüste | `forschung/tensor/algebra-claude/analyse_103.py` `2fa0540cdd52` | 0 | ja |
 | Brücke F034/F096 (sympy) | `forschung/tensor/algebra-claude/bruecke_f034_f096.py` `92ee6f619956` | 0 | ja |
 | Gegenrechnung GR-01: 7 DLMF-Identitäten (sympy) | `forschung/register/gegenrechnung/dlmf_v6_6_gegenrechnung.py` `448ba272fd6e` | 0 | ja |
 | Gegenrechnung GR-02: REV-01..08 (sympy) | `forschung/register/gegenrechnung/rev_rueckrechnungen.py` `4e6749a0284d` | 0 | ja |

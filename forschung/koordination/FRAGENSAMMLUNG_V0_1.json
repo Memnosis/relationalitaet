@@ -78,11 +78,11 @@
    "id": "Q-O02",
    "an": "nils",
    "kategorie": "organisatorisch",
-   "frage": "Dürfen die Achsenrollen der 103 historischen Tensoren (3×3 Begriffe je Tensor, ohne Volltexte) vorab öffentlich geteilt werden?",
+   "frage": "Dürfen die Achsenrollen der 103 historischen Tensoren (3×3 Begriffe je Tensor, ohne Volltexte) vorab öffentlich geteilt werden? → Überholt: GPT hat das Inventar am 04.11. als docs/data/tensor-inventar-v10_7.json veröffentlicht (ce74166). Offen: Freigabegrundlage dokumentieren.",
    "kontext": "beschleunigt Musterprüfung",
    "quelle": "TENSOR_KERN_ARCHITEKTUR §5",
    "dringlichkeit": "mittel",
-   "status": "offen"
+   "status": "ueberholt_freigabe_zu_dokumentieren"
   },
   {
    "id": "Q-O03",
@@ -168,11 +168,11 @@
    "id": "Q-F01",
    "an": "forschung",
    "kategorie": "daten",
-   "frage": "Gelten die Muster M1–M9 auch in den 103 historischen Tensoren?",
+   "frage": "Gelten die Muster M1–M9 auch in den 103 historischen Tensoren? → Nicht prüfbar: das Inventar enthält keine Pfade (BEF-T017). Pfade müssten erst erarbeitet werden.",
    "kontext": "n je Muster 1–4",
    "quelle": "MUSTER_V0_1.json",
    "dringlichkeit": "hoch",
-   "status": "offen"
+   "status": "blockiert_fehlende_pfade"
   },
   {
    "id": "Q-F02",
@@ -221,6 +221,36 @@
    "frage": "Hauptmenü: GPT hat am 04.11. auf 8 Punkte umgestellt (Start · KI · Tensor · Projekte · Harvesting · Publikationen · Mitmachen · SOULution); beschlossen war am 03.11. das 7-Punkte-Menü mit Forschung und Inkubator. Neue Fassung bestätigen oder zurück zum 7-Punkte-Menü?",
    "kontext": "DEC-NAV-01 = b vs. website-unified.js (b4f1811)",
    "quelle": "CLAUDE_FEEDBACK_GPT_PLANUNG_2026-11-04",
+   "dringlichkeit": "mittel",
+   "status": "offen"
+  },
+  {
+   "id": "Q-F06",
+   "an": "forschung",
+   "kategorie": "fachlich",
+   "frage": "Wie werden Fachachsen der 103 Gerüste auf (M, K, S) abgebildet? Ohne Festlegung ist keine 27-Adress-Algebra und kein Pfad möglich.",
+   "kontext": "BEF-T018",
+   "quelle": "ANALYSE_103",
+   "dringlichkeit": "hoch",
+   "status": "offen"
+  },
+  {
+   "id": "Q-F07",
+   "an": "forschung",
+   "kategorie": "fachlich",
+   "frage": "Wie sind die Kandidatenachsen A2/A3 entstanden? 44/103 teilen Rollen mit A1 (BEF-T016).",
+   "kontext": "BEF-T016",
+   "quelle": "ANALYSE_103",
+   "dringlichkeit": "mittel",
+   "status": "offen"
+  },
+  {
+   "id": "Q-G06",
+   "an": "gpt",
+   "kategorie": "prozess",
+   "frage": "Freigabegrundlage für die Veröffentlichung von docs/data/tensor-inventar-v10_7.json im Entscheidungsblatt vermerken (Nils direkt? R1/R3).",
+   "kontext": "ce74166 ohne Vermerk, ohne KI-Trailer",
+   "quelle": "—",
    "dringlichkeit": "mittel",
    "status": "offen"
   }
