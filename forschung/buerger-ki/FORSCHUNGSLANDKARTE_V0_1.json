@@ -1,0 +1,999 @@
+{
+  "schema": "bk-research-map-v0.1",
+  "date": "2026-11-04",
+  "scope": "Bürger-KI; keine Veränderung globaler Tensorregister",
+  "domains": [
+    {
+      "id": "RECHT",
+      "title": "Materielle Rechte und Verfahren",
+      "icon": "scale",
+      "status": "offen"
+    },
+    {
+      "id": "MED",
+      "title": "Medizinische Versorgung und Indikation",
+      "icon": "heart-pulse",
+      "status": "offen"
+    },
+    {
+      "id": "AKTE",
+      "title": "Patientenakten und Datenhoheit",
+      "icon": "folder-open",
+      "status": "offen"
+    },
+    {
+      "id": "SOZ",
+      "title": "Jobcenter und soziale Sicherung",
+      "icon": "landmark",
+      "status": "offen"
+    },
+    {
+      "id": "NETZ",
+      "title": "Begegnung, lokale Organisation und Selbsthilfe",
+      "icon": "users",
+      "status": "offen"
+    },
+    {
+      "id": "KULTUR",
+      "title": "Bildung, Konflikt- und Fehlerkultur",
+      "icon": "messages-square",
+      "status": "offen"
+    },
+    {
+      "id": "SYSTEM",
+      "title": "Gesellschaftliche Erfüllungsfähigkeit",
+      "icon": "network",
+      "status": "offen"
+    },
+    {
+      "id": "KI",
+      "title": "Skills, Benchmarks und Tensor-Rückfluss",
+      "icon": "workflow",
+      "status": "offen"
+    }
+  ],
+  "questions": [
+    {
+      "id": "BK-Q-001",
+      "domain": "MED",
+      "question": "Wann besteht ein Anspruch auf notwendige psychotherapeutische Versorgung?",
+      "source_ids": [
+        "BK-SRC-001"
+      ],
+      "skill_ids": [
+        "BK-F-03"
+      ],
+      "operator_family": "norm-interpretation",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-002",
+      "domain": "MED",
+      "question": "Welche Versorgung wird durch psychotherapeutische Sprechstunde, probatorische Sitzung und Akutbehandlung jeweils erreicht?",
+      "source_ids": [
+        "BK-SRC-004"
+      ],
+      "skill_ids": [
+        "BK-F-04"
+      ],
+      "operator_family": "classification",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-003",
+      "domain": "MED",
+      "question": "Welche fachlichen Kriterien bestimmen Eignung und erforderliche zeitliche Erreichbarkeit einer Behandlung?",
+      "source_ids": [],
+      "skill_ids": [
+        "BK-F-04"
+      ],
+      "operator_family": "suitability",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-004",
+      "domain": "MED",
+      "question": "Wann vermittelt die Terminservicestelle welche psychotherapeutischen Termine und welche Anforderungen gelten?",
+      "source_ids": [
+        "BK-SRC-003"
+      ],
+      "skill_ids": [
+        "BK-F-04"
+      ],
+      "operator_family": "rule-check",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-005",
+      "domain": "MED",
+      "question": "Unter welchen Voraussetzungen kommt Kostenerstattung bei selbstbeschaffter Psychotherapie in Betracht?",
+      "source_ids": [
+        "BK-SRC-005"
+      ],
+      "skill_ids": [
+        "BK-F-11"
+      ],
+      "operator_family": "rule-check",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-006",
+      "domain": "MED",
+      "question": "Wie unterscheiden wir individuelle Nichtverfügbarkeit und strukturelle Unterversorgung?",
+      "source_ids": [],
+      "skill_ids": [
+        "BK-F-09"
+      ],
+      "operator_family": "statistical-inference",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-007",
+      "domain": "AKTE",
+      "question": "Was umfasst das Einsichtsrecht in die Behandlungsakte und welche Ausnahmen gelten?",
+      "source_ids": [
+        "BK-SRC-006"
+      ],
+      "skill_ids": [
+        "BK-F-07"
+      ],
+      "operator_family": "rule-check",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-008",
+      "domain": "AKTE",
+      "question": "Welche Unterlagen fehlen, welche sind doppelt und welche widersprechen einander?",
+      "source_ids": [],
+      "skill_ids": [
+        "BK-F-06"
+      ],
+      "operator_family": "record-reconciliation",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-009",
+      "domain": "AKTE",
+      "question": "Wie organisiert ein Mensch seine eigenen Unterlagen, ohne sie einer Plattform zu überlassen?",
+      "source_ids": [],
+      "skill_ids": [
+        "BK-F-06"
+      ],
+      "operator_family": "local-recordkeeping",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-010",
+      "domain": "SOZ",
+      "question": "Welche Ansprüche entstehen materiell unabhängig von einem Bescheid?",
+      "source_ids": [
+        "BK-SRC-007"
+      ],
+      "skill_ids": [
+        "BK-F-01"
+      ],
+      "operator_family": "rule-check",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-011",
+      "domain": "SOZ",
+      "question": "Welche Fälligkeits- und Auszahlungsvorschriften gelten für existenzsichernde Leistungen?",
+      "source_ids": [
+        "BK-SRC-009"
+      ],
+      "skill_ids": [
+        "BK-F-02"
+      ],
+      "operator_family": "temporal-difference",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-012",
+      "domain": "SOZ",
+      "question": "Wie erkennen und prüfen wir fehlerhafte oder unterbliebene Zahlungen?",
+      "source_ids": [],
+      "skill_ids": [
+        "BK-F-02"
+      ],
+      "operator_family": "difference",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-013",
+      "domain": "SOZ",
+      "question": "Welche Sachverhaltsaufklärung schuldet die Behörde von Amts wegen?",
+      "source_ids": [
+        "BK-SRC-008"
+      ],
+      "skill_ids": [
+        "BK-F-08"
+      ],
+      "operator_family": "duty-check",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-014",
+      "domain": "RECHT",
+      "question": "Welche Pflichten bestehen zur zügigen und ausreichend verfügbaren Leistungserbringung?",
+      "source_ids": [
+        "BK-SRC-002"
+      ],
+      "skill_ids": [
+        "BK-F-08"
+      ],
+      "operator_family": "duty-check",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-015",
+      "domain": "RECHT",
+      "question": "Wann ist eine Pflichtverletzung und wann nur eine Leistungs- oder Kapazitätslücke nachgewiesen?",
+      "source_ids": [],
+      "skill_ids": [
+        "BK-F-08"
+      ],
+      "operator_family": "evidence-classification",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-016",
+      "domain": "RECHT",
+      "question": "Welche rechtlichen Folgen hat eine konkret nachgewiesene Unterversorgung und welche gerade nicht?",
+      "source_ids": [],
+      "skill_ids": [
+        "BK-F-08"
+      ],
+      "operator_family": "legal-consequence",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-017",
+      "domain": "NETZ",
+      "question": "Wo finden Menschen bereits existierende lokale und digitale Selbsthilfegruppen?",
+      "source_ids": [],
+      "skill_ids": [
+        "BK-F-10"
+      ],
+      "operator_family": "discovery",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-018",
+      "domain": "NETZ",
+      "question": "Unter welchen Voraussetzungen entsteht aus einem offenen Treff tatsächlich gemeinsame Handlungsfähigkeit?",
+      "source_ids": [],
+      "skill_ids": [
+        "BK-F-10"
+      ],
+      "operator_family": "network-effect",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-019",
+      "domain": "NETZ",
+      "question": "Wie unterscheiden sich bestehende Hilfen mit und ohne ergänzende BK-Skills?",
+      "source_ids": [],
+      "skill_ids": [
+        "BK-F-15"
+      ],
+      "operator_family": "controlled-comparison",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-020",
+      "domain": "NETZ",
+      "question": "Was geschieht, wenn Menschen keinen Kontakt wünschen oder keine Gruppe entsteht?",
+      "source_ids": [],
+      "skill_ids": [
+        "BK-F-15"
+      ],
+      "operator_family": "null-case",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-021",
+      "domain": "KULTUR",
+      "question": "Welche erlernbaren Konfliktkompetenzen können Belastungen verringern?",
+      "source_ids": [],
+      "skill_ids": [],
+      "operator_family": "prevention",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-022",
+      "domain": "KULTUR",
+      "question": "Wie messen wir gelebte Fehler- und Widerspruchskultur statt bloß erklärte Werte?",
+      "source_ids": [],
+      "skill_ids": [],
+      "operator_family": "practice-metric",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-023",
+      "domain": "KULTUR",
+      "question": "Welche vermeidbaren institutionellen Unterlassungen verschärfen gesundheitliche Belastungen?",
+      "source_ids": [],
+      "skill_ids": [],
+      "operator_family": "causal-hypothesis",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-024",
+      "domain": "KULTUR",
+      "question": "Welche Maßnahmen zur Prävention in Lebenswelten sind gesetzlich vorgesehen?",
+      "source_ids": [
+        "BK-SRC-010"
+      ],
+      "skill_ids": [],
+      "operator_family": "rule-check",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-025",
+      "domain": "SYSTEM",
+      "question": "Was passiert bei gleichzeitiger Geltendmachung vieler berechtigter Ansprüche?",
+      "source_ids": [],
+      "skill_ids": [
+        "BK-F-09"
+      ],
+      "operator_family": "queue-capacity",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-026",
+      "domain": "SYSTEM",
+      "question": "Wie unterscheiden sich realer Bedarf, registrierte Nachfrage, verfügbare Kapazität und Erfüllung?",
+      "source_ids": [],
+      "skill_ids": [
+        "BK-F-09"
+      ],
+      "operator_family": "set-coverage",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-027",
+      "domain": "SYSTEM",
+      "question": "Welche gesetzlichen Änderungen beeinflussen die praktische Erfüllung sozialer Rechte?",
+      "source_ids": [],
+      "skill_ids": [
+        "BK-F-13"
+      ],
+      "operator_family": "temporal-comparison",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-028",
+      "domain": "SYSTEM",
+      "question": "Welche gesellschaftlichen Schutzversprechen für Arbeit, Wohnen und Rente sind Rechtsansprüche und welche politische Ziele?",
+      "source_ids": [],
+      "skill_ids": [
+        "BK-F-13"
+      ],
+      "operator_family": "norm-classification",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-029",
+      "domain": "KI",
+      "question": "Welche atomaren Operationen sind aus Bürger-KI auf bestehende Tensoren übertragbar?",
+      "source_ids": [],
+      "skill_ids": [
+        "BK-F-15"
+      ],
+      "operator_family": "operator-crosswalk",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-030",
+      "domain": "KI",
+      "question": "Erhöhen geprüfte Skills nachweislich die Qualität des nächsten Schritts und der realen Erfüllung?",
+      "source_ids": [],
+      "skill_ids": [
+        "BK-F-15"
+      ],
+      "operator_family": "benchmark",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-031",
+      "domain": "KI",
+      "question": "Welche Fehler und Gegenbeispiele verändern den Skill, Glossar oder Quellenbestand?",
+      "source_ids": [],
+      "skill_ids": [
+        "BK-F-14"
+      ],
+      "operator_family": "dependency-propagation",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    },
+    {
+      "id": "BK-Q-032",
+      "domain": "KI",
+      "question": "Wann wäre ein Austausch mehrerer KIs gegenüber einem einzelnen geprüften Werkzeug vorteilhaft?",
+      "source_ids": [],
+      "skill_ids": [
+        "BK-F-15"
+      ],
+      "operator_family": "comparative-evaluation",
+      "status": "offen",
+      "answer_id": null,
+      "thesis_ids": [],
+      "operationalization_ids": [],
+      "scope": "Prüffrage, nicht automatisch Rechts- oder Faktenbehauptung"
+    }
+  ],
+  "theses": [
+    {
+      "id": "BK-T-001",
+      "claim": "Eine formelle Entscheidung ist nicht mit der tatsächlichen Erfüllung eines Anspruchs gleichzusetzen.",
+      "question_ids": [
+        "BK-Q-012",
+        "BK-Q-014"
+      ],
+      "kind": "logical-distinction",
+      "status": "offen",
+      "counterevidence_required": true,
+      "source_ids": [],
+      "operationalization_ids": []
+    },
+    {
+      "id": "BK-T-002",
+      "claim": "Erhöhte Rechtskenntnis kann zuvor nicht sichtbare Nachfrage sichtbar machen, ohne dass der objektive Bedarf steigt.",
+      "question_ids": [
+        "BK-Q-025",
+        "BK-Q-026"
+      ],
+      "kind": "hypothesis",
+      "status": "offen",
+      "counterevidence_required": true,
+      "source_ids": [],
+      "operationalization_ids": []
+    },
+    {
+      "id": "BK-T-003",
+      "claim": "Die Teilnahme an bestehenden Gruppen verbessert unter bestimmten Bedingungen die Qualität von Versorgungsnachweisen.",
+      "question_ids": [
+        "BK-Q-018",
+        "BK-Q-019"
+      ],
+      "kind": "causal-hypothesis",
+      "status": "offen",
+      "counterevidence_required": true,
+      "source_ids": [],
+      "operationalization_ids": []
+    },
+    {
+      "id": "BK-T-004",
+      "claim": "Ein fachlich geeignetes Erstgespräch beweist nicht automatisch, dass erforderliche anschließende Behandlung erreichbar ist.",
+      "question_ids": [
+        "BK-Q-002",
+        "BK-Q-004"
+      ],
+      "kind": "logical-distinction",
+      "status": "offen",
+      "counterevidence_required": true,
+      "source_ids": [],
+      "operationalization_ids": []
+    },
+    {
+      "id": "BK-T-005",
+      "claim": "Gemeinsam geprüfte Bürger-KI-Skills verbessern gegenüber bestehenden Angeboten messbar die sachliche Qualität einzelner Handlungswege.",
+      "question_ids": [
+        "BK-Q-019",
+        "BK-Q-030"
+      ],
+      "kind": "causal-hypothesis",
+      "status": "offen",
+      "counterevidence_required": true,
+      "source_ids": [],
+      "operationalization_ids": []
+    },
+    {
+      "id": "BK-T-006",
+      "claim": "Fehleroffene und konfliktfähige institutionelle Praxis kann vermeidbare Belastungen reduzieren.",
+      "question_ids": [
+        "BK-Q-022",
+        "BK-Q-023"
+      ],
+      "kind": "causal-hypothesis",
+      "status": "offen",
+      "counterevidence_required": true,
+      "source_ids": [],
+      "operationalization_ids": []
+    },
+    {
+      "id": "BK-T-007",
+      "claim": "Ein strukturierter Fallbestand ohne bekannten Auswahlrahmen reicht nicht aus, um eine repräsentative Unterversorgungsquote zu schätzen.",
+      "question_ids": [
+        "BK-Q-006",
+        "BK-Q-026"
+      ],
+      "kind": "method-rule",
+      "status": "offen",
+      "counterevidence_required": true,
+      "source_ids": [],
+      "operationalization_ids": []
+    },
+    {
+      "id": "BK-T-008",
+      "claim": "Ein multiagentisches KI-System bietet im ersten Bürger-KI-Pilot keinen belegten Zusatznutzen gegenüber einem geprüften Einzelwerkzeug.",
+      "question_ids": [
+        "BK-Q-032"
+      ],
+      "kind": "null-hypothesis",
+      "status": "offen",
+      "counterevidence_required": true,
+      "source_ids": [],
+      "operationalization_ids": []
+    }
+  ],
+  "operationalizations": [
+    {
+      "id": "BK-O-001",
+      "name": "Individuelle Versorgungserfüllung",
+      "metric": "Anteil der Teilnehmer mit nach fachlichen Kriterien geeigneter tatsächlich erreichbarer Behandlung",
+      "method": "Behandlungsziel fachlich definiert; Zeitfenster; dokumentierter Einstieg; alle Fälle und Ausfälle als Nenner",
+      "question_ids": [
+        "BK-Q-006"
+      ],
+      "thesis_ids": [
+        "BK-T-004"
+      ],
+      "status": "spezifiziert",
+      "test_status": "nicht durchgeführt"
+    },
+    {
+      "id": "BK-O-002",
+      "name": "Rechtszugang",
+      "metric": "Anteil rechts- und faktenrichtig gewählter nächster Schritte",
+      "method": "Fachlich unabhängig bewertete Testfälle; Baseline ohne BK; dokumentierte Fehlentscheidungen",
+      "question_ids": [
+        "BK-Q-030"
+      ],
+      "thesis_ids": [
+        "BK-T-005"
+      ],
+      "status": "spezifiziert",
+      "test_status": "nicht durchgeführt"
+    },
+    {
+      "id": "BK-O-003",
+      "name": "Aktivierungs- und Nachfrageeffekt",
+      "metric": "Anteil zuvor nicht aktiv suchender Personen, die einen passenden Zugangspfad prüfen",
+      "method": "Bedarf und Eignung separat; kein Anreiz zu unbegründeten Anträgen; Zeitfenster",
+      "question_ids": [
+        "BK-Q-025"
+      ],
+      "thesis_ids": [
+        "BK-T-002"
+      ],
+      "status": "spezifiziert",
+      "test_status": "nicht durchgeführt"
+    },
+    {
+      "id": "BK-O-004",
+      "name": "Strukturelle Unterversorgung",
+      "metric": "Anteil fachlich definierter Bedarfe ohne zeitgerecht geeignete Versorgung in einer definierten Population",
+      "method": "Bevölkerungsbasis, Angebotsart, Ort, Dauer, Indikation, Vergleich und Biasprüfung",
+      "question_ids": [
+        "BK-Q-006"
+      ],
+      "thesis_ids": [
+        "BK-T-007"
+      ],
+      "status": "spezifiziert",
+      "test_status": "nicht durchgeführt"
+    },
+    {
+      "id": "BK-O-005",
+      "name": "Netzwerknutzen",
+      "metric": "Differenz geeigneter Arbeitsergebnisse mit und ohne geprüften Gruppen-Skillpool",
+      "method": "Vergleichbare Gruppen oder innerhalb-der-Gruppe Design; zeitlicher Rahmen; Qualität/Fehler/Kosten",
+      "question_ids": [
+        "BK-Q-019"
+      ],
+      "thesis_ids": [
+        "BK-T-003"
+      ],
+      "status": "spezifiziert",
+      "test_status": "nicht durchgeführt"
+    },
+    {
+      "id": "BK-O-006",
+      "name": "Fehlerkorrekturkultur",
+      "metric": "Anteil fachlich bestätigter Einwände, die innerhalb definierter Frist sachlich bearbeitet werden",
+      "method": "Definition berechtigter Einwand, Frist, Qualität der Korrektur, Stichprobenprüfung",
+      "question_ids": [
+        "BK-Q-022"
+      ],
+      "thesis_ids": [
+        "BK-T-006"
+      ],
+      "status": "spezifiziert",
+      "test_status": "nicht durchgeführt"
+    },
+    {
+      "id": "BK-O-007",
+      "name": "Ende-zu-Ende-Erfüllung Sozialleistung",
+      "metric": "Differenz aus geschuldetem Betrag und tatsächlichem Eingang nach Zeitraum",
+      "method": "Materiellen Anspruch, Bewilligung, Fälligkeit, Zahlungsbeleg und Gegenprüfung trennen",
+      "question_ids": [
+        "BK-Q-011"
+      ],
+      "thesis_ids": [
+        "BK-T-001"
+      ],
+      "status": "spezifiziert",
+      "test_status": "nicht durchgeführt"
+    },
+    {
+      "id": "BK-O-008",
+      "name": "Skill-Transfer",
+      "metric": "Anteil der BK-Operatoren, die einen Tensor-Test bestehen und in BK regressionsfest zurückkehren",
+      "method": "Formale Typen, Invarianten, negative Fälle, Ausgangsbenchmark und Abnahme",
+      "question_ids": [
+        "BK-Q-029"
+      ],
+      "thesis_ids": [
+        "BK-T-005"
+      ],
+      "status": "spezifiziert",
+      "test_status": "nicht durchgeführt"
+    }
+  ],
+  "glossary": [
+    {
+      "id": "BK-G-001",
+      "term": "Materieller Anspruch",
+      "definition": "Gesetzlich begründete Rechtsposition, deren Bestehen von maßgeblichen Voraussetzungen abhängt, nicht allein vom Erlass eines Bescheids.",
+      "status": "arbeitsdefinition",
+      "source_ids": []
+    },
+    {
+      "id": "BK-G-002",
+      "term": "Formelle Entscheidung",
+      "definition": "Verwaltungsakt oder andere Entscheidung über einen Vorgang; nicht automatisch identisch mit dem materiell Geschuldeten.",
+      "status": "arbeitsdefinition",
+      "source_ids": []
+    },
+    {
+      "id": "BK-G-003",
+      "term": "Tatsächliche Erfüllung",
+      "definition": "Nachweis, dass die konkret geschuldete Leistung beziehungsweise der definierte Zielzustand erreicht wurde.",
+      "status": "arbeitsdefinition",
+      "source_ids": []
+    },
+    {
+      "id": "BK-G-004",
+      "term": "Individuelles Versorgungsdefizit",
+      "definition": "Im Einzelfall nach fachlichen und rechtlichen Maßstäben nicht verfügbare erforderliche Versorgung.",
+      "status": "arbeitsdefinition",
+      "source_ids": []
+    },
+    {
+      "id": "BK-G-005",
+      "term": "Strukturelle Unterversorgung",
+      "definition": "Versorgungsdefizit in abgegrenzter Population, Region und Zeit nach definiertem Referenzmaßstab; kein automatischer Rechtsverletzungsnachweis.",
+      "status": "arbeitsdefinition",
+      "source_ids": []
+    },
+    {
+      "id": "BK-G-006",
+      "term": "Sicherstellungsauftrag",
+      "definition": "Gesetzlich normierte institutionelle Verantwortung, eine bestimmte Versorgung in ihrem Geltungsbereich zu gewährleisten.",
+      "status": "arbeitsdefinition",
+      "source_ids": []
+    },
+    {
+      "id": "BK-G-007",
+      "term": "Bedarf",
+      "definition": "Fachlich oder gesetzlich zu definierende Erforderlichkeit einer Leistung; nicht gleich aktiv geäußerter Nachfrage.",
+      "status": "arbeitsdefinition",
+      "source_ids": []
+    },
+    {
+      "id": "BK-G-008",
+      "term": "Registrierte Nachfrage",
+      "definition": "Erfasste Inanspruchnahme- oder Antragshandlungen; abhängig von Zugang, Wissen und Hürden.",
+      "status": "arbeitsdefinition",
+      "source_ids": []
+    },
+    {
+      "id": "BK-G-009",
+      "term": "Erfüllungskapazität",
+      "definition": "Zeitlich und sachlich passende Leistungsmöglichkeiten unter konkreten Ressourcen- und Qualitätsbedingungen.",
+      "status": "arbeitsdefinition",
+      "source_ids": []
+    },
+    {
+      "id": "BK-G-010",
+      "term": "Operationalisierung",
+      "definition": "Vorschrift, wie eine These mit messbaren Größen, Geltungsbereich, Daten und Gegenproben empirisch getestet wird.",
+      "status": "arbeitsdefinition",
+      "source_ids": []
+    },
+    {
+      "id": "BK-G-011",
+      "term": "Skill",
+      "definition": "Versionierte Funktion mit Ein-/Ausgabevertrag, fachlichen Voraussetzungen, Tests, Fehlerfällen und Evidenzstatus.",
+      "status": "arbeitsdefinition",
+      "source_ids": []
+    },
+    {
+      "id": "BK-G-012",
+      "term": "Tensor-Ernte",
+      "definition": "Übertragbare und gegengeprüfte Operatoren-, Relations- oder Teststrukturen aus Bürger-KI; keine persönlichen Fallakten.",
+      "status": "arbeitsdefinition",
+      "source_ids": []
+    },
+    {
+      "id": "BK-G-013",
+      "term": "Gelebte Kultur",
+      "definition": "Tatsächlich beobachtbare institutionelle und zwischenmenschliche Praxis, nicht lediglich proklamierte Werte.",
+      "status": "arbeitsdefinition",
+      "source_ids": []
+    },
+    {
+      "id": "BK-G-014",
+      "term": "Unterlassungsprüfung",
+      "definition": "Rekonstruktion von Pflicht, Kenntnis, Handlungsmöglichkeit, Nicht-Handeln, Kausalität und rechtlicher Zurechnung.",
+      "status": "arbeitsdefinition",
+      "source_ids": []
+    },
+    {
+      "id": "BK-G-015",
+      "term": "Gegenprobe",
+      "definition": "Gezielter Test, dessen Ergebnis eine These, einen Skill oder deren Geltungsbereich einschränken oder widerlegen kann.",
+      "status": "arbeitsdefinition",
+      "source_ids": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "BK-SRC-001",
+      "title": "§ 27 SGB V – Krankenbehandlung",
+      "url": "https://www.gesetze-im-internet.de/sgb_5/__27.html",
+      "source_type": "primary-law",
+      "checked_on": "2026-11-04",
+      "verification": "Existenz und einschlägiger Regelungsinhalt geprüft; vollständige Fachauslegung und historische Fassungen offen",
+      "review_status": "primärquellen-erfasst"
+    },
+    {
+      "id": "BK-SRC-002",
+      "title": "§ 17 SGB I – Ausführung der Sozialleistungen",
+      "url": "https://www.gesetze-im-internet.de/sgb_1/__17.html",
+      "source_type": "primary-law",
+      "checked_on": "2026-11-04",
+      "verification": "Existenz und einschlägiger Regelungsinhalt geprüft; vollständige Fachauslegung und historische Fassungen offen",
+      "review_status": "primärquellen-erfasst"
+    },
+    {
+      "id": "BK-SRC-003",
+      "title": "§ 75 SGB V – Sicherstellung und Terminvermittlung",
+      "url": "https://www.gesetze-im-internet.de/sgb_5/__75.html",
+      "source_type": "primary-law",
+      "checked_on": "2026-11-04",
+      "verification": "Existenz und einschlägiger Regelungsinhalt geprüft; vollständige Fachauslegung und historische Fassungen offen",
+      "review_status": "primärquellen-erfasst"
+    },
+    {
+      "id": "BK-SRC-004",
+      "title": "KBV – Psychotherapie und Vermittlung",
+      "url": "https://www.kbv.de/psychotherapie",
+      "source_type": "institutional-guidance",
+      "checked_on": "2026-11-04",
+      "verification": "Existenz und einschlägiger Regelungsinhalt geprüft; vollständige Fachauslegung und historische Fassungen offen",
+      "review_status": "primärquellen-erfasst"
+    },
+    {
+      "id": "BK-SRC-005",
+      "title": "§ 13 SGB V – Kostenerstattung",
+      "url": "https://www.gesetze-im-internet.de/sgb_5/__13.html",
+      "source_type": "primary-law",
+      "checked_on": "2026-11-04",
+      "verification": "Existenz und einschlägiger Regelungsinhalt geprüft; vollständige Fachauslegung und historische Fassungen offen",
+      "review_status": "primärquellen-erfasst"
+    },
+    {
+      "id": "BK-SRC-006",
+      "title": "§ 630g BGB – Einsicht in die Behandlungsakte",
+      "url": "https://www.gesetze-im-internet.de/bgb/__630g.html",
+      "source_type": "primary-law",
+      "checked_on": "2026-11-04",
+      "verification": "Existenz und einschlägiger Regelungsinhalt geprüft; vollständige Fachauslegung und historische Fassungen offen",
+      "review_status": "primärquellen-erfasst"
+    },
+    {
+      "id": "BK-SRC-007",
+      "title": "§ 16 SGB I – Antragstellung",
+      "url": "https://www.gesetze-im-internet.de/sgb_1/__16.html",
+      "source_type": "primary-law",
+      "checked_on": "2026-11-04",
+      "verification": "Existenz und einschlägiger Regelungsinhalt geprüft; vollständige Fachauslegung und historische Fassungen offen",
+      "review_status": "primärquellen-erfasst"
+    },
+    {
+      "id": "BK-SRC-008",
+      "title": "§ 20 SGB X – Untersuchungsgrundsatz",
+      "url": "https://www.gesetze-im-internet.de/sgb_10/__20.html",
+      "source_type": "primary-law",
+      "checked_on": "2026-11-04",
+      "verification": "Existenz und einschlägiger Regelungsinhalt geprüft; vollständige Fachauslegung und historische Fassungen offen",
+      "review_status": "primärquellen-erfasst"
+    },
+    {
+      "id": "BK-SRC-009",
+      "title": "§ 42 SGB II – Fälligkeit und Auszahlung",
+      "url": "https://www.gesetze-im-internet.de/sgb_2/__42.html",
+      "source_type": "primary-law",
+      "checked_on": "2026-11-04",
+      "verification": "Existenz und einschlägiger Regelungsinhalt geprüft; vollständige Fachauslegung und historische Fassungen offen",
+      "review_status": "primärquellen-erfasst"
+    },
+    {
+      "id": "BK-SRC-010",
+      "title": "§ 20a SGB V – Prävention in Lebenswelten",
+      "url": "https://www.gesetze-im-internet.de/sgb_5/__20a.html",
+      "source_type": "primary-law",
+      "checked_on": "2026-11-04",
+      "verification": "Existenz und einschlägiger Regelungsinhalt geprüft; vollständige Fachauslegung und historische Fassungen offen",
+      "review_status": "primärquellen-erfasst"
+    }
+  ],
+  "relations": [
+    {
+      "from": "BK-Q-001",
+      "to": "BK-Q-006",
+      "type": "individual_vs_structural"
+    },
+    {
+      "from": "BK-Q-025",
+      "to": "BK-Q-026",
+      "type": "demand_visibility"
+    },
+    {
+      "from": "BK-Q-021",
+      "to": "BK-Q-023",
+      "type": "prevention_hypothesis"
+    },
+    {
+      "from": "BK-Q-029",
+      "to": "BK-Q-030",
+      "type": "skill_transfer_to_effect"
+    }
+  ],
+  "counts": {
+    "domains": 8,
+    "questions": 32,
+    "theses": 8,
+    "operationalizations": 8,
+    "glossary_terms": 15,
+    "sources": 10
+  },
+  "status": "initiale Forschungslandkarte; kein abgeschlossener empirischer Befund",
+  "private_data": "Keine Falldaten oder hochgeladenen Gesundheitsakten"
+}
