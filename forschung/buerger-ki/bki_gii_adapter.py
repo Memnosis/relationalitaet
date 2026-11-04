@@ -8,6 +8,8 @@ Kein Online-Abruf, keine Rechtsauskunft, keine Ortszuständigkeitsbestimmung.
 from __future__ import annotations
 
 import argparse
+import io
+import zipfile
 import hashlib
 import json
 import re
@@ -15,7 +17,7 @@ import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-ADAPTER_VERSION = "0.1.0"
+ADAPTER_VERSION = "0.2.0"
 MAX_BYTES = 20_000_000
 ALLOWED_LAWS = {"bmg", "gewo"}
 
@@ -48,6 +50,29 @@ def _strip_external_dtd(raw):
     return s
 
 
+def _unpack_gii(raw: bytes):
+    """Amtliches GII-Angebot: XML liegt üblicherweise in xml.zip."""
+    if not raw.startswith(b"PK\\x03\\x04"):
+        return raw, None
+    try:
+        with zipfile.ZipFile(io.BytesIO(raw)) as archive:
+            entries = [z for z in archive.infolist()
+                       if not z.is_dir() and z.filename.lower().endswith(".xml")]
+            if len(entries) != 1:
+                raise ImportErrorWithContext("ZIP muss genau eine XML-Datei enthalten")
+            member = entries[0]
+            if (member.file_size > MAX_BYTES or member.compress_size > MAX_BYTES
+                    or ".." in member.filename or member.filename.startswith("/")):
+                raise ImportErrorWithContext("Unsicheres oder zu großes ZIP-Mitglied")
+            with archive.open(member) as stream:
+                xml_raw = stream.read(MAX_BYTES + 1)
+            if len(xml_raw) > MAX_BYTES:
+                raise ImportErrorWithContext("Entpackte XML-Datei zu groß")
+            return xml_raw, member.filename
+    except (zipfile.BadZipFile, RuntimeError, OSError) as exc:
+        raise ImportErrorWithContext("ZIP nicht lesbar: " + str(exc)) from exc
+
+
 def extract(raw: bytes, law: str, source_url: str, retrieved_at: str):
     law = law.lower().strip()
     if law not in ALLOWED_LAWS:
@@ -57,9 +82,10 @@ def extract(raw: bytes, law: str, source_url: str, retrieved_at: str):
     if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", retrieved_at):
         raise ImportErrorWithContext("Abrufdatum YYYY-MM-DD erforderlich")
     if len(raw) > MAX_BYTES:
-        raise ImportErrorWithContext("XML zu groß")
+        raise ImportErrorWithContext("Quelldatei zu groß")
+    xml_raw, archive_member = _unpack_gii(raw)
     try:
-        root = ET.fromstring(_strip_external_dtd(raw))
+        root = ET.fromstring(_strip_external_dtd(xml_raw))
     except (ET.ParseError, UnicodeDecodeError) as exc:
         raise ImportErrorWithContext("XML nicht lesbar: " + str(exc)) from exc
 
@@ -92,6 +118,8 @@ def extract(raw: bytes, law: str, source_url: str, retrieved_at: str):
     return {"schema": "bki-gii-xml-import/0.1", "adapter_version": ADAPTER_VERSION,
             "law": law.upper(), "source_url": source_url, "retrieved_at": retrieved_at,
             "source_sha256": hashlib.sha256(raw).hexdigest(),
+            "xml_sha256": hashlib.sha256(xml_raw).hexdigest(),
+            "archive_member": archive_member,
             "official_promulgation": False, "legal_validity_checked": False,
             "local_authority_checked": False, "provisions": provisions}
 
