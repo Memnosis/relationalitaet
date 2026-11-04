@@ -1,0 +1,730 @@
+{
+  "schema": "bki-help-portal-crosswalk/0.1",
+  "date": "2026-11-05",
+  "type": "curated_discovery_and_situation_candidate_links",
+  "coverage_denominator": "16 illustrative situations, not the universe of citizen needs",
+  "identity_rules": [
+    "same_topic is NOT same_legal_rule",
+    "same_law_reference is NOT same_case_conditions",
+    "direct_help_only_if_provider_self_reports_service",
+    "lawyer_directory_is_not_mandate_acceptance",
+    "confirmed_rule_identity_requires_same_jurisdiction_norm_version_actor_condition_exception_effect"
+  ],
+  "sources": [
+    {
+      "id": "PRA-H01",
+      "name": "Tacheles Sozialhilfe",
+      "url": "https://tacheles-sozialhilfe.de/aktuelles.html",
+      "domain": "soziales",
+      "law_refs": [
+        "SGB II",
+        "SGB XII"
+      ],
+      "portal_type": "case_knowledge_plus_instruction_index_plus_directory",
+      "functions": [
+        "knowledge",
+        "cases",
+        "administrative_sources",
+        "directory",
+        "own_counselling"
+      ],
+      "scope": "regionally_limited_direct_plus_nationwide_phone",
+      "help_level": "direct",
+      "next_step": "Tacheles-Beratung, sozialportal.net",
+      "link_verified_by_source": "landing_page_or_publication",
+      "individual_service_current_availability": "not_verified",
+      "formal_rule_identity": "not_verified",
+      "page_level_case_match": "not_audited"
+    },
+    {
+      "id": "PRA-H02",
+      "name": "Sozialportal.net",
+      "url": "https://www.sozialportal.net/",
+      "domain": "soziales",
+      "law_refs": [
+        "SGB II",
+        "SGB XII"
+      ],
+      "portal_type": "professional_directory",
+      "functions": [
+        "directory",
+        "lawyer_directory"
+      ],
+      "scope": "regional_directory",
+      "help_level": "directory",
+      "next_step": "Stellen- und Anwaltssuche, Einträge vor Ort prüfen",
+      "link_verified_by_source": "landing_page_or_publication",
+      "individual_service_current_availability": "not_verified",
+      "formal_rule_identity": "not_verified",
+      "page_level_case_match": "not_audited"
+    },
+    {
+      "id": "PRA-H03",
+      "name": "Familienportal des Bundes",
+      "url": "https://familienportal.de/familienportal/",
+      "domain": "familie",
+      "law_refs": [
+        "SGB VIII",
+        "Familienleistungen"
+      ],
+      "portal_type": "official_life_situations_plus_search",
+      "functions": [
+        "knowledge",
+        "official_info",
+        "directory",
+        "calculator"
+      ],
+      "scope": "nationwide_subject_to_local_services",
+      "help_level": "directory",
+      "next_step": "Beratung vor Ort, bke, DAJEB",
+      "link_verified_by_source": "landing_page_or_publication",
+      "individual_service_current_availability": "not_verified",
+      "formal_rule_identity": "not_verified",
+      "page_level_case_match": "not_audited"
+    },
+    {
+      "id": "PRA-H04",
+      "name": "DAJEB Beratungsführer",
+      "url": "https://www.dajeb.de/beratungsfuehrer-online/beratung-in-ihrer-naehe",
+      "domain": "familie",
+      "law_refs": [
+        "Beratungsstellen"
+      ],
+      "portal_type": "professional_directory",
+      "functions": [
+        "directory"
+      ],
+      "scope": "local_search",
+      "help_level": "directory",
+      "next_step": "Ehe-, Familien-, Krisen- und Schuldnerberatung",
+      "link_verified_by_source": "landing_page_or_publication",
+      "individual_service_current_availability": "not_verified",
+      "formal_rule_identity": "not_verified",
+      "page_level_case_match": "not_audited"
+    },
+    {
+      "id": "PRA-H05",
+      "name": "Bundesnetzwerk Ombudschaft Jugendhilfe",
+      "url": "https://www.ombudschaft-jugendhilfe.de/",
+      "domain": "jugendhilfe",
+      "law_refs": [
+        "SGB VIII § 9a"
+      ],
+      "portal_type": "professional_ombud_framework",
+      "functions": [
+        "knowledge",
+        "professional_guidance",
+        "own_counselling_network"
+      ],
+      "scope": "state_ombud_system",
+      "help_level": "referral",
+      "next_step": "Unabhängige Ombudsstellen",
+      "link_verified_by_source": "landing_page_or_publication",
+      "individual_service_current_availability": "not_verified",
+      "formal_rule_identity": "not_verified",
+      "page_level_case_match": "not_audited"
+    },
+    {
+      "id": "PRA-H06",
+      "name": "UPD Patientenberatung",
+      "url": "https://patientenberatung.de/beratungsangebot/",
+      "domain": "gesundheit",
+      "law_refs": [
+        "Patientenrechte",
+        "Krankenversicherung"
+      ],
+      "portal_type": "direct_counselling",
+      "functions": [
+        "knowledge",
+        "own_counselling",
+        "referral"
+      ],
+      "scope": "nationwide",
+      "help_level": "direct",
+      "next_step": "medizinische und rechtliche Beratung, keine Terminvermittlung",
+      "link_verified_by_source": "landing_page_or_publication",
+      "individual_service_current_availability": "not_verified",
+      "formal_rule_identity": "not_verified",
+      "page_level_case_match": "not_audited"
+    },
+    {
+      "id": "PRA-H07",
+      "name": "Gesundheitsinformation IQWiG",
+      "url": "https://www.gesundheitsinformation.de/",
+      "domain": "gesundheit",
+      "law_refs": [
+        "medizinische Evidenz"
+      ],
+      "portal_type": "evidence_explanation",
+      "functions": [
+        "knowledge",
+        "research_evidence"
+      ],
+      "scope": "nationwide",
+      "help_level": "information_only",
+      "next_step": "keine individuelle Beratung",
+      "link_verified_by_source": "landing_page_or_publication",
+      "individual_service_current_availability": "not_verified",
+      "formal_rule_identity": "not_verified",
+      "page_level_case_match": "not_audited"
+    },
+    {
+      "id": "PRA-H08",
+      "name": "116117",
+      "url": "https://www.116117.de/",
+      "domain": "gesundheit",
+      "law_refs": [
+        "Terminvermittlung"
+      ],
+      "portal_type": "service_access",
+      "functions": [
+        "provider_search",
+        "appointment"
+      ],
+      "scope": "nationwide_conditional",
+      "help_level": "service",
+      "next_step": "Terminservice nach Bedingungen",
+      "link_verified_by_source": "landing_page_or_publication",
+      "individual_service_current_availability": "not_verified",
+      "formal_rule_identity": "not_verified",
+      "page_level_case_match": "not_audited"
+    },
+    {
+      "id": "PRA-H09",
+      "name": "Verbraucherzentrale",
+      "url": "https://www.verbraucherzentrale.de/beratung",
+      "domain": "verbraucher",
+      "law_refs": [
+        "Verbraucherrecht"
+      ],
+      "portal_type": "counselling_and_directory",
+      "functions": [
+        "knowledge",
+        "own_counselling",
+        "directory"
+      ],
+      "scope": "state_differentiated_paid_possible",
+      "help_level": "direct",
+      "next_step": "Länderberatungsstellen, teils kostenpflichtig",
+      "link_verified_by_source": "landing_page_or_publication",
+      "individual_service_current_availability": "not_verified",
+      "formal_rule_identity": "not_verified",
+      "page_level_case_match": "not_audited"
+    },
+    {
+      "id": "PRA-H10",
+      "name": "Deutscher Mieterbund",
+      "url": "https://mieterbund.de/service/beratung/",
+      "domain": "wohnen",
+      "law_refs": [
+        "Mietrecht"
+      ],
+      "portal_type": "counselling_and_association",
+      "functions": [
+        "knowledge",
+        "own_counselling",
+        "directory"
+      ],
+      "scope": "membership_or_paid_options",
+      "help_level": "direct",
+      "next_step": "Mietervereine, telefonische/Online-Beratung",
+      "link_verified_by_source": "landing_page_or_publication",
+      "individual_service_current_availability": "not_verified",
+      "formal_rule_identity": "not_verified",
+      "page_level_case_match": "not_audited"
+    },
+    {
+      "id": "PRA-H11",
+      "name": "EUTB Teilhabeberatung",
+      "url": "https://www.teilhabeberatung.de/",
+      "domain": "teilhabe",
+      "law_refs": [
+        "SGB IX"
+      ],
+      "portal_type": "direct_counselling_network",
+      "functions": [
+        "knowledge",
+        "directory",
+        "own_counselling"
+      ],
+      "scope": "nationwide",
+      "help_level": "direct",
+      "next_step": "unabhängige Teilhabeberatung",
+      "link_verified_by_source": "landing_page_or_publication",
+      "individual_service_current_availability": "not_verified",
+      "formal_rule_identity": "not_verified",
+      "page_level_case_match": "not_audited"
+    },
+    {
+      "id": "PRA-H12",
+      "name": "PRO ASYL Beratungsstellen",
+      "url": "https://www.proasyl.de/beratungsstellen-vor-ort/",
+      "domain": "migration",
+      "law_refs": [
+        "AufenthG",
+        "AsylG"
+      ],
+      "portal_type": "regional_referral_directory",
+      "functions": [
+        "knowledge",
+        "directory",
+        "lawyer_directory"
+      ],
+      "scope": "state_specific",
+      "help_level": "directory",
+      "next_step": "Flüchtlingsräte, Zentren, Anwälte",
+      "link_verified_by_source": "landing_page_or_publication",
+      "individual_service_current_availability": "not_verified",
+      "formal_rule_identity": "not_verified",
+      "page_level_case_match": "not_audited"
+    },
+    {
+      "id": "PRA-H13",
+      "name": "Informationsverbund Asyl & Migration",
+      "url": "https://www.asyl.net/publikationen/unsere-arbeitshilfen",
+      "domain": "migration",
+      "law_refs": [
+        "AsylG",
+        "AufenthG"
+      ],
+      "portal_type": "professional_handbooks",
+      "functions": [
+        "knowledge",
+        "cases",
+        "legal_sources",
+        "professional_guidance"
+      ],
+      "scope": "nationwide_knowledge",
+      "help_level": "information_only",
+      "next_step": "Arbeitshilfen, Beratungslinklisten",
+      "link_verified_by_source": "landing_page_or_publication",
+      "individual_service_current_availability": "not_verified",
+      "formal_rule_identity": "not_verified",
+      "page_level_case_match": "not_audited"
+    },
+    {
+      "id": "PRA-H14",
+      "name": "BRAK Anwaltssuche",
+      "url": "https://www.brak.de/service/verbraucherinformationen/anwaltssuche/",
+      "domain": "rechtsschutz",
+      "law_refs": [
+        "BRAO"
+      ],
+      "portal_type": "authorized_lawyer_directory",
+      "functions": [
+        "lawyer_directory",
+        "credential_check"
+      ],
+      "scope": "nationwide",
+      "help_level": "directory",
+      "next_step": "Zulassung überprüfbar; Mandatsannahme nicht",
+      "link_verified_by_source": "landing_page_or_publication",
+      "individual_service_current_availability": "not_verified",
+      "formal_rule_identity": "not_verified",
+      "page_level_case_match": "not_audited"
+    },
+    {
+      "id": "PRA-H15",
+      "name": "Deutsche Anwaltauskunft",
+      "url": "https://anwaltauskunft.de/",
+      "domain": "rechtsschutz",
+      "law_refs": [
+        "verschiedene Rechtsgebiete"
+      ],
+      "portal_type": "lawyer_knowledge_and_search",
+      "functions": [
+        "knowledge",
+        "cases",
+        "lawyer_directory"
+      ],
+      "scope": "nationwide",
+      "help_level": "directory",
+      "next_step": "Fachbereichssuche, redaktionelle Texte; keine neutrale öffentliche Rechtsprüfung",
+      "link_verified_by_source": "landing_page_or_publication",
+      "individual_service_current_availability": "not_verified",
+      "formal_rule_identity": "not_verified",
+      "page_level_case_match": "not_audited"
+    },
+    {
+      "id": "PRA-H16",
+      "name": "Justiz-Services Beratungshilfe",
+      "url": "https://service.justiz.de/beratungshilfe",
+      "domain": "rechtsschutz",
+      "law_refs": [
+        "BerHG"
+      ],
+      "portal_type": "official_legal_aid_process",
+      "functions": [
+        "official_info",
+        "eligibility",
+        "form"
+      ],
+      "scope": "nationwide_with_exceptions",
+      "help_level": "procedure",
+      "next_step": "Beratungshilfeschein, Hamburg/Bremen Sonderwege",
+      "link_verified_by_source": "landing_page_or_publication",
+      "individual_service_current_availability": "not_verified",
+      "formal_rule_identity": "not_verified",
+      "page_level_case_match": "not_audited"
+    },
+    {
+      "id": "PRA-H17",
+      "name": "Justiz-Services Prozesskostenhilfe",
+      "url": "https://service.justiz.de/prozesskostenhilfe",
+      "domain": "rechtsschutz",
+      "law_refs": [
+        "ZPO"
+      ],
+      "portal_type": "official_legal_aid_process",
+      "functions": [
+        "official_info",
+        "eligibility",
+        "form"
+      ],
+      "scope": "nationwide",
+      "help_level": "procedure",
+      "next_step": "Gerichtliches Verfahren und Kostenhilfe",
+      "link_verified_by_source": "landing_page_or_publication",
+      "individual_service_current_availability": "not_verified",
+      "formal_rule_identity": "not_verified",
+      "page_level_case_match": "not_audited"
+    },
+    {
+      "id": "PRA-H18",
+      "name": "DGB Rechtsschutz",
+      "url": "https://www.dgbrechtsschutz.de/leistungen/fuer-wen/",
+      "domain": "arbeit",
+      "law_refs": [
+        "Arbeitsrecht",
+        "Sozialrecht"
+      ],
+      "portal_type": "membership_counselling_litigation",
+      "functions": [
+        "knowledge",
+        "own_counselling",
+        "legal_representation"
+      ],
+      "scope": "members_only",
+      "help_level": "direct",
+      "next_step": "Gewerkschaftsmitgliedschaft und Rechtsschutzgewährung",
+      "link_verified_by_source": "landing_page_or_publication",
+      "individual_service_current_availability": "not_verified",
+      "formal_rule_identity": "not_verified",
+      "page_level_case_match": "not_audited"
+    },
+    {
+      "id": "PRA-H19",
+      "name": "Schuldnerberatung / Caritas",
+      "url": "https://www.caritas.de/hilfeundberatung/onlineberatung/schuldnerberatung",
+      "domain": "schulden",
+      "law_refs": [
+        "InsO"
+      ],
+      "portal_type": "counselling",
+      "functions": [
+        "knowledge",
+        "own_counselling",
+        "referral"
+      ],
+      "scope": "provider_specific",
+      "help_level": "direct",
+      "next_step": "Schulden-/Insolvenzberatung; Verfügbarkeit prüfen",
+      "link_verified_by_source": "landing_page_or_publication",
+      "individual_service_current_availability": "not_verified",
+      "formal_rule_identity": "not_verified",
+      "page_level_case_match": "not_audited"
+    },
+    {
+      "id": "PRA-H20",
+      "name": "Pflegeberatung.de Pflegesuche",
+      "url": "https://www.pflegeberatung.de/artikel/mit-der-pflegesuche-fuendig-werden",
+      "domain": "pflege",
+      "law_refs": [
+        "SGB XI"
+      ],
+      "portal_type": "provider_search",
+      "functions": [
+        "knowledge",
+        "directory"
+      ],
+      "scope": "postcode_search",
+      "help_level": "directory",
+      "next_step": "Pflegeanbieter und Unterstützung",
+      "link_verified_by_source": "landing_page_or_publication",
+      "individual_service_current_availability": "not_verified",
+      "formal_rule_identity": "not_verified",
+      "page_level_case_match": "not_audited"
+    },
+    {
+      "id": "PRA-H21",
+      "name": "Antidiskriminierungsstelle des Bundes",
+      "url": "https://www.antidiskriminierungsstelle.de/",
+      "domain": "diskriminierung",
+      "law_refs": [
+        "AGG"
+      ],
+      "portal_type": "specialized_info_and_referral",
+      "functions": [
+        "knowledge",
+        "referral"
+      ],
+      "scope": "nationwide",
+      "help_level": "referral",
+      "next_step": "fachliche Diskriminierungsberatung",
+      "link_verified_by_source": "landing_page_or_publication",
+      "individual_service_current_availability": "not_verified",
+      "formal_rule_identity": "not_verified",
+      "page_level_case_match": "not_audited"
+    },
+    {
+      "id": "PRA-H22",
+      "name": "Zurecht Blog / DGB Rechtsschutz",
+      "url": "https://www.dgbrechtsschutz.de/im-recht/aktuelles/zurechtblog-neue-plattform-fuer-arbeits-und-sozialrecht/",
+      "domain": "arbeit",
+      "law_refs": [
+        "Arbeitsrecht",
+        "Sozialrecht"
+      ],
+      "portal_type": "professional_case_analysis",
+      "functions": [
+        "knowledge",
+        "cases"
+      ],
+      "scope": "nationwide_knowledge",
+      "help_level": "information_only",
+      "next_step": "juristische Analyse ≠ Mandatsannahme",
+      "link_verified_by_source": "landing_page_or_publication",
+      "individual_service_current_availability": "not_verified",
+      "formal_rule_identity": "not_verified",
+      "page_level_case_match": "not_audited"
+    }
+  ],
+  "situations": [
+    {
+      "id": "SIT-01",
+      "label": "Bewilligt, nicht ausgezahlt",
+      "domain": "soziales",
+      "portal_ids": [
+        "PRA-H01",
+        "PRA-H02",
+        "PRA-H16",
+        "PRA-H14"
+      ],
+      "topic_match": "curated",
+      "direct_article_to_rule_mapping": "not_checked",
+      "local_help_availability": "not_checked",
+      "norm_instruction_identity": "not_checked"
+    },
+    {
+      "id": "SIT-02",
+      "label": "Streit um Mietnebenkosten oder Kündigung",
+      "domain": "wohnen",
+      "portal_ids": [
+        "PRA-H10",
+        "PRA-H09",
+        "PRA-H14",
+        "PRA-H16"
+      ],
+      "topic_match": "curated",
+      "direct_article_to_rule_mapping": "not_checked",
+      "local_help_availability": "not_checked",
+      "norm_instruction_identity": "not_checked"
+    },
+    {
+      "id": "SIT-03",
+      "label": "Krankenkasse lehnt Leistung ab",
+      "domain": "gesundheit",
+      "portal_ids": [
+        "PRA-H06",
+        "PRA-H07",
+        "PRA-H14",
+        "PRA-H16"
+      ],
+      "topic_match": "curated",
+      "direct_article_to_rule_mapping": "not_checked",
+      "local_help_availability": "not_checked",
+      "norm_instruction_identity": "not_checked"
+    },
+    {
+      "id": "SIT-04",
+      "label": "Schwieriger Zugang zur Psychotherapie",
+      "domain": "gesundheit",
+      "portal_ids": [
+        "PRA-H06",
+        "PRA-H08",
+        "PRA-H07"
+      ],
+      "topic_match": "curated",
+      "direct_article_to_rule_mapping": "not_checked",
+      "local_help_availability": "not_checked",
+      "norm_instruction_identity": "not_checked"
+    },
+    {
+      "id": "SIT-05",
+      "label": "Konflikt mit Jugendamt bei Hilfen zur Erziehung",
+      "domain": "jugendhilfe",
+      "portal_ids": [
+        "PRA-H05",
+        "PRA-H03",
+        "PRA-H14",
+        "PRA-H16"
+      ],
+      "topic_match": "curated",
+      "direct_article_to_rule_mapping": "not_checked",
+      "local_help_availability": "not_checked",
+      "norm_instruction_identity": "not_checked"
+    },
+    {
+      "id": "SIT-06",
+      "label": "Familie sucht Erziehungs- und Familienberatung",
+      "domain": "familie",
+      "portal_ids": [
+        "PRA-H03",
+        "PRA-H04"
+      ],
+      "topic_match": "curated",
+      "direct_article_to_rule_mapping": "not_checked",
+      "local_help_availability": "not_checked",
+      "norm_instruction_identity": "not_checked"
+    },
+    {
+      "id": "SIT-07",
+      "label": "Mensch mit Behinderung braucht Hilfsmittel",
+      "domain": "teilhabe",
+      "portal_ids": [
+        "PRA-H11",
+        "PRA-H06",
+        "PRA-H14"
+      ],
+      "topic_match": "curated",
+      "direct_article_to_rule_mapping": "not_checked",
+      "local_help_availability": "not_checked",
+      "norm_instruction_identity": "not_checked"
+    },
+    {
+      "id": "SIT-08",
+      "label": "Asylanhörung / drohende Frist",
+      "domain": "migration",
+      "portal_ids": [
+        "PRA-H12",
+        "PRA-H13",
+        "PRA-H14",
+        "PRA-H16"
+      ],
+      "topic_match": "curated",
+      "direct_article_to_rule_mapping": "not_checked",
+      "local_help_availability": "not_checked",
+      "norm_instruction_identity": "not_checked"
+    },
+    {
+      "id": "SIT-09",
+      "label": "Kündigung durch Arbeitgeber",
+      "domain": "arbeit",
+      "portal_ids": [
+        "PRA-H18",
+        "PRA-H14",
+        "PRA-H16"
+      ],
+      "topic_match": "curated",
+      "direct_article_to_rule_mapping": "not_checked",
+      "local_help_availability": "not_checked",
+      "norm_instruction_identity": "not_checked"
+    },
+    {
+      "id": "SIT-10",
+      "label": "Verbraucherstreit oder Vertragskündigung",
+      "domain": "verbraucher",
+      "portal_ids": [
+        "PRA-H09",
+        "PRA-H14"
+      ],
+      "topic_match": "curated",
+      "direct_article_to_rule_mapping": "not_checked",
+      "local_help_availability": "not_checked",
+      "norm_instruction_identity": "not_checked"
+    },
+    {
+      "id": "SIT-11",
+      "label": "Schulden und drohende Privatinsolvenz",
+      "domain": "schulden",
+      "portal_ids": [
+        "PRA-H19",
+        "PRA-H16",
+        "PRA-H14"
+      ],
+      "topic_match": "curated",
+      "direct_article_to_rule_mapping": "not_checked",
+      "local_help_availability": "not_checked",
+      "norm_instruction_identity": "not_checked"
+    },
+    {
+      "id": "SIT-12",
+      "label": "Pflege organisieren",
+      "domain": "pflege",
+      "portal_ids": [
+        "PRA-H20",
+        "PRA-H11",
+        "PRA-H03"
+      ],
+      "topic_match": "curated",
+      "direct_article_to_rule_mapping": "not_checked",
+      "local_help_availability": "not_checked",
+      "norm_instruction_identity": "not_checked"
+    },
+    {
+      "id": "SIT-13",
+      "label": "Diskriminierung am Arbeitsplatz oder im Alltag",
+      "domain": "diskriminierung",
+      "portal_ids": [
+        "PRA-H21",
+        "PRA-H18",
+        "PRA-H14"
+      ],
+      "topic_match": "curated",
+      "direct_article_to_rule_mapping": "not_checked",
+      "local_help_availability": "not_checked",
+      "norm_instruction_identity": "not_checked"
+    },
+    {
+      "id": "SIT-14",
+      "label": "Psychosoziale Versorgung und familiäre Krise",
+      "domain": "familie",
+      "portal_ids": [
+        "PRA-H03",
+        "PRA-H04",
+        "PRA-H06"
+      ],
+      "topic_match": "curated",
+      "direct_article_to_rule_mapping": "not_checked",
+      "local_help_availability": "not_checked",
+      "norm_instruction_identity": "not_checked"
+    },
+    {
+      "id": "SIT-15",
+      "label": "Gesundheitsamt – konkrete infektiologische Amtsanordnung",
+      "domain": "gesundheitsamt",
+      "portal_ids": [
+        "PRA-H07",
+        "PRA-H14"
+      ],
+      "topic_match": "curated",
+      "direct_article_to_rule_mapping": "not_checked",
+      "local_help_availability": "not_checked",
+      "norm_instruction_identity": "not_checked"
+    },
+    {
+      "id": "SIT-16",
+      "label": "Jugendamt – konkrete Dienstanweisung einer Kommune",
+      "domain": "jugendhilfe",
+      "portal_ids": [
+        "PRA-H05",
+        "PRA-H03"
+      ],
+      "topic_match": "curated",
+      "direct_article_to_rule_mapping": "not_checked",
+      "local_help_availability": "not_checked",
+      "norm_instruction_identity": "not_checked"
+    }
+  ],
+  "verification": "individual article-to-situation, current availability and instruction identity not audited"
+}
