@@ -1,94 +1,95 @@
 #!/usr/bin/env python3
-"""Weisungsatlas – Quelltext nach Markdown und atomaren Prüf-KANDIDATEN.
+"""Bürger-KI Weisungsatlas: Quellenstruktur -> eigene MD-Rekonstruktionsvorlage.
 
-Input ist eine zuvor rechtmäßig beschaffte lokale HTML/TXT/PDF-Datei.
-Der Export bewahrt Herkunfts-Metadaten. Keine OCR und keine automatische
-Behauptung, dass eine extrahierte Aussage rechtlich gültig sei.
-PDF-Unterstützung erfordert PyMuPDF (fitz). Regeln werden nur als
-Kandidaten markiert, bis eine Fachprüfung erfolgt.
+Projektregel: Originaltexte aus Behördenunterlagen werden NICHT als Markdown,
+JSON, Textauszug oder Regelatom in den Forschungsbestand exportiert.
+Eingabedateien werden nur temporär ausgelesen, Struktur und SHA registriert.
+Fachliche Paraphrase und atomare Regelauslegung erfolgen anschließend gesondert
+mit konkretem Norm-/Seitenbezug und Freigabe. Keine OCR, keine Rechtsauskunft.
 """
 from __future__ import annotations
+
 import argparse
 import hashlib
-import html
 import json
 import re
 import sys
 from html.parser import HTMLParser
 from pathlib import Path
 
-LIMIT = 25_000_000
-VERSION = "0.1.0"
+VERSION = "0.2.0"
+MAX_BYTES = 25_000_000
 
-class TextHTML(HTMLParser):
+
+class StructuralHTML(HTMLParser):
+    """Erfasst nur Struktur- und Absatzgrenzen; Text wird nicht ausgegeben."""
     def __init__(self):
         super().__init__()
-        self.fragments = []
+        self.paragraphs = 0
+        self.headings = 0
         self.skip = 0
+        self.in_paragraph = False
+        self.has_paragraph_text = False
+
     def handle_starttag(self, tag, attrs):
         if tag in ("script", "style", "nav", "footer"):
             self.skip += 1
-        if not self.skip and tag in ("p", "h1", "h2", "h3", "h4", "li", "br", "tr"):
-            self.fragments.append("\n")
+        if self.skip:
+            return
+        if tag in ("p", "li"):
+            self.in_paragraph = True
+            self.has_paragraph_text = False
+        if re.fullmatch(r"h[1-6]", tag):
+            self.headings += 1
+
     def handle_endtag(self, tag):
         if tag in ("script", "style", "nav", "footer"):
             self.skip = max(0, self.skip - 1)
-        elif not self.skip and tag in ("p", "h1", "h2", "h3", "h4", "li", "tr"):
-            self.fragments.append("\n")
+            return
+        if tag in ("p", "li") and self.in_paragraph:
+            if self.has_paragraph_text:
+                self.paragraphs += 1
+            self.in_paragraph = False
+
     def handle_data(self, data):
-        if not self.skip:
-            self.fragments.append(data)
+        if self.in_paragraph and not self.skip and data.strip():
+            self.has_paragraph_text = True
 
-def normalize(text):
-    text = text.replace("\r\n", "\n").replace("\u00a0", " ")
-    text = re.sub(r"[ \t]+", " ", text)
-    text = re.sub(r"\n\s*\n\s*\n+", "\n\n", text)
-    return text.strip()
 
-def extract_file(path):
+def extract_structure(path: Path):
     raw = path.read_bytes()
-    if len(raw) > LIMIT:
-        raise ValueError("Eingabedatei größer als 25 MB")
-    ext = path.suffix.lower()
-    if ext in (".txt", ".md"):
-        pages = [normalize(raw.decode("utf-8-sig"))]
-    elif ext in (".htm", ".html"):
-        parser = TextHTML()
-        parser.feed(raw.decode("utf-8-sig"))
-        pages = [normalize(html.unescape("".join(parser.fragments)))]
-    elif ext == ".pdf":
+    if len(raw) > MAX_BYTES:
+        raise ValueError("Quelle > 25 MB")
+    suffix = path.suffix.lower()
+    if suffix in (".txt", ".md"):
+        txt = raw.decode("utf-8-sig")
+        parts = [p for p in re.split(r"\n\s*\n", txt) if p.strip()]
+        pages = [{"page": 1, "paragraph_count": len(parts),
+                  "text_present": bool(txt.strip())}]
+    elif suffix in (".html", ".htm"):
+        doc = StructuralHTML()
+        doc.feed(raw.decode("utf-8-sig"))
+        pages = [{"page": 1, "paragraph_count": doc.paragraphs,
+                  "heading_count": doc.headings, "text_present": bool(raw.strip())}]
+    elif suffix == ".pdf":
         try:
             import fitz
         except ImportError as exc:
-            raise ValueError("PyMuPDF für PDF-Extraktion installieren") from exc
-        doc = fitz.open(stream=raw, filetype="pdf")
-        pages = [normalize(page.get_text(sort=True)) for page in doc]
+            raise ValueError("PyMuPDF erforderlich für PDF") from exc
+        pdf = fitz.open(stream=raw, filetype="pdf")
+        pages = []
+        for idx, page in enumerate(pdf, 1):
+            txt = page.get_text(sort=True)
+            parts = [p for p in re.split(r"\n\s*\n", txt) if p.strip()]
+            pages.append({"page": idx, "paragraph_count": len(parts),
+                          "text_present": bool(txt.strip())})
+        pdf.close()
     else:
-        raise ValueError("Format nicht unterstützt: " + ext)
-    if not any(pages):
-        raise ValueError("Kein Text extrahiert; manuelle Prüfung nötig, keine automatische OCR")
+        raise ValueError("Nicht unterstütztes Format: " + suffix)
+    if not pages or not any(p["text_present"] for p in pages):
+        raise ValueError("Keine verwertbare Textstruktur; manuelle Prüfung nötig")
     return pages, hashlib.sha256(raw).hexdigest()
 
-def candidates(pages, document_id):
-    result = []
-    # Verfahrens- und Pflichtausdrücke sind zunächst nur Hinweise.
-    keywords = re.compile(r"\b(muss|müssen|soll|sollen|darf|dürfen|ist verpflichtet|sind verpflichtet|hat zu|haben zu|innerhalb von|sofern|wenn|es sei denn)\b", re.I)
-    for page_no, text in enumerate(pages, 1):
-        parts = re.split(r"(?<=[.!?])\s+(?=[A-ZÄÖÜ§])", text)
-        for part in parts:
-            part = " ".join(part.split())
-            if 30 <= len(part) <= 900 and keywords.search(part):
-                candidate_id = f"{document_id}-C{len(result)+1:05d}"
-                result.append({"candidate_id": candidate_id,
-                               "locator": {"page": page_no, "text_prefix": part[:100]},
-                               "text": part,
-                               "text_sha256": hashlib.sha256(part.encode()).hexdigest(),
-                               "modality_hint": keywords.search(part).group(0).lower(),
-                               "actor": None, "action": None, "condition": None,
-                               "exception": None, "legal_basis": None,
-                               "valid_from": None, "valid_until": None,
-                               "review_status": "unreviewed_candidate"})
-    return result
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
@@ -99,36 +100,56 @@ def main():
     p.add_argument("--retrieved-at", required=True)
     p.add_argument("--out", type=Path, required=True)
     a = p.parse_args()
+    if not a.id or not re.fullmatch(r"[A-Za-z0-9._-]{3,100}", a.id):
+        p.error("Quellen-ID muss stabil und sicher sein")
     if not a.url.startswith("https://"):
         p.error("HTTPS-Quellen-URL erforderlich")
     if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", a.retrieved_at):
-        p.error("Abrufdatum muss YYYY-MM-DD sein")
-    pages, digest = extract_file(a.input)
-    atoms = candidates(pages, a.id)
+        p.error("Abrufdatum YYYY-MM-DD erforderlich")
+    pages, digest = extract_structure(a.input)
     a.out.mkdir(parents=True, exist_ok=True)
-    md = [
-        "# "+a.id+" – automatisierte Quellentranskription",
-        "",
-        "> Nicht fachlich verifiziert. Keine Aussage über aktuelle Geltung, Veröffentlichungslizenz oder vollständige PDF-Texterkennung.",
-        "",
-        f"- Originalquelle: {a.url}",
-        f"- Herausgeber: {a.issuer}",
-        f"- Abrufdatum: {a.retrieved_at}",
-        f"- Original-SHA256: `{digest}`",
-        f"- Seiten/Abschnitte: {len(pages)}", "",
+    original_metadata = {
+        "schema": "bki-weisungs-rekonstruktion/0.2",
+        "source_id": a.id,
+        "source_url": a.url,
+        "issuer": a.issuer,
+        "retrieved_at": a.retrieved_at,
+        "source_sha256": digest,
+        "format": a.input.suffix.lower().lstrip("."),
+        "extractor_version": VERSION,
+        "structure": pages,
+        "original_text_exported": False,
+        "atom_candidates": [],
+        "review_status": "awaiting_manual_paraphrase"
+    }
+    (a.out / (a.id + ".source.json")).write_text(
+        json.dumps(original_metadata, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    lines = [
+        "# Eigene Rekonstruktion – " + a.id, "",
+        "**Status:** Bearbeitungsvorlage; keine fachlich geprüften Regeln.", "",
+        "- Herausgeber: " + a.issuer,
+        "- Fundstelle: " + a.url,
+        "- Abrufdatum: " + a.retrieved_at,
+        "- SHA-256 der lokalen Ursprungsdatei: `" + digest + "`",
+        "- Originaltext: **nicht übernommen**", "",
+        "## Rechtsgebiet und Anwendungsbereich", "",
+        "_In eigenen Worten ausarbeiten. Noch nicht geprüft._", "",
+        "## Gesetzeübergreifende Beziehungen", "",
+        "_Norm- und Paragraphenreferenzen zuordnen; keine automatische Gleichsetzung._", "",
+        "## Eigene atomare Handlungsmodelle", "",
+        "_Je Regel: Akteur, Handlung, Bedingung, Ausnahme, Zuständigkeit, Zeitraum,",
+        "präzise Originalfundstelle, Quellen-ID, Geltungs- und Prüfstatus._", "",
+        "## Gegenproben und offene Fragen", "",
+        "_Positiv-, Grenz-, Negativfall und Rechtsgrundlagenprüfung nachtragen._", "",
+        "## Fundstellen-Struktur (ohne Originaltexte)", ""
     ]
-    for idx, text in enumerate(pages, 1):
-        md.extend([f"## Seite/Abschnitt {idx}", "", text, ""])
-    (a.out / (a.id+".md")).write_text("\n".join(md), encoding="utf-8")
-    record = {"schema": "bki-weisungsatome/0.1", "document_id": a.id,
-              "original_url": a.url, "issuer": a.issuer, "retrieved_at": a.retrieved_at,
-              "original_sha256": digest, "parser_version": VERSION,
-              "source_publication_permission": "not_assessed",
-              "text_extraction_status": "unreviewed",
-              "atoms": atoms}
-    (a.out / (a.id+".atoms.json")).write_text(json.dumps(record, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
-    print(f"{a.id}: {len(pages)} Seiten/Abschnitte; {len(atoms)} ungeprüfte Atom-Kandidaten")
+    lines.extend("- Seite/Abschnitt %s: Strukturpositionen %s" % (p["page"], p["paragraph_count"])
+                 for p in pages)
+    (a.out / (a.id + ".md")).write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print("Rekonstruktionsvorlage angelegt:", a.id, "; Seiten:", len(pages),
+          "; Regeln freigegeben: 0; Originaltexte exportiert: nein")
     return 0
+
 
 if __name__ == "__main__":
     sys.exit(main())
