@@ -1,0 +1,24 @@
+name: BKI XML source adapter tests
+on:
+  push:
+    paths:
+      - 'forschung/buerger-ki/bki_gii_adapter.py'
+      - 'forschung/buerger-ki/test_bki_gii_adapter.py'
+      - '.github/workflows/bki-gii-adapter-tests.yml'
+  pull_request:
+    paths:
+      - 'forschung/buerger-ki/bki_gii_adapter.py'
+      - 'forschung/buerger-ki/test_bki_gii_adapter.py'
+      - '.github/workflows/bki-gii-adapter-tests.yml'
+  workflow_dispatch:
+jobs:
+  unittest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate local XML source adapter without network access
+        run: python -m unittest discover -s forschung/buerger-ki -p 'test_bki_gii_adapter.py' -v
