@@ -1,0 +1,156 @@
+{
+  "schema": "historical-anchored-operator-sweep/0.1",
+  "date": "2026-11-04",
+  "status": "independent_sympy_reference_probes_pending_scientific_domain_review",
+  "total": 14,
+  "passed": 14,
+  "distinct_tensor_ids": 11,
+  "source": "docs/data/tensor-inventar-v10_7.json",
+  "tests": [
+    {
+      "test_id": "H14-01",
+      "tensor_id": "FACH-F056",
+      "operator": "solve_R",
+      "derived_formula": "R=DeltaP/Q",
+      "conditions": "Q != 0",
+      "class_candidate": "conditional_unique",
+      "proof_status": "local_sympy_reference_pass",
+      "project_27_field_status": "unverified"
+    },
+    {
+      "test_id": "H14-02",
+      "tensor_id": "FACH-F056",
+      "operator": "solve_Q",
+      "derived_formula": "Q=DeltaP/R",
+      "conditions": "R != 0",
+      "class_candidate": "conditional_unique",
+      "proof_status": "local_sympy_reference_pass",
+      "project_27_field_status": "unverified"
+    },
+    {
+      "test_id": "H14-03",
+      "tensor_id": "FACH-F037",
+      "operator": "inverse_c",
+      "derived_formula": "c=Kd*theta/(1-theta)",
+      "conditions": "theta !=1; physical 0<=theta<1",
+      "class_candidate": "branch_restricted",
+      "proof_status": "local_sympy_reference_pass",
+      "project_27_field_status": "unverified"
+    },
+    {
+      "test_id": "H14-04",
+      "tensor_id": "FACH-F037",
+      "operator": "saturation_limit",
+      "derived_formula": "lim(c→∞)theta=1",
+      "conditions": "Kd>0",
+      "class_candidate": "asymptotic_noninvertibility",
+      "proof_status": "local_sympy_reference_pass",
+      "project_27_field_status": "unverified"
+    },
+    {
+      "test_id": "H14-05",
+      "tensor_id": "FACH-F040",
+      "operator": "inverse_concentration",
+      "derived_formula": "c=A/(epsilon*l)",
+      "conditions": "epsilon*l !=0",
+      "class_candidate": "conditional_unique",
+      "proof_status": "local_sympy_reference_pass",
+      "project_27_field_status": "unverified"
+    },
+    {
+      "test_id": "H14-06",
+      "tensor_id": "FACH-F020",
+      "operator": "solve_partition",
+      "derived_formula": "Z=exp(-Free/(kB*T))",
+      "conditions": "Z>0;kB*T !=0",
+      "class_candidate": "conditional_unique",
+      "proof_status": "local_sympy_reference_pass",
+      "project_27_field_status": "unverified"
+    },
+    {
+      "test_id": "H14-07",
+      "tensor_id": "FACH-F023",
+      "operator": "positive_temperature_branch",
+      "derived_formula": "T=((1-alpha)*S/(4*sigma*epsilon))**(1/4)",
+      "conditions": "0<=alpha<1; T>=0; physical positive inputs",
+      "class_candidate": "restricted_positive_branch",
+      "proof_status": "local_sympy_reference_pass",
+      "project_27_field_status": "unverified"
+    },
+    {
+      "test_id": "H14-08",
+      "tensor_id": "FACH-F052",
+      "operator": "solve_initial_value",
+      "derived_formula": "C(t)=C0*exp(-k*t)",
+      "conditions": "finite t,k; initial condition",
+      "class_candidate": "forward_dynamic",
+      "proof_status": "local_sympy_reference_pass",
+      "project_27_field_status": "unverified"
+    },
+    {
+      "test_id": "H14-09",
+      "tensor_id": "FACH-F052",
+      "operator": "recover_C0",
+      "derived_formula": "C0=C(t)*exp(k*t)",
+      "conditions": "exact observation, known t,k",
+      "class_candidate": "inverse_dynamics_unstable_if_noisy",
+      "proof_status": "local_sympy_reference_pass",
+      "project_27_field_status": "unverified"
+    },
+    {
+      "test_id": "H14-10",
+      "tensor_id": "FACH-F096",
+      "operator": "no_flow_limit",
+      "derived_formula": "F=0,r(c)=S*v(c) => d c/dt=S*v(c)",
+      "conditions": "V!=0",
+      "class_candidate": "special_case_of_F034",
+      "proof_status": "local_sympy_reference_pass",
+      "project_27_field_status": "unverified"
+    },
+    {
+      "test_id": "H14-11",
+      "tensor_id": "FACH-F035",
+      "operator": "inverse_reaction_quotient",
+      "derived_formula": "Q=exp((E0-E)*n*F/(R*T))",
+      "conditions": "positive Q; R*T*n*F !=0",
+      "class_candidate": "conditional_unique",
+      "proof_status": "local_sympy_reference_pass",
+      "project_27_field_status": "unverified"
+    },
+    {
+      "test_id": "H14-12",
+      "tensor_id": "FACH-F004",
+      "operator": "similarity_eigenvalues",
+      "derived_formula": "spec(P*A*P^-1)=spec(A)",
+      "conditions": "invertible P",
+      "class_candidate": "spectral_equivalence",
+      "proof_status": "local_sympy_reference_pass",
+      "project_27_field_status": "unverified"
+    },
+    {
+      "test_id": "H14-13",
+      "tensor_id": "FACH-F016",
+      "operator": "inverse_measurement_nonunique",
+      "derived_formula": "Tr(rho_plus*E)=Tr(rho_minus*E)=1/2",
+      "conditions": "projective E=|0><0|",
+      "class_candidate": "information_loss",
+      "proof_status": "local_sympy_reference_pass",
+      "project_27_field_status": "unverified"
+    },
+    {
+      "test_id": "H14-14",
+      "tensor_id": "FACH-F054",
+      "operator": "state_ambiguity",
+      "derived_formula": "Sdot=-beta*S*I/N; I(t) required",
+      "conditions": "unknown I(t) and other model states",
+      "class_candidate": "insufficient_single_equation",
+      "proof_status": "local_sympy_reference_pass",
+      "project_27_field_status": "unverified"
+    }
+  ],
+  "limitations": [
+    "Tests only against original formula anchors and model assumptions, not complete tensors.",
+    "Some symbolic checks need expert review of scalar/vector and material interpretation.",
+    "No inference that all three axes have one mathematical regime."
+  ]
+}
