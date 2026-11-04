@@ -3,9 +3,10 @@
   "generated_date": "2026-11-04",
   "original_title": "KI-Tensor v10.7: 103 parallele Tensorgrundgerüste",
   "provenance": {
-    "source": "KI_Tensor_v10_7_Gesamtinventar.md",
-    "source_kind": "user_provided_historical_inventory",
-    "public_audit": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/IMPORTAUDIT_DREI_NOLOSS_ARCHIVE_2026-11-03.md"
+    "source": "Gesamtinventar_v10_7.md",
+    "source_kind": "historical_user_supplied_inventory_not_yet_public_as_original_file",
+    "public_audit": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/IMPORTAUDIT_DREI_NOLOSS_ARCHIVE_2026-11-03.md",
+    "note": "Publicly published JSON derived from historical source; original text's version identity is stated, but this record is not a complete 2026-11-04 database snapshot."
   },
   "limitations": "103 Strukturentwürfe, keine 103 mathematisch validierten Tensoren; Achse 2 und 3 vielfach neue Kandidaten. Keine Feld-für-Feld-Bestätigung; 27 Positionen sind Adressen.",
   "stats": {
