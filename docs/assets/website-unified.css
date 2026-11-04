@@ -25,3 +25,14 @@ body.ux-site-v2 main > section:not(.ux-topic) > h2:first-child::before{content:v
 .ux-site-v2 .ux-topic-icon svg{display:block;width:27px;height:27px;color:var(--topic)}
 .ux-site-v2 main :is(a,button,input,select):focus-visible{outline:3px solid #be894d;outline-offset:2px}
 @media(max-width:760px){.ux-site-nav a{gap:4px}.ux-site-nav a svg{width:14px;height:14px}}
+
+/* Original project accent hierarchy restored inside the common metatopic frames. */
+.ux-card[data-tone=mini]{--card-tone:var(--ux-mini)}
+.ux-card[data-tone=kompr]{--card-tone:var(--ux-kompr)}
+.ux-card[data-tone=visual]{--card-tone:var(--ux-visual)}
+.ux-card[data-tone=geo]{--card-tone:var(--ux-geo)}
+.ux-card[data-tone=tensor]{--card-tone:var(--ux-tensor)}
+.ux-card[data-tone=harv]{--card-tone:var(--ux-harv)}
+.ux-card[data-tone=pub]{--card-tone:var(--ux-pub)}
+.ux-card[data-tone]{border-top:3px solid var(--card-tone);background:color-mix(in srgb,var(--card-tone) 5%,var(--ux-panel))}
+.ux-card .ux-card-icon{width:34px;height:34px;color:var(--card-tone,var(--topic));vertical-align:middle;margin-right:5px}
