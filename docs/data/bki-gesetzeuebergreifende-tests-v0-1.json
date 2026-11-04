@@ -1,0 +1,229 @@
+{
+  "schema": "bki-crosslaw-suite/0.1",
+  "date": "2026-11-05",
+  "status": "test_design_only",
+  "source_policy": "BKI-WA-RED-001",
+  "paper": "../paper-buerger-ki-gesetzeuebergreifende-weisungsrekonstruktion-v0-1.md",
+  "families": [
+    {
+      "id": "BKI-F01",
+      "name": "Amtsermittlung",
+      "operator": "investigate_facts",
+      "source_urls": [
+        "https://www.gesetze-im-internet.de/vwvfg/__24.html",
+        "https://www.gesetze-im-internet.de/sgb_10/__20.html",
+        "https://www.gesetze-im-internet.de/ao_1977/__88.html"
+      ],
+      "critical_difference": "Geltungsbereich und AO-Risikomanagement",
+      "legal_equivalence": "not_assumed",
+      "review_status": "not_reviewed"
+    },
+    {
+      "id": "BKI-F02",
+      "name": "Anhörung",
+      "operator": "check_hearing",
+      "source_urls": [
+        "https://www.gesetze-im-internet.de/vwvfg/__28.html",
+        "https://www.gesetze-im-internet.de/sgb_10/__24.html",
+        "https://www.gesetze-im-internet.de/ao_1977/__91.html"
+      ],
+      "critical_difference": "Sonderausnahmen und Soll/Muss",
+      "legal_equivalence": "not_assumed",
+      "review_status": "not_reviewed"
+    },
+    {
+      "id": "BKI-F03",
+      "name": "Begründung",
+      "operator": "test_reasoning",
+      "source_urls": [
+        "https://www.gesetze-im-internet.de/vwvfg/__39.html",
+        "https://www.gesetze-im-internet.de/sgb_10/__35.html",
+        "https://www.gesetze-im-internet.de/ao_1977/__121.html"
+      ],
+      "critical_difference": "Ausnahmen und Ermessensbegründung",
+      "legal_equivalence": "not_assumed",
+      "review_status": "not_reviewed"
+    },
+    {
+      "id": "BKI-F04",
+      "name": "Beratung und Antrag",
+      "operator": "guide_application",
+      "source_urls": [
+        "https://www.gesetze-im-internet.de/vwvfg/__25.html",
+        "https://www.gesetze-im-internet.de/sgb_1/__14.html",
+        "https://www.gesetze-im-internet.de/sgb_1/__16.html"
+      ],
+      "critical_difference": "Spezielle Sozialleistungs-Antragsfiktion",
+      "legal_equivalence": "not_assumed",
+      "review_status": "not_reviewed"
+    },
+    {
+      "id": "BKI-F05",
+      "name": "Akteneinsicht und Informationszugang",
+      "operator": "check_information_access",
+      "source_urls": [
+        "https://www.gesetze-im-internet.de/vwvfg/__29.html",
+        "https://www.gesetze-im-internet.de/sgb_10/__25.html",
+        "https://www.gesetze-im-internet.de/ifg/__1.html"
+      ],
+      "critical_difference": "Beteiligtenrechte vs IFG und Schutzgrenzen",
+      "legal_equivalence": "not_assumed",
+      "review_status": "not_reviewed"
+    },
+    {
+      "id": "BKI-F06",
+      "name": "Behördenbindung und Weisungen",
+      "operator": "resolve_authority",
+      "source_urls": [
+        "https://www.gesetze-im-internet.de/gg/art_83.html",
+        "https://www.gesetze-im-internet.de/gg/art_84.html",
+        "https://www.gesetze-im-internet.de/gg/art_85.html"
+      ],
+      "critical_difference": "Bundes-Länder-Vollzugsformen und Kompetenz",
+      "legal_equivalence": "not_assumed",
+      "review_status": "not_reviewed"
+    }
+  ],
+  "tests": [
+    {
+      "id": "BKI-XLAW-01",
+      "family_id": "BKI-F01",
+      "synthetic_question": "Allgemeines Bundesverwaltungsverfahren mit ungeklärter günstiger Tatsache",
+      "expected_check": "Berücksichtigung der günstigen Tatsache im passenden Regime prüfen",
+      "forbidden_inference": "Ungeprüfte Übernahme von AO-Risikoregeln",
+      "source_snapshot": null,
+      "independent_gold_standard": null,
+      "test_status": "not_run",
+      "approval": "draft"
+    },
+    {
+      "id": "BKI-XLAW-02",
+      "family_id": "BKI-F01",
+      "synthetic_question": "Steuerverfahren mit allgemeinem Sachverhaltsproblem",
+      "expected_check": "AO-spezifisches Ermittlungsregime erkennen",
+      "forbidden_inference": "§24 VwVfG pauschal als Rechtsgrundlage ausgeben",
+      "source_snapshot": null,
+      "independent_gold_standard": null,
+      "test_status": "not_run",
+      "approval": "draft"
+    },
+    {
+      "id": "BKI-XLAW-03",
+      "family_id": "BKI-F02",
+      "synthetic_question": "Fiktiver belastender Sozialverwaltungsakt, Anhörung zunächst unterblieben",
+      "expected_check": "SGB-X-Anhörungsgrundsatz und Ausnahmen gesondert prüfen",
+      "forbidden_inference": "Ausnahmelos zwingende Anhörung behaupten",
+      "source_snapshot": null,
+      "independent_gold_standard": null,
+      "test_status": "not_run",
+      "approval": "draft"
+    },
+    {
+      "id": "BKI-XLAW-04",
+      "family_id": "BKI-F02",
+      "synthetic_question": "Fiktiver Steuerbescheid mit nachteiliger Abweichung",
+      "expected_check": "§91 AO einschließlich Sonderkontext prüfen",
+      "forbidden_inference": "Pflichtstufen des VwVfG ungeprüft übertragen",
+      "source_snapshot": null,
+      "independent_gold_standard": null,
+      "test_status": "not_run",
+      "approval": "draft"
+    },
+    {
+      "id": "BKI-XLAW-05",
+      "family_id": "BKI-F03",
+      "synthetic_question": "Schriftlicher Verwaltungsakt ohne erkennbare tragende Begründung",
+      "expected_check": "Begründungsumfang und Ausnahmen abfragen",
+      "forbidden_inference": "Aus jeder fehlenden Begründung automatisch Nichtigkeit ableiten",
+      "source_snapshot": null,
+      "independent_gold_standard": null,
+      "test_status": "not_run",
+      "approval": "draft"
+    },
+    {
+      "id": "BKI-XLAW-06",
+      "family_id": "BKI-F03",
+      "synthetic_question": "Fiktive Ermessensentscheidung ohne dargestellte Erwägungen",
+      "expected_check": "Spezifische Ermessensbegründung auf einschlägige Norm prüfen",
+      "forbidden_inference": "Vorliegen von Ermessen aus bloßem Wortlaut behaupten",
+      "source_snapshot": null,
+      "independent_gold_standard": null,
+      "test_status": "not_run",
+      "approval": "draft"
+    },
+    {
+      "id": "BKI-XLAW-07",
+      "family_id": "BKI-F04",
+      "synthetic_question": "Sozialleistungsantrag bei nicht zuständigem Leistungsträger abgegeben",
+      "expected_check": "§16 SGB I für Annahme/Weiterleitung und Eingang prüfen",
+      "forbidden_inference": "Antragsfiktion auf beliebige Gewerbeanmeldung übertragen",
+      "source_snapshot": null,
+      "independent_gold_standard": null,
+      "test_status": "not_run",
+      "approval": "draft"
+    },
+    {
+      "id": "BKI-XLAW-08",
+      "family_id": "BKI-F04",
+      "synthetic_question": "Allgemeine Verwaltungsanfrage mit fehlenden Unterlagen",
+      "expected_check": "Beratungspflichten nach jeweiligem Verfahrensrecht abgrenzen",
+      "forbidden_inference": "Sozialleistungs-Beratungsschutz generell gleichsetzen",
+      "source_snapshot": null,
+      "independent_gold_standard": null,
+      "test_status": "not_run",
+      "approval": "draft"
+    },
+    {
+      "id": "BKI-XLAW-09",
+      "family_id": "BKI-F05",
+      "synthetic_question": "Beteiligter verlangt Einsicht in seine Verfahrensakte",
+      "expected_check": "speziellen Beteiligtenanspruch prüfen",
+      "forbidden_inference": "IFG pauschal als einzigen Rechtsweg nennen",
+      "source_snapshot": null,
+      "independent_gold_standard": null,
+      "test_status": "not_run",
+      "approval": "draft"
+    },
+    {
+      "id": "BKI-XLAW-10",
+      "family_id": "BKI-F05",
+      "synthetic_question": "Nicht beteiligte Person begehrt interne Weisung einer Bundesbehörde",
+      "expected_check": "IFG-Zugang plus Ausschlussprüfung bestimmen",
+      "forbidden_inference": "Geheimhaltungs- und Drittinteressen übersehen",
+      "source_snapshot": null,
+      "independent_gold_standard": null,
+      "test_status": "not_run",
+      "approval": "draft"
+    },
+    {
+      "id": "BKI-XLAW-11",
+      "family_id": "BKI-F06",
+      "synthetic_question": "Land vollzieht Bundesgesetz als eigene Angelegenheit",
+      "expected_check": "Art83/84 GG, Landeszuständigkeit und Verfahrensrecht prüfen",
+      "forbidden_inference": "Bundesministerium ohne Grundlage als direkt anweisungsbefugt annehmen",
+      "source_snapshot": null,
+      "independent_gold_standard": null,
+      "test_status": "not_run",
+      "approval": "draft"
+    },
+    {
+      "id": "BKI-XLAW-12",
+      "family_id": "BKI-F06",
+      "synthetic_question": "Land führt Bundesrecht im Auftrag des Bundes aus",
+      "expected_check": "Art85 GG, Weisungsadressaten und Fachaufsicht prüfen",
+      "forbidden_inference": "Art84 und Art85 als gleiche Kompetenzausübung behandeln",
+      "source_snapshot": null,
+      "independent_gold_standard": null,
+      "test_status": "not_run",
+      "approval": "draft"
+    }
+  ],
+  "metrics": [
+    "correct_regime",
+    "source_fidelity",
+    "special_case_retained",
+    "uncertainty",
+    "negative_case_detection"
+  ],
+  "results": []
+}
