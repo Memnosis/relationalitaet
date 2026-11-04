@@ -3,7 +3,7 @@
 
 **Forschungs- und Webedition · 4. November 2026 · v1.0**  
 **Status:** Zusammenführung der bisher dokumentierten Bürger-KI-Entwicklung und des vereinbarten nächsten Ausbauplans; **nicht** die Behauptung, dass sämtliche vorgeschlagenen Fähigkeiten bereits technisch umgesetzt, klinisch validiert oder rechtlich entschieden wären.  
-**Öffentlicher Einstieg:** [Bürger-KI](./buerger-ki.html) · [Mein Recht](./buerger-ki-mein-recht.html) · [Unser gemeinsames Problem](./buerger-ki-gemeinsam.html) · [Unsere gesellschaftlichen Grundlagen](./buerger-ki-grundlagen.html) · [Schutzpflichten und vermeidbare Schäden](./buerger-ki-schutzpflichten.html)
+**Öffentlicher Einstieg:** [Bürger-KI](./buerger-ki.html) · [Anwendungsfelder](./buerger-ki-anwendungsfelder.html) · [Mein Recht](./buerger-ki-mein-recht.html) · [Unser gemeinsames Problem](./buerger-ki-gemeinsam.html) · [Unsere gesellschaftlichen Grundlagen](./buerger-ki-grundlagen.html) · [Schutzpflichten und vermeidbare Schäden](./buerger-ki-schutzpflichten.html)
 
 > **Was nützt uns ein Recht, wenn es nicht erfüllt wird?**  
 > **Was nützt uns ein gesellschaftliches Schutzversprechen, wenn wir seine tatsächliche Erfüllung nicht überprüfen und aus seinen Fehlern nicht lernen?**
@@ -53,6 +53,31 @@ Bürger-KI ist **nicht** auf Psychotherapie, Gesundheitsakten, Sozialleistungen,
 **Öffentlicher Einstieg:** „Rechte verstehen. Tatsächliche Erfüllung prüfen.“ Die Therapieplatzsuche bleibt der erste exemplarische Forschungsfall, nicht die Begrenzung des Projekts.
 
 **Abnahme Phase 1:** (a) Kernbotschaft und Vernetzungsbegriff sind auf der öffentlichen Hauptseite sichtbar; (b) die No-Loss-Gesamtfassung ist synchronisiert; (c) die nächsten Ausbauschritte können diese Definition als Ausgangspunkt verwenden. Dies bestätigt eine redaktionelle Klärung, **keine** Implementierung oder Validierung sämtlicher Skills.
+
+---
+
+## Phase 2 · Fachübergreifende Anwendungslandkarte (Umsetzung 04.11.2026)
+
+**Öffentliche Fachseite:** [Viele Lebensbereiche. Gemeinsame Fähigkeiten.](./buerger-ki-anwendungsfelder.html)
+
+Die Landkarte verknüpft zehn konkrete Lebensbereiche mit typischen Bürgerfragen und **vorhandenen, aber noch nicht validierten Skill-Spezifikationen**. Sie erweitert den in Kapitel 1 beschriebenen Anwendungsraum didaktisch und ändert nicht die fachlichen Aussagen der ursprünglichen Register.
+
+| Kennung | Lebensbereich | Beispielhafte wiederverwendbare Operation |
+|---|---|---|
+| GESUNDHEIT | Gesundheit und Psychotherapie | Versorgungswege erschließen, Angebote vergleichen, tatsächlichen Zugang prüfen |
+| PATIENT | Patientenrechte und Gesundheitswissen | Rechte/Originalquellen prüfen, Dokumentfragen und Widersprüche strukturieren |
+| SOZIAL | Existenzsicherung und Sozialleistungen | Soll-Ist-Differenz und Fälligkeit prüfen |
+| WOHNEN | Wohnen und Energie | Zuständigkeiten, Alternativen und notwendige Voraussetzungen erschließen |
+| FAMILIE | Kinder, Familie und Betreuung | Angebotszugang, Zeitstand und Rechtsgrundlagen prüfen |
+| BILDUNG | Bildung und Teilhabe | Förderwege und tatsächliche Zugänglichkeit vergleichen |
+| PFLEGE | Pflege, Behinderung und Assistenz | Leistungsarten, Voraussetzungen und Zuständigkeiten unterscheiden |
+| ARBEIT | Arbeit, Einkommen und Rente | Rechenwege, Fälligkeit und zeitliche Rechtsgeltung nachvollziehen |
+| VERWALTUNG | Behörden und Rechtsschutz | Fristen, Entscheidungen und nächste Schritte systematisch prüfen |
+| GESELLSCHAFT | Gesellschaft und institutionelles Lernen | Warnsignale, Gegenhypothesen, Abhilfe und überprüfbare Wirkung untersuchen |
+
+**Scharfe Trennung:** Die Skill-IDs im vorhandenen Katalog bezeichnen spezifizierte Prüf- und Fähigkeitskandidaten; diese Phase belegt keine praktische Funktionsfähigkeit, keine rechtliche Entscheidung und keinen bereits erreichten individuellen Erfolg. Der Therapieplatz ist der erste tiefere **Beispielfall**, nicht das definierende Projektziel. Vernetzt werden **Fähigkeiten, Wissen und geeignete bestehende Hilfen**, nicht persönliche Fälle.
+
+**Abnahme Phase 2:** Eine eigene Seite mit zehn Lebensbereichen ist unter `docs/` veröffentlicht, von der Hauptseite erreichbar, mit dem Skill-Katalog verbunden und in der No-Loss-Fassung nachgetragen. Weiterführende fachliche Vertikaltests bleiben offen. **Nächster Schritt: Phase 3 – der allgemeine Prüf- und Lösungsprozess**, den Menschen auch ohne KI verstehen können.
 
 ---
 
