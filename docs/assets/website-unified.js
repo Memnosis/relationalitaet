@@ -8,6 +8,18 @@ const hereFile=location.pathname.split("/").pop()||"index.html";
 const families={"ki-systeme.html":["var(--ux-ki)","◈"],"ki-geschichte.html":["var(--ux-ki)","⌛"],"ki-kernforschung.html":["var(--ux-ki)","⌘"],"vernetzung-ki.html":["var(--ux-ki)","⇄"],"minimal-ki.html":["var(--ux-mini)","◈"],"komprimierung.html":["var(--ux-kompr)","⌁"],"visuelle-engine.html":["var(--ux-visual)","▧"],"geoki.html":["var(--ux-geo)","◇"],"tensor-einfuehrung.html":["var(--ux-tensor)","▦"],"tensoralgebra.html":["var(--ux-tensor)","∑"],"harvesting.html":["var(--ux-harv)","◎"],"projektstand.html":["var(--ux-projekte)","▦"],"projektportfolio.html":["var(--ux-projekte)","▦"],"projektmanagement.html":["var(--ux-projekte)","▦"],"inkubator.html":["var(--ux-ink)","◇"],"bibliothek.html":["var(--ux-pub)","▤"],"codebuch.html":["var(--ux-pub)","▤"],"glossar.html":["var(--ux-pub)","▤"],"thesen.html":["var(--ux-pub)","▤"],"medien.html":["var(--ux-pub)","▤"],"publikationen.html":["var(--ux-pub)","▤"],"soulution.html":["var(--ux-soul)","❧"]};
 const info=families[hereFile]||["var(--ux-tensor)","◈"];
 document.body.style.setProperty("--ux-page-accent",info[0]);document.body.style.setProperty("--ux-page-icon",'"'+info[1]+'"');
+/* Existing sprite provides consistent icons; never rely on platform-dependent emoji glyphs. */
+const icons={"ki-ansaetze":"ki","ki-geschichte":"history","ki-kernforschung":"workflow","ki-kollegen":"colleagues","ki-publikationen":"book","vier-kernprojekte":"project","vier-projekte":"project","projektportfolio":"project","tensor-algebra-block":"algebra","inkubator-uebersicht":"inkubator","inkubator-deep-dive":"book","inkubator-quellen":"database","daten-explorer":"database","status-grenzen":"tensor","daten-originale":"book"};
+const toneIcons={ki:"ki",tensor:"tensor",mini:"mini",geo:"earth",kompr:"compress",visual:"eye",projekte:"project",pub:"book",ink:"inkubator",harv:"harvest",soul:"colleagues"};
+document.querySelectorAll(".ux-topic").forEach(function(section){
+  const holder=section.querySelector(".ux-topic-head > .ux-topic-icon");
+  if(!holder)return;
+  const name=icons[section.id]||toneIcons[section.dataset.tone]||"tensor";
+  const ns="http://www.w3.org/2000/svg",svg=document.createElementNS(ns,"svg"),use=document.createElementNS(ns,"use");
+  svg.setAttribute("width","26");svg.setAttribute("height","26");svg.setAttribute("viewBox","0 0 24 24");
+  svg.setAttribute("aria-hidden","true");use.setAttribute("href","./assets/tensor-icons.svg#"+name);
+  svg.append(use);holder.replaceChildren(svg);
+});
 const nav=document.querySelector(".tensor-global-nav nav,header nav[aria-label='Hauptnavigation']");
 if(nav){
   nav.classList.add("ux-site-nav");nav.setAttribute("aria-label","Hauptnavigation");
