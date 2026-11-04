@@ -72,7 +72,7 @@ body.ux-site-v3 main > section:not(.ux-topic) > h2:first-child::before{content:v
 }
 @media(max-width:570px){
  .tensor-global-nav .tensor-nav-inner{gap:3px!important;padding:9px 12px!important}
- .tensor-global-nav nav.ux-site-nav{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr));gap:3px!important;width:100%!important}
+ .tensor-global-nav nav.ux-site-nav{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:3px!important;width:100%!important}
  .tensor-global-nav nav.ux-site-nav a{flex-direction:column;white-space:normal!important;word-break:normal;text-align:center;font-size:.72rem!important;gap:2px;padding:6px 2px!important;min-width:0}
  .tensor-global-nav nav.ux-site-nav a svg{width:17px;height:17px}
  .ux-context-nav{padding:9px;gap:7px}
