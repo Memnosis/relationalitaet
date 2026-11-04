@@ -44,6 +44,11 @@ function showDetail(o){
    detail.append(els("p","","Formate: "+(o.formats||[]).join(", ")),els("p","","Werkzeugkandidaten: "+(o.tools||[]).join(", ")),els("p","","Risiken und Prüfbedarf: "+(o.risks||"nicht angegeben")),els("p","","Status: Kandidateninventar, keine nachgewiesene Integration."));
    detail.append(link("Originalregister ansehen",o.source));
  }
+ const issueTitle="Forschungsfrage zu "+o.id;
+ const issueBody="Referenzobjekt: "+o.id+"\nDatenstand: "+(o.axes?"Tensorgrundgeruest v10.7":"Skill-/Formatregister v1")+"\n\nFrage oder Anmerkung:\n\nOriginalquelle und ggf. Gegenprobe:\n\n";
+ const feedback=els("p","data-ref");
+ feedback.append(link("Öffentliche Frage oder Anmerkung zu "+o.id+" einreichen","https://github.com/Memnosis/relationalitaet/issues/new?title="+encodeURIComponent(issueTitle)+"&body="+encodeURIComponent(issueBody)));
+ detail.append(feedback);
  detail.scrollIntoView({behavior:"smooth",block:"start"});
 }
 function refresh(){
