@@ -1,0 +1,247 @@
+{
+  "schema": "bki-administration-sources/0.1",
+  "created_at": "2026-11-04",
+  "type": "source_bound_reference_design",
+  "validation": "Editorial source extraction; no independent legal review; not a live FIM API import",
+  "services": [
+    {
+      "id": "BK-ADM-01",
+      "title": "Führungszeugnis",
+      "source_ids": [
+        "SRC-BFJ-FAQ",
+        "SRC-BUND-FZ"
+      ],
+      "sources": [
+        {
+          "id": "SRC-BFJ-FAQ",
+          "url": "https://bundesjustizamt.de/DE/Themen/ZentraleRegister/Fuehrungszeugnis/Fragen/Fragen_node.html?docId=259056",
+          "authority": "Bundesamt für Justiz",
+          "type": "official_information"
+        },
+        {
+          "id": "SRC-BUND-FZ",
+          "url": "https://verwaltung.bund.de/leistungsverzeichnis/de/leistung/99049001001000",
+          "authority": "Bundesportal",
+          "type": "service_description"
+        }
+      ],
+      "rules": [
+        {
+          "id": "FZ-R1",
+          "match": {
+            "request": "personal"
+          },
+          "answer": "Antrag bei der örtlich zuständigen Meldebehörde/Bürgeramt; Weiterleitung an das Bundesamt für Justiz.",
+          "source_ids": [
+            "SRC-BUND-FZ",
+            "SRC-BFJ-FAQ"
+          ]
+        },
+        {
+          "id": "FZ-R2",
+          "match": {
+            "request": "online"
+          },
+          "answer": "Online-Antrag beim Bundesamt für Justiz über dessen Online-Portal.",
+          "source_ids": [
+            "SRC-BFJ-FAQ"
+          ]
+        },
+        {
+          "id": "FZ-R3",
+          "match": {
+            "request": "abroad"
+          },
+          "answer": "Bei Antragstellung aus dem Ausland ist die schriftliche direkte Antragstellung beim Bundesamt für Justiz mit amtlich bestätigten Personendaten und Unterschrift vorgesehen.",
+          "source_ids": [
+            "SRC-BUND-FZ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BK-ADM-02",
+      "title": "Meldebescheinigung",
+      "source_ids": [
+        "SRC-BMG-18",
+        "SRC-BUND-MB-BB"
+      ],
+      "sources": [
+        {
+          "id": "SRC-BMG-18",
+          "url": "https://www.gesetze-im-internet.de/bmg/__18.html",
+          "authority": "Bundesrecht § 18 BMG",
+          "type": "primary_law"
+        },
+        {
+          "id": "SRC-BUND-MB-BB",
+          "url": "https://verwaltung.bund.de/leistungsverzeichnis/DE/leistung/99115009001000/herausgeber/BB-126755977/region/120520000000",
+          "authority": "Bundesportal Beispiel Cottbus",
+          "type": "regional_service_description"
+        }
+      ],
+      "rules": [
+        {
+          "id": "MB-R1",
+          "match": {
+            "request": "ordinary"
+          },
+          "answer": "Eine Meldebescheinigung ist bei der Meldebehörde zu beantragen (§ 18 BMG).",
+          "source_ids": [
+            "SRC-BMG-18"
+          ]
+        },
+        {
+          "id": "MB-R2",
+          "match": {
+            "request": "electronic"
+          },
+          "answer": "Die elektronische Meldebescheinigung nach § 18 BMG wird unentgeltlich erteilt; technische Verfügbarkeit und Zugang müssen örtlich geprüft werden.",
+          "source_ids": [
+            "SRC-BMG-18"
+          ]
+        },
+        {
+          "id": "MB-R3",
+          "match": {
+            "request": "fee_generalization"
+          },
+          "answer": "Eine einheitliche Gebühr für alle Regionen lässt sich aus der regionalen Leistungsbeschreibung nicht ableiten; Kosten nach Verfahren und Region prüfen.",
+          "source_ids": [
+            "SRC-BMG-18",
+            "SRC-BUND-MB-BB"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BK-ADM-03",
+      "title": "Gewerbeanmeldung",
+      "source_ids": [
+        "SRC-GEWO-14",
+        "SRC-BUND-GEW"
+      ],
+      "sources": [
+        {
+          "id": "SRC-GEWO-14",
+          "url": "https://www.gesetze-im-internet.de/gewo/__14.html",
+          "authority": "Bundesrecht § 14 GewO",
+          "type": "primary_law"
+        },
+        {
+          "id": "SRC-BUND-GEW",
+          "url": "https://verwaltung.bund.de/leistungsverzeichnis/de/leistung/99050012104000",
+          "authority": "Bundesportal",
+          "type": "service_description"
+        }
+      ],
+      "rules": [
+        {
+          "id": "GEW-R1",
+          "match": {
+            "request": "start"
+          },
+          "answer": "Beginn eines stehenden Gewerbes muss der zuständigen Behörde gleichzeitig angezeigt werden (§ 14 GewO).",
+          "source_ids": [
+            "SRC-GEWO-14",
+            "SRC-BUND-GEW"
+          ]
+        },
+        {
+          "id": "GEW-R2",
+          "match": {
+            "request": "change"
+          },
+          "answer": "Auch bestimmte Änderungen, etwa Verlegung oder Wechsel des Gewerbegegenstands, sind nach § 14 GewO anzuzeigen; konkreten Tatbestand prüfen.",
+          "source_ids": [
+            "SRC-GEWO-14"
+          ]
+        },
+        {
+          "id": "GEW-R3",
+          "match": {
+            "request": "permit"
+          },
+          "answer": "§ 14 GewO regelt die Anzeige; ob die konkrete Tätigkeit zusätzlich einer Erlaubnis bedarf, lässt sich daraus allein nicht entscheiden.",
+          "source_ids": [
+            "SRC-GEWO-14"
+          ]
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "BKI-ADM-T01",
+      "service_id": "BK-ADM-01",
+      "request": "personal",
+      "question": "Ich möchte vor Ort ein Führungszeugnis beantragen.",
+      "expected_rule": "FZ-R1",
+      "status": "fixture_review_pending"
+    },
+    {
+      "id": "BKI-ADM-T02",
+      "service_id": "BK-ADM-01",
+      "request": "online",
+      "question": "Ich möchte das Führungszeugnis online beantragen.",
+      "expected_rule": "FZ-R2",
+      "status": "fixture_review_pending"
+    },
+    {
+      "id": "BKI-ADM-T03",
+      "service_id": "BK-ADM-01",
+      "request": "abroad",
+      "question": "Ich möchte aus dem Ausland ein Führungszeugnis beantragen.",
+      "expected_rule": "FZ-R3",
+      "status": "fixture_review_pending"
+    },
+    {
+      "id": "BKI-ADM-T04",
+      "service_id": "BK-ADM-02",
+      "request": "ordinary",
+      "question": "Wo beantrage ich eine normale Meldebescheinigung?",
+      "expected_rule": "MB-R1",
+      "status": "fixture_review_pending"
+    },
+    {
+      "id": "BKI-ADM-T05",
+      "service_id": "BK-ADM-02",
+      "request": "electronic",
+      "question": "Ist die elektronische Meldebescheinigung nach § 18 BMG kostenlos?",
+      "expected_rule": "MB-R2",
+      "status": "fixture_review_pending"
+    },
+    {
+      "id": "BKI-ADM-T06",
+      "service_id": "BK-ADM-02",
+      "request": "fee_generalization",
+      "question": "Kann man aus Cottbuser Gebühren schließen, dass jede Meldebescheinigung überall gleich viel kostet?",
+      "expected_rule": "MB-R3",
+      "status": "fixture_review_pending"
+    },
+    {
+      "id": "BKI-ADM-T07",
+      "service_id": "BK-ADM-03",
+      "request": "start",
+      "question": "Muss ich den Beginn eines stehenden Gewerbes anzeigen?",
+      "expected_rule": "GEW-R1",
+      "status": "fixture_review_pending"
+    },
+    {
+      "id": "BKI-ADM-T08",
+      "service_id": "BK-ADM-03",
+      "request": "change",
+      "question": "Kann eine Verlegung oder Änderung des Gewerbes eine Anzeige auslösen?",
+      "expected_rule": "GEW-R2",
+      "status": "fixture_review_pending"
+    },
+    {
+      "id": "BKI-ADM-T09",
+      "service_id": "BK-ADM-03",
+      "request": "permit",
+      "question": "Beweist § 14 GewO, dass für jede Tätigkeit eine Anmeldung als Erlaubnis genügt?",
+      "expected_rule": "GEW-R3",
+      "status": "fixture_review_pending"
+    }
+  ]
+}
