@@ -1,5 +1,5 @@
 {
-  "schema": "bki-weisungsatlas/0.1",
+  "schema": "bki-weisungsatlas/0.2",
   "as_of": "2026-11-05",
   "coverage_note": "Source discovery only; no nationwide comprehensive inventory; no assertion of absence where not researched.",
   "states": [
@@ -373,5 +373,16 @@
       "license_status": "not_assessed",
       "last_checked": "2026-11-05"
     }
-  ]
+  ],
+  "method_policy": {
+    "id": "BKI-WA-RED-001",
+    "version": "0.1",
+    "effective_from": "2026-11-05",
+    "source_original_text_storage": "prohibited_in_reconstruction_outputs",
+    "research_output": "own_paraphrase_and_structured_rule_model_only",
+    "original_source_locator": "required",
+    "technical_status": "adapter_changed_tests_not_yet_run",
+    "paper": "../paper-buerger-ki-gesetzeuebergreifende-weisungsrekonstruktion-v0-1.md"
+  },
+  "version_note": "Originaltexte nicht in eigene Handlungsanweisungen importieren; Vorgänger-v0.1 als historischer Stand"
 }
