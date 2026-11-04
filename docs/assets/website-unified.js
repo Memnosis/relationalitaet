@@ -46,6 +46,13 @@ function init(){
   icon.replaceChildren(svgSymbol(iconMap[section.id]||palettes[tone]?.[1]||"tensor",27));
  });
  const main=document.querySelector("main");
+ if(main){
+   for(const section of main.querySelectorAll(":scope > section:not(.ux-topic)")){
+    const heading=section.querySelector(":scope > h2");
+    if(!heading||heading.querySelector(".ux-legacy-heading-icon"))continue;
+    const mark=svgSymbol(theme[1],23);mark.classList.add("ux-legacy-heading-icon");heading.prepend(mark);
+   }
+ }
  if(main && key!=="index.html"){
   const crumbs=document.createElement("nav");crumbs.className="ux-breadcrumb";crumbs.setAttribute("aria-label","Brotkrumennavigation");
   const home=document.createElement("a");home.href="./index.html";home.textContent="Start";crumbs.append(home);
