@@ -152,7 +152,7 @@ def main() -> int:
                 elif target.suffix.lower() == ".svg":
                     # SVG sprite fragment must be an existing symbol, not just an existing file.
                     svg = target.read_text(encoding="utf-8")
-                    if not re.search(r'<(?:symbol|g)\\b[^>]*\\bid=["\\\']' + re.escape(frag) + r'["\\\']', svg):
+                    if not re.search(r'<(?:symbol|g)\b[^>]*\bid=["\x27]' + re.escape(frag) + r'["\x27]', svg):
                         errors.append((source, "missing SVG sprite symbol: " + raw))
 
     inventory = DOCS / "data" / "tensor-inventar-v10_7.json"
