@@ -1,0 +1,203 @@
+{
+  "schema": "pfade-overlay/0.2",
+  "version": "0.2.0",
+  "date": "2026-11-04",
+  "status": "draft_no_change_to_canonical_pages",
+  "principle": "paths are non-destructive presentation and navigation views of canonical entities; paths do not replace sources",
+  "node_schema": {
+    "required": [
+      "id",
+      "type",
+      "title",
+      "url_or_ref",
+      "origin",
+      "evidence_status"
+    ],
+    "types": [
+      "question",
+      "definition",
+      "benchmark",
+      "source",
+      "paper",
+      "tensor",
+      "skill",
+      "prompt",
+      "test",
+      "discussion",
+      "publication",
+      "book",
+      "action"
+    ]
+  },
+  "edge_schema": {
+    "required": [
+      "from",
+      "to",
+      "relationship"
+    ],
+    "relationships": [
+      "introduces",
+      "defines",
+      "measures",
+      "tests",
+      "explains",
+      "extends",
+      "contradicts",
+      "references",
+      "invites",
+      "publishes",
+      "offers"
+    ]
+  },
+  "paths": [
+    {
+      "id": "PATH-INTELLIGENCE-01",
+      "title": "Sind wir überhaupt intelligent?",
+      "audience": [
+        "leser",
+        "forschung"
+      ],
+      "steps": [
+        {
+          "id": "Q-INT",
+          "type": "question",
+          "title": "Sind wir überhaupt intelligent?",
+          "url_or_ref": "ki-systeme.html",
+          "origin": "research_prompt",
+          "evidence_status": "open_question"
+        },
+        {
+          "id": "D-INT",
+          "type": "definition",
+          "title": "Welche Intelligenzdefinition?",
+          "url_or_ref": "ki-kernforschung.html#messung",
+          "origin": "research_synthesis",
+          "evidence_status": "multiple_competing_definitions"
+        },
+        {
+          "id": "B-INT",
+          "type": "benchmark",
+          "title": "Wie messen wir Intelligenz?",
+          "url_or_ref": "ki-kernforschung.html#messung",
+          "origin": "research_synthesis",
+          "evidence_status": "review_required"
+        },
+        {
+          "id": "S-INT",
+          "type": "paper",
+          "title": "Definitions- und Benchmark-Paper",
+          "url_or_ref": "../forschung/paper-katalog/PAPER_KT_2026_008_INTELLIGENZ_DEFINITION_BENCHMARK.md",
+          "origin": "research_draft",
+          "evidence_status": "draft"
+        },
+        {
+          "id": "M-INT",
+          "type": "action",
+          "title": "Eigene Fragestellung einreichen",
+          "url_or_ref": "mitmachen.html",
+          "origin": "current_site",
+          "evidence_status": "entry_exists_not_specialized"
+        }
+      ]
+    },
+    {
+      "id": "PATH-LEARN-01",
+      "title": "Kann KI selbst lernen?",
+      "audience": [
+        "leser",
+        "entwickler"
+      ],
+      "steps": [
+        {
+          "id": "Q-LEARN",
+          "type": "question",
+          "title": "Was zählt als Selbstlernen?",
+          "url_or_ref": "ki-systeme.html",
+          "origin": "research_prompt",
+          "evidence_status": "open_question"
+        },
+        {
+          "id": "D-LEARN",
+          "type": "definition",
+          "title": "Anpassung, Persistenz und Transfer unterscheiden",
+          "url_or_ref": "ki-kernforschung.html#messung",
+          "origin": "research_synthesis",
+          "evidence_status": "review_required"
+        },
+        {
+          "id": "S-LEARN",
+          "type": "paper",
+          "title": "Selbstlernen und Lernpfade",
+          "url_or_ref": "../forschung/paper-katalog/PAPER_KT_2026_007_SELBSTLERNEN_PFADE_UND_LESER.md",
+          "origin": "research_draft",
+          "evidence_status": "draft"
+        },
+        {
+          "id": "M-LEARN",
+          "type": "action",
+          "title": "KI-Forschungsaufgabe ausprobieren",
+          "url_or_ref": "mitmachen.html",
+          "origin": "current_site",
+          "evidence_status": "entry_exists_not_specialized"
+        }
+      ]
+    },
+    {
+      "id": "PATH-TENSOR-01",
+      "title": "Was können unsere Tensoren wirklich?",
+      "audience": [
+        "leser",
+        "forschung",
+        "entwickler"
+      ],
+      "steps": [
+        {
+          "id": "Q-TENSOR",
+          "type": "question",
+          "title": "Was ist ein Tensor in unserem Projekt?",
+          "url_or_ref": "tensor-einfuehrung.html",
+          "origin": "current_site",
+          "evidence_status": "teaching_content"
+        },
+        {
+          "id": "D-TENSOR",
+          "type": "definition",
+          "title": "Gerüst und mathematischen Tensor unterscheiden",
+          "url_or_ref": "tensor-einfuehrung.html",
+          "origin": "current_site",
+          "evidence_status": "review_required"
+        },
+        {
+          "id": "B-TENSOR",
+          "type": "test",
+          "title": "Formel- und Relationsprüfung",
+          "url_or_ref": "tensoralgebra.html",
+          "origin": "current_site",
+          "evidence_status": "research_tests"
+        },
+        {
+          "id": "S-TENSOR",
+          "type": "paper",
+          "title": "Feldüberlagerung",
+          "url_or_ref": "../forschung/tensor/algebra-claude/PAPER_FELDKLASSIFIKATION_UND_GESAMTUEBERLAGERUNG_V0_1.md",
+          "origin": "research_draft",
+          "evidence_status": "draft"
+        },
+        {
+          "id": "M-TENSOR",
+          "type": "action",
+          "title": "Am Tensorprogramm mitmachen",
+          "url_or_ref": "mitmachen.html",
+          "origin": "current_site",
+          "evidence_status": "entry_exists"
+        }
+      ]
+    }
+  ],
+  "release_gates": [
+    "all_refs_validated",
+    "all_originals_unchanged",
+    "accessibility_checked",
+    "editorial_approval"
+  ]
+}
