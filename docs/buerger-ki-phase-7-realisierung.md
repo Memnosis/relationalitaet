@@ -111,3 +111,21 @@ Zuerst drei reale Leistungen anhand amtlicher Originalbestände aussuchen und ve
 **Nächster überprüfbarer Schritt:** echten GII-XML-Snapshot (BMG und GewO) herunterladen, dessen Original-URL und SHA dokumentieren, Parser mit den echten Dateien und dem Regressionskorpus erfolgreich ausführen, die extrahierten Paragraphen gegen die sichtbaren Originalstellen vergleichen und offene Fehler in einer Import-/No-Loss-Akte festhalten. Erst danach ist eine technische Adapterabnahme sinnvoll.
 
 **Fortschrittszähler unverändert 3/10 Gates (30 %).** Code- und Testanlage zählen nicht als G05, solange kein wiederholbarer, erfolgreich belegter Echtimport vorliegt.
+
+## Phase 7.3 – Realer Quelltransport statt bloßem XML-Mock (5. November 2026)
+
+**Neue, tatsächlich gespeicherte technische Artefakte:**
+- [XML-/ZIP-Importer v0.2](../forschung/buerger-ki/bki_gii_adapter.py) liest GII-`xml.zip` mit genau einer XML-Datei; prüft Archivstruktur, Größe, externe Quelle und verwahrt SHA-256 für ZIP und enthaltenes XML getrennt.
+- [9 synthetische Regressionstests](../forschung/buerger-ki/test_bki_gii_adapter.py) prüfen unter anderem Archivannahme, Doppeldokumente und unsichere Mitgliedspfade.
+- [Live-Echtquellenprüfung](../forschung/buerger-ki/bki_gii_live_smoke.py): BMG (`https://www.gesetze-im-internet.de/bmg/xml.zip`, Ziel § 18) und GewO (`https://www.gesetze-im-internet.de/gewo/xml.zip`, Ziel § 14); Quellen- und Paragraphen-Hashes werden in `bki_gii_live_result.json` festgehalten.
+- [GitHub-Actions-Test](../.github/workflows/bki-gii-adapter-tests.yml) führt synthetische Tests bei Codeänderung durch. Die **Live-Prüfung läuft nur bei manuellem `workflow_dispatch`**; ihre JSON-Akte wird bei Ausführung als Artifact abgelegt.
+
+**Evidenzgrenze:** Die Website von Gesetze-im-Internet dokumentiert bei beiden Gesetzen XML als herunterladbares **ZIP-Paket**, nicht als direkte Einzel-XML. Dieser Transportfehler wurde im Adapter korrigiert. Ein erfolgreicher Live-Abruf konnte aus dieser Arbeitsumgebung **nicht** durchgeführt oder als GitHub-Workflow-Bericht geprüft werden. Bis zu einem erfolgreichen und nachvollziehbaren Lauf **keine Freigabe** des Echtquellen-Adapters. Der Parser behandelt konsolidierte Rechtstexte, nicht amtlich verkündete Fassungen, und entscheidet weder örtliche Behördenzuständigkeit noch individuelle Ansprüche.
+
+**No-Loss-Negativbefunde:**
+- Vorversion nahm fälschlich eine direkt bereitgestellte XML-Datei als einzigen realen Eingabetyp an.
+- Vorhandene Quellen-ID-Prüfung ist keine inhaltliche Rechtsprüfung.
+- Ein erfolgreiches CI-Unittest-Paket wäre noch kein Nachweis von Live-Datenkompatibilität.
+- G04/Fachkorpus und G05/Datenadapter bleiben bis zur unabhängigen Abnahme offen; Gesamtstand bleibt bei **3/10 Gates**.
+
+**Nächste Abnahme:** GitHub Actions manuell ausführen; Ergebnis-`bki_gii_live_result.json` mit `passed` und beiden Zielparagraphen bestätigen; 2 Originalstellen stichprobenhaft gegen extrahierte Texte vergleichen; Quelle, Stichtag und eventuelle Parserfehler versionieren. Erst danach echten Skill-Runner und örtliche PVOG-Leistungsauflösung aufsetzen.
