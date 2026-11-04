@@ -1,0 +1,178 @@
+{
+ "schema_version": "dreiecke/0.2",
+ "owner": "claude",
+ "quelle": "FORMELN_TOP100_V0_1.json",
+ "verfahren": "Gröbner-Basis (lex), je zwei der drei Verbindungsgrößen eliminiert, Einzelgrößen-Faktoren entfernt",
+ "ergebnisse": [
+  {
+   "keim": [
+    "Arbeit",
+    "Leistung",
+    "Geschwindigkeit"
+   ],
+   "formeln": [
+    "F025",
+    "F026",
+    "F027"
+   ],
+   "gemeinsame_groessen": [
+    "Arbeit",
+    "Weg",
+    "Zeit"
+   ],
+   "abgeleitet": [
+    "Geschwindigkeit*Kraft - Leistung"
+   ],
+   "groessen_der_ableitung": [
+    "Geschwindigkeit",
+    "Kraft",
+    "Leistung"
+   ],
+   "eliminationen": {
+    "Arbeit + Weg": {
+     "relationen": [
+      "Geschwindigkeit*Kraft - Leistung"
+     ],
+     "reihenfolge_stabil": true
+    },
+    "Arbeit + Zeit": {
+     "relationen": [
+      "Geschwindigkeit*Kraft - Leistung"
+     ],
+     "reihenfolge_stabil": true
+    },
+    "Weg + Zeit": {
+     "relationen": [
+      "Geschwindigkeit*Kraft - Leistung"
+     ],
+     "reihenfolge_stabil": true
+    }
+   },
+   "P1_aussageerhalt": true,
+   "rollenpruefung": null,
+   "P1_hinweis": null,
+   "P2_neu_im_bestand": true,
+   "P2_vorhanden_in": [],
+   "P3_reproduzierbar": true,
+   "urteil": "neue_beziehung_im_bestand",
+   "lesart": "„neu im Bestand“ heißt: nicht als eigene Formel unter den 100; es heißt NICHT neu für die Wissenschaft."
+  },
+  {
+   "keim": [
+    "Dichte",
+    "Stoffmenge",
+    "Konzentration"
+   ],
+   "formeln": [
+    "F044",
+    "F080",
+    "F081"
+   ],
+   "gemeinsame_groessen": [
+    "Masse",
+    "Stoffmenge",
+    "Volumen"
+   ],
+   "abgeleitet": [
+    "Dichte - Konzentration*Molare_Masse"
+   ],
+   "groessen_der_ableitung": [
+    "Dichte",
+    "Konzentration",
+    "Molare Masse"
+   ],
+   "eliminationen": {
+    "Masse + Stoffmenge": {
+     "relationen": [
+      "Dichte - Konzentration*Molare_Masse"
+     ],
+     "reihenfolge_stabil": true
+    },
+    "Masse + Volumen": {
+     "relationen": [
+      "Dichte - Konzentration*Molare_Masse"
+     ],
+     "reihenfolge_stabil": true
+    },
+    "Stoffmenge + Volumen": {
+     "relationen": [
+      "Dichte - Konzentration*Molare_Masse"
+     ],
+     "reihenfolge_stabil": true
+    }
+   },
+   "P1_aussageerhalt": "eingeschraenkt",
+   "rollenpruefung": {
+    "ergebnis": "spezialfall",
+    "begruendung": "Dichte-Masse = Gesamtmasse eines Körpers, Stoffmenge-Masse = Masse eines Stoffs, Konzentration-Volumen = Lösungsvolumen. Dieselbe Rolle nur für einen REINEN Stoff: dann gilt ρ = c·M (molare Dichte). Für Lösungen falsch."
+   },
+   "P1_hinweis": "Fachgrenze: gleichnamige Größen haben verschiedene Rollen – Ableitung formal gültig, fachlich ohne Aussage",
+   "P2_neu_im_bestand": true,
+   "P2_vorhanden_in": [],
+   "P3_reproduzierbar": true,
+   "urteil": "spezialfall_gueltig",
+   "lesart": "„neu im Bestand“ heißt: nicht als eigene Formel unter den 100; es heißt NICHT neu für die Wissenschaft."
+  },
+  {
+   "keim": [
+    "Pendelperiode",
+    "Kepler 3",
+    "Body-Mass-Index"
+   ],
+   "formeln": [
+    "F055",
+    "F066",
+    "F088"
+   ],
+   "gemeinsame_groessen": [
+    "Länge",
+    "Masse",
+    "Periode"
+   ],
+   "abgeleitet": [
+    "Fallbeschleunigung**2*Halbachse**6*Index - Masse**3*k_G**2",
+    "Fallbeschleunigung**2*Index*Periode**6*k_G - 64*pi**6*Halbachse**3",
+    "Fallbeschleunigung*Halbachse**3 - Index*Länge**3*k_G"
+   ],
+   "groessen_der_ableitung": [
+    "Fallbeschleunigung",
+    "Halbachse",
+    "Index",
+    "Länge",
+    "Masse",
+    "Periode"
+   ],
+   "eliminationen": {
+    "Länge + Masse": {
+     "relationen": [
+      "Fallbeschleunigung**2*Index*Periode**6*k_G - 64*pi**6*Halbachse**3"
+     ],
+     "reihenfolge_stabil": true
+    },
+    "Länge + Periode": {
+     "relationen": [
+      "Fallbeschleunigung**2*Halbachse**6*Index - Masse**3*k_G**2"
+     ],
+     "reihenfolge_stabil": true
+    },
+    "Masse + Periode": {
+     "relationen": [
+      "Fallbeschleunigung*Halbachse**3 - Index*Länge**3*k_G"
+     ],
+     "reihenfolge_stabil": true
+    }
+   },
+   "P1_aussageerhalt": false,
+   "rollenpruefung": {
+    "ergebnis": "rollenkonflikt",
+    "begruendung": "Länge = Pendellänge vs. Körpergröße, Masse = Zentralmasse vs. Körpermasse, Periode = Pendel- vs. Umlaufzeit. Formal ableitbar, fachlich ohne Aussage (Scheinbeziehung durch gleiche Wörter)."
+   },
+   "P1_hinweis": "Fachgrenze: gleichnamige Größen haben verschiedene Rollen – Ableitung formal gültig, fachlich ohne Aussage",
+   "P2_neu_im_bestand": true,
+   "P2_vorhanden_in": [],
+   "P3_reproduzierbar": false,
+   "urteil": "unzulaessige_verknuepfung",
+   "lesart": "„neu im Bestand“ heißt: nicht als eigene Formel unter den 100; es heißt NICHT neu für die Wissenschaft."
+  }
+ ]
+}

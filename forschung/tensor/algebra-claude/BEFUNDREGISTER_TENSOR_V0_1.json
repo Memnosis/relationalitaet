@@ -1,7 +1,7 @@
 {
  "schema_version": "befundregister-tensor/0.1",
  "owner": "claude",
- "stand": "2026-11-04 (v0.1, Nachtrag Muster)",
+ "stand": "2026-11-04",
  "algebra_lauf_sha256": "60f0063f16587e8545f520a3227c1ac0935dfb792da9bbe268a2d04700499e6e",
  "verarbeitung": "Rohergebnis (Lauf) → Befund mit ID, Reifegrad, Belegart → Gegenlauf andere KI (P3) → Fachfrage an Nils (Vorlage, roter Rahmen) → nach Freigabe: Website-Projektion und Kapitel im Grundlagenwerk. Nichts Bewertendes über Nils' Werke geht vor seiner Freigabe öffentlich.",
  "befunde": [
@@ -285,6 +285,92 @@
    "reifegrad": "E2",
    "belegart": "D",
    "naechster_schritt": "REV-04 von „Annahme“ auf „durch Formelanker gestützt“ setzen",
+   "nils_frage": null,
+   "public_release": "not_approved"
+  },
+  {
+   "id": "BEF-T020",
+   "aussage": "Ein Drittel der Formeln ist trinitär (genau 3 Größen): Top-100 34–37 %, Wikidata 884/2.676 = 33 %; Trinitäten der Top-100 überwiegend Potenzgesetze (26/34)",
+   "art": "muster",
+   "betrifft": [
+    "Top-100",
+    "Wikidata"
+   ],
+   "nachweis": "forschung/tensor/formeln/TOP100_ERGEBNIS_V0_1.json; forschung/tensor/formeln/WIKIDATA_LAUF_V0_1.json",
+   "reifegrad": "E2",
+   "belegart": "D",
+   "naechster_schritt": "Nullmodell (zufällige Größenmengen)",
+   "nils_frage": null,
+   "public_release": "not_approved"
+  },
+  {
+   "id": "BEF-T021",
+   "aussage": "Dreiecke (3 Trinitäten, jedes Paar teilt eine andere Größe) sind selten (Top-100 3/99, Wikidata 239/42.082 Keime) und die einzigen Keime, die durch Elimination neue Beziehungen erzeugen",
+   "art": "muster",
+   "betrifft": [
+    "Konzept 2"
+   ],
+   "nachweis": "forschung/tensor/formeln/dreiecke.py; forschung/tensor/formeln/wikidata_lauf.py",
+   "reifegrad": "E2",
+   "belegart": "D",
+   "naechster_schritt": "Abbrüche (100/239) reduzieren",
+   "nils_frage": null,
+   "public_release": "not_approved"
+  },
+  {
+   "id": "BEF-T022",
+   "aussage": "Wiederentdeckung als Eichung: Elimination leitet bekannte Gesetze ab (P = F·v; ρ = c·M; molar = M·spezifisch; Lichtstärke = E·r²) – keine neue Physik",
+   "art": "gegenprobe",
+   "betrifft": [
+    "Konzept 2"
+   ],
+   "nachweis": "forschung/tensor/formeln/DREIECKE_V0_1.json; forschung/tensor/formeln/WIKIDATA_LAUF_V0_1.json",
+   "reifegrad": "E2",
+   "belegart": "D",
+   "naechster_schritt": "Benchmark „Dreiecke“ mit Goldstandard",
+   "nils_frage": null,
+   "public_release": "not_approved"
+  },
+  {
+   "id": "BEF-T023",
+   "aussage": "P1 ist entscheidend und nicht automatisierbar: Pendel–Kepler–BMI liefert formal saubere, fachlich sinnlose Relation (gleiche Wörter, verschiedene Rollen)",
+   "art": "gegenprobe",
+   "betrifft": [
+    "P1"
+   ],
+   "nachweis": "forschung/tensor/formeln/DREIECKE_V0_1.json",
+   "reifegrad": "E2",
+   "belegart": "D",
+   "naechster_schritt": "Rollenprüfung B1 öffnen (Q-P01)",
+   "nils_frage": null,
+   "public_release": "not_approved"
+  },
+  {
+   "id": "BEF-T024",
+   "aussage": "Tensorkandidat Bezugsgrößen-Matrix: 3 Bezüge (spezifisch, molar, volumenbezogen) × Größen, Umrechnung M, ρ, Vm, Schließung M = ρ·Vm unabhängig gefunden (7 + 6 Dreiecke) – entspricht Regel U Klasse I",
+   "art": "kandidat",
+   "betrifft": [
+    "Wikidata",
+    "Regel U"
+   ],
+   "nachweis": "forschung/tensor/formeln/WIKIDATA_LAUF_V0_1.json",
+   "reifegrad": "E2",
+   "belegart": "D",
+   "naechster_schritt": "Abbildung M/K/S; Abgleich 103 Gerüste",
+   "nils_frage": "Q-F08",
+   "public_release": "not_approved"
+  },
+  {
+   "id": "BEF-T025",
+   "aussage": "Wiederfindung 103er-Inventar in Wikidata: 36/309 Achsen mit ≥ 2 Rollen als Wikidata-Größe (vor allem Mathematik) → Grundlage für Hebung L2 (Linked Open Data)",
+   "art": "abgleich",
+   "betrifft": [
+    "103 Gerüste"
+   ],
+   "nachweis": "forschung/tensor/formeln/WIKIDATA_LAUF_V0_1.json",
+   "reifegrad": "E1",
+   "belegart": "D",
+   "naechster_schritt": "Pilot L1/L2 an 10 Gerüsten",
    "nils_frage": null,
    "public_release": "not_approved"
   }

@@ -35,6 +35,9 @@ SCHRITTE = [
     ("Brücke F034/F096 (sympy)", ["forschung/tensor/algebra-claude/bruecke_f034_f096.py"], "Gesamt: OK"),
     ("Gegenrechnung GR-01: 7 DLMF-Identitäten (sympy)", ["forschung/register/gegenrechnung/dlmf_v6_6_gegenrechnung.py"], "Gesamt: OK"),
     ("Gegenrechnung GR-02: REV-01..08 (sympy)", ["forschung/register/gegenrechnung/rev_rueckrechnungen.py"], "Gesamt: OK"),
+    ("Formelreduktion: Ministrukturen, Keime, Dreiecke (12)", ["forschung/tensor/formeln/tests/test_formel_struktur.py"], "OK"),
+    ("Top-100-Formeln: trinitär und tensoral (sympy)", ["forschung/tensor/formeln/top100_lauf.py"], "Gesamt: OK"),
+    ("Dreieckskeime → Ableitung + P1–P3 (sympy)", ["forschung/tensor/formeln/dreiecke.py"], "Gesamt: OK"),
     ("GPT-Gegenlauf LOGIK-PROMPT-02 (Kontrolle)", ["scripts/gpt_logic02_independent.py"], "PASS"),
 ]
 

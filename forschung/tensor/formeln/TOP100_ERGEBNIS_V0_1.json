@@ -1,0 +1,3017 @@
+{
+ "schema_version": "top100-ergebnis/0.1",
+ "owner": "claude",
+ "quelle": "FORMELN_TOP100_V0_1.json",
+ "zusammenfassung": {
+  "formeln": 100,
+  "auswertbar": 100,
+  "trinitaer": 34,
+  "stelligkeit": {
+   "1": 1,
+   "2": 21,
+   "3": 37,
+   "4": 33,
+   "5": 7,
+   "6": 1
+  },
+  "triadentypen": {
+   "implizit": 2,
+   "additiv": 3,
+   "nichtlinear": 3,
+   "potenzgesetz": 26,
+   "null": 3
+  },
+  "dynamik": 6,
+  "tensorkeime_anzahl": 99,
+  "keimformen": {
+   "stern": 75,
+   "gemischt": 21,
+   "dreieck": 3
+  }
+ },
+ "familien": [
+  [
+   "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Symbol('x2'))",
+   [
+    "F021",
+    "F022",
+    "F025",
+    "F035",
+    "F040",
+    "F057",
+    "F058",
+    "F063",
+    "F092",
+    "F098"
+   ]
+  ],
+  [
+   "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Symbol('x2'))",
+   [
+    "F026",
+    "F027",
+    "F043",
+    "F044",
+    "F080",
+    "F081",
+    "F087",
+    "F088",
+    "F100"
+   ]
+  ],
+  [
+   "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2')), Symbol('x3'))",
+   [
+    "F024",
+    "F036",
+    "F045",
+    "F046",
+    "F049",
+    "F078"
+   ]
+  ],
+  [
+   "Add(Mul(Integer(-k), I, Symbol('x0')), Symbol('x1'))",
+   [
+    "F031",
+    "F032",
+    "F034"
+   ]
+  ],
+  [
+   "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Symbol('x2'), Symbol('x3')))",
+   [
+    "F042",
+    "F070",
+    "F095"
+   ]
+  ],
+  [
+   "Add(Mul(Integer(-k), Symbol('k'), Symbol('x0')), Symbol('x1'))",
+   [
+    "F038",
+    "F068"
+   ]
+  ],
+  [
+   "Add(Mul(Integer(-k), Symbol('x0')), Symbol('x1'), Symbol('x2'))",
+   [
+    "F048",
+    "F097"
+   ]
+  ],
+  [
+   "Add(Mul(Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), Symbol('x2')), Symbol('x3'))",
+   [
+    "F072",
+    "F073"
+   ]
+  ],
+  [
+   "Add(Mul(Integer(-k), Symbol('x0')), Mul(Symbol('x1'), Symbol('x2')), Symbol('x3'))",
+   [
+    "F079",
+    "F094"
+   ]
+  ]
+ ],
+ "hubs": [
+  [
+   "Masse",
+   8
+  ],
+  [
+   "Zeit",
+   6
+  ],
+  [
+   "Kraft",
+   5
+  ],
+  [
+   "Geschwindigkeit",
+   5
+  ],
+  [
+   "Fläche",
+   3
+  ],
+  [
+   "Arbeit",
+   3
+  ]
+ ],
+ "dreiecke": [
+  {
+   "form": "dreieck",
+   "formeln": [
+    "F025",
+    "F026",
+    "F027"
+   ],
+   "namen": [
+    "Arbeit",
+    "Leistung",
+    "Geschwindigkeit"
+   ],
+   "achsen": [
+    [
+     "Arbeit",
+     "Kraft",
+     "Weg"
+    ],
+    [
+     "Arbeit",
+     "Leistung",
+     "Zeit"
+    ],
+    [
+     "Geschwindigkeit",
+     "Weg",
+     "Zeit"
+    ]
+   ],
+   "groessen": 6,
+   "verbindungen": [
+    "Arbeit",
+    "Weg",
+    "Zeit"
+   ],
+   "fachliche_verbindungen": [
+    "Arbeit",
+    "Weg"
+   ],
+   "gleiches_gebiet": true,
+   "stark": true
+  },
+  {
+   "form": "dreieck",
+   "formeln": [
+    "F044",
+    "F080",
+    "F081"
+   ],
+   "namen": [
+    "Dichte",
+    "Stoffmenge",
+    "Konzentration"
+   ],
+   "achsen": [
+    [
+     "Dichte",
+     "Masse",
+     "Volumen"
+    ],
+    [
+     "Masse",
+     "Molare Masse",
+     "Stoffmenge"
+    ],
+    [
+     "Konzentration",
+     "Stoffmenge",
+     "Volumen"
+    ]
+   ],
+   "groessen": 6,
+   "verbindungen": [
+    "Masse",
+    "Stoffmenge",
+    "Volumen"
+   ],
+   "fachliche_verbindungen": [
+    "Masse",
+    "Stoffmenge"
+   ],
+   "gleiches_gebiet": false,
+   "stark": false
+  },
+  {
+   "form": "dreieck",
+   "formeln": [
+    "F055",
+    "F066",
+    "F088"
+   ],
+   "namen": [
+    "Pendelperiode",
+    "Kepler 3",
+    "Body-Mass-Index"
+   ],
+   "achsen": [
+    [
+     "Fallbeschleunigung",
+     "Länge",
+     "Periode"
+    ],
+    [
+     "Halbachse",
+     "Masse",
+     "Periode"
+    ],
+    [
+     "Index",
+     "Länge",
+     "Masse"
+    ]
+   ],
+   "groessen": 6,
+   "verbindungen": [
+    "Länge",
+    "Masse",
+    "Periode"
+   ],
+   "fachliche_verbindungen": [
+    "Masse",
+    "Periode"
+   ],
+   "gleiches_gebiet": false,
+   "stark": false
+  }
+ ],
+ "tensorkeime_stark": [
+  {
+   "form": "gemischt",
+   "formeln": [
+    "F021",
+    "F022",
+    "F023"
+   ],
+   "namen": [
+    "Newton 2. Gesetz",
+    "Impuls",
+    "Kinetische Energie"
+   ],
+   "achsen": [
+    [
+     "Beschleunigung",
+     "Kraft",
+     "Masse"
+    ],
+    [
+     "Geschwindigkeit",
+     "Impuls",
+     "Masse"
+    ],
+    [
+     "Energie",
+     "Geschwindigkeit",
+     "Masse"
+    ]
+   ],
+   "groessen": 6,
+   "verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "fachliche_verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "gleiches_gebiet": true,
+   "stark": true
+  },
+  {
+   "form": "gemischt",
+   "formeln": [
+    "F021",
+    "F022",
+    "F067"
+   ],
+   "namen": [
+    "Newton 2. Gesetz",
+    "Impuls",
+    "Fluchtgeschwindigkeit"
+   ],
+   "achsen": [
+    [
+     "Beschleunigung",
+     "Kraft",
+     "Masse"
+    ],
+    [
+     "Geschwindigkeit",
+     "Impuls",
+     "Masse"
+    ],
+    [
+     "Abstand",
+     "Geschwindigkeit",
+     "Masse"
+    ]
+   ],
+   "groessen": 6,
+   "verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "fachliche_verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "gleiches_gebiet": true,
+   "stark": true
+  },
+  {
+   "form": "gemischt",
+   "formeln": [
+    "F021",
+    "F023",
+    "F067"
+   ],
+   "namen": [
+    "Newton 2. Gesetz",
+    "Kinetische Energie",
+    "Fluchtgeschwindigkeit"
+   ],
+   "achsen": [
+    [
+     "Beschleunigung",
+     "Kraft",
+     "Masse"
+    ],
+    [
+     "Energie",
+     "Geschwindigkeit",
+     "Masse"
+    ],
+    [
+     "Abstand",
+     "Geschwindigkeit",
+     "Masse"
+    ]
+   ],
+   "groessen": 6,
+   "verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "fachliche_verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "gleiches_gebiet": true,
+   "stark": true
+  },
+  {
+   "form": "gemischt",
+   "formeln": [
+    "F022",
+    "F023",
+    "F027"
+   ],
+   "namen": [
+    "Impuls",
+    "Kinetische Energie",
+    "Geschwindigkeit"
+   ],
+   "achsen": [
+    [
+     "Geschwindigkeit",
+     "Impuls",
+     "Masse"
+    ],
+    [
+     "Energie",
+     "Geschwindigkeit",
+     "Masse"
+    ],
+    [
+     "Geschwindigkeit",
+     "Weg",
+     "Zeit"
+    ]
+   ],
+   "groessen": 6,
+   "verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "fachliche_verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "gleiches_gebiet": true,
+   "stark": true
+  },
+  {
+   "form": "gemischt",
+   "formeln": [
+    "F022",
+    "F023",
+    "F040"
+   ],
+   "namen": [
+    "Impuls",
+    "Kinetische Energie",
+    "Wellengleichung (Phasengeschw.)"
+   ],
+   "achsen": [
+    [
+     "Geschwindigkeit",
+     "Impuls",
+     "Masse"
+    ],
+    [
+     "Energie",
+     "Geschwindigkeit",
+     "Masse"
+    ],
+    [
+     "Frequenz",
+     "Geschwindigkeit",
+     "Wellenlänge"
+    ]
+   ],
+   "groessen": 6,
+   "verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "fachliche_verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "gleiches_gebiet": true,
+   "stark": true
+  },
+  {
+   "form": "gemischt",
+   "formeln": [
+    "F022",
+    "F023",
+    "F044"
+   ],
+   "namen": [
+    "Impuls",
+    "Kinetische Energie",
+    "Dichte"
+   ],
+   "achsen": [
+    [
+     "Geschwindigkeit",
+     "Impuls",
+     "Masse"
+    ],
+    [
+     "Energie",
+     "Geschwindigkeit",
+     "Masse"
+    ],
+    [
+     "Dichte",
+     "Masse",
+     "Volumen"
+    ]
+   ],
+   "groessen": 6,
+   "verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "fachliche_verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "gleiches_gebiet": true,
+   "stark": true
+  },
+  {
+   "form": "gemischt",
+   "formeln": [
+    "F022",
+    "F023",
+    "F066"
+   ],
+   "namen": [
+    "Impuls",
+    "Kinetische Energie",
+    "Kepler 3"
+   ],
+   "achsen": [
+    [
+     "Geschwindigkeit",
+     "Impuls",
+     "Masse"
+    ],
+    [
+     "Energie",
+     "Geschwindigkeit",
+     "Masse"
+    ],
+    [
+     "Halbachse",
+     "Masse",
+     "Periode"
+    ]
+   ],
+   "groessen": 6,
+   "verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "fachliche_verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "gleiches_gebiet": true,
+   "stark": true
+  },
+  {
+   "form": "gemischt",
+   "formeln": [
+    "F022",
+    "F027",
+    "F067"
+   ],
+   "namen": [
+    "Impuls",
+    "Geschwindigkeit",
+    "Fluchtgeschwindigkeit"
+   ],
+   "achsen": [
+    [
+     "Geschwindigkeit",
+     "Impuls",
+     "Masse"
+    ],
+    [
+     "Geschwindigkeit",
+     "Weg",
+     "Zeit"
+    ],
+    [
+     "Abstand",
+     "Geschwindigkeit",
+     "Masse"
+    ]
+   ],
+   "groessen": 6,
+   "verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "fachliche_verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "gleiches_gebiet": true,
+   "stark": true
+  },
+  {
+   "form": "gemischt",
+   "formeln": [
+    "F022",
+    "F040",
+    "F067"
+   ],
+   "namen": [
+    "Impuls",
+    "Wellengleichung (Phasengeschw.)",
+    "Fluchtgeschwindigkeit"
+   ],
+   "achsen": [
+    [
+     "Geschwindigkeit",
+     "Impuls",
+     "Masse"
+    ],
+    [
+     "Frequenz",
+     "Geschwindigkeit",
+     "Wellenlänge"
+    ],
+    [
+     "Abstand",
+     "Geschwindigkeit",
+     "Masse"
+    ]
+   ],
+   "groessen": 6,
+   "verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "fachliche_verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "gleiches_gebiet": true,
+   "stark": true
+  },
+  {
+   "form": "gemischt",
+   "formeln": [
+    "F022",
+    "F044",
+    "F067"
+   ],
+   "namen": [
+    "Impuls",
+    "Dichte",
+    "Fluchtgeschwindigkeit"
+   ],
+   "achsen": [
+    [
+     "Geschwindigkeit",
+     "Impuls",
+     "Masse"
+    ],
+    [
+     "Dichte",
+     "Masse",
+     "Volumen"
+    ],
+    [
+     "Abstand",
+     "Geschwindigkeit",
+     "Masse"
+    ]
+   ],
+   "groessen": 6,
+   "verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "fachliche_verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "gleiches_gebiet": true,
+   "stark": true
+  },
+  {
+   "form": "gemischt",
+   "formeln": [
+    "F022",
+    "F066",
+    "F067"
+   ],
+   "namen": [
+    "Impuls",
+    "Kepler 3",
+    "Fluchtgeschwindigkeit"
+   ],
+   "achsen": [
+    [
+     "Geschwindigkeit",
+     "Impuls",
+     "Masse"
+    ],
+    [
+     "Halbachse",
+     "Masse",
+     "Periode"
+    ],
+    [
+     "Abstand",
+     "Geschwindigkeit",
+     "Masse"
+    ]
+   ],
+   "groessen": 6,
+   "verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "fachliche_verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "gleiches_gebiet": true,
+   "stark": true
+  },
+  {
+   "form": "gemischt",
+   "formeln": [
+    "F023",
+    "F027",
+    "F067"
+   ],
+   "namen": [
+    "Kinetische Energie",
+    "Geschwindigkeit",
+    "Fluchtgeschwindigkeit"
+   ],
+   "achsen": [
+    [
+     "Energie",
+     "Geschwindigkeit",
+     "Masse"
+    ],
+    [
+     "Geschwindigkeit",
+     "Weg",
+     "Zeit"
+    ],
+    [
+     "Abstand",
+     "Geschwindigkeit",
+     "Masse"
+    ]
+   ],
+   "groessen": 6,
+   "verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "fachliche_verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "gleiches_gebiet": true,
+   "stark": true
+  },
+  {
+   "form": "gemischt",
+   "formeln": [
+    "F023",
+    "F040",
+    "F067"
+   ],
+   "namen": [
+    "Kinetische Energie",
+    "Wellengleichung (Phasengeschw.)",
+    "Fluchtgeschwindigkeit"
+   ],
+   "achsen": [
+    [
+     "Energie",
+     "Geschwindigkeit",
+     "Masse"
+    ],
+    [
+     "Frequenz",
+     "Geschwindigkeit",
+     "Wellenlänge"
+    ],
+    [
+     "Abstand",
+     "Geschwindigkeit",
+     "Masse"
+    ]
+   ],
+   "groessen": 6,
+   "verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "fachliche_verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "gleiches_gebiet": true,
+   "stark": true
+  },
+  {
+   "form": "gemischt",
+   "formeln": [
+    "F023",
+    "F044",
+    "F067"
+   ],
+   "namen": [
+    "Kinetische Energie",
+    "Dichte",
+    "Fluchtgeschwindigkeit"
+   ],
+   "achsen": [
+    [
+     "Energie",
+     "Geschwindigkeit",
+     "Masse"
+    ],
+    [
+     "Dichte",
+     "Masse",
+     "Volumen"
+    ],
+    [
+     "Abstand",
+     "Geschwindigkeit",
+     "Masse"
+    ]
+   ],
+   "groessen": 6,
+   "verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "fachliche_verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "gleiches_gebiet": true,
+   "stark": true
+  },
+  {
+   "form": "gemischt",
+   "formeln": [
+    "F023",
+    "F066",
+    "F067"
+   ],
+   "namen": [
+    "Kinetische Energie",
+    "Kepler 3",
+    "Fluchtgeschwindigkeit"
+   ],
+   "achsen": [
+    [
+     "Energie",
+     "Geschwindigkeit",
+     "Masse"
+    ],
+    [
+     "Halbachse",
+     "Masse",
+     "Periode"
+    ],
+    [
+     "Abstand",
+     "Geschwindigkeit",
+     "Masse"
+    ]
+   ],
+   "groessen": 6,
+   "verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "fachliche_verbindungen": [
+    "Geschwindigkeit",
+    "Masse"
+   ],
+   "gleiches_gebiet": true,
+   "stark": true
+  },
+  {
+   "form": "dreieck",
+   "formeln": [
+    "F025",
+    "F026",
+    "F027"
+   ],
+   "namen": [
+    "Arbeit",
+    "Leistung",
+    "Geschwindigkeit"
+   ],
+   "achsen": [
+    [
+     "Arbeit",
+     "Kraft",
+     "Weg"
+    ],
+    [
+     "Arbeit",
+     "Leistung",
+     "Zeit"
+    ],
+    [
+     "Geschwindigkeit",
+     "Weg",
+     "Zeit"
+    ]
+   ],
+   "groessen": 6,
+   "verbindungen": [
+    "Arbeit",
+    "Weg",
+    "Zeit"
+   ],
+   "fachliche_verbindungen": [
+    "Arbeit",
+    "Weg"
+   ],
+   "gleiches_gebiet": true,
+   "stark": true
+  }
+ ],
+ "wiederfindung_103": {
+  "achsen_gesamt": 309,
+  "achsen_mit_2plus_rollen_als_groesse": 11,
+  "beispiele": [
+   {
+    "tensor": "FACH-F011",
+    "name": "Klassische Mechanik",
+    "achse": 2
+   },
+   {
+    "tensor": "FACH-F020",
+    "name": "Thermische Physik",
+    "achse": 3
+   },
+   {
+    "tensor": "FACH-F028",
+    "name": "Fluiddynamik",
+    "achse": 1
+   },
+   {
+    "tensor": "FACH-F030",
+    "name": "Geophysik",
+    "achse": 2
+   },
+   {
+    "tensor": "FACH-F033",
+    "name": "Thermodynamische Chemie",
+    "achse": 3
+   },
+   {
+    "tensor": "FACH-F047",
+    "name": "Ökologie",
+    "achse": 2
+   },
+   {
+    "tensor": "FACH-F054",
+    "name": "Epidemiologie",
+    "achse": 1
+   },
+   {
+    "tensor": "FACH-F054",
+    "name": "Epidemiologie",
+    "achse": 3
+   },
+   {
+    "tensor": "FACH-F056",
+    "name": "Kardiovaskuläre Medizin",
+    "achse": 1
+   },
+   {
+    "tensor": "FACH-F069",
+    "name": "Informationstheorie",
+    "achse": 2
+   },
+   {
+    "tensor": "FACH-F081",
+    "name": "Mikroökonomie",
+    "achse": 3
+   }
+  ]
+ },
+ "einzeln": [
+  {
+   "id": "F001",
+   "name": "Satz des Pythagoras",
+   "gebiet": "Mathematik",
+   "variablen": [
+    "a",
+    "b",
+    "c"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "implizit",
+   "skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k))), Pow(Symbol('x1'), Integer(k)), Pow(Symbol('x2'), Integer(k)))",
+   "groessen": [
+    "Hypotenuse",
+    "Kathete"
+   ]
+  },
+  {
+   "id": "F002",
+   "name": "Kreisfläche",
+   "gebiet": "Mathematik",
+   "variablen": [
+    "A",
+    "r"
+   ],
+   "stelligkeit": 2,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), pi, Pow(Symbol('x0'), Integer(k))), Symbol('x1'))",
+   "groessen": [
+    "Fläche",
+    "Radius"
+   ]
+  },
+  {
+   "id": "F003",
+   "name": "Kreisumfang",
+   "gebiet": "Mathematik",
+   "variablen": [
+    "U",
+    "r"
+   ],
+   "stelligkeit": 2,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Integer(k), pi, Symbol('x0')), Symbol('x1'))",
+   "groessen": [
+    "Radius",
+    "Umfang"
+   ]
+  },
+  {
+   "id": "F004",
+   "name": "Kugelvolumen",
+   "gebiet": "Mathematik",
+   "variablen": [
+    "V",
+    "r"
+   ],
+   "stelligkeit": 2,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Rational(k, k), pi, Pow(Symbol('x0'), Integer(k))), Symbol('x1'))",
+   "groessen": [
+    "Radius",
+    "Volumen"
+   ]
+  },
+  {
+   "id": "F005",
+   "name": "Quadratische Gleichung (Lösung)",
+   "gebiet": "Mathematik",
+   "variablen": [
+    "a",
+    "b",
+    "c",
+    "x"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Rational(k, k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Symbol('x2'), Mul(Integer(-k), Rational(k, k), Pow(Symbol('x1'), Integer(-k)), Pow(Add(Pow(Symbol('x0'), Integer(k)), Mul(Integer(-k), Integer(k), Symbol('x1'), Symbol('x3'))), Rational(k, k))))",
+   "groessen": [
+    "Koeffizient",
+    "Lösung"
+   ]
+  },
+  {
+   "id": "F006",
+   "name": "Eulersche Polyederformel",
+   "gebiet": "Mathematik",
+   "variablen": [
+    "E",
+    "F",
+    "V"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "additiv",
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0')), Symbol('x1'), Symbol('x2'), Integer(-k))",
+   "groessen": [
+    "Ecken",
+    "Flächen",
+    "Kanten"
+   ]
+  },
+  {
+   "id": "F007",
+   "name": "Binomische Formel",
+   "gebiet": "Mathematik",
+   "variablen": [
+    "a",
+    "b"
+   ],
+   "stelligkeit": 2,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Integer(k)",
+   "groessen": [
+    "Summand"
+   ]
+  },
+  {
+   "id": "F008",
+   "name": "Geometrische Reihe",
+   "gebiet": "Mathematik",
+   "variablen": [
+    "S",
+    "a",
+    "q"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "nichtlinear",
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Add(Integer(k), Mul(Integer(-k), Symbol('x1'))), Integer(-k))), Symbol('x2'))",
+   "groessen": [
+    "Anfangsglied",
+    "Quotient",
+    "Summe"
+   ]
+  },
+  {
+   "id": "F009",
+   "name": "Logarithmus Produktregel",
+   "gebiet": "Mathematik",
+   "variablen": [
+    "x",
+    "y"
+   ],
+   "stelligkeit": 2,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(log(Symbol('x0')), log(Symbol('x1')), Mul(Integer(-k), log(Mul(Symbol('x0'), Symbol('x1')))))",
+   "groessen": [
+    "Zahl"
+   ]
+  },
+  {
+   "id": "F010",
+   "name": "Eulersche Formel",
+   "gebiet": "Mathematik",
+   "variablen": [
+    "phi"
+   ],
+   "stelligkeit": 1,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), exp(Mul(I, Symbol('x0')))), Mul(I, sin(Symbol('x0'))), cos(Symbol('x0')))",
+   "groessen": [
+    "Winkel"
+   ]
+  },
+  {
+   "id": "F011",
+   "name": "Trigonometrischer Pythagoras",
+   "gebiet": "Mathematik",
+   "variablen": [
+    "cos",
+    "sin",
+    "t"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "implizit",
+   "skelett": "Add(Pow(Function('f0')(Symbol('x0')), Integer(k)), Pow(Function('f1')(Symbol('x0')), Integer(k)), Integer(-k))",
+   "groessen": [
+    "Winkel",
+    "cos",
+    "sin"
+   ]
+  },
+  {
+   "id": "F012",
+   "name": "Kosinussatz",
+   "gebiet": "Mathematik",
+   "variablen": [
+    "a",
+    "b",
+    "c",
+    "g"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k))), Pow(Symbol('x1'), Integer(k)), Mul(Integer(-k), Integer(k), Symbol('x1'), Symbol('x2'), cos(Symbol('x3'))), Pow(Symbol('x2'), Integer(k)))",
+   "groessen": [
+    "Seite",
+    "Winkel"
+   ]
+  },
+  {
+   "id": "F013",
+   "name": "Dreiecksfläche",
+   "gebiet": "Mathematik",
+   "variablen": [
+    "A",
+    "b",
+    "h"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "potenzgesetz",
+   "skelett": "Add(Mul(Integer(-k), Rational(k, k), Symbol('x0'), Symbol('x1')), Symbol('x2'))",
+   "groessen": [
+    "Fläche",
+    "Grundseite",
+    "Höhe"
+   ]
+  },
+  {
+   "id": "F014",
+   "name": "Abstand zweier Punkte",
+   "gebiet": "Mathematik",
+   "variablen": [
+    "d",
+    "x1",
+    "x2",
+    "y1",
+    "y2"
+   ],
+   "stelligkeit": 5,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Add(Pow(Symbol('x1'), Integer(k)), Mul(Integer(-k), Integer(k), Symbol('x1'), Symbol('x3')), Pow(Symbol('x3'), Integer(k))), Rational(k, k)))",
+   "groessen": [
+    "Abstand",
+    "Koordinate"
+   ]
+  },
+  {
+   "id": "F015",
+   "name": "Zinseszins",
+   "gebiet": "Ökonomie",
+   "variablen": [
+    "K",
+    "K0",
+    "n",
+    "p"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Add(Symbol('x1'), Integer(k)), Symbol('x2'))), Symbol('x3'))",
+   "groessen": [
+    "Anfangskapital",
+    "Endkapital",
+    "Perioden",
+    "Zinssatz"
+   ]
+  },
+  {
+   "id": "F016",
+   "name": "Stetige Verzinsung",
+   "gebiet": "Ökonomie",
+   "variablen": [
+    "K",
+    "K0",
+    "r",
+    "t"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), exp(Mul(Symbol('x1'), Symbol('x2')))), Symbol('x3'))",
+   "groessen": [
+    "Anfangskapital",
+    "Endkapital",
+    "Rate",
+    "Zeit"
+   ]
+  },
+  {
+   "id": "F017",
+   "name": "Exponentielles Wachstum (Dgl.)",
+   "gebiet": "Biologie",
+   "variablen": [
+    "N",
+    "r",
+    "t"
+   ],
+   "stelligkeit": 3,
+   "dynamik": true,
+   "trinitaer": true,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Function('f0')(Symbol('x1'))), Derivative(Function('f0')(Symbol('x1')), Tuple(Symbol('x1'), Integer(k))))",
+   "groessen": [
+    "Population",
+    "Wachstumsrate",
+    "Zeit"
+   ]
+  },
+  {
+   "id": "F018",
+   "name": "Logistisches Wachstum",
+   "gebiet": "Biologie",
+   "variablen": [
+    "K",
+    "N",
+    "r",
+    "t"
+   ],
+   "stelligkeit": 4,
+   "dynamik": true,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Function('f0')(Symbol('x1'))), Mul(Symbol('x0'), Pow(Symbol('x2'), Integer(-k)), Pow(Function('f0')(Symbol('x1')), Integer(k))), Derivative(Function('f0')(Symbol('x1')), Tuple(Symbol('x1'), Integer(k))))",
+   "groessen": [
+    "Kapazität",
+    "Population",
+    "Wachstumsrate",
+    "Zeit"
+   ]
+  },
+  {
+   "id": "F019",
+   "name": "Radioaktiver Zerfall",
+   "gebiet": "Physik",
+   "variablen": [
+    "N",
+    "N0",
+    "lam",
+    "t"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), exp(Mul(Integer(-k), Symbol('x1'), Symbol('x2')))), Symbol('x3'))",
+   "groessen": [
+    "Anfangsteilchenzahl",
+    "Teilchenzahl",
+    "Zeit",
+    "Zerfallskonstante"
+   ]
+  },
+  {
+   "id": "F020",
+   "name": "Halbwertszeit",
+   "gebiet": "Physik",
+   "variablen": [
+    "T",
+    "lam"
+   ],
+   "stelligkeit": 2,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Symbol('x0'), Mul(Integer(-k), Pow(Symbol('x1'), Integer(-k)), log(Integer(k))))",
+   "groessen": [
+    "Halbwertszeit",
+    "Zerfallskonstante"
+   ]
+  },
+  {
+   "id": "F021",
+   "name": "Newton 2. Gesetz",
+   "gebiet": "Physik",
+   "variablen": [
+    "F",
+    "a",
+    "m"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "potenzgesetz",
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Symbol('x2'))",
+   "groessen": [
+    "Beschleunigung",
+    "Kraft",
+    "Masse"
+   ]
+  },
+  {
+   "id": "F022",
+   "name": "Impuls",
+   "gebiet": "Physik",
+   "variablen": [
+    "m",
+    "p",
+    "v"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "potenzgesetz",
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Symbol('x2'))",
+   "groessen": [
+    "Geschwindigkeit",
+    "Impuls",
+    "Masse"
+   ]
+  },
+  {
+   "id": "F023",
+   "name": "Kinetische Energie",
+   "gebiet": "Physik",
+   "variablen": [
+    "E",
+    "m",
+    "v"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "potenzgesetz",
+   "skelett": "Add(Mul(Integer(-k), Rational(k, k), Pow(Symbol('x0'), Integer(k)), Symbol('x1')), Symbol('x2'))",
+   "groessen": [
+    "Energie",
+    "Geschwindigkeit",
+    "Masse"
+   ]
+  },
+  {
+   "id": "F024",
+   "name": "Potentielle Energie (Höhe)",
+   "gebiet": "Physik",
+   "variablen": [
+    "E",
+    "g",
+    "h",
+    "m"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2')), Symbol('x3'))",
+   "groessen": [
+    "Energie",
+    "Fallbeschleunigung",
+    "Höhe",
+    "Masse"
+   ]
+  },
+  {
+   "id": "F025",
+   "name": "Arbeit",
+   "gebiet": "Physik",
+   "variablen": [
+    "F",
+    "W",
+    "s"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "potenzgesetz",
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Symbol('x2'))",
+   "groessen": [
+    "Arbeit",
+    "Kraft",
+    "Weg"
+   ]
+  },
+  {
+   "id": "F026",
+   "name": "Leistung",
+   "gebiet": "Physik",
+   "variablen": [
+    "P",
+    "W",
+    "t"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "potenzgesetz",
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Symbol('x2'))",
+   "groessen": [
+    "Arbeit",
+    "Leistung",
+    "Zeit"
+   ]
+  },
+  {
+   "id": "F027",
+   "name": "Geschwindigkeit",
+   "gebiet": "Physik",
+   "variablen": [
+    "s",
+    "t",
+    "v"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "potenzgesetz",
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Symbol('x2'))",
+   "groessen": [
+    "Geschwindigkeit",
+    "Weg",
+    "Zeit"
+   ]
+  },
+  {
+   "id": "F028",
+   "name": "Gleichmäßig beschleunigte Bewegung",
+   "gebiet": "Physik",
+   "variablen": [
+    "a",
+    "s",
+    "t",
+    "v0"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0')), Mul(Rational(k, k), Pow(Symbol('x1'), Integer(k)), Symbol('x2')), Mul(Symbol('x1'), Symbol('x3')))",
+   "groessen": [
+    "Anfangsgeschwindigkeit",
+    "Beschleunigung",
+    "Weg",
+    "Zeit"
+   ]
+  },
+  {
+   "id": "F029",
+   "name": "Gravitationsgesetz",
+   "gebiet": "Physik",
+   "variablen": [
+    "F",
+    "m1",
+    "m2",
+    "r"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('k'), Pow(Symbol('x0'), Integer(-k)), Symbol('x1'), Symbol('x2')), Symbol('x3'))",
+   "groessen": [
+    "Abstand",
+    "Kraft",
+    "Masse"
+   ]
+  },
+  {
+   "id": "F030",
+   "name": "Coulomb-Gesetz",
+   "gebiet": "Physik",
+   "variablen": [
+    "F",
+    "q1",
+    "q2",
+    "r"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Symbol('x0'), Mul(Integer(-k), Rational(k, k), Pow(pi, Integer(-k)), Pow(Symbol('k'), Integer(-k)), Pow(Symbol('x1'), Integer(-k)), Symbol('x2'), Symbol('x3')))",
+   "groessen": [
+    "Abstand",
+    "Kraft",
+    "Ladung"
+   ]
+  },
+  {
+   "id": "F031",
+   "name": "Ohmsches Gesetz",
+   "gebiet": "Physik",
+   "variablen": [
+    "R",
+    "U"
+   ],
+   "stelligkeit": 2,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), I, Symbol('x0')), Symbol('x1'))",
+   "groessen": [
+    "Spannung",
+    "Widerstand"
+   ]
+  },
+  {
+   "id": "F032",
+   "name": "Elektrische Leistung",
+   "gebiet": "Physik",
+   "variablen": [
+    "P",
+    "U"
+   ],
+   "stelligkeit": 2,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), I, Symbol('x0')), Symbol('x1'))",
+   "groessen": [
+    "Leistung",
+    "Spannung"
+   ]
+  },
+  {
+   "id": "F033",
+   "name": "Joulesche Wärme",
+   "gebiet": "Physik",
+   "variablen": [
+    "P",
+    "R"
+   ],
+   "stelligkeit": 2,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Symbol('x0'), Symbol('x1'))",
+   "groessen": [
+    "Leistung",
+    "Widerstand"
+   ]
+  },
+  {
+   "id": "F034",
+   "name": "Ladung und Strom",
+   "gebiet": "Physik",
+   "variablen": [
+    "Q",
+    "t"
+   ],
+   "stelligkeit": 2,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), I, Symbol('x0')), Symbol('x1'))",
+   "groessen": [
+    "Ladung",
+    "Zeit"
+   ]
+  },
+  {
+   "id": "F035",
+   "name": "Kapazität",
+   "gebiet": "Physik",
+   "variablen": [
+    "C",
+    "Q",
+    "U"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "potenzgesetz",
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Symbol('x2'))",
+   "groessen": [
+    "Kapazität",
+    "Ladung",
+    "Spannung"
+   ]
+  },
+  {
+   "id": "F036",
+   "name": "Lorentzkraft (Betrag)",
+   "gebiet": "Physik",
+   "variablen": [
+    "B",
+    "F",
+    "q",
+    "v"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2')), Symbol('x3'))",
+   "groessen": [
+    "Geschwindigkeit",
+    "Kraft",
+    "Ladung",
+    "Magnetfeld"
+   ]
+  },
+  {
+   "id": "F037",
+   "name": "Masse-Energie-Äquivalenz",
+   "gebiet": "Physik",
+   "variablen": [
+    "E",
+    "m"
+   ],
+   "stelligkeit": 2,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Pow(Symbol('k'), Integer(k)), Symbol('x0')), Symbol('x1'))",
+   "groessen": [
+    "Energie",
+    "Masse"
+   ]
+  },
+  {
+   "id": "F038",
+   "name": "Photonenenergie",
+   "gebiet": "Physik",
+   "variablen": [
+    "E",
+    "f"
+   ],
+   "stelligkeit": 2,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('k'), Symbol('x0')), Symbol('x1'))",
+   "groessen": [
+    "Energie",
+    "Frequenz"
+   ]
+  },
+  {
+   "id": "F039",
+   "name": "De-Broglie-Wellenlänge",
+   "gebiet": "Physik",
+   "variablen": [
+    "lam",
+    "p"
+   ],
+   "stelligkeit": 2,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('k'), Pow(Symbol('x0'), Integer(-k))), Symbol('x1'))",
+   "groessen": [
+    "Impuls",
+    "Wellenlänge"
+   ]
+  },
+  {
+   "id": "F040",
+   "name": "Wellengleichung (Phasengeschw.)",
+   "gebiet": "Physik",
+   "variablen": [
+    "f",
+    "lam",
+    "v"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "potenzgesetz",
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Symbol('x2'))",
+   "groessen": [
+    "Frequenz",
+    "Geschwindigkeit",
+    "Wellenlänge"
+   ]
+  },
+  {
+   "id": "F041",
+   "name": "Ideales Gasgesetz",
+   "gebiet": "Physik",
+   "variablen": [
+    "T",
+    "V",
+    "n",
+    "p"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('k'), Symbol('x0'), Symbol('x1')), Mul(Symbol('x2'), Symbol('x3')))",
+   "groessen": [
+    "Druck",
+    "Stoffmenge",
+    "Temperatur",
+    "Volumen"
+   ]
+  },
+  {
+   "id": "F042",
+   "name": "Boyle-Mariotte",
+   "gebiet": "Physik",
+   "variablen": [
+    "V1",
+    "V2",
+    "p1",
+    "p2"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Symbol('x2'), Symbol('x3')))",
+   "groessen": [
+    "Druck",
+    "Volumen"
+   ]
+  },
+  {
+   "id": "F043",
+   "name": "Druck",
+   "gebiet": "Physik",
+   "variablen": [
+    "A",
+    "F",
+    "p"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "potenzgesetz",
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Symbol('x2'))",
+   "groessen": [
+    "Druck",
+    "Fläche",
+    "Kraft"
+   ]
+  },
+  {
+   "id": "F044",
+   "name": "Dichte",
+   "gebiet": "Physik",
+   "variablen": [
+    "V",
+    "m",
+    "rho"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "potenzgesetz",
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Symbol('x2'))",
+   "groessen": [
+    "Dichte",
+    "Masse",
+    "Volumen"
+   ]
+  },
+  {
+   "id": "F045",
+   "name": "Hydrostatischer Druck",
+   "gebiet": "Physik",
+   "variablen": [
+    "g",
+    "h",
+    "p",
+    "rho"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2')), Symbol('x3'))",
+   "groessen": [
+    "Dichte",
+    "Druck",
+    "Fallbeschleunigung",
+    "Höhe"
+   ]
+  },
+  {
+   "id": "F046",
+   "name": "Auftrieb (Archimedes)",
+   "gebiet": "Physik",
+   "variablen": [
+    "F",
+    "V",
+    "g",
+    "rho"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2')), Symbol('x3'))",
+   "groessen": [
+    "Dichte",
+    "Fallbeschleunigung",
+    "Kraft",
+    "Volumen"
+   ]
+  },
+  {
+   "id": "F047",
+   "name": "Boltzmann-Entropie",
+   "gebiet": "Physik",
+   "variablen": [
+    "S",
+    "W"
+   ],
+   "stelligkeit": 2,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('k'), log(Symbol('x0'))), Symbol('x1'))",
+   "groessen": [
+    "Entropie",
+    "Mikrozustände"
+   ]
+  },
+  {
+   "id": "F048",
+   "name": "Erster Hauptsatz",
+   "gebiet": "Physik",
+   "variablen": [
+    "dQ",
+    "dU",
+    "dW"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "additiv",
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0')), Symbol('x1'), Symbol('x2'))",
+   "groessen": [
+    "Arbeit",
+    "Energieänderung",
+    "Wärme"
+   ]
+  },
+  {
+   "id": "F049",
+   "name": "Wärmemenge",
+   "gebiet": "Physik",
+   "variablen": [
+    "Q",
+    "cw",
+    "dT",
+    "m"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2')), Symbol('x3'))",
+   "groessen": [
+    "Masse",
+    "Temperaturdifferenz",
+    "Wärme",
+    "Wärmekapazität"
+   ]
+  },
+  {
+   "id": "F050",
+   "name": "Carnot-Wirkungsgrad",
+   "gebiet": "Physik",
+   "variablen": [
+    "Tc",
+    "Th",
+    "eta"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "nichtlinear",
+   "skelett": "Add(Mul(Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Symbol('x2'), Integer(-k))",
+   "groessen": [
+    "Temperatur",
+    "Wirkungsgrad"
+   ]
+  },
+  {
+   "id": "F051",
+   "name": "Stefan-Boltzmann",
+   "gebiet": "Physik",
+   "variablen": [
+    "A",
+    "P",
+    "T"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "potenzgesetz",
+   "skelett": "Add(Mul(Integer(-k), Symbol('k'), Pow(Symbol('x0'), Integer(k)), Symbol('x1')), Symbol('x2'))",
+   "groessen": [
+    "Fläche",
+    "Leistung",
+    "Temperatur"
+   ]
+  },
+  {
+   "id": "F052",
+   "name": "Wiensches Verschiebungsgesetz",
+   "gebiet": "Physik",
+   "variablen": [
+    "T",
+    "lam"
+   ],
+   "stelligkeit": 2,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Symbol('k'), Mul(Integer(-k), Symbol('x0'), Symbol('x1')))",
+   "groessen": [
+    "Temperatur",
+    "Wellenlänge"
+   ]
+  },
+  {
+   "id": "F053",
+   "name": "Hookesches Gesetz",
+   "gebiet": "Physik",
+   "variablen": [
+    "F",
+    "k",
+    "x"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "potenzgesetz",
+   "skelett": "Add(Mul(Symbol('x0'), Symbol('x1')), Symbol('x2'))",
+   "groessen": [
+    "Auslenkung",
+    "Federkonstante",
+    "Kraft"
+   ]
+  },
+  {
+   "id": "F054",
+   "name": "Harmonischer Oszillator (Dgl.)",
+   "gebiet": "Physik",
+   "variablen": [
+    "t",
+    "w",
+    "x"
+   ],
+   "stelligkeit": 3,
+   "dynamik": true,
+   "trinitaer": true,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Pow(Symbol('x0'), Integer(k)), Function('f0')(Symbol('x1'))), Derivative(Function('f0')(Symbol('x1')), Tuple(Symbol('x1'), Integer(k))))",
+   "groessen": [
+    "Auslenkung",
+    "Kreisfrequenz",
+    "Zeit"
+   ]
+  },
+  {
+   "id": "F055",
+   "name": "Pendelperiode",
+   "gebiet": "Physik",
+   "variablen": [
+    "T",
+    "g",
+    "l"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "potenzgesetz",
+   "skelett": "Add(Symbol('x0'), Mul(Integer(-k), Integer(k), pi, Pow(Mul(Pow(Symbol('x1'), Integer(-k)), Symbol('x2')), Rational(k, k))))",
+   "groessen": [
+    "Fallbeschleunigung",
+    "Länge",
+    "Periode"
+   ]
+  },
+  {
+   "id": "F056",
+   "name": "Kreisbewegung Zentripetalkraft",
+   "gebiet": "Physik",
+   "variablen": [
+    "F",
+    "m",
+    "r",
+    "v"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Pow(Symbol('x1'), Integer(-k)), Symbol('x2')), Symbol('x3'))",
+   "groessen": [
+    "Geschwindigkeit",
+    "Kraft",
+    "Masse",
+    "Radius"
+   ]
+  },
+  {
+   "id": "F057",
+   "name": "Drehimpuls",
+   "gebiet": "Physik",
+   "variablen": [
+    "I_",
+    "L",
+    "w"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "potenzgesetz",
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Symbol('x2'))",
+   "groessen": [
+    "Drehimpuls",
+    "Kreisfrequenz",
+    "Trägheitsmoment"
+   ]
+  },
+  {
+   "id": "F058",
+   "name": "Drehmoment",
+   "gebiet": "Physik",
+   "variablen": [
+    "F",
+    "M",
+    "r"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "potenzgesetz",
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Symbol('x2'))",
+   "groessen": [
+    "Drehmoment",
+    "Kraft",
+    "Radius"
+   ]
+  },
+  {
+   "id": "F059",
+   "name": "Snellius",
+   "gebiet": "Physik",
+   "variablen": [
+    "n1",
+    "n2",
+    "t1",
+    "t2"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), sin(Symbol('x1'))), Mul(Symbol('x2'), sin(Symbol('x3'))))",
+   "groessen": [
+    "Brechzahl",
+    "Winkel"
+   ]
+  },
+  {
+   "id": "F060",
+   "name": "Linsengleichung",
+   "gebiet": "Physik",
+   "variablen": [
+    "b",
+    "f",
+    "g"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "nichtlinear",
+   "skelett": "Add(Mul(Integer(-k), Pow(Symbol('x2'), Integer(-k))), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x0'), Integer(-k)))",
+   "groessen": [
+    "Bildweite",
+    "Brennweite",
+    "Gegenstandsweite"
+   ]
+  },
+  {
+   "id": "F061",
+   "name": "Doppler-Effekt (ruhender Beobachter)",
+   "gebiet": "Physik",
+   "variablen": [
+    "c",
+    "fB",
+    "fS",
+    "v"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Pow(Add(Symbol('x0'), Mul(Integer(-k), Symbol('x2'))), Integer(-k))), Symbol('x3'))",
+   "groessen": [
+    "Frequenz",
+    "Geschwindigkeit"
+   ]
+  },
+  {
+   "id": "F062",
+   "name": "Lorentzfaktor",
+   "gebiet": "Physik",
+   "variablen": [
+    "gam",
+    "v"
+   ],
+   "stelligkeit": 2,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Add(Integer(k), Mul(Integer(-k), Pow(Symbol('k'), Integer(-k)), Pow(Symbol('x1'), Integer(k)))), Rational(-k, k)))",
+   "groessen": [
+    "Geschwindigkeit",
+    "Lorentzfaktor"
+   ]
+  },
+  {
+   "id": "F063",
+   "name": "Zeitdilatation",
+   "gebiet": "Physik",
+   "variablen": [
+    "gam",
+    "t",
+    "t0"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "potenzgesetz",
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Symbol('x2'))",
+   "groessen": [
+    "Eigenzeit",
+    "Lorentzfaktor",
+    "Zeit"
+   ]
+  },
+  {
+   "id": "F064",
+   "name": "Schwarzschild-Radius",
+   "gebiet": "Physik",
+   "variablen": [
+    "M",
+    "rs"
+   ],
+   "stelligkeit": 2,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Symbol('x0'), Mul(Integer(-k), Integer(k), Pow(Symbol('k'), Integer(-k)), Symbol('x1')))",
+   "groessen": [
+    "Masse",
+    "Radius"
+   ]
+  },
+  {
+   "id": "F065",
+   "name": "Heisenberg-Unschärfe",
+   "gebiet": "Physik",
+   "variablen": [
+    "dp",
+    "dx"
+   ],
+   "stelligkeit": 2,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Rational(k, k), Symbol('k')), Mul(Symbol('x0'), Symbol('x1')))",
+   "groessen": [
+    "Impulsunschärfe",
+    "Ortsunschärfe"
+   ]
+  },
+  {
+   "id": "F066",
+   "name": "Kepler 3",
+   "gebiet": "Physik",
+   "variablen": [
+    "M",
+    "T",
+    "a"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "potenzgesetz",
+   "skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(-k)), Pow(Symbol('x1'), Integer(k))), Mul(Integer(k), Pow(pi, Integer(k)), Pow(Symbol('k'), Integer(-k)), Pow(Symbol('x2'), Integer(-k))))",
+   "groessen": [
+    "Halbachse",
+    "Masse",
+    "Periode"
+   ]
+  },
+  {
+   "id": "F067",
+   "name": "Fluchtgeschwindigkeit",
+   "gebiet": "Physik",
+   "variablen": [
+    "M",
+    "r",
+    "v"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "potenzgesetz",
+   "skelett": "Add(Symbol('x0'), Mul(Integer(-k), Pow(Integer(k), Rational(k, k)), Pow(Mul(Symbol('k'), Pow(Symbol('x1'), Integer(-k)), Symbol('x2')), Rational(k, k))))",
+   "groessen": [
+    "Abstand",
+    "Geschwindigkeit",
+    "Masse"
+   ]
+  },
+  {
+   "id": "F068",
+   "name": "Hubble-Gesetz",
+   "gebiet": "Physik",
+   "variablen": [
+    "d",
+    "v"
+   ],
+   "stelligkeit": 2,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('k'), Symbol('x0')), Symbol('x1'))",
+   "groessen": [
+    "Abstand",
+    "Geschwindigkeit"
+   ]
+  },
+  {
+   "id": "F069",
+   "name": "Bernoulli",
+   "gebiet": "Physik",
+   "variablen": [
+    "C0",
+    "h",
+    "p",
+    "rho",
+    "v"
+   ],
+   "stelligkeit": 5,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Symbol('k'), Symbol('x0'), Symbol('x1')), Mul(Rational(k, k), Symbol('x0'), Pow(Symbol('x2'), Integer(k))), Mul(Integer(-k), Symbol('x3')), Symbol('x4'))",
+   "groessen": [
+    "Dichte",
+    "Druck",
+    "Geschwindigkeit",
+    "Höhe",
+    "Konstante"
+   ]
+  },
+  {
+   "id": "F070",
+   "name": "Kontinuitätsgleichung",
+   "gebiet": "Physik",
+   "variablen": [
+    "A1",
+    "A2",
+    "v1",
+    "v2"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Symbol('x2'), Symbol('x3')))",
+   "groessen": [
+    "Fläche",
+    "Geschwindigkeit"
+   ]
+  },
+  {
+   "id": "F071",
+   "name": "Reynolds-Zahl",
+   "gebiet": "Physik",
+   "variablen": [
+    "L",
+    "Re",
+    "mu",
+    "rho",
+    "v"
+   ],
+   "stelligkeit": 5,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), Symbol('x2'), Symbol('x3')), Symbol('x4'))",
+   "groessen": [
+    "Dichte",
+    "Geschwindigkeit",
+    "Länge",
+    "Reynoldszahl",
+    "Viskosität"
+   ]
+  },
+  {
+   "id": "F072",
+   "name": "Fouriersches Wärmeleitgesetz (1D)",
+   "gebiet": "Physik",
+   "variablen": [
+    "dT",
+    "dx",
+    "k",
+    "q"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), Symbol('x2')), Symbol('x3'))",
+   "groessen": [
+    "Länge",
+    "Temperaturdifferenz",
+    "Wärmeleitfähigkeit",
+    "Wärmestrom"
+   ]
+  },
+  {
+   "id": "F073",
+   "name": "Ficksches Gesetz (1D)",
+   "gebiet": "Chemie",
+   "variablen": [
+    "D",
+    "J",
+    "dc",
+    "dx"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), Symbol('x2')), Symbol('x3'))",
+   "groessen": [
+    "Diffusionskoeffizient",
+    "Konzentrationsdifferenz",
+    "Länge",
+    "Teilchenstrom"
+   ]
+  },
+  {
+   "id": "F074",
+   "name": "Arrhenius",
+   "gebiet": "Chemie",
+   "variablen": [
+    "A",
+    "Ea",
+    "T",
+    "k"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), exp(Mul(Integer(-k), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(-k)), Symbol('x3')))), Symbol('x1'))",
+   "groessen": [
+    "Aktivierungsenergie",
+    "Geschwindigkeitskonstante",
+    "Temperatur",
+    "Vorfaktor"
+   ]
+  },
+  {
+   "id": "F075",
+   "name": "Nernst-Gleichung",
+   "gebiet": "Chemie",
+   "variablen": [
+    "E",
+    "E0",
+    "Q",
+    "T",
+    "z"
+   ],
+   "stelligkeit": 5,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0')), Mul(Symbol('x1'), Pow(Symbol('x2'), Integer(-k)), log(Symbol('x3'))), Symbol('x4'))",
+   "groessen": [
+    "Ladungszahl",
+    "Potential",
+    "Reaktionsquotient",
+    "Standardpotential",
+    "Temperatur"
+   ]
+  },
+  {
+   "id": "F076",
+   "name": "Henderson-Hasselbalch",
+   "gebiet": "Chemie",
+   "variablen": [
+    "A",
+    "HA",
+    "pH",
+    "pKa"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0')), Symbol('x1'), Mul(Pow(log(Integer(k)), Integer(-k)), log(Mul(Pow(Symbol('x2'), Integer(-k)), Symbol('x3')))))",
+   "groessen": [
+    "Konzentration",
+    "Säurekonstante",
+    "pH-Wert"
+   ]
+  },
+  {
+   "id": "F077",
+   "name": "Massenwirkungsgesetz",
+   "gebiet": "Chemie",
+   "variablen": [
+    "K",
+    "cA",
+    "cB",
+    "cC",
+    "cD"
+   ],
+   "stelligkeit": 5,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(-k)), Symbol('x3')), Symbol('x4'))",
+   "groessen": [
+    "Gleichgewichtskonstante",
+    "Konzentration"
+   ]
+  },
+  {
+   "id": "F078",
+   "name": "Lambert-Beer",
+   "gebiet": "Chemie",
+   "variablen": [
+    "A",
+    "c",
+    "d",
+    "eps"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2')), Symbol('x3'))",
+   "groessen": [
+    "Extinktion",
+    "Extinktionskoeffizient",
+    "Konzentration",
+    "Schichtdicke"
+   ]
+  },
+  {
+   "id": "F079",
+   "name": "Gibbs-Energie",
+   "gebiet": "Chemie",
+   "variablen": [
+    "G",
+    "H",
+    "S",
+    "T"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0')), Mul(Symbol('x1'), Symbol('x2')), Symbol('x3'))",
+   "groessen": [
+    "Enthalpie",
+    "Entropie",
+    "Freie Enthalpie",
+    "Temperatur"
+   ]
+  },
+  {
+   "id": "F080",
+   "name": "Stoffmenge",
+   "gebiet": "Chemie",
+   "variablen": [
+    "M",
+    "m",
+    "n"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "potenzgesetz",
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Symbol('x2'))",
+   "groessen": [
+    "Masse",
+    "Molare Masse",
+    "Stoffmenge"
+   ]
+  },
+  {
+   "id": "F081",
+   "name": "Konzentration",
+   "gebiet": "Chemie",
+   "variablen": [
+    "V",
+    "c",
+    "n"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "potenzgesetz",
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Symbol('x2'))",
+   "groessen": [
+    "Konzentration",
+    "Stoffmenge",
+    "Volumen"
+   ]
+  },
+  {
+   "id": "F082",
+   "name": "Reaktionskinetik 1. Ordnung",
+   "gebiet": "Chemie",
+   "variablen": [
+    "cA",
+    "k",
+    "t"
+   ],
+   "stelligkeit": 3,
+   "dynamik": true,
+   "trinitaer": true,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Symbol('x0'), Function('f0')(Symbol('x1'))), Derivative(Function('f0')(Symbol('x1')), Tuple(Symbol('x1'), Integer(k))))",
+   "groessen": [
+    "Geschwindigkeitskonstante",
+    "Konzentration",
+    "Zeit"
+   ]
+  },
+  {
+   "id": "F083",
+   "name": "Michaelis-Menten",
+   "gebiet": "Biologie",
+   "variablen": [
+    "Km",
+    "S",
+    "Vmax",
+    "v"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Pow(Add(Symbol('x0'), Symbol('x2')), Integer(-k))), Symbol('x3'))",
+   "groessen": [
+    "Maximalgeschwindigkeit",
+    "Michaelis-Konstante",
+    "Reaktionsgeschwindigkeit",
+    "Substratkonzentration"
+   ]
+  },
+  {
+   "id": "F084",
+   "name": "Hardy-Weinberg",
+   "gebiet": "Biologie",
+   "variablen": [
+    "p",
+    "q"
+   ],
+   "stelligkeit": 2,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Pow(Symbol('x0'), Integer(k)), Mul(Integer(k), Symbol('x0'), Symbol('x1')), Pow(Symbol('x1'), Integer(k)), Integer(-k))",
+   "groessen": [
+    "Allelfrequenz"
+   ]
+  },
+  {
+   "id": "F085",
+   "name": "Lotka-Volterra (Beute)",
+   "gebiet": "Biologie",
+   "variablen": [
+    "X",
+    "Y",
+    "al",
+    "be",
+    "t"
+   ],
+   "stelligkeit": 5,
+   "dynamik": true,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Function('f0')(Symbol('x1'))), Mul(Symbol('x2'), Function('f0')(Symbol('x1')), Function('f1')(Symbol('x1'))), Derivative(Function('f0')(Symbol('x1')), Tuple(Symbol('x1'), Integer(k))))",
+   "groessen": [
+    "Beute",
+    "Rate",
+    "Räuber",
+    "Zeit"
+   ]
+  },
+  {
+   "id": "F086",
+   "name": "SIR (Infizierte)",
+   "gebiet": "Biologie",
+   "variablen": [
+    "I_",
+    "N",
+    "S_",
+    "be",
+    "ga",
+    "t"
+   ],
+   "stelligkeit": 6,
+   "dynamik": true,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), Function('f0')(Symbol('x2')), Function('f1')(Symbol('x2'))), Mul(Symbol('x3'), Function('f0')(Symbol('x2'))), Derivative(Function('f0')(Symbol('x2')), Tuple(Symbol('x2'), Integer(k))))",
+   "groessen": [
+    "Genesungsrate",
+    "Infizierte",
+    "Population",
+    "Suszeptible",
+    "Zeit",
+    "Übertragungsrate"
+   ]
+  },
+  {
+   "id": "F087",
+   "name": "Basisreproduktionszahl",
+   "gebiet": "Biologie",
+   "variablen": [
+    "R0",
+    "be",
+    "ga"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "potenzgesetz",
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Symbol('x2'))",
+   "groessen": [
+    "Genesungsrate",
+    "Reproduktionszahl",
+    "Übertragungsrate"
+   ]
+  },
+  {
+   "id": "F088",
+   "name": "Body-Mass-Index",
+   "gebiet": "Medizin",
+   "variablen": [
+    "BMI",
+    "l",
+    "m"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "potenzgesetz",
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Symbol('x2'))",
+   "groessen": [
+    "Index",
+    "Länge",
+    "Masse"
+   ]
+  },
+  {
+   "id": "F089",
+   "name": "Shannon-Entropie (zwei Zustände)",
+   "gebiet": "Informatik",
+   "variablen": [
+    "Hs",
+    "p"
+   ],
+   "stelligkeit": 2,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Symbol('x0'), Pow(log(Integer(k)), Integer(-k)), log(Symbol('x0'))), Mul(Integer(-k), Symbol('x0'), Pow(log(Integer(k)), Integer(-k)), log(Add(Integer(k), Mul(Integer(-k), Symbol('x0'))))), Symbol('x1'), Mul(Pow(log(Integer(k)), Integer(-k)), log(Add(Integer(k), Mul(Integer(-k), Symbol('x0'))))))",
+   "groessen": [
+    "Information",
+    "Wahrscheinlichkeit"
+   ]
+  },
+  {
+   "id": "F090",
+   "name": "Shannon-Kanalkapazität",
+   "gebiet": "Informatik",
+   "variablen": [
+    "Bw",
+    "Ck",
+    "Ns",
+    "Sg"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(log(Integer(k)), Integer(-k)), log(Add(Integer(k), Mul(Pow(Symbol('x1'), Integer(-k)), Symbol('x2'))))), Symbol('x3'))",
+   "groessen": [
+    "Bandbreite",
+    "Kapazität",
+    "Rauschleistung",
+    "Signalleistung"
+   ]
+  },
+  {
+   "id": "F091",
+   "name": "Satz von Bayes",
+   "gebiet": "Statistik",
+   "variablen": [
+    "PA",
+    "PAB",
+    "PB",
+    "PBA"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), Symbol('x2')), Symbol('x3'))",
+   "groessen": [
+    "Wahrscheinlichkeit"
+   ]
+  },
+  {
+   "id": "F092",
+   "name": "Erwartungswert Binomial",
+   "gebiet": "Statistik",
+   "variablen": [
+    "mu",
+    "n",
+    "p"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "potenzgesetz",
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Symbol('x2'))",
+   "groessen": [
+    "Anzahl",
+    "Erwartungswert",
+    "Wahrscheinlichkeit"
+   ]
+  },
+  {
+   "id": "F093",
+   "name": "Standardisierung (z-Wert)",
+   "gebiet": "Statistik",
+   "variablen": [
+    "mu",
+    "sd",
+    "x",
+    "z"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Symbol('x2'), Mul(Pow(Symbol('x1'), Integer(-k)), Symbol('x3')))",
+   "groessen": [
+    "Erwartungswert",
+    "Kennzahl",
+    "Messwert",
+    "Standardabweichung"
+   ]
+  },
+  {
+   "id": "F094",
+   "name": "Lineare Regression",
+   "gebiet": "Statistik",
+   "variablen": [
+    "b0",
+    "b1",
+    "x",
+    "y"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0')), Mul(Symbol('x1'), Symbol('x2')), Symbol('x3'))",
+   "groessen": [
+    "Achsenabschnitt",
+    "Einflussgröße",
+    "Steigung",
+    "Zielgröße"
+   ]
+  },
+  {
+   "id": "F095",
+   "name": "Quantitätsgleichung (Fisher)",
+   "gebiet": "Ökonomie",
+   "variablen": [
+    "Mg",
+    "Pr",
+    "Vu",
+    "Yr"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Symbol('x2'), Symbol('x3')))",
+   "groessen": [
+    "Geldmenge",
+    "Preisniveau",
+    "Realeinkommen",
+    "Umlaufgeschwindigkeit"
+   ]
+  },
+  {
+   "id": "F096",
+   "name": "Cobb-Douglas",
+   "gebiet": "Ökonomie",
+   "variablen": [
+    "A",
+    "K",
+    "L",
+    "Y",
+    "al"
+   ],
+   "stelligkeit": 5,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Add(Integer(k), Mul(Integer(-k), Symbol('x1')))), Pow(Symbol('x2'), Symbol('x1')), Symbol('x3')), Symbol('x4'))",
+   "groessen": [
+    "Arbeit",
+    "Elastizität",
+    "Kapital",
+    "Produktion",
+    "Produktivität"
+   ]
+  },
+  {
+   "id": "F097",
+   "name": "Gewinn",
+   "gebiet": "Ökonomie",
+   "variablen": [
+    "Gw",
+    "Ko",
+    "Um"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "additiv",
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0')), Symbol('x1'), Symbol('x2'))",
+   "groessen": [
+    "Gewinn",
+    "Kosten",
+    "Umsatz"
+   ]
+  },
+  {
+   "id": "F098",
+   "name": "Umsatz",
+   "gebiet": "Ökonomie",
+   "variablen": [
+    "Pr",
+    "Um",
+    "xm"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "potenzgesetz",
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Symbol('x2'))",
+   "groessen": [
+    "Menge",
+    "Preis",
+    "Umsatz"
+   ]
+  },
+  {
+   "id": "F099",
+   "name": "Barwert",
+   "gebiet": "Ökonomie",
+   "variablen": [
+    "FV",
+    "PV",
+    "i",
+    "n"
+   ],
+   "stelligkeit": 4,
+   "dynamik": false,
+   "trinitaer": false,
+   "triadentyp": null,
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Add(Symbol('x1'), Integer(k)), Mul(Integer(-k), Symbol('x2')))), Symbol('x3'))",
+   "groessen": [
+    "Barwert",
+    "Endwert",
+    "Perioden",
+    "Zinssatz"
+   ]
+  },
+  {
+   "id": "F100",
+   "name": "Wirkungsgrad",
+   "gebiet": "Technik",
+   "variablen": [
+    "Pin",
+    "Pout",
+    "eta"
+   ],
+   "stelligkeit": 3,
+   "dynamik": false,
+   "trinitaer": true,
+   "triadentyp": "potenzgesetz",
+   "skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Symbol('x2'))",
+   "groessen": [
+    "Leistung",
+    "Wirkungsgrad"
+   ]
+  }
+ ]
+}

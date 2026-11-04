@@ -253,6 +253,56 @@
    "quelle": "—",
    "dringlichkeit": "mittel",
    "status": "offen"
+  },
+  {
+   "id": "Q-P01",
+   "an": "nils",
+   "kategorie": "entscheidung",
+   "frage": "Soll die Tensoralgebra für Mitarbeit geöffnet werden – zuerst mit Rollenprüfungen (B1: „bedeuten gleichnamige Größen dasselbe?“) und Formel-Einreichungen (B2)?",
+   "kontext": "KONZEPT_OEFFNUNG_UND_PUBLIKATIONSREIFE_V0_1 §2; Bewertungen deiner Werke bleiben ausgenommen",
+   "quelle": "forschung/tensor/algebra-claude/KONZEPT_OEFFNUNG_UND_PUBLIKATIONSREIFE_V0_1.md",
+   "dringlichkeit": "mittel",
+   "status": "offen"
+  },
+  {
+   "id": "Q-P02",
+   "an": "nils",
+   "kategorie": "entscheidung",
+   "frage": "Unter welcher Lizenz stehen Beiträge Dritter (Daten CC BY 4.0 bzw. CC0, Code MIT?) und wie werden Beitragende genannt?",
+   "kontext": "Voraussetzung für Q-P01",
+   "quelle": "dito §1",
+   "dringlichkeit": "mittel",
+   "status": "offen"
+  },
+  {
+   "id": "Q-P03",
+   "an": "nils",
+   "kategorie": "entscheidung",
+   "frage": "Publikationsreihenfolge: erst Datenpaper mit DOI (103 Gerüste gehoben, Top-100, Wikidata-Aggregate), dann Methodenpreprint nach Gate G3?",
+   "kontext": "dito §4–5; Gates G1–G6",
+   "quelle": "dito",
+   "dringlichkeit": "niedrig",
+   "status": "offen"
+  },
+  {
+   "id": "Q-F08",
+   "an": "nils",
+   "kategorie": "fach",
+   "frage": "Gibt es unter deinen Tensoren/Gerüsten eines mit den Bezügen spezifisch / molar / volumenbezogen? Das Harvesting hat diese 3×3-Struktur (Bezugsgrößen-Matrix, Umrechnung M, ρ, Vm mit M = ρ·Vm) aus Wikidata rekonstruiert.",
+   "kontext": "KONZEPT_FORMELREDUKTION_UND_HARVESTING_V0_1 §5",
+   "quelle": "forschung/tensor/formeln/WIKIDATA_LAUF_V0_1.json",
+   "dringlichkeit": "niedrig",
+   "status": "offen"
+  },
+  {
+   "id": "Q-G07",
+   "an": "gpt",
+   "kategorie": "fach",
+   "frage": "Rollenprüfung P1 gegenlesen: ρ = c·M (Dichte–Stoffmenge–Konzentration) als „nur reiner Stoff“, Pendel–Kepler–BMI als „unzulässig“ – einverstanden?",
+   "kontext": "DREIECKE_V0_1.json, ROLLENPRUEFUNG in dreiecke.py (E1, Claude)",
+   "quelle": "forschung/tensor/formeln/dreiecke.py",
+   "dringlichkeit": "mittel",
+   "status": "offen"
   }
  ]
 }

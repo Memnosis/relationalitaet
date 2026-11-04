@@ -1,0 +1,6306 @@
+{
+ "schema_version": "wikidata-lauf/0.1",
+ "owner": "claude",
+ "quelle": "Wikidata (CC0), P2534 definierende Formel, P7235 Symbol, Qualifikator P9758 bedeutet",
+ "abgerufen_am": "2026-11-04T03:49:57Z",
+ "hinweis": "Rohdaten nicht im Repo; aggregierte Ergebnisse. Stelligkeit = Anzahl zugeordneter Größen ohne Naturkonstanten. „Dreieck“ und „Ableitung“ sind Kandidaten; P1 (gleiche Rolle) ist NICHT automatisch geprüft.",
+ "zusammenfassung": {
+  "items": 2676,
+  "mit_gleichung": 2143,
+  "geparst": 1803,
+  "parse_fehler": 340,
+  "parse_fehlerquote": 0.159,
+  "stelligkeit": {
+   "0": 42,
+   "1": 346,
+   "2": 583,
+   "3": 884,
+   "4": 431,
+   "5": 207,
+   "6": 105,
+   "7": 46,
+   "8": 17,
+   "9": 11,
+   "10": 2,
+   "11": 2
+  },
+  "trinitaer": 884,
+  "familien_ab_2": 108,
+  "groesste_familie": 180,
+  "keime": {
+   "dreieck": 239,
+   "stern": 37759,
+   "gemischt": 2084
+  },
+  "dreiecke_abgeleitet": {
+   "nicht_geparst": 54,
+   "ok_sauber": 49,
+   "abbruch": 100,
+   "ok_mit_unzugeordneten_symbolen": 35,
+   "keine_relation": 1
+  },
+  "wiederfindung_103": {
+   "achsen_gesamt": 309,
+   "achsen_mit_2plus_rollen": 36
+  }
+ },
+ "hubs": [
+  [
+   "Dauer",
+   "Q2199864",
+   50
+  ],
+  [
+   "Masse",
+   "Q11423",
+   41
+  ],
+  [
+   "Flächeninhalt",
+   "Q11500",
+   26
+  ],
+  [
+   "Volumen",
+   "Q39297",
+   21
+  ],
+  [
+   "Funktion",
+   "Q11348",
+   19
+  ],
+  [
+   "Menge",
+   "Q36161",
+   18
+  ],
+  [
+   "thermodynamische Temperatur",
+   "Q264647",
+   14
+  ],
+  [
+   "elektromagnetische Wellenlänge",
+   "Q105581076",
+   14
+  ],
+  [
+   "Ortsvektor",
+   "Q192388",
+   13
+  ],
+  [
+   "Dichte",
+   "Q29539",
+   12
+  ],
+  [
+   "Stoffmenge",
+   "Q104946",
+   12
+  ],
+  [
+   "Kraft",
+   "Q11402",
+   11
+  ],
+  [
+   "Abstand",
+   "Q126017",
+   11
+  ],
+  [
+   "elektrische Ladung",
+   "Q1111",
+   11
+  ],
+  [
+   "Radius",
+   "Q173817",
+   11
+  ],
+  [
+   "Länge",
+   "Q36253",
+   10
+  ],
+  [
+   "komplexe Zahl",
+   "Q11567",
+   10
+  ],
+  [
+   "imaginäre Einheit",
+   "Q193796",
+   10
+  ],
+  [
+   "Licht-Frequenz",
+   "Q106008771",
+   9
+  ],
+  [
+   "Strahlungsleistung",
+   "Q1253356",
+   9
+  ],
+  [
+   "Zufallsvariable",
+   "Q176623",
+   9
+  ],
+  [
+   "Impuls",
+   "Q41273",
+   8
+  ],
+  [
+   "Vektor",
+   "Q13471665",
+   8
+  ],
+  [
+   "Fakultät",
+   "Q120976",
+   8
+  ],
+  [
+   "Ableitung",
+   "Q29175",
+   8
+  ]
+ ],
+ "familien": [
+  [
+   180,
+   [
+    "spektrale Strahlungsenergiedichte bezüglich der Frequenz",
+    "spezifische latente Wärme des Phasenübergangs",
+    "magnetische Massensuszeptibilität",
+    "Lichtstärke",
+    "Kreiswellenzahl",
+    "elektromagnetische Wellenlänge",
+    "Fermi-Temperatur",
+    "Licht-Wellenzahl",
+    "Beweglichkeitsverhältnis",
+    "Ginsburg-Landau-Parameter",
+    "relative Entropie",
+    "relative Redundanz"
+   ]
+  ],
+  [
+   87,
+   [
+    "Massenstrom der Gasphase",
+    "primitiver reziproker Gittervektor",
+    "Verschiebungsvektor",
+    "composite motion",
+    "parametrisierte Fläche",
+    "Anzahl der Kombinationen ohne Wiederholung",
+    "zugeordnetes Laguerre-Polynom",
+    "Bessel-Funktion zweiter Gattung",
+    "Bessel-Funktion",
+    "Hankel-Funktion erster Art",
+    "Hankel-Funktion zweiter Art",
+    "modifizierte Bessel-Funktion erster Art"
+   ]
+  ],
+  [
+   62,
+   [
+    "Stokes-Zahl für schwingende Teilchen",
+    "Stokes-Zahl für ein Rotameter",
+    "Stokes-Zahl für Gravitation",
+    "Stokes-Zahl für Strömungswiderstand",
+    "Froude-Zahl für Wärmetransport",
+    "Bejan-Zahl für Wärmetransport",
+    "Fourier-Zahl für Massentransport",
+    "Péclet-Zahl für Massentransport",
+    "Stanton-Zahl für Massentransport",
+    "Graetz-Zahl für Massentransport",
+    "Massentransportfaktor",
+    "Biot-Zahl für Massentransport"
+   ]
+  ],
+  [
+   43,
+   [
+    "induktive Reaktanz",
+    "Vielfaches",
+    "Signalenergie pro Bit",
+    "zeichenbezogene Kanalkapazität",
+    "Pupillenlichtstärke",
+    "Q11324904",
+    "Wirbelstärke",
+    "elektrische Momentanleistung",
+    "molarer Absorptionskoeffizient",
+    "product of two integers",
+    "Atlas",
+    "discrete-time signal"
+   ]
+  ],
+  [
+   31,
+   [
+    "Skalarprodukt zweier Tensoren",
+    "Produkt eines Skalars und einer Matrix",
+    "Einheit",
+    "Gaußsches Gesetz für Magnetfelder",
+    "Killing-Vektorfeld",
+    "Skalarmultiplikation",
+    "identity functor",
+    "Grassmann-Mannigfaltigkeit",
+    "Eigenzustand",
+    "identity morphism",
+    "Listenfärbungsvermutung",
+    "partial overlap"
+   ]
+  ],
+  [
+   30,
+   [
+    "Flächenausdehnungskoeffizient",
+    "Schallfrequenz",
+    "Schall-Wellenzahl",
+    "Licht-Frequenz",
+    "Periode von Datenelementen",
+    "Bitperiode",
+    "spezifischer Widerstand",
+    "longitudinale Relaxationsrate",
+    "transversale Relaxationsrate",
+    "Compton-Wellenlänge",
+    "Frequenz",
+    "Vakuumadmittanz"
+   ]
+  ],
+  [
+   23,
+   [
+    "torque from angular acceleration",
+    "fundamentaler Gittervektor",
+    "kartesische Tensorkoordinate",
+    "vollständiges elliptisches Integral erster Art",
+    "Kraft",
+    "Schallintensität",
+    "homothetic vector field",
+    "Permittivität",
+    "magnetisches Vektorpotential",
+    "elektrische Stromdichte",
+    "zweites newtonsches Gesetz",
+    "magnetisches Moment"
+   ]
+  ],
+  [
+   19,
+   [
+    "Elastizitätszahl",
+    "molare magnetische Suszeptibilität",
+    "combined gas law",
+    "Wärmestromdichte",
+    "spezifischer Drehwinkel",
+    "Äquivalenz",
+    "Debye-Temperatur",
+    "Bodenstein-Zahl",
+    "Maurer-Cartan-Form",
+    "Strouhal-Zahl",
+    "relative Volumenvergrößerung",
+    "Scherverformung"
+   ]
+  ],
+  [
+   16,
+   [
+    "spezifischer Impuls bezüglich Masse",
+    "magnetic field of test current",
+    "elektrischer Feldparameter",
+    "Ampère-Zahl",
+    "Arrhenius-Zahl",
+    "Lorenz-Koeffizient",
+    "strahlenchemische Ausbeute",
+    "Landé-Faktor",
+    "mittlere freie Flugzeit",
+    "Temperaturleitfähigkeit",
+    "quantum capacitance",
+    "scheinbare Viskosität"
+   ]
+  ],
+  [
+   16,
+   [
+    "spezifischer Impuls bezüglich Gewicht",
+    "elektrische Oberflächenstromstärke",
+    "äquivalente binäre Speicherkapazität",
+    "product of four distinct primes",
+    "Konfinalität",
+    "triameter",
+    "carbon dioxide equivalent mass",
+    "Bogomolny-Gleichungen",
+    "Baumweite",
+    "quadratfreie Zahl",
+    "Bandbreite",
+    "Helizität"
+   ]
+  ],
+  [
+   13,
+   [
+    "Differentialform",
+    "Mittelwert",
+    "untere Stabilitätszahl",
+    "Spektralradius eines Graphen",
+    "Cliquenüberdeckungszahl",
+    "maximum number of pairwise disjoint maximal independent sets",
+    "minimaler Hamming-Abstand",
+    "bondage number",
+    "Supremum",
+    "Spektralradius",
+    "Zahlenfolge",
+    "Robustheit"
+   ]
+  ],
+  [
+   13,
+   [
+    "Roberts-Zahl",
+    "Skalarkrümmung",
+    "area element",
+    "C-Parität",
+    "Wick-Rotation",
+    "Singulärwertzerlegung",
+    "Disjunktheit",
+    "sphenische Zahl",
+    "Sinkhorn's theorem",
+    "molarer Extinktionskoeffizient",
+    "hookesches Gesetz",
+    "Weissenberg-Zahl"
+   ]
+  ],
+  [
+   13,
+   [
+    "festgelegte Toleranz",
+    "Entfernungsmodul",
+    "Redundanz",
+    "mechanische Energie",
+    "Lebensalter",
+    "Sterbealter",
+    "number of valid votes",
+    "Anzahl der Enthaltung",
+    "Celsius-Temperatur",
+    "Laplace-Matrix",
+    "Spannung-Strom-Phasenverschiebungswinkel",
+    "Schallabsorptionsgrad"
+   ]
+  ],
+  [
+   11,
+   [
+    "Scherverformungsrate",
+    "Wärmestrom",
+    "Energiefluss",
+    "Energiefluenzrate",
+    "Energiedosisleistung",
+    "Teilchenemissionsrate",
+    "Teilchenfluenzrate",
+    "Äquivalentdosisrate",
+    "Expositionsrate",
+    "Kermaleistung",
+    "Verformungsrate"
+   ]
+  ],
+  [
+   11,
+   [
+    "Grünwald–Marcinkiewicz theorem",
+    "Šidák-Ungleichung",
+    "Ricci-Tensor",
+    "Ext",
+    "singuläre Matrix",
+    "Separables Polynom",
+    "Ramsey cardinal",
+    "Spiegelung",
+    "interior product",
+    "compact symplectic group",
+    "Yang-Mills-Gleichungen"
+   ]
+  ],
+  [
+   10,
+   [
+    "spezifischer Widerstandstensor",
+    "Permeabilitätstensor",
+    "magnetischer Suszeptibilitätstensor",
+    "Drehimpuls",
+    "Coulomb",
+    "Trägheitstensor",
+    "Leitfähigkeitstensor",
+    "Poynting-Vektor",
+    "komplexe Leistung",
+    "Drehmomentvektor"
+   ]
+  ],
+  [
+   10,
+   [
+    "Kerr potential",
+    "shortening",
+    "elongation",
+    "Enthalpie",
+    "erster Hauptsatz der Thermodynamik",
+    "lineare Gleichung",
+    "freie Energie",
+    "großkanonisches Potential",
+    "Massenexzess",
+    "Gibbs-Energie"
+   ]
+  ],
+  [
+   10,
+   [
+    "treue Gruppenwirkung",
+    "Kodimension",
+    "Legendresche Vermutung",
+    "Tiefe",
+    "amples Geradenbündel",
+    "Kähler-Einstein-Mannigfaltigkeit",
+    "torsion-free abelian group",
+    "Newton polytope",
+    "core",
+    "nilpotentes Element"
+   ]
+  ],
+  [
+   9,
+   [
+    "Konstruierbarkeitsaxiom",
+    "elektrische Spannung",
+    "Dehnung",
+    "Kovarianz",
+    "Bach tensor",
+    "elektrische Resonanz",
+    "Satz von Pick",
+    "Aktivität der gelösten Substanz",
+    "Clifford gate"
+   ]
+  ],
+  [
+   7,
+   [
+    "Schubbeiwert",
+    "Wärmetransportzahl",
+    "thermodynamischer Grüneisen-Parameter",
+    "Newton-Zahl",
+    "homologe Temperatur",
+    "Kompressibilitätsfaktor",
+    "Stanton-Zahl für Wärmetransport"
+   ]
+  ],
+  [
+   7,
+   [
+    "Matrizenmultiplikation",
+    "inneres Produkt zweier Tensoren",
+    "inneres Produkt eines Tensors mit einem Vektor",
+    "tangential proper part",
+    "proper part inverse",
+    "Vektorprodukt",
+    "dyadisches Produkt"
+   ]
+  ],
+  [
+   7,
+   [
+    "Planck-Funktion",
+    "Kompressionsmodul",
+    "lineares Bremsvermögen",
+    "Bremsdichte",
+    "Massieu-Funktion",
+    "Aktivität",
+    "slow-roll parameter"
+   ]
+  ],
+  [
+   6,
+   [
+    "Stammfunktion",
+    "2. Hauptsatz der Differential- und Integralrechnung",
+    "wohlgefärbter Graph",
+    "Satz von König",
+    "wohlüberdeckter Graph",
+    "unbestimmtes Integral"
+   ]
+  ],
+  [
+   5,
+   [
+    "de-Broglie-Wellenlänge",
+    "de Broglie equation",
+    "Brechungsindex",
+    "Von-Klitzing-Konstante",
+    "Vakuumwellenlänge"
+   ]
+  ],
+  [
+   5,
+   [
+    "Erhaltungsgröße",
+    "nicht kürzbarer Bruch",
+    "Quotientenregel",
+    "smooth immersion",
+    "symmetrischer Raum"
+   ]
+  ]
+ ],
+ "dreiecke": [
+  {
+   "formeln": [
+    "spectral irradiance with respect to frequency",
+    "spektrale Strahlungsleistung",
+    "Bestrahlungsstärke"
+   ],
+   "qids": [
+    "Q101435109",
+    "Q101460704",
+    "Q830654"
+   ],
+   "verbindungen": [
+    "Licht-Frequenz",
+    "Strahlungsleistung",
+    "Bestrahlungsstärke"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "spectral radiant exposure with respect to frequency",
+    "Bestrahlung",
+    "Photonenanzahl"
+   ],
+   "qids": [
+    "Q101435187",
+    "Q1418023",
+    "Q83698917"
+   ],
+   "verbindungen": [
+    "Licht-Frequenz",
+    "elektromagnetische Strahlungsenergie",
+    "Bestrahlung"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "spektrale Strahlungsenergiedichte bezüglich der Frequenz",
+    "Strahlungsenergiedichte",
+    "Photonenanzahl"
+   ],
+   "qids": [
+    "Q101459832",
+    "Q15054312",
+    "Q83698917"
+   ],
+   "verbindungen": [
+    "Licht-Frequenz",
+    "elektromagnetische Strahlungsenergie",
+    "Strahlungsenergiedichte"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q101459832*G_Q39297 - G_Q122894*G_Q83698917"
+   ],
+   "groessen": {
+    "G_Q39297": "Volumen",
+    "G_Q122894": "Planck-Konstante",
+    "G_Q101459832": "spektrale Strahlungsenergiedichte bezüglich der Frequenz",
+    "G_Q83698917": "Photonenanzahl"
+   },
+   "relation_lesbar": [
+    "[spektrale Strahlungsenergiedichte bezüglich der Frequenz]*[Volumen] - [Planck-Konstante]*[Photonenanzahl]"
+   ]
+  },
+  {
+   "formeln": [
+    "spektrale Strahlungsleistung",
+    "spektrale Strahlstärke bezüglich Frequenz",
+    "Strahlungsintensität"
+   ],
+   "qids": [
+    "Q101460704",
+    "Q101461777",
+    "Q1253365"
+   ],
+   "verbindungen": [
+    "Licht-Frequenz",
+    "Strahlungsleistung",
+    "Strahlungsintensität"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "spektrale Strahlungsleistung",
+    "spektrale spezifische Ausstrahlung",
+    "spezifische Ausstrahlung"
+   ],
+   "qids": [
+    "Q101460704",
+    "Q101511180",
+    "Q15054698"
+   ],
+   "verbindungen": [
+    "Licht-Frequenz",
+    "Strahlungsleistung",
+    "spezifische Ausstrahlung"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "spektrale Strahlungsleistung",
+    "elektromagnetische Strahlungsenergie",
+    "Photonenanzahl"
+   ],
+   "qids": [
+    "Q101460704",
+    "Q10932713",
+    "Q83698917"
+   ],
+   "verbindungen": [
+    "Licht-Frequenz",
+    "elektromagnetische Strahlungsenergie",
+    "Strahlungsleistung"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "spektrale Strahlungsleistung",
+    "Strahlungsleistung",
+    "Photonenanzahl"
+   ],
+   "qids": [
+    "Q101460704",
+    "Q1253356",
+    "Q83698917"
+   ],
+   "verbindungen": [
+    "Licht-Frequenz",
+    "elektromagnetische Strahlungsenergie",
+    "Strahlungsleistung"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Beschleunigung des freien Falls",
+    "Gewichtskraft",
+    "Gravitationsbeschleunigung"
+   ],
+   "qids": [
+    "Q103982270",
+    "Q25288",
+    "Q30006"
+   ],
+   "verbindungen": [
+    "Beschleunigung des freien Falls",
+    "Masse",
+    "Gravitationsbeschleunigung"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "power from torque",
+    "torque from angular acceleration",
+    "Rotationsenergie"
+   ],
+   "qids": [
+    "Q104145185",
+    "Q104223516",
+    "Q2140940"
+   ],
+   "verbindungen": [
+    "Winkelgeschwindigkeit",
+    "Trägheitsmoment",
+    "Drehmomentvektor"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "power from torque",
+    "torque from angular acceleration",
+    "Winkelbeschleunigung"
+   ],
+   "qids": [
+    "Q104145185",
+    "Q104223516",
+    "Q186300"
+   ],
+   "verbindungen": [
+    "Winkelgeschwindigkeit",
+    "Drehmomentvektor",
+    "Winkelbeschleunigung"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "power from torque",
+    "Leistung",
+    "Drehmomentstoß"
+   ],
+   "qids": [
+    "Q104145185",
+    "Q25342",
+    "Q73428743"
+   ],
+   "verbindungen": [
+    "Drehmomentvektor",
+    "Dauer",
+    "Leistung"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "power from torque",
+    "Winkelbeschleunigung",
+    "Drehmomentstoß"
+   ],
+   "qids": [
+    "Q104145185",
+    "Q186300",
+    "Q73428743"
+   ],
+   "verbindungen": [
+    "Winkelgeschwindigkeit",
+    "Drehmomentvektor",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "power from torque",
+    "Winkelbeschleunigung",
+    "Leistung"
+   ],
+   "qids": [
+    "Q104145185",
+    "Q186300",
+    "Q25342"
+   ],
+   "verbindungen": [
+    "Winkelgeschwindigkeit",
+    "Dauer",
+    "Leistung"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Newton's second law of motion (general)",
+    "Q11324904",
+    "Impuls"
+   ],
+   "qids": [
+    "Q104212301",
+    "Q11324904",
+    "Q41273"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Masse",
+    "Impuls"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Newton's second law of motion (general)",
+    "Q11324904",
+    "Energie-Impuls-Beziehung"
+   ],
+   "qids": [
+    "Q104212301",
+    "Q11324904",
+    "Q3502299"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Masse",
+    "Impuls"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "F",
+    "p"
+   ],
+   "relation": [
+    "-F*G_Q2199864 + p"
+   ],
+   "groessen": {
+    "G_Q2199864": "Dauer"
+   },
+   "relation_lesbar": [
+    "-F*[Dauer] + p"
+   ]
+  },
+  {
+   "formeln": [
+    "Newton's second law of motion (general)",
+    "Q11324904",
+    "Beschleunigung"
+   ],
+   "qids": [
+    "Q104212301",
+    "Q11324904",
+    "Q11376"
+   ],
+   "verbindungen": [
+    "Beschleunigung",
+    "Kraft",
+    "Dauer"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "F",
+    "a",
+    "p",
+    "v"
+   ],
+   "relation": [
+    "-F*G_Q2199864 + p",
+    "-F*v + a*p",
+    "-G_Q2199864*a + v"
+   ],
+   "groessen": {
+    "G_Q2199864": "Dauer"
+   },
+   "relation_lesbar": [
+    "-F*[Dauer] + p",
+    "-F*v + a*p",
+    "-[Dauer]*a + v"
+   ]
+  },
+  {
+   "formeln": [
+    "Newton's second law of motion (general)",
+    "Q11324904",
+    "Massenänderungsrate"
+   ],
+   "qids": [
+    "Q104212301",
+    "Q11324904",
+    "Q92020547"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Masse",
+    "Dauer"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "F",
+    "p"
+   ],
+   "relation": [
+    "-F*G_Q2199864 + p"
+   ],
+   "groessen": {
+    "G_Q2199864": "Dauer"
+   },
+   "relation_lesbar": [
+    "-F*[Dauer] + p"
+   ]
+  },
+  {
+   "formeln": [
+    "Newton's second law of motion (general)",
+    "Q11324904",
+    "Ruck"
+   ],
+   "qids": [
+    "Q104212301",
+    "Q11324904",
+    "Q497332"
+   ],
+   "verbindungen": [
+    "Beschleunigung",
+    "Kraft",
+    "Dauer"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "F",
+    "a",
+    "j",
+    "p"
+   ],
+   "relation": [
+    "-F*G_Q2199864 + p",
+    "-F*a + j*p",
+    "-G_Q2199864*j + a"
+   ],
+   "groessen": {
+    "G_Q2199864": "Dauer"
+   },
+   "relation_lesbar": [
+    "-F*[Dauer] + p",
+    "-F*a + j*p",
+    "-[Dauer]*j + a"
+   ]
+  },
+  {
+   "formeln": [
+    "Newton's second law of motion (general)",
+    "Beschleunigung",
+    "Impuls"
+   ],
+   "qids": [
+    "Q104212301",
+    "Q11376",
+    "Q41273"
+   ],
+   "verbindungen": [
+    "Geschwindigkeitsvektor",
+    "Dauer",
+    "Impuls"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Newton's second law of motion (general)",
+    "Beschleunigung",
+    "mechanische Leistung"
+   ],
+   "qids": [
+    "Q104212301",
+    "Q11376",
+    "Q80806956"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Geschwindigkeitsvektor",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Newton's second law of motion (general)",
+    "Leistung",
+    "Energie-Impuls-Beziehung"
+   ],
+   "qids": [
+    "Q104212301",
+    "Q25342",
+    "Q3502299"
+   ],
+   "verbindungen": [
+    "Energie",
+    "Dauer",
+    "Impuls"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "F",
+    "p"
+   ],
+   "relation": [
+    "-F**2*G_Q11423**2*G_Q2111**4 - F**2*G_Q2111**2*G_Q41273**2 + G_Q25342**2*p**2"
+   ],
+   "groessen": {
+    "G_Q2111": "Vakuumlichtgeschwindigkeit",
+    "G_Q41273": "Impuls",
+    "G_Q11423": "Masse",
+    "G_Q25342": "Leistung"
+   },
+   "relation_lesbar": [
+    "-F**2*[Masse]**2*[Vakuumlichtgeschwindigkeit]**4 - F**2*[Vakuumlichtgeschwindigkeit]**2*[Impuls]**2 + [Leistung]**2*p**2"
+   ]
+  },
+  {
+   "formeln": [
+    "Newton's second law of motion (general)",
+    "Geschwindigkeitsvektor",
+    "Drehmomentvektor"
+   ],
+   "qids": [
+    "Q104212301",
+    "Q11465",
+    "Q17232562"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Ortsvektor",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Newton's second law of motion (general)",
+    "Geschwindigkeitsvektor",
+    "Drehimpuls"
+   ],
+   "qids": [
+    "Q104212301",
+    "Q11465",
+    "Q161254"
+   ],
+   "verbindungen": [
+    "Ortsvektor",
+    "Dauer",
+    "Impuls"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Newton's second law of motion (general)",
+    "Geschwindigkeitsvektor",
+    "Impuls"
+   ],
+   "qids": [
+    "Q104212301",
+    "Q11465",
+    "Q41273"
+   ],
+   "verbindungen": [
+    "Geschwindigkeitsvektor",
+    "Dauer",
+    "Impuls"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Newton's second law of motion (general)",
+    "Geschwindigkeitsvektor",
+    "Arbeit"
+   ],
+   "qids": [
+    "Q104212301",
+    "Q11465",
+    "Q42213"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Ortsvektor",
+    "Dauer"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Newton's second law of motion (general)",
+    "Geschwindigkeitsvektor",
+    "mechanische Leistung"
+   ],
+   "qids": [
+    "Q104212301",
+    "Q11465",
+    "Q80806956"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Geschwindigkeitsvektor",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Newton's second law of motion (general)",
+    "Geschwindigkeitsvektor",
+    "potentielle Energie"
+   ],
+   "qids": [
+    "Q104212301",
+    "Q11465",
+    "Q155640"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Ortsvektor",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Newton's second law of motion (general)",
+    "Drehimpuls",
+    "Drehmomentvektor"
+   ],
+   "qids": [
+    "Q104212301",
+    "Q161254",
+    "Q17232562"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Ortsvektor",
+    "Impuls"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Newton's second law of motion (general)",
+    "Drehimpuls",
+    "Arbeit"
+   ],
+   "qids": [
+    "Q104212301",
+    "Q161254",
+    "Q42213"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Ortsvektor",
+    "Impuls"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Newton's second law of motion (general)",
+    "Drehimpuls",
+    "potentielle Energie"
+   ],
+   "qids": [
+    "Q104212301",
+    "Q161254",
+    "Q155640"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Ortsvektor",
+    "Impuls"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Newton's second law of motion (general)",
+    "Energie-Impuls-Beziehung",
+    "Massenänderungsrate"
+   ],
+   "qids": [
+    "Q104212301",
+    "Q3502299",
+    "Q92020547"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Dauer",
+    "Impuls"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "F",
+    "p"
+   ],
+   "relation": [
+    "-F**2*G_Q11379**2 + F**2*G_Q2111**2*G_Q41273**2 + G_Q2111**4*G_Q92020547**2*p**2"
+   ],
+   "groessen": {
+    "G_Q2111": "Vakuumlichtgeschwindigkeit",
+    "G_Q41273": "Impuls",
+    "G_Q92020547": "Q92020547",
+    "G_Q11379": "Energie"
+   },
+   "relation_lesbar": [
+    "-F**2*[Energie]**2 + F**2*[Vakuumlichtgeschwindigkeit]**2*[Impuls]**2 + [Vakuumlichtgeschwindigkeit]**4*[Q92020547]**2*p**2"
+   ]
+  },
+  {
+   "formeln": [
+    "Newton's second law of motion (general)",
+    "Viererimpuls",
+    "Leistung"
+   ],
+   "qids": [
+    "Q104212301",
+    "Q1068463",
+    "Q25342"
+   ],
+   "verbindungen": [
+    "Energie",
+    "Dauer",
+    "Impuls"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Newton's second law of motion (general)",
+    "Impuls",
+    "mechanische Leistung"
+   ],
+   "qids": [
+    "Q104212301",
+    "Q41273",
+    "Q80806956"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Geschwindigkeitsvektor",
+    "Impuls"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Newton's second law of motion (general)",
+    "Impuls",
+    "Massenänderungsrate"
+   ],
+   "qids": [
+    "Q104212301",
+    "Q41273",
+    "Q92020547"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Dauer",
+    "Impuls"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Newton's second law of motion (general)",
+    "Drehmomentstoß",
+    "Drehmomentvektor"
+   ],
+   "qids": [
+    "Q104212301",
+    "Q73428743",
+    "Q17232562"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Drehmomentvektor",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Newton's second law of motion (general)",
+    "elektrische Ladung",
+    "elektrische Feldstärke"
+   ],
+   "qids": [
+    "Q104212301",
+    "Q1111",
+    "Q20989"
+   ],
+   "verbindungen": [
+    "elektrische Ladung",
+    "Kraft",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "torque from angular acceleration",
+    "Winkelbeschleunigung",
+    "Drehmomentstoß"
+   ],
+   "qids": [
+    "Q104223516",
+    "Q186300",
+    "Q73428743"
+   ],
+   "verbindungen": [
+    "Drehmomentvektor",
+    "Winkelbeschleunigung",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "torque from angular acceleration",
+    "Winkelbeschleunigung",
+    "Rotationsenergie"
+   ],
+   "qids": [
+    "Q104223516",
+    "Q186300",
+    "Q2140940"
+   ],
+   "verbindungen": [
+    "Winkelgeschwindigkeit",
+    "Trägheitsmoment",
+    "Winkelbeschleunigung"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Lichtstärke",
+    "spezifische Lichtausstrahlung",
+    "Raumwinkel"
+   ],
+   "qids": [
+    "Q104831",
+    "Q11721922",
+    "Q208476"
+   ],
+   "verbindungen": [
+    "Lichtstrom",
+    "Flächeninhalt",
+    "Raumwinkel"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q104831 - G_Q11721922*G_Q173817**2"
+   ],
+   "groessen": {
+    "G_Q104831": "Lichtstärke",
+    "G_Q11721922": "spezifische Lichtausstrahlung",
+    "G_Q173817": "Radius"
+   },
+   "relation_lesbar": [
+    "[Lichtstärke] - [spezifische Lichtausstrahlung]*[Radius]**2"
+   ]
+  },
+  {
+   "formeln": [
+    "Lichtstärke",
+    "Beleuchtungsstärke",
+    "Raumwinkel"
+   ],
+   "qids": [
+    "Q104831",
+    "Q194411",
+    "Q208476"
+   ],
+   "verbindungen": [
+    "Lichtstrom",
+    "Flächeninhalt",
+    "Raumwinkel"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q104831 - G_Q173817**2*G_Q194411"
+   ],
+   "groessen": {
+    "G_Q104831": "Lichtstärke",
+    "G_Q173817": "Radius",
+    "G_Q194411": "Beleuchtungsstärke"
+   },
+   "relation_lesbar": [
+    "[Lichtstärke] - [Radius]**2*[Beleuchtungsstärke]"
+   ]
+  },
+  {
+   "formeln": [
+    "Lichtstärke",
+    "Strahlungsintensität",
+    "photometrisches Strahlungsäquivalent"
+   ],
+   "qids": [
+    "Q104831",
+    "Q1253365",
+    "Q1504173"
+   ],
+   "verbindungen": [
+    "Lichtstrom",
+    "Strahlungsleistung",
+    "Raumwinkel"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "e",
+    "v"
+   ],
+   "relation": [
+    "-G_Q1504173*e + v"
+   ],
+   "groessen": {
+    "G_Q1504173": "photometrisches Strahlungsäquivalent"
+   },
+   "relation_lesbar": [
+    "-[photometrisches Strahlungsäquivalent]*e + v"
+   ]
+  },
+  {
+   "formeln": [
+    "Stoffmenge",
+    "strahlenchemische Ausbeute",
+    "G-Wert"
+   ],
+   "qids": [
+    "Q104946",
+    "Q109061714",
+    "Q15811154"
+   ],
+   "verbindungen": [
+    "Stoffmenge",
+    "Anzahl",
+    "Q99526969"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "polares Flächenträgheitsmoment",
+    "Trägheitsmoment",
+    "Massenbelegung"
+   ],
+   "qids": [
+    "Q1049636",
+    "Q165618",
+    "Q1907514"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Flächeninhalt",
+    "radialer Abstand"
+   ],
+   "ableitung": "abbruch: PolynomialError"
+  },
+  {
+   "formeln": [
+    "function of an integer variable",
+    "Zahlenfunktion",
+    "Zielmenge"
+   ],
+   "qids": [
+    "Q105569679",
+    "Q19856468",
+    "Q199006"
+   ],
+   "verbindungen": [
+    "Definitionsmenge",
+    "Zielmenge",
+    "Q47007735"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Viererimpuls",
+    "Impuls",
+    "spezifische Energie"
+   ],
+   "qids": [
+    "Q1068463",
+    "Q41273",
+    "Q3023293"
+   ],
+   "verbindungen": [
+    "Energie",
+    "Masse",
+    "Impuls"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Raumbestrahlungsstärke",
+    "spektrale Energieflussdichte",
+    "spektrale Strahldichte"
+   ],
+   "qids": [
+    "Q106959133",
+    "Q109351964",
+    "Q27649052"
+   ],
+   "verbindungen": [
+    "elektromagnetische Wellenlänge",
+    "Raumbestrahlungsstärke",
+    "Strahldichte"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Lichtstrom",
+    "Leistung",
+    "Lichtausbeute einer Strahlungsquelle"
+   ],
+   "qids": [
+    "Q107780",
+    "Q25342",
+    "Q3425218"
+   ],
+   "verbindungen": [
+    "Lichtstrom",
+    "Dauer",
+    "Leistung"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q11379*G_Q3425218 - G_Q900164"
+   ],
+   "groessen": {
+    "G_Q3425218": "Lichtausbeute einer Strahlungsquelle",
+    "G_Q900164": "Lichtmenge",
+    "G_Q11379": "Energie"
+   },
+   "relation_lesbar": [
+    "[Energie]*[Lichtausbeute einer Strahlungsquelle] - [Lichtmenge]"
+   ]
+  },
+  {
+   "formeln": [
+    "Lichtstrom",
+    "spezifische Lichtausstrahlung",
+    "Belichtung"
+   ],
+   "qids": [
+    "Q107780",
+    "Q11721922",
+    "Q815588"
+   ],
+   "verbindungen": [
+    "Lichtstrom",
+    "Flächeninhalt",
+    "Lichtmenge"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "-G_Q11721922*G_Q2199864 + G_Q815588"
+   ],
+   "groessen": {
+    "G_Q2199864": "Dauer",
+    "G_Q815588": "Belichtung",
+    "G_Q11721922": "spezifische Lichtausstrahlung"
+   },
+   "relation_lesbar": [
+    "-[spezifische Lichtausstrahlung]*[Dauer] + [Belichtung]"
+   ]
+  },
+  {
+   "formeln": [
+    "Lichtstrom",
+    "Beleuchtungsstärke",
+    "Belichtung"
+   ],
+   "qids": [
+    "Q107780",
+    "Q194411",
+    "Q815588"
+   ],
+   "verbindungen": [
+    "Lichtstrom",
+    "Flächeninhalt",
+    "Lichtmenge"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q194411*G_Q2199864 - G_Q815588"
+   ],
+   "groessen": {
+    "G_Q2199864": "Dauer",
+    "G_Q815588": "Belichtung",
+    "G_Q194411": "Beleuchtungsstärke"
+   },
+   "relation_lesbar": [
+    "[Beleuchtungsstärke]*[Dauer] - [Belichtung]"
+   ]
+  },
+  {
+   "formeln": [
+    "Lichtstrom",
+    "elektromagnetische Strahlungsenergie",
+    "photometrisches Strahlungsäquivalent"
+   ],
+   "qids": [
+    "Q107780",
+    "Q10932713",
+    "Q1504173"
+   ],
+   "verbindungen": [
+    "Lichtstrom",
+    "Strahlungsleistung",
+    "Dauer"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Lichtstrom",
+    "Strahlungsleistung",
+    "photometrisches Strahlungsäquivalent"
+   ],
+   "qids": [
+    "Q107780",
+    "Q1253356",
+    "Q1504173"
+   ],
+   "verbindungen": [
+    "Lichtstrom",
+    "Strahlungsleistung",
+    "Dauer"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "e",
+    "v"
+   ],
+   "relation": [
+    "-G_Q1504173*e + v"
+   ],
+   "groessen": {
+    "G_Q1504173": "photometrisches Strahlungsäquivalent"
+   },
+   "relation_lesbar": [
+    "-[photometrisches Strahlungsäquivalent]*e + v"
+   ]
+  },
+  {
+   "formeln": [
+    "Ungleichung von Carathéodory",
+    "Argument",
+    "Quaternion"
+   ],
+   "qids": [
+    "Q107897700",
+    "Q1780131",
+    "Q173853"
+   ],
+   "verbindungen": [
+    "Realteil",
+    "reelle Zahl",
+    "imaginäre Einheit"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Ungleichung von Carathéodory",
+    "Imaginärteil",
+    "Quaternion"
+   ],
+   "qids": [
+    "Q107897700",
+    "Q1341545",
+    "Q173853"
+   ],
+   "verbindungen": [
+    "Realteil",
+    "reelle Zahl",
+    "imaginäre Einheit"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Ungleichung von Carathéodory",
+    "komplexe Zahl",
+    "Cauchy-Riemannsche partielle Differentialgleichungen"
+   ],
+   "qids": [
+    "Q107897700",
+    "Q11567",
+    "Q622741"
+   ],
+   "verbindungen": [
+    "komplexe Zahl",
+    "reelle Zahl",
+    "holomorphe Funktion"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Ungleichung von Carathéodory",
+    "komplexe Zahl",
+    "Quaternion"
+   ],
+   "qids": [
+    "Q107897700",
+    "Q11567",
+    "Q173853"
+   ],
+   "verbindungen": [
+    "Realteil",
+    "reelle Zahl",
+    "imaginäre Einheit"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "spektraler Absorptionsindex",
+    "spektraler linearer Absorptionskoeffizient",
+    "spektrale Strahlungsleistung"
+   ],
+   "qids": [
+    "Q108073802",
+    "Q108085849",
+    "Q81062859"
+   ],
+   "verbindungen": [
+    "elektromagnetische Wellenlänge",
+    "spektraler linearer Absorptionskoeffizient",
+    "spektrale Strahlungsleistung"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "spezifische Schmelzenthalpie",
+    "molare Schmelzenthalpie",
+    "molare Masse"
+   ],
+   "qids": [
+    "Q108858257",
+    "Q108858279",
+    "Q145623"
+   ],
+   "verbindungen": [
+    "Stoffmenge",
+    "Masse",
+    "Schmelzenthalpie"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "strahlenchemische Ausbeute",
+    "molare Masse",
+    "Energiedosis"
+   ],
+   "qids": [
+    "Q109061714",
+    "Q145623",
+    "Q215313"
+   ],
+   "verbindungen": [
+    "Stoffmenge",
+    "Masse",
+    "Q99526969"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "elektromagnetische Strahlungsenergie",
+    "Bestrahlung",
+    "spezifische Ausstrahlung"
+   ],
+   "qids": [
+    "Q10932713",
+    "Q1418023",
+    "Q15054698"
+   ],
+   "verbindungen": [
+    "elektromagnetische Strahlungsenergie",
+    "Flächeninhalt",
+    "Strahlungsleistung"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "elektromagnetische Strahlungsenergie",
+    "Bestrahlung",
+    "Bestrahlungsstärke"
+   ],
+   "qids": [
+    "Q10932713",
+    "Q1418023",
+    "Q830654"
+   ],
+   "verbindungen": [
+    "elektromagnetische Strahlungsenergie",
+    "Flächeninhalt",
+    "Strahlungsleistung"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "elektromagnetische Strahlungsenergie",
+    "Leistung",
+    "Strahlungsausbeute"
+   ],
+   "qids": [
+    "Q10932713",
+    "Q25342",
+    "Q7962586"
+   ],
+   "verbindungen": [
+    "Strahlungsleistung",
+    "Dauer",
+    "Leistung"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "elektromagnetische Strahlungsenergie",
+    "spektrale Strahlungsenergie",
+    "spektrale Strahlungsleistung"
+   ],
+   "qids": [
+    "Q10932713",
+    "Q80237041",
+    "Q81062859"
+   ],
+   "verbindungen": [
+    "elektromagnetische Wellenlänge",
+    "elektromagnetische Strahlungsenergie",
+    "Strahlungsleistung"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "elektromagnetische Strahlungsenergie",
+    "Photonenanzahl",
+    "Photonenstrom"
+   ],
+   "qids": [
+    "Q10932713",
+    "Q83698917",
+    "Q83699542"
+   ],
+   "verbindungen": [
+    "elektromagnetische Strahlungsenergie",
+    "Dauer",
+    "Photonenanzahl"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "spektrale spezifische Photonenausstrahlung",
+    "spektraler Photonenstrom",
+    "spezifische Photonenausstrahlung"
+   ],
+   "qids": [
+    "Q109352023",
+    "Q109355469",
+    "Q84025202"
+   ],
+   "verbindungen": [
+    "elektromagnetische Wellenlänge",
+    "Photonenstrom",
+    "spezifische Photonenausstrahlung"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "spektraler Photonenstrom",
+    "spektrale Photonenbestrahlungsstärke",
+    "Photonenbestrahlungsstärke"
+   ],
+   "qids": [
+    "Q109355469",
+    "Q109355596",
+    "Q83950903"
+   ],
+   "verbindungen": [
+    "elektromagnetische Wellenlänge",
+    "Photonenstrom",
+    "Photonenbestrahlungsstärke"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Hankel-Funktion erster Art",
+    "modifizierte Bessel-Funktion erster Art",
+    "modifizierte Bessel-Funktion zweiter Art"
+   ],
+   "qids": [
+    "Q109558815",
+    "Q109559095",
+    "Q109559130"
+   ],
+   "verbindungen": [
+    "Bessel-Funktion",
+    "Hankel-Funktion erster Art",
+    "komplexe Zahl"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "modifizierte Bessel-Funktion zweiter Art",
+    "Mittag-Leffler-Funktion",
+    "Matérn covariance function"
+   ],
+   "qids": [
+    "Q109559130",
+    "Q1935235",
+    "Q6792079"
+   ],
+   "verbindungen": [
+    "modifizierte Bessel-Funktion zweiter Art",
+    "komplexe Zahl",
+    "Gammafunktion"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "verallgemeinerte hypergeometrische Funktion",
+    "Pochhammer-Symbol",
+    "triangular–factorial equation"
+   ],
+   "qids": [
+    "Q109744257",
+    "Q132335",
+    "Q141101613"
+   ],
+   "verbindungen": [
+    "Fakultät",
+    "Pochhammer-Symbol",
+    "nichtnegative ganze Zahl"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Kraft zwischen zwei Punktmassen",
+    "Geschwindigkeit",
+    "kinetische Energie"
+   ],
+   "qids": [
+    "Q110453295",
+    "Q3711325",
+    "Q46276"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Abstand",
+    "Geschwindigkeit"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "-G_Q110453295*G_Q2199864**2*G_Q3711325**6 + 4*G_Q18373*G_Q46276**2"
+   ],
+   "groessen": {
+    "G_Q2199864": "Dauer",
+    "G_Q18373": "Gravitationskonstante",
+    "G_Q110453295": "Kraft zwischen zwei Punktmassen",
+    "G_Q3711325": "Geschwindigkeit",
+    "G_Q46276": "Q46276"
+   },
+   "relation_lesbar": [
+    "-[Kraft zwischen zwei Punktmassen]*[Dauer]**2*[Geschwindigkeit]**6 + 4*[Gravitationskonstante]*[Q46276]**2"
+   ]
+  },
+  {
+   "formeln": [
+    "Kraft zwischen zwei Punktmassen",
+    "Geschwindigkeit",
+    "Massenänderungsrate"
+   ],
+   "qids": [
+    "Q110453295",
+    "Q3711325",
+    "Q92020547"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Abstand",
+    "Dauer"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "-G_Q110453295*G_Q3711325**2 + G_Q18373*G_Q92020547**2"
+   ],
+   "groessen": {
+    "G_Q18373": "Gravitationskonstante",
+    "G_Q3711325": "Geschwindigkeit",
+    "G_Q110453295": "Kraft zwischen zwei Punktmassen",
+    "G_Q92020547": "Q92020547"
+   },
+   "relation_lesbar": [
+    "-[Kraft zwischen zwei Punktmassen]*[Geschwindigkeit]**2 + [Gravitationskonstante]*[Q92020547]**2"
+   ]
+  },
+  {
+   "formeln": [
+    "Kraft zwischen zwei Punktmassen",
+    "orbital velocity in perfectly circular orbits",
+    "Potenz"
+   ],
+   "qids": [
+    "Q110453295",
+    "Q120630325",
+    "Q898575"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Abstand",
+    "Radius"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Kraft zwischen zwei Punktmassen",
+    "orbital velocity in perfectly circular orbits",
+    "inversive distance"
+   ],
+   "qids": [
+    "Q110453295",
+    "Q120630325",
+    "Q6060481"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Abstand",
+    "Radius"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Kraft zwischen zwei Punktmassen",
+    "Schergeschwindigkeit",
+    "kinetische Energie"
+   ],
+   "qids": [
+    "Q110453295",
+    "Q461293",
+    "Q46276"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Abstand",
+    "Geschwindigkeit"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "dot",
+    "gamma"
+   ],
+   "relation": [
+    "-G_Q110453295*G_Q3711325**6 + 4*G_Q18373*G_Q46276**2*dot**2*gamma**2"
+   ],
+   "groessen": {
+    "G_Q18373": "Gravitationskonstante",
+    "G_Q110453295": "Kraft zwischen zwei Punktmassen",
+    "G_Q3711325": "Geschwindigkeit",
+    "G_Q46276": "Q46276"
+   },
+   "relation_lesbar": [
+    "-[Kraft zwischen zwei Punktmassen]*[Geschwindigkeit]**6 + 4*[Gravitationskonstante]*[Q46276]**2*dot**2*gamma**2"
+   ]
+  },
+  {
+   "formeln": [
+    "elektrische Ladung",
+    "elektrische Kapazität",
+    "Stromwärmegesetz"
+   ],
+   "qids": [
+    "Q1111",
+    "Q164399",
+    "Q210009"
+   ],
+   "verbindungen": [
+    "elektrische Ladung",
+    "elektrische Spannung",
+    "elektrische Stromstärke"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q164399*G_Q27137 - G_Q2199864*G_Q29996**2"
+   ],
+   "groessen": {
+    "G_Q2199864": "Dauer",
+    "G_Q29996": "elektrische Stromstärke",
+    "G_Q164399": "elektrische Kapazität",
+    "G_Q27137": "elektrische Leistung"
+   },
+   "relation_lesbar": [
+    "[elektrische Kapazität]*[elektrische Leistung] - [Dauer]*[elektrische Stromstärke]**2"
+   ]
+  },
+  {
+   "formeln": [
+    "elektrische Ladung",
+    "Exposition",
+    "Expositionsrate"
+   ],
+   "qids": [
+    "Q1111",
+    "Q336938",
+    "Q99720212"
+   ],
+   "verbindungen": [
+    "elektrische Ladung",
+    "Dauer",
+    "Exposition"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "dot"
+   ],
+   "relation": [
+    "G_Q11423*G_Q336938*dot - G_Q29996"
+   ],
+   "groessen": {
+    "G_Q336938": "Exposition",
+    "G_Q29996": "elektrische Stromstärke",
+    "G_Q11423": "Masse"
+   },
+   "relation_lesbar": [
+    "[Masse]*[Exposition]*dot - [elektrische Stromstärke]"
+   ]
+  },
+  {
+   "formeln": [
+    "elektrische Ladung",
+    "Exposition",
+    "Massenänderungsrate"
+   ],
+   "qids": [
+    "Q1111",
+    "Q336938",
+    "Q92020547"
+   ],
+   "verbindungen": [
+    "elektrische Ladung",
+    "Masse",
+    "Dauer"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q29996 - G_Q336938*G_Q92020547"
+   ],
+   "groessen": {
+    "G_Q336938": "Exposition",
+    "G_Q29996": "elektrische Stromstärke",
+    "G_Q92020547": "Q92020547"
+   },
+   "relation_lesbar": [
+    "[elektrische Stromstärke] - [Exposition]*[Q92020547]"
+   ]
+  },
+  {
+   "formeln": [
+    "elektrische Ladung",
+    "Massenänderungsrate",
+    "Ionendosis"
+   ],
+   "qids": [
+    "Q1111",
+    "Q92020547",
+    "Q15149637"
+   ],
+   "verbindungen": [
+    "elektrische Ladung",
+    "Masse",
+    "Dauer"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "-G_Q15149637*G_Q92020547 + G_Q29996"
+   ],
+   "groessen": {
+    "G_Q15149637": "Ionendosis",
+    "G_Q29996": "elektrische Stromstärke",
+    "G_Q92020547": "Q92020547"
+   },
+   "relation_lesbar": [
+    "-[Ionendosis]*[Q92020547] + [elektrische Stromstärke]"
+   ]
+  },
+  {
+   "formeln": [
+    "elektrische Ladung",
+    "elektrische Feldstärke",
+    "Kraftstoß"
+   ],
+   "qids": [
+    "Q1111",
+    "Q20989",
+    "Q837940"
+   ],
+   "verbindungen": [
+    "elektrische Ladung",
+    "Kraft",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "elektrische Ladung",
+    "elektrische Feldstärke",
+    "yank"
+   ],
+   "qids": [
+    "Q1111",
+    "Q20989",
+    "Q924148"
+   ],
+   "verbindungen": [
+    "elektrische Ladung",
+    "Kraft",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "spektrale Lichtstärke bezüglich Wellenzahl",
+    "spektrale Lichtstärke bezüglich Wellenlänge",
+    "Kreiswellenzahl"
+   ],
+   "qids": [
+    "Q112261654",
+    "Q112261673",
+    "Q30338487"
+   ],
+   "verbindungen": [
+    "Lichtstärke",
+    "Wellenzahl",
+    "Wellenlänge"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Moment der Ordnung r einer stetigen Zufallsvariablen",
+    "Mittelwert",
+    "Normalverteilung"
+   ],
+   "qids": [
+    "Q112578408",
+    "Q112594430",
+    "Q133871"
+   ],
+   "verbindungen": [
+    "Mittelwert",
+    "Erwartungswert",
+    "Wahrscheinlichkeitsdichtefunktion"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Mittelwert",
+    "Standardabweichung",
+    "Variationskoeffizient"
+   ],
+   "qids": [
+    "Q112594430",
+    "Q159375",
+    "Q623738"
+   ],
+   "verbindungen": [
+    "Mittelwert",
+    "Standardabweichung",
+    "Zufallsvariable"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Mittelwert",
+    "Normalverteilung",
+    "Standardabweichung"
+   ],
+   "qids": [
+    "Q112594430",
+    "Q133871",
+    "Q159375"
+   ],
+   "verbindungen": [
+    "Mittelwert",
+    "Standardabweichung",
+    "Zufallsvariable"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Q11324904",
+    "längenbezogene Masse",
+    "Oberflächenspannung"
+   ],
+   "qids": [
+    "Q11324904",
+    "Q56298294",
+    "Q170749"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Masse",
+    "Länge"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q11376*G_Q56298294 - G_Q170749"
+   ],
+   "groessen": {
+    "G_Q56298294": "längenbezogene Masse",
+    "G_Q170749": "Oberflächenspannung",
+    "G_Q11376": "Beschleunigung"
+   },
+   "relation_lesbar": [
+    "[Beschleunigung]*[längenbezogene Masse] - [Oberflächenspannung]"
+   ]
+  },
+  {
+   "formeln": [
+    "Q11324904",
+    "Beschleunigung",
+    "Kraftstoß"
+   ],
+   "qids": [
+    "Q11324904",
+    "Q11376",
+    "Q837940"
+   ],
+   "verbindungen": [
+    "Beschleunigung",
+    "Kraft",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: PolynomialError"
+  },
+  {
+   "formeln": [
+    "Q11324904",
+    "Beschleunigung",
+    "Impuls"
+   ],
+   "qids": [
+    "Q11324904",
+    "Q11376",
+    "Q41273"
+   ],
+   "verbindungen": [
+    "Beschleunigung",
+    "Masse",
+    "Geschwindigkeitsvektor"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Q11324904",
+    "Beschleunigung",
+    "mechanische Leistung"
+   ],
+   "qids": [
+    "Q11324904",
+    "Q11376",
+    "Q80806956"
+   ],
+   "verbindungen": [
+    "Beschleunigung",
+    "Kraft",
+    "Geschwindigkeitsvektor"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Q11324904",
+    "Beschleunigung",
+    "Massenänderungsrate"
+   ],
+   "qids": [
+    "Q11324904",
+    "Q11376",
+    "Q92020547"
+   ],
+   "verbindungen": [
+    "Beschleunigung",
+    "Masse",
+    "Dauer"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "a",
+    "v"
+   ],
+   "relation": [
+    "-G_Q2199864*a + v"
+   ],
+   "groessen": {
+    "G_Q2199864": "Dauer"
+   },
+   "relation_lesbar": [
+    "-[Dauer]*a + v"
+   ]
+  },
+  {
+   "formeln": [
+    "Q11324904",
+    "Beschleunigung",
+    "yank"
+   ],
+   "qids": [
+    "Q11324904",
+    "Q11376",
+    "Q924148"
+   ],
+   "verbindungen": [
+    "Beschleunigung",
+    "Kraft",
+    "Dauer"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "F",
+    "Y",
+    "a",
+    "v"
+   ],
+   "relation": [
+    "F - G_Q2199864*Y",
+    "-G_Q2199864*a + v"
+   ],
+   "groessen": {
+    "G_Q2199864": "Dauer"
+   },
+   "relation_lesbar": [
+    "F - [Dauer]*Y",
+    "-[Dauer]*a + v"
+   ]
+  },
+  {
+   "formeln": [
+    "Q11324904",
+    "Gravitationspotential einer Punktmasse",
+    "Drehmomentvektor"
+   ],
+   "qids": [
+    "Q11324904",
+    "Q91195033",
+    "Q17232562"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Masse",
+    "Ortsvektor"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Q11324904",
+    "Gravitationspotential einer Punktmasse",
+    "potentielle Energie"
+   ],
+   "qids": [
+    "Q11324904",
+    "Q91195033",
+    "Q155640"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Masse",
+    "Ortsvektor"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Q11324904",
+    "Massenänderungsrate",
+    "yank"
+   ],
+   "qids": [
+    "Q11324904",
+    "Q92020547",
+    "Q924148"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Masse",
+    "Dauer"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "F",
+    "Y"
+   ],
+   "relation": [
+    "F - G_Q2199864*Y"
+   ],
+   "groessen": {
+    "G_Q2199864": "Dauer"
+   },
+   "relation_lesbar": [
+    "F - [Dauer]*Y"
+   ]
+  },
+  {
+   "formeln": [
+    "Q11324904",
+    "Massenänderungsrate",
+    "Kraftstoß"
+   ],
+   "qids": [
+    "Q11324904",
+    "Q92020547",
+    "Q837940"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Masse",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: PolynomialError"
+  },
+  {
+   "formeln": [
+    "Q11324904",
+    "Impuls",
+    "mechanische Leistung"
+   ],
+   "qids": [
+    "Q11324904",
+    "Q41273",
+    "Q80806956"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Masse",
+    "Geschwindigkeitsvektor"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Q11324904",
+    "Arbeit",
+    "Fermi-Pasta-Ulam-Tsingou-Experiment"
+   ],
+   "qids": [
+    "Q11324904",
+    "Q42213",
+    "Q462254"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Masse",
+    "Ortsvektor"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Q11324904",
+    "Arbeit",
+    "Gravitationspotential einer Punktmasse"
+   ],
+   "qids": [
+    "Q11324904",
+    "Q42213",
+    "Q91195033"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Masse",
+    "Ortsvektor"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Q11324904",
+    "Fermi-Pasta-Ulam-Tsingou-Experiment",
+    "Drehmomentvektor"
+   ],
+   "qids": [
+    "Q11324904",
+    "Q462254",
+    "Q17232562"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Masse",
+    "Ortsvektor"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Q11324904",
+    "Fermi-Pasta-Ulam-Tsingou-Experiment",
+    "potentielle Energie"
+   ],
+   "qids": [
+    "Q11324904",
+    "Q462254",
+    "Q155640"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Masse",
+    "Ortsvektor"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Q11324904",
+    "elektrische Feldstärke",
+    "Exposition"
+   ],
+   "qids": [
+    "Q11324904",
+    "Q20989",
+    "Q336938"
+   ],
+   "verbindungen": [
+    "elektrische Ladung",
+    "Kraft",
+    "Masse"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "E",
+    "F"
+   ],
+   "relation": [
+    "E*G_Q11423*G_Q336938 - F"
+   ],
+   "groessen": {
+    "G_Q336938": "Exposition",
+    "G_Q11423": "Masse"
+   },
+   "relation_lesbar": [
+    "E*[Masse]*[Exposition] - F"
+   ]
+  },
+  {
+   "formeln": [
+    "Q11324904",
+    "elektrische Feldstärke",
+    "Ionendosis"
+   ],
+   "qids": [
+    "Q11324904",
+    "Q20989",
+    "Q15149637"
+   ],
+   "verbindungen": [
+    "elektrische Ladung",
+    "Kraft",
+    "Masse"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "E",
+    "F"
+   ],
+   "relation": [
+    "E*G_Q11423*G_Q15149637 - F"
+   ],
+   "groessen": {
+    "G_Q15149637": "Ionendosis",
+    "G_Q11423": "Masse"
+   },
+   "relation_lesbar": [
+    "E*[Masse]*[Ionendosis] - F"
+   ]
+  },
+  {
+   "formeln": [
+    "Q11324904",
+    "Ruck",
+    "Kraftstoß"
+   ],
+   "qids": [
+    "Q11324904",
+    "Q497332",
+    "Q837940"
+   ],
+   "verbindungen": [
+    "Beschleunigung",
+    "Kraft",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: PolynomialError"
+  },
+  {
+   "formeln": [
+    "Q11324904",
+    "Ruck",
+    "Massenänderungsrate"
+   ],
+   "qids": [
+    "Q11324904",
+    "Q497332",
+    "Q92020547"
+   ],
+   "verbindungen": [
+    "Beschleunigung",
+    "Masse",
+    "Dauer"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "a",
+    "j"
+   ],
+   "relation": [
+    "-G_Q2199864*j + a"
+   ],
+   "groessen": {
+    "G_Q2199864": "Dauer"
+   },
+   "relation_lesbar": [
+    "-[Dauer]*j + a"
+   ]
+  },
+  {
+   "formeln": [
+    "Q11324904",
+    "Ruck",
+    "yank"
+   ],
+   "qids": [
+    "Q11324904",
+    "Q497332",
+    "Q924148"
+   ],
+   "verbindungen": [
+    "Beschleunigung",
+    "Kraft",
+    "Dauer"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "F",
+    "Y",
+    "a",
+    "j"
+   ],
+   "relation": [
+    "F - G_Q2199864*Y",
+    "-G_Q2199864*j + a"
+   ],
+   "groessen": {
+    "G_Q2199864": "Dauer"
+   },
+   "relation_lesbar": [
+    "F - [Dauer]*Y",
+    "-[Dauer]*j + a"
+   ]
+  },
+  {
+   "formeln": [
+    "Beschleunigung",
+    "yank",
+    "mechanische Leistung"
+   ],
+   "qids": [
+    "Q11376",
+    "Q924148",
+    "Q80806956"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Geschwindigkeitsvektor",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Beschleunigung",
+    "Impuls",
+    "Umlaufbahn"
+   ],
+   "qids": [
+    "Q11376",
+    "Q41273",
+    "Q4130"
+   ],
+   "verbindungen": [
+    "Beschleunigung",
+    "Masse",
+    "Geschwindigkeitsvektor"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Beschleunigung",
+    "Impuls",
+    "Massenänderungsrate"
+   ],
+   "qids": [
+    "Q11376",
+    "Q41273",
+    "Q92020547"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Geschwindigkeitsvektor",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Beschleunigung",
+    "Umlaufbahn",
+    "Massenänderungsrate"
+   ],
+   "qids": [
+    "Q11376",
+    "Q4130",
+    "Q92020547"
+   ],
+   "verbindungen": [
+    "Beschleunigung",
+    "Masse",
+    "Dauer"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "a",
+    "v"
+   ],
+   "relation": [
+    "-G_Q2199864*a + v"
+   ],
+   "groessen": {
+    "G_Q2199864": "Dauer"
+   },
+   "relation_lesbar": [
+    "-[Dauer]*a + v"
+   ]
+  },
+  {
+   "formeln": [
+    "Beschleunigung",
+    "mechanische Leistung",
+    "Kraftstoß"
+   ],
+   "qids": [
+    "Q11376",
+    "Q80806956",
+    "Q837940"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Geschwindigkeitsvektor",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Schallintensität",
+    "Schallschnelle",
+    "zeitlich gemittelte Schallintensität"
+   ],
+   "qids": [
+    "Q1140289",
+    "Q336894",
+    "Q86827342"
+   ],
+   "verbindungen": [
+    "Schallintensität",
+    "Dauer",
+    "Schallschnelle"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Schallintensität",
+    "Schallbeschleunigung",
+    "zeitlich gemittelte Schallintensität"
+   ],
+   "qids": [
+    "Q1140289",
+    "Q7140491",
+    "Q86827342"
+   ],
+   "verbindungen": [
+    "Schallintensität",
+    "Dauer",
+    "Schallschnelle"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Schallintensität",
+    "Schallimmission",
+    "Schallschnelle"
+   ],
+   "qids": [
+    "Q1140289",
+    "Q2230528",
+    "Q336894"
+   ],
+   "verbindungen": [
+    "Schalldruck",
+    "Dauer",
+    "Schallschnelle"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Schallintensität",
+    "Schallimmission",
+    "zeitlich gemittelte Schallintensität"
+   ],
+   "qids": [
+    "Q1140289",
+    "Q2230528",
+    "Q86827342"
+   ],
+   "verbindungen": [
+    "Schalldruck",
+    "Schallintensität",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Schallintensität",
+    "Schallimmission",
+    "Schallbeschleunigung"
+   ],
+   "qids": [
+    "Q1140289",
+    "Q2230528",
+    "Q7140491"
+   ],
+   "verbindungen": [
+    "Schalldruck",
+    "Dauer",
+    "Schallschnelle"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Schallintensität",
+    "Schallleistung",
+    "Schallfluss"
+   ],
+   "qids": [
+    "Q1140289",
+    "Q1588477",
+    "Q1640308"
+   ],
+   "verbindungen": [
+    "Schallintensität",
+    "Flächeninhalt",
+    "Schallschnelle"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Normalspannung",
+    "Scherspannung",
+    "Rollwiderstandsfaktor"
+   ],
+   "qids": [
+    "Q11425837",
+    "Q657936",
+    "Q91738044"
+   ],
+   "verbindungen": [
+    "Flächeninhalt",
+    "Normalkraft",
+    "Tangentialkraft"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "-G_Q11425837*G_Q91738044 + G_Q657936"
+   ],
+   "groessen": {
+    "G_Q657936": "Scherspannung",
+    "G_Q91738044": "Rollwiderstandsfaktor",
+    "G_Q11425837": "Normalspannung"
+   },
+   "relation_lesbar": [
+    "-[Normalspannung]*[Rollwiderstandsfaktor] + [Scherspannung]"
+   ]
+  },
+  {
+   "formeln": [
+    "Geschwindigkeitsvektor",
+    "Drehmomentvektor",
+    "Kraftstoß"
+   ],
+   "qids": [
+    "Q11465",
+    "Q17232562",
+    "Q837940"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Ortsvektor",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Geschwindigkeitsvektor",
+    "Drehmomentvektor",
+    "mechanische Leistung"
+   ],
+   "qids": [
+    "Q11465",
+    "Q17232562",
+    "Q80806956"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Geschwindigkeitsvektor",
+    "Ortsvektor"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Geschwindigkeitsvektor",
+    "Drehimpuls",
+    "Impuls"
+   ],
+   "qids": [
+    "Q11465",
+    "Q161254",
+    "Q41273"
+   ],
+   "verbindungen": [
+    "Geschwindigkeitsvektor",
+    "Ortsvektor",
+    "Impuls"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Geschwindigkeitsvektor",
+    "Gravitationspotential einer Punktmasse",
+    "Massenänderungsrate"
+   ],
+   "qids": [
+    "Q11465",
+    "Q91195033",
+    "Q92020547"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Ortsvektor",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Geschwindigkeitsvektor",
+    "yank",
+    "Drehmomentvektor"
+   ],
+   "qids": [
+    "Q11465",
+    "Q924148",
+    "Q17232562"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Ortsvektor",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Geschwindigkeitsvektor",
+    "yank",
+    "mechanische Leistung"
+   ],
+   "qids": [
+    "Q11465",
+    "Q924148",
+    "Q80806956"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Geschwindigkeitsvektor",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Geschwindigkeitsvektor",
+    "yank",
+    "potentielle Energie"
+   ],
+   "qids": [
+    "Q11465",
+    "Q924148",
+    "Q155640"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Ortsvektor",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Geschwindigkeitsvektor",
+    "Impuls",
+    "Fermi-Pasta-Ulam-Tsingou-Experiment"
+   ],
+   "qids": [
+    "Q11465",
+    "Q41273",
+    "Q462254"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Geschwindigkeitsvektor",
+    "Ortsvektor"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Geschwindigkeitsvektor",
+    "Impuls",
+    "Gravitationspotential einer Punktmasse"
+   ],
+   "qids": [
+    "Q11465",
+    "Q41273",
+    "Q91195033"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Geschwindigkeitsvektor",
+    "Ortsvektor"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Geschwindigkeitsvektor",
+    "Impuls",
+    "Massenänderungsrate"
+   ],
+   "qids": [
+    "Q11465",
+    "Q41273",
+    "Q92020547"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Geschwindigkeitsvektor",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Geschwindigkeitsvektor",
+    "Arbeit",
+    "Kraftstoß"
+   ],
+   "qids": [
+    "Q11465",
+    "Q42213",
+    "Q837940"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Ortsvektor",
+    "Dauer"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Geschwindigkeitsvektor",
+    "Arbeit",
+    "mechanische Leistung"
+   ],
+   "qids": [
+    "Q11465",
+    "Q42213",
+    "Q80806956"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Geschwindigkeitsvektor",
+    "Ortsvektor"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Geschwindigkeitsvektor",
+    "Arbeit",
+    "yank"
+   ],
+   "qids": [
+    "Q11465",
+    "Q42213",
+    "Q924148"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Ortsvektor",
+    "Dauer"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Geschwindigkeitsvektor",
+    "mechanische Leistung",
+    "Kraftstoß"
+   ],
+   "qids": [
+    "Q11465",
+    "Q80806956",
+    "Q837940"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Geschwindigkeitsvektor",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Geschwindigkeitsvektor",
+    "Drehmomentstoß",
+    "Drehmomentvektor"
+   ],
+   "qids": [
+    "Q11465",
+    "Q73428743",
+    "Q17232562"
+   ],
+   "verbindungen": [
+    "Drehmomentvektor",
+    "Ortsvektor",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Geschwindigkeitsvektor",
+    "Fermi-Pasta-Ulam-Tsingou-Experiment",
+    "Massenänderungsrate"
+   ],
+   "qids": [
+    "Q11465",
+    "Q462254",
+    "Q92020547"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Ortsvektor",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Geschwindigkeitsvektor",
+    "potentielle Energie",
+    "Kraftstoß"
+   ],
+   "qids": [
+    "Q11465",
+    "Q155640",
+    "Q837940"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Ortsvektor",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Geschwindigkeitsvektor",
+    "potentielle Energie",
+    "mechanische Leistung"
+   ],
+   "qids": [
+    "Q11465",
+    "Q155640",
+    "Q80806956"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Geschwindigkeitsvektor",
+    "Ortsvektor"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "spezifische Lichtausstrahlung",
+    "photometrisches Strahlungsäquivalent",
+    "spezifische Ausstrahlung"
+   ],
+   "qids": [
+    "Q11721922",
+    "Q1504173",
+    "Q15054698"
+   ],
+   "verbindungen": [
+    "Lichtstrom",
+    "Flächeninhalt",
+    "Strahlungsleistung"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "e",
+    "v"
+   ],
+   "relation": [
+    "-G_Q1504173*e + v"
+   ],
+   "groessen": {
+    "G_Q1504173": "photometrisches Strahlungsäquivalent"
+   },
+   "relation_lesbar": [
+    "-[photometrisches Strahlungsäquivalent]*e + v"
+   ]
+  },
+  {
+   "formeln": [
+    "spezifische Lichtausstrahlung",
+    "photometrisches Strahlungsäquivalent",
+    "Bestrahlungsstärke"
+   ],
+   "qids": [
+    "Q11721922",
+    "Q1504173",
+    "Q830654"
+   ],
+   "verbindungen": [
+    "Lichtstrom",
+    "Flächeninhalt",
+    "Strahlungsleistung"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "e",
+    "v"
+   ],
+   "relation": [
+    "-G_Q1504173*e + v"
+   ],
+   "groessen": {
+    "G_Q1504173": "photometrisches Strahlungsäquivalent"
+   },
+   "relation_lesbar": [
+    "-[photometrisches Strahlungsäquivalent]*e + v"
+   ]
+  },
+  {
+   "formeln": [
+    "Mertens' third theorem",
+    "product of two integers",
+    "kleiner fermatscher Satz"
+   ],
+   "qids": [
+    "Q118176628",
+    "Q121225113",
+    "Q188295"
+   ],
+   "verbindungen": [
+    "ganze Zahl",
+    "Multiplikation",
+    "Primzahl"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Gleichdick",
+    "Inkreisradius",
+    "Winkelverdrehung"
+   ],
+   "qids": [
+    "Q1192156",
+    "Q3799068",
+    "Q3305038"
+   ],
+   "verbindungen": [
+    "Flächeninhalt",
+    "Radius",
+    "Bogenlänge"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "big",
+    "pi"
+   ],
+   "relation": [
+    "4*G_Q28474*G_Q670036*pi - G_Q3305038*G_Q670036**2 + 8*G_Q3305038*big*pi"
+   ],
+   "groessen": {
+    "G_Q3305038": "Winkelverdrehung",
+    "G_Q28474": "Umfang",
+    "G_Q670036": "Bogenlänge"
+   },
+   "relation_lesbar": [
+    "4*[Umfang]*[Bogenlänge]*pi - [Winkelverdrehung]*[Bogenlänge]**2 + 8*[Winkelverdrehung]*big*pi"
+   ]
+  },
+  {
+   "formeln": [
+    "Gleichdick",
+    "Inkreisradius",
+    "Winkelweite"
+   ],
+   "qids": [
+    "Q1192156",
+    "Q3799068",
+    "Q1357788"
+   ],
+   "verbindungen": [
+    "Flächeninhalt",
+    "Radius",
+    "Bogenlänge"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "big",
+    "pi"
+   ],
+   "relation": [
+    "-G_Q1357788*G_Q670036**2 + 8*G_Q1357788*big*pi + 4*G_Q28474*G_Q670036*pi"
+   ],
+   "groessen": {
+    "G_Q28474": "Umfang",
+    "G_Q1357788": "Winkelweite",
+    "G_Q670036": "Bogenlänge"
+   },
+   "relation_lesbar": [
+    "-[Winkelweite]*[Bogenlänge]**2 + 8*[Winkelweite]*big*pi + 4*[Umfang]*[Bogenlänge]*pi"
+   ]
+  },
+  {
+   "formeln": [
+    "Gleichdick",
+    "Raumwinkel",
+    "Winkelverdrehung"
+   ],
+   "qids": [
+    "Q1192156",
+    "Q208476",
+    "Q3305038"
+   ],
+   "verbindungen": [
+    "Flächeninhalt",
+    "Radius",
+    "Bogenlänge"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "big",
+    "pi"
+   ],
+   "relation": [
+    "4*G_Q208476*G_Q670036**2*pi - G_Q3305038**2*G_Q670036**2 + 8*G_Q3305038**2*big*pi"
+   ],
+   "groessen": {
+    "G_Q208476": "Raumwinkel",
+    "G_Q3305038": "Winkelverdrehung",
+    "G_Q670036": "Bogenlänge"
+   },
+   "relation_lesbar": [
+    "4*[Raumwinkel]*[Bogenlänge]**2*pi - [Winkelverdrehung]**2*[Bogenlänge]**2 + 8*[Winkelverdrehung]**2*big*pi"
+   ]
+  },
+  {
+   "formeln": [
+    "Gleichdick",
+    "Raumwinkel",
+    "Winkelweite"
+   ],
+   "qids": [
+    "Q1192156",
+    "Q208476",
+    "Q1357788"
+   ],
+   "verbindungen": [
+    "Flächeninhalt",
+    "Radius",
+    "Bogenlänge"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "big",
+    "pi"
+   ],
+   "relation": [
+    "-G_Q1357788**2*G_Q670036**2 + 8*G_Q1357788**2*big*pi + 4*G_Q208476*G_Q670036**2*pi"
+   ],
+   "groessen": {
+    "G_Q208476": "Raumwinkel",
+    "G_Q1357788": "Winkelweite",
+    "G_Q670036": "Bogenlänge"
+   },
+   "relation_lesbar": [
+    "-[Winkelweite]**2*[Bogenlänge]**2 + 8*[Winkelweite]**2*big*pi + 4*[Raumwinkel]*[Bogenlänge]**2*pi"
+   ]
+  },
+  {
+   "formeln": [
+    "tidal acceleration",
+    "Fermi-Pasta-Ulam-Tsingou-Experiment",
+    "Gravitationsbeschleunigung"
+   ],
+   "qids": [
+    "Q119487995",
+    "Q462254",
+    "Q30006"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Ortsvektor",
+    "Gravitationsbeschleunigung"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "tidal acceleration",
+    "Gravitationspotential einer Punktmasse",
+    "Gravitationsbeschleunigung"
+   ],
+   "qids": [
+    "Q119487995",
+    "Q91195033",
+    "Q30006"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Ortsvektor",
+    "Gravitationsbeschleunigung"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "orbital velocity in perfectly circular orbits",
+    "Potenz",
+    "newtonsches Gravitationsgesetz"
+   ],
+   "qids": [
+    "Q120630325",
+    "Q898575",
+    "Q134465"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Abstand",
+    "Radius"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "orbital velocity in perfectly circular orbits",
+    "Fluchtgeschwindigkeit",
+    "Potenz"
+   ],
+   "qids": [
+    "Q120630325",
+    "Q166530",
+    "Q898575"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Abstand",
+    "Radius"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "orbital velocity in perfectly circular orbits",
+    "Fluchtgeschwindigkeit",
+    "inversive distance"
+   ],
+   "qids": [
+    "Q120630325",
+    "Q166530",
+    "Q6060481"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Abstand",
+    "Radius"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "orbital velocity in perfectly circular orbits",
+    "inversive distance",
+    "newtonsches Gravitationsgesetz"
+   ],
+   "qids": [
+    "Q120630325",
+    "Q6060481",
+    "Q134465"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Abstand",
+    "Radius"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "orbital velocity in perfectly circular orbits",
+    "Gravitationspotential einer Punktmasse",
+    "n-Sphäre"
+   ],
+   "qids": [
+    "Q120630325",
+    "Q91195033",
+    "Q306610"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Radius",
+    "Ortsvektor"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "orbital velocity in perfectly circular orbits",
+    "hyperball",
+    "Fermi-Pasta-Ulam-Tsingou-Experiment"
+   ],
+   "qids": [
+    "Q120630325",
+    "Q3776995",
+    "Q462254"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Radius",
+    "Ortsvektor"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "orbital velocity in perfectly circular orbits",
+    "hyperball",
+    "Gravitationspotential einer Punktmasse"
+   ],
+   "qids": [
+    "Q120630325",
+    "Q3776995",
+    "Q91195033"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Radius",
+    "Ortsvektor"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "orbital velocity in perfectly circular orbits",
+    "Massenbelegung",
+    "Inkreisradius"
+   ],
+   "qids": [
+    "Q120630325",
+    "Q1907514",
+    "Q3799068"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Flächeninhalt",
+    "Radius"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "orbital velocity in perfectly circular orbits",
+    "Massenbelegung",
+    "Raumwinkel"
+   ],
+   "qids": [
+    "Q120630325",
+    "Q1907514",
+    "Q208476"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Flächeninhalt",
+    "Radius"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "orbital velocity in perfectly circular orbits",
+    "Fermi-Pasta-Ulam-Tsingou-Experiment",
+    "n-Sphäre"
+   ],
+   "qids": [
+    "Q120630325",
+    "Q462254",
+    "Q306610"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Radius",
+    "Ortsvektor"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Abi-Khuzam inequality",
+    "weak mixing angle constant",
+    "Quadratfunktion"
+   ],
+   "qids": [
+    "Q122889520",
+    "Q97060889",
+    "Q3075175"
+   ],
+   "verbindungen": [
+    "Sinus",
+    "Quadratfunktion",
+    "Multiplikation"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Stoffmengenanteil",
+    "molares Volumen",
+    "Volumenanteil"
+   ],
+   "qids": [
+    "Q125264",
+    "Q487112",
+    "Q909482"
+   ],
+   "verbindungen": [
+    "Stoffmenge",
+    "Stoffmengenanteil",
+    "molares Volumen"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Stoffmengenanteil",
+    "molares Volumen",
+    "Stoffmengenkonzentration"
+   ],
+   "qids": [
+    "Q125264",
+    "Q487112",
+    "Q672821"
+   ],
+   "verbindungen": [
+    "Stoffmenge",
+    "Stoffmenge einer Komponente",
+    "Volumen"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q125264 - G_Q487112*G_Q672821"
+   ],
+   "groessen": {
+    "G_Q487112": "molares Volumen",
+    "G_Q125264": "Stoffmengenanteil",
+    "G_Q672821": "Stoffmengenkonzentration"
+   },
+   "relation_lesbar": [
+    "[Stoffmengenanteil] - [molares Volumen]*[Stoffmengenkonzentration]"
+   ]
+  },
+  {
+   "formeln": [
+    "Strahlungsleistung",
+    "Bestrahlung",
+    "spezifische Ausstrahlung"
+   ],
+   "qids": [
+    "Q1253356",
+    "Q1418023",
+    "Q15054698"
+   ],
+   "verbindungen": [
+    "elektromagnetische Strahlungsenergie",
+    "Flächeninhalt",
+    "Strahlungsleistung"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q1418023 - G_Q15054698*G_Q2199864"
+   ],
+   "groessen": {
+    "G_Q2199864": "Dauer",
+    "G_Q15054698": "spezifische Ausstrahlung",
+    "G_Q1418023": "Bestrahlung"
+   },
+   "relation_lesbar": [
+    "[Bestrahlung] - [spezifische Ausstrahlung]*[Dauer]"
+   ]
+  },
+  {
+   "formeln": [
+    "Strahlungsleistung",
+    "Bestrahlung",
+    "Bestrahlungsstärke"
+   ],
+   "qids": [
+    "Q1253356",
+    "Q1418023",
+    "Q830654"
+   ],
+   "verbindungen": [
+    "elektromagnetische Strahlungsenergie",
+    "Flächeninhalt",
+    "Strahlungsleistung"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "-G_Q1418023 + G_Q2199864*G_Q830654"
+   ],
+   "groessen": {
+    "G_Q2199864": "Dauer",
+    "G_Q1418023": "Bestrahlung",
+    "G_Q830654": "Bestrahlungsstärke"
+   },
+   "relation_lesbar": [
+    "-[Bestrahlung] + [Dauer]*[Bestrahlungsstärke]"
+   ]
+  },
+  {
+   "formeln": [
+    "Strahlungsleistung",
+    "Leistung",
+    "Strahlungsausbeute"
+   ],
+   "qids": [
+    "Q1253356",
+    "Q25342",
+    "Q7962586"
+   ],
+   "verbindungen": [
+    "Strahlungsleistung",
+    "Dauer",
+    "Leistung"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "-G_Q10932713 + G_Q11379*G_Q7962586"
+   ],
+   "groessen": {
+    "G_Q10932713": "elektromagnetische Strahlungsenergie",
+    "G_Q11379": "Energie",
+    "G_Q7962586": "Strahlungsausbeute"
+   },
+   "relation_lesbar": [
+    "-[elektromagnetische Strahlungsenergie] + [Energie]*[Strahlungsausbeute]"
+   ]
+  },
+  {
+   "formeln": [
+    "Strahlungsleistung",
+    "spektrale Strahlungsenergie",
+    "spektrale Strahlungsleistung"
+   ],
+   "qids": [
+    "Q1253356",
+    "Q80237041",
+    "Q81062859"
+   ],
+   "verbindungen": [
+    "elektromagnetische Wellenlänge",
+    "elektromagnetische Strahlungsenergie",
+    "Strahlungsleistung"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Strahlungsleistung",
+    "Photonenanzahl",
+    "Photonenstrom"
+   ],
+   "qids": [
+    "Q1253356",
+    "Q83698917",
+    "Q83699542"
+   ],
+   "verbindungen": [
+    "elektromagnetische Strahlungsenergie",
+    "Dauer",
+    "Photonenanzahl"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q106008771*G_Q122894*G_Q83699542 - G_Q1253356"
+   ],
+   "groessen": {
+    "G_Q83699542": "Photonenstrom",
+    "G_Q106008771": "Licht-Frequenz",
+    "G_Q122894": "Planck-Konstante",
+    "G_Q1253356": "Strahlungsleistung"
+   },
+   "relation_lesbar": [
+    "[Licht-Frequenz]*[Planck-Konstante]*[Photonenstrom] - [Strahlungsleistung]"
+   ]
+  },
+  {
+   "formeln": [
+    "Strahlungsintensität",
+    "Raumwinkel",
+    "spezifische Ausstrahlung"
+   ],
+   "qids": [
+    "Q1253365",
+    "Q208476",
+    "Q15054698"
+   ],
+   "verbindungen": [
+    "Flächeninhalt",
+    "Strahlungsleistung",
+    "Raumwinkel"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "-G_Q1253365 + G_Q15054698*G_Q173817**2"
+   ],
+   "groessen": {
+    "G_Q15054698": "spezifische Ausstrahlung",
+    "G_Q173817": "Radius",
+    "G_Q1253365": "Strahlungsintensität"
+   },
+   "relation_lesbar": [
+    "-[Strahlungsintensität] + [spezifische Ausstrahlung]*[Radius]**2"
+   ]
+  },
+  {
+   "formeln": [
+    "Strahlungsintensität",
+    "Raumwinkel",
+    "Bestrahlungsstärke"
+   ],
+   "qids": [
+    "Q1253365",
+    "Q208476",
+    "Q830654"
+   ],
+   "verbindungen": [
+    "Flächeninhalt",
+    "Strahlungsleistung",
+    "Raumwinkel"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "-G_Q1253365 + G_Q173817**2*G_Q830654"
+   ],
+   "groessen": {
+    "G_Q830654": "Bestrahlungsstärke",
+    "G_Q1253365": "Strahlungsintensität",
+    "G_Q173817": "Radius"
+   },
+   "relation_lesbar": [
+    "-[Strahlungsintensität] + [Radius]**2*[Bestrahlungsstärke]"
+   ]
+  },
+  {
+   "formeln": [
+    "Strahlungsintensität",
+    "spektrale Strahlungsleistung",
+    "spektrale Strahlstärke bezüglich Wellenlänge"
+   ],
+   "qids": [
+    "Q1253365",
+    "Q81062859",
+    "Q81072410"
+   ],
+   "verbindungen": [
+    "elektromagnetische Wellenlänge",
+    "Strahlungsleistung",
+    "Strahlungsintensität"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Oberflächenladungsdichte",
+    "Massenbelegung",
+    "Exposition"
+   ],
+   "qids": [
+    "Q12799324",
+    "Q1907514",
+    "Q336938"
+   ],
+   "verbindungen": [
+    "elektrische Ladung",
+    "Masse",
+    "Flächeninhalt"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "-G_Q12799324 + G_Q1907514*G_Q336938"
+   ],
+   "groessen": {
+    "G_Q12799324": "Oberflächenladungsdichte",
+    "G_Q336938": "Exposition",
+    "G_Q1907514": "Massenbelegung"
+   },
+   "relation_lesbar": [
+    "-[Oberflächenladungsdichte] + [Massenbelegung]*[Exposition]"
+   ]
+  },
+  {
+   "formeln": [
+    "Oberflächenladungsdichte",
+    "Massenbelegung",
+    "Ionendosis"
+   ],
+   "qids": [
+    "Q12799324",
+    "Q1907514",
+    "Q15149637"
+   ],
+   "verbindungen": [
+    "elektrische Ladung",
+    "Masse",
+    "Flächeninhalt"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "-G_Q12799324 + G_Q15149637*G_Q1907514"
+   ],
+   "groessen": {
+    "G_Q12799324": "Oberflächenladungsdichte",
+    "G_Q15149637": "Ionendosis",
+    "G_Q1907514": "Massenbelegung"
+   },
+   "relation_lesbar": [
+    "-[Oberflächenladungsdichte] + [Ionendosis]*[Massenbelegung]"
+   ]
+  },
+  {
+   "formeln": [
+    "untere Stabilitätszahl",
+    "Cliquenzahl",
+    "wohlüberdeckter Graph"
+   ],
+   "qids": [
+    "Q130343874",
+    "Q93598411",
+    "Q7981049"
+   ],
+   "verbindungen": [
+    "untere Stabilitätszahl",
+    "Komplementgraph",
+    "Q93598162"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "untere Stabilitätszahl",
+    "Stabilitätszahl",
+    "wohlüberdeckter Graph"
+   ],
+   "qids": [
+    "Q130343874",
+    "Q93598162",
+    "Q7981049"
+   ],
+   "verbindungen": [
+    "untere Stabilitätszahl",
+    "Komplementgraph",
+    "Q93598162"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "binding number",
+    "fractional dominating set",
+    "abgeschlossene Nachbarschaft"
+   ],
+   "qids": [
+    "Q131581195",
+    "Q137393195",
+    "Q137393244"
+   ],
+   "verbindungen": [
+    "Knotenmenge",
+    "Nachbarschaft",
+    "abgeschlossene Nachbarschaft"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Sphärizität",
+    "spezifische Oberfläche",
+    "Dichte"
+   ],
+   "qids": [
+    "Q1375687",
+    "Q622205",
+    "Q29539"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Oberfläche",
+    "Volumen"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Sphärizität",
+    "Aktivitätskonzentration",
+    "Aktivitätsflächendichte"
+   ],
+   "qids": [
+    "Q1375687",
+    "Q423263",
+    "Q98103005"
+   ],
+   "verbindungen": [
+    "Oberfläche",
+    "Aktivität",
+    "Volumen"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Bestrahlung",
+    "spektrale Strahlungsenergie",
+    "spektrale Bestrahlung"
+   ],
+   "qids": [
+    "Q1418023",
+    "Q80237041",
+    "Q82969329"
+   ],
+   "verbindungen": [
+    "elektromagnetische Wellenlänge",
+    "elektromagnetische Strahlungsenergie",
+    "Bestrahlung"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Bestrahlung",
+    "Photonenanzahl",
+    "Photonenbestrahlung"
+   ],
+   "qids": [
+    "Q1418023",
+    "Q83698917",
+    "Q84026278"
+   ],
+   "verbindungen": [
+    "elektromagnetische Strahlungsenergie",
+    "Flächeninhalt",
+    "Photonenanzahl"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q106008771*G_Q122894*G_Q84026278 - G_Q1418023"
+   ],
+   "groessen": {
+    "G_Q84026278": "Photonenbestrahlung",
+    "G_Q1418023": "Bestrahlung",
+    "G_Q122894": "Planck-Konstante",
+    "G_Q106008771": "Licht-Frequenz"
+   },
+   "relation_lesbar": [
+    "[Licht-Frequenz]*[Planck-Konstante]*[Photonenbestrahlung] - [Bestrahlung]"
+   ]
+  },
+  {
+   "formeln": [
+    "molare Masse",
+    "molare Entropie",
+    "spezifische Entropie"
+   ],
+   "qids": [
+    "Q145623",
+    "Q68972876",
+    "Q69423705"
+   ],
+   "verbindungen": [
+    "Stoffmenge",
+    "Masse",
+    "Q45003"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q145623*G_Q69423705 - G_Q68972876"
+   ],
+   "groessen": {
+    "G_Q68972876": "molare Entropie",
+    "G_Q145623": "molare Masse",
+    "G_Q69423705": "spezifische Entropie"
+   },
+   "relation_lesbar": [
+    "[molare Masse]*[spezifische Entropie] - [molare Entropie]"
+   ]
+  },
+  {
+   "formeln": [
+    "molare Masse",
+    "spezifische innere Energie",
+    "molare innere Energie"
+   ],
+   "qids": [
+    "Q145623",
+    "Q76357367",
+    "Q88523106"
+   ],
+   "verbindungen": [
+    "Stoffmenge",
+    "Masse",
+    "innere Energie"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q145623*G_Q76357367 - G_Q88523106"
+   ],
+   "groessen": {
+    "G_Q76357367": "spezifische innere Energie",
+    "G_Q88523106": "molare innere Energie",
+    "G_Q145623": "molare Masse"
+   },
+   "relation_lesbar": [
+    "[molare Masse]*[spezifische innere Energie] - [molare innere Energie]"
+   ]
+  },
+  {
+   "formeln": [
+    "molare Masse",
+    "spezifische freie Energie",
+    "molare freie Energie"
+   ],
+   "qids": [
+    "Q145623",
+    "Q76359554",
+    "Q88862986"
+   ],
+   "verbindungen": [
+    "Stoffmenge",
+    "Masse",
+    "freie Energie"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q145623*G_Q76359554 - G_Q88862986"
+   ],
+   "groessen": {
+    "G_Q76359554": "spezifische freie Energie",
+    "G_Q145623": "molare Masse",
+    "G_Q88862986": "molare freie Energie"
+   },
+   "relation_lesbar": [
+    "[molare Masse]*[spezifische freie Energie] - [molare freie Energie]"
+   ]
+  },
+  {
+   "formeln": [
+    "molare Masse",
+    "spezifische Gibbs-Energie",
+    "molare Gibbs-Energie"
+   ],
+   "qids": [
+    "Q145623",
+    "Q76360636",
+    "Q88863324"
+   ],
+   "verbindungen": [
+    "Stoffmenge",
+    "Masse",
+    "Gibbs-Energie"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q145623*G_Q76360636 - G_Q88863324"
+   ],
+   "groessen": {
+    "G_Q145623": "molare Masse",
+    "G_Q88863324": "molare Gibbs-Energie",
+    "G_Q76360636": "spezifische Gibbs-Energie"
+   },
+   "relation_lesbar": [
+    "[molare Masse]*[spezifische Gibbs-Energie] - [molare Gibbs-Energie]"
+   ]
+  },
+  {
+   "formeln": [
+    "molare Masse",
+    "molares Volumen",
+    "Dichte"
+   ],
+   "qids": [
+    "Q145623",
+    "Q487112",
+    "Q29539"
+   ],
+   "verbindungen": [
+    "Stoffmenge",
+    "Masse",
+    "Volumen"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "-G_Q145623 + G_Q29539*G_Q487112"
+   ],
+   "groessen": {
+    "G_Q145623": "molare Masse",
+    "G_Q29539": "Dichte",
+    "G_Q487112": "molares Volumen"
+   },
+   "relation_lesbar": [
+    "-[molare Masse] + [Dichte]*[molares Volumen]"
+   ]
+  },
+  {
+   "formeln": [
+    "molare Masse",
+    "spezifische Wärmekapazität",
+    "molare Wärmekapazität"
+   ],
+   "qids": [
+    "Q145623",
+    "Q487756",
+    "Q2937190"
+   ],
+   "verbindungen": [
+    "Stoffmenge",
+    "Masse",
+    "Wärmekapazität"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q145623*G_Q487756 - G_Q2937190"
+   ],
+   "groessen": {
+    "G_Q2937190": "molare Wärmekapazität",
+    "G_Q145623": "molare Masse",
+    "G_Q487756": "spezifische Wärmekapazität"
+   },
+   "relation_lesbar": [
+    "[molare Masse]*[spezifische Wärmekapazität] - [molare Wärmekapazität]"
+   ]
+  },
+  {
+   "formeln": [
+    "molare Masse",
+    "spezifische Enthalpie",
+    "molare Enthalpie"
+   ],
+   "qids": [
+    "Q145623",
+    "Q21572993",
+    "Q88769977"
+   ],
+   "verbindungen": [
+    "Stoffmenge",
+    "Masse",
+    "Enthalpie"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q145623*G_Q21572993 - G_Q88769977"
+   ],
+   "groessen": {
+    "G_Q145623": "molare Masse",
+    "G_Q21572993": "spezifische Enthalpie",
+    "G_Q88769977": "molare Enthalpie"
+   },
+   "relation_lesbar": [
+    "[molare Masse]*[spezifische Enthalpie] - [molare Enthalpie]"
+   ]
+  },
+  {
+   "formeln": [
+    "Wärmestromdichte",
+    "Wärmeübergangskoeffizient",
+    "Wärmewiderstand"
+   ],
+   "qids": [
+    "Q1478382",
+    "Q634340",
+    "Q899628"
+   ],
+   "verbindungen": [
+    "Wärmestrom",
+    "Wärmestromdichte",
+    "Temperaturunterschied"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Drehimpuls",
+    "Energie-Impuls-Beziehung",
+    "Fermi-Pasta-Ulam-Tsingou-Experiment"
+   ],
+   "qids": [
+    "Q161254",
+    "Q3502299",
+    "Q462254"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Ortsvektor",
+    "Impuls"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Drehimpuls",
+    "Energie-Impuls-Beziehung",
+    "Gravitationspotential einer Punktmasse"
+   ],
+   "qids": [
+    "Q161254",
+    "Q3502299",
+    "Q91195033"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Ortsvektor",
+    "Impuls"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Drehimpuls",
+    "Impuls",
+    "Fermi-Pasta-Ulam-Tsingou-Experiment"
+   ],
+   "qids": [
+    "Q161254",
+    "Q41273",
+    "Q462254"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Ortsvektor",
+    "Impuls"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Drehimpuls",
+    "Impuls",
+    "Gravitationspotential einer Punktmasse"
+   ],
+   "qids": [
+    "Q161254",
+    "Q41273",
+    "Q91195033"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Ortsvektor",
+    "Impuls"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Schallfluss",
+    "mechanische Impedanz",
+    "akustische Impedanz"
+   ],
+   "qids": [
+    "Q1640308",
+    "Q6421317",
+    "Q975684"
+   ],
+   "verbindungen": [
+    "Flächeninhalt",
+    "Schallfluss",
+    "akustische Impedanz"
+   ],
+   "ableitung": "abbruch: PolynomialError"
+  },
+  {
+   "formeln": [
+    "Trägheitsmoment",
+    "Gravitationspotential einer Punktmasse",
+    "radialer Abstand"
+   ],
+   "qids": [
+    "Q165618",
+    "Q91195033",
+    "Q1578234"
+   ],
+   "verbindungen": [
+    "Masse",
+    "radialer Abstand",
+    "Ortsvektor"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Trägheitsmoment",
+    "Massenbelegung",
+    "axiales Flächenträgheitsmoment"
+   ],
+   "qids": [
+    "Q165618",
+    "Q1907514",
+    "Q91405496"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Flächeninhalt",
+    "radialer Abstand"
+   ],
+   "ableitung": "abbruch: PolynomialError"
+  },
+  {
+   "formeln": [
+    "Trägheitsmoment",
+    "Fermi-Pasta-Ulam-Tsingou-Experiment",
+    "radialer Abstand"
+   ],
+   "qids": [
+    "Q165618",
+    "Q462254",
+    "Q1578234"
+   ],
+   "verbindungen": [
+    "Masse",
+    "radialer Abstand",
+    "Ortsvektor"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Fluchtgeschwindigkeit",
+    "Geschwindigkeit",
+    "kinetische Energie"
+   ],
+   "qids": [
+    "Q166530",
+    "Q3711325",
+    "Q46276"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Abstand",
+    "Geschwindigkeit"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Fluchtgeschwindigkeit",
+    "Geschwindigkeit",
+    "Massenänderungsrate"
+   ],
+   "qids": [
+    "Q166530",
+    "Q3711325",
+    "Q92020547"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Abstand",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Fluchtgeschwindigkeit",
+    "Schergeschwindigkeit",
+    "kinetische Energie"
+   ],
+   "qids": [
+    "Q166530",
+    "Q461293",
+    "Q46276"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Abstand",
+    "Geschwindigkeit"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Gesetz von Boyle-Mariotte",
+    "Tolman-Oppenheimer-Volkoff-Gleichung",
+    "Dichte"
+   ],
+   "qids": [
+    "Q175974",
+    "Q2735407",
+    "Q29539"
+   ],
+   "verbindungen": [
+    "Dichte",
+    "Volumen",
+    "Druck"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Wärmekapazität",
+    "Raumausdehnungskoeffizient",
+    "Wärmespeicherzahl"
+   ],
+   "qids": [
+    "Q179388",
+    "Q74761076",
+    "Q900661"
+   ],
+   "verbindungen": [
+    "Wärmekapazität",
+    "thermodynamische Temperatur",
+    "Volumen"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q39297*G_Q900661 - G_Q44432*G_Q74761076"
+   ],
+   "groessen": {
+    "G_Q39297": "Volumen",
+    "G_Q74761076": "Raumausdehnungskoeffizient",
+    "G_Q44432": "Wärme",
+    "G_Q900661": "Wärmespeicherzahl"
+   },
+   "relation_lesbar": [
+    "[Volumen]*[Wärmespeicherzahl] - [Wärme]*[Raumausdehnungskoeffizient]"
+   ]
+  },
+  {
+   "formeln": [
+    "molare Gaskonstante",
+    "Faraday-Konstante",
+    "Nernst-Gleichung"
+   ],
+   "qids": [
+    "Q182333",
+    "Q192819",
+    "Q751124"
+   ],
+   "verbindungen": [
+    "molare Gaskonstante",
+    "Faraday-Konstante",
+    "Avogadro-Konstante"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Topologie",
+    "diskreter Raum",
+    "Überdeckung"
+   ],
+   "qids": [
+    "Q18786106",
+    "Q175116",
+    "Q331481"
+   ],
+   "verbindungen": [
+    "Topologie",
+    "Potenzmenge",
+    "Menge"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Topologie",
+    "approach space",
+    "diskreter Raum"
+   ],
+   "qids": [
+    "Q18786106",
+    "Q4781718",
+    "Q175116"
+   ],
+   "verbindungen": [
+    "Topologie",
+    "Potenzmenge",
+    "Menge"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Beleuchtungsstärke",
+    "photometrisches Strahlungsäquivalent",
+    "spezifische Ausstrahlung"
+   ],
+   "qids": [
+    "Q194411",
+    "Q1504173",
+    "Q15054698"
+   ],
+   "verbindungen": [
+    "Lichtstrom",
+    "Flächeninhalt",
+    "Strahlungsleistung"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "e",
+    "v"
+   ],
+   "relation": [
+    "-G_Q1504173*e + v"
+   ],
+   "groessen": {
+    "G_Q1504173": "photometrisches Strahlungsäquivalent"
+   },
+   "relation_lesbar": [
+    "-[photometrisches Strahlungsäquivalent]*e + v"
+   ]
+  },
+  {
+   "formeln": [
+    "Beleuchtungsstärke",
+    "photometrisches Strahlungsäquivalent",
+    "Bestrahlungsstärke"
+   ],
+   "qids": [
+    "Q194411",
+    "Q1504173",
+    "Q830654"
+   ],
+   "verbindungen": [
+    "Lichtstrom",
+    "Flächeninhalt",
+    "Strahlungsleistung"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "e",
+    "v"
+   ],
+   "relation": [
+    "-G_Q1504173*e + v"
+   ],
+   "groessen": {
+    "G_Q1504173": "photometrisches Strahlungsäquivalent"
+   },
+   "relation_lesbar": [
+    "-[photometrisches Strahlungsäquivalent]*e + v"
+   ]
+  },
+  {
+   "formeln": [
+    "Dehnung",
+    "hookesches Gesetz",
+    "Oberflächenspannung"
+   ],
+   "qids": [
+    "Q1990546",
+    "Q170282",
+    "Q170749"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Länge",
+    "Änderung der Länge"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "trigonometrischer Pythagoras",
+    "Winkelweite",
+    "surface area of an open cylinder"
+   ],
+   "qids": [
+    "Q2039117",
+    "Q1357788",
+    "Q30090890"
+   ],
+   "verbindungen": [
+    "Winkelweite",
+    "Radius",
+    "Höhe"
+   ],
+   "ableitung": "abbruch: PolynomialError"
+  },
+  {
+   "formeln": [
+    "Raumwinkel",
+    "Photonenstrahlstärke",
+    "Photonenbestrahlungsstärke"
+   ],
+   "qids": [
+    "Q208476",
+    "Q83853335",
+    "Q83950903"
+   ],
+   "verbindungen": [
+    "Flächeninhalt",
+    "Raumwinkel",
+    "Photonenstrom"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q173817**2*G_Q83950903 - G_Q83853335"
+   ],
+   "groessen": {
+    "G_Q173817": "Radius",
+    "G_Q83950903": "Photonenbestrahlungsstärke",
+    "G_Q83853335": "Photonenstrahlstärke"
+   },
+   "relation_lesbar": [
+    "[Radius]**2*[Photonenbestrahlungsstärke] - [Photonenstrahlstärke]"
+   ]
+  },
+  {
+   "formeln": [
+    "Raumwinkel",
+    "Photonenstrahlstärke",
+    "spezifische Photonenausstrahlung"
+   ],
+   "qids": [
+    "Q208476",
+    "Q83853335",
+    "Q84025202"
+   ],
+   "verbindungen": [
+    "Flächeninhalt",
+    "Raumwinkel",
+    "Photonenstrom"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q173817**2*G_Q84025202 - G_Q83853335"
+   ],
+   "groessen": {
+    "G_Q84025202": "spezifische Photonenausstrahlung",
+    "G_Q173817": "Radius",
+    "G_Q83853335": "Photonenstrahlstärke"
+   },
+   "relation_lesbar": [
+    "[Radius]**2*[spezifische Photonenausstrahlung] - [Photonenstrahlstärke]"
+   ]
+  },
+  {
+   "formeln": [
+    "elektrische Feldstärke",
+    "elektrische Linienladungsdichte",
+    "Oberflächenspannung"
+   ],
+   "qids": [
+    "Q20989",
+    "Q77267838",
+    "Q170749"
+   ],
+   "verbindungen": [
+    "elektrische Ladung",
+    "Kraft",
+    "Länge"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "E",
+    "F"
+   ],
+   "relation": [
+    "E*G_Q36253*G_Q77267838 - F"
+   ],
+   "groessen": {
+    "G_Q36253": "Länge",
+    "G_Q77267838": "elektrische Linienladungsdichte"
+   },
+   "relation_lesbar": [
+    "E*[Länge]*[elektrische Linienladungsdichte] - F"
+   ]
+  },
+  {
+   "formeln": [
+    "Energiedosis",
+    "Energiedosisleistung",
+    "Massenänderungsrate"
+   ],
+   "qids": [
+    "Q215313",
+    "Q69428958",
+    "Q92020547"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Energiedosis",
+    "Dauer"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "dot"
+   ],
+   "relation": [
+    "G_Q2199864*dot - 1"
+   ],
+   "groessen": {
+    "G_Q2199864": "Dauer"
+   },
+   "relation_lesbar": [
+    "[Dauer]*dot - 1"
+   ]
+  },
+  {
+   "formeln": [
+    "Schallimmission",
+    "Schallschnelle",
+    "Schallkennimpedanz"
+   ],
+   "qids": [
+    "Q2230528",
+    "Q336894",
+    "Q87051330"
+   ],
+   "verbindungen": [
+    "Schalldruck",
+    "Dauer",
+    "Schallschnelle"
+   ],
+   "ableitung": "abbruch: PolynomialError"
+  },
+  {
+   "formeln": [
+    "Schallimmission",
+    "Schallbeschleunigung",
+    "Schallkennimpedanz"
+   ],
+   "qids": [
+    "Q2230528",
+    "Q7140491",
+    "Q87051330"
+   ],
+   "verbindungen": [
+    "Schalldruck",
+    "Dauer",
+    "Schallschnelle"
+   ],
+   "ableitung": "abbruch: PolynomialError"
+  },
+  {
+   "formeln": [
+    "Leistung",
+    "Energie-Impuls-Beziehung",
+    "Massenänderungsrate"
+   ],
+   "qids": [
+    "Q25342",
+    "Q3502299",
+    "Q92020547"
+   ],
+   "verbindungen": [
+    "Energie",
+    "Masse",
+    "Dauer"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q2111**4*G_Q2199864**2*G_Q92020547**2 + G_Q2111**2*G_Q41273**2 - G_Q2199864**2*G_Q25342**2"
+   ],
+   "groessen": {
+    "G_Q2199864": "Dauer",
+    "G_Q2111": "Vakuumlichtgeschwindigkeit",
+    "G_Q41273": "Impuls",
+    "G_Q92020547": "Q92020547",
+    "G_Q25342": "Leistung"
+   },
+   "relation_lesbar": [
+    "[Vakuumlichtgeschwindigkeit]**4*[Dauer]**2*[Q92020547]**2 + [Vakuumlichtgeschwindigkeit]**2*[Impuls]**2 - [Dauer]**2*[Leistung]**2"
+   ]
+  },
+  {
+   "formeln": [
+    "Leistung",
+    "Massenänderungsrate",
+    "spezifische Energie"
+   ],
+   "qids": [
+    "Q25342",
+    "Q92020547",
+    "Q3023293"
+   ],
+   "verbindungen": [
+    "Energie",
+    "Masse",
+    "Dauer"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q25342 - G_Q3023293*G_Q92020547"
+   ],
+   "groessen": {
+    "G_Q3023293": "spezifische Energie",
+    "G_Q92020547": "Q92020547",
+    "G_Q25342": "Leistung"
+   },
+   "relation_lesbar": [
+    "[Leistung] - [spezifische Energie]*[Q92020547]"
+   ]
+  },
+  {
+   "formeln": [
+    "Äquivalentdosis",
+    "Energiedosisleistung",
+    "Äquivalentdosisrate"
+   ],
+   "qids": [
+    "Q256106",
+    "Q69428958",
+    "Q99604810"
+   ],
+   "verbindungen": [
+    "Energiedosis",
+    "Dauer",
+    "Äquivalentdosis"
+   ],
+   "ableitung": "keine_relation",
+   "unzugeordnet": [],
+   "relation": [],
+   "groessen": {},
+   "relation_lesbar": []
+  },
+  {
+   "formeln": [
+    "Tolman-Oppenheimer-Volkoff-Gleichung",
+    "Dichte",
+    "Kompressibilität"
+   ],
+   "qids": [
+    "Q2735407",
+    "Q29539",
+    "Q8067817"
+   ],
+   "verbindungen": [
+    "Dichte",
+    "Volumen",
+    "Druck"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "spezifische Aktivität",
+    "spezifische Oberfläche",
+    "Aktivitätsflächendichte"
+   ],
+   "qids": [
+    "Q2823748",
+    "Q622205",
+    "Q98103005"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Oberfläche",
+    "Aktivität"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "-G_Q2823748 + G_Q622205*G_Q98103005"
+   ],
+   "groessen": {
+    "G_Q2823748": "spezifische Aktivität",
+    "G_Q98103005": "Aktivitätsflächendichte",
+    "G_Q622205": "spezifische Oberfläche"
+   },
+   "relation_lesbar": [
+    "-[spezifische Aktivität] + [spezifische Oberfläche]*[Aktivitätsflächendichte]"
+   ]
+  },
+  {
+   "formeln": [
+    "spezifische Aktivität",
+    "Massenänderungsrate",
+    "Aktivität"
+   ],
+   "qids": [
+    "Q2823748",
+    "Q92020547",
+    "Q317949"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Dauer",
+    "Aktivität"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q2823748*G_Q92020547*G_Q98069147 + G_Q317949**2"
+   ],
+   "groessen": {
+    "G_Q2823748": "spezifische Aktivität",
+    "G_Q92020547": "Q92020547",
+    "G_Q317949": "Aktivität",
+    "G_Q98069147": "Anzahl der Atomkerne"
+   },
+   "relation_lesbar": [
+    "[spezifische Aktivität]*[Q92020547]*[Anzahl der Atomkerne] + [Aktivität]**2"
+   ]
+  },
+  {
+   "formeln": [
+    "spezifische Aktivität",
+    "Aktivitätskonzentration",
+    "Dichte"
+   ],
+   "qids": [
+    "Q2823748",
+    "Q423263",
+    "Q29539"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Aktivität",
+    "Volumen"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q2823748*G_Q29539 - G_Q423263"
+   ],
+   "groessen": {
+    "G_Q2823748": "spezifische Aktivität",
+    "G_Q29539": "Dichte",
+    "G_Q423263": "Aktivitätskonzentration"
+   },
+   "relation_lesbar": [
+    "[spezifische Aktivität]*[Dichte] - [Aktivitätskonzentration]"
+   ]
+  },
+  {
+   "formeln": [
+    "Exposition",
+    "längenbezogene Masse",
+    "elektrische Linienladungsdichte"
+   ],
+   "qids": [
+    "Q336938",
+    "Q56298294",
+    "Q77267838"
+   ],
+   "verbindungen": [
+    "elektrische Ladung",
+    "Masse",
+    "Länge"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q336938*G_Q56298294 - G_Q77267838"
+   ],
+   "groessen": {
+    "G_Q336938": "Exposition",
+    "G_Q56298294": "längenbezogene Masse",
+    "G_Q77267838": "elektrische Linienladungsdichte"
+   },
+   "relation_lesbar": [
+    "[Exposition]*[längenbezogene Masse] - [elektrische Linienladungsdichte]"
+   ]
+  },
+  {
+   "formeln": [
+    "Exposition",
+    "Massenänderungsrate",
+    "Expositionsrate"
+   ],
+   "qids": [
+    "Q336938",
+    "Q92020547",
+    "Q99720212"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Dauer",
+    "Exposition"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "dot"
+   ],
+   "relation": [
+    "G_Q1111*dot - G_Q336938*G_Q92020547"
+   ],
+   "groessen": {
+    "G_Q336938": "Exposition",
+    "G_Q1111": "elektrische Ladung",
+    "G_Q92020547": "Q92020547"
+   },
+   "relation_lesbar": [
+    "[elektrische Ladung]*dot - [Exposition]*[Q92020547]"
+   ]
+  },
+  {
+   "formeln": [
+    "Exposition",
+    "elektrische Ladungsdichte",
+    "Dichte"
+   ],
+   "qids": [
+    "Q336938",
+    "Q69425629",
+    "Q29539"
+   ],
+   "verbindungen": [
+    "elektrische Ladung",
+    "Masse",
+    "Volumen"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q29539*G_Q336938 - G_Q69425629"
+   ],
+   "groessen": {
+    "G_Q336938": "Exposition",
+    "G_Q69425629": "elektrische Ladungsdichte",
+    "G_Q29539": "Dichte"
+   },
+   "relation_lesbar": [
+    "[Dichte]*[Exposition] - [elektrische Ladungsdichte]"
+   ]
+  },
+  {
+   "formeln": [
+    "Lichtausbeute einer Strahlungsquelle",
+    "photometrisches Strahlungsäquivalent",
+    "Strahlungsausbeute"
+   ],
+   "qids": [
+    "Q3425218",
+    "Q1504173",
+    "Q7962586"
+   ],
+   "verbindungen": [
+    "Lichtstrom",
+    "Strahlungsleistung",
+    "Leistung"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "e",
+    "v"
+   ],
+   "relation": [
+    "-G_Q1504173*e + v"
+   ],
+   "groessen": {
+    "G_Q1504173": "photometrisches Strahlungsäquivalent"
+   },
+   "relation_lesbar": [
+    "-[photometrisches Strahlungsäquivalent]*e + v"
+   ]
+  },
+  {
+   "formeln": [
+    "Geschwindigkeit",
+    "Massenänderungsrate",
+    "newtonsches Gravitationsgesetz"
+   ],
+   "qids": [
+    "Q3711325",
+    "Q92020547",
+    "Q134465"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Abstand",
+    "Dauer"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "m_{1}",
+    "m_{2}",
+    "over"
+   ],
+   "relation": [
+    "-G_Q119510698 + G_Q18373*G_Q2199864**2*G_Q3711325**2*m_{1}*m_{2}*over"
+   ],
+   "groessen": {
+    "G_Q2199864": "Dauer",
+    "G_Q18373": "Gravitationskonstante",
+    "G_Q3711325": "Geschwindigkeit",
+    "G_Q119510698": "Gravitationskraft"
+   },
+   "relation_lesbar": [
+    "-[Gravitationskraft] + [Gravitationskonstante]*[Dauer]**2*[Geschwindigkeit]**2*m_{1}*m_{2}*over"
+   ]
+  },
+  {
+   "formeln": [
+    "Geschwindigkeit",
+    "kinetische Energie",
+    "newtonsches Gravitationsgesetz"
+   ],
+   "qids": [
+    "Q3711325",
+    "Q46276",
+    "Q134465"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Abstand",
+    "Geschwindigkeit"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "m_{1}",
+    "m_{2}",
+    "over"
+   ],
+   "relation": [
+    "-G_Q119510698 + G_Q18373*G_Q2199864**2*G_Q3711325**2*m_{1}*m_{2}*over"
+   ],
+   "groessen": {
+    "G_Q2199864": "Dauer",
+    "G_Q18373": "Gravitationskonstante",
+    "G_Q3711325": "Geschwindigkeit",
+    "G_Q119510698": "Gravitationskraft"
+   },
+   "relation_lesbar": [
+    "-[Gravitationskraft] + [Gravitationskonstante]*[Dauer]**2*[Geschwindigkeit]**2*m_{1}*m_{2}*over"
+   ]
+  },
+  {
+   "formeln": [
+    "Geschwindigkeit",
+    "kinetische Energie",
+    "Massenänderungsrate"
+   ],
+   "qids": [
+    "Q3711325",
+    "Q46276",
+    "Q92020547"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Dauer",
+    "Geschwindigkeit"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "-G_Q126017*G_Q3711325*G_Q92020547 + 2*G_Q46276"
+   ],
+   "groessen": {
+    "G_Q3711325": "Geschwindigkeit",
+    "G_Q92020547": "Q92020547",
+    "G_Q46276": "Q46276",
+    "G_Q126017": "Abstand"
+   },
+   "relation_lesbar": [
+    "-[Abstand]*[Geschwindigkeit]*[Q92020547] + 2*[Q46276]"
+   ]
+  },
+  {
+   "formeln": [
+    "Impuls",
+    "Dichte",
+    "spezifischer Massenfluss"
+   ],
+   "qids": [
+    "Q41273",
+    "Q29539",
+    "Q3265048"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Geschwindigkeitsvektor",
+    "Dichte"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Umlaufbahn",
+    "Ruck",
+    "Massenänderungsrate"
+   ],
+   "qids": [
+    "Q4130",
+    "Q497332",
+    "Q92020547"
+   ],
+   "verbindungen": [
+    "Beschleunigung",
+    "Masse",
+    "Dauer"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "a",
+    "j"
+   ],
+   "relation": [
+    "-G_Q2199864*j + a"
+   ],
+   "groessen": {
+    "G_Q2199864": "Dauer"
+   },
+   "relation_lesbar": [
+    "-[Dauer]*j + a"
+   ]
+  },
+  {
+   "formeln": [
+    "Schergeschwindigkeit",
+    "kinetische Energie",
+    "newtonsches Gravitationsgesetz"
+   ],
+   "qids": [
+    "Q461293",
+    "Q46276",
+    "Q134465"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Abstand",
+    "Geschwindigkeit"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "dot",
+    "gamma",
+    "m_{1}",
+    "m_{2}",
+    "over"
+   ],
+   "relation": [
+    "-G_Q119510698*dot**2*gamma**2 + G_Q18373*G_Q3711325**2*m_{1}*m_{2}*over"
+   ],
+   "groessen": {
+    "G_Q18373": "Gravitationskonstante",
+    "G_Q3711325": "Geschwindigkeit",
+    "G_Q119510698": "Gravitationskraft"
+   },
+   "relation_lesbar": [
+    "-[Gravitationskraft]*dot**2*gamma**2 + [Gravitationskonstante]*[Geschwindigkeit]**2*m_{1}*m_{2}*over"
+   ]
+  },
+  {
+   "formeln": [
+    "molares Volumen",
+    "Wärmespeicherzahl",
+    "molare Wärmekapazität"
+   ],
+   "qids": [
+    "Q487112",
+    "Q900661",
+    "Q2937190"
+   ],
+   "verbindungen": [
+    "Stoffmenge",
+    "Wärmekapazität",
+    "Volumen"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "-G_Q2937190 + G_Q487112*G_Q900661"
+   ],
+   "groessen": {
+    "G_Q2937190": "molare Wärmekapazität",
+    "G_Q487112": "molares Volumen",
+    "G_Q900661": "Wärmespeicherzahl"
+   },
+   "relation_lesbar": [
+    "-[molare Wärmekapazität] + [molares Volumen]*[Wärmespeicherzahl]"
+   ]
+  },
+  {
+   "formeln": [
+    "spezifische Wärmekapazität",
+    "Wärmespeicherzahl",
+    "Dichte"
+   ],
+   "qids": [
+    "Q487756",
+    "Q900661",
+    "Q29539"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Wärmekapazität",
+    "Volumen"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q29539*G_Q487756 - G_Q900661"
+   ],
+   "groessen": {
+    "G_Q29539": "Dichte",
+    "G_Q487756": "spezifische Wärmekapazität",
+    "G_Q900661": "Wärmespeicherzahl"
+   },
+   "relation_lesbar": [
+    "[Dichte]*[spezifische Wärmekapazität] - [Wärmespeicherzahl]"
+   ]
+  },
+  {
+   "formeln": [
+    "längenbezogene Masse",
+    "elektrische Linienladungsdichte",
+    "Ionendosis"
+   ],
+   "qids": [
+    "Q56298294",
+    "Q77267838",
+    "Q15149637"
+   ],
+   "verbindungen": [
+    "elektrische Ladung",
+    "Masse",
+    "Länge"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q15149637*G_Q56298294 - G_Q77267838"
+   ],
+   "groessen": {
+    "G_Q56298294": "längenbezogene Masse",
+    "G_Q15149637": "Ionendosis",
+    "G_Q77267838": "elektrische Linienladungsdichte"
+   },
+   "relation_lesbar": [
+    "[Ionendosis]*[längenbezogene Masse] - [elektrische Linienladungsdichte]"
+   ]
+  },
+  {
+   "formeln": [
+    "Massenkonzentration",
+    "Massenanteil",
+    "Dichte"
+   ],
+   "qids": [
+    "Q589446",
+    "Q899138",
+    "Q29539"
+   ],
+   "verbindungen": [
+    "Masse einer Komponente",
+    "Masse",
+    "Volumen"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q29539*G_Q899138 - G_Q589446"
+   ],
+   "groessen": {
+    "G_Q589446": "Massenkonzentration",
+    "G_Q29539": "Dichte",
+    "G_Q899138": "Massenanteil"
+   },
+   "relation_lesbar": [
+    "[Dichte]*[Massenanteil] - [Massenkonzentration]"
+   ]
+  },
+  {
+   "formeln": [
+    "Massenkonzentration",
+    "Stoffmengenkonzentration",
+    "Molalität"
+   ],
+   "qids": [
+    "Q589446",
+    "Q672821",
+    "Q172623"
+   ],
+   "verbindungen": [
+    "Masse einer Komponente",
+    "Stoffmenge einer Komponente",
+    "Volumen"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q172623*G_Q589446 - G_Q672821"
+   ],
+   "groessen": {
+    "G_Q589446": "Massenkonzentration",
+    "G_Q172623": "Molalität",
+    "G_Q672821": "Stoffmengenkonzentration"
+   },
+   "relation_lesbar": [
+    "[Molalität]*[Massenkonzentration] - [Stoffmengenkonzentration]"
+   ]
+  },
+  {
+   "formeln": [
+    "gyromagnetisches Verhältnis",
+    "magnetisches Dipolmoment",
+    "Kreisfrequenz der Kernpräzession"
+   ],
+   "qids": [
+    "Q634552",
+    "Q97143703",
+    "Q97641779"
+   ],
+   "verbindungen": [
+    "magnetische Flussdichte",
+    "gyromagnetisches Verhältnis",
+    "magnetisches Dipolmoment"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "elektrische Ladungsdichte",
+    "Ionendosis",
+    "Dichte"
+   ],
+   "qids": [
+    "Q69425629",
+    "Q15149637",
+    "Q29539"
+   ],
+   "verbindungen": [
+    "elektrische Ladung",
+    "Masse",
+    "Volumen"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q15149637*G_Q29539 - G_Q69425629"
+   ],
+   "groessen": {
+    "G_Q15149637": "Ionendosis",
+    "G_Q69425629": "elektrische Ladungsdichte",
+    "G_Q29539": "Dichte"
+   },
+   "relation_lesbar": [
+    "[Ionendosis]*[Dichte] - [elektrische Ladungsdichte]"
+   ]
+  },
+  {
+   "formeln": [
+    "Drehmomentstoß",
+    "Drehmomentvektor",
+    "Kraftstoß"
+   ],
+   "qids": [
+    "Q73428743",
+    "Q17232562",
+    "Q837940"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Drehmomentvektor",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Drehmomentstoß",
+    "yank",
+    "Drehmomentvektor"
+   ],
+   "qids": [
+    "Q73428743",
+    "Q924148",
+    "Q17232562"
+   ],
+   "verbindungen": [
+    "Kraft",
+    "Drehmomentvektor",
+    "Dauer"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Satz von König",
+    "Knotenüberdeckungszahl",
+    "Matchingzahl"
+   ],
+   "qids": [
+    "Q897769",
+    "Q93605406",
+    "Q93638909"
+   ],
+   "verbindungen": [
+    "Q93598162",
+    "Q93605406",
+    "Q93638909"
+   ],
+   "ableitung": "abbruch: ValueError"
+  },
+  {
+   "formeln": [
+    "Massenänderungsrate",
+    "Kermaleistung",
+    "Kerma"
+   ],
+   "qids": [
+    "Q92020547",
+    "Q1739280",
+    "Q1739288"
+   ],
+   "verbindungen": [
+    "Masse",
+    "Kerma",
+    "Dauer"
+   ],
+   "ableitung": "ok_mit_unzugeordneten_symbolen",
+   "unzugeordnet": [
+    "dot"
+   ],
+   "relation": [
+    "G_Q2199864*dot - 1"
+   ],
+   "groessen": {
+    "G_Q2199864": "Dauer"
+   },
+   "relation_lesbar": [
+    "[Dauer]*dot - 1"
+   ]
+  },
+  {
+   "formeln": [
+    "Strahlungsenergiedichte",
+    "spektrale Strahlungsenergie",
+    "spektrale Strahlungsenergiedichte bezüglich der Wellenlängle"
+   ],
+   "qids": [
+    "Q15054312",
+    "Q80237041",
+    "Q80372486"
+   ],
+   "verbindungen": [
+    "elektromagnetische Wellenlänge",
+    "elektromagnetische Strahlungsenergie",
+    "Strahlungsenergiedichte"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "spezifische Ausstrahlung",
+    "spektrale Strahlungsleistung",
+    "spektrale spezifische Ausstrahlung"
+   ],
+   "qids": [
+    "Q15054698",
+    "Q81062859",
+    "Q81664734"
+   ],
+   "verbindungen": [
+    "elektromagnetische Wellenlänge",
+    "Strahlungsleistung",
+    "spezifische Ausstrahlung"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "spektrale Strahlungsleistung",
+    "spektrale Bestrahlungsstärke",
+    "Bestrahlungsstärke"
+   ],
+   "qids": [
+    "Q81062859",
+    "Q81382741",
+    "Q830654"
+   ],
+   "verbindungen": [
+    "elektromagnetische Wellenlänge",
+    "Strahlungsleistung",
+    "Bestrahlungsstärke"
+   ],
+   "ableitung": "nicht_geparst"
+  },
+  {
+   "formeln": [
+    "Photonenstrom",
+    "Photonenbestrahlungsstärke",
+    "Photonenbestrahlung"
+   ],
+   "qids": [
+    "Q83699542",
+    "Q83950903",
+    "Q84026278"
+   ],
+   "verbindungen": [
+    "Flächeninhalt",
+    "Photonenanzahl",
+    "Photonenstrom"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q2199864*G_Q83950903 - G_Q84026278"
+   ],
+   "groessen": {
+    "G_Q2199864": "Dauer",
+    "G_Q84026278": "Photonenbestrahlung",
+    "G_Q83950903": "Photonenbestrahlungsstärke"
+   },
+   "relation_lesbar": [
+    "[Dauer]*[Photonenbestrahlungsstärke] - [Photonenbestrahlung]"
+   ]
+  },
+  {
+   "formeln": [
+    "Photonenstrom",
+    "spezifische Photonenausstrahlung",
+    "Photonenbestrahlung"
+   ],
+   "qids": [
+    "Q83699542",
+    "Q84025202",
+    "Q84026278"
+   ],
+   "verbindungen": [
+    "Flächeninhalt",
+    "Photonenanzahl",
+    "Photonenstrom"
+   ],
+   "ableitung": "ok_sauber",
+   "unzugeordnet": [],
+   "relation": [
+    "G_Q2199864*G_Q84025202 - G_Q84026278"
+   ],
+   "groessen": {
+    "G_Q2199864": "Dauer",
+    "G_Q84025202": "spezifische Photonenausstrahlung",
+    "G_Q84026278": "Photonenbestrahlung"
+   },
+   "relation_lesbar": [
+    "[Dauer]*[spezifische Photonenausstrahlung] - [Photonenbestrahlung]"
+   ]
+  }
+ ],
+ "wiederfindung_103": [
+  {
+   "tensor": "FACH-F001",
+   "name": "Logik (historisch gesperrt)",
+   "achse": 3,
+   "rollen": [
+    "funktion",
+    "relation",
+    "struktur"
+   ]
+  },
+  {
+   "tensor": "FACH-F002",
+   "name": "Mengenlehre",
+   "achse": 1,
+   "rollen": [
+    "abbildung",
+    "menge"
+   ]
+  },
+  {
+   "tensor": "FACH-F002",
+   "name": "Mengenlehre",
+   "achse": 2,
+   "rollen": [
+    "element",
+    "potenzmenge",
+    "teilmenge"
+   ]
+  },
+  {
+   "tensor": "FACH-F003",
+   "name": "Algebra",
+   "achse": 1,
+   "rollen": [
+    "gruppe",
+    "wirkung"
+   ]
+  },
+  {
+   "tensor": "FACH-F003",
+   "name": "Algebra",
+   "achse": 3,
+   "rollen": [
+    "bild",
+    "homomorphismus",
+    "kern"
+   ]
+  },
+  {
+   "tensor": "FACH-F004",
+   "name": "Lineare Algebra",
+   "achse": 1,
+   "rollen": [
+    "eigenvektor",
+    "eigenwert",
+    "operator"
+   ]
+  },
+  {
+   "tensor": "FACH-F004",
+   "name": "Lineare Algebra",
+   "achse": 2,
+   "rollen": [
+    "basis",
+    "dimension",
+    "vektorraum"
+   ]
+  },
+  {
+   "tensor": "FACH-F004",
+   "name": "Lineare Algebra",
+   "achse": 3,
+   "rollen": [
+    "determinante",
+    "matrix"
+   ]
+  },
+  {
+   "tensor": "FACH-F005",
+   "name": "Analysis",
+   "achse": 1,
+   "rollen": [
+    "ableitung",
+    "grenzwert",
+    "integral"
+   ]
+  },
+  {
+   "tensor": "FACH-F005",
+   "name": "Analysis",
+   "achse": 2,
+   "rollen": [
+    "ableitung",
+    "funktion"
+   ]
+  },
+  {
+   "tensor": "FACH-F005",
+   "name": "Analysis",
+   "achse": 3,
+   "rollen": [
+    "bestimmtes integral",
+    "stammfunktion"
+   ]
+  },
+  {
+   "tensor": "FACH-F006",
+   "name": "Differentialgleichungen",
+   "achse": 2,
+   "rollen": [
+    "fixpunkt",
+    "vektorfeld"
+   ]
+  },
+  {
+   "tensor": "FACH-F008",
+   "name": "Topologie",
+   "achse": 2,
+   "rollen": [
+    "offene menge",
+    "topologie"
+   ]
+  },
+  {
+   "tensor": "FACH-F009",
+   "name": "Wahrscheinlichkeit",
+   "achse": 1,
+   "rollen": [
+    "ereignis",
+    "erwartungswert",
+    "maß"
+   ]
+  },
+  {
+   "tensor": "FACH-F009",
+   "name": "Wahrscheinlichkeit",
+   "achse": 2,
+   "rollen": [
+    "moment",
+    "zufallsvariable"
+   ]
+  },
+  {
+   "tensor": "FACH-F010",
+   "name": "Statistik",
+   "achse": 1,
+   "rollen": [
+    "parameter",
+    "stichprobe"
+   ]
+  },
+  {
+   "tensor": "FACH-F010",
+   "name": "Statistik",
+   "achse": 2,
+   "rollen": [
+    "modell",
+    "schätzwert"
+   ]
+  },
+  {
+   "tensor": "FACH-F011",
+   "name": "Klassische Mechanik",
+   "achse": 2,
+   "rollen": [
+    "impuls",
+    "koordinate"
+   ]
+  },
+  {
+   "tensor": "FACH-F014",
+   "name": "Spezielle Relativität",
+   "achse": 1,
+   "rollen": [
+    "ereignis",
+    "intervall"
+   ]
+  },
+  {
+   "tensor": "FACH-F016",
+   "name": "Quantenmechanik",
+   "achse": 2,
+   "rollen": [
+    "hamiltonoperator",
+    "zustandsvektor"
+   ]
+  },
+  {
+   "tensor": "FACH-F017",
+   "name": "Quantenfeldtheorie",
+   "achse": 1,
+   "rollen": [
+    "feld",
+    "wirkung"
+   ]
+  },
+  {
+   "tensor": "FACH-F020",
+   "name": "Thermische Physik",
+   "achse": 3,
+   "rollen": [
+    "entropie",
+    "freie energie",
+    "temperatur"
+   ]
+  },
+  {
+   "tensor": "FACH-F021",
+   "name": "Astrophysik",
+   "achse": 2,
+   "rollen": [
+    "gravitationspotential",
+    "masse"
+   ]
+  },
+  {
+   "tensor": "FACH-F028",
+   "name": "Fluiddynamik",
+   "achse": 1,
+   "rollen": [
+    "druck",
+    "geschwindigkeit"
+   ]
+  },
+  {
+   "tensor": "FACH-F029",
+   "name": "Akustik",
+   "achse": 3,
+   "rollen": [
+    "dispersionsrelation",
+    "frequenz",
+    "wellenzahl"
+   ]
+  },
+  {
+   "tensor": "FACH-F031",
+   "name": "Quantenchemie",
+   "achse": 1,
+   "rollen": [
+    "elektronendichte",
+    "energie"
+   ]
+  },
+  {
+   "tensor": "FACH-F031",
+   "name": "Quantenchemie",
+   "achse": 2,
+   "rollen": [
+    "energie",
+    "hamiltonoperator"
+   ]
+  },
+  {
+   "tensor": "FACH-F033",
+   "name": "Thermodynamische Chemie",
+   "achse": 2,
+   "rollen": [
+    "aktivität",
+    "chemisches potential"
+   ]
+  },
+  {
+   "tensor": "FACH-F045",
+   "name": "Biophysik",
+   "achse": 1,
+   "rollen": [
+    "energie",
+    "struktur"
+   ]
+  },
+  {
+   "tensor": "FACH-F045",
+   "name": "Biophysik",
+   "achse": 2,
+   "rollen": [
+    "freie energie",
+    "population"
+   ]
+  },
+  {
+   "tensor": "FACH-F052",
+   "name": "Pharmakokinetik",
+   "achse": 3,
+   "rollen": [
+    "exposition",
+    "halbwertszeit"
+   ]
+  },
+  {
+   "tensor": "FACH-F053",
+   "name": "Pharmakodynamik",
+   "achse": 1,
+   "rollen": [
+    "konzentration",
+    "wirkung"
+   ]
+  },
+  {
+   "tensor": "FACH-F056",
+   "name": "Kardiovaskuläre Medizin",
+   "achse": 2,
+   "rollen": [
+    "druckgradient",
+    "volumenstrom"
+   ]
+  },
+  {
+   "tensor": "FACH-F069",
+   "name": "Informationstheorie",
+   "achse": 2,
+   "rollen": [
+    "bedingte entropie",
+    "entropie"
+   ]
+  },
+  {
+   "tensor": "FACH-F083",
+   "name": "Finanzwissenschaft",
+   "achse": 3,
+   "rollen": [
+    "gewichtung",
+    "kovarianz"
+   ]
+  },
+  {
+   "tensor": "FACH-F093",
+   "name": "Materialwissenschaft",
+   "achse": 2,
+   "rollen": [
+    "defekt",
+    "kristallstruktur"
+   ]
+  }
+ ]
+}
