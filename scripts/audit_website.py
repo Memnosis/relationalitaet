@@ -140,6 +140,8 @@ def main() -> int:
             if not target.is_relative_to(DOCS.resolve()):
                 errors.append((source, "path outside docs: " + raw))
                 continue
+            if target.is_dir():
+                target = target / "index.html"
             if not target.is_file():
                 errors.append((source, "missing local file: " + raw))
                 continue
