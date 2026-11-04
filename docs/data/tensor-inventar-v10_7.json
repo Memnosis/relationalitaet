@@ -1,0 +1,3933 @@
+{
+  "schema": "tensor-public-inventory/1.0",
+  "generated_date": "2026-11-04",
+  "original_title": "KI-Tensor v10.7: 103 parallele Tensorgrundgerüste",
+  "provenance": {
+    "source": "KI_Tensor_v10_7_Gesamtinventar.md",
+    "source_kind": "user_provided_historical_inventory",
+    "public_audit": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/IMPORTAUDIT_DREI_NOLOSS_ARCHIVE_2026-11-03.md"
+  },
+  "limitations": "103 Strukturentwürfe, keine 103 mathematisch validierten Tensoren; Achse 2 und 3 vielfach neue Kandidaten. Keine Feld-für-Feld-Bestätigung; 27 Positionen sind Adressen.",
+  "stats": {
+    "tensor_scaffolds": 103,
+    "triad_axes": 309,
+    "field_addresses": 2781,
+    "verified_completed_tensors": null
+  },
+  "tensors": [
+    {
+      "id": "FACH-F001",
+      "name": "Logik (historisch gesperrt)",
+      "axes": [
+        {
+          "n": 1,
+          "status": "HISTORISCH_RESERVIERT",
+          "elements": [
+            "Syntax",
+            "Semantik",
+            "Beweis"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "HISTORISCH_RESERVIERT",
+          "elements": [
+            "Rel0",
+            "Rel-Rel",
+            "Rel1"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "HISTORISCH_RESERVIERT",
+          "elements": [
+            "Struktur",
+            "Funktion",
+            "Relation"
+          ]
+        }
+      ],
+      "model": "Modelltheorie",
+      "formula_anchor": "Vollständigkeitssatz nur für spezifizierte Kalküle",
+      "measure": "Gültigkeit, Erfüllbarkeit",
+      "status": "historisch_gesperrt",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F002",
+      "name": "Mengenlehre",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Menge",
+            "Abbildung",
+            "Kardinalität"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Element",
+            "Teilmenge",
+            "Potenzmenge"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Injektion",
+            "Surjektion",
+            "Bijektion"
+          ]
+        }
+      ],
+      "model": "ZFC, Mengenfunktionen",
+      "formula_anchor": "Kardinalität unter Bijektionen invariant",
+      "measure": "Mächtigkeit",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F003",
+      "name": "Algebra",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Gruppe",
+            "Wirkung",
+            "Orbit"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Untergruppe",
+            "Nebenklasse",
+            "Quotient"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Homomorphismus",
+            "Kern",
+            "Bild"
+          ]
+        }
+      ],
+      "model": "Orbit-Stabilisator",
+      "formula_anchor": "Orbit-Stabilisator-Satz für passende Gruppen",
+      "measure": "Stabilisator, Bahngröße",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F004",
+      "name": "Lineare Algebra",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Operator",
+            "Eigenvektor",
+            "Eigenwert"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Vektorraum",
+            "Basis",
+            "Dimension"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Matrix",
+            "Determinante",
+            "Invertierbarkeit"
+          ]
+        }
+      ],
+      "model": "Spektralsatz",
+      "formula_anchor": "Av=λv",
+      "measure": "Spektrum",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F005",
+      "name": "Analysis",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Grenzwert",
+            "Ableitung",
+            "Integral"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Funktion",
+            "Differenzierbarkeit",
+            "Ableitung"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Integrand",
+            "Stammfunktion",
+            "bestimmtes Integral"
+          ]
+        }
+      ],
+      "model": "Fundamentalsatz",
+      "formula_anchor": "∫f′=f(b)−f(a)",
+      "measure": "Änderungsrate, Flächenmaß",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F006",
+      "name": "Differentialgleichungen",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Zustand",
+            "Dynamik",
+            "Anfangswert"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Vektorfeld",
+            "Trajektorie",
+            "Fixpunkt"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Anfangsdaten",
+            "Lösungsoperator",
+            "Stabilität"
+          ]
+        }
+      ],
+      "model": "ODE/PDE",
+      "formula_anchor": "Anfangswertproblem x(t0)=x0",
+      "measure": "Zeitverlauf",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F007",
+      "name": "Geometrie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Raum",
+            "Metrik",
+            "Krümmung"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Punkt",
+            "Abstand",
+            "Geodäte"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Mannigfaltigkeit",
+            "Verbindung",
+            "Krümmungstensor"
+          ]
+        }
+      ],
+      "model": "Riemanngeometrie",
+      "formula_anchor": "Riemann-Krümmung, Zusatzannahmen",
+      "measure": "Distanz, Krümmung",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F008",
+      "name": "Topologie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Raum",
+            "Stetigkeit",
+            "Homotopie"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Offene Menge",
+            "Topologie",
+            "Stetigkeit"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Schleife",
+            "Homotopie",
+            "Fundamentalgruppe"
+          ]
+        }
+      ],
+      "model": "Algebraische Topologie",
+      "formula_anchor": "π₁(X)",
+      "measure": "Invarianten",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F009",
+      "name": "Wahrscheinlichkeit",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Ereignis",
+            "Maß",
+            "Erwartungswert"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Zufallsvariable",
+            "Verteilung",
+            "Moment"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Bedingung",
+            "bedingte Wahrscheinlichkeit",
+            "Bayes-Update"
+          ]
+        }
+      ],
+      "model": "Kolmogorov",
+      "formula_anchor": "E[X]=∫X dP",
+      "measure": "Häufigkeiten, Momente",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F010",
+      "name": "Statistik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Parameter",
+            "Stichprobe",
+            "Schätzer"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Modell",
+            "Likelihood",
+            "Schätzwert"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Nullhypothese",
+            "Teststatistik",
+            "Fehlerwahrscheinlichkeit"
+          ]
+        }
+      ],
+      "model": "Likelihood",
+      "formula_anchor": "L(θ)=∏p(x_i|θ)",
+      "measure": "Bias, Varianz",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F011",
+      "name": "Klassische Mechanik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Zustand",
+            "Hamiltonfunktion",
+            "Fluss"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Koordinate",
+            "Impuls",
+            "Hamiltonfunktion"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Symmetrie",
+            "Erhaltungsgröße",
+            "Poissonklammer"
+          ]
+        }
+      ],
+      "model": "Hamiltonmechanik",
+      "formula_anchor": "q̇=∂H/∂p; ṗ=−∂H/∂q",
+      "measure": "Position, Impuls",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F012",
+      "name": "Kontinuumsmechanik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Deformation",
+            "Spannung",
+            "Bilanz"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Verschiebungsfeld",
+            "Verzerrung",
+            "Spannung"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Dichte",
+            "Impulsfluss",
+            "Bilanzgleichung"
+          ]
+        }
+      ],
+      "model": "Cauchy-Bilanz",
+      "formula_anchor": "ρa=∇·σ+f",
+      "measure": "Dehnung, Kraft",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F013",
+      "name": "Elektrodynamik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Feldtensor",
+            "Viererstrom",
+            "Feldgleichung"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Potential",
+            "Feldstärke",
+            "Feldtensor"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Ladung",
+            "Kontinuitätsgleichung",
+            "Maxwellgleichung"
+          ]
+        }
+      ],
+      "model": "Maxwell",
+      "formula_anchor": "∂μF^{μν}=μ0Jν (Einheitenwahl)",
+      "measure": "E, B, Strom",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F014",
+      "name": "Spezielle Relativität",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Ereignis",
+            "Lorentztransformation",
+            "Intervall"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Raumzeitpunkt",
+            "Weltlinie",
+            "Eigenzeit"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Vierervektor",
+            "Minkowskimetrik",
+            "Invariante"
+          ]
+        }
+      ],
+      "model": "Minkowski",
+      "formula_anchor": "ds²=η_μνdx^μdx^ν",
+      "measure": "Eigenzeit",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F015",
+      "name": "Allgemeine Relativität",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Metrik",
+            "Krümmung",
+            "Energieimpuls"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Raumzeitmetrik",
+            "Christoffelsymbol",
+            "Geodäte"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Energie-Impuls-Tensor",
+            "Einstein-Tensor",
+            "Feldgleichung"
+          ]
+        }
+      ],
+      "model": "Einstein",
+      "formula_anchor": "Gμν+Λgμν=κTμν",
+      "measure": "Rotverschiebung, Linsen",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F016",
+      "name": "Quantenmechanik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Zustand",
+            "Operator",
+            "Messwahrscheinlichkeit"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Zustandsvektor",
+            "Hamiltonoperator",
+            "Zeitentwicklung"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Observable",
+            "Spektralprojektor",
+            "Bornwahrscheinlichkeit"
+          ]
+        }
+      ],
+      "model": "Born-Regel",
+      "formula_anchor": "p=Tr(ρE)",
+      "measure": "Spektren, Wahrscheinlichkeiten",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F017",
+      "name": "Quantenfeldtheorie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Feld",
+            "Wirkung",
+            "Korrelator"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Feldoperator",
+            "Vakuum",
+            "Korrelator"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Symmetrie",
+            "Noetherstrom",
+            "Wardidentität"
+          ]
+        }
+      ],
+      "model": "Pfadintegral",
+      "formula_anchor": "Z[J]=∫Dφ e^{iS+iJφ}",
+      "measure": "Streuquerschnitte",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F018",
+      "name": "Starke Wechselwirkung",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Farbladung",
+            "Gluonfeld",
+            "Hadronenspektrum"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Eichgruppe",
+            "Farbladung",
+            "kovariante Ableitung"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Wilson-Schleife",
+            "statisches Potential",
+            "Confinement"
+          ]
+        }
+      ],
+      "model": "QCD",
+      "formula_anchor": "QCD-Dynamik/Confinement als zusätzliche Brücke",
+      "measure": "Hadronmasse, Wilsonloop",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F019",
+      "name": "Elektroschwache Theorie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Eichkopplung",
+            "Higgs-Vakuum",
+            "Spektrum"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Eichsymmetrie",
+            "Higgsfeld",
+            "Vakuumerwartungswert"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Yukawakopplung",
+            "Massenterm",
+            "Fermionspektrum"
+          ]
+        }
+      ],
+      "model": "Standardmodell",
+      "formula_anchor": "mW=gv/2; Yukawa-Masse mf=yfv/√2",
+      "measure": "W/Z/H-Massen",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F020",
+      "name": "Thermische Physik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Mikrozustand",
+            "Zustandssumme",
+            "freie Energie"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Mikrozustand",
+            "Energie",
+            "Boltzmanngewicht"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Temperatur",
+            "Entropie",
+            "freie Energie"
+          ]
+        }
+      ],
+      "model": "Kanonisches Ensemble",
+      "formula_anchor": "F=−k_BT ln Z",
+      "measure": "T, Entropie",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F021",
+      "name": "Astrophysik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Gravitation",
+            "Strahlung",
+            "Materie"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Masse",
+            "Gravitationspotential",
+            "Hydrostatik"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Emissivität",
+            "Strahlungsfluss",
+            "Spektrum"
+          ]
+        }
+      ],
+      "model": "Sternstruktur",
+      "formula_anchor": "dP/dr=−Gmρ/r²",
+      "measure": "Spektren, Lichtkurven",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F022",
+      "name": "Kosmologie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Skalenfaktor",
+            "Materieinhalt",
+            "Expansion"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Metrik",
+            "Skalenfaktor",
+            "Hubbleparameter"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Energiedichte",
+            "Druck",
+            "Friedmann-Gleichung"
+          ]
+        }
+      ],
+      "model": "FLRW",
+      "formula_anchor": "H²=(8πG/3)ρ−kc²/a²+Λc²/3",
+      "measure": "H(z)",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F023",
+      "name": "Planetologie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Energieeintrag",
+            "Atmosphäre",
+            "Klima"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Strahlungsfluss",
+            "Albedo",
+            "Energiebilanz"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Temperaturprofil",
+            "Konvektion",
+            "Atmosphärenzirkulation"
+          ]
+        }
+      ],
+      "model": "Energiebilanz",
+      "formula_anchor": "(1−α)S/4=σεT⁴",
+      "measure": "Albedo, Temperatur",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F024",
+      "name": "Festkörperphysik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Gitter",
+            "Bandstruktur",
+            "Transport"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Periodisches Potential",
+            "Blochzustand",
+            "Energieband"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Fermi-Fläche",
+            "Streuzeit",
+            "Leitfähigkeit"
+          ]
+        }
+      ],
+      "model": "Bloch/Drude",
+      "formula_anchor": "σ=ne²τ/m",
+      "measure": "Leitfähigkeit",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F025",
+      "name": "Supraleitung",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Ordnungsparameter",
+            "Kopplung",
+            "Kohärenz"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Paarpotential",
+            "Ordnungsparameter",
+            "Energielücke"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Magnetfeld",
+            "Flussquant",
+            "Vortex"
+          ]
+        }
+      ],
+      "model": "BCS/GL",
+      "formula_anchor": "Δ(T)",
+      "measure": "kritische Temperatur",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F026",
+      "name": "Quantenoptik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Photonenzustand",
+            "Wechselwirkung",
+            "Detektion"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Quantenzustand",
+            "Licht-Materie-Hamiltonoperator",
+            "Übergangsrate"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Photonenzahl",
+            "Korrelationsfunktion",
+            "Detektionsstatistik"
+          ]
+        }
+      ],
+      "model": "Jaynes-Cummings",
+      "formula_anchor": "H=ℏωa†a+ℏg(a†σ₋+aσ₊)",
+      "measure": "Photonenstatistik",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F027",
+      "name": "Plasmaphysik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Teilchenverteilung",
+            "Feld",
+            "kollektive Mode"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Verteilungsfunktion",
+            "Vlasovgleichung",
+            "Plasmamode"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Ladungsdichte",
+            "Feld",
+            "Abschirmlänge"
+          ]
+        }
+      ],
+      "model": "Vlasov-Poisson",
+      "formula_anchor": "∂_t f+v·∇f+(q/m)E·∂_v f=0",
+      "measure": "Dichte, Frequenz",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F028",
+      "name": "Fluiddynamik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Geschwindigkeit",
+            "Druck",
+            "Viskosität"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Strömungsfeld",
+            "Kontinuitätsgleichung",
+            "Masseerhaltung"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Spannungstensor",
+            "Viskosität",
+            "Navier-Stokes-Gleichung"
+          ]
+        }
+      ],
+      "model": "Navier-Stokes",
+      "formula_anchor": "ρDv/Dt=−∇p+μ∇²v",
+      "measure": "Reynolds-Zahl",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F029",
+      "name": "Akustik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Druckstörung",
+            "Medium",
+            "Welle"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Dichtestörung",
+            "Druckstörung",
+            "Schallgeschwindigkeit"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Wellenzahl",
+            "Frequenz",
+            "Dispersionsrelation"
+          ]
+        }
+      ],
+      "model": "Wellengleichung",
+      "formula_anchor": "∂²p/∂t²=c²∇²p",
+      "measure": "Schalldruck",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F030",
+      "name": "Geophysik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Geometrie",
+            "Material",
+            "Welle"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Elastizität",
+            "Dichte",
+            "Wellengeschwindigkeit"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Quelle",
+            "Wellenfeld",
+            "Seismogramm"
+          ]
+        }
+      ],
+      "model": "Seismische Wellen",
+      "formula_anchor": "ρü=∇·σ",
+      "measure": "Laufzeiten",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F031",
+      "name": "Quantenchemie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Orbitale",
+            "Elektronendichte",
+            "Energie"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Hamiltonoperator",
+            "Elektronenwellenfunktion",
+            "Energie"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Dichtefunktional",
+            "Elektronendichte",
+            "Grundzustandsenergie"
+          ]
+        }
+      ],
+      "model": "DFT/Hartree-Fock",
+      "formula_anchor": "E[n] und KS-Orbitale",
+      "measure": "Bindungsenergie",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F032",
+      "name": "Bindungschemie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Geometrie",
+            "Potentialfläche",
+            "Vibrationsmode"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Kernkoordinate",
+            "Potentialenergie",
+            "Kraft"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Gleichgewichtsgeometrie",
+            "Hesse-Matrix",
+            "Normalmode"
+          ]
+        }
+      ],
+      "model": "Born-Oppenheimer",
+      "formula_anchor": "F_i=−∂E/∂R_i",
+      "measure": "Bindungslänge, IR",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F033",
+      "name": "Thermodynamische Chemie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "chemisches Potential",
+            "ΔG",
+            "Gleichgewicht"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Aktivität",
+            "chemisches Potential",
+            "Reaktions-Gibbsenergie"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Standardreaktionsenergie",
+            "Gleichgewichtskonstante",
+            "Reaktionsquotient"
+          ]
+        }
+      ],
+      "model": "Gibbs",
+      "formula_anchor": "ΔrG=Σνi μi",
+      "measure": "K, pH",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F034",
+      "name": "Reaktionskinetik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Mechanismus",
+            "Rate",
+            "Konzentrationsverlauf"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Energiebarriere",
+            "Übergangszustand",
+            "Geschwindigkeitskonstante"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Stöchiometrie",
+            "Geschwindigkeitsgesetz",
+            "Konzentrationsprofil"
+          ]
+        }
+      ],
+      "model": "Mass-Action/Eyring",
+      "formula_anchor": "dc/dt=S v(c)",
+      "measure": "k, t½",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F035",
+      "name": "Elektrochemie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Redoxpaar",
+            "Aktivität",
+            "Elektrodenpotential"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Elektronenaktivität",
+            "Redoxpotential",
+            "Nernstbeziehung"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Überpotential",
+            "Stromdichte",
+            "Austauschstrom"
+          ]
+        }
+      ],
+      "model": "Nernst",
+      "formula_anchor": "E=E°−RT/(nF)ln Q",
+      "measure": "E, I",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F036",
+      "name": "Photochemie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Absorption",
+            "Anregung",
+            "Relaxation"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Photonenfluss",
+            "Absorptionsquerschnitt",
+            "Anregungsrate"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "angeregter Zustand",
+            "Konkurrenzkanal",
+            "Quantenausbeute"
+          ]
+        }
+      ],
+      "model": "Jablonski",
+      "formula_anchor": "Φ=k_r/Σk",
+      "measure": "Quantenausbeute",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F037",
+      "name": "Supramolekulare Chemie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Erkennung",
+            "Bindung",
+            "Selbstorganisation"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Wirtsmolekül",
+            "Gastmolekül",
+            "Komplex"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Bindungskonstante",
+            "Belegungsgrad",
+            "Sättigung"
+          ]
+        }
+      ],
+      "model": "Host-Guest",
+      "formula_anchor": "θ=c/(K_d+c)",
+      "measure": "K_d, Population",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F038",
+      "name": "Polymerchemie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Monomer",
+            "Kettenwachstum",
+            "Verteilung"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Initiierung",
+            "Propagation",
+            "Termination"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Polymerisationsgrad",
+            "Molmassenverteilung",
+            "Dispersität"
+          ]
+        }
+      ],
+      "model": "Carothers",
+      "formula_anchor": "X_n=1/(1−p)",
+      "measure": "M_n, Dispersität",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F039",
+      "name": "Katalyse",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Adsorption",
+            "Reaktionsschritt",
+            "Desorption"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Oberflächenplatz",
+            "Adsorbat",
+            "Bedeckung"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Reaktionsbarriere",
+            "Turnoverfrequenz",
+            "Selektivität"
+          ]
+        }
+      ],
+      "model": "Langmuir-Hinshelwood",
+      "formula_anchor": "θ=KC/(1+KC)",
+      "measure": "Turnover",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F040",
+      "name": "Analytische Chemie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Analyt",
+            "Messsignal",
+            "Kalibrierung"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Analytkonzentration",
+            "Antwortfunktion",
+            "Signal"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Blindwert",
+            "Messunsicherheit",
+            "Nachweisgrenze"
+          ]
+        }
+      ],
+      "model": "Beer-Lambert",
+      "formula_anchor": "A=εlc",
+      "measure": "Konzentration, LOD",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F041",
+      "name": "Molekularbiologie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Gen",
+            "Transkript",
+            "Protein"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Promotor",
+            "Transkriptionsrate",
+            "mRNA-Menge"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Translation",
+            "Proteinmenge",
+            "Abbaurate"
+          ]
+        }
+      ],
+      "model": "zentraler Informationsfluss",
+      "formula_anchor": "Transkriptions-/Translationsmodell",
+      "measure": "Expression",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F042",
+      "name": "Genetik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Genotyp",
+            "Segregation",
+            "Phänotyp"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Allel",
+            "Genotyp",
+            "Segregationswahrscheinlichkeit"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Vererbung",
+            "Umwelt",
+            "Phänotyp"
+          ]
+        }
+      ],
+      "model": "Mendel/Populationsgenetik",
+      "formula_anchor": "p²+2pq+q²=1",
+      "measure": "Allelfrequenz",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F043",
+      "name": "Systembiologie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Netzwerk",
+            "Zustand",
+            "Regulation"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Netzwerktopologie",
+            "Reaktionsregel",
+            "Systemzustand"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Rückkopplung",
+            "Attraktor",
+            "Stabilität"
+          ]
+        }
+      ],
+      "model": "ODE-Regulationsnetz",
+      "formula_anchor": "ẋ=f(x,θ)",
+      "measure": "Zeitreihen",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F044",
+      "name": "Zellbiologie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Membran",
+            "Transport",
+            "Homöostase"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Membranpotential",
+            "Ionenkanal",
+            "Strom"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Konzentrationsgradient",
+            "Transporter",
+            "Fluss"
+          ]
+        }
+      ],
+      "model": "Goldman-Hodgkin-Katz",
+      "formula_anchor": "V_m≈(RT/F)ln(P_i c_o/P_i c_i)",
+      "measure": "Membranpotential",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F045",
+      "name": "Biophysik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Struktur",
+            "Energie",
+            "Konformation"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Konformation",
+            "freie Energie",
+            "Population"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Kraftfeld",
+            "Dynamik",
+            "Übergangsrate"
+          ]
+        }
+      ],
+      "model": "Statistische Mechanik",
+      "formula_anchor": "p_i∝e^{-E_i/kT}",
+      "measure": "Faltung",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F046",
+      "name": "Evolution",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Variation",
+            "Selektion",
+            "Vererbung"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Mutation",
+            "Variation",
+            "Allelfrequenz"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Fitness",
+            "Selektion",
+            "Frequenzänderung"
+          ]
+        }
+      ],
+      "model": "Replikatordynamik",
+      "formula_anchor": "ṗ_i=p_i(f_i−f̄)",
+      "measure": "Fitness, Allelfrequenz",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F047",
+      "name": "Ökologie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Population",
+            "Interaktion",
+            "Ressourcen"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Individuum",
+            "Population",
+            "Wachstumsrate"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Ressource",
+            "Konkurrenz",
+            "Tragfähigkeit"
+          ]
+        }
+      ],
+      "model": "Lotka-Volterra",
+      "formula_anchor": "ẋ=αx−βxy",
+      "measure": "Artenzahl, Biomasse",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F048",
+      "name": "Mikrobiologie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Substrat",
+            "Wachstum",
+            "Hemmung"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Nährstoff",
+            "Aufnahmerate",
+            "Wachstum"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Wirkstoffkonzentration",
+            "Hemmung",
+            "Überlebensrate"
+          ]
+        }
+      ],
+      "model": "Monod",
+      "formula_anchor": "μ=μmax S/(K_s+S)",
+      "measure": "Wachstumsrate",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F049",
+      "name": "Neurobiologie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Erregung",
+            "Synapse",
+            "Netzwerk"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Membranpotential",
+            "Schwelle",
+            "Aktionspotential"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Synapsenstärke",
+            "Plastizität",
+            "Netzwerkausgang"
+          ]
+        }
+      ],
+      "model": "Hodgkin-Huxley",
+      "formula_anchor": "C_m dV/dt=I−Σg_i(V−E_i)",
+      "measure": "Spikes",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F050",
+      "name": "Klimasysteme",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Strahlungsbilanz",
+            "Rückkopplung",
+            "Temperatur"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Strahlungsantrieb",
+            "Rückkopplungsparameter",
+            "Temperaturantwort"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Atmosphäre",
+            "Ozean",
+            "Wärmespeicherung"
+          ]
+        }
+      ],
+      "model": "Energiebilanzmodelle",
+      "formula_anchor": "C dT/dt=F−λT",
+      "measure": "Anomalien",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F051",
+      "name": "Physiologie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Regelgröße",
+            "Sensor",
+            "Effektor"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Sollwert",
+            "Istwert",
+            "Regelabweichung"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Sensorik",
+            "Steuerung",
+            "Rückkopplung"
+          ]
+        }
+      ],
+      "model": "Regelkreismodell",
+      "formula_anchor": "ẋ=f(x,u)",
+      "measure": "Blutdruck, Glukose",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F052",
+      "name": "Pharmakokinetik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Dosis",
+            "Konzentration",
+            "Elimination"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Absorption",
+            "Verteilungsvolumen",
+            "Plasmakonzentration"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Clearance",
+            "Halbwertszeit",
+            "Exposition"
+          ]
+        }
+      ],
+      "model": "Kompartimentmodell",
+      "formula_anchor": "dC/dt=−kC",
+      "measure": "C(t), Halbwert",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F053",
+      "name": "Pharmakodynamik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Konzentration",
+            "Rezeptorbelegung",
+            "Wirkung"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Ligandenkonzentration",
+            "Affinität",
+            "Rezeptorbelegung"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Signaltransduktion",
+            "Dosis-Wirkung",
+            "Maximalwirkung"
+          ]
+        }
+      ],
+      "model": "Emax-Modell",
+      "formula_anchor": "E=Emax C/(EC50+C)",
+      "measure": "Emax, EC50",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F054",
+      "name": "Epidemiologie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Suszeptible",
+            "Infizierte",
+            "Genesene"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Kontaktmatrix",
+            "Transmissionsrate",
+            "Reproduktionszahl"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Suszeptible",
+            "Infizierte",
+            "Genesene"
+          ]
+        }
+      ],
+      "model": "SIR",
+      "formula_anchor": "dS/dt=-βSI/N",
+      "measure": "Inzidenz, R",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F055",
+      "name": "Immunologie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Antigen",
+            "Erkennung",
+            "Effektor"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Antigenpräsentation",
+            "T-Zell-Erkennung",
+            "Aktivierung"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Antikörper",
+            "Affinität",
+            "Neutralisation"
+          ]
+        }
+      ],
+      "model": "Bindungs-/Populationsmodelle",
+      "formula_anchor": "θ=c/(K_d+c)",
+      "measure": "Titer, Zellantwort",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F056",
+      "name": "Kardiovaskuläre Medizin",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Druck",
+            "Fluss",
+            "Widerstand"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Druckgradient",
+            "Gefäßwiderstand",
+            "Volumenstrom"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Herzfrequenz",
+            "Schlagvolumen",
+            "Herzzeitvolumen"
+          ]
+        }
+      ],
+      "model": "Hämodynamik",
+      "formula_anchor": "ΔP=RQ",
+      "measure": "Druck, Herzzeitvolumen",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F057",
+      "name": "Neurowissenschaften",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Signal",
+            "neuronale Verarbeitung",
+            "Verhalten"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Reiz",
+            "Spikezug",
+            "Kodierung"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Schaltkreis",
+            "Aktivierung",
+            "Verhalten"
+          ]
+        }
+      ],
+      "model": "neuronale Kodierung",
+      "formula_anchor": "I(X;Y)=Σp log[p/(p_xp_y)]",
+      "measure": "EEG, Verhalten",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F058",
+      "name": "Diagnostik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Test",
+            "Sensitivität",
+            "Nachtestwahrscheinlichkeit"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Prävalenz",
+            "Sensitivität",
+            "positiver Vorhersagewert"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Spezifität",
+            "Likelihood-Ratio",
+            "Posteriorwahrscheinlichkeit"
+          ]
+        }
+      ],
+      "model": "Bayes",
+      "formula_anchor": "Bayes-Formel",
+      "measure": "ROC, PPV",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F059",
+      "name": "Gesundheitssystemforschung",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Bedarf",
+            "Versorgung",
+            "Ergebnis"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Gesundheitsbedarf",
+            "Ressourcen",
+            "Zugänglichkeit"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Intervention",
+            "Qualität",
+            "Outcome"
+          ]
+        }
+      ],
+      "model": "Versorgungsmodelle",
+      "formula_anchor": "Rate=Ereignisse/Personzeit",
+      "measure": "Zugang, Outcome",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F060",
+      "name": "Psychiatrieforschung",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Symptome",
+            "latentes Merkmal",
+            "Verlauf"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Latente Variable",
+            "Itemantwort",
+            "Messmodell"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Symptomverlauf",
+            "Intervention",
+            "Zustandsänderung"
+          ]
+        }
+      ],
+      "model": "IRT/Längsschnitt",
+      "formula_anchor": "P(Y=1|θ)=logit^{-1}(a(θ−b))",
+      "measure": "Skalen, Funktion",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F061",
+      "name": "Algorithmen",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Problem",
+            "Algorithmus",
+            "Komplexität"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Eingabe",
+            "Problemgröße",
+            "Laufzeit"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Algorithmus",
+            "Korrektheit",
+            "Terminierung"
+          ]
+        }
+      ],
+      "model": "Komplexitätstheorie",
+      "formula_anchor": "T(n)=O(n log n)",
+      "measure": "Laufzeit, Fehler",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F062",
+      "name": "Datenbanken",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Schema",
+            "Abfrage",
+            "Integrität"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Relation",
+            "Schlüssel",
+            "funktionale Abhängigkeit"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Transaktion",
+            "Isolation",
+            "Konsistenz"
+          ]
+        }
+      ],
+      "model": "Relationale Algebra",
+      "formula_anchor": "π_A(σ_P(R))",
+      "measure": "Abfragezeit, Constraint",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F063",
+      "name": "Programmiersprachen",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Syntax",
+            "Typ",
+            "Semantik"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Ausdruck",
+            "Typregel",
+            "Typurteil"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Operationalsemantik",
+            "Reduktionsschritt",
+            "Ergebnis"
+          ]
+        }
+      ],
+      "model": "Typsysteme",
+      "formula_anchor": "Γ⊢e:τ",
+      "measure": "Typfehler",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F064",
+      "name": "Maschinelles Lernen",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Daten",
+            "Modell",
+            "Verlust"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Stichprobe",
+            "Hypothesenklasse",
+            "Generalisierungsfehler"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Parameter",
+            "Verlustfunktion",
+            "Gradientenupdate"
+          ]
+        }
+      ],
+      "model": "ERM",
+      "formula_anchor": "θ*=argmin L(θ)",
+      "measure": "Generalisation",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F065",
+      "name": "Deep Learning",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Repräsentation",
+            "Netzwerk",
+            "Gradienten"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Schicht",
+            "Aktivierungsfunktion",
+            "Repräsentation"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Backpropagation",
+            "Gradient",
+            "Gewichtsupdate"
+          ]
+        }
+      ],
+      "model": "Backpropagation",
+      "formula_anchor": "∇θL",
+      "measure": "Loss, Aktivierungen",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F066",
+      "name": "Sprachmodelle",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Token",
+            "Kontext",
+            "Vorhersage"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Tokenfolge",
+            "Konditionalverteilung",
+            "Log-Likelihood"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Embedding",
+            "Attention",
+            "Kontextrepräsentation"
+          ]
+        }
+      ],
+      "model": "Autoregression",
+      "formula_anchor": "p(x_t|x_<t)",
+      "measure": "Perplexity",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F067",
+      "name": "Reinforcement Learning",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Zustand",
+            "Aktion",
+            "Belohnung"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Zustandsübergang",
+            "Policy",
+            "Wertfunktion"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Belohnung",
+            "Bellmanoperator",
+            "optimaler Wert"
+          ]
+        }
+      ],
+      "model": "Bellman",
+      "formula_anchor": "V(s)=max_a E[r+γV(s′)]",
+      "measure": "Return",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F068",
+      "name": "KI-Sicherheit",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Ziel",
+            "Verteilungsschift",
+            "Evaluation"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Angriffsmodell",
+            "Bedrohung",
+            "Testfall"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Zielvorgabe",
+            "Messkriterium",
+            "Evaluationsbefund"
+          ]
+        }
+      ],
+      "model": "Robuste Optimierung",
+      "formula_anchor": "Robustheits- und Risikomessung",
+      "measure": "Robustheit, Fehler",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F069",
+      "name": "Informationstheorie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Quelle",
+            "Kanal",
+            "Empfänger"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Entropie",
+            "bedingte Entropie",
+            "Information"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Kanaleingang",
+            "Übergangswahrscheinlichkeit",
+            "Kanalkapazität"
+          ]
+        }
+      ],
+      "model": "Shannon",
+      "formula_anchor": "I(X;Y)=Σp log[p/(px py)]",
+      "measure": "Entropie, Kapazität",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F070",
+      "name": "Computernetzwerke",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Knoten",
+            "Protokoll",
+            "Datenfluss"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Paket",
+            "Routing",
+            "Laufzeit"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Übertragung",
+            "Fehlerkontrolle",
+            "Zuverlässigkeit"
+          ]
+        }
+      ],
+      "model": "Queueing",
+      "formula_anchor": "L=λW",
+      "measure": "Latenz, Durchsatz",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F071",
+      "name": "Phonetik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Artikulation",
+            "Schallsignal",
+            "Wahrnehmung"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Sprechapparat",
+            "Artikulationsgeste",
+            "Akustik"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Schallspektrum",
+            "Merkmalsextraktion",
+            "Lautwahrnehmung"
+          ]
+        }
+      ],
+      "model": "Akustische Phonetik",
+      "formula_anchor": "f=1/T",
+      "measure": "F0, Formanten",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F072",
+      "name": "Phonologie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Phonem",
+            "Kontrast",
+            "Lautsystem"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Lautkontrast",
+            "Phonem",
+            "Minimalpaar"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Merkmalsmatrix",
+            "phonologische Regel",
+            "Oberflächenform"
+          ]
+        }
+      ],
+      "model": "Merkmalsphonologie",
+      "formula_anchor": "feature matrices",
+      "measure": "Minimalpaare",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F073",
+      "name": "Morphologie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Morphem",
+            "Kombination",
+            "Wortform"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Morphem",
+            "Allomorphie",
+            "Wortbildung"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Stamm",
+            "Affix",
+            "Flexionsmerkmal"
+          ]
+        }
+      ],
+      "model": "Finite-State Morphology",
+      "formula_anchor": "FST: stems→forms",
+      "measure": "Produktivität",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F074",
+      "name": "Syntax",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Konstituente",
+            "Abhängigkeit",
+            "Struktur"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Konstituente",
+            "Rekursionsregel",
+            "Parsebaum"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Dependenz",
+            "Kopf",
+            "Satzstruktur"
+          ]
+        }
+      ],
+      "model": "Dependenzgrammatik",
+      "formula_anchor": "P(parse|sentence)",
+      "measure": "Parsing",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F075",
+      "name": "Semantik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Ausdruck",
+            "Bedeutung",
+            "Referenz"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Ausdruck",
+            "Denotation",
+            "Wahrheitsbedingung"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Referent",
+            "Kontext",
+            "Interpretation"
+          ]
+        }
+      ],
+      "model": "Kompositionale Semantik",
+      "formula_anchor": "Kompositionelle Semantik kontextabhängig",
+      "measure": "Wahrheitsbedingungen",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F076",
+      "name": "Pragmatik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Äußerung",
+            "Kontext",
+            "Sprecherintention"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Äußerung",
+            "Sprecherannahme",
+            "Implikatur"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Sprechakt",
+            "soziale Situation",
+            "kommunikative Wirkung"
+          ]
+        }
+      ],
+      "model": "Bayes-Pragmatik",
+      "formula_anchor": "Pragmatische Inferenz, Grice/Spieltheorie",
+      "measure": "Interpretation",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F077",
+      "name": "Psycholinguistik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Stimulus",
+            "Verarbeitung",
+            "Antwort"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Sprachsignal",
+            "lexikalischer Zugriff",
+            "Reaktionszeit"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Erwartung",
+            "Vorhersagefehler",
+            "Verarbeitungskosten"
+          ]
+        }
+      ],
+      "model": "Diffusionsentscheidungsmodell",
+      "formula_anchor": "dx=vdt+σdW",
+      "measure": "Reaktionszeit",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F078",
+      "name": "Kognitionspsychologie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Reiz",
+            "Gedächtnis",
+            "Entscheidung"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Reiz",
+            "Aufmerksamkeit",
+            "Enkodierung"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Gedächtnisrepräsentation",
+            "Abruf",
+            "Entscheidung"
+          ]
+        }
+      ],
+      "model": "Signalentdeckung",
+      "formula_anchor": "d′=Z(H)−Z(F)",
+      "measure": "Trefferquote, RT",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F079",
+      "name": "Lernwissenschaft",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Vorwissen",
+            "Aktivität",
+            "Kompetenz"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Vorerfahrung",
+            "Übungsaktivität",
+            "Lernzuwachs"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Feedback",
+            "Konsolidierung",
+            "Transfer"
+          ]
+        }
+      ],
+      "model": "Item Response Theory",
+      "formula_anchor": "P=logit^{-1}(θ−b)",
+      "measure": "Lernzuwachs",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F080",
+      "name": "Didaktik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Lernziel",
+            "Intervention",
+            "Evaluation"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Kompetenzziel",
+            "Lernaufgabe",
+            "Leistungsnachweis"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Intervention",
+            "Vergleichsgruppe",
+            "Lernwirkung"
+          ]
+        }
+      ],
+      "model": "Wirkungsanalyse",
+      "formula_anchor": "ATE=E[Y(1)−Y(0)]",
+      "measure": "Kompetenzerwerb",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F081",
+      "name": "Mikroökonomie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Präferenzen",
+            "Restriktion",
+            "Entscheidung"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Nutzenfunktion",
+            "Budgetmenge",
+            "Optimum"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Preis",
+            "Nachfrage",
+            "Elastizität"
+          ]
+        }
+      ],
+      "model": "Nutzenmaximierung",
+      "formula_anchor": "max U(x) s.t. px≤m",
+      "measure": "Nachfrage",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F082",
+      "name": "Makroökonomie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Produktion",
+            "Einkommen",
+            "Nachfrage"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Produktionsfunktion",
+            "Faktorinput",
+            "Output"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Konsum",
+            "Sparen",
+            "Investition"
+          ]
+        }
+      ],
+      "model": "Nationale Konten",
+      "formula_anchor": "Y=C+I+G+NX",
+      "measure": "BIP, Inflation",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F083",
+      "name": "Finanzwissenschaft",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Risiko",
+            "Rendite",
+            "Portfolio"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Ertrag",
+            "Volatilität",
+            "Risiko"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Kovarianz",
+            "Gewichtung",
+            "Portfoliovarianz"
+          ]
+        }
+      ],
+      "model": "Markowitz",
+      "formula_anchor": "Var(wᵀr)=wᵀΣw",
+      "measure": "Volatilität",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F084",
+      "name": "Soziologie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Akteur",
+            "Beziehung",
+            "Netzwerk"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Akteur",
+            "Relation",
+            "Netzwerkdichte"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Norm",
+            "Interaktion",
+            "soziale Struktur"
+          ]
+        }
+      ],
+      "model": "Netzwerkanalyse",
+      "formula_anchor": "C_D(v)=deg(v)",
+      "measure": "Zentralität, Kohäsion",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F085",
+      "name": "Politikwissenschaft",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Präferenz",
+            "Institution",
+            "kollektive Entscheidung"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Akteurpräferenz",
+            "Wahlregel",
+            "Kollektiventscheidung"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Institution",
+            "Anreiz",
+            "Strategiewahl"
+          ]
+        }
+      ],
+      "model": "Social Choice",
+      "formula_anchor": "Mehrheitsrelation",
+      "measure": "Wahlresultate",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F086",
+      "name": "Rechtswissenschaft",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Norm",
+            "Tatbestand",
+            "Rechtsfolge"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Normquelle",
+            "Geltungsbereich",
+            "Rechtsnorm"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Sachverhalt",
+            "Subsumtion",
+            "Entscheidung"
+          ]
+        }
+      ],
+      "model": "juristische Subsumtion",
+      "formula_anchor": "Konditionale Regel, kein Naturgesetz",
+      "measure": "Fallentscheidung",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F087",
+      "name": "Ökonometrie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Modell",
+            "Identifikation",
+            "Schätzung"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Strukturparameter",
+            "Beobachtung",
+            "Identifizierbarkeit"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Instrument",
+            "Exogenität",
+            "Schätzung"
+          ]
+        }
+      ],
+      "model": "Instrumentvariablen",
+      "formula_anchor": "Identifikationsbedingungen",
+      "measure": "Kausaleffekte",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F088",
+      "name": "Kommunikationswissenschaft",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Botschaft",
+            "Medium",
+            "Rezeption"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Nachricht",
+            "Kanal",
+            "Reichweite"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Rezeption",
+            "Interpretation",
+            "Einstellungsänderung"
+          ]
+        }
+      ],
+      "model": "Kommunikationsmodelle",
+      "formula_anchor": "Exposure→response",
+      "measure": "Reichweite, Verständnis",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F089",
+      "name": "Anthropologie",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Praxis",
+            "Bedeutung",
+            "Institution"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Handlung",
+            "kultureller Kontext",
+            "Praxis"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Symbol",
+            "Bedeutung",
+            "Institutionalisierung"
+          ]
+        }
+      ],
+      "model": "vergleichende Ethnografie",
+      "formula_anchor": "qualitative Kodierung",
+      "measure": "Ethnografische Codes",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F090",
+      "name": "Geschichtswissenschaft",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Quelle",
+            "Kontext",
+            "Interpretation"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Quellenartefakt",
+            "Herkunft",
+            "Quellenkritik"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Ereignis",
+            "Zeitordnung",
+            "Rekonstruktion"
+          ]
+        }
+      ],
+      "model": "Quellenkritik",
+      "formula_anchor": "Bayes für Datierung optional",
+      "measure": "Datierung, Provenienz",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F091",
+      "name": "Regelungstechnik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "System",
+            "Sensor",
+            "Rückkopplung"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Sollsignal",
+            "Istsignal",
+            "Fehler"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Regler",
+            "Strecke",
+            "geschlossener Kreis"
+          ]
+        }
+      ],
+      "model": "PID",
+      "formula_anchor": "u=K_p e+K_i∫e+K_dė",
+      "measure": "Fehler, Stabilität",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F092",
+      "name": "Robotik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Wahrnehmung",
+            "Planung",
+            "Aktuation"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Sensor",
+            "Zustandsschätzung",
+            "Weltmodell"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Ziel",
+            "Trajektorienplanung",
+            "Aktuator"
+          ]
+        }
+      ],
+      "model": "Zustandsraum",
+      "formula_anchor": "ẋ=Ax+Bu",
+      "measure": "Trajektorie",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F093",
+      "name": "Materialwissenschaft",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Mikrostruktur",
+            "Eigenschaft",
+            "Belastung"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Kristallstruktur",
+            "Defekt",
+            "Materialeigenschaft"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Last",
+            "Spannungsantwort",
+            "Versagen"
+          ]
+        }
+      ],
+      "model": "Hooke",
+      "formula_anchor": "σ=Eε",
+      "measure": "Festigkeit",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F094",
+      "name": "Bauingenieurwesen",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Last",
+            "Tragwerk",
+            "Verformung"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Lastfall",
+            "Schnittkraft",
+            "Tragfähigkeit"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Steifigkeit",
+            "Verformung",
+            "Gebrauchstauglichkeit"
+          ]
+        }
+      ],
+      "model": "Elastizität",
+      "formula_anchor": "EI y″=M(x)",
+      "measure": "Durchbiegung",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F095",
+      "name": "Energietechnik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Quelle",
+            "Umwandlung",
+            "Nutzenergie"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Primärenergie",
+            "Wirkungsgrad",
+            "Nutzenergie"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Leistung",
+            "Speicher",
+            "Lastprofil"
+          ]
+        }
+      ],
+      "model": "Energiebilanz",
+      "formula_anchor": "η=P_out/P_in",
+      "measure": "Wirkungsgrad",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F096",
+      "name": "Verfahrenstechnik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Zufluss",
+            "Reaktor",
+            "Abfluss"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Stoffbilanz",
+            "Stoffstrom",
+            "Reaktionsrate"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Reaktorvolumen",
+            "Verweilzeit",
+            "Umsetzung"
+          ]
+        }
+      ],
+      "model": "CSTR",
+      "formula_anchor": "V dc/dt=F(c_in−c)+Vr(c)",
+      "measure": "Umsatz, Temperatur",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F097",
+      "name": "Landwirtschaft",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Boden",
+            "Wasser",
+            "Ertrag"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Bodenwasser",
+            "Nährstoffversorgung",
+            "Wachstum"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Pflanzenbestand",
+            "Ernteindex",
+            "Ertrag"
+          ]
+        }
+      ],
+      "model": "Ertragsfunktion",
+      "formula_anchor": "Y=f(N,W,T)",
+      "measure": "Ertrag, Feuchte",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F098",
+      "name": "Umwelttechnik",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Emission",
+            "Transport",
+            "Exposition"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Emissionsquelle",
+            "Ausbreitung",
+            "Immission"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Dosis",
+            "Exposition",
+            "Risikofunktion"
+          ]
+        }
+      ],
+      "model": "Advektion-Diffusion",
+      "formula_anchor": "∂_t c+v·∇c=D∇²c+S",
+      "measure": "Konzentration",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F099",
+      "name": "Designwissenschaft",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Anforderung",
+            "Prototyp",
+            "Nutzung"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Bedarfsanalyse",
+            "Anforderung",
+            "Entwurfsentscheidung"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Prototyp",
+            "Nutzertest",
+            "Iteration"
+          ]
+        }
+      ],
+      "model": "Human-Centered Design",
+      "formula_anchor": "Mehrkriterienbewertung",
+      "measure": "Usability",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "FACH-F100",
+      "name": "Musikwissenschaft",
+      "axes": [
+        {
+          "n": 1,
+          "status": "VORGEPRUEFT",
+          "elements": [
+            "Klang",
+            "Zeitstruktur",
+            "Wahrnehmung"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Tonhöhe",
+            "Klangspektrum",
+            "Klangfarbe"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "NEUER_KANDIDAT",
+          "elements": [
+            "Rhythmus",
+            "Metrum",
+            "Zeitwahrnehmung"
+          ]
+        }
+      ],
+      "model": "Fourier-Analyse",
+      "formula_anchor": "Psychoakustische Messmodelle",
+      "measure": "Spektrum, Rhythmus",
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "CORE-T1",
+      "name": "CORE-T1 · Gegenstand – Konzept – Bezeichnung",
+      "axes": [
+        {
+          "n": 1,
+          "status": "historischer_core_entwurf",
+          "elements": [
+            "Gegenstand",
+            "Konzept",
+            "Bezeichnung"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "historischer_core_entwurf",
+          "elements": [
+            "Merkmal",
+            "Abgrenzung",
+            "Geltungsbereich"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "historischer_core_entwurf",
+          "elements": [
+            "Kontext",
+            "Interpretation",
+            "Begriffsvariante"
+          ]
+        }
+      ],
+      "model": null,
+      "formula_anchor": null,
+      "measure": null,
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "CORE-T2",
+      "name": "CORE-T2 · Trägerraum – Zustandszuordnung – Wechselwirkung",
+      "axes": [
+        {
+          "n": 1,
+          "status": "historischer_core_entwurf",
+          "elements": [
+            "Trägerraum",
+            "Zustandszuordnung",
+            "Wechselwirkung"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "historischer_core_entwurf",
+          "elements": [
+            "Zustand",
+            "Übergang",
+            "Zeitordnung"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "historischer_core_entwurf",
+          "elements": [
+            "Domäne",
+            "Zuordnung",
+            "Geltungsbedingung"
+          ]
+        }
+      ],
+      "model": null,
+      "formula_anchor": null,
+      "measure": null,
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    },
+    {
+      "id": "CORE-T3",
+      "name": "CORE-T3 · Identität – Rolle – Kontext",
+      "axes": [
+        {
+          "n": 1,
+          "status": "historischer_core_entwurf",
+          "elements": [
+            "Identität",
+            "Rolle",
+            "Kontext"
+          ]
+        },
+        {
+          "n": 2,
+          "status": "historischer_core_entwurf",
+          "elements": [
+            "Messgröße",
+            "Messverfahren",
+            "Messresultat"
+          ]
+        },
+        {
+          "n": 3,
+          "status": "historischer_core_entwurf",
+          "elements": [
+            "Ausgangsobjekt",
+            "Abbildung",
+            "Bildobjekt"
+          ]
+        }
+      ],
+      "model": null,
+      "formula_anchor": null,
+      "measure": null,
+      "status": "strukturentwurf_nicht_fachvalidiert",
+      "field_addresses": 27
+    }
+  ]
+}
