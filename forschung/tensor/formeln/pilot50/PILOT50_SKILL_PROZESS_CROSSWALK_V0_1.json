@@ -1,0 +1,187 @@
+{
+  "schema": "skill-process-crosswalk/0.1",
+  "date": "2026-11-04",
+  "status": "source_function_verified_no_global_skill_pool_claim",
+  "purpose": "Operational evidence for 50-formula pilot and future AI-answer harvesting",
+  "process_gates": [
+    {
+      "id": "S0",
+      "label": "Quelle und Lizenz",
+      "existing": [
+        "forschung/koordination/fpp_harvest_standards.py:load",
+        "forschung/koordination/fpp_harvest_standards.py:audit"
+      ],
+      "observed_status": "partial",
+      "missing_capability": "historical original SHA and license crosswalk"
+    },
+    {
+      "id": "S1",
+      "label": "Parser und Gleichungseinlesung",
+      "existing": [
+        "forschung/tensor/formeln/formel_struktur.py:parse",
+        "forschung/tensor/formeln/pilot50/run50.py:parse"
+      ],
+      "observed_status": "implemented_prototype",
+      "missing_capability": "untrusted TeX sandbox; guaranteed parser support for PDE and functions"
+    },
+    {
+      "id": "S2",
+      "label": "fachliche Bedeutung, Größen/Einheiten",
+      "existing": [
+        "forschung/tensor/algebra-claude/typalgebra.py:typpruefung",
+        "forschung/tensor/algebra-claude/typalgebra.py:typ_konsistenz"
+      ],
+      "observed_status": "partial",
+      "missing_capability": "typed scientific quantity IDs, units, material and time-reference guard"
+    },
+    {
+      "id": "S3",
+      "label": "beweiserhaltende Normalform",
+      "existing": [
+        "forschung/tensor/formeln/formel_struktur.py:skelett"
+      ],
+      "observed_status": "prototype",
+      "missing_capability": "domain-preserving normalization and invertibility guards"
+    },
+    {
+      "id": "S4",
+      "label": "Triade/Graph-/Familienmuster",
+      "existing": [
+        "forschung/tensor/formeln/formel_struktur.py:triadentyp",
+        "forschung/tensor/formeln/formel_struktur.py:bestand"
+      ],
+      "observed_status": "implemented_prototype",
+      "missing_capability": "graph null models; candidate triad topology and semantic pruning"
+    },
+    {
+      "id": "S5",
+      "label": "Herleitung und Elimination",
+      "existing": [
+        "forschung/tensor/formeln/dreiecke.py:ableiten",
+        "forschung/tensor/algebra-claude/typalgebra.py:pfadmenge"
+      ],
+      "observed_status": "partial",
+      "missing_capability": "systematic star/chain motifs; saturation and domain exclusions"
+    },
+    {
+      "id": "S6",
+      "label": "Gegenprobe und Widerlegung",
+      "existing": [
+        "forschung/tensor/algebra-claude/typalgebra.py:achsen_pruefung",
+        "forschung/tensor/algebra-claude/typalgebra.py:invertierbarkeit"
+      ],
+      "observed_status": "partial",
+      "missing_capability": "automatic numerical/model counterexamples, unit and edge semantic tests"
+    },
+    {
+      "id": "S7",
+      "label": "unabhängige Reproduktion",
+      "existing": [
+        "forschung/register/reproduzieren.py:main"
+      ],
+      "observed_status": "partial",
+      "missing_capability": "separate symbolic engine, input pins and cold-run reproducibility"
+    },
+    {
+      "id": "S8",
+      "label": "drei Trinitäten zu 27 Feldakten",
+      "existing": [
+        "forschung/tensor/algebra-claude/typalgebra.py:ueberlagerung",
+        "forschung/tensor/algebra-claude/typalgebra.py:kanon"
+      ],
+      "observed_status": "prototype",
+      "missing_capability": "27 field-by-field evidence files and independent triad bridge check"
+    },
+    {
+      "id": "S9",
+      "label": "wissenschaftliche Fachabnahme",
+      "existing": [],
+      "observed_status": "not_implemented",
+      "missing_capability": "reviewer signoff, field-specific evidence status"
+    },
+    {
+      "id": "S10",
+      "label": "redaktionelle Publikation",
+      "existing": [],
+      "observed_status": "not_implemented",
+      "missing_capability": "publication manifest rebuild and formal publication approval"
+    },
+    {
+      "id": "P0",
+      "label": "KI-Antwort und Analyse erfassen",
+      "existing": [
+        "forschung/koordination/harvest_antwort.py:sections"
+      ],
+      "observed_status": "prototype",
+      "missing_capability": "live ChatGPT/Claude bridge; explicit Markdown input currently required"
+    },
+    {
+      "id": "P1",
+      "label": "primäre Akte und ID",
+      "existing": [
+        "forschung/koordination/harvest_antwort.py:sha"
+      ],
+      "observed_status": "partial",
+      "missing_capability": "canonical ID crosswalk and authoritative data ownership"
+    },
+    {
+      "id": "P2",
+      "label": "Dubletten und Konflikte",
+      "existing": [
+        "forschung/koordination/fpp_harvest_standards.py:audit"
+      ],
+      "observed_status": "partial",
+      "missing_capability": "semantic duplicates and persistent conflict records"
+    },
+    {
+      "id": "P3",
+      "label": "Abhängigkeiten und Impact",
+      "existing": [],
+      "observed_status": "draft_only_manual",
+      "missing_capability": "automatic dependency graph evaluation with verified links"
+    },
+    {
+      "id": "P4",
+      "label": "Änderungsentwürfe für alle Paper",
+      "existing": [],
+      "observed_status": "draft_only_manual",
+      "missing_capability": "manifest-based paper deltas, glossary/source diff"
+    },
+    {
+      "id": "P5",
+      "label": "fachliche und redaktionelle Freigabe",
+      "existing": [],
+      "observed_status": "not_implemented",
+      "missing_capability": "two-person approval separate from chat ACK"
+    },
+    {
+      "id": "P6",
+      "label": "synchronisierte Publikation",
+      "existing": [],
+      "observed_status": "not_implemented",
+      "missing_capability": "idempotent public release/build and dependency checks"
+    },
+    {
+      "id": "P7",
+      "label": "nachgelagerter Regressionstest",
+      "existing": [
+        "forschung/register/reproduzieren.py:main"
+      ],
+      "observed_status": "partial",
+      "missing_capability": "all-paper rebuild and link/semantic consistency check"
+    }
+  ],
+  "rules": [
+    "A Python function is not necessarily a validated independent reusable skill.",
+    "Candidate adapter families are not implemented skills.",
+    "No automatic paper merge without domain and editorial acceptance."
+  ],
+  "sources": [
+    "forschung/tensor/formeln/formel_struktur.py",
+    "forschung/tensor/formeln/dreiecke.py",
+    "forschung/tensor/algebra-claude/typalgebra.py",
+    "forschung/register/reproduzieren.py",
+    "forschung/koordination/harvest_antwort.py",
+    "forschung/koordination/fpp_harvest_standards.py"
+  ]
+}
