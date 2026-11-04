@@ -1,0 +1,338 @@
+{
+  "schema": "bki-goal-decomposition/0.1",
+  "created_at": "2026-11-05",
+  "source_policy": "BKI-WA-RED-001",
+  "type": "synthetic_goal_test_fixtures",
+  "review_status": "not_independently_verified",
+  "goal_specifications": [
+    {
+      "task_id": "BKI-ZHA-T01",
+      "goal_id": "BKI-G001",
+      "goal": "Leistungserfüllung von einer Bewilligung unterscheiden",
+      "success": "Die gewünschte Leistung ist tatsächlich und entsprechend dem maßgeblichen Anspruch erbracht; eine Bewilligung allein genügt nicht.",
+      "subgoals": [
+        {
+          "id": "BKI-ZHA-T01-SG01",
+          "label": "Art der bewilligten Leistung bestimmen",
+          "mandatory": "context_dependent"
+        },
+        {
+          "id": "BKI-ZHA-T01-SG02",
+          "label": "Fälligkeit und Leistungsinhalt klären",
+          "mandatory": "context_dependent"
+        },
+        {
+          "id": "BKI-ZHA-T01-SG03",
+          "label": "Tatsächliche Erfüllung mit Nachweis vergleichen",
+          "mandatory": "context_dependent"
+        }
+      ],
+      "paths": [
+        {
+          "id": "BKI-ZHA-T01-P-A",
+          "label": "Bewilligungsgrundlage prüfen",
+          "rationale": "Bescheid und geltenden Rechtsrahmen als separate Prüfgegenstände erfassen",
+          "verified_feasible": false
+        },
+        {
+          "id": "BKI-ZHA-T01-P-B",
+          "label": "Erfüllungslage prüfen",
+          "rationale": "Auszahlung oder Leistungsbereitstellung getrennt feststellen",
+          "verified_feasible": false
+        },
+        {
+          "id": "BKI-ZHA-T01-P-C",
+          "label": "Abweichung aufklären",
+          "rationale": "Wenn die Erfüllung offen ist, fachliche Nachfrage- und Prüfwege erschließen",
+          "verified_feasible": false
+        }
+      ],
+      "unknowns": [
+        "Leistungsart",
+        "Leistungszeitpunkt",
+        "Erfüllungsnachweis"
+      ],
+      "forbidden": [
+        "Bewilligung mit tatsächlicher Erfüllung gleichsetzen",
+        "eine Zahlung ohne Nachweis behaupten"
+      ],
+      "analysis_status": "own_reconstruction_candidate",
+      "source_id_refs": [],
+      "test_status": "synthetic_spec_only"
+    },
+    {
+      "task_id": "BKI-ZHA-T02",
+      "goal_id": "BKI-G003",
+      "goal": "Zuständige Stelle für eine Meldebescheinigung recherchieren",
+      "success": "Eine für den nachgewiesenen Ort und Leistungstyp zuständige Stelle mit amtlicher Quelle und Geltungsstand ist identifiziert.",
+      "subgoals": [
+        {
+          "id": "BKI-ZHA-T02-SG01",
+          "label": "Leistung und gewünschte Verrichtung unterscheiden",
+          "mandatory": "context_dependent"
+        },
+        {
+          "id": "BKI-ZHA-T02-SG02",
+          "label": "Örtlichen Geltungsbereich als notwendige Angabe erkennen",
+          "mandatory": "context_dependent"
+        },
+        {
+          "id": "BKI-ZHA-T02-SG03",
+          "label": "Zuständigkeit und Zugang in einer offiziellen Quelle belegen",
+          "mandatory": "context_dependent"
+        }
+      ],
+      "paths": [
+        {
+          "id": "BKI-ZHA-T02-P-A",
+          "label": "Leistungsbeschreibung",
+          "rationale": "Bundes- und Landesportale als Quellenkandidaten suchen",
+          "verified_feasible": false
+        },
+        {
+          "id": "BKI-ZHA-T02-P-B",
+          "label": "Regionale Zuständigkeit",
+          "rationale": "Nach bekanntem Ort zuständige Meldebehörde bestimmen",
+          "verified_feasible": false
+        },
+        {
+          "id": "BKI-ZHA-T02-P-C",
+          "label": "Online-Zugang",
+          "rationale": "Vorhandensein eines geprüften digitalen Leistungswegs gesondert feststellen",
+          "verified_feasible": false
+        }
+      ],
+      "unknowns": [
+        "Ort/Bundesland",
+        "Ausstellungstyp",
+        "aktuelle kommunale Zuständigkeitsquelle"
+      ],
+      "forbidden": [
+        "eine konkrete Behörde ohne Ort erfinden",
+        "Online-Zugang aus bloßem Angebot ableiten"
+      ],
+      "analysis_status": "own_reconstruction_candidate",
+      "source_id_refs": [],
+      "test_status": "synthetic_spec_only"
+    },
+    {
+      "task_id": "BKI-ZHA-T03",
+      "goal_id": "BKI-G004",
+      "goal": "Rechtscharakter einer internen Weisung klären",
+      "success": "Normrang, Bindungsadressaten, rechtlicher Geltungsraum und mögliche Außenwirkung sind begründet unterschieden.",
+      "subgoals": [
+        {
+          "id": "BKI-ZHA-T03-SG01",
+          "label": "Dokumenttyp und Herausgeber feststellen",
+          "mandatory": "context_dependent"
+        },
+        {
+          "id": "BKI-ZHA-T03-SG02",
+          "label": "Ermächtigungs- und Bindungsbeziehungen prüfen",
+          "mandatory": "context_dependent"
+        },
+        {
+          "id": "BKI-ZHA-T03-SG03",
+          "label": "Gesetz und verwaltungsinterne Regelung trennen",
+          "mandatory": "context_dependent"
+        }
+      ],
+      "paths": [
+        {
+          "id": "BKI-ZHA-T03-P-A",
+          "label": "Normenhierarchie",
+          "rationale": "Rechtsnorm und Verwaltungsvorschrift als verschiedene Arten untersuchen",
+          "verified_feasible": false
+        },
+        {
+          "id": "BKI-ZHA-T03-P-B",
+          "label": "Behördenbindung",
+          "rationale": "Erlassende und gebundene Stellen identifizieren",
+          "verified_feasible": false
+        },
+        {
+          "id": "BKI-ZHA-T03-P-C",
+          "label": "Rechtsschutzfragen",
+          "rationale": "Bei behauptetem Verstoß einschlägige Rechtsgrundlagen gesondert prüfen",
+          "verified_feasible": false
+        }
+      ],
+      "unknowns": [
+        "Weisungsdokument",
+        "Rechtsgrundlage",
+        "betroffene Behörde"
+      ],
+      "forbidden": [
+        "Weisung automatisch als Gesetz klassifizieren",
+        "jede interne Regel als einklagbaren Anspruch ausgeben"
+      ],
+      "analysis_status": "own_reconstruction_candidate",
+      "source_id_refs": [],
+      "test_status": "synthetic_spec_only"
+    },
+    {
+      "task_id": "BKI-ZHA-T04",
+      "goal_id": "BKI-G005",
+      "goal": "Mögliche Hilfen für Familien fachlich einordnen",
+      "success": "Unterstützungskategorien und verantwortliche Systeme sind nachvollziehbar erläutert; konkrete Voraussetzungen bleiben ausdrücklich prüfbedürftig.",
+      "subgoals": [
+        {
+          "id": "BKI-ZHA-T04-SG01",
+          "label": "Art des Hilfebedarfs unterscheiden",
+          "mandatory": "context_dependent"
+        },
+        {
+          "id": "BKI-ZHA-T04-SG02",
+          "label": "Mögliche Leistungssysteme und Fachstellen kartieren",
+          "mandatory": "context_dependent"
+        },
+        {
+          "id": "BKI-ZHA-T04-SG03",
+          "label": "Zugangsvoraussetzungen und Varianten markieren",
+          "mandatory": "context_dependent"
+        }
+      ],
+      "paths": [
+        {
+          "id": "BKI-ZHA-T04-P-A",
+          "label": "Jugendhilfe",
+          "rationale": "SGB-VIII-bezogene Unterstützungsarten erschließen",
+          "verified_feasible": false
+        },
+        {
+          "id": "BKI-ZHA-T04-P-B",
+          "label": "Gesundheit",
+          "rationale": "Gesundheitsbezogene Versorgungssysteme separat prüfen",
+          "verified_feasible": false
+        },
+        {
+          "id": "BKI-ZHA-T04-P-C",
+          "label": "Beratung",
+          "rationale": "Geeignete Fachberatungsstellen als eigenständige Option finden",
+          "verified_feasible": false
+        }
+      ],
+      "unknowns": [
+        "Land und Rechtsraum",
+        "Hilfebereich",
+        "fachlicher Bedarf"
+      ],
+      "forbidden": [
+        "eine bestimmte Hilfe ohne Voraussetzungen zusagen",
+        "Jugendhilfe und Gesundheitsversorgung pauschal verschmelzen"
+      ],
+      "analysis_status": "own_reconstruction_candidate",
+      "source_id_refs": [],
+      "test_status": "synthetic_spec_only"
+    },
+    {
+      "task_id": "BKI-ZHA-T05",
+      "goal_id": "BKI-G007",
+      "goal": "Jugendamt und KESB begrifflich und funktional vergleichen",
+      "success": "Gemeinsamkeiten und Unterschiede sind nach Rechtsraum, Zuständigkeit und Aufgabenart nachvollziehbar abgegrenzt.",
+      "subgoals": [
+        {
+          "id": "BKI-ZHA-T05-SG01",
+          "label": "Beide institutionellen Begriffe disambiguieren",
+          "mandatory": "context_dependent"
+        },
+        {
+          "id": "BKI-ZHA-T05-SG02",
+          "label": "Deutsche und schweizerische Rechtsräume trennen",
+          "mandatory": "context_dependent"
+        },
+        {
+          "id": "BKI-ZHA-T05-SG03",
+          "label": "Funktionsüberschneidungen und Nichtentsprechungen prüfen",
+          "mandatory": "context_dependent"
+        }
+      ],
+      "paths": [
+        {
+          "id": "BKI-ZHA-T05-P-A",
+          "label": "Deutschland",
+          "rationale": "SGB-VIII-Struktur und Aufgaben des Jugendamts nachvollziehen",
+          "verified_feasible": false
+        },
+        {
+          "id": "BKI-ZHA-T05-P-B",
+          "label": "Schweiz",
+          "rationale": "KESB und kantonale Kindesschutzorganisation recherchieren",
+          "verified_feasible": false
+        },
+        {
+          "id": "BKI-ZHA-T05-P-C",
+          "label": "Vergleich",
+          "rationale": "Nur begründete Funktionsanalogien, keine institutionelle Identität",
+          "verified_feasible": false
+        }
+      ],
+      "unknowns": [
+        "Kanton bei konkreten Schweizer Zuständigkeiten",
+        "konkrete Funktion des Vergleichs"
+      ],
+      "forbidden": [
+        "Jugendamt und KESB als identische Behörde behaupten",
+        "Schweizer Regeln als deutsches Recht verwenden"
+      ],
+      "analysis_status": "own_reconstruction_candidate",
+      "source_id_refs": [],
+      "test_status": "synthetic_spec_only"
+    },
+    {
+      "task_id": "BKI-ZHA-T06",
+      "goal_id": "BKI-G004",
+      "goal": "Rechtliche Amtsermittlungsanforderungen im passenden Verfahren prüfen",
+      "success": "Das anwendbare Verfahrensregime ist bestimmt und die konkret zu prüfenden Ermittlungsanforderungen mit Quellen und Ausnahmen angegeben.",
+      "subgoals": [
+        {
+          "id": "BKI-ZHA-T06-SG01",
+          "label": "Art des Verwaltungsverfahrens bestimmen",
+          "mandatory": "context_dependent"
+        },
+        {
+          "id": "BKI-ZHA-T06-SG02",
+          "label": "Anwendbares Normregime auswählen",
+          "mandatory": "context_dependent"
+        },
+        {
+          "id": "BKI-ZHA-T06-SG03",
+          "label": "Ermittlungs- und Mitwirkungsregeln samt Grenzen prüfen",
+          "mandatory": "context_dependent"
+        }
+      ],
+      "paths": [
+        {
+          "id": "BKI-ZHA-T06-P-A",
+          "label": "Allgemeines Verfahren",
+          "rationale": "VwVfG-Anwendungsbereich überprüfen",
+          "verified_feasible": false
+        },
+        {
+          "id": "BKI-ZHA-T06-P-B",
+          "label": "Sozialverwaltung",
+          "rationale": "SGB-X-Anwendungsbereich überprüfen",
+          "verified_feasible": false
+        },
+        {
+          "id": "BKI-ZHA-T06-P-C",
+          "label": "Steuerverwaltung",
+          "rationale": "AO-Anwendungsbereich überprüfen",
+          "verified_feasible": false
+        }
+      ],
+      "unknowns": [
+        "Verfahrensart",
+        "zuständige Behörde",
+        "Spezialgesetz und Zeitstand"
+      ],
+      "forbidden": [
+        "§ 24 VwVfG in jedem Verwaltungsverfahren anwenden",
+        "Amtsermittlung und Mitwirkung als identisch behandeln"
+      ],
+      "analysis_status": "own_reconstruction_candidate",
+      "source_id_refs": [],
+      "test_status": "synthetic_spec_only"
+    }
+  ]
+}
