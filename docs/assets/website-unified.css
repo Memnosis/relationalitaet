@@ -12,3 +12,5 @@ body.ux-site-v2 main .grid > *,body.ux-site-v2 main .cards > *{min-width:0}
 body.ux-site-v2 main .grid > article,body.ux-site-v2 main .cards > article{border-radius:12px}
 @media(max-width:760px){body.ux-site-v2 main .grid:not(.ux-grid),body.ux-site-v2 main .cards,body.ux-site-v2 main .ai-grid,body.ux-site-v2 main .incubator-grid,body.ux-site-v2 main .tensor-join-grid,body.ux-site-v2 main .tensor-learning-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:520px){body.ux-site-v2 main .grid:not(.ux-grid),body.ux-site-v2 main .cards,body.ux-site-v2 main .ai-grid,body.ux-site-v2 main .incubator-grid,body.ux-site-v2 main .tensor-join-grid,body.ux-site-v2 main .tensor-learning-grid{grid-template-columns:1fr}}
+
+body.ux-site-v2 main > section:not(.ux-topic) > h2:first-child::before{content:var(--ux-page-icon,"◈");display:inline-grid;place-items:center;color:var(--ux-page-accent,var(--ux-ki));background:color-mix(in srgb,var(--ux-page-accent,var(--ux-ki)) 13%,transparent);width:37px;height:37px;border-radius:10px;margin-right:12px;font-size:20px;vertical-align:middle}
