@@ -2,7 +2,7 @@
 """Ein-Befehl-Reproduktion aller Claude-Prüfungen (für GPTs Gegenprüfung, R4/D06). Owner: Claude.
 
 Aufruf (Repository-Wurzel):  python3 forschung/register/reproduzieren.py [--bericht DATEI.md]
-Benötigt: Python 3.10+; optional `jsonschema` (sonst werden Schema-Teilprüfungen übersprungen und so gemeldet).
+Benötigt: Python 3.10+; für GR-01/GR-02 `sympy` (fehlt es, meldet der Lauf SKIP und das Gesamtergebnis UNVOLLSTÄNDIG, nie OK); optional `jsonschema` (sonst werden Schema-Teilprüfungen übersprungen und so gemeldet).
 NICHT enthalten (benötigen private Dateien): Zenodo-Download/MD5 (zenodo_register.py --pruefen),
 Logik-PDF-Extraktion (logik10_extrakt.py braucht die PDF), Versionsmanifest mit privatem Gesamtregister.
 Für diese drei steht im Bericht, wie sie mit der öffentlichen Zenodo-PDF nachvollzogen werden können.
@@ -27,6 +27,8 @@ SCHRITTE = [
     ("Abwesenheit R7: 10 Beiträge ohne Feedback (8)", ["forschung/koordination/tests/test_abwesenheit.py"], "OK"),
     ("Berichtsgenerator roter Rahmen R2 (5)", ["forschung/koordination/tests/test_bericht_vorlage.py"], "OK"),
     ("Gegenrechnung GR-03: 16 Zahlenketten ki-tensor", ["forschung/register/gegenrechnung/kt_zahlenketten.py"], "Gesamt: OK"),
+    ("Gegenrechnung GR-01: 7 DLMF-Identitäten (sympy)", ["forschung/register/gegenrechnung/dlmf_v6_6_gegenrechnung.py"], "Gesamt: OK"),
+    ("Gegenrechnung GR-02: REV-01..08 (sympy)", ["forschung/register/gegenrechnung/rev_rueckrechnungen.py"], "Gesamt: OK"),
     ("GPT-Gegenlauf LOGIK-PROMPT-02 (Kontrolle)", ["scripts/gpt_logic02_independent.py"], "PASS"),
 ]
 
@@ -43,23 +45,27 @@ def main():
     zeilen = [f"# Reproduktionsbericht Claude-Prüfungen", "",
               f"- Zeit: {dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()}",
               f"- Commit: `{commit}`", f"- Python: {platform.python_version()}", "",
-              "| Prüfung | Skript (SHA-256, 12 Zeichen) | Exit | Erwartetes Signal gefunden |", "|---|---|---|---|"]
+              "| Prüfung | Skript (SHA-256, 12 Zeichen) | Exit | Ergebnis |", "|---|---|---|---|"]
     alle_ok = True
+    skips = 0
     for name, cmd, signal in SCHRITTE:
         r = subprocess.run([sys.executable, "-I", *cmd], cwd=W, capture_output=True, text=True)
         text = r.stdout + r.stderr
         ok = r.returncode == 0 and signal in text
+        skip = r.returncode == 77 or text.lstrip().startswith("SKIP")
+        skips += skip
         alle_ok &= ok
-        zeilen.append(f"| {name} | `{cmd[0]}` `{sha(cmd[0])[:12]}` | {r.returncode} | {'ja' if ok else 'NEIN'} |")
-        print(f"{'OK    ' if ok else 'FEHLER'} {name}")
-    zeilen += ["", f"**Gesamt: {'alle Prüfungen bestanden' if alle_ok else 'mindestens eine Prüfung fehlgeschlagen'}**", "",
+        erg = "SKIP (kein PASS)" if skip else ("ja" if ok else "NEIN")
+        zeilen.append(f"| {name} | `{cmd[0]}` `{sha(cmd[0])[:12]}` | {r.returncode} | {erg} |")
+        print(f"{'SKIP  ' if skip else 'OK    ' if ok else 'FEHLER'} {name}")
+    zeilen += ["", f"**Gesamt: {'alle Prüfungen bestanden' if alle_ok else f'UNVOLLSTÄNDIG: {skips} übersprungen (SKIP ist kein PASS)' if skips else 'mindestens eine Prüfung fehlgeschlagen'}**", "",
                "## Nur mit öffentlicher Zenodo-PDF nachvollziehbar", "",
                "1. `Logik-Tensor_1_0.pdf` von https://doi.org/10.5281/zenodo.19282895 laden, MD5 laut Zenodo prüfen.",
                "2. `python3 forschung/tensor/logik-claude/werkzeuge/logik10_extrakt.py <pdf>` → erwartet `felder 27, felder_gefunden 27, axiome 5, systeme 7, begriffe_kap8 34, abgleich_2_1 27/27`.",
                "3. Sichtprüfung: Seiten 3–6 und 14–20 der PDF gegen `LOGIK_TENSOR_1_0_EXTRAKT_V0_1.md`."]
     if a.bericht:
         pathlib.Path(a.bericht).write_text("\n".join(zeilen) + "\n", encoding="utf-8")
-    print("Gesamt:", "OK" if alle_ok else "FEHLER")
+    print("Gesamt:", "OK" if alle_ok else (f"UNVOLLSTÄNDIG ({skips} SKIP)" if skips else "FEHLER"))
     return 0 if alle_ok else 1
 
 

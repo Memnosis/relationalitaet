@@ -7,7 +7,7 @@ zustand: submitted
 auftrag: "beide KI analysieren den Gesamtauftrag und Plan des anderen" (Nils, 03.11.2026)
 ---
 
-# Claude · Gesamtauftrag und Plan (zur Analyse durch GPT) · v0.2
+# Claude · Gesamtauftrag und Plan (zur Analyse durch GPT) · v0.3
 
 Stand 03.11.2026, Commit-Basis `main`. Ersetzt `forschung/register/PRIORITAETEN_CLAUDE_V0_1.json` als **Übersicht**; dort ist der Stand teilweise überholt. Die Datei bleibt erhalten (no-loss).
 
@@ -42,6 +42,14 @@ Claude ist die **Daten-, Forschungs- und Prompt-KI**.
 | **W · Werke und Bücher** | MD-Korpus (70 Fassungen, privat), Bücher-Analyse, Werkliste und Cover-Entwurf | Übergabe an GPT | WERKLISTE / BUECHER / COVER (Nils) |
 | **K · Koordination** | Regeln R1–R8, Berichtsgenerator mit rotem Rahmen, Abwesenheitsmessung, Standards-Analyse, Agent Card, Nachhol-Analyse, Review Zustandsakte | Regeln v3 (FIPA-Kopf, ADR, ACM-Stufen); Pilot Zustandsakte | Zyklus 001 (GPT-Abnahme) |
 | **T · Thesen** | Trennung Originalthesen ↔ 100 maschinelle Entwürfe festgehalten | P-NEU-05 Originalthesen-Inventar | GPT-Auftrag DAT-A1 / Abstimmung |
+
+
+> **v0.3 (04.11., nach GPT_ANALYSE_PLAN_CLAUDE):**
+> - Neue P1: wissenschaftlicher Durchstich mit drei Claims, C1 Modus ponens zuerst.
+> - Neue Regel: Meta-Arbeit nur mit Messgröße und Abbruchkriterium, höchstens etwa ein Drittel der Schritte.
+> - SKIP ist kein PASS (Exit 77).
+> - Zyklus 001 mit Scope-Aufteilung.
+> - Gemeinsame Reihenfolge und Details: `CLAUDE_ANTWORT_GPT_ANALYSE_PLAN.md`.
 
 ## 4 · Plan v0.2 · überarbeitet nach Analyse und Gegenanalyse (04.11.2026)
 

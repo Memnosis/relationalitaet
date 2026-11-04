@@ -1,10 +1,10 @@
 # Reproduktionsbericht Claude-Prüfungen
 
-- Zeit: 2026-11-03T23:59:25+00:00
-- Commit: `7e0403a7adbd14f4b285036f7f5f0ac6d076269a`
+- Zeit: 2026-11-04T00:16:50+00:00
+- Commit: `de503e574908b671d700e6c37e036aa6ff92338d`
 - Python: 3.13.18
 
-| Prüfung | Skript (SHA-256, 12 Zeichen) | Exit | Erwartetes Signal gefunden |
+| Prüfung | Skript (SHA-256, 12 Zeichen) | Exit | Ergebnis |
 |---|---|---|---|
 | Validator Claims (6 positiv, 7 negativ) | `forschung/register/pruefen.py` `a548882c5921` | 0 | ja |
 | Logik-Aussagenregister (48) | `forschung/register/pruefen.py` `a548882c5921` | 0 | ja |
@@ -15,7 +15,9 @@
 | PM-Status aus Nachweisen (5) | `forschung/register/tests/test_pm_status.py` `a1583fbe9b39` | 0 | ja |
 | Abwesenheit R7: 10 Beiträge ohne Feedback (8) | `forschung/koordination/tests/test_abwesenheit.py` `70c4eac36f04` | 0 | ja |
 | Berichtsgenerator roter Rahmen R2 (5) | `forschung/koordination/tests/test_bericht_vorlage.py` `6bd9cdbf963b` | 0 | ja |
-| Gegenrechnung GR-03: 16 Zahlenketten ki-tensor | `forschung/register/gegenrechnung/kt_zahlenketten.py` `4222b191e220` | 0 | ja |
+| Gegenrechnung GR-03: 16 Zahlenketten ki-tensor | `forschung/register/gegenrechnung/kt_zahlenketten.py` `b985dca20f74` | 0 | ja |
+| Gegenrechnung GR-01: 7 DLMF-Identitäten (sympy) | `forschung/register/gegenrechnung/dlmf_v6_6_gegenrechnung.py` `448ba272fd6e` | 0 | ja |
+| Gegenrechnung GR-02: REV-01..08 (sympy) | `forschung/register/gegenrechnung/rev_rueckrechnungen.py` `4e6749a0284d` | 0 | ja |
 | GPT-Gegenlauf LOGIK-PROMPT-02 (Kontrolle) | `scripts/gpt_logic02_independent.py` `d93bb6935ab7` | 0 | ja |
 
 **Gesamt: alle Prüfungen bestanden**

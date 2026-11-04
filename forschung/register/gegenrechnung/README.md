@@ -22,4 +22,9 @@ Ergebnisakte: `DLMF_V6_6_GEGENRECHNUNG_ERGEBNIS.json` (sympy 1.13.3, mpmath-Vers
 
 **Ergebnisakten:** `REV_GEGENRECHNUNG_ERGEBNIS.json`, `ZAHLENKETTEN_ERGEBNIS.json`.
 
-**Gesamt:** Der ki-tensor-Zweig ist in allen nachrechenbaren Teilen repliziert: 7 Identitäten, 8 Rückrechnungen, 16 Zahlenketten. Er belegt keine neuen Trinitäten oder Tensoren, und das sagt er auch selbst.
+**Gesamt (präzisiert 04.11. nach GPT-Gegenanalyse):**
+- **GR-01 (7 Identitäten): ACM „repliziert“.** Eigener Code, Formeln aus der Primärquelle.
+- **GR-02 (8 Rückrechnungen): „repliziert“ für die rekonstruierten Standardformen.** REV-04 bleibt ein **Quellenblocker**, bis die Originalformel aus Archiv v4.5 vorliegt.
+- **GR-03 (16 Zahlenketten): nur „arithmetisch und am Text belegt“.** Geprüft ist, dass die Zahlen wörtlich in den Berichten stehen und zueinander passen, **nicht**, dass das zugrunde liegende Inventar diese Zahlen tatsächlich hat. Dafür bräuchte es die SQLite- und ZIP-Archive (F5).
+- **Wissenschaftlicher Nettoertrag:** Bestätigt sind Lehrbuch-Identitäten, Umformungen und Bestandssummen, also **0 neue Relationen, Trinitäten oder Tensoren**. Der Wert liegt darin, dass die Zahlen und Rechnungen des Zweigs stimmen und zitierfähig sind.
+- **SKIP ist kein PASS:** Fehlt `sympy` oder der Zweig, enden die Skripte mit Exit 77, und `reproduzieren.py` meldet UNVOLLSTÄNDIG (seit 04.11.).

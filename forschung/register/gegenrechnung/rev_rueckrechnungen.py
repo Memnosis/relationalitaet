@@ -19,8 +19,8 @@ import sys
 try:
     import sympy as sp
 except ImportError:
-    print("SKIP: sympy fehlt (pip install sympy)")
-    sys.exit(0)
+    print("SKIP: sympy fehlt (pip install sympy) – SKIP ist kein PASS (Exit 77)")
+    sys.exit(77)
 
 erg = []
 

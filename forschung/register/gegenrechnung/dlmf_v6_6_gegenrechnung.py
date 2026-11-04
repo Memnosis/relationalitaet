@@ -24,8 +24,8 @@ try:
     import mpmath as mp
     import sympy as sp
 except ImportError:
-    print("SKIP: sympy/mpmath fehlt (pip install sympy)")
-    sys.exit(0)
+    print("SKIP: sympy/mpmath fehlt (pip install sympy) – SKIP ist kein PASS (Exit 77)")
+    sys.exit(77)
 
 mp.mp.dps = 30
 n, k = sp.symbols("n k", integer=True, nonnegative=True)

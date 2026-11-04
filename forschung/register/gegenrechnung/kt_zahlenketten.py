@@ -66,8 +66,8 @@ def main():
     wunsch = sys.argv[sys.argv.index("--ref") + 1] if "--ref" in sys.argv else None
     zref = zweig_ref(wunsch)
     if not zref:
-        print("SKIP: ki-tensor-Zweig nicht vorhanden (git fetch origin 'refs/heads/*:refs/remotes/origin/*')")
-        return 0
+        print("SKIP: ki-tensor-Zweig nicht vorhanden (git fetch origin 'refs/heads/*:refs/remotes/origin/*') – SKIP ist kein PASS (Exit 77)")
+        return 77
     sha = subprocess.run(["git", "-C", str(W), "rev-parse", zref], capture_output=True, text=True).stdout.strip()
     erg = []
     for kid, quellen, belege, ausdruck, erkl in KETTEN:
