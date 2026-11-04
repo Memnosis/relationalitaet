@@ -1,0 +1,105 @@
+{
+ "schema_version": "prompt-slot-zuordnung/0.1",
+ "owner": "claude (Prompt-Owner)",
+ "erzeugt_am": "2026-11-04",
+ "bezug": "CLAUDE_ANALYSE_PLAN_GPT_V0_1 Vorschlag 7; PROGRAMM_100_ZYKLEN_MANIFEST mapping_note: 44 IDs ohne Slot",
+ "manifest_sha256": "025744854e50ddb9d06899e6372462daf3344ca1a985523cefb7a86b8ac97840",
+ "pruefung": "44 IDs genau einmal; keine Überschneidung mit den 38 bestehenden; zusammen exakt die 82 IDs des Crosswalks",
+ "zuordnung": [
+  {
+   "slot": "I-01",
+   "task_ids": [
+    "H3",
+    "VP-14",
+    "VP-15",
+    "P-NEU-01"
+   ],
+   "begruendung": "Quellen und Versionen: Herkunftsfrage (H3), Buchbelege/Originalcover (VP-14), digitale Anhänge (VP-15), Fundstellenprüfung (P-NEU-01)"
+  },
+  {
+   "slot": "I-02",
+   "task_ids": [
+    "P-NEU-05",
+    "H1",
+    "P-SYNTHESE",
+    "LOGIK-PROMPT-06"
+   ],
+   "begruendung": "Originalthesen und Evidenz: Thesen-Inventar, Behauptungsprüfung, quellengebundene Synthese, Meta-Logik-Anspruch gegen Vergleichsrahmen"
+  },
+  {
+   "slot": "I-03",
+   "task_ids": [
+    "LOGIK-PROMPT-01",
+    "LOGIK-PROMPT-03",
+    "LOGIK-PROMPT-04",
+    "P-NEU-04"
+   ],
+   "begruendung": "27 Felder, Achsensichten, dritter Faktor: Feldquellenabgleich, A/B/C-Crosswalk, irreduzible Dreierbeziehung, trinitärer dritter Faktor (DEC-AX-01)"
+  },
+  {
+   "slot": "I-04",
+   "task_ids": [
+    "P-NEU-03",
+    "LOGIK-PROMPT-02",
+    "LOGIK-PROMPT-05"
+   ],
+   "begruendung": "Logik-Tensor 2.x: Begriffsinventar 34/100, Korrektheit/Vollständigkeit (R4 verglichen), Feldpfade"
+  },
+  {
+   "slot": "I-05",
+   "task_ids": [
+    "VP-13",
+    "P-SKILL"
+   ],
+   "begruendung": "Tensor/Feldtheorie und Gegenbeweise: Relations- und Tensorübergabe, trinitäre Relationsprüfung im Skillkern"
+  },
+  {
+   "slot": "I-06",
+   "task_ids": [
+    "P-NEU-02",
+    "P-STRUKTUR"
+   ],
+   "begruendung": "Glossar und Strukturen: Glossarbegriff definieren, Themenkomplex gliedern"
+  },
+  {
+   "slot": "I-07",
+   "task_ids": [
+    "VP-11",
+    "VP-12",
+    "P-AGENTEN",
+    "P-META",
+    "MP-01",
+    "PP-SYSTEM"
+   ],
+   "begruendung": "KI-Architektur, Skills, Benchmarks: Prompt-Benchmark mit zwei Durchläufen, Skill-/Datenbank-Wiederverwendung, Agentenwerkstatt, Architekturreflexion, Prompt-Prompt, Systemselbsterklärung"
+  }
+ ],
+ "ueberhang": {
+  "vorschlag_slot": "I-09 (neu) oder Teilung eines M-Slots",
+  "task_ids": [
+   "VP-01",
+   "VP-02",
+   "VP-03",
+   "VP-04",
+   "VP-05",
+   "VP-06",
+   "VP-07",
+   "VP-08",
+   "VP-09",
+   "VP-10",
+   "H2",
+   "H4",
+   "H5",
+   "SOUL-PROMPT-1",
+   "SOUL-PROMPT-2",
+   "SOUL-PROMPT-3",
+   "SOUL-PROMPT-4",
+   "SOUL-PROMPT-5",
+   "SOUL-PROMPT-6"
+  ],
+  "begruendung": "SOULution und öffentliche Rechenschaft (Fristen, Finanzflüsse, Zusätzlichkeit, Wirkung, Kontrolle, Lösungen; Leser-Prompts Geld/Auftrag/Lösung; sechs SOULution-Forschungsmodule). Passt in keinen der 20 reservierten Plätze: I-08 ist für Manuskripte und Freigabe gedacht, M-01 bis M-12 sind belegt.",
+  "entscheidung": "12/8-Quote ist noch nicht von Nils bestätigt; Vorschlag im gemeinsamen Entwurf ENTWURF_NILS_100_ZYKLEN (GPT) aufnehmen"
+ },
+ "I-08": "bleibt ohne Prompt-ID: interne Manuskripte und Freigabe sind Aufgaben, keine Prompts",
+ "uebernahme": "GPT trägt die Zuordnung ins Manifest ein (Owner Manifest); Claude ändert das Manifest nicht"
+}

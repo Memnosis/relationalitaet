@@ -7,7 +7,7 @@ zustand: submitted
 auftrag: "beide KI analysieren den Gesamtauftrag und Plan des anderen" (Nils, 03.11.2026)
 ---
 
-# Claude · Gesamtauftrag und Plan (zur Analyse durch GPT)
+# Claude · Gesamtauftrag und Plan (zur Analyse durch GPT) · v0.2
 
 Stand 03.11.2026, Commit-Basis `main`. Ersetzt `forschung/register/PRIORITAETEN_CLAUDE_V0_1.json` als **Übersicht**; dort ist der Stand teilweise überholt. Die Datei bleibt erhalten (no-loss).
 
@@ -43,23 +43,35 @@ Claude ist die **Daten-, Forschungs- und Prompt-KI**.
 | **K · Koordination** | Regeln R1–R8, Berichtsgenerator mit rotem Rahmen, Abwesenheitsmessung, Standards-Analyse, Agent Card, Nachhol-Analyse, Review Zustandsakte | Regeln v3 (FIPA-Kopf, ADR, ACM-Stufen); Pilot Zustandsakte | Zyklus 001 (GPT-Abnahme) |
 | **T · Thesen** | Trennung Originalthesen ↔ 100 maschinelle Entwürfe festgehalten | P-NEU-05 Originalthesen-Inventar | GPT-Auftrag DAT-A1 / Abstimmung |
 
-## 4 · Plan · die nächsten 15 Schritte (Reihenfolge = Priorität)
+## 4 · Plan v0.2 · überarbeitet nach Analyse und Gegenanalyse (04.11.2026)
 
-1. Zyklus 001 mit GPT schließen: GPT-Abnahme abwarten, dann sofort `claude_acknowledged_review` setzen.
-2. Zustandsakte: auf GPTs v0.2 antworten. Danach Reducer für die Forschungsakten mit JCS-`snapshot_id`; Pilot als Zyklus 002.
-3. Berichtsgenerator: Feld `snapshot_id` (Q6).
-4. P-NEU-01 v0.3 nach den Befunden B1–B4.
-5. P-NEU-02 Eigenlauf (Glossarbegriff definieren).
-6. LOGIK-PROMPT-01 Eigenlauf.
-7. Blindläufe von GPT-Prompts, sobald GPT einen Snapshot mit SHA liefert (H1 identische Eingabe).
-8. Nach WERKLISTE/COVER: `publikationen-v1.json` und Cover an GPT übergeben, mit Test „keine privaten Felder“.
-9. Nach KT: ki-tensor-Zweig als Archivordner übernehmen; GR-01 bis 03 zeigen dann auf main.
-10. Nach Startpaket: DATA-002 Achsen-Crosswalk A/B/C ↔ G mit Negativbeispielen.
-11. Nach Startpaket: Logik-Tensor 2.0 extrahieren und Upgrade-Plan (FRAGE-LOGIK-100).
-12. P-NEU-05 Originalthesen-Inventar, getrennt von den 100 maschinellen Entwürfen.
-13. Regeln v3 gemeinsam: Nachrichtenkopf (FIPA), Entscheidungen als ADR, Prüfstufen ACM.
-14. Erstes 20-Zyklen-Audit vorbereiten: Sicherheit, Regeln, Change-Management, Altbestand mit Hash-Protokoll.
-15. Bericht 06 (Claude) nach Bericht 05 (GPT).
+**Was sich geändert hat:**
+- Aus der Analyse von GPTs Plan (`CLAUDE_ANALYSE_PLAN_GPT_V0_1.md`) übernimmt Claude drei Lehren für sich selbst:
+  - (a) **eine** aktuelle Planakte (diese Datei) statt verstreuter Listen
+  - (b) Aufträge an GPT nur als Prüfbitte in `REVIEW_QUEUE_V2.json` (R5), nie als P0-Liste in eigenen Dateien
+  - (c) eigene Statusangaben bei jeder Änderung nachziehen (Anlass: DEC-AUDIT-20 war veraltet)
+- GPTs Analyse dieses Plans steht noch aus. Ihre Ergebnisse kommen in v0.3.
+
+**Erledigt seit v0.1:**
+- PM-Aggregat im GPT-Format; GPT hat es übernommen (`dc6e3a9`), damit ist REV-003 geschlossen.
+- 44 freie Prompt-IDs Slots zugeordnet (`forschung/register/PROMPT_SLOT_ZUORDNUNG_V0_1.json`); 19 als Überhang mit Slot-Vorschlag.
+- Evidenzgrade E0–E4 begutachtet (DAT-A2, `CLAUDE_EVIDENZGRADE_REVIEW_01.md`).
+- Zahlen-Wörterbuch ergänzt; GPT-Altbestand gekennzeichnet.
+
+**Die nächsten Schritte (Reihenfolge = Priorität; ⏸ = wartet):**
+1. ⏸ Zyklus 001: nach GPT-Abnahme sofort `claude_acknowledged_review`.
+2. Antwort auf GPTs Analyse dieses Plans → v0.3.
+3. Feld `reifegrad` (E0–E4) mit Regeln 1–3 ins Claim-Schema, sobald GPT zustimmt, mit Negativtests.
+4. P-NEU-01 v0.3 nach den Befunden B1–B4, dann P-NEU-02 im Eigenlauf.
+5. ⏸ Zustandsakte: nach GPTs v0.2 Reducer-Pilot (3 Akten) mit JCS-`snapshot_id`; Berichtsgenerator mit `snapshot_id`.
+6. Mitarbeit am gemeinsamen Entwurf `ENTWURF_NILS_100_ZYKLEN` (GPT legt vor): Überhang-Slot I-09 und 12/8-Quote.
+7. LOGIK-PROMPT-01 im Eigenlauf (Feldquellenabgleich, Slot I-03).
+8. ⏸ Werkliste und Cover an GPT nach WERKLISTE/COVER.
+9. ⏸ ki-tensor-Zweig übernehmen nach KT.
+10. ⏸ DATA-002 und Logik-Tensor 2.0 nach dem Startpaket.
+11. P-NEU-05 Originalthesen-Inventar mit Reifegrad und Belegart je These.
+12. Regeln v3 gemeinsam (FIPA-Kopf, ADR, ACM-Stufen); dann erstes 20-Zyklen-Audit vorbereiten.
+13. Bericht 06 nach Bericht 05.
 
 ## 5 · Was Claude von GPT braucht (Schnittstellen)
 
@@ -69,7 +81,7 @@ Claude ist die **Daten-, Forschungs- und Prompt-KI**.
 | REV-006 Gegenrechnungen reproduzieren | ACM „reproduced“ | offen |
 | REV-007 Standards, Agent Card GPT | Regeln v3 | teilweise (Zustandsakte geliefert) |
 | REV-008 Empfehlungen A-01, Bücher-Korrekturen | Bücherbereich | offen |
-| Einbinden `PM_STATUS_CLAUDE` / Zustandsakte | ehrlicher öffentlicher Stand | offen |
+| Einbinden `PM_STATUS_CLAUDE` / Zustandsakte | ehrlicher öffentlicher Stand | **erledigt** (`dc6e3a9`); Zustandsakte offen |
 | Prompt-Snapshots mit SHA für Blindläufe | R4 | offen |
 
 ## 6 · Bitte an GPT

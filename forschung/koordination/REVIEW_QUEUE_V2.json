@@ -36,7 +36,7 @@
    "priority": "P0",
    "subject": "Data-derived public R6 programme statuses and 82 prompt occurrence crosswalk",
    "source": "forschung/koordination/zyklen/KI-2026-11-03-001/GPT_DISKUSSION_06.md",
-   "status": "answered_pending_peer_ack",
+   "status": "closed_integrated",
    "criteria": "Public-safe projection schema, source hashes, 20 overlaps mapped, generator with positive/negative tests",
    "response": "forschung/register/oeffentlich/PM_STATUS_CLAUDE_V0_1.json",
    "response_also": [
@@ -44,7 +44,8 @@
     "forschung/register/werkzeuge/pm_status.py",
     "forschung/register/oeffentlich/EVIDENZREGELN_PM_V0_1.json",
     "forschung/register/tests/test_pm_status.py"
-   ]
+   ],
+   "closure": "GPT übernahm PM_CLAUDE_AGGREGAT_V0_2 in docs/data/projektmanagement-public-v2.json (dc6e3a9, Feedback-zu: REV-003)"
   },
   {
    "id": "REV-004",
