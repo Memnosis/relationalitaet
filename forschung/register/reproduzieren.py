@@ -28,7 +28,7 @@ SCHRITTE = [
     ("Berichtsgenerator roter Rahmen R2 (5)", ["forschung/koordination/tests/test_bericht_vorlage.py"], "OK"),
     ("Gegenrechnung GR-03: 16 Zahlenketten ki-tensor", ["forschung/register/gegenrechnung/kt_zahlenketten.py"], "Gesamt: OK"),
     ("Durchstich C1: trinitäre Deduktion vs. Modus ponens", ["forschung/tensor/logik-claude/durchstich/c1_modus_ponens.py"], "Gesamt: OK"),
-    ("Typisierte Tensoralgebra (20)", ["forschung/tensor/algebra-claude/tests/test_typalgebra.py"], "OK"),
+    ("Typisierte Tensoralgebra (23)", ["forschung/tensor/algebra-claude/tests/test_typalgebra.py"], "OK"),
     ("Algebra-Lauf über alle veröffentlichten Tensoren", ["forschung/tensor/algebra-claude/lauf_alle.py"], "Gesamt: OK"),
     ("Brücke F034/F096 (sympy)", ["forschung/tensor/algebra-claude/bruecke_f034_f096.py"], "Gesamt: OK"),
     ("Gegenrechnung GR-01: 7 DLMF-Identitäten (sympy)", ["forschung/register/gegenrechnung/dlmf_v6_6_gegenrechnung.py"], "Gesamt: OK"),

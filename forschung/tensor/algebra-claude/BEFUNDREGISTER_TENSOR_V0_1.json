@@ -1,0 +1,175 @@
+{
+ "schema_version": "befundregister-tensor/0.1",
+ "owner": "claude",
+ "stand": "2026-11-04",
+ "algebra_lauf_sha256": "60f0063f16587e8545f520a3227c1ac0935dfb792da9bbe268a2d04700499e6e",
+ "verarbeitung": "Rohergebnis (Lauf) → Befund mit ID, Reifegrad, Belegart → Gegenlauf andere KI (P3) → Fachfrage an Nils (Vorlage, roter Rahmen) → nach Freigabe: Website-Projektion und Kapitel im Grundlagenwerk. Nichts Bewertendes über Nils' Werke geht vor seiner Freigabe öffentlich.",
+ "befunde": [
+  {
+   "id": "BEF-T001",
+   "aussage": "Typregeln v0.2 der Pfadsprache werden in allen Werken eingehalten (PRJ 4/4, CYC 4/4, RST 3/3, REC 1/1)",
+   "art": "typ",
+   "betrifft": [
+    "PUB-*"
+   ],
+   "nachweis": "ALGEBRA_LAUF_V0_1.json → typ_konsistenz_autor",
+   "reifegrad": "E2",
+   "belegart": "D",
+   "naechster_schritt": "GPT repliziert (P3)",
+   "nils_frage": null,
+   "public_release": "not_approved"
+  },
+  {
+   "id": "BEF-T002",
+   "aussage": "Holographie, Feldtheorie und Soziation 1.9 führen dieselbe Projektion NM-I-γ → ZM-II-γ → UM-III-γ (gleiche Mathematik dieses Pfades)",
+   "art": "algebra",
+   "betrifft": [
+    "T-HOLO",
+    "T-FELD",
+    "T-SOZ19"
+   ],
+   "nachweis": "ALGEBRA_LAUF_V0_1.json → teilweise_gleich",
+   "reifegrad": "E2",
+   "belegart": "D",
+   "naechster_schritt": "GPT repliziert",
+   "nils_frage": null,
+   "public_release": "not_approved"
+  },
+  {
+   "id": "BEF-T003",
+   "aussage": "Logik-Tensor: Projektion endet in UM-II-γ statt UM-III-γ (Variante)",
+   "art": "algebra",
+   "betrifft": [
+    "T-LOGIK"
+   ],
+   "nachweis": "ALGEBRA_LAUF_V0_1.json → variante; Logik-Tensor 1.0 S. 6/7",
+   "reifegrad": "E2",
+   "belegart": "B",
+   "naechster_schritt": "Nils: gewollt oder Unstimmigkeit?",
+   "nils_frage": "LOGIK-PRJ",
+   "public_release": "not_approved"
+  },
+  {
+   "id": "BEF-T004",
+   "aussage": "Reset ist keine exakte Umkehrung der Projektion (Rückkehr in andere Klasse); stimmig mit Zyklus-Matrix Klasse II „ρ⁻¹ erreichbar“ (Regel U 5/5 erfüllt; Klassen I/III ohne Testfall)",
+   "art": "algebra",
+   "betrifft": [
+    "T-LOGIK",
+    "T-FELD",
+    "T-SOZ19",
+    "T-ZYKLUS"
+   ],
+   "nachweis": "ALGEBRA_LAUF_V0_1.json → regel_U_umkehrbarkeit",
+   "reifegrad": "E2",
+   "belegart": "D",
+   "naechster_schritt": "GPT repliziert",
+   "nils_frage": null,
+   "public_release": "not_approved"
+  },
+  {
+   "id": "BEF-T005",
+   "aussage": "Neue formale Beziehung: Soziation-1.9-Zyklus ∘ Logik-Reset, NM-II-α → … → NM-I-β (P1, P2 Korpus, P3 eigen)",
+   "art": "algebra",
+   "betrifft": [
+    "T-SOZ19",
+    "T-LOGIK"
+   ],
+   "nachweis": "ALGEBRA_LAUF_V0_1.json → gilt_als_neue_beziehung",
+   "reifegrad": "E2",
+   "belegart": "K",
+   "naechster_schritt": "fachliche Sinnprüfung (Soziation ∘ Logik?) + GPT repliziert",
+   "nils_frage": null,
+   "public_release": "not_approved"
+  },
+  {
+   "id": "BEF-T006",
+   "aussage": "3 von 7 veröffentlichten Tensoren deklarieren keine Pfade (algebraisch leer): Neutral, Zyklus, Soziation (April)",
+   "art": "struktur",
+   "betrifft": [
+    "T-NEUTRAL",
+    "T-ZYKLUS",
+    "T-SOZ"
+   ],
+   "nachweis": "ALGEBRA_LAUF_V0_1.json",
+   "reifegrad": "E2",
+   "belegart": "D",
+   "naechster_schritt": "Pfade nachtragen (Autor/Claude-Vorschlag)",
+   "nils_frage": null,
+   "public_release": "not_approved"
+  },
+  {
+   "id": "BEF-T007",
+   "aussage": "F034 Reaktionskinetik ist Spezialfall von F096 Verfahrenstechnik (F=0, r=S·v, V≠0)",
+   "art": "gegenprobe",
+   "betrifft": [
+    "FACH-F034",
+    "FACH-F096"
+   ],
+   "nachweis": "bruecke_f034_f096.py (Claude) + GPT-Befund 04.11. 01:36",
+   "reifegrad": "E2→E3 nach SHA-Beleg GPT",
+   "belegart": "D",
+   "naechster_schritt": "Primärakte v10.7 abgleichen",
+   "nils_frage": null,
+   "public_release": "not_approved"
+  },
+  {
+   "id": "BEF-T008",
+   "aussage": "FACH-F054 Epidemiologie: Achse 1 = Achse 3 wortgleich (A1 verletzt, ≤18 statt 27 unterscheidbare Felder)",
+   "art": "struktur",
+   "betrifft": [
+    "FACH-F054"
+   ],
+   "nachweis": "GPT-Befund 04.11. 01:36; Regel A1",
+   "reifegrad": "E2",
+   "belegart": "B",
+   "naechster_schritt": "Nils: Absicht oder Fehler? Vorschlag Achse 3 = Übertragung – Verlauf – Immunität",
+   "nils_frage": "F054",
+   "public_release": "not_approved"
+  },
+  {
+   "id": "BEF-T009",
+   "aussage": "Klassenachse in Null- und Einheits-Matrix unterschiedlich nummeriert; ab Zyklus-Matrix/Tensor Basics neue Bedeutung (Kern–Kreislauf–Öffnung)",
+   "art": "struktur",
+   "betrifft": [
+    "Null-Matrix",
+    "Einheits-Matrix",
+    "Zyklus-Matrix",
+    "Tensor Basics"
+   ],
+   "nachweis": "KLASSEN_CROSSWALK_V0_1.json",
+   "reifegrad": "E2",
+   "belegart": "B",
+   "naechster_schritt": "TPID mit Version verpflichtend",
+   "nils_frage": null,
+   "public_release": "not_approved"
+  },
+  {
+   "id": "BEF-T010",
+   "aussage": "Begriffsdatenbank unvollständig: Null 314/333, Unity 200/333, Loop 198/333 Begriffe; Klasse „Audit“ (220) nicht im Raster",
+   "art": "struktur",
+   "betrifft": [
+    "trinity_matrix_database_final.csv"
+   ],
+   "nachweis": "Zählung 04.11.",
+   "reifegrad": "E2",
+   "belegart": "D",
+   "naechster_schritt": "Nachtrag oder Kennzeichnung",
+   "nils_frage": null,
+   "public_release": "not_approved"
+  },
+  {
+   "id": "BEF-T011",
+   "aussage": "Trinitäre Deduktion ersetzt den Modus ponens nicht (Lesart gleiches Schließen); ρ⁻¹(A) im Text nicht typisiert",
+   "art": "gegenprobe",
+   "betrifft": [
+    "T-LOGIK"
+   ],
+   "nachweis": "forschung/tensor/logik-claude/durchstich/C1_MODUS_PONENS.md",
+   "reifegrad": "E2",
+   "belegart": "D",
+   "naechster_schritt": "GPT repliziert, dann Nils",
+   "nils_frage": "C1",
+   "public_release": "not_approved"
+  }
+ ]
+}

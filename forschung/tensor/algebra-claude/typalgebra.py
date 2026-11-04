@@ -243,3 +243,24 @@ def achsen_pruefung(achsen):
         elif set(norm[i]) & set(norm[j]):
             out.append({"regel": "A1-teil", "achsen": [achsen[i]["dimension"], achsen[j]["dimension"]], "gemeinsam": sorted(set(norm[i]) & set(norm[j]))})
     return out
+
+
+# Regel U (Umkehrbarkeit je Klasse) – Quelle: Zyklus-Matrix (DOI 10.5281/zenodo.19124879), Tabelle der Klassen:
+#   I  Loop      „ρ⁻¹(ρ(S₀)) = S₀“            → Rückkehr exakt zum Start
+#   II Kreislauf „ρ⁻¹ erreichbar“              → Rückkehr in die Basisschicht (NM), Start nicht zwingend
+#   III Prozess  „ρ⁻¹ führt nicht zurück“      → Rückkehr NICHT zum Start
+ERWARTUNG_U = {"I": "exakt", "II": "erreichbar", "III": "nicht_zurueck"}
+
+
+def invertierbarkeit(kette):
+    """Prüft eine Verkettung ρ-Kette ∘ ρ⁻¹-Kette gegen Regel U, bezogen auf die Klasse des Startfelds."""
+    start, ende = kette[0], kette[-1]
+    k = zerlege(start)[1]
+    erwartet = ERWARTUNG_U[k]
+    if erwartet == "exakt":
+        ok = ende == start
+    elif erwartet == "erreichbar":
+        ok = zerlege(ende)[0] == "NM"
+    else:
+        ok = ende != start
+    return {"start": start, "ende": ende, "klasse_start": k, "erwartet": erwartet, "erfuellt": ok}

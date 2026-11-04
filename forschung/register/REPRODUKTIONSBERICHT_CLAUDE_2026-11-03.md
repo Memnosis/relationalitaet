@@ -1,7 +1,7 @@
 # Reproduktionsbericht Claude-Prüfungen
 
-- Zeit: 2026-11-04T01:51:06+00:00
-- Commit: `30691069389b81f5e43e5fb8c5f4ece79b6c5f28`
+- Zeit: 2026-11-04T02:04:24+00:00
+- Commit: `9be8980ebb5d69e96bbf89b380c428e243735947`
 - Python: 3.13.18
 
 | Prüfung | Skript (SHA-256, 12 Zeichen) | Exit | Ergebnis |
@@ -17,8 +17,8 @@
 | Berichtsgenerator roter Rahmen R2 (5) | `forschung/koordination/tests/test_bericht_vorlage.py` `6bd9cdbf963b` | 0 | ja |
 | Gegenrechnung GR-03: 16 Zahlenketten ki-tensor | `forschung/register/gegenrechnung/kt_zahlenketten.py` `b985dca20f74` | 0 | ja |
 | Durchstich C1: trinitäre Deduktion vs. Modus ponens | `forschung/tensor/logik-claude/durchstich/c1_modus_ponens.py` `20ce03c74125` | 0 | ja |
-| Typisierte Tensoralgebra (20) | `forschung/tensor/algebra-claude/tests/test_typalgebra.py` `62f267aeb30d` | 0 | ja |
-| Algebra-Lauf über alle veröffentlichten Tensoren | `forschung/tensor/algebra-claude/lauf_alle.py` `cc953aa0028e` | 0 | ja |
+| Typisierte Tensoralgebra (23) | `forschung/tensor/algebra-claude/tests/test_typalgebra.py` `432d1a8169af` | 0 | ja |
+| Algebra-Lauf über alle veröffentlichten Tensoren | `forschung/tensor/algebra-claude/lauf_alle.py` `a58225cba1d0` | 0 | ja |
 | Brücke F034/F096 (sympy) | `forschung/tensor/algebra-claude/bruecke_f034_f096.py` `92ee6f619956` | 0 | ja |
 | Gegenrechnung GR-01: 7 DLMF-Identitäten (sympy) | `forschung/register/gegenrechnung/dlmf_v6_6_gegenrechnung.py` `448ba272fd6e` | 0 | ja |
 | Gegenrechnung GR-02: REV-01..08 (sympy) | `forschung/register/gegenrechnung/rev_rueckrechnungen.py` `4e6749a0284d` | 0 | ja |

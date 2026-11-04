@@ -129,5 +129,17 @@ class Achsen(unittest.TestCase):
                                 {"dimension": "S", "rollen": ["g", "h", "i"]}])
         self.assertEqual([x["regel"] for x in k], ["A1-teil"])
 
+
+class Umkehrbarkeit(unittest.TestCase):
+    def test_U_klasse_I_verlangt_exakte_rueckkehr(self):
+        self.assertTrue(ta.invertierbarkeit(["NM-I-α", "ZM-I-α", "UM-I-α", "ZM-I-α", "NM-I-α"])["erfuellt"])
+        self.assertFalse(ta.invertierbarkeit(["NM-I-α", "ZM-I-α", "UM-I-α", "ZM-I-β", "NM-I-β"])["erfuellt"])
+
+    def test_U_klasse_II_rueckkehr_in_basisschicht_genuegt(self):
+        self.assertTrue(ta.invertierbarkeit(["NM-II-β", "ZM-II-β", "UM-II-β", "ZM-I-β", "NM-I-β"])["erfuellt"])
+
+    def test_U_klasse_III_darf_nicht_zurueck(self):
+        self.assertFalse(ta.invertierbarkeit(["NM-III-γ", "ZM-III-γ", "UM-III-γ", "ZM-III-γ", "NM-III-γ"])["erfuellt"])
+
 if __name__ == "__main__":
     unittest.main()

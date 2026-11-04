@@ -98,6 +98,63 @@
  "neue_beziehungen_P1_P2_P3eigen": 1,
  "davon_geschlossene_umlaeufe": 0,
  "davon_hysterese": 1,
+ "regel_U_umkehrbarkeit": [
+  {
+   "start": "NM-II-α",
+   "ende": "NM-I-β",
+   "klasse_start": "II",
+   "erwartet": "erreichbar",
+   "erfuellt": true,
+   "aus": [
+    "T-SOZ19",
+    "T-FELD"
+   ]
+  },
+  {
+   "start": "NM-II-α",
+   "ende": "NM-I-β",
+   "klasse_start": "II",
+   "erwartet": "erreichbar",
+   "erfuellt": true,
+   "aus": [
+    "T-SOZ19",
+    "T-LOGIK"
+   ]
+  },
+  {
+   "start": "NM-II-β",
+   "ende": "NM-I-β",
+   "klasse_start": "II",
+   "erwartet": "erreichbar",
+   "erfuellt": true,
+   "aus": [
+    "T-FELD",
+    "T-LOGIK"
+   ]
+  },
+  {
+   "start": "NM-II-β",
+   "ende": "NM-I-β",
+   "klasse_start": "II",
+   "erwartet": "erreichbar",
+   "erfuellt": true,
+   "aus": [
+    "T-HOLO",
+    "T-FELD"
+   ]
+  },
+  {
+   "start": "NM-II-β",
+   "ende": "NM-I-β",
+   "klasse_start": "II",
+   "erwartet": "erreichbar",
+   "erfuellt": true,
+   "aus": [
+    "T-HOLO",
+    "T-LOGIK"
+   ]
+  }
+ ],
  "ergebnis_sha256": "60f0063f16587e8545f520a3227c1ac0935dfb792da9bbe268a2d04700499e6e",
  "ergebnisse": [
   {

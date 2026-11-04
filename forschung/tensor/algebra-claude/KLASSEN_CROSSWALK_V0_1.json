@@ -1,0 +1,50 @@
+{
+ "schema_version": "klassen-crosswalk/0.1",
+ "owner": "claude",
+ "stand": "2026-11-04",
+ "zweck": "Die Klassenachse K (I/II/III) trägt in Nils' Werken versionsabhängig verschiedene Bedeutungen. Eine Adresse wie „Klasse I“ ist ohne Version mehrdeutig; deshalb TPID mit Version.",
+ "versionen": [
+  {
+   "werk": "Null-Matrix",
+   "doi": "10.5281/zenodo.18776422",
+   "datum": "2026-02-25",
+   "I": "Identity (Convergent Relationality)",
+   "II": "Baseline (Divergent Relationality)",
+   "III": "Emergence (Emergent Relationality)",
+   "fundstelle": "Abschnitt Klassen, ID-Bereiche P-001–111 / P-112–222 / P-223–333"
+  },
+  {
+   "werk": "Einheits-Matrix",
+   "doi": "10.5281/zenodo.18981188",
+   "datum": "2026-03-12",
+   "I": "Baseline (Referentielle Verankerung)",
+   "II": "Identität (Operative Schließung)",
+   "III": "Emergenz (Transformative Ganzheit)",
+   "fundstelle": "Abschnitt Klassen; U-112–222 / U-001–111 / U-223–333"
+  },
+  {
+   "werk": "Zyklus-Matrix",
+   "doi": "10.5281/zenodo.19124879",
+   "datum": "2026-03-20",
+   "I": "Loop – „ρ⁻¹(ρ(S₀)) = S₀“",
+   "II": "Kreislauf – „ρ⁻¹ erreichbar“",
+   "III": "Prozess – „ρ⁻¹ führt nicht zurück“",
+   "fundstelle": "Klassentabelle (Zeilen I–III)"
+  },
+  {
+   "werk": "Tensor Basics",
+   "doi": "10.5281/zenodo.19152183",
+   "datum": "2026-03-21",
+   "I": "Core / Kern",
+   "II": "Circulation / Kreislauf",
+   "III": "Opening / Öffnung",
+   "fundstelle": "Abschnitte 4, 9, 13"
+  }
+ ],
+ "befunde": [
+  "In Null- und Einheits-Matrix tragen die Klassen die Namen der Grundtriade (Baseline/Emergenz/Identität), aber in unterschiedlicher Reihenfolge (I = Identity vs. I = Baseline).",
+  "Ab Zyklus-Matrix und Tensor Basics bezeichnet K eine eigene Achse (Kern/Loop – Kreislauf – Öffnung/Prozess); Zyklus-Matrix definiert sie über die Umkehrbarkeit von ρ.",
+  "Die Begriffsdatenbank trinity_matrix_database_final.csv folgt der älteren Benennung (Class = Identity/Baseline/Emergence/Audit) und ist daher nicht direkt auf K der 27er-Adressen abbildbar."
+ ],
+ "regel": "Grafiken und Texte zeigen K immer mit Version (TPID); keine stillschweigende Gleichsetzung von „Klasse I“ über Werke hinweg."
+}
