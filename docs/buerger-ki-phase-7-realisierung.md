@@ -92,3 +92,22 @@ Gemeinsamer Registervertrag:
 Zuerst drei reale Leistungen anhand amtlicher Originalbestände aussuchen und versionieren, dann drei synthetische Aufgaben daraus erstellen. Anschließend den regelbasierten Runner ergänzen und das Interface mit den Quellenakten verbinden. Erst danach echte KI-Strategien hinter einem serverseitigen Adapter anschließen (keine API-Schlüssel auf GitHub Pages). Im Anschluss Referenzbewertungen unabhängig durchführen und dokumentieren.
 
 **Fertigkeitskriterium für Phase 7:** Mindestens eine reale Quellenfamilie, ein wiederholbarer Import, eine funktionierende fachliche Skill-Ausführung und ein unabhängiger Vergleich mit konkreten negativen Tests. Das ist gegenwärtig noch **nicht erreicht**.
+
+## Zwischenstand Phase 7.2: Rechtsquellen-Adapter (4. November 2026)
+
+**Umgesetzt im Repository:**
+- [XML-Adapter für lokal gespeicherte Gesetzesdateien](../forschung/buerger-ki/bki_gii_adapter.py) (Gesetzeskürzel BMG/GewO; Extraktion von Paragraphen; SHA-256-Herkunfts- und Texthashes; expliziter Ausschluss einer automatischen Prüfung der Rechtsgültigkeit und örtlichen Zuständigkeit).
+- [Synthetische Regressionstests](../forschung/buerger-ki/test_bki_gii_adapter.py) für gültigen Input, Normduplikate, falsche Quelle, unerwünschte Entity-Deklarationen, fehlende Normen und falsches Gesetz.
+- [CI-Workflow](../.github/workflows/bki-gii-adapter-tests.yml) zur isolierten automatischen Testausführung.
+
+**Noch nicht nachgewiesen:** erfolgreicher GitHub-Actions-Lauf, echter XML-Download/Import vom amtlichen Anbieter, vollständige GII-Formatabdeckung, unabhängige Rechtsprüfung. Es wurde kein produktiver öffentlicher PVOG-Adapter implementiert.
+
+**Quellengrenzen:**
+- [GII-Hinweise](https://www.gesetze-im-internet.de/hinweise.html): XML für maschinelle Verarbeitung; konsolidierte Texte sind von der amtlichen Verkündungsfassung im Bundesgesetzblatt zu unterscheiden.
+- [FITKO PVOG Suchdienst](https://docs.fitko.de/efa-parametrisierung/docs/parametrisierungsleitfaden/): öffentlich nutzbare Such-API, Abfragen und nachgelagerte Filter oft erforderlich.
+- [PVOG Bereitstelldienst](https://pvog.fitko.de/docs/bereitstelldienst/ueberblick/): vollständiger Datenzugriff nur autorisiert, kein automatisch offener Gesamtdatenexport.
+- [PVOG Versionierung](https://docs.fitko.de/pvog/docs/anbindung_bed/schnittstelle/anbindung_bed_versionierung/): dokumentierte neue Version v3/XZuFi 2.3.1; beim späteren Adapter zwingend Versionsvertrag beachten.
+
+**Nächster überprüfbarer Schritt:** echten GII-XML-Snapshot (BMG und GewO) herunterladen, dessen Original-URL und SHA dokumentieren, Parser mit den echten Dateien und dem Regressionskorpus erfolgreich ausführen, die extrahierten Paragraphen gegen die sichtbaren Originalstellen vergleichen und offene Fehler in einer Import-/No-Loss-Akte festhalten. Erst danach ist eine technische Adapterabnahme sinnvoll.
+
+**Fortschrittszähler unverändert 3/10 Gates (30 %).** Code- und Testanlage zählen nicht als G05, solange kein wiederholbarer, erfolgreich belegter Echtimport vorliegt.
