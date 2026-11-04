@@ -5,15 +5,15 @@
 @media(max-width:760px){.ux-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:520px){.ux-grid{grid-template-columns:1fr}.ux-topic{padding:15px}.ux-site-nav{gap:1px}.ux-site-nav a{padding:7px;font-size:.8rem}}
 
 /* Cross-site framing: each meta-topic gets one coherent visual boundary. */
-body.ux-site-v2 main > section:not(.ux-topic){border:1px solid var(--ux-line);border-top:4px solid var(--ux-page-accent,var(--ux-ki));border-radius:15px;padding:clamp(15px,2.5vw,25px);margin:28px 0;background:var(--ux-panel)}
-body.ux-site-v2 main > section:not(.ux-topic) > h2:first-child{margin-top:0}
-body.ux-site-v2 main .grid:not(.ux-grid),body.ux-site-v2 main .cards,body.ux-site-v2 main .ai-grid,body.ux-site-v2 main .incubator-grid,body.ux-site-v2 main .tensor-join-grid,body.ux-site-v2 main .tensor-learning-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
-body.ux-site-v2 main .grid > *,body.ux-site-v2 main .cards > *{min-width:0}
-body.ux-site-v2 main .grid > article,body.ux-site-v2 main .cards > article{border-radius:12px}
-@media(max-width:760px){body.ux-site-v2 main .grid:not(.ux-grid),body.ux-site-v2 main .cards,body.ux-site-v2 main .ai-grid,body.ux-site-v2 main .incubator-grid,body.ux-site-v2 main .tensor-join-grid,body.ux-site-v2 main .tensor-learning-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:520px){body.ux-site-v2 main .grid:not(.ux-grid),body.ux-site-v2 main .cards,body.ux-site-v2 main .ai-grid,body.ux-site-v2 main .incubator-grid,body.ux-site-v2 main .tensor-join-grid,body.ux-site-v2 main .tensor-learning-grid{grid-template-columns:1fr}}
+body.ux-site-v3 main > section:not(.ux-topic){border:1px solid var(--ux-line);border-top:4px solid var(--ux-page-accent,var(--ux-ki));border-radius:15px;padding:clamp(15px,2.5vw,25px);margin:28px 0;background:var(--ux-panel)}
+body.ux-site-v3 main > section:not(.ux-topic) > h2:first-child{margin-top:0}
+body.ux-site-v3 main .grid:not(.ux-grid),body.ux-site-v3 main .cards,body.ux-site-v3 main .ai-grid,body.ux-site-v3 main .incubator-grid,body.ux-site-v3 main .tensor-join-grid,body.ux-site-v3 main .tensor-learning-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+body.ux-site-v3 main .grid > *,body.ux-site-v3 main .cards > *{min-width:0}
+body.ux-site-v3 main .grid > article,body.ux-site-v3 main .cards > article{border-radius:12px}
+@media(max-width:760px){body.ux-site-v3 main .grid:not(.ux-grid),body.ux-site-v3 main .cards,body.ux-site-v3 main .ai-grid,body.ux-site-v3 main .incubator-grid,body.ux-site-v3 main .tensor-join-grid,body.ux-site-v3 main .tensor-learning-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){body.ux-site-v3 main .grid:not(.ux-grid),body.ux-site-v3 main .cards,body.ux-site-v3 main .ai-grid,body.ux-site-v3 main .incubator-grid,body.ux-site-v3 main .tensor-join-grid,body.ux-site-v3 main .tensor-learning-grid{grid-template-columns:1fr}}
 
-body.ux-site-v2 main > section:not(.ux-topic) > h2:first-child::before{content:var(--ux-page-icon,"◈");display:inline-grid;place-items:center;color:var(--ux-page-accent,var(--ux-ki));background:color-mix(in srgb,var(--ux-page-accent,var(--ux-ki)) 13%,transparent);width:37px;height:37px;border-radius:10px;margin-right:12px;font-size:20px;vertical-align:middle}
+body.ux-site-v3 main > section:not(.ux-topic) > h2:first-child::before{content:var(--ux-page-icon,"◈");display:inline-grid;place-items:center;color:var(--ux-page-accent,var(--ux-ki));background:color-mix(in srgb,var(--ux-page-accent,var(--ux-ki)) 13%,transparent);width:37px;height:37px;border-radius:10px;margin-right:12px;font-size:20px;vertical-align:middle}
 
 /* Navigation and icons: the original vector symbols are shared across all main areas. */
 .ux-site-nav a{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:34px;white-space:nowrap}
@@ -22,8 +22,8 @@ body.ux-site-v2 main > section:not(.ux-topic) > h2:first-child::before{content:v
 .ux-site-nav a.tensor-nav-join:hover,.ux-site-nav a.tensor-nav-join:focus-visible{background:color-mix(in srgb,#bb6944 45%,transparent)}
 .ux-site-nav a.tensor-nav-soulution{color:#83d3aa!important;font-weight:700}
 .ux-site-nav a.tensor-nav-soulution:hover,.ux-site-nav a.tensor-nav-soulution:focus-visible{background:#236843}
-.ux-site-v2 .ux-topic-icon svg{display:block;width:27px;height:27px;color:var(--topic)}
-.ux-site-v2 main :is(a,button,input,select):focus-visible{outline:3px solid #be894d;outline-offset:2px}
+.ux-site-v3 .ux-topic-icon svg{display:block;width:27px;height:27px;color:var(--topic)}
+.ux-site-v3 main :is(a,button,input,select):focus-visible{outline:3px solid #be894d;outline-offset:2px}
 @media(max-width:760px){.ux-site-nav a{gap:4px}.ux-site-nav a svg{width:14px;height:14px}}
 
 /* Original project accent hierarchy restored inside the common metatopic frames. */
@@ -36,3 +36,46 @@ body.ux-site-v2 main > section:not(.ux-topic) > h2:first-child::before{content:v
 .ux-card[data-tone=pub]{--card-tone:var(--ux-pub)}
 .ux-card[data-tone]{border-top:3px solid var(--card-tone);background:color-mix(in srgb,var(--card-tone) 5%,var(--ux-panel))}
 .ux-card .ux-card-icon{width:34px;height:34px;color:var(--card-tone,var(--topic));vertical-align:middle;margin-right:5px}
+
+/* v3.1: a single stable primary navigation and separate local table of contents */
+.tensor-global-nav .tensor-nav-inner{max-width:1280px!important;align-items:center!important;gap:16px!important}
+.tensor-global-nav nav.ux-site-nav{display:flex!important;flex:1 1 auto;flex-wrap:wrap!important;align-items:center!important;justify-content:flex-end!important;gap:4px!important;overflow:visible!important;min-width:0}
+.tensor-global-nav nav.ux-site-nav a{display:inline-flex!important;align-items:center!important;justify-content:center!important;gap:7px;min-height:38px;padding:7px 9px!important;border:1px solid transparent;border-radius:9px!important;line-height:1.2!important;font-size:.84rem!important;white-space:nowrap;box-sizing:border-box;flex:0 0 auto}
+.tensor-global-nav nav.ux-site-nav a svg{width:16px;height:16px;flex:none}
+.tensor-global-nav nav.ux-site-nav a[aria-current=page],.tensor-global-nav nav.ux-site-nav a[aria-current=location]{border:1px solid #a2d4d2!important;background:#ffffff24!important;box-shadow:inset 0 -3px #a2d4d2;font-weight:750}
+.tensor-global-nav nav.ux-site-nav a.tensor-nav-join{background:#b32632!important;color:#fff!important;border-color:#c94954!important;font-weight:750}
+.tensor-global-nav nav.ux-site-nav a.tensor-nav-soulution{background:#1b5d33!important;color:#fff!important;border-color:#338352!important;font-weight:750}
+.tensor-global-nav nav.ux-site-nav a:hover,.tensor-global-nav nav.ux-site-nav a:focus-visible{background:#343b45!important;color:#fff!important;outline:2px solid #d4e9ef;outline-offset:1px}
+.ux-breadcrumb{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin:4px 0 13px;font-size:.82rem;color:var(--ux-quiet,#536873);line-height:1.55}
+.ux-breadcrumb a{color:inherit;text-decoration:underline;text-underline-offset:2px;display:inline-flex;align-items:center;min-height:28px}
+.ux-breadcrumb > :not(:first-child)::before{content:"›";font-weight:700;margin:0 9px 0 2px;color:var(--ux-page-accent,#16818a)}
+.ux-breadcrumb span{min-width:0;overflow-wrap:anywhere}
+.ux-context-nav{display:flex;align-items:flex-start;flex-wrap:wrap;gap:9px 14px;border:1px solid var(--ux-line);border-radius:12px;padding:12px 14px;margin:12px 0 25px;background:color-mix(in srgb,var(--ux-page-accent,var(--ux-tensor)) 6%,var(--ux-panel));color:var(--ux-text)}
+.ux-context-title{font-size:.78rem;font-weight:750;text-transform:uppercase;letter-spacing:.065em;flex:none;padding-top:7px}
+.ux-context-links{display:flex;flex:1 1 400px;gap:7px;flex-wrap:wrap;align-items:center;min-width:0}
+.ux-context-links a{color:inherit;border:1px solid var(--ux-line);border-radius:8px;padding:7px 9px;font-size:.84rem;text-decoration:none;overflow-wrap:anywhere;max-width:100%;background:var(--ux-panel)}
+.ux-context-links a:hover,.ux-context-links a:focus-visible{border-color:var(--ux-page-accent);text-decoration:underline}
+.ux-context-links details{position:relative;max-width:100%}.ux-context-links summary{cursor:pointer;padding:7px 9px;font-size:.84rem;border:1px solid var(--ux-line);border-radius:8px}
+.ux-context-links details a{display:block;margin-top:5px}
+.ux-site-v3 main :is(.ux-links,.ux-inline-nav,.tns-lead-nav,.geo-chapters) a{max-width:100%;min-width:0;overflow-wrap:anywhere;white-space:normal;line-height:1.35}
+.ux-site-v3 main .ux-links a{display:inline-flex;align-items:center;min-height:40px;flex:0 1 auto}
+.ux-site-v3 main :is(.ux-grid,.grid,.cards,.ai-grid,.incubator-grid,.tensor-learning-grid) > *{min-width:0;max-width:100%;overflow-wrap:anywhere}
+.ux-site-v3 main :is(.ux-grid,.grid,.cards,.ai-grid,.incubator-grid) img{max-width:100%;height:auto}
+.ux-site-v3 main :is(.ux-topic,.tensor-panel,.tensor-nucleus,.ai-card,.card){min-width:0;overflow-wrap:break-word}
+.ux-site-v3 main :is(pre,table,svg:not(.ux-card-icon)){max-width:100%}
+.ux-site-v3 main pre{overflow-x:auto;white-space:pre-wrap;overflow-wrap:anywhere}
+.ux-site-v3 main :is(.ux-topic,.tensor-panel,.tensor-nucleus,.research-frame,.th-evidence-section,.tensor-join-card,.tensor-learning) {scroll-margin-top:24px}
+.ux-site-v3 main .ux-topic .ux-topic-icon svg{width:27px!important;height:27px!important;display:block;color:var(--topic)}
+@media(max-width:1050px){
+ .tensor-global-nav .tensor-nav-inner{flex-wrap:wrap!important}
+ .tensor-global-nav nav.ux-site-nav{justify-content:flex-start!important;width:100%!important}
+}
+@media(max-width:570px){
+ .tensor-global-nav .tensor-nav-inner{gap:3px!important;padding:9px 12px!important}
+ .tensor-global-nav nav.ux-site-nav{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr));gap:3px!important;width:100%!important}
+ .tensor-global-nav nav.ux-site-nav a{flex-direction:column;white-space:normal!important;word-break:normal;text-align:center;font-size:.72rem!important;gap:2px;padding:6px 2px!important;min-width:0}
+ .tensor-global-nav nav.ux-site-nav a svg{width:17px;height:17px}
+ .ux-context-nav{padding:9px;gap:7px}
+ .ux-context-title{flex-basis:100%}
+ .ux-context-links a{font-size:.8rem}
+}
