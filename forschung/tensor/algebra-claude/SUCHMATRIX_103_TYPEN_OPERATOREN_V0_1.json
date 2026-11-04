@@ -1,0 +1,5596 @@
+{
+  "schema": "tensor103-search-projection/0.1",
+  "state": "screening_only_no_3_class_confirmation",
+  "timestamp": "2026-11-04",
+  "source": {
+    "public_inventory": "docs/data/tensor-inventar-v10_7.json",
+    "existing_formula_typology": "forschung/tensor/algebra-claude/ANALYSE_103_V0_1.json",
+    "finding_registry": "forschung/tensor/algebra-claude/BEFUNDREGISTER_TENSOR_V0_1.json",
+    "inventory_blob_sha": "469dcf964a49b9173def44422c016a868ab34d32"
+  },
+  "method": "Only preexisting explicitly recorded formula-type tags used for 3-family screen; independent operation-search suggestions use textual/mathematical motif triggers. No implicit scientific correctness.",
+  "hypothesis": "3 mathematical tensor types may recur; H1 equality/constraint, H2 evolution, H3 operator/representation — provisional screening classes, NOT mutually exclusive and NOT historical I/II/III proof.",
+  "caveats": [
+    "The original 103 tensor sketches have no verified paths/27-field mathematics, so reversible/partial/irreversible regimes CANNOT be classified tensor by tensor.",
+    "The coarse formula-tag data classify 44/103; no automated classification can prove three exclusive types.",
+    "An operator can be both dynamics and invertible; inversion degree is independent of equation form.",
+    "H3 is not the project's historical loop/cycle/process I/II/III classification.",
+    "Textual prompts for operations are applicability ideas, not performed calculations."
+  ],
+  "statistics": {
+    "total": 103,
+    "three_family": {
+      "H1_GLEICHUNG_BEDINGUNG": 42,
+      "H2_ENTWICKLUNG_PROZESS": 7,
+      "H3_OPERATOR_ABBILDUNG": 3
+    },
+    "membership": {
+      "0": 59,
+      "1": 37,
+      "2": 6,
+      "3": 1
+    },
+    "multilabel": 7,
+    "unclassified": 59,
+    "tag_covered": 44,
+    "unique_identical_axes": [
+      "FACH-F054"
+    ],
+    "search_coverage": {
+      "discrete_logic": 10,
+      "eq_transform": 44,
+      "ode_pde": 44,
+      "operator_map": 50,
+      "probability": 6
+    }
+  },
+  "objects": [
+    {
+      "id": "FACH-F001",
+      "name": "Logik (historisch gesperrt)",
+      "model": "Modelltheorie",
+      "formula_anchor": "Vollständigkeitssatz nur für spezifizierte Kalküle",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Syntax",
+            "Semantik",
+            "Beweis"
+          ],
+          "status": "HISTORISCH_RESERVIERT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Rel0",
+            "Rel-Rel",
+            "Rel1"
+          ],
+          "status": "HISTORISCH_RESERVIERT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Struktur",
+            "Funktion",
+            "Relation"
+          ],
+          "status": "HISTORISCH_RESERVIERT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [
+        "logische_dualitaet",
+        "normalform",
+        "gegenmodell",
+        "pfadkomposition",
+        "umkehrung_nur_wenn_eindeutig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "historisch_gesperrt",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F002",
+      "name": "Mengenlehre",
+      "model": "ZFC, Mengenfunktionen",
+      "formula_anchor": "Kardinalität unter Bijektionen invariant",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Menge",
+            "Abbildung",
+            "Kardinalität"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Element",
+            "Teilmenge",
+            "Potenzmenge"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Injektion",
+            "Surjektion",
+            "Bijektion"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [
+        "logische_dualitaet",
+        "normalform",
+        "gegenmodell",
+        "pfadkomposition",
+        "umkehrung_nur_wenn_eindeutig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F003",
+      "name": "Algebra",
+      "model": "Orbit-Stabilisator",
+      "formula_anchor": "Orbit-Stabilisator-Satz für passende Gruppen",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Gruppe",
+            "Wirkung",
+            "Orbit"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Untergruppe",
+            "Nebenklasse",
+            "Quotient"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Homomorphismus",
+            "Kern",
+            "Bild"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F004",
+      "name": "Lineare Algebra",
+      "model": "Spektralsatz",
+      "formula_anchor": "Av=λv",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Operator",
+            "Eigenvektor",
+            "Eigenwert"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Vektorraum",
+            "Basis",
+            "Dimension"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Matrix",
+            "Determinante",
+            "Invertierbarkeit"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "linear_matrix"
+      ],
+      "three_family_screen": [
+        "H3_OPERATOR_ABBILDUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F005",
+      "name": "Analysis",
+      "model": "Fundamentalsatz",
+      "formula_anchor": "∫f′=f(b)−f(a)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Grenzwert",
+            "Ableitung",
+            "Integral"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Funktion",
+            "Differenzierbarkeit",
+            "Ableitung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Integrand",
+            "Stammfunktion",
+            "bestimmtes Integral"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F006",
+      "name": "Differentialgleichungen",
+      "model": "ODE/PDE",
+      "formula_anchor": "Anfangswertproblem x(t0)=x0",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Zustand",
+            "Dynamik",
+            "Anfangswert"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Vektorfeld",
+            "Trajektorie",
+            "Fixpunkt"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Anfangsdaten",
+            "Lösungsoperator",
+            "Stabilität"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F007",
+      "name": "Geometrie",
+      "model": "Riemanngeometrie",
+      "formula_anchor": "Riemann-Krümmung, Zusatzannahmen",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Raum",
+            "Metrik",
+            "Krümmung"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Punkt",
+            "Abstand",
+            "Geodäte"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Mannigfaltigkeit",
+            "Verbindung",
+            "Krümmungstensor"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F008",
+      "name": "Topologie",
+      "model": "Algebraische Topologie",
+      "formula_anchor": "π₁(X)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Raum",
+            "Stetigkeit",
+            "Homotopie"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Offene Menge",
+            "Topologie",
+            "Stetigkeit"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Schleife",
+            "Homotopie",
+            "Fundamentalgruppe"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig",
+        "logische_dualitaet",
+        "normalform",
+        "gegenmodell",
+        "pfadkomposition",
+        "umkehrung_nur_wenn_eindeutig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F009",
+      "name": "Wahrscheinlichkeit",
+      "model": "Kolmogorov",
+      "formula_anchor": "E[X]=∫X dP",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Ereignis",
+            "Maß",
+            "Erwartungswert"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Zufallsvariable",
+            "Verteilung",
+            "Moment"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Bedingung",
+            "bedingte Wahrscheinlichkeit",
+            "Bayes-Update"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig",
+        "bedingung_umkehren_Bayes",
+        "marginalisieren",
+        "normierung",
+        "messungsumkehr_nur_mit_information",
+        "identifizierbarkeit"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F010",
+      "name": "Statistik",
+      "model": "Likelihood",
+      "formula_anchor": "L(θ)=∏p(x_i|θ)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Parameter",
+            "Stichprobe",
+            "Schätzer"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Modell",
+            "Likelihood",
+            "Schätzwert"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Nullhypothese",
+            "Teststatistik",
+            "Fehlerwahrscheinlichkeit"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig",
+        "bedingung_umkehren_Bayes",
+        "marginalisieren",
+        "normierung",
+        "messungsumkehr_nur_mit_information",
+        "identifizierbarkeit"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F011",
+      "name": "Klassische Mechanik",
+      "model": "Hamiltonmechanik",
+      "formula_anchor": "q̇=∂H/∂p; ṗ=−∂H/∂q",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Zustand",
+            "Hamiltonfunktion",
+            "Fluss"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Koordinate",
+            "Impuls",
+            "Hamiltonfunktion"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Symmetrie",
+            "Erhaltungsgröße",
+            "Poissonklammer"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F012",
+      "name": "Kontinuumsmechanik",
+      "model": "Cauchy-Bilanz",
+      "formula_anchor": "ρa=∇·σ+f",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Deformation",
+            "Spannung",
+            "Bilanz"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Verschiebungsfeld",
+            "Verzerrung",
+            "Spannung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Dichte",
+            "Impulsfluss",
+            "Bilanzgleichung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F013",
+      "name": "Elektrodynamik",
+      "model": "Maxwell",
+      "formula_anchor": "∂μF^{μν}=μ0Jν (Einheitenwahl)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Feldtensor",
+            "Viererstrom",
+            "Feldgleichung"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Potential",
+            "Feldstärke",
+            "Feldtensor"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Ladung",
+            "Kontinuitätsgleichung",
+            "Maxwellgleichung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F014",
+      "name": "Spezielle Relativität",
+      "model": "Minkowski",
+      "formula_anchor": "ds²=η_μνdx^μdx^ν",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Ereignis",
+            "Lorentztransformation",
+            "Intervall"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Raumzeitpunkt",
+            "Weltlinie",
+            "Eigenzeit"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Vierervektor",
+            "Minkowskimetrik",
+            "Invariante"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "potenzgesetz"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F015",
+      "name": "Allgemeine Relativität",
+      "model": "Einstein",
+      "formula_anchor": "Gμν+Λgμν=κTμν",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Metrik",
+            "Krümmung",
+            "Energieimpuls"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Raumzeitmetrik",
+            "Christoffelsymbol",
+            "Geodäte"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Energie-Impuls-Tensor",
+            "Einstein-Tensor",
+            "Feldgleichung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F016",
+      "name": "Quantenmechanik",
+      "model": "Born-Regel",
+      "formula_anchor": "p=Tr(ρE)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Zustand",
+            "Operator",
+            "Messwahrscheinlichkeit"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Zustandsvektor",
+            "Hamiltonoperator",
+            "Zeitentwicklung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Observable",
+            "Spektralprojektor",
+            "Bornwahrscheinlichkeit"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F017",
+      "name": "Quantenfeldtheorie",
+      "model": "Pfadintegral",
+      "formula_anchor": "Z[J]=∫Dφ e^{iS+iJφ}",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Feld",
+            "Wirkung",
+            "Korrelator"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Feldoperator",
+            "Vakuum",
+            "Korrelator"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Symmetrie",
+            "Noetherstrom",
+            "Wardidentität"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "exponentiell"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F018",
+      "name": "Starke Wechselwirkung",
+      "model": "QCD",
+      "formula_anchor": "QCD-Dynamik/Confinement als zusätzliche Brücke",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Farbladung",
+            "Gluonfeld",
+            "Hadronenspektrum"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Eichgruppe",
+            "Farbladung",
+            "kovariante Ableitung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Wilson-Schleife",
+            "statisches Potential",
+            "Confinement"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F019",
+      "name": "Elektroschwache Theorie",
+      "model": "Standardmodell",
+      "formula_anchor": "mW=gv/2; Yukawa-Masse mf=yfv/√2",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Eichkopplung",
+            "Higgs-Vakuum",
+            "Spektrum"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Eichsymmetrie",
+            "Higgsfeld",
+            "Vakuumerwartungswert"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Yukawakopplung",
+            "Massenterm",
+            "Fermionspektrum"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F020",
+      "name": "Thermische Physik",
+      "model": "Kanonisches Ensemble",
+      "formula_anchor": "F=−k_BT ln Z",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Mikrozustand",
+            "Zustandssumme",
+            "freie Energie"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Mikrozustand",
+            "Energie",
+            "Boltzmanngewicht"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Temperatur",
+            "Entropie",
+            "freie Energie"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "logarithmisch"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F021",
+      "name": "Astrophysik",
+      "model": "Sternstruktur",
+      "formula_anchor": "dP/dr=−Gmρ/r²",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Gravitation",
+            "Strahlung",
+            "Materie"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Masse",
+            "Gravitationspotential",
+            "Hydrostatik"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Emissivität",
+            "Strahlungsfluss",
+            "Spektrum"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "potenzgesetz",
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F022",
+      "name": "Kosmologie",
+      "model": "FLRW",
+      "formula_anchor": "H²=(8πG/3)ρ−kc²/a²+Λc²/3",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Skalenfaktor",
+            "Materieinhalt",
+            "Expansion"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Metrik",
+            "Skalenfaktor",
+            "Hubbleparameter"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Energiedichte",
+            "Druck",
+            "Friedmann-Gleichung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "potenzgesetz",
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F023",
+      "name": "Planetologie",
+      "model": "Energiebilanz",
+      "formula_anchor": "(1−α)S/4=σεT⁴",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Energieeintrag",
+            "Atmosphäre",
+            "Klima"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Strahlungsfluss",
+            "Albedo",
+            "Energiebilanz"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Temperaturprofil",
+            "Konvektion",
+            "Atmosphärenzirkulation"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F024",
+      "name": "Festkörperphysik",
+      "model": "Bloch/Drude",
+      "formula_anchor": "σ=ne²τ/m",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Gitter",
+            "Bandstruktur",
+            "Transport"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Periodisches Potential",
+            "Blochzustand",
+            "Energieband"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Fermi-Fläche",
+            "Streuzeit",
+            "Leitfähigkeit"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "potenzgesetz",
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F025",
+      "name": "Supraleitung",
+      "model": "BCS/GL",
+      "formula_anchor": "Δ(T)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Ordnungsparameter",
+            "Kopplung",
+            "Kohärenz"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Paarpotential",
+            "Ordnungsparameter",
+            "Energielücke"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Magnetfeld",
+            "Flussquant",
+            "Vortex"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F026",
+      "name": "Quantenoptik",
+      "model": "Jaynes-Cummings",
+      "formula_anchor": "H=ℏωa†a+ℏg(a†σ₋+aσ₊)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Photonenzustand",
+            "Wechselwirkung",
+            "Detektion"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Quantenzustand",
+            "Licht-Materie-Hamiltonoperator",
+            "Übergangsrate"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Photonenzahl",
+            "Korrelationsfunktion",
+            "Detektionsstatistik"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F027",
+      "name": "Plasmaphysik",
+      "model": "Vlasov-Poisson",
+      "formula_anchor": "∂_t f+v·∇f+(q/m)E·∂_v f=0",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Teilchenverteilung",
+            "Feld",
+            "kollektive Mode"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Verteilungsfunktion",
+            "Vlasovgleichung",
+            "Plasmamode"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Ladungsdichte",
+            "Feld",
+            "Abschirmlänge"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F028",
+      "name": "Fluiddynamik",
+      "model": "Navier-Stokes",
+      "formula_anchor": "ρDv/Dt=−∇p+μ∇²v",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Geschwindigkeit",
+            "Druck",
+            "Viskosität"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Strömungsfeld",
+            "Kontinuitätsgleichung",
+            "Masseerhaltung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Spannungstensor",
+            "Viskosität",
+            "Navier-Stokes-Gleichung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "potenzgesetz",
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F029",
+      "name": "Akustik",
+      "model": "Wellengleichung",
+      "formula_anchor": "∂²p/∂t²=c²∇²p",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Druckstörung",
+            "Medium",
+            "Welle"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Dichtestörung",
+            "Druckstörung",
+            "Schallgeschwindigkeit"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Wellenzahl",
+            "Frequenz",
+            "Dispersionsrelation"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "dynamik_ode",
+        "potenzgesetz",
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG",
+        "H2_ENTWICKLUNG_PROZESS"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "anfangswert",
+        "vorwaertsintegration",
+        "rueckwaertsintegration_bei_eindeutigkeit",
+        "stabilitaet",
+        "linearisieren",
+        "parameteraenderung",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F030",
+      "name": "Geophysik",
+      "model": "Seismische Wellen",
+      "formula_anchor": "ρü=∇·σ",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Geometrie",
+            "Material",
+            "Welle"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Elastizität",
+            "Dichte",
+            "Wellengeschwindigkeit"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Quelle",
+            "Wellenfeld",
+            "Seismogramm"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F031",
+      "name": "Quantenchemie",
+      "model": "DFT/Hartree-Fock",
+      "formula_anchor": "E[n] und KS-Orbitale",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Orbitale",
+            "Elektronendichte",
+            "Energie"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Hamiltonoperator",
+            "Elektronenwellenfunktion",
+            "Energie"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Dichtefunktional",
+            "Elektronendichte",
+            "Grundzustandsenergie"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F032",
+      "name": "Bindungschemie",
+      "model": "Born-Oppenheimer",
+      "formula_anchor": "F_i=−∂E/∂R_i",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Geometrie",
+            "Potentialfläche",
+            "Vibrationsmode"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Kernkoordinate",
+            "Potentialenergie",
+            "Kraft"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Gleichgewichtsgeometrie",
+            "Hesse-Matrix",
+            "Normalmode"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F033",
+      "name": "Thermodynamische Chemie",
+      "model": "Gibbs",
+      "formula_anchor": "ΔrG=Σνi μi",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "chemisches Potential",
+            "ΔG",
+            "Gleichgewicht"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Aktivität",
+            "chemisches Potential",
+            "Reaktions-Gibbsenergie"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Standardreaktionsenergie",
+            "Gleichgewichtskonstante",
+            "Reaktionsquotient"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "summe_bilanz"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F034",
+      "name": "Reaktionskinetik",
+      "model": "Mass-Action/Eyring",
+      "formula_anchor": "dc/dt=S v(c)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Mechanismus",
+            "Rate",
+            "Konzentrationsverlauf"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Energiebarriere",
+            "Übergangszustand",
+            "Geschwindigkeitskonstante"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Stöchiometrie",
+            "Geschwindigkeitsgesetz",
+            "Konzentrationsprofil"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "dynamik_ode",
+        "linear_matrix",
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG",
+        "H2_ENTWICKLUNG_PROZESS",
+        "H3_OPERATOR_ABBILDUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "anfangswert",
+        "vorwaertsintegration",
+        "rueckwaertsintegration_bei_eindeutigkeit",
+        "stabilitaet",
+        "linearisieren",
+        "parameteraenderung",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": [
+        "BEF-T007"
+      ]
+    },
+    {
+      "id": "FACH-F035",
+      "name": "Elektrochemie",
+      "model": "Nernst",
+      "formula_anchor": "E=E°−RT/(nF)ln Q",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Redoxpaar",
+            "Aktivität",
+            "Elektrodenpotential"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Elektronenaktivität",
+            "Redoxpotential",
+            "Nernstbeziehung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Überpotential",
+            "Stromdichte",
+            "Austauschstrom"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "logarithmisch",
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": [
+        "BEF-T019"
+      ]
+    },
+    {
+      "id": "FACH-F036",
+      "name": "Photochemie",
+      "model": "Jablonski",
+      "formula_anchor": "Φ=k_r/Σk",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Absorption",
+            "Anregung",
+            "Relaxation"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Photonenfluss",
+            "Absorptionsquerschnitt",
+            "Anregungsrate"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "angeregter Zustand",
+            "Konkurrenzkanal",
+            "Quantenausbeute"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "summe_bilanz",
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F037",
+      "name": "Supramolekulare Chemie",
+      "model": "Host-Guest",
+      "formula_anchor": "θ=c/(K_d+c)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Erkennung",
+            "Bindung",
+            "Selbstorganisation"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Wirtsmolekül",
+            "Gastmolekül",
+            "Komplex"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Bindungskonstante",
+            "Belegungsgrad",
+            "Sättigung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F038",
+      "name": "Polymerchemie",
+      "model": "Carothers",
+      "formula_anchor": "X_n=1/(1−p)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Monomer",
+            "Kettenwachstum",
+            "Verteilung"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Initiierung",
+            "Propagation",
+            "Termination"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Polymerisationsgrad",
+            "Molmassenverteilung",
+            "Dispersität"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F039",
+      "name": "Katalyse",
+      "model": "Langmuir-Hinshelwood",
+      "formula_anchor": "θ=KC/(1+KC)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Adsorption",
+            "Reaktionsschritt",
+            "Desorption"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Oberflächenplatz",
+            "Adsorbat",
+            "Bedeckung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Reaktionsbarriere",
+            "Turnoverfrequenz",
+            "Selektivität"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F040",
+      "name": "Analytische Chemie",
+      "model": "Beer-Lambert",
+      "formula_anchor": "A=εlc",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Analyt",
+            "Messsignal",
+            "Kalibrierung"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Analytkonzentration",
+            "Antwortfunktion",
+            "Signal"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Blindwert",
+            "Messunsicherheit",
+            "Nachweisgrenze"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F041",
+      "name": "Molekularbiologie",
+      "model": "zentraler Informationsfluss",
+      "formula_anchor": "Transkriptions-/Translationsmodell",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Gen",
+            "Transkript",
+            "Protein"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Promotor",
+            "Transkriptionsrate",
+            "mRNA-Menge"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Translation",
+            "Proteinmenge",
+            "Abbaurate"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "bedingung_umkehren_Bayes",
+        "marginalisieren",
+        "normierung",
+        "messungsumkehr_nur_mit_information",
+        "identifizierbarkeit"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F042",
+      "name": "Genetik",
+      "model": "Mendel/Populationsgenetik",
+      "formula_anchor": "p²+2pq+q²=1",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Genotyp",
+            "Segregation",
+            "Phänotyp"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Allel",
+            "Genotyp",
+            "Segregationswahrscheinlichkeit"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Vererbung",
+            "Umwelt",
+            "Phänotyp"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "potenzgesetz"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F043",
+      "name": "Systembiologie",
+      "model": "ODE-Regulationsnetz",
+      "formula_anchor": "ẋ=f(x,θ)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Netzwerk",
+            "Zustand",
+            "Regulation"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Netzwerktopologie",
+            "Reaktionsregel",
+            "Systemzustand"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Rückkopplung",
+            "Attraktor",
+            "Stabilität"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F044",
+      "name": "Zellbiologie",
+      "model": "Goldman-Hodgkin-Katz",
+      "formula_anchor": "V_m≈(RT/F)ln(P_i c_o/P_i c_i)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Membran",
+            "Transport",
+            "Homöostase"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Membranpotential",
+            "Ionenkanal",
+            "Strom"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Konzentrationsgradient",
+            "Transporter",
+            "Fluss"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "logarithmisch",
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F045",
+      "name": "Biophysik",
+      "model": "Statistische Mechanik",
+      "formula_anchor": "p_i∝e^{-E_i/kT}",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Struktur",
+            "Energie",
+            "Konformation"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Konformation",
+            "freie Energie",
+            "Population"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Kraftfeld",
+            "Dynamik",
+            "Übergangsrate"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "exponentiell",
+        "potenzgesetz",
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F046",
+      "name": "Evolution",
+      "model": "Replikatordynamik",
+      "formula_anchor": "ṗ_i=p_i(f_i−f̄)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Variation",
+            "Selektion",
+            "Vererbung"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Mutation",
+            "Variation",
+            "Allelfrequenz"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Fitness",
+            "Selektion",
+            "Frequenzänderung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F047",
+      "name": "Ökologie",
+      "model": "Lotka-Volterra",
+      "formula_anchor": "ẋ=αx−βxy",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Population",
+            "Interaktion",
+            "Ressourcen"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Individuum",
+            "Population",
+            "Wachstumsrate"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Ressource",
+            "Konkurrenz",
+            "Tragfähigkeit"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F048",
+      "name": "Mikrobiologie",
+      "model": "Monod",
+      "formula_anchor": "μ=μmax S/(K_s+S)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Substrat",
+            "Wachstum",
+            "Hemmung"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Nährstoff",
+            "Aufnahmerate",
+            "Wachstum"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Wirkstoffkonzentration",
+            "Hemmung",
+            "Überlebensrate"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F049",
+      "name": "Neurobiologie",
+      "model": "Hodgkin-Huxley",
+      "formula_anchor": "C_m dV/dt=I−Σg_i(V−E_i)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Erregung",
+            "Synapse",
+            "Netzwerk"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Membranpotential",
+            "Schwelle",
+            "Aktionspotential"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Synapsenstärke",
+            "Plastizität",
+            "Netzwerkausgang"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "dynamik_ode",
+        "summe_bilanz",
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG",
+        "H2_ENTWICKLUNG_PROZESS"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "anfangswert",
+        "vorwaertsintegration",
+        "rueckwaertsintegration_bei_eindeutigkeit",
+        "stabilitaet",
+        "linearisieren",
+        "parameteraenderung",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F050",
+      "name": "Klimasysteme",
+      "model": "Energiebilanzmodelle",
+      "formula_anchor": "C dT/dt=F−λT",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Strahlungsbilanz",
+            "Rückkopplung",
+            "Temperatur"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Strahlungsantrieb",
+            "Rückkopplungsparameter",
+            "Temperaturantwort"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Atmosphäre",
+            "Ozean",
+            "Wärmespeicherung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "dynamik_ode",
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG",
+        "H2_ENTWICKLUNG_PROZESS"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "anfangswert",
+        "vorwaertsintegration",
+        "rueckwaertsintegration_bei_eindeutigkeit",
+        "stabilitaet",
+        "linearisieren",
+        "parameteraenderung"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F051",
+      "name": "Physiologie",
+      "model": "Regelkreismodell",
+      "formula_anchor": "ẋ=f(x,u)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Regelgröße",
+            "Sensor",
+            "Effektor"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Sollwert",
+            "Istwert",
+            "Regelabweichung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Sensorik",
+            "Steuerung",
+            "Rückkopplung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F052",
+      "name": "Pharmakokinetik",
+      "model": "Kompartimentmodell",
+      "formula_anchor": "dC/dt=−kC",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Dosis",
+            "Konzentration",
+            "Elimination"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Absorption",
+            "Verteilungsvolumen",
+            "Plasmakonzentration"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Clearance",
+            "Halbwertszeit",
+            "Exposition"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "dynamik_ode",
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG",
+        "H2_ENTWICKLUNG_PROZESS"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "anfangswert",
+        "vorwaertsintegration",
+        "rueckwaertsintegration_bei_eindeutigkeit",
+        "stabilitaet",
+        "linearisieren",
+        "parameteraenderung"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F053",
+      "name": "Pharmakodynamik",
+      "model": "Emax-Modell",
+      "formula_anchor": "E=Emax C/(EC50+C)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Konzentration",
+            "Rezeptorbelegung",
+            "Wirkung"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Ligandenkonzentration",
+            "Affinität",
+            "Rezeptorbelegung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Signaltransduktion",
+            "Dosis-Wirkung",
+            "Maximalwirkung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F054",
+      "name": "Epidemiologie",
+      "model": "SIR",
+      "formula_anchor": "dS/dt=-βSI/N",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Suszeptible",
+            "Infizierte",
+            "Genesene"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Kontaktmatrix",
+            "Transmissionsrate",
+            "Reproduktionszahl"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Suszeptible",
+            "Infizierte",
+            "Genesene"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": true,
+      "historical_formula_type_tags": [
+        "dynamik_ode",
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG",
+        "H2_ENTWICKLUNG_PROZESS"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "anfangswert",
+        "vorwaertsintegration",
+        "rueckwaertsintegration_bei_eindeutigkeit",
+        "stabilitaet",
+        "linearisieren",
+        "parameteraenderung"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": [
+        "BEF-T008"
+      ]
+    },
+    {
+      "id": "FACH-F055",
+      "name": "Immunologie",
+      "model": "Bindungs-/Populationsmodelle",
+      "formula_anchor": "θ=c/(K_d+c)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Antigen",
+            "Erkennung",
+            "Effektor"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Antigenpräsentation",
+            "T-Zell-Erkennung",
+            "Aktivierung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Antikörper",
+            "Affinität",
+            "Neutralisation"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F056",
+      "name": "Kardiovaskuläre Medizin",
+      "model": "Hämodynamik",
+      "formula_anchor": "ΔP=RQ",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Druck",
+            "Fluss",
+            "Widerstand"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Druckgradient",
+            "Gefäßwiderstand",
+            "Volumenstrom"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Herzfrequenz",
+            "Schlagvolumen",
+            "Herzzeitvolumen"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F057",
+      "name": "Neurowissenschaften",
+      "model": "neuronale Kodierung",
+      "formula_anchor": "I(X;Y)=Σp log[p/(p_xp_y)]",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Signal",
+            "neuronale Verarbeitung",
+            "Verhalten"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Reiz",
+            "Spikezug",
+            "Kodierung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Schaltkreis",
+            "Aktivierung",
+            "Verhalten"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "logarithmisch",
+        "summe_bilanz",
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F058",
+      "name": "Diagnostik",
+      "model": "Bayes",
+      "formula_anchor": "Bayes-Formel",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Test",
+            "Sensitivität",
+            "Nachtestwahrscheinlichkeit"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Prävalenz",
+            "Sensitivität",
+            "positiver Vorhersagewert"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Spezifität",
+            "Likelihood-Ratio",
+            "Posteriorwahrscheinlichkeit"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [
+        "bedingung_umkehren_Bayes",
+        "marginalisieren",
+        "normierung",
+        "messungsumkehr_nur_mit_information",
+        "identifizierbarkeit"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F059",
+      "name": "Gesundheitssystemforschung",
+      "model": "Versorgungsmodelle",
+      "formula_anchor": "Rate=Ereignisse/Personzeit",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Bedarf",
+            "Versorgung",
+            "Ergebnis"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Gesundheitsbedarf",
+            "Ressourcen",
+            "Zugänglichkeit"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Intervention",
+            "Qualität",
+            "Outcome"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F060",
+      "name": "Psychiatrieforschung",
+      "model": "IRT/Längsschnitt",
+      "formula_anchor": "P(Y=1|θ)=logit^{-1}(a(θ−b))",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Symptome",
+            "latentes Merkmal",
+            "Verlauf"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Latente Variable",
+            "Itemantwort",
+            "Messmodell"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Symptomverlauf",
+            "Intervention",
+            "Zustandsänderung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F061",
+      "name": "Algorithmen",
+      "model": "Komplexitätstheorie",
+      "formula_anchor": "T(n)=O(n log n)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Problem",
+            "Algorithmus",
+            "Komplexität"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Eingabe",
+            "Problemgröße",
+            "Laufzeit"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Algorithmus",
+            "Korrektheit",
+            "Terminierung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "logarithmisch"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "logische_dualitaet",
+        "normalform",
+        "gegenmodell",
+        "pfadkomposition",
+        "umkehrung_nur_wenn_eindeutig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F062",
+      "name": "Datenbanken",
+      "model": "Relationale Algebra",
+      "formula_anchor": "π_A(σ_P(R))",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Schema",
+            "Abfrage",
+            "Integrität"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Relation",
+            "Schlüssel",
+            "funktionale Abhängigkeit"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Transaktion",
+            "Isolation",
+            "Konsistenz"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig",
+        "logische_dualitaet",
+        "normalform",
+        "gegenmodell",
+        "pfadkomposition",
+        "umkehrung_nur_wenn_eindeutig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F063",
+      "name": "Programmiersprachen",
+      "model": "Typsysteme",
+      "formula_anchor": "Γ⊢e:τ",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Syntax",
+            "Typ",
+            "Semantik"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Ausdruck",
+            "Typregel",
+            "Typurteil"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Operationalsemantik",
+            "Reduktionsschritt",
+            "Ergebnis"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig",
+        "logische_dualitaet",
+        "normalform",
+        "gegenmodell",
+        "pfadkomposition",
+        "umkehrung_nur_wenn_eindeutig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F064",
+      "name": "Maschinelles Lernen",
+      "model": "ERM",
+      "formula_anchor": "θ*=argmin L(θ)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Daten",
+            "Modell",
+            "Verlust"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Stichprobe",
+            "Hypothesenklasse",
+            "Generalisierungsfehler"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Parameter",
+            "Verlustfunktion",
+            "Gradientenupdate"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F065",
+      "name": "Deep Learning",
+      "model": "Backpropagation",
+      "formula_anchor": "∇θL",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Repräsentation",
+            "Netzwerk",
+            "Gradienten"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Schicht",
+            "Aktivierungsfunktion",
+            "Repräsentation"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Backpropagation",
+            "Gradient",
+            "Gewichtsupdate"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F066",
+      "name": "Sprachmodelle",
+      "model": "Autoregression",
+      "formula_anchor": "p(x_t|x_<t)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Token",
+            "Kontext",
+            "Vorhersage"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Tokenfolge",
+            "Konditionalverteilung",
+            "Log-Likelihood"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Embedding",
+            "Attention",
+            "Kontextrepräsentation"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig",
+        "logische_dualitaet",
+        "normalform",
+        "gegenmodell",
+        "pfadkomposition",
+        "umkehrung_nur_wenn_eindeutig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F067",
+      "name": "Reinforcement Learning",
+      "model": "Bellman",
+      "formula_anchor": "V(s)=max_a E[r+γV(s′)]",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Zustand",
+            "Aktion",
+            "Belohnung"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Zustandsübergang",
+            "Policy",
+            "Wertfunktion"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Belohnung",
+            "Bellmanoperator",
+            "optimaler Wert"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F068",
+      "name": "KI-Sicherheit",
+      "model": "Robuste Optimierung",
+      "formula_anchor": "Robustheits- und Risikomessung",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Ziel",
+            "Verteilungsschift",
+            "Evaluation"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Angriffsmodell",
+            "Bedrohung",
+            "Testfall"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Zielvorgabe",
+            "Messkriterium",
+            "Evaluationsbefund"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F069",
+      "name": "Informationstheorie",
+      "model": "Shannon",
+      "formula_anchor": "I(X;Y)=Σp log[p/(px py)]",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Quelle",
+            "Kanal",
+            "Empfänger"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Entropie",
+            "bedingte Entropie",
+            "Information"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Kanaleingang",
+            "Übergangswahrscheinlichkeit",
+            "Kanalkapazität"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "logarithmisch",
+        "summe_bilanz",
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig",
+        "bedingung_umkehren_Bayes",
+        "marginalisieren",
+        "normierung",
+        "messungsumkehr_nur_mit_information",
+        "identifizierbarkeit"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F070",
+      "name": "Computernetzwerke",
+      "model": "Queueing",
+      "formula_anchor": "L=λW",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Knoten",
+            "Protokoll",
+            "Datenfluss"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Paket",
+            "Routing",
+            "Laufzeit"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Übertragung",
+            "Fehlerkontrolle",
+            "Zuverlässigkeit"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F071",
+      "name": "Phonetik",
+      "model": "Akustische Phonetik",
+      "formula_anchor": "f=1/T",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Artikulation",
+            "Schallsignal",
+            "Wahrnehmung"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Sprechapparat",
+            "Artikulationsgeste",
+            "Akustik"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Schallspektrum",
+            "Merkmalsextraktion",
+            "Lautwahrnehmung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F072",
+      "name": "Phonologie",
+      "model": "Merkmalsphonologie",
+      "formula_anchor": "feature matrices",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Phonem",
+            "Kontrast",
+            "Lautsystem"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Lautkontrast",
+            "Phonem",
+            "Minimalpaar"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Merkmalsmatrix",
+            "phonologische Regel",
+            "Oberflächenform"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [
+        "logische_dualitaet",
+        "normalform",
+        "gegenmodell",
+        "pfadkomposition",
+        "umkehrung_nur_wenn_eindeutig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F073",
+      "name": "Morphologie",
+      "model": "Finite-State Morphology",
+      "formula_anchor": "FST: stems→forms",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Morphem",
+            "Kombination",
+            "Wortform"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Morphem",
+            "Allomorphie",
+            "Wortbildung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Stamm",
+            "Affix",
+            "Flexionsmerkmal"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig",
+        "logische_dualitaet",
+        "normalform",
+        "gegenmodell",
+        "pfadkomposition",
+        "umkehrung_nur_wenn_eindeutig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F074",
+      "name": "Syntax",
+      "model": "Dependenzgrammatik",
+      "formula_anchor": "P(parse|sentence)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Konstituente",
+            "Abhängigkeit",
+            "Struktur"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Konstituente",
+            "Rekursionsregel",
+            "Parsebaum"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Dependenz",
+            "Kopf",
+            "Satzstruktur"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [
+        "logische_dualitaet",
+        "normalform",
+        "gegenmodell",
+        "pfadkomposition",
+        "umkehrung_nur_wenn_eindeutig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F075",
+      "name": "Semantik",
+      "model": "Kompositionale Semantik",
+      "formula_anchor": "Kompositionelle Semantik kontextabhängig",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Ausdruck",
+            "Bedeutung",
+            "Referenz"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Ausdruck",
+            "Denotation",
+            "Wahrheitsbedingung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Referent",
+            "Kontext",
+            "Interpretation"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F076",
+      "name": "Pragmatik",
+      "model": "Bayes-Pragmatik",
+      "formula_anchor": "Pragmatische Inferenz, Grice/Spieltheorie",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Äußerung",
+            "Kontext",
+            "Sprecherintention"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Äußerung",
+            "Sprecherannahme",
+            "Implikatur"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Sprechakt",
+            "soziale Situation",
+            "kommunikative Wirkung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "bedingung_umkehren_Bayes",
+        "marginalisieren",
+        "normierung",
+        "messungsumkehr_nur_mit_information",
+        "identifizierbarkeit"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F077",
+      "name": "Psycholinguistik",
+      "model": "Diffusionsentscheidungsmodell",
+      "formula_anchor": "dx=vdt+σdW",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Stimulus",
+            "Verarbeitung",
+            "Antwort"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Sprachsignal",
+            "lexikalischer Zugriff",
+            "Reaktionszeit"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Erwartung",
+            "Vorhersagefehler",
+            "Verarbeitungskosten"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F078",
+      "name": "Kognitionspsychologie",
+      "model": "Signalentdeckung",
+      "formula_anchor": "d′=Z(H)−Z(F)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Reiz",
+            "Gedächtnis",
+            "Entscheidung"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Reiz",
+            "Aufmerksamkeit",
+            "Enkodierung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Gedächtnisrepräsentation",
+            "Abruf",
+            "Entscheidung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F079",
+      "name": "Lernwissenschaft",
+      "model": "Item Response Theory",
+      "formula_anchor": "P=logit^{-1}(θ−b)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Vorwissen",
+            "Aktivität",
+            "Kompetenz"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Vorerfahrung",
+            "Übungsaktivität",
+            "Lernzuwachs"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Feedback",
+            "Konsolidierung",
+            "Transfer"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F080",
+      "name": "Didaktik",
+      "model": "Wirkungsanalyse",
+      "formula_anchor": "ATE=E[Y(1)−Y(0)]",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Lernziel",
+            "Intervention",
+            "Evaluation"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Kompetenzziel",
+            "Lernaufgabe",
+            "Leistungsnachweis"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Intervention",
+            "Vergleichsgruppe",
+            "Lernwirkung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F081",
+      "name": "Mikroökonomie",
+      "model": "Nutzenmaximierung",
+      "formula_anchor": "max U(x) s.t. px≤m",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Präferenzen",
+            "Restriktion",
+            "Entscheidung"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Nutzenfunktion",
+            "Budgetmenge",
+            "Optimum"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Preis",
+            "Nachfrage",
+            "Elastizität"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F082",
+      "name": "Makroökonomie",
+      "model": "Nationale Konten",
+      "formula_anchor": "Y=C+I+G+NX",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Produktion",
+            "Einkommen",
+            "Nachfrage"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Produktionsfunktion",
+            "Faktorinput",
+            "Output"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Konsum",
+            "Sparen",
+            "Investition"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F083",
+      "name": "Finanzwissenschaft",
+      "model": "Markowitz",
+      "formula_anchor": "Var(wᵀr)=wᵀΣw",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Risiko",
+            "Rendite",
+            "Portfolio"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Ertrag",
+            "Volatilität",
+            "Risiko"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Kovarianz",
+            "Gewichtung",
+            "Portfoliovarianz"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "summe_bilanz"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F084",
+      "name": "Soziologie",
+      "model": "Netzwerkanalyse",
+      "formula_anchor": "C_D(v)=deg(v)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Akteur",
+            "Beziehung",
+            "Netzwerk"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Akteur",
+            "Relation",
+            "Netzwerkdichte"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Norm",
+            "Interaktion",
+            "soziale Struktur"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F085",
+      "name": "Politikwissenschaft",
+      "model": "Social Choice",
+      "formula_anchor": "Mehrheitsrelation",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Präferenz",
+            "Institution",
+            "kollektive Entscheidung"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Akteurpräferenz",
+            "Wahlregel",
+            "Kollektiventscheidung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Institution",
+            "Anreiz",
+            "Strategiewahl"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F086",
+      "name": "Rechtswissenschaft",
+      "model": "juristische Subsumtion",
+      "formula_anchor": "Konditionale Regel, kein Naturgesetz",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Norm",
+            "Tatbestand",
+            "Rechtsfolge"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Normquelle",
+            "Geltungsbereich",
+            "Rechtsnorm"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Sachverhalt",
+            "Subsumtion",
+            "Entscheidung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F087",
+      "name": "Ökonometrie",
+      "model": "Instrumentvariablen",
+      "formula_anchor": "Identifikationsbedingungen",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Modell",
+            "Identifikation",
+            "Schätzung"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Strukturparameter",
+            "Beobachtung",
+            "Identifizierbarkeit"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Instrument",
+            "Exogenität",
+            "Schätzung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F088",
+      "name": "Kommunikationswissenschaft",
+      "model": "Kommunikationsmodelle",
+      "formula_anchor": "Exposure→response",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Botschaft",
+            "Medium",
+            "Rezeption"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Nachricht",
+            "Kanal",
+            "Reichweite"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Rezeption",
+            "Interpretation",
+            "Einstellungsänderung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F089",
+      "name": "Anthropologie",
+      "model": "vergleichende Ethnografie",
+      "formula_anchor": "qualitative Kodierung",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Praxis",
+            "Bedeutung",
+            "Institution"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Handlung",
+            "kultureller Kontext",
+            "Praxis"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Symbol",
+            "Bedeutung",
+            "Institutionalisierung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F090",
+      "name": "Geschichtswissenschaft",
+      "model": "Quellenkritik",
+      "formula_anchor": "Bayes für Datierung optional",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Quelle",
+            "Kontext",
+            "Interpretation"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Quellenartefakt",
+            "Herkunft",
+            "Quellenkritik"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Ereignis",
+            "Zeitordnung",
+            "Rekonstruktion"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F091",
+      "name": "Regelungstechnik",
+      "model": "PID",
+      "formula_anchor": "u=K_p e+K_i∫e+K_dė",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "System",
+            "Sensor",
+            "Rückkopplung"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Sollsignal",
+            "Istsignal",
+            "Fehler"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Regler",
+            "Strecke",
+            "geschlossener Kreis"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F092",
+      "name": "Robotik",
+      "model": "Zustandsraum",
+      "formula_anchor": "ẋ=Ax+Bu",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Wahrnehmung",
+            "Planung",
+            "Aktuation"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Sensor",
+            "Zustandsschätzung",
+            "Weltmodell"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Ziel",
+            "Trajektorienplanung",
+            "Aktuator"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "linear_matrix"
+      ],
+      "three_family_screen": [
+        "H3_OPERATOR_ABBILDUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F093",
+      "name": "Materialwissenschaft",
+      "model": "Hooke",
+      "formula_anchor": "σ=Eε",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Mikrostruktur",
+            "Eigenschaft",
+            "Belastung"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Kristallstruktur",
+            "Defekt",
+            "Materialeigenschaft"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Last",
+            "Spannungsantwort",
+            "Versagen"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F094",
+      "name": "Bauingenieurwesen",
+      "model": "Elastizität",
+      "formula_anchor": "EI y″=M(x)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Last",
+            "Tragwerk",
+            "Verformung"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Lastfall",
+            "Schnittkraft",
+            "Tragfähigkeit"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Steifigkeit",
+            "Verformung",
+            "Gebrauchstauglichkeit"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F095",
+      "name": "Energietechnik",
+      "model": "Energiebilanz",
+      "formula_anchor": "η=P_out/P_in",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Quelle",
+            "Umwandlung",
+            "Nutzenergie"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Primärenergie",
+            "Wirkungsgrad",
+            "Nutzenergie"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Leistung",
+            "Speicher",
+            "Lastprofil"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F096",
+      "name": "Verfahrenstechnik",
+      "model": "CSTR",
+      "formula_anchor": "V dc/dt=F(c_in−c)+Vr(c)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Zufluss",
+            "Reaktor",
+            "Abfluss"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Stoffbilanz",
+            "Stoffstrom",
+            "Reaktionsrate"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Reaktorvolumen",
+            "Verweilzeit",
+            "Umsetzung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "dynamik_ode",
+        "verhaeltnis"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG",
+        "H2_ENTWICKLUNG_PROZESS"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "anfangswert",
+        "vorwaertsintegration",
+        "rueckwaertsintegration_bei_eindeutigkeit",
+        "stabilitaet",
+        "linearisieren",
+        "parameteraenderung",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": [
+        "BEF-T007"
+      ]
+    },
+    {
+      "id": "FACH-F097",
+      "name": "Landwirtschaft",
+      "model": "Ertragsfunktion",
+      "formula_anchor": "Y=f(N,W,T)",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Boden",
+            "Wasser",
+            "Ertrag"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Bodenwasser",
+            "Nährstoffversorgung",
+            "Wachstum"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Pflanzenbestand",
+            "Ernteindex",
+            "Ertrag"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F098",
+      "name": "Umwelttechnik",
+      "model": "Advektion-Diffusion",
+      "formula_anchor": "∂_t c+v·∇c=D∇²c+S",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Emission",
+            "Transport",
+            "Exposition"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Emissionsquelle",
+            "Ausbreitung",
+            "Immission"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Dosis",
+            "Exposition",
+            "Risikofunktion"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [
+        "potenzgesetz"
+      ],
+      "three_family_screen": [
+        "H1_GLEICHUNG_BEDINGUNG"
+      ],
+      "unclassified_by_three_family": false,
+      "candidate_search_operations": [
+        "umschreiben",
+        "umstellen",
+        "vorwaerts",
+        "rueckwaerts",
+        "nullstellen",
+        "normalisieren",
+        "grenzfall",
+        "operator_komposition",
+        "reihenfolge_tauschen_pruefen",
+        "basiswechsel",
+        "rang_nullraum",
+        "spektralzerlegung",
+        "inversion_nur_wenn_zulaessig"
+      ],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F099",
+      "name": "Designwissenschaft",
+      "model": "Human-Centered Design",
+      "formula_anchor": "Mehrkriterienbewertung",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Anforderung",
+            "Prototyp",
+            "Nutzung"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Bedarfsanalyse",
+            "Anforderung",
+            "Entwurfsentscheidung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Prototyp",
+            "Nutzertest",
+            "Iteration"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "FACH-F100",
+      "name": "Musikwissenschaft",
+      "model": "Fourier-Analyse",
+      "formula_anchor": "Psychoakustische Messmodelle",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Klang",
+            "Zeitstruktur",
+            "Wahrnehmung"
+          ],
+          "status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Tonhöhe",
+            "Klangspektrum",
+            "Klangfarbe"
+          ],
+          "status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Rhythmus",
+            "Metrum",
+            "Zeitwahrnehmung"
+          ],
+          "status": "NEUER_KANDIDAT"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "CORE-T1",
+      "name": "CORE-T1 · Gegenstand – Konzept – Bezeichnung",
+      "model": "",
+      "formula_anchor": "",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Gegenstand",
+            "Konzept",
+            "Bezeichnung"
+          ],
+          "status": "historischer_core_entwurf"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Merkmal",
+            "Abgrenzung",
+            "Geltungsbereich"
+          ],
+          "status": "historischer_core_entwurf"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Kontext",
+            "Interpretation",
+            "Begriffsvariante"
+          ],
+          "status": "historischer_core_entwurf"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "CORE-T2",
+      "name": "CORE-T2 · Trägerraum – Zustandszuordnung – Wechselwirkung",
+      "model": "",
+      "formula_anchor": "",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Trägerraum",
+            "Zustandszuordnung",
+            "Wechselwirkung"
+          ],
+          "status": "historischer_core_entwurf"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Zustand",
+            "Übergang",
+            "Zeitordnung"
+          ],
+          "status": "historischer_core_entwurf"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Domäne",
+            "Zuordnung",
+            "Geltungsbedingung"
+          ],
+          "status": "historischer_core_entwurf"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    },
+    {
+      "id": "CORE-T3",
+      "name": "CORE-T3 · Identität – Rolle – Kontext",
+      "model": "",
+      "formula_anchor": "",
+      "axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Identität",
+            "Rolle",
+            "Kontext"
+          ],
+          "status": "historischer_core_entwurf"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Messgröße",
+            "Messverfahren",
+            "Messresultat"
+          ],
+          "status": "historischer_core_entwurf"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Ausgangsobjekt",
+            "Abbildung",
+            "Bildobjekt"
+          ],
+          "status": "historischer_core_entwurf"
+        }
+      ],
+      "role_duplicate_warning": false,
+      "historical_formula_type_tags": [],
+      "three_family_screen": [],
+      "unclassified_by_three_family": true,
+      "candidate_search_operations": [],
+      "review_status": "not_scientifically_typed",
+      "math_invertibility": "unknown",
+      "project_tensor_status": "strukturentwurf_nicht_fachvalidiert",
+      "existing_findings": []
+    }
+  ]
+}
