@@ -1,0 +1,20 @@
+{
+  "schema": "tensor-axis-alignment-overlay/0.1",
+  "date": "2026-11-04",
+  "status": "lexical_overlap_after_six_axis_permutations_not_math_equivalence",
+  "source": "docs/data/tensor-inventar-v10_7.json",
+  "method": "All six permutations of three axes; intersect normalized role labels per aligned axis and multiply the three intersection sizes. Counts number of shared role triples after axis permutation, not scientific field equality. No within-axis 3! order alignment required for counting possible triples; would matter for positional alignment.",
+  "summary": {
+    "pairs": 5253,
+    "axis_permutations_per_pair": 6,
+    "pairs_with_at_least_one_possible_shared_triple": 0,
+    "overlap_histogram": {},
+    "highest_matches": []
+  },
+  "pairs": [],
+  "limits": [
+    "Axis permutation can swap scientifically different axis meanings and is not accepted without type check.",
+    "Triples are semantic role-string combinations, not validated mathematical field objects.",
+    "If all 3 roles are aligned, one can compare candidate field triples, but proof and sources are still missing."
+  ]
+}
