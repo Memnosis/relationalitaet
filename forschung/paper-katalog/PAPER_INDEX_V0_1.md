@@ -10,3 +10,5 @@
 - PAPER-KT-2026-006: alle 5.253 historischen Paarvergleiche; lexikalischer Forschungsbefund.
 
 Archiv enthalten: Markdown-Volltexte, `paper-katalog.json`, `ro-crate-metadata.json`, Rechencode, Ergebnisdaten, SHA-256-Verknüpfungen. Forschungsbranch ist öffentlich lesbar, aber Website-Publikation und Fachfreigabe stehen aus. Die ersten 5 neuen Paper-Volltexte liegen noch ausschließlich im lokalen ZIP-Übergabepaket.
+
+- PAPER-KT-2026-007: Selbstlernen, didaktische Pfadlandkarte und Leser/Autor/KI-Dialog (Forschungsentwurf): [Volltext](PAPER_KT_2026_007_SELBSTLERNEN_PFADE_UND_LESER.md); [10 Pfadentwürfe](PFADATLAS_V0_1.json). Der ausführliche ungekürzte No-Loss-Arbeitsstand bleibt zunächst im separaten Gesprächsarchiv, nicht im öffentlichen Git.
