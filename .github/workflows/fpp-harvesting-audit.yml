@@ -1,0 +1,44 @@
+name: FPP-01 Forschungs-Harvesting prüfen
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "forschung/tensor/formeln/pilot50/**"
+      - "forschung/koordination/FPP_01_*"
+      - "forschung/koordination/FPP_50_*"
+      - "forschung/koordination/fpp_harvest_standards.py"
+      - "scripts/check_fpp_pilot50.py"
+      - ".github/workflows/fpp-harvesting-audit.yml"
+  pull_request:
+    paths:
+      - "forschung/tensor/formeln/pilot50/**"
+      - "forschung/koordination/FPP_01_*"
+      - "forschung/koordination/FPP_50_*"
+      - "forschung/koordination/fpp_harvest_standards.py"
+      - "scripts/check_fpp_pilot50.py"
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install reproducible math and schema dependencies
+        run: python -m pip install "sympy==1.14.0" "jsonschema>=4,<5"
+      - name: Re-run all 50 formulas (source preserved)
+        run: python forschung/tensor/formeln/pilot50/run50.py > /tmp/pilot50-reproduction.json
+      - name: Validate review events, 33 motifs and 57 impact drafts
+        run: python scripts/check_fpp_pilot50.py
+      - name: Draft standard / glossary impact (never merge)
+        run: python forschung/koordination/fpp_harvest_standards.py --check --report /tmp/fpp-standard-impact.json
+      - name: Save nonprivate numerical/structural test evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: fpp-formeln50-review-drafts
+          path: |
+            /tmp/pilot50-reproduction.json
+            /tmp/fpp-standard-impact.json
+          retention-days: 14
