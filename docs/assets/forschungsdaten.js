@@ -60,7 +60,7 @@ function refresh(){
  if(!count)list.append(els("p","data-empty","Für diesen Suchbegriff gibt es in diesem veröffentlichten Teilbestand keinen Eintrag."));
  $("data-more").hidden=count<=state.visible;
 }
-function selectMode(v){state.mode=v;state.filter="all";state.query="";$("data-search").value="";$("data-filter").hidden=v!=="tensor";$("data-filter").value="all";$("data-more").hidden=false;reset();document.querySelectorAll("[data-mode]").forEach(x=>x.setAttribute("aria-pressed",String(x.dataset.mode===v)));}
+function selectMode(v){state.mode=v;state.filter="all";state.query="";$("data-search").value="";$("data-filter").hidden=v!=="tensor";const filterLabel=document.querySelector('label[for="data-filter"]');if(filterLabel)filterLabel.hidden=v!=="tensor";$("data-filter").value="all";$("data-more").hidden=false;reset();document.querySelectorAll("[data-mode]").forEach(x=>x.setAttribute("aria-pressed",String(x.dataset.mode===v)));}
 $("data-search").addEventListener("input",e=>{state.query=e.target.value;reset();});
 $("data-filter").addEventListener("change",e=>{state.filter=e.target.value;reset();});
 $("data-more").addEventListener("click",()=>{state.visible+=12;refresh();});
