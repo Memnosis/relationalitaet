@@ -1,0 +1,24 @@
+name: BKI Weisungsrekonstruktion ohne Originaltext
+on:
+  push:
+    paths:
+      - 'forschung/buerger-ki/weisungsatlas_atomizer.py'
+      - 'forschung/buerger-ki/test_weisungsatlas_atomizer.py'
+      - '.github/workflows/bki-weisungsrekonstruktion-tests.yml'
+  pull_request:
+    paths:
+      - 'forschung/buerger-ki/weisungsatlas_atomizer.py'
+      - 'forschung/buerger-ki/test_weisungsatlas_atomizer.py'
+      - '.github/workflows/bki-weisungsrekonstruktion-tests.yml'
+  workflow_dispatch:
+jobs:
+  source-copy-guard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Paraphrase-only source export regression tests
+        run: python -m unittest discover -s forschung/buerger-ki -p 'test_weisungsatlas_atomizer.py' -v
