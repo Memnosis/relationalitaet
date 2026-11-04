@@ -1,0 +1,165 @@
+{
+  "schema": "harvesting-standards-catalog/0.1",
+  "status": "verified_public_reference_list_pending_glossary_crosswalk",
+  "date": "2026-11-04",
+  "purpose": "Source-of-truth for verified standards URIs and candidate glossary terms; not a replacement for the historical 1072-term glossary.",
+  "source_registry_target": "existing_shared_source_register_pending_crosswalk",
+  "glossary_target": "historical_glossary_v15.4_pending_crosswalk",
+  "entries": [
+    {
+      "id": "STD-FAIR",
+      "name": "FAIR-Prinzipien",
+      "canonical_url": "https://www.go-fair.org/fair-principles/",
+      "kind": "principle",
+      "purpose": "Auffindbarkeit, Zugänglichkeit, Interoperabilität, Nachnutzung",
+      "glossary_candidates": [
+        "FAIR",
+        "Forschungsdaten"
+      ],
+      "verification": "official_canonical_reference_checked",
+      "glossary_merge_status": "pending_duplicate_and_definition_review",
+      "proposed_uses": [
+        "FPP-01",
+        "Harvesting",
+        "Strukturpaper"
+      ],
+      "standard_status": "guidance"
+    },
+    {
+      "id": "STD-PROV",
+      "name": "W3C PROV-O",
+      "canonical_url": "https://www.w3.org/TR/prov-o/",
+      "kind": "w3c_recommendation",
+      "purpose": "Provenienz: Entität, Aktivität, Akteur und Herkunftskanten",
+      "glossary_candidates": [
+        "Provenienz",
+        "Entität",
+        "Aktivität",
+        "Akteur"
+      ],
+      "verification": "official_canonical_reference_checked",
+      "glossary_merge_status": "pending_duplicate_and_definition_review",
+      "proposed_uses": [
+        "FPP-01",
+        "Harvesting",
+        "Strukturpaper"
+      ],
+      "standard_status": "normative"
+    },
+    {
+      "id": "STD-ROCRATE",
+      "name": "RO-Crate 1.3",
+      "canonical_url": "https://w3id.org/ro/crate/1.3",
+      "kind": "community_recommendation",
+      "purpose": "Forschungspaket aus Daten, Software und Metadaten",
+      "glossary_candidates": [
+        "Forschungsobjekt",
+        "Metadatenpaket"
+      ],
+      "verification": "official_canonical_reference_checked",
+      "glossary_merge_status": "pending_duplicate_and_definition_review",
+      "proposed_uses": [
+        "FPP-01",
+        "Harvesting",
+        "Strukturpaper"
+      ],
+      "standard_status": "normative"
+    },
+    {
+      "id": "STD-JSONSCHEMA",
+      "name": "JSON Schema 2020-12",
+      "canonical_url": "https://json-schema.org/draft/2020-12/",
+      "kind": "specification",
+      "purpose": "Maschinenprüfbare Struktur und Pflichtfelder",
+      "glossary_candidates": [
+        "Schema",
+        "Datenvalidierung"
+      ],
+      "verification": "official_canonical_reference_checked",
+      "glossary_merge_status": "pending_duplicate_and_definition_review",
+      "proposed_uses": [
+        "FPP-01",
+        "Harvesting",
+        "Strukturpaper"
+      ],
+      "standard_status": "normative"
+    },
+    {
+      "id": "STD-DATACITE",
+      "name": "DataCite Metadata Schema 4.7",
+      "canonical_url": "https://schema.datacite.org/",
+      "kind": "standard",
+      "purpose": "Zitier- und Publikationsmetadaten für Veröffentlichungen",
+      "glossary_candidates": [
+        "DOI",
+        "Publikationsmetadaten"
+      ],
+      "verification": "official_canonical_reference_checked",
+      "glossary_merge_status": "pending_duplicate_and_definition_review",
+      "proposed_uses": [
+        "FPP-01",
+        "Harvesting",
+        "Strukturpaper"
+      ],
+      "standard_status": "normative"
+    },
+    {
+      "id": "STD-CWL",
+      "name": "Common Workflow Language 1.2",
+      "canonical_url": "https://www.commonwl.org/specification/",
+      "kind": "specification",
+      "purpose": "Reproduzierbare Kommandozeilen-Workflows",
+      "glossary_candidates": [
+        "Workflow",
+        "Reproduzierbarkeit"
+      ],
+      "verification": "official_canonical_reference_checked",
+      "glossary_merge_status": "pending_duplicate_and_definition_review",
+      "proposed_uses": [
+        "FPP-01",
+        "Harvesting",
+        "Strukturpaper"
+      ],
+      "standard_status": "normative"
+    },
+    {
+      "id": "STD-SKOS",
+      "name": "SKOS",
+      "canonical_url": "https://www.w3.org/TR/skos-reference/",
+      "kind": "w3c_recommendation",
+      "purpose": "Verknüpfte Glossarbegriffe und Begriffsrelationen",
+      "glossary_candidates": [
+        "Glossar",
+        "Begriffsschema",
+        "Oberbegriff"
+      ],
+      "verification": "official_canonical_reference_checked",
+      "glossary_merge_status": "pending_duplicate_and_definition_review",
+      "proposed_uses": [
+        "FPP-01",
+        "Harvesting",
+        "Strukturpaper"
+      ],
+      "standard_status": "normative"
+    },
+    {
+      "id": "STD-DCAT",
+      "name": "DCAT 3",
+      "canonical_url": "https://www.w3.org/TR/vocab-dcat-3/",
+      "kind": "w3c_recommendation",
+      "purpose": "Beschreibung und Vernetzung öffentlicher Datenkataloge",
+      "glossary_candidates": [
+        "Datenkatalog",
+        "Datensatz"
+      ],
+      "verification": "official_canonical_reference_checked",
+      "glossary_merge_status": "pending_duplicate_and_definition_review",
+      "proposed_uses": [
+        "FPP-01",
+        "Harvesting",
+        "Strukturpaper"
+      ],
+      "standard_status": "normative"
+    }
+  ]
+}
