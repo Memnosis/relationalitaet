@@ -213,6 +213,16 @@
    "quelle": "—",
    "dringlichkeit": "niedrig",
    "status": "offen"
+  },
+  {
+   "id": "Q-O06",
+   "an": "nils",
+   "kategorie": "organisatorisch",
+   "frage": "Hauptmenü: GPT hat am 04.11. auf 8 Punkte umgestellt (Start · KI · Tensor · Projekte · Harvesting · Publikationen · Mitmachen · SOULution); beschlossen war am 03.11. das 7-Punkte-Menü mit Forschung und Inkubator. Neue Fassung bestätigen oder zurück zum 7-Punkte-Menü?",
+   "kontext": "DEC-NAV-01 = b vs. website-unified.js (b4f1811)",
+   "quelle": "CLAUDE_FEEDBACK_GPT_PLANUNG_2026-11-04",
+   "dringlichkeit": "mittel",
+   "status": "offen"
   }
  ]
 }
