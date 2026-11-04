@@ -14,3 +14,14 @@ body.ux-site-v2 main .grid > article,body.ux-site-v2 main .cards > article{borde
 @media(max-width:520px){body.ux-site-v2 main .grid:not(.ux-grid),body.ux-site-v2 main .cards,body.ux-site-v2 main .ai-grid,body.ux-site-v2 main .incubator-grid,body.ux-site-v2 main .tensor-join-grid,body.ux-site-v2 main .tensor-learning-grid{grid-template-columns:1fr}}
 
 body.ux-site-v2 main > section:not(.ux-topic) > h2:first-child::before{content:var(--ux-page-icon,"◈");display:inline-grid;place-items:center;color:var(--ux-page-accent,var(--ux-ki));background:color-mix(in srgb,var(--ux-page-accent,var(--ux-ki)) 13%,transparent);width:37px;height:37px;border-radius:10px;margin-right:12px;font-size:20px;vertical-align:middle}
+
+/* Navigation and icons: the original vector symbols are shared across all main areas. */
+.ux-site-nav a{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:34px;white-space:nowrap}
+.ux-site-nav a svg{flex:0 0 16px;width:16px;height:16px}
+.ux-site-nav a.tensor-nav-join{background:color-mix(in srgb,#bb6944 25%,transparent);border:1px solid #c78a6c80}
+.ux-site-nav a.tensor-nav-join:hover,.ux-site-nav a.tensor-nav-join:focus-visible{background:color-mix(in srgb,#bb6944 45%,transparent)}
+.ux-site-nav a.tensor-nav-soulution{color:#83d3aa!important;font-weight:700}
+.ux-site-nav a.tensor-nav-soulution:hover,.ux-site-nav a.tensor-nav-soulution:focus-visible{background:#236843}
+.ux-site-v2 .ux-topic-icon svg{display:block;width:27px;height:27px;color:var(--topic)}
+.ux-site-v2 main :is(a,button,input,select):focus-visible{outline:3px solid #be894d;outline-offset:2px}
+@media(max-width:760px){.ux-site-nav a{gap:4px}.ux-site-nav a svg{width:14px;height:14px}}
