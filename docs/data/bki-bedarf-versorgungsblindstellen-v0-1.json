@@ -1,0 +1,400 @@
+{
+  "schema": "bki-needs-supply-atlas/0.1",
+  "as_of": "2026-11-05",
+  "status": "source_inventory_and_hypothesis_only",
+  "source_policy": "BKI-WA-RED-001",
+  "statistics_not_to_sum": true,
+  "scope": "Aggregated published stats and public organization metadata only",
+  "sources": [
+    {
+      "id": "NEED-SRC-01",
+      "title": "Nummer gegen Kummer Jahresstatistik 2025",
+      "url": "https://www.nummergegenkummer.de/jahresstatistik-2025-jetzt-online/",
+      "source_class": "helpline_aggregate",
+      "year": 2025,
+      "jurisdiction": "DE",
+      "topic_ids": [
+        "youth_mental_health",
+        "family_conflict",
+        "loneliness",
+        "bullying"
+      ],
+      "denominator": "contacts",
+      "value": 124619,
+      "value_status": "published_count",
+      "original_text_stored": false,
+      "review_status": "source_discovered",
+      "cross_source_comparability": "not_established"
+    },
+    {
+      "id": "NEED-SRC-02",
+      "title": "Hilfetelefon Gewalt gegen Frauen Bericht 2025",
+      "url": "https://www.hilfetelefon.de/das-hilfetelefon/zahlen-und-fakten/jahresbericht/",
+      "source_class": "helpline_aggregate",
+      "year": 2025,
+      "jurisdiction": "DE",
+      "topic_ids": [
+        "domestic_violence",
+        "sexual_violence",
+        "psychological_violence",
+        "stalking"
+      ],
+      "denominator": "counselling_contacts",
+      "value": 69526,
+      "value_status": "published_count",
+      "original_text_stored": false,
+      "review_status": "source_discovered",
+      "cross_source_comparability": "not_established"
+    },
+    {
+      "id": "NEED-SRC-03",
+      "title": "Unabhängige Patientenberatung Deutschland 2025",
+      "url": "https://patientenberatung.de/media-kit/",
+      "source_class": "counselling_aggregate",
+      "year": 2025,
+      "jurisdiction": "DE",
+      "topic_ids": [
+        "healthcare_access",
+        "health_insurance",
+        "patient_rights"
+      ],
+      "denominator": "counselling_contacts",
+      "value": 48000,
+      "value_status": "approx_published_count",
+      "original_text_stored": false,
+      "review_status": "source_discovered",
+      "cross_source_comparability": "not_established"
+    },
+    {
+      "id": "NEED-SRC-04",
+      "title": "BA Statistik Widersprüche und Klagen SGB II",
+      "url": "https://statistik.arbeitsagentur.de/DE/Navigation/Grundlagen/Methodik-Qualitaet/Methodische-Hinweise/Grundsicherung-Meth-Hinweise/Grundsicherung-Meth-Hinweise-Nav.html",
+      "source_class": "administrative_complaint_statistics",
+      "year": 2025,
+      "jurisdiction": "DE",
+      "topic_ids": [
+        "benefit_decision",
+        "legal_application_error",
+        "facts_investigation_error",
+        "changed_instructions"
+      ],
+      "denominator": "categories_only",
+      "value": null,
+      "value_status": "methodological_index",
+      "original_text_stored": false,
+      "review_status": "source_discovered",
+      "cross_source_comparability": "not_established"
+    },
+    {
+      "id": "NEED-SRC-05",
+      "title": "Vereinsregister der Länder",
+      "url": "https://verwaltung.bund.de/leistungsverzeichnis/de/leistung/99119004109002",
+      "source_class": "organization_register",
+      "year": 2026,
+      "jurisdiction": "DE",
+      "topic_ids": [
+        "organizations",
+        "registered_associations",
+        "seat",
+        "representation"
+      ],
+      "denominator": "organization_listing",
+      "value": null,
+      "value_status": "coverage_unknown",
+      "original_text_stored": false,
+      "review_status": "source_discovered",
+      "cross_source_comparability": "not_established"
+    },
+    {
+      "id": "NEED-SRC-06",
+      "title": "BZSt Zuwendungsempfängerregister",
+      "url": "https://www.bzst.de/DE/Unternehmen/Gemeinnuetzigkeit/Zuwendungsempfaengerregister/zuwendungsempfaengerregister_node.html",
+      "source_class": "nonprofit_register",
+      "year": 2026,
+      "jurisdiction": "DE",
+      "topic_ids": [
+        "nonprofit_status",
+        "organizations"
+      ],
+      "denominator": "organization_listing",
+      "value": null,
+      "value_status": "url_to_reverify",
+      "original_text_stored": false,
+      "review_status": "source_discovered",
+      "cross_source_comparability": "not_established"
+    },
+    {
+      "id": "NEED-SRC-07",
+      "title": "KMK Übersicht Lehrpläne Länder Stand Oktober 2026",
+      "url": "https://www.kmk.org/downloads-dokumente/rechtsvorschriften-/-lehrplaene/uebersicht-lehrplaene.html",
+      "source_class": "education_curriculum_index",
+      "year": 2026,
+      "jurisdiction": "DE",
+      "topic_ids": [
+        "education",
+        "curriculum"
+      ],
+      "denominator": "documents",
+      "value": null,
+      "value_status": "verified_landing",
+      "original_text_stored": false,
+      "review_status": "source_discovered",
+      "cross_source_comparability": "not_established"
+    },
+    {
+      "id": "NEED-SRC-08",
+      "title": "Urheberrecht § 5 amtliche Werke",
+      "url": "https://www.gesetze-im-internet.de/urhg/__5.html",
+      "source_class": "primary_law",
+      "year": 2026,
+      "jurisdiction": "DE",
+      "topic_ids": [
+        "official_works",
+        "reuse"
+      ],
+      "denominator": "law",
+      "value": null,
+      "value_status": "verified_law",
+      "original_text_stored": false,
+      "review_status": "source_discovered",
+      "cross_source_comparability": "not_established"
+    },
+    {
+      "id": "NEED-SRC-09",
+      "title": "DNG § 2 Anwendungsbereich",
+      "url": "https://www.gesetze-im-internet.de/dng/__2.html",
+      "source_class": "primary_law",
+      "year": 2026,
+      "jurisdiction": "DE",
+      "topic_ids": [
+        "public_data_reuse",
+        "education_exception",
+        "broadcast_exception"
+      ],
+      "denominator": "law",
+      "value": null,
+      "value_status": "verified_law",
+      "original_text_stored": false,
+      "review_status": "source_discovered",
+      "cross_source_comparability": "not_established"
+    },
+    {
+      "id": "NEED-SRC-10",
+      "title": "DNG § 4 Datennutzung",
+      "url": "https://www.gesetze-im-internet.de/dng/__4.html",
+      "source_class": "primary_law",
+      "year": 2026,
+      "jurisdiction": "DE",
+      "topic_ids": [
+        "public_data_reuse",
+        "open_license"
+      ],
+      "denominator": "law",
+      "value": null,
+      "value_status": "verified_law",
+      "original_text_stored": false,
+      "review_status": "source_discovered",
+      "cross_source_comparability": "not_established"
+    },
+    {
+      "id": "NEED-SRC-11",
+      "title": "ZDF Nutzungsbedingungen",
+      "url": "https://www.zdf.de/nutzungsbedingungen",
+      "source_class": "rights_terms",
+      "year": 2026,
+      "jurisdiction": "DE",
+      "topic_ids": [
+        "broadcast_media",
+        "reuse",
+        "embedding"
+      ],
+      "denominator": "policy",
+      "value": null,
+      "value_status": "verified_landing",
+      "original_text_stored": false,
+      "review_status": "source_discovered",
+      "cross_source_comparability": "not_established"
+    },
+    {
+      "id": "NEED-SRC-12",
+      "title": "BA Grundsicherung SGB II Statistik Qualität 2025",
+      "url": "https://statistik.arbeitsagentur.de/DE/Navigation/Grundlagen/Methodik-Qualitaet/Qualitaetsberichte/Grundsicherung-Arbeitsuchende-SGBII/Qualitaetsberichte-Grusi-Arbeitsuchende-SGBII-Nav.html",
+      "source_class": "administrative_quality_index",
+      "year": 2025,
+      "jurisdiction": "DE",
+      "topic_ids": [
+        "benefit_disputes",
+        "administrative_quality"
+      ],
+      "denominator": "public_statistics",
+      "value": null,
+      "value_status": "verified_landing",
+      "original_text_stored": false,
+      "review_status": "source_discovered",
+      "cross_source_comparability": "not_established"
+    }
+  ],
+  "needs": [
+    {
+      "id": "NEED-01",
+      "label": "Psychische Belastung, Einsamkeit und Krisen",
+      "domain": "mental_health",
+      "signal_status": "visible",
+      "source_id": "NEED-SRC-01",
+      "goal_ids": [
+        "BKI-G005",
+        "BKI-G006"
+      ],
+      "prevalence_estimate": null,
+      "unmet_need_estimate": null,
+      "provider_capacity": null,
+      "skill_test_result": null
+    },
+    {
+      "id": "NEED-02",
+      "label": "Gewalt- und Schutzbedarf",
+      "domain": "violence_protection",
+      "signal_status": "visible",
+      "source_id": "NEED-SRC-02",
+      "goal_ids": [
+        "BKI-G005"
+      ],
+      "prevalence_estimate": null,
+      "unmet_need_estimate": null,
+      "provider_capacity": null,
+      "skill_test_result": null
+    },
+    {
+      "id": "NEED-03",
+      "label": "Gesundheitsversorgung und Patientenrechte",
+      "domain": "health_access",
+      "signal_status": "visible",
+      "source_id": "NEED-SRC-03",
+      "goal_ids": [
+        "BKI-G006"
+      ],
+      "prevalence_estimate": null,
+      "unmet_need_estimate": null,
+      "provider_capacity": null,
+      "skill_test_result": null
+    },
+    {
+      "id": "NEED-04",
+      "label": "Fehlerhafte Sozialleistungsentscheidungen",
+      "domain": "social_justice",
+      "signal_status": "visible_in_dispute_stats",
+      "source_id": "NEED-SRC-04",
+      "goal_ids": [
+        "BKI-G001",
+        "BKI-G004"
+      ],
+      "prevalence_estimate": null,
+      "unmet_need_estimate": null,
+      "provider_capacity": null,
+      "skill_test_result": null
+    },
+    {
+      "id": "NEED-05",
+      "label": "Beratung, Vereinsarbeit und zivilgesellschaftliche Hilfe",
+      "domain": "community_support",
+      "signal_status": "supply_proxy_only",
+      "source_id": "NEED-SRC-05",
+      "goal_ids": [
+        "BKI-G006"
+      ],
+      "prevalence_estimate": null,
+      "unmet_need_estimate": null,
+      "provider_capacity": null,
+      "skill_test_result": null
+    },
+    {
+      "id": "NEED-06",
+      "label": "Lern- und Bildungszugang",
+      "domain": "education",
+      "signal_status": "curriculum_supply_proxy_only",
+      "source_id": "NEED-SRC-07",
+      "goal_ids": [
+        "BKI-G007"
+      ],
+      "prevalence_estimate": null,
+      "unmet_need_estimate": null,
+      "provider_capacity": null,
+      "skill_test_result": null
+    }
+  ],
+  "blindspots": [
+    {
+      "id": "BLIND-01",
+      "label": "Unsichtbare Nichtnutzer",
+      "explanation": "Kein Kontakt mit Hilfe oder Behörde",
+      "bias_type": "population_noncontact",
+      "validation": "methodological_risk_not_measured"
+    },
+    {
+      "id": "BLIND-02",
+      "label": "Nicht erfasste Ablehnungen und Warteschlangen",
+      "explanation": "Hilfesysteme melden ausgelastete Stellen nicht einheitlich",
+      "bias_type": "capacity_unknown",
+      "validation": "methodological_risk_not_measured"
+    },
+    {
+      "id": "BLIND-03",
+      "label": "Regionale und digitale Zugangsbarrieren",
+      "explanation": "Gleiche Dienstnamen können unterschiedliche Reichweite haben",
+      "bias_type": "geographic_access",
+      "validation": "methodological_risk_not_measured"
+    },
+    {
+      "id": "BLIND-04",
+      "label": "Vertrauliche Krisen und schwer erreichbare Gruppen",
+      "explanation": "Beratungszahlen hängen von Bekanntheit, Vertrauen und Kanal ab",
+      "bias_type": "selection_bias",
+      "validation": "methodological_risk_not_measured"
+    },
+    {
+      "id": "BLIND-05",
+      "label": "Privatwirtschaftliche und informelle Hilfe",
+      "explanation": "Nicht jede Organisation ist ein eingetragener Verein",
+      "bias_type": "registry_coverage",
+      "validation": "methodological_risk_not_measured"
+    },
+    {
+      "id": "BLIND-06",
+      "label": "Vereinszweck ist kein Leistungsnachweis",
+      "explanation": "Registereintrag beweist keine Beratung, Aktualität oder freie Plätze",
+      "bias_type": "supply_not_outcome",
+      "validation": "methodological_risk_not_measured"
+    },
+    {
+      "id": "BLIND-07",
+      "label": "Beratungszahlen keine Prävalenzen",
+      "explanation": "Kontakte können mehrfach oder von Dritten erfolgen",
+      "bias_type": "counting_unit",
+      "validation": "methodological_risk_not_measured"
+    },
+    {
+      "id": "BLIND-08",
+      "label": "Institutionelle Fehler ohne Beschwerde",
+      "explanation": "Widerspruchsstatistik enthält nicht alle fehlerhaften Entscheidungen",
+      "bias_type": "formal_complaint_selection",
+      "validation": "methodological_risk_not_measured"
+    },
+    {
+      "id": "BLIND-09",
+      "label": "Erfüllung nach Weitervermittlung",
+      "explanation": "Kontaktadresse beweist nicht die erfolgreiche Hilfe",
+      "bias_type": "referral_outcome",
+      "validation": "methodological_risk_not_measured"
+    },
+    {
+      "id": "BLIND-10",
+      "label": "Unterschiedliche Taxonomien",
+      "explanation": "Schutz, Soziales, Bildung und Gesundheit kodieren anders",
+      "bias_type": "category_crosswalk",
+      "validation": "methodological_risk_not_measured"
+    }
+  ],
+  "help_routes": "See bki-hilfeportale-handlungsatlas-v0-1.json",
+  "unmet_demand_is_measured": false,
+  "combined_prevalence_estimate": null
+}
