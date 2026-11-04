@@ -112,5 +112,22 @@ class Ueberlagerung(unittest.TestCase):
         self.assertEqual(ta.kanon(ta.lauf([a, b])), ta.kanon(ta.lauf([b, a])))
 
 
+
+class Achsen(unittest.TestCase):
+    def test_A1_doppelte_achse_wie_F054(self):
+        sir = ["Suszeptible", "Infizierte", "Genesene"]
+        k = ta.achsen_pruefung([{"dimension": "M", "rollen": sir}, {"dimension": "K", "rollen": ["Kern", "Kreislauf", "Öffnung"]},
+                                {"dimension": "S", "rollen": list(sir)}])
+        self.assertEqual([x["regel"] for x in k], ["A1"])
+
+    def test_A1_unabhaengige_achsen(self):
+        self.assertEqual(ta.achsen_pruefung([{"dimension": "M", "rollen": ["a", "b", "c"]}, {"dimension": "K", "rollen": ["d", "e", "f"]},
+                                             {"dimension": "S", "rollen": ["g", "h", "i"]}]), [])
+
+    def test_A1_teilueberschneidung(self):
+        k = ta.achsen_pruefung([{"dimension": "M", "rollen": ["a", "b", "c"]}, {"dimension": "K", "rollen": ["c", "e", "f"]},
+                                {"dimension": "S", "rollen": ["g", "h", "i"]}])
+        self.assertEqual([x["regel"] for x in k], ["A1-teil"])
+
 if __name__ == "__main__":
     unittest.main()

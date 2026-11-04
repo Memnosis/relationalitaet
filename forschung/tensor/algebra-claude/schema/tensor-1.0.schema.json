@@ -1,0 +1,82 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/Memnosis/relationalitaet/forschung/tensor/algebra-claude/schema/tensor-1.0.schema.json",
+ "title": "Tensorakte 1.0 (Vorschlag Claude, zur Gegenprüfung durch GPT)",
+ "description": "Ein Fachtensor als prüfbares Objekt: drei Achsen, 27 Felder, typisierte Pfade, Formeln, Status je Prüfstufe. Gemeinsames Format für veröffentlichte Tensoren (PUB-*) und die 103 historischen Gerüste (FACH-F001..F100, CORE-T1..T3). Feldbegriffe sind Fachaussagen, keine mathematischen Objekte.",
+ "type": "object",
+ "additionalProperties": false,
+ "required": ["schema_version", "tensor_id", "version", "quelle", "achsen", "felder", "pfade", "formeln", "status"],
+ "properties": {
+  "schema_version": {"const": "tensor/1.0"},
+  "tensor_id": {"type": "string", "pattern": "^(PUB-[A-Z0-9]+|FACH-F[0-9]{3}|CORE-T[0-9])$"},
+  "version": {"type": "string", "minLength": 1, "description": "Quellversion, z. B. v10.7 oder Zenodo-Version 1.0"},
+  "quelle": {
+   "type": "object", "additionalProperties": false, "required": ["art", "verweis"],
+   "properties": {
+    "art": {"enum": ["zenodo", "historische_akte", "git"]},
+    "verweis": {"type": "string", "description": "DOI oder Aktenpfad"},
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "fundstelle": {"type": "string"},
+    "vertraulichkeit": {"enum": ["public", "internal"]}
+   }
+  },
+  "achsen": {
+   "type": "array", "minItems": 3, "maxItems": 3,
+   "description": "Die drei Fachachsen (Trinitäten) des Tensors, abgebildet auf M (Basiszustand), K (Klasse), S (Modus).",
+   "items": {
+    "type": "object", "additionalProperties": false, "required": ["dimension", "rollen"],
+    "properties": {
+     "dimension": {"enum": ["M", "K", "S"]},
+     "rollen": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"type": "string", "minLength": 1}},
+     "konzept_ids": {"type": "array", "items": {"type": "string", "pattern": "^KONZ-"}}
+    }
+   }
+  },
+  "felder": {
+   "type": "object",
+   "description": "Schlüssel = TPID-Lokalteil (M-K-S). Volle TPID: <tensor_id>@<version>#<M>-<K>-<S>.",
+   "propertyNames": {"pattern": "^(NM|ZM|UM)-(I|II|III)-(α|β|γ)$"},
+   "additionalProperties": {
+    "type": "object", "additionalProperties": false, "required": ["begriff"],
+    "properties": {"begriff": {"type": "string"}, "ont": {"type": "string"}, "op": {"type": "string"}, "th": {"type": "string"},
+                   "fundstelle": {"type": "string"}, "konzept_id": {"type": "string", "pattern": "^KONZ-"}}
+   }
+  },
+  "pfade": {
+   "type": "array",
+   "items": {
+    "type": "object", "additionalProperties": false, "required": ["adressen"],
+    "properties": {
+     "adressen": {"type": "array", "minItems": 2, "items": {"type": "string", "pattern": "^(NM|ZM|UM)-(I|II|III)-(α|β|γ)$"}},
+     "typ": {"enum": ["PRJ", "RST", "CYC", "REC", "RES", "PAR", "PAT", null]},
+     "fundstelle": {"type": "string"}
+    }
+   }
+  },
+  "formeln": {
+   "type": "array",
+   "items": {
+    "type": "object", "additionalProperties": false, "required": ["ausdruck", "formeltyp"],
+    "properties": {
+     "ausdruck": {"type": "string", "description": "LaTeX oder SymPy-Syntax"},
+     "formeltyp": {"type": "string", "description": "z. B. bilanz_ode, erhaltungssatz, identitaet"},
+     "variablen": {"type": "object", "additionalProperties": {"type": "string"}},
+     "fundstelle": {"type": "string"}
+    }
+   }
+  },
+  "status": {
+   "type": "object", "additionalProperties": false,
+   "required": ["struktur", "typen", "algebra", "gegenprobe", "reproduktion", "fachabnahme"],
+   "description": "Sechs getrennte Prüfstufen; algebraische Kontrollen sind KEINE Fachabnahme.",
+   "properties": {
+    "struktur": {"enum": ["offen", "vollstaendig", "luecken", "achsen_redundant"]},
+    "typen": {"enum": ["offen", "konsistent", "konflikt", "keine_pfade"]},
+    "algebra": {"enum": ["offen", "gelaufen"]},
+    "gegenprobe": {"enum": ["offen", "bestanden", "gescheitert", "nicht_anwendbar"]},
+    "reproduktion": {"enum": ["offen", "eigen", "reproduziert", "repliziert"]},
+    "fachabnahme": {"enum": ["offen", "autor_bestaetigt", "autor_abgelehnt"]}
+   }
+  }
+ }
+}

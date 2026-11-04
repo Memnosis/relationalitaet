@@ -1,0 +1,20 @@
+{
+ "ergebnisse": {
+  "reduktion_skalar": true,
+  "reduktion_matrix_2x2": true,
+  "bedingung_F0_noetig": true,
+  "bedingung_r_gleich_Sv_noetig": true,
+  "umkehrung_unmoeglich": true,
+  "V_null_entartet": true
+ },
+ "urteil": {
+  "klasse": "spezialfall_F034_in_F096",
+  "bedingungen": [
+   "F = 0 (geschlossenes System, kein Durchfluss)",
+   "r(c) = S·v(c)",
+   "V ≠ 0"
+  ],
+  "vorbehalt": "Formeln aus GPT-Zitat; Abgleich mit der Primärakte Gesamtinventar_v10_7.md ausstehend",
+  "P3": "eigen (Claude) + GPT-Befund = zwei unabhängige Wege, sobald GPT seinen Rechenweg mit SHA belegt"
+ }
+}

@@ -228,3 +228,18 @@ def lauf(tensoren):
             k["gilt_als_neue_beziehung"] = k["P1_aussageerhalt"] and k["P2_neu_korpus"] and p3
         ergebnisse.append({"paar": [t1["id"], t2["id"]], "vergleich": v, "ueberlagerung": u, "P3_deterministisch": p3})
     return ergebnisse
+
+
+def achsen_pruefung(achsen):
+    """Strukturregel A1 (Achsenunabhängigkeit, Anlass GPT-Befund FACH-F054): Zwei Achsen eines Tensors dürfen nicht
+    dieselbe Rollenfolge tragen; sonst sind M, K, S nicht unabhängig und das 27er-Gitter fällt auf weniger Felder zusammen.
+    Rückgabe: Liste der Verstöße (leer = in Ordnung). Ein Verstoß ist ein Warnsignal, kein Beweis eines Fachfehlers."""
+    norm = [tuple(r.strip().lower() for r in a["rollen"]) for a in achsen]
+    out = []
+    for i, j in itertools.combinations(range(len(norm)), 2):
+        if norm[i] == norm[j]:
+            out.append({"regel": "A1", "achsen": [achsen[i]["dimension"], achsen[j]["dimension"]], "rollen": list(achsen[i]["rollen"]),
+                        "folge": "Felder (x, y, z) und (z, y, x) fallen inhaltlich zusammen; effektiv höchstens 18 statt 27 unterscheidbare Felder"})
+        elif set(norm[i]) & set(norm[j]):
+            out.append({"regel": "A1-teil", "achsen": [achsen[i]["dimension"], achsen[j]["dimension"]], "gemeinsam": sorted(set(norm[i]) & set(norm[j]))})
+    return out
