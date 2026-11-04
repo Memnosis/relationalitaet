@@ -1,0 +1,179 @@
+{
+  "schema": "buerger-ki-benchmark-v0.1",
+  "updated": "2026-11-04",
+  "scope": "Bürger-KI only; no changes to other project inventories",
+  "hypotheses": [
+    {
+      "id": "BK-H-001",
+      "claim": "KI kann die individuelle Fähigkeit verbessern, Rechte unabhängig, nachvollziehbar und wirksam wahrzunehmen.",
+      "status": "offen",
+      "countertests": [
+        "kein belegbarer Vorteil gegenüber kostenlosen Alternativen",
+        "erhöhte Fehlerquote",
+        "geringerer Zugang wegen Datenschutz, Kompetenz oder Kosten"
+      ]
+    },
+    {
+      "id": "BK-H-002",
+      "claim": "Kontinuierliche Anspruchs- und Erfüllungskontrolle kann die Lücke zwischen formellem Recht und praktischer Leistungserbringung sichtbar machen.",
+      "status": "offen",
+      "countertests": [
+        "fehlende verlässliche Primärdaten",
+        "falsche Kausalzuordnung",
+        "unpassende Fallauswahl"
+      ]
+    },
+    {
+      "id": "BK-H-003",
+      "claim": "Kostenpflichtige KI kann in ausgewählten Einzelfällen eine wirtschaftliche und erforderliche Assistenz sein.",
+      "status": "offen",
+      "countertests": [
+        "kostenlose oder menschliche Hilfe gleichwertig",
+        "zusätzliche Fehler und Aufwände",
+        "fehlende gesetzliche Anspruchsgrundlage"
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "id": "BK-F-01",
+      "name": "Ansprüche rekonstruieren"
+    },
+    {
+      "id": "BK-F-02",
+      "name": "Soll-Ist-Abgleich der Leistung"
+    },
+    {
+      "id": "BK-F-03",
+      "name": "Wohnungs- und Mietschutz"
+    },
+    {
+      "id": "BK-F-04",
+      "name": "Versorgungsnavigation"
+    },
+    {
+      "id": "BK-F-05",
+      "name": "Patientenakten- und Datenrechte"
+    },
+    {
+      "id": "BK-F-06",
+      "name": "Familie und Jugendhilfe"
+    },
+    {
+      "id": "BK-F-07",
+      "name": "Außergerichtliche Rechtswahrnehmung"
+    },
+    {
+      "id": "BK-F-08",
+      "name": "Akut-/Eilverfahren"
+    },
+    {
+      "id": "BK-F-09",
+      "name": "Quellen- und Evidenzprüfung"
+    },
+    {
+      "id": "BK-F-10",
+      "name": "Fristen, Aufgaben und Koordination"
+    }
+  ],
+  "metrics": [
+    {
+      "id": "BK-M-01",
+      "name": "Erfüllungsquote",
+      "unit": "erledigte / fällige nachweisbare Schritte",
+      "direction": "higher"
+    },
+    {
+      "id": "BK-M-02",
+      "name": "Bearbeitungszeit",
+      "unit": "Minuten pro vergleichbarem Fall",
+      "direction": "lower"
+    },
+    {
+      "id": "BK-M-03",
+      "name": "Belegabdeckung",
+      "unit": "belegte / materielle Aussagen",
+      "direction": "higher"
+    },
+    {
+      "id": "BK-M-04",
+      "name": "Fehlerkorrekturen",
+      "unit": "nach Prüfung erkannte relevante Fehler",
+      "direction": "lower"
+    },
+    {
+      "id": "BK-M-05",
+      "name": "Rechtszugang",
+      "unit": "selbst erfolgreich durchgeführte definierte Schritte",
+      "direction": "higher"
+    },
+    {
+      "id": "BK-M-06",
+      "name": "Versorgungszugang",
+      "unit": "tatsächlich erreichte Versorgungsschritte",
+      "direction": "higher"
+    },
+    {
+      "id": "BK-M-07",
+      "name": "Kosten",
+      "unit": "EUR pro vergleichbarem Ergebnis",
+      "direction": "lower"
+    },
+    {
+      "id": "BK-M-08",
+      "name": "Alternativenprüfung",
+      "unit": "vergleichbare Funktion kostenfrei / kostenpflichtig / Beratung",
+      "direction": "not_applicable"
+    }
+  ],
+  "claims": [
+    {
+      "id": "BK-A-01",
+      "legal_route": "§ 21 Abs. 6 SGB II",
+      "status": "Einzelfallprüfung; kein automatischer KI-Anspruch"
+    },
+    {
+      "id": "BK-A-02",
+      "legal_route": "§§ 27, 33, 33a SGB V",
+      "status": "gesundheitsbezogene Leistung, gesetzliche Voraussetzungen gesondert"
+    },
+    {
+      "id": "BK-A-03",
+      "legal_route": "§ 78 SGB IX",
+      "status": "Assistenz im einschlägigen Teilhaberecht, konkrete Voraussetzungen"
+    },
+    {
+      "id": "BK-A-04",
+      "legal_route": "§ 193 SGG",
+      "status": "Kostenentscheidung und Notwendigkeit konkreter Verfahrensaufwendungen"
+    },
+    {
+      "id": "BK-A-05",
+      "legal_route": "Art. 3 Abs. 1, 19 Abs. 4, 20 GG",
+      "status": "grundrechtliche Prüfung, keine vorweggenommene Gerichtsentscheidung"
+    }
+  ],
+  "required_record_fields": [
+    "schema",
+    "function_id",
+    "task_summary",
+    "comparison",
+    "minutes_without_ai",
+    "minutes_with_ai",
+    "result_status",
+    "source_status",
+    "rights_relevance",
+    "uncertainty",
+    "privacy_confirmed"
+  ],
+  "submission": "manual export only; never transmit automatically",
+  "provenance": "source references and raw originals remain private unless separately consented; observations are not verified research findings",
+  "review_statuses": [
+    "eingereicht",
+    "formell geprüft",
+    "fachlich geprüft",
+    "widerlegt",
+    "bestätigt"
+  ],
+  "privacy": "no names, child data, medical records, claim numbers, account details, addresses or case files in public GitHub Issues"
+}
