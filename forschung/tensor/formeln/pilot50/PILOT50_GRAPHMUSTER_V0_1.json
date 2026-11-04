@@ -1,0 +1,346 @@
+{
+  "schema_version": "pilot50-motifs/0.1",
+  "source": "PILOT50_STRUKTURERGEBNIS_V0_1.json",
+  "method": "3-cliques on equality of untyped human-readable size labels",
+  "summary": {
+    "triad_formulas": 21,
+    "pair_links": 39,
+    "triples": 33,
+    "stars": 23,
+    "strict_triangles": 2,
+    "mixed": 8
+  },
+  "motifs": [
+    {
+      "ids": [
+        "F017",
+        "F026",
+        "F027"
+      ],
+      "topology": "star",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F017",
+        "F026",
+        "F054"
+      ],
+      "topology": "star",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F017",
+        "F027",
+        "F054"
+      ],
+      "topology": "star",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F021",
+        "F022",
+        "F023"
+      ],
+      "topology": "mixed",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F021",
+        "F022",
+        "F044"
+      ],
+      "topology": "star",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F021",
+        "F022",
+        "F066"
+      ],
+      "topology": "star",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F021",
+        "F022",
+        "F080"
+      ],
+      "topology": "star",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F021",
+        "F023",
+        "F044"
+      ],
+      "topology": "star",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F021",
+        "F023",
+        "F066"
+      ],
+      "topology": "star",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F021",
+        "F023",
+        "F080"
+      ],
+      "topology": "star",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F021",
+        "F044",
+        "F066"
+      ],
+      "topology": "star",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F021",
+        "F044",
+        "F080"
+      ],
+      "topology": "star",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F021",
+        "F066",
+        "F080"
+      ],
+      "topology": "star",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F022",
+        "F023",
+        "F027"
+      ],
+      "topology": "mixed",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F022",
+        "F023",
+        "F040"
+      ],
+      "topology": "mixed",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F022",
+        "F023",
+        "F044"
+      ],
+      "topology": "mixed",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F022",
+        "F023",
+        "F066"
+      ],
+      "topology": "mixed",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F022",
+        "F023",
+        "F080"
+      ],
+      "topology": "mixed",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F022",
+        "F027",
+        "F040"
+      ],
+      "topology": "star",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F022",
+        "F044",
+        "F066"
+      ],
+      "topology": "star",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F022",
+        "F044",
+        "F080"
+      ],
+      "topology": "star",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F022",
+        "F066",
+        "F080"
+      ],
+      "topology": "star",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F023",
+        "F027",
+        "F040"
+      ],
+      "topology": "star",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F023",
+        "F044",
+        "F066"
+      ],
+      "topology": "star",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F023",
+        "F044",
+        "F080"
+      ],
+      "topology": "star",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F023",
+        "F066",
+        "F080"
+      ],
+      "topology": "star",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F025",
+        "F026",
+        "F027"
+      ],
+      "topology": "strict_triangle",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F025",
+        "F026",
+        "F048"
+      ],
+      "topology": "star",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F026",
+        "F027",
+        "F054"
+      ],
+      "topology": "star",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F026",
+        "F032",
+        "F033"
+      ],
+      "topology": "mixed",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F031",
+        "F032",
+        "F033"
+      ],
+      "topology": "mixed",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F044",
+        "F066",
+        "F080"
+      ],
+      "topology": "star",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    },
+    {
+      "ids": [
+        "F044",
+        "F080",
+        "F081"
+      ],
+      "topology": "strict_triangle",
+      "semantic_status": "unverified_labels",
+      "math_status": "unverified"
+    }
+  ],
+  "limitation": "No tensor or scientific relation is proved by these text-label motifs."
+}
