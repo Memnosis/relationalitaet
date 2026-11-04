@@ -1,0 +1,70 @@
+{
+  "schema": "fpp-field-overlay-impact/0.1",
+  "status": "draft_review_only",
+  "date": "2026-11-04",
+  "primary_findings": [
+    "forschung/tensor/algebra-claude/FELDUEBERLAGERUNG_103_V0_1.json",
+    "forschung/tensor/algebra-claude/ACHSEN_ALIGNMENT_POTENZIALE_103_V0_1.json",
+    "forschung/tensor/algebra-claude/UEBERLAGERUNG_9_PFAD_TENSOREN_V0_1.json",
+    "forschung/tensor/algebra-claude/PAPER_FELDKLASSIFIKATION_UND_GESAMTUEBERLAGERUNG_V0_1.md"
+  ],
+  "items": [
+    {
+      "id": "IMPACT-FIELD-ALG-01",
+      "primary": "forschung/tensor/algebra-claude/SCHEMA_FELDEIGENSCHAFTEN_V0_1.json",
+      "target": "tensor/1.0",
+      "status": "needs_schema_compatibility_review",
+      "task": "field property profile as linked extension with stable TPID, no destructive schema migration"
+    },
+    {
+      "id": "IMPACT-FIELD-ALG-02",
+      "primary": "forschung/tensor/algebra-claude/FELDUEBERLAGERUNG_103_V0_1.json",
+      "target": "docs/data/tensor-inventar-v10_7.json",
+      "status": "candidate_only_no_merge",
+      "task": "add optional read-only field profiles in public derived JSON after provenance and semantic review"
+    },
+    {
+      "id": "IMPACT-FIELD-ALG-03",
+      "primary": "forschung/tensor/algebra-claude/ACHSEN_ALIGNMENT_POTENZIALE_103_V0_1.json",
+      "target": "forschung/tensor/algebra-claude/BEFUNDREGISTER_TENSOR_V0_1.json",
+      "status": "awaits_claude_review",
+      "task": "create crosswalk and counter-tests for five two-axis similarity candidates"
+    },
+    {
+      "id": "IMPACT-FIELD-ALG-04",
+      "primary": "forschung/tensor/algebra-claude/PAPER_FELDKLASSIFIKATION_UND_GESAMTUEBERLAGERUNG_V0_1.md",
+      "target": "forschung/koordination/FPP_01_STANDARDS_QUELLEN_GLOSSAR_V0_1.json",
+      "status": "glossary_and_source_crosswalk_needed",
+      "task": "terms operator type, carrier, semantic equivalence, inverse kind, partial inverse and field identity; harmonize historical glossary and canonical sources"
+    },
+    {
+      "id": "IMPACT-FIELD-ALG-05",
+      "primary": "forschung/tensor/algebra-claude/PAPER_FELDKLASSIFIKATION_UND_GESAMTUEBERLAGERUNG_V0_1.md",
+      "target": "forschung/tensor/algebra-claude/typalgebra.py",
+      "status": "implementation_not_done",
+      "task": "add field_profile, align_axes, semantic_intersection, mathematical_relation, comparison, negative test suite"
+    },
+    {
+      "id": "IMPACT-FIELD-ALG-06",
+      "primary": "forschung/tensor/algebra-claude/UEBERLAGERUNG_9_PFAD_TENSOREN_V0_1.json",
+      "target": "forschung/tensor/algebra-claude/ALGEBRA_LAUF_V0_1.json",
+      "status": "do_not_overwrite",
+      "task": "integrate overlay views without modifying author source, retain internal P3 vs independent P3"
+    },
+    {
+      "id": "IMPACT-FIELD-ALG-07",
+      "primary": "forschung/tensor/algebra-claude/PAPER_FELDKLASSIFIKATION_UND_GESAMTUEBERLAGERUNG_V0_1.md",
+      "target": "docs/tensoralgebra.html#algebra-feldueberlagerung",
+      "status": "linked_in_website",
+      "task": "monitor text and links under future algebra schema revision"
+    },
+    {
+      "id": "IMPACT-FIELD-ALG-08",
+      "primary": "forschung/tensor/algebra-claude/PAPER_FELDKLASSIFIKATION_UND_GESAMTUEBERLAGERUNG_V0_1.md",
+      "target": "docs/publikationen.html#paper-feldueberlagerung",
+      "status": "linked_as_draft",
+      "task": "only replace with published peer-reviewed paper after explicit release"
+    }
+  ],
+  "no_loss": "All original IDs and source objects retained; no claim of full field proof; staged review required"
+}
