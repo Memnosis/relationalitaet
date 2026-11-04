@@ -33,7 +33,7 @@ Die bereits existierende Seite `docs/geoki.html` enthält vor dem Upgrade intera
 1. **Eine Regel:** Punkt (1,0), Drehwinkel θ, Operator Rθ; Originalgleichung und visuelle Vorher/Nachher-Vektoren.
 2. **Invariante:** norm(Rθ p)=norm(p), Eingabe und Resultat neben der Grafik. Der Nutzer verändert den Winkel; Koordinaten ändern sich, Norm nicht.
 3. **Komposition:** Test Rβ(Rα(p))=R(α+β)(p); mit zwei Reglern. Rückprobe R(-α)Rαp=p. Negativkontrast: Skalierung verändert im Allgemeinen die Länge; Spiegelung ist keine Rotation.
-4. **Formen erzeugen:** Polygon, Stern, Rosette, Kurvennetz aus parametrisierbaren Regeln. „15.552 mögliche Parameterkombinationen“ als rechnerische Inventargröße, keine Zahl eigenständiger Formen oder gemessener Kompressionsersparnisse.
+4. **Formen erzeugen:** Polygon, Stern, Rosette, Kurvennetz aus parametrisierbaren Regeln. „38.880 mögliche Parameterkombinationen“ als rechnerische Inventargröße, keine Zahl eigenständiger Formen oder gemessener Kompressionsersparnisse.
 5. **Skill-Modul:** 13 im Python-Code vorhandene Funktionen und die acht noch ungeprüften Formatfamilien mit öffentlichen Daten (JSON, Quellcode und Suite-Testbericht). Die Visualisierung ist eine separate JS-Implementierung, nicht Beweis für Python-Testidentität.
 6. **Einordnung:** Was ist ein Algorithmus, was ein Generator, was eine KI? Ein bewusst komponierter Algorithmus lernt nicht automatisch; erst eigenständige Auswahl, Feedback, Transfer und kontrollierte Baselines zeigen zusätzliche Fähigkeit.
 7. **Projektbeteiligung:** GEO-OPS-01 als kleine Aufgabe mit Eingabewerten, Formel, prüfbarem Erwartungswert, Gegenbeispiel, Quelle, Exportweg und Review.
