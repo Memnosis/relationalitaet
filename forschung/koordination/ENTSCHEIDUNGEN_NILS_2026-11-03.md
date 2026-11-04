@@ -28,6 +28,19 @@
 
 ---
 
+## Entschieden am 04.11.2026 (Nils, im Chat mit Claude, Vorlage E-02)
+
+| ID | Entscheidung von Nils | Umsetzung |
+|---|---|---|
+| FOKUS | **Ja: erst fertig machen.** Beide KIs schließen zuerst Zyklus 001 ab; nebenher nur Fehlerbehebungen | Umfangsvorschlag `zyklen/KI-2026-11-03-001/SCOPE_ZYKLUS_001_V0_2.md`; keine neuen Arbeitspakete bis zum Abschluss |
+| SPEICHER | **Privater GitHub-Bereich** | Nils legt ein privates Repository an und gibt beiden KIs Zugriff; bis dahin bleibt es bei ZIP-Dateien an Nils |
+| BÜCHER (WERKLISTE/BUECHER/COVER) | **„aktuell unwichtig“**, zurückgestellt | Entwurf bleibt privat erhalten; WEB-006/REV-008-Bücherteil ruht. Nur der Lizenzfehler (CC BY-SA statt CC BY) bleibt als Fehlerbehebung offen |
+| CHATEXPORT | **Ja**: Die KIs dürfen die Aufträge privat anhand des Chatverlaufs prüfen | erst nach Einrichtung des privaten Speichers; Ablauf dann mit Nils abstimmen (zuerst Auswahl der Chats) |
+| Startpaket Tensor 2.0 | **„ist ein Mythos und irrelevant oder zu reengineering“** | Kein Blocker mehr. DATA-002 wird aus dem vorhandenen Material rekonstruiert, als Folgeauftrag F-001 nach Zyklus 001 |
+| KT, ROOT | nicht gefragt | bleiben offen bzw. warten (ROOT bis zum 20-Zyklen-Audit) |
+
+---
+
 ## Neu in Vorlage E-01 (04.11., als DOCX bei Nils; GPT bitte Empfehlung ergänzen)
 
 | ID | Frage | Optionen | Empfehlung Claude | Empfehlung GPT |
@@ -141,4 +154,4 @@ Vorbereitet (privat, nicht im Repo): Werkliste-Entwurf und 41 Cover als WebP. Na
 
 ## Von dir benötigt (keine Entscheidung, nur eine Aktion)
 
-- **Datei-Upload an Claude:** `CLAUDE_KI_TENSOR_STARTPAKET_ZYKLUS_001.zip` (842.482 Bytes; GPT hat es dir als Download erstellt). Darin sind Tensor 2.0 und das Logik-Tensor-2.0-Manuskript. Ohne die Datei kann Claude die Achsen B und das 2.0-Manuskript nicht prüfen.
+- ~~**Datei-Upload an Claude:** `CLAUDE_KI_TENSOR_STARTPAKET_ZYKLUS_001.zip`~~ **(entfällt laut Nils am 04.11.: „Mythos“; DATA-002 wird rekonstruiert)** (842.482 Bytes; GPT hat es dir als Download erstellt). Darin sind Tensor 2.0 und das Logik-Tensor-2.0-Manuskript. Ohne die Datei kann Claude die Achsen B und das 2.0-Manuskript nicht prüfen.
