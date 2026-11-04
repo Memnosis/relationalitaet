@@ -1,0 +1,36 @@
+von,nach,ueber,art,familie,urteil,begruendung
+elektrische Stromstärke,Exposition,Massenänderungsrate,kette,B_mechanik,bedingt,"nur bei stationär durchströmter, bestrahlter Luftmasse"
+elektrische Stromstärke,Ionendosis,Massenänderungsrate,kette,B_mechanik,bedingt,nur bei stationärem Durchfluss
+Geschwindigkeitsvektor,Kraft,Massenänderungsrate,kette,B_mechanik,bedingt,"Schubkraft F = ṁ·v bei Massenstrom, nicht F = m·a"
+Ortsvektor,Impuls,Massenänderungsrate,kette,B_mechanik,ohne_bedeutung,"dimensional korrekt, physikalisch keine allgemeine Beziehung"
+yank,Beschleunigung,Massenänderungsrate,kette,B_mechanik,ohne_bedeutung,Ruck-Kraft/Massenrate hat keine allgemeine Bedeutung
+Leistung,spezifische Energie,Massenänderungsrate,parallel,B_mechanik,bedingt,Leistung eines Massenstroms P = ṁ·e
+spezifische Wärmekapazität,molare Wärmekapazität,molare Masse,parallel,A_stoffgroessen,korrekt,C_m = M·c
+spezifische freie Energie,molare freie Energie,molare Masse,parallel,A_stoffgroessen,korrekt,F_m = M·f
+spezifische Enthalpie,molare Enthalpie,molare Masse,parallel,A_stoffgroessen,korrekt,H_m = M·h
+molare Entropie,spezifische Entropie,molare Masse,parallel,A_stoffgroessen,korrekt,S_m = M·s
+spezifische innere Energie,molare innere Energie,molare Masse,parallel,A_stoffgroessen,korrekt,U_m = M·u
+spezifische Gibbs-Energie,molare Gibbs-Energie,molare Masse,parallel,A_stoffgroessen,korrekt,G_m = M·g
+Exposition,elektrische Ladungsdichte,Dichte,parallel,A_stoffgroessen,bedingt,"Ladung der erzeugten Ionen je Luftvolumen, nicht allgemeine Ladungsdichte"
+Ionendosis,elektrische Ladungsdichte,Dichte,parallel,A_stoffgroessen,bedingt,wie Exposition
+Impuls,spezifischer Massenfluss,Volumen,parallel,A_stoffgroessen,korrekt,Impulsdichte p/V = ρ·v = Massenstromdichte
+Massenkonzentration,Massenanteil,Dichte,parallel,A_stoffgroessen,korrekt,β = ρ·w
+spezifische Wärmekapazität,Wärmespeicherzahl,Dichte,parallel,A_stoffgroessen,korrekt,volumetrische Wärmekapazität = ρ·c
+Aktivitätskonzentration,spezifische Aktivität,Dichte,parallel,A_stoffgroessen,korrekt,c_A = ρ·a
+Impuls,Massenänderungsrate,Ortsvektor,parallel,B_mechanik,ohne_bedeutung,ṁ = p/r ohne physikalische Bedeutung
+yank,mechanische Leistung,Ortsvektor,parallel,B_mechanik,ohne_bedeutung,ohne allgemeine Bedeutung
+Drehmomentvektor,mechanische Leistung,Dauer,parallel,B_mechanik,ohne_bedeutung,P = τ/t falsch; richtig P = τ·ω (Winkel fehlt)
+Drehmomentvektor,Impuls,Geschwindigkeitsvektor,kette,B_mechanik,ohne_bedeutung,ohne allgemeine Bedeutung
+Beschleunigung,mechanische Leistung,Impuls,parallel,B_mechanik,bedingt,P = p·a nur bei konstanter Masse und paralleler Bewegung
+Geschwindigkeitsvektor,Drehmomentvektor,Impuls,parallel,B_mechanik,ohne_bedeutung,τ = p·v ohne Bedeutung
+Drehimpuls,Drehmomentvektor,Dauer,parallel,B_mechanik,korrekt,τ = dL/dt
+Kraft,Massenänderungsrate,Geschwindigkeitsvektor,kette,B_mechanik,bedingt,Schubkraft F = ṁ·v
+mechanische Leistung,Impuls,Beschleunigung,kette,B_mechanik,bedingt,P = p·a bei konstanter Masse
+Dichte,molare Masse,molares Volumen,parallel,A_stoffgroessen,korrekt,M = ρ·V_m
+Stoffmengenanteil,Stoffmengenkonzentration,molares Volumen,parallel,A_stoffgroessen,korrekt,c_i = x_i / V_m
+Wärmespeicherzahl,molare Wärmekapazität,molares Volumen,parallel,A_stoffgroessen,korrekt,C_m = V_m·(ρc)
+Exposition,elektrische Linienladungsdichte,längenbezogene Masse,parallel,A_stoffgroessen,bedingt,nur für bestrahltes Medium als Linienkörper
+Ionendosis,elektrische Linienladungsdichte,längenbezogene Masse,parallel,A_stoffgroessen,bedingt,wie Exposition
+Oberflächenspannung,Beschleunigung,längenbezogene Masse,kette,A_stoffgroessen,ohne_bedeutung,σ = a·m/l verbindet unabhängige Rollen
+Exposition,Oberflächenladungsdichte,Massenbelegung,parallel,A_stoffgroessen,bedingt,nur für bestrahlte Schicht
+Oberflächenladungsdichte,Ionendosis,Massenbelegung,parallel,A_stoffgroessen,bedingt,wie Exposition

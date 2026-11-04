@@ -38,6 +38,8 @@ SCHRITTE = [
     ("Formelreduktion: Ministrukturen, Keime, Dreiecke (12)", ["forschung/tensor/formeln/tests/test_formel_struktur.py"], "OK"),
     ("Top-100-Formeln: trinitär und tensoral (sympy)", ["forschung/tensor/formeln/top100_lauf.py"], "Gesamt: OK"),
     ("Dreieckskeime → Ableitung + P1–P3 (sympy)", ["forschung/tensor/formeln/dreiecke.py"], "Gesamt: OK"),
+    ("Formelbestand: Trinitäten/Bezugstensoren synthetisch (9)", ["forschung/tensor/formeln/tests/test_dschungel.py"], "OK"),
+    ("Formelbestand: Trinitäten und Bezugstensoren im Datensatz + Nullmodell", ["forschung/tensor/formeln/dschungel.py", "--permutationen", "200"], "Gesamt: OK"),
     ("GPT-Gegenlauf LOGIK-PROMPT-02 (Kontrolle)", ["scripts/gpt_logic02_independent.py"], "PASS"),
 ]
 

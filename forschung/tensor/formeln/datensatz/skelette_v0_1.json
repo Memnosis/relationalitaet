@@ -1,0 +1,5831 @@
+{
+"S64efe271": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Symbol('x2'))",
+"anzahl": 120,
+"formeln": [
+"Q11651",
+"Q13824",
+"Q20989",
+"Q25236",
+"Q25358",
+"Q41591",
+"Q125264",
+"Q145623",
+"Q164399",
+"Q170431",
+"Q172623",
+"Q177897",
+"Q190453",
+"Q208476",
+"Q331854",
+"Q423263",
+"Q461466",
+"Q487112",
+"Q487756",
+"Q557120",
+"Q589446",
+"Q622205",
+"Q663650",
+"Q672821",
+"Q737004",
+"Q750454",
+"Q837866",
+"Q862169",
+"Q863390",
+"Q899138",
+"Q899670",
+"Q900661",
+"Q907334",
+"Q907564",
+"Q1209484",
+"Q1357788",
+"Q1427863",
+"Q1452104",
+"Q1504173",
+"Q1907558",
+"Q1943278",
+"Q2034862",
+"Q2091584",
+"Q2098466",
+"Q2309560",
+"Q2333151",
+"Q2499617",
+"Q2628085",
+"Q2823748",
+"Q2937190",
+"Q3023293",
+"Q3305038",
+"Q3425218",
+"Q3711325",
+"Q3799068",
+"Q3929408",
+"Q3944823",
+"Q5147502",
+"Q7310812",
+"Q7962586",
+"Q11027905",
+"Q11868830",
+"Q11945244",
+"Q12793663",
+"Q14321675",
+"Q16635541",
+"Q17232415",
+"Q20970434",
+"Q21075810",
+"Q21572993",
+"Q39078574",
+"Q68972876",
+"Q69423705",
+"Q76357367",
+"Q76359554",
+"Q76360636",
+"Q76378758",
+"Q76378808",
+"Q76378860",
+"Q76379357",
+"Q76379414",
+"Q77990619",
+"Q78101401",
+"Q86078369",
+"Q86202147",
+"Q86204782",
+"Q86501878",
+"Q87051330",
+"Q88523106",
+"Q88769977",
+"Q88862986",
+"Q88863324",
+"Q88865973",
+"Q96249629",
+"Q98058276",
+"Q98058362",
+"Q98103005",
+"Q98591983",
+"Q98592828",
+"Q98592911",
+"Q98601569",
+"Q98642795",
+"Q98793042",
+"Q99566195",
+"Q104217205",
+"Q104655916",
+"Q105581076",
+"Q106008527",
+"Q106010255",
+"Q106177828",
+"Q106432207",
+"Q106432457",
+"Q106886041",
+"Q108858257",
+"Q112725871",
+"Q113841467",
+"Q119313368",
+"Q119396649",
+"Q121957724",
+"Q132446366"
+]
+},
+"Sc7725d53": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Symbol('x2'))",
+"anzahl": 69,
+"formeln": [
+"Q1111",
+"Q11402",
+"Q25288",
+"Q25406",
+"Q27165",
+"Q28352",
+"Q30006",
+"Q41273",
+"Q48103",
+"Q155854",
+"Q161254",
+"Q206799",
+"Q210009",
+"Q211569",
+"Q234072",
+"Q240105",
+"Q256106",
+"Q504186",
+"Q521126",
+"Q634552",
+"Q653242",
+"Q691463",
+"Q749542",
+"Q827688",
+"Q900648",
+"Q1055293",
+"Q1140289",
+"Q1143513",
+"Q1303310",
+"Q1588205",
+"Q1930258",
+"Q2299100",
+"Q2356741",
+"Q2397319",
+"Q2672914",
+"Q3265048",
+"Q4419098",
+"Q4454677",
+"Q4454679",
+"Q4593291",
+"Q4884978",
+"Q4915409",
+"Q10357862",
+"Q11324904",
+"Q11784325",
+"Q11784888",
+"Q15402251",
+"Q17232562",
+"Q26897126",
+"Q73695445",
+"Q78150449",
+"Q80806956",
+"Q86499668",
+"Q91738044",
+"Q96249751",
+"Q97543076",
+"Q97641779",
+"Q98280520",
+"Q98280548",
+"Q98681670",
+"Q104145185",
+"Q104223516",
+"Q106344792",
+"Q106505959",
+"Q107164637",
+"Q112762959",
+"Q118895841",
+"Q118942665",
+"Q137924636"
+]
+},
+"S6b544f2b": {
+"skelett": "Mul(Symbol('x0'), Symbol('x1'))",
+"anzahl": 47,
+"formeln": [
+"Q45284",
+"Q126736",
+"Q132469",
+"Q326908",
+"Q339444",
+"Q379048",
+"Q423986",
+"Q517378",
+"Q574780",
+"Q583760",
+"Q723166",
+"Q785542",
+"Q834199",
+"Q898412",
+"Q916093",
+"Q1195250",
+"Q1442189",
+"Q1496376",
+"Q1579982",
+"Q1749812",
+"Q1754547",
+"Q1936288",
+"Q5159392",
+"Q5282040",
+"Q7449422",
+"Q15927257",
+"Q17098305",
+"Q28777634",
+"Q38581752",
+"Q47002717",
+"Q47339953",
+"Q96395496",
+"Q104175687",
+"Q104542186",
+"Q104542217",
+"Q104627433",
+"Q104638971",
+"Q104713187",
+"Q104774574",
+"Q104785959",
+"Q109928625",
+"Q110395328",
+"Q110408630",
+"Q110420085",
+"Q110453421",
+"Q113997302",
+"Q120755990"
+]
+},
+"Scc43c302": {
+"skelett": "Symbol('x0')",
+"anzahl": 46,
+"formeln": [
+"Q28474",
+"Q132335",
+"Q180345",
+"Q181054",
+"Q185547",
+"Q193794",
+"Q205692",
+"Q273188",
+"Q391371",
+"Q427018",
+"Q604008",
+"Q727103",
+"Q743364",
+"Q849775",
+"Q870845",
+"Q908652",
+"Q958793",
+"Q1064434",
+"Q1147928",
+"Q1179448",
+"Q1379273",
+"Q2305761",
+"Q2657556",
+"Q2899409",
+"Q2993265",
+"Q3315513",
+"Q3749881",
+"Q4894580",
+"Q5159273",
+"Q5198222",
+"Q6060386",
+"Q7206327",
+"Q7234227",
+"Q7455410",
+"Q18345290",
+"Q87913369",
+"Q98929882",
+"Q104654483",
+"Q106466934",
+"Q106492181",
+"Q110175313",
+"Q119130474",
+"Q121231201",
+"Q122229328",
+"Q128652966",
+"Q130471748"
+]
+},
+"Sa1b7ecc4": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Symbol('x1'), Integer(-k)))",
+"anzahl": 24,
+"formeln": [
+"Q11652",
+"Q108193",
+"Q192510",
+"Q214881",
+"Q309017",
+"Q332855",
+"Q333746",
+"Q559265",
+"Q683556",
+"Q1145377",
+"Q2596212",
+"Q3074482",
+"Q17176562",
+"Q20180462",
+"Q77997985",
+"Q79468728",
+"Q105495868",
+"Q106007899",
+"Q106008771",
+"Q106268500",
+"Q106282183",
+"Q112939630",
+"Q112939647",
+"Q119348262"
+]
+},
+"Sed160b0c": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Derivative(Symbol('x1'), Tuple(Symbol('G_Q2199864'), Integer(k))))",
+"anzahl": 17,
+"formeln": [
+"Q11376",
+"Q11465",
+"Q25342",
+"Q29996",
+"Q186300",
+"Q336894",
+"Q497332",
+"Q732442",
+"Q924148",
+"Q1092926",
+"Q7140491",
+"Q30338278",
+"Q77614612",
+"Q92020547",
+"Q104212301",
+"Q138495485",
+"Q138495499"
+]
+},
+"Sb3fbaf28": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Symbol('x1'), Symbol('x2'))",
+"anzahl": 17,
+"formeln": [
+"Q122192",
+"Q184550",
+"Q185836",
+"Q331466",
+"Q772067",
+"Q1193682",
+"Q7682878",
+"Q50379085",
+"Q51590984",
+"Q51591339",
+"Q74758530",
+"Q78514588",
+"Q87740091",
+"Q103982270",
+"Q105533558",
+"Q105882582",
+"Q115404934"
+]
+},
+"S2ce93cbb": {
+"skelett": "Mul(Symbol('x0'), Symbol('x1'), Symbol('x2'))",
+"anzahl": 15,
+"formeln": [
+"Q118084",
+"Q462254",
+"Q598870",
+"Q925445",
+"Q1200279",
+"Q1303470",
+"Q1970975",
+"Q2905392",
+"Q4127961",
+"Q4349092",
+"Q4394137",
+"Q6789731",
+"Q7661853",
+"Q15054459",
+"Q56296592"
+]
+},
+"Sedf71c3e": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Symbol('x1'))",
+"anzahl": 13,
+"formeln": [
+"Q201984",
+"Q256151",
+"Q552311",
+"Q646523",
+"Q735135",
+"Q1151112",
+"Q1990546",
+"Q3517821",
+"Q4454675",
+"Q15152757",
+"Q89408862",
+"Q97359715",
+"Q118309876"
+]
+},
+"S1207c80f": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Function('f0')(Symbol('x1')))",
+"anzahl": 13,
+"formeln": [
+"Q215071",
+"Q249748",
+"Q1047080",
+"Q4516355",
+"Q5597099",
+"Q18205611",
+"Q93598411",
+"Q112594430",
+"Q130343874",
+"Q130343986",
+"Q130369331",
+"Q130485015",
+"Q130691832"
+]
+},
+"S3a3c38f5": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2'), Symbol('x3')), Symbol('x4'))",
+"anzahl": 12,
+"formeln": [
+"Q50706",
+"Q193972",
+"Q509598",
+"Q2144613",
+"Q6469318",
+"Q16963296",
+"Q79464628",
+"Q100828354",
+"Q105404763",
+"Q119474097",
+"Q119507727",
+"Q138414292"
+]
+},
+"S3f21c24a": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(-k))), Symbol('x3'))",
+"anzahl": 12,
+"formeln": [
+"Q634340",
+"Q1191684",
+"Q1940665",
+"Q4218495",
+"Q4780934",
+"Q5891429",
+"Q15811154",
+"Q97591250",
+"Q100793317",
+"Q104145274",
+"Q105728754",
+"Q109061714"
+]
+},
+"Secfcbeb2": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2')), Symbol('x3'))",
+"anzahl": 11,
+"formeln": [
+"Q30204",
+"Q242657",
+"Q294077",
+"Q568855",
+"Q900239",
+"Q1266982",
+"Q1807879",
+"Q63170256",
+"Q106247681",
+"Q106639293",
+"Q137915415"
+]
+},
+"Sc2e71286": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Mul(Symbol('x2'), Symbol('x3')))",
+"anzahl": 11,
+"formeln": [
+"Q160669",
+"Q179043",
+"Q461293",
+"Q581997",
+"Q623738",
+"Q815306",
+"Q898463",
+"Q901840",
+"Q1138045",
+"Q16954269",
+"Q106535954"
+]
+},
+"Sd223d83d": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Mul(Symbol('x1'), Symbol('x2')), Symbol('x3'))",
+"anzahl": 11,
+"formeln": [
+"Q161064",
+"Q179380",
+"Q334631",
+"Q484637",
+"Q865821",
+"Q902476",
+"Q1434913",
+"Q5192379",
+"Q12526476",
+"Q115139482",
+"Q121953235"
+]
+},
+"S90741c5d": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Derivative(Symbol('x0'), Tuple(Symbol('G_Q2199864'), Integer(k))))",
+"anzahl": 11,
+"formeln": [
+"Q1739280",
+"Q3181055",
+"Q5377054",
+"Q12160631",
+"Q65274525",
+"Q69428958",
+"Q98153151",
+"Q98497410",
+"Q99604810",
+"Q99720212",
+"Q108397870"
+]
+},
+"S662151ad": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), Symbol('x2')), Symbol('x3'))",
+"anzahl": 10,
+"formeln": [
+"Q39552",
+"Q76250",
+"Q552787",
+"Q975684",
+"Q1478382",
+"Q2191631",
+"Q7561704",
+"Q73432507",
+"Q96346994",
+"Q104438608"
+]
+},
+"S7467441c": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k))), Symbol('x1'))",
+"anzahl": 10,
+"formeln": [
+"Q515375",
+"Q638185",
+"Q765289",
+"Q907439",
+"Q1052516",
+"Q87737873",
+"Q109364216",
+"Q115113253",
+"Q115113269",
+"Q121225113"
+]
+},
+"S15f21955": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Pow(Symbol('k'), Integer(-k)), Symbol('x1')))",
+"anzahl": 9,
+"formeln": [
+"Q173356",
+"Q4027242",
+"Q4897242",
+"Q77785645",
+"Q98038610",
+"Q98038718",
+"Q105542089",
+"Q105942324",
+"Q108441000"
+]
+},
+"Se01abc99": {
+"skelett": "Mul(Symbol('x0'), Symbol('x1'), Symbol('x2'), Symbol('x3'))",
+"anzahl": 8,
+"formeln": [
+"Q255914",
+"Q767667",
+"Q6453393",
+"Q85816613",
+"Q96249433",
+"Q99705926",
+"Q111128068",
+"Q116382512"
+]
+},
+"Sd7894d58": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), Symbol('x2')), Mul(Symbol('x3'), Symbol('x4')))",
+"anzahl": 8,
+"formeln": [
+"Q370662",
+"Q646627",
+"Q864844",
+"Q899769",
+"Q901793",
+"Q961847",
+"Q102310770",
+"Q122722706"
+]
+},
+"S1b2c0208": {
+"skelett": "Pow(Symbol('x0'), Integer(k))",
+"anzahl": 7,
+"formeln": [
+"Q178192",
+"Q208225",
+"Q466720",
+"Q1049914",
+"Q2396526",
+"Q96396188",
+"Q109928549"
+]
+},
+"S7deaae2a": {
+"skelett": "Mul(Symbol('x0'), Symbol('x1'), Symbol('x2'), Symbol('x3'), Symbol('x4'))",
+"anzahl": 7,
+"formeln": [
+"Q189962",
+"Q840023",
+"Q1812503",
+"Q4748472",
+"Q7827198",
+"Q65086124",
+"Q121074575"
+]
+},
+"S646bf154": {
+"skelett": "Add(Symbol('x0'), Integer(-k))",
+"anzahl": 7,
+"formeln": [
+"Q503869",
+"Q907948",
+"Q2400901",
+"Q89486193",
+"Q97359990",
+"Q120636410",
+"Q137982797"
+]
+},
+"S8f6da88f": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Function('f0')(Symbol('x1'))), Symbol('x2'))",
+"anzahl": 7,
+"formeln": [
+"Q673444",
+"Q1283623",
+"Q5067368",
+"Q5597073",
+"Q7144893",
+"Q7837500",
+"Q133886647"
+]
+},
+"Sfeb09cf0": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Function('f1')(Symbol('x0'))))",
+"anzahl": 6,
+"formeln": [
+"Q114326",
+"Q897769",
+"Q7981049",
+"Q8437543",
+"Q65079847",
+"Q116450178"
+]
+},
+"Saeba8ae7": {
+"skelett": "Add(Mul(Integer(-k), Symbol('k'), Symbol('x0')), Symbol('x1'))",
+"anzahl": 6,
+"formeln": [
+"Q179916",
+"Q1399446",
+"Q1884336",
+"Q12757333",
+"Q25303639",
+"Q71008556"
+]
+},
+"S5d4050b0": {
+"skelett": "Integer(k)",
+"anzahl": 6,
+"formeln": [
+"Q263865",
+"Q531392",
+"Q581432",
+"Q2405892",
+"Q11751592",
+"Q112300321"
+]
+},
+"S4e957361": {
+"skelett": "Add(Mul(Integer(-k), Symbol('k'), Pow(Symbol('x0'), Integer(-k))), Symbol('x1'))",
+"anzahl": 5,
+"formeln": [
+"Q174102",
+"Q18653343",
+"Q80173663",
+"Q98082340",
+"Q100981463"
+]
+},
+"S33121793": {
+"skelett": "Pow(Symbol('x0'), Symbol('x1'))",
+"anzahl": 5,
+"formeln": [
+"Q223683",
+"Q877100",
+"Q5194342",
+"Q6528747",
+"Q13229797"
+]
+},
+"Sd73107b0": {
+"skelett": "Function('f0')(Symbol('x0'))",
+"anzahl": 5,
+"formeln": [
+"Q656772",
+"Q1047481",
+"Q5089262",
+"Q7554146",
+"Q20113351"
+]
+},
+"S7085896a": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Symbol('x2'), Symbol('x3'), Symbol('x4')))",
+"anzahl": 5,
+"formeln": [
+"Q1753014",
+"Q2510107",
+"Q17103180",
+"Q57605839",
+"Q105190387"
+]
+},
+"S0d861184": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Symbol('x1')), Symbol('x2'))",
+"anzahl": 4,
+"formeln": [
+"Q39297",
+"Q6421317",
+"Q7524563",
+"Q15921574"
+]
+},
+"S9d252391": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Mul(Symbol('x2'), Symbol('x3'), Symbol('x4')))",
+"anzahl": 4,
+"formeln": [
+"Q131191",
+"Q588886",
+"Q1545546",
+"Q1975334"
+]
+},
+"Sc35f4760": {
+"skelett": "Mul(Pow(Symbol('x0'), Integer(k)), Symbol('x1'))",
+"anzahl": 4,
+"formeln": [
+"Q207455",
+"Q859808",
+"Q109928505",
+"Q117184309"
+]
+},
+"Sbaeca176": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Integer(-k))",
+"anzahl": 4,
+"formeln": [
+"Q355020",
+"Q595742",
+"Q5276043",
+"Q127693525"
+]
+},
+"S42aa14f6": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Symbol('k'), Symbol('x0')), Symbol('x1'))",
+"anzahl": 4,
+"formeln": [
+"Q834020",
+"Q30338487",
+"Q105267467",
+"Q105542394"
+]
+},
+"S07d643ae": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Integral(Symbol('x1'), Tuple(Symbol('G_Q2199864'), Symbol('x2'), Symbol('x3'))))",
+"anzahl": 4,
+"formeln": [
+"Q837940",
+"Q846785",
+"Q73428743",
+"Q79813678"
+]
+},
+"S373cf274": {
+"skelett": "Add(Mul(Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Symbol('x2'))",
+"anzahl": 4,
+"formeln": [
+"Q900371",
+"Q3077625",
+"Q3363548",
+"Q76364998"
+]
+},
+"S5f3c4ef0": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Pow(Symbol('x1'), Integer(-k)), Symbol('x2')), Mul(Symbol('x3'), Symbol('x4')))",
+"anzahl": 4,
+"formeln": [
+"Q957179",
+"Q1492101",
+"Q2066945",
+"Q104864070"
+]
+},
+"S1a2e2f15": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Integral(Symbol('x1'), Tuple(Symbol('x2'))))",
+"anzahl": 4,
+"formeln": [
+"Q1588477",
+"Q1640308",
+"Q25304558",
+"Q98690787"
+]
+},
+"S35f8e906": {
+"skelett": "Add(Mul(Symbol('x0'), Symbol('x1'), Symbol('x2'), Symbol('x3')), Symbol('x4'))",
+"anzahl": 4,
+"formeln": [
+"Q17162107",
+"Q98876254",
+"Q119473869",
+"Q119507575"
+]
+},
+"Sfa5fde11": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Pow(Symbol('x1'), Integer(-k)), Derivative(Symbol('x1'), Tuple(Symbol('G_Q264647'), Integer(k)))))",
+"anzahl": 4,
+"formeln": [
+"Q74760821",
+"Q74761076",
+"Q74761852",
+"Q101194075"
+]
+},
+"S047b45c3": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Pow(Symbol('x0'), Integer(k)), Rational(k, k)))",
+"anzahl": 4,
+"formeln": [
+"Q98996963",
+"Q98997762",
+"Q98998318",
+"Q112076372"
+]
+},
+"S10b4a761": {
+"skelett": "Add(Mul(Integer(-k), Symbol('k')), Pow(Symbol('k'), Integer(-k)))",
+"anzahl": 3,
+"formeln": [
+"Q6158",
+"Q304770",
+"Q321828"
+]
+},
+"S055f5f73": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Symbol('x0'), Symbol('x2')))",
+"anzahl": 3,
+"formeln": [
+"Q17285",
+"Q190524",
+"Q3553768"
+]
+},
+"Se51bb410": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Derivative(Symbol('x1'), Tuple(Symbol('G_Q39297'), Integer(k))))",
+"anzahl": 3,
+"formeln": [
+"Q29539",
+"Q1050425",
+"Q69425629"
+]
+},
+"Saa99e2f5": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Pow(Symbol('x0'), Integer(k)), Symbol('x1')), Symbol('x2'))",
+"anzahl": 3,
+"formeln": [
+"Q46276",
+"Q949674",
+"Q2140940"
+]
+},
+"S64ffb967": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2'), Function('f0')(Symbol('x3'))), Symbol('x4'))",
+"anzahl": 3,
+"formeln": [
+"Q112927",
+"Q3406905",
+"Q131581195"
+]
+},
+"S77644a79": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Derivative(Symbol('x1'), Tuple(Symbol('G_Q36253'), Integer(k))))",
+"anzahl": 3,
+"formeln": [
+"Q170749",
+"Q56298294",
+"Q77267838"
+]
+},
+"Sabef5a30": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('k'), Integer(k))), Symbol('k'))",
+"anzahl": 3,
+"formeln": [
+"Q182333",
+"Q192819",
+"Q6895682"
+]
+},
+"S17ad8d89": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Function('f1')(Symbol('x0')), Mul(Integer(-k), Abs(Symbol('x0'))))",
+"anzahl": 3,
+"formeln": [
+"Q1007698",
+"Q93605406",
+"Q93639136"
+]
+},
+"Sd604df42": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Rational(k, k), Pow(Symbol('k'), Integer(-k)), Symbol('x1')))",
+"anzahl": 3,
+"formeln": [
+"Q1568269",
+"Q76435127",
+"Q97617324"
+]
+},
+"S64056f9e": {
+"skelett": "Mul(Integer(k), Symbol('x0'))",
+"anzahl": 3,
+"formeln": [
+"Q2141200",
+"Q2264115",
+"Q10713659"
+]
+},
+"S719cabef": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Integer(k), Pow(log(Integer(k)), Integer(-k)), log(Mul(Pow(Symbol('x1'), Integer(-k)), Symbol('x2'), Symbol('x3')))))",
+"anzahl": 3,
+"formeln": [
+"Q2157873",
+"Q87543983",
+"Q106368657"
+]
+},
+"S084e160a": {
+"skelett": "Add(Symbol('x0'), Mul(Pow(Symbol('x1'), Integer(-k)), Derivative(Symbol('x1'), Tuple(Symbol('G_Q39552'), Integer(k)))))",
+"anzahl": 3,
+"formeln": [
+"Q2990695",
+"Q2990696",
+"Q8067817"
+]
+},
+"Sc071342e": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Pow(Symbol('k'), Integer(-k)), Pow(Symbol('x1'), Integer(-k)), Symbol('x2')))",
+"anzahl": 3,
+"formeln": [
+"Q3381809",
+"Q83698917",
+"Q105415606"
+]
+},
+"S92cf124a": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Symbol('x0'), Symbol('x2'), Symbol('x3')))",
+"anzahl": 3,
+"formeln": [
+"Q3413403",
+"Q16937187",
+"Q118941750"
+]
+},
+"Sdfc78aa6": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Symbol('x0'), Symbol('x1')))",
+"anzahl": 3,
+"formeln": [
+"Q89406159",
+"Q89556185",
+"Q135778330"
+]
+},
+"S0576d72e": {
+"skelett": "Add(Function('f1')(Function('f0')(Symbol('x0'))), Mul(Integer(-k), Function('f2')(Symbol('x0'))))",
+"anzahl": 3,
+"formeln": [
+"Q93638909",
+"Q124464442",
+"Q130438340"
+]
+},
+"Sd97c9d51": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Symbol('x2'), Symbol('x3')))",
+"anzahl": 2,
+"formeln": [
+"Q3283",
+"Q754333"
+]
+},
+"Sdcdfeb4d": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Integral(Mul(Pow(Symbol('x1'), Symbol('x2')), Symbol('x3')), Tuple(Symbol('x4'))))",
+"anzahl": 2,
+"formeln": [
+"Q25428",
+"Q77993836"
+]
+},
+"Scc64991e": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('k'), Integer(k)), Symbol('x0')), Symbol('x1'))",
+"anzahl": 2,
+"formeln": [
+"Q35875",
+"Q11663629"
+]
+},
+"Sd599ae71": {
+"skelett": "Add(Abs(Symbol('x0')), Integer(-k))",
+"anzahl": 2,
+"formeln": [
+"Q36255",
+"Q12029942"
+]
+},
+"Sfe2bb20c": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Rational(k, k), Pow(Integer(k), Rational(k, k))), Rational(-k, k))",
+"anzahl": 2,
+"formeln": [
+"Q41690",
+"Q11662816"
+]
+},
+"S886f294a": {
+"skelett": "Add(Mul(Symbol('k'), Symbol('x0')), Symbol('x1'))",
+"anzahl": 2,
+"formeln": [
+"Q140028",
+"Q112731152"
+]
+},
+"S7c21c93d": {
+"skelett": "Add(Mul(Integer(-k), Symbol('k'), Symbol('x0'), Symbol('x1')), Symbol('x2'))",
+"anzahl": 2,
+"formeln": [
+"Q170282",
+"Q598305"
+]
+},
+"Sb414c9ea": {
+"skelett": "Add(Symbol('k'), Mul(Integer(-k), Symbol('x0'), Symbol('x1')))",
+"anzahl": 2,
+"formeln": [
+"Q175974",
+"Q3695436"
+]
+},
+"Sffbf3d2a": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Derivative(Symbol('x1'), Tuple(Symbol('G_Q264647'), Integer(k))))",
+"anzahl": 2,
+"formeln": [
+"Q179388",
+"Q74762732"
+]
+},
+"S65a6e2b5": {
+"skelett": "Add(Mul(Symbol('x0'), Symbol('x1')), Symbol('x2'), Mul(Integer(-k), Function('f0')(Symbol('x0'))))",
+"anzahl": 2,
+"formeln": [
+"Q188597",
+"Q7003746"
+]
+},
+"S1aea95f2": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Symbol('x0'), Symbol('x2'), Symbol('x3'), Symbol('x4')))",
+"anzahl": 2,
+"formeln": [
+"Q190760",
+"Q105084863"
+]
+},
+"Sba560c1f": {
+"skelett": "Add(Mul(Integer(-k), Symbol('k'), Symbol('x0'), Symbol('x1')), Mul(Symbol('x2'), Symbol('x3')))",
+"anzahl": 2,
+"formeln": [
+"Q191785",
+"Q122425017"
+]
+},
+"S01166a41": {
+"skelett": "Add(Pow(Symbol('k'), Integer(k)), Integer(k))",
+"anzahl": 2,
+"formeln": [
+"Q193796",
+"Q109374898"
+]
+},
+"S1a14d52a": {
+"skelett": "Add(Function('f1')(Symbol('x0')), Mul(Integer(-k), Derivative(Function('f0')(Symbol('x0')), Tuple(Symbol('x0'), Integer(k)))))",
+"anzahl": 2,
+"formeln": [
+"Q207522",
+"Q105687031"
+]
+},
+"S5a30ad9d": {
+"skelett": "Add(Mul(Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Symbol('x2'), Integer(-k))",
+"anzahl": 2,
+"formeln": [
+"Q212750",
+"Q93949862"
+]
+},
+"S6488e22a": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Pow(Symbol('x0'), Integer(-k)), Pow(Symbol('x2'), Integer(-k))))",
+"anzahl": 2,
+"formeln": [
+"Q214518",
+"Q106639597"
+]
+},
+"S86f3f850": {
+"skelett": "Add(Symbol('x0'), Derivative(Symbol('x1'), Tuple(Symbol('G_Q2199864'), Integer(k))))",
+"anzahl": 2,
+"formeln": [
+"Q317949",
+"Q98915830"
+]
+},
+"S6e828096": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Pow(Symbol('x0'), Integer(k))), Symbol('x1'))",
+"anzahl": 2,
+"formeln": [
+"Q325978",
+"Q20524281"
+]
+},
+"S9bf242db": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Derivative(Symbol('x1'), Tuple(Symbol('G_Q11423'), Integer(k))))",
+"anzahl": 2,
+"formeln": [
+"Q336938",
+"Q15149637"
+]
+},
+"S4bb112ae": {
+"skelett": "Add(Mul(Symbol('k'), Symbol('x0')), Mul(Integer(-k), Symbol('x1')), Symbol('x2'))",
+"anzahl": 2,
+"formeln": [
+"Q371907",
+"Q1571163"
+]
+},
+"S6f229d62": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Rational(k, k), Pow(Symbol('k'), Integer(-k)), Pow(Symbol('x1'), Integer(k))))",
+"anzahl": 2,
+"formeln": [
+"Q383041",
+"Q658784"
+]
+},
+"S87c228ec": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Symbol('x1')), Symbol('x0'))",
+"anzahl": 2,
+"formeln": [
+"Q420904",
+"Q44106280"
+]
+},
+"Sfa4211d9": {
+"skelett": "Add(Mul(Integer(-k), Function('f0')(Symbol('x0')), Function('f0')(Symbol('x1'))), Function('f0')(Mul(Symbol('x0'), Symbol('x1'))))",
+"anzahl": 2,
+"formeln": [
+"Q575857",
+"Q1048447"
+]
+},
+"Sf20b41ac": {
+"skelett": "Add(Symbol('k'), Mul(Integer(-k), Rational(k, k), Pow(Symbol('k'), Integer(-k)), Pow(Symbol('x0'), Integer(-k))))",
+"anzahl": 2,
+"formeln": [
+"Q658065",
+"Q9855158"
+]
+},
+"S78f8e113": {
+"skelett": "Add(Mul(Integer(-k), Symbol('k'), Pow(Symbol('x0'), Integer(k))), Symbol('x1'))",
+"anzahl": 2,
+"formeln": [
+"Q704747",
+"Q4115331"
+]
+},
+"S080afb71": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Pow(Symbol('k'), Integer(-k)), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(-k)), Symbol('x3')))",
+"anzahl": 2,
+"formeln": [
+"Q736895",
+"Q105658620"
+]
+},
+"S511de23f": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Pow(Symbol('k'), Integer(k)), Pow(Symbol('x0'), Integer(-k))), Symbol('x1'))",
+"anzahl": 2,
+"formeln": [
+"Q737120",
+"Q1166093"
+]
+},
+"S50191b3d": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Symbol('x0'), Symbol('x1')), Mul(Symbol('x2'), Symbol('x3')))",
+"anzahl": 2,
+"formeln": [
+"Q847354",
+"Q105488118"
+]
+},
+"Sa7b95f7e": {
+"skelett": "Add(Symbol('x0'), Rational(-k, k))",
+"anzahl": 2,
+"formeln": [
+"Q898396",
+"Q2265632"
+]
+},
+"Sbd65afb2": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k))), Pow(Symbol('x1'), Integer(k)), Symbol('x2'))",
+"anzahl": 2,
+"formeln": [
+"Q898575",
+"Q2567243"
+]
+},
+"S0ca9b5e3": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Symbol('x2'), Mul(Pow(Symbol('x1'), Integer(-k)), Symbol('x3')))",
+"anzahl": 2,
+"formeln": [
+"Q899046",
+"Q112980976"
+]
+},
+"Sbe6e2f03": {
+"skelett": "Add(Symbol('x0'), Symbol('x1'))",
+"anzahl": 2,
+"formeln": [
+"Q1049381",
+"Q2822921"
+]
+},
+"Sfc8aba60": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Symbol('x1'), Symbol('x2'), Symbol('x3')), Symbol('x4'))",
+"anzahl": 2,
+"formeln": [
+"Q1049636",
+"Q91405496"
+]
+},
+"S8efdd3d0": {
+"skelett": "Sum(Pow(Integer(k), Mul(Integer(-k), Symbol('n'))), Tuple(Symbol('n'), Integer(k), oo))",
+"anzahl": 2,
+"formeln": [
+"Q1074845",
+"Q3817754"
+]
+},
+"Saaf33ff5": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Function('f0')(Add(Mul(Symbol('k'), Symbol('x1')), Symbol('x1')))), Symbol('x1'))",
+"anzahl": 2,
+"formeln": [
+"Q1156910",
+"Q1341545"
+]
+},
+"S40fe5e6d": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Mul(Symbol('x1'), Symbol('x2')), Rational(k, k)))",
+"anzahl": 2,
+"formeln": [
+"Q1303188",
+"Q106097176"
+]
+},
+"S09188dd2": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Function('f0')(Symbol('x2')))",
+"anzahl": 2,
+"formeln": [
+"Q1420659",
+"Q20850796"
+]
+},
+"S98d50280": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Pow(Symbol('x1'), Integer(-k))), Symbol('x2'))",
+"anzahl": 2,
+"formeln": [
+"Q1545619",
+"Q2248131"
+]
+},
+"Se1bac9a2": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Pow(Symbol('x0'), Integer(k)), Symbol('x1'), Symbol('x2'), Symbol('x3')), Symbol('x4'))",
+"anzahl": 2,
+"formeln": [
+"Q1778961",
+"Q9300786"
+]
+},
+"S111a5ceb": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Symbol('x0'))",
+"anzahl": 2,
+"formeln": [
+"Q1782332",
+"Q4683171"
+]
+},
+"S1096f869": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Derivative(Symbol('x1'), Tuple(Symbol('G_Q11500'), Integer(k))))",
+"anzahl": 2,
+"formeln": [
+"Q1907514",
+"Q12799324"
+]
+},
+"Se3e37254": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(oo, Symbol('x0'), Symbol('x2')))",
+"anzahl": 2,
+"formeln": [
+"Q2558939",
+"Q120961422"
+]
+},
+"S5d17ab6c": {
+"skelett": "Mul(Pow(Symbol('x0'), Integer(-k)), Symbol('x1'))",
+"anzahl": 2,
+"formeln": [
+"Q3058244",
+"Q99590521"
+]
+},
+"S24bfc3ac": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Pow(Integer(k), Rational(k, k)), Pow(Mul(Symbol('k'), Pow(Symbol('x0'), Integer(-k))), Rational(k, k)), Function('f0')(Symbol('x0'))), Function('f1')(Symbol('x0')))",
+"anzahl": 2,
+"formeln": [
+"Q3075189",
+"Q109559239"
+]
+},
+"Sa1d35cfe": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Rational(k, k), Pow(Symbol('k'), Integer(-k)), Pow(Symbol('x1'), Integer(-k)), Symbol('x2'), Symbol('x3')))",
+"anzahl": 2,
+"formeln": [
+"Q3090440",
+"Q105266119"
+]
+},
+"S22b5ac9a": {
+"skelett": "Mul(Integer(k), Pow(Symbol('x0'), Integer(k)))",
+"anzahl": 2,
+"formeln": [
+"Q4357800",
+"Q7263849"
+]
+},
+"S33c82980": {
+"skelett": "Sum(Symbol('i'), Tuple(Symbol('i'), Symbol('x0'), Symbol('x0')))",
+"anzahl": 2,
+"formeln": [
+"Q7210138",
+"Q115868096"
+]
+},
+"S3e74d4a5": {
+"skelett": "Add(Symbol('k'), Integer(-k))",
+"anzahl": 2,
+"formeln": [
+"Q11282513",
+"Q92605166"
+]
+},
+"S374cefe4": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Rational(k, k), Pow(Symbol('k'), Integer(-k)), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(k))))",
+"anzahl": 2,
+"formeln": [
+"Q11773690",
+"Q110544007"
+]
+},
+"S8181f66e": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Sum(Mul(Symbol('x1'), Symbol('x2')), Tuple(Symbol('l'), Integer(k), Integer(k)), Tuple(Symbol('k'), Integer(k), Integer(k))))",
+"anzahl": 2,
+"formeln": [
+"Q18708823",
+"Q112183127"
+]
+},
+"S7647df86": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Symbol('x1'), Symbol('x2')), Symbol('x1'))",
+"anzahl": 2,
+"formeln": [
+"Q25457909",
+"Q79466359"
+]
+},
+"S9bd908cf": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), log(Mul(Pow(Symbol('x1'), Integer(-k)), Symbol('x2'))))",
+"anzahl": 2,
+"formeln": [
+"Q25508781",
+"Q32738707"
+]
+},
+"S19149c0a": {
+"skelett": "Add(Mul(Integer(k), Pow(Symbol('k'), Integer(k))), Integer(k))",
+"anzahl": 2,
+"formeln": [
+"Q27031263",
+"Q124039375"
+]
+},
+"S7afd6001": {
+"skelett": "Mul(Pow(Symbol('x0'), Integer(k)), Symbol('x1'), Function('f0')(Symbol('x2'), Symbol('x2'), Symbol('x2')))",
+"anzahl": 2,
+"formeln": [
+"Q54933381",
+"Q126986684"
+]
+},
+"Sb73b7842": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2')), Symbol('x3'), Symbol('x4'))",
+"anzahl": 2,
+"formeln": [
+"Q77679732",
+"Q77680811"
+]
+},
+"S6174981a": {
+"skelett": "Add(Mul(Integer(-k), Symbol('k'), Pow(Symbol('x0'), Integer(-k)), Pow(Symbol('x1'), Integer(k))), Symbol('x2'))",
+"anzahl": 2,
+"formeln": [
+"Q78337869",
+"Q110453295"
+]
+},
+"Sbdbff46b": {
+"skelett": "Mul(Symbol('x0'), Function('f0')(Symbol('x1')))",
+"anzahl": 2,
+"formeln": [
+"Q78484790",
+"Q97184960"
+]
+},
+"S7361088e": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Mul(Symbol('k'), Symbol('x1'))), Symbol('x2'), Symbol('x3')), Mul(Symbol('x2'), Symbol('x4')))",
+"anzahl": 2,
+"formeln": [
+"Q78514596",
+"Q78514605"
+]
+},
+"Sd7969d42": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Derivative(Symbol('x1'), Tuple(Symbol('G_Q17128025'), Integer(k))))",
+"anzahl": 2,
+"formeln": [
+"Q82965908",
+"Q98538612"
+]
+},
+"S1b5e2f09": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Function('f1')(Symbol('x1'))), Function('f0')(Symbol('x1')))",
+"anzahl": 2,
+"formeln": [
+"Q83387222",
+"Q131873169"
+]
+},
+"Sc5d09312": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(-k)), Pow(Symbol('x3'), Integer(-k))), Symbol('x4'))",
+"anzahl": 2,
+"formeln": [
+"Q102040931",
+"Q104379084"
+]
+},
+"Sb025523e": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(-k))), Mul(Symbol('x3'), Symbol('x4')))",
+"anzahl": 2,
+"formeln": [
+"Q105404651",
+"Q112119317"
+]
+},
+"Sb89dc5d9": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Symbol('k'), Symbol('x0')), Mul(Symbol('x1'), Symbol('x2')))",
+"anzahl": 2,
+"formeln": [
+"Q105475278",
+"Q105475399"
+]
+},
+"Sc8b624c5": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Pow(Symbol('x2'), Integer(-k)), Sum(Symbol('x3'), Tuple(Symbol('i'), Integer(k), Symbol('x2')))))",
+"anzahl": 2,
+"formeln": [
+"Q105675280",
+"Q117290019"
+]
+},
+"S869d76d1": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Limit(Mul(Pow(Symbol('G_Q91797376'), Integer(-k)), Symbol('x1')), Symbol('G_Q91797376'), oo, Symbol('-')))",
+"anzahl": 2,
+"formeln": [
+"Q106460846",
+"Q106483683"
+]
+},
+"S0e4d61bc": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Mul(Pow(Symbol('x1'), Integer(-k)), Integral(Pow(Function('f0')(Symbol('G_Q2199864')), Integer(k)), Tuple(Symbol('G_Q2199864'), Integer(k), Symbol('x1')))), Rational(k, k)))",
+"anzahl": 2,
+"formeln": [
+"Q108067944",
+"Q108067970"
+]
+},
+"S01d3ee16": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Symbol('x1'), Integer(k))",
+"anzahl": 2,
+"formeln": [
+"Q108074352",
+"Q112631150"
+]
+},
+"S8521c567": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Symbol('x2'), Function('f1')(Symbol('x0'))), Function('f0')(Symbol('x0')))",
+"anzahl": 2,
+"formeln": [
+"Q109558815",
+"Q109704382"
+]
+},
+"S4951f9a6": {
+"skelett": "Add(Mul(Pow(Symbol('x0'), Integer(k)), Symbol('x1')), Mul(Symbol('x2'), Function('f1')(Symbol('x1'))), Mul(Integer(-k), Function('f0')(Symbol('x1'))))",
+"anzahl": 2,
+"formeln": [
+"Q109558856",
+"Q109704414"
+]
+},
+"Se09b9e62": {
+"skelett": "Function('f0')(Symbol('x0'), Symbol('x1'), Symbol('x2'), Symbol('x3'))",
+"anzahl": 2,
+"formeln": [
+"Q110854195",
+"Q110854274"
+]
+},
+"S995bbab6": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Pow(Symbol('k'), Integer(k))), Symbol('k'))",
+"anzahl": 2,
+"formeln": [
+"Q112299891",
+"Q117771430"
+]
+},
+"Sf8b2b863": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Rational(k, k), pi))",
+"anzahl": 2,
+"formeln": [
+"Q119396915",
+"Q119396965"
+]
+},
+"S113311eb": {
+"skelett": "Add(Mul(Integer(-k), Symbol('k'), Symbol('x0'), Symbol('x1')), Mul(Symbol('x0'), Symbol('x2')))",
+"anzahl": 2,
+"formeln": [
+"Q119474376",
+"Q119507939"
+]
+},
+"S36c9472e": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Derivative(Symbol('x1'), Tuple(Symbol('G_Q11471'), Integer(k))))",
+"anzahl": 2,
+"formeln": [
+"Q122208905",
+"Q122208999"
+]
+},
+"Sfa77aff4": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Symbol('x1'), Integer(k)), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q257"
+]
+},
+"S6f33faea": {
+"skelett": "Add(Symbol('k'), Mul(Integer(-k), Integer(k), Pow(Symbol('x0'), Integer(-k)), Symbol('x1')))",
+"anzahl": 1,
+"formeln": [
+"Q2111"
+]
+},
+"Sb93d8f6d": {
+"skelett": "Add(Mul(Symbol('k'), Pow(Symbol('x0'), Integer(-k)), Pow(Symbol('x1'), Integer(k))), Mul(Symbol('x1'), Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q4130"
+]
+},
+"Se7bda793": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Integral(Integer(k), Tuple(Symbol('x0'))))",
+"anzahl": 1,
+"formeln": [
+"Q11500"
+]
+},
+"S9d7084f0": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Pow(Symbol('x0'), Integer(k))), Pow(Symbol('x1'), Integer(k)))",
+"anzahl": 1,
+"formeln": [
+"Q11518"
+]
+},
+"Sb29b0770": {
+"skelett": "Add(Mul(Symbol('k'), Symbol('x0')), Symbol('x0'), Mul(Integer(-k), Symbol('x1')))",
+"anzahl": 1,
+"formeln": [
+"Q11567"
+]
+},
+"Sf7d4ba8d": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), Symbol('x2'), Symbol('x3')), Symbol('x4'))",
+"anzahl": 1,
+"formeln": [
+"Q12438"
+]
+},
+"S4f88deb7": {
+"skelett": "Add(conjugate(Symbol('x0')), Mul(Integer(-k), Pow(Symbol('x1'), Integer(-k)), Sum(Symbol('x2'), Tuple(Symbol('i'), Integer(k), Symbol('x1')))))",
+"anzahl": 1,
+"formeln": [
+"Q19033"
+]
+},
+"Sd2e326cf": {
+"skelett": "Add(Mul(Pow(Symbol('x0'), Integer(k)), Pow(Symbol('x1'), Integer(-k)), Symbol('x2')), Mul(Pow(Symbol('x3'), Integer(-k)), Symbol('x4'), sin(Symbol('x2'))))",
+"anzahl": 1,
+"formeln": [
+"Q20702"
+]
+},
+"S571498dd": {
+"skelett": "Add(Symbol('x0'), Symbol('x1'), Mul(Integer(-k), Pow(Symbol('k'), Integer(-k)), Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q28123"
+]
+},
+"Sd351a233": {
+"skelett": "Add(Function('f1')(Symbol('x0')), Mul(Integer(-k), Limit(Add(Mul(Integer(-k), Pow(Symbol('h'), Integer(-k)), Function('f0')(Symbol('x0'))), Mul(Pow(Symbol('h'), Integer(-k)), Function('f0')(Add(Symbol('h'), Symbol('x0'))))), Symbol('h'), Integer(k), Symbol('+-'))))",
+"anzahl": 1,
+"formeln": [
+"Q29175"
+]
+},
+"Sbe200540": {
+"skelett": "Add(Mul(Integer(-k), Symbol('k'), Pow(Symbol('x0'), Integer(k)), Symbol('x1'), Symbol('x2')), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q31387"
+]
+},
+"S132dfb56": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Symbol('k'), Pow(Mul(Pow(Symbol('x0'), Integer(-k)), Pow(Symbol('x1'), Integer(k))), Rational(k, k))), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q37640"
+]
+},
+"Se5a65378": {
+"skelett": "Add(Mul(Pow(Symbol('x0'), Integer(k)), Symbol('x1')), Mul(Symbol('x0'), Symbol('x1')), Symbol('x1'))",
+"anzahl": 1,
+"formeln": [
+"Q41299"
+]
+},
+"Scb99ae53": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Pow(Symbol('k'), Integer(-k)), Symbol('x0'), Symbol('x1'), Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q41377"
+]
+},
+"S9cdb65bb": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Sum(Mul(Pow(Symbol('x0'), Symbol('k')), Symbol('x1')), Tuple(Symbol('k'), Integer(k), Symbol('x2')))))",
+"anzahl": 1,
+"formeln": [
+"Q43260"
+]
+},
+"Sa3207645": {
+"skelett": "Add(Mul(Integer(-k), Symbol('k'), log(Symbol('x0'))), Symbol('x1'))",
+"anzahl": 1,
+"formeln": [
+"Q45003"
+]
+},
+"S41a78295": {
+"skelett": "Add(Mul(Symbol('x0'), Pow(Function('f0')(Symbol('x0')), Integer(-k))), Integer(-k))",
+"anzahl": 1,
+"formeln": [
+"Q49008"
+]
+},
+"S10a9e0a6": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Pow(Integer(k), Rational(k, k)), Pow(Symbol('k'), Integer(k)), Pow(Symbol('x0'), Integer(-k)), Pow(Symbol('x1'), Integer(-k))), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q51366"
+]
+},
+"S88e91c75": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Pow(Symbol('k'), Integer(k))), Symbol('k'))",
+"anzahl": 1,
+"formeln": [
+"Q51374"
+]
+},
+"Sbdcd0bce": {
+"skelett": "Add(Mul(Integer(-k), Symbol('k')), Limit(Add(Mul(Integer(-k), Symbol('n'), Symbol('x0'), Function('f0')(Symbol('n'))), log(Symbol('n'))), Symbol('n'), oo, Symbol('-')))",
+"anzahl": 1,
+"formeln": [
+"Q73026"
+]
+},
+"Sd3f792b7": {
+"skelett": "Add(Mul(Integer(-k), Symbol('k')), Limit(Pow(Add(Integer(k), Pow(Symbol('n'), Integer(-k))), Symbol('n')), Symbol('n'), oo, Symbol('-')))",
+"anzahl": 1,
+"formeln": [
+"Q82435"
+]
+},
+"Sc03fe4d9": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Rational(k, k), Pow(Symbol('k'), Integer(-k)), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(-k)), Pow(Symbol('x3'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q83152"
+]
+},
+"S1e9f906d": {
+"skelett": "Add(Function('f1')(Symbol('x0')), Mul(Integer(-k), Pow(Symbol('k'), Integer(-k)), Function('f0')(Symbol('x0'))))",
+"anzahl": 1,
+"formeln": [
+"Q104946"
+]
+},
+"Saade2a89": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Symbol('x0')), Mul(Rational(k, k), Symbol('x1')), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q110346"
+]
+},
+"Sdcaa6cc2": {
+"skelett": "Add(Function('f1')(Symbol('x1')), Mul(Integer(-k), Pow(Symbol('x0'), Mul(Integer(-k), Symbol('x1'), Pow(Symbol('x2'), Integer(-k)))), Pow(Symbol('x1'), Add(Symbol('x3'), Integer(-k))), Pow(Symbol('x2'), Mul(Integer(-k), Symbol('x3'))), Pow(Function('f0')(Symbol('x3')), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q117806"
+]
+},
+"Sfdeb2400": {
+"skelett": "Add(Symbol('k'), Mul(Integer(-k), Rational(k, k), Pow(Symbol('x0'), Integer(k)), Symbol('x1'), Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q122894"
+]
+},
+"S2ee7a5ba": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Function('f1')(Symbol('x1'), Symbol('x2'))), Mul(Pow(Symbol('x3'), Integer(-k)), Pow(Function('f0')(Symbol('x1')), Integer(-k)), Function('f0')(Symbol('x2')), Pow(Function('f0')(Add(Mul(Integer(-k), Symbol('x1')), Symbol('x2'))), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q129638"
+]
+},
+"Sf8a3ea6c": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Sum(Mul(Pow(Symbol('x1'), Symbol('n')), Symbol('x2'), Pow(Add(Symbol('x0'), Mul(Integer(-k), Symbol('x2'))), Symbol('n')), Pow(factorial(Symbol('n')), Integer(-k))), Tuple(Symbol('n'), Integer(k), oo))))",
+"anzahl": 1,
+"formeln": [
+"Q131187"
+]
+},
+"S6e477f4d": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Rational(k, k), Pow(Integer(k), Rational(k, k)), Pow(Symbol('k'), Rational(-k, k)), Pow(Symbol('x1'), Add(Mul(Integer(-k), Rational(k, k), Pow(Symbol('x0'), Integer(k)), Pow(Symbol('x2'), Integer(-k))), Mul(Symbol('x0'), Pow(Symbol('x2'), Integer(-k)), Symbol('x3')), Mul(Integer(-k), Rational(k, k), Pow(Symbol('x2'), Integer(-k)), Pow(Symbol('x3'), Integer(k))))), Pow(Symbol('x2'), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q133871"
+]
+},
+"S71e4a493": {
+"skelett": "Add(Mul(Integer(-k), Symbol('k'), Pow(Symbol('x0'), Integer(k)), Symbol('x1'), Symbol('x2'), Symbol('x3')), Symbol('x4'))",
+"anzahl": 1,
+"formeln": [
+"Q134465"
+]
+},
+"Sdf53a1b0": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), sin(Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q152415"
+]
+},
+"S19432ad7": {
+"skelett": "Add(Symbol('x0'), Integral(Symbol('x1'), Tuple(Symbol('x2'))))",
+"anzahl": 1,
+"formeln": [
+"Q155640"
+]
+},
+"S30808ab6": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Function('f0')(Symbol('x1')), Rational(k, k)))",
+"anzahl": 1,
+"formeln": [
+"Q159375"
+]
+},
+"Sfa0281ab": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Derivative(Symbol('x1'), Tuple(Symbol('G_Q2199864'), Integer(k)))), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q161635"
+]
+},
+"S78d1d374": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('k'), Integer(k)), Symbol('x0'), Derivative(Ket(Function('f0')(Symbol('G_Q2199864'))), Tuple(Symbol('G_Q2199864'), Integer(k)))), Mul(Symbol('x1'), Symbol('x2'), Ket(Function('f0')(Symbol('G_Q2199864')))))",
+"anzahl": 1,
+"formeln": [
+"Q165498"
+]
+},
+"S4f41c25a": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Integral(Pow(Symbol('x1'), Integer(k)), Tuple(Symbol('x2'))))",
+"anzahl": 1,
+"formeln": [
+"Q165618"
+]
+},
+"S445b81a2": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Pow(Integer(k), Rational(k, k)), Pow(Mul(Symbol('k'), Pow(Symbol('x1'), Integer(-k)), Symbol('x2')), Rational(k, k))))",
+"anzahl": 1,
+"formeln": [
+"Q166530"
+]
+},
+"S272e4489": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Function('f0')(Add(Mul(Symbol('x1'), Symbol('x2')), Symbol('x3'))))",
+"anzahl": 1,
+"formeln": [
+"Q172137"
+]
+},
+"Sb19eabcc": {
+"skelett": "Add(Function('f0')(Add(Pow(Symbol('x0'), Integer(k)), Mul(Integer(-k), Integer(k), Symbol('x0'), Function('f0')(Symbol('x0'))), Pow(Function('f0')(Symbol('x0')), Integer(k)))), Mul(Integer(-k), Function('f1')(Symbol('x0'))))",
+"anzahl": 1,
+"formeln": [
+"Q175199"
+]
+},
+"S1c4e5ab1": {
+"skelett": "Add(Integer(-k), Mul(Integer(k), Pow(Symbol('x0'), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q175648"
+]
+},
+"S05d7f4a9": {
+"skelett": "Add(Mul(Rational(k, k), Symbol('x0')), Mul(Integer(-k), Function('f0')(Symbol('x1'))), Sum(Add(Mul(Symbol('x2'), sin(Mul(Symbol('G_Q1148098'), Symbol('x1')))), Mul(Symbol('x2'), cos(Mul(Symbol('G_Q1148098'), Symbol('x1'))))), Tuple(Symbol('G_Q1148098'), Integer(k), oo)))",
+"anzahl": 1,
+"formeln": [
+"Q179467"
+]
+},
+"S29c97407": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Symbol('x2'), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q180241"
+]
+},
+"S6f47e863": {
+"skelett": "Add(Function('f0')(Mul(Symbol('x0'), Symbol('x1'), Symbol('x2'))), Mul(Integer(-k), Pow(Function('f0')(Symbol('x0')), Integer(-k)), Function('f0')(Symbol('x1')), Function('f0')(Mul(Symbol('x0'), Symbol('x1'), Symbol('x2')))))",
+"anzahl": 1,
+"formeln": [
+"Q182505"
+]
+},
+"Scf8b3d10": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Rational(k, k), Pow(Integer(k), Rational(k, k)), Pow(Pow(Symbol('x1'), Integer(k)), Rational(k, k))))",
+"anzahl": 1,
+"formeln": [
+"Q182714"
+]
+},
+"Scdbd58fa": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Function('f0')(Add(Symbol('x0'), Symbol('x1')))))",
+"anzahl": 1,
+"formeln": [
+"Q184743"
+]
+},
+"Sb0f7267f": {
+"skelett": "Add(Mul(Symbol('k'), sin(Symbol('x0'))), Mul(Integer(-k), Pow(Symbol('k'), Mul(Symbol('k'), Symbol('x0')))), cos(Symbol('x0')))",
+"anzahl": 1,
+"formeln": [
+"Q184871"
+]
+},
+"S536b8462": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Product(Symbol('x1'), Tuple(Symbol('i'), Integer(k), Symbol('x2'))), Pow(Symbol('x2'), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q185049"
+]
+},
+"S6687d4d0": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Symbol('x1'), Symbol('x2')), Mul(Rational(k, k), Symbol('x3'), Symbol('x4')))",
+"anzahl": 1,
+"formeln": [
+"Q185648"
+]
+},
+"S0e32027e": {
+"skelett": "Add(Derivative(Function('f0')(Symbol('x0'), Symbol('x1'), Symbol('x0')), Tuple(Symbol('x1'), Integer(k))), Mul(Integer(-k), Limit(Add(Mul(Integer(-k), Pow(Symbol('h'), Integer(-k)), Function('f0')(Symbol('x0'), Symbol('x1'), Symbol('x0'))), Mul(Pow(Symbol('h'), Integer(-k)), Function('f0')(Symbol('x0'), Add(Symbol('h'), Symbol('x1')), Symbol('x0')))), Symbol('h'), Integer(k), Symbol('+-'))))",
+"anzahl": 1,
+"formeln": [
+"Q186475"
+]
+},
+"S1d80379a": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Sum(Pow(Symbol('n'), Mul(Integer(-k), Symbol('x0'))), Tuple(Symbol('n'), Integer(k), oo))))",
+"anzahl": 1,
+"formeln": [
+"Q187235"
+]
+},
+"S248ee569": {
+"skelett": "Add(Mul(Symbol('k'), sin(Mul(Symbol('x0'), Symbol('x1')))), Mul(Integer(-k), Pow(Add(Mul(Symbol('k'), sin(Symbol('x0'))), cos(Symbol('x0'))), Symbol('x1'))), cos(Mul(Symbol('x0'), Symbol('x1'))))",
+"anzahl": 1,
+"formeln": [
+"Q190556"
+]
+},
+"Se2d1db33": {
+"skelett": "Add(Limit(Mul(Function('f0')(Symbol('x')), Pow(Function('f2')(Symbol('x')), Integer(-k))), Symbol('x'), Symbol('x0'), Symbol('+-')), Mul(Integer(-k), Limit(Mul(Function('f1')(Symbol('x')), Pow(Function('f3')(Symbol('x')), Integer(-k))), Symbol('x'), Symbol('x0'), Symbol('+-'))))",
+"anzahl": 1,
+"formeln": [
+"Q190557"
+]
+},
+"S86b47c0d": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Integral(Mul(Pow(Symbol('k'), Mul(Integer(-k), Symbol('t'))), Pow(Symbol('t'), Add(Symbol('x0'), Integer(-k)))), Tuple(Symbol('t'), Integer(k), oo))))",
+"anzahl": 1,
+"formeln": [
+"Q190573"
+]
+},
+"Sf61808e1": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Pow(Symbol('x0'), Integer(k))), Mul(Rational(k, k), Symbol('x0')), Symbol('x1'), Integer(-k))",
+"anzahl": 1,
+"formeln": [
+"Q190891"
+]
+},
+"S57f42a5d": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Pow(Symbol('x1'), Integer(k)), Symbol('x2')), Mul(Symbol('x2'), Pow(Symbol('x3'), Integer(-k)), Symbol('x4')))",
+"anzahl": 1,
+"formeln": [
+"Q193846"
+]
+},
+"S3aea76ac": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Rational(k, k), Pow(log(Integer(k)), Integer(-k)), log(Mul(Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(-k)), Pow(Symbol('x3'), Integer(-k)), Symbol('x4')))), Mul(Float('k', precision=k), Pow(log(Integer(k)), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q201605"
+]
+},
+"S210239f1": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Pow(Symbol('k'), Integer(-k)), Rational(k, k)))",
+"anzahl": 1,
+"formeln": [
+"Q202642"
+]
+},
+"Sd245397a": {
+"skelett": "Add(Mul(Integer(k), Pow(Symbol('x0'), Integer(k))), Integer(-k))",
+"anzahl": 1,
+"formeln": [
+"Q203425"
+]
+},
+"Sf7fbfb9d": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Pow(Symbol('x2'), Integer(k)))",
+"anzahl": 1,
+"formeln": [
+"Q203484"
+]
+},
+"S43fc4942": {
+"skelett": "Add(log(Symbol('x0')), Mul(Integer(-k), log(Symbol('x0')), Pow(log(Symbol('x1')), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q204037"
+]
+},
+"Sbd3566e9": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Sum(Mul(Function('f1')(Symbol('x1')), Function('f2')(Symbol('x1'))), Tuple(Symbol('i'), Integer(k), Symbol('x2')))))",
+"anzahl": 1,
+"formeln": [
+"Q204570"
+]
+},
+"Sdb4eebf8": {
+"skelett": "Add(Pow(Symbol('k'), Pow(Symbol('k'), Integer(k))), Integer(k))",
+"anzahl": 1,
+"formeln": [
+"Q204819"
+]
+},
+"Saba102e9": {
+"skelett": "Add(Pow(Integer(k), Pow(Integer(k), Symbol('x0'))), Mul(Integer(-k), Symbol('x1')), Integer(k))",
+"anzahl": 1,
+"formeln": [
+"Q207264"
+]
+},
+"S424cbd14": {
+"skelett": "Add(Mul(Symbol('x0'), Function('f0')(Symbol('x1'))), Mul(Symbol('x2'), Function('f0')(Symbol('x3'))), Mul(Integer(-k), Function('f0')(Add(Mul(Symbol('x0'), Symbol('x1')), Mul(Symbol('x2'), Symbol('x3'))))))",
+"anzahl": 1,
+"formeln": [
+"Q207643"
+]
+},
+"Sa0b5b5fa": {
+"skelett": "Add(Integer(-k), Mul(Pow(Symbol('x0'), Integer(-k)), Pow(Symbol('x1'), Integer(k))), Mul(Pow(Symbol('x0'), Integer(-k)), Pow(Symbol('x2'), Integer(k))), Mul(Pow(Symbol('x0'), Integer(-k)), Pow(Symbol('x3'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q208395"
+]
+},
+"S036ded4b": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Add(Integer(k), Mul(Integer(k), Pow(Symbol('x0'), Integer(-k)), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(-k)), Pow(Symbol('x3'), Integer(k)), Symbol('x4'))), Rational(k, k)))",
+"anzahl": 1,
+"formeln": [
+"Q208474"
+]
+},
+"S6ce14bf0": {
+"skelett": "Add(Function('f1')(Symbol('x0')), Mul(Integer(-k), Integral(Mul(Function('f0')(Add(Symbol('t'), Mul(Integer(-k), Symbol('x0')))), Function('f1')(Symbol('t'))), Tuple(Symbol('t'), -oo, oo))))",
+"anzahl": 1,
+"formeln": [
+"Q209675"
+]
+},
+"S9bc7d81b": {
+"skelett": "Add(binomial(Symbol('x0'), Symbol('x1')), Mul(Integer(-k), factorial(Symbol('x0')), Pow(factorial(Symbol('x1')), Integer(-k)), Pow(factorial(Add(Symbol('x0'), Mul(Integer(-k), Symbol('x1')))), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q209875"
+]
+},
+"S927fb540": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2'), Symbol('x3')), Integral(Mul(Function('f0')(Symbol('y')), Function('f1')(Add(Symbol('x0'), Mul(Integer(-k), Symbol('y'))))), Tuple(Symbol('y'), -oo, oo)))",
+"anzahl": 1,
+"formeln": [
+"Q210857"
+]
+},
+"S777e813f": {
+"skelett": "Add(Mul(Integer(-k), Symbol('k'), Pow(Symbol('x0'), Integer(-k))), Mul(Symbol('x1'), Symbol('x2'), Symbol('x3')))",
+"anzahl": 1,
+"formeln": [
+"Q214336"
+]
+},
+"Saa6a6f12": {
+"skelett": "Mul(Symbol('x0'), Pow(Function('f0')(Symbol('x0')), Integer(-k)))",
+"anzahl": 1,
+"formeln": [
+"Q214604"
+]
+},
+"Scd14f775": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Derivative(Mul(Symbol('x1'), Symbol('x2')), Tuple(Symbol('G_Q11423'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q215313"
+]
+},
+"S7c0bc49b": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Pow(Integer(k), Mul(Integer(-k), Symbol('x1'))), Pow(Symbol('x2'), Mul(Integer(-k), Symbol('x1'))), Pow(Symbol('x3'), Symbol('x1')), Pow(Add(Pow(Symbol('x0'), Integer(k)), Integer(-k)), Symbol('x1')), Pow(factorial(Symbol('x1')), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q215405"
+]
+},
+"S3aad19db": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Derivative(Symbol('x1'), Tuple(Symbol('G_Q30338487'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q217361"
+]
+},
+"S23496aeb": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Mul(Pow(Symbol('x1'), Integer(-k)), Sum(Pow(Symbol('x2'), Integer(k)), Tuple(Symbol('i'), Integer(k), Symbol('x1')))), Rational(k, k)))",
+"anzahl": 1,
+"formeln": [
+"Q223323"
+]
+},
+"Sa204e000": {
+"skelett": "Add(Mul(Integer(-k), Pow(Integer(-k), Symbol('x0')), Pow(Symbol('x1'), Mul(Integer(-k), Symbol('x0'))), Pow(Symbol('x2'), Symbol('x0')), Pow(Add(Integer(k), Mul(Integer(-k), Pow(Symbol('x3'), Integer(k)))), Mul(Rational(k, k), Symbol('x0'))), Function('f0')(Symbol('x3'))), Mul(Symbol('x3'), Pow(Symbol('x4'), Symbol('x0'))))",
+"anzahl": 1,
+"formeln": [
+"Q228376"
+]
+},
+"See3df2cc": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))))))",
+"anzahl": 1,
+"formeln": [
+"Q237193"
+]
+},
+"Sccf7b724": {
+"skelett": "Add(Function('f1')(Symbol('x0')), Mul(Integer(-k), Pow(Integer(k), Mul(Integer(-k), Rational(k, k), Symbol('x1'))), Pow(Symbol('x0'), Add(Mul(Rational(k, k), Symbol('x1')), Integer(-k))), Pow(Symbol('x2'), Mul(Integer(-k), Rational(k, k), Symbol('x0'))), Pow(Function('f0')(Mul(Rational(k, k), Symbol('x1'))), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q243462"
+]
+},
+"S9c85270c": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Symbol('x1'), Symbol('x2')), Function('f1')(Function('f0')(Symbol('x1'))))",
+"anzahl": 1,
+"formeln": [
+"Q244761"
+]
+},
+"S15bb0957": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2'), Symbol('x3')), Function('f0')(Symbol('x4')))",
+"anzahl": 1,
+"formeln": [
+"Q245673"
+]
+},
+"S3fab486c": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Function('f0')(Symbol('x1'))), Function('f0')(Symbol('x1'), Symbol('x0')), Function('f1')(Symbol('x1'), Symbol('x0')))",
+"anzahl": 1,
+"formeln": [
+"Q252973"
+]
+},
+"S9bad9dcf": {
+"skelett": "Add(Mul(Symbol('k'), Symbol('x0')), Mul(Integer(-k), Symbol('x1'), Pow(Symbol('x2'), Integer(-k))), Mul(Symbol('x1'), Pow(Symbol('x2'), Integer(-k)), Symbol('x3')), Mul(Integer(-k), Symbol('x2'), Symbol('x4')), Mul(Symbol('x3'), Symbol('x4')))",
+"anzahl": 1,
+"formeln": [
+"Q254329"
+]
+},
+"Saa1559ef": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Function('f0')(Symbol('x2'))), Function('f0')(Mul(Symbol('x0'), Symbol('x1'), Symbol('x2'))))",
+"anzahl": 1,
+"formeln": [
+"Q256355"
+]
+},
+"S6e988a62": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Derivative(Symbol('x1'), Tuple(Symbol('G_Q45003'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q264647"
+]
+},
+"S55e40ab8": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('k'), Integer(k))), Symbol('x0'))",
+"anzahl": 1,
+"formeln": [
+"Q269492"
+]
+},
+"Se3b6fbf7": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2'), Function('f0')(Function('f2')(Symbol('x0')))), Function('f1')(Symbol('x0')))",
+"anzahl": 1,
+"formeln": [
+"Q269878"
+]
+},
+"Sebd3b12c": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Pow(Add(Symbol('x1'), Integer(k)), Integer(-k)), binomial(Mul(Integer(k), Symbol('x1')), Symbol('x1'))))",
+"anzahl": 1,
+"formeln": [
+"Q270513"
+]
+},
+"S689cbcdf": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Limit(Add(Mul(Integer(-k), log(Symbol('n'))), Sum(Pow(Symbol('k'), Integer(-k)), Tuple(Symbol('k'), Integer(k), Symbol('n')))), Symbol('n'), oo, Symbol('-')))",
+"anzahl": 1,
+"formeln": [
+"Q273023"
+]
+},
+"Sa0a73ccb": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Mul(Symbol('x1'), Symbol('x2')), Rational(-k, k))), Mul(Symbol('x3'), Symbol('x4')))",
+"anzahl": 1,
+"formeln": [
+"Q273090"
+]
+},
+"S39b54808": {
+"skelett": "Add(Mul(Symbol('k'), Symbol('x0')), Symbol('x1'), Mul(Integer(-k), Integer(k), Pow(Symbol('k'), Integer(-k)), Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q273711"
+]
+},
+"S8c1cd846": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Function('f0')(Add(Mul(Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(k))), Mul(Integer(-k), Integer(k), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(k)), Symbol('x3')), Mul(Integer(k), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(k)), Pow(Symbol('x3'), Integer(k))), Mul(Integer(-k), Integer(k), Pow(Symbol('x1'), Integer(-k)), Symbol('x2'), Pow(Symbol('x3'), Integer(k))), Mul(Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x3'), Integer(k))))))",
+"anzahl": 1,
+"formeln": [
+"Q287251"
+]
+},
+"Sa941a94c": {
+"skelett": "Add(Mul(Rational(k, k), Pow(Symbol('k'), Integer(k)), Pow(Symbol('x0'), Integer(-k)), Pow(Symbol('x1'), Integer(k))), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q290128"
+]
+},
+"S0326106a": {
+"skelett": "Add(Mul(Integer(-k), Symbol('k')), Symbol('x0'))",
+"anzahl": 1,
+"formeln": [
+"Q325519"
+]
+},
+"S8f1b95ab": {
+"skelett": "Add(Function('f0')(Mul(Symbol('x0'), Symbol('x1'), Symbol('x2'))), Mul(Integer(-k), Pow(Function('f0')(Symbol('x0')), Integer(-k)), Function('f0')(Mul(Symbol('x0'), Symbol('x1'), Symbol('x3')))))",
+"anzahl": 1,
+"formeln": [
+"Q327069"
+]
+},
+"S3644c64e": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Function('f0')(Add(Mul(Integer(-k), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(k))), Mul(Integer(k), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(k)), Symbol('x3')), Mul(Integer(-k), Integer(k), Pow(Symbol('x1'), Integer(-k)), Symbol('x2'), Pow(Symbol('x3'), Integer(k))), Mul(Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x3'), Integer(k))))))",
+"anzahl": 1,
+"formeln": [
+"Q330828"
+]
+},
+"Sc449cea0": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Symbol('x1'), Function('f0')(Symbol('x2'))), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q331481"
+]
+},
+"S30a69006": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Derivative(Symbol('x1'), Tuple(Symbol('G_Q234072'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q332329"
+]
+},
+"S5b9803a0": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Function('f0')(Mul(Symbol('x1'), Symbol('x2')))), Mul(Symbol('x1'), Symbol('x3'), Symbol('x4')))",
+"anzahl": 1,
+"formeln": [
+"Q338886"
+]
+},
+"S68916481": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Symbol('x0'), Symbol('x1'), Symbol('x2')), Pow(Symbol('x1'), Integer(k)), Pow(Symbol('x2'), Integer(k)))",
+"anzahl": 1,
+"formeln": [
+"Q350877"
+]
+},
+"Sd1e5d70b": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Symbol('x1'), Symbol('x2'), Symbol('x3'), Function('f0')(Symbol('x1'))), Symbol('x4'))",
+"anzahl": 1,
+"formeln": [
+"Q351281"
+]
+},
+"S9ade2443": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Pow(Symbol('x2'), Symbol('x0')), Pow(Add(Pow(Symbol('x2'), Symbol('x0')), Mul(Integer(-k), Pow(Symbol('x2'), Mul(Integer(-k), Symbol('x0'))))), Integer(-k))), Pow(Add(Pow(Symbol('x2'), Mul(Integer(k), Symbol('x0'))), Integer(-k)), Integer(-k)))",
+"anzahl": 1,
+"formeln": [
+"Q359452"
+]
+},
+"S21ba2722": {
+"skelett": "Add(Mul(Symbol('x0'), Symbol('x1'), Symbol('x2')), Mul(Integer(-k), Symbol('x0')), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q360886"
+]
+},
+"S3b1d335d": {
+"skelett": "Add(Mul(Symbol('x0'), Symbol('x1'), Function('f1')(Symbol('x2'))), Pow(Function('f0')(Symbol('x2')), Integer(k)), Mul(Integer(-k), Function('f0')(Pow(Symbol('x2'), Integer(k)))))",
+"anzahl": 1,
+"formeln": [
+"Q367866"
+]
+},
+"Sb18e8c91": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Mul(Pow(Symbol('x1'), Integer(-k)), Integral(Pow(Symbol('x2'), Integer(k)), Tuple(Symbol('t'), Integer(k), Symbol('x1')))), Rational(k, k)))",
+"anzahl": 1,
+"formeln": [
+"Q369180"
+]
+},
+"S545442a2": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Symbol('x1'), Mul(Function('f0')(Symbol('x0')), Pow(Function('f1')(Symbol('x0')), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q374195"
+]
+},
+"Sc36fe57f": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Sum(Symbol('x1'), Tuple(Symbol('i'), Integer(k), Add(Symbol('x2'), Integer(-k))))), Sum(Mul(Symbol('x1'), Pow(Symbol('x3'), Symbol('i'))), Tuple(Symbol('i'), Integer(k), Add(Symbol('x2'), Integer(-k)))))",
+"anzahl": 1,
+"formeln": [
+"Q375355"
+]
+},
+"S59e4655f": {
+"skelett": "Add(Mul(Symbol('k'), Symbol('x0'), Symbol('x1'), Symbol('x2')), Mul(Integer(-k), Symbol('x0'), Symbol('x3'), Symbol('x4')), conjugate(Symbol('x0')))",
+"anzahl": 1,
+"formeln": [
+"Q381040"
+]
+},
+"Sae30ef0d": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), exp(Mul(Pow(Symbol('k'), Integer(-k)), Pow(Symbol('x1'), Integer(-k)), Symbol('x2'))), exp(Mul(Integer(-k), Pow(Symbol('k'), Integer(-k)), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Symbol('x3'))))))",
+"anzahl": 1,
+"formeln": [
+"Q423220"
+]
+},
+"Saa5fc69c": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Symbol('x2'), Symbol('x3'), Function('f0')(Mul(Symbol('x0'), Symbol('x1')))))",
+"anzahl": 1,
+"formeln": [
+"Q426221"
+]
+},
+"Sd9646527": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Function('f0')(Symbol('x0')), exp(Function('f0')(Symbol('x0')))))",
+"anzahl": 1,
+"formeln": [
+"Q429331"
+]
+},
+"S4b5afb90": {
+"skelett": "Add(Mul(Integer(-k), Function('f0')(Symbol('x0')), Pow(Function('f2')(Symbol('x0')), Integer(-k))), Function('f1')(Symbol('x0')))",
+"anzahl": 1,
+"formeln": [
+"Q431617"
+]
+},
+"S06c0139c": {
+"skelett": "Add(Symbol('x0'), Mul(Pow(log(Symbol('x1')), Integer(-k)), log(Symbol('x2'))))",
+"anzahl": 1,
+"formeln": [
+"Q444656"
+]
+},
+"S355a07a0": {
+"skelett": "Sum(Pow(Symbol('G_Q16317911'), Integer(-k)), Tuple(Symbol('G_Q16317911'), Integer(k), oo))",
+"anzahl": 1,
+"formeln": [
+"Q464100"
+]
+},
+"Se3b1d8a6": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Pow(Function('f0')(Mul(Rational(k, k), Symbol('x2'))), Integer(k))), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q466511"
+]
+},
+"S3ae82e21": {
+"skelett": "Add(Function('f0')(Symbol('x0'), Symbol('x1')), Mul(Integer(-k), Integral(Mul(Pow(Symbol('t'), Add(Symbol('x0'), Integer(-k))), Pow(Add(Integer(k), Mul(Integer(-k), Symbol('t'))), Add(Symbol('x1'), Integer(-k)))), Tuple(Symbol('t'), Integer(k), Integer(k)))))",
+"anzahl": 1,
+"formeln": [
+"Q468881"
+]
+},
+"Sd23a88fc": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Add(Symbol('x0'), Symbol('x1')), Integer(-k))), Mul(Symbol('x1'), Pow(Add(Symbol('x0'), Symbol('x1')), Integer(-k))), Mul(tan(Add(Mul(Rational(k, k), Symbol('x2')), Mul(Integer(-k), Rational(k, k), Symbol('x3')))), Pow(tan(Add(Mul(Rational(k, k), Symbol('x2')), Mul(Rational(k, k), Symbol('x3')))), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q468887"
+]
+},
+"Seccaa9d1": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Rational(k, k), Pow(Symbol('x1'), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q476572"
+]
+},
+"S30d26bf4": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Pow(Add(Integer(k), Mul(Integer(-k), Function('f1')(Symbol('x0')))), Integer(-k)), Function('f1')(Symbol('x0'))))",
+"anzahl": 1,
+"formeln": [
+"Q515895"
+]
+},
+"S39dc37dc": {
+"skelett": "Add(Symbol('x0'), Pow(Symbol('x0'), Symbol('x1')))",
+"anzahl": 1,
+"formeln": [
+"Q526790"
+]
+},
+"Sd33db68b": {
+"skelett": "Add(Function('f0')(Symbol('x0'), Function('f1')(Symbol('x0'))), Mul(Integer(-k), Function('f2')(Symbol('x0'))))",
+"anzahl": 1,
+"formeln": [
+"Q530152"
+]
+},
+"S8c24bbbb": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Mul(Rational(k, k), Symbol('x1'), Symbol('x2')), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q550929"
+]
+},
+"Sb00b5ba9": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Pow(log(Integer(k)), Integer(-k)), log(Mul(Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(k))))))",
+"anzahl": 1,
+"formeln": [
+"Q560188"
+]
+},
+"S8a682950": {
+"skelett": "Add(Function('f1')(Symbol('x0')), Mul(Integer(-k), Pow(Mul(Symbol('k'), Symbol('x1')), Rational(-k, k)), Pow(Add(Mul(Pow(Symbol('x0'), Integer(k)), Pow(Symbol('x1'), Integer(-k))), Integer(k)), Add(Mul(Integer(-k), Rational(k, k), Symbol('x1')), Rational(-k, k))), Pow(Function('f0')(Mul(Rational(k, k), Symbol('x1'))), Integer(-k)), Function('f0')(Add(Mul(Rational(k, k), Symbol('x1')), Rational(k, k)))))",
+"anzahl": 1,
+"formeln": [
+"Q576072"
+]
+},
+"S17778424": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2'), Symbol('x3')), Mul(Integer(k), Pow(Symbol('k'), Rational(-k, k)), Integral(Pow(Symbol('x0'), Mul(Integer(-k), Pow(Symbol('t'), Integer(k)))), Tuple(Symbol('t'), Integer(k), Symbol('x1')))))",
+"anzahl": 1,
+"formeln": [
+"Q579262"
+]
+},
+"S24e7a37c": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2')), Mul(Pow(log(Integer(k)), Integer(-k)), log(Symbol('x0'))))",
+"anzahl": 1,
+"formeln": [
+"Q581168"
+]
+},
+"Se9b297e5": {
+"skelett": "Add(Mul(Symbol('x0'), Symbol('x1'), Function('f0')(Integer(k)), cos(Symbol('x2')), cos(Symbol('x3'))), Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Function('f0')(Symbol('x4'))), Mul(Symbol('x0'), Symbol('x1'), Function('f0')(Add(Mul(Integer(-k), Symbol('x2')), Symbol('x3')))))",
+"anzahl": 1,
+"formeln": [
+"Q587172"
+]
+},
+"Sc861f8b5": {
+"skelett": "Add(Mul(Symbol('k'), Symbol('x0')), Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Symbol('x2'), Symbol('x3'), Symbol('x4')))",
+"anzahl": 1,
+"formeln": [
+"Q601818"
+]
+},
+"S000d07cd": {
+"skelett": "Sum(Mul(Pow(Symbol('n'), Mul(Integer(-k), Symbol('x0'))), Symbol('x1')), Tuple(Symbol('n'), Integer(k), oo))",
+"anzahl": 1,
+"formeln": [
+"Q620595"
+]
+},
+"Sab941838": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Function('f0')(Symbol('x1')), Function('f0')(Symbol('x2'))), Mul(Symbol('x0'), Function('f0')(Mul(Symbol('x1'), Symbol('x2'), Symbol('x3')))))",
+"anzahl": 1,
+"formeln": [
+"Q625303"
+]
+},
+"S0ef2b9b4": {
+"skelett": "Add(Symbol('x0'), Pow(Symbol('x1'), Integer(-k)))",
+"anzahl": 1,
+"formeln": [
+"Q632617"
+]
+},
+"S67614692": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Pow(Symbol('k'), Integer(k)), Pow(Symbol('x0'), Integer(-k))), Symbol('x1'))",
+"anzahl": 1,
+"formeln": [
+"Q652571"
+]
+},
+"Sa54d2b2d": {
+"skelett": "Add(Mul(Integer(-k), Pow(Integer(-k), Symbol('x0')), Pow(Symbol('x1'), Mul(Integer(-k), Symbol('x0'))), Pow(Symbol('x2'), Symbol('x0'))), Function('f0')(Symbol('x3')))",
+"anzahl": 1,
+"formeln": [
+"Q658574"
+]
+},
+"S1e37428d": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Symbol('x0'), Symbol('x2')), Mul(Symbol('x0'), Symbol('x3')))",
+"anzahl": 1,
+"formeln": [
+"Q660488"
+]
+},
+"Sbe97da22": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Integral(Abs(Function('f0')(Symbol('t'))), Tuple(Symbol('t'), Symbol('x1'), Symbol('x2'))))",
+"anzahl": 1,
+"formeln": [
+"Q670036"
+]
+},
+"S371cf71c": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Pow(Symbol('x0'), Integer(k))), Mul(Rational(k, k), Pow(Symbol('x0'), Integer(k))), Mul(Integer(-k), Rational(k, k), Pow(Symbol('x0'), Integer(k))), Symbol('x0'), Symbol('x1'), Mul(Integer(-k), log(Add(Symbol('x0'), Integer(k)))))",
+"anzahl": 1,
+"formeln": [
+"Q677568"
+]
+},
+"Se9ad43e3": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Function('f0')(Symbol('x1'))), Mul(Pow(Symbol('k'), Integer(-k)), Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q685437"
+]
+},
+"S04b6db39": {
+"skelett": "Add(Mul(Symbol('k'), Symbol('x0'), Symbol('x1'), Symbol('x2')), Mul(Symbol('x3'), Symbol('x4')))",
+"anzahl": 1,
+"formeln": [
+"Q692457"
+]
+},
+"Sf6c65bb2": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Mul(Integer(-k), Pow(Add(Mul(Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Mul(Integer(-k), Pow(Symbol('x1'), Integer(-k)), Symbol('x3'))), Symbol('x4')))), Symbol('x4'), Pow(Add(Mul(Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Mul(Integer(-k), Pow(Symbol('x1'), Integer(-k)), Symbol('x3'))), Add(Symbol('x4'), Integer(-k)))))",
+"anzahl": 1,
+"formeln": [
+"Q732332"
+]
+},
+"Sd51f6bf2": {
+"skelett": "Add(Mul(Integer(-k), Float('k', precision=k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), sin(Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q740898"
+]
+},
+"Sef71ede5": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Symbol('x1')), Pow(Symbol('x2'), Integer(-k)), Symbol('x3')), Symbol('x4'))",
+"anzahl": 1,
+"formeln": [
+"Q745224"
+]
+},
+"S3b3cdba7": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2')), Mul(Pow(Symbol('x1'), Integer(k)), Symbol('x3')), Mul(Symbol('x1'), Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q751048"
+]
+},
+"S62e3642f": {
+"skelett": "Add(Mul(Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), log(Symbol('x2'))), Symbol('x3'), Mul(Integer(-k), Pow(Symbol('x3'), Symbol('x4'))))",
+"anzahl": 1,
+"formeln": [
+"Q751124"
+]
+},
+"Sef855776": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Symbol('x1'), Symbol('x2'), Integer(-k))",
+"anzahl": 1,
+"formeln": [
+"Q752412"
+]
+},
+"S3acebe50": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Add(Symbol('x1'), Integer(-k))), Pow(Add(Integer(k), Mul(Integer(-k), Symbol('x0'))), Add(Symbol('x2'), Integer(-k))), Pow(Function('f0')(Symbol('x1')), Integer(-k)), Pow(Function('f0')(Symbol('x2')), Integer(-k)), Function('f0')(Add(Symbol('x1'), Symbol('x2')))), Function('f1')(Symbol('x0')))",
+"anzahl": 1,
+"formeln": [
+"Q756254"
+]
+},
+"Sd4067ea8": {
+"skelett": "Add(Pow(Symbol('x0'), Symbol('x1')), Integer(-k))",
+"anzahl": 1,
+"formeln": [
+"Q756747"
+]
+},
+"S10a4d369": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Pow(Symbol('x0'), Integer(-k)), Symbol('x1')))",
+"anzahl": 1,
+"formeln": [
+"Q762521"
+]
+},
+"Saa7b169d": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(-k))), Mul(Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(-k)), Pow(Symbol('x3'), Integer(-k))), Pow(Add(Mul(Integer(-k), Symbol('x4')), Mul(Pow(Symbol('x0'), Integer(-k)), Symbol('x1'), Symbol('x4'))), Integer(-k)), Mul(Integer(-k), Pow(Symbol('x2'), Integer(-k)), Pow(Symbol('x3'), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q795838"
+]
+},
+"Sd2a76f08": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Sum(floor(Add(Mul(Integer(-k), Pow(Add(Mul(Integer(k), Pow(Integer(k), Symbol('k')), Symbol('k')), Mul(Integer(k), Pow(Integer(k), Symbol('k')))), Integer(-k))), Mul(Integer(-k), Pow(Add(Mul(Integer(k), Pow(Integer(k), Symbol('k')), Symbol('k')), Mul(Integer(k), Pow(Integer(k), Symbol('k')))), Integer(-k))), Mul(Integer(-k), Integer(k), Pow(Add(Mul(Integer(k), Pow(Integer(k), Symbol('k')), Symbol('k')), Mul(Integer(k), Pow(Integer(k), Symbol('k')))), Integer(-k))), Mul(Integer(k), Pow(Add(Mul(Integer(k), Pow(Integer(k), Symbol('k')), Symbol('k')), Pow(Integer(k), Symbol('k'))), Integer(-k))))), Tuple(Symbol('k'), Integer(k), oo)))",
+"anzahl": 1,
+"formeln": [
+"Q803807"
+]
+},
+"S8bbf017f": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Symbol('k'), Symbol('x0'), Symbol('x1'), Symbol('x2')), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q824561"
+]
+},
+"Sb8595c6e": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Rational(k, k), Pow(Integer(k), Rational(k, k)), Pow(Symbol('k'), Rational(-k, k)), Pow(Symbol('x0'), Integer(-k)), Pow(Symbol('x1'), Add(Mul(Integer(-k), Rational(k, k), Pow(Symbol('x2'), Integer(-k)), Pow(Symbol('x3'), Integer(k))), Mul(Pow(Symbol('x2'), Integer(-k)), Symbol('x3'), log(Symbol('x0'))), Mul(Integer(-k), Rational(k, k), Pow(Symbol('x2'), Integer(-k)), Pow(log(Symbol('x0')), Integer(k))))), Pow(Symbol('x2'), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q826116"
+]
+},
+"Sbd9dc6b4": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Symbol('x2'), Integer(-k))",
+"anzahl": 1,
+"formeln": [
+"Q828137"
+]
+},
+"S7cab3e8c": {
+"skelett": "Mul(Rational(k, k), Pow(Symbol('k'), Integer(-k)), Pow(Symbol('x0'), Integer(-k)))",
+"anzahl": 1,
+"formeln": [
+"Q830513"
+]
+},
+"Sa03191ba": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Function('f0')(Add(Mul(Integer(-k), Symbol('x0')), Function('f1')(Symbol('x0')), Integer(-k))), Integer(k))",
+"anzahl": 1,
+"formeln": [
+"Q839528"
+]
+},
+"S2ec170ca": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Mul(Rational(k, k), Pow(Symbol('x1'), Integer(k)), Symbol('x2')), Mul(Symbol('x1'), Symbol('x3')))",
+"anzahl": 1,
+"formeln": [
+"Q839832"
+]
+},
+"Sa1f475ed": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Symbol('x1')), Mul(Symbol('x2'), Symbol('x3')))",
+"anzahl": 1,
+"formeln": [
+"Q846862"
+]
+},
+"S68f1d97a": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Symbol('x1')), Pow(Symbol('x2'), Symbol('x1')), Symbol('x3')), Function('f0')(Symbol('x0'), Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q847163"
+]
+},
+"S7ef04a87": {
+"skelett": "Add(Symbol('x0'), Mul(Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Mul(Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Symbol('x2'), Mul(Integer(-k), Function('f0')(Symbol('x1'))))",
+"anzahl": 1,
+"formeln": [
+"Q847339"
+]
+},
+"S00396dfd": {
+"skelett": "Add(Function('f0')(Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Symbol('x2'))), Mul(Integer(-k), Function('f1')(Symbol('x0'))))",
+"anzahl": 1,
+"formeln": [
+"Q849705"
+]
+},
+"S62c0516d": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Pow(Function('f1')(Mul(Integer(k), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(-k)), Function('f2')(Mul(Symbol('x1'), Symbol('x2'), sin(Symbol('x0')))), Pow(sin(Symbol('x0')), Integer(-k)))), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q851016"
+]
+},
+"S71f00500": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2')), Symbol('x0'))",
+"anzahl": 1,
+"formeln": [
+"Q852392"
+]
+},
+"S6e207f71": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Derivative(Symbol('x1'), Tuple(Symbol('G_Q39297'), Integer(k)))))",
+"anzahl": 1,
+"formeln": [
+"Q856711"
+]
+},
+"S93618ca3": {
+"skelett": "Add(Mul(Pow(Symbol('x0'), Integer(k)), Symbol('x1')), Mul(Symbol('x1'), Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q860615"
+]
+},
+"Sb6d36843": {
+"skelett": "Add(Pow(Symbol('x0'), Integer(k)), Integer(-k))",
+"anzahl": 1,
+"formeln": [
+"Q864145"
+]
+},
+"S5ce5f5c6": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Mul(Symbol('x2'), Symbol('x3')), Mul(Rational(k, k), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x4'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q864589"
+]
+},
+"Sfd4e1e9d": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(-k)), Symbol('x1')), Mul(Integer(k), Pow(Symbol('k'), Integer(-k)), Pow(Symbol('x2'), Integer(-k)), Symbol('x3'), Symbol('x4')))",
+"anzahl": 1,
+"formeln": [
+"Q869854"
+]
+},
+"S44fece72": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Symbol('x0'), Symbol('x1')), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q891408"
+]
+},
+"S9c5d9437": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Abs(Mul(Symbol('x2'), Symbol('x3')))), Function('f0')(Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q894014"
+]
+},
+"S80254ea7": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Symbol('x0')), Function('f0')(Symbol('x1')))",
+"anzahl": 1,
+"formeln": [
+"Q898493"
+]
+},
+"Sa9377d9e": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Add(Symbol('x0'), Integer(k)), Integer(-k))), Pow(Add(Symbol('x0'), Integer(k)), Integer(-k)), Mul(Rational(k, k), Pow(Symbol('k'), Integer(-k)), Symbol('x1'), Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q899023"
+]
+},
+"Sea15bca9": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(-k)), Symbol('x3')), Symbol('x4'))",
+"anzahl": 1,
+"formeln": [
+"Q899628"
+]
+},
+"S5d2562ac": {
+"skelett": "Add(Mul(Symbol('k'), Symbol('x0')), Integer(k), Mul(Integer(-k), Pow(Symbol('x1'), Integer(-k)), Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q899878"
+]
+},
+"S772c3f3d": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), sinh(Mul(Pow(Symbol('x2'), Integer(-k)), Symbol('x3')))), Mul(Symbol('x3'), Pow(Symbol('x4'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q901009"
+]
+},
+"S0f0303dc": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Symbol('x0'), Pow(Symbol('x2'), Integer(k)), Pow(Symbol('x3'), Integer(k)), Symbol('x4')), Function('f0')(Symbol('x0')))",
+"anzahl": 1,
+"formeln": [
+"Q901210"
+]
+},
+"S3642fa79": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Pow(Symbol('k'), Integer(-k)), Pow(Symbol('x2'), Integer(-k)), Pow(Symbol('x3'), Integer(-k)), Symbol('x4')))",
+"anzahl": 1,
+"formeln": [
+"Q901845"
+]
+},
+"S10f821f9": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Mul(Symbol('x1'), Symbol('x2'), Symbol('x3')), Rational(k, k)))",
+"anzahl": 1,
+"formeln": [
+"Q904618"
+]
+},
+"S4516e26a": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Pow(Symbol('k'), Integer(-k)), Pow(Symbol('x2'), Integer(-k)), Pow(Symbol('x3'), Integer(-k)), Pow(Symbol('x4'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q905744"
+]
+},
+"Sb006b443": {
+"skelett": "Add(Symbol('x0'), Mul(Pow(log(Integer(k)), Integer(-k)), log(Symbol('x1'))))",
+"anzahl": 1,
+"formeln": [
+"Q907315"
+]
+},
+"S87d44663": {
+"skelett": "Add(Symbol('x0'), Derivative(Symbol('x1'), Tuple(Symbol('G_Q126017'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q908474"
+]
+},
+"Sd869acce": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Pow(Symbol('x0'), Integer(k)), Pow(Symbol('x1'), Integer(-k))), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q908492"
+]
+},
+"S6db7cb74": {
+"skelett": "Add(Mul(Float('k', precision=k), Symbol('x0')), Mul(Float('k', precision=k), Symbol('x1')), Mul(Float('k', precision=k), Symbol('x2')), Mul(Integer(-k), Symbol('x3')))",
+"anzahl": 1,
+"formeln": [
+"Q910009"
+]
+},
+"Se0f86cfc": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Symbol('x2'), Mul(Pow(Symbol('k'), Integer(-k)), Symbol('x0'), Pow(Symbol('x3'), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q911268"
+]
+},
+"Se97ec293": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Rational(k, k), Pow(Symbol('k'), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q913764"
+]
+},
+"Sf1996667": {
+"skelett": "Add(Mul(Rational(k, k), Symbol('k'), Symbol('x0'), Symbol('x1')), Mul(Integer(-k), Pow(Symbol('x2'), Integer(k)), Pow(Add(Pow(Symbol('x2'), Integer(k)), Integer(k)), Integer(-k))), Pow(Add(Pow(Symbol('x2'), Integer(k)), Integer(k)), Integer(-k)))",
+"anzahl": 1,
+"formeln": [
+"Q915684"
+]
+},
+"S5dd9f5c5": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Mul(Integer(-k), Pow(Add(Mul(Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Mul(Integer(-k), Pow(Symbol('x1'), Integer(-k)), Symbol('x3'))), Mul(Integer(-k), Symbol('x4'))))), Symbol('x4'), Pow(Add(Mul(Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Mul(Integer(-k), Pow(Symbol('x1'), Integer(-k)), Symbol('x3'))), Add(Mul(Integer(-k), Symbol('x4')), Integer(-k)))))",
+"anzahl": 1,
+"formeln": [
+"Q923006"
+]
+},
+"S709d74d8": {
+"skelett": "Add(Mul(Integer(-k), Pow(Integer(k), Symbol('x0')), Symbol('x0')), Symbol('x1'), Integer(k))",
+"anzahl": 1,
+"formeln": [
+"Q951293"
+]
+},
+"S72ac4940": {
+"skelett": "Add(Function('f1')(Symbol('x0')), Mul(Integer(-k), Function('f1')(Function('f0')(Symbol('x0')))), Integer(k))",
+"anzahl": 1,
+"formeln": [
+"Q977674"
+]
+},
+"Sa18cb77c": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(log(Integer(k)), Integer(-k)), log(Mul(Pow(Symbol('x1'), Integer(-k)), Symbol('x2')))), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q994343"
+]
+},
+"S9d8ddbc6": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Mul(Symbol('x1'), Symbol('x2')), Mul(Symbol('x1'), Symbol('x3'), Symbol('x4')))",
+"anzahl": 1,
+"formeln": [
+"Q997439"
+]
+},
+"S7f2b535d": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), exp(Mul(Pow(Symbol('x0'), Integer(-k)), Symbol('x1'), Symbol('x2')))))",
+"anzahl": 1,
+"formeln": [
+"Q1043778"
+]
+},
+"Sb49e35ee": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2'), Symbol('x3')), Symbol('x0'))",
+"anzahl": 1,
+"formeln": [
+"Q1048490"
+]
+},
+"S1a6ec20b": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Mul(Symbol('x1'), Symbol('x2'), Symbol('x3')), Symbol('x4'))",
+"anzahl": 1,
+"formeln": [
+"Q1050272"
+]
+},
+"Se27cd4e8": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Add(Integer(k), Mul(Pow(Symbol('k'), Mul(Integer(-k), Function('f1')(Add(Mul(Integer(-k), Symbol('x1')), Symbol('x2'))))), Symbol('x3'))), Integer(-k))), Function('f0')(Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q1052379"
+]
+},
+"S15d0580e": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), cos(Add(Mul(Symbol('k'), Pow(Symbol('x1'), Integer(-k)), Symbol('x2')), Mul(Integer(-k), Rational(k, k), Symbol('k'), Pow(Symbol('x1'), Integer(-k))))))",
+"anzahl": 1,
+"formeln": [
+"Q1052508"
+]
+},
+"S458732cf": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k))), factorial(Symbol('x1')), Integer(k))",
+"anzahl": 1,
+"formeln": [
+"Q1052622"
+]
+},
+"S8d3378ce": {
+"skelett": "Add(Function('f0')(Symbol('x0'), Derivative(Symbol('x1'), Tuple(Symbol('x0'), Integer(k))), Symbol('x2')), Derivative(Symbol('x1'), Tuple(Symbol('x2'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q1060137"
+]
+},
+"Sb9c7523c": {
+"skelett": "Add(Mul(Integer(-k), Symbol('k')), Sum(Mul(Pow(Integer(k), Mul(Integer(-k), Symbol('G_Q16317911'), Symbol('n'))), Pow(Integer(k), Mul(Integer(k), Sum(Mul(Integer(-k), Pow(Integer(k), Symbol('G_Q16317911')), Symbol('G_Q16317911')), Tuple(Symbol('G_Q16317911'), Integer(k), Add(Symbol('n'), Integer(-k)))))), Pow(Integer(k), Mul(Integer(k), Sum(Mul(Pow(Integer(k), Symbol('G_Q16317911')), Symbol('n')), Tuple(Symbol('G_Q16317911'), Integer(k), Add(Symbol('n'), Integer(-k)))))), Symbol('G_Q16317911')), Tuple(Symbol('G_Q16317911'), Mul(Rational(k, k), Pow(Integer(k), Symbol('n'))), Add(Pow(Integer(k), Symbol('n')), Integer(-k))), Tuple(Symbol('n'), Integer(k), oo)))",
+"anzahl": 1,
+"formeln": [
+"Q1061180"
+]
+},
+"S8a73b957": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Symbol('x1'), Symbol('x2'), Symbol('x3')), Pow(Symbol('x1'), Rational(k, k)))",
+"anzahl": 1,
+"formeln": [
+"Q1068976"
+]
+},
+"S73bb43a5": {
+"skelett": "Derivative(Symbol('x0'), Tuple(Symbol('t'), Integer(k)))",
+"anzahl": 1,
+"formeln": [
+"Q1071013"
+]
+},
+"S2a39ae18": {
+"skelett": "Add(Integral(Mul(Function('f0')(Function('f1')(Symbol('x'))), Function('f2')(Symbol('x'))), Tuple(Symbol('x'), Symbol('x0'), Symbol('x1'))), Mul(Integer(-k), Integral(Function('f0')(Symbol('t')), Tuple(Symbol('t'), Function('f1')(Symbol('x0')), Function('f1')(Symbol('x1'))))))",
+"anzahl": 1,
+"formeln": [
+"Q1071270"
+]
+},
+"S43ad3fbd": {
+"skelett": "Add(Symbol('k'), Mul(Integer(-k), Pow(Symbol('x0'), Integer(-k)), Symbol('x1'), Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q1077153"
+]
+},
+"S6b30b149": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Mul(Symbol('x1'), Pow(Symbol('x2'), Integer(-k)), Symbol('x3')), Mul(Symbol('x3'), Symbol('x4')))",
+"anzahl": 1,
+"formeln": [
+"Q1090859"
+]
+},
+"S865c3e4c": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Symbol('x0')), Symbol('x1'))",
+"anzahl": 1,
+"formeln": [
+"Q1094399"
+]
+},
+"S77021449": {
+"skelett": "Add(Mul(Pow(Add(Integer(k), Mul(Integer(-k), Rational(k, k), Symbol('x0'))), Symbol('x1')), Function('f0')(Symbol('x0'))), Integer(-k), Mul(Pow(Integer(k), Mul(Integer(-k), Symbol('x1'))), Pow(Symbol('x0'), Symbol('x1')), Function('f0')(Add(Integer(k), Mul(Integer(-k), Symbol('x0'))))))",
+"anzahl": 1,
+"formeln": [
+"Q1107064"
+]
+},
+"S93afc532": {
+"skelett": "Add(Symbol('k'), Mul(Integer(-k), Rational(k, k), Sum(Add(Mul(Pow(Integer(-k), Symbol('n')), Pow(Add(Mul(Integer(k), Pow(Integer(k), Mul(Integer(k), Symbol('n'))), Symbol('n')), Mul(Integer(k), Pow(Integer(k), Mul(Integer(k), Symbol('n'))))), Integer(-k))), Mul(Integer(-k), Integer(k), Pow(Integer(-k), Symbol('n')), Pow(Add(Mul(Integer(k), Pow(Integer(k), Mul(Integer(k), Symbol('n'))), Symbol('n')), Mul(Integer(k), Pow(Integer(k), Mul(Integer(k), Symbol('n'))))), Integer(-k))), Mul(Integer(-k), Integer(k), Pow(Integer(-k), Symbol('n')), Pow(Add(Mul(Integer(k), Pow(Integer(k), Mul(Integer(k), Symbol('n'))), Symbol('n')), Mul(Integer(k), Pow(Integer(k), Mul(Integer(k), Symbol('n'))))), Integer(-k))), Mul(Integer(-k), Integer(k), Pow(Integer(-k), Symbol('n')), Pow(Add(Mul(Integer(k), Pow(Integer(k), Mul(Integer(k), Symbol('n'))), Symbol('n')), Mul(Integer(k), Pow(Integer(k), Mul(Integer(k), Symbol('n'))))), Integer(-k))), Mul(Integer(k), Pow(Integer(-k), Symbol('n')), Pow(Add(Mul(Integer(k), Pow(Integer(k), Mul(Integer(k), Symbol('n'))), Symbol('n')), Pow(Integer(k), Mul(Integer(k), Symbol('n')))), Integer(-k))), Mul(Integer(-k), Pow(Integer(-k), Symbol('n')), Pow(Add(Mul(Integer(k), Pow(Integer(k), Mul(Integer(k), Symbol('n'))), Symbol('n')), Mul(Integer(k), Pow(Integer(k), Mul(Integer(k), Symbol('n'))))), Integer(-k))), Mul(Integer(-k), Integer(k), Pow(Integer(-k), Symbol('n')), Pow(Add(Mul(Integer(k), Pow(Integer(k), Mul(Integer(k), Symbol('n'))), Symbol('n')), Pow(Integer(k), Mul(Integer(k), Symbol('n')))), Integer(-k)))), Tuple(Symbol('n'), Integer(k), oo))))",
+"anzahl": 1,
+"formeln": [
+"Q1108664"
+]
+},
+"S49a15936": {
+"skelett": "Add(Symbol('x0'), Mul(Float('k', precision=k), Pow(log(Integer(k)), Integer(-k)), log(Mul(Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(-k)), Symbol('x3'), Symbol('x4')))), Float('-k', precision=k))",
+"anzahl": 1,
+"formeln": [
+"Q1115519"
+]
+},
+"S91e85bc8": {
+"skelett": "Add(Function('f0')(Symbol('x1')), Mul(Integer(-k), Pow(Symbol('x0'), Mul(Integer(-k), Symbol('x2'))), Pow(Symbol('x1'), Symbol('x2')), Pow(Symbol('x3'), Symbol('x2')), Pow(factorial(Symbol('x2')), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q1124546"
+]
+},
+"Se11f7cba": {
+"skelett": "Add(Mul(Integer(-k), sin(Symbol('x0')), Pow(cos(Symbol('x0')), Integer(-k))), tan(Symbol('x0')))",
+"anzahl": 1,
+"formeln": [
+"Q1129196"
+]
+},
+"Sa4a09338": {
+"skelett": "Add(Symbol('k'), Mul(Integer(-k), Rational(k, k), Pow(Symbol('x0'), Integer(k)), Pow(Symbol('x1'), Integer(k)), Symbol('x2'), Function('f0')(Add(Symbol('x3'), Integer(k)))))",
+"anzahl": 1,
+"formeln": [
+"Q1144533"
+]
+},
+"Sd318c87c": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2'), Pow(Add(Mul(Integer(-k), Symbol('x0'), Symbol('x3'), Function('f1')(Symbol('x0'))), Mul(Symbol('x1'), Function('f1')(Symbol('x0')), conjugate(Symbol('x0')))), Integer(-k)), Function('f1')(conjugate(Symbol('x0')))), Mul(Symbol('x0'), Symbol('x2'), Symbol('x3'), Pow(Add(Mul(Integer(-k), Symbol('x0'), Symbol('x3'), Function('f1')(Symbol('x0'))), Mul(Symbol('x1'), Function('f1')(Symbol('x0')), conjugate(Symbol('x0')))), Integer(-k)), Function('f1')(Symbol('x0'))), Function('f0')(Symbol('x0')))",
+"anzahl": 1,
+"formeln": [
+"Q1147936"
+]
+},
+"S3fa3fa08": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Integral(Mul(Symbol('x2'), Pow(Function('f1')(Symbol('x3')), Integer(-k)), Abs(Function('f0')(Symbol('x3')))), Tuple(Symbol('x3'))))",
+"anzahl": 1,
+"formeln": [
+"Q1184955"
+]
+},
+"S571910c4": {
+"skelett": "Add(Mul(Integer(-k), exp(Symbol('x0'))), Sum(Mul(Pow(Symbol('x0'), Symbol('G_Q28920052')), Pow(factorial(Symbol('G_Q28920052')), Integer(-k))), Tuple(Symbol('G_Q28920052'), Integer(k), oo)))",
+"anzahl": 1,
+"formeln": [
+"Q1191722"
+]
+},
+"Sb48cab47": {
+"skelett": "Add(Mul(Integer(k), Symbol('k'), Symbol('x0')), Mul(Integer(k), Symbol('k'), Symbol('x1')), Mul(Integer(-k), Pow(Symbol('x2'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q1192156"
+]
+},
+"Sbabaf7b6": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2')), Mul(Symbol('x0'), Symbol('x1'), Symbol('x3')))",
+"anzahl": 1,
+"formeln": [
+"Q1194225"
+]
+},
+"S1564004d": {
+"skelett": "Mul(Pow(Symbol('x0'), Mul(Integer(k), Symbol('x1'))), Symbol('x2'), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q1203816"
+]
+},
+"S4ba8cb9e": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Sum(Mul(Pow(Integer(-k), Symbol('n')), Pow(Add(Mul(Integer(k), Symbol('n')), Integer(k)), Mul(Integer(-k), Symbol('x0')))), Tuple(Symbol('n'), Integer(k), oo))))",
+"anzahl": 1,
+"formeln": [
+"Q1227706"
+]
+},
+"S831b282c": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q1236730"
+]
+},
+"Scd82d7c8": {
+"skelett": "Add(Mul(Rational(k, k), Pow(Symbol('x0'), Symbol('x1'))), Mul(Integer(-k), cosh(Symbol('x1'))), Mul(Rational(k, k), Pow(Symbol('x0'), Mul(Integer(-k), Symbol('x1')))))",
+"anzahl": 1,
+"formeln": [
+"Q1253682"
+]
+},
+"Sed902aeb": {
+"skelett": "Add(Mul(Rational(k, k), Pow(Symbol('x0'), Mul(Symbol('x1'), Symbol('x2')))), Mul(Integer(-k), cos(Symbol('x1'))), Mul(Rational(k, k), Pow(Symbol('x0'), Mul(Integer(-k), Symbol('x1'), Symbol('x2')))))",
+"anzahl": 1,
+"formeln": [
+"Q1256164"
+]
+},
+"Sdc5b9089": {
+"skelett": "Add(cot(Symbol('x0')), Mul(Integer(-k), Pow(sin(Symbol('x0')), Integer(-k)), cos(Symbol('x0'))))",
+"anzahl": 1,
+"formeln": [
+"Q1264373"
+]
+},
+"S40945ee8": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Symbol('x1')), Pow(Add(Pow(Symbol('x0'), Symbol('x1')), Pow(Symbol('x0'), Mul(Integer(-k), Symbol('x1')))), Integer(-k))), tanh(Symbol('x1')), Pow(Add(Pow(Symbol('x0'), Mul(Integer(k), Symbol('x1'))), Integer(k)), Integer(-k)))",
+"anzahl": 1,
+"formeln": [
+"Q1274703"
+]
+},
+"S4bec354c": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Pow(Symbol('x0'), Symbol('x1'))), sinh(Symbol('x1')), Mul(Rational(k, k), Pow(Symbol('x0'), Mul(Integer(-k), Symbol('x1')))))",
+"anzahl": 1,
+"formeln": [
+"Q1292101"
+]
+},
+"S07eb0ff7": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Symbol('k'), Symbol('x0'), Pow(Add(Symbol('x1'), Integer(-k)), Integer(-k))), Mul(Symbol('x0'), Symbol('x2'), Symbol('x3'), Symbol('x4')))",
+"anzahl": 1,
+"formeln": [
+"Q1309313"
+]
+},
+"S1068e650": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Symbol('x0'), Symbol('x1')), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q1318998"
+]
+},
+"Sefdb2092": {
+"skelett": "Add(Function('f0')(Symbol('x0'), Symbol('x1')), Mul(Integer(-k), Integral(Mul(Pow(Symbol('k'), Mul(Integer(-k), Symbol('t'))), Pow(Symbol('t'), Add(Symbol('x0'), Integer(-k)))), Tuple(Symbol('t'), Integer(k), Symbol('x1')))))",
+"anzahl": 1,
+"formeln": [
+"Q1319246"
+]
+},
+"Sa9b6c917": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Derivative(Symbol('x1'), Tuple(Symbol('G_Q1056595'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q1322540"
+]
+},
+"Sc4c42ebe": {
+"skelett": "Add(Abs(Mul(Pow(Symbol('x0'), Integer(-k)), Symbol('x1'))), Mul(Integer(-k), Pow(Abs(Symbol('x0')), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q1330377"
+]
+},
+"Sd8068e92": {
+"skelett": "Add(Pow(Integer(k), Symbol('x0')), Mul(Integer(-k), Pow(Symbol('x0'), Symbol('x0'))), Symbol('x1'), Pow(Add(Symbol('x0'), Integer(-k)), Symbol('x0')), Integer(k))",
+"anzahl": 1,
+"formeln": [
+"Q1349616"
+]
+},
+"Scfbf0316": {
+"skelett": "Add(Mul(Integer(-k), Pow(Integer(k), Rational(k, k)), Pow(Symbol('k'), Pow(Integer(k), Integer(-k))), Pow(Symbol('x0'), Integer(-k)), Pow(Symbol('x1'), Rational(k, k))), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q1375687"
+]
+},
+"S5ec673b2": {
+"skelett": "Mul(Pow(Symbol('x0'), Symbol('x1')), Symbol('x2'), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q1384902"
+]
+},
+"S682f6290": {
+"skelett": "Add(Mul(Integer(-k), Sum(Pow(Symbol('k'), Symbol('x0')), Tuple(Symbol('k'), Integer(k), Symbol('x1')))), Pow(Add(Symbol('x0'), Integer(k)), Integer(-k)))",
+"anzahl": 1,
+"formeln": [
+"Q1398443"
+]
+},
+"Scf498516": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Pow(Integer(k), Rational(k, k)), Pow(Mul(Pow(Symbol('x1'), Integer(-k)), Symbol('x2')), Rational(k, k))))",
+"anzahl": 1,
+"formeln": [
+"Q1400541"
+]
+},
+"S6676db00": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Pow(Integer(k), Rational(k, k)), Pow(Mul(Symbol('x1'), Symbol('x2')), Rational(k, k))))",
+"anzahl": 1,
+"formeln": [
+"Q1406415"
+]
+},
+"Se05f86d5": {
+"skelett": "Mul(Pow(Symbol('x0'), Symbol('x1')), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q1408937"
+]
+},
+"S5399662a": {
+"skelett": "Add(Mul(Pow(Symbol('x0'), Integer(k)), Symbol('x1')), Integer(-k))",
+"anzahl": 1,
+"formeln": [
+"Q1428292"
+]
+},
+"Sa8abb0b8": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Pow(Integer(k), Integer(-k))), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Rational(k, k)), Symbol('x3')), Symbol('x4'))",
+"anzahl": 1,
+"formeln": [
+"Q1428692"
+]
+},
+"Sa5052e38": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Pow(Add(Integer(k), Mul(Integer(-k), Symbol('x1'))), Integer(-k)), log(Sum(Pow(Symbol('x2'), Symbol('x1')), Tuple(Symbol('i'), Integer(k), Symbol('x3'))))))",
+"anzahl": 1,
+"formeln": [
+"Q1433083"
+]
+},
+"S6a728e69": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Integral(Pow(Function('f0')(Symbol('x')), Integer(-k)), Tuple(Symbol('x'), Integer(k), oo)))",
+"anzahl": 1,
+"formeln": [
+"Q1445544"
+]
+},
+"S5e795d5b": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Pow(Symbol('x0'), Integer(-k)), Symbol('x1'), Pow(Symbol('x2'), Integer(-k)), Pow(Symbol('x3'), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q1462550"
+]
+},
+"S03e21392": {
+"skelett": "Add(Mul(Integer(-k), sec(Symbol('x0'))), Pow(cos(Symbol('x0')), Integer(-k)))",
+"anzahl": 1,
+"formeln": [
+"Q1467935"
+]
+},
+"Sad48dbef": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Limit(Mul(Pow(log(Symbol('x')), Integer(-k)), log(Abs(Function('f0')(Symbol('x'))))), Symbol('x'), oo, Symbol('-')))",
+"anzahl": 1,
+"formeln": [
+"Q1473607"
+]
+},
+"S84e9b263": {
+"skelett": "Add(Symbol('x0'), Sum(Mul(Symbol('x1'), log(Symbol('x1'))), Tuple(Symbol('i'), Integer(k), Symbol('x2'))))",
+"anzahl": 1,
+"formeln": [
+"Q1474051"
+]
+},
+"S02e1aefa": {
+"skelett": "Add(Mul(Integer(-k), Sum(Mul(Pow(Symbol('x0'), Symbol('G_Q28920052')), Pow(Symbol('x1'), Symbol('x2')), Symbol('x3')), Tuple(Symbol('G_Q28920052'), Integer(k), oo))), Pow(Add(Pow(Symbol('x0'), Integer(k)), Mul(Integer(-k), Integer(k), Symbol('x0'), Symbol('x3')), Integer(k)), Mul(Integer(-k), Symbol('x2'))))",
+"anzahl": 1,
+"formeln": [
+"Q1498246"
+]
+},
+"S5117fc4c": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Symbol('x0')), Function('f0')(Symbol('x0')), Integer(k))",
+"anzahl": 1,
+"formeln": [
+"Q1526045"
+]
+},
+"S70c5b670": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Symbol('x1')), Mul(Symbol('x2'), Function('f0')(Symbol('x3'))))",
+"anzahl": 1,
+"formeln": [
+"Q1529941"
+]
+},
+"S2253475c": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Symbol('x1'), Symbol('x2'), Symbol('x3')), Mul(Integer(k), Pow(Add(Pow(Symbol('x4'), Symbol('x1')), Mul(Integer(-k), Pow(Symbol('x4'), Mul(Integer(-k), Symbol('x1'))))), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q1561239"
+]
+},
+"S10d92d02": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2'), Symbol('x3'), Symbol('x4')), Mul(Integer(k), Pow(Add(Pow(Symbol('x0'), Symbol('x1')), Pow(Symbol('x0'), Mul(Integer(-k), Symbol('x1')))), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q1568742"
+]
+},
+"Sb2d3e164": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Integer(k), Pow(Symbol('x1'), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q1600314"
+]
+},
+"S388cc16c": {
+"skelett": "Add(Mul(Symbol('x0'), Symbol('x1')), Integer(-k))",
+"anzahl": 1,
+"formeln": [
+"Q1601537"
+]
+},
+"Sb08b5459": {
+"skelett": "Add(Mul(Integer(-k), Sum(Symbol('x0'), Tuple(Symbol('G_Q44917388'), Add(Symbol('x1'), Integer(k)), Add(Symbol('x1'), Symbol('x2'))))), Sum(Symbol('x3'), Tuple(Symbol('G_Q44917388'), Integer(k), Symbol('x2'))))",
+"anzahl": 1,
+"formeln": [
+"Q1604943"
+]
+},
+"S18415a3c": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Symbol('x1')), Symbol('x2')), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q1609031"
+]
+},
+"S71efefd5": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Function('f1')(Symbol('x0'), Mul(Symbol('x2'), Function('f0')(Integer(k)))))",
+"anzahl": 1,
+"formeln": [
+"Q1632419"
+]
+},
+"S6c4102c3": {
+"skelett": "Add(Mul(Pow(Symbol('x0'), Integer(k)), Pow(Symbol('x1'), Integer(k)), Symbol('x2')), Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Symbol('x2')), Mul(Pow(Symbol('x0'), Integer(k)), Pow(sinh(Mul(Symbol('x1'), Symbol('x2'), Pow(Symbol('x3'), Integer(k)))), Integer(k))), Mul(Symbol('x2'), Pow(Symbol('x4'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q1635593"
+]
+},
+"S3f359523": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Function('f0')(Symbol('x1'), Symbol('x2'))), Function('f0')(Symbol('x1'), Symbol('x3')))",
+"anzahl": 1,
+"formeln": [
+"Q1639254"
+]
+},
+"S3de6c6fd": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Symbol('x0')), Mul(Symbol('x1'), Symbol('x2'), Symbol('x3')), Integer(k))",
+"anzahl": 1,
+"formeln": [
+"Q1662573"
+]
+},
+"S1deb73c9": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Add(Pow(Symbol('x1'), Integer(k)), Pow(Symbol('x2'), Integer(k)), Pow(Symbol('x3'), Integer(k))), Rational(k, k)))",
+"anzahl": 1,
+"formeln": [
+"Q1727319"
+]
+},
+"S851d6e0a": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Derivative(Symbol('k'), Tuple(Symbol('x0'), Integer(k)))), Function('f0')(Symbol('k')))",
+"anzahl": 1,
+"formeln": [
+"Q1750507"
+]
+},
+"S2ef31703": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Symbol('k'), Integer(-k)))",
+"anzahl": 1,
+"formeln": [
+"Q1758559"
+]
+},
+"Sc43f25f4": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Rational(k, k))), Symbol('x1'))",
+"anzahl": 1,
+"formeln": [
+"Q1774143"
+]
+},
+"S878cc08b": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Function('f0')(Mul(Pow(Symbol('k'), Mul(Symbol('k'), Symbol('x0'))), Symbol('x1'))))",
+"anzahl": 1,
+"formeln": [
+"Q1780131"
+]
+},
+"S73b75690": {
+"skelett": "Add(Mul(Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), Symbol('x2')), Pow(Symbol('x3'), Symbol('x4')))",
+"anzahl": 1,
+"formeln": [
+"Q1804812"
+]
+},
+"Sd2fe5864": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Pow(Integer(k), Rational(k, k)), Symbol('x0'), Pow(Mul(Symbol('k'), Symbol('x1'), Symbol('x2'), Pow(Add(Symbol('x1'), Integer(k)), Integer(-k))), Rational(-k, k))), Mul(Symbol('x3'), Symbol('x4')))",
+"anzahl": 1,
+"formeln": [
+"Q1808802"
+]
+},
+"S31206c04": {
+"skelett": "Add(Mul(Integer(-k), Pow(Integer(k), Symbol('x0')), Pow(Integer(k), Symbol('x1')), Pow(Integer(k), Symbol('x2'))), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q1826416"
+]
+},
+"Sf68cee53": {
+"skelett": "Add(Mul(Integer(k), Pow(Add(Integer(-k), Pow(Symbol('x0'), Integer(-k))), Rational(k, k)), asin(Symbol('x0'))), Integer(-k), Mul(Integer(-k), Integer(k), Pow(Symbol('x0'), Integer(-k)), Pow(Add(Integer(-k), Pow(Symbol('x0'), Integer(-k))), Rational(k, k)), asin(Symbol('x0'))), Mul(Integer(k), Pow(Symbol('x0'), Integer(-k))), Mul(Rational(k, k), Pow(Symbol('k'), Integer(-k)), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q1882430"
+]
+},
+"Sf025c661": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Sum(Integer(k), Tuple(Symbol('n'), Integer(k), oo))))",
+"anzahl": 1,
+"formeln": [
+"Q1882442"
+]
+},
+"S7ae4f0cb": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Pow(Symbol('x0'), Integer(k)), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(k))), Mul(Symbol('x3'), Symbol('x4')))",
+"anzahl": 1,
+"formeln": [
+"Q1935046"
+]
+},
+"S200c6885": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Pow(Symbol('x2'), Integer(-k)), Pow(Symbol('x3'), Integer(-k)), Integral(Abs(Function('f0')(Symbol('x'))), Tuple(Symbol('x'), Integer(k), Mul(Symbol('x2'), Symbol('x3'))))))",
+"anzahl": 1,
+"formeln": [
+"Q1940522"
+]
+},
+"Sbb0756b3": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Pow(Symbol('x1'), Mul(Integer(-k), Symbol('x1'))), Symbol('x2'), Symbol('x3')), Symbol('x1'))",
+"anzahl": 1,
+"formeln": [
+"Q1972803"
+]
+},
+"S90e62c17": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), log(Symbol('x1'))), Mul(Symbol('x2'), Symbol('x3'), Symbol('x4')), Integer(k))",
+"anzahl": 1,
+"formeln": [
+"Q1988242"
+]
+},
+"Sa36ad1bb": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Sum(Symbol('x1'), Tuple(Symbol('i'), Integer(k), Symbol('x2')))))",
+"anzahl": 1,
+"formeln": [
+"Q1989192"
+]
+},
+"S2c049417": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(-k))), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q2004420"
+]
+},
+"S331c974c": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Symbol('x1'), Mul(Integer(k), Pow(log(Integer(k)), Integer(-k)), log(Symbol('x2'))), Integer(-k))",
+"anzahl": 1,
+"formeln": [
+"Q2028919"
+]
+},
+"S7ef8f481": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Function('f0')(Symbol('x1'), Mul(Symbol('x2'), Symbol('x3')))), Symbol('x4'))",
+"anzahl": 1,
+"formeln": [
+"Q2031596"
+]
+},
+"Sfbeafe03": {
+"skelett": "Add(Pow(sin(Symbol('x0')), Integer(k)), Pow(cos(Symbol('x0')), Integer(k)), Integer(-k))",
+"anzahl": 1,
+"formeln": [
+"Q2039117"
+]
+},
+"S7ebdca49": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), conjugate(Symbol('x0')))",
+"anzahl": 1,
+"formeln": [
+"Q2039387"
+]
+},
+"Sd3f87115": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Symbol('x1'))), Pow(conjugate(Symbol('x0')), Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q2051983"
+]
+},
+"S37ac1085": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Mul(Pow(Symbol('x1'), Integer(-k)), Symbol('x2')), Rational(k, k))), Mul(Symbol('x3'), Symbol('x4')))",
+"anzahl": 1,
+"formeln": [
+"Q2066584"
+]
+},
+"Sb2dcad02": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Integral(Symbol('k'), Tuple(Symbol('x'), Symbol('x1'), Symbol('x2'))))",
+"anzahl": 1,
+"formeln": [
+"Q2092045"
+]
+},
+"Sb2c66b43": {
+"skelett": "Add(Symbol('k'), Rational(-k, k))",
+"anzahl": 1,
+"formeln": [
+"Q2115969"
+]
+},
+"Sfadf42e3": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(cos(Symbol('x1')), Integer(k))), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q2120971"
+]
+},
+"S9b59665f": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Rational(k, k), Pow(Symbol('k'), Integer(-k)), Pow(Symbol('x1'), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q2152581"
+]
+},
+"S50dbc601": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Integer(k), Pow(log(Integer(k)), Integer(-k)), log(Mul(Pow(Symbol('x1'), Integer(-k)), Symbol('x2')))))",
+"anzahl": 1,
+"formeln": [
+"Q2230459"
+]
+},
+"Sa15cab0c": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Mul(Rational(k, k), Pow(Symbol('x1'), Integer(k)), Pow(Symbol('x2'), Integer(-k)), Pow(Symbol('x3'), Integer(-k))), Mul(Rational(k, k), Symbol('x2'), Pow(Symbol('x4'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q2230505"
+]
+},
+"Sff24abe5": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Integral(Pow(Symbol('x1'), Integer(k)), Tuple(Symbol('G_Q2199864'), Symbol('x2'), Symbol('x3'))))",
+"anzahl": 1,
+"formeln": [
+"Q2230528"
+]
+},
+"S10618bd3": {
+"skelett": "Add(Function('f0')(Symbol('x0'), Symbol('x1')), Mul(Integer(-k), Sum(Mul(Pow(Symbol('n'), Mul(Integer(-k), Symbol('x0'))), Function('f1')(Symbol('n'))), Tuple(Symbol('n'), Integer(k), oo))))",
+"anzahl": 1,
+"formeln": [
+"Q2264419"
+]
+},
+"Sfc0a66b3": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Symbol('x1')), Function('f0')(Symbol('x2'))), Function('f0')(Mul(Symbol('x0'), Symbol('x2'))))",
+"anzahl": 1,
+"formeln": [
+"Q2269145"
+]
+},
+"S6120f44a": {
+"skelett": "Add(Mul(Symbol('k'), Pow(Symbol('k'), Symbol('k'))), Integer(-k))",
+"anzahl": 1,
+"formeln": [
+"Q2291098"
+]
+},
+"S34e269c7": {
+"skelett": "Add(Derivative(Symbol('x1'), Tuple(Symbol('G_Q11471'), Integer(k))), Mul(Pow(Symbol('x0'), Integer(-k)), Symbol('x1'), Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q2323892"
+]
+},
+"Saa620e4d": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Add(Rational(k, k), Mul(Integer(-k), Rational(k, k), Pow(Integer(k), Rational(k, k)))), Rational(k, k)), Pow(Add(Mul(Rational(k, k), Pow(Integer(k), Rational(k, k))), Rational(k, k)), Rational(k, k)))",
+"anzahl": 1,
+"formeln": [
+"Q2345603"
+]
+},
+"Sc1e27837": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Integer(k), Pow(Integer(k), Rational(k, k)))",
+"anzahl": 1,
+"formeln": [
+"Q2353128"
+]
+},
+"Se926e4ec": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Add(Symbol('x0'), Symbol('x1')), Integer(-k))), Mul(Symbol('x1'), Pow(Add(Symbol('x0'), Symbol('x1')), Integer(-k))), Mul(Symbol('x2'), Symbol('x3')))",
+"anzahl": 1,
+"formeln": [
+"Q2373823"
+]
+},
+"Sc5c0280f": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Symbol('x1'), Symbol('x2')), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q2428719"
+]
+},
+"S38707e91": {
+"skelett": "Add(Mul(Integer(-k), Symbol('k'), Function('f0')(Symbol('x0'))), Symbol('x1'))",
+"anzahl": 1,
+"formeln": [
+"Q2482717"
+]
+},
+"Sd0be269d": {
+"skelett": "Add(Mul(Symbol('x0'), Pow(Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k))), Mul(Integer(-k), Symbol('x0')), Integer(k)), Integer(-k))), Function('f0')(Symbol('x0')), Mul(Integer(-k), Integer(k), Pow(Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k))), Mul(Integer(-k), Symbol('x0')), Integer(k)), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q2503280"
+]
+},
+"Sadf24ac6": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2'), Symbol('x3')), Abs(Symbol('x0')))",
+"anzahl": 1,
+"formeln": [
+"Q2518235"
+]
+},
+"Sb49c9d3c": {
+"skelett": "Add(Mul(zoo, Pow(Symbol('x0'), Pow(Integer(k), Integer(-k))), Symbol('x1')), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q2519988"
+]
+},
+"S72d829c9": {
+"skelett": "Add(Mul(Symbol('x0'), Symbol('x1'), Function('f0')(Symbol('x2'), Symbol('x3'))), Integer(-k))",
+"anzahl": 1,
+"formeln": [
+"Q2530089"
+]
+},
+"Sb5e933c1": {
+"skelett": "Add(Derivative(Mul(Symbol('x0'), Symbol('x1')), Tuple(Symbol('G_Q2199864'), Integer(k))), Integer(k))",
+"anzahl": 1,
+"formeln": [
+"Q2533076"
+]
+},
+"S9e1116bc": {
+"skelett": "Add(Mul(Integer(-k), Pow(Pow(Symbol('x0'), Integer(k)), Symbol('x1'))), Sum(Mul(Pow(Symbol('x0'), Symbol('k')), Pow(Symbol('x0'), Add(Mul(Integer(-k), Symbol('k')), Symbol('x1'))), binomial(Symbol('x1'), Symbol('k'))), Tuple(Symbol('k'), Integer(k), Symbol('x1'))))",
+"anzahl": 1,
+"formeln": [
+"Q2586745"
+]
+},
+"S4ad054df": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2')), Mul(Pow(factorial(Symbol('x0')), Integer(-k)), Sum(Mul(Pow(Integer(-k), Mul(Integer(-k), Symbol('j'))), Pow(Integer(-k), Symbol('x0')), Pow(Symbol('j'), Symbol('x1')), binomial(Symbol('x0'), Symbol('j'))), Tuple(Symbol('j'), Integer(k), Symbol('x0')))))",
+"anzahl": 1,
+"formeln": [
+"Q2601117"
+]
+},
+"S4d397f38": {
+"skelett": "Sum(Symbol('G_Q16317911'), Tuple(Symbol('G_Q16317911'), Integer(k), oo))",
+"anzahl": 1,
+"formeln": [
+"Q2605420"
+]
+},
+"S0d7f9819": {
+"skelett": "Add(Function('f0')(Symbol('x0'), Symbol('x1')), Mul(Integer(-k), Integral(Function('f1')(Symbol('x2')), Tuple(Symbol('x'), -oo, oo))))",
+"anzahl": 1,
+"formeln": [
+"Q2622756"
+]
+},
+"S7a7ad98d": {
+"skelett": "Add(Mul(Integer(-k), csc(Symbol('x0'))), Pow(sin(Symbol('x0')), Integer(-k)))",
+"anzahl": 1,
+"formeln": [
+"Q2631442"
+]
+},
+"Sc4db5600": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Mul(Symbol('x1'), Symbol('x2')), Rational(-k, k))), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q2646422"
+]
+},
+"Sb967e510": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Pow(Integer(k), Rational(k, k)), Symbol('x0'), Pow(Mul(Symbol('x1'), Symbol('x2')), Rational(-k, k))), Mul(Symbol('x3'), Symbol('x4')))",
+"anzahl": 1,
+"formeln": [
+"Q2650387"
+]
+},
+"Sb4f740b1": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Symbol('x1'), Symbol('x2'), Symbol('x3'), Pow(Abs(Symbol('x1')), Integer(k))), Symbol('x4'))",
+"anzahl": 1,
+"formeln": [
+"Q2673034"
+]
+},
+"Sf70f3680": {
+"skelett": "Add(Mul(Pow(Symbol('x0'), Integer(k)), Function('f2')(Integer(k)), Pow(factorial(Integer(k)), Integer(-k))), Mul(Symbol('x0'), Function('f1')(Integer(k))), Mul(Symbol('x1'), Function('f0')(Integer(k))), Symbol('x2'), Mul(Integer(-k), Function('f0')(Symbol('x0'))))",
+"anzahl": 1,
+"formeln": [
+"Q2699958"
+]
+},
+"Sec4d3108": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Mul(Symbol('x1'), Symbol('x2'))), Function('f0')(Integer(k))), Function('f0')(Symbol('x1')))",
+"anzahl": 1,
+"formeln": [
+"Q2705584"
+]
+},
+"S33dea413": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Mul(Pow(Symbol('x1'), Integer(k)), Pow(Function('f0')(Add(Symbol('x2'), Integer(-k))), Integer(-k))), Rational(k, k)))",
+"anzahl": 1,
+"formeln": [
+"Q2905588"
+]
+},
+"S652a6b62": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Function('f0')(Mul(Symbol('x0'), Symbol('x1'), Symbol('x2')))))",
+"anzahl": 1,
+"formeln": [
+"Q2920801"
+]
+},
+"S2183be5c": {
+"skelett": "Add(Mul(Function('f1')(Symbol('x0')), Function('f4')(Symbol('x0'), Function('f0')(Symbol('x0')))), Mul(Integer(-k), Function('f3')(Symbol('x0')), Function('f4')(Symbol('x0'), Function('f2')(Symbol('x0')))), Derivative(Integral(Function('f4')(Symbol('x0'), Symbol('y')), Tuple(Symbol('y'), Function('f0')(Symbol('x0')), Function('f2')(Symbol('x0')))), Tuple(Symbol('x0'), Integer(k))), Mul(Integer(-k), Integral(Derivative(Function('f4')(Symbol('x0'), Symbol('y')), Tuple(Symbol('x0'), Integer(k))), Tuple(Symbol('y'), Function('f0')(Symbol('x0')), Function('f2')(Symbol('x0'))))))",
+"anzahl": 1,
+"formeln": [
+"Q2996637"
+]
+},
+"S89c1cb2f": {
+"skelett": "Mul(Pow(Symbol('x0'), Symbol('x1')), Pow(Symbol('x2'), Symbol('x3')))",
+"anzahl": 1,
+"formeln": [
+"Q2996688"
+]
+},
+"Sb281599f": {
+"skelett": "Add(Mul(Pow(sin(Symbol('x0')), Integer(k)), cos(Symbol('x1'))), Pow(cos(Symbol('x0')), Integer(k)), Mul(Integer(-k), cos(Symbol('x0'))))",
+"anzahl": 1,
+"formeln": [
+"Q2996944"
+]
+},
+"S37aba20e": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Symbol('x2'), Symbol('x3'), Symbol('x4'), Function('f0')(Symbol('x0'))))",
+"anzahl": 1,
+"formeln": [
+"Q3010804"
+]
+},
+"S09925ef5": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Pow(Symbol('x0'), Integer(k)), Symbol('x1')), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q3054917"
+]
+},
+"S2e54ac9f": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Pow(Symbol('k'), Integer(k)), Symbol('x0')), Symbol('x1'))",
+"anzahl": 1,
+"formeln": [
+"Q3055341"
+]
+},
+"Sbd1d58be": {
+"skelett": "Add(Mul(Rational(k, k), Symbol('k')), Mul(Integer(-k), Integer(k), atan(Pow(Integer(k), Integer(-k)))), atan(Pow(Integer(k), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q3077635"
+]
+},
+"S1478a364": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Integer(k), Pow(Symbol('k'), Integer(-k)), Pow(Symbol('x1'), Integer(-k)), Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q3090441"
+]
+},
+"S867eb86d": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Derivative(Symbol('x1'), Tuple(Symbol('S'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q3095009"
+]
+},
+"S6a769282": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Pow(Add(Function('f0')(Mul(Symbol('x2'), Symbol('x3'))), Function('f0')(Mul(Symbol('x2'), Symbol('x4')))), Integer(-k)), Function('f0')(Mul(Symbol('x2'), Symbol('x3')))))",
+"anzahl": 1,
+"formeln": [
+"Q3110607"
+]
+},
+"Sfda15bac": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Symbol('x1')), Function('f0')(Integer(k))), Function('f0')(Symbol('x1')))",
+"anzahl": 1,
+"formeln": [
+"Q3258317"
+]
+},
+"S414a2532": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(-k))), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q3274587"
+]
+},
+"Seb286ec0": {
+"skelett": "Add(Mul(Integer(-k), Function('f0')(Integer(k)), exp(Mul(Integer(-k), Pow(Symbol('x0'), Integer(-k)), Symbol('x1')))), Function('f0')(Symbol('x1')))",
+"anzahl": 1,
+"formeln": [
+"Q3277853"
+]
+},
+"Sf4a84576": {
+"skelett": "Add(Symbol('x0'), Rational(k, k), Mul(Integer(-k), Pow(Symbol('x1'), Integer(-k)), Function('f0')(Symbol('x1'))))",
+"anzahl": 1,
+"formeln": [
+"Q3281256"
+]
+},
+"S9e14545b": {
+"skelett": "Add(Mul(Integer(-k), Pow(Add(Mul(Pow(Symbol('x0'), Integer(k)), Pow(Function('f0')(Symbol('x1')), Integer(k))), Mul(Pow(Symbol('x2'), Integer(k)), Pow(Function('f1')(Symbol('x1')), Integer(k)))), Rational(k, k))), Abs(Symbol('x1')))",
+"anzahl": 1,
+"formeln": [
+"Q3317982"
+]
+},
+"S66ccd005": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Symbol('x0'), Symbol('x2'), Symbol('x3'), Pow(Function('f0')(Add(Integer(k), Mul(Integer(-k), Symbol('x4')))), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q3343009"
+]
+},
+"S85f3b85d": {
+"skelett": "Add(Mul(Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Mul(Symbol('x2'), Symbol('x3')), Integer(-k))",
+"anzahl": 1,
+"formeln": [
+"Q3343016"
+]
+},
+"S487af1db": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Symbol('x0')), Function('f0')(Symbol('x0')), Integer(-k))",
+"anzahl": 1,
+"formeln": [
+"Q3343131"
+]
+},
+"S55e63142": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k))), Pow(Symbol('x1'), Integer(k)))",
+"anzahl": 1,
+"formeln": [
+"Q3354594"
+]
+},
+"S1f3fa3f5": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2')), Mul(Symbol('x0'), Symbol('x1')))",
+"anzahl": 1,
+"formeln": [
+"Q3406226"
+]
+},
+"Se71dedf3": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Pow(Symbol('x1'), Integer(k)), Symbol('x2'), Symbol('x3')), Mul(Symbol('x0'), Symbol('x1'), Symbol('x4')))",
+"anzahl": 1,
+"formeln": [
+"Q3420077"
+]
+},
+"S8a2fb9bb": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Limit(Add(Mul(Integer(-k), Pow(Symbol('q'), Symbol('x0')), Pow(Add(Integer(k), Mul(Integer(-k), Symbol('q'))), Integer(-k))), Pow(Add(Integer(k), Mul(Integer(-k), Symbol('q'))), Integer(-k))), Symbol('q'), Integer(k), Symbol('+-')))",
+"anzahl": 1,
+"formeln": [
+"Q3491352"
+]
+},
+"S8bec5775": {
+"skelett": "Add(Mul(Pow(Symbol('k'), Integer(k)), Pow(Symbol('x0'), Integer(k))), Mul(Pow(Symbol('k'), Integer(k)), Pow(Symbol('x1'), Integer(k))), Mul(Integer(-k), Pow(Symbol('x2'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q3502299"
+]
+},
+"Sb474562a": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2'), Symbol('x3')), Mul(Function('f0')(Symbol('x0')), Function('f1')(Symbol('x0'))))",
+"anzahl": 1,
+"formeln": [
+"Q3555167"
+]
+},
+"S9f16182e": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Pow(Integer(k), Rational(k, k)), Pow(Symbol('x0'), Integer(k)), Pow(Pow(Symbol('x0'), Integer(k)), Rational(-k, k))), Symbol('x1'))",
+"anzahl": 1,
+"formeln": [
+"Q3678113"
+]
+},
+"Sd1f426df": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k))), Symbol('x0'))",
+"anzahl": 1,
+"formeln": [
+"Q3751720"
+]
+},
+"S43e968ca": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Pow(Symbol('x0'), Mul(Integer(-k), Symbol('x1'))), Symbol('x1'), Integral(Mul(Pow(Symbol('t'), Symbol('x1')), Pow(Add(Pow(Symbol('x2'), Symbol('t')), Integer(-k)), Integer(-k))), Tuple(Symbol('t'), Integer(k), Symbol('x0')))))",
+"anzahl": 1,
+"formeln": [
+"Q3754610"
+]
+},
+"Sa055b272": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Function('f0')(Symbol('x1'))), Mul(Symbol('x0'), Function('f1')(Symbol('x1')), Function('f2')(Symbol('x1'))), Mul(Symbol('x0'), Function('f3')(Symbol('x1'))))",
+"anzahl": 1,
+"formeln": [
+"Q3775868"
+]
+},
+"S38a60267": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Symbol('x1')), Pow(Symbol('x0'), Symbol('x2')), Symbol('x3')), Symbol('x4'))",
+"anzahl": 1,
+"formeln": [
+"Q3816758"
+]
+},
+"Sf47002b9": {
+"skelett": "Add(Symbol('k'), Mul(Integer(-k), Pow(Symbol('x0'), Integer(-k)), Pow(Symbol('x1'), Integer(-k)), Symbol('x2'), Symbol('x3')))",
+"anzahl": 1,
+"formeln": [
+"Q3822160"
+]
+},
+"Sc2ff5cda": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('k'), Integer(k)), Pow(Symbol('x0'), Integer(k))), Mul(Integer(k), Pow(Symbol('k'), Integer(k)), Pow(Symbol('x1'), Integer(-k)), Symbol('x2')), Pow(Symbol('x2'), Integer(k)))",
+"anzahl": 1,
+"formeln": [
+"Q3866303"
+]
+},
+"Sce96ceb6": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('k'), Integer(k)), Function('f0')(Add(Symbol('x0'), Integer(k)))), Pow(Symbol('x0'), Integer(k)))",
+"anzahl": 1,
+"formeln": [
+"Q3879445"
+]
+},
+"S045de07c": {
+"skelett": "Add(Mul(Integer(-k), Function('f0')(Symbol('x0'))), Mul(Pow(Symbol('x0'), Integer(-k)), factorial(Add(Symbol('x0'), Integer(-k)))), Pow(Symbol('x0'), Integer(-k)))",
+"anzahl": 1,
+"formeln": [
+"Q3894437"
+]
+},
+"S4564371e": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Add(Mul(Integer(-k), Symbol('k'), Pow(Symbol('x1'), Integer(-k)), Symbol('x2')), Mul(Pow(Symbol('x1'), Integer(-k)), Symbol('x3'), Symbol('x4'))), Rational(k, k)))",
+"anzahl": 1,
+"formeln": [
+"Q3895235"
+]
+},
+"S35685cbb": {
+"skelett": "Add(Mul(Integer(-k), Float('k', precision=k), Symbol('x0'), Symbol('x1')), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q4073644"
+]
+},
+"S699d5c8c": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Pow(Integer(k), Rational(k, k)), Pow(Integer(k), Mul(Rational(k, k), Symbol('x0'))), Symbol('k'), Symbol('x1')), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q4331241"
+]
+},
+"S543b5d42": {
+"skelett": "Add(Symbol('x0'), Integer(-k), Pow(Symbol('x1'), Integer(-k)))",
+"anzahl": 1,
+"formeln": [
+"Q4391448"
+]
+},
+"S44be07e1": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Symbol('k'), Pow(Mul(Symbol('x0'), Symbol('x1')), Rational(k, k))), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q4491930"
+]
+},
+"Se46e2483": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Pow(Symbol('k'), Integer(-k)), Integral(sin(Add(Mul(Symbol('theta'), Symbol('x1')), Mul(Integer(-k), Symbol('x0'), sin(Symbol('theta'))))), Tuple(Symbol('theta'), Integer(k), Symbol('k')))))",
+"anzahl": 1,
+"formeln": [
+"Q4493439"
+]
+},
+"Sd8af4a47": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Function('f0')(Symbol('x1'), Symbol('x1'))), Pow(Symbol('x1'), Integer(k)), Symbol('x2'), Symbol('x3')), Mul(Pow(Symbol('x1'), Integer(k)), Symbol('x2'), Symbol('x3')))",
+"anzahl": 1,
+"formeln": [
+"Q4540599"
+]
+},
+"S73b11401": {
+"skelett": "Function('f0')(Mul(Symbol('x0'), Symbol('x1'), Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q4688954"
+]
+},
+"S8f9713b8": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Add(Symbol('x0'), Symbol('x1')), Integer(-k))), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q4827427"
+]
+},
+"Scafff4f6": {
+"skelett": "Add(Mul(Symbol('x0'), Integral(Symbol('x1'), Tuple(Symbol('x2')))), Mul(Symbol('x2'), Symbol('x3'), Integral(Symbol('x1'), Tuple(Symbol('x2')))), Mul(Integer(-k), Symbol('x3')))",
+"anzahl": 1,
+"formeln": [
+"Q4891358"
+]
+},
+"Sa4b3cfb3": {
+"skelett": "Add(Symbol('k'), Symbol('x0'))",
+"anzahl": 1,
+"formeln": [
+"Q4947242"
+]
+},
+"Sd83d9916": {
+"skelett": "Add(Mul(Rational(k, k), Pow(Symbol('k'), Integer(k)), Pow(Symbol('x0'), Integer(-k)), Pow(Symbol('x2'), Integer(-k))), Mul(Rational(k, k), Pow(Symbol('k'), Integer(k)), Pow(Symbol('x0'), Integer(-k)), Pow(Symbol('x1'), Integer(-k))), Mul(Integer(-k), Symbol('x3'), Symbol('x4')))",
+"anzahl": 1,
+"formeln": [
+"Q4979612"
+]
+},
+"S4e9fa137": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Mul(Integer(-k), Symbol('x1')), Symbol('x2'), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q5121616"
+]
+},
+"Sfb7f4ce7": {
+"skelett": "Add(Function('f0')(Symbol('x0'), Mul(Symbol('x1'), Symbol('x2'))), Mul(Integer(-k), Function('f1')(Mul(Symbol('x0'), Symbol('x1'), Symbol('x2')))), Function('f1')(Mul(Symbol('x1'), Symbol('x2')), Symbol('x0')))",
+"anzahl": 1,
+"formeln": [
+"Q5141355"
+]
+},
+"S2038c40c": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2')), Function('f0')(Symbol('x0')))",
+"anzahl": 1,
+"formeln": [
+"Q5156798"
+]
+},
+"S7f0d3da8": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Function('f0')(Symbol('x1'))), Pow(Add(Mul(Integer(-k), Integer(k), Pow(Symbol('x2'), Integer(k)), Symbol('x3'), Symbol('x4')), Integer(k)), Rational(k, k)))",
+"anzahl": 1,
+"formeln": [
+"Q5159090"
+]
+},
+"S5d91cee0": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Function('f0')(Integer(k))), Symbol('x1'))",
+"anzahl": 1,
+"formeln": [
+"Q5159395"
+]
+},
+"Se6a5a6e7": {
+"skelett": "Sum(Mul(Symbol('x0'), Symbol('x1'), Symbol('x2')), Tuple(Symbol('i'), Integer(k), Symbol('x3')))",
+"anzahl": 1,
+"formeln": [
+"Q5161031"
+]
+},
+"Sa170f4dd": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Function('f0')(Add(Mul(Integer(-k), Symbol('x1')), Symbol('x2')))), Function('f0')(Symbol('x2')), Integer(-k))",
+"anzahl": 1,
+"formeln": [
+"Q5198174"
+]
+},
+"Sabacff51": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(log(Integer(k)), Integer(-k))), Symbol('x1'))",
+"anzahl": 1,
+"formeln": [
+"Q5321508"
+]
+},
+"S14e16cc5": {
+"skelett": "Mul(Pow(Symbol('x0'), Integer(k)), Symbol('x1'), Symbol('x2'), Symbol('x3'), Symbol('x4'))",
+"anzahl": 1,
+"formeln": [
+"Q5456327"
+]
+},
+"S2c9dd12f": {
+"skelett": "Sum(Mul(Pow(Symbol('x0'), Mul(Integer(-k), Symbol('x1'), Symbol('x2'))), Symbol('x3')), Tuple(Symbol('n'), Integer(k), oo))",
+"anzahl": 1,
+"formeln": [
+"Q5531838"
+]
+},
+"S38eeb93f": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2')), Function('f0')(Symbol('x3'), Symbol('x4')))",
+"anzahl": 1,
+"formeln": [
+"Q5532515"
+]
+},
+"Sf9040c66": {
+"skelett": "Add(Mul(Integer(-k), Symbol('k')), Integral(Pow(Symbol('k'), Mul(Symbol('x0'), Function('f0')(Symbol('t')))), Tuple(Symbol('t'), Integer(k), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q5580918"
+]
+},
+"Saee8a2f0": {
+"skelett": "Add(Mul(Integer(-k), atan(Symbol('x0'))), Sum(Mul(Pow(Integer(-k), Symbol('G_Q28920052')), Pow(Symbol('x0'), Add(Mul(Integer(k), Symbol('G_Q28920052')), Integer(k))), Pow(Add(Mul(Integer(k), Symbol('G_Q28920052')), Integer(k)), Integer(-k))), Tuple(Symbol('G_Q28920052'), Integer(k), oo)))",
+"anzahl": 1,
+"formeln": [
+"Q5606780"
+]
+},
+"S210152ba": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x1'), Integer(-k)), Symbol('x2'), Symbol('x3'), Pow(Function('f0')(Symbol('x2')), Integer(-k))), Mul(Pow(Symbol('x0'), Integer(-k)), Symbol('x1')))",
+"anzahl": 1,
+"formeln": [
+"Q5637899"
+]
+},
+"Scda4794f": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Integral(Abs(Derivative(Pow(Mul(Pow(Symbol('t'), Integer(-k)), sin(Symbol('t'))), Symbol('x1')), Tuple(Symbol('t'), Integer(k)))), Tuple(Symbol('t'), Integer(k), oo))), Integer(k))",
+"anzahl": 1,
+"formeln": [
+"Q5784439"
+]
+},
+"Sc6a68ae0": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Pow(Symbol('x0'), Integer(k)), Pow(Symbol('x1'), Integer(-k))), Symbol('x2'), Integer(k))",
+"anzahl": 1,
+"formeln": [
+"Q6060481"
+]
+},
+"Se34cd4f2": {
+"skelett": "Add(Mul(Float('k', precision=k), Symbol('x0'), Symbol('x1'), Pow(Mul(Pow(Symbol('x2'), Integer(-k)), Symbol('x3')), Rational(-k, k))), Mul(Integer(-k), Symbol('x0'), Symbol('x4')))",
+"anzahl": 1,
+"formeln": [
+"Q6174454"
+]
+},
+"S0106c516": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Function('f0')(Mul(Symbol('x0'), Symbol('x2'))))",
+"anzahl": 1,
+"formeln": [
+"Q6268984"
+]
+},
+"Sedf8c7a2": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Add(Integer(k), Mul(Integer(-k), Integer(k), Pow(Symbol('x1'), Integer(-k)))), Rational(k, k)))",
+"anzahl": 1,
+"formeln": [
+"Q6402757"
+]
+},
+"Sf15d6fa0": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Symbol('x1'), Symbol('x2')), Derivative(Symbol('x1'), Tuple(Symbol('G_Q11471'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q6510488"
+]
+},
+"Sc810a3c4": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2')), Integral(Mul(Pow(Symbol('x3'), Mul(Integer(-k), Pow(Symbol('G_Q12916'), Integer(k)), Symbol('x4'))), Function('f0')(Symbol('G_Q12916'))), Tuple(Symbol('G_Q12916'), -oo, oo)))",
+"anzahl": 1,
+"formeln": [
+"Q6520159"
+]
+},
+"S45d9de8e": {
+"skelett": "Add(Mul(Pow(Symbol('x0'), Integer(k)), Symbol('x1')), Mul(Symbol('x1'), log(Pow(Abs(Symbol('x1')), Integer(k)))), Mul(Symbol('x2'), Symbol('x3'), Derivative(Symbol('x1'), Tuple(Symbol('t'), Integer(k)))))",
+"anzahl": 1,
+"formeln": [
+"Q6667303"
+]
+},
+"S47aa2d3e": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Pow(Symbol('k'), Integer(-k)), Pow(Symbol('x1'), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q6731548"
+]
+},
+"S84c07c99": {
+"skelett": "Add(Function('f2')(Symbol('x0')), Mul(Integer(-k), Integer(k), Pow(Integer(k), Mul(Integer(-k), Symbol('x1'))), Symbol('k'), Function('f0')(Mul(Pow(Integer(k), Rational(k, k)), Symbol('x0'), Pow(Symbol('x1'), Rational(-k, k)), Symbol('x2'))), Pow(Function('f0')(Mul(Pow(Integer(k), Rational(k, k)), Symbol('x0'), Pow(Symbol('x1'), Rational(-k, k)), Symbol('x2'))), Symbol('x1')), Pow(Function('f1')(Symbol('x1')), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q6792079"
+]
+},
+"S3d4dd670": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Pow(Function('f1')(Symbol('x0')), Integer(-k)), Integral(Mul(Symbol('x1'), Function('f1')(Symbol('y'))), Tuple(Symbol('y'), Symbol('x0'), oo))))",
+"anzahl": 1,
+"formeln": [
+"Q6860008"
+]
+},
+"S39a39703": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Symbol('x1')), Mul(Symbol('x1'), Pow(Symbol('x2'), Integer(k))), Pow(Symbol('x2'), Integer(k)), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q6905837"
+]
+},
+"S9a5a9c56": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Function('f1')(Symbol('x1'))), Mul(Function('f0')(Symbol('x1')), Function('f1')(Symbol('x1'))))",
+"anzahl": 1,
+"formeln": [
+"Q6934990"
+]
+},
+"Se5d2e3cd": {
+"skelett": "Add(Mul(Symbol('x0'), Symbol('x1'), Symbol('x2'), log(Symbol('x0'))), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q6961323"
+]
+},
+"S0078066a": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Pow(Symbol('x1'), Integer(k)), Symbol('x2')), Mul(Symbol('x0'), Symbol('x1')), Function('f0')(Symbol('x2'), Symbol('x0')))",
+"anzahl": 1,
+"formeln": [
+"Q6965520"
+]
+},
+"S1c372ef0": {
+"skelett": "Add(Function('f0')(Symbol('x0'), Symbol('x1')), Mul(Integer(-k), Function('f1')(Symbol('x1'), Symbol('x0'))))",
+"anzahl": 1,
+"formeln": [
+"Q7098616"
+]
+},
+"S606dd901": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Integral(Mul(Rational(k, k), Pow(Symbol('x1'), Integer(k)), Symbol('x2'), Symbol('x3'), Symbol('x4')), Tuple(Symbol('x2'))))",
+"anzahl": 1,
+"formeln": [
+"Q7116931"
+]
+},
+"S6e6a35e1": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Function('f0')(Symbol('x1'))), Mul(Symbol('x2'), Function('f0')(Symbol('x1'))))",
+"anzahl": 1,
+"formeln": [
+"Q7249468"
+]
+},
+"S4b66a7f6": {
+"skelett": "Mul(Pow(Symbol('x0'), Integer(k)), Pow(Symbol('x1'), Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q7261160"
+]
+},
+"S1e0e5c8c": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Mul(Integer(k), Symbol('x1')), Symbol('x2'), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q7446630"
+]
+},
+"Sab38e31e": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Function('f0')(Symbol('x0'))), Integer(k))",
+"anzahl": 1,
+"formeln": [
+"Q7632653"
+]
+},
+"Sda935457": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Rational(k, k), Symbol('x2')), Mul(Rational(k, k), Symbol('x3')))",
+"anzahl": 1,
+"formeln": [
+"Q7842161"
+]
+},
+"Sd2931936": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Pow(Symbol('x1'), Integer(-k)), Function('f0')(Mul(Symbol('x2'), Symbol('x3')))))",
+"anzahl": 1,
+"formeln": [
+"Q7921510"
+]
+},
+"Sd790f527": {
+"skelett": "Add(Mul(Integer(-k), Pow(Integer(k), Symbol('x0'))), Symbol('x1'), Integer(k))",
+"anzahl": 1,
+"formeln": [
+"Q10338607"
+]
+},
+"S0964a21c": {
+"skelett": "Add(Symbol('x0'), Mul(Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q10357861"
+]
+},
+"Sdeb90884": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Symbol('x0')), Mul(Symbol('x1'), Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q10470221"
+]
+},
+"S0851cdaa": {
+"skelett": "conjugate(Symbol('x0'))",
+"anzahl": 1,
+"formeln": [
+"Q10754052"
+]
+},
+"S4ade0e9b": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('k'), Integer(k)), Pow(Function('f1')(Add(Function('f0')(Mul(Integer(-k), Integer(k), Pow(Symbol('k'), Integer(-k)))), Integer(k))), Integer(-k))), Symbol('k'))",
+"anzahl": 1,
+"formeln": [
+"Q10843113"
+]
+},
+"S3efb623b": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Mul(Symbol('x0'), Symbol('x1'))), Symbol('x1')), exp(Mul(Integer(-k), Rational(k, k), Symbol('k'))))",
+"anzahl": 1,
+"formeln": [
+"Q11224959"
+]
+},
+"Sc97a4c6d": {
+"skelett": "Add(Symbol('x0'), Mul(Rational(k, k), Pow(Integer(k), Rational(k, k)), Pow(Symbol('k'), Integer(-k)), Pow(Symbol('x1'), Integer(k)), Symbol('x2'), Pow(Mul(Symbol('x2'), Symbol('x3')), Rational(k, k))))",
+"anzahl": 1,
+"formeln": [
+"Q11347535"
+]
+},
+"S02b7aa37": {
+"skelett": "Add(Mul(Rational(k, k), Pow(Symbol('k'), Integer(k)), Pow(Symbol('x0'), Integer(-k)), Symbol('x1')), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q11347775"
+]
+},
+"Scdfc39b6": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Pow(log(Symbol('x1')), Integer(-k)), log(Mul(Pow(Symbol('x2'), Integer(-k)), Symbol('x3')))))",
+"anzahl": 1,
+"formeln": [
+"Q11349892"
+]
+},
+"S67d856ef": {
+"skelett": "Add(Symbol('k'), Mul(Pow(Symbol('x0'), Integer(-k)), Derivative(Symbol('x0'), Tuple(Symbol('G_Q2199864'), Integer(k)))))",
+"anzahl": 1,
+"formeln": [
+"Q11477200"
+]
+},
+"S5fe3f8be": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Function('f0')(Add(Mul(Integer(-k), Float('k', precision=k), Symbol('x1'), Pow(Add(Mul(Float('k', precision=k), Symbol('x1')), Symbol('x2'), Float('k', precision=k)), Integer(-k))), Integer(k))), Float('-k', precision=k)))",
+"anzahl": 1,
+"formeln": [
+"Q11559411"
+]
+},
+"S205dbfd6": {
+"skelett": "Add(Mul(Symbol('x0'), Symbol('x1')), Symbol('x2'), Integer(-k))",
+"anzahl": 1,
+"formeln": [
+"Q11634820"
+]
+},
+"Sacc92e54": {
+"skelett": "Add(Symbol('x0'), Symbol('x1'), Mul(Integer(-k), Pow(Symbol('x0'), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q11836030"
+]
+},
+"Sa264d1df": {
+"skelett": "Add(Mul(Integer(-k), Pow(Integer(k), Rational(k, k)), Pow(Pow(Symbol('x0'), Integer(k)), Rational(k, k))), Abs(Symbol('x1')))",
+"anzahl": 1,
+"formeln": [
+"Q12124094"
+]
+},
+"Sd624a92d": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Pow(Symbol('x1'), Integer(-k)), Integral(Symbol('x2'), Tuple(Symbol('G_Q2199864'), Integer(k), Symbol('x1')))))",
+"anzahl": 1,
+"formeln": [
+"Q12713281"
+]
+},
+"S8e34579a": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Derivative(Function('f0')(Symbol('x1')), Tuple(Symbol('x1'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q12718557"
+]
+},
+"S7188eaab": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), ceiling(Symbol('x1')))",
+"anzahl": 1,
+"formeln": [
+"Q12718884"
+]
+},
+"Sc54beb4e": {
+"skelett": "Add(Symbol('k'), Mul(Integer(-k), Integer(k), Pow(Symbol('k'), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q12765197"
+]
+},
+"S7c1d9711": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Abs(Mul(Pow(Symbol('x0'), Integer(-k)), Pow(Symbol('x1'), Integer(-k)), Symbol('x2'), Symbol('x3'), Symbol('x4')))))",
+"anzahl": 1,
+"formeln": [
+"Q12890701"
+]
+},
+"S1b516be1": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Symbol('k'), Symbol('x0')), Symbol('x1'))",
+"anzahl": 1,
+"formeln": [
+"Q12912288"
+]
+},
+"S04b251a6": {
+"skelett": "Sum(Pow(Symbol('G_Q16317911'), Integer(-k)), Tuple(Symbol('G_Q16317911'), Integer(k), Symbol('x0')))",
+"anzahl": 1,
+"formeln": [
+"Q13407133"
+]
+},
+"S5b2fa96d": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Rational(k, k), Pow(Symbol('k'), Integer(-k)), Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q13542672"
+]
+},
+"Sea5e90b0": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Symbol('k')), Symbol('x0'))",
+"anzahl": 1,
+"formeln": [
+"Q13570090"
+]
+},
+"S87606c86": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Symbol('x0'), Function('f1')(Add(Mul(Integer(k), Symbol('x0')), Integer(-k)))), Function('f0')(Symbol('x0')), Function('f1')(Add(Mul(Integer(k), Symbol('x0')), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q13825533"
+]
+},
+"Sb2ac806f": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Pow(Symbol('x0'), Add(Mul(Integer(-k), Rational(k, k), Symbol('x1'), Symbol('x2')), Mul(Rational(k, k), Symbol('x1')), Mul(Rational(k, k), Symbol('x2')), Rational(-k, k))), Function('f0')(Add(Mul(Integer(-k), Pow(Symbol('x1'), Integer(-k))), Pow(Symbol('x1'), Integer(-k))))), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q14174895"
+]
+},
+"S9bf2a63e": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Integer(k), Pow(log(Integer(k)), Integer(-k)), log(Mul(Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(k)), Symbol('x3')))))",
+"anzahl": 1,
+"formeln": [
+"Q14515278"
+]
+},
+"S8714d33b": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), sinh(Symbol('x1')))",
+"anzahl": 1,
+"formeln": [
+"Q15830645"
+]
+},
+"Sddc2541d": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('k'), Integer(k)), Symbol('x0'), Symbol('x1'), Symbol('x2'), Pow(Add(Pow(Symbol('x0'), Integer(k)), Integer(-k)), Rational(k, k)), Pow(Function('f0')(Mul(Pow(Symbol('k'), Integer(k)), Symbol('x1'), Symbol('x2'))), Integer(-k)), exp(Mul(Integer(-k), Pow(Symbol('k'), Integer(k)), Symbol('x0'), Symbol('x1'), Symbol('x2')))), Function('f1')(Symbol('x0')))",
+"anzahl": 1,
+"formeln": [
+"Q15989233"
+]
+},
+"Se3d84c5e": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Ket(Symbol('psi'))), Ket(Mul(Symbol('bar'), Symbol('psi'))))",
+"anzahl": 1,
+"formeln": [
+"Q16251327"
+]
+},
+"S196e5eed": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Rational(-k, k))), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q16542788"
+]
+},
+"S7edd59b3": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Function('f0')(Pow(Symbol('x1'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q17022106"
+]
+},
+"S9d7dd8c3": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Symbol('x0'), Symbol('x2'), Function('f0')(Symbol('x3'))))",
+"anzahl": 1,
+"formeln": [
+"Q17103642"
+]
+},
+"Sac32cc5d": {
+"skelett": "Add(Mul(Symbol('x0'), Symbol('x1'), Symbol('x2'), Symbol('x3'), Symbol('x4')), Mul(Symbol('x0'), Symbol('x1'), Symbol('x2'), Symbol('x3')), Integer(-k))",
+"anzahl": 1,
+"formeln": [
+"Q17628404"
+]
+},
+"S79694771": {
+"skelett": "Pow(Symbol('x0'), Integer(-k))",
+"anzahl": 1,
+"formeln": [
+"Q18192568"
+]
+},
+"S024e194a": {
+"skelett": "Mul(Pow(Symbol('x0'), Integer(k)), Pow(Symbol('x1'), Integer(k)), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q18205396"
+]
+},
+"Sc0f3e2d0": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Product(Pow(Symbol('k'), Symbol('k')), Tuple(Symbol('k'), Integer(k), Symbol('x0')))))",
+"anzahl": 1,
+"formeln": [
+"Q18450993"
+]
+},
+"Sa2cdf34d": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Function('f0')(Symbol('x2'))), Integral(Mul(Pow(Symbol('t'), Integer(-k)), sinh(Symbol('t'))), Tuple(Symbol('t'), Integer(k), Symbol('x2'))))",
+"anzahl": 1,
+"formeln": [
+"Q19624009"
+]
+},
+"S417d442d": {
+"skelett": "Add(Symbol('k'), Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Function('f0')(Symbol('x2'))), log(Symbol('x2')), Integral(Mul(Integer(-k), Pow(Symbol('t'), Integer(-k))), Tuple(Symbol('t'), Integer(k), Symbol('x2'))), Integral(Mul(Pow(Symbol('t'), Integer(-k)), cosh(Symbol('t'))), Tuple(Symbol('t'), Integer(k), Symbol('x2'))))",
+"anzahl": 1,
+"formeln": [
+"Q19637149"
+]
+},
+"Sef12f5bd": {
+"skelett": "Add(Mul(Rational(k, k), Symbol('k'), Pow(Symbol('x0'), Integer(-k))), Mul(Rational(k, k), Symbol('x0')), Mul(Integer(-k), Symbol('x1')))",
+"anzahl": 1,
+"formeln": [
+"Q20725439"
+]
+},
+"S223150a7": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), atan(Symbol('x1')))",
+"anzahl": 1,
+"formeln": [
+"Q20820438"
+]
+},
+"S75153cc6": {
+"skelett": "Add(Pow(Symbol('x0'), Integer(k)), Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Symbol('x1')), Pow(Symbol('x1'), Integer(k)))",
+"anzahl": 1,
+"formeln": [
+"Q21086759"
+]
+},
+"S91f215db": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Mul(Rational(k, k), Pow(Add(Rational(k, k), Mul(Integer(-k), Rational(k, k), Pow(Integer(k), Rational(k, k)))), Rational(k, k))), Rational(k, k), Mul(Rational(k, k), Pow(Add(Mul(Rational(k, k), Pow(Integer(k), Rational(k, k))), Rational(k, k)), Rational(k, k))))",
+"anzahl": 1,
+"formeln": [
+"Q21533115"
+]
+},
+"S77b85409": {
+"skelett": "Add(Mul(Symbol('x0'), Function('f0')(Symbol('x1'))), Function('f1')(Symbol('x1')))",
+"anzahl": 1,
+"formeln": [
+"Q21652129"
+]
+},
+"S6a83b89f": {
+"skelett": "Add(Symbol('x0'), Function('f0')(Symbol('x0')), Mul(Integer(-k), Function('f1')(Symbol('x0'))))",
+"anzahl": 1,
+"formeln": [
+"Q22912133"
+]
+},
+"Se875d80a": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Function('f0')(Symbol('x0'))), Function('f0')(Mul(Integer(k), Symbol('x0'))))",
+"anzahl": 1,
+"formeln": [
+"Q22963169"
+]
+},
+"Sf7ca5a30": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Symbol('x1')), Mul(Pow(Symbol('x2'), Integer(-k)), Pow(Mul(Symbol('x3'), Symbol('x4')), Rational(k, k))))",
+"anzahl": 1,
+"formeln": [
+"Q25401602"
+]
+},
+"S2403267a": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Symbol('x1'), Symbol('x2'), Symbol('x3')), Mul(Rational(k, k), Symbol('x1')))",
+"anzahl": 1,
+"formeln": [
+"Q25559952"
+]
+},
+"S620e8325": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Ket(Symbol('psi'))), Mul(Symbol('x1'), Symbol('x2'), Ket(Symbol('psi'))))",
+"anzahl": 1,
+"formeln": [
+"Q25829357"
+]
+},
+"Sefaf8dfb": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Pow(Symbol('k'), Integer(k)), Rational(k, k)))",
+"anzahl": 1,
+"formeln": [
+"Q28003216"
+]
+},
+"Sfa084b13": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k))), Mul(Integer(k), Pow(Symbol('x0'), Integer(k)), exp(Mul(Integer(-k), Rational(k, k), Pow(Integer(k), Rational(k, k)), Pow(Symbol('x1'), Integer(-k)), Symbol('x2')))), Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), exp(Mul(Integer(-k), Rational(k, k), Pow(Integer(k), Rational(k, k)), Pow(Symbol('x1'), Integer(-k)), Symbol('x2')))), Function('f0')(Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q28403780"
+]
+},
+"S7ec6d1dd": {
+"skelett": "Add(Mul(Symbol('x0'), Symbol('x1')), Symbol('x0'), Mul(Integer(-k), Sum(Mul(Symbol('i'), Symbol('x0'), Symbol('x1')), Tuple(Symbol('i'), Symbol('x0'), Symbol('x0')))), Integer(k))",
+"anzahl": 1,
+"formeln": [
+"Q28403965"
+]
+},
+"S77d8e9ca": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Symbol('k'), Symbol('x0'), Symbol('x1')), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q30090890"
+]
+},
+"S4a58c31a": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k))), Mul(Rational(k, k), Symbol('x1'), Function('f0')(Add(Symbol('x1'), Integer(k)))), Mul(Rational(k, k), Function('f0')(Add(Symbol('x1'), Integer(k)))))",
+"anzahl": 1,
+"formeln": [
+"Q32178732"
+]
+},
+"S29b3fd4b": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Symbol('x1'))), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q41069186"
+]
+},
+"Saf0c296e": {
+"skelett": "Add(Mul(Integer(-k), Pow(Integer(k), Symbol('x0'))), Symbol('x1'))",
+"anzahl": 1,
+"formeln": [
+"Q45412229"
+]
+},
+"S59bed956": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), exp(Symbol('x2'))), exp(Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q47306354"
+]
+},
+"S0ad93307": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Add(Mul(Integer(-k), Symbol('x0')), Pow(Symbol('x1'), Integer(k))), Rational(k, k))), Mul(Pow(Symbol('x1'), Integer(k)), Pow(Add(Mul(Integer(-k), Symbol('x0')), Pow(Symbol('x1'), Integer(k))), Rational(k, k))), Mul(Symbol('x1'), Pow(Symbol('x2'), Integer(-k)), Symbol('x3')))",
+"anzahl": 1,
+"formeln": [
+"Q48773561"
+]
+},
+"S022bedde": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), cos(Symbol('x0')))",
+"anzahl": 1,
+"formeln": [
+"Q48996451"
+]
+},
+"S235907f9": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Pow(Symbol('k'), Integer(k)), exp(Mul(Integer(k), Symbol('k'), Symbol('x0'), Symbol('x1'), Symbol('x2'))), Product(Add(exp(Mul(Integer(k), Symbol('k'), Symbol('n'), Symbol('x0'), Symbol('x1'), Symbol('x2'))), Mul(Integer(-k), Integer(k), exp(Mul(Integer(k), Symbol('k'), Symbol('n'), Symbol('x0'), Symbol('x1'), Symbol('x2')))), Mul(Integer(k), exp(Mul(Integer(k), Symbol('k'), Symbol('n'), Symbol('x0'), Symbol('x1'), Symbol('x2')))), Mul(Integer(-k), Integer(k), exp(Mul(Integer(k), Symbol('k'), Symbol('n'), Symbol('x0'), Symbol('x1'), Symbol('x2')))), Mul(Integer(k), exp(Mul(Integer(k), Symbol('k'), Symbol('n'), Symbol('x0'), Symbol('x1'), Symbol('x2')))), Mul(Integer(-k), Integer(k), exp(Mul(Integer(k), Symbol('k'), Symbol('n'), Symbol('x0'), Symbol('x1'), Symbol('x2')))), Mul(Integer(k), exp(Mul(Integer(k), Symbol('k'), Symbol('n'), Symbol('x0'), Symbol('x1'), Symbol('x2')))), Mul(Integer(-k), Integer(k), exp(Mul(Integer(k), Symbol('k'), Symbol('n'), Symbol('x0'), Symbol('x1'), Symbol('x2')))), Mul(Integer(k), exp(Mul(Integer(k), Symbol('k'), Symbol('n'), Symbol('x0'), Symbol('x1'), Symbol('x2')))), Mul(Integer(-k), Integer(k), exp(Mul(Integer(k), Symbol('k'), Symbol('n'), Symbol('x0'), Symbol('x1'), Symbol('x2')))), Mul(Integer(k), exp(Mul(Integer(k), Symbol('k'), Symbol('n'), Symbol('x0'), Symbol('x1'), Symbol('x2')))), Mul(Integer(-k), Integer(k), exp(Mul(Integer(k), Symbol('k'), Symbol('n'), Symbol('x0'), Symbol('x1'), Symbol('x2')))), Mul(Integer(k), exp(Mul(Integer(k), Symbol('k'), Symbol('n'), Symbol('x0'), Symbol('x1'), Symbol('x2')))), Mul(Integer(-k), Integer(k), exp(Mul(Integer(k), Symbol('k'), Symbol('n'), Symbol('x0'), Symbol('x1'), Symbol('x2')))), Mul(Integer(k), exp(Mul(Integer(k), Symbol('k'), Symbol('n'), Symbol('x0'), Symbol('x1'), Symbol('x2')))), Mul(Integer(-k), Integer(k), exp(Mul(Integer(k), Symbol('k'), Symbol('n'), Symbol('x0'), Symbol('x1'), Symbol('x2')))), Mul(Integer(k), exp(Mul(Integer(k), Symbol('k'), Symbol('n'), Symbol('x0'), Symbol('x1'), Symbol('x2')))), Mul(Integer(-k), Integer(k), exp(Mul(Integer(k), Symbol('k'), Symbol('n'), Symbol('x0'), Symbol('x1'), Symbol('x2')))), Mul(Integer(k), exp(Mul(Integer(k), Symbol('k'), Symbol('n'), Symbol('x0'), Symbol('x1'), Symbol('x2')))), Mul(Integer(-k), Integer(k), exp(Mul(Integer(k), Symbol('k'), Symbol('n'), Symbol('x0'), Symbol('x1'), Symbol('x2')))), Mul(Integer(k), exp(Mul(Integer(k), Symbol('k'), Symbol('n'), Symbol('x0'), Symbol('x1'), Symbol('x2')))), Mul(Integer(-k), Integer(k), exp(Mul(Integer(k), Symbol('k'), Symbol('n'), Symbol('x0'), Symbol('x1'), Symbol('x2')))), Mul(Integer(k), exp(Mul(Integer(k), Symbol('k'), Symbol('n'), Symbol('x0'), Symbol('x1'), Symbol('x2')))), Mul(Integer(-k), Integer(k), exp(Mul(Integer(k), Symbol('k'), Symbol('n'), Symbol('x0'), Symbol('x1'), Symbol('x2')))), Integer(k)), Tuple(Symbol('n'), Integer(k), oo))), Function('f0')(Symbol('x0')))",
+"anzahl": 1,
+"formeln": [
+"Q56296629"
+]
+},
+"S2f23ea7f": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), exp(Mul(Pow(Symbol('k'), Integer(-k)), Pow(Symbol('x1'), Integer(-k)), Symbol('x2'))))",
+"anzahl": 1,
+"formeln": [
+"Q56638155"
+]
+},
+"Sa95db80f": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), floor(Symbol('x1')))",
+"anzahl": 1,
+"formeln": [
+"Q56860783"
+]
+},
+"S56392388": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Symbol('x1'), Symbol('x2')), Mul(Symbol('x0'), Symbol('x3')))",
+"anzahl": 1,
+"formeln": [
+"Q65239736"
+]
+},
+"Sc6cfaae9": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Function('f0')(Symbol('x1'), Symbol('x2'))), Function('f1')(Symbol('x1')))",
+"anzahl": 1,
+"formeln": [
+"Q65556262"
+]
+},
+"Scde1b257": {
+"skelett": "Add(Mul(Symbol('x0'), Symbol('x1')), Mul(Integer(-k), Symbol('x0')), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q69362767"
+]
+},
+"S57dd7c46": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Add(Mul(Integer(-k), Symbol('x1')), Symbol('x2')), Integer(-k))), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q74770365"
+]
+},
+"Sab85ec58": {
+"skelett": "Add(Mul(Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), Derivative(Symbol('x1'), Tuple(Symbol('x0'), Integer(k)))), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q75775739"
+]
+},
+"Sdfd659b6": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Add(Symbol('x0'), Integer(k)), Integer(-k))), Symbol('x1'))",
+"anzahl": 1,
+"formeln": [
+"Q76379025"
+]
+},
+"S9386b3f2": {
+"skelett": "Add(Symbol('x0'), Symbol('x1'), Integer(-k))",
+"anzahl": 1,
+"formeln": [
+"Q76379189"
+]
+},
+"S1b22d16e": {
+"skelett": "Mul(Integer(k), Function('f0')(Symbol('x0'), Symbol('x0')))",
+"anzahl": 1,
+"formeln": [
+"Q77584712"
+]
+},
+"S9da09749": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Symbol('x1'), Symbol('x2')), Pow(Symbol('x0'), Symbol('x3')))",
+"anzahl": 1,
+"formeln": [
+"Q77610627"
+]
+},
+"S764b2b1e": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Mul(Rational(k, k), Symbol('x1'), Symbol('x2')), Mul(Rational(k, k), Symbol('x3'), Symbol('x4')))",
+"anzahl": 1,
+"formeln": [
+"Q77989624"
+]
+},
+"S727f05d6": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Pow(Pow(Symbol('x1'), Integer(k)), Rational(-k, k)), Abs(Symbol('x2'))))",
+"anzahl": 1,
+"formeln": [
+"Q78101715"
+]
+},
+"S9faae8c5": {
+"skelett": "Add(Pow(Symbol('x0'), Integer(k)), Symbol('x1'), Integer(-k))",
+"anzahl": 1,
+"formeln": [
+"Q78102042"
+]
+},
+"Scd08ce67": {
+"skelett": "Add(Mul(Integer(-k), Pow(Integer(-k), Symbol('x0')), Pow(Integer(-k), Symbol('x1')), Symbol('x2')), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q78628265"
+]
+},
+"Sd676397d": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Pow(Symbol('x1'), Integer(-k)), Abs(Symbol('x2'))))",
+"anzahl": 1,
+"formeln": [
+"Q79467569"
+]
+},
+"S6730fa0c": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Add(Mul(Integer(-k), Pow(Symbol('x1'), Integer(k))), Pow(Symbol('x2'), Integer(k))), Rational(k, k)))",
+"anzahl": 1,
+"formeln": [
+"Q79813060"
+]
+},
+"S94575fa2": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Pow(Symbol('k'), Integer(-k)), Symbol('x0')))",
+"anzahl": 1,
+"formeln": [
+"Q80168855"
+]
+},
+"S9a7e2f17": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Derivative(Symbol('x1'), Tuple(Symbol('G_Q105581076'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q80372486"
+]
+},
+"S6cd381d8": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(-k))), Mul(Symbol('x1'), Symbol('x3')))",
+"anzahl": 1,
+"formeln": [
+"Q80373928"
+]
+},
+"S6dde9210": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Integral(Mul(Symbol('x1'), Symbol('x2'), Symbol('x3')), Tuple(Symbol('x4'))))",
+"anzahl": 1,
+"formeln": [
+"Q83947659"
+]
+},
+"Sdd31b245": {
+"skelett": "Add(Mul(Integer(-k), Function('f0')(Symbol('x0')), Pow(Function('f1')(Symbol('x0')), Integer(-k))), Function('f2')(Symbol('x0')))",
+"anzahl": 1,
+"formeln": [
+"Q84710157"
+]
+},
+"Sd928e390": {
+"skelett": "Add(Symbol('x0'), log(Symbol('x1')))",
+"anzahl": 1,
+"formeln": [
+"Q85664557"
+]
+},
+"Sbf22bf02": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Function('f0')(Pow(Symbol('x2'), Symbol('x3'))))",
+"anzahl": 1,
+"formeln": [
+"Q85793889"
+]
+},
+"Sc946ffa0": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Derivative(Symbol('x1'), Tuple(Symbol('G_Q105542314'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q86508881"
+]
+},
+"S3fd975a0": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Pow(Add(Mul(Integer(-k), Symbol('x1')), Symbol('x2')), Integer(-k)), Integral(Function('f0')(Symbol('G_Q2199864')), Tuple(Symbol('G_Q2199864'), Symbol('x1'), Symbol('x2')))))",
+"anzahl": 1,
+"formeln": [
+"Q86827342"
+]
+},
+"Sd81b6814": {
+"skelett": "Add(Mul(Symbol('k'), Pow(Symbol('x0'), Integer(-k)), Pow(Symbol('x1'), Integer(-k)), Symbol('x2')), Function('f0')(Symbol('x0')))",
+"anzahl": 1,
+"formeln": [
+"Q91195033"
+]
+},
+"Scd505e7e": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Function('f1')(conjugate(Symbol('x0')))))",
+"anzahl": 1,
+"formeln": [
+"Q93598162"
+]
+},
+"S991681b4": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Derivative(Symbol('x1'), Tuple(Symbol('G_Q39552'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q93946998"
+]
+},
+"S73cfc925": {
+"skelett": "Add(Symbol('k'), Mul(Integer(-k), Symbol('k'), Pow(Symbol('x0'), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q94372268"
+]
+},
+"S55a1a177": {
+"skelett": "Add(Mul(Symbol('x0'), Symbol('x1')), Mul(Symbol('x2'), Symbol('x3')))",
+"anzahl": 1,
+"formeln": [
+"Q97143703"
+]
+},
+"Sf579237d": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('k'), Integer(k)), Function('f0')(Add(Symbol('x0'), Integer(k)))), Pow(Symbol('x1'), Integer(k)))",
+"anzahl": 1,
+"formeln": [
+"Q97577403"
+]
+},
+"S0ed2adb5": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Symbol('k'), Pow(Symbol('x0'), Integer(-k)), Symbol('x1')), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q97617059"
+]
+},
+"S0911ee4e": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Pow(Symbol('x1'), Integer(-k)), Symbol('x2'), Symbol('x3')), Symbol('x4'))",
+"anzahl": 1,
+"formeln": [
+"Q97708211"
+]
+},
+"S083b4317": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Pow(Symbol('k'), Integer(-k)), log(Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q98118544"
+]
+},
+"S2f948638": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Derivative(Symbol('x1'), Tuple(Symbol('G_Q208476'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q98266630"
+]
+},
+"S86b85e49": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Derivative(Symbol('x1'), Tuple(Symbol('G_Q11379'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q98267245"
+]
+},
+"Sb7a49557": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), cos(Mul(Symbol('x1'), acos(Symbol('x0'))))))",
+"anzahl": 1,
+"formeln": [
+"Q98479450"
+]
+},
+"Sd2c51b3d": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Pow(Add(Integer(k), Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)))), Rational(-k, k)), sin(Add(Mul(Symbol('x1'), acos(Symbol('x0'))), acos(Symbol('x0'))))))",
+"anzahl": 1,
+"formeln": [
+"Q98479457"
+]
+},
+"Sf8fac7e7": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Pow(Symbol('x1'), Integer(-k)), Derivative(Symbol('x1'), Tuple(Symbol('G_Q126017'), Integer(k)))))",
+"anzahl": 1,
+"formeln": [
+"Q98583077"
+]
+},
+"S231e7ab4": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Pow(Symbol('k'), Integer(-k)), Derivative(Symbol('x1'), Tuple(Symbol('G_Q36253'), Integer(k)))))",
+"anzahl": 1,
+"formeln": [
+"Q98690755"
+]
+},
+"Sa9ff71a3": {
+"skelett": "Add(Mul(Symbol('x0'), Symbol('x1'), Symbol('x2')), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q98875545"
+]
+},
+"S7b9224fa": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k))), Pow(Symbol('x1'), Integer(k)), Pow(Symbol('x2'), Integer(k)))",
+"anzahl": 1,
+"formeln": [
+"Q98966325"
+]
+},
+"Se5f5903a": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2'), Symbol('x3')), Pow(factorial(Symbol('x4')), Integer(-k)))",
+"anzahl": 1,
+"formeln": [
+"Q99589718"
+]
+},
+"S36758b90": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(-k)), Symbol('x1')), Mul(Pow(Symbol('x0'), Integer(-k)), Pow(Symbol('x2'), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q99714619"
+]
+},
+"S0c8d27db": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Derivative(Symbol('x1'), Tuple(Symbol('G_Q106008771'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q101459832"
+]
+},
+"Se23e3ff0": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Rational(k, k), Pow(Integer(k), Rational(k, k)), Pow(Symbol('k'), Rational(-k, k)), Pow(Symbol('x1'), Mul(Integer(-k), Rational(k, k), Pow(Symbol('x0'), Integer(k))))))",
+"anzahl": 1,
+"formeln": [
+"Q104217085"
+]
+},
+"S93a7b31c": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), Symbol('x2')), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q105102313"
+]
+},
+"S0f0a185e": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Symbol('x0'), Pow(Symbol('x2'), Integer(-k)), Pow(Symbol('x3'), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q105221927"
+]
+},
+"Sbe98fbbb": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(-k)), Pow(Symbol('x3'), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q105295574"
+]
+},
+"Sfaaa417b": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Pow(Integer(k), Rational(k, k)), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q105421034"
+]
+},
+"Sbb60b5f9": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Mul(Symbol('x1'), Symbol('x2')), Mul(Symbol('x1'), Symbol('x3')), Mul(Symbol('x1'), Symbol('x4')))",
+"anzahl": 1,
+"formeln": [
+"Q105451063"
+]
+},
+"S0f5ac584": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Symbol('k'), Pow(Symbol('x0'), Integer(-k))), Symbol('x1'))",
+"anzahl": 1,
+"formeln": [
+"Q105581038"
+]
+},
+"S40300f53": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Derivative(Function('f1')(Symbol('x0')), Tuple(Symbol('x0'), Integer(k)))))",
+"anzahl": 1,
+"formeln": [
+"Q105637294"
+]
+},
+"S2fc6bb5b": {
+"skelett": "Add(Mul(Integer(-k), Symbol('k'), Pow(Symbol('x0'), Integer(k)), exp(Mul(Integer(-k), Pow(Symbol('k'), Integer(-k)), Pow(Symbol('x0'), Integer(-k)), Symbol('x1')))), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q105883079"
+]
+},
+"S719661ff": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Pow(Integer(k), Rational(k, k)), Pow(Mul(Pow(Symbol('x1'), Integer(-k)), Function('f0')(Add(Mul(Integer(-k), Symbol('x2')), Symbol('x3')))), Rational(k, k))))",
+"anzahl": 1,
+"formeln": [
+"Q106103200"
+]
+},
+"S1c23f82a": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Pow(log(Symbol('x1')), Integer(-k)), log(Symbol('x2'))))",
+"anzahl": 1,
+"formeln": [
+"Q106378242"
+]
+},
+"S16b3dec0": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Function('f0')(Mul(Symbol('x0'), Symbol('x1'), Symbol('x2'))), Mul(Integer(-k), Function('f0')(Symbol('x1'), Symbol('x0'))))",
+"anzahl": 1,
+"formeln": [
+"Q106449009"
+]
+},
+"S9ef6a4f6": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Function('f0')(Symbol('x1'))))",
+"anzahl": 1,
+"formeln": [
+"Q106453686"
+]
+},
+"S0ef6e24f": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), cos(Symbol('x1'))), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q107645914"
+]
+},
+"Sc6277f49": {
+"skelett": "Add(Mul(Symbol('k'), Symbol('x0')), Mul(Integer(-k), Symbol('x1'), Symbol('x2')), Symbol('x1'))",
+"anzahl": 1,
+"formeln": [
+"Q108073699"
+]
+},
+"Sdd65d6a3": {
+"skelett": "Add(Function('f1')(Symbol('x0')), Mul(Integer(-k), Rational(k, k), Pow(Symbol('k'), Integer(-k)), Symbol('x0'), Function('f0')(Symbol('x0'))))",
+"anzahl": 1,
+"formeln": [
+"Q108073802"
+]
+},
+"Seb368907": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Symbol('x0')), Symbol('x1'), Integer(k))",
+"anzahl": 1,
+"formeln": [
+"Q108074440"
+]
+},
+"S937860aa": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Function('f0')(Add(Mul(Rational(k, k), Pow(Add(Integer(k), Mul(Integer(-k), Pow(Symbol('x1'), Integer(k)))), Rational(k, k))), Rational(k, k))))",
+"anzahl": 1,
+"formeln": [
+"Q108794869"
+]
+},
+"Sbf7eb65a": {
+"skelett": "Add(Function('f1')(Symbol('x0')), Mul(Integer(-k), Pow(Symbol('x1'), Integer(-k)), Function('f0')(Symbol('x0'))))",
+"anzahl": 1,
+"formeln": [
+"Q108914597"
+]
+},
+"Sa5df96f3": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Symbol('x0'), Symbol('x1')), Mul(Symbol('x0'), Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q109020226"
+]
+},
+"S0997449d": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Derivative(Function('f0')(Symbol('x1')), Tuple(Symbol('G_Q2199864'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q109342225"
+]
+},
+"Se8a731b7": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Symbol('x1'))), binomial(Symbol('x2'), Symbol('x1')))",
+"anzahl": 1,
+"formeln": [
+"Q109490472"
+]
+},
+"S8af3734c": {
+"skelett": "Add(Mul(Integer(-k), Pow(Integer(-k), Symbol('x0')), Pow(Symbol('x1'), Mul(Integer(-k), Symbol('x0'))), Pow(Symbol('x2'), Symbol('x0')), Function('f0')(Symbol('x3'))), Mul(Symbol('x3'), Pow(Symbol('x4'), Symbol('x0'))))",
+"anzahl": 1,
+"formeln": [
+"Q109497177"
+]
+},
+"S83d42f46": {
+"skelett": "Add(Pow(Symbol('x0'), Mul(Symbol('x1'), Symbol('x2'))), Mul(Integer(-k), factorial(Symbol('x0')), Pow(factorial(Add(Symbol('x0'), Mul(Integer(-k), Symbol('x1')))), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q109514579"
+]
+},
+"Sbc0b50a7": {
+"skelett": "Add(Mul(Function('f0')(Symbol('x0')), Pow(sin(Mul(Symbol('k'), Symbol('x1'))), Integer(-k))), Mul(Integer(-k), Function('f1')(Symbol('x0')), Pow(sin(Mul(Symbol('k'), Symbol('x1'))), Integer(-k)), cos(Mul(Symbol('k'), Symbol('x1')))), Function('f2')(Symbol('x0')))",
+"anzahl": 1,
+"formeln": [
+"Q109545924"
+]
+},
+"Saa076d59": {
+"skelett": "Add(Function('f1')(Symbol('x0')), Mul(Integer(-k), Sum(Mul(Pow(Integer(-k), Symbol('k')), Pow(Integer(k), Mul(Integer(-k), Integer(k), Symbol('k'))), Pow(Integer(k), Mul(Integer(-k), Symbol('x1'))), Pow(Symbol('x0'), Add(Mul(Integer(k), Symbol('k')), Symbol('x1'))), Pow(Function('f0')(Add(Symbol('k'), Symbol('x1'), Integer(k))), Integer(-k)), Pow(factorial(Symbol('k')), Integer(-k))), Tuple(Symbol('k'), Integer(k), oo))))",
+"anzahl": 1,
+"formeln": [
+"Q109546200"
+]
+},
+"Sda910f30": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Pow(Symbol('x1'), Mul(Integer(-k), Rational(k, k), Symbol('k'), Symbol('x2'), Symbol('x3'))), Function('f1')(Mul(Symbol('x0'), Pow(Symbol('x1'), Mul(Rational(k, k), Symbol('k'), Symbol('x2')))))))",
+"anzahl": 1,
+"formeln": [
+"Q109559095"
+]
+},
+"Sf2194a81": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Integral(sin(Mul(Rational(k, k), Symbol('k'), Pow(Symbol('t'), Integer(k)))), Tuple(Symbol('t'), Integer(k), Symbol('x0')))))",
+"anzahl": 1,
+"formeln": [
+"Q109650403"
+]
+},
+"S3de9b681": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Integral(cos(Mul(Rational(k, k), Symbol('k'), Pow(Symbol('t'), Integer(k)))), Tuple(Symbol('t'), Integer(k), Symbol('x0')))))",
+"anzahl": 1,
+"formeln": [
+"Q109650414"
+]
+},
+"S945f020b": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Integer(k), Pow(Symbol('k'), Rational(-k, k)), Integral(Pow(Symbol('x1'), Mul(Integer(-k), Pow(Symbol('t'), Integer(k)))), Tuple(Symbol('t'), -oo, Symbol('x0')))))",
+"anzahl": 1,
+"formeln": [
+"Q109650532"
+]
+},
+"S2a057f63": {
+"skelett": "Add(Function('f0')(Symbol('x0'), Symbol('x1'), Symbol('x2')), Mul(Integer(-k), Pow(Symbol('x2'), Mul(Integer(-k), Symbol('x0')))))",
+"anzahl": 1,
+"formeln": [
+"Q109750741"
+]
+},
+"Sb9657c72": {
+"skelett": "Add(Function('f0')(Symbol('x0'), Symbol('x1')), Mul(Integer(-k), Integral(Pow(Add(Mul(Integer(-k), Pow(Symbol('x1'), Integer(k)), Pow(sin(Symbol('sigma')), Integer(k))), Integer(k)), Rational(-k, k)), Tuple(Symbol('sigma'), Integer(k), Symbol('x0')))))",
+"anzahl": 1,
+"formeln": [
+"Q109752309"
+]
+},
+"S825dda17": {
+"skelett": "Add(Function('f0')(Mul(Rational(k, k), Symbol('x0')), Symbol('x0')), Mul(Integer(-k), Function('f1')(Symbol('x0'))))",
+"anzahl": 1,
+"formeln": [
+"Q109752514"
+]
+},
+"S08b5c5a0": {
+"skelett": "Add(Function('f0')(Symbol('x0'), Symbol('x1')), Mul(Integer(-k), Integral(Pow(Add(Mul(Integer(-k), Pow(Symbol('x1'), Integer(k)), Pow(sin(Symbol('sigma')), Integer(k))), Integer(k)), Rational(k, k)), Tuple(Symbol('sigma'), Integer(k), Symbol('x0')))))",
+"anzahl": 1,
+"formeln": [
+"Q109752773"
+]
+},
+"Sde3259b9": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Function('f0')(Mul(Rational(k, k), Symbol('x0')), Symbol('x0'))))",
+"anzahl": 1,
+"formeln": [
+"Q109753012"
+]
+},
+"Scae71786": {
+"skelett": "Add(Function('f0')(Symbol('x0'), Symbol('x1'), Symbol('x2')), Mul(Integer(-k), Integral(Pow(Add(Mul(Integer(-k), Symbol('x0'), Pow(Add(Mul(Integer(-k), Pow(Symbol('x2'), Integer(k)), Pow(sin(Symbol('vartheta')), Integer(k))), Integer(k)), Rational(k, k)), Pow(sin(Symbol('vartheta')), Integer(k))), Pow(Add(Mul(Integer(-k), Pow(Symbol('x2'), Integer(k)), Pow(sin(Symbol('vartheta')), Integer(k))), Integer(k)), Rational(k, k))), Integer(-k)), Tuple(Symbol('vartheta'), Integer(k), Symbol('x1')))))",
+"anzahl": 1,
+"formeln": [
+"Q109753096"
+]
+},
+"Sd9007ce1": {
+"skelett": "Add(Function('f0')(Symbol('x0'), Symbol('x1')), Mul(Integer(-k), Function('f0')(Symbol('x0'), Mul(Rational(k, k), Symbol('x1')), Symbol('x1'))))",
+"anzahl": 1,
+"formeln": [
+"Q109753363"
+]
+},
+"S3bbc21dd": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Integral(Function('f0')(Symbol('x')), Tuple(Symbol('x'), -oo, oo))), Limit(Mul(Symbol('x0'), Symbol('x1'), Integral(Function('f0')(Symbol('x')), Tuple(Symbol('x'), Mul(Integer(-k), Symbol('a')), Symbol('a')))), Symbol('a'), oo, Symbol('-')))",
+"anzahl": 1,
+"formeln": [
+"Q109778931"
+]
+},
+"S13db29df": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2'), Symbol('x3')), Mul(Symbol('x0'), Symbol('x4'), floor(Abs(Symbol('x0')))))",
+"anzahl": 1,
+"formeln": [
+"Q109852010"
+]
+},
+"S32f5ace6": {
+"skelett": "Add(Pow(Symbol('k'), Integer(k)), Symbol('k'), Integer(k), Mul(Integer(-k), Pow(Symbol('k'), Integer(-k)), Symbol('x0'), Symbol('x1'), Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q110100838"
+]
+},
+"S4fad8c87": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Function('f0')(Symbol('x1')), Pow(Function('f1')(Symbol('x1')), Integer(-k)), Function('f2')(Function('f1')(Symbol('x1')))), Function('f0')(Symbol('x1')))",
+"anzahl": 1,
+"formeln": [
+"Q110208840"
+]
+},
+"Sd79c44e4": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Symbol('x1')), Symbol('x2')), Derivative(Mul(Pow(Symbol('x0'), Add(Symbol('x1'), Integer(-k))), Symbol('x2')), Tuple(Symbol('x2'), Integer(k))))",
+"anzahl": 1,
+"formeln": [
+"Q110299682"
+]
+},
+"S3f0def46": {
+"skelett": "Add(Mul(Integer(k), Symbol('x0'), Symbol('x1')), Mul(Integer(k), Symbol('x0'), Symbol('x2'), Symbol('x3')), Mul(Integer(-k), Symbol('x0'), Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q110677969"
+]
+},
+"S8352e5d0": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Function('f0')(Symbol('x1'), Symbol('x2'), Symbol('x3')))",
+"anzahl": 1,
+"formeln": [
+"Q110854323"
+]
+},
+"S7612c0b6": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Abs(Symbol('x0')), Integer(-k))), Symbol('x1'))",
+"anzahl": 1,
+"formeln": [
+"Q110914431"
+]
+},
+"S86e4c32c": {
+"skelett": "Add(Mul(Integer(-k), Symbol('k'), Symbol('x0'), Symbol('x1'), Symbol('x2'), Symbol('x3')), Mul(Pow(Symbol('k'), Integer(-k)), Symbol('x0'), Symbol('x1'), Function('f0')(Mul(Symbol('k'), Symbol('x2')))))",
+"anzahl": 1,
+"formeln": [
+"Q111218548"
+]
+},
+"Sf03a0f5a": {
+"skelett": "Add(Function('f0')(Pow(Symbol('x0'), Symbol('x1'))), Mul(Integer(-k), Pow(Symbol('x2'), Integer(-k)), Sum(Pow(Symbol('x3'), Symbol('x1')), Tuple(Symbol('i'), Integer(k), Symbol('x2')))))",
+"anzahl": 1,
+"formeln": [
+"Q112132509"
+]
+},
+"S4a7b1942": {
+"skelett": "Add(Mul(Integer(-k), Symbol('k'), Pow(Symbol('x0'), Integer(-k)), Pow(Symbol('x1'), Integer(-k)), Symbol('x2'), Symbol('x3')), Mul(Symbol('x2'), Symbol('x4')))",
+"anzahl": 1,
+"formeln": [
+"Q112187411"
+]
+},
+"S040f7b75": {
+"skelett": "Add(Function('f0')(Pow(Symbol('x0'), Symbol('x1'))), Mul(Integer(-k), Sum(Mul(Pow(Symbol('x2'), Symbol('x1')), Function('f1')(Symbol('x2'))), Tuple(Symbol('i'), Integer(k), Symbol('x3')))))",
+"anzahl": 1,
+"formeln": [
+"Q112578188"
+]
+},
+"Se6f5f32a": {
+"skelett": "Add(Function('f0')(Pow(Symbol('x0'), Symbol('x1'))), Mul(Integer(-k), Integral(Mul(Pow(Symbol('x'), Symbol('x1')), Function('f1')(Symbol('x'))), Tuple(Symbol('x'), -oo, oo))))",
+"anzahl": 1,
+"formeln": [
+"Q112578408"
+]
+},
+"S8010ced8": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), binomial(Symbol('x1'), Integer(k))), Mul(Rational(k, k), Sum(Symbol('x2'), Tuple(Symbol('i'), Integer(k), Symbol('x1')))), Mul(Integer(-k), Rational(k, k), Sum(Symbol('x2'), Tuple(Symbol('i'), Add(Symbol('x1'), Integer(k)), Symbol('x3')))))",
+"anzahl": 1,
+"formeln": [
+"Q112648447"
+]
+},
+"S46a64fde": {
+"skelett": "Add(Mul(Integer(-k), Rational(k, k), Pow(Symbol('x0'), Integer(k)), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Integer(k))), Mul(Symbol('x0'), Symbol('x3')))",
+"anzahl": 1,
+"formeln": [
+"Q112658527"
+]
+},
+"Sb7a764a7": {
+"skelett": "Add(Mul(Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), Symbol('x2')), Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q112812926"
+]
+},
+"S3398565f": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Function('f0')(Mul(Symbol('x1'), Symbol('x2')))), Symbol('x1'))",
+"anzahl": 1,
+"formeln": [
+"Q112892869"
+]
+},
+"S22132a7f": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Mul(Integer(-k), Pow(Symbol('x2'), Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Mul(Pow(Symbol('x1'), Integer(-k)), Symbol('x3'))))), Mul(Pow(Symbol('x1'), Integer(-k)), Symbol('x3'))))))",
+"anzahl": 1,
+"formeln": [
+"Q113480712"
+]
+},
+"Sb3c5dba9": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Add(Mul(Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Mul(Integer(-k), Pow(Symbol('x2'), Add(Mul(Symbol('x0'), Pow(Symbol('x1'), Integer(-k))), Mul(Integer(-k), Pow(Symbol('x1'), Integer(-k)), Symbol('x3'))))), Mul(Integer(-k), Pow(Symbol('x1'), Integer(-k)), Symbol('x3'))))))",
+"anzahl": 1,
+"formeln": [
+"Q113481001"
+]
+},
+"Sc56e56eb": {
+"skelett": "Add(Function('f0')(Symbol('x0'), Symbol('x1')), Mul(Integer(-k), Rational(k, k), Pow(Symbol('k'), Integer(-k)), Pow(Symbol('x2'), Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Pow(Add(Integer(k), Mul(Integer(-k), Integer(k), Pow(Symbol('x3'), Integer(k)))), Integer(-k))), Mul(Integer(k), Symbol('x0'), Symbol('x1'), Symbol('x3'), Pow(Add(Integer(k), Mul(Integer(-k), Integer(k), Pow(Symbol('x3'), Integer(k)))), Integer(-k))), Mul(Integer(-k), Pow(Symbol('x1'), Integer(k)), Pow(Add(Integer(k), Mul(Integer(-k), Integer(k), Pow(Symbol('x3'), Integer(k)))), Integer(-k))))), Pow(Add(Integer(k), Mul(Integer(-k), Pow(Symbol('x3'), Integer(k)))), Rational(-k, k))))",
+"anzahl": 1,
+"formeln": [
+"Q113588832"
+]
+},
+"S1a3248c1": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Derivative(Integral(Function('f0')(Symbol('t')), Tuple(Symbol('t'), Symbol('x1'), Symbol('x0'))), Tuple(Symbol('x0'), Integer(k)))))",
+"anzahl": 1,
+"formeln": [
+"Q116450161"
+]
+},
+"S217f46a3": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Pow(Abs(Symbol('x0')), Integer(-k))), cos(Symbol('x1')))",
+"anzahl": 1,
+"formeln": [
+"Q116768912"
+]
+},
+"Sdfe6c04c": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Function('f0')(Symbol('x1'))), Mul(Symbol('x2'), Symbol('x3')))",
+"anzahl": 1,
+"formeln": [
+"Q116838634"
+]
+},
+"S77c38fa9": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Pow(Symbol('x0'), Symbol('x1')), Pow(Symbol('x2'), Integer(k)), Symbol('x3')), Pow(Symbol('x4'), Symbol('x1')))",
+"anzahl": 1,
+"formeln": [
+"Q116881953"
+]
+},
+"Seec9483e": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Symbol('x0'), Symbol('x1'), Symbol('x2'), Function('f0')(Symbol('x0'))), Mul(Integer(k), Symbol('x0')))",
+"anzahl": 1,
+"formeln": [
+"Q117009395"
+]
+},
+"S46e77c30": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2')), Pow(Symbol('x0'), Symbol('x3')))",
+"anzahl": 1,
+"formeln": [
+"Q117716860"
+]
+},
+"S006ec6a3": {
+"skelett": "Limit(log(Symbol('n')), Symbol('n'), oo, Symbol('-'))",
+"anzahl": 1,
+"formeln": [
+"Q118176628"
+]
+},
+"Sbfea8d23": {
+"skelett": "Add(Mul(Symbol('x0'), Derivative(Mul(Symbol('x1'), Symbol('x2')), Tuple(Symbol('G_Q2199864'), Integer(k)))), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q118255380"
+]
+},
+"S76126f0f": {
+"skelett": "Add(Function('f0')(Mul(Symbol('x0'), Symbol('x1'))), Function('f1')(Symbol('x2')), Mul(Integer(-k), Function('f1')(Mul(Symbol('x0'), Symbol('x1')))))",
+"anzahl": 1,
+"formeln": [
+"Q119487995"
+]
+},
+"Sa0d55a51": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Mul(Symbol('k'), Pow(Symbol('x1'), Integer(-k)), Symbol('x2')), Rational(k, k)))",
+"anzahl": 1,
+"formeln": [
+"Q120630325"
+]
+},
+"Sf97e391f": {
+"skelett": "Add(Mul(Integer(-k), Function('f0')(Symbol('x0')), Function('f0')(Symbol('x1'))), Function('f0')(Mul(Symbol('x0'), Symbol('x1'), Symbol('x2'))))",
+"anzahl": 1,
+"formeln": [
+"Q120632573"
+]
+},
+"S757ee736": {
+"skelett": "Add(Function('f0')(Symbol('x0'), Symbol('x1')), Mul(Integer(-k), Abs(Add(Function('f1')(Symbol('x2')), Mul(Integer(-k), Function('f2')(Symbol('x2')))))))",
+"anzahl": 1,
+"formeln": [
+"Q121088205"
+]
+},
+"S816f0e37": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Pow(Symbol('x1'), Integer(-k)), Symbol('x2')), exp(Mul(Integer(-k), Integer(k), Pow(Symbol('x3'), Integer(-k)), Pow(Symbol('x4'), Integer(k)))))",
+"anzahl": 1,
+"formeln": [
+"Q121878894"
+]
+},
+"Sbf44ff86": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(-k)), Symbol('x1')), Mul(Pow(Symbol('x0'), Integer(-k)), Pow(Symbol('x1'), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q122803087"
+]
+},
+"S642a9f3c": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(-k)), Pow(Symbol('x1'), Integer(k))), Mul(Rational(k, k), Pow(Symbol('k'), Integer(-k)), Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q122928319"
+]
+},
+"S177ebaf6": {
+"skelett": "Add(Pow(Symbol('x0'), Integer(k)), Mul(Integer(-k), Pow(Symbol('x0'), Integer(k))), Integer(k))",
+"anzahl": 1,
+"formeln": [
+"Q123024031"
+]
+},
+"S46d72f80": {
+"skelett": "Add(Pow(Integer(-k), Symbol('x0')), Mul(Integer(-k), Symbol('x1'), Symbol('x2')), Pow(Symbol('x3'), Integer(k)))",
+"anzahl": 1,
+"formeln": [
+"Q123169377"
+]
+},
+"S45885d8a": {
+"skelett": "Add(Symbol('k'), Mul(Integer(-k), Pow(Symbol('k'), Integer(-k)), Integral(Mul(Pow(sin(Mul(Rational(k, k), Symbol('theta'))), Integer(-k)), Abs(sin(Add(Mul(Symbol('theta'), Symbol('x0')), Mul(Rational(k, k), Symbol('theta')))))), Tuple(Symbol('theta'), Integer(k), Symbol('k')))))",
+"anzahl": 1,
+"formeln": [
+"Q123459622"
+]
+},
+"Se1b43d67": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Symbol('x1')), Symbol('x2')), Function('f0')(Symbol('x0'), Symbol('x3')))",
+"anzahl": 1,
+"formeln": [
+"Q124414475"
+]
+},
+"S3f3a06b5": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Mul(Rational(k, k), Pow(Add(Integer(k), Mul(Integer(-k), Integer(k), Pow(Integer(k), Rational(k, k)))), Rational(k, k))), Rational(k, k), Mul(Rational(k, k), Pow(Add(Mul(Integer(k), Pow(Integer(k), Rational(k, k))), Integer(k)), Rational(k, k))))",
+"anzahl": 1,
+"formeln": [
+"Q126009364"
+]
+},
+"S2a403cb4": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Pow(Integer(k), Integer(-k))), Pow(Symbol('x1'), Integer(-k)), Pow(Symbol('x2'), Rational(k, k))), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q127269706"
+]
+},
+"S2a6ab468": {
+"skelett": "Add(Mul(Symbol('x0'), Symbol('x1')), Mul(Symbol('x2'), Symbol('x3'), Symbol('x4')), Integer(-k))",
+"anzahl": 1,
+"formeln": [
+"Q127759387"
+]
+},
+"S39a7f85f": {
+"skelett": "Add(Mul(Integer(-k), Pow(Integer(k), Symbol('x0')), Symbol('x1')), Mul(Symbol('x0'), Symbol('x1'), Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q127819588"
+]
+},
+"S787d4375": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Function('f0')(Symbol('x1'))), Symbol('x1'))",
+"anzahl": 1,
+"formeln": [
+"Q128032193"
+]
+},
+"Saef9a4fa": {
+"skelett": "Function('f0')(Mul(Symbol('x0'), Symbol('x1'), Symbol('x2'), Symbol('x3')))",
+"anzahl": 1,
+"formeln": [
+"Q129256900"
+]
+},
+"S336bb3ff": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0')), Pow(Pow(Symbol('x1'), Integer(k)), Pow(Integer(k), Integer(-k))))",
+"anzahl": 1,
+"formeln": [
+"Q130284021"
+]
+},
+"Seadde172": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Function('f0')(Symbol('x1')), Function('f1')(Symbol('x1'))), Symbol('x1'))",
+"anzahl": 1,
+"formeln": [
+"Q130417616"
+]
+},
+"S1e8f8347": {
+"skelett": "Add(Function('f1')(Pow(Function('f0')(Symbol('x0')), Integer(k))), Mul(Integer(-k), Function('f2')(Symbol('x0'))))",
+"anzahl": 1,
+"formeln": [
+"Q130479790"
+]
+},
+"Sfb0593a4": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Symbol('x1')), Symbol('x2')), Mul(Symbol('x3'), Function('f0')(Symbol('x4'))))",
+"anzahl": 1,
+"formeln": [
+"Q130523029"
+]
+},
+"S11ecc088": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2'), Function('f0')(Symbol('x3'))), Pow(Abs(Symbol('x4')), Integer(-k)))",
+"anzahl": 1,
+"formeln": [
+"Q130525345"
+]
+},
+"S35ac03a7": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Function('f1')(Symbol('x1')), Function('f2')(Symbol('x1')), Function('f3')(Symbol('x1'))), Function('f0')(Symbol('x1')))",
+"anzahl": 1,
+"formeln": [
+"Q130603417"
+]
+},
+"S794fab9e": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Symbol('x1')), Pow(Abs(Symbol('x2')), Integer(-k))), Sum(Mul(Pow(Add(Symbol('x0'), Integer(-k)), Symbol('k')), binomial(Symbol('x1'), Symbol('k'))), Tuple(Symbol('k'), Integer(k), floor(Add(Mul(Rational(k, k), Symbol('x3')), Rational(-k, k))))))",
+"anzahl": 1,
+"formeln": [
+"Q130691139"
+]
+},
+"S2a7791ad": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Pow(log(Symbol('x1')), Integer(-k)), log(Abs(Symbol('x2')))))",
+"anzahl": 1,
+"formeln": [
+"Q130704440"
+]
+},
+"S2ebe8d4a": {
+"skelett": "Add(Mul(Integer(-k), Integer(k), Symbol('x0')), Mul(Symbol('x1'), Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q131161017"
+]
+},
+"S341b85a2": {
+"skelett": "Mul(Pow(Symbol('x0'), Integer(-k)), Symbol('x1'), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q131580191"
+]
+},
+"S08cfaf3b": {
+"skelett": "Add(Symbol('x0'), Mul(Integer(-k), Function('f0')(Symbol('x1'))), Function('f1')(Add(Integer(k), Mul(Integer(-k), Symbol('x1')))))",
+"anzahl": 1,
+"formeln": [
+"Q133545543"
+]
+},
+"Sa56cb965": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Function('f0')(Symbol('x1')), Mul(Integer(-k), Function('f0')(Add(Symbol('x0'), Symbol('x1')))))",
+"anzahl": 1,
+"formeln": [
+"Q134580699"
+]
+},
+"Sa1fd0646": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1'), Symbol('x2')), Mul(Symbol('x0'), Symbol('x3'), Symbol('x4')))",
+"anzahl": 1,
+"formeln": [
+"Q135524517"
+]
+},
+"Sff9ba687": {
+"skelett": "Mul(Rational(k, k), Symbol('x0'))",
+"anzahl": 1,
+"formeln": [
+"Q135778565"
+]
+},
+"S8e52d309": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Symbol('x1')), Mul(Symbol('x0'), Symbol('x2'), Function('f0')(Symbol('x0'))))",
+"anzahl": 1,
+"formeln": [
+"Q137393244"
+]
+},
+"S10a2f4d6": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Function('f0')(Add(Mul(Integer(k), Pow(Derivative(Symbol('x1'), Tuple(Symbol('x0'), Integer(k))), Integer(k))), Integer(k)))), Symbol('x2'))",
+"anzahl": 1,
+"formeln": [
+"Q137915355"
+]
+},
+"S494f84d0": {
+"skelett": "Add(Function('f0')(Symbol('x0')), Mul(Integer(-k), Function('f0')(Add(Symbol('x0'), Mul(Symbol('x1'), Symbol('x2'))))))",
+"anzahl": 1,
+"formeln": [
+"Q137925744"
+]
+},
+"S20256f2d": {
+"skelett": "Add(Mul(Integer(-k), Pow(Symbol('x0'), Integer(k)), Function('f0')(Symbol('x1'), Symbol('x2')), Function('f1')(Symbol('x1'), Symbol('x2')), Function('f1')(Symbol('x2'), Symbol('x1'))), Mul(Symbol('x3'), Function('f0')(Symbol('x1'), Symbol('x2'))))",
+"anzahl": 1,
+"formeln": [
+"Q140010026"
+]
+},
+"S324f9615": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Function('f0')(Symbol('x1'), Symbol('x2'))), Mul(Symbol('x3'), Function('f0')(Symbol('x1'), Symbol('x2')), Function('f1')(Symbol('x1'), Symbol('x2'))))",
+"anzahl": 1,
+"formeln": [
+"Q140010028"
+]
+},
+"S73c83dcf": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Function('f0')(Symbol('x1'), Symbol('x2'))), Mul(Symbol('x3'), Function('f0')(Symbol('x1'), Symbol('x2')), Function('f1')(Symbol('x2'), Symbol('x1'))))",
+"anzahl": 1,
+"formeln": [
+"Q140010125"
+]
+},
+"S40c0b536": {
+"skelett": "Add(Mul(Integer(-k), Symbol('x0'), Function('f0')(Symbol('x1'), Symbol('x2'))), Function('f1')(Symbol('x1'), Symbol('x2')))",
+"anzahl": 1,
+"formeln": [
+"Q140010329"
+]
+},
+"Sd9a24e02": {
+"skelett": "Add(Function('f0')(Add(Symbol('x0'), Integer(k))), Mul(Integer(-k), factorial(Symbol('x1'))))",
+"anzahl": 1,
+"formeln": [
+"Q141101613"
+]
+},
+"Sa43a853b": {
+"skelett": "Add(Mul(Symbol('x0'), Symbol('x1')), Function('f0')(Symbol('x2')), Mul(Integer(-k), Function('f0')(Symbol('x3'))))",
+"anzahl": 1,
+"formeln": [
+"Q141783619"
+]
+},
+"S8b655801": {
+"skelett": "Add(Mul(Integer(-k), Float('k', precision=k), Pow(Symbol('x0'), Integer(k)), Pow(Symbol('x1'), Integer(-k)), Symbol('x2')), Symbol('x3'))",
+"anzahl": 1,
+"formeln": [
+"Q141930175"
+]
+}
+}

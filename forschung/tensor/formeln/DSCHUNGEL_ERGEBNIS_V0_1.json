@@ -1,0 +1,2709 @@
+{
+ "schema_version": "dschungel/0.1",
+ "quelle": "Wikidata (CC0)",
+ "abgerufen_am": "2026-11-04T03:49:57Z",
+ "zusammenfassung": {
+  "formeln": 2676,
+  "parse": {
+   "ok": 1773,
+   "fehler": 370,
+   "ohne_gleichung": 533
+  },
+  "trinitaeten": 880,
+  "trinitaeten_anteil": 0.329,
+  "trinitaetstypen": {
+   "andere": 384,
+   "nicht_gelesen": 229,
+   "multiplikativ": 218,
+   "dynamisch": 26,
+   "additiv": 23
+  },
+  "signaturen_multiplikativ": {
+   "1:1:1": 206,
+   "1:1:2": 9,
+   "1:2:2": 3
+  },
+  "bezugskanten": 422,
+  "bezugsoperatoren_top": [
+   {
+    "operator": "Dauer",
+    "qid": "Q2199864",
+    "kanten": 21
+   },
+   {
+    "operator": "Masse",
+    "qid": "Q11423",
+    "kanten": 19
+   },
+   {
+    "operator": "Volumen",
+    "qid": "Q39297",
+    "kanten": 13
+   },
+   {
+    "operator": "Dichte",
+    "qid": "Q29539",
+    "kanten": 11
+   },
+   {
+    "operator": "Stoffmenge",
+    "qid": "Q104946",
+    "kanten": 9
+   },
+   {
+    "operator": "elektrische Stromstärke",
+    "qid": "Q29996",
+    "kanten": 6
+   },
+   {
+    "operator": "Geschwindigkeitsvektor",
+    "qid": "Q11465",
+    "kanten": 5
+   },
+   {
+    "operator": "elektrische Feldstärke",
+    "qid": "Q20989",
+    "kanten": 5
+   },
+   {
+    "operator": "Länge",
+    "qid": "Q36253",
+    "kanten": 5
+   },
+   {
+    "operator": "Radius",
+    "qid": "Q173817",
+    "kanten": 5
+   },
+   {
+    "operator": "Stoffmengenkonzentration",
+    "qid": "Q672821",
+    "kanten": 4
+   },
+   {
+    "operator": "thermodynamische Temperatur",
+    "qid": "Q264647",
+    "kanten": 4
+   }
+  ],
+  "bezugstensoren_ab_2_zeilen": 10,
+  "bezugstensoren_ab_3_zeilen": 8,
+  "zeilen_gesamt": 39,
+  "zeilen_vollstaendig": 2,
+  "ergaenzungen": 35,
+  "ergaenzungen_art": {
+   "kette": 9,
+   "parallel": 26
+  },
+  "ergaenzungen_dimension": {
+   "konsistent": 33,
+   "ohne_dimension": 2
+  },
+  "dimension_formeln": {
+   "konsistent": 225,
+   "ohne_dimension": 48,
+   "inkonsistent": 1
+  },
+  "nullmodell": {
+   "vollstaendige_zeilen": {
+    "beobachtet": 2,
+    "null_mittel": 0.0,
+    "null_sd": 0.0,
+    "null_max": 0,
+    "z": null,
+    "p_empirisch": 0.005,
+    "permutationen": 200
+   },
+   "bezugstensoren_ab_3_zeilen": {
+    "beobachtet": 8,
+    "null_mittel": 0.72,
+    "null_sd": 1.16,
+    "null_max": 7,
+    "z": 6.3,
+    "p_empirisch": 0.005,
+    "permutationen": 200
+   }
+  },
+  "dimension_inkonsistent": [
+   {
+    "id": "Q3315513",
+    "name": "ruhend",
+    "formel_tex": "\\vec{v}=0"
+   }
+  ]
+ },
+ "beispiele_multiplikativ": [
+  {
+   "id": "Q1111",
+   "name": "elektrische Ladung",
+   "groessen": [
+    "elektrische Ladung",
+    "Dauer",
+    "elektrische Stromstärke"
+   ],
+   "qids": [
+    "Q1111",
+    "Q2199864",
+    "Q29996"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "\\mathrm{d}Q = I \\mathrm{d}t"
+  },
+  {
+   "id": "Q4130",
+   "name": "Umlaufbahn",
+   "groessen": [
+    "Beschleunigung",
+    "Masse",
+    "euklidischer Abstand"
+   ],
+   "qids": [
+    "Q11376",
+    "Q11423",
+    "Q847073"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:2",
+   "formel_tex": "-\\frac {G  m_1  m_2}{r^2} = m_2  A_2"
+  },
+  {
+   "id": "Q11376",
+   "name": "Beschleunigung",
+   "groessen": [
+    "Beschleunigung",
+    "Geschwindigkeitsvektor",
+    "Dauer"
+   ],
+   "qids": [
+    "Q11376",
+    "Q11465",
+    "Q2199864"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "\\boldsymbol{a} = \\frac{\\mathrm{d} \\boldsymbol{v}}{\\mathrm{d} t}"
+  },
+  {
+   "id": "Q11465",
+   "name": "Geschwindigkeitsvektor",
+   "groessen": [
+    "Geschwindigkeitsvektor",
+    "Ortsvektor",
+    "Dauer"
+   ],
+   "qids": [
+    "Q11465",
+    "Q192388",
+    "Q2199864"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "\\boldsymbol{v} = \\frac{\\mathrm{d} \\boldsymbol{r}}{\\mathrm{d} t}"
+  },
+  {
+   "id": "Q11651",
+   "name": "elektrischer Strom",
+   "groessen": [
+    "elektrische Ladung",
+    "Zeit",
+    "elektrischer Strom"
+   ],
+   "qids": [
+    "Q1111",
+    "Q11471",
+    "Q11651"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "I =\\frac{Q}{t}"
+  },
+  {
+   "id": "Q13824",
+   "name": "Phasengeschwindigkeit",
+   "groessen": [
+    "Phasengeschwindigkeit",
+    "Kreiswellenzahl",
+    "Kreisfrequenz"
+   ],
+   "qids": [
+    "Q13824",
+    "Q30338487",
+    "Q834020"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "c = \\omega / k"
+  },
+  {
+   "id": "Q20989",
+   "name": "elektrische Feldstärke",
+   "groessen": [
+    "elektrische Ladung",
+    "Kraft",
+    "elektrische Feldstärke"
+   ],
+   "qids": [
+    "Q1111",
+    "Q11402",
+    "Q20989"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "\\boldsymbol{E} = \\frac{\\boldsymbol{F}}{q}"
+  },
+  {
+   "id": "Q25236",
+   "name": "Watt",
+   "groessen": [
+    "Sekunde",
+    "Watt",
+    "Joule"
+   ],
+   "qids": [
+    "Q11574",
+    "Q25236",
+    "Q25269"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "\\mathrm{W} = \\frac{\\mathrm{J}}{\\mathrm{s}}"
+  },
+  {
+   "id": "Q25288",
+   "name": "Gewichtskraft",
+   "groessen": [
+    "Beschleunigung des freien Falls",
+    "Masse",
+    "Gewichtskraft"
+   ],
+   "qids": [
+    "Q103982270",
+    "Q11423",
+    "Q25288"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "\\boldsymbol{F}_{\\mathrm{g}} = m \\boldsymbol{g}"
+  },
+  {
+   "id": "Q25342",
+   "name": "Leistung",
+   "groessen": [
+    "Energie",
+    "Dauer",
+    "Leistung"
+   ],
+   "qids": [
+    "Q11379",
+    "Q2199864",
+    "Q25342"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "P = \\frac{\\mathrm{d} E}{\\mathrm{d} t}"
+  },
+  {
+   "id": "Q25358",
+   "name": "elektrischer Widerstand",
+   "groessen": [
+    "elektrische Spannung",
+    "elektrischer Widerstand",
+    "elektrische Stromstärke"
+   ],
+   "qids": [
+    "Q118309876",
+    "Q25358",
+    "Q29996"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "R = \\frac{u}{i}"
+  },
+  {
+   "id": "Q25406",
+   "name": "Coulomb",
+   "groessen": [
+    "Dauer",
+    "Ampere",
+    "Coulomb"
+   ],
+   "qids": [
+    "Q2199864",
+    "Q25272",
+    "Q25406"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "\\text{C} = \\text{A} \\cdot \\text{s}"
+  },
+  {
+   "id": "Q27165",
+   "name": "Partialdruck",
+   "groessen": [
+    "Stoffmengenanteil",
+    "Partialdruck",
+    "Druck"
+   ],
+   "qids": [
+    "Q125264",
+    "Q27165",
+    "Q39552"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "p_{\\mathrm{X}} = y_{\\mathrm{X}} p"
+  },
+  {
+   "id": "Q28352",
+   "name": "magnetische Permeabilität",
+   "groessen": [
+    "magnetische Feldstärke",
+    "magnetische Permeabilität",
+    "magnetische Flussdichte"
+   ],
+   "qids": [
+    "Q28123",
+    "Q28352",
+    "Q30204"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "\\boldsymbol{B} = \\mu \\boldsymbol{H}"
+  },
+  {
+   "id": "Q29539",
+   "name": "Dichte",
+   "groessen": [
+    "Masse",
+    "Dichte",
+    "Volumen"
+   ],
+   "qids": [
+    "Q11423",
+    "Q29539",
+    "Q39297"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "\\rho = \\frac{\\mathrm{d} m}{\\mathrm{d} V}"
+  },
+  {
+   "id": "Q30006",
+   "name": "Gravitationsbeschleunigung",
+   "groessen": [
+    "Masse",
+    "Gravitationskraft",
+    "Gravitationsbeschleunigung"
+   ],
+   "qids": [
+    "Q11423",
+    "Q119510698",
+    "Q30006"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "\\boldsymbol{F}_{\\mathrm{g}} = m \\boldsymbol{g}"
+  },
+  {
+   "id": "Q41273",
+   "name": "Impuls",
+   "groessen": [
+    "Masse",
+    "Geschwindigkeitsvektor",
+    "Impuls"
+   ],
+   "qids": [
+    "Q11423",
+    "Q11465",
+    "Q41273"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "\\boldsymbol{p} = m \\boldsymbol{v}"
+  },
+  {
+   "id": "Q46276",
+   "name": "kinetische Energie",
+   "groessen": [
+    "Masse",
+    "Geschwindigkeit",
+    "kinetische Energie"
+   ],
+   "qids": [
+    "Q11423",
+    "Q3711325",
+    "Q46276"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:2",
+   "formel_tex": "T = \\frac{1}{2} m v^2"
+  },
+  {
+   "id": "Q48103",
+   "name": "Drehmoment",
+   "groessen": [
+    "Einheitsvektor entlang einer Achse",
+    "Drehmomentvektor",
+    "Drehmoment"
+   ],
+   "qids": [
+    "Q108316423",
+    "Q17232562",
+    "Q48103"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "T = \\boldsymbol{M} \\cdot \\boldsymbol{e}_{\\mathrm{Q}}"
+  },
+  {
+   "id": "Q125264",
+   "name": "Stoffmengenanteil",
+   "groessen": [
+    "Stoffmenge",
+    "Stoffmenge einer Komponente",
+    "Stoffmengenanteil"
+   ],
+   "qids": [
+    "Q104946",
+    "Q108147201",
+    "Q125264"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "x_{\\mathrm{X}} = n_{\\mathrm{X}}/n"
+  },
+  {
+   "id": "Q145623",
+   "name": "molare Masse",
+   "groessen": [
+    "Stoffmenge",
+    "Masse",
+    "molare Masse"
+   ],
+   "qids": [
+    "Q104946",
+    "Q11423",
+    "Q145623"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "M = m / n"
+  },
+  {
+   "id": "Q155854",
+   "name": "Äquivalentkonzentration",
+   "groessen": [
+    "Äquivalentkonzentration",
+    "Wertigkeit",
+    "Stoffmengenkonzentration"
+   ],
+   "qids": [
+    "Q155854",
+    "Q171407",
+    "Q672821"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "c_{\\mathrm{eq}} = z c"
+  },
+  {
+   "id": "Q161254",
+   "name": "Drehimpuls",
+   "groessen": [
+    "Drehimpuls",
+    "Ortsvektor",
+    "Impuls"
+   ],
+   "qids": [
+    "Q161254",
+    "Q192388",
+    "Q41273"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "\\boldsymbol{L} = \\boldsymbol{r} \\times \\boldsymbol{p}"
+  },
+  {
+   "id": "Q164399",
+   "name": "elektrische Kapazität",
+   "groessen": [
+    "elektrische Ladung",
+    "elektrische Kapazität",
+    "elektrische Spannung"
+   ],
+   "qids": [
+    "Q1111",
+    "Q164399",
+    "Q25428"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "C = \\frac{Q}{V}"
+  },
+  {
+   "id": "Q170749",
+   "name": "Oberflächenspannung",
+   "groessen": [
+    "Kraft",
+    "Oberflächenspannung",
+    "Länge"
+   ],
+   "qids": [
+    "Q11402",
+    "Q170749",
+    "Q36253"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "\\gamma = \\frac{\\mathrm{d} F}{\\mathrm{d} l}"
+  },
+  {
+   "id": "Q172623",
+   "name": "Molalität",
+   "groessen": [
+    "Masse einer Komponente",
+    "Stoffmenge einer Komponente",
+    "Molalität"
+   ],
+   "qids": [
+    "Q108132729",
+    "Q108147201",
+    "Q172623"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "b_{\\mathrm{B}} = n_{\\mathrm{B}}/m_{\\mathrm{A}}"
+  },
+  {
+   "id": "Q177897",
+   "name": "Induktivität",
+   "groessen": [
+    "magnetischer Gesamtfluss",
+    "Induktivität",
+    "elektrische Stromstärke"
+   ],
+   "qids": [
+    "Q118255404",
+    "Q177897",
+    "Q29996"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "L = \\frac{\\Psi}{I}"
+  },
+  {
+   "id": "Q179388",
+   "name": "Wärmekapazität",
+   "groessen": [
+    "Wärmekapazität",
+    "thermodynamische Temperatur",
+    "Wärme"
+   ],
+   "qids": [
+    "Q179388",
+    "Q264647",
+    "Q44432"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "C = \\frac{\\mathrm{d} Q}{\\mathrm{d} T}"
+  },
+  {
+   "id": "Q186300",
+   "name": "Winkelbeschleunigung",
+   "groessen": [
+    "Winkelgeschwindigkeit",
+    "Winkelbeschleunigung",
+    "Dauer"
+   ],
+   "qids": [
+    "Q161635",
+    "Q186300",
+    "Q2199864"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "\\boldsymbol{\\alpha} = \\frac{\\mathrm{d} \\boldsymbol{\\omega}}{\\mathrm{d} t}"
+  },
+  {
+   "id": "Q206799",
+   "name": "elektrische Energie",
+   "groessen": [
+    "Zeit",
+    "elektrische Energie",
+    "elektrische Leistung"
+   ],
+   "qids": [
+    "Q11471",
+    "Q206799",
+    "Q27137"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "W= P \\cdot t"
+  },
+  {
+   "id": "Q208476",
+   "name": "Raumwinkel",
+   "groessen": [
+    "Flächeninhalt",
+    "Radius",
+    "Raumwinkel"
+   ],
+   "qids": [
+    "Q11500",
+    "Q173817",
+    "Q208476"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:2",
+   "formel_tex": "\\Omega = A / r^2"
+  },
+  {
+   "id": "Q210009",
+   "name": "Stromwärmegesetz",
+   "groessen": [
+    "elektrische Spannung",
+    "elektrische Leistung",
+    "elektrische Stromstärke"
+   ],
+   "qids": [
+    "Q25428",
+    "Q27137",
+    "Q29996"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "P=IV"
+  },
+  {
+   "id": "Q211569",
+   "name": "Permittivität",
+   "groessen": [
+    "elektrische Feldstärke",
+    "Permittivität",
+    "elektrische Flussdichte"
+   ],
+   "qids": [
+    "Q20989",
+    "Q211569",
+    "Q371907"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "\\boldsymbol{D} = \\varepsilon \\boldsymbol{E}"
+  },
+  {
+   "id": "Q217361",
+   "name": "Gruppengeschwindigkeit",
+   "groessen": [
+    "Gruppengeschwindigkeit",
+    "Kreiswellenzahl",
+    "Kreisfrequenz"
+   ],
+   "qids": [
+    "Q217361",
+    "Q30338487",
+    "Q834020"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "c_{\\mathrm{g}} = \\frac{\\mathrm{d} \\omega}{\\mathrm{d} k}"
+  },
+  {
+   "id": "Q234072",
+   "name": "elektrische Stromdichte",
+   "groessen": [
+    "Geschwindigkeitsvektor",
+    "elektrische Stromdichte",
+    "elektrische Ladungsdichte"
+   ],
+   "qids": [
+    "Q11465",
+    "Q234072",
+    "Q69425629"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "\\boldsymbol{J} = \\rho \\boldsymbol{v}"
+  },
+  {
+   "id": "Q256106",
+   "name": "Äquivalentdosis",
+   "groessen": [
+    "Qualitätsfaktor",
+    "Energiedosis",
+    "Äquivalentdosis"
+   ],
+   "qids": [
+    "Q2122099",
+    "Q215313",
+    "Q256106"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "H = Q D"
+  },
+  {
+   "id": "Q317949",
+   "name": "Aktivität",
+   "groessen": [
+    "Dauer",
+    "Aktivität",
+    "Anzahl der Atomkerne"
+   ],
+   "qids": [
+    "Q2199864",
+    "Q317949",
+    "Q98069147"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "A = -\\frac{\\mathrm{d} N}{\\mathrm{d} t}"
+  },
+  {
+   "id": "Q331854",
+   "name": "Überführungszahl",
+   "groessen": [
+    "elektrische Stromstärke des Ions",
+    "elektrische Stromstärke",
+    "Überführungszahl"
+   ],
+   "qids": [
+    "Q108167057",
+    "Q29996",
+    "Q331854"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "t_{\\mathrm{B}} = \\frac{i_{\\mathrm{B}}}{i}"
+  },
+  {
+   "id": "Q332329",
+   "name": "Übergangswiderstand",
+   "groessen": [
+    "elektrische Stromdichte",
+    "Übergangswiderstand",
+    "elektrisches Potential"
+   ],
+   "qids": [
+    "Q234072",
+    "Q332329",
+    "Q55451"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "r_c = \\left\\{ \\frac{\\partial V}{\\partial J} \\right\\}_{V=0}"
+  },
+  {
+   "id": "Q336894",
+   "name": "Schallschnelle",
+   "groessen": [
+    "Dauer",
+    "Schallschnelle",
+    "Schallauslenkung"
+   ],
+   "qids": [
+    "Q2199864",
+    "Q336894",
+    "Q779457"
+   ],
+   "typ": "multiplikativ",
+   "signatur": "1:1:1",
+   "formel_tex": "\\boldsymbol{u} = \\frac{\\partial \\boldsymbol{\\delta}}{\\partial t}"
+  }
+ ],
+ "beispiele_additiv": [
+  {
+   "id": "Q110346",
+   "name": "Baryonenzahl",
+   "groessen": [
+    "Anzahl der Quarks",
+    "Anzahl der Antiquarks",
+    "Baryonenzahl"
+   ],
+   "qids": [
+    "Q109513727",
+    "Q109513739",
+    "Q110346"
+   ],
+   "typ": "additiv",
+   "signatur": "1:1:1 (Summe)",
+   "formel_tex": "B = \\frac{1}{3} \\left(n_{\\mathrm{q}} - n_{\\bar{\\mathrm{q}}}\\right)"
+  },
+  {
+   "id": "Q122192",
+   "name": "Redundanz",
+   "groessen": [
+    "maximale Entropie",
+    "Redundanz",
+    "Entropie"
+   ],
+   "qids": [
+    "Q106416338",
+    "Q122192",
+    "Q204570"
+   ],
+   "typ": "additiv",
+   "signatur": "1:1:1 (Summe)",
+   "formel_tex": "R = H_0 - H"
+  },
+  {
+   "id": "Q184550",
+   "name": "mechanische Energie",
+   "groessen": [
+    "potentielle Energie",
+    "mechanische Energie",
+    "kinetische Energie"
+   ],
+   "qids": [
+    "Q155640",
+    "Q184550",
+    "Q46276"
+   ],
+   "typ": "additiv",
+   "signatur": "1:1:1 (Summe)",
+   "formel_tex": "E = T + V"
+  },
+  {
+   "id": "Q185836",
+   "name": "Lebensalter",
+   "groessen": [
+    "Zeit",
+    "Lebensalter",
+    "Geburtsdatum"
+   ],
+   "qids": [
+    "Q11471",
+    "Q185836",
+    "Q2389905"
+   ],
+   "typ": "additiv",
+   "signatur": "1:1:1 (Summe)",
+   "formel_tex": "a = t - t_{\\mathrm{b}}"
+  },
+  {
+   "id": "Q212750",
+   "name": "Abplattung",
+   "groessen": [
+    "kleine Halbachse",
+    "große Halbachse",
+    "Abplattung"
+   ],
+   "qids": [
+    "Q1371512",
+    "Q171594",
+    "Q212750"
+   ],
+   "typ": "additiv",
+   "signatur": "1:1:1 (Summe)",
+   "formel_tex": "f =\\frac {a - b}{a}"
+  },
+  {
+   "id": "Q331466",
+   "name": "Überdruck",
+   "groessen": [
+    "Überdruck",
+    "Druck",
+    "Außendruck"
+   ],
+   "qids": [
+    "Q331466",
+    "Q39552",
+    "Q789775"
+   ],
+   "typ": "additiv",
+   "signatur": "1:1:1 (Summe)",
+   "formel_tex": "p_{\\mathrm{e}} = p - p_{\\mathrm{amb}}"
+  },
+  {
+   "id": "Q371907",
+   "name": "elektrische Flussdichte",
+   "groessen": [
+    "elektrische Polarisation",
+    "elektrische Feldstärke",
+    "elektrische Flussdichte"
+   ],
+   "qids": [
+    "Q1050425",
+    "Q20989",
+    "Q371907"
+   ],
+   "typ": "additiv",
+   "signatur": "1:1:1 (Summe)",
+   "formel_tex": "\\boldsymbol{D} = \\varepsilon_0 \\boldsymbol{E} + \\boldsymbol{P}"
+  },
+  {
+   "id": "Q752412",
+   "name": "gibbssche Phasenregel",
+   "groessen": [
+    "Anzahl der Komponenten eines thermodynamischen Systems",
+    "Anzahl der Phasen",
+    "Anzahl der Freiheitsgrade"
+   ],
+   "qids": [
+    "Q109568482",
+    "Q109568490",
+    "Q3253731"
+   ],
+   "typ": "additiv",
+   "signatur": "1:1:1 (Summe)",
+   "formel_tex": "F = C - P + 2"
+  },
+  {
+   "id": "Q772067",
+   "name": "Laplace-Matrix",
+   "groessen": [
+    "Gradmatrix",
+    "Adjazenzmatrix",
+    "Laplace-Matrix"
+   ],
+   "qids": [
+    "Q3085391",
+    "Q727035",
+    "Q772067"
+   ],
+   "typ": "additiv",
+   "signatur": "1:1:1 (Summe)",
+   "formel_tex": "L = D - A"
+  },
+  {
+   "id": "Q828137",
+   "name": "Verdichtungsverhältnis",
+   "groessen": [
+    "Kompressionsvolumen",
+    "Hubraum",
+    "Verdichtungsverhältnis"
+   ],
+   "qids": [
+    "Q109461644",
+    "Q466511",
+    "Q828137"
+   ],
+   "typ": "additiv",
+   "signatur": "1:1:1 (Summe)",
+   "formel_tex": "\\varepsilon =\\frac{V_{\\mathrm{h}} + V_{\\mathrm{k}}}{V_{\\mathrm{k}}}"
+  },
+  {
+   "id": "Q1193682",
+   "name": "Entfernungsmodul",
+   "groessen": [
+    "Entfernungsmodul",
+    "scheinbare Helligkeit",
+    "absolute Helligkeit"
+   ],
+   "qids": [
+    "Q1193682",
+    "Q124313",
+    "Q159653"
+   ],
+   "typ": "additiv",
+   "signatur": "1:1:1 (Summe)",
+   "formel_tex": "\\mu = m - M"
+  },
+  {
+   "id": "Q1571163",
+   "name": "Massenexzess",
+   "groessen": [
+    "Massenzahl",
+    "Ruhemasse des Atoms",
+    "Massenexzess"
+   ],
+   "qids": [
+    "Q101395",
+    "Q108211288",
+    "Q1571163"
+   ],
+   "typ": "additiv",
+   "signatur": "1:1:1 (Summe)",
+   "formel_tex": "\\Delta = m_{\\mathrm{a}} - A \\, m_{\\mathrm{u}}"
+  },
+  {
+   "id": "Q7682878",
+   "name": "tangentiale und senkrechte Komponente",
+   "groessen": [
+    "Vektor",
+    "parallel vector",
+    "Normalenvektor"
+   ],
+   "qids": [
+    "Q13471665",
+    "Q55091060",
+    "Q56353263"
+   ],
+   "typ": "additiv",
+   "signatur": "1:1:1 (Summe)",
+   "formel_tex": "\\boldsymbol{v} = \\boldsymbol{v}_{\\parallel} + \\boldsymbol{v}_{\\perp}"
+  },
+  {
+   "id": "Q50379085",
+   "name": "Sterbealter",
+   "groessen": [
+    "Todesdatum",
+    "Geburtsdatum",
+    "Sterbealter"
+   ],
+   "qids": [
+    "Q18748141",
+    "Q2389905",
+    "Q50379085"
+   ],
+   "typ": "additiv",
+   "signatur": "1:1:1 (Summe)",
+   "formel_tex": "a = t_{\\mathrm{d}} - t_{\\mathrm{b}}"
+  },
+  {
+   "id": "Q51590984",
+   "name": "number of valid votes",
+   "groessen": [
+    "number of ballots cast",
+    "number of valid votes",
+    "Anzahl ungültiger Stimmen"
+   ],
+   "qids": [
+    "Q51590868",
+    "Q51590984",
+    "Q51591542"
+   ],
+   "typ": "additiv",
+   "signatur": "1:1:1 (Summe)",
+   "formel_tex": "n_{\\mathrm{v}} = n_{\\mathrm{c}} - n_{\\mathrm{s}}"
+  },
+  {
+   "id": "Q74758530",
+   "name": "Celsius-Temperatur",
+   "groessen": [
+    "thermodynamische Temperatur",
+    "Celsius-Temperatur",
+    "Nullpunkt der Celsius-Temperatur"
+   ],
+   "qids": [
+    "Q264647",
+    "Q74758530",
+    "Q88008792"
+   ],
+   "typ": "additiv",
+   "signatur": "1:1:1 (Summe)",
+   "formel_tex": "t = T - T_0"
+  },
+  {
+   "id": "Q78514588",
+   "name": "Spannung-Strom-Phasenverschiebungswinkel",
+   "groessen": [
+    "Phasenwinkel der Spannung",
+    "Phasenwinkel der elektrischen Stromstärke",
+    "Phasenverschiebungswinkel"
+   ],
+   "qids": [
+    "Q119244742",
+    "Q119244874",
+    "Q97222919"
+   ],
+   "typ": "additiv",
+   "signatur": "1:1:1 (Summe)",
+   "formel_tex": "\\varphi = \\varphi_{\\mathrm{u}} - \\varphi_{\\mathrm{i}}"
+  },
+  {
+   "id": "Q87740091",
+   "name": "Schallabsorptionsgrad",
+   "groessen": [
+    "Schalldissipationsgrad",
+    "Schalltransmissionsgrad",
+    "Schallabsorptionsgrad"
+   ],
+   "qids": [
+    "Q87704607",
+    "Q87739606",
+    "Q87740091"
+   ],
+   "typ": "additiv",
+   "signatur": "1:1:1 (Summe)",
+   "formel_tex": "\\alpha = \\delta + \\tau"
+  },
+  {
+   "id": "Q103982270",
+   "name": "Beschleunigung des freien Falls",
+   "groessen": [
+    "Beschleunigung des freien Falls",
+    "Zentrifugalbeschleunigung",
+    "Gravitationsbeschleunigung"
+   ],
+   "qids": [
+    "Q103982270",
+    "Q2822921",
+    "Q30006"
+   ],
+   "typ": "additiv",
+   "signatur": "1:1:1 (Summe)",
+   "formel_tex": "\\boldsymbol{g} = \\boldsymbol{a}_{\\rm g} + \\boldsymbol{a}_{\\rm cf}"
+  },
+  {
+   "id": "Q105533558",
+   "name": "Verschiebungsvektor",
+   "groessen": [
+    "Teilchenortsvektor",
+    "Gleichgewichts-Ortsvektor",
+    "Verschiebungsvektor"
+   ],
+   "qids": [
+    "Q105533324",
+    "Q105533477",
+    "Q105533558"
+   ],
+   "typ": "additiv",
+   "signatur": "1:1:1 (Summe)",
+   "formel_tex": "\\boldsymbol{u} = \\boldsymbol{R} - \\boldsymbol{R}_0"
+  },
+  {
+   "id": "Q105882582",
+   "name": "composite motion",
+   "groessen": [
+    "Geschwindigkeitsvektor",
+    "transitional velocity",
+    "Relativgeschwindigkeit"
+   ],
+   "qids": [
+    "Q11465",
+    "Q132778985",
+    "Q1376323"
+   ],
+   "typ": "additiv",
+   "signatur": "1:1:1 (Summe)",
+   "formel_tex": "\\vec{v}_a=\\vec{v}_r+\\vec{v}_t"
+  },
+  {
+   "id": "Q107645914",
+   "name": "effektive Fläche",
+   "groessen": [
+    "effektive Fläche",
+    "Flügelfläche",
+    "Anstellwinkel"
+   ],
+   "qids": [
+    "Q107645914",
+    "Q1434854",
+    "Q370906"
+   ],
+   "typ": "additiv",
+   "signatur": "1:1:1 (Summe)",
+   "formel_tex": "S = A \\cos{\\alpha}"
+  },
+  {
+   "id": "Q115404934",
+   "name": "festgelegte Toleranz",
+   "groessen": [
+    "Höchstwert",
+    "Mindestwert",
+    "festgelegte Toleranz"
+   ],
+   "qids": [
+    "Q114067806",
+    "Q114067824",
+    "Q115404934"
+   ],
+   "typ": "additiv",
+   "signatur": "1:1:1 (Summe)",
+   "formel_tex": "t = U - L"
+  }
+ ],
+ "bezugstensoren_top": [
+  {
+   "schliessung_formel": "Q92020547",
+   "operatoren": [
+    "Masse",
+    "Dauer",
+    "Massenänderungsrate"
+   ],
+   "operator_qids": [
+    "Q11423",
+    "Q2199864",
+    "Q92020547"
+   ],
+   "schliessung": "[Masse]^-1 · [Dauer]^1 · [Massenänderungsrate]^1 = konst",
+   "anzahl_zeilen": 7,
+   "zeilen_vollstaendig": 0,
+   "zeilen": [
+    {
+     "groessen": [
+      "elektrische Stromstärke",
+      "elektrische Ladung",
+      "Exposition"
+     ],
+     "qids": [
+      "Q29996",
+      "Q1111",
+      "Q336938"
+     ],
+     "ueber": [
+      "Dauer",
+      "Masse",
+      "Massenänderungsrate"
+     ],
+     "formeln": [
+      "Q1111",
+      "Q336938"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "elektrische Stromstärke",
+      "elektrische Ladung",
+      "Ionendosis"
+     ],
+     "qids": [
+      "Q29996",
+      "Q1111",
+      "Q15149637"
+     ],
+     "ueber": [
+      "Dauer",
+      "Masse",
+      "Massenänderungsrate"
+     ],
+     "formeln": [
+      "Q1111",
+      "Q15149637"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "Geschwindigkeitsvektor",
+      "Beschleunigung",
+      "Kraft"
+     ],
+     "qids": [
+      "Q11465",
+      "Q11376",
+      "Q11402"
+     ],
+     "ueber": [
+      "Dauer",
+      "Masse",
+      "Massenänderungsrate"
+     ],
+     "formeln": [
+      "Q11376",
+      "Q11324904"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "Ortsvektor",
+      "Geschwindigkeitsvektor",
+      "Impuls"
+     ],
+     "qids": [
+      "Q192388",
+      "Q11465",
+      "Q41273"
+     ],
+     "ueber": [
+      "Dauer",
+      "Masse",
+      "Massenänderungsrate"
+     ],
+     "formeln": [
+      "Q11465",
+      "Q41273"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "yank",
+      "Kraft",
+      "Beschleunigung"
+     ],
+     "qids": [
+      "Q924148",
+      "Q11402",
+      "Q11376"
+     ],
+     "ueber": [
+      "Dauer",
+      "Masse",
+      "Massenänderungsrate"
+     ],
+     "formeln": [
+      "Q924148",
+      "Q11324904"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "Leistung",
+      "Energie",
+      "spezifische Energie"
+     ],
+     "qids": [
+      "Q25342",
+      "Q11379",
+      "Q3023293"
+     ],
+     "ueber": [
+      "Dauer",
+      "Masse",
+      "Massenänderungsrate"
+     ],
+     "formeln": [
+      "Q25342",
+      "Q3023293"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "Geschwindigkeitsvektor",
+      "Impuls",
+      "Kraft"
+     ],
+     "qids": [
+      "Q11465",
+      "Q41273",
+      "Q11402"
+     ],
+     "ueber": [
+      "Masse",
+      "Dauer",
+      "Massenänderungsrate"
+     ],
+     "formeln": [
+      "Q41273",
+      "Q104212301"
+     ],
+     "vollstaendig": false
+    }
+   ]
+  },
+  {
+   "schliessung_formel": "Q145623",
+   "operatoren": [
+    "Stoffmenge",
+    "Masse",
+    "molare Masse"
+   ],
+   "operator_qids": [
+    "Q104946",
+    "Q11423",
+    "Q145623"
+   ],
+   "schliessung": "[Stoffmenge]^1 · [Masse]^-1 · [molare Masse]^1 = konst",
+   "anzahl_zeilen": 6,
+   "zeilen_vollstaendig": 0,
+   "zeilen": [
+    {
+     "groessen": [
+      "spezifische Wärmekapazität",
+      "Wärmekapazität",
+      "molare Wärmekapazität"
+     ],
+     "qids": [
+      "Q487756",
+      "Q179388",
+      "Q2937190"
+     ],
+     "ueber": [
+      "Masse",
+      "Stoffmenge",
+      "molare Masse"
+     ],
+     "formeln": [
+      "Q487756",
+      "Q2937190"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "spezifische freie Energie",
+      "freie Energie",
+      "molare freie Energie"
+     ],
+     "qids": [
+      "Q76359554",
+      "Q865821",
+      "Q88862986"
+     ],
+     "ueber": [
+      "Masse",
+      "Stoffmenge",
+      "molare Masse"
+     ],
+     "formeln": [
+      "Q76359554",
+      "Q88862986"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "spezifische Enthalpie",
+      "Enthalpie",
+      "molare Enthalpie"
+     ],
+     "qids": [
+      "Q21572993",
+      "Q161064",
+      "Q88769977"
+     ],
+     "ueber": [
+      "Masse",
+      "Stoffmenge",
+      "molare Masse"
+     ],
+     "formeln": [
+      "Q21572993",
+      "Q88769977"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "molare Entropie",
+      "Entropie",
+      "spezifische Entropie"
+     ],
+     "qids": [
+      "Q68972876",
+      "Q45003",
+      "Q69423705"
+     ],
+     "ueber": [
+      "Stoffmenge",
+      "Masse",
+      "molare Masse"
+     ],
+     "formeln": [
+      "Q68972876",
+      "Q69423705"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "spezifische innere Energie",
+      "innere Energie",
+      "molare innere Energie"
+     ],
+     "qids": [
+      "Q76357367",
+      "Q180241",
+      "Q88523106"
+     ],
+     "ueber": [
+      "Masse",
+      "Stoffmenge",
+      "molare Masse"
+     ],
+     "formeln": [
+      "Q76357367",
+      "Q88523106"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "spezifische Gibbs-Energie",
+      "Gibbs-Energie",
+      "molare Gibbs-Energie"
+     ],
+     "qids": [
+      "Q76360636",
+      "Q334631",
+      "Q88863324"
+     ],
+     "ueber": [
+      "Masse",
+      "Stoffmenge",
+      "molare Masse"
+     ],
+     "formeln": [
+      "Q76360636",
+      "Q88863324"
+     ],
+     "vollstaendig": false
+    }
+   ]
+  },
+  {
+   "schliessung_formel": "Q29539",
+   "operatoren": [
+    "Masse",
+    "Dichte",
+    "Volumen"
+   ],
+   "operator_qids": [
+    "Q11423",
+    "Q29539",
+    "Q39297"
+   ],
+   "schliessung": "[Masse]^-1 · [Dichte]^1 · [Volumen]^1 = konst",
+   "anzahl_zeilen": 6,
+   "zeilen_vollstaendig": 0,
+   "zeilen": [
+    {
+     "groessen": [
+      "Exposition",
+      "elektrische Ladung",
+      "elektrische Ladungsdichte"
+     ],
+     "qids": [
+      "Q336938",
+      "Q1111",
+      "Q69425629"
+     ],
+     "ueber": [
+      "Masse",
+      "Volumen",
+      "Dichte"
+     ],
+     "formeln": [
+      "Q336938",
+      "Q69425629"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "Ionendosis",
+      "elektrische Ladung",
+      "elektrische Ladungsdichte"
+     ],
+     "qids": [
+      "Q15149637",
+      "Q1111",
+      "Q69425629"
+     ],
+     "ueber": [
+      "Masse",
+      "Volumen",
+      "Dichte"
+     ],
+     "formeln": [
+      "Q15149637",
+      "Q69425629"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "Impuls",
+      "Geschwindigkeitsvektor",
+      "spezifischer Massenfluss"
+     ],
+     "qids": [
+      "Q41273",
+      "Q11465",
+      "Q3265048"
+     ],
+     "ueber": [
+      "Masse",
+      "Dichte",
+      "Volumen"
+     ],
+     "formeln": [
+      "Q41273",
+      "Q3265048"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "Massenkonzentration",
+      "Masse einer Komponente",
+      "Massenanteil"
+     ],
+     "qids": [
+      "Q589446",
+      "Q108132729",
+      "Q899138"
+     ],
+     "ueber": [
+      "Volumen",
+      "Masse",
+      "Dichte"
+     ],
+     "formeln": [
+      "Q589446",
+      "Q899138"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "spezifische Wärmekapazität",
+      "Wärmekapazität",
+      "Wärmespeicherzahl"
+     ],
+     "qids": [
+      "Q487756",
+      "Q179388",
+      "Q900661"
+     ],
+     "ueber": [
+      "Masse",
+      "Volumen",
+      "Dichte"
+     ],
+     "formeln": [
+      "Q487756",
+      "Q900661"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "Aktivitätskonzentration",
+      "Aktivität",
+      "spezifische Aktivität"
+     ],
+     "qids": [
+      "Q423263",
+      "Q317949",
+      "Q2823748"
+     ],
+     "ueber": [
+      "Volumen",
+      "Masse",
+      "Dichte"
+     ],
+     "formeln": [
+      "Q423263",
+      "Q2823748"
+     ],
+     "vollstaendig": false
+    }
+   ]
+  },
+  {
+   "schliessung_formel": "Q11465",
+   "operatoren": [
+    "Geschwindigkeitsvektor",
+    "Ortsvektor",
+    "Dauer"
+   ],
+   "operator_qids": [
+    "Q11465",
+    "Q192388",
+    "Q2199864"
+   ],
+   "schliessung": "[Geschwindigkeitsvektor]^1 · [Ortsvektor]^-1 · [Dauer]^1 = konst",
+   "anzahl_zeilen": 4,
+   "zeilen_vollstaendig": 0,
+   "zeilen": [
+    {
+     "groessen": [
+      "Impuls",
+      "Masse",
+      "Massenänderungsrate"
+     ],
+     "qids": [
+      "Q41273",
+      "Q11423",
+      "Q92020547"
+     ],
+     "ueber": [
+      "Geschwindigkeitsvektor",
+      "Dauer",
+      "Ortsvektor"
+     ],
+     "formeln": [
+      "Q41273",
+      "Q92020547"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "yank",
+      "Kraft",
+      "mechanische Leistung"
+     ],
+     "qids": [
+      "Q924148",
+      "Q11402",
+      "Q80806956"
+     ],
+     "ueber": [
+      "Dauer",
+      "Geschwindigkeitsvektor",
+      "Ortsvektor"
+     ],
+     "formeln": [
+      "Q924148",
+      "Q80806956"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "Drehmomentvektor",
+      "Kraft",
+      "mechanische Leistung"
+     ],
+     "qids": [
+      "Q17232562",
+      "Q11402",
+      "Q80806956"
+     ],
+     "ueber": [
+      "Ortsvektor",
+      "Geschwindigkeitsvektor",
+      "Dauer"
+     ],
+     "formeln": [
+      "Q17232562",
+      "Q80806956"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "Drehmomentvektor",
+      "Kraft",
+      "Impuls"
+     ],
+     "qids": [
+      "Q17232562",
+      "Q11402",
+      "Q41273"
+     ],
+     "ueber": [
+      "Ortsvektor",
+      "Dauer",
+      "Geschwindigkeitsvektor"
+     ],
+     "formeln": [
+      "Q17232562",
+      "Q104212301"
+     ],
+     "vollstaendig": false
+    }
+   ]
+  },
+  {
+   "schliessung_formel": "Q104212301",
+   "operatoren": [
+    "Kraft",
+    "Dauer",
+    "Impuls"
+   ],
+   "operator_qids": [
+    "Q11402",
+    "Q2199864",
+    "Q41273"
+   ],
+   "schliessung": "[Kraft]^1 · [Dauer]^1 · [Impuls]^-1 = konst",
+   "anzahl_zeilen": 3,
+   "zeilen_vollstaendig": 0,
+   "zeilen": [
+    {
+     "groessen": [
+      "Beschleunigung",
+      "Geschwindigkeitsvektor",
+      "mechanische Leistung"
+     ],
+     "qids": [
+      "Q11376",
+      "Q11465",
+      "Q80806956"
+     ],
+     "ueber": [
+      "Dauer",
+      "Kraft",
+      "Impuls"
+     ],
+     "formeln": [
+      "Q11376",
+      "Q80806956"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "Geschwindigkeitsvektor",
+      "Ortsvektor",
+      "Drehmomentvektor"
+     ],
+     "qids": [
+      "Q11465",
+      "Q192388",
+      "Q17232562"
+     ],
+     "ueber": [
+      "Dauer",
+      "Kraft",
+      "Impuls"
+     ],
+     "formeln": [
+      "Q11465",
+      "Q17232562"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "Drehimpuls",
+      "Ortsvektor",
+      "Drehmomentvektor"
+     ],
+     "qids": [
+      "Q161254",
+      "Q192388",
+      "Q17232562"
+     ],
+     "ueber": [
+      "Impuls",
+      "Kraft",
+      "Dauer"
+     ],
+     "formeln": [
+      "Q161254",
+      "Q17232562"
+     ],
+     "vollstaendig": false
+    }
+   ]
+  },
+  {
+   "schliessung_formel": "Q11376",
+   "operatoren": [
+    "Beschleunigung",
+    "Geschwindigkeitsvektor",
+    "Dauer"
+   ],
+   "operator_qids": [
+    "Q11376",
+    "Q11465",
+    "Q2199864"
+   ],
+   "schliessung": "[Beschleunigung]^1 · [Geschwindigkeitsvektor]^-1 · [Dauer]^1 = konst",
+   "anzahl_zeilen": 3,
+   "zeilen_vollstaendig": 1,
+   "zeilen": [
+    {
+     "groessen": [
+      "Impuls",
+      "Masse",
+      "Kraft"
+     ],
+     "qids": [
+      "Q41273",
+      "Q11423",
+      "Q11402"
+     ],
+     "ueber": [
+      "Geschwindigkeitsvektor",
+      "Beschleunigung",
+      "Dauer"
+     ],
+     "formeln": [
+      "Q41273",
+      "Q11324904",
+      "Q104212301"
+     ],
+     "vollstaendig": true
+    },
+    {
+     "groessen": [
+      "Kraft",
+      "Masse",
+      "Massenänderungsrate"
+     ],
+     "qids": [
+      "Q11402",
+      "Q11423",
+      "Q92020547"
+     ],
+     "ueber": [
+      "Beschleunigung",
+      "Dauer",
+      "Geschwindigkeitsvektor"
+     ],
+     "formeln": [
+      "Q11324904",
+      "Q92020547"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "mechanische Leistung",
+      "Kraft",
+      "Impuls"
+     ],
+     "qids": [
+      "Q80806956",
+      "Q11402",
+      "Q41273"
+     ],
+     "ueber": [
+      "Geschwindigkeitsvektor",
+      "Dauer",
+      "Beschleunigung"
+     ],
+     "formeln": [
+      "Q80806956",
+      "Q104212301"
+     ],
+     "vollstaendig": false
+    }
+   ]
+  },
+  {
+   "schliessung_formel": "Q487112",
+   "operatoren": [
+    "Stoffmenge",
+    "Volumen",
+    "molares Volumen"
+   ],
+   "operator_qids": [
+    "Q104946",
+    "Q39297",
+    "Q487112"
+   ],
+   "schliessung": "[Stoffmenge]^1 · [Volumen]^-1 · [molares Volumen]^1 = konst",
+   "anzahl_zeilen": 3,
+   "zeilen_vollstaendig": 0,
+   "zeilen": [
+    {
+     "groessen": [
+      "Dichte",
+      "Masse",
+      "molare Masse"
+     ],
+     "qids": [
+      "Q29539",
+      "Q11423",
+      "Q145623"
+     ],
+     "ueber": [
+      "Volumen",
+      "Stoffmenge",
+      "molares Volumen"
+     ],
+     "formeln": [
+      "Q29539",
+      "Q145623"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "Stoffmengenanteil",
+      "Stoffmenge einer Komponente",
+      "Stoffmengenkonzentration"
+     ],
+     "qids": [
+      "Q125264",
+      "Q108147201",
+      "Q672821"
+     ],
+     "ueber": [
+      "Stoffmenge",
+      "Volumen",
+      "molares Volumen"
+     ],
+     "formeln": [
+      "Q125264",
+      "Q672821"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "Wärmespeicherzahl",
+      "Wärmekapazität",
+      "molare Wärmekapazität"
+     ],
+     "qids": [
+      "Q900661",
+      "Q179388",
+      "Q2937190"
+     ],
+     "ueber": [
+      "Volumen",
+      "Stoffmenge",
+      "molares Volumen"
+     ],
+     "formeln": [
+      "Q900661",
+      "Q2937190"
+     ],
+     "vollstaendig": false
+    }
+   ]
+  },
+  {
+   "schliessung_formel": "Q56298294",
+   "operatoren": [
+    "Masse",
+    "Länge",
+    "längenbezogene Masse"
+   ],
+   "operator_qids": [
+    "Q11423",
+    "Q36253",
+    "Q56298294"
+   ],
+   "schliessung": "[Masse]^-1 · [Länge]^1 · [längenbezogene Masse]^1 = konst",
+   "anzahl_zeilen": 3,
+   "zeilen_vollstaendig": 0,
+   "zeilen": [
+    {
+     "groessen": [
+      "Exposition",
+      "elektrische Ladung",
+      "elektrische Linienladungsdichte"
+     ],
+     "qids": [
+      "Q336938",
+      "Q1111",
+      "Q77267838"
+     ],
+     "ueber": [
+      "Masse",
+      "Länge",
+      "längenbezogene Masse"
+     ],
+     "formeln": [
+      "Q336938",
+      "Q77267838"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "Ionendosis",
+      "elektrische Ladung",
+      "elektrische Linienladungsdichte"
+     ],
+     "qids": [
+      "Q15149637",
+      "Q1111",
+      "Q77267838"
+     ],
+     "ueber": [
+      "Masse",
+      "Länge",
+      "längenbezogene Masse"
+     ],
+     "formeln": [
+      "Q15149637",
+      "Q77267838"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "Oberflächenspannung",
+      "Kraft",
+      "Beschleunigung"
+     ],
+     "qids": [
+      "Q170749",
+      "Q11402",
+      "Q11376"
+     ],
+     "ueber": [
+      "Länge",
+      "Masse",
+      "längenbezogene Masse"
+     ],
+     "formeln": [
+      "Q170749",
+      "Q11324904"
+     ],
+     "vollstaendig": false
+    }
+   ]
+  },
+  {
+   "schliessung_formel": "Q11324904",
+   "operatoren": [
+    "Beschleunigung",
+    "Kraft",
+    "Masse"
+   ],
+   "operator_qids": [
+    "Q11376",
+    "Q11402",
+    "Q11423"
+   ],
+   "schliessung": "[Beschleunigung]^-1 · [Kraft]^1 · [Masse]^-1 = konst",
+   "anzahl_zeilen": 2,
+   "zeilen_vollstaendig": 1,
+   "zeilen": [
+    {
+     "groessen": [
+      "Geschwindigkeitsvektor",
+      "Dauer",
+      "Impuls"
+     ],
+     "qids": [
+      "Q11465",
+      "Q2199864",
+      "Q41273"
+     ],
+     "ueber": [
+      "Beschleunigung",
+      "Kraft",
+      "Masse"
+     ],
+     "formeln": [
+      "Q11376",
+      "Q104212301",
+      "Q41273"
+     ],
+     "vollstaendig": true
+    },
+    {
+     "groessen": [
+      "Impuls",
+      "Geschwindigkeitsvektor",
+      "mechanische Leistung"
+     ],
+     "qids": [
+      "Q41273",
+      "Q11465",
+      "Q80806956"
+     ],
+     "ueber": [
+      "Masse",
+      "Kraft",
+      "Beschleunigung"
+     ],
+     "formeln": [
+      "Q41273",
+      "Q80806956"
+     ],
+     "vollstaendig": false
+    }
+   ]
+  },
+  {
+   "schliessung_formel": "Q1907514",
+   "operatoren": [
+    "Masse",
+    "Flächeninhalt",
+    "Massenbelegung"
+   ],
+   "operator_qids": [
+    "Q11423",
+    "Q11500",
+    "Q1907514"
+   ],
+   "schliessung": "[Masse]^-1 · [Flächeninhalt]^1 · [Massenbelegung]^1 = konst",
+   "anzahl_zeilen": 2,
+   "zeilen_vollstaendig": 0,
+   "zeilen": [
+    {
+     "groessen": [
+      "Exposition",
+      "elektrische Ladung",
+      "Oberflächenladungsdichte"
+     ],
+     "qids": [
+      "Q336938",
+      "Q1111",
+      "Q12799324"
+     ],
+     "ueber": [
+      "Masse",
+      "Flächeninhalt",
+      "Massenbelegung"
+     ],
+     "formeln": [
+      "Q336938",
+      "Q12799324"
+     ],
+     "vollstaendig": false
+    },
+    {
+     "groessen": [
+      "Oberflächenladungsdichte",
+      "elektrische Ladung",
+      "Ionendosis"
+     ],
+     "qids": [
+      "Q12799324",
+      "Q1111",
+      "Q15149637"
+     ],
+     "ueber": [
+      "Flächeninhalt",
+      "Masse",
+      "Massenbelegung"
+     ],
+     "formeln": [
+      "Q12799324",
+      "Q15149637"
+     ],
+     "vollstaendig": false
+    }
+   ]
+  }
+ ],
+ "ergaenzungen_top": [
+  {
+   "tensor": "[Masse]^-1 · [Dauer]^1 · [Massenänderungsrate]^1 = konst",
+   "von": "elektrische Stromstärke",
+   "nach": "Exposition",
+   "ueber": "Massenänderungsrate",
+   "exponent": "-1",
+   "art": "kette",
+   "von_qid": "Q29996",
+   "nach_qid": "Q336938",
+   "ueber_qid": "Q92020547",
+   "abgeleitet_aus": "Q1111, Q336938, Schließung Q92020547",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Masse]^-1 · [Dauer]^1 · [Massenänderungsrate]^1 = konst",
+   "von": "elektrische Stromstärke",
+   "nach": "Ionendosis",
+   "ueber": "Massenänderungsrate",
+   "exponent": "-1",
+   "art": "kette",
+   "von_qid": "Q29996",
+   "nach_qid": "Q15149637",
+   "ueber_qid": "Q92020547",
+   "abgeleitet_aus": "Q1111, Q15149637, Schließung Q92020547",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Masse]^-1 · [Dauer]^1 · [Massenänderungsrate]^1 = konst",
+   "von": "Geschwindigkeitsvektor",
+   "nach": "Kraft",
+   "ueber": "Massenänderungsrate",
+   "exponent": "1",
+   "art": "kette",
+   "von_qid": "Q11465",
+   "nach_qid": "Q11402",
+   "ueber_qid": "Q92020547",
+   "abgeleitet_aus": "Q11376, Q11324904, Schließung Q92020547",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Masse]^-1 · [Dauer]^1 · [Massenänderungsrate]^1 = konst",
+   "von": "Ortsvektor",
+   "nach": "Impuls",
+   "ueber": "Massenänderungsrate",
+   "exponent": "1",
+   "art": "kette",
+   "von_qid": "Q192388",
+   "nach_qid": "Q41273",
+   "ueber_qid": "Q92020547",
+   "abgeleitet_aus": "Q11465, Q41273, Schließung Q92020547",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Masse]^-1 · [Dauer]^1 · [Massenänderungsrate]^1 = konst",
+   "von": "yank",
+   "nach": "Beschleunigung",
+   "ueber": "Massenänderungsrate",
+   "exponent": "-1",
+   "art": "kette",
+   "von_qid": "Q924148",
+   "nach_qid": "Q11376",
+   "ueber_qid": "Q92020547",
+   "abgeleitet_aus": "Q924148, Q11324904, Schließung Q92020547",
+   "dimension": "ohne_dimension"
+  },
+  {
+   "tensor": "[Masse]^-1 · [Dauer]^1 · [Massenänderungsrate]^1 = konst",
+   "von": "Leistung",
+   "nach": "spezifische Energie",
+   "ueber": "Massenänderungsrate",
+   "exponent": "-1",
+   "art": "parallel",
+   "von_qid": "Q25342",
+   "nach_qid": "Q3023293",
+   "ueber_qid": "Q92020547",
+   "abgeleitet_aus": "Q25342, Q3023293, Schließung Q92020547",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Stoffmenge]^1 · [Masse]^-1 · [molare Masse]^1 = konst",
+   "von": "spezifische Wärmekapazität",
+   "nach": "molare Wärmekapazität",
+   "ueber": "molare Masse",
+   "exponent": "1",
+   "art": "parallel",
+   "von_qid": "Q487756",
+   "nach_qid": "Q2937190",
+   "ueber_qid": "Q145623",
+   "abgeleitet_aus": "Q487756, Q2937190, Schließung Q145623",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Stoffmenge]^1 · [Masse]^-1 · [molare Masse]^1 = konst",
+   "von": "spezifische freie Energie",
+   "nach": "molare freie Energie",
+   "ueber": "molare Masse",
+   "exponent": "1",
+   "art": "parallel",
+   "von_qid": "Q76359554",
+   "nach_qid": "Q88862986",
+   "ueber_qid": "Q145623",
+   "abgeleitet_aus": "Q76359554, Q88862986, Schließung Q145623",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Stoffmenge]^1 · [Masse]^-1 · [molare Masse]^1 = konst",
+   "von": "spezifische Enthalpie",
+   "nach": "molare Enthalpie",
+   "ueber": "molare Masse",
+   "exponent": "1",
+   "art": "parallel",
+   "von_qid": "Q21572993",
+   "nach_qid": "Q88769977",
+   "ueber_qid": "Q145623",
+   "abgeleitet_aus": "Q21572993, Q88769977, Schließung Q145623",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Stoffmenge]^1 · [Masse]^-1 · [molare Masse]^1 = konst",
+   "von": "molare Entropie",
+   "nach": "spezifische Entropie",
+   "ueber": "molare Masse",
+   "exponent": "-1",
+   "art": "parallel",
+   "von_qid": "Q68972876",
+   "nach_qid": "Q69423705",
+   "ueber_qid": "Q145623",
+   "abgeleitet_aus": "Q68972876, Q69423705, Schließung Q145623",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Stoffmenge]^1 · [Masse]^-1 · [molare Masse]^1 = konst",
+   "von": "spezifische innere Energie",
+   "nach": "molare innere Energie",
+   "ueber": "molare Masse",
+   "exponent": "1",
+   "art": "parallel",
+   "von_qid": "Q76357367",
+   "nach_qid": "Q88523106",
+   "ueber_qid": "Q145623",
+   "abgeleitet_aus": "Q76357367, Q88523106, Schließung Q145623",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Stoffmenge]^1 · [Masse]^-1 · [molare Masse]^1 = konst",
+   "von": "spezifische Gibbs-Energie",
+   "nach": "molare Gibbs-Energie",
+   "ueber": "molare Masse",
+   "exponent": "1",
+   "art": "parallel",
+   "von_qid": "Q76360636",
+   "nach_qid": "Q88863324",
+   "ueber_qid": "Q145623",
+   "abgeleitet_aus": "Q76360636, Q88863324, Schließung Q145623",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Masse]^-1 · [Dichte]^1 · [Volumen]^1 = konst",
+   "von": "Exposition",
+   "nach": "elektrische Ladungsdichte",
+   "ueber": "Dichte",
+   "exponent": "1",
+   "art": "parallel",
+   "von_qid": "Q336938",
+   "nach_qid": "Q69425629",
+   "ueber_qid": "Q29539",
+   "abgeleitet_aus": "Q336938, Q69425629, Schließung Q29539",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Masse]^-1 · [Dichte]^1 · [Volumen]^1 = konst",
+   "von": "Ionendosis",
+   "nach": "elektrische Ladungsdichte",
+   "ueber": "Dichte",
+   "exponent": "1",
+   "art": "parallel",
+   "von_qid": "Q15149637",
+   "nach_qid": "Q69425629",
+   "ueber_qid": "Q29539",
+   "abgeleitet_aus": "Q15149637, Q69425629, Schließung Q29539",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Masse]^-1 · [Dichte]^1 · [Volumen]^1 = konst",
+   "von": "Impuls",
+   "nach": "spezifischer Massenfluss",
+   "ueber": "Volumen",
+   "exponent": "-1",
+   "art": "parallel",
+   "von_qid": "Q41273",
+   "nach_qid": "Q3265048",
+   "ueber_qid": "Q39297",
+   "abgeleitet_aus": "Q41273, Q3265048, Schließung Q29539",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Masse]^-1 · [Dichte]^1 · [Volumen]^1 = konst",
+   "von": "Massenkonzentration",
+   "nach": "Massenanteil",
+   "ueber": "Dichte",
+   "exponent": "-1",
+   "art": "parallel",
+   "von_qid": "Q589446",
+   "nach_qid": "Q899138",
+   "ueber_qid": "Q29539",
+   "abgeleitet_aus": "Q589446, Q899138, Schließung Q29539",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Masse]^-1 · [Dichte]^1 · [Volumen]^1 = konst",
+   "von": "spezifische Wärmekapazität",
+   "nach": "Wärmespeicherzahl",
+   "ueber": "Dichte",
+   "exponent": "1",
+   "art": "parallel",
+   "von_qid": "Q487756",
+   "nach_qid": "Q900661",
+   "ueber_qid": "Q29539",
+   "abgeleitet_aus": "Q487756, Q900661, Schließung Q29539",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Masse]^-1 · [Dichte]^1 · [Volumen]^1 = konst",
+   "von": "Aktivitätskonzentration",
+   "nach": "spezifische Aktivität",
+   "ueber": "Dichte",
+   "exponent": "-1",
+   "art": "parallel",
+   "von_qid": "Q423263",
+   "nach_qid": "Q2823748",
+   "ueber_qid": "Q29539",
+   "abgeleitet_aus": "Q423263, Q2823748, Schließung Q29539",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Geschwindigkeitsvektor]^1 · [Ortsvektor]^-1 · [Dauer]^1 = konst",
+   "von": "Impuls",
+   "nach": "Massenänderungsrate",
+   "ueber": "Ortsvektor",
+   "exponent": "-1",
+   "art": "parallel",
+   "von_qid": "Q41273",
+   "nach_qid": "Q92020547",
+   "ueber_qid": "Q192388",
+   "abgeleitet_aus": "Q41273, Q92020547, Schließung Q11465",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Geschwindigkeitsvektor]^1 · [Ortsvektor]^-1 · [Dauer]^1 = konst",
+   "von": "yank",
+   "nach": "mechanische Leistung",
+   "ueber": "Ortsvektor",
+   "exponent": "1",
+   "art": "parallel",
+   "von_qid": "Q924148",
+   "nach_qid": "Q80806956",
+   "ueber_qid": "Q192388",
+   "abgeleitet_aus": "Q924148, Q80806956, Schließung Q11465",
+   "dimension": "ohne_dimension"
+  },
+  {
+   "tensor": "[Geschwindigkeitsvektor]^1 · [Ortsvektor]^-1 · [Dauer]^1 = konst",
+   "von": "Drehmomentvektor",
+   "nach": "mechanische Leistung",
+   "ueber": "Dauer",
+   "exponent": "-1",
+   "art": "parallel",
+   "von_qid": "Q17232562",
+   "nach_qid": "Q80806956",
+   "ueber_qid": "Q2199864",
+   "abgeleitet_aus": "Q17232562, Q80806956, Schließung Q11465",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Geschwindigkeitsvektor]^1 · [Ortsvektor]^-1 · [Dauer]^1 = konst",
+   "von": "Drehmomentvektor",
+   "nach": "Impuls",
+   "ueber": "Geschwindigkeitsvektor",
+   "exponent": "-1",
+   "art": "kette",
+   "von_qid": "Q17232562",
+   "nach_qid": "Q41273",
+   "ueber_qid": "Q11465",
+   "abgeleitet_aus": "Q17232562, Q104212301, Schließung Q11465",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Kraft]^1 · [Dauer]^1 · [Impuls]^-1 = konst",
+   "von": "Beschleunigung",
+   "nach": "mechanische Leistung",
+   "ueber": "Impuls",
+   "exponent": "1",
+   "art": "parallel",
+   "von_qid": "Q11376",
+   "nach_qid": "Q80806956",
+   "ueber_qid": "Q41273",
+   "abgeleitet_aus": "Q11376, Q80806956, Schließung Q104212301",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Kraft]^1 · [Dauer]^1 · [Impuls]^-1 = konst",
+   "von": "Geschwindigkeitsvektor",
+   "nach": "Drehmomentvektor",
+   "ueber": "Impuls",
+   "exponent": "1",
+   "art": "parallel",
+   "von_qid": "Q11465",
+   "nach_qid": "Q17232562",
+   "ueber_qid": "Q41273",
+   "abgeleitet_aus": "Q11465, Q17232562, Schließung Q104212301",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Kraft]^1 · [Dauer]^1 · [Impuls]^-1 = konst",
+   "von": "Drehimpuls",
+   "nach": "Drehmomentvektor",
+   "ueber": "Dauer",
+   "exponent": "-1",
+   "art": "parallel",
+   "von_qid": "Q161254",
+   "nach_qid": "Q17232562",
+   "ueber_qid": "Q2199864",
+   "abgeleitet_aus": "Q161254, Q17232562, Schließung Q104212301",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Beschleunigung]^1 · [Geschwindigkeitsvektor]^-1 · [Dauer]^1 = konst",
+   "von": "Kraft",
+   "nach": "Massenänderungsrate",
+   "ueber": "Geschwindigkeitsvektor",
+   "exponent": "-1",
+   "art": "kette",
+   "von_qid": "Q11402",
+   "nach_qid": "Q92020547",
+   "ueber_qid": "Q11465",
+   "abgeleitet_aus": "Q11324904, Q92020547, Schließung Q11376",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Beschleunigung]^1 · [Geschwindigkeitsvektor]^-1 · [Dauer]^1 = konst",
+   "von": "mechanische Leistung",
+   "nach": "Impuls",
+   "ueber": "Beschleunigung",
+   "exponent": "-1",
+   "art": "kette",
+   "von_qid": "Q80806956",
+   "nach_qid": "Q41273",
+   "ueber_qid": "Q11376",
+   "abgeleitet_aus": "Q80806956, Q104212301, Schließung Q11376",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Stoffmenge]^1 · [Volumen]^-1 · [molares Volumen]^1 = konst",
+   "von": "Dichte",
+   "nach": "molare Masse",
+   "ueber": "molares Volumen",
+   "exponent": "1",
+   "art": "parallel",
+   "von_qid": "Q29539",
+   "nach_qid": "Q145623",
+   "ueber_qid": "Q487112",
+   "abgeleitet_aus": "Q29539, Q145623, Schließung Q487112",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Stoffmenge]^1 · [Volumen]^-1 · [molares Volumen]^1 = konst",
+   "von": "Stoffmengenanteil",
+   "nach": "Stoffmengenkonzentration",
+   "ueber": "molares Volumen",
+   "exponent": "-1",
+   "art": "parallel",
+   "von_qid": "Q125264",
+   "nach_qid": "Q672821",
+   "ueber_qid": "Q487112",
+   "abgeleitet_aus": "Q125264, Q672821, Schließung Q487112",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Stoffmenge]^1 · [Volumen]^-1 · [molares Volumen]^1 = konst",
+   "von": "Wärmespeicherzahl",
+   "nach": "molare Wärmekapazität",
+   "ueber": "molares Volumen",
+   "exponent": "1",
+   "art": "parallel",
+   "von_qid": "Q900661",
+   "nach_qid": "Q2937190",
+   "ueber_qid": "Q487112",
+   "abgeleitet_aus": "Q900661, Q2937190, Schließung Q487112",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Masse]^-1 · [Länge]^1 · [längenbezogene Masse]^1 = konst",
+   "von": "Exposition",
+   "nach": "elektrische Linienladungsdichte",
+   "ueber": "längenbezogene Masse",
+   "exponent": "1",
+   "art": "parallel",
+   "von_qid": "Q336938",
+   "nach_qid": "Q77267838",
+   "ueber_qid": "Q56298294",
+   "abgeleitet_aus": "Q336938, Q77267838, Schließung Q56298294",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Masse]^-1 · [Länge]^1 · [längenbezogene Masse]^1 = konst",
+   "von": "Ionendosis",
+   "nach": "elektrische Linienladungsdichte",
+   "ueber": "längenbezogene Masse",
+   "exponent": "1",
+   "art": "parallel",
+   "von_qid": "Q15149637",
+   "nach_qid": "Q77267838",
+   "ueber_qid": "Q56298294",
+   "abgeleitet_aus": "Q15149637, Q77267838, Schließung Q56298294",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Masse]^-1 · [Länge]^1 · [längenbezogene Masse]^1 = konst",
+   "von": "Oberflächenspannung",
+   "nach": "Beschleunigung",
+   "ueber": "längenbezogene Masse",
+   "exponent": "-1",
+   "art": "kette",
+   "von_qid": "Q170749",
+   "nach_qid": "Q11376",
+   "ueber_qid": "Q56298294",
+   "abgeleitet_aus": "Q170749, Q11324904, Schließung Q56298294",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Masse]^-1 · [Flächeninhalt]^1 · [Massenbelegung]^1 = konst",
+   "von": "Exposition",
+   "nach": "Oberflächenladungsdichte",
+   "ueber": "Massenbelegung",
+   "exponent": "1",
+   "art": "parallel",
+   "von_qid": "Q336938",
+   "nach_qid": "Q12799324",
+   "ueber_qid": "Q1907514",
+   "abgeleitet_aus": "Q336938, Q12799324, Schließung Q1907514",
+   "dimension": "konsistent"
+  },
+  {
+   "tensor": "[Masse]^-1 · [Flächeninhalt]^1 · [Massenbelegung]^1 = konst",
+   "von": "Oberflächenladungsdichte",
+   "nach": "Ionendosis",
+   "ueber": "Massenbelegung",
+   "exponent": "-1",
+   "art": "parallel",
+   "von_qid": "Q12799324",
+   "nach_qid": "Q15149637",
+   "ueber_qid": "Q1907514",
+   "abgeleitet_aus": "Q12799324, Q15149637, Schließung Q1907514",
+   "dimension": "konsistent"
+  }
+ ]
+}

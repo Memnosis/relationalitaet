@@ -8,6 +8,8 @@ auftrag: Nils 04.11. – „Struktur analysieren, um mit Harvesting und Musterve
 reifegrad: E2 (reproduzierbar gerechnet, nicht extern geprüft)
 ---
 
+> **Weiterentwickelt** zur Fassung auf Paper-Niveau: `PAPER_TRINITAETEN_UND_BEZUGSTENSOREN_V0_1.md` (mit Datensatz unter `datensatz/`). Dieses Dokument bleibt als Entstehungsstufe erhalten.
+
 # Konzept 2 · Formelreduktion, Ministrukturen, Tensorkeime · mit Test an 100 + 2.676 Formeln
 
 **Kurz:**

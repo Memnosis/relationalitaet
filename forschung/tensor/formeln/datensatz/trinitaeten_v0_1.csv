@@ -1,0 +1,881 @@
+id,name,typ,signatur,groesse_1,groesse_2,groesse_3,qids,formel_tex
+Q212750,Abplattung,additiv,1:1:1 (Summe),kleine Halbachse,große Halbachse,Abplattung,Q1371512 Q171594 Q212750,f =\frac {a - b}{a}
+Q110346,Baryonenzahl,additiv,1:1:1 (Summe),Anzahl der Quarks,Anzahl der Antiquarks,Baryonenzahl,Q109513727 Q109513739 Q110346,B = \frac{1}{3} \left(n_{\mathrm{q}} - n_{\bar{\mathrm{q}}}\right)
+Q103982270,Beschleunigung des freien Falls,additiv,1:1:1 (Summe),Beschleunigung des freien Falls,Zentrifugalbeschleunigung,Gravitationsbeschleunigung,Q103982270 Q2822921 Q30006,\boldsymbol{g} = \boldsymbol{a}_{\rm g} + \boldsymbol{a}_{\rm cf}
+Q74758530,Celsius-Temperatur,additiv,1:1:1 (Summe),thermodynamische Temperatur,Celsius-Temperatur,Nullpunkt der Celsius-Temperatur,Q264647 Q74758530 Q88008792,t = T - T_0
+Q1193682,Entfernungsmodul,additiv,1:1:1 (Summe),Entfernungsmodul,scheinbare Helligkeit,absolute Helligkeit,Q1193682 Q124313 Q159653,\mu = m - M
+Q772067,Laplace-Matrix,additiv,1:1:1 (Summe),Gradmatrix,Adjazenzmatrix,Laplace-Matrix,Q3085391 Q727035 Q772067,L = D - A
+Q185836,Lebensalter,additiv,1:1:1 (Summe),Zeit,Lebensalter,Geburtsdatum,Q11471 Q185836 Q2389905,a = t - t_{\mathrm{b}}
+Q1571163,Massenexzess,additiv,1:1:1 (Summe),Massenzahl,Ruhemasse des Atoms,Massenexzess,Q101395 Q108211288 Q1571163,"\Delta = m_{\mathrm{a}} - A \, m_{\mathrm{u}}"
+Q122192,Redundanz,additiv,1:1:1 (Summe),maximale Entropie,Redundanz,Entropie,Q106416338 Q122192 Q204570,R = H_0 - H
+Q87740091,Schallabsorptionsgrad,additiv,1:1:1 (Summe),Schalldissipationsgrad,Schalltransmissionsgrad,Schallabsorptionsgrad,Q87704607 Q87739606 Q87740091,\alpha = \delta + \tau
+Q78514588,Spannung-Strom-Phasenverschiebungswinkel,additiv,1:1:1 (Summe),Phasenwinkel der Spannung,Phasenwinkel der elektrischen Stromstärke,Phasenverschiebungswinkel,Q119244742 Q119244874 Q97222919,\varphi = \varphi_{\mathrm{u}} - \varphi_{\mathrm{i}}
+Q50379085,Sterbealter,additiv,1:1:1 (Summe),Todesdatum,Geburtsdatum,Sterbealter,Q18748141 Q2389905 Q50379085,a = t_{\mathrm{d}} - t_{\mathrm{b}}
+Q828137,Verdichtungsverhältnis,additiv,1:1:1 (Summe),Kompressionsvolumen,Hubraum,Verdichtungsverhältnis,Q109461644 Q466511 Q828137,\varepsilon =\frac{V_{\mathrm{h}} + V_{\mathrm{k}}}{V_{\mathrm{k}}}
+Q105533558,Verschiebungsvektor,additiv,1:1:1 (Summe),Teilchenortsvektor,Gleichgewichts-Ortsvektor,Verschiebungsvektor,Q105533324 Q105533477 Q105533558,\boldsymbol{u} = \boldsymbol{R} - \boldsymbol{R}_0
+Q105882582,composite motion,additiv,1:1:1 (Summe),Geschwindigkeitsvektor,transitional velocity,Relativgeschwindigkeit,Q11465 Q132778985 Q1376323,\vec{v}_a=\vec{v}_r+\vec{v}_t
+Q107645914,effektive Fläche,additiv,1:1:1 (Summe),effektive Fläche,Flügelfläche,Anstellwinkel,Q107645914 Q1434854 Q370906,S = A \cos{\alpha}
+Q371907,elektrische Flussdichte,additiv,1:1:1 (Summe),elektrische Polarisation,elektrische Feldstärke,elektrische Flussdichte,Q1050425 Q20989 Q371907,\boldsymbol{D} = \varepsilon_0 \boldsymbol{E} + \boldsymbol{P}
+Q115404934,festgelegte Toleranz,additiv,1:1:1 (Summe),Höchstwert,Mindestwert,festgelegte Toleranz,Q114067806 Q114067824 Q115404934,t = U - L
+Q752412,gibbssche Phasenregel,additiv,1:1:1 (Summe),Anzahl der Komponenten eines thermodynamischen Systems,Anzahl der Phasen,Anzahl der Freiheitsgrade,Q109568482 Q109568490 Q3253731,F = C - P + 2
+Q184550,mechanische Energie,additiv,1:1:1 (Summe),potentielle Energie,mechanische Energie,kinetische Energie,Q155640 Q184550 Q46276,E = T + V
+Q51590984,number of valid votes,additiv,1:1:1 (Summe),number of ballots cast,number of valid votes,Anzahl ungültiger Stimmen,Q51590868 Q51590984 Q51591542,n_{\mathrm{v}} = n_{\mathrm{c}} - n_{\mathrm{s}}
+Q7682878,tangentiale und senkrechte Komponente,additiv,1:1:1 (Summe),Vektor,parallel vector,Normalenvektor,Q13471665 Q55091060 Q56353263,\boldsymbol{v} = \boldsymbol{v}_{\parallel} + \boldsymbol{v}_{\perp}
+Q331466,Überdruck,additiv,1:1:1 (Summe),Überdruck,Druck,Außendruck,Q331466 Q39552 Q789775,p_{\mathrm{e}} = p - p_{\mathrm{amb}}
+Q11559411,,andere,,Höhe,Luftdruck,Umgebungstemperatur,Q2633778 Q81809 Q845339,p_0=p\left(1-\dfrac{0.0065z}{t+0.0065z+273.15}\right)^{-5.257}
+Q126986684,,andere,,fictional binary relation,fictional set,fictional element,Q126366837 Q126366846 Q126956510,"\forall (x, y, z) \in X \times Y^2,\quad x \mathcal{R} y \land x \mathcal{R} z \implies y=z"
+Q116450178,2. Hauptsatz der Differential- und Integralrechnung,andere,,Funktion,bestimmtes Integral,Ableitung,Q11348 Q1991596 Q29175,"F'(x) = f(x) \Rightarrow \int_a^b f(x)\,\mathrm{d} x = F(b) - F(a)"
+Q29175,Ableitung,andere,,Funktion,Ableitung,Grenzwert,Q11348 Q29175 Q33540,f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}
+Q89486193,Aktivität des Lösemittels,andere,,absolute Aktivität des reinen Stoffes,absolute chemische Aktivität,Aktivität des Lösemittels,Q108155742 Q56638155 Q89486193,a_{\mathrm{A}} = \lambda_{\mathrm{A}}/\lambda_{\mathrm{A}}^{*}
+Q108914597,Anzahl der Entitäten pro Fläche,andere,,Anzahl der Entitäten pro Fläche,Flächeninhalt,Anzahl,Q108914597 Q11500 Q614112,N_A(\mathrm{X}) = \frac{N(\mathrm{X})}{A}
+Q109610857,Anzahl der Variation ohne Wiederholung,andere,,fallende Faktorielle,Anzahl der Variation ohne Wiederholung,Fakultät,Q109514579 Q109610857 Q120976,V_n^k = n^{\underline{k}} = \frac{n!}{(n - k)!}
+Q11205769,Areakotangens hyperbolicus,andere,,Areakotangens hyperbolicus,natürlicher Logarithmus,Kotangens hyperbolicus,Q11205769 Q204037 Q359452,\operatorname{arcoth} x = \frac{1}{2} \left( \ln \left( 1 + \frac{1}{x} \right) - \ln \left( 1 - \frac{1}{x} \right) \right)
+Q1565608,Arkustangens hyperbolicus,andere,,Tangens hyperbolicus,Arkustangens hyperbolicus,natürlicher Logarithmus,Q1274703 Q1565608 Q204037,\operatorname{artanh} x = \frac{1}{2}(\ln(1 + x) - \ln(1 - x))
+Q2373823,Atwood-Zahl,andere,,Dichte des schwereren Fluids,Dichte des leichteren Fluids,Atwood-Zahl,Q104671535 Q104671541 Q2373823,\mathit{At} = \frac{\rho_1 - \rho_2} {\rho_1 + \rho_2}
+Q4454675,Bach tensor,andere,,Bach tensor,Schouten tensor,Weyl-Tensor,Q4454675 Q4454676 Q869108,B_{ab}=P_{cd}{{{W_{a}}^{c}}_{b}}^{d}+\nabla ^{c}\nabla _{c}P_{ab}-\nabla ^{c}\nabla _{a}P_{bc}
+Q3110607,Bejan-Zahl für Entropie,andere,,Entropieanstieg durch Wärmetransport,Entropieanstieg durch Reibung im Fluid,Bejan-Zahl für Entropie,Q104210630 Q104210755 Q3110607,\mathit{Be}_S = \frac{S(\Delta T)}{S(\Delta T) + S(\Delta p)}
+Q468881,Betafunktion,andere,,Gammafunktion,bestimmtes Integral,Betafunktion,Q190573 Q1991596 Q468881,"\operatorname{B}(z, w) = \int\limits_0^1 t^{z - 1} (1 - t)^{w - 1} \mathrm{d}t"
+Q112658527,Bewegungsenergie-Operator,andere,,Bewegungsenergie-Operator,Masse,Impulsoperator,Q112658527 Q11423 Q692457,\hat{T} = \frac{\hat{\boldsymbol{p}} \cdot \hat{\boldsymbol{p}}}{2 m}
+Q852392,Bewegungsinvarianz,andere,,Komposition,Euklidische Transformation,Bewegungsinvarianz,Q244761 Q7333813 Q852392,f \circ \phi = f
+Q860623,Bild,andere,,Funktion,Definitionsmenge,Bild,Q11348 Q192439 Q860623,\operatorname{ran} f = \{f(x) \mid x \in \operatorname{dom} f\}
+Q185547,Binomialverteilung,andere,,diskrete Zufallsvariable,Binomialkoeffizient,Wahrscheinlichkeitsfunktion,Q1045168 Q209875 Q869887,P(X = x) = \binom{n}{x} p^x (1 - p)^{n - x}
+Q2144613,Blindleistung,andere,,Imaginärteil,Blindleistung,komplexe Leistung,Q1341545 Q2144613 Q65239736,Q = \operatorname{Im} \underline{S}
+Q509598,Blindleitwert,andere,,Imaginärteil,Admittanz,Blindleitwert,Q1341545 Q214518 Q509598,B = \operatorname{Im} \underline{Y}
+Q193972,Blindwiderstand,andere,,Imaginärteil,Impedanz,Blindwiderstand,Q1341545 Q179043 Q193972,X = \operatorname{Im} \underline{Z}
+Q115345770,Bodenproduktivität,andere,,Bodenproduktivität,Landfläche,Ertrag,Q115345770 Q205895 Q889514,SP = \frac{CY}{LM}
+Q131191,Body-Mass-Index,andere,,Body-Mass-Index,Körpergröße,Körpergewicht,Q131191 Q476112 Q620876,\mathrm{BMI} = \frac{m}{l^2}
+Q25304301,Bregman–Minc inequality,andere,,Zeilensumme,Permanente,binäre Matrix,Q117714936 Q1344007 Q1994977,\operatorname{per}A \leq \prod_{i=1}^n (r_i!)^{1/r_i}
+Q4978699,Bruhat-Zerlegung,andere,,reduktive Gruppe,Borel-Untergruppe,Weyl-Gruppe,Q1006450 Q4944913 Q768074,G=BWB=\bigsqcup _{w\in W}BwB
+Q93949862,Carnot-Wirkungsgrad,andere,,Carnot-Wirkungsgrad,Temperatur der heißen Wärmequelle,Temperatur der kalten Wärmesenke,Q93949862 Q93950941 Q93951203,\eta_{\mathrm{max}} = 1 - \frac{T_{\mathrm{c}}}{T_{\mathrm{h}}}
+Q3343016,Carnot-Zahl,andere,,Carnot-Zahl,Temperatur der heißen Wärmequelle,Temperatur der kalten Wärmesenke,Q3343016 Q93950941 Q93951203,\mathit{Ca} = \frac{T_2 - T_1}{T_2}
+Q77610627,Cartesian power,andere,,kartesisches Produkt mehrerer Mengen,Exponent,Menge,Q109955929 Q2233915 Q36161,S^n = \underbrace{ S \times S \times \cdots \times S}_{n}
+Q847339,Cauchy-Gleichung,andere,,Parameter,Brechungsindex,Wellenlänge,Q1413083 Q174102 Q41364,n(\lambda) = A + \frac {B}{\lambda^2} + \frac{C}{\lambda^4} + \cdots
+Q97485926,Cauchy-Schwarz-Ungleichung für Summen,andere,,kartesische Vektorkoordinate,Summe,Dimension,Q109533510 Q218005 Q929302,\left( \sum_{i = 1}^n a_i b_i \right)^2 \leq \left( \sum_{i = 1}^n a_i^2 \right) \left( \sum_{i = 1}^n b_i^2 \right)
+Q515895,Chance,andere,,Ereignis,Chance,Wahrscheinlichkeit,Q10290214 Q515895 Q9492,R(A) = \frac{p(A)}{1 - p(A)}
+Q515375,Cholesky-Zerlegung,andere,,adjungierte Matrix,Quadratmatrix,untere Dreiecksmatrix,Q2051983 Q2739329 Q77968837,\mathbf{A} = \mathbf{L L}^*
+Q899023,Clausius-Mossotti-Gleichung,andere,,Anzahldichte,relative Permittivität,Polarisierbarkeit,Q176449 Q4027242 Q869891,\frac{\epsilon_{\text{r}}-1}{\epsilon_{\text{r}}+2}=\frac{N\alpha}{3\epsilon_0}
+Q97359715,Clifford gate,andere,,unitäre Gruppe,Normalisator,Pauli group,Q1500617 Q1761121 Q7154882,"C_n=N_{\operatorname U(2^n)}(\{\mathrm i^n\sigma_{j_1}\otimes\dotsb\otimes\sigma_{j_n}\mid j_k\in\{0,1,2,3\},n\in\mathbb Z\})"
+Q93598411,Cliquenzahl,andere,,Komplementgraph,Stabilitätszahl,Cliquenzahl,Q902252 Q93598162 Q93598411,\omega(G)=\alpha(\overline G)
+Q130369331,Cliquenüberdeckungszahl,andere,,Cliquenüberdeckungszahl,chromatische Zahl,Komplementgraph,Q130369331 Q3879388 Q902252,\theta(G) = \chi(\overline G)
+Q113532978,Călugăreanu theorem,andere,,writhe of a knot,twist,Verschlingungszahl,Q113533047 Q17138781 Q2000614,Lk(K)=Tw(K)+Wr(K)
+Q911268,D'Alembert-Operator,andere,,Dauer,kartesische Koordinate,D'Alembert-Operator,Q2199864 Q73454785 Q911268,\Box = \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} + \frac{\partial^2}{\partial z^2} - \frac{1}{c^2} \frac{\partial^2}{\partial t^2}
+Q16954269,Darcy-Zahl,andere,,charakteristische Länge,Darcy-Zahl,Permeabilität,Q1062974 Q16954269 Q256699,\mathit{Da} = \frac{K}{d^2}
+Q1138045,Deborah-Zahl,andere,,Spannungsrelaxationszeit,Beobachtungsdauer,Deborah-Zahl,Q104884205 Q104884219 Q1138045,\mathit{De} = \frac{t_{\mathrm{c}}}{t_{\mathrm{p}}}
+Q1151031,Debye-Modell,andere,,Schallgeschwindigkeit,innere Energie,thermodynamische Temperatur,Q124003 Q180241 Q264647,"U=\frac{3\pi}2kT\left(\frac{2Lk_{\mathrm B}T}{hc_{\rm {s}}}\right)^{3}\int _{0}^{hc_{\rm {s}}R/2Lk_{\mathrm B}T}\frac{x^3}{\exp(x)-1}\,dx"
+Q5251771,Degeneriertheit,andere,,Minimalgrad,Degeneriertheit,Teilgraph,Q106553065 Q5251771 Q7631151,\operatorname{dg}(G) = \max\{ \delta (H) \mid  H \text{ is a subgraph of G}\}
+Q1990546,Dehnung,andere,,Dehnung,Länge,Änderung der Länge,Q1990546 Q36253 Q91308394,\varepsilon = \Delta l / l
+Q1184955,Delta v,andere,,Masse,Delta v,Schub,Q11423 Q1184955 Q533668,"\Delta v=\int \frac{|T(t)|}{m(t)}\,\mathrm dt"
+Q15402251,Descartes-Zahl,andere,,Teilerfremdheit,Descartes-Zahl,Teilersumme,Q104752 Q15402251 Q4047453,"n=mp\qquad(\gcd\{m,p\}=1,\quad2n=\sigma(m)(p+1))"
+Q118941750,Determinante einer Dreiecksmatrix,andere,,Determinante,Spur,Dreiecksmatrix,Q178546 Q321102 Q506265,\det \boldsymbol{A} = \operatorname{tr} \boldsymbol{A}
+Q845126,Differenzmenge,andere,,intensional definierte Menge,Menge,Differenzmenge,Q109941991 Q36161 Q845126,A \setminus B = \{ x \mid x \in A \land x \notin B \}
+Q106097176,Diffusionslänge,andere,,Diffusionslänge,Lebensdauer,Diffusionskoeffizient,Q106097176 Q1758559 Q604008,L = \sqrt{D \tau}
+Q905326,Digamma-Funktion,andere,,Gammafunktion,logarithmische Ableitung,Digamma-Funktion,Q190573 Q762521 Q905326,\psi(x)=\frac{d}{dx}\ln\Big(\Gamma(x)\Big)=\frac{\Gamma'(x)}{\Gamma(x)}
+Q130704440,Dimension eines Blockcodes,andere,,Dimension eines Blockcodes,Mächtigkeit,Blockcode,Q130704440 Q4049983 Q884707,k=\log_q |C|
+Q1975334,Dispersität,andere,,Zahlenmittel der Molmasse,Massenmittel der Molmasse,Dispersität,Q119801966 Q119802019 Q1975334,\quad PDI = M_\mathrm{w}/M_\mathrm{n}
+Q73428743,Drehmomentstoß,andere,,Drehmomentvektor,Dauer,Drehmomentstoß,Q17232562 Q2199864 Q73428743,"\boldsymbol{H} = \int_{t_1}^{t_2} \boldsymbol{M} \, \mathrm{d} t"
+Q1258643,Dressed-Atom-Modell,andere,,ladder operator,Drehimpulsoperator,Hamiltonoperator,Q1186765 Q1190143 Q660488,\hat H=\hbar\omega_\text{c}\hat a^\dagger\hat a+\frac12\hbar\omega_\text{a}\hat\sigma_z+\frac12\hbar\Omega(\hat a\hat\sigma_++\hat a^\dagger\hat\sigma_-)
+Q122928319,Drittes Keplersches Gesetz,andere,,Masse,Umlaufzeit,große Halbachse einer Umlaufbahn,Q11423 Q37640 Q78148275,\frac {a^3}{T^2}=\frac{GM}{4\pi^2}
+Q19033,Durchschnitt,andere,,Durchschnitt,Kehrwert,Addition,Q19033 Q216906 Q32043,\overline{x} = \frac{1}{n} \sum_{i = 1}^n x_i
+Q1145091,Earned Run Average,andere,,Earned Run Average,innings pitched,earned run,Q1145091 Q8192188 Q906099,\text{ERA} = 9 \times \frac{\text{earned runs allowed}}{\text{innings pitched}}
+Q905744,Eckert-Zahl,andere,,charakteristische Geschwindigkeit,Temperaturunterschied,Eckert-Zahl,Q103036774 Q69362767 Q905744,\mathit{Ec} = \frac{v^2}{c_p \Delta T}
+Q369180,Effektivwert,andere,,zeitabhängige Größe,Dauer,Effektivwert,Q119437696 Q2199864 Q369180,"a_{\mathrm{eff}} = \sqrt{\frac{1}{T} \int_0^T a^2 \, \mathrm{d}t}"
+Q1303188,Eigenleitungsdichte,andere,,Elektronendichte,Löcherdichte,Eigenleitungsdichte,Q105971077 Q105971101 Q1303188,n_{\mathrm{i}} = \sqrt{n p}
+Q190524,Eigenvektor und Eigenwert,andere,,lineare Abbildung,Eigenwert,Eigenvektor,Q207643 Q3553768 Q3555174,A \boldsymbol{v} = \lambda \boldsymbol{v}
+Q1303470,Eigenzustand,andere,,Eigenzustand,physikalischer Operator,Eigenwert,Q1303470 Q2597952 Q3553768,A\vert a \rangle = a\vert a \rangle
+Q118084,Einheit,andere,,Einheit,Ring,Einselement,Q118084 Q161172 Q68019776,"u \in R, \exists v \in R: uv=vu=1_R"
+Q110914431,Einheitsvektor,andere,,Einheitsvektor,Vektorlänge,Vektor,Q110914431 Q12124094 Q13471665,\boldsymbol{e}_{\boldsymbol{a}} = \frac{\boldsymbol{a}}{|\boldsymbol{a}|}
+Q1309313,Einsteinsche Mannigfaltigkeit,andere,,Ricci-Tensor,Dimension,Riemannsche Metrik,Q1195879 Q4440864 Q7888899,\operatorname{Ric}[g] = \frac{2\Lambda}{n-2}g
+Q18708823,Elastizitätstensor,andere,,Spannungstensor,Elastizitätstensor,Verzerrungstensor,Q13409892 Q18708823 Q3083131,\sigma_{i j} = \sum_{k = 1}^3 \sum_{l = 1}^3 C_{i j k l} \varepsilon_{k l}
+Q3502299,Energie-Impuls-Beziehung,andere,,Energie,Masse,Impuls,Q11379 Q11423 Q41273,E^2 = p^2 c^2 + m^2 c^4
+Q45003,Entropie,andere,,Anzahl der Konfigurationen,natürlicher Logarithmus,Entropie,Q11571330 Q204037 Q45003,S = k \ln{W}
+Q204570,Entropie,andere,,Entropie,Informationsgehalt,Wahrscheinlichkeit,Q204570 Q735075 Q9492,H(X) = \sum_{i = 1}^{n} p(x_i) I(x_i)
+Q106378242,Entscheidungsgehalt,andere,,Entscheidungsgehalt,Anzahl der Möglichkeiten bei jeder Entscheidung,Anzahl der Ereignisse,Q106378242 Q106379257 Q106379269,D_a = \log_a{n}
+Q907315,Extinktion,andere,,Transmissionsgrad,Extinktion,dekadischer Logarithmus,Q1427863 Q907315 Q966582,A_{10} = -\lg{\tau}
+Q65556262,Exzentrizität eines Knoten,andere,,Knotenmenge,Abstand,Exzentrizität eines Knoten,Q124247078 Q2742711 Q65556262,"e_G(v) = \max_{u \in V}d_G(v,u)."
+Q1400541,Fermi-Geschwindigkeit,andere,,Masse,Fermi-Geschwindigkeit,Fermi-Energie,Q11423 Q1400541 Q431335,v_{\mathrm F}=\sqrt{2E_{\mathrm F}/m}
+Q1406415,Fermi-Impuls,andere,,Masse,Fermi-Impuls,Fermi-Energie,Q11423 Q1406415 Q431335,p_{\mathrm F}=\sqrt{2mE_{\mathrm F}}
+Q462254,Fermi-Pasta-Ulam-Tsingou-Experiment,andere,,Masse,Ortsvektor,Q24953002,Q11423 Q192388 Q24953002,m\ddot{x}_j = k(x_{j+1} + x_{j-1} - 2x_j)[1 + \alpha(x_{j+1} - x_{j-1})]
+Q2305761,Feynman slash notation,andere,,Dirac-Matrizen,einsteinsche Summenkonvention,Vierervektor,Q1151645 Q673253 Q844610,A\!\!\!/=\gamma^\mu A_\mu
+Q166530,Fluchtgeschwindigkeit,andere,,Masse,Abstand,Fluchtgeschwindigkeit,Q11423 Q126017 Q166530,v_{\mathrm{e}} = \sqrt{\frac{2 G M}{r}}
+Q1434913,Fortpflanzungskoeffizient,andere,,Fortpflanzungskoeffizient,Phasenkoeffizient,Dämpfungskoeffizient,Q1434913 Q32745742 Q902086,\gamma = \alpha + \mathrm{i} \beta
+Q6520159,Fourier-Transformierte,andere,,Funktion,reelle Zahl,Fourier-Transformierte,Q11348 Q12916 Q6520159,\mathcal{F}(\omega) = \int\limits_{-\infty}^{\infty} f(t) \mathrm{e}^{-\mathrm{i} \omega t} \mathrm{d}t
+Q15811154,G-Wert,andere,,G-Wert,Anzahl,mittlere zugeführte Energie,Q15811154 Q614112 Q99526969,G = \frac{N}{\bar{\varepsilon}}
+Q1496376,Gauß-Prozess,andere,,reelle Zahl,Gauß-Prozess,Erwartungswert,Q12916 Q1496376 Q200125,"\forall s_1,\dotsc,s_k\in\mathbb R\colon\operatorname E\left(\exp\left(\mathrm i\sum_is_iX_{t_i}\right)\right)=\exp\left(-\frac12\sum_{i,j}\sigma_{ij}s_is_j+\mathrm i\sum_i\mu_is_i\right)"
+Q79813060,Gesamtblindleistung,andere,,Wirkleistung,Scheinleistung,Gesamtblindleistung,Q12713281 Q1930258 Q79813060,Q' = \sqrt{S^2 - P^2}
+Q98690787,Gesamtionisation,andere,,Länge,lineares Ionisierungsvermögen,Gesamtionisation,Q36253 Q98690755 Q98690787,N_{\mathrm{i}} = \int N_{\mathrm{i} l} \mathrm{d} l
+Q77679732,Gesamtstrom,andere,,elektrische Stromstärke,Gesamtstrom,Verschiebungsstrom,Q29996 Q77679732 Q853178,I_\mathrm{tot} = I + I_D
+Q77680811,Gesamtstromdichte,andere,,elektrische Stromdichte,Verschiebungsstromdichte,Gesamtstromdichte,Q234072 Q77614612 Q77680811,\boldsymbol{J}_\mathrm{tot} = \boldsymbol{J} + \boldsymbol{J}_{\mathrm{D}}
+Q1473607,Grad eines Polynoms,andere,,Grad eines Polynoms,Polynom,Koeffizient,Q1473607 Q43260 Q50700,\deg f=\lim_{x\to \infty}\frac{\log|f(x)|}{\log x}
+Q1588205,Gradientenfeld,andere,,Gradientenfeld,Gradient,Skalarfeld,Q1588205 Q173582 Q193460,\boldsymbol{v} = \nabla \varphi
+Q16628701,Graphdurchmesser,andere,,Knotenmenge,Graphdurchmesser,Exzentrizität eines Knoten,Q124247078 Q16628701 Q65556262,\operatorname{diam}(G) = \max_{v\in V}e_G(v)
+Q130529047,Graphspektrum,andere,,Graphspektrum,Spektrum einer Matrix,Adjazenzmatrix,Q130529047 Q3490774 Q727035,\operatorname{Spec}(G)=\sigma(A)
+Q21652129,Gravitationsfeldstärke,andere,,Gravitationspotential,Ortsvektor,Gravitationsfeldstärke,Q1544012 Q192388 Q21652129,\boldsymbol{g}(\boldsymbol{r}) = -\nabla{\Phi(\boldsymbol{r})}
+Q91195033,Gravitationspotential einer Punktmasse,andere,,Masse,Ortsvektor,Gravitationspotential einer Punktmasse,Q11423 Q192388 Q91195033,\Phi(\boldsymbol{r}) = -\frac{G m}{\vert \boldsymbol{r} \vert}
+Q5606780,Gregory's series,andere,,komplexe Zahl,Arkustangens,nichtnegative ganze Zahl,Q11567 Q2257242 Q28920052,\arctan z=\sum_{k=0}^\infty\frac{(-1)^kz^{2k+1}}{2k+1}\qquad(|z|\le1\land z\ne\pm\mathrm i)
+Q444656,Grüneisen-Parameter,andere,,Gitterschwingungsfrequenz,Volumen,Grüneisen-Parameter,Q105658695 Q39297 Q444656,\gamma = -\frac{\partial{\ln{\omega}}}{\partial{\ln{V}}}
+Q1559192,Gödel-Universum,andere,,Zeit,Winkelgeschwindigkeit,metrischer Tensor,Q11471 Q161635 Q2045231,"\mathrm ds^2=\frac1{2\omega^2}\left(-(\mathrm dt+\exp(x)\,\mathrm dy)^2+\mathrm dx^2+\frac12\exp(2x)\,\mathrm dy^2+\mathrm dz^2\right)"
+Q117184309,Hadamard-Produkt,andere,,kartesische Vektorkoordinate,Hadamard-Produkt,Vektor,Q109533510 Q117184309 Q13471665,(\boldsymbol{x} \circ \boldsymbol{y})_i = x_i y_i
+Q17103642,Halm,andere,,Halm,Punkt,Garbe,Q17103642 Q44946 Q595298,\mathcal F_x = \varinjlim_{U\ni x}\mathcal F(U)
+Q1970635,Hamming-Schranke,andere,,Länge eines Blockcodes,minimaler Hamming-Abstand,Dimension eines Blockcodes,Q130690693 Q130691832 Q130704440,"A_q(n,d) \leq \frac{q^n}{\sum_{k=0}^{\left\lfloor(d-1)/2\right\rfloor}  \binom{n}{k}(q-1)^k}"
+Q109558815,Hankel-Funktion erster Art,andere,,Bessel-Funktion zweiter Gattung,Bessel-Funktion,Hankel-Funktion erster Art,Q109545924 Q109546200 Q109558815,\mathrm{H}_{\nu}^{(1)}(z) = \mathrm{J}_{\nu}(z) + \mathrm{i} \mathrm{N}_{\nu}(z)
+Q109558856,Hankel-Funktion zweiter Art,andere,,Bessel-Funktion zweiter Gattung,Bessel-Funktion,Hankel-Funktion zweiter Art,Q109545924 Q109546200 Q109558856,\mathrm{H}_{\nu}^{(2)}(z) = \mathrm{J}_{\nu}(z) - \mathrm{i} \mathrm{N}_{\nu}(z)
+Q375355,Harshad-Zahl,andere,,ganze Zahl,Zahlzeichen,Basis,Q12503 Q82990 Q843684,\sum_{i=0}^{m-1}a_ib^i=A\sum_{i=0}^{m-1} a_i
+Q568855,Helizität,andere,,Spin,Richtung,Helizität,Q133673 Q2151613 Q568855,h = \vec{J} \cdot \hat{p}
+Q20725439,Heron-Verfahren,andere,,Folge,ein halb,Addition,Q133250 Q2114394 Q32043,x_{n+1} = \frac{1}{2} \left(x_n + \frac{a}{x_n}\right)
+Q3895235,Hildebrand-Löslichkeitsparameter,andere,,thermodynamische Temperatur,Hildebrand-Löslichkeitsparameter,molares Volumen,Q264647 Q3895235 Q487112,\delta = \sqrt{\frac{\Delta H_v - RT}{V_m}}
+Q466511,Hubraum,andere,,Zylinderbohrung,Hubraum,Kolbenhub,Q245657 Q466511 Q56296612,V_h = h \cdot \pi \left(\frac{d}{2}\right)^2 \cdot n
+Q1569997,Hyper-Operator,andere,,Zahl,nichtnegative ganze Zahl,Pfeilschreibweise,Q11563 Q28920052 Q908427,"a \uparrow^m b = \underbrace{a \uparrow^{m-1} \left(a \uparrow^{m-1} \left[a \uparrow^{m-1} \left(\ldots \left[a \uparrow^{m-1} \left(a \uparrow^{m-1} a\right)\right] \ldots \right)\right]\right)}_{\displaystyle b\mbox{ copies of }a},\quad m \geq 0"
+Q3866303,Hyperbelbewegung,andere,,Zeit,Ortsvektor,Eigenbeschleunigung,Q11471 Q192388 Q2071519,\left(x+c^2/\alpha\right)^2-c^2t^2=c^4/\alpha^2
+Q18450993,Hyperfakultät,andere,,K-Funktion,Hyperfakultät,Produkt,Q1541649 Q18450993 Q901718,H(n) = \prod_{k = 1}^n k^k
+Q846862,Involution,andere,,Komposition,identische Abbildung,Involution,Q244761 Q321119 Q846862,f\circ f = \operatorname{id}
+Q898396,Ionenstärke,andere,,Molalität,Ladungszahl,Ionenstärke,Q172623 Q1800063 Q898396,I = \frac{1}{2} \sum_i{z_i^2 b_i}
+Q1430845,Kettenhomotopie,andere,,Kettenkomplex,chain map,Kettenhomotopie,Q1143328 Q124450475 Q1430845,f^n - g^n = d_B^{n - 1} h^n + h^{n + 1} d_A^n \text{ or simply }  f - g = d_B h + h d_A
+Q1200279,Killing-Vektorfeld,andere,,Killing-Vektorfeld,Lie-Ableitung,Riemannsche Metrik,Q1200279 Q579267 Q7888899,\mathcal L_Xg=0
+Q93605406,Knotenüberdeckungszahl,andere,,Knotenzahl,Stabilitätszahl,Knotenüberdeckungszahl,Q1777513 Q93598162 Q93605406,\tau(G) = |G| - \alpha(G)
+Q898463,Knudsen-Zahl,andere,,charakteristische Länge,mittlere freie Weglänge,Knudsen-Zahl,Q1062974 Q756307 Q898463,\mathit{Kn} = \frac{\lambda}{l}
+Q121878894,Kohn–Luttinger superconductivity,andere,,Supraleitungs-Übergangstemperatur,Drehimpuls,Fermi-Energie,Q106103037 Q161254 Q431335,\frac {k_{\rm {B}}T_{\rm {c}}}{E_{\rm {F}}}=\exp(-(2\ell/\hbar)^4)
+Q1283623,Konfinalität,andere,,Konfinalität,teilweise geordnete Menge,cofinal subset,Q1283623 Q474715 Q5141045,"\operatorname{cf}(X)=\min\{|C|\colon C\subset X,\;\forall x\in X\exists c\in C\colon x\le c\}"
+Q17103180,Koretraktion,andere,,identity morphism,Koretraktion,Morphismus,Q131580191 Q17103180 Q1948412,f \circ g= \operatorname{id}
+Q201984,Kovarianz,andere,,Zufallsvariable,Erwartungswert,Kovarianz,Q176623 Q200125 Q201984,\sigma_{X Y} = E((X - E(X) (Y - E(Y))
+Q837940,Kraftstoß,andere,,Kraft,Dauer,Kraftstoß,Q11402 Q2199864 Q837940,"\boldsymbol{I} = \int_{t_1}^{t_2} \boldsymbol{F} \, \mathrm{d} t"
+Q106639293,Kreiskrümmung,andere,,Kreiskrümmung,Winkelweite,Länge,Q106639293 Q1357788 Q36253,"\mathrm{d} \theta = \mathcal{C} \, \mathrm{d} s"
+Q45926,Kreisring,andere,,Flächeninhalt,outer radius,inner radius,Q11500 Q137551633 Q137551644,A = \pi (R^2 - r^2) = \pi (R+r)(R-r)
+Q30338487,Kreiswellenzahl,andere,,Wellenzahl,Kreiswellenzahl,Wellenlänge,Q192510 Q30338487 Q41364,k = 2 \pi \sigma
+Q877100,Kugelflächenfunktion,andere,,zugeordnete Legendrepolynome,Menge der natürlichen Zahlen,Kugelflächenfunktion,Q228376 Q28777634 Q877100,"\mathrm{Y}_l^m(\vartheta, \varphi) = \sqrt{\frac{2 l + 1}{4 \pi} \frac{(l - |m|)!}{(l + |m|)!}} \mathrm{P}_l^{|m|}(\cos{\vartheta}) e^{\mathrm{i} m \varphi}, l, |m| \in \boldsymbol{\mathsf{N}}, |m| \leq l"
+Q12137,Kugelschale,andere,,outer radius,inner radius,Volumen,Q137551633 Q137551644 Q39297,V = \tfrac43\pi \bigl(R^3 - r^3\bigr) = \tfrac43\pi (R-r)\bigl(R^2 + Rr + r^2\bigr)
+Q111650037,Kunst = Natur − x,andere,,künstlerische Technik,Kunst,Natur,Q11177771 Q735 Q7860,Kunst = Natur - x
+Q429331,Lambertsche W-Funktion,andere,,komplexe Zahl,Lambertsche W-Funktion,natürliche Exponentialfunktion,Q11567 Q429331 Q47306354,z=W(z)\exp W(z)
+Q199691,Laplace-Transformierte,andere,,Funktion,complex frequency,Laplace-Transformierte,Q11348 Q123669327 Q199691,\left(\mathcal{L} f\right)(s) = \int\limits_0^{\infty} \mathrm{e}^{-s t} f(t) \mathrm{d}t
+Q73026,Legendre-Konstante,andere,,Grenzwert,natürlicher Logarithmus,Primzahlfunktion,Q177239 Q204037 Q251922,B=\lim_{n \to \infty } \left( \log(n) - {n \over \pi(n)} \right)
+Q215405,Legendre-Polynom,andere,,Fakultät,Legendre-Polynom,Menge der natürlichen Zahlen,Q120976 Q215405 Q28777634,"\mathrm{P}_n(z) = \frac{1}{2^n n!} \frac{\mathrm{d}^n}{\mathrm{d} z^n}(z^2 - 1)^n, n \in \boldsymbol{\mathsf{N}}"
+Q25508781,Lethargie,andere,,Lethargie,kinetische Neutronenenergie,Referenzenergie,Q25508781 Q98930782 Q98930804,u = \ln{\frac{E_0}{E}}
+Q560188,Lichtwert,andere,,Lichtwert,Belichtungszeit,Blendenzahl,Q560188 Q815600 Q862169,E_{\mathrm{v}} = \log_2{\frac{k^2}{t}}
+Q3277853,London-Eindringtiefe,andere,,Abstand,magnetische Flussdichte,London-Eindringtiefe,Q126017 Q30204 Q3277853,B(x) = B(0) \exp{-\frac{x}{\lambda_{\mathrm{L}}}}
+Q915684,Lorentz-Lorenz-Gleichung,andere,,Brechungsindex,Anzahldichte,Polarisierbarkeit,Q174102 Q176449 Q869891,\frac{n^2 - 1}{n^2 + 2} = \frac{4 \pi}{3} N \alpha
+Q599404,Lorentzfaktor,andere,,Relativgeschwindigkeit,relativistisches Beta,Lorentzfaktor,Q1376323 Q4897242 Q599404,\gamma = \frac1{\sqrt{1-\beta^2}}=\frac1{\sqrt{1 - v^2/c^2}}
+Q1203816,Lorenz-Eichung,andere,,electromagnetic four-potential,partielle Ableitung,einsteinsche Summenkonvention,Q1190859 Q186475 Q673253,"\partial_{\mu}A^\mu \equiv A^\mu{}_{,\mu} = 0 \!"
+Q60035142,Lymphozytzahl,andere,,percent lymphocytes,Leukozytenzahl,Lymphozytzahl,Q109354471 Q52307097 Q60035142,ALC =  \frac{lymphocytes}{100} \cdot WBC
+Q160669,Mach-Zahl,andere,,Schallgeschwindigkeit,Mach-Zahl,Geschwindigkeit,Q124003 Q160669 Q3711325,\mathit{Ma} = \frac{v}{c}
+Q2028919,Magnitude,andere,,scheinbare Helligkeit,absolute Helligkeit,euklidischer Abstand,Q124313 Q159653 Q847073,m - M = 5 \left( \log_{10}d - 1 \right)
+Q2705584,Malthusgleichung,andere,,Dauer,Population,Geburtenbilanz,Q2199864 Q2625603 Q2822899,P(t) = P(0) e^{r t}
+Q1428692,Manning-Fließformel,andere,,hydraulischer Gradient,hydraulic radius,Strömungsgeschwindigkeit,Q10528039 Q3929408 Q5462119,V = \frac{k}{n} {R_h}^{2/3} S^{1/2}
+Q104774574,Massenstrom der Gasphase,andere,,Zeit,gas mass,Zeitableitung,Q11471 Q138411240 Q6960532,\dot{m}_{\mathrm{g}}=d{m}_{\mathrm{g}}/dt
+Q93638909,Matchingzahl,andere,,Kantengraph,Stabilitätszahl,Matchingzahl,Q1378376 Q93598162 Q93638909,\alpha'(G)=\alpha(L(G))
+Q6792079,Matérn covariance function,andere,,modifizierte Bessel-Funktion zweiter Art,Parameter,Gammafunktion,Q109559130 Q1413083 Q190573,k_{\text{Matern}}(r) = \frac{2^{1-\nu}}{\Gamma(\nu)}{\Bigg(\sqrt{2\nu}\frac{r}{\ell}\Bigg)}^\nu K_\nu\Bigg(\sqrt{2\nu}\frac{r}{\ell}\Bigg)
+Q110408630,Menge der natürlichen Zahlen mit Einschränkung,andere,,Menge der natürlichen Zahlen mit Einschränkung,Prädikat,Menge der natürlichen Zahlen,Q110408630 Q1144319 Q28777634,\mathbb{N}_{p} = \{ n \in \mathbb{N} \mid p(n) \}
+Q98966325,Migrationsfläche,andere,,Bremsfläche,Diffusionsfläche,Migrationsfläche,Q98950918 Q98966292 Q98966325,M^2 = L_{\mathrm{s}}^2 + L^2
+Q6860008,Mills-Quotient,andere,,Wahrscheinlichkeitsdichtefunktion,Überlebensfunktion,Mills-Quotient,Q207522 Q2915096 Q6860008,"m(x)=\frac{\int_x^\infty p(y)\,\mathrm dy}{p(x)}"
+Q112594430,Mittelwert,andere,,Mittelwert,Zufallsvariable,Erwartungswert,Q112594430 Q176623 Q200125,\mu = E(X)
+Q110854195,Modell der Messung,andere,,Eingangsgröße des Modells der Messung,Ausgangsgröße des Modells der Messung,Funktion,Q110854361 Q110854398 Q11348,"h(Y, X_1, \ldots, X_n) = 0"
+Q112578408,Moment der Ordnung r einer stetigen Zufallsvariablen,andere,,stetige Zufallsvariable,Erwartungswert,Wahrscheinlichkeitsdichtefunktion,Q112577919 Q200125 Q207522,E(X^r) = \int\limits_{-\infty}^{\infty} x^r f(x) \mathrm{d} x
+Q6927583,Moyal-Produkt,andere,,Multiplikation,Bivektor,Moyal-Produkt,Q40276 Q663908 Q6927583,f\star g=m\circ\exp\left(\frac12\mathrm i\hbar\Pi^{ij}\partial_i\partial_j\right)(f\otimes g)=fg+\frac12\mathrm i\hbar\Pi^{ij}(\partial_if)(\partial_jg)-\frac18\hbar^2\Pi ^{ij}\Pi^{km}(\partial_i\partial_kf)(\partial_j\partial_mg)+\dotsb
+Q112183127,Nachgiebigkeitstensor,andere,,Nachgiebigkeitstensor,Spannungstensor,Verzerrungstensor,Q112183127 Q13409892 Q3083131,\varepsilon_{i j} = \sum_{k = 1}^3 \sum_{l = 1}^3 S_{i j k l} \sigma_{k l}
+Q85664557,Napier-Absorbanz,andere,,Transmissionsgrad,natürlicher Logarithmus,Napier-Absorbanz,Q1427863 Q204037 Q85664557,A_{\mathrm{n}} = -\ln{\tau}
+Q99705926,Newton polytope,andere,,konvexe Hülle,multivariates Polynom,Newton polytope,Q1138624 Q25376994 Q99705926,"\operatorname{Newt}\left(\sum_kc_k\mathbf x^{\mathbf a_k}\right)=\left\{\sum_k\alpha_k\mathbf a_k\Bigg|\sum_k\alpha_k=1,\;\forall j\colon\alpha_j\ge0\right\}"
+Q1749812,Newton-Identitäten,andere,,power sum symmetric polynomial,elementarsymmetrisches Polynom,Menge der positiven ganzen Zahlen,Q1298683 Q2235316 Q47339953,"\forall n,k\in\mathbb Z^+\colon ke_k(x_1,\dots,x_n)=\sum_{i=1}^k(-1)^{i-1}e_{k-i}(x_1,\dots,x_n)p_i(x_1,\dots,x_n)"
+Q374195,Newton-Verfahren,andere,,Funktion,Approximation,Ableitung,Q11348 Q27058 Q29175,x_{n+1} = x_{n} - \frac{f(x_{n})}{f'(x_{n})}
+Q133871,Normalverteilung,andere,,Mittelwert,Standardabweichung,Wahrscheinlichkeitsdichtefunktion,Q112594430 Q159375 Q207522,f(x) = \frac{1}{\sigma \sqrt{2 \pi}} \mathrm{e}^{-\frac{(x - \mu)^2}{2 \sigma^2}}
+Q110175313,Notation für bestimmte Integrale,andere,,Notation für bestimmte Integrale,Funktion,Funktionswert,Q110175313 Q11348 Q59715267,f|_a^b = f(b) - f(a)
+Q1090859,Panjer-Verteilung,andere,,positive ganze Zahl,Parameter,Wahrscheinlichkeitsfunktion,Q16317911 Q17232827 Q869887,"p_{k}=\left(a+{\frac {b}{k}}\right)\cdot p_{k-1},~~k\geq 1."
+Q60741336,Peano-Kern-Satz,andere,,Linearform,truncated power function,stetig differenzierbare Funktion,Q261527 Q7847909 Q91933113,"Lf=\frac{1}{\nu!}\int_a^bL[(x-\theta)^\nu_+]f^{(\nu+1)}(\theta)\,d\theta"
+Q32738707,Pegel einer Feldgröße,andere,,Leistungswurzelgröße,Bezugsleistungswurzelgröße,Pegel einer Feldgröße,Q106337844 Q106338046 Q32738707,L_{F} = \ln \frac{F}{F_{0}}
+Q119507575,Permeabilitäts-Verlustzahl,andere,,Permeabilitäts-Verlustzahl,komplexe relative Permeabilität,Imaginärteil,Q119507575 Q119507939 Q1341545,\mu_{\mathrm{r}}'' = -\operatorname{Im} \underline{\mu}_{\mathrm{r}}
+Q119473869,Permittivitäts-Verlustzahl,andere,,Permittivitäts-Verlustzahl,komplexe relative Permittivität,Imaginärteil,Q119473869 Q119474376 Q1341545,\varepsilon_{\mathrm{r}}'' = -\operatorname{Im} \underline{\varepsilon}_{\mathrm{r}}
+Q372193,Perplexität,andere,,Wahrscheinlichkeitsverteilung,Entropie,Perplexität,Q200726 Q204570 Q372193,\operatorname{PP}(p) = 2^{H(p)}=2^{-\sum_x p(x)\log_2 p(x)}
+Q588886,Pixelseitenverhältnis,andere,,display aspect ratio,storage aspect ratio,Pixelseitenverhältnis,Q3420077 Q3973862 Q588886,\mathrm{PAR} = \frac{\mathrm{DAR}}{\mathrm{SAR}}
+Q132335,Pochhammer-Symbol,andere,,komplexe Zahl,Pochhammer-Symbol,nichtnegative ganze Zahl,Q11567 Q132335 Q28920052,(x)_{n}=x^{\underline{n}}=x(x-1)(x-2)\cdots(x-n+1)
+Q190453,Poissonzahl,andere,,Poissonzahl,Änderung der Weite,Änderung der Länge,Q190453 Q91308051 Q91308394,\mu = \Delta b / \Delta l
+Q857956,Polygammafunktion,andere,,Gammafunktion,natürlicher Logarithmus,mehrfache Ableitung,Q190573 Q204037 Q3044992,\psi^{(m)}(z) = \frac{d^m}{dz^m} \psi(z) = \frac{d^{m+1}}{dz^{m+1}} \ln\Gamma(z)
+Q43260,Polynom,andere,,Grad eines Polynoms,Koeffizient,Variable,Q1473607 Q50700 Q50701,P(x)=\sum _{k=0}^{n}a_{k}x^{k}
+Q898575,Potenz,andere,,Abstand,Radius,Potenz,Q126017 Q173817 Q898575,h = s^2 - r^2
+Q41069186,Potenzfolge,andere,,reelle Zahl ungleich Null,nichtnegative ganze Zahl,Potenzfolge,Q19546578 Q28920052 Q41069186,a_n = b^n
+Q815306,Prandtl-Zahl,andere,,kinematische Viskosität,Temperaturleitfähigkeit,Prandtl-Zahl,Q12793663 Q3381809 Q815306,\mathit{Pr} = \frac{\nu}{a}
+Q110395328,Produkt eines Skalars und einer Matrix,andere,,Produkt eines Skalars und einer Matrix,Skalar,Matrix,Q110395328 Q1289248 Q44337,\left(x \boldsymbol{A}\right)_{i j} = x \left(\boldsymbol{A}\right)_{i j}
+Q3075175,Quadratfunktion,andere,,Quadratfunktion,Multiplikation,Operand,Q3075175 Q40276 Q719375,x^2 = x \cdot x
+Q30765484,Radius,andere,,Knotenmenge,Radius,Exzentrizität eines Knoten,Q124247078 Q30765484 Q65556262,\operatorname{rad}(G)=\min_{v\in V}e_G(v)
+Q4200698,Randić-Index,andere,,Kantenmenge,Grad,Randić-Index,Q124247109 Q383444 Q4200698,R = \underset{u v \in E}{\sum} \frac{1}{\sqrt{\deg(u)\deg(v)}}
+Q54933381,Rechtseindeutigkeit,andere,,binäre Relation,Menge,Element,Q130901 Q36161 Q379825,"\forall (x, y, z) \in X \times Y^2,\quad x \mathcal{R} y \land x \mathcal{R} z \implies y=z"
+Q110677969,Red Star Style Stolen Bases,andere,,Red Star Style Stolen Bases,Stolen Base,caught stealing,Q110677969 Q1195130 Q860149,R3SB = SB - (CS * 2)
+Q190557,Regel von L’Hopital,andere,,Funktion,Ableitung,Grenzwert,Q11348 Q29175 Q33540,\lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)}
+Q7317264,Rentabilität,andere,,Gewinn,Rentabilität,Kapital,Q26911 Q7317264 Q8137,return = \frac{profit}{capital}
+Q105883079,Richardson-Konstante,andere,,thermionische Emissionsstromdichte,thermodynamische Temperatur,Austrittsarbeit,Q105883273 Q264647 Q783800,J = A T^2 \exp{\left ( -\frac{\phi}{k T} \right )}
+Q14174895,Rose–Vinet equation of state,andere,,Druck,spezifisches Volumen,Kompressionsmodul,Q39552 Q683556 Q900371,P=3B_0\left(\frac{1-\eta}{\eta^2}\right)e^{\frac{3}{2}(B_0'-1)(1-\eta)}
+Q76435127,Rotation,andere,,Winkelweite,Winkelverdrehung,Rotation,Q1357788 Q3305038 Q76435127,N = \frac{\varphi}{2 \pi}
+Q76250,Rotverschiebung,andere,,Wellenlängenunterschied,Wellenlänge,Rotverschiebung,Q108525019 Q41364 Q76250,z = \frac{\Delta \lambda}{\lambda_0}
+Q182505,Satz von Bayes,andere,,A-posteriori-Wahrscheinlichkeit,A-priori-Wahrscheinlichkeit,bedingte Wahrscheinlichkeit,Q278079 Q278090 Q327069,P(A \mid B) = \dfrac{P(B \mid A)P(A)}{P(B)}
+Q897769,Satz von König,andere,,bipartiter Graph,Knotenüberdeckungszahl,Matchingzahl,Q174733 Q93605406 Q93638909,\nu(G)=\tau(G)
+Q576478,Satz von Liouville,andere,,Supremum,Gaußsche Zahlenebene,ganze Funktion,Q215071 Q328998 Q847600,"\forall f\in\mathcal C^\omega(\mathbb C,\mathbb C)\colon\left(\sup_{\mathbb C}|f|<\infty\implies f'=0\right)"
+Q1640308,Schallfluss,andere,,Flächeninhalt,Schallfluss,Schallschnelle,Q11500 Q1640308 Q336894,q = \int \boldsymbol{u} \cdot \mathrm{d} \boldsymbol{A}
+Q2230528,Schallimmission,andere,,Schalldruck,Dauer,Schallimmission,Q1068172 Q2199864 Q2230528,E = \int_{t_1}^{t_2} p^2 \mathrm{d} t
+Q106368657,Schallintensitätspegel,andere,,Schallintensitätspegel,Bezugsschallintensität,Schallintensität,Q106368657 Q106368671 Q1140289,L_I = 10 \lg{\frac{I}{I_0}} \mathrm{dB}
+Q1588477,Schallleistung,andere,,Schallintensität,Flächeninhalt,Schallleistung,Q1140289 Q11500 Q1588477,P_{\mathrm{a}} = \int \boldsymbol{I} \cdot \mathrm{d} \boldsymbol{A}
+Q461293,Schergeschwindigkeit,andere,,Abstand,Geschwindigkeit,Schergeschwindigkeit,Q126017 Q3711325 Q461293,\dot{\gamma} = \frac{v}{d}
+Q7561704,Scherverformung,andere,,Parallelverschiebung,Dicke,Scherverformung,Q107693737 Q3589038 Q7561704,\gamma = \Delta x / d
+Q581997,Schmidt-Zahl,andere,,kinematische Viskosität,Schmidt-Zahl,Diffusionskoeffizient,Q12793663 Q581997 Q604008,\mathit{Sc} = \frac{\nu}{D}
+Q2248464,Schockindex,andere,,Herzfrequenz,Schockindex,systolischer Blutdruck,Q1073121 Q2248464 Q42015775,\mathrm{SI} = \frac{\mathrm{HR}}{\mathrm{SBP}}
+Q2530089,Separables Polynom,andere,,Formale Ableitung,Separables Polynom,polynomial greatest common divisor,Q1955819 Q2530089 Q7226640,"\operatorname{gcd}(f, f') = 1"
+Q78514605,Spannungszeiger,andere,,Amplitude der elektrischen Spannung,Phasenwinkel,Spannungszeiger,Q119285877 Q415829 Q78514605,\underline{U} = \hat{U} \mathrm{e}^{\mathrm{j} \varphi}
+Q130343986,Spektralradius eines Graphen,andere,,Spektralradius eines Graphen,Spektralradius,Adjazenzmatrix,Q130343986 Q249748 Q727035,r=\rho(A)
+Q1375687,Sphärizität,andere,,Sphärizität,Oberfläche,Volumen,Q1375687 Q1379273 Q39297,\Psi = \frac{\pi^{\frac{1}{3}}(6V_p)^{\frac{2}{3}}}{A_p}
+Q93598162,Stabilitätszahl,andere,,Komplementgraph,Stabilitätszahl,Cliquenzahl,Q902252 Q93598162 Q93598411,\alpha(G)=\omega(\overline{G})
+Q159375,Standardabweichung,andere,,Standardabweichung,Varianz,Zufallsvariable,Q159375 Q175199 Q176623,\sigma = \sqrt{V(X)}
+Q89406159,Standardwert der absoluten Aktivität,andere,,absolute Aktivität des reinen Stoffes,Standardwert der absoluten Aktivität,Standarddruck,Q108155742 Q89406159 Q9193068,\lambda_{\mathrm{X}}^{\ominus} = \lambda_{\mathrm{X}}^{*}(p^{\ominus})
+Q89556185,Standardwert der absoluten Aktivität des Lösemittels,andere,,absolute Aktivität des reinen Stoffes,Standardwert der absoluten Aktivität des Lösemittels,Standarddruck,Q108155742 Q89556185 Q9193068,\lambda_{\mathrm{A}}^{\ominus} = \lambda_{\mathrm{A}}^{*}(p^{\ominus})
+Q909876,Stefan-Zahl,andere,,spezifische latente Wärme des Phasenübergangs,Temperaturunterschied,Stefan-Zahl,Q104217205 Q69362767 Q909876,\mathit{Ste} = \frac{c_p \Delta T}{Q}
+Q105675142,Stichprobenkovarianz,andere,,Stichprobenkovarianz,Stichprobendurchschnittswert,Zufallsvariable,Q105675142 Q105675280 Q176623,S_{X Y} = \frac{1}{n - 1} \sum_{i = 1}^n \left( X_i - \bar{X} \right) \left( Y_i - \bar{Y} \right)
+Q10351825,Stichprobenvarianz,andere,,Stichprobenvarianz,Stichprobendurchschnittswert,Zufallsvariable,Q10351825 Q105675280 Q176623,S^2 = \frac{1}{n - 1} \sum_{i = 1}^n \left( X_i - \bar{X} \right)^2
+Q112119317,Stichprobenvariationskoeffizient,andere,,Stichprobendurchschnittswert,Stichprobenstandardabweichung,Stichprobenvariationskoeffizient,Q105675280 Q112076372 Q112119317,\mathrm{cv} = \frac{S}{\bar{X}}
+Q1545546,Stokes-Zahl,andere,,Relaxationszeit,Geschwindigkeitsänderungszeit,Stokes-Zahl,Q106041085 Q108338200 Q1545546,\mathit{Stk} = \frac{t_{\mathrm{r}}}{t_{\mathrm{a}}}
+Q4394137,Stone lattice,andere,,join,meet,pseudocomplement,Q11061460 Q117713552 Q18345290,(x\wedge y)^*=x^*\vee y^*
+Q106453686,Streuentropie,andere,,Streuentropie,Entropie,Äquivokation,Q106453686 Q204570 Q256358,H(Y \vert X) = H(X \vert Y) + H(Y) - H(X)
+Q78514596,Stromzeiger,andere,,Amplitude der elektrischen Stromstärke,Phasenwinkel,Stromzeiger,Q119285737 Q415829 Q78514596,\underline{I} = \hat{I} \mathrm{e}^{\mathrm{j} \varphi}
+Q3001209,Takagi-Funktion,andere,,absoluter Betrag,Takagi-Funktion,Menge der ganzen Zahlen,Q120812 Q3001209 Q47007735,\operatorname{blanc}(x)=\sum_{n=0}^\infty\min_{m\in\mathbb Z}|x-m2^{-n}|
+Q122599693,Takeuchi number,andere,,Anzahl der Kombinationen mit Wiederholung,Takeuchi number,Catalan-Zahl,Q109490960 Q122599693 Q270513,T_n=\sum_{k=0}^{n-2}\left[2\left(\!\!{n \choose k}\!\!\right)-\binom{n+k}{k}\right]T_{n-k-1}+\sum_{k=1}^nC_k
+Q1129196,Tangens,andere,,Tangens,Kosinus,Sinus,Q1129196 Q1256164 Q152415,\tan x = \frac{\sin x}{\cos x}
+Q1274703,Tangens hyperbolicus,andere,,Kosinus hyperbolicus,Tangens hyperbolicus,Sinus hyperbolicus,Q1253682 Q1274703 Q1292101,\tanh{x} = \frac{\mathrm{e}^x - \mathrm{e}^{-x}}{\mathrm{e}^x + \mathrm{e}^{-x}}
+Q2400901,Teilverhältnis,andere,,Endpunkt,Strecke,Teilverhältnis,Q132444435 Q166154 Q2400901,\lambda=\frac{|AT|}{|TB|}
+Q69362767,Temperaturunterschied,andere,,Maßbezugstemperatur,thermodynamische Temperatur,Temperaturunterschied,Q1384084 Q264647 Q69362767,\Delta T = T - T_{\mathrm{r}}
+Q109928505,Tensorprodukt zweier Tensoren,andere,,Tensor der zweiten Stufe,kartesische Tensorkoordinate,Tensorprodukt zweier Tensoren,Q109622326 Q109639104 Q109928505,(\boldsymbol{T} \otimes \boldsymbol{S})_{i j k l} = T_{i j} S_{k l}
+Q4491930,Thomson formula,andere,,elektrische Kapazität,Induktivität,Periode,Q164399 Q177897 Q2642727,T=2\pi\sqrt{LC}
+Q1551033,Torsionsgruppe,andere,,Torsionsgruppe,neutrales Element,Menge der positiven ganzen Zahlen,Q1551033 Q185813 Q47339953,\forall g\in G\exists n\in\mathbb Z^+\colon g^n=1
+Q3822160,Torsionskonstante,andere,,Winkel,Schubmodul,Drehmoment,Q11352 Q461466 Q48103,J=\frac{TL}{G\theta}
+Q252973,Transinformation,andere,,Verbund-Informationsgehalt,Transinformation,Informationsgehalt,Q106448630 Q252973 Q735075,"T(x, y) = I(x) - I(y) - I(x, y)"
+Q165618,Trägheitsmoment,andere,,Masse,radialer Abstand,Trägheitsmoment,Q11423 Q1578234 Q165618,J_{\mathrm{Q}} = \int r_{\mathrm{Q}}^{2} \mathrm{d} m
+Q206037,Umdrehungen pro Minute,andere,,Umdrehungen pro Minute,Umdrehung,Minute,Q206037 Q2478223 Q7727,\mathrm{RPM}=\mathrm{rev}/\mathrm{min}
+Q120755990,Umlaufzahl,andere,,komplexes Wegintegral,geschlossene Kontur,Umlaufzahl,Q116907694 Q120726179 Q120755990,"\mathcal{N}(\mathsf{C}, z_0) = \frac{1}{2 \pi \mathrm{i}} \int_{\mathsf{C}} \frac{1}{z - z_0} \, \mathrm{d}z"
+Q254329,Van-der-Waals-Gleichung,andere,,thermodynamische Temperatur,Druck,molares Volumen,Q264647 Q39552 Q487112,\left(p + \frac{a'}{v^2}\right)\left(v-b'\right) = kT
+Q175199,Varianz,andere,,Varianz,Zufallsvariable,Erwartungswert,Q175199 Q176623 Q200125,V(X) = E\left(\left(X - E(X)\right)^2\right)
+Q623738,Variationskoeffizient,andere,,Mittelwert,Standardabweichung,Variationskoeffizient,Q112594430 Q159375 Q623738,\mathrm{CV} = \frac{\sigma}{\mu}
+Q10713659,Vektoraddition,andere,,Vektoraddition,kartesische Vektorkoordinate,Vektor,Q10713659 Q109533510 Q13471665,(\boldsymbol{a} + \boldsymbol{b})_i = a_i + b_i
+Q20820438,Verlustwinkel,andere,,Verlustwinkel,Arkustangens,Verlustfaktor,Q20820438 Q2257242 Q79468728,\delta = \arctan d
+Q367866,Verschiebungssatz,andere,,Varianz,Zufallsvariable,Erwartungswert,Q175199 Q176623 Q200125,\operatorname{Var}(X) = \operatorname{E}(X^2) - [\operatorname{E}(X)]^2
+Q20850796,Verteilungsfunktion,andere,,Verteilungsfunktion,Maßraum,messbare Funktion,Q20850796 Q3058212 Q516776,d_f(s)=\mu\Big(\{x\in X: |f(x)|>s\}\Big)
+Q3816758,Vierbein (Tetrade),andere,,Minkowski-Metrik,Vierbein (Tetrade),semiriemannsche Metrik,Q3333766 Q3816758 Q78341368,g_{\mu\nu} = e^a_\mu e^b_\nu \eta_{ab}
+Q1753014,Weissenberg-Zahl,andere,,Relaxationszeit,Scherverformungsrate,Weissenberg-Zahl,Q106041085 Q108397870 Q1753014,"\mathit{Wi} = \dot{\gamma} \, t_{\mathrm{r}}"
+Q3894437,Wilson quotient,andere,,Fakultät,Wilson quotient,Primzahl,Q120976 Q3894437 Q49008,W(p) = \frac{(p-1)! + 1}{p}
+Q1115519,Wilson-Bappu-Effekt,andere,,absolute Helligkeit,Kilometer pro Sekunde,dekadischer Logarithmus,Q159653 Q3674704 Q966582,M_{\mathrm V}=33.2-18.0\log_{10}\frac{W_0}{\mathrm{km}/\mathrm{s}}
+Q79813678,Wirkenergie,andere,,elektrische Momentanleistung,Dauer,Wirkenergie,Q11784325 Q2199864 Q79813678,"W = \int\limits_{t_1}^{t_2} p \, \mathrm{d} t"
+Q79464628,Wirkleitwert,andere,,Realteil,Admittanz,Wirkleitwert,Q1156910 Q214518 Q79464628,G = \operatorname{Re} \underline{Y}
+Q1048490,Wirkwiderstand,andere,,Wirkwiderstand,Realteil,Impedanz,Q1048490 Q1156910 Q179043,R = \operatorname{Re} \underline{Z}
+Q487005,Wärmeleitfähigkeit,andere,,Wärmestromdichte,Wärmeleitfähigkeit,Temperaturgradient,Q1478382 Q487005 Q554388,\boldsymbol{q} = -\lambda \operatorname{grad}(T)
+Q1478382,Wärmestromdichte,andere,,Flächeninhalt,Wärmestrom,Wärmestromdichte,Q11500 Q12160631 Q1478382,q = \frac{\dot{Q}}{A}
+Q899628,Wärmewiderstand,andere,,Wärmestrom,Temperaturunterschied,Wärmewiderstand,Q12160631 Q69362767 Q899628,R = \frac{\Delta T}{\dot{Q}}
+Q634340,Wärmeübergangskoeffizient,andere,,Wärmestromdichte,Wärmeübergangskoeffizient,Temperaturunterschied,Q1478382 Q634340 Q69362767,K = \frac{q}{\Delta T}
+Q1192873,Yang-Mills-Theorie,andere,,elektromagnetischer Feldstärketensor,Spur,Wirkung,Q1076013 Q321102 Q846785,"S = \int\mathrm d^dx\,\left(-\frac12\operatorname{Tr}(F^2)\right)=\int\mathrm d^dx\left(-\frac14F^{a\mu \nu} F_{\mu \nu}^a\right)"
+Q4516355,Zahlenfolge,andere,,Funktion,Term,index,Q11348 Q1318370 Q136724397,"y=f\left(n\right) , \ n \in \mathbb{Z}"
+Q306393,abc-Vermutung,andere,,größter gemeinsamer Teiler,Aleph 0,radical of an integer,Q131752 Q1445491 Q2498974,"\forall t>1\colon |\{(a,b,c)\in(\mathbb Z^+)^3\colon a+b=c,\;\gcd\{a,b,c\}=1,\;c>\operatorname{rad}(abc)^t\}| < \aleph_0"
+Q137393244,abgeschlossene Nachbarschaft,andere,,Nachbarschaft,abgeschlossene Nachbarschaft,Vereinigung,Q1354987 Q137393244 Q185359,N[v]=N(v)\cup\{v\}
+Q96142918,absolute basophil count,andere,,percent basophils,Leukozytenzahl,absolute basophil count,Q109327570 Q52307097 Q96142918,ABC =  \frac{basophils}{100} \cdot WBC
+Q96142930,absolute eosinophil count,andere,,percent eosinophils,Leukozytenzahl,absolute eosinophil count,Q109309633 Q52307097 Q96142930,AEC =  \frac{eosinophils}{100} \cdot WBC
+Q96142958,absolute monocyte count,andere,,percent monocytes,Leukozytenzahl,absolute monocyte count,Q109354335 Q52307097 Q96142958,AMC =  \frac{monocytes}{100} \cdot WBC
+Q10886944,admirable number,andere,,admirable number,teilt,Teilersumme,Q10886944 Q109497082 Q4047453,"\exists d < n: d \mid n, \sigma(n)-2d=2n"
+Q975684,akustische Impedanz,andere,,quadratisches Mittel des Schalldrucks,Schallfluss,akustische Impedanz,Q106355044 Q1640308 Q975684,Z_{\mathrm{a}} = \frac{\bar{p}}{q}
+Q22912133,aliquot sum,andere,,positive ganze Zahl,aliquot sum,Teilersumme,Q16317911 Q22912133 Q4047453,s(n)=\sigma(n)-n
+Q106535954,anthropogene Masse-Zahl,andere,,anthropogene Masse,anthropogene Masse-Zahl,Biomasse,Q106535803 Q106535954 Q2945560,\mathit{An} = \frac{m_{\mathrm{a}}}{m_{\mathrm{b}}}
+Q583760,antisymmetrische Relation,andere,,binäre Relation,Menge,Element,Q130901 Q36161 Q379825,"\forall a, b \in X,\ (aRb \and bRa) \; \Rightarrow \; a = b"
+Q116881953,axial current,andere,,Dirac-Matrizen,axial current,Dirac-Feld,Q1151645 Q116881953 Q18456248,j_5^\mu=\bar\Psi\gamma^5\gamma^\mu\Psi
+Q91405496,axiales Flächenträgheitsmoment,andere,,Flächeninhalt,radialer Abstand,axiales Flächenträgheitsmoment,Q11500 Q1578234 Q91405496,I_{\mathrm{a}} = \iint\limits_{\mathrm{M}} r_{\mathrm{Q}}^2 \mathrm{d} A
+Q813908,bedingte Entropie,andere,,gemeinsame Wahrscheinlichkeit,bedingter Informationsgehalt,bedingte Entropie,Q106448902 Q106449009 Q813908,"H(X \vert Y) = \sum_{i = 1}^n \sum_{j = 1}^m p(x_i, y_j) I(x_i \vert y_j)"
+Q327069,bedingte Wahrscheinlichkeit,andere,,Schnittmenge,bedingte Wahrscheinlichkeit,Wahrscheinlichkeit,Q185837 Q327069 Q9492,P(A \vert B) = \frac{P(A \cap B)}{P(B)}
+Q106449009,bedingter Informationsgehalt,andere,,Verbund-Informationsgehalt,bedingter Informationsgehalt,Informationsgehalt,Q106448630 Q106449009 Q735075,"I(x \vert y) = I(x, y) - I(y)"
+Q109905826,bilaterale Z-Transformierte,andere,,bilaterale Z-Transformierte,komplexe Zahl,Folge,Q109905826 Q11567 Q133250,\operatorname{\mathfrak{Z}}^{(2)} \left(a_n\right) = \sum_{n = -\infty}^{\infty} a_n z^{-n}
+Q131581195,binding number,andere,,Knotenmenge,binding number,Nachbarschaft,Q124247078 Q131581195 Q1354987,"\operatorname{bind}(G)=\min \left\{\frac{|N_{G}(X)|}{|X|}:\emptyset\neq X\subseteq V(G),N_{G}(X)\neq V(G)\right\}"
+Q122722706,bulk velocity,andere,,Volumenstrom,bulk velocity,Querschnittsfläche,Q1134348 Q122722706 Q29325024,\bar{u}=\dot{V}/A
+Q913764,cauchysche Integralformel,andere,,Funktion,komplexes Wegintegral,einfache geschlossene Kontur,Q11348 Q116907694 Q120726131,"f(z_0) = \frac{1}{2 \pi \mathrm{i}} \int_{\mathsf{C}} \frac{f(z)}{z - z_0} \, \mathrm{d}z"
+Q123024376,charm,andere,,delta,theta,charm,Q123024151 Q123024295 Q123024376,\mathrm{Charm}=-\frac {\partial \Delta}{\partial \tau}=\frac {\partial \Theta }{\partial S}
+Q22093344,cis,andere,,name of function,komplexe Zahl,reelle Zahl,Q109373950 Q11567 Q12916,z=\operatorname{cis}(x) = \cos(x) + i\sin(x)
+Q6174454,conicity index,andere,,Körpergröße,Körpergewicht,Bauchumfang,Q476112 Q620876 Q811148,\text{CI} = \frac{\text{WC}}{1.09 \sqrt{  \frac{\text{m}} {\text{l}} } }
+Q3010804,core,andere,,conjugate subgroup,Schnittmenge,core,Q121484797 Q185837 Q3010804,\mathrm{Core}_S(H) = \bigcap_{s \in S}{s^{-1}Hs}
+Q83152,coulombsches Gesetz,andere,,elektrische Ladung,elektrostatische Kraft,Abstand,Q1111 Q11773690 Q126017,F = \frac{1}{4 \pi \varepsilon_0} \frac{q_1 q_2}{r^2}
+Q2421034,cricket batting average,andere,,Run,cricket batting average,Dismissal,Q1360926 Q2421034 Q489322,\text{batting average}=\frac{\text{runs scored}}{\text{number of times out}}
+Q5196051,curvature collineation,andere,,curvature collineation,Lie-Ableitung,Riemannscher Krümmungstensor,Q5196051 Q579267 Q855112,\mathcal L_X\operatorname{Riem}_g=0
+Q839832,curvature form,andere,,äußere Ableitung,Zusammenhang,curvature form,Q1754547 Q2920850 Q839832,\Omega=\mathrm d\omega+\frac12[\omega \wedge \omega ]
+Q3363554,deceleration parameter,andere,,Skalenfaktor,deceleration parameter,Hubble-Parameter,Q1332997 Q3363554 Q91726935,q= -\ddot aa/\dot a^2=-\dot H/H^2-1
+Q5276043,dgital biquad filter,andere,,z-domain frequency,Parameter,Übertragungsfunktion,Q123669362 Q1413083 Q334269,H(z)=\frac{b_0+b_1z^{-1}+b_2z^{-2}} {a_0+a_1z^{-1}+a_2z^{-2} }
+Q673444,dichte Teilmenge,andere,,Hüllenoperator,topologischer Raum,dichte Teilmenge,Q10564851 Q179899 Q673444,\operatorname{cl}_X(A)=X
+Q175116,diskreter Raum,andere,,diskreter Raum,Topologie,Potenzmenge,Q175116 Q18786106 Q205170,\operatorname{Open}(X) = \{U\colon U\subseteq X\}
+Q5282790,dissociation number,andere,,dissociation number,induziertes Matching,Stabilitätszahl,Q5282790 Q65119384 Q93598162,\operatorname{diss}(G)=\max_M \alpha(G-M)
+Q130525345,durchschnittliche Exzentrizität,andere,,Knotenmenge,durchschnittliche Exzentrizität,Exzentrizität eines Knoten,Q124247078 Q130525345 Q65556262,\operatorname{avec}(G)=\frac 1{|V|} \sum_{v\in V}e_G(v)
+Q2396526,dyadisches Produkt,andere,,kartesische Vektorkoordinate,Vektor,dyadisches Produkt,Q109533510 Q13471665 Q2396526,\left(\boldsymbol{a} \boldsymbol{b}\right)_{i j} = a_i b_j
+Q5321508,e-folding,andere,,Generationszeit,e-folding,natürlicher Logarithmus der Zahl 2,Q1424376 Q5321508 Q5963772,T_{\mathrm e}=\frac{T_2}{\ln2}
+Q1064434,effektive Masse,andere,,effektive Masse,Elektronenergie,Wellenzahl,Q1064434 Q108441234 Q192510,m^{*} = \frac{\hbar^2 k}{\frac{\mathrm{d} \varepsilon}{\mathrm{d} k}}
+Q273711,einsteinsche Feldgleichungen,andere,,metrischer Tensor,Einsteintensor,Energie-Impuls-Tensor,Q2045231 Q550929 Q876346,G_{\mu \nu} + \Lambda g_{\mu \nu} = \frac{8 \pi G}{c^4} T_{\mu \nu}
+Q11773690,elektrostatische Kraft,andere,,elektrische Ladung,elektrostatische Kraft,Abstand,Q1111 Q11773690 Q126017,F = \frac{1}{4 \pi \varepsilon_0} \frac{q_1 q_2}{r^2}
+Q105084863,erste Cowling-Zahl,andere,,erste Cowling-Zahl,magnetische Reynolds-Zahl,Cowling-Zahl,Q105084863 Q1852720 Q3343018,"\mathit{Co}_1 = \mathit{Co} \, \mathit{Rm}"
+Q4349092,erster Mittelwertsatz der Integralrechnung,andere,,nichtnegative Funktion,stetige Funktion,bestimmtes Integral,Q116457666 Q170058 Q1991596,"\exists c \in [a,b] : \int_a^b f(x) \, \mathrm{d}x = f(c) (b - a)"
+Q2039387,erweiterte reelle Zahlen,andere,,Kontinuum,Vereinigung,erweiterte reelle Zahlen,Q1174982 Q185359 Q2039387,"\overline{\R}=\R\cup\{+\infty,-\infty\}"
+Q109514579,fallende Faktorielle,andere,,fallende Faktorielle,komplexe Zahl,natürliche Zahl,Q109514579 Q11567 Q21199,n^{\underline{k}} = \frac{n!}{(n - k)!}
+Q121069543,freie Operation,andere,,neutrales Element,Gruppenoperation,Gruppe,Q185813 Q288465 Q83478,\forall g\in G\forall x\in X\colon (g\bullet x=x\implies g=1_G)
+Q15927257,generalisierte Geschwindigkeit,andere,,generalisierte Koordinate,generalisierte Geschwindigkeit,Dauer,Q1057607 Q15927257 Q2199864,\dot{q}_i = \frac{\mathrm{d} q_i}{\mathrm{d} t}
+Q130351790,harmonischer Index eines Graphen,andere,,Kantenmenge,harmonischer Index eines Graphen,Grad,Q124247109 Q130351790 Q383444,H = \underset{u v \in E}{\sum} \frac{2}{\deg(u) + \deg(v)}
+Q3281256,hemiperfect number,andere,,positive ganze Zahl,hemiperfect number,Teilersumme,Q16317911 Q3281256 Q4047453,\sigma(m)/m = k+\frac{1}{2}
+Q5891429,homologe Temperatur,andere,,Schmelztemperatur,thermodynamische Temperatur,homologe Temperatur,Q15318 Q264647 Q5891429,T_H = \frac{T}{T_\mathrm{mp}}
+Q3413403,hyperbolic quaternion,andere,,non-associative algebra,Quotientenalgebra,zweiseitiges Ideal,Q4391941 Q4480691 Q91666887,"\mathbb{HQ}=\mathbb R\langle i,j,k\rangle / (i^2-1,j^2-1,k^2-1,ij+ji,jk+kj,ik+ki)"
+Q839528,hyperperfect number,andere,,Parameter,Teilersumme,hyperperfect number,Q1413083 Q4047453 Q839528,n = 1 + k(\sigma(n) - n - 1)
+Q131580191,identity morphism,andere,,Objekt,identity morphism,Morphismus,Q10340026 Q131580191 Q1948412,\operatorname{id}_X: X \to X: \forall f: A \to B: \operatorname{id}_B \circ f = f = f \circ \operatorname{id}_A
+Q6015180,incomplete polylogarithm,andere,,unvollständige Gammafunktion,Gammafunktion,incomplete polylogarithm,Q1319246 Q190573 Q6015180,"\operatorname{Li}_{s}(b,z)=\frac1{\Gamma (s)}\int_b^\infty\frac{x^{s-1}}{\exp(x)/z-1}\,\mathrm dx=\sum _{k=1}^\infty\frac{z^k\Gamma (s,kb)}{\Gamma (s)k^s}"
+Q130523029,independence domination number,andere,,stabile Menge,Dominationszahl,independence domination number,Q1060343 Q130343824 Q130523029,\gamma^i(G)=\max_I \gamma(I)
+Q78101715,induktiver Kopplungsgrad,andere,,Induktivität,gegenseitige Induktivität,induktiver Kopplungsgrad,Q177897 Q78101401 Q78101715,k = \frac{\left | L_{\mathrm{m} \mathrm{n}} \right |}{\sqrt{L_{\mathrm{m}} L_{\mathrm{n}}}}
+Q180241,innere Energie,andere,,innere Energie,Arbeit,Wärme,Q180241 Q42213 Q44432,\Delta U = Q + W
+Q109928549,inneres Produkt zweier Tensoren,andere,,Tensor der zweiten Stufe,kartesische Tensorkoordinate,inneres Produkt zweier Tensoren,Q109622326 Q109639104 Q109928549,(\boldsymbol{T} \cdot \boldsymbol{S})_{i k} = \sum_j T_{i j} S_{j k}
+Q767667,interior product,andere,,Differentialform,Vektorfeld,interior product,Q1047080 Q186247 Q767667,"(X_1\mathbin\lrcorner\omega)(X_2,\dotsc,X_p)=\omega (X_1,\dotsc,X_p)"
+Q6060481,inversive distance,andere,,Abstand,Radius,inversive distance,Q126017 Q173817 Q6060481,I={\frac {d^{2}-r^{2}-R^{2}}{2rR}}
+Q6268984,join,andere,,Vereinigung,σ-Algebra,join,Q185359 Q217357 Q6268984,\bigvee_{\alpha \in \mathcal{A}} \Sigma_\alpha = \sigma\left(\bigcup_{\alpha \in \mathcal{A}} \Sigma_\alpha\right)
+Q124464442,kantenchromatische Zahl,andere,,kantenchromatische Zahl,Kantengraph,chromatische Zahl,Q124464442 Q1378376 Q3879388,\chi'(G)=\chi(L(G))
+Q108073699,komplexer Brechungsindex,andere,,komplexer Brechungsindex,spektraler Absorptionsindex,Brechungsindex,Q108073699 Q108073802 Q174102,\underline{n} = n + \mathrm{i} k
+Q10754052,konjugierte Matrix,andere,,konjugierte Matrix,komplexe Konjugation,komplexe Matrix,Q10754052 Q381040 Q43144845,\left( \overline{\boldsymbol{A}} \right)_{i k} = \overline{\left( \boldsymbol{A} \right)_{i k}}
+Q18192568,lensmaker's equation,andere,,radius of curvature,Brechungsindex,Brennweite,Q14436715 Q174102 Q193540,\frac{1}{f} = \left(\frac{n_1}{n_2}-1\right) \left[ \frac{1}{R_1} - \frac{1}{R_2} + \frac{(n_1-1)d}{n_1 R_1 R_2} \right]
+Q762521,logarithmische Ableitung,andere,,Funktion,Ableitung,logarithmische Ableitung,Q11348 Q29175 Q762521,\operatorname{L}(f) = \frac{f'}{f}
+Q6731548,magnetische Diffusivität,andere,,magnetische Permeabilität,elektrische Leitfähigkeit,magnetische Diffusivität,Q28352 Q4593291 Q6731548,\nu_{\mathrm{m}} = \frac{1}{\mu_0 \sigma}
+Q383041,magnetischer Druck,andere,,magnetische Permeabilität,magnetische Flussdichte,magnetischer Druck,Q28352 Q30204 Q383041,p_{\mathrm{m}} = \frac{\boldsymbol{B}^2}{2 \mu_0}
+Q97143703,magnetisches Dipolmoment,andere,,magnetische Flussdichte,magnetisches Dipolmoment,Änderung der Teilchenenergie,Q30204 Q97143703 Q97143782,\Delta W = - \boldsymbol{\mu} \cdot \boldsymbol{B}
+Q17162107,magnetisches Skalarpotential,andere,,magnetisches Skalarpotential,Gradient,magnetische Feldstärke,Q17162107 Q173582 Q28123,\boldsymbol{H} = -\operatorname{\mathbf{grad}} V_{\mathrm{m}}
+Q6789731,matter collineation,andere,,Lie-Ableitung,matter collineation,Energie-Impuls-Tensor,Q579267 Q6789731 Q876346,\mathcal L_XT=0
+Q130691832,minimaler Hamming-Abstand,andere,,minimaler Hamming-Abstand,Hamming-Abstand,fehlerkorrigierender Code,Q130691832 Q272172 Q55611017,"d(C) = \min\{d(u,v) \mid u, v \in C,\ u \ne v \}"
+Q117290019,mittlere Teilchengeschwindigkeit,andere,,mittlere Teilchengeschwindigkeit,Teilchengeschwindigkeit,Teilchenzahl,Q117290019 Q117290046 Q181155,\bar{v} = \frac{1}{N} \sum_{i = 1}^N v_i
+Q106460846,mittlere Zeichenentropie,andere,,mittlere Zeichenentropie,Entropie der Menge aller Zeichenfolgen einer bestimmten Länge,Anzahl der Zeichen,Q106460846 Q106460889 Q91797376,H' = \lim_{m \to \infty} \frac{H_m}{m}
+Q1940665,mittlere freie Flugzeit,andere,,mittlere Teilchengeschwindigkeit,mittlere freie Flugzeit,mittlere freie Weglänge,Q117290019 Q1940665 Q756307,\tau = \frac{\lambda}{\bar{v}}
+Q1940696,mittlere quadratische Abweichung,andere,,Schätzwert,Messwert,Anzahl,Q112873484 Q15088658 Q614112,\operatorname{MSE}=\frac{1}{n}\sum_{i=1}^n(\hat{Y_i} - Y_i)^2
+Q106466934,mittlerer Informationsfluss,andere,,mittlere Zeichenentropie,mittlerer Informationsfluss,mittlere Dauer für ein Zeichen,Q106460846 Q106466934 Q108456983,H^{*} = \frac{H'}{t(X)}
+Q106460818,mittlerer Transinformationsgehalt,andere,,gemeinsame Wahrscheinlichkeit,mittlerer Transinformationsgehalt,Transinformation,Q106448902 Q106460818 Q252973,"T(X, Y) = \sum_{i = 1}^n \sum_{j = 1}^m p(x_i, y_j) T(x_i, y_j)"
+Q109559095,modifizierte Bessel-Funktion erster Art,andere,,Bessel-Funktion,modifizierte Bessel-Funktion erster Art,komplexe Zahl,Q109546200 Q109559095 Q11567,\mathrm{I}_{\nu}(z) = \mathrm{e}^{-\frac{1}{2} \mathrm{i} \nu \pi} \mathrm{J}_{\nu}\left(\mathrm{e}^{\frac{1}{2} \mathrm{i} \pi} z\right)
+Q109559130,modifizierte Bessel-Funktion zweiter Art,andere,,Hankel-Funktion erster Art,modifizierte Bessel-Funktion zweiter Art,komplexe Zahl,Q109558815 Q109559130 Q11567,\mathrm{K}_{\nu}(z) = \frac{\mathrm{i} \pi}{2} \mathrm{e}^{\frac{1}{2} \mathrm{i} \nu \pi} \mathrm{H}_{\nu}^{(1)}\left(\mathrm{e}^{\frac{1}{2} \mathrm{i} \pi} z\right)
+Q190556,moivrescher Satz,andere,,ganze Zahl,Kosinus,Sinus,Q12503 Q1256164 Q152415,\cos (n \theta) + \mathrm{i} \sin (n \theta) = (\cos \theta + \mathrm{i} \sin \theta)^n
+Q98929882,multilinearity,andere,,Skalar,Vektor,Abbildung,Q1289248 Q13471665 Q370502,"F(v_1, ..., av_i + bv_i', ..., v_k) = aF(v_1, ..., v_i, ..., v_k) + bF(v_1, ..., v_i', ..., v_k)"
+Q743364,negative Binomialverteilung,andere,,diskrete Zufallsvariable,Binomialkoeffizient,Wahrscheinlichkeitsfunktion,Q1045168 Q209875 Q869887,P(X = x) = \binom{-c}{x} p^c (1 - p)^x
+Q134465,newtonsches Gravitationsgesetz,andere,,Masse,Gravitationskraft,Abstand,Q11423 Q119510698 Q126017,F_{\rm g} = G {m_1 m_2 \over r^2}
+Q840023,nilpotentes Element,andere,,wo,Element,Existenzquantor,Q12919272 Q379825 Q5460020,\exists n \in \mathbb Z^+\colon x^n = 0
+Q17105107,optische Metrik,andere,,optische Metrik,Permittivität,magnetische Permeabilität,Q17105107 Q211569 Q28352,\hat g_{ij}=g_{ij}\pm\left(1-\frac1{\epsilon \mu}\right)u_i u_j
+Q120630325,orbital velocity in perfectly circular orbits,andere,,Masse,orbital velocity in perfectly circular orbits,Radius,Q11423 Q120630325 Q173817,v_\text{o} = \sqrt{\frac{G M}{r}}
+Q118133376,ordinal multiplication,andere,,Ordinalzahl,Limesordinalzahl,Nachfolgerfunktion,Q191780 Q2467845 Q7632653,x*0 = 0
+Q4331241,paper folding limit,andere,,Breite,Dicke,Anzahl,Q35059 Q3589038 Q614112,W = \pi t 2^{\frac{3}{2}(n-1)}
+Q1049636,polares Flächenträgheitsmoment,andere,,polares Flächenträgheitsmoment,Flächeninhalt,radialer Abstand,Q1049636 Q11500 Q1578234,I_{\mathrm{p}} = \iint\limits_{\mathrm{M}} r_{\mathrm{Q}}^2 \mathrm{d} A
+Q85793889,polynomial differential form,andere,,Simplex,Dimension,Menge der rationalen Zahlen,Q331350 Q4440864 Q47005650,"\Omega_{\text{poly}}(\triangle^n)=\mathbb Q[t_0,\dotsc,t_n,dt_0,\dotsc,dt_n]/\left(\sum t_i-1,\sum dt_i\right)"
+Q155640,potentielle Energie,andere,,Kraft,potentielle Energie,Ortsvektor,Q11402 Q155640 Q192388,V = -\int \boldsymbol{F} \cdot \mathrm{d} \boldsymbol{r}
+Q17492744,pressuron,andere,,Skalarkrümmung,pressuron,Wirkung,Q1147161 Q17492744 Q846785,"S=\int\mathrm d^4x\,\sqrt{-\det g}\left(\sqrt\Phi\mathcal L_{\mathrm m}(g_\mu \nu,\Psi)+\frac1{2\kappa}\left(\Phi R-\frac{\omega(\Phi)}\Phi(\partial\Phi)^2-V(\Phi )\right)\right)"
+Q130417616,primitiver Anteil,andere,,Inhalt,primitiver Anteil,Polynom,Q130417051 Q130417616 Q43260,P = c(P) \operatorname{pp}(P)
+Q3117995,probit,andere,,Umkehrfunktion,probit,Fehlerfunktion,Q191884 Q3117995 Q579262,"\operatorname{probit}(p) = \operatorname{erf}^{-1}(p) \qquad(p \in \{0, 1\})"
+Q121225113,product of two integers,andere,,ganze Zahl,Multiplikation,Produkt,Q12503 Q40276 Q901718,p=m \times n
+Q50695,quadratische Funktion,andere,,unabhängige Variable,Koeffizient,abhängige Variable,Q2487752 Q50700 Q9391534,"f(x,y,z)=ax^2+by^2+cz^2+dxy+exz+fyz+gx+hy+iz +j"
+Q4218495,quantum capacitance,andere,,elektrische Ladung,quantum capacitance,elektrochemisches Potential,Q1111 Q4218495 Q62525,C_{\bar\mu}=\frac{\mathrm dq}{\mathrm d\bar\mu}
+Q97359990,quantum volume,andere,,Minimum,Arg max,Qubit,Q10585806 Q287353 Q378201,"V_\text{Q}=2^{\operatorname {arg\,max}_{n\leq N}\min\{n,d(n)\}}"
+Q112927,rank of a group,andere,,Minimum,rank of a group,Mächtigkeit,Q10585806 Q112927 Q4049983,"\operatorname{rank}(G)=\min\{|S| \colon  S \subseteq G, \; \langle S\rangle = G\}"
+Q119507727,reelle relative Permeabilität,andere,,Realteil,reelle relative Permeabilität,komplexe relative Permeabilität,Q1156910 Q119507727 Q119507939,\mu_{\mathrm{r}}' = \operatorname{Re} \underline{\mu}_{\mathrm{r}}
+Q119474097,reelle relative Permittivität,andere,,Realteil,reelle relative Permittivität,komplexe relative Permittivität,Q1156910 Q119474097 Q119474376,\varepsilon_{\mathrm{r}}' = \operatorname{Re} \underline{\varepsilon}_{\mathrm{r}}
+Q73432507,relative Volumenvergrößerung,andere,,Bezugsvolumen,relative Volumenvergrößerung,Änderung des Volumens,Q108239762 Q73432507 Q91308829,\vartheta = \Delta V / V_0
+Q17192238,revolutions per second,andere,,Sekunde,revolutions per second,Umdrehung,Q11574 Q17192238 Q2478223,\mathrm {RPS} =\mathrm {rev} /\mathrm {sec}
+Q105475278,reziproker Gittervektor,andere,,fundamentaler Gittervektor,reziproker Gittervektor,ganze Zahl,Q105451063 Q105475278 Q12503,\boldsymbol{G} \cdot \boldsymbol{R} = 2 \pi n
+Q2360148,rule of sum,andere,,Vereinigung,Menge,Mächtigkeit,Q185359 Q36161 Q4049983,A\cap B = \phi \implies |A \cup B| = |A| + |B|
+Q4780934,scheinbare Viskosität,andere,,Schergeschwindigkeit,scheinbare Viskosität,Scherspannung,Q461293 Q4780934 Q657936,\eta = \frac{\tau}{\dot{\gamma}}
+Q121953235,shortening,andere,,Startzeitpunkt,Endzeitpunkt,Länge,Q24575110 Q24575125 Q36253,\Delta L'=L_0-L_1
+Q80373928,spektrale Strahlungsenergiedichte bezüglich der Wellenzahl,andere,,Strahlungsenergiedichte,Wellenzahl,spektrale Strahlungsenergiedichte bezüglich der Wellenzahl,Q15054312 Q192510 Q80373928,w_\tilde{\nu} = \frac{\mathrm{d} w}{\mathrm{d} \tilde{\nu}}
+Q108073802,spektraler Absorptionsindex,andere,,elektromagnetische Wellenlänge,spektraler Absorptionsindex,spektraler linearer Absorptionskoeffizient,Q105581076 Q108073802 Q108085849,\varkappa(\lambda) = \frac{\lambda}{4 \pi} a(\lambda)
+Q100793317,spezifischer Impuls bezüglich Masse,andere,,spezifischer Impuls bezüglich Masse,Massenstrom,Schub,Q100793317 Q1366187 Q533668,I_{\mathrm{sp}} = \frac{F_{\mathrm{T}}}{\dot{m}}
+Q3075189,sphärische Bessel-Funktion,andere,,Bessel-Funktion,ganze Zahl,sphärische Bessel-Funktion,Q109546200 Q12503 Q3075189,\mathrm{j}_l(z) = \sqrt{\frac{\pi}{2 z}} \mathrm{J}_{l + 1/2}(z)
+Q109559239,sphärische Neumann-Funktion,andere,,Bessel-Funktion zweiter Gattung,sphärische Neumann-Funktion,natürliche Zahl,Q109545924 Q109559239 Q21199,\mathrm{n}_l(z) = \sqrt{\frac{\pi}{2 z}} \mathrm{N}_{l + 1/2}(z)
+Q109061714,strahlenchemische Ausbeute,andere,,Stoffmenge,strahlenchemische Ausbeute,mittlere zugeführte Energie,Q104946 Q109061714 Q99526969,G = \frac{n}{\bar{\varepsilon}}
+Q7623461,stress–energy–momentum pseudotensor,andere,,Einsteintensor,metrischer Tensor,stress–energy–momentum pseudotensor,Q550929 Q757269 Q7623461,t_\text{LL}^{\mu\nu}=-G^{\mu\nu}-\Lambda g^{\mu\nu}+\frac12|\det g|^{-1}\partial_\alpha\partial_\beta(|\det g|(g^{\mu \nu}g^{\alpha\beta}-g^{\mu\alpha}g^{\nu\beta}))
+Q576072,studentsche t-Verteilung,andere,,Gammafunktion,Wahrscheinlichkeitsdichtefunktion,Anzahl der Freiheitsgrade,Q190573 Q207522 Q3253731,f(x) = \frac{\operatorname{\Gamma}\left( \frac{\nu + 1}{2} \right)}{\sqrt{\pi \nu} \operatorname{\Gamma}\left( \frac{\nu}{2} \right)} \left( 1 + \frac{x^2}{\nu} \right)^{-\frac{\nu + 1}{2}}
+Q120635534,substrate concentration in Michaelis–Menten kinetics,andere,,substrate concentration in Michaelis–Menten kinetics,Reaktionsgeschwindigkeit,Konzentration,Q120635534 Q3394849 Q3686031,v = \frac{\mathrm{d} p}{\mathrm{d} t} = \frac{V a}{K_\mathrm{m} + a}
+Q30090890,surface area of an open cylinder,andere,,Radius,Höhe,surface area of an open cylinder,Q173817 Q208826 Q30090890,L=2 \pi rh
+Q7661853,symplektisches Vektorfeld,andere,,symplektische 2-Form,Lie-Ableitung,symplektisches Vektorfeld,Q3077487 Q579267 Q7661853,\mathcal L_X\omega=0
+Q119487995,tidal acceleration,andere,,tidal acceleration,Ortsvektor,Gravitationsbeschleunigung,Q119487995 Q192388 Q30006,\boldsymbol{a}_\mathrm{t}(\boldsymbol r) = \boldsymbol{g}(\boldsymbol r) - \boldsymbol{g}(\boldsymbol{r}_0)
+Q7827198,torsion-free abelian group,andere,,neutrales Element,Menge der positiven ganzen Zahlen,torsion-free abelian group,Q185813 Q47339953 Q7827198,\forall g\in G\colon(\exists n\in\mathbb Z^+\colon ng=0)\implies g=0
+Q130438340,totalchromatische Zahl,andere,,totalchromatische Zahl,total graph,chromatische Zahl,Q130438340 Q131914183 Q3879388,\chi''(G) = \chi(T(G))
+Q121074575,treue Gruppenwirkung,andere,,neutrales Element,Gruppenoperation,Gruppe,Q185813 Q288465 Q83478,\forall g\in G\colon(\forall x\in X\colon g\bullet x=x)\implies g=1_G
+Q141101613,triangular–factorial equation,andere,,Fakultät,Dreieckszahl,nichtnegative ganze Zahl,Q120976 Q245102 Q28920052,n!=m(m+1)
+Q2039117,trigonometrischer Pythagoras,andere,,Winkelweite,Höhe,Breite,Q1357788 Q208826 Q35059,\sin^2\theta + \cos^2\theta=1
+Q7842161,trimean,andere,,Median,Quartil,trimean,Q226995 Q2786686 Q7842161,TM= \frac{Q_1 + 2Q_2 + Q_3}{4}
+Q113480712,type I maximum value distribution,andere,,Skalenparameter,Wahrscheinlichkeitsdichtefunktion,Lageparameter,Q1289366 Q207522 Q2621185,f(x) = \frac{1}{b} \mathrm{e}^{-\frac{x - a}{b} - \mathrm{e}^{-\frac{x - a}{b}}}
+Q113481001,type I minimum value distribution,andere,,Skalenparameter,Wahrscheinlichkeitsdichtefunktion,Lageparameter,Q1289366 Q207522 Q2621185,f(x) = \frac{1}{b} \mathrm{e}^{\frac{x - a}{b} - \mathrm{e}^{\frac{x - a}{b}}}
+Q8437543,unbestimmtes Integral,andere,,Funktion,Ableitung,unbestimmtes Integral,Q11348 Q29175 Q8437543,F'(x) = f(x) \Rightarrow \int f(x) \mathrm{d} x = F(x) + C
+Q727103,unitäre Matrix,andere,,Einheitsmatrix,adjungierte Matrix,unitäre Matrix,Q193794 Q2051983 Q727103,U^* U = UU^* = I
+Q130343874,untere Stabilitätszahl,andere,,untere Stabilitätszahl,lower clique number,Komplementgraph,Q130343874 Q130486591 Q902252,i(G)=c(\overline G)
+Q123024324,vanna,andere,,vega,delta,vanna,Q123024119 Q123024151 Q123024324,\mathrm{Vanna}=\frac {\partial \Delta }{\partial \sigma }=\frac{\partial\mathcal V}{\partial S}
+Q117442307,vector subtraction,andere,,Vektoraddition,vector subtraction,Skalarmultiplikation,Q10713659 Q117442307 Q126736,\boldsymbol{a} - \boldsymbol{b} = \boldsymbol{a} + (-\boldsymbol{b})
+Q1330788,weierstraßscher Produktsatz,andere,,reelle Zahl ungleich Null,unendliches Produkt,ganze Funktion,Q19546578 Q2266843 Q847600,f(z)=z^\lambda e^{h(z)}\prod_{n=1}^\infty\left(1-\frac{z}{a_n}\right)\exp\left(\frac{z}{a_n}+\frac{1}{2}\left(\frac{z}{a_n}\right)^2+\dots+\frac{1}{p_n}\left(\frac{z}{a_n}\right)^{p_n}\right)
+Q7981049,wohlüberdeckter Graph,andere,,untere Stabilitätszahl,wohlüberdeckter Graph,Stabilitätszahl,Q130343874 Q7981049 Q93598162,\alpha(G)=i(G)
+Q106483683,zeichenbezogener mittlerer Transinformationsgehalt,andere,,zeichenbezogener mittlerer Transinformationsgehalt,mittlerer Transinformationsgehalt aller Paare entsprechender Ein- und Ausgabefolgen einer bestimmten Länge,Anzahl der Zeichen,Q106483683 Q106483985 Q91797376,T' = \lim_{m \to \infty} \frac{T_m}{m}
+Q86827342,zeitlich gemittelte Schallintensität,andere,,Schallintensität,Dauer,zeitlich gemittelte Schallintensität,Q1140289 Q2199864 Q86827342,\boldsymbol{I} = \frac{1}{t_2 - t_1} \int_{t_1}^{t_2} \boldsymbol{i}(t) \mathrm{d} t
+Q25829357,zeitunabhängige Schrödingergleichung,andere,,Energie,Quantenzustand,Hamiltonoperator,Q11379 Q230883 Q660488,\hat{H} | \psi \rangle = E | \psi \rangle
+Q3297564,zero-fuel weight,andere,,Flugzeuggewicht,zero-fuel weight,usable fuel,Q1434070 Q3297564 Q7901670,ZFW + FOB = TOW
+Q228376,zugeordnete Legendrepolynome,andere,,Legendre-Polynom,zugeordnete Legendrepolynome,Menge der natürlichen Zahlen,Q215405 Q228376 Q28777634,"\mathrm{P}_n^m(z) = (-1)^m (1 - z^2)^{m/2} \frac{\mathrm{d}^m}{\mathrm{d}z^m} \mathrm{P}_n(z), m, n \in \boldsymbol{\mathsf{N}}, m \leq n"
+Q109497177,zugeordnetes Laguerre-Polynom,andere,,zugeordnetes Laguerre-Polynom,Laguerre-Polynom,Menge der natürlichen Zahlen,Q109497177 Q1124546 Q28777634,"\mathrm{L}_n^m(z) = (-1)^m \frac{\mathrm{d}^m}{\mathrm{d}z^m} \mathrm{L}_{n + m}(z), m, n \in \boldsymbol{\mathsf{N}}, m \leq n"
+Q4127961,zweiter Mittelwertsatz der Integralrechnung,andere,,Funktion,monotone Abbildung,bestimmtes Integral,Q11348 Q194404 Q1991596,"\exists c \in [a, b] : \int_a^b f(x) \phi(x) \, \mathrm{d}x = f(a) \int_a^c \phi(x) \, \mathrm{d}x + f(b) \int_c^b \phi(x) \, \mathrm{d}x"
+Q331481,Überdeckung,andere,,Potenzmenge,Überdeckung,Menge,Q205170 Q331481 Q36161,C\subset\operatorname{Pow}(X)\qquad \bigcup C=X
+Q106247681,äquivalente binäre Speicherkapazität,andere,,äquivalente binäre Speicherkapazität,Anzahl möglicher Zustände eines Speichergerätes,binärer Logarithmus,Q106247681 Q106247756 Q581168,M_{\mathrm{e}} = \operatorname{lb}{n}
+Q116382512,Šidák-Ungleichung,andere,,Normalverteilung,Zufallsvektor,Wahrscheinlichkeit,Q133871 Q3179949 Q9492,"X_i\sim\mathcal{N}\left(0,\sigma^2\right) \implies P( |X_1| \leq a_1,\dots, |X_d| \leq  a_d) \geq \prod_{j=1}^d P(|X_j| \leq a_j)"
+Q109374898,−i,andere,,−i,Quadrat,Minus eins,Q109374898 Q111124 Q310395,(-i)^2=-1
+Q116450161,1. Hauptsatz der Differential- und Integralrechnung,dynamisch,,Funktion,bestimmtes Integral,Ableitung,Q11348 Q1991596 Q29175,"\frac{\mathrm{d}}{\mathrm{d} x} \int_a^x f(t)\,\mathrm{d} t = f(x)"
+Q109342225,Anzahlstrom,dynamisch,,Anzahlstrom,Dauer,Anzahl,Q109342225 Q2199864 Q614112,q_{N(\mathrm{X})} = \frac{\mathrm{d} N(\mathrm{X})}{\mathrm{d} t}
+Q215313,Energiedosis,dynamisch,,Masse,Energiedosis,mittlere zugeführte Energie,Q11423 Q215313 Q99526969,D = \frac{\mathrm{d} \bar{\varepsilon}}{\mathrm{d} m}
+Q69428958,Energiedosisleistung,dynamisch,,Energiedosis,Dauer,Energiedosisleistung,Q215313 Q2199864 Q69428958,\dot{D} = \frac{\mathrm{d} D}{\mathrm{d} t}
+Q65274525,Energiefluenzrate,dynamisch,,Dauer,Energiefluenzrate,Energiefluenz,Q2199864 Q65274525 Q98538612,\dot{\Psi} = \frac{\mathrm{d} \Psi}{\mathrm{d} t}
+Q5377054,Energiefluss,dynamisch,,Strahlungsenergie,Dauer,Energiefluss,Q1259526 Q2199864 Q5377054,\dot{R} = \frac{\mathrm{d} R}{\mathrm{d} t}
+Q105687031,Energiezustandsdichte,dynamisch,,Energiezustandsdichte,Ein-Elektron-Zustand-Gesamtanzahldichte,Energie,Q105687031 Q105687208 Q11379,n_E(E) = \frac{\mathrm{d} n(E)}{\mathrm{d} E}
+Q99720212,Expositionsrate,dynamisch,,Dauer,Exposition,Expositionsrate,Q2199864 Q336938 Q99720212,\dot{X} = \frac{\mathrm{d} X}{\mathrm{d} t}
+Q101194075,Flächenausdehnungskoeffizient,dynamisch,,Flächenausdehnungskoeffizient,Flächeninhalt,thermodynamische Temperatur,Q101194075 Q11500 Q264647,\alpha_A = \frac{1}{A} \frac{\mathrm{d}A}{\mathrm{d}T}
+Q1739280,Kermaleistung,dynamisch,,Kermaleistung,Kerma,Dauer,Q1739280 Q1739288 Q2199864,\dot{K} = \frac{\mathrm{d} K}{\mathrm{d} t}
+Q8067817,Kompressibilität,dynamisch,,Volumen,Druck,Kompressibilität,Q39297 Q39552 Q8067817,\varkappa = -\frac{1}{V} \frac{\mathrm{d} V}{\mathrm{d} p}
+Q74760821,Längenausdehnungskoeffizient,dynamisch,,thermodynamische Temperatur,Länge,Längenausdehnungskoeffizient,Q264647 Q36253 Q74760821,\alpha_l = \frac{1}{l} \frac{\mathrm{d} l}{\mathrm{d} T}
+Q74761076,Raumausdehnungskoeffizient,dynamisch,,thermodynamische Temperatur,Volumen,Raumausdehnungskoeffizient,Q264647 Q39297 Q74761076,\alpha_V = \frac{1}{V} \frac{\mathrm{d}V}{\mathrm{d}T}
+Q108397870,Scherverformungsrate,dynamisch,,Scherverformungsrate,Dauer,Scherverformung,Q108397870 Q2199864 Q7561704,\dot{\gamma} = \frac{\mathrm{d} \gamma}{\mathrm{d} t}
+Q165498,Schrödingergleichung,dynamisch,,Zustandsvektor,Dauer,Hamiltonoperator,Q11074076 Q2199864 Q660488,\mathrm i\hbar \frac{d}{dt} |\Psi(t)\rangle = \hat{H} |\Psi(t)\rangle
+Q105637294,Schwingungszustandsdichte,dynamisch,,Schwingungszustandsdichte,Schwingungsmoden-Gesamtanzahldichte,Kreisfrequenz,Q105637294 Q105637568 Q834020,g(\omega) = \frac{\mathrm{d} n(\omega)}{\mathrm{d} \omega}
+Q98153151,Teilchenemissionsrate,dynamisch,,Anzahl der emittierten Teilchen,Dauer,Teilchenemissionsrate,Q108251480 Q2199864 Q98153151,\dot{N} = \frac{\mathrm{d} N}{\mathrm{d} t}
+Q98497410,Teilchenfluenzrate,dynamisch,,Dauer,Teilchenfluenz,Teilchenfluenzrate,Q2199864 Q82965908 Q98497410,\dot{\Phi} = \frac{\mathrm{d} \Phi}{\mathrm{d} t}
+Q3181055,Verformungsrate,dynamisch,,Dehnung,Dauer,Verformungsrate,Q1990546 Q2199864 Q3181055,\dot{\varepsilon} = \frac{\mathrm{d} \varepsilon}{\mathrm{d} t}
+Q1322540,Vierergeschwindigkeit,dynamisch,,Eigenzeit,Orts-Vierervektor,Vierergeschwindigkeit,Q1056595 Q114636900 Q1322540,\boldsymbol{U} = \frac{\mathrm{d} \boldsymbol{R}}{\mathrm{d} \tau}
+Q12160631,Wärmestrom,dynamisch,,Wärmestrom,Dauer,Wärme,Q12160631 Q2199864 Q44432,\dot{Q} = \frac{\mathrm{d} Q}{\mathrm{d} t}
+Q5784439,du Bois-Reymond constants,dynamisch,,Ableitung,uneigentliches Integral,Sinc-Funktion,Q29175 Q464118 Q855949,C_n = [\int_0^{\infty} |\frac{d}{dt}(\frac{\sin t}{t})^n|dt] - 1
+Q98583077,linearer Schwächungskoeffizient,dynamisch,,"Anzahl der einfallenden, wechselwirkenden Teilchen",Abstand,linearer Schwächungskoeffizient,Q108266451 Q126017 Q98583077,\mu = \frac{1}{N} \frac{\mathrm{d} N}{\mathrm{d} l}
+Q186475,partielle Ableitung,dynamisch,,Grenzwert,partielle Ableitung,multivariate Funktion,Q177239 Q186475 Q78081419,"\frac{\partial}{\partial x} f(\dots, x, \dots) = \lim_{h \to 0} \frac{f(\dots, x + h, \dots) - f(\dots, x, \dots)}{h}"
+Q99604810,Äquivalentdosisrate,dynamisch,,Dauer,Äquivalentdosis,Äquivalentdosisrate,Q2199864 Q256106 Q99604810,\dot{H} = \frac{\mathrm{d} H}{\mathrm{d} t}
+Q110299682,𝑛-te Ableitung,dynamisch,,𝑛-te Ableitung,Funktion,Ableitung,Q110299682 Q11348 Q29175,f^{(n)}(x) = \frac{\mathrm{d}}{\mathrm{d} x} f^{(n - 1)}(x)
+Q11324904,,multiplikativ,1:1:1,Beschleunigung,Kraft,Masse,Q11376 Q11402 Q11423,F=ma
+Q16635541,Absorptionsgrad,multiplikativ,1:1:1,absorbierte Strahlungsleistung,einfallende Strahlungsleistung,Absorptionsgrad,Q108112516 Q108112530 Q16635541,\alpha = \frac{\Phi_{\mathrm{a}}}{\Phi_{\mathrm{m}}}
+Q317949,Aktivität,multiplikativ,1:1:1,Dauer,Aktivität,Anzahl der Atomkerne,Q2199864 Q317949 Q98069147,A = -\frac{\mathrm{d} N}{\mathrm{d} t}
+Q98103005,Aktivitätsflächendichte,multiplikativ,1:1:1,Oberfläche,Aktivität,Aktivitätsflächendichte,Q1379273 Q317949 Q98103005,a_{\mathrm{S}} = \frac{A}{S}
+Q423263,Aktivitätskonzentration,multiplikativ,1:1:1,Aktivität,Volumen,Aktivitätskonzentration,Q317949 Q39297 Q423263,c_{\mathrm{A}} = \frac{A}{V}
+Q105415606,Arrhenius-Zahl,multiplikativ,1:1:1,Arrhenius-Zahl,Aktivierungsenergie,thermodynamische Temperatur,Q105415606 Q190474 Q264647,\alpha = \frac{E_0}{R T}
+Q11376,Beschleunigung,multiplikativ,1:1:1,Beschleunigung,Geschwindigkeitsvektor,Dauer,Q11376 Q11465 Q2199864,\boldsymbol{a} = \frac{\mathrm{d} \boldsymbol{v}}{\mathrm{d} t}
+Q900648,Beweglichkeit,multiplikativ,1:1:1,elektrische Feldstärke,Beweglichkeit,Driftgeschwindigkeit,Q20989 Q900648 Q909891,"\boldsymbol{v}_{\mathrm{d}} = \mu \, \boldsymbol{E}"
+Q106010255,Beweglichkeitsverhältnis,multiplikativ,1:1:1,Beweglichkeitsverhältnis,Löcherbeweglichkeit,Elektronenbeweglichkeit,Q106010255 Q106010835 Q6501076,b = \frac{\mu_{\mathrm{n}}}{\mu_{\mathrm{p}}}
+Q98058362,Bindungsanteil,multiplikativ,1:1:1,Massenzahl,relativer Massendefekt,Bindungsanteil,Q101395 Q98038718 Q98058362,b = \frac{B_{\mathrm{r}}}{A}
+Q862169,Blendenzahl,multiplikativ,1:1:1,Brennweite,diameter of the entrance pupil,Blendenzahl,Q193540 Q63572027 Q862169,N = \frac {f}{D}
+Q20970434,Breite-zu-Höhe-Verhältnis,multiplikativ,1:1:1,Höhe,Breite-zu-Höhe-Verhältnis,Breite,Q208826 Q20970434 Q35059,r = w / h
+Q98915830,Bremsdichte,multiplikativ,1:1:1,Dauer,Teilchenanzahldichte,Bremsdichte,Q2199864 Q98601569 Q98915830,q = -\frac{\mathrm{d} n}{\mathrm{d} t}
+Q25406,Coulomb,multiplikativ,1:1:1,Dauer,Ampere,Coulomb,Q2199864 Q25272 Q25406,\text{C} = \text{A} \cdot \text{s}
+Q29539,Dichte,multiplikativ,1:1:1,Masse,Dichte,Volumen,Q11423 Q29539 Q39297,\rho = \frac{\mathrm{d} m}{\mathrm{d} V}
+Q1209484,Dichteparameter,multiplikativ,1:1:1,Dichteparameter,cosmic density,kritische Dichte,Q1209484 Q12234574 Q658784,\Omega=\rho/\rho_{\mathrm c}
+Q907334,Dissoziationsgrad,multiplikativ,1:1:1,Anzahl der Moleküle,Anzahl der dissoziierten Moleküle,Dissoziationsgrad,Q108132618 Q108157601 Q907334,\alpha = \frac{n_{\mathrm{d}}}{n}
+Q161254,Drehimpuls,multiplikativ,1:1:1,Drehimpuls,Ortsvektor,Impuls,Q161254 Q192388 Q41273,\boldsymbol{L} = \boldsymbol{r} \times \boldsymbol{p}
+Q48103,Drehmoment,multiplikativ,1:1:1,Einheitsvektor entlang einer Achse,Drehmomentvektor,Drehmoment,Q108316423 Q17232562 Q48103,T = \boldsymbol{M} \cdot \boldsymbol{e}_{\mathrm{Q}}
+Q17232562,Drehmomentvektor,multiplikativ,1:1:1,Kraft,Drehmomentvektor,Ortsvektor,Q11402 Q17232562 Q192388,\boldsymbol{M} = \boldsymbol{r} \times \boldsymbol{F}
+Q2091584,Elastizitätsmodul,multiplikativ,1:1:1,Normalspannung,Dehnung,Elastizitätsmodul,Q11425837 Q1990546 Q2091584,E = \sigma / \varepsilon
+Q899670,Emissionsgrad,multiplikativ,1:1:1,spezifische Ausstrahlung eines planckschen Strahlers,spezifische Ausstrahlung,Emissionsgrad,Q107018217 Q15054698 Q899670,\varepsilon = \frac{M}{M_{\mathrm{b}}}
+Q98538612,Energiefluenz,multiplikativ,1:1:1,Wirkungsquerschnitt,Strahlungsenergie,Energiefluenz,Q17128025 Q98538346 Q98538612,\Psi = \frac{\mathrm{d} R}{\mathrm{d} a}
+Q98267245,Energieverteilung des Wirkungsquerschnitts,multiplikativ,1:1:1,Energie,Wirkungsquerschnitt,Energieverteilung des Wirkungsquerschnitts,Q11379 Q17128025 Q98267245,\sigma_E = \frac{\mathrm{d} \sigma}{\mathrm{d} E}
+Q336938,Exposition,multiplikativ,1:1:1,elektrische Ladung,Masse,Exposition,Q1111 Q11423 Q336938,X = \frac{\mathrm{d} q}{\mathrm{d} m}
+Q3711325,Geschwindigkeit,multiplikativ,1:1:1,Abstand,Dauer,Geschwindigkeit,Q126017 Q2199864 Q3711325,v = s / t
+Q11465,Geschwindigkeitsvektor,multiplikativ,1:1:1,Geschwindigkeitsvektor,Ortsvektor,Dauer,Q11465 Q192388 Q2199864,\boldsymbol{v} = \frac{\mathrm{d} \boldsymbol{r}}{\mathrm{d} t}
+Q25288,Gewichtskraft,multiplikativ,1:1:1,Beschleunigung des freien Falls,Masse,Gewichtskraft,Q103982270 Q11423 Q25288,\boldsymbol{F}_{\mathrm{g}} = m \boldsymbol{g}
+Q106177828,Ginsburg-Landau-Parameter,multiplikativ,1:1:1,Ginsburg-Landau-Parameter,London-Eindringtiefe,Kohärenzlänge,Q106177828 Q3277853 Q7643174,\varkappa_{\mathrm{GL}} = \frac{\lambda}{\xi}
+Q73695445,Gleitreibungskoeffizient,multiplikativ,1:1:1,Gleitreibungskraft,Normalkraft,Gleitreibungskoeffizient,Q4419098 Q541008 Q73695445,F_{\mu} = \mu N
+Q4419098,Gleitreibungskraft,multiplikativ,1:1:1,Normalkraft,Gleitreibungskoeffizient,Reibung,Q541008 Q73695445 Q82580,F = \mu F_{\mathrm{n}}
+Q30006,Gravitationsbeschleunigung,multiplikativ,1:1:1,Masse,Gravitationskraft,Gravitationsbeschleunigung,Q11423 Q119510698 Q30006,\boldsymbol{F}_{\mathrm{g}} = m \boldsymbol{g}
+Q217361,Gruppengeschwindigkeit,multiplikativ,1:1:1,Gruppengeschwindigkeit,Kreiswellenzahl,Kreisfrequenz,Q217361 Q30338487 Q834020,c_{\mathrm{g}} = \frac{\mathrm{d} \omega}{\mathrm{d} k}
+Q21075810,Höhe-zu-Breite-Verhältnis,multiplikativ,1:1:1,Höhe,Höhe-zu-Breite-Verhältnis,Breite,Q208826 Q21075810 Q35059,r=h/w
+Q41273,Impuls,multiplikativ,1:1:1,Masse,Geschwindigkeitsvektor,Impuls,Q11423 Q11465 Q41273,\boldsymbol{p} = m \boldsymbol{v}
+Q177897,Induktivität,multiplikativ,1:1:1,magnetischer Gesamtfluss,Induktivität,elektrische Stromstärke,Q118255404 Q177897 Q29996,L = \frac{\Psi}{I}
+Q3799068,Inkreisradius,multiplikativ,1:1:1,Flächeninhalt,Radius,Umfang,Q11500 Q173817 Q28474,r = \frac{A}{p}
+Q15149637,Ionendosis,multiplikativ,1:1:1,elektrische Ladung,Masse,Ionendosis,Q1111 Q11423 Q15149637,J = \frac{\mathrm{d} Q}{\mathrm{d} m}
+Q97641779,Kreisfrequenz der Kernpräzession,multiplikativ,1:1:1,magnetische Flussdichte,gyromagnetisches Verhältnis,Kreisfrequenz der Kernpräzession,Q30204 Q634552 Q97641779,\omega_{\mathrm{N}} = \gamma B
+Q105421034,Landau–Ginzburg-Zahl,multiplikativ,1:1:1,Landau–Ginzburg-Zahl,London-Eindringtiefe,Kohärenzlänge,Q105421034 Q3277853 Q7643174,\kappa = \frac{\lambda_{\mathrm{L}}}{\xi \sqrt{2}}
+Q11347775,Larmor diamagnetism,multiplikativ,1:1:1,Ordnungszahl,Elektronenmasse,magnetische Suszeptibilität,Q23809 Q3814108 Q691463,\chi =-\frac{\mu_0e^2Z}{6m_{\mathrm e}}\langle r^2\rangle
+Q97617059,Larmor-Kreisfrequenz,multiplikativ,1:1:1,magnetische Flussdichte,Elektronenmasse,Larmor-Kreisfrequenz,Q30204 Q3814108 Q97617059,\omega_{\mathrm{L}} = \frac{e}{2 m_{\mathrm{e}}} B
+Q25342,Leistung,multiplikativ,1:1:1,Energie,Dauer,Leistung,Q11379 Q2199864 Q25342,P = \frac{\mathrm{d} E}{\mathrm{d} t}
+Q750454,Leistungsfaktor,multiplikativ,1:1:1,Wirkleistung,Scheinleistung,Leistungsfaktor,Q12713281 Q1930258 Q750454,\lambda = \frac{P}{S}
+Q11945244,Leistungswirkungsgrad,multiplikativ,1:1:1,Eingangsleistung,Leistungswirkungsgrad,Ausgangsleistung,Q108501633 Q11945244 Q25508474,\eta = \frac{P_2}{P_1}
+Q106008527,Licht-Wellenzahl,multiplikativ,1:1:1,Licht-Wellenzahl,Licht-Frequenz,Lichtgeschwindigkeit in einem Medium,Q106008527 Q106008771 Q9092845,\sigma = \frac{\nu}{c}
+Q3425218,Lichtausbeute einer Strahlungsquelle,multiplikativ,1:1:1,Lichtstrom,Leistung,Lichtausbeute einer Strahlungsquelle,Q107780 Q25342 Q3425218,\eta_{\mathrm{v}} = \frac{\Phi_{\mathrm{v}}}{P}
+Q98642795,Massen-Gesamtbremsvermögen,multiplikativ,1:1:1,Dichte,lineares Bremsvermögen,Massen-Gesamtbremsvermögen,Q29539 Q908474 Q98642795,S_m = \frac{S}{\rho}
+Q86202147,Massenabsorptionskoeffizient,multiplikativ,1:1:1,Dichte,Massenabsorptionskoeffizient,linearer Absorptionskoeffizient,Q29539 Q86202147 Q86204782,\alpha_{\mathrm{m}} = \frac{\alpha}{\rho}
+Q899138,Massenanteil,multiplikativ,1:1:1,Masse einer Komponente,Masse,Massenanteil,Q108132729 Q11423 Q899138,w_{\mathrm{X}} = m_{\mathrm{X}}/m
+Q1907514,Massenbelegung,multiplikativ,1:1:1,Masse,Flächeninhalt,Massenbelegung,Q11423 Q11500 Q1907514,\rho_A = \frac{\mathrm{d} m}{\mathrm{d} A}
+Q589446,Massenkonzentration,multiplikativ,1:1:1,Masse einer Komponente,Volumen,Massenkonzentration,Q108132729 Q39297 Q589446,\gamma_{\mathrm{X}} = m_{\mathrm{X}}/V
+Q76378808,Massenkonzentration des Wasserdampfes,multiplikativ,1:1:1,Volumen,Massenkonzentration des Wasserdampfes,Masse des Wasserdampfes,Q39297 Q76378808 Q94633320,v = m/V
+Q76378758,Massenkonzentration des Wassers,multiplikativ,1:1:1,Volumen,Massenkonzentration des Wassers,Masse des Wassers,Q39297 Q76378758 Q94633305,w = m/V
+Q1907558,Massenschwächungskoeffizient,multiplikativ,1:1:1,Massenschwächungskoeffizient,Dichte,linearer Schwächungskoeffizient,Q1907558 Q29539 Q86204330,\mu_{\mathrm{m}} = \frac{\mu}{\rho}
+Q98591983,Massenschwächungskoeffizient,multiplikativ,1:1:1,Dichte,linearer Schwächungskoeffizient,Massenschwächungskoeffizient,Q29539 Q98583077 Q98591983,\mu_m = \frac{\mu}{\rho}
+Q76378860,Massenverhältnis von Wasser zur Trockensubstanz,multiplikativ,1:1:1,Massenverhältnis von Wasser zur Trockensubstanz,Masse der Trockensubstanz,Masse des Wassers,Q76378860 Q94633157 Q94633305,u = m/m_{\mathrm{d}}
+Q17232415,Massenverhältnis von Wasserdampf zum trockenen Gas,multiplikativ,1:1:1,Massenverhältnis von Wasserdampf zum trockenen Gas,Masse des Wasserdampfes,Masse des trockenen Gases,Q17232415 Q94633320 Q94692957,r = m/m_{\mathrm{d}}
+Q92020547,Massenänderungsrate,multiplikativ,1:1:1,Masse,Dauer,Massenänderungsrate,Q11423 Q2199864 Q92020547,q_m = \frac{\mathrm{d} m}{\mathrm{d} t}
+Q3077625,Massieu-Funktion,multiplikativ,1:1:1,thermodynamische Temperatur,Massieu-Funktion,freie Energie,Q264647 Q3077625 Q865821,J = -A/T
+Q172623,Molalität,multiplikativ,1:1:1,Masse einer Komponente,Stoffmenge einer Komponente,Molalität,Q108132729 Q108147201 Q172623,b_{\mathrm{B}} = n_{\mathrm{B}}/m_{\mathrm{A}}
+Q104212301,Newton's second law of motion (general),multiplikativ,1:1:1,Kraft,Dauer,Impuls,Q11402 Q2199864 Q41273,\boldsymbol{F} = \frac{\mathrm{d} \boldsymbol{p}}{\mathrm{d} t}
+Q12799324,Oberflächenladungsdichte,multiplikativ,1:1:1,elektrische Ladung,Flächeninhalt,Oberflächenladungsdichte,Q1111 Q11500 Q12799324,\sigma = \frac{\mathrm{d} Q}{\mathrm{d} A}
+Q170749,Oberflächenspannung,multiplikativ,1:1:1,Kraft,Oberflächenspannung,Länge,Q11402 Q170749 Q36253,\gamma = \frac{\mathrm{d} F}{\mathrm{d} l}
+Q98058276,Packungsanteil,multiplikativ,1:1:1,Massenzahl,relativer Massenexzess,Packungsanteil,Q101395 Q98038610 Q98058276,f = \frac{\Delta_{\mathrm{r}}}{A}
+Q27165,Partialdruck,multiplikativ,1:1:1,Stoffmengenanteil,Partialdruck,Druck,Q125264 Q27165 Q39552,p_{\mathrm{X}} = y_{\mathrm{X}} p
+Q211569,Permittivität,multiplikativ,1:1:1,elektrische Feldstärke,Permittivität,elektrische Flussdichte,Q20989 Q211569 Q371907,\boldsymbol{D} = \varepsilon \boldsymbol{E}
+Q13824,Phasengeschwindigkeit,multiplikativ,1:1:1,Phasengeschwindigkeit,Kreiswellenzahl,Kreisfrequenz,Q13824 Q30338487 Q834020,c = \omega / k
+Q77990619,Phasengeschwindigkeit elektromagnetischer Wellen,multiplikativ,1:1:1,Kreiswellenzahl,Phasengeschwindigkeit elektromagnetischer Wellen,Kreisfrequenz,Q30338487 Q77990619 Q834020,c = \frac{\omega}{k}
+Q83698917,Photonenanzahl,multiplikativ,1:1:1,Licht-Frequenz,elektromagnetische Strahlungsenergie,Photonenanzahl,Q106008771 Q10932713 Q83698917,N_{\mathrm{p}} = \frac{Q_{\mathrm{e}}}{h \nu}
+Q76364998,Planck-Funktion,multiplikativ,1:1:1,thermodynamische Temperatur,Gibbs-Energie,Planck-Funktion,Q264647 Q334631 Q76364998,Y = -G/T
+Q2098466,Plasmabeta,multiplikativ,1:1:1,Plasmadruck,Plasmabeta,magnetischer Druck,Q114353274 Q2098466 Q383041,\beta = \frac{p}{p_{\mathrm{m}}}
+Q107164637,Pupillenlichtstärke,multiplikativ,1:1:1,Pupillenlichtstärke,Pupillen-Öffnungsfläche,Leuchtdichte,Q107164637 Q107164877 Q355386,I_{\mathrm{P}} = L_{\mathrm{v}} A_{\mathrm{P}}
+Q653242,QR-Zerlegung,multiplikativ,1:1:1,Quadratmatrix,orthogonale Matrix,obere Dreiecksmatrix,Q2739329 Q333871 Q77968835,A = QR
+Q663650,Reflexionsgrad,multiplikativ,1:1:1,einfallende Strahlungsleistung,reflektierte Strahlungsleistung,Reflexionsgrad,Q108112530 Q108112575 Q663650,\rho = \frac{\Phi_{\mathrm{r}}}{\Phi_{\mathrm{m}}}
+Q98266630,Richtungsverteilung des Wirkungsquerschnitts,multiplikativ,1:1:1,Wirkungsquerschnitt,Raumwinkel,Richtungsverteilung des Wirkungsquerschnitts,Q17128025 Q208476 Q98266630,\sigma_{\Omega} = \frac{\mathrm{d} \sigma}{\mathrm{d} \Omega}
+Q91738044,Rollwiderstandsfaktor,multiplikativ,1:1:1,Normalkraft,Rollwiderstandsfaktor,Tangentialkraft,Q541008 Q91738044 Q91740473,F = C_{\mathrm{rr}} N
+Q30338278,Rotationsfrequenz,multiplikativ,1:1:1,Dauer,Rotationsfrequenz,Rotation,Q2199864 Q30338278 Q76435127,n = \frac{\mathrm{d} N}{\mathrm{d} t}
+Q106886041,Rotationssteifigkeit,multiplikativ,1:1:1,Rotationssteifigkeit,Winkelweite,Drehmoment,Q106886041 Q1357788 Q48103,k = \frac{M}{\theta}
+Q497332,Ruck,multiplikativ,1:1:1,Beschleunigung,Dauer,Ruck,Q11376 Q2199864 Q497332,\boldsymbol{j} = \frac{\mathrm{d} \boldsymbol{a}}{\mathrm{d} t}
+Q1092926,Ruckänderung,multiplikativ,1:1:1,Ruckänderung,Dauer,Ruck,Q1092926 Q2199864 Q497332,\boldsymbol{s} = \frac{\mathrm{d} \boldsymbol{j}}{\mathrm{d} t}
+Q7140491,Schallbeschleunigung,multiplikativ,1:1:1,Dauer,Schallschnelle,Schallbeschleunigung,Q2199864 Q336894 Q7140491,\boldsymbol{a} = \frac{\partial \boldsymbol{u}}{\partial t}
+Q86508881,Schallgruppengeschwindigkeit,multiplikativ,1:1:1,Schall-Kreiswellenzahl,Schall-Kreisfrequenz,Schallgruppengeschwindigkeit,Q105542314 Q105542394 Q86508881,c_{\mathrm{g}} = \frac{\mathrm{d} \omega}{\mathrm{d} k}
+Q1140289,Schallintensität,multiplikativ,1:1:1,Schalldruck,Schallintensität,Schallschnelle,Q1068172 Q1140289 Q336894,"\boldsymbol{I} = p \, \boldsymbol{u}"
+Q87051330,Schallkennimpedanz,multiplikativ,1:1:1,Schalldruck,Schallschnelle,Schallkennimpedanz,Q1068172 Q336894 Q87051330,Z_{\mathrm{c}} = \frac{p}{u}
+Q86501878,Schallphasengeschwindigkeit,multiplikativ,1:1:1,Schall-Kreiswellenzahl,Schall-Kreisfrequenz,Schallphasengeschwindigkeit,Q105542314 Q105542394 Q86501878,c = \frac{\omega}{k}
+Q336894,Schallschnelle,multiplikativ,1:1:1,Dauer,Schallschnelle,Schallauslenkung,Q2199864 Q336894 Q779457,\boldsymbol{u} = \frac{\partial \boldsymbol{\delta}}{\partial t}
+Q1930258,Scheinleistung,multiplikativ,1:1:1,quadratisches Mittel der Spannung,quadratisches Mittel der Stromstärke,Scheinleistung,Q108067944 Q108067970 Q1930258,S = U I
+Q119396649,Scheinleitwert,multiplikativ,1:1:1,quadratisches Mittel der Spannung,quadratisches Mittel der Stromstärke,Scheinleitwert,Q108067944 Q108067970 Q119396649,Y = \frac{I}{U}
+Q119313368,Scheinwiderstand,multiplikativ,1:1:1,quadratisches Mittel der Spannung,quadratisches Mittel der Stromstärke,Scheinwiderstand,Q108067944 Q108067970 Q119313368,Z = \frac{U}{I}
+Q461466,Schubmodul,multiplikativ,1:1:1,Schubmodul,Scherspannung,Scherverformung,Q461466 Q657936 Q7561704,G = \tau / \gamma
+Q2034862,Sicherheitsfaktor,multiplikativ,1:1:1,Sicherheitsfaktor,mechanische Spannung,Zugfestigkeit,Q2034862 Q206175 Q76005,n=\frac{S}{T}
+Q106344792,Signalenergie pro Bit,multiplikativ,1:1:1,Bitperiode,Signalenergie pro Bit,Trägerleistung,Q106282183 Q106344792 Q25381657,E_{\mathrm{b}} = P_{\mathrm{c}} T_{\mathrm{b}}
+Q125264,Stoffmengenanteil,multiplikativ,1:1:1,Stoffmenge,Stoffmenge einer Komponente,Stoffmengenanteil,Q104946 Q108147201 Q125264,x_{\mathrm{X}} = n_{\mathrm{X}}/n
+Q672821,Stoffmengenkonzentration,multiplikativ,1:1:1,Stoffmenge einer Komponente,Volumen,Stoffmengenkonzentration,Q108147201 Q39297 Q672821,c_{\mathrm{X}} = n_{\mathrm{X}}/V
+Q5147502,Stoßfrequenz,multiplikativ,1:1:1,Durchschnittsgeschwindigkeit,Stoßfrequenz,mittlere freie Weglänge,Q1267186 Q5147502 Q756307,f = \frac{v}{\lambda}
+Q7962586,Strahlungsausbeute,multiplikativ,1:1:1,Strahlungsleistung,Leistung,Strahlungsausbeute,Q1253356 Q25342 Q7962586,\eta_{\mathrm{e}} = \frac{\Phi_{\mathrm{e}}}{P}
+Q210009,Stromwärmegesetz,multiplikativ,1:1:1,elektrische Spannung,elektrische Leistung,elektrische Stromstärke,Q25428 Q27137 Q29996,P=IV
+Q557120,Tastgrad,multiplikativ,1:1:1,Periode,Tastgrad,Impulsdauer,Q2642727 Q557120 Q7259675,D = \frac{\tau}{T}
+Q2333151,Tau_(Mathematik),multiplikativ,1:1:1,Radius,Tau_(Mathematik),Kreisumfang,Q173817 Q2333151 Q843905,\tau = c/r
+Q98601569,Teilchenanzahldichte,multiplikativ,1:1:1,Teilchenzahl,Volumen,Teilchenanzahldichte,Q181155 Q39297 Q98601569,n = \frac{N}{V}
+Q82965908,Teilchenfluenz,multiplikativ,1:1:1,Anzahl der einfallenden Teilchen,Wirkungsquerschnitt,Teilchenfluenz,Q108266215 Q17128025 Q82965908,\Phi = \frac{\mathrm{d} N}{\mathrm{d} a}
+Q39078574,Teilchenzahlkonzentration,multiplikativ,1:1:1,Teilchenzahl,Teilchenzahlkonzentration,Volumen,Q181155 Q39078574 Q39297,n = N/V
+Q3381809,Temperaturleitfähigkeit,multiplikativ,1:1:1,Dichte,Temperaturleitfähigkeit,Wärmeleitfähigkeit,Q29539 Q3381809 Q487005,a = \frac{\lambda}{\rho c_p}
+Q1427863,Transmissionsgrad,multiplikativ,1:1:1,einfallende Strahlungsleistung,transmittierte Strahlungsleistung,Transmissionsgrad,Q108112530 Q108112606 Q1427863,\tau = \frac{\Phi_{\mathrm{t}}}{\Phi_{\mathrm{m}}}
+Q4454677,Trägheitstensor,multiplikativ,1:1:1,Drehimpuls,Winkelgeschwindigkeit,Trägheitstensor,Q161254 Q161635 Q4454677,\boldsymbol{L} = \boldsymbol{J} \boldsymbol{\omega}
+Q521126,Vektorpotential,multiplikativ,1:1:1,Vektorfeld,Rotation,Vektorpotential,Q186247 Q206310 Q521126,\nabla \times \boldsymbol{A} = \boldsymbol{F}
+Q77614612,Verschiebungsstromdichte,multiplikativ,1:1:1,Dauer,elektrische Flussdichte,Verschiebungsstromdichte,Q2199864 Q371907 Q77614612,\boldsymbol{J}_{\mathrm{D}} = \frac{\partial \boldsymbol{D}}{\partial t}
+Q25236,Watt,multiplikativ,1:1:1,Sekunde,Watt,Joule,Q11574 Q25236 Q25269,\mathrm{W} = \frac{\mathrm{J}}{\mathrm{s}}
+Q186300,Winkelbeschleunigung,multiplikativ,1:1:1,Winkelgeschwindigkeit,Winkelbeschleunigung,Dauer,Q161635 Q186300 Q2199864,\boldsymbol{\alpha} = \frac{\mathrm{d} \boldsymbol{\omega}}{\mathrm{d} t}
+Q3305038,Winkelverdrehung,multiplikativ,1:1:1,Radius,Winkelverdrehung,Bogenlänge,Q173817 Q3305038 Q670036,\varphi = s/r
+Q1357788,Winkelweite,multiplikativ,1:1:1,Winkelweite,Radius,Bogenlänge,Q1357788 Q173817 Q670036,\alpha = s/r
+Q1143513,Wirbelstärke,multiplikativ,1:1:1,Wirbelstärke,Rotation,Strömungsgeschwindigkeit,Q1143513 Q206310 Q5462119,\omega=\nabla\times u
+Q179388,Wärmekapazität,multiplikativ,1:1:1,Wärmekapazität,thermodynamische Temperatur,Wärme,Q179388 Q264647 Q44432,C = \frac{\mathrm{d} Q}{\mathrm{d} T}
+Q900661,Wärmespeicherzahl,multiplikativ,1:1:1,Wärmekapazität,Volumen,Wärmespeicherzahl,Q179388 Q39297 Q900661,s = C/V
+Q4073644,airwatt,multiplikativ,1:1:1,Volumenstrom,Leistung,Druck,Q1134348 Q25342 Q39552,P = 0.117354  \cdot F \cdot S
+Q98592911,atomarer Extinktionskoeffizient,multiplikativ,1:1:1,Teilchenzahldichte der Atome,linearer Schwächungskoeffizient,atomarer Extinktionskoeffizient,Q108266525 Q98583077 Q98592911,\mu_{\mathrm{a}} = \frac{\mu}{n}
+Q837866,atomarer Streufaktor,multiplikativ,1:1:1,von einem Atom gestreute Strahlungsamplitude,von einem Elektron gestreute Strahlungsamplitude,atomarer Streufaktor,Q111745439 Q111745443 Q837866,f = \frac{E_{\mathrm{a}}}{E_{\mathrm{e}}}
+Q112725871,atomares Gesamtbremsvermögen,multiplikativ,1:1:1,Teilchenzahldichte der Atome,atomares Gesamtbremsvermögen,lineares Bremsvermögen,Q108266525 Q112725871 Q908474,S_{\mathrm{a}} = \frac{S}{n}
+Q4915409,bipartite double cover,multiplikativ,1:1:1,vollständiger Graph K2,ungerichteter Graph,bipartite double cover,Q126735112 Q3115587 Q4915409,G'=G\times K_2
+Q1077153,combined gas law,multiplikativ,1:1:1,Temperatur,Volumen,Druck,Q11466 Q39297 Q39552,\frac {PV}{T}= k
+Q206799,elektrische Energie,multiplikativ,1:1:1,Zeit,elektrische Energie,elektrische Leistung,Q11471 Q206799 Q27137,W= P \cdot t
+Q20989,elektrische Feldstärke,multiplikativ,1:1:1,elektrische Ladung,Kraft,elektrische Feldstärke,Q1111 Q11402 Q20989,\boldsymbol{E} = \frac{\boldsymbol{F}}{q}
+Q164399,elektrische Kapazität,multiplikativ,1:1:1,elektrische Ladung,elektrische Kapazität,elektrische Spannung,Q1111 Q164399 Q25428,C = \frac{Q}{V}
+Q1111,elektrische Ladung,multiplikativ,1:1:1,elektrische Ladung,Dauer,elektrische Stromstärke,Q1111 Q2199864 Q29996,\mathrm{d}Q = I \mathrm{d}t
+Q69425629,elektrische Ladungsdichte,multiplikativ,1:1:1,elektrische Ladung,Volumen,elektrische Ladungsdichte,Q1111 Q39297 Q69425629,\rho = \frac{\mathrm{d} Q}{\mathrm{d} V}
+Q4593291,elektrische Leitfähigkeit,multiplikativ,1:1:1,elektrische Feldstärke,elektrische Stromdichte,elektrische Leitfähigkeit,Q20989 Q234072 Q4593291,\boldsymbol{J} = \sigma \boldsymbol{E}
+Q77267838,elektrische Linienladungsdichte,multiplikativ,1:1:1,elektrische Ladung,Länge,elektrische Linienladungsdichte,Q1111 Q36253 Q77267838,\tau = \frac{\mathrm{d} Q}{\mathrm{d} l}
+Q11784325,elektrische Momentanleistung,multiplikativ,1:1:1,Augenblicksspannung,Augenblicksstromstärke,elektrische Momentanleistung,Q108057700 Q108057717 Q11784325,p = u i
+Q1050425,elektrische Polarisation,multiplikativ,1:1:1,elektrische Polarisation,Volumen,elektrisches Dipolmoment,Q1050425 Q39297 Q735135,\boldsymbol{P} = \frac{\mathrm{d} \boldsymbol{p}}{\mathrm{d} V}
+Q234072,elektrische Stromdichte,multiplikativ,1:1:1,Geschwindigkeitsvektor,elektrische Stromdichte,elektrische Ladungsdichte,Q11465 Q234072 Q69425629,\boldsymbol{J} = \rho \boldsymbol{v}
+Q11651,elektrischer Strom,multiplikativ,1:1:1,elektrische Ladung,Zeit,elektrischer Strom,Q1111 Q11471 Q11651,I =\frac{Q}{t}
+Q25358,elektrischer Widerstand,multiplikativ,1:1:1,elektrische Spannung,elektrischer Widerstand,elektrische Stromstärke,Q118309876 Q25358 Q29996,R = \frac{u}{i}
+Q907564,elektrolytische Leitfähigkeit,multiplikativ,1:1:1,elektrische Feldstärke,elektrische Stromdichte,elektrolytische Leitfähigkeit,Q20989 Q234072 Q907564,\kappa = J/E
+Q105581076,elektromagnetische Wellenlänge,multiplikativ,1:1:1,elektromagnetische Wellenlänge,Frequenz,Lichtgeschwindigkeit in einem Medium,Q105581076 Q11652 Q9092845,\lambda = \frac{c}{\nu}
+Q78101401,gegenseitige Induktivität,multiplikativ,1:1:1,magnetischer Gesamtfluss,elektrische Stromstärke,gegenseitige Induktivität,Q118255404 Q29996 Q78101401,L_{\mathrm{m} \mathrm{n}} = \frac{\Psi_{\mathrm{m}}}{I_{\mathrm{n}}}
+Q634552,gyromagnetisches Verhältnis,multiplikativ,1:1:1,gyromagnetisches Verhältnis,magnetisches Dipolmoment,Gesamtdrehimpuls,Q634552 Q97143703 Q97496506,"\boldsymbol{\mu} = \gamma \, \boldsymbol{J}"
+Q97543076,gyromagnetisches Verhältnis des Elektrons,multiplikativ,1:1:1,magnetisches Dipolmoment,Gesamtdrehimpuls,gyromagnetisches Verhältnis des Elektrons,Q97143703 Q97496506 Q97543076,\boldsymbol{\mu} = \gamma_{\mathrm{e}} \boldsymbol{J}
+Q3929408,hydraulic radius,multiplikativ,1:1:1,wetted perimeter,wetted area,hydraulic radius,Q1869697 Q3505294 Q3929408,R_{\mathrm{h}} = \frac{A}{P}
+Q12793663,kinematische Viskosität,multiplikativ,1:1:1,kinematische Viskosität,dynamische Viskosität,Dichte,Q12793663 Q15152757 Q29539,\nu = \eta / \rho
+Q78150449,lineare Exzentrizität,multiplikativ,1:1:1,Exzentrizität,große Halbachse,lineare Exzentrizität,Q104486 Q171594 Q78150449,c = e \cdot a
+Q86204782,linearer Absorptionskoeffizient,multiplikativ,1:1:1,Länge,linearer Absorptionskoeffizient,Extinktion,Q36253 Q86204782 Q907315,\alpha_l = \frac{A_{\mathrm{n}}}{l}
+Q908474,lineares Bremsvermögen,multiplikativ,1:1:1,"mittlere, von geladenen Teilchen verlorene Energie",Abstand,lineares Bremsvermögen,Q108281384 Q126017 Q908474,S = -\frac{\mathrm{d} E}{\mathrm{d} x}
+Q98690755,lineares Ionisierungsvermögen,multiplikativ,1:1:1,mittlere Gesamtladung aller erzeugten Ionen,Länge,lineares Ionisierungsvermögen,Q108296019 Q36253 Q98690755,N_{\mathrm{i} l} = \frac{1}{e} \frac{\mathrm{d} q}{\mathrm{d} l}
+Q56298294,längenbezogene Masse,multiplikativ,1:1:1,Masse,Länge,längenbezogene Masse,Q11423 Q36253 Q56298294,\rho_l = \frac{\mathrm{d} m}{\mathrm{d} l}
+Q104655916,magnetische Massensuszeptibilität,multiplikativ,1:1:1,magnetische Massensuszeptibilität,Dichte,magnetische Suszeptibilität,Q104655916 Q29539 Q691463,\chi_{\mathrm{mass}} = \frac{\kappa}{\rho}
+Q28352,magnetische Permeabilität,multiplikativ,1:1:1,magnetische Feldstärke,magnetische Permeabilität,magnetische Flussdichte,Q28123 Q28352 Q30204,\boldsymbol{B} = \mu \boldsymbol{H}
+Q863390,magnetischer Widerstand,multiplikativ,1:1:1,magnetischer Gesamtfluss,magnetische Spannung,magnetischer Widerstand,Q118255404 Q77993836 Q863390,R_{\mathrm{m}} = \frac{U_{\mathrm{m}}}{\Psi}
+Q2299100,magnetisches Vektorpotential,multiplikativ,1:1:1,Rotation,magnetisches Vektorpotential,magnetische Flussdichte,Q206310 Q2299100 Q30204,\boldsymbol{B} = \nabla \times \boldsymbol{A}
+Q98280520,makroskopischer Wirkungsquerschnitt,multiplikativ,1:1:1,Wirkungsquerschnitt,Anzahldichte,makroskopischer Wirkungsquerschnitt,Q17128025 Q176449 Q98280520,\Sigma = n_{\mathrm{a}} \sigma_{\mathrm{a}}
+Q98280548,makroskopischer totaler Wirkungsquerschnitt,multiplikativ,1:1:1,Anzahldichte,totaler Wirkungsquerschnitt,makroskopischer totaler Wirkungsquerschnitt,Q176449 Q98206553 Q98280548,\Sigma_{\mathrm{tot}} = n_{\mathrm{a}} \sigma_{\mathrm{tot}}
+Q80806956,mechanische Leistung,multiplikativ,1:1:1,Kraft,Geschwindigkeitsvektor,mechanische Leistung,Q11402 Q11465 Q80806956,P = \boldsymbol{F} \cdot \boldsymbol{v}
+Q2628085,mechanischer Wirkungsgrad,multiplikativ,1:1:1,mechanische Ausgangsleistung,mechanische Eingangsleistung,mechanischer Wirkungsgrad,Q106535446 Q106535466 Q2628085,\eta = \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}}
+Q98681670,mittlere Massenreichweite,multiplikativ,1:1:1,Dichte,mittlere lineare Reichweite,mittlere Massenreichweite,Q29539 Q98681589 Q98681670,R_\rho = R \rho
+Q98793042,mittlerer Energieverlust pro erzeugtem Ionenpaar,multiplikativ,1:1:1,"Angangsbewegungsenergie eines ionisierenden, geladenen Teilchens",Gesamtionisation,mittlerer Energieverlust pro erzeugtem Ionenpaar,Q108296095 Q98690787 Q98793042,W_{\mathrm{i}} = \frac{E_{\mathrm{k}}}{N_{\mathrm{i}}}
+Q88769977,molare Enthalpie,multiplikativ,1:1:1,Stoffmenge,Enthalpie,molare Enthalpie,Q104946 Q161064 Q88769977,H_{\mathrm{m}} = H/n
+Q68972876,molare Entropie,multiplikativ,1:1:1,Stoffmenge,Entropie,molare Entropie,Q104946 Q45003 Q68972876,S_{\mathrm{m}} = S/n
+Q88863324,molare Gibbs-Energie,multiplikativ,1:1:1,Stoffmenge,Gibbs-Energie,molare Gibbs-Energie,Q104946 Q334631 Q88863324,G_{\mathrm{m}} = G/n
+Q1943278,molare Leitfähigkeit,multiplikativ,1:1:1,molare Leitfähigkeit,Stoffmengenkonzentration,elektrolytische Leitfähigkeit,Q1943278 Q672821 Q907564,\Lambda_{\mathrm{m}} = \frac{\kappa}{c_{\mathrm{B}}}
+Q145623,molare Masse,multiplikativ,1:1:1,Stoffmenge,Masse,molare Masse,Q104946 Q11423 Q145623,M = m / n
+Q2937190,molare Wärmekapazität,multiplikativ,1:1:1,Stoffmenge,Wärmekapazität,molare Wärmekapazität,Q104946 Q179388 Q2937190,C_{\mathrm{m}} = C/n
+Q88862986,molare freie Energie,multiplikativ,1:1:1,Stoffmenge,freie Energie,molare freie Energie,Q104946 Q865821 Q88862986,F_{\mathrm{m}} = F/n
+Q88523106,molare innere Energie,multiplikativ,1:1:1,Stoffmenge,innere Energie,molare innere Energie,Q104946 Q180241 Q88523106,U_{\mathrm{m}} = U/n
+Q11784888,molarer Absorptionskoeffizient,multiplikativ,1:1:1,molarer Absorptionskoeffizient,molares Volumen,linearer Absorptionskoeffizient,Q11784888 Q487112 Q86204782,\chi = \alpha V_{\mathrm{m}}
+Q98592828,molarer Extinktionskoeffizient,multiplikativ,1:1:1,Stoffmengenkonzentration,linearer Schwächungskoeffizient,molarer Extinktionskoeffizient,Q672821 Q98583077 Q98592828,\mu_c = \frac{\mu}{c}
+Q487112,molares Volumen,multiplikativ,1:1:1,Stoffmenge,Volumen,molares Volumen,Q104946 Q39297 Q487112,V_{\mathrm{m}} = V/n
+Q88865973,molekulare Konzentration,multiplikativ,1:1:1,Anzahl der Moleküle,Volumen,molekulare Konzentration,Q108132618 Q39297 Q88865973,C_{\mathrm{X}} = N_{\mathrm{X}}/V
+Q1504173,photometrisches Strahlungsäquivalent,multiplikativ,1:1:1,Lichtstrom,Strahlungsleistung,photometrisches Strahlungsäquivalent,Q107780 Q1253356 Q1504173,K = \frac{\Phi_\mathrm{v}}{\Phi_\mathrm{e}}
+Q104145185,power from torque,multiplikativ,1:1:1,Winkelgeschwindigkeit,Drehmomentvektor,Leistung,Q161635 Q17232562 Q25342,P = \boldsymbol{M} \cdot \boldsymbol{\omega}
+Q3944823,rate of surplus value,multiplikativ,1:1:1,Arbeitsentgelt,Mehrwert,rate of surplus value,Q194489 Q332425 Q3944823,r=s/v
+Q76379357,relative Dampfmassenkonzentration,multiplikativ,1:1:1,Massenkonzentration des Wasserdampfes,relative Dampfmassenkonzentration,Sättigungsmassenkonzentration des Wasserdampfes,Q76378808 Q76379357 Q94730744,\phi = v / v_{\mathrm{sat}}
+Q11027905,relative Dichte,multiplikativ,1:1:1,Bezugsdichte,relative Dichte,Dichte,Q107693641 Q11027905 Q29539,d = \rho / \rho_0
+Q106432207,relative Entropie,multiplikativ,1:1:1,maximale Entropie,relative Entropie,Entropie,Q106416338 Q106432207 Q204570,H_{\mathrm{r}} = \frac{H}{H_0}
+Q2499617,relative Luftfeuchtigkeit,multiplikativ,1:1:1,relative Luftfeuchtigkeit,Partialdruck,Sättigungspartialdruck,Q2499617 Q27165 Q94730295,\phi = p / p_{\mathrm{sat}}
+Q106432457,relative Redundanz,multiplikativ,1:1:1,maximale Entropie,relative Redundanz,Redundanz,Q106416338 Q106432457 Q122192,r = \frac{R}{H_0}
+Q7310812,relative Viskosität,multiplikativ,1:1:1,Viskosität der Lösung,Viskosität des Lösemittels,relative Viskosität,Q114975177 Q114975300 Q7310812,\eta_{\mathrm{r}} = \frac{\eta}{\eta_{\mathrm{s}}}
+Q76379414,relatives Dampfmassenverhältnis,multiplikativ,1:1:1,Massenverhältnis von Wasserdampf zum trockenen Gas,relatives Dampfmassenverhältnis,Massenverhältnis von Wasserdampf zum trockenen Gas bei Sättigung,Q17232415 Q76379414 Q94937504,\Psi = r/r_{\mathrm{sat}}
+Q122208905,rotational acceleration,multiplikativ,1:1:1,Zeit,rotational acceleration,rotational velocity,Q11471 Q122208905 Q25377096,\boldsymbol{a} = \frac{\mathrm{d} \boldsymbol{n}}{\mathrm{d} t}
+Q138495499,shake,multiplikativ,1:1:1,snatch,shake,Dauer,Q138495485 Q138495499 Q2199864,\boldsymbol{H} = \frac{\mathrm{d} \boldsymbol{S}}{\mathrm{d} t}
+Q138495485,snatch,multiplikativ,1:1:1,snatch,Dauer,tug,Q138495485 Q2199864 Q732442,\boldsymbol{S} = \frac{\mathrm{d} \boldsymbol{T}}{\mathrm{d} t}
+Q101459832,spektrale Strahlungsenergiedichte bezüglich der Frequenz,multiplikativ,1:1:1,spektrale Strahlungsenergiedichte bezüglich der Frequenz,Licht-Frequenz,Strahlungsenergiedichte,Q101459832 Q106008771 Q15054312,w_{\nu} = \frac{\mathrm{d} w}{\mathrm{d} \nu}
+Q80372486,spektrale Strahlungsenergiedichte bezüglich der Wellenlängle,multiplikativ,1:1:1,elektromagnetische Wellenlänge,Strahlungsenergiedichte,spektrale Strahlungsenergiedichte bezüglich der Wellenlängle,Q105581076 Q15054312 Q80372486,w_\lambda = \frac{\mathrm{d} w}{\mathrm{d} \lambda}
+Q2823748,spezifische Aktivität,multiplikativ,1:1:1,Masse,spezifische Aktivität,Aktivität,Q11423 Q2823748 Q317949,a = A/m
+Q3023293,spezifische Energie,multiplikativ,1:1:1,Energie,Masse,spezifische Energie,Q11379 Q11423 Q3023293,e = E/m
+Q21572993,spezifische Enthalpie,multiplikativ,1:1:1,Masse,Enthalpie,spezifische Enthalpie,Q11423 Q161064 Q21572993,h = H/m
+Q69423705,spezifische Entropie,multiplikativ,1:1:1,Masse,Entropie,spezifische Entropie,Q11423 Q45003 Q69423705,s = S / m
+Q76360636,spezifische Gibbs-Energie,multiplikativ,1:1:1,Masse,Gibbs-Energie,spezifische Gibbs-Energie,Q11423 Q334631 Q76360636,g = G/m
+Q622205,spezifische Oberfläche,multiplikativ,1:1:1,Masse,Oberfläche,spezifische Oberfläche,Q11423 Q1379273 Q622205,S_m = \frac{S}{m}
+Q108858257,spezifische Schmelzenthalpie,multiplikativ,1:1:1,spezifische Schmelzenthalpie,Masse,Schmelzenthalpie,Q108858257 Q11423 Q484790,h_{\mathrm{fus}} = \frac{H_{\mathrm{fus}}}{m}
+Q2309560,spezifische Steifigkeit,multiplikativ,1:1:1,Elastizitätsmodul,spezifische Steifigkeit,Dichte,Q2091584 Q2309560 Q29539,\Phi = \frac{E}{\rho}
+Q487756,spezifische Wärmekapazität,multiplikativ,1:1:1,Masse,Wärmekapazität,spezifische Wärmekapazität,Q11423 Q179388 Q487756,c = \frac{C}{m}
+Q76359554,spezifische freie Energie,multiplikativ,1:1:1,Masse,spezifische freie Energie,freie Energie,Q11423 Q76359554 Q865821,a = A/m
+Q76357367,spezifische innere Energie,multiplikativ,1:1:1,Masse,innere Energie,spezifische innere Energie,Q11423 Q180241 Q76357367,u = U/m
+Q104217205,spezifische latente Wärme des Phasenübergangs,multiplikativ,1:1:1,spezifische latente Wärme des Phasenübergangs,latente Wärme des Phasenübergangs,Masse,Q104217205 Q106553458 Q11423,Q = \frac{C_{\mathrm{pt}}}{m}
+Q99566195,spezifische zugeführte Energie,multiplikativ,1:1:1,Masse,zugeführte Energie,spezifische zugeführte Energie,Q11423 Q99526944 Q99566195,z = \frac{\varepsilon}{m}
+Q3265048,spezifischer Massenfluss,multiplikativ,1:1:1,Geschwindigkeitsvektor,Dichte,spezifischer Massenfluss,Q11465 Q29539 Q3265048,\boldsymbol{j}_m = \rho \boldsymbol{v}
+Q1452104,thermale Effizienz,multiplikativ,1:1:1,thermale Effizienz,Arbeit,Wärme,Q1452104 Q42213 Q44432,\eta = W/Q
+Q96249751,thermischer Diffusionskoeffizient,multiplikativ,1:1:1,Diffusionskoeffizient,thermisches Diffusionsverhältnis,thermischer Diffusionskoeffizient,Q604008 Q96249433 Q96249751,D_T = k_T D
+Q104223516,torque from angular acceleration,multiplikativ,1:1:1,Trägheitsmoment,Drehmomentvektor,Winkelbeschleunigung,Q165618 Q17232562 Q186300,\boldsymbol{\tau} = I \boldsymbol{\alpha}
+Q732442,tug,multiplikativ,1:1:1,Dauer,tug,yank,Q2199864 Q732442 Q924148,\boldsymbol{T} = \frac{\mathrm{d} \boldsymbol{Y}}{\mathrm{d} t}
+Q2672914,vektorielle physikalische Größe,multiplikativ,1:1:1,skalare Größe,vektorielle physikalische Größe,Einheitsvektor,Q181175 Q2672914 Q36255,\mathbf{Q}=q\mathbf{e}
+Q924148,yank,multiplikativ,1:1:1,Kraft,Dauer,yank,Q11402 Q2199864 Q924148,\boldsymbol{Y} = \frac{\mathrm{d} \boldsymbol{F}}{\mathrm{d} t}
+Q256106,Äquivalentdosis,multiplikativ,1:1:1,Qualitätsfaktor,Energiedosis,Äquivalentdosis,Q2122099 Q215313 Q256106,H = Q D
+Q155854,Äquivalentkonzentration,multiplikativ,1:1:1,Äquivalentkonzentration,Wertigkeit,Stoffmengenkonzentration,Q155854 Q171407 Q672821,c_{\mathrm{eq}} = z c
+Q331854,Überführungszahl,multiplikativ,1:1:1,elektrische Stromstärke des Ions,elektrische Stromstärke,Überführungszahl,Q108167057 Q29996 Q331854,t_{\mathrm{B}} = \frac{i_{\mathrm{B}}}{i}
+Q332329,Übergangswiderstand,multiplikativ,1:1:1,elektrische Stromdichte,Übergangswiderstand,elektrisches Potential,Q234072 Q332329 Q55451,r_c = \left\{ \frac{\partial V}{\partial J} \right\}_{V=0}
+Q908492,Bremsweg,multiplikativ,1:1:2,Beschleunigung,initial velocity,Bremsweg,Q11376 Q12719292 Q908492,s_\text{B} = \frac{v_0^2}{2 \cdot a}
+Q208476,Raumwinkel,multiplikativ,1:1:2,Flächeninhalt,Radius,Raumwinkel,Q11500 Q173817 Q208476,\Omega = A / r^2
+Q2140940,Rotationsenergie,multiplikativ,1:1:2,Winkelgeschwindigkeit,Trägheitsmoment,Rotationsenergie,Q161635 Q165618 Q2140940,E_{\mathrm{r}} = \tfrac{1}{2} I \omega^2
+Q949674,Staudruck,multiplikativ,1:1:2,Massendichte des Fluids,Fluidgeschwindigkeit,Staudruck,Q101961654 Q108338996 Q949674,q = \frac{1}{2} \rho v^2
+Q1545619,Streckung,multiplikativ,1:1:2,Flügelfläche,Streckung,Flügelspannweite,Q1434854 Q1545619 Q245097,\Lambda = \frac{b^2}{A}
+Q4130,Umlaufbahn,multiplikativ,1:1:2,Beschleunigung,Masse,euklidischer Abstand,Q11376 Q11423 Q847073,-\frac {G  m_1  m_2}{r^2} = m_2  A_2
+Q46276,kinetische Energie,multiplikativ,1:1:2,Masse,Geschwindigkeit,kinetische Energie,Q11423 Q3711325 Q46276,T = \frac{1}{2} m v^2
+Q6421317,mechanische Impedanz,multiplikativ,1:1:2,Flächeninhalt,mechanische Impedanz,akustische Impedanz,Q11500 Q6421317 Q975684,Z_{\mathrm{m}} = Z_{\mathrm{a}} A^2
+Q96249629,thermischer Diffusionsfaktor,multiplikativ,1:1:2,Stoffmengenanteil,thermisches Diffusionsverhältnis,thermischer Diffusionsfaktor,Q125264 Q96249433 Q96249629,\alpha_T = \frac{k_T}{x_{\mathrm{A}} x_{\mathrm{B}}}
+Q78337869,Gravitationskonstante,multiplikativ,1:2:2,Kraft,Masse,Abstand,Q11402 Q11423 Q126017,F = G \frac{m_1 m_2}{r^2}
+Q110544007,Kraft zwischen zwei Punktladungen,multiplikativ,1:2:2,Kraft zwischen zwei Punktladungen,elektrische Ladung,Abstand,Q110544007 Q1111 Q126017,F = \frac{1}{4 \pi \varepsilon_0} \frac{q_1 q_2}{r^2}
+Q110453295,Kraft zwischen zwei Punktmassen,multiplikativ,1:2:2,Kraft zwischen zwei Punktmassen,Masse,Abstand,Q110453295 Q11423 Q126017,F = G \frac{m_1 m_2}{r^2}
+Q127691530,,nicht_gelesen,,Relation,Menge,Variable,Q203066 Q36161 Q50701,
+Q2405997,3/4,nicht_gelesen,,proper fraction,Drei,Vier,Q11922678 Q201 Q202,
+Q25313598,750 GeV diphoton excess,nicht_gelesen,,Proton,Quadratmeter,Photon,Q2294 Q25343 Q3198,
+Q122889520,Abi-Khuzam inequality,nicht_gelesen,,Sinus,Multiplikation,internal angle,Q152415 Q40276 Q56353783,
+Q1509647,Adjungierter Operator,nicht_gelesen,,Adjungierter Operator,linearer Operator,inneres Produkt,Q1509647 Q1826450 Q23924662,"\langle Ax, y \rangle = \langle x, A^* y \rangle"
+Q4721378,Alexiewicz norm,nicht_gelesen,,Supremum,Alexiewicz norm,Gauge-Integral,Q215071 Q4721378 Q82029,\|f\|_\text{Alexiewicz}=\sup\left\{\left|\int_a^bf\right|\colon a<b\right\}
+Q473991,Amontonssche Gesetze,nicht_gelesen,,Reibungskoeffizient,Normalkraft,Reibung,Q1932524 Q541008 Q82580,
+Q622682,Apéry-Konstante,nicht_gelesen,,positive ganze Zahl,riemannsche Zeta-Funktion,Drei,Q16317911 Q187235 Q201,\zeta (3) = \sum\limits_{n=1}^{\infty} \frac{1}{n^3}
+Q42213,Arbeit,nicht_gelesen,,Kraft,Ortsvektor,Arbeit,Q11402 Q192388 Q42213,A = \int_{\Gamma} \boldsymbol{F} \cdot \mathrm{d} \boldsymbol{r}
+Q104145165,Arbeit aus Torsionsmoment,nicht_gelesen,,Winkelweite,Arbeit,Drehmoment,Q1357788 Q42213 Q48103,W = \int_{\theta_1}^{\theta_2} \tau\ \mathrm{d}\theta
+Q179692,Auswahlaxiom,nicht_gelesen,,Indexmenge,leere Menge,Familie,Q21285678 Q226183 Q856215,
+Q4874474,Bayesian linear regression,nicht_gelesen,,Varianz,Steigung,A-posteriori-Wahrscheinlichkeit,Q175199 Q275447 Q278079,
+Q194411,Beleuchtungsstärke,nicht_gelesen,,Lichtstrom,Flächeninhalt,Beleuchtungsstärke,Q107780 Q11500 Q194411,E_{\mathrm{v}} = \frac{\mathrm{d} \Phi_{\mathrm{v}}}{\mathrm{d} A}
+Q815588,Belichtung,nicht_gelesen,,Flächeninhalt,Belichtung,Lichtmenge,Q11500 Q815588 Q900164,H_{\mathrm{v}} = \frac{\mathrm{d} Q_{\mathrm{v}}}{\mathrm{d} A}
+Q106577791,Besicovitch inequality,nicht_gelesen,,Volumen,unit hypercube,Riemannsche Metrik,Q39297 Q78330907 Q7888899,"\prod_i \operatorname{dist}_g(\{x_i=0\}, \{x_i=1\}) \leq \operatorname{Vol}([0,1]^n,g)"
+Q1418023,Bestrahlung,nicht_gelesen,,elektromagnetische Strahlungsenergie,Flächeninhalt,Bestrahlung,Q10932713 Q11500 Q1418023,H_{\mathrm{e}} = \frac{\mathrm{d} Q_{\mathrm{e}}}{\mathrm{d} A}
+Q830654,Bestrahlungsstärke,nicht_gelesen,,Flächeninhalt,Strahlungsleistung,Bestrahlungsstärke,Q11500 Q1253356 Q830654,E_{\mathrm{e}} = \frac{\mathrm{d} \Phi_{\mathrm{e}}}{\mathrm{d} A}
+Q884593,Bloch-Kugel,nicht_gelesen,,Einheitsmatrix,Pauli-Matrizen,Dichtematrix,Q193794 Q336233 Q831774,\rho=\frac12(1+\vec a\cdot\vec\sigma)\mapsto\vec a \in \{\vec x\in\mathbb R^3\colon \|\vec x\|\le1\}
+Q5005965,C-theorem,nicht_gelesen,,komplexe Zahl,Betafunktion,Energie-Impuls-Tensor,Q11567 Q1750507 Q876346,
+Q1027067,Calkin-Algebra,nicht_gelesen,,kompakter Operator,Hilbertraum,beschränkter Operator,Q1780743 Q190056 Q2342396,
+Q622741,Cauchy-Riemannsche partielle Differentialgleichungen,nicht_gelesen,,komplexe Zahl,holomorphe Funktion,kartesische Koordinate,Q11567 Q207476 Q73454785,
+Q898619,Clebsch-Gordan-Koeffizient,nicht_gelesen,,Fakultät,Kronecker-Delta,Clebsch-Gordan-Koeffizient,Q120976 Q192826 Q898619,"\langle j_1,j_2;m_1,m_2\mid J,M\rangle=\delta _{M,m_1+m_2}{\sqrt{\frac{(2J+1)(J+j_{1}-j_{2})!(J-j_1+j_2)!(j_1+j_2-J)!}{(j_1+j_2+J+1)!}}}\times{\sqrt {(J+M)!(J-M)!(j_1-m_1)!(j_1+m_1)!(j_2-m_2)!(j_2+m_2)!}}\times\sum_k{\frac{(-1)^k}{k!(j_1+j_2-J-k)!(j_1-m_1-k)!(j_2+m_2-k)!(J-j_2+m_1+k)!(J-j_1-m_2+k)!}}"
+Q135765337,Codewort,nicht_gelesen,,Codewort,Symbol,fehlerkorrigierender Code,Q135765337 Q2372244 Q55611017,"c=(c_1,\ldots,c_n)\in C"
+Q1344391,Enstrophie,nicht_gelesen,,Wirbelstärke,Flächeninhalt,Enstrophie,Q1143513 Q11500 Q1344391,
+Q130240262,Erdős–Heilbronn conjecture,nicht_gelesen,,Teilmenge,Primzahl,restricted sumset,Q177646 Q49008 Q859107,
+Q2723749,Euler function,nicht_gelesen,,Partitionsfunktion,Euler function,q-Pochhammer symbol,Q15846551 Q2723749 Q518706,\phi(q)=\prod_{k=1}^\infty(1-q^k)=(q;q)_\infty=\frac1{\sum_{k=0}^\infty p(k)q^k}
+Q875744,Euler-Lagrange-Gleichung,nicht_gelesen,,generalisierte Koordinate,Dauer,Lagrange-Funktion,Q1057607 Q2199864 Q74318512,\frac{\partial L}{\partial q_i} = \frac{\mathrm{d}}{\mathrm{d} t} \left( \frac{\partial L}{\partial \dot{q}_i} \right)
+Q1073295,Fermis Goldene Regel,nicht_gelesen,,Energiezustandsdichte,reiner Zustand,Hamiltonoperator,Q105687031 Q456782 Q660488,\Gamma _{i\to f}={\frac {2\pi }{\hbar }}\left|\langle f|H'|i\rangle \right|^{2}\rho (E_{f})
+Q5446796,Fidelität,nicht_gelesen,,Spur,Fidelität,Dichtematrix,Q321102 Q5446796 Q831774,"F(\rho,\sigma)=\left(\operatorname{tr}\sqrt{\sqrt\rho\sigma\sqrt\rho}\right)^2=\left(\operatorname{tr}\sqrt{\sqrt\sigma\rho\sqrt\sigma}\right)^2"
+Q117421376,Fourier-Koeffizient,nicht_gelesen,,Funktion,Fourier-Koeffizient,nichtnegative ganze Zahl,Q11348 Q117421376 Q28920052,
+Q1004053,Frobeniusnorm,nicht_gelesen,,Frobeniusnorm,adjungierte Matrix,Spur,Q1004053 Q2051983 Q321102,\lVert A \rVert_F = \sqrt{\text{Tr}(AA^*)}
+Q56312591,Funktion einer komplexen Variable,nicht_gelesen,,Menge der komplexen Zahlen,Menge,Funktion einer komplexen Variable,Q26851286 Q36161 Q56312591,
+Q864475,Funktor,nicht_gelesen,,Komposition,identische Abbildung,Funktor,Q244761 Q321119 Q864475,
+Q5459694,Geflippte SU(5),nicht_gelesen,,Kreisgruppe,SU(2),SU(3),Q105356493 Q16320770 Q45194193,
+Q1262627,Gelfand-Tripel,nicht_gelesen,,topologischer Dualraum,Hilbertraum,nuklearer Raum,Q16630165 Q190056 Q283804,
+Q78072120,Gleichheitsrelation,nicht_gelesen,,geordnetes Paar,Menge,Gleichheitsrelation,Q191290 Q36161 Q78072120,"\operatorname{id}_A = \{(x, x) \mid x \in A\}"
+Q5597087,Graph-Energie,nicht_gelesen,,Graphspektrum,Eigenwert,Graph-Energie,Q130529047 Q3553768 Q5597087,\mathcal E(G) = \sum_{\lambda\in \operatorname{Spec}(G)}|\lambda|
+Q11300563,Greenberger-Horne-Zeilinger-Zustand,nicht_gelesen,,Greenberger-Horne-Zeilinger-Zustand,Tensorprodukt,Wurzel 2,Q11300563 Q1163016 Q389813,|\mathrm{GHZ} \rangle =\frac{|000\rangle^{\otimes M}+|111\rangle^{\otimes M}}{\sqrt2}
+Q1551631,Gröbnerbasis,nicht_gelesen,,Gröbnerbasis,Ideal,Monomordnung,Q1551631 Q44649 Q934509,
+Q73695673,Haftreibungskoeffizient,nicht_gelesen,,maximale Tangentialkraft,Normalkraft,Haftreibungskoeffizient,Q107805640 Q541008 Q73695673,"F_{\mathrm{t}, \mathrm{max}} = \mu_{\mathrm{s}} N"
+Q656645,Hilbertscher Basissatz,nicht_gelesen,,Polynomring,Noetherscher Ring,kommutativer Ring,Q1455652 Q582271 Q858656,
+Q215111,Homomorphismus,nicht_gelesen,,Relation,Homomorphismus,Verknüpfung,Q203066 Q215111 Q3884033,
+Q5478310,Jacobi-Lie-Klammer,nicht_gelesen,,Vektorfeld,partielle Ableitung,Jacobi-Lie-Klammer,Q186247 Q186475 Q5478310,"[X,Y]=(X^j\partial_jY^i-Y^j\partial_jX^i)\partial_i"
+Q109012778,Kan-Komplex,nicht_gelesen,,simpliziale Menge,Kan fibration,Endobjekt,Q1467124 Q3915873 Q91432273,
+Q15805671,Kantendichte,nicht_gelesen,,Kantenzahl,Kantendichte,Knotenzahl,Q1332313 Q15805671 Q1777513,d(G)=\|G\|/\binom{|G|}{2}=\frac{2|E|}{|V|(|V|-1)}
+Q1739288,Kerma,nicht_gelesen,,Anfangsbewegungsenergien der freigesetzten geladenen ionisierenden Teilchen,Masse,Kerma,Q108327243 Q11423 Q1739288,K = \frac{\mathrm{d} E_{\mathrm{tr}}}{\mathrm{d} m}
+Q97921226,Kernquadrupolmoment,nicht_gelesen,,kartesische Koordinate,Kernquadrupolmoment,elektrische Kernladungsdichte,Q73454785 Q97921226 Q97922972,
+Q2620219,Koide-Formel,nicht_gelesen,,Myonmasse,Tauonmasse,Elektronenmasse,Q106764378 Q106764397 Q3814108,
+Q20180528,Kolmogorow-Sinai-Entropie,nicht_gelesen,,messbare Menge,Wahrscheinlichkeitsmaß,Partition,Q3054889 Q355020 Q381060,
+Q3773677,Kongruenz,nicht_gelesen,,teilt,Modul,Kongruenz,Q109497082 Q130246396 Q3773677,
+Q111652279,Kontaktmannigfaltigkeit,nicht_gelesen,,Keilprodukt,äußere Ableitung,1-Form,Q13408581 Q1754547 Q2608202,
+Q6433699,Koszul-Komplex,nicht_gelesen,,freier Modul,dual module,kommutativer Ring,Q1292333 Q25098792 Q858656,
+Q105356493,Kreisgruppe,nicht_gelesen,,Winkel,komplexe Zahl,Menge,Q11352 Q11567 Q36161,\{z \colon \vert z \vert = 1\} = \{z \colon z = e ^ {i\theta} = \mathrm{cis} (\theta) = \cos\theta + i\sin\theta \colon \theta \in \mathbb{R} \}
+Q1685498,Kreuzentropie,nicht_gelesen,,Kreuzentropie,Wahrscheinlichkeitsdichtefunktion,Wahrscheinlichkeitsraum,Q1685498 Q207522 Q623472,"H(p,q)=-\int_Xp(x)\ln q(x)\,\mathrm dx"
+Q25098516,Laplacian vector field,nicht_gelesen,,Divergenz,Rotation,Laplacian vector field,Q189000 Q206310 Q25098516,
+Q320577,Lemma von Yoneda,nicht_gelesen,,natürliche Transformation,Kategorie,Prägarbe,Q1442189 Q719395 Q7241077,
+Q84827265,Lichtabsorptionsgrad,nicht_gelesen,,absorbierter Lichtstrom,einfallender Lichtstrom,Lichtabsorptionsgrad,Q108112552 Q108112563 Q84827265,"\alpha_{\mathrm{v}} = \frac{\Phi_{\mathrm{v}, \mathrm{a}}}{\Phi_{\mathrm{v}, \mathrm{m}}}"
+Q84932761,Lichtreflexionsgrad,nicht_gelesen,,einfallender Lichtstrom,reflektierter Lichtstrom,Lichtreflexionsgrad,Q108112563 Q108112590 Q84932761,"\rho_{\mathrm{v}} = \frac{\Phi_{\mathrm{v}, \mathrm{r}}}{\Phi_{\mathrm{v}, \mathrm{m}}}"
+Q107780,Lichtstrom,nicht_gelesen,,Lichtstrom,Dauer,Lichtmenge,Q107780 Q2199864 Q900164,\Phi_{\mathrm{v}} = \frac{\mathrm{d} Q_{\mathrm{v}}}{\mathrm{d} t}
+Q104831,Lichtstärke,nicht_gelesen,,Lichtstärke,Lichtstrom,Raumwinkel,Q104831 Q107780 Q208476,I_{\mathrm{v}} = \frac{\mathrm{d} \Phi_{\mathrm{v}}}{\mathrm{d} \Omega}
+Q84935567,Lichttransmissionsgrad,nicht_gelesen,,einfallender Lichtstrom,transmittierter Lichtstrom,Lichttransmissionsgrad,Q108112563 Q108112623 Q84935567,"\tau_{\mathrm{v}} = \frac{\Phi_{\mathrm{v}, \mathrm{t}}}{\Phi_{\mathrm{v}, \mathrm{m}}}"
+Q6543810,Lie-Algebroid,nicht_gelesen,,Schnitt,Vektorbündel,glatte Mannigfaltigkeit,Q11703678 Q658429 Q78338964,
+Q6749777,Manin triple,nicht_gelesen,,Lie-Algebra,quadratic Lie algebra,Lie-Unteralgebra,Q664495 Q7268353 Q78502423,
+Q842436,Markow-Ungleichung,nicht_gelesen,,Zufallsvariable,Erwartungswert,Wahrscheinlichkeit,Q176623 Q200125 Q9492,
+Q534112,Martingal,nicht_gelesen,,Martingal,Filtrierung,bedingter Erwartungswert,Q534112 Q55647796 Q772232,Y_{s}=\mathbf {E}(Y_{t}\mid \Sigma _{s})\quad \forall t \ge s
+Q2421905,Mayer–Vietoris sequence,nicht_gelesen,,singuläre Homologie,Direkte Summe,Schnittmenge,Q1095056 Q13582243 Q185837,
+Q118176576,Mertens' first theorem,nicht_gelesen,,Logarithmus,absoluter Betrag,Primzahl,Q11197 Q120812 Q49008,
+Q118176598,Mertens' second theorem,nicht_gelesen,,Summe,Primzahl,Grenzwert,Q218005 Q49008 Q847204,\lim_{n\to\infty}\left(\sum_{p: p\leq n}\frac{1}{p} - \log\log n - M\right) = 0
+Q6867867,Minkowski–Hlawka theorem,nicht_gelesen,,packing density,riemannsche Zeta-Funktion,Dimension,Q18385933 Q187235 Q4440864,
+Q1935235,Mittag-Leffler-Funktion,nicht_gelesen,,komplexe Zahl,Gammafunktion,Mittag-Leffler-Funktion,Q11567 Q190573 Q1935235,"E_{\alpha,\beta}(z)=\sum_{k=0}^\infty\frac{z^k}{\Gamma(\alpha k+\beta)}"
+Q864377,Multimenge,nicht_gelesen,,Zahlenfunktion,Menge,Multimenge,Q19856468 Q36161 Q864377,"M=(A,m); m \colon A \to \N"
+Q334508,Nabla-Operator,nicht_gelesen,,kartesischer Einheitsvektor,Nabla-Operator,kartesische Koordinate,Q109533641 Q334508 Q73454785,\nabla = \sum_i \boldsymbol{e}_i \frac{\partial}{\partial x_i}
+Q11425837,Normalspannung,nicht_gelesen,,Normalspannung,Flächeninhalt,Normalkraft,Q11425837 Q11500 Q541008,\sigma = \frac{\mathrm{d} F_{\mathrm{n}}}{\mathrm{d} A}
+Q65242595,Organdosis,nicht_gelesen,,Energiedosis,Strahlungswichtungsfaktor,Organdosis,Q215313 Q2353169 Q65242595,"H_{\mathrm{T}, \mathrm{R}} = w_{\mathrm{R}} D_{\mathrm{T}, \mathrm{R}}"
+Q12129,Parsec,nicht_gelesen,,Parsec,astronomische Einheit,Kilometer,Q12129 Q1811 Q828224,"1\,\mathrm{pc}=\frac{648\,000}\pi\,\mathrm{au}=\frac{96\,939\,420\,213\,600}\pi\,\mathrm{km}"
+Q84026278,Photonenbestrahlung,nicht_gelesen,,Flächeninhalt,Photonenanzahl,Photonenbestrahlung,Q11500 Q83698917 Q84026278,H_{\mathrm{p}} = \frac{\mathrm{d} N_{\mathrm{p}}}{\mathrm{d} A}
+Q83950903,Photonenbestrahlungsstärke,nicht_gelesen,,Flächeninhalt,Photonenstrom,Photonenbestrahlungsstärke,Q11500 Q83699542 Q83950903,E_{\mathrm{p}} = \frac{\mathrm{d} \Phi_{\mathrm{p}}}{\mathrm{d} A}
+Q83853335,Photonenstrahlstärke,nicht_gelesen,,Raumwinkel,Photonenstrom,Photonenstrahlstärke,Q208476 Q83699542 Q83853335,I_{\mathrm{p}} = \frac{\mathrm{d} \Phi_{\mathrm{p}}}{\mathrm{d} \Omega}
+Q83699542,Photonenstrom,nicht_gelesen,,Dauer,Photonenanzahl,Photonenstrom,Q2199864 Q83698917 Q83699542,\Phi_{\mathrm{p}} = \frac{\mathrm{d} N_{\mathrm{p}}}{\mathrm{d} t}
+Q30692563,Porter-Konstante,nicht_gelesen,,riemannsche Zeta-Funktion,natürlicher Logarithmus,Ableitung,Q187235 Q204037 Q29175,
+Q934257,Primordiale Fluktuationen,nicht_gelesen,,spektrale Leistungsdichte,Wellenzahl,spectral index,Q1331626 Q192510 Q2280060,
+Q1065997,Protonenzerfall,nicht_gelesen,,π0,Proton,Positron,Q17254284 Q2294 Q3229,
+Q181551,RSA,nicht_gelesen,,Öffentlicher Schlüssel,Privat Schlüssel,Klartext,Q1054766 Q1057478 Q1162538,
+Q106959133,Raumbestrahlungsstärke,nicht_gelesen,,Raumbestrahlungsstärke,Strahldichte,Raumwinkel,Q106959133 Q1411145 Q208476,"E_{\mathrm{e}, \mathrm{o}} = \int\limits_{4 \pi} L_{\mathrm{e}} \mathrm{d} \Omega"
+Q382783,Reaktionsaffinität,nicht_gelesen,,stöchiometrische Zahl,Reaktionsaffinität,chemisches Potential,Q17326453 Q382783 Q737004,A = -\sum{\nu_{\mathrm{B}} \mu_{\mathrm{B}}}
+Q54933377,Rechtstotalität,nicht_gelesen,,binäre Relation,Menge,Element,Q130901 Q36161 Q379825,
+Q867839,Rosser's theorem,nicht_gelesen,,positive ganze Zahl,natürlicher Logarithmus,Primzahl,Q16317911 Q204037 Q49008,
+Q307169,"SL(2,R)",nicht_gelesen,,Kontinuum,"SL(2,R)",2×2-Matrix,Q1174982 Q307169 Q3851915,
+Q1426292,Satz von Banach-Steinhaus,nicht_gelesen,,Banachraum,normierter Raum,Operatornorm,Q194397 Q726210 Q980557,
+Q117679663,Satz von Mantel,nicht_gelesen,,Kantenzahl,Knotenzahl,dreiecksfreier Graph,Q1332313 Q1777513 Q7840044,
+Q2226822,Satz von Vizing,nicht_gelesen,,endlicher Graph,kantenchromatische Zahl,Maximalgrad,Q110679812 Q124464442 Q9346061,
+Q276082,Satz von Wilson,nicht_gelesen,,Fakultät,Kongruenz,Primzahl,Q120976 Q3773677 Q49008,
+Q931001,Satz von der Umkehrabbildung,nicht_gelesen,,Funktionaldeterminante,identische Abbildung,stetig differenzierbare Funktion,Q1474543 Q321119 Q91933113,
+Q657936,Scherspannung,nicht_gelesen,,Flächeninhalt,Scherspannung,Tangentialkraft,Q11500 Q657936 Q91740473,\tau_{\mathrm{s}} = \frac{\mathrm{d} F_{\mathrm{t}}}{\mathrm{d} A}
+Q7432782,Schouten-Nijenhuis-Klammer,nicht_gelesen,,Vektorfeld,Lie-Ableitung,Schouten-Nijenhuis-Klammer,Q186247 Q579267 Q7432782,"[a_1\dotsm a_m,b_1\dotsm b_n]=\sum_{i,j}(-1)^{i+j}[a_i,b_j]a_1\dotsm a_{i-1}a_{i+1}\dotsm a_m b_1\dotsm b_{j-1}b_{j+1}\dotsm b_n"
+Q1091448,Seebeck-Koeffizient,nicht_gelesen,,thermoelektrische Spannung,Seebeck-Koeffizient,thermodynamische Temperatur,Q105761637 Q1091448 Q264647,S_{\mathrm{a} \mathrm{b}} = \frac{\mathrm{d} E_{\mathrm{a} \mathrm{b}}}{\mathrm{d} T}
+Q117279214,Sherrington-Kirkpatrick-Modell,nicht_gelesen,,Magnetfeld,Spin,Hamilton-Funktion,Q11408 Q133673 Q360356,H=-\frac1{\sqrt N}\sum_{i<j}J_{ij}S_iS_j-M\sum_iS_i
+Q2116294,Singleton-Schranke,nicht_gelesen,,Länge eines Blockcodes,minimaler Hamming-Abstand,Dimension eines Blockcodes,Q130690693 Q130691832 Q130704440,
+Q109928652,Skalarprodukt zweier Tensoren,nicht_gelesen,,Tensor der zweiten Stufe,kartesische Tensorkoordinate,Skalarprodukt zweier Tensoren,Q109622326 Q109639104 Q109928652,\boldsymbol{T} \operatorname{\boldsymbol{:}} \boldsymbol{S} = \sum_i \sum_j T_{i j} S_{i j}
+Q1721548,Skalarproduktnorm,nicht_gelesen,,Quadratwurzel,Skalarproduktnorm,Skalarprodukt,Q134237 Q1721548 Q181365,"\| v \| := \sqrt{\langle v, v \rangle}"
+Q624025,Sophie-Germain-Primzahl,nicht_gelesen,,sichere Primzahl,Menge der Primzahlen,Sophie-Germain-Primzahl,Q2298723 Q47370614 Q624025,
+Q36248,Spatprodukt,nicht_gelesen,,Vektorprodukt,Skalarprodukt,Spatprodukt,Q178192 Q181365 Q36248,"(\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}) = \boldsymbol{a} \cdot (\boldsymbol{b} \times \boldsymbol{c})"
+Q7575269,Spektrum,nicht_gelesen,,Zellkomplex,Menge der natürlichen Zahlen,reduzierte Einhängung,Q189061 Q28777634 Q91791780,
+Q121758039,Stone–Čech compactification of the countably infinite discrete space,nicht_gelesen,,Ordinalzahl,Stone-Čech-Kompaktifizierung,Menge der natürlichen Zahlen,Q191780 Q2033899 Q28777634,
+Q15054312,Strahlungsenergiedichte,nicht_gelesen,,elektromagnetische Strahlungsenergie,Strahlungsenergiedichte,Volumen,Q10932713 Q15054312 Q39297,w = \frac{\mathrm{d} Q_{\mathrm{e}}}{\mathrm{d} V}
+Q1253365,Strahlungsintensität,nicht_gelesen,,Strahlungsleistung,Strahlungsintensität,Raumwinkel,Q1253356 Q1253365 Q208476,I_{\mathrm{e}} = \frac{\mathrm{d} \Phi_{\mathrm{e}}}{\mathrm{d} \Omega}
+Q1253356,Strahlungsleistung,nicht_gelesen,,elektromagnetische Strahlungsenergie,Strahlungsleistung,Dauer,Q10932713 Q1253356 Q2199864,\Phi_{\mathrm{e}} = \frac{\mathrm{d} Q_{\mathrm{e}}}{\mathrm{d} t}
+Q7881229,Subjunktion,nicht_gelesen,,Antezedent,consequent,Subjunktion,Q260460 Q261155 Q7881229,
+Q554388,Temperaturgradient,nicht_gelesen,,thermodynamische Temperatur,Temperaturgradient,kartesische Koordinate,Q264647 Q554388 Q73454785,
+Q1806612,Tisserandparameter,nicht_gelesen,,große Halbachse,Exzentrizität,Bahnneigung,Q171594 Q208474 Q4112212,T_{P}\ ={\frac {a_{P}}{a}}+2\cos i{\sqrt {{\frac {a}{a_{P}}}(1-e^{2})}}
+Q2856369,Tits-Gruppe,nicht_gelesen,,Kommutatorgruppe,F₂,Ree group,Q522216 Q5513324 Q7306554,
+Q2735407,Tolman-Oppenheimer-Volkoff-Gleichung,nicht_gelesen,,Radialkoordinate,Dichte,Druck,Q116610186 Q29539 Q39552,
+Q18786106,Topologie,nicht_gelesen,,Topologie,offene Menge,Menge,Q18786106 Q213363 Q36161,
+Q7844667,Trivialismus,nicht_gelesen,,Aussage,Allaussage,wahr,Q108163 Q126695 Q16751793,
+Q1136376,Träger,nicht_gelesen,,Funktion,Träger,Definitionsmenge,Q11348 Q1136376 Q192439,"\operatorname{supp}(f) = \{x\in X \,|\, f(x)\ne 0\}"
+Q1571831,Ultrafilter,nicht_gelesen,,Ultrafilter,leere Menge,teilweise geordnete Menge,Q1571831 Q226183 Q474715,"\varnothing\ne \bigcup_{x\in U}\uparrow x=U\subsetneq P\land(\forall x,y\in U\exists z\in U\colon x\ge z\le y)\land \forall F\subsetneq P\colon F\supset U\land \left(\varnothing\ne \bigcup_{x\in F}\uparrow x=F\subset P\land(\forall x,y\in F\exists z\in F\colon x\ge z\le y)\right)\implies F=U"
+Q841170,Ungleichung vom arithmetischen und geometrischen Mittel,nicht_gelesen,,geometrisches Mittel,harmonisches Mittel,Durchschnitt,Q185049 Q188347 Q19033,
+Q107897700,Ungleichung von Carathéodory,nicht_gelesen,,Realteil,reelle Zahl,holomorphe Funktion,Q1156910 Q12916 Q207476,r > 0 \land 0 \leq |z| \leq r < R \implies |f(z)| \leq |f(0)| + \frac{2r}{R-r} \cdot \left( \max_{|z| = R} { \Re {f(z)} -  \Re {f(0)} }  \right)
+Q109526028,Vektorkoordinate,nicht_gelesen,,Vektorkoordinate,Vektor,Basisvektor,Q109526028 Q13471665 Q56320001,\boldsymbol{a} = \sum_i a_i \boldsymbol{a}_i
+Q1068463,Viererimpuls,nicht_gelesen,,Viererimpuls,Energie,Impuls,Q1068463 Q11379 Q41273,
+Q257387,Vitali-Menge,nicht_gelesen,,Kontinuum,Vitali-Menge,Menge der rationalen Zahlen,Q1174982 Q257387 Q47005650,
+Q909482,Volumenanteil,nicht_gelesen,,Stoffmengenanteil,molares Volumen,Volumenanteil,Q125264 Q487112 Q909482,"\varphi_{\mathrm{X}} = \frac{x_{\mathrm{X}} V_{\mathrm{m}, \mathrm{X}}}{\sum_i x_i V_{\mathrm{m}, i}}"
+Q1970172,Von-Neumann-Algebra,nicht_gelesen,,Von-Neumann-Algebra,bicommutant,identische Abbildung,Q1970172 Q2901650 Q321119,
+Q2856621,Wagner VI projection,nicht_gelesen,,geographische Breite,geographische Länge,kartesische Koordinate,Q34027 Q36477 Q73454785,
+Q1930808,Widerstandsmoment,nicht_gelesen,,größter radialer Abstand,Widerstandsmoment,axiales Flächenträgheitsmoment,Q107710225 Q1930808 Q91405496,"Z = I_{\mathrm{a}} / r_{\mathrm{Q}, \mathrm{max}}"
+Q909065,Wiener-Index,nicht_gelesen,,Knotenmenge,Abstand,Wiener-Index,Q124247078 Q2742711 Q909065,"W = \sum_{\{u,v\}\subseteq V} d(u,v) = \frac{1}{2} \sum_{u,v\in V} d(u,v)"
+Q2550445,Wolstenholme prime,nicht_gelesen,,Binomialkoeffizient,Kongruenz,Primzahl,Q209875 Q3773677 Q49008,
+Q19856468,Zahlenfunktion,nicht_gelesen,,Definitionsmenge,Zahlenfunktion,Menge der ganzen Zahlen,Q192439 Q19856468 Q47007735,
+Q114145344,Zentrale Erweiterung,nicht_gelesen,,Zentrum einer Gruppe,Gruppenerweiterung,central subgroup,Q1195852 Q3041173 Q5062155,
+Q190629,Zentralisator,nicht_gelesen,,Teilmenge,Zentralisator,Gruppe,Q177646 Q190629 Q83478,\operatorname C_G(S)=\left\{g\in G\mid gs=sg\;\forall s\in S\right\}
+Q1195852,Zentrum einer Gruppe,nicht_gelesen,,Zentrum einer Gruppe,set-builder notation,Gruppe,Q1195852 Q3352804 Q83478,\operatorname Z(G) = \{g\in G|\forall h\in G\colon gh=hg\}
+Q199006,Zielmenge,nicht_gelesen,,Funktion,Definitionsmenge,Zielmenge,Q11348 Q192439 Q199006,
+Q4781718,approach space,nicht_gelesen,,Potenzmenge,Menge,approach space,Q205170 Q36161 Q4781718,
+Q2298831,asymmetrische Relation,nicht_gelesen,,binäre Relation,Menge,element,Q130901 Q36161 Q5358816,
+Q137393187,atom-bond connectivity index,nicht_gelesen,,Kantenmenge,atom-bond connectivity index,Grad,Q124247109 Q137393187 Q383444,ABC(G) = \sum_{uv \in E(G)} \sqrt{\frac{d(u) + d(v) - 2}{d(u) \cdot d(v)}}
+Q834025,cauchyscher Integralsatz,nicht_gelesen,,Funktion,komplexes Wegintegral,einfache geschlossene Kontur,Q11348 Q116907694 Q120726131,"\int_{\mathsf{C}} f(z) \, \mathrm{d}z = 0"
+Q5062155,central subgroup,nicht_gelesen,,Zentrum einer Gruppe,central subgroup,Gruppe,Q1195852 Q5062155 Q83478,
+Q123172485,closed subscheme,nicht_gelesen,,Schema,quasikohärente Garbe,Strukturgarbe,Q1155772 Q61040808 Q91435750,
+Q2777107,constructible universe,nicht_gelesen,,first-order formula,Ordinalzahl,constructible universe,Q110765110 Q191780 Q2777107,
+Q138566062,continuous-time system,nicht_gelesen,,causal map,Eingabe,Ausgabe,Q106254200 Q1125955 Q778569,
+Q24896206,crossing number inequality,nicht_gelesen,,Kantenzahl,Knotenzahl,Kreuzungszahl,Q1332313 Q1777513 Q266775,
+Q386320,darstellbarer Funktor,nicht_gelesen,,natürlicher Isomorphismus,darstellbarer Funktor,Hom-Funktor,Q110535030 Q386320 Q5887297,
+Q2297777,duale Basis,nicht_gelesen,,Basis,Kronecker-Delta,duale Basis,Q189569 Q192826 Q2297777,"\langle e_i,e^{*j}\rangle=\delta^j_i"
+Q10932713,elektromagnetische Strahlungsenergie,nicht_gelesen,,elektromagnetische Strahlungsenergie,Strahlungsleistung,Dauer,Q10932713 Q1253356 Q2199864,Q_{\mathrm{e}} = \int_{\Delta t} \Phi_{\mathrm{e}} \mathrm{d} t
+Q5416566,even code,nicht_gelesen,,Codewort,Hamming-Gewicht,Binärcode,Q135765337 Q5645805 Q864135,
+Q5418693,evolutionary argument against naturalism,nicht_gelesen,,reliability theory,Naturalismus,Stammesgeschichte des Menschen,Q2545204 Q56000 Q83944,
+Q5432366,falling cat problem,nicht_gelesen,,cat tail,head of a cat,Impuls,Q116978841 Q131630271 Q41273,"/vec{L_{back},L_{front}}L_{compound}=L_{total}=0"
+Q2995691,fastkomplexe Mannigfaltigkeit,nicht_gelesen,,Tangentialbündel,glatte Mannigfaltigkeit,fastkomplexe Struktur,Q746550 Q78338964 Q78340703,"(M, J \colon \mathrm TM \to \mathrm TM): J^2 = -1"
+Q127783732,fictional asymmetric relation,nicht_gelesen,,fictional binary relation,fictional set,fictional element,Q126366837 Q126366846 Q126956580,
+Q134580706,fictional homomorphism,nicht_gelesen,,fictional relation,fictional mathematical operation,fictional homomorphism,Q126366841 Q126558350 Q134580706,
+Q126982550,fictional right-totality,nicht_gelesen,,fictional binary relation,fictional set,fictional element,Q126366837 Q126366846 Q126956510,
+Q137393195,fractional dominating set,nicht_gelesen,,Knotenmenge,fractional dominating set,abgeschlossene Nachbarschaft,Q124247078 Q137393195 Q137393244,
+Q105569679,function of an integer variable,nicht_gelesen,,function of an integer variable,Zielmenge,Menge der ganzen Zahlen,Q105569679 Q199006 Q47007735,
+Q2330873,gauge,nicht_gelesen,,Pfund,Zoll,Durchmesser,Q100995 Q218593 Q37221,d_n = 2 \sqrt[3]{\frac{3}{4\pi} \frac{1\mathrm{~lb} / n}{ 0.4097\mathrm{~lb/in^3}}}
+Q1153787,generalisierte Kraft,nicht_gelesen,,generalisierte Koordinate,generalisierte Kraft,Arbeit,Q1057607 Q1153787 Q42213,\operatorname{\delta} A = \sum Q_i \operatorname{\delta} q_i
+Q6806305,generalisierter Impuls,nicht_gelesen,,generalisierte Geschwindigkeit,generalisierter Impuls,Lagrange-Funktion,Q15927257 Q6806305 Q74318512,p_i = \frac{\partial L}{\partial \dot{q}_i}
+Q661063,gequetschtes Licht,nicht_gelesen,,ladder operator,Matrixexponential,Grundzustand,Q1186765 Q1191722 Q4480008,"|\alpha,\zeta\rangle=\exp(\alpha\hat a^\dagger-\alpha^*\hat a)\exp\left(\frac12(\zeta^*\hat a^2-\zeta\hat a^{\dagger 2})\right)|0\rangle"
+Q79674627,greatest element,nicht_gelesen,,binäre Relation,greatest element,geordnete Menge,Q130901 Q79674627 Q7994926,"g=Greatest~element(P, \preceq ) \overset{\text{def}}{\iff} g \in P \land \forall y \in P (y \preceq g)"
+Q5618844,gunk,nicht_gelesen,,Q114977110,Teil,gunk,Q114977110 Q13196193 Q5618844,
+Q3205712,highly abundant number,nicht_gelesen,,highly abundant number,Teilersumme,Menge der positiven ganzen Zahlen,Q3205712 Q4047453 Q47339953,
+Q3776995,hyperball,nicht_gelesen,,Radius,Ortsvektor,Norm,Q173817 Q192388 Q956437,
+Q3148876,image of a set,nicht_gelesen,,Funktion,Zielmenge,Menge,Q11348 Q199006 Q36161,"f(A) = \{f(x)\mid x \in A\}=\{y \in Y\mid \exists a \in A, y=f(a)\}"
+Q141551996,index,nicht_gelesen,,Vektorfeld,Abbildungsgrad,Norm,Q186247 Q306564 Q956437,
+Q2028293,iterierter Logarithmus,nicht_gelesen,,Logarithmus,iterierter Logarithmus,Basis,Q11197 Q2028293 Q2886413,
+Q107203920,jensensche Ungleichung,nicht_gelesen,,Zufallsvariable,Erwartungswert,konvexe Funktion,Q176623 Q200125 Q319913,
+Q20825791,kalkulatorische Abschreibung,nicht_gelesen,,kalkulatorische Abschreibung,Schrottwert,Wiederbeschaffungskosten,Q20825791 Q2250199 Q356950,\text{Kalkulatorischer Abschreibungsbetrag} =  \frac{\text{Wiederbeschaffungswert} - \text{Schrottwert}}{\text{tatsächliche Nutzungsdauer}}
+Q173740,kartesisches Produkt,nicht_gelesen,,kartesisches Produkt,geordnetes Paar,Menge,Q173740 Q191290 Q36161,"A \times B = \{(x, y) \mid x \in A \land y \in B\}"
+Q188295,kleiner fermatscher Satz,nicht_gelesen,,ganze Zahl,Kongruenz,Primzahl,Q12503 Q3773677 Q49008,
+Q45315914,konforme Zeit,nicht_gelesen,,Skalenfaktor,Dauer,konforme Zeit,Q1332997 Q2199864 Q45315914,\eta = \int_0^t \frac{\mathrm{d} t'}{a(t')}
+Q1781706,konjunktive Anfrage,nicht_gelesen,,distinguished variable,atomare Formel,Variable,Q110765166 Q2328174 Q50701,
+Q2655506,kopositive Matrix,nicht_gelesen,,reelle symmetrische Matrix,Vektor,Matrix-Transposition,Q10949536 Q13471665 Q77961711,
+Q91439876,leere Relation,nicht_gelesen,,Relation,Menge,Variable,Q203066 Q36161 Q50701,
+Q1699996,linearer Energietransfer,nicht_gelesen,,reduzierter mittlerer Energieverlust,Abstand,linearer Energietransfer,Q108327169 Q126017 Q1699996,L_{\Delta} = \frac{\mathrm{d} E_{\Delta}} {\mathrm{d} l}
+Q111315902,maximales Element,nicht_gelesen,,maximales Element,binäre Relation,geordnete Menge,Q111315902 Q130901 Q7994926,"m=Maximal~element(P, \preceq ) \overset{\text{def}}{\iff} ( \exists m \in P (\exists y \in P (m\preceq y) \implies y \preceq m ) )"
+Q1755843,mehrfache perfekte Zahl,nicht_gelesen,,mehrfache perfekte Zahl,Teilersumme,Teiler,Q1755843 Q4047453 Q50708,
+Q1940733,mittlerer arterieller Druck,nicht_gelesen,,mittlerer arterieller Druck,systolischer Blutdruck,diastolischer Blutdruck,Q1940733 Q42015775 Q42015777,
+Q108858279,molare Schmelzenthalpie,nicht_gelesen,,Stoffmenge,molare Schmelzenthalpie,Schmelzenthalpie,Q104946 Q108858279 Q484790,"H_{\mathrm{m}, \mathrm{fus}} = \frac{H_{\mathrm{fus}}}{n}"
+Q306610,n-Sphäre,nicht_gelesen,,Radius,Ortsvektor,Norm,Q173817 Q192388 Q956437,\mathbb S^n = \{x\in\mathbb R^{n+1}\colon \|x\|=1\} = \operatorname{SO}(n+1)/\operatorname{SO}(n)
+Q11700633,negative probability,nicht_gelesen,,Null,weniger als,Wahrscheinlichkeit,Q204 Q52834024 Q9492,
+Q42866132,obere Schranke,nicht_gelesen,,binäre Relation,obere Schranke,geordnete Menge,Q130901 Q42866132 Q7994926,"u=Upper~bound(S), S \subseteq (K, \preceq)  \overset{\text{def}}{\iff}  \exists u \in K (\forall y \in S (y \preceq u))"
+Q123172161,offenes Unterschema,nicht_gelesen,,Schema,offene Menge,Strukturgarbe,Q1155772 Q213363 Q91435750,
+Q1475329,optische Weglänge,nicht_gelesen,,optische Weglänge,Brechungsindex,Länge,Q1475329 Q174102 Q36253,"L = \int_C n \, \mathrm{d} s"
+Q384699,ordinal definable set,nicht_gelesen,,first-order formula,Ordinalzahl,ordinal definable set,Q110765110 Q191780 Q384699,
+Q137985650,percentage,nicht_gelesen,,Prozent,percentage,Verhältnis,Q11229 Q137985650 Q3481047,X=(100 x) %
+Q653850,probability amplitude,nicht_gelesen,,Ereignis,probability amplitude,Wahrscheinlichkeit,Q10290214 Q653850 Q9492,"\Pr(A)=\int_A|\psi(x)|^2\,\mathrm d\mu(x)"
+Q60963388,quadratische Funktion,nicht_gelesen,,reelle Zahl,Koeffizient,abhängige Variable,Q12916 Q50700 Q9391534,
+Q1578234,radialer Abstand,nicht_gelesen,,radialer Abstand,Ortsvektor,two-norm,Q1578234 Q192388 Q98915705,r = \|\boldsymbol{r}\|_2
+Q109985559,rechtsseitig unendliches offenes Intervall,nicht_gelesen,,rechtsseitig unendliches offenes Intervall,Kontinuum,set-builder notation,Q109985559 Q1174982 Q3352804,"(a, +\infty) = \{x \in \mathbb{R} \mid a < x\}"
+Q2063121,refactorable number,nicht_gelesen,,teilt,Teileranzahlfunktion,refactorable number,Q109497082 Q12890701 Q2063121,
+Q130418246,rhumb,nicht_gelesen,,Grad,Vollwinkel,Radiant,Q28390 Q304479 Q33680,= \frac{1 tr}{32} = \frac{2 \pi rad}{32} = \frac{360^\circ}{32}
+Q7429683,scalar field solution,nicht_gelesen,,Ricci-Tensor,Skalarfeld,metrischer Tensor,Q1195879 Q193460 Q2045231,
+Q137393153,second Zagreb index,nicht_gelesen,,Kantenmenge,second Zagreb index,Grad,Q124247109 Q137393153 Q383444,M_2(G) = \sum_{uv \in E(G)} d_u d_v
+Q291126,semidirektes Produkt,nicht_gelesen,,Gruppenoperation,Untergruppe,Normalteiler,Q288465 Q466109 Q743179,
+Q2264756,separable Erweiterung,nicht_gelesen,,Minimalpolynom,separable Erweiterung,Separables Polynom,Q2242730 Q2264756 Q2530089,
+Q101435109,spectral irradiance with respect to frequency,nicht_gelesen,,spectral irradiance with respect to frequency,Licht-Frequenz,Bestrahlungsstärke,Q101435109 Q106008771 Q830654,"E_{\mathrm{e}, \nu} = \frac{\mathrm{d} E_{\mathrm{e}}}{\mathrm{d} \nu}"
+Q101435187,spectral radiant exposure with respect to frequency,nicht_gelesen,,spectral radiant exposure with respect to frequency,Licht-Frequenz,Bestrahlung,Q101435187 Q106008771 Q1418023,"H_{\mathrm{e}, \nu} = \frac{\mathrm{d} H_{\mathrm{e}}}{\mathrm{d} \nu}"
+Q82969329,spektrale Bestrahlung,nicht_gelesen,,elektromagnetische Wellenlänge,Bestrahlung,spektrale Bestrahlung,Q105581076 Q1418023 Q82969329,"H_{\mathrm{e}, \lambda} = \frac{\mathrm{d} H_{\mathrm{e}}}{\mathrm{d} \lambda}"
+Q81382741,spektrale Bestrahlungsstärke,nicht_gelesen,,elektromagnetische Wellenlänge,spektrale Bestrahlungsstärke,Bestrahlungsstärke,Q105581076 Q81382741 Q830654,"E_{\mathrm{e}, \lambda} = \frac{\mathrm{d} E_{\mathrm{e}}}{\mathrm{d} \lambda}"
+Q109351964,spektrale Energieflussdichte,nicht_gelesen,,elektromagnetische Wellenlänge,Raumbestrahlungsstärke,spektrale Energieflussdichte,Q105581076 Q106959133 Q109351964,"E_{\lambda, \mathrm{o}} = \frac{\mathrm{d} E_{\mathrm{o}}}{\mathrm{d} \lambda}"
+Q112261640,spektrale Lichtstärke bezüglich Frequenz,nicht_gelesen,,Lichtstärke,spektrale Lichtstärke bezüglich Frequenz,Frequenz,Q104831 Q112261640 Q11652,"I_{\mathrm{v}, \nu} = \frac{\mathrm{d} I_{\mathrm{v}}}{\mathrm{d} \mathrm{\nu}}"
+Q112261673,spektrale Lichtstärke bezüglich Wellenlänge,nicht_gelesen,,Lichtstärke,spektrale Lichtstärke bezüglich Wellenlänge,Wellenlänge,Q104831 Q112261673 Q41364,"I_{\mathrm{v}, \lambda} = \frac{\mathrm{d} I_{\mathrm{v}}}{\mathrm{d} \lambda}"
+Q112261654,spektrale Lichtstärke bezüglich Wellenzahl,nicht_gelesen,,Lichtstärke,spektrale Lichtstärke bezüglich Wellenzahl,Wellenzahl,Q104831 Q112261654 Q192510,"I_{\mathrm{v}, \sigma} = \frac{\mathrm{d} I_{\mathrm{v}}}{\mathrm{d} \sigma}"
+Q109355596,spektrale Photonenbestrahlungsstärke,nicht_gelesen,,elektromagnetische Wellenlänge,spektrale Photonenbestrahlungsstärke,Photonenbestrahlungsstärke,Q105581076 Q109355596 Q83950903,"E_{\mathrm{p}, \lambda} = \frac{\mathrm{d} E_{\mathrm{p}}}{\mathrm{d} \lambda}"
+Q27649052,spektrale Strahldichte,nicht_gelesen,,elektromagnetische Wellenlänge,Strahldichte,spektrale Strahldichte,Q105581076 Q1411145 Q27649052,"L_{\mathrm{e}, \lambda} = \frac{\mathrm{d} L_{\mathrm{e}}}{\mathrm{d} \lambda}"
+Q101434718,spektrale Strahldichte,nicht_gelesen,,spektrale Strahldichte,Licht-Frequenz,Strahldichte,Q101434718 Q106008771 Q1411145,"L_{\mathrm{e}, \nu} = \frac{\mathrm{d} L_{\mathrm{e}}}{\mathrm{d} \nu}"
+Q101461777,spektrale Strahlstärke bezüglich Frequenz,nicht_gelesen,,spektrale Strahlstärke bezüglich Frequenz,Licht-Frequenz,Strahlungsintensität,Q101461777 Q106008771 Q1253365,"I_{\mathrm{e}, \nu} = \frac{\mathrm{d} I_{\mathrm{e}}}{\mathrm{d} \nu}"
+Q81072410,spektrale Strahlstärke bezüglich Wellenlänge,nicht_gelesen,,elektromagnetische Wellenlänge,Strahlungsintensität,spektrale Strahlstärke bezüglich Wellenlänge,Q105581076 Q1253365 Q81072410,"I_{\mathrm{e}, \lambda} = \frac{\mathrm{d} I_{\mathrm{e}}}{\mathrm{d} \lambda}"
+Q80237041,spektrale Strahlungsenergie,nicht_gelesen,,elektromagnetische Wellenlänge,elektromagnetische Strahlungsenergie,spektrale Strahlungsenergie,Q105581076 Q10932713 Q80237041,"Q_{\mathrm{e}, \lambda} = \frac{\mathrm{d} Q_{\mathrm{e}}}{\mathrm{d} \lambda}"
+Q81062859,spektrale Strahlungsleistung,nicht_gelesen,,elektromagnetische Wellenlänge,Strahlungsleistung,spektrale Strahlungsleistung,Q105581076 Q1253356 Q81062859,"\Phi_{\mathrm{e}, \lambda} = \frac{\mathrm{d} \Phi_{\mathrm{e}}}{\mathrm{d} \lambda}"
+Q101460704,spektrale Strahlungsleistung,nicht_gelesen,,spektrale Strahlungsleistung,Licht-Frequenz,Strahlungsleistung,Q101460704 Q106008771 Q1253356,"\Phi_{\mathrm{e}, \nu} = \frac{\mathrm{d} \Phi_{\mathrm{e}}}{\mathrm{d} \nu}"
+Q81664734,spektrale spezifische Ausstrahlung,nicht_gelesen,,elektromagnetische Wellenlänge,spezifische Ausstrahlung,spektrale spezifische Ausstrahlung,Q105581076 Q15054698 Q81664734,"M_{\mathrm{e}, \lambda} = \frac{\mathrm{d} M_{\mathrm{e}}}{\mathrm{d} \lambda}"
+Q101511180,spektrale spezifische Ausstrahlung,nicht_gelesen,,spektrale spezifische Ausstrahlung,Licht-Frequenz,spezifische Ausstrahlung,Q101511180 Q106008771 Q15054698,"M_{\mathrm{e}, \nu} = \frac{\mathrm{d} M_{\mathrm{e}}}{\mathrm{d} \nu}"
+Q109352023,spektrale spezifische Photonenausstrahlung,nicht_gelesen,,elektromagnetische Wellenlänge,spektrale spezifische Photonenausstrahlung,spezifische Photonenausstrahlung,Q105581076 Q109352023 Q84025202,"M_{\mathrm{p}, \lambda} = \frac{\mathrm{d} M_{\mathrm{p}}}{\mathrm{d} \lambda}"
+Q109355469,spektraler Photonenstrom,nicht_gelesen,,elektromagnetische Wellenlänge,spektraler Photonenstrom,Photonenstrom,Q105581076 Q109355469 Q83699542,"\Phi_{\mathrm{p}, \lambda} = \frac{\mathrm{d} \Phi_{\mathrm{p}}}{\mathrm{d} \lambda}"
+Q112274527,spektraler Schwächungskoeffizient,nicht_gelesen,,spektraler Schwächungskoeffizient,Ausbreitungslänge,spektrale Strahlungsleistung,Q112274527 Q112274565 Q81062859,"\mu(\lambda) = \frac{1}{\Phi_{\mathrm{e}, \lambda}(\lambda)} \frac{\mathrm{d} \Phi_{\mathrm{e}, \lambda}(\lambda)}{\mathrm{d} l}"
+Q108085849,spektraler linearer Absorptionskoeffizient,nicht_gelesen,,spektraler linearer Absorptionskoeffizient,Ausbreitungslänge,spektrale Strahlungsleistung,Q108085849 Q112274565 Q81062859,"\alpha_l(\lambda) = \frac{1}{\Phi_{\mathrm{e}, \lambda}} \frac{\mathrm{d} \Phi_{\mathrm{e}, \lambda}}{\mathrm{d} l}"
+Q15054698,spezifische Ausstrahlung,nicht_gelesen,,Flächeninhalt,Strahlungsleistung,spezifische Ausstrahlung,Q11500 Q1253356 Q15054698,M_{\mathrm{e}} = \frac{\mathrm{d} \Phi_{\mathrm{e}}}{\mathrm{d} A}
+Q11721922,spezifische Lichtausstrahlung,nicht_gelesen,,Lichtstrom,Flächeninhalt,spezifische Lichtausstrahlung,Q107780 Q11500 Q11721922,M_{\mathrm{v}} = \frac{\mathrm{d} \Phi_{\mathrm{v}}}{\mathrm{d} A}
+Q84025202,spezifische Photonenausstrahlung,nicht_gelesen,,Flächeninhalt,Photonenstrom,spezifische Photonenausstrahlung,Q11500 Q83699542 Q84025202,M_{\mathrm{p}} = \frac{\mathrm{d} \Phi_{\mathrm{p}}}{\mathrm{d} A}
+Q3489869,sumset,nicht_gelesen,,Addition,set-builder notation,ist Element von,Q32043 Q3352804 Q655288,"A + B = \{a + b|a\in A, b\in B\}"
+Q621461,symmetrische Relation,nicht_gelesen,,Relation,Menge,Variable,Q203066 Q36161 Q50701,
+Q1064500,symplektische Mannigfaltigkeit,nicht_gelesen,,äußere Ableitung,symplektische 2-Form,glatte Mannigfaltigkeit,Q1754547 Q3077487 Q78338964,"(M,\omega)\qquad(\omega\in\Omega^2(M),\;\mathrm d\omega=0,\;\forall (x,v)\in\mathrm TM\setminus M\colon\omega_x(v,-)\ne0)"
+Q671944,transitive Menge,nicht_gelesen,,Element,transitive Menge,Subjunktion,Q379825 Q671944 Q7881229,
+Q7885108,uniform matroid,nicht_gelesen,,endliche Menge,nichtnegative ganze Zahl,uniform matroid,Q272404 Q28920052 Q7885108,"U_r(E)=(E,\{S\subseteq E | r\ge|S|\})"
+Q109744257,verallgemeinerte hypergeometrische Funktion,nicht_gelesen,,verallgemeinerte hypergeometrische Funktion,Fakultät,Pochhammer-Symbol,Q109744257 Q120976 Q132335,"{}_p\mathrm{F}_q\left(a_1, a_2, \ldots, a_p; b_1, b_2, \ldots, b_q; z\right) = \sum_{n = 0}^{\infty} \frac{(a_1)_n (a_2)_n \cdots (a_p)_n}{(b_1)_n (b_2)_n \cdots (b_q)_n} \frac{z^n}{n!}"
+Q97060889,weak mixing angle constant,nicht_gelesen,,Sinus,Quadratfunktion,Weinbergwinkel,Q152415 Q3075175 Q452412,
+Q116483799,wiederholtes Integral,nicht_gelesen,,stückweise stetige Funktion,Fakultät,bestimmtes Integral,Q116457584 Q120976 Q1991596,"\int_a^b \int_a^{x_n} \dots \int_{a}^{x_2} \int_a^{x_1} f(x) \, \mathrm{d}x \, \mathrm{d}x_1 \dots \, \mathrm{d}x_{n - 1} \, \mathrm{d}x_n = \frac{1}{n!} \int_a^b (b - x)^n f(x) \mathrm{d}x"
+Q140744,zahlentheoretische Funktion,nicht_gelesen,,zahlentheoretische Funktion,Menge der komplexen Zahlen,Menge der positiven ganzen Zahlen,Q140744 Q26851286 Q47339953,
+Q1095535,Čech-Kohomologie,nicht_gelesen,,Garbe von abelschen Gruppen,offene Überdeckung,Korandoperator,Q131077085 Q41509136 Q78322695,
