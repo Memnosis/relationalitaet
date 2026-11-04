@@ -1,0 +1,673 @@
+{
+  "schema_version": "FORMELN50_PILOT/0.1",
+  "status": "historical_curated_input_not_global_top50_ranking",
+  "date": "2026-11-04",
+  "parent_source": "forschung/tensor/formeln/FORMELN_TOP100_V0_1.json",
+  "parent_git_blob_sha": "cb7e103e7453fc48a1534a41515902326f45c089",
+  "selection_criteria": [
+    "canonical_high_recognition",
+    "nonlinear_or_differential_complexity",
+    "heterogeneous_scientific_domain",
+    "potential_for_ternary_graph_connections",
+    "negative_controls_and_semantic_role_conflicts"
+  ],
+  "methodology": "Purposive stratified selection from existing Top100; 50 famous or mathematically nontrivial examples, not an authoritative ranking of hardest formulas.",
+  "limitations": [
+    "Some labels in original symbol glossary are ambiguous or too broad.",
+    "Some expressions are pedagogical simplifications or special cases, not universally valid.",
+    "No equations were fabricated or modified for this sample."
+  ],
+  "formeln": [
+    {
+      "id": "F001",
+      "name": "Satz des Pythagoras",
+      "gebiet": "Mathematik",
+      "formel": "Eq(c**2, a**2+b**2)",
+      "groessen": {
+        "a": "Kathete",
+        "b": "Kathete",
+        "c": "Hypotenuse"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F005",
+      "name": "Quadratische Gleichung (Lösung)",
+      "gebiet": "Mathematik",
+      "formel": "Eq(x, (-b+sqrt(b**2-4*a*c))/(2*a))",
+      "groessen": {
+        "x": "Lösung",
+        "a": "Koeffizient",
+        "b": "Koeffizient",
+        "c": "Koeffizient"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F006",
+      "name": "Eulersche Polyederformel",
+      "gebiet": "Mathematik",
+      "formel": "Eq(V-E+F, 2)",
+      "groessen": {
+        "V": "Ecken",
+        "E": "Kanten",
+        "F": "Flächen"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F010",
+      "name": "Eulersche Formel",
+      "gebiet": "Mathematik",
+      "formel": "Eq(exp(I*phi), cos(phi)+I*sin(phi))",
+      "groessen": {
+        "phi": "Winkel"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F012",
+      "name": "Kosinussatz",
+      "gebiet": "Mathematik",
+      "formel": "Eq(c**2, a**2+b**2-2*a*b*cos(g))",
+      "groessen": {
+        "a": "Seite",
+        "b": "Seite",
+        "c": "Seite",
+        "g": "Winkel"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F017",
+      "name": "Exponentielles Wachstum (Dgl.)",
+      "gebiet": "Biologie",
+      "formel": "Eq(Derivative(N(t),t), r*N(t))",
+      "groessen": {
+        "N": "Population",
+        "r": "Wachstumsrate",
+        "t": "Zeit"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F018",
+      "name": "Logistisches Wachstum",
+      "gebiet": "Biologie",
+      "formel": "Eq(Derivative(N(t),t), r*N(t)*(1-N(t)/K))",
+      "groessen": {
+        "N": "Population",
+        "r": "Wachstumsrate",
+        "K": "Kapazität",
+        "t": "Zeit"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F021",
+      "name": "Newton 2. Gesetz",
+      "gebiet": "Physik",
+      "formel": "Eq(F, m*a)",
+      "groessen": {
+        "F": "Kraft",
+        "m": "Masse",
+        "a": "Beschleunigung"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F022",
+      "name": "Impuls",
+      "gebiet": "Physik",
+      "formel": "Eq(p, m*v)",
+      "groessen": {
+        "p": "Impuls",
+        "m": "Masse",
+        "v": "Geschwindigkeit"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F023",
+      "name": "Kinetische Energie",
+      "gebiet": "Physik",
+      "formel": "Eq(E, m*v**2/2)",
+      "groessen": {
+        "E": "Energie",
+        "m": "Masse",
+        "v": "Geschwindigkeit"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F025",
+      "name": "Arbeit",
+      "gebiet": "Physik",
+      "formel": "Eq(W, F*s)",
+      "groessen": {
+        "W": "Arbeit",
+        "F": "Kraft",
+        "s": "Weg"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F026",
+      "name": "Leistung",
+      "gebiet": "Physik",
+      "formel": "Eq(P, W/t)",
+      "groessen": {
+        "P": "Leistung",
+        "W": "Arbeit",
+        "t": "Zeit"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F027",
+      "name": "Geschwindigkeit",
+      "gebiet": "Physik",
+      "formel": "Eq(v, s/t)",
+      "groessen": {
+        "v": "Geschwindigkeit",
+        "s": "Weg",
+        "t": "Zeit"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F029",
+      "name": "Gravitationsgesetz",
+      "gebiet": "Physik",
+      "formel": "Eq(F, G*m1*m2/r**2)",
+      "groessen": {
+        "F": "Kraft",
+        "m1": "Masse",
+        "m2": "Masse",
+        "r": "Abstand"
+      },
+      "konstanten": [
+        "G"
+      ]
+    },
+    {
+      "id": "F030",
+      "name": "Coulomb-Gesetz",
+      "gebiet": "Physik",
+      "formel": "Eq(F, q1*q2/(4*pi*eps0*r**2))",
+      "groessen": {
+        "F": "Kraft",
+        "q1": "Ladung",
+        "q2": "Ladung",
+        "r": "Abstand"
+      },
+      "konstanten": [
+        "pi",
+        "eps0"
+      ]
+    },
+    {
+      "id": "F031",
+      "name": "Ohmsches Gesetz",
+      "gebiet": "Physik",
+      "formel": "Eq(U, R*I)",
+      "groessen": {
+        "U": "Spannung",
+        "R": "Widerstand",
+        "I": "Stromstärke"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F032",
+      "name": "Elektrische Leistung",
+      "gebiet": "Physik",
+      "formel": "Eq(P, U*I)",
+      "groessen": {
+        "P": "Leistung",
+        "U": "Spannung",
+        "I": "Stromstärke"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F033",
+      "name": "Joulesche Wärme",
+      "gebiet": "Physik",
+      "formel": "Eq(P, R*I**2)",
+      "groessen": {
+        "P": "Leistung",
+        "R": "Widerstand",
+        "I": "Stromstärke"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F037",
+      "name": "Masse-Energie-Äquivalenz",
+      "gebiet": "Physik",
+      "formel": "Eq(E, m*c**2)",
+      "groessen": {
+        "E": "Energie",
+        "m": "Masse"
+      },
+      "konstanten": [
+        "c"
+      ]
+    },
+    {
+      "id": "F038",
+      "name": "Photonenenergie",
+      "gebiet": "Physik",
+      "formel": "Eq(E, h*f)",
+      "groessen": {
+        "E": "Energie",
+        "f": "Frequenz"
+      },
+      "konstanten": [
+        "h"
+      ]
+    },
+    {
+      "id": "F039",
+      "name": "De-Broglie-Wellenlänge",
+      "gebiet": "Physik",
+      "formel": "Eq(lam, h/p)",
+      "groessen": {
+        "lam": "Wellenlänge",
+        "p": "Impuls"
+      },
+      "konstanten": [
+        "h"
+      ]
+    },
+    {
+      "id": "F040",
+      "name": "Wellengleichung (Phasengeschw.)",
+      "gebiet": "Physik",
+      "formel": "Eq(v, lam*f)",
+      "groessen": {
+        "v": "Geschwindigkeit",
+        "lam": "Wellenlänge",
+        "f": "Frequenz"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F041",
+      "name": "Ideales Gasgesetz",
+      "gebiet": "Physik",
+      "formel": "Eq(p*V, n*R*T)",
+      "groessen": {
+        "p": "Druck",
+        "V": "Volumen",
+        "n": "Stoffmenge",
+        "T": "Temperatur"
+      },
+      "konstanten": [
+        "R"
+      ]
+    },
+    {
+      "id": "F044",
+      "name": "Dichte",
+      "gebiet": "Physik",
+      "formel": "Eq(rho, m/V)",
+      "groessen": {
+        "rho": "Dichte",
+        "m": "Masse",
+        "V": "Volumen"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F047",
+      "name": "Boltzmann-Entropie",
+      "gebiet": "Physik",
+      "formel": "Eq(S, kB*log(W))",
+      "groessen": {
+        "S": "Entropie",
+        "W": "Mikrozustände"
+      },
+      "konstanten": [
+        "kB"
+      ]
+    },
+    {
+      "id": "F048",
+      "name": "Erster Hauptsatz",
+      "gebiet": "Physik",
+      "formel": "Eq(dU, dQ-dW)",
+      "groessen": {
+        "dU": "Energieänderung",
+        "dQ": "Wärme",
+        "dW": "Arbeit"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F050",
+      "name": "Carnot-Wirkungsgrad",
+      "gebiet": "Physik",
+      "formel": "Eq(eta, 1-Tc/Th)",
+      "groessen": {
+        "eta": "Wirkungsgrad",
+        "Tc": "Temperatur",
+        "Th": "Temperatur"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F054",
+      "name": "Harmonischer Oszillator (Dgl.)",
+      "gebiet": "Physik",
+      "formel": "Eq(Derivative(x(t),t,2), -w**2*x(t))",
+      "groessen": {
+        "x": "Auslenkung",
+        "w": "Kreisfrequenz",
+        "t": "Zeit"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F055",
+      "name": "Pendelperiode",
+      "gebiet": "Physik",
+      "formel": "Eq(T, 2*pi*sqrt(l/g))",
+      "groessen": {
+        "T": "Periode",
+        "l": "Länge",
+        "g": "Fallbeschleunigung"
+      },
+      "konstanten": [
+        "pi"
+      ]
+    },
+    {
+      "id": "F059",
+      "name": "Snellius",
+      "gebiet": "Physik",
+      "formel": "Eq(n1*sin(t1), n2*sin(t2))",
+      "groessen": {
+        "n1": "Brechzahl",
+        "t1": "Winkel",
+        "n2": "Brechzahl",
+        "t2": "Winkel"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F062",
+      "name": "Lorentzfaktor",
+      "gebiet": "Physik",
+      "formel": "Eq(gam, 1/sqrt(1-v**2/c**2))",
+      "groessen": {
+        "gam": "Lorentzfaktor",
+        "v": "Geschwindigkeit"
+      },
+      "konstanten": [
+        "c"
+      ]
+    },
+    {
+      "id": "F065",
+      "name": "Heisenberg-Unschärfe",
+      "gebiet": "Physik",
+      "formel": "Eq(dx*dp, hbar/2)",
+      "groessen": {
+        "dx": "Ortsunschärfe",
+        "dp": "Impulsunschärfe"
+      },
+      "konstanten": [
+        "hbar"
+      ]
+    },
+    {
+      "id": "F066",
+      "name": "Kepler 3",
+      "gebiet": "Physik",
+      "formel": "Eq(T**2/a**3, 4*pi**2/(G*M))",
+      "groessen": {
+        "T": "Periode",
+        "a": "Halbachse",
+        "M": "Masse"
+      },
+      "konstanten": [
+        "pi",
+        "G"
+      ]
+    },
+    {
+      "id": "F069",
+      "name": "Bernoulli",
+      "gebiet": "Physik",
+      "formel": "Eq(p+rho*v**2/2+rho*g*h, C0)",
+      "groessen": {
+        "p": "Druck",
+        "rho": "Dichte",
+        "v": "Geschwindigkeit",
+        "h": "Höhe",
+        "C0": "Konstante"
+      },
+      "konstanten": [
+        "g"
+      ]
+    },
+    {
+      "id": "F071",
+      "name": "Reynolds-Zahl",
+      "gebiet": "Physik",
+      "formel": "Eq(Re, rho*v*L/mu)",
+      "groessen": {
+        "Re": "Reynoldszahl",
+        "rho": "Dichte",
+        "v": "Geschwindigkeit",
+        "L": "Länge",
+        "mu": "Viskosität"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F073",
+      "name": "Ficksches Gesetz (1D)",
+      "gebiet": "Chemie",
+      "formel": "Eq(J, -D*dc/dx)",
+      "groessen": {
+        "J": "Teilchenstrom",
+        "D": "Diffusionskoeffizient",
+        "dc": "Konzentrationsdifferenz",
+        "dx": "Länge"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F074",
+      "name": "Arrhenius",
+      "gebiet": "Chemie",
+      "formel": "Eq(k, A*exp(-Ea/(R*T)))",
+      "groessen": {
+        "k": "Geschwindigkeitskonstante",
+        "A": "Vorfaktor",
+        "Ea": "Aktivierungsenergie",
+        "T": "Temperatur"
+      },
+      "konstanten": [
+        "R"
+      ]
+    },
+    {
+      "id": "F075",
+      "name": "Nernst-Gleichung",
+      "gebiet": "Chemie",
+      "formel": "Eq(E, E0-R*T/(z*F_)*log(Q))",
+      "groessen": {
+        "E": "Potential",
+        "E0": "Standardpotential",
+        "T": "Temperatur",
+        "z": "Ladungszahl",
+        "Q": "Reaktionsquotient"
+      },
+      "konstanten": [
+        "R",
+        "F_"
+      ]
+    },
+    {
+      "id": "F076",
+      "name": "Henderson-Hasselbalch",
+      "gebiet": "Chemie",
+      "formel": "Eq(pH, pKa+log(A/HA,10))",
+      "groessen": {
+        "pH": "pH-Wert",
+        "pKa": "Säurekonstante",
+        "A": "Konzentration",
+        "HA": "Konzentration"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F077",
+      "name": "Massenwirkungsgesetz",
+      "gebiet": "Chemie",
+      "formel": "Eq(K, cC*cD/(cA*cB))",
+      "groessen": {
+        "K": "Gleichgewichtskonstante",
+        "cA": "Konzentration",
+        "cB": "Konzentration",
+        "cC": "Konzentration",
+        "cD": "Konzentration"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F079",
+      "name": "Gibbs-Energie",
+      "gebiet": "Chemie",
+      "formel": "Eq(G, H-T*S)",
+      "groessen": {
+        "G": "Freie Enthalpie",
+        "H": "Enthalpie",
+        "T": "Temperatur",
+        "S": "Entropie"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F080",
+      "name": "Stoffmenge",
+      "gebiet": "Chemie",
+      "formel": "Eq(n, m/M)",
+      "groessen": {
+        "n": "Stoffmenge",
+        "m": "Masse",
+        "M": "Molare Masse"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F081",
+      "name": "Konzentration",
+      "gebiet": "Chemie",
+      "formel": "Eq(c, n/V)",
+      "groessen": {
+        "c": "Konzentration",
+        "n": "Stoffmenge",
+        "V": "Volumen"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F083",
+      "name": "Michaelis-Menten",
+      "gebiet": "Biologie",
+      "formel": "Eq(v, Vmax*S/(Km+S))",
+      "groessen": {
+        "v": "Reaktionsgeschwindigkeit",
+        "Vmax": "Maximalgeschwindigkeit",
+        "S": "Substratkonzentration",
+        "Km": "Michaelis-Konstante"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F085",
+      "name": "Lotka-Volterra (Beute)",
+      "gebiet": "Biologie",
+      "formel": "Eq(Derivative(X(t),t), al*X(t)-be*X(t)*Y(t))",
+      "groessen": {
+        "X": "Beute",
+        "Y": "Räuber",
+        "al": "Rate",
+        "be": "Rate",
+        "t": "Zeit"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F086",
+      "name": "SIR (Infizierte)",
+      "gebiet": "Biologie",
+      "formel": "Eq(Derivative(I_(t),t), be*S_(t)*I_(t)/N-ga*I_(t))",
+      "groessen": {
+        "I_": "Infizierte",
+        "S_": "Suszeptible",
+        "N": "Population",
+        "be": "Übertragungsrate",
+        "ga": "Genesungsrate",
+        "t": "Zeit"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F089",
+      "name": "Shannon-Entropie (zwei Zustände)",
+      "gebiet": "Informatik",
+      "formel": "Eq(Hs, -p*log(p,2)-(1-p)*log(1-p,2))",
+      "groessen": {
+        "Hs": "Information",
+        "p": "Wahrscheinlichkeit"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F090",
+      "name": "Shannon-Kanalkapazität",
+      "gebiet": "Informatik",
+      "formel": "Eq(Ck, Bw*log(1+Sg/Ns,2))",
+      "groessen": {
+        "Ck": "Kapazität",
+        "Bw": "Bandbreite",
+        "Sg": "Signalleistung",
+        "Ns": "Rauschleistung"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F091",
+      "name": "Satz von Bayes",
+      "gebiet": "Statistik",
+      "formel": "Eq(PAB, PBA*PA/PB)",
+      "groessen": {
+        "PAB": "Wahrscheinlichkeit",
+        "PBA": "Wahrscheinlichkeit",
+        "PA": "Wahrscheinlichkeit",
+        "PB": "Wahrscheinlichkeit"
+      },
+      "konstanten": []
+    },
+    {
+      "id": "F096",
+      "name": "Cobb-Douglas",
+      "gebiet": "Ökonomie",
+      "formel": "Eq(Y, A*K**al*L**(1-al))",
+      "groessen": {
+        "Y": "Produktion",
+        "A": "Produktivität",
+        "K": "Kapital",
+        "L": "Arbeit",
+        "al": "Elastizität"
+      },
+      "konstanten": []
+    }
+  ]
+}
