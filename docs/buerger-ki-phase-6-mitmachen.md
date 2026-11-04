@@ -1,12 +1,12 @@
 # Bürger-KI – Phase 6: Vernetztes Mitmachen und gemeinsamer Kompetenzaufbau
 
 **ID:** BKI-PH6-001 · **Version:** 0.1 · **Datum:** 2026-11-04  
-**Status:** Architektur- und Forschungsplan, keine gemessene Wirksamkeit  
+**Status:** Architektur- und Forschungsplan, keine gemessene Wirksamkeit. **Korrektur:** Übernahme der didaktischen Mitmach-Logik als Muster; ausdrücklich keine organisatorische, technische oder navigative Anbindung an die bestehende Mitmachseite.  
 **Bezug:** [Experimentierlabor BKI-EXP-001](./buerger-ki-experimentierlabor.md) · [bestehende Mitmachseite](./mitmachen.html)
 
 ## Grundentscheidung
 
-Die Bürger-KI übernimmt die vorhandene Mitmach-Logik des KI-Tensor-/SOULution-Verbunds, statt ein separates Beteiligungssystem zu schaffen. Das Projekt entwickelt öffentliche, wiederverwendbare **KI-Skills**, nicht Bürgerakten oder ein Datenverarbeitungsangebot für persönliche Fälle. Beteiligungsbeiträge beziehen sich auf allgemeine Methoden, synthetische Aufgaben, fachliche Quellen und reproduzierbare Testresultate.
+Die Bürger-KI übernimmt lediglich **didaktische Prinzipien** der bestehenden Mitmach-Logik (verständliche Frage, abgegrenzte Aufgabe, überprüfbarer Prompt, Gegenprobe, Ergebnis). Sie bleibt ein **eigenständiger Forschungsstrang**. Keine gemeinsame Mitmachseite, keine gemeinsame Rückgabe-Infrastruktur und keine organisatorische Verbindung werden hier beschlossen. Das Projekt entwickelt öffentliche, wiederverwendbare **KI-Skills**, nicht Bürgerakten oder ein Datenverarbeitungsangebot für persönliche Fälle. Beteiligungsbeiträge beziehen sich auf allgemeine Methoden, synthetische Aufgaben, fachliche Quellen und reproduzierbare Testresultate.
 
 ## Drei Beteiligungsebenen
 
@@ -61,7 +61,7 @@ Diese Aufgaben dürfen als **Forschungsangebote/Ideen** gezeigt werden. Sie sind
 
 ## Technische Mitmachlogik
 
-- Einheitliche Karten und Filter auf der **bestehenden** Mitmachseite; keine neue, konkurrierende Dateneingabestrecke.
+- Eigene, zunächst dateibasierte Versuchskarten im Bürger-KI-Labor. Keine Veröffentlichung auf oder Verlinkung von der bestehenden Mitmachseite.
 - Fachlicher Einstieg mit Link auf Quellen/Glossar und vorhandene Ergebnisse.
 - Nur wenn freigegeben: kopierbarer, versionierter Prompt mit Input-/Output-Vertrag.
 - Reproduktion auf einer anderen KI ist ohne Git-Schreibrechte möglich.
@@ -85,4 +85,8 @@ Ein gemeinsamer Crosswalk hält IDs, Provenienz, Version, Geltungsbedingungen, N
 
 Untersucht werden interoperable Skill-Pakete, unabhängige KI-Implementierungen, gemeinsame Testprotokolle, reproduzierbare Prüfungen, Widerspruchsbehandlung und Qualitätsfreigaben. Geprüfte Erkenntnisse sollen übertragbar sein, **ohne dass alle Beteiligten dasselbe KI-Modell, denselben Anbieter oder zentrale persönliche Datenbestände benötigen**.
 
-**Abnahmekriterien Phase 6:** gemeinsame Kartenspezifikation; sechs bis acht vorbereitete Forschungsaufgaben; klar getrennte Prompt-Stufen; mindestens eine tatsächlich unabhängig reproduzierte Aufgabe mit Testakte vor Behauptung operativer Funktionsfähigkeit; Rückgabe-/Freigabeprotokoll; funktionierende Einbettung in Mitmachen-Navigation. Derzeit sind die Punkte als Plan definiert, nicht vollständig abgenommen.
+**Abnahmekriterien Phase 6:** eigenständige Kartenspezifikation; sechs bis acht vorbereitete Forschungsaufgaben; klar getrennte Prompt-Stufen; mindestens eine tatsächlich unabhängig reproduzierte Aufgabe mit Testakte vor Behauptung operativer Funktionsfähigkeit; dokumentiertes Rückgabe-/Freigabeprotokoll. **Keine Einbettung in die vorhandene Mitmachen-Navigation.** Derzeit sind die Punkte als Plan definiert, nicht vollständig abgenommen.
+
+## Korrekturvermerk
+
+Die zwischenzeitlich hergestellte Verlinkung von der bestehenden Mitmachseite wurde am 04.11.2026 wieder entfernt. **Übernommen werden nur konzeptionelle Elemente**. Vorrang hat das kleine, kontrollierte Strategie-Vergleichslabor und eine separate Meta-Analyse von Ebenen, Zielen, Pfaden und Prüfkriterien.
