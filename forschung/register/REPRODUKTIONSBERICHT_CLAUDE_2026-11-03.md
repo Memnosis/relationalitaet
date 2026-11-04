@@ -1,7 +1,7 @@
 # Reproduktionsbericht Claude-Prüfungen
 
-- Zeit: 2026-11-04T00:16:50+00:00
-- Commit: `de503e574908b671d700e6c37e036aa6ff92338d`
+- Zeit: 2026-11-04T00:19:29+00:00
+- Commit: `cf2b3a07644b203f94eb1ac106dacf2c621bef64`
 - Python: 3.13.18
 
 | Prüfung | Skript (SHA-256, 12 Zeichen) | Exit | Ergebnis |
@@ -16,6 +16,7 @@
 | Abwesenheit R7: 10 Beiträge ohne Feedback (8) | `forschung/koordination/tests/test_abwesenheit.py` `70c4eac36f04` | 0 | ja |
 | Berichtsgenerator roter Rahmen R2 (5) | `forschung/koordination/tests/test_bericht_vorlage.py` `6bd9cdbf963b` | 0 | ja |
 | Gegenrechnung GR-03: 16 Zahlenketten ki-tensor | `forschung/register/gegenrechnung/kt_zahlenketten.py` `b985dca20f74` | 0 | ja |
+| Durchstich C1: trinitäre Deduktion vs. Modus ponens | `forschung/tensor/logik-claude/durchstich/c1_modus_ponens.py` `20ce03c74125` | 0 | ja |
 | Gegenrechnung GR-01: 7 DLMF-Identitäten (sympy) | `forschung/register/gegenrechnung/dlmf_v6_6_gegenrechnung.py` `448ba272fd6e` | 0 | ja |
 | Gegenrechnung GR-02: REV-01..08 (sympy) | `forschung/register/gegenrechnung/rev_rueckrechnungen.py` `4e6749a0284d` | 0 | ja |
 | GPT-Gegenlauf LOGIK-PROMPT-02 (Kontrolle) | `scripts/gpt_logic02_independent.py` `d93bb6935ab7` | 0 | ja |

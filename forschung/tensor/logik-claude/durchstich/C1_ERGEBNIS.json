@@ -1,0 +1,33 @@
+{
+ "schema_version": "durchstich/0.1",
+ "ergebnisse": {
+  "T1_woertlich_rho_inv_auf_A_typisiert": false,
+  "T2_zyklus_schliesst": true,
+  "T3_td_erzeugt_nie_neuen_inhalt": true,
+  "T3_gepruefte_startmengen": 88641,
+  "T4_klassisch_q_ableitbar": true,
+  "T4_td_allein_q_ableitbar": false,
+  "T5_mp_im_vollzug_plus_td_q_ableitbar": true,
+  "T5_q_in_allen_schichten": true,
+  "T6_pruefer_erkennt_inhaltsaenderung": true
+ },
+ "erwartet": {
+  "T1_woertlich_rho_inv_auf_A_typisiert": false,
+  "T2_zyklus_schliesst": true,
+  "T3_td_erzeugt_nie_neuen_inhalt": true,
+  "T4_klassisch_q_ableitbar": true,
+  "T4_td_allein_q_ableitbar": false,
+  "T5_mp_im_vollzug_plus_td_q_ableitbar": true,
+  "T5_q_in_allen_schichten": true,
+  "T6_pruefer_erkennt_inhaltsaenderung": true
+ },
+ "alle_wie_erwartet": true,
+ "urteil": {
+  "claim": "CLM-LOGIK10-MODUS-PONENS",
+  "lesart_geprueft": "„ersetzt“ = leistet dasselbe inhaltliche Schließen wie der Modus ponens",
+  "science": "contradicted_with_scope",
+  "kurz": "Die trinitäre Deduktion ist eine einstellige Schichtregel: Sie bewegt einen Ausdruck durch Rel0 → Rel-Rel → Rel1 → Rel0, ändert aber nie seinen Inhalt (T3). Aus {p, p→q} folgt mit ihr allein nicht q (T4). Sie ersetzt den Modus ponens daher nicht. Verträglich ist die Lesart L2: Inhaltliches Schließen (z. B. Modus ponens) findet im Vollzug Rel-Rel statt, und die trinitäre Bewegung trägt das Ergebnis durch alle Schichten (T5).",
+  "reifegrad": "E2 (eigene Probe); E3 erst nach Gegenprüfung durch GPT",
+  "belegart": "D (formale Ableitung im Modell)"
+ }
+}

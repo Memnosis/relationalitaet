@@ -27,6 +27,7 @@ SCHRITTE = [
     ("Abwesenheit R7: 10 Beiträge ohne Feedback (8)", ["forschung/koordination/tests/test_abwesenheit.py"], "OK"),
     ("Berichtsgenerator roter Rahmen R2 (5)", ["forschung/koordination/tests/test_bericht_vorlage.py"], "OK"),
     ("Gegenrechnung GR-03: 16 Zahlenketten ki-tensor", ["forschung/register/gegenrechnung/kt_zahlenketten.py"], "Gesamt: OK"),
+    ("Durchstich C1: trinitäre Deduktion vs. Modus ponens", ["forschung/tensor/logik-claude/durchstich/c1_modus_ponens.py"], "Gesamt: OK"),
     ("Gegenrechnung GR-01: 7 DLMF-Identitäten (sympy)", ["forschung/register/gegenrechnung/dlmf_v6_6_gegenrechnung.py"], "Gesamt: OK"),
     ("Gegenrechnung GR-02: REV-01..08 (sympy)", ["forschung/register/gegenrechnung/rev_rueckrechnungen.py"], "Gesamt: OK"),
     ("GPT-Gegenlauf LOGIK-PROMPT-02 (Kontrolle)", ["scripts/gpt_logic02_independent.py"], "PASS"),

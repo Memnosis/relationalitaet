@@ -622,6 +622,20 @@
    "ausgefuehrt_von": "claude",
    "ausgefuehrt_am": "2026-11-03",
    "gilt_nur_fuer": "Prompt-SHA be4a7b47…, Eingabe-SHA 4ad74ce3…"
+  },
+  {
+   "test_id": "TST-C1-01",
+   "task_ids": [
+    "PM-LOGIK-01",
+    "DURCHSTICH-C1"
+   ],
+   "gegenstand": "Durchstich C1: trinitäre Deduktion vs. Modus ponens (T1-T6, 88.641 Startmengen, Gegenbeispiel, Kontrolle L2, wirksame Kontrollprobe)",
+   "testart": "formales_modell",
+   "datei": "forschung/tensor/logik-claude/durchstich/c1_modus_ponens.py",
+   "ergebnis": "bestanden",
+   "ausgefuehrt_von": "claude",
+   "ausgefuehrt_am": "2026-11-04",
+   "gilt_nur_fuer": "Lesart „ersetzt = dasselbe inhaltliche Schließen“; Urteil contradicted_with_scope; E2"
   }
  ],
  "verweise_fremde_tests": [
