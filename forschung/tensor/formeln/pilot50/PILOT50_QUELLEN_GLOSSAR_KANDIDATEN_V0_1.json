@@ -1,0 +1,152 @@
+{
+  "schema": "pilot50-source-glossary-impact/0.1",
+  "status": "draft_not_merged",
+  "historical_glossary": "v15.4/1072 candidate baseline not available as reconciled live registry",
+  "origin": "forschung/tensor/formeln/pilot50/FORMELN50_KORPUS_V0_1.json",
+  "entries": [
+    {
+      "id": "GLOS-P50-CAND-01",
+      "term": "Arbeit",
+      "related_formula_ids": [
+        "F025",
+        "F026",
+        "F027"
+      ],
+      "semantic_role": "mechanics",
+      "review_note": "Skalarprodukt und Arbeitsrate unterscheiden; Vorzeichen und Zeitintervall klären",
+      "primary_scientific_source_status": "pending_original_publication_or_textbook_verification",
+      "glossary_crosswalk_status": "pending_comparison_to_historical_glossary",
+      "visibility": "internal_draft"
+    },
+    {
+      "id": "GLOS-P50-CAND-02",
+      "term": "Leistung",
+      "related_formula_ids": [
+        "F026",
+        "F031",
+        "F032",
+        "F033"
+      ],
+      "semantic_role": "mechanical_electrical",
+      "review_note": "mechanische Leistung und elektrische Leistung nicht allein via Namensgleichheit gleichsetzen",
+      "primary_scientific_source_status": "pending_original_publication_or_textbook_verification",
+      "glossary_crosswalk_status": "pending_comparison_to_historical_glossary",
+      "visibility": "internal_draft"
+    },
+    {
+      "id": "GLOS-P50-CAND-03",
+      "term": "Energie",
+      "related_formula_ids": [
+        "F023",
+        "F037"
+      ],
+      "semantic_role": "kinetic_vs_rest_energy",
+      "review_note": "unterschiedliche Größenidentität bei gleichem Label",
+      "primary_scientific_source_status": "pending_original_publication_or_textbook_verification",
+      "glossary_crosswalk_status": "pending_comparison_to_historical_glossary",
+      "visibility": "internal_draft"
+    },
+    {
+      "id": "GLOS-P50-CAND-04",
+      "term": "Masse",
+      "related_formula_ids": [
+        "F021",
+        "F022",
+        "F080"
+      ],
+      "semantic_role": "mechanical_body_vs_substance",
+      "review_note": "Träger, Stoff und Modellbezug müssen eindeutig sein",
+      "primary_scientific_source_status": "pending_original_publication_or_textbook_verification",
+      "glossary_crosswalk_status": "pending_comparison_to_historical_glossary",
+      "visibility": "internal_draft"
+    },
+    {
+      "id": "GLOS-P50-CAND-05",
+      "term": "Dichte",
+      "related_formula_ids": [
+        "F044",
+        "F080",
+        "F081"
+      ],
+      "semantic_role": "pure_substance_component_vs_total_density",
+      "review_note": "rho=c*M nur bei konsistentem Stoff/Komponentenbezug",
+      "primary_scientific_source_status": "pending_original_publication_or_textbook_verification",
+      "glossary_crosswalk_status": "pending_comparison_to_historical_glossary",
+      "visibility": "internal_draft"
+    },
+    {
+      "id": "GLOS-P50-CAND-06",
+      "term": "Unschärferelation",
+      "related_formula_ids": [
+        "F065"
+      ],
+      "semantic_role": "lower_bound_not_general_equality",
+      "review_note": "bekannte allgemeine Heisenberg-Robertson-Untergrenze prüfen, Quellgleichheit korrigieren",
+      "primary_scientific_source_status": "pending_original_publication_or_textbook_verification",
+      "glossary_crosswalk_status": "pending_comparison_to_historical_glossary",
+      "visibility": "internal_draft"
+    },
+    {
+      "id": "GLOS-P50-CAND-07",
+      "term": "Eulersche Polyederformel",
+      "related_formula_ids": [
+        "F006"
+      ],
+      "semantic_role": "topological_validity",
+      "review_note": "Topologie/Geschlecht/Euler-Charakteristik und Geltungsbereich",
+      "primary_scientific_source_status": "pending_original_publication_or_textbook_verification",
+      "glossary_crosswalk_status": "pending_comparison_to_historical_glossary",
+      "visibility": "internal_draft"
+    },
+    {
+      "id": "GLOS-P50-CAND-08",
+      "term": "quadratische Lösung",
+      "related_formula_ids": [
+        "F005"
+      ],
+      "semantic_role": "branch_and_domain",
+      "review_note": "beide Wurzelzweige und a!=0; reell vs komplex",
+      "primary_scientific_source_status": "pending_original_publication_or_textbook_verification",
+      "glossary_crosswalk_status": "pending_comparison_to_historical_glossary",
+      "visibility": "internal_draft"
+    },
+    {
+      "id": "GLOS-P50-CAND-09",
+      "term": "Wachstumsmodell",
+      "related_formula_ids": [
+        "F017",
+        "F018"
+      ],
+      "semantic_role": "alternative_models",
+      "review_note": "exponentiell und logistisch nicht als identische Formel verknüpfen",
+      "primary_scientific_source_status": "pending_original_publication_or_textbook_verification",
+      "glossary_crosswalk_status": "pending_comparison_to_historical_glossary",
+      "visibility": "internal_draft"
+    },
+    {
+      "id": "GLOS-P50-CAND-10",
+      "term": "Stern-Elimination",
+      "related_formula_ids": [],
+      "semantic_role": "abstract_method",
+      "review_note": "Gleichheit gemeinsamer Größe X vor Elimination nachweisen",
+      "primary_scientific_source_status": "pending_original_publication_or_textbook_verification",
+      "glossary_crosswalk_status": "pending_comparison_to_historical_glossary",
+      "visibility": "internal_draft"
+    },
+    {
+      "id": "GLOS-P50-CAND-11",
+      "term": "Trinitäre Formelsignatur",
+      "related_formula_ids": [
+        "F025",
+        "F026",
+        "F027"
+      ],
+      "semantic_role": "structural_candidate",
+      "review_note": "drei Variablen sind kein Beweis für drei fachlich verschiedene Größen oder eine Tensorachse",
+      "primary_scientific_source_status": "pending_original_publication_or_textbook_verification",
+      "glossary_crosswalk_status": "pending_comparison_to_historical_glossary",
+      "visibility": "internal_draft"
+    }
+  ],
+  "no_loss_note": "Original entries not overwritten; only public source corpus IDs cited; duplicates must be resolved by concept identity"
+}
