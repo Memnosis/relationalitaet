@@ -1,0 +1,205 @@
+{
+  "schema": "skill-research-tasks/0.1",
+  "date": "2026-11-04",
+  "status": "proposed_not_executed",
+  "tasks": [
+    {
+      "id": "SKD-01",
+      "title": "100 Anfragen annotieren",
+      "priority": "A",
+      "output": "requests.jsonl",
+      "acceptance": "Kompetenz-Taxonomie, Interrater-Übereinstimmung und 20 Prozent Doppelannotation",
+      "status": "not_run",
+      "required_assets": [
+        "source_refs",
+        "method",
+        "test",
+        "negative_findings",
+        "privacy_class",
+        "publication_gate"
+      ]
+    },
+    {
+      "id": "SKD-02",
+      "title": "Explizite Skill- und Toolaufrufe instrumentieren",
+      "priority": "A",
+      "output": "runs.jsonl",
+      "acceptance": "Vollständige Event-IDs; Toolaufrufe nicht als latente Skills zählen",
+      "status": "not_run",
+      "required_assets": [
+        "source_refs",
+        "method",
+        "test",
+        "negative_findings",
+        "privacy_class",
+        "publication_gate"
+      ]
+    },
+    {
+      "id": "SKD-03",
+      "title": "Sechs Architekturbedingungen vergleichen",
+      "priority": "B",
+      "output": "analysis.csv",
+      "acceptance": "Randomisierung, Replikation, Kosten und Qualitäts-Baselines",
+      "status": "not_run",
+      "required_assets": [
+        "source_refs",
+        "method",
+        "test",
+        "negative_findings",
+        "privacy_class",
+        "publication_gate"
+      ]
+    },
+    {
+      "id": "SKD-04",
+      "title": "Verdichtung gegen atomare Skills testen",
+      "priority": "B",
+      "output": "skill_graph.json",
+      "acceptance": "Test auf negative Transferfälle und unbekannte Aufgaben",
+      "status": "not_run",
+      "required_assets": [
+        "source_refs",
+        "method",
+        "test",
+        "negative_findings",
+        "privacy_class",
+        "publication_gate"
+      ]
+    },
+    {
+      "id": "SKD-05",
+      "title": "White-Box-Modell experimentell analysieren",
+      "priority": "C",
+      "output": "activation_results.jsonl",
+      "acceptance": "Zugriffs-/Lizenzprüfung, kausale Intervention und Kontrollen",
+      "status": "not_run",
+      "required_assets": [
+        "source_refs",
+        "method",
+        "test",
+        "negative_findings",
+        "privacy_class",
+        "publication_gate"
+      ]
+    },
+    {
+      "id": "SKD-06",
+      "title": "KI-Geschichte mit Gegenmodellen rekonstruieren",
+      "priority": "A",
+      "output": "historical_methods.md",
+      "acceptance": "Quellen und historische Erfolgskriterien pro Paradigma",
+      "status": "not_run",
+      "required_assets": [
+        "source_refs",
+        "method",
+        "test",
+        "negative_findings",
+        "privacy_class",
+        "publication_gate"
+      ]
+    },
+    {
+      "id": "SKD-07",
+      "title": "Offenheitsmatrix für 12 KI-Systeme",
+      "priority": "A",
+      "output": "access_matrix.csv",
+      "acceptance": "Code, Gewichte, Daten, Training und Activation Access getrennt",
+      "status": "not_run",
+      "required_assets": [
+        "source_refs",
+        "method",
+        "test",
+        "negative_findings",
+        "privacy_class",
+        "publication_gate"
+      ]
+    },
+    {
+      "id": "SKD-08",
+      "title": "Agenten-Welten operationalisieren",
+      "priority": "B",
+      "output": "world_contracts.json",
+      "acceptance": "Zustand/Aktion/Beobachtung, Abbruch, Baseline und Test",
+      "status": "not_run",
+      "required_assets": [
+        "source_refs",
+        "method",
+        "test",
+        "negative_findings",
+        "privacy_class",
+        "publication_gate"
+      ]
+    },
+    {
+      "id": "SKD-09",
+      "title": "Leser-Mitmachen ohne Accountrechte testen",
+      "priority": "B",
+      "output": "participant_tests.jsonl",
+      "acceptance": "Einfacher Upload/Rückgabekanal; sichere Eingaben, Bearbeitungsdauer",
+      "status": "not_run",
+      "required_assets": [
+        "source_refs",
+        "method",
+        "test",
+        "negative_findings",
+        "privacy_class",
+        "publication_gate"
+      ]
+    },
+    {
+      "id": "SKD-10",
+      "title": "Entwickler-Beiträge testen",
+      "priority": "B",
+      "output": "integration_tests.jsonl",
+      "acceptance": "Schema, reproduzierbare Tests, Code-Review, Lizenz/Sicherheit",
+      "status": "not_run",
+      "required_assets": [
+        "source_refs",
+        "method",
+        "test",
+        "negative_findings",
+        "privacy_class",
+        "publication_gate"
+      ]
+    },
+    {
+      "id": "SKD-11",
+      "title": "Zwei-KI-Austausch entprivatisieren und schützen",
+      "priority": "A",
+      "output": "handoff-audit.md",
+      "acceptance": "keine sensiblen Texte im öffentlichen Repo, Provenienz im privaten Speicher",
+      "status": "not_run",
+      "required_assets": [
+        "source_refs",
+        "method",
+        "test",
+        "negative_findings",
+        "privacy_class",
+        "publication_gate"
+      ]
+    },
+    {
+      "id": "SKD-12",
+      "title": "Historische Website von aktueller Forschung trennen",
+      "priority": "A",
+      "output": "navigation_inventory.csv",
+      "acceptance": "Links, Positionen, Provenienz, Autorisierung, Barrierefreiheit",
+      "status": "not_run",
+      "required_assets": [
+        "source_refs",
+        "method",
+        "test",
+        "negative_findings",
+        "privacy_class",
+        "publication_gate"
+      ]
+    }
+  ],
+  "separation": {
+    "historical": "Historische Vorarbeiten/Originalquellen (lesend, unverändert)",
+    "research": "Aktuelle Arbeiten/Papers/Tests/Versionen (nicht automatisch publiziert)",
+    "participation": "Freigegebene, begrenzte externe Aufgaben und anonymisierte Ergebnisrückgaben",
+    "publications": "Redaktionell freigegebene Synthesen mit Quellen"
+  }
+}
