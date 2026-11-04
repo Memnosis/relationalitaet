@@ -1,0 +1,227 @@
+{
+  "schema": "quantum-structure-reference/0.1",
+  "status": "computed_reproducible_reference_not_project_tensor_confirmed",
+  "date": "2026-11-04",
+  "backends": {
+    "numpy": "2.3.5",
+    "sympy": "1.14.0"
+  },
+  "results": [
+    {
+      "id": "3Q-PRODUCT",
+      "kind": "three_qubits",
+      "dimensions": [
+        2,
+        2,
+        2
+      ],
+      "amplitudes": 8,
+      "schmidt_ranks": [
+        1,
+        1,
+        1
+      ],
+      "purities": [
+        1,
+        1,
+        1
+      ],
+      "three_tangle": 0,
+      "product": true
+    },
+    {
+      "id": "3Q-GHZ",
+      "kind": "three_qubits",
+      "dimensions": [
+        2,
+        2,
+        2
+      ],
+      "amplitudes": 8,
+      "schmidt_ranks": [
+        2,
+        2,
+        2
+      ],
+      "purities": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "three_tangle": 1,
+      "product": false
+    },
+    {
+      "id": "3Q-W",
+      "kind": "three_qubits",
+      "dimensions": [
+        2,
+        2,
+        2
+      ],
+      "amplitudes": 8,
+      "schmidt_ranks": [
+        2,
+        2,
+        2
+      ],
+      "purities": [
+        0.555555555556,
+        0.555555555556,
+        0.555555555556
+      ],
+      "three_tangle": 0,
+      "product": false
+    },
+    {
+      "id": "3QT-PRODUCT",
+      "kind": "three_qutrits",
+      "dimensions": [
+        3,
+        3,
+        3
+      ],
+      "amplitudes": 27,
+      "schmidt_ranks": [
+        1,
+        1,
+        1
+      ],
+      "purities": [
+        1,
+        1,
+        1
+      ],
+      "product": true
+    },
+    {
+      "id": "3QT-GHZ",
+      "kind": "three_qutrits",
+      "dimensions": [
+        3,
+        3,
+        3
+      ],
+      "amplitudes": 27,
+      "schmidt_ranks": [
+        3,
+        3,
+        3
+      ],
+      "purities": [
+        0.333333333333,
+        0.333333333333,
+        0.333333333333
+      ],
+      "product": false
+    }
+  ],
+  "wigner_3j": [
+    {
+      "id": "spin_half_to_singlet",
+      "j": [
+        "1/2",
+        "1/2",
+        "0"
+      ],
+      "m": [
+        "1/2",
+        "-1/2",
+        "0"
+      ],
+      "value": "sqrt(2)/2",
+      "triangle": true,
+      "msum": true,
+      "nonzero": true
+    },
+    {
+      "id": "spin_half_to_triplet",
+      "j": [
+        "1/2",
+        "1/2",
+        "1"
+      ],
+      "m": [
+        "1/2",
+        "1/2",
+        "-1"
+      ],
+      "value": "-sqrt(3)/3",
+      "triangle": true,
+      "msum": true,
+      "nonzero": true
+    },
+    {
+      "id": "triangle_violation",
+      "j": [
+        "1/2",
+        "1/2",
+        "2"
+      ],
+      "m": [
+        "1/2",
+        "-1/2",
+        "0"
+      ],
+      "value": "0",
+      "triangle": false,
+      "msum": true,
+      "nonzero": false
+    },
+    {
+      "id": "magnetic_sum_violation",
+      "j": [
+        "1/2",
+        "1/2",
+        "1"
+      ],
+      "m": [
+        "1/2",
+        "-1/2",
+        "1"
+      ],
+      "value": "0",
+      "triangle": true,
+      "msum": false,
+      "nonzero": false
+    },
+    {
+      "id": "valid_rules_but_zero_by_symmetry",
+      "j": [
+        "1",
+        "1",
+        "1"
+      ],
+      "m": [
+        "0",
+        "0",
+        "0"
+      ],
+      "value": "0",
+      "triangle": true,
+      "msum": true,
+      "nonzero": false
+    }
+  ],
+  "test_summary": {
+    "passed": 9,
+    "total": 9
+  },
+  "conclusions": [
+    "3x3x3 complex amplitudes are not 27 scientific field proofs",
+    "matching dimensions do not imply matching entanglement",
+    "same single-party rank does not fix three-tangle",
+    "three angular momenta plus valid simple selection rules do not guarantee nonzero Wigner 3j",
+    "three-input structure != project 3-triad tensor"
+  ],
+  "sources": [
+    "https://dlmf.nist.gov/34.2",
+    "https://dlmf.nist.gov/34.3",
+    "https://doi.org/10.1103/PhysRevA.67.012108",
+    "https://doi.org/10.1103/PhysRevA.81.014301",
+    "https://doi.org/10.1080/03081087.2023.2211717"
+  ],
+  "method_script": "quantum_structure_pilot.py (separate local execution; source code to be attached)",
+  "evidence": "numerical_reference_test",
+  "publication": "draft_requires_domain_review"
+}
