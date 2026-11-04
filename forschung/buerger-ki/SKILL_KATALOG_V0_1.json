@@ -1,0 +1,512 @@
+{
+  "schema": "bk-skill-catalog-v0.1",
+  "date": "2026-11-04",
+  "scope": "Bürger-KI only",
+  "statuses": {
+    "all": "spezifiziert; nicht implementiert oder validiert"
+  },
+  "transfer_rule": "Allgemeine Operatoren sind Kandidaten zur späteren Tensor-Übernahme; keine automatische 3x3x3-Feldzuordnung.",
+  "record_schema": {
+    "id": "stabile ID",
+    "name": "Bezeichnung",
+    "class": "operator/domain",
+    "input": "typisierte Eingabe",
+    "output": "typisierte Ausgabe",
+    "relation": "mathematische oder logische Familie beziehungsweise Komposition",
+    "invariant": "zu prüfende Erhaltungsbedingung",
+    "failure": "Gegenprobe/Negativtest",
+    "status": "specified|implemented|tested|validated|rejected",
+    "provenance": "Quellen und Tests"
+  },
+  "skills": [
+    {
+      "id": "BK-OP-01",
+      "name": "Quelleneinheit erfassen",
+      "kind": "operator",
+      "input": "Dokument/URL/Metadaten",
+      "output": "Quellenakte",
+      "relation": "Provenienz",
+      "invariant": "Original und Zeitstand erhalten",
+      "failure": "fehlende Originalquelle",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-OP-02",
+      "name": "Behauptung extrahieren",
+      "kind": "operator",
+      "input": "Quelle/Abschnitt",
+      "output": "atomare Aussage",
+      "relation": "Extraktion",
+      "invariant": "jede Aussage rückführbar",
+      "failure": "Bedeutungsverschiebung",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-OP-03",
+      "name": "Begriffe typisieren",
+      "kind": "operator",
+      "input": "Aussagen und Fachbegriffe",
+      "output": "typisierte Entitäten",
+      "relation": "Typisierung",
+      "invariant": "Geltungsbereich erhalten",
+      "failure": "Mehrdeutigkeit",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-OP-04",
+      "name": "Regelvoraussetzungen auswerten",
+      "kind": "operator",
+      "input": "Regel+Sachverhalt",
+      "output": "Erfüllungsstatus je Tatbestand",
+      "relation": "Prädikatenlogik",
+      "invariant": "offen ≠ falsch",
+      "failure": "fehlende Tatsache",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-OP-05",
+      "name": "Zeitgeltung prüfen",
+      "kind": "operator",
+      "input": "Regel/Fassung/Ereignisdatum",
+      "output": "anwendbare Fassung",
+      "relation": "temporale Relation",
+      "invariant": "kein zukünftiges Recht rückprojizieren",
+      "failure": "abweichende Übergangsregel",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-OP-06",
+      "name": "Soll-Ist vergleichen",
+      "kind": "operator",
+      "input": "Sollwert+Istwert+Zeit",
+      "output": "Differenz/Status",
+      "relation": "Differenzoperator",
+      "invariant": "Einheiten und Zeitperioden gleich",
+      "failure": "nicht vergleichbare Größen",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-OP-07",
+      "name": "Rückrechnung durchführen",
+      "kind": "operator",
+      "input": "Ausgabe+Rechenregel+Parameter",
+      "output": "rekonstruierte Eingabe",
+      "relation": "Inverse/partielle Inverse",
+      "invariant": "Nichtinvertierbarkeit ausweisen",
+      "failure": "mehrdeutige Urbilder",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-OP-08",
+      "name": "Widerspruch erkennen",
+      "kind": "operator",
+      "input": "zwei Aussagen+Kontext",
+      "output": "Konfliktkandidat",
+      "relation": "Konsistenzprüfung",
+      "invariant": "gleicher Geltungsbereich",
+      "failure": "unterschiedliche Definition",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-OP-09",
+      "name": "Gegenprobe ausführen",
+      "kind": "operator",
+      "input": "These+Testfall",
+      "output": "Bestätigung/Widerlegung/offen",
+      "relation": "Falsifikation",
+      "invariant": "Gegenbeleg explizit",
+      "failure": "Scheintest",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-OP-10",
+      "name": "Ursache von Korrelation trennen",
+      "kind": "operator",
+      "input": "Ereignisse+Zeitreihe",
+      "output": "Kausalhypothese",
+      "relation": "kausales Modell",
+      "invariant": "keine Kausalbehauptung ohne Design",
+      "failure": "Konfundierung",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-OP-11",
+      "name": "Datenbedarf minimieren",
+      "kind": "operator",
+      "input": "Aufgabe+Datenschema",
+      "output": "erforderliche Felder",
+      "relation": "Informationsreduktion",
+      "invariant": "keine unnötigen Personendaten",
+      "failure": "Reidentifikation",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-OP-12",
+      "name": "Ergebnis gegen Zielzustand prüfen",
+      "kind": "operator",
+      "input": "Ziel+Belege+Zeit",
+      "output": "erreicht/teilweise/offen",
+      "relation": "Zielprädikat",
+      "invariant": "Zusage ≠ Erfüllung",
+      "failure": "falscher Proxy",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-OP-13",
+      "name": "Fälle vergleichbar machen",
+      "kind": "operator",
+      "input": "Fälle+Merkmalsschema",
+      "output": "normalisierte Fälle",
+      "relation": "Normalisierung",
+      "invariant": "Unterschiede bewahren",
+      "failure": "Scheingleichheit",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-OP-14",
+      "name": "Ergebnisse aggregieren",
+      "kind": "operator",
+      "input": "freigegebene Fälle+Auswahlrahmen",
+      "output": "statistischer Befund",
+      "relation": "Aggregation",
+      "invariant": "Nenner/Unsicherheit dokumentieren",
+      "failure": "Selektionsbias",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-OP-15",
+      "name": "Alternativen vergleichen",
+      "kind": "operator",
+      "input": "Optionen+Kriterien",
+      "output": "Trade-off-Matrix",
+      "relation": "Mehrkriterienvergleich",
+      "invariant": "keine willkürliche Rangfolge",
+      "failure": "unvollständige Kriterien",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-OP-16",
+      "name": "Skillfähigkeit evaluieren",
+      "kind": "operator",
+      "input": "Testfälle+Referenz+Ausgaben",
+      "output": "Messwerte/Fehler",
+      "relation": "Evaluation",
+      "invariant": "Baseline und Version dokumentieren",
+      "failure": "Datenleck",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-OP-17",
+      "name": "Abhängigkeiten nachziehen",
+      "kind": "operator",
+      "input": "Änderungsereignis+Relationsgraph",
+      "output": "betroffene Objekte",
+      "relation": "Graph-Propagation",
+      "invariant": "ID/Version/Provenienz erhalten",
+      "failure": "stille Folgeschäden",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-F-01",
+      "name": "Materiellen Anspruch rekonstruieren",
+      "kind": "domain",
+      "input": "Normen+Falldaten",
+      "output": "Anspruchsmatrix",
+      "relation": "BK-OP-04,BK-OP-05,BK-OP-01",
+      "invariant": "Entscheidung ≠ Anspruch",
+      "failure": "fehlende Tatbestände",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-F-02",
+      "name": "Sozialleistungszahlung prüfen",
+      "kind": "domain",
+      "input": "Anspruch+Fälligkeit+Konto",
+      "output": "Differenz und offener Schritt",
+      "relation": "BK-OP-06,BK-OP-12",
+      "invariant": "bewilligt/vorläufig/offen trennen",
+      "failure": "fehlerhafte Zeitzuordnung",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-F-03",
+      "name": "Versorgungsbedarf definieren",
+      "kind": "domain",
+      "input": "fachlicher Bedarf+Versorgungsweg",
+      "output": "Versorgungsziel",
+      "relation": "BK-OP-03,BK-OP-04",
+      "invariant": "keine KI-Diagnose",
+      "failure": "keine Fachindikation",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-F-04",
+      "name": "Therapieangebot abgleichen",
+      "kind": "domain",
+      "input": "Versorgungsziel+Angebote",
+      "output": "Eignungsprüfung",
+      "relation": "BK-OP-03,BK-OP-15",
+      "invariant": "Erstgespräch ≠ Therapieplatz",
+      "failure": "veraltete Angebote",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-F-05",
+      "name": "Suchchronologie führen",
+      "kind": "domain",
+      "input": "Kontakte+Ergebnisse",
+      "output": "Nachweischronologie",
+      "relation": "BK-OP-01,BK-OP-05",
+      "invariant": "Absage/keine Antwort trennen",
+      "failure": "unverifizierte Kontakte",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-F-06",
+      "name": "Patientenakte inventarisieren",
+      "kind": "domain",
+      "input": "eigene Dokumentenliste",
+      "output": "Aktenindex",
+      "relation": "BK-OP-01,BK-OP-11",
+      "invariant": "lokal und datensparsam",
+      "failure": "fehlende Dokumente",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-F-07",
+      "name": "Patientenrechtsfrage prüfen",
+      "kind": "domain",
+      "input": "Anliegen+Norm+Aktenstand",
+      "output": "Rechte- und Maßnahmenmatrix",
+      "relation": "BK-OP-04,BK-OP-08",
+      "invariant": "Berichtigung ≠ abweichende fachliche Meinung",
+      "failure": "Einwilligung/Kindesrechte",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-F-08",
+      "name": "Institutionelle Pflicht prüfen",
+      "kind": "domain",
+      "input": "Norm+Zuständigkeit+Vorgang",
+      "output": "Pflichten-/Abweichungsakte",
+      "relation": "BK-OP-04,BK-OP-05,BK-OP-12",
+      "invariant": "verbindliche Pflicht vs Ziel",
+      "failure": "falscher Träger",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-F-09",
+      "name": "Unterversorgung untersuchen",
+      "kind": "domain",
+      "input": "Bedarfe+Zugang+Auswahlrahmen",
+      "output": "individuelle/strukturelle Evidenz",
+      "relation": "BK-OP-13,BK-OP-14,BK-OP-10",
+      "invariant": "Einzelfall ≠ repräsentativer Befund",
+      "failure": "Selektionsbias",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-F-10",
+      "name": "Bürgergruppe koordinieren",
+      "kind": "domain",
+      "input": "gemeinsames Problem+Freigaben",
+      "output": "Arbeits- und Skillplan",
+      "relation": "BK-OP-11,BK-OP-17",
+      "invariant": "keine implizite Rechtsvertretung",
+      "failure": "personenbezogene Offenlegung",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-F-11",
+      "name": "Nächsten Schritt bestimmen",
+      "kind": "domain",
+      "input": "Anspruchsstatus+Alternativen",
+      "output": "Entscheidungsoptionen",
+      "relation": "BK-OP-04,BK-OP-15",
+      "invariant": "keine automatische Eskalation",
+      "failure": "unzulässige Rechtsberatung",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-F-12",
+      "name": "Rechtserfüllung verfolgen",
+      "kind": "domain",
+      "input": "Ziel+Belege+Ereignisse",
+      "output": "Erfüllungsstatus",
+      "relation": "BK-OP-06,BK-OP-12",
+      "invariant": "Prüfung kann nach Bescheid weitergehen",
+      "failure": "fehlende reale Bestätigung",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-F-13",
+      "name": "Rechtsänderung auf Wirkung prüfen",
+      "kind": "domain",
+      "input": "alte/neue Norm+Personengruppen",
+      "output": "Änderungsfolgen",
+      "relation": "BK-OP-05,BK-OP-15,BK-OP-17",
+      "invariant": "Recht/Prognose/Meinung trennen",
+      "failure": "unbelegte Folgen",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-F-14",
+      "name": "Antragsqualität prüfen",
+      "kind": "domain",
+      "input": "Entwurf+Tatsachen+Normen",
+      "output": "Fehlerbericht",
+      "relation": "BK-OP-02,BK-OP-08,BK-OP-09",
+      "invariant": "Minimierung irrelevanter Anträge",
+      "failure": "Halluzinationen",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    },
+    {
+      "id": "BK-F-15",
+      "name": "Gruppen-Benchmark durchführen",
+      "kind": "domain",
+      "input": "Vergleichsgruppen+Testfälle",
+      "output": "Wirkungsbericht",
+      "relation": "BK-OP-13,BK-OP-14,BK-OP-16",
+      "invariant": "bestehende Netzwerke als Baseline",
+      "failure": "Kontamination/Verdrängung",
+      "status": "specified",
+      "provenance": [],
+      "tests": []
+    }
+  ],
+  "pilots": [
+    {
+      "id": "BK-PROBLEM-THER-001",
+      "goal": "Medizinisch notwendige psychotherapeutische Versorgung tatsächlich zugänglich",
+      "workflow": [
+        "BK-F-03",
+        "BK-F-04",
+        "BK-F-05",
+        "BK-F-07",
+        "BK-F-08",
+        "BK-F-11",
+        "BK-F-12",
+        "BK-F-09",
+        "BK-F-15"
+      ]
+    },
+    {
+      "id": "BK-PROBLEM-SOZ-001",
+      "goal": "Materiell geschuldete existenzsichernde Leistung tatsächlich erhalten",
+      "workflow": [
+        "BK-F-01",
+        "BK-F-02",
+        "BK-F-08",
+        "BK-F-11",
+        "BK-F-12",
+        "BK-F-14"
+      ]
+    }
+  ],
+  "tensor_mapping": {
+    "ontology": "Quelle -> Aussage -> Regel/Relation -> Operator -> Skill -> Test -> Ergebnis -> Evidenzstatus -> Tensor-Kandidat",
+    "candidates": [
+      {
+        "family": "Bedingung/Erfüllung",
+        "operators": [
+          "BK-OP-04",
+          "BK-OP-12"
+        ],
+        "formal": "requirements(case) -> three-valued status",
+        "proof": "Wahrheitstafel und Gegenbeispiele"
+      },
+      {
+        "family": "Soll/Ist/Inversion",
+        "operators": [
+          "BK-OP-06",
+          "BK-OP-07"
+        ],
+        "formal": "delta=actual-expected; inverse only if identifiable",
+        "proof": "Rückrechnung und Dimensionsprüfung"
+      },
+      {
+        "family": "Provenienz/Version/Graph",
+        "operators": [
+          "BK-OP-01",
+          "BK-OP-05",
+          "BK-OP-17"
+        ],
+        "formal": "directed typed graph with versioned edges",
+        "proof": "No-loss roundtrip, dependency replay"
+      },
+      {
+        "family": "Netzwerk/Abdeckung",
+        "operators": [
+          "BK-OP-13",
+          "BK-OP-14"
+        ],
+        "formal": "set/graph coverage under selection bias",
+        "proof": "Known denominator, stratification and counterexample"
+      }
+    ],
+    "field_mapping_status": "not attempted; 27 Feldakten müssen unabhängig fachlich validiert werden"
+  },
+  "privacy": "Keine individuellen Patienten-/Fallakten im öffentlichen Register; keine automatische Uploadfunktion"
+}
