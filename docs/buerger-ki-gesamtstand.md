@@ -188,13 +188,13 @@ Bürger-KI kann stattfinden:
 - in vorhandenen digitalen Gruppen oder moderierten Treffen;
 - bei öffentlichen Veranstaltungen, institutionellen Beteiligungsverfahren und in fachlichen Netzwerken.
 
-**Das sind mögliche Orte, keine automatisch bestehenden Bürger-KI-Angebote.** Vor jeder konkreten Terminankündigung braucht es eine reale Bestätigung des Trägers. Niemand muss sich vernetzen oder sensible Falldaten offenlegen.
+**Das sind mögliche Orte, keine automatisch bestehenden Bürger-KI-Angebote.** Vor jeder konkreten Terminankündigung braucht es eine reale Bestätigung des Trägers. Vernetzung ist ein möglicher Begegnungsweg, keine Voraussetzung für die Nutzung der Skills.
 
 **Stuhlkreis, Fishbowl, Gesprächsmethoden, Moderation:** optionales Wissen für solche Begegnungssituationen. Sie lösen weder die versorgungsrechtlichen Probleme der Menschen noch sind sie der Mittelpunkt des Projekts. Für medizinische Gruppentherapie gelten gesonderte fachliche Anforderungen.
 
 **Nicht voraussetzen:** (a) Menschen treffen sich; (b) gemeinsame Skills verbessern Ergebnisse; (c) daraus entsteht ein struktureller Unterversorgungsnachweis. Dies sind **drei gesonderte empirische Hypothesen** mit möglichen Nullergebnissen.
 
-Bestehende Organisationen und Hilfen stärken, statt eine eigene Sozialplattform ohne reale Infrastruktur zu behaupten. Keine öffentliche Patientendatenbank, kein improvisiertes Personenmatching, kein Teilen von Gesundheitsakten in GitHub-Issues.
+Bestehende Organisationen und Hilfen stärken, statt eine eigene Sozialplattform ohne reale Infrastruktur zu behaupten. Das Projekt betreibt keine Fallverwaltung. Sein Beitrag besteht in quellengeprüften Skills und allgemein nutzbaren Methoden.
 
 ## 10. Die wachsende Forschungslandkarte
 
@@ -350,7 +350,7 @@ Die Projekte sind getrennt:
 - **Bürger-KI:** konkreter Anwendungs- und Forschungsraum.
 - **KI-Tensor:** mathematische und logische Vergleichs- und Prüfforschung.
 
-**Ernte Bürger-KI → Tensor:** abstrahierte Fragen, Typen, Eingabe-/Ausgabe-Schemata, Regeln, Relationen, Bedingungen, Invarianten, Umformungen, Rückrechnungen, Grenzen, synthetische Testfälle, Fehlermuster und Benchmarks. **Keine** privaten Patienten- oder Verwaltungsakten.
+**Ernte Bürger-KI → Tensor:** abstrahierte Fragen, Typen, Eingabe-/Ausgabe-Schemata, Regeln, Relationen, Bedingungen, Invarianten, Umformungen, Rückrechnungen, Grenzen, synthetische Testfälle, Fehlermuster und Benchmarks. Die Schnittstelle übergibt ausschließlich allgemeine Prüf- und Skillstrukturen; persönliche Fälle gehören nicht zum Projekt.
 
 **Rückgabe Tensor → Bürger-KI:** fachlich geprüfte, versionierte und reproduzierbare Operatoren/Skills, konkrete Verbesserungen gegenüber einer Baseline, definierte Ausnahmen und dokumentierte Negativtests. Ein mathematisch korrektes Modell ist keine medizinische Indikation, kein Verwaltungsakt und keine gerichtliche Entscheidung.
 
