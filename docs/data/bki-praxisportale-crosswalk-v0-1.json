@@ -4,7 +4,7 @@
   "paper": "../paper-gesundheitsamt-jugendamt-praxiswissen-crosswalk-v0-1.md",
   "scope": "Professional sites, education portals, professional case variations and wikis",
   "rule": "BKI-WA-RED-001: no source original texts in reconstructed output",
-  "identity_threshold": "same action conditions exceptions legal regime territorial scope and effective interval, each independently verified",
+  "identity_threshold": "No automatic join. Rule-level identity requires same legal regime, geography, period, target authority, actor, trigger, action, exception and independently checked source passage; source-page identity does not prove rule identity.",
   "sources": [
     {
       "id": "PRX-DE-01",
@@ -266,15 +266,6 @@
       "verified_rule_identity": false
     },
     {
-      "practice_id": "PRX-DE-01",
-      "authority_ref": "W-013",
-      "norm_or_topic": "SGB XII / örtliche Praxis",
-      "relation": "similar_issuer_or_local_scope",
-      "review": "candidate_context_only",
-      "identity_claim": false,
-      "verified_rule_identity": false
-    },
-    {
       "practice_id": "PRX-DE-02",
       "authority_ref": "W-003",
       "norm_or_topic": "SGB II",
@@ -288,7 +279,7 @@
       "authority_ref": "DE-J-04",
       "norm_or_topic": "SGB VIII § 8a / LKG NRW",
       "relation": "same_function_and_state",
-      "review": "candidate_needs_page_review",
+      "review": "candidate_context_only",
       "identity_claim": false,
       "verified_rule_identity": false
     },
@@ -306,7 +297,7 @@
       "authority_ref": "DE-G-04",
       "norm_or_topic": "IfSG Hygiene",
       "relation": "same_general_field_not_same_instruction",
-      "review": "related_only",
+      "review": "candidate_context_only",
       "identity_claim": false,
       "verified_rule_identity": false
     },
@@ -314,17 +305,8 @@
       "practice_id": "PRX-DE-09",
       "authority_ref": "DE-G-01",
       "norm_or_topic": "Legionellose",
-      "relation": "same_official_guide",
-      "review": "direct_source_family",
-      "identity_claim": false,
-      "verified_rule_identity": false
-    },
-    {
-      "practice_id": "PRX-CH-01",
-      "authority_ref": "CH-J-01",
-      "norm_or_topic": "Kindesunterhalt / Sozialhilfe",
-      "relation": "cross_domain_case_not_same_authority",
-      "review": "analogy_only",
+      "relation": "identical_source_page_not_document_rule",
+      "review": "same_official_landing_page_verified",
       "identity_claim": false,
       "verified_rule_identity": false
     }
