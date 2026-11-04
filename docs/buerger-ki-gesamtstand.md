@@ -3,7 +3,7 @@
 
 **Forschungs- und Webedition · 4. November 2026 · v1.0**  
 **Status:** Zusammenführung der bisher dokumentierten Bürger-KI-Entwicklung und des vereinbarten nächsten Ausbauplans; **nicht** die Behauptung, dass sämtliche vorgeschlagenen Fähigkeiten bereits technisch umgesetzt, klinisch validiert oder rechtlich entschieden wären.  
-**Öffentlicher Einstieg:** [Bürger-KI](./buerger-ki.html) · [Anwendungsfelder](./buerger-ki-anwendungsfelder.html) · [Mein Recht](./buerger-ki-mein-recht.html) · [Unser gemeinsames Problem](./buerger-ki-gemeinsam.html) · [Unsere gesellschaftlichen Grundlagen](./buerger-ki-grundlagen.html) · [Schutzpflichten und vermeidbare Schäden](./buerger-ki-schutzpflichten.html)
+**Öffentlicher Einstieg:** [Bürger-KI](./buerger-ki.html) · [Anwendungsfelder](./buerger-ki-anwendungsfelder.html) · [Vom Anliegen zur Lösung](./buerger-ki-weg.html) · [Mein Recht](./buerger-ki-mein-recht.html) · [Unser gemeinsames Problem](./buerger-ki-gemeinsam.html) · [Unsere gesellschaftlichen Grundlagen](./buerger-ki-grundlagen.html) · [Schutzpflichten und vermeidbare Schäden](./buerger-ki-schutzpflichten.html)
 
 > **Was nützt uns ein Recht, wenn es nicht erfüllt wird?**  
 > **Was nützt uns ein gesellschaftliches Schutzversprechen, wenn wir seine tatsächliche Erfüllung nicht überprüfen und aus seinen Fehlern nicht lernen?**
@@ -78,6 +78,28 @@ Die Landkarte verknüpft zehn konkrete Lebensbereiche mit typischen Bürgerfrage
 **Scharfe Trennung:** Die Skill-IDs im vorhandenen Katalog bezeichnen spezifizierte Prüf- und Fähigkeitskandidaten; diese Phase belegt keine praktische Funktionsfähigkeit, keine rechtliche Entscheidung und keinen bereits erreichten individuellen Erfolg. Der Therapieplatz ist der erste tiefere **Beispielfall**, nicht das definierende Projektziel. Vernetzt werden **Fähigkeiten, Wissen und geeignete bestehende Hilfen**, nicht persönliche Fälle.
 
 **Abnahme Phase 2:** Eine eigene Seite mit zehn Lebensbereichen ist unter `docs/` veröffentlicht, von der Hauptseite erreichbar, mit dem Skill-Katalog verbunden und in der No-Loss-Fassung nachgetragen. Weiterführende fachliche Vertikaltests bleiben offen. **Nächster Schritt: Phase 3 – der allgemeine Prüf- und Lösungsprozess**, den Menschen auch ohne KI verstehen können.
+
+---
+
+## Phase 3 · Vom konkreten Anliegen zur Lösung (veröffentlicht am 4. November 2026)
+
+**Öffentliche Seite:** [Vom Anliegen zur Lösung – sieben Fragen](./buerger-ki-weg.html).
+
+Phase 3 übersetzt die bisherige Forschungs- und Skillarchitektur in einen allgemein verständlichen Weg. **Der Weg beginnt mit dem Ziel des Menschen, nicht mit der KI.** Die sieben Schritte sind Orientierung und keine verpflichtende Fallakte:
+
+1. **Ziel klären:** Was möchte ich erreichen?
+2. **Möglichkeiten erkennen:** Welche Rechte, Hilfen, Regeln und Angebote könnten relevant sein?
+3. **Wissen prüfen:** Was ist bekannt und was fehlt?
+4. **Lücke erkennen:** Was unterscheidet das angestrebte und das tatsächlich erreichte Ergebnis?
+5. **Gegenprobe machen:** Welche Ausnahmen, Fehler und anderen Erklärungen gibt es?
+6. **Handlungsweg wählen:** Welcher nächste Schritt oder welche bestehende Unterstützung könnte hilfreich sein?
+7. **Ergebnis bewerten:** Was wurde tatsächlich erreicht, und wie verbessern wir die allgemeine Fähigkeit?
+
+**Drei Beispiele:** notwendige Psychotherapie, ausgebliebene Sozialleistungszahlung und stockendes Verwaltungsverfahren. Das medizinische Beispiel bleibt ein fachlicher Pilot, nicht die Definition der gesamten Bürger-KI.
+
+**Skillanschluss:** `BK-OP-01` bis `BK-OP-17` sind spezifizierte Operatoren; kombinierte fachliche Skills sind ebenfalls zunächst Spezifikationen. Die historische `BK-F`-ID-Kollision zwischen Skill-Katalog und älterem Benchmark bleibt offen und darf nicht stillschweigend vereinheitlicht werden. Ein eigenständiger [Skill-Deep-Dive und Harvest](./buerger-ki-skill-deep-dive.md) erläutert Kandidaten, Testanforderungen, Quellen- und Tensorbeziehungen.
+
+**No-Loss:** Frühere fachliche Prozessbeschreibungen, Quellenlisten und Detailakten werden nicht durch diese sieben Fragen ersetzt. Phase 3 ist eine didaktische Sicht auf denselben Bestand, kein Nachweis einer fertig implementierten oder validierten Bürger-KI.
 
 ---
 
