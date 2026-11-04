@@ -1,0 +1,168 @@
+{
+  "schema_version": "algebra50-relation-audit/0.1",
+  "source_formula_ids": "forschung/tensor/formeln/pilot50/FORMELN50_KORPUS_V0_1.json",
+  "status": "gpt_math_checks_not_domain_approved",
+  "provenance": {
+    "actor": "GPT independent check",
+    "backend": "SymPy 1.14.0 Python 3",
+    "check_run_date": "2026-11-04",
+    "limitation": "independent analysis code but same underlying SymPy library, not independent algebra backend"
+  },
+  "summary": {
+    "verified_symbolic_substitutions": 4,
+    "abstract_star_identity": 1,
+    "semantics_flags": 6,
+    "domain_reviewed_scientifically": 0,
+    "tensor_27_verified": 0
+  },
+  "confirmed_known_relations": [
+    {
+      "id": "REL50-WORK-POWER",
+      "formula_ids": [
+        "F025",
+        "F026",
+        "F027"
+      ],
+      "result": "P=F*v",
+      "conditions": [
+        "t != 0",
+        "same work/displacement/time context",
+        "vector form uses force–velocity scalar product"
+      ],
+      "proof": "substitution and simplify -> residual 0",
+      "independent_check": "separate SymPy 1.14.0 script",
+      "math_status": "symbolically_checked",
+      "domain_status": "restricted_context_review_pending",
+      "novelty": "known_relation"
+    },
+    {
+      "id": "REL50-OHM-JOULE",
+      "formula_ids": [
+        "F031",
+        "F032",
+        "F033"
+      ],
+      "result": "P=R*I**2",
+      "conditions": [
+        "Ohmic resistor model",
+        "consistent R, I and U"
+      ],
+      "proof": "U=R*I into P=U*I -> residual 0",
+      "independent_check": "separate SymPy 1.14.0 script",
+      "math_status": "symbolically_checked",
+      "domain_status": "model_conditions",
+      "novelty": "already_in_corpus_F033"
+    },
+    {
+      "id": "REL50-MOLAR",
+      "formula_ids": [
+        "F044",
+        "F080",
+        "F081"
+      ],
+      "result": "rho=c*M",
+      "conditions": [
+        "single substance or consistent per-component density",
+        "V != 0",
+        "M != 0 for n=m/M"
+      ],
+      "proof": "substitution -> residual 0",
+      "independent_check": "separate SymPy 1.14.0 script",
+      "math_status": "symbolically_checked",
+      "domain_status": "restricted_validity",
+      "novelty": "known_relation"
+    },
+    {
+      "id": "REL50-MOMENTUM-ENERGY",
+      "formula_ids": [
+        "F022",
+        "F023"
+      ],
+      "result": "E_kin=p**2/(2*m)",
+      "conditions": [
+        "m != 0",
+        "nonrelativistic kinetic energy"
+      ],
+      "proof": "substitution v=p/m -> residual 0",
+      "independent_check": "separate SymPy 1.14.0 script",
+      "math_status": "symbolically_checked",
+      "domain_status": "model_conditions",
+      "novelty": "known_relation"
+    },
+    {
+      "id": "REL50-STAR-GENERIC",
+      "formula_ids": [],
+      "result": "A*B=C*D",
+      "conditions": [
+        "X=A*B",
+        "X=C*D",
+        "both occurrences denote exactly the same X"
+      ],
+      "proof": "subtract equations eliminating X",
+      "independent_check": "separate SymPy 1.14.0 script",
+      "math_status": "symbolically_checked",
+      "domain_status": "abstract_algebra_only",
+      "novelty": "method_example_not_new_formula"
+    }
+  ],
+  "negative_findings": [
+    {
+      "id": "ISSUE50-UNCERTAINTY",
+      "formula_ids": [
+        "F065"
+      ],
+      "type": "incorrect_equality",
+      "finding": "General uncertainty relation is an inequality, not an equality; corpus entry needs source/context correction.",
+      "status": "review_required"
+    },
+    {
+      "id": "ISSUE50-ENERGY",
+      "formula_ids": [
+        "F023",
+        "F037"
+      ],
+      "type": "semantic_collision",
+      "finding": "Kinetic energy and rest energy share the generic label Energie but cannot simply be identified.",
+      "status": "do_not_merge"
+    },
+    {
+      "id": "ISSUE50-MASS",
+      "formula_ids": [
+        "F021",
+        "F080"
+      ],
+      "type": "semantic_collision",
+      "finding": "Masse across mechanics and molar substance formulas requires identity of substance/object and reference system.",
+      "status": "review_required"
+    },
+    {
+      "id": "ISSUE50-QUADRATIC",
+      "formula_ids": [
+        "F005"
+      ],
+      "type": "restricted_domain",
+      "finding": "One quadratic root is listed, not the complete pair; a != 0 and discriminant/complex domain are required.",
+      "status": "review_required"
+    },
+    {
+      "id": "ISSUE50-EULER",
+      "formula_ids": [
+        "F006"
+      ],
+      "type": "restricted_topology",
+      "finding": "Euler V-E+F=2 assumes suitable connected genus-zero polyhedral topology.",
+      "status": "review_required"
+    },
+    {
+      "id": "ISSUE50-GROWTH",
+      "formula_ids": [
+        "F017",
+        "F018"
+      ],
+      "type": "competing_models",
+      "finding": "Exponential and logistic growth are distinct models; do not merge matching N(t), r into one universal equation.",
+      "status": "review_required"
+    }
+  ],
+  "release_policy": "Candidate findings may be displayed with status, but not automatically merged as scientific proofs in any finalized paper."
+}
