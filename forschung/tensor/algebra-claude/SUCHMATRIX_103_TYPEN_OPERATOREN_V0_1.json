@@ -8,7 +8,7 @@
     "finding_registry": "forschung/tensor/algebra-claude/BEFUNDREGISTER_TENSOR_V0_1.json",
     "inventory_blob_sha": "469dcf964a49b9173def44422c016a868ab34d32"
   },
-  "method": "Only preexisting explicitly recorded formula-type tags used for 3-family screen; independent operation-search suggestions use textual/mathematical motif triggers. No implicit scientific correctness.",
+  "method": "Only preexisting explicitly recorded formula-type tags used for 3-family screen; independent operation-search suggestions use textual/mathematical motif triggers. No implicit scientific correctness. Search-coverage counts exclude shared generic operations such as grenzfall or normalform so operator families are not inflated.",
   "hypothesis": "3 mathematical tensor types may recur; H1 equality/constraint, H2 evolution, H3 operator/representation — provisional screening classes, NOT mutually exclusive and NOT historical I/II/III proof.",
   "caveats": [
     "The original 103 tensor sketches have no verified paths/27-field mathematics, so reversible/partial/irreversible regimes CANNOT be classified tensor by tensor.",
@@ -39,7 +39,7 @@
     "search_coverage": {
       "discrete_logic": 10,
       "eq_transform": 44,
-      "ode_pde": 44,
+      "ode_pde": 7,
       "operator_map": 50,
       "probability": 6
     }
