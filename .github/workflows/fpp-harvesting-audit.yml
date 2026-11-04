@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "forschung/tensor/formeln/pilot50/**"
+      - "forschung/tensor/algebra-claude/suchmatrix_*"
       - "forschung/koordination/FPP_01_*"
       - "forschung/koordination/FPP_50_*"
       - "forschung/koordination/fpp_harvest_standards.py"
@@ -30,6 +31,11 @@ jobs:
         run: python -m pip install "sympy==1.14.0" "jsonschema>=4,<5"
       - name: Re-run all 50 formulas (source preserved)
         run: python forschung/tensor/formeln/pilot50/run50.py > /tmp/pilot50-reproduction.json
+      - name: Execute 25 algebraic search-matrix reference tests
+        run: python forschung/tensor/algebra-claude/suchmatrix_varianten_25.py > /tmp/algebra-searchmatrix25.json
+      - name: Validate reference-test count and PASS status
+        run: |
+          python -c "import json; d=json.load(open('/tmp/algebra-searchmatrix25.json')); assert d['summary']=={'total':25,'passed':25}, d['summary']"
       - name: Validate review events, 33 motifs and 57 impact drafts
         run: python scripts/check_fpp_pilot50.py
       - name: Draft standard / glossary impact (never merge)
@@ -41,4 +47,5 @@ jobs:
           path: |
             /tmp/pilot50-reproduction.json
             /tmp/fpp-standard-impact.json
+            /tmp/algebra-searchmatrix25.json
           retention-days: 14
