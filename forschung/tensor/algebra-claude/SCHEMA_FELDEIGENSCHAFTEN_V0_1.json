@@ -1,0 +1,280 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Tensor Field Classification v0.1 · proposal",
+  "description": "A field-index entry plus explicit evidential statuses; does not itself certify the existence of a mathematical tensor.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "tensor_id",
+    "tensor_version",
+    "field_address",
+    "source_refs",
+    "field_role",
+    "carrier",
+    "operator",
+    "inverse",
+    "evidence"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "tensor-field-properties/0.1"
+    },
+    "tensor_id": {
+      "type": "string",
+      "minLength": 2
+    },
+    "tensor_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "field_address": {
+      "type": "string",
+      "pattern": "^[1-3]-[1-3]-[1-3]$"
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "field_role": {
+      "type": "object",
+      "required": [
+        "original_roles",
+        "semantic_status"
+      ],
+      "properties": {
+        "original_roles": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": {
+            "type": "string"
+          }
+        },
+        "canonical_role_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "semantic_status": {
+          "enum": [
+            "not_assessed",
+            "candidate",
+            "typed",
+            "ambiguous",
+            "contradicted"
+          ]
+        }
+      }
+    },
+    "carrier": {
+      "type": "object",
+      "required": [
+        "type",
+        "status"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "unknown",
+            "scalar",
+            "vector",
+            "matrix",
+            "hilbert_space",
+            "distribution",
+            "manifold",
+            "graph",
+            "logical_proposition",
+            "function_space",
+            "other"
+          ]
+        },
+        "unit": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "dimension": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "domain": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "enum": [
+            "unknown",
+            "candidate",
+            "verified",
+            "rejected"
+          ]
+        }
+      }
+    },
+    "operator": {
+      "type": "object",
+      "required": [
+        "family",
+        "status"
+      ],
+      "properties": {
+        "family": {
+          "enum": [
+            "unknown",
+            "equation",
+            "definition",
+            "evolution",
+            "derivative",
+            "integral",
+            "matrix_map",
+            "tensor_product",
+            "contraction",
+            "projection",
+            "commutator",
+            "probability_measure",
+            "logic_relation",
+            "optimization",
+            "composition",
+            "other"
+          ]
+        },
+        "formula_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "enum": [
+            "unknown",
+            "candidate",
+            "symbolically_checked",
+            "domain_verified",
+            "refuted"
+          ]
+        }
+      }
+    },
+    "inverse": {
+      "type": "object",
+      "required": [
+        "kind",
+        "status"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "unknown",
+            "exact",
+            "conditional_or_multivalued",
+            "information_reducing",
+            "not_applicable"
+          ]
+        },
+        "conditions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "stable": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "status": {
+          "enum": [
+            "unknown",
+            "candidate",
+            "computed",
+            "independently_verified",
+            "refuted"
+          ]
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "required": [
+        "math_status",
+        "domain_status",
+        "review_status"
+      ],
+      "properties": {
+        "math_status": {
+          "enum": [
+            "not_assessed",
+            "candidate",
+            "symbolically_derived",
+            "counterchecked",
+            "independently_reproduced",
+            "refuted"
+          ]
+        },
+        "domain_status": {
+          "enum": [
+            "not_assessed",
+            "pending",
+            "accepted_in_domain",
+            "restricted_validity",
+            "refuted"
+          ]
+        },
+        "review_status": {
+          "enum": [
+            "unsubmitted",
+            "submitted",
+            "accepted",
+            "needs_evidence",
+            "rejected"
+          ]
+        }
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "related_field_id",
+          "relation_type",
+          "status"
+        ],
+        "properties": {
+          "related_field_id": {
+            "type": "string"
+          },
+          "relation_type": {
+            "enum": [
+              "lexical_match",
+              "equal",
+              "special_case",
+              "operator_compatible",
+              "isomorphic",
+              "homomorphic",
+              "incompatible",
+              "unknown"
+            ]
+          },
+          "status": {
+            "enum": [
+              "candidate",
+              "verified",
+              "rejected"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
