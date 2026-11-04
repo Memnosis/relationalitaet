@@ -1,0 +1,741 @@
+{
+  "schema": "typed-path-tensors-overlay/0.1",
+  "status": "reindex_of_claude_run_no_independent_p3",
+  "source": "forschung/tensor/algebra-claude/ALGEBRA_LAUF_V0_1.json",
+  "method": "Re-index exact existing 9 tensor summaries and 36 pair evaluations from Claude v0.1. No re-evaluation of original author source, and no new field claims.",
+  "statistics": {
+    "tensor_acts": 9,
+    "total_pairs": 36,
+    "has_any_declared_path": 7,
+    "no_path": 2,
+    "field_counts": [
+      {
+        "id": "T-NEUTRAL",
+        "fields": 18,
+        "paths": 0
+      },
+      {
+        "id": "T-HOLO",
+        "fields": 27,
+        "paths": 6
+      },
+      {
+        "id": "T-ZYKLUS",
+        "fields": 9,
+        "paths": 1
+      },
+      {
+        "id": "T-SOZ",
+        "fields": 27,
+        "paths": 0
+      },
+      {
+        "id": "T-SOZ19",
+        "fields": 27,
+        "paths": 5
+      },
+      {
+        "id": "T-FELD",
+        "fields": 7,
+        "paths": 2
+      },
+      {
+        "id": "T-LOGIK",
+        "fields": 27,
+        "paths": 3
+      },
+      {
+        "id": "T-BF",
+        "fields": 0,
+        "paths": 1
+      },
+      {
+        "id": "T-TM",
+        "fields": 0,
+        "paths": 1
+      }
+    ],
+    "classification": {
+      "spezialfall_t1_in_t2": 3,
+      "variante": 3,
+      "unbestimmt": 15,
+      "unabhaengig": 13,
+      "spezialfall_t2_in_t1": 2
+    },
+    "compositions": 10,
+    "candidate_compositions": 4
+  },
+  "tensor_summary": [
+    {
+      "id": "T-NEUTRAL",
+      "felder": 18,
+      "pfade": 0,
+      "typkonflikte": [],
+      "mehrfachtypen": [],
+      "field_completeness_ratio": 0.6666666666666666,
+      "has_paths": false,
+      "structure_status": "partial_field_positions",
+      "science_status": "not_verified"
+    },
+    {
+      "id": "T-HOLO",
+      "felder": 27,
+      "pfade": 6,
+      "typkonflikte": [],
+      "mehrfachtypen": [
+        {
+          "pfad": [
+            "NM-II-β",
+            "ZM-II-β",
+            "UM-II-β"
+          ],
+          "typen": [
+            "CYC",
+            "REC"
+          ]
+        }
+      ],
+      "field_completeness_ratio": 1,
+      "has_paths": true,
+      "structure_status": "27_field_positions_reported_not_proofs",
+      "science_status": "not_verified"
+    },
+    {
+      "id": "T-ZYKLUS",
+      "felder": 9,
+      "pfade": 1,
+      "typkonflikte": [],
+      "mehrfachtypen": [],
+      "field_completeness_ratio": 0.3333333333333333,
+      "has_paths": true,
+      "structure_status": "partial_field_positions",
+      "science_status": "not_verified"
+    },
+    {
+      "id": "T-SOZ",
+      "felder": 27,
+      "pfade": 0,
+      "typkonflikte": [],
+      "mehrfachtypen": [],
+      "field_completeness_ratio": 1,
+      "has_paths": false,
+      "structure_status": "27_field_positions_reported_not_proofs",
+      "science_status": "not_verified"
+    },
+    {
+      "id": "T-SOZ19",
+      "felder": 27,
+      "pfade": 5,
+      "typkonflikte": [],
+      "mehrfachtypen": [],
+      "field_completeness_ratio": 1,
+      "has_paths": true,
+      "structure_status": "27_field_positions_reported_not_proofs",
+      "science_status": "not_verified"
+    },
+    {
+      "id": "T-FELD",
+      "felder": 7,
+      "pfade": 2,
+      "typkonflikte": [],
+      "mehrfachtypen": [],
+      "field_completeness_ratio": 0.25925925925925924,
+      "has_paths": true,
+      "structure_status": "partial_field_positions",
+      "science_status": "not_verified"
+    },
+    {
+      "id": "T-LOGIK",
+      "felder": 27,
+      "pfade": 3,
+      "typkonflikte": [],
+      "mehrfachtypen": [],
+      "field_completeness_ratio": 1,
+      "has_paths": true,
+      "structure_status": "27_field_positions_reported_not_proofs",
+      "science_status": "not_verified"
+    },
+    {
+      "id": "T-BF",
+      "felder": 0,
+      "pfade": 1,
+      "typkonflikte": [],
+      "mehrfachtypen": [],
+      "field_completeness_ratio": 0,
+      "has_paths": true,
+      "structure_status": "no_fields_in_run",
+      "science_status": "not_verified"
+    },
+    {
+      "id": "T-TM",
+      "felder": 0,
+      "pfade": 1,
+      "typkonflikte": [],
+      "mehrfachtypen": [],
+      "field_completeness_ratio": 0,
+      "has_paths": true,
+      "structure_status": "no_fields_in_run",
+      "science_status": "not_verified"
+    }
+  ],
+  "pairwise": [
+    {
+      "tensor_ids": [
+        "T-BF",
+        "T-FELD"
+      ],
+      "relation": "spezialfall_t1_in_t2",
+      "common_paths": 1,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-BF",
+        "T-HOLO"
+      ],
+      "relation": "spezialfall_t1_in_t2",
+      "common_paths": 1,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-BF",
+        "T-LOGIK"
+      ],
+      "relation": "variante",
+      "common_paths": 0,
+      "variants": 1,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-BF",
+        "T-NEUTRAL"
+      ],
+      "relation": "unbestimmt",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-BF",
+        "T-SOZ"
+      ],
+      "relation": "unbestimmt",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-BF",
+        "T-SOZ19"
+      ],
+      "relation": "unabhaengig",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-BF",
+        "T-TM"
+      ],
+      "relation": "unabhaengig",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-BF",
+        "T-ZYKLUS"
+      ],
+      "relation": "unabhaengig",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-FELD",
+        "T-HOLO"
+      ],
+      "relation": "spezialfall_t1_in_t2",
+      "common_paths": 2,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-FELD",
+        "T-LOGIK"
+      ],
+      "relation": "variante",
+      "common_paths": 0,
+      "variants": 1,
+      "compositions": 1,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-FELD",
+        "T-NEUTRAL"
+      ],
+      "relation": "unbestimmt",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-FELD",
+        "T-SOZ"
+      ],
+      "relation": "unbestimmt",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-FELD",
+        "T-SOZ19"
+      ],
+      "relation": "unabhaengig",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-FELD",
+        "T-TM"
+      ],
+      "relation": "unabhaengig",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 1,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-FELD",
+        "T-ZYKLUS"
+      ],
+      "relation": "unabhaengig",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-HOLO",
+        "T-LOGIK"
+      ],
+      "relation": "variante",
+      "common_paths": 0,
+      "variants": 1,
+      "compositions": 3,
+      "composed_candidates": 3,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-HOLO",
+        "T-NEUTRAL"
+      ],
+      "relation": "unbestimmt",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-HOLO",
+        "T-SOZ"
+      ],
+      "relation": "unbestimmt",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-HOLO",
+        "T-SOZ19"
+      ],
+      "relation": "unabhaengig",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-HOLO",
+        "T-TM"
+      ],
+      "relation": "unabhaengig",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 3,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-HOLO",
+        "T-ZYKLUS"
+      ],
+      "relation": "unabhaengig",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-LOGIK",
+        "T-NEUTRAL"
+      ],
+      "relation": "unbestimmt",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-LOGIK",
+        "T-SOZ"
+      ],
+      "relation": "unbestimmt",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-LOGIK",
+        "T-SOZ19"
+      ],
+      "relation": "unabhaengig",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 1,
+      "composed_candidates": 1,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-LOGIK",
+        "T-TM"
+      ],
+      "relation": "spezialfall_t2_in_t1",
+      "common_paths": 1,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-LOGIK",
+        "T-ZYKLUS"
+      ],
+      "relation": "spezialfall_t2_in_t1",
+      "common_paths": 1,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-NEUTRAL",
+        "T-SOZ"
+      ],
+      "relation": "unbestimmt",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-NEUTRAL",
+        "T-SOZ19"
+      ],
+      "relation": "unbestimmt",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-NEUTRAL",
+        "T-TM"
+      ],
+      "relation": "unbestimmt",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-NEUTRAL",
+        "T-ZYKLUS"
+      ],
+      "relation": "unbestimmt",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-SOZ",
+        "T-SOZ19"
+      ],
+      "relation": "unbestimmt",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-SOZ",
+        "T-TM"
+      ],
+      "relation": "unbestimmt",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-SOZ",
+        "T-ZYKLUS"
+      ],
+      "relation": "unbestimmt",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-SOZ19",
+        "T-TM"
+      ],
+      "relation": "unabhaengig",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 1,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-SOZ19",
+        "T-ZYKLUS"
+      ],
+      "relation": "unabhaengig",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    },
+    {
+      "tensor_ids": [
+        "T-TM",
+        "T-ZYKLUS"
+      ],
+      "relation": "unabhaengig",
+      "common_paths": 0,
+      "variants": 0,
+      "compositions": 0,
+      "composed_candidates": 0,
+      "p3_deterministic": true,
+      "source": "ALGEBRA_LAUF_V0_1.json"
+    }
+  ],
+  "tensor_network_summary": [
+    {
+      "id": "T-BF",
+      "links": 8,
+      "same_or_subset": 2,
+      "variant": 1,
+      "uncertain": 2,
+      "independent": 3,
+      "compositions": 0
+    },
+    {
+      "id": "T-FELD",
+      "links": 8,
+      "same_or_subset": 2,
+      "variant": 1,
+      "uncertain": 2,
+      "independent": 3,
+      "compositions": 2
+    },
+    {
+      "id": "T-HOLO",
+      "links": 8,
+      "same_or_subset": 2,
+      "variant": 1,
+      "uncertain": 2,
+      "independent": 3,
+      "compositions": 6
+    },
+    {
+      "id": "T-LOGIK",
+      "links": 8,
+      "same_or_subset": 2,
+      "variant": 3,
+      "uncertain": 2,
+      "independent": 1,
+      "compositions": 5
+    },
+    {
+      "id": "T-NEUTRAL",
+      "links": 8,
+      "same_or_subset": 0,
+      "variant": 0,
+      "uncertain": 8,
+      "independent": 0,
+      "compositions": 0
+    },
+    {
+      "id": "T-SOZ",
+      "links": 8,
+      "same_or_subset": 0,
+      "variant": 0,
+      "uncertain": 8,
+      "independent": 0,
+      "compositions": 0
+    },
+    {
+      "id": "T-SOZ19",
+      "links": 8,
+      "same_or_subset": 0,
+      "variant": 0,
+      "uncertain": 2,
+      "independent": 6,
+      "compositions": 2
+    },
+    {
+      "id": "T-TM",
+      "links": 8,
+      "same_or_subset": 1,
+      "variant": 0,
+      "uncertain": 2,
+      "independent": 5,
+      "compositions": 5
+    },
+    {
+      "id": "T-ZYKLUS",
+      "links": 8,
+      "same_or_subset": 1,
+      "variant": 0,
+      "uncertain": 2,
+      "independent": 5,
+      "compositions": 0
+    }
+  ],
+  "warnings": [
+    "Some tensor acts have zero or partial fields; labels like 'gleich' concern declared path sequences only.",
+    "Typed path equality is not equality of underlying physical mathematical relations.",
+    "No verified 27-field mathematical tensor is proved by this run.",
+    "P3 deterministic in the same engine is not independent reproduction.",
+    "Cross tensor overlay only valid after source, axis and field semantics mapping."
+  ]
+}
