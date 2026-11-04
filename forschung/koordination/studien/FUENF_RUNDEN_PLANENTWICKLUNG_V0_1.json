@@ -1,0 +1,167 @@
+{
+  "schema_version": "five-round-plan-study/0.1-proposal",
+  "study_id": "STUDY-KI-PLAN-5R-2026-11-04",
+  "status": "proposed_peer_review_pending",
+  "as_of": "2026-11-04",
+  "full_research_cycles_claimed_completed": 0,
+  "baseline": {
+    "id": "B0",
+    "status": "documented_partial",
+    "snapshot_id": null,
+    "source_commit": "de503e574908b671d700e6c37e036aa6ff92338d",
+    "evidence": [
+      {
+        "id": "claude_reviews_gpt",
+        "path": "forschung/koordination/CLAUDE_ANALYSE_PLAN_GPT_V0_1.md",
+        "commit": "69dac2c372a6ff35809b41b2f43b5b2d0e1bd09d"
+      },
+      {
+        "id": "gpt_reviews_claude",
+        "path": "forschung/koordination/GPT_ANALYSE_PLAN_CLAUDE.md",
+        "commit": "ce76406550b16c375f5e66ab047898819a4ea903"
+      },
+      {
+        "id": "claude_plan",
+        "path": "forschung/koordination/AUFTRAG_UND_PLAN_CLAUDE_V0_1.md",
+        "commit": "7e0403a7adbd14f4b285036f7f5f0ac6d076269a"
+      },
+      {
+        "id": "pm_integration",
+        "path": "docs/data/projektmanagement-public-v2.json",
+        "commit": "dc6e3a9ea8d066639429ae784f06c4a411659f27"
+      },
+      {
+        "id": "review_queue",
+        "path": "forschung/koordination/REVIEW_QUEUE_V2.json",
+        "commit": "de503e574908b671d700e6c37e036aa6ff92338d"
+      }
+    ],
+    "observed_facts": {
+      "pm_internal_tasks": 6,
+      "pm_internal_implementation_count": 3,
+      "pm_internal_testing_count": 4,
+      "pm_internal_peer_review_count": 1,
+      "pm_internal_release_count": 0,
+      "fully_verified_research_cycles": 0,
+      "review_rev003": "closed_integrated",
+      "review_rev006": "awaiting_response",
+      "review_rev007": "awaiting_response",
+      "review_rev008": "awaiting_response"
+    },
+    "limits": [
+      "All baseline facts reflect named repository revisions and do not imply a full bilateral closure.",
+      "Historical Claude plan was edited in place; commit-pinned prior revision only.",
+      "No timestamp-derived latency, independent resource cost or comparative productivity established."
+    ]
+  },
+  "plans": [
+    {
+      "plan_id": "PLAN-GPT-PORTFOLIO",
+      "latest_evidence_path": "forschung/koordination/GPT_ANALYSE_PLAN_CLAUDE.md",
+      "latest_evidence_commit": "ce76406550b16c375f5e66ab047898819a4ea903",
+      "canonical_version": "pending",
+      "review_status": "partially_peer_reviewed"
+    },
+    {
+      "plan_id": "PLAN-CLAUDE-FORSCHUNG",
+      "latest_evidence_path": "forschung/koordination/AUFTRAG_UND_PLAN_CLAUDE_V0_1.md",
+      "latest_evidence_commit": "de503e574908b671d700e6c37e036aa6ff92338d",
+      "canonical_version": "pending",
+      "review_status": "partially_peer_reviewed"
+    },
+    {
+      "plan_id": "PLAN-GEMEINSAM",
+      "canonical_version": "pending",
+      "review_status": "not_jointly_approved"
+    }
+  ],
+  "rounds": [
+    {
+      "round_id": "P1",
+      "hypothesis": "Plan supersession and decision consistency",
+      "status": "not_started",
+      "plan_versions": [],
+      "gpt_self_review": null,
+      "claude_self_review": null,
+      "gpt_peer_review": null,
+      "claude_peer_review": null,
+      "metrics": {},
+      "result": null
+    },
+    {
+      "round_id": "P2",
+      "hypothesis": "Communication backlog and duplicate request reduction",
+      "status": "not_started",
+      "plan_versions": [],
+      "gpt_self_review": null,
+      "claude_self_review": null,
+      "gpt_peer_review": null,
+      "claude_peer_review": null,
+      "metrics": {},
+      "result": null
+    },
+    {
+      "round_id": "P3",
+      "hypothesis": "Scientific testing yield and negative-case validation",
+      "status": "not_started",
+      "plan_versions": [],
+      "gpt_self_review": null,
+      "claude_self_review": null,
+      "gpt_peer_review": null,
+      "claude_peer_review": null,
+      "metrics": {},
+      "result": null
+    },
+    {
+      "round_id": "P4",
+      "hypothesis": "Website and research state integration with usability",
+      "status": "not_started",
+      "plan_versions": [],
+      "gpt_self_review": null,
+      "claude_self_review": null,
+      "gpt_peer_review": null,
+      "claude_peer_review": null,
+      "metrics": {},
+      "result": null
+    },
+    {
+      "round_id": "P5",
+      "hypothesis": "Efficiency ablation and exchange benefit",
+      "status": "not_started",
+      "plan_versions": [],
+      "gpt_self_review": null,
+      "claude_self_review": null,
+      "gpt_peer_review": null,
+      "claude_peer_review": null,
+      "metrics": {},
+      "result": null
+    }
+  ],
+  "metrics_definitions": [
+    "review_latency",
+    "backlog",
+    "duplicate_request_rate",
+    "rework_rate",
+    "cross_review_coverage",
+    "scientific_yield",
+    "test_reliability",
+    "integration_fidelity",
+    "safety_violations",
+    "effort_cost",
+    "dependency_unlock",
+    "reader_user_utility",
+    "plan_churn",
+    "disagreement_quality"
+  ],
+  "gates": {
+    "both_plans_commit_pinned": true,
+    "both_self_reviews": true,
+    "both_peer_reviews": true,
+    "recorded_dissent": true,
+    "verified_measurements": true,
+    "privacy_check": true,
+    "version_diff": true,
+    "do_not_count_as_research_cycle": true
+  },
+  "future_action": "Claude peer review then jointly approve protocol before interpreting five iterations as evidence."
+}
