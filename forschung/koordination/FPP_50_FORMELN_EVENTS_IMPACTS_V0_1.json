@@ -1,0 +1,955 @@
+{
+  "schema_version": "fpp50-batch/0.1",
+  "status": "events_generated_impact_pending_review",
+  "date": "2026-11-04T05:32:22.532Z",
+  "source_analysis": "forschung/tensor/formeln/pilot50/PILOT50_GESAMTANALYSE_ABLAUF_UND_ERGEBNISSE_V0_1.md",
+  "events": [
+    {
+      "schema_version": "fpp-event/0.1",
+      "event_id": "EVT-P50-REL50-WORK-POWER",
+      "object_id": "REL50-WORK-POWER",
+      "object_type": "relation",
+      "object_version": "0.1",
+      "event_type": "derived",
+      "actor": {
+        "id": "gpt",
+        "type": "software_agent",
+        "software_version": "GPT-6"
+      },
+      "timestamp": "2026-11-04T05:32:22.532Z",
+      "source_refs": [
+        "forschung/tensor/formeln/pilot50/PILOT50_GESAMTANALYSE_ABLAUF_UND_ERGEBNISSE_V0_1.md",
+        "forschung/tensor/algebra-claude/FORMELN50_GPT_RELATIONEN_V0_1.json",
+        "F025",
+        "F026",
+        "F027"
+      ],
+      "input_hashes": [],
+      "result": {
+        "summary": "P=F*v",
+        "artifact_ref": "forschung/tensor/algebra-claude/FORMELN50_GPT_RELATIONEN_V0_1.json"
+      },
+      "math_status": "counterchecked",
+      "domain_status": "pending",
+      "review_status": "unsubmitted",
+      "visibility": "internal",
+      "intended_destinations": [
+        "tensor_algebra",
+        "harvesting_page",
+        "relevant_tensors",
+        "glossary_review",
+        "source_review",
+        "method_paper"
+      ],
+      "related_ids": [
+        "F025",
+        "F026",
+        "F027"
+      ],
+      "required_tests": [
+        "semantic_quantity_identity",
+        "domain_guard",
+        "independent_replication",
+        "editorial_approval"
+      ]
+    },
+    {
+      "schema_version": "fpp-event/0.1",
+      "event_id": "EVT-P50-REL50-OHM-JOULE",
+      "object_id": "REL50-OHM-JOULE",
+      "object_type": "relation",
+      "object_version": "0.1",
+      "event_type": "derived",
+      "actor": {
+        "id": "gpt",
+        "type": "software_agent",
+        "software_version": "GPT-6"
+      },
+      "timestamp": "2026-11-04T05:32:22.532Z",
+      "source_refs": [
+        "forschung/tensor/formeln/pilot50/PILOT50_GESAMTANALYSE_ABLAUF_UND_ERGEBNISSE_V0_1.md",
+        "forschung/tensor/algebra-claude/FORMELN50_GPT_RELATIONEN_V0_1.json",
+        "F031",
+        "F032",
+        "F033"
+      ],
+      "input_hashes": [],
+      "result": {
+        "summary": "P=R*I**2",
+        "artifact_ref": "forschung/tensor/algebra-claude/FORMELN50_GPT_RELATIONEN_V0_1.json"
+      },
+      "math_status": "counterchecked",
+      "domain_status": "pending",
+      "review_status": "unsubmitted",
+      "visibility": "internal",
+      "intended_destinations": [
+        "tensor_algebra",
+        "harvesting_page",
+        "relevant_tensors",
+        "glossary_review",
+        "source_review",
+        "method_paper"
+      ],
+      "related_ids": [
+        "F031",
+        "F032",
+        "F033"
+      ],
+      "required_tests": [
+        "semantic_quantity_identity",
+        "domain_guard",
+        "independent_replication",
+        "editorial_approval"
+      ]
+    },
+    {
+      "schema_version": "fpp-event/0.1",
+      "event_id": "EVT-P50-REL50-MOLAR",
+      "object_id": "REL50-MOLAR",
+      "object_type": "relation",
+      "object_version": "0.1",
+      "event_type": "derived",
+      "actor": {
+        "id": "gpt",
+        "type": "software_agent",
+        "software_version": "GPT-6"
+      },
+      "timestamp": "2026-11-04T05:32:22.532Z",
+      "source_refs": [
+        "forschung/tensor/formeln/pilot50/PILOT50_GESAMTANALYSE_ABLAUF_UND_ERGEBNISSE_V0_1.md",
+        "forschung/tensor/algebra-claude/FORMELN50_GPT_RELATIONEN_V0_1.json",
+        "F044",
+        "F080",
+        "F081"
+      ],
+      "input_hashes": [],
+      "result": {
+        "summary": "rho=c*M",
+        "artifact_ref": "forschung/tensor/algebra-claude/FORMELN50_GPT_RELATIONEN_V0_1.json"
+      },
+      "math_status": "counterchecked",
+      "domain_status": "pending",
+      "review_status": "unsubmitted",
+      "visibility": "internal",
+      "intended_destinations": [
+        "tensor_algebra",
+        "harvesting_page",
+        "relevant_tensors",
+        "glossary_review",
+        "source_review",
+        "method_paper"
+      ],
+      "related_ids": [
+        "F044",
+        "F080",
+        "F081"
+      ],
+      "required_tests": [
+        "semantic_quantity_identity",
+        "domain_guard",
+        "independent_replication",
+        "editorial_approval"
+      ]
+    },
+    {
+      "schema_version": "fpp-event/0.1",
+      "event_id": "EVT-P50-REL50-MOMENTUM-ENERGY",
+      "object_id": "REL50-MOMENTUM-ENERGY",
+      "object_type": "relation",
+      "object_version": "0.1",
+      "event_type": "derived",
+      "actor": {
+        "id": "gpt",
+        "type": "software_agent",
+        "software_version": "GPT-6"
+      },
+      "timestamp": "2026-11-04T05:32:22.532Z",
+      "source_refs": [
+        "forschung/tensor/formeln/pilot50/PILOT50_GESAMTANALYSE_ABLAUF_UND_ERGEBNISSE_V0_1.md",
+        "forschung/tensor/algebra-claude/FORMELN50_GPT_RELATIONEN_V0_1.json",
+        "F022",
+        "F023"
+      ],
+      "input_hashes": [],
+      "result": {
+        "summary": "E_kin=p**2/(2*m)",
+        "artifact_ref": "forschung/tensor/algebra-claude/FORMELN50_GPT_RELATIONEN_V0_1.json"
+      },
+      "math_status": "counterchecked",
+      "domain_status": "pending",
+      "review_status": "unsubmitted",
+      "visibility": "internal",
+      "intended_destinations": [
+        "tensor_algebra",
+        "harvesting_page",
+        "relevant_tensors",
+        "glossary_review",
+        "source_review",
+        "method_paper"
+      ],
+      "related_ids": [
+        "F022",
+        "F023"
+      ],
+      "required_tests": [
+        "semantic_quantity_identity",
+        "domain_guard",
+        "independent_replication",
+        "editorial_approval"
+      ]
+    },
+    {
+      "schema_version": "fpp-event/0.1",
+      "event_id": "EVT-P50-REL50-STAR-GENERIC",
+      "object_id": "REL50-STAR-GENERIC",
+      "object_type": "relation",
+      "object_version": "0.1",
+      "event_type": "derived",
+      "actor": {
+        "id": "gpt",
+        "type": "software_agent",
+        "software_version": "GPT-6"
+      },
+      "timestamp": "2026-11-04T05:32:22.532Z",
+      "source_refs": [
+        "forschung/tensor/formeln/pilot50/PILOT50_GESAMTANALYSE_ABLAUF_UND_ERGEBNISSE_V0_1.md",
+        "forschung/tensor/algebra-claude/FORMELN50_GPT_RELATIONEN_V0_1.json"
+      ],
+      "input_hashes": [],
+      "result": {
+        "summary": "A*B=C*D",
+        "artifact_ref": "forschung/tensor/algebra-claude/FORMELN50_GPT_RELATIONEN_V0_1.json"
+      },
+      "math_status": "counterchecked",
+      "domain_status": "pending",
+      "review_status": "unsubmitted",
+      "visibility": "internal",
+      "intended_destinations": [
+        "tensor_algebra",
+        "harvesting_page",
+        "relevant_tensors",
+        "glossary_review",
+        "source_review",
+        "method_paper"
+      ],
+      "related_ids": [],
+      "required_tests": [
+        "semantic_quantity_identity",
+        "domain_guard",
+        "independent_replication",
+        "editorial_approval"
+      ]
+    },
+    {
+      "schema_version": "fpp-event/0.1",
+      "event_id": "EVT-P50-ISSUE50-UNCERTAINTY",
+      "object_id": "ISSUE50-UNCERTAINTY",
+      "object_type": "analysis",
+      "object_version": "0.1",
+      "event_type": "counterchecked",
+      "actor": {
+        "id": "gpt",
+        "type": "software_agent",
+        "software_version": "GPT-6"
+      },
+      "timestamp": "2026-11-04T05:32:22.532Z",
+      "source_refs": [
+        "forschung/tensor/formeln/pilot50/PILOT50_GESAMTANALYSE_ABLAUF_UND_ERGEBNISSE_V0_1.md",
+        "forschung/tensor/algebra-claude/FORMELN50_GPT_RELATIONEN_V0_1.json",
+        "F065"
+      ],
+      "input_hashes": [],
+      "result": {
+        "summary": "General uncertainty relation is an inequality, not an equality; corpus entry needs source/context correction.",
+        "artifact_ref": "forschung/tensor/formeln/pilot50/PILOT50_GESAMTANALYSE_ABLAUF_UND_ERGEBNISSE_V0_1.md"
+      },
+      "math_status": "not_assessed",
+      "domain_status": "pending",
+      "review_status": "unsubmitted",
+      "visibility": "internal",
+      "intended_destinations": [
+        "tensor_algebra",
+        "source_register",
+        "glossary_review",
+        "method_paper"
+      ],
+      "related_ids": [
+        "F065"
+      ],
+      "required_tests": [
+        "semantic_quantity_identity",
+        "domain_guard",
+        "independent_replication",
+        "editorial_approval"
+      ]
+    },
+    {
+      "schema_version": "fpp-event/0.1",
+      "event_id": "EVT-P50-ISSUE50-ENERGY",
+      "object_id": "ISSUE50-ENERGY",
+      "object_type": "analysis",
+      "object_version": "0.1",
+      "event_type": "counterchecked",
+      "actor": {
+        "id": "gpt",
+        "type": "software_agent",
+        "software_version": "GPT-6"
+      },
+      "timestamp": "2026-11-04T05:32:22.532Z",
+      "source_refs": [
+        "forschung/tensor/formeln/pilot50/PILOT50_GESAMTANALYSE_ABLAUF_UND_ERGEBNISSE_V0_1.md",
+        "forschung/tensor/algebra-claude/FORMELN50_GPT_RELATIONEN_V0_1.json",
+        "F023",
+        "F037"
+      ],
+      "input_hashes": [],
+      "result": {
+        "summary": "Kinetic energy and rest energy share the generic label Energie but cannot simply be identified.",
+        "artifact_ref": "forschung/tensor/formeln/pilot50/PILOT50_GESAMTANALYSE_ABLAUF_UND_ERGEBNISSE_V0_1.md"
+      },
+      "math_status": "not_assessed",
+      "domain_status": "pending",
+      "review_status": "unsubmitted",
+      "visibility": "internal",
+      "intended_destinations": [
+        "tensor_algebra",
+        "source_register",
+        "glossary_review",
+        "method_paper"
+      ],
+      "related_ids": [
+        "F023",
+        "F037"
+      ],
+      "required_tests": [
+        "semantic_quantity_identity",
+        "domain_guard",
+        "independent_replication",
+        "editorial_approval"
+      ]
+    },
+    {
+      "schema_version": "fpp-event/0.1",
+      "event_id": "EVT-P50-ISSUE50-MASS",
+      "object_id": "ISSUE50-MASS",
+      "object_type": "analysis",
+      "object_version": "0.1",
+      "event_type": "counterchecked",
+      "actor": {
+        "id": "gpt",
+        "type": "software_agent",
+        "software_version": "GPT-6"
+      },
+      "timestamp": "2026-11-04T05:32:22.532Z",
+      "source_refs": [
+        "forschung/tensor/formeln/pilot50/PILOT50_GESAMTANALYSE_ABLAUF_UND_ERGEBNISSE_V0_1.md",
+        "forschung/tensor/algebra-claude/FORMELN50_GPT_RELATIONEN_V0_1.json",
+        "F021",
+        "F080"
+      ],
+      "input_hashes": [],
+      "result": {
+        "summary": "Masse across mechanics and molar substance formulas requires identity of substance/object and reference system.",
+        "artifact_ref": "forschung/tensor/formeln/pilot50/PILOT50_GESAMTANALYSE_ABLAUF_UND_ERGEBNISSE_V0_1.md"
+      },
+      "math_status": "not_assessed",
+      "domain_status": "pending",
+      "review_status": "unsubmitted",
+      "visibility": "internal",
+      "intended_destinations": [
+        "tensor_algebra",
+        "source_register",
+        "glossary_review",
+        "method_paper"
+      ],
+      "related_ids": [
+        "F021",
+        "F080"
+      ],
+      "required_tests": [
+        "semantic_quantity_identity",
+        "domain_guard",
+        "independent_replication",
+        "editorial_approval"
+      ]
+    },
+    {
+      "schema_version": "fpp-event/0.1",
+      "event_id": "EVT-P50-ISSUE50-QUADRATIC",
+      "object_id": "ISSUE50-QUADRATIC",
+      "object_type": "analysis",
+      "object_version": "0.1",
+      "event_type": "counterchecked",
+      "actor": {
+        "id": "gpt",
+        "type": "software_agent",
+        "software_version": "GPT-6"
+      },
+      "timestamp": "2026-11-04T05:32:22.532Z",
+      "source_refs": [
+        "forschung/tensor/formeln/pilot50/PILOT50_GESAMTANALYSE_ABLAUF_UND_ERGEBNISSE_V0_1.md",
+        "forschung/tensor/algebra-claude/FORMELN50_GPT_RELATIONEN_V0_1.json",
+        "F005"
+      ],
+      "input_hashes": [],
+      "result": {
+        "summary": "One quadratic root is listed, not the complete pair; a != 0 and discriminant/complex domain are required.",
+        "artifact_ref": "forschung/tensor/formeln/pilot50/PILOT50_GESAMTANALYSE_ABLAUF_UND_ERGEBNISSE_V0_1.md"
+      },
+      "math_status": "not_assessed",
+      "domain_status": "pending",
+      "review_status": "unsubmitted",
+      "visibility": "internal",
+      "intended_destinations": [
+        "tensor_algebra",
+        "source_register",
+        "glossary_review",
+        "method_paper"
+      ],
+      "related_ids": [
+        "F005"
+      ],
+      "required_tests": [
+        "semantic_quantity_identity",
+        "domain_guard",
+        "independent_replication",
+        "editorial_approval"
+      ]
+    },
+    {
+      "schema_version": "fpp-event/0.1",
+      "event_id": "EVT-P50-ISSUE50-EULER",
+      "object_id": "ISSUE50-EULER",
+      "object_type": "analysis",
+      "object_version": "0.1",
+      "event_type": "counterchecked",
+      "actor": {
+        "id": "gpt",
+        "type": "software_agent",
+        "software_version": "GPT-6"
+      },
+      "timestamp": "2026-11-04T05:32:22.532Z",
+      "source_refs": [
+        "forschung/tensor/formeln/pilot50/PILOT50_GESAMTANALYSE_ABLAUF_UND_ERGEBNISSE_V0_1.md",
+        "forschung/tensor/algebra-claude/FORMELN50_GPT_RELATIONEN_V0_1.json",
+        "F006"
+      ],
+      "input_hashes": [],
+      "result": {
+        "summary": "Euler V-E+F=2 assumes suitable connected genus-zero polyhedral topology.",
+        "artifact_ref": "forschung/tensor/formeln/pilot50/PILOT50_GESAMTANALYSE_ABLAUF_UND_ERGEBNISSE_V0_1.md"
+      },
+      "math_status": "not_assessed",
+      "domain_status": "pending",
+      "review_status": "unsubmitted",
+      "visibility": "internal",
+      "intended_destinations": [
+        "tensor_algebra",
+        "source_register",
+        "glossary_review",
+        "method_paper"
+      ],
+      "related_ids": [
+        "F006"
+      ],
+      "required_tests": [
+        "semantic_quantity_identity",
+        "domain_guard",
+        "independent_replication",
+        "editorial_approval"
+      ]
+    },
+    {
+      "schema_version": "fpp-event/0.1",
+      "event_id": "EVT-P50-ISSUE50-GROWTH",
+      "object_id": "ISSUE50-GROWTH",
+      "object_type": "analysis",
+      "object_version": "0.1",
+      "event_type": "counterchecked",
+      "actor": {
+        "id": "gpt",
+        "type": "software_agent",
+        "software_version": "GPT-6"
+      },
+      "timestamp": "2026-11-04T05:32:22.532Z",
+      "source_refs": [
+        "forschung/tensor/formeln/pilot50/PILOT50_GESAMTANALYSE_ABLAUF_UND_ERGEBNISSE_V0_1.md",
+        "forschung/tensor/algebra-claude/FORMELN50_GPT_RELATIONEN_V0_1.json",
+        "F017",
+        "F018"
+      ],
+      "input_hashes": [],
+      "result": {
+        "summary": "Exponential and logistic growth are distinct models; do not merge matching N(t), r into one universal equation.",
+        "artifact_ref": "forschung/tensor/formeln/pilot50/PILOT50_GESAMTANALYSE_ABLAUF_UND_ERGEBNISSE_V0_1.md"
+      },
+      "math_status": "not_assessed",
+      "domain_status": "pending",
+      "review_status": "unsubmitted",
+      "visibility": "internal",
+      "intended_destinations": [
+        "tensor_algebra",
+        "source_register",
+        "glossary_review",
+        "method_paper"
+      ],
+      "related_ids": [
+        "F017",
+        "F018"
+      ],
+      "required_tests": [
+        "semantic_quantity_identity",
+        "domain_guard",
+        "independent_replication",
+        "editorial_approval"
+      ]
+    },
+    {
+      "schema_version": "fpp-event/0.1",
+      "event_id": "EVT-P50-ANA-P50-SUMMARY",
+      "object_id": "ANA-P50-SUMMARY",
+      "object_type": "analysis",
+      "object_version": "0.1",
+      "event_type": "derived",
+      "actor": {
+        "id": "gpt",
+        "type": "software_agent",
+        "software_version": "GPT-6"
+      },
+      "timestamp": "2026-11-04T05:32:22.532Z",
+      "source_refs": [
+        "forschung/tensor/formeln/pilot50/PILOT50_GESAMTANALYSE_ABLAUF_UND_ERGEBNISSE_V0_1.md",
+        "forschung/tensor/algebra-claude/FORMELN50_GPT_RELATIONEN_V0_1.json"
+      ],
+      "input_hashes": [],
+      "result": {
+        "summary": "50 parsed, 21 ternary symbol patterns, 33 linked triples; no fully validated tensor",
+        "artifact_ref": "forschung/tensor/formeln/pilot50/PILOT50_GESAMTANALYSE_ABLAUF_UND_ERGEBNISSE_V0_1.md"
+      },
+      "math_status": "not_assessed",
+      "domain_status": "pending",
+      "review_status": "unsubmitted",
+      "visibility": "internal",
+      "intended_destinations": [
+        "methods_paper",
+        "harvesting_page",
+        "public_research_inventory"
+      ],
+      "related_ids": [],
+      "required_tests": [
+        "semantic_quantity_identity",
+        "domain_guard",
+        "independent_replication",
+        "editorial_approval"
+      ]
+    }
+  ],
+  "impacts": [
+    {
+      "event_id": "EVT-P50-REL50-WORK-POWER",
+      "object_id": "REL50-WORK-POWER",
+      "target": "tensor_algebra",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-WORK-POWER",
+      "object_id": "REL50-WORK-POWER",
+      "target": "harvesting_page",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-WORK-POWER",
+      "object_id": "REL50-WORK-POWER",
+      "target": "relevant_tensors",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-WORK-POWER",
+      "object_id": "REL50-WORK-POWER",
+      "target": "glossary_review",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-WORK-POWER",
+      "object_id": "REL50-WORK-POWER",
+      "target": "source_review",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-WORK-POWER",
+      "object_id": "REL50-WORK-POWER",
+      "target": "method_paper",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-OHM-JOULE",
+      "object_id": "REL50-OHM-JOULE",
+      "target": "tensor_algebra",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-OHM-JOULE",
+      "object_id": "REL50-OHM-JOULE",
+      "target": "harvesting_page",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-OHM-JOULE",
+      "object_id": "REL50-OHM-JOULE",
+      "target": "relevant_tensors",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-OHM-JOULE",
+      "object_id": "REL50-OHM-JOULE",
+      "target": "glossary_review",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-OHM-JOULE",
+      "object_id": "REL50-OHM-JOULE",
+      "target": "source_review",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-OHM-JOULE",
+      "object_id": "REL50-OHM-JOULE",
+      "target": "method_paper",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-MOLAR",
+      "object_id": "REL50-MOLAR",
+      "target": "tensor_algebra",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-MOLAR",
+      "object_id": "REL50-MOLAR",
+      "target": "harvesting_page",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-MOLAR",
+      "object_id": "REL50-MOLAR",
+      "target": "relevant_tensors",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-MOLAR",
+      "object_id": "REL50-MOLAR",
+      "target": "glossary_review",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-MOLAR",
+      "object_id": "REL50-MOLAR",
+      "target": "source_review",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-MOLAR",
+      "object_id": "REL50-MOLAR",
+      "target": "method_paper",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-MOMENTUM-ENERGY",
+      "object_id": "REL50-MOMENTUM-ENERGY",
+      "target": "tensor_algebra",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-MOMENTUM-ENERGY",
+      "object_id": "REL50-MOMENTUM-ENERGY",
+      "target": "harvesting_page",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-MOMENTUM-ENERGY",
+      "object_id": "REL50-MOMENTUM-ENERGY",
+      "target": "relevant_tensors",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-MOMENTUM-ENERGY",
+      "object_id": "REL50-MOMENTUM-ENERGY",
+      "target": "glossary_review",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-MOMENTUM-ENERGY",
+      "object_id": "REL50-MOMENTUM-ENERGY",
+      "target": "source_review",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-MOMENTUM-ENERGY",
+      "object_id": "REL50-MOMENTUM-ENERGY",
+      "target": "method_paper",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-STAR-GENERIC",
+      "object_id": "REL50-STAR-GENERIC",
+      "target": "tensor_algebra",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-STAR-GENERIC",
+      "object_id": "REL50-STAR-GENERIC",
+      "target": "harvesting_page",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-STAR-GENERIC",
+      "object_id": "REL50-STAR-GENERIC",
+      "target": "relevant_tensors",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-STAR-GENERIC",
+      "object_id": "REL50-STAR-GENERIC",
+      "target": "glossary_review",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-STAR-GENERIC",
+      "object_id": "REL50-STAR-GENERIC",
+      "target": "source_review",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-REL50-STAR-GENERIC",
+      "object_id": "REL50-STAR-GENERIC",
+      "target": "method_paper",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ISSUE50-UNCERTAINTY",
+      "object_id": "ISSUE50-UNCERTAINTY",
+      "target": "tensor_algebra",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ISSUE50-UNCERTAINTY",
+      "object_id": "ISSUE50-UNCERTAINTY",
+      "target": "source_register",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ISSUE50-UNCERTAINTY",
+      "object_id": "ISSUE50-UNCERTAINTY",
+      "target": "glossary_review",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ISSUE50-UNCERTAINTY",
+      "object_id": "ISSUE50-UNCERTAINTY",
+      "target": "method_paper",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ISSUE50-ENERGY",
+      "object_id": "ISSUE50-ENERGY",
+      "target": "tensor_algebra",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ISSUE50-ENERGY",
+      "object_id": "ISSUE50-ENERGY",
+      "target": "source_register",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ISSUE50-ENERGY",
+      "object_id": "ISSUE50-ENERGY",
+      "target": "glossary_review",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ISSUE50-ENERGY",
+      "object_id": "ISSUE50-ENERGY",
+      "target": "method_paper",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ISSUE50-MASS",
+      "object_id": "ISSUE50-MASS",
+      "target": "tensor_algebra",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ISSUE50-MASS",
+      "object_id": "ISSUE50-MASS",
+      "target": "source_register",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ISSUE50-MASS",
+      "object_id": "ISSUE50-MASS",
+      "target": "glossary_review",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ISSUE50-MASS",
+      "object_id": "ISSUE50-MASS",
+      "target": "method_paper",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ISSUE50-QUADRATIC",
+      "object_id": "ISSUE50-QUADRATIC",
+      "target": "tensor_algebra",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ISSUE50-QUADRATIC",
+      "object_id": "ISSUE50-QUADRATIC",
+      "target": "source_register",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ISSUE50-QUADRATIC",
+      "object_id": "ISSUE50-QUADRATIC",
+      "target": "glossary_review",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ISSUE50-QUADRATIC",
+      "object_id": "ISSUE50-QUADRATIC",
+      "target": "method_paper",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ISSUE50-EULER",
+      "object_id": "ISSUE50-EULER",
+      "target": "tensor_algebra",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ISSUE50-EULER",
+      "object_id": "ISSUE50-EULER",
+      "target": "source_register",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ISSUE50-EULER",
+      "object_id": "ISSUE50-EULER",
+      "target": "glossary_review",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ISSUE50-EULER",
+      "object_id": "ISSUE50-EULER",
+      "target": "method_paper",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ISSUE50-GROWTH",
+      "object_id": "ISSUE50-GROWTH",
+      "target": "tensor_algebra",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ISSUE50-GROWTH",
+      "object_id": "ISSUE50-GROWTH",
+      "target": "source_register",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ISSUE50-GROWTH",
+      "object_id": "ISSUE50-GROWTH",
+      "target": "glossary_review",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ISSUE50-GROWTH",
+      "object_id": "ISSUE50-GROWTH",
+      "target": "method_paper",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ANA-P50-SUMMARY",
+      "object_id": "ANA-P50-SUMMARY",
+      "target": "methods_paper",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ANA-P50-SUMMARY",
+      "object_id": "ANA-P50-SUMMARY",
+      "target": "harvesting_page",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    },
+    {
+      "event_id": "EVT-P50-ANA-P50-SUMMARY",
+      "object_id": "ANA-P50-SUMMARY",
+      "target": "public_research_inventory",
+      "state": "draft_impact_unreviewed",
+      "automatic_merge": false
+    }
+  ],
+  "statistics": {
+    "events": 12,
+    "impacts": 57,
+    "math_claims_not_domain_approved": 5,
+    "negative_findings": 6
+  },
+  "no_loss_policy": "No historic source, glossary or published paper modified; drafts require source/semantic and editorial review"
+}
