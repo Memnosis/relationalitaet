@@ -1,10 +1,29 @@
-<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tensor verstehen: Mathematik, Prozesse und Relationen</title><link rel="stylesheet" href="./assets/tensor-design.css"><style>body{background:var(--tensor-bg);color:var(--tensor-text);font:17px/1.6 system-ui,sans-serif;margin:0}header,main,footer{max-width:1020px;margin:auto;padding:24px}h1{font-size:clamp(2rem,4vw,3.2rem)}a{color:var(--tensor-accent)}.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:20px}.tag{font-size:.8rem;color:var(--tensor-muted)}.donut{width:100%;max-width:340px;height:auto}.key{display:flex;gap:10px;flex-wrap:wrap}.key span{padding:5px 10px;border:1px solid var(--tensor-line);border-radius:7px}</style><link rel="stylesheet" href="./assets/mitmachen.css"><link rel="stylesheet" href="./assets/tensor-navigation.css"><link rel="stylesheet" href="./assets/site-relations.css"><link rel="stylesheet" href="./assets/tensor-hierarchy.css"><script src="./assets/tensor-hierarchy.js" defer></script><link rel="stylesheet" href="./assets/tensor-learning-modules.css"><link rel="stylesheet" href="./assets/thesen-evidenz.css"><script src="./assets/thesen-evidenz.js" defer></script></head><body><header class="tensor-global-nav"><div class="tensor-nav-inner"><a class="tensor-brand" href="./index.html"><img src="./assets/media/tensor-triquetra.svg" alt="">Tensor</a><nav aria-label="Hauptnavigation"><a href="./index.html">Start</a><a href="./minimal-ki.html">Mini-KI</a><a href="./geoki.html">Geo-KI</a><a href="./tensor-einfuehrung.html" aria-current="page">Tensor</a><a href="./tensoralgebra.html">Algebra</a><a href="./bibliothek.html">Forschung</a><a href="./projektstand.html">Projekte</a><a href="./medien.html">Medien</a><a href="./mitmachen.html" class="tensor-nav-join">Mitmachen</a></nav></div></header><main>
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tensor verstehen: Mathematik, Prozesse und Relationen</title><link rel="stylesheet" href="./assets/tensor-design.css"><style>body{background:var(--tensor-bg);color:var(--tensor-text);font:17px/1.6 system-ui,sans-serif;margin:0}header,main,footer{max-width:1020px;margin:auto;padding:24px}h1{font-size:clamp(2rem,4vw,3.2rem)}a{color:var(--tensor-accent)}.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:20px}.tag{font-size:.8rem;color:var(--tensor-muted)}.donut{width:100%;max-width:340px;height:auto}.key{display:flex;gap:10px;flex-wrap:wrap}.key span{padding:5px 10px;border:1px solid var(--tensor-line);border-radius:7px}</style><link rel="stylesheet" href="./assets/mitmachen.css"><link rel="stylesheet" href="./assets/tensor-navigation.css"><link rel="stylesheet" href="./assets/site-relations.css"><link rel="stylesheet" href="./assets/tensor-hierarchy.css"><script src="./assets/tensor-hierarchy.js" defer></script><link rel="stylesheet" href="./assets/tensor-learning-modules.css"><link rel="stylesheet" href="./assets/thesen-evidenz.css"><script src="./assets/thesen-evidenz.js" defer></script><style>
+/* Didaktische Tensor-Grafikgrammatik: alle Visualisierungen sind erklärend und ohne externe Bibliotheken lesbar */
+.tns-lead-nav{display:flex;gap:9px;flex-wrap:wrap;margin:18px 0 26px}.tns-lead-nav a,.tns-links a{border:1px solid var(--tensor-line,#aac2c9);padding:8px 11px;border-radius:9px;text-decoration:none}
+.tns-figure{border:1px solid var(--tensor-line,#aabfc4);border-radius:15px;padding:clamp(13px,2vw,22px);background:var(--tensor-surface,#fff);margin:20px 0}
+.tns-figure svg{display:block;max-width:100%;height:auto;margin:auto}.tns-figure figcaption,.tns-note{color:var(--tensor-muted,#435961);font-size:.89rem;margin:12px 0 0}
+.tns-workgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:14px}.tns-workgrid>article{border:1px solid var(--tensor-line,#aac2c9);border-radius:12px;padding:15px;background:var(--tensor-surface,#fff)}
+.tns-workgrid h3{font-size:1.01rem;margin:0 0 6px}.tns-workgrid p{margin:.35rem 0}.tns-stage{display:flex;gap:9px;flex-wrap:wrap;margin:14px 0}.tns-stage>span{border:1px solid var(--tensor-line,#aac2c9);border-radius:9px;padding:9px 12px;font-size:.9rem}
+.tns-panel{border:1px solid var(--tensor-line,#aac2c9);border-radius:11px;padding:14px;background:var(--tensor-surface,#fff)}
+.tns-choice{display:flex;gap:8px;flex-wrap:wrap;margin:13px 0}.tns-choice button{background:var(--tensor-surface,#fff);color:var(--tensor-text,#17272e);border:1px solid var(--tensor-line,#aac2c9);border-radius:9px;padding:9px 13px;cursor:pointer}.tns-choice button[aria-pressed=true]{background:color-mix(in srgb,var(--tensor-accent,#086c78) 18%,var(--tensor-surface,#fff));border-color:var(--tensor-accent,#086c78);font-weight:700}
+.tns-choice button:focus-visible{outline:3px solid #ddaa48;outline-offset:2px}
+.tns-compare{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.tns-compare>div{padding:12px;border:1px solid var(--tensor-line,#aac2c9);border-radius:11px}
+.tns-axis{font-size:.85rem;color:var(--tensor-muted,#435961)}
+.tns-cell{border:1px solid var(--tensor-line,#aac2c9);padding:12px;border-radius:10px;min-height:93px}
+.tns-links{display:flex;gap:9px;flex-wrap:wrap;margin:17px 0}
+.tns-data-status{font-size:.82rem;background:color-mix(in srgb,var(--tensor-accent,#086c78) 10%,var(--tensor-surface,#fff));border-radius:7px;padding:8px 12px}
+.tns-stat{font-size:1.65rem;font-weight:750;font-variant-numeric:tabular-nums;display:block}
+.tns-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+@media(prefers-reduced-motion:reduce){.tns-choice button{transition:none}}
+</style></head><body><header class="tensor-global-nav"><div class="tensor-nav-inner"><a class="tensor-brand" href="./index.html"><img src="./assets/media/tensor-triquetra.svg" alt="">Tensor</a><nav aria-label="Hauptnavigation"><a href="./index.html">Start</a><a href="./minimal-ki.html">Mini-KI</a><a href="./geoki.html">Geo-KI</a><a href="./tensor-einfuehrung.html" aria-current="page">Tensor</a><a href="./tensoralgebra.html">Algebra</a><a href="./bibliothek.html">Forschung</a><a href="./projektstand.html">Projekte</a><a href="./medien.html">Medien</a><a href="./mitmachen.html" class="tensor-nav-join">Mitmachen</a></nav></div></header><main>
 <p class="tag">Einführung · Mathematik, Prozesse und Forschungsansatz</p>
 <h1>Was ist ein Tensor – und was erforschen wir damit?</h1>
 <p class="tensor-lead">Ein Tensor beschreibt mathematisch etwas, das nicht von der zufällig gewählten Darstellung in einem bestimmten Koordinatensystem abhängt. Je nach Art kann er beispielsweise eine Zahl, einen Vektor, eine lineare Abbildung oder eine mehrdimensionale Beziehung repräsentieren. Seine Zahlenwerte können sich verändern, wenn wir das Bezugssystem wechseln – der mathematische Zusammenhang bleibt bestehen.</p>
 <p>Unser KI-Tensor-Projekt untersucht eine zusätzliche Frage: Können ausdrücklich beschriebene <strong>Beziehungen und Prozesse</strong> aus wissenschaftlichen Fachgebieten so organisiert werden, dass Funktionen, Tests und Erkenntnisse wiederverwendbar verbunden werden können? Die projektinterne Ordnung mit drei Trinitäten, drei Elementen und drei Rollen ist dafür zunächst ein <em>Adressschema</em>, nicht schon der Beweis eines mathematischen Tensors.</p>
 
-<section class="tensor-learning" id="tensor-grundlagen-heute">
+<nav class="tns-lead-nav" aria-label="Lernpfad Tensor"><a href="#tensor-grundlagen-heute">Mathematik</a><a href="#tensor-wuerfel">27 Positionen</a><a href="#tensor-entdeckung">Trinitäten finden</a><a href="#tensor-pfade">Pfade prüfen</a><a href="#tensor-fertig">Wann fertig?</a></nav><section class="tensor-learning" id="tensor-grundlagen-heute">
 <h2>1. Von Beziehungen zum mathematischen Tensor</h2>
 <div class="tensor-learning-grid">
 <article class="tensor-learning-step"><h3>Skalar</h3><p>Ein einzelner Wert, etwa die Temperatur an einem bestimmten Ort. Seine Bedeutung braucht eine Einheit und einen Kontext.</p></article>
@@ -26,7 +45,27 @@
 <p><a href="./tensoralgebra.html">Transformationsregeln, Operatoren und Geltungsbedingungen vertiefen</a></p>
 </section>
 
-<section class="tensor-learning" id="tensor-prozesse">
+<section class="tensor-panel" id="tensor-visuell">
+<h2>Den mathematischen Tensor sehen: gleiches Objekt, andere Koordinaten</h2>
+<p>Ein Tensor ist nicht einfach ein Würfel voller Zahlen. Entscheidend ist, <strong>wie seine Komponenten sich bei einem Basiswechsel verändern</strong>, während das beschriebene mathematische Objekt erhalten bleibt. Das bestehende Beispiel aus Abschnitt 2 lässt sich grafisch prüfen:</p>
+<figure class="tns-figure">
+<svg viewBox="0 0 760 300" role="img" aria-labelledby="tns-basis-title tns-basis-desc">
+<title id="tns-basis-title">Ein linearer Operator in zwei vertauschten Koordinatendarstellungen</title>
+<desc id="tns-basis-desc">Links bilden x gleich 1,2 und Matrix diagonal 2,3 den Vektor y gleich 2,6. Rechts werden die Achsen vertauscht: x Strich gleich 2,1 und Matrix Strich diagonal 3,2 ergeben y Strich gleich 6,2. Die mathematische Abbildung bleibt gleich.</desc>
+<rect x="8" y="8" width="362" height="283" rx="14" fill="none" stroke="currentColor" stroke-opacity=".25"/><rect x="390" y="8" width="362" height="283" rx="14" fill="none" stroke="currentColor" stroke-opacity=".25"/>
+<text x="22" y="36" fill="currentColor" font-size="17" font-weight="700">Basis A</text><text x="405" y="36" fill="currentColor" font-size="17" font-weight="700">Basis B (Achsen vertauscht)</text>
+<path d="M68 250V75M68 250H220M458 250V75M458 250H610" stroke="currentColor" stroke-opacity=".65" stroke-width="2"/>
+<path d="M68 250L108 220" stroke="#36887e" stroke-width="4"/><path d="M68 250L148 160" stroke="#be8645" stroke-width="4"/>
+<path d="M458 250L538 235" stroke="#36887e" stroke-width="4"/><path d="M458 250L638 205" stroke="#be8645" stroke-width="4"/>
+<text x="115" y="212" fill="currentColor" font-size="15">x=(1,2)</text><text x="152" y="153" fill="currentColor" font-size="15">y=(2,6)</text>
+<text x="522" y="224" fill="currentColor" font-size="15">x′=(2,1)</text><text x="602" y="190" fill="currentColor" font-size="15">y′=(6,2)</text>
+<text x="85" y="271" fill="currentColor" font-size="13">M = diag(2,3)</text><text x="478" y="271" fill="currentColor" font-size="13">M′ = diag(3,2)</text>
+<text x="306" y="147" fill="currentColor" font-size="14">Basis-</text><text x="304" y="165" fill="currentColor" font-size="14">wechsel</text>
+</svg>
+<figcaption>Schema, nicht maßstabsgetreue Vektorgrafik: Die Formeln aus dem Rechenbeispiel sind maßgeblich. Komponenten ändern sich unter einer definierten Transformation; der Operator beschreibt weiterhin dieselbe lineare Abbildung.</figcaption>
+</figure>
+<p class="tns-note">Fachliche Präzisierung: Ein echter Tensor folgt festgelegten Transformationsgesetzen. Die projektinterne 27er-Adressierung hat diese Eigenschaft nicht automatisch.</p>
+</section><section class="tensor-learning" id="tensor-prozesse">
 <h2>3. Welche Prozesse wollen wir im Projekt sichtbar machen?</h2>
 <p>Die Arbeit beginnt nicht mit einer Formgrafik, sondern mit einer konkreten Forschungsfrage. Ein Fachmodell soll Schritt für Schritt rekonstruierbar und prüfbar werden.</p>
 <div class="tensor-learning-grid">
@@ -53,7 +92,60 @@
 <p>Die detaillierten Positionsunterlagen dienen intern der Quellen- und Beweisarbeit. Für den Einstieg ist entscheidend, <strong>den fachlichen Vorgang und die nachprüfbare Beziehung</strong> zu verstehen, nicht die Bezeichnung eines internen Dokumenttyps.</p>
 </section>
 
-<section class="tensor-panel" id="tensor-logik-beispiel">
+<section class="tensor-panel" id="tensor-wuerfel">
+<h2>Unser 3×3×3-Würfel: eine Feldadresse untersuchen</h2>
+<p>Wähle eine der 27 Positionen. Jede Auswahl kombiniert jeweils <strong>eine Rolle aus drei unterschiedlichen Trinitäten</strong>. Die Position ist eindeutig, aber die wissenschaftliche Relationsbehauptung benötigt danach eine eigene Prüfung.</p>
+<div class="tns-workgrid">
+<article><h3>Achse A · Trinität 1</h3><p class="tns-axis">Beispielhafte Rollen 1, 2, 3</p><div class="tns-choice" id="tns-a" role="group" aria-label="Erste Trinität"><button type="button" data-val="1" aria-pressed="true">A1</button><button type="button" data-val="2" aria-pressed="false">A2</button><button type="button" data-val="3" aria-pressed="false">A3</button></div></article>
+<article><h3>Achse B · Trinität 2</h3><p class="tns-axis">Beispielhafte Rollen 1, 2, 3</p><div class="tns-choice" id="tns-b" role="group" aria-label="Zweite Trinität"><button type="button" data-val="1" aria-pressed="true">B1</button><button type="button" data-val="2" aria-pressed="false">B2</button><button type="button" data-val="3" aria-pressed="false">B3</button></div></article>
+<article><h3>Achse C · Trinität 3</h3><p class="tns-axis">Beispielhafte Rollen 1, 2, 3</p><div class="tns-choice" id="tns-c" role="group" aria-label="Dritte Trinität"><button type="button" data-val="1" aria-pressed="true">C1</button><button type="button" data-val="2" aria-pressed="false">C2</button><button type="button" data-val="3" aria-pressed="false">C3</button></div></article>
+</div>
+<figure class="tns-figure">
+<svg id="tns-cube" viewBox="0 0 650 340" role="img" aria-labelledby="tns-cube-title tns-cube-description">
+<title id="tns-cube-title">Drei mal drei mal drei Feldpositionen</title><desc id="tns-cube-description">Drei gestaffelte Neunerflächen bilden 27 Positionen. Eine Position wird je nach Auswahl der A-, B- und C-Rolle hervorgehoben.</desc>
+<g id="tns-cube-grid" stroke-linecap="round"></g>
+<text x="30" y="318" fill="currentColor" font-size="15">A · horizontale Position</text><text x="252" y="318" fill="currentColor" font-size="15">B · vertikale Position</text><text x="474" y="318" fill="currentColor" font-size="15">C · Tiefe</text>
+</svg>
+<figcaption>Interaktives Adressschema: Es zeigt 27 Kombinationsmöglichkeiten, nicht 27 bestätigte mathematische Aussagen.</figcaption>
+</figure>
+<div class="tns-panel" aria-live="polite" aria-atomic="true"><strong id="tns-cell-id">Ausgewählt: A1–B1–C1</strong><p id="tns-cell-text">Eine konkrete Feldrelation, ihr mathematischer Operator, ihre Quelle und ihr Prüfstatus müssen für diese Position noch aus einer geprüften Tensorakte stammen. Dieses Lehrschema enthält bewusst keine erfundenen Feldbeweise.</p></div>
+</section>
+<section class="tensor-learning" id="tensor-entdeckung">
+<h2>Aus einem Dreiermuster zwei Anschluss-Trinitäten entdecken</h2>
+<p>Das <a href="./harvesting.html#harv-tensor">Harvesting-Modul für Tensorentdeckung</a> sucht nicht zuerst nach beliebigen Dreierlisten. Es startet mit einer fachlich belegten Trinität und prüft, ob zwei weitere Trinitäten durch dieselbe oder anschlussfähige Mathematik verbunden sind.</p>
+<div class="tns-workgrid">
+<article><h3>1 · Ausgangsmodell</h3><p>Eine belegte Dreierrelation mit Quelle, Operatoren und Geltung.</p></article>
+<article><h3>2 · Mathematische Anschlüsse</h3><p>Gleiche Signatur, Spezialfall, strukturerhaltende Abbildung oder nur eine Analogie?</p></article>
+<article><h3>3 · Gemeinsame Aussage</h3><p>Erst drei untereinander kompatible Trinitäten ergeben einen begründeten Tensor-Kandidaten.</p></article>
+</div>
+<p>Beispiel einer <strong>nachrechenbaren Anschlussbeziehung</strong>: Die Reaktionskinetik <code>dc/dt = S·v(c)</code> ist unter den Annahmen <code>F=0</code>, <code>V≠0</code> und <code>r(c)=S·v(c)</code> ein Spezialfall der idealisierten Reaktorbilanz <code>V·dc/dt = F(c_in−c)+V·r(c)</code>. Die Gleichungen zeigen eine mathematische Brücke – sie belegen noch keine vollständig geprüften 27 Felder für beide Tensoren.</p>
+<div class="tns-links"><a href="./harvesting.html#harv-tensor">Entdeckungsverfahren ansehen</a><a href="./tensoralgebra.html">Algebra und Gegenbeispiele</a><a href="./mitmachen.html">Forschungsfragen bearbeiten</a></div>
+</section>
+<section class="tensor-panel" id="tensor-pfade">
+<h2>Pfad-Explorer: Warum Rückweg nicht immer Inverse bedeutet</h2>
+<p>Claude unterscheidet in der historischen Pfadrekonstruktion <strong>exakte Rückkehr, Erreichbarkeit und nicht als Rückweg belegte Übergänge</strong>. Diese drei Begriffe gehören zum jeweiligen Modell und sind nicht automatisch allgemeine Gesetze mathematischer Tensoren. Wähle den Prüfmodus:</p>
+<div class="tns-choice" role="group" aria-label="Prüfmodus für Pfade" id="tns-path-choice"><button type="button" data-path="exact" aria-pressed="true">Exakte Rückkehr</button><button type="button" data-path="reach" aria-pressed="false">Erreichbarkeit</button><button type="button" data-path="reset" aria-pressed="false">Reset / Klassenwechsel</button></div>
+<figure class="tns-figure">
+<svg viewBox="0 0 660 140" role="img" aria-labelledby="tns-path-title tns-path-desc"><title id="tns-path-title">Schematischer Pfad zweier Zustände und Rückfrage</title><desc id="tns-path-desc">Ein Pfeil führt von einem Ausgangszustand zu einem Folgezustand. Die Rückbewegung wird je nach Prüfmodus als exakte Inverse, Erreichbarkeitsweg oder Typwechsel untersucht.</desc><defs><marker id="tns-arr" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0 0L7 3L0 6" fill="none" stroke="currentColor" stroke-width="1.5"/></marker></defs>
+<circle cx="92" cy="69" r="31" fill="none" stroke="#388b7f" stroke-width="3"/><circle cx="559" cy="69" r="31" fill="none" stroke="#388b7f" stroke-width="3"/><text x="76" y="74" fill="currentColor" font-size="17">X</text><text x="545" y="74" fill="currentColor" font-size="17">Y</text><path d="M128 55Q320 2 523 55" fill="none" stroke="#388b7f" stroke-width="3" marker-end="url(#tns-arr)"/><text x="315" y="26" text-anchor="middle" fill="currentColor" font-size="15">f</text><path d="M523 90Q320 137 128 90" fill="none" stroke="#be8645" stroke-dasharray="7 5" stroke-width="3" marker-end="url(#tns-arr)"/><text x="325" y="129" text-anchor="middle" fill="currentColor" font-size="14">Rückfrage: f⁻¹, Pfad oder Reset?</text>
+</svg>
+<figcaption>Schema zur Prüfung des Rückwegs, kein Nachweis, dass jede Projektion eine Umkehrabbildung besitzt.</figcaption>
+</figure>
+<div class="tns-panel" id="tns-path-explain" aria-live="polite"><strong>Exakte Rückkehr:</strong> Ein mathematisches Inverses benötigt passende Typen und die erforderlichen Gleichungen; ein Pfeil allein genügt nicht.</div>
+<p class="tns-note">Claudes neue Bestandsanalyse dokumentiert neun historische Musterfamilien (M1–M9), Klassen-Crosswalks und offene Befunde. Diese sind vor einer allgemeinen Aussage von den historischen Quellen, Typregeln und unabhängigen Gegenproben zu unterscheiden.</p>
+<div class="tns-links"><a href="./tensoralgebra.html">Algebraische Voraussetzungen</a><a href="./harvesting.html">Weitere Anschlussmodelle</a><a href="./projektmanagement.html">Prüf- und Projektstatus</a></div>
+</section>
+<section class="tensor-learning" id="tensor-fertig">
+<h2>Wann ist ein Tensor tatsächlich fertig?</h2>
+<p>Eine gefüllte Grafik oder 27 Adressen reichen nicht. Jede Position braucht eine fachlich begründete Entscheidung; jede Trinität eine mathematische Darstellung mit Vorwärts- und geeigneter Rück- beziehungsweise Nichtinvertibilitätsprüfung; und die gemeinsame Feldtheorie muss nach ihrem konkreten Geltungsbereich bestätigt, eingeschränkt, widerlegt oder als offen dokumentiert werden.</p>
+<div class="tns-workgrid">
+<article><h3>Struktur und Positionen</h3><p>Alle 27 Feldpositionen untersucht; Achsen unterscheidbar, Positionen versioniert, keine ungeklärte Doppelung.</p></article>
+<article><h3>Mathematik und Gegenprobe</h3><p>Drei Trinitäten mit getypten Operatoren, gemeinsamer Aussage, Beispielen, Grenzfällen und Gegenmodellen.</p></article>
+<article><h3>Fachwissenschaftliche Abnahme</h3><p>Quellen- und Modellprüfung, Evidenzstatus je Feld, unabhängige Reproduktion sowie synchrones Glossar und Codebuch.</p></article>
+</div>
+<p class="tns-data-status">Historischer Inventarstand: <strong>103 Grundgerüste, 309 Trinitätspositionen, 2.781 Feldadressen</strong> im dokumentierten No-Loss-Audit vom 03.11.2026. Diese Zählwerte sind keine Aussage über 2.781 bestätigte Feldrelationen oder vollständig abgenommene Tensoren.</p>
+<p><a href="https://github.com/Memnosis/relationalitaet/blob/main/forschung/register/IMPORTAUDIT_DREI_NOLOSS_ARCHIVE_2026-11-03.md">Original-Audit und Herkunft der Zahlen</a> · <a href="./harvesting.html#harv-tensor">Öffentlicher Datenbankstand und offene Fragen</a></p>
+</section><section class="tensor-panel" id="tensor-logik-beispiel">
 <h2>5. Beispiel aus der Logik: vom Prozess zum prüfbaren Schluss</h2>
 <p>Wir kennen die beiden Aussagen „P gilt“ und „Wenn P, dann Q“. In der klassischen Aussagenlogik dürfen wir daraus „Q gilt“ ableiten. Die Schlussregel heißt <em>Modus ponens</em>.</p>
 <p>Wir unterscheiden drei Arbeitsschritte: <strong>Voraussetzungen prüfen</strong> (sind beide Prämissen tatsächlich gegeben?), <strong>Regel anwenden</strong> (welche logische Folgerung ist erlaubt?) und <strong>Ergebnis kontrollieren</strong> (gibt es eine Wahrheitsbelegung mit wahren Prämissen und falscher Konklusion?). Für Modus ponens existiert eine solche Gegenbelegung in der klassischen zweiwertigen Logik nicht.</p>
@@ -75,4 +167,31 @@
 <p><a href="./bibliothek.html">Quellenregister und Publikationen</a> · <a href="./projektmanagement.html">Offene Tests und Arbeitsstand</a></p>
 </section>
 <section class="th-evidence-section" id="thesen-evidenz"><h2>Was ist derzeit belegt, was ist eine These?</h2><p>Die mathematische Definition von Tensoren und einzelne klassisch gültige Schlussregeln sind von der weitergehenden Hypothese zu unterscheiden, dass eine 3×3×3-Organisation neue KI-Fähigkeiten erzeugt.</p><div data-thesis-ref="TH-THEMA-01"><p>Die Evidenzübersicht wird geladen. <a href="./thesen.html">Thesenatlas ansehen</a>.</p></div></section>
-</main><footer>Tensor · Forschungsdarstellung · Stand 2026</footer><script src="./assets/tensor-glossary.js" defer></script><a class="tensor-join-fixed" href="./mitmachen.html" aria-label="Mitmachen: Forschungsaufgaben und Promptkarten">Mitmachen</a><div class="tensor-legal-footer"><a href="./impressum.html#impressum">Impressum</a> · <a href="./impressum.html#datenschutz">Datenschutz</a> · <a href="./impressum.html#freigabe">Freigabe</a> · <a href="./impressum.html#projektdateien">Projektdateien</a></div></body></html>
+</main><footer>Tensor · Forschungsdarstellung · Stand 2026</footer><script src="./assets/tensor-glossary.js" defer></script><a class="tensor-join-fixed" href="./mitmachen.html" aria-label="Mitmachen: Forschungsaufgaben und Promptkarten">Mitmachen</a><div class="tensor-legal-footer"><a href="./impressum.html#impressum">Impressum</a> · <a href="./impressum.html#datenschutz">Datenschutz</a> · <a href="./impressum.html#freigabe">Freigabe</a> · <a href="./impressum.html#projektdateien">Projektdateien</a></div><script>
+(function(){
+"use strict";
+var root=document.getElementById("tns-cube-grid");
+var selected=[1,1,1];
+if(root){
+var ns="http://www.w3.org/2000/svg";
+function el(tag,attr){var e=document.createElementNS(ns,tag);Object.keys(attr).forEach(function(k){e.setAttribute(k,attr[k]);});return e;}
+function render(){
+while(root.firstChild)root.removeChild(root.firstChild);
+for(var c=1;c<=3;c++)for(var b=1;b<=3;b++)for(var a=1;a<=3;a++){
+var x=85+(a-1)*71+(c-1)*65;
+var y=234-(b-1)*65-(c-1)*44;
+var on=a===selected[0]&&b===selected[1]&&c===selected[2];
+root.appendChild(el("circle",{cx:x,cy:y,r:on?13:7,fill:on?"#be8645":"#388b7f",stroke:on?"#75501f":"none","stroke-width":on?3:0}));
+if(a<3)root.appendChild(el("path",{d:"M"+(x+9)+" "+y+"L"+(x+62)+" "+y,stroke:"currentColor","stroke-opacity":".30","stroke-width":"1.5"}));
+if(b<3)root.appendChild(el("path",{d:"M"+x+" "+(y-9)+"L"+x+" "+(y-56),stroke:"currentColor","stroke-opacity":".30","stroke-width":"1.5"}));
+if(c<3)root.appendChild(el("path",{d:"M"+(x+6)+" "+(y-5)+"L"+(x+59)+" "+(y-39),stroke:"currentColor","stroke-opacity":".30","stroke-width":"1.5"}));
+}
+document.getElementById("tns-cell-id").textContent="Ausgewählt: A"+selected[0]+"–B"+selected[1]+"–C"+selected[2];
+}
+["a","b","c"].forEach(function(k,i){var group=document.getElementById("tns-"+k);if(!group)return;group.addEventListener("click",function(e){var b=e.target.closest("button[data-val]");if(!b)return;selected[i]=Number(b.dataset.val);group.querySelectorAll("button").forEach(function(x){x.setAttribute("aria-pressed",String(x===b));});render();});});
+render();
+}
+var modes={exact:"<strong>Exakte Rückkehr:</strong> Eine Abbildung g ist nur dann eine beidseitige Inverse von f, wenn g∘f = id und f∘g = id auf den jeweils definierten Bereichen gelten.",reach:"<strong>Erreichbarkeit:</strong> Ein Rückpfad kann existieren, ohne eindeutig zu sein oder den ursprünglichen Inhalt zurückzugewinnen. Das ist schwächer als Invertierbarkeit.",reset:"<strong>Reset / Klassenwechsel:</strong> Ein Operator kann zu einem Ausgangstyp oder einer Basisklasse zurückführen, ohne den ursprünglichen Zustand zu rekonstruieren. Ein solcher Reset ist keine Inverse."};
+var group=document.getElementById("tns-path-choice"),out=document.getElementById("tns-path-explain");if(group&&out)group.addEventListener("click",function(e){var b=e.target.closest("button[data-path]");if(!b)return;group.querySelectorAll("button").forEach(function(x){x.setAttribute("aria-pressed",String(x===b));});out.innerHTML=modes[b.dataset.path]||modes.exact;});
+})();
+</script></body></html>
