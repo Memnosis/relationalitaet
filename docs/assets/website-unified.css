@@ -79,3 +79,10 @@ body.ux-site-v3 main > section:not(.ux-topic) > h2:first-child::before{content:v
  .ux-context-title{flex-basis:100%}
  .ux-context-links a{font-size:.8rem}
 }
+
+/* Echte Fach-Icons auch bei älteren Seiten. Das alte CSS-Pseudozeichen entfällt. */
+body.ux-site-v3 main > section:not(.ux-topic) > h2:first-child::before{content:none!important;display:none!important}
+body.ux-site-v3 main .ux-legacy-heading-icon{display:inline-block!important;width:23px!important;height:23px!important;vertical-align:-4px;margin-right:10px;color:var(--ux-page-accent,var(--ux-tensor))}
+body.ux-site-v3 main h2{overflow-wrap:anywhere;min-width:0}
+body.ux-site-v3 main .ux-grid > :is(article,.ux-card),body.ux-site-v3 main .ai-grid > :is(article,.ai-card){min-height:0}
+body.ux-site-v3 main a[href$="ki-geschichte.html"],body.ux-site-v3 main a[href*="ki-geschichte.html#"]{max-width:100%;overflow-wrap:break-word}
