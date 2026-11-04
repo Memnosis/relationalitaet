@@ -1,0 +1,1818 @@
+{
+  "schema_version": "pilot50-structural/0.1",
+  "run_status": "completed_structural_not_scientific_validation",
+  "source_path": "forschung/tensor/formeln/pilot50/FORMELN50_KORPUS_V0_1.json",
+  "method": "tokenized identifiers matched against source-labelled formula variables, edge on identical meaning labels",
+  "summary": {
+    "formulas": 50,
+    "ternary_candidates": 21,
+    "arity_histogram": {
+      "1": 1,
+      "2": 7,
+      "3": 21,
+      "4": 14,
+      "5": 6,
+      "6": 1
+    },
+    "duplicate_label_cases": 11,
+    "graph_edges": 39,
+    "differential_equations": 5,
+    "transcendental_formulas": 9
+  },
+  "formulas": [
+    {
+      "id": "F001",
+      "name": "Satz des Pythagoras",
+      "domain": "Mathematik",
+      "equation": "Eq(c**2, a**2+b**2)",
+      "roles": [
+        {
+          "symbol": "a",
+          "meaning": "Kathete"
+        },
+        {
+          "symbol": "b",
+          "meaning": "Kathete"
+        },
+        {
+          "symbol": "c",
+          "meaning": "Hypotenuse"
+        }
+      ],
+      "variable_count": 3,
+      "ternary_candidate": true,
+      "duplicate_label_count": 1,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F005",
+      "name": "Quadratische Gleichung (Lösung)",
+      "domain": "Mathematik",
+      "equation": "Eq(x, (-b+sqrt(b**2-4*a*c))/(2*a))",
+      "roles": [
+        {
+          "symbol": "x",
+          "meaning": "Lösung"
+        },
+        {
+          "symbol": "a",
+          "meaning": "Koeffizient"
+        },
+        {
+          "symbol": "b",
+          "meaning": "Koeffizient"
+        },
+        {
+          "symbol": "c",
+          "meaning": "Koeffizient"
+        }
+      ],
+      "variable_count": 4,
+      "ternary_candidate": false,
+      "duplicate_label_count": 2,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F006",
+      "name": "Eulersche Polyederformel",
+      "domain": "Mathematik",
+      "equation": "Eq(V-E+F, 2)",
+      "roles": [
+        {
+          "symbol": "V",
+          "meaning": "Ecken"
+        },
+        {
+          "symbol": "E",
+          "meaning": "Kanten"
+        },
+        {
+          "symbol": "F",
+          "meaning": "Flächen"
+        }
+      ],
+      "variable_count": 3,
+      "ternary_candidate": true,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F010",
+      "name": "Eulersche Formel",
+      "domain": "Mathematik",
+      "equation": "Eq(exp(I*phi), cos(phi)+I*sin(phi))",
+      "roles": [
+        {
+          "symbol": "phi",
+          "meaning": "Winkel"
+        }
+      ],
+      "variable_count": 1,
+      "ternary_candidate": false,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": true,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F012",
+      "name": "Kosinussatz",
+      "domain": "Mathematik",
+      "equation": "Eq(c**2, a**2+b**2-2*a*b*cos(g))",
+      "roles": [
+        {
+          "symbol": "a",
+          "meaning": "Seite"
+        },
+        {
+          "symbol": "b",
+          "meaning": "Seite"
+        },
+        {
+          "symbol": "c",
+          "meaning": "Seite"
+        },
+        {
+          "symbol": "g",
+          "meaning": "Winkel"
+        }
+      ],
+      "variable_count": 4,
+      "ternary_candidate": false,
+      "duplicate_label_count": 2,
+      "differential": false,
+      "transcendental": true,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F017",
+      "name": "Exponentielles Wachstum (Dgl.)",
+      "domain": "Biologie",
+      "equation": "Eq(Derivative(N(t),t), r*N(t))",
+      "roles": [
+        {
+          "symbol": "N",
+          "meaning": "Population"
+        },
+        {
+          "symbol": "r",
+          "meaning": "Wachstumsrate"
+        },
+        {
+          "symbol": "t",
+          "meaning": "Zeit"
+        }
+      ],
+      "variable_count": 3,
+      "ternary_candidate": true,
+      "duplicate_label_count": 0,
+      "differential": true,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F018",
+      "name": "Logistisches Wachstum",
+      "domain": "Biologie",
+      "equation": "Eq(Derivative(N(t),t), r*N(t)*(1-N(t)/K))",
+      "roles": [
+        {
+          "symbol": "N",
+          "meaning": "Population"
+        },
+        {
+          "symbol": "r",
+          "meaning": "Wachstumsrate"
+        },
+        {
+          "symbol": "K",
+          "meaning": "Kapazität"
+        },
+        {
+          "symbol": "t",
+          "meaning": "Zeit"
+        }
+      ],
+      "variable_count": 4,
+      "ternary_candidate": false,
+      "duplicate_label_count": 0,
+      "differential": true,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F021",
+      "name": "Newton 2. Gesetz",
+      "domain": "Physik",
+      "equation": "Eq(F, m*a)",
+      "roles": [
+        {
+          "symbol": "F",
+          "meaning": "Kraft"
+        },
+        {
+          "symbol": "m",
+          "meaning": "Masse"
+        },
+        {
+          "symbol": "a",
+          "meaning": "Beschleunigung"
+        }
+      ],
+      "variable_count": 3,
+      "ternary_candidate": true,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F022",
+      "name": "Impuls",
+      "domain": "Physik",
+      "equation": "Eq(p, m*v)",
+      "roles": [
+        {
+          "symbol": "p",
+          "meaning": "Impuls"
+        },
+        {
+          "symbol": "m",
+          "meaning": "Masse"
+        },
+        {
+          "symbol": "v",
+          "meaning": "Geschwindigkeit"
+        }
+      ],
+      "variable_count": 3,
+      "ternary_candidate": true,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F023",
+      "name": "Kinetische Energie",
+      "domain": "Physik",
+      "equation": "Eq(E, m*v**2/2)",
+      "roles": [
+        {
+          "symbol": "E",
+          "meaning": "Energie"
+        },
+        {
+          "symbol": "m",
+          "meaning": "Masse"
+        },
+        {
+          "symbol": "v",
+          "meaning": "Geschwindigkeit"
+        }
+      ],
+      "variable_count": 3,
+      "ternary_candidate": true,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F025",
+      "name": "Arbeit",
+      "domain": "Physik",
+      "equation": "Eq(W, F*s)",
+      "roles": [
+        {
+          "symbol": "W",
+          "meaning": "Arbeit"
+        },
+        {
+          "symbol": "F",
+          "meaning": "Kraft"
+        },
+        {
+          "symbol": "s",
+          "meaning": "Weg"
+        }
+      ],
+      "variable_count": 3,
+      "ternary_candidate": true,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F026",
+      "name": "Leistung",
+      "domain": "Physik",
+      "equation": "Eq(P, W/t)",
+      "roles": [
+        {
+          "symbol": "P",
+          "meaning": "Leistung"
+        },
+        {
+          "symbol": "W",
+          "meaning": "Arbeit"
+        },
+        {
+          "symbol": "t",
+          "meaning": "Zeit"
+        }
+      ],
+      "variable_count": 3,
+      "ternary_candidate": true,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F027",
+      "name": "Geschwindigkeit",
+      "domain": "Physik",
+      "equation": "Eq(v, s/t)",
+      "roles": [
+        {
+          "symbol": "v",
+          "meaning": "Geschwindigkeit"
+        },
+        {
+          "symbol": "s",
+          "meaning": "Weg"
+        },
+        {
+          "symbol": "t",
+          "meaning": "Zeit"
+        }
+      ],
+      "variable_count": 3,
+      "ternary_candidate": true,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F029",
+      "name": "Gravitationsgesetz",
+      "domain": "Physik",
+      "equation": "Eq(F, G*m1*m2/r**2)",
+      "roles": [
+        {
+          "symbol": "F",
+          "meaning": "Kraft"
+        },
+        {
+          "symbol": "m1",
+          "meaning": "Masse"
+        },
+        {
+          "symbol": "m2",
+          "meaning": "Masse"
+        },
+        {
+          "symbol": "r",
+          "meaning": "Abstand"
+        }
+      ],
+      "variable_count": 4,
+      "ternary_candidate": false,
+      "duplicate_label_count": 1,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F030",
+      "name": "Coulomb-Gesetz",
+      "domain": "Physik",
+      "equation": "Eq(F, q1*q2/(4*pi*eps0*r**2))",
+      "roles": [
+        {
+          "symbol": "F",
+          "meaning": "Kraft"
+        },
+        {
+          "symbol": "q1",
+          "meaning": "Ladung"
+        },
+        {
+          "symbol": "q2",
+          "meaning": "Ladung"
+        },
+        {
+          "symbol": "r",
+          "meaning": "Abstand"
+        }
+      ],
+      "variable_count": 4,
+      "ternary_candidate": false,
+      "duplicate_label_count": 1,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F031",
+      "name": "Ohmsches Gesetz",
+      "domain": "Physik",
+      "equation": "Eq(U, R*I)",
+      "roles": [
+        {
+          "symbol": "U",
+          "meaning": "Spannung"
+        },
+        {
+          "symbol": "R",
+          "meaning": "Widerstand"
+        },
+        {
+          "symbol": "I",
+          "meaning": "Stromstärke"
+        }
+      ],
+      "variable_count": 3,
+      "ternary_candidate": true,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F032",
+      "name": "Elektrische Leistung",
+      "domain": "Physik",
+      "equation": "Eq(P, U*I)",
+      "roles": [
+        {
+          "symbol": "P",
+          "meaning": "Leistung"
+        },
+        {
+          "symbol": "U",
+          "meaning": "Spannung"
+        },
+        {
+          "symbol": "I",
+          "meaning": "Stromstärke"
+        }
+      ],
+      "variable_count": 3,
+      "ternary_candidate": true,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F033",
+      "name": "Joulesche Wärme",
+      "domain": "Physik",
+      "equation": "Eq(P, R*I**2)",
+      "roles": [
+        {
+          "symbol": "P",
+          "meaning": "Leistung"
+        },
+        {
+          "symbol": "R",
+          "meaning": "Widerstand"
+        },
+        {
+          "symbol": "I",
+          "meaning": "Stromstärke"
+        }
+      ],
+      "variable_count": 3,
+      "ternary_candidate": true,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F037",
+      "name": "Masse-Energie-Äquivalenz",
+      "domain": "Physik",
+      "equation": "Eq(E, m*c**2)",
+      "roles": [
+        {
+          "symbol": "E",
+          "meaning": "Energie"
+        },
+        {
+          "symbol": "m",
+          "meaning": "Masse"
+        }
+      ],
+      "variable_count": 2,
+      "ternary_candidate": false,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F038",
+      "name": "Photonenenergie",
+      "domain": "Physik",
+      "equation": "Eq(E, h*f)",
+      "roles": [
+        {
+          "symbol": "E",
+          "meaning": "Energie"
+        },
+        {
+          "symbol": "f",
+          "meaning": "Frequenz"
+        }
+      ],
+      "variable_count": 2,
+      "ternary_candidate": false,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F039",
+      "name": "De-Broglie-Wellenlänge",
+      "domain": "Physik",
+      "equation": "Eq(lam, h/p)",
+      "roles": [
+        {
+          "symbol": "lam",
+          "meaning": "Wellenlänge"
+        },
+        {
+          "symbol": "p",
+          "meaning": "Impuls"
+        }
+      ],
+      "variable_count": 2,
+      "ternary_candidate": false,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F040",
+      "name": "Wellengleichung (Phasengeschw.)",
+      "domain": "Physik",
+      "equation": "Eq(v, lam*f)",
+      "roles": [
+        {
+          "symbol": "v",
+          "meaning": "Geschwindigkeit"
+        },
+        {
+          "symbol": "lam",
+          "meaning": "Wellenlänge"
+        },
+        {
+          "symbol": "f",
+          "meaning": "Frequenz"
+        }
+      ],
+      "variable_count": 3,
+      "ternary_candidate": true,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F041",
+      "name": "Ideales Gasgesetz",
+      "domain": "Physik",
+      "equation": "Eq(p*V, n*R*T)",
+      "roles": [
+        {
+          "symbol": "p",
+          "meaning": "Druck"
+        },
+        {
+          "symbol": "V",
+          "meaning": "Volumen"
+        },
+        {
+          "symbol": "n",
+          "meaning": "Stoffmenge"
+        },
+        {
+          "symbol": "T",
+          "meaning": "Temperatur"
+        }
+      ],
+      "variable_count": 4,
+      "ternary_candidate": false,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F044",
+      "name": "Dichte",
+      "domain": "Physik",
+      "equation": "Eq(rho, m/V)",
+      "roles": [
+        {
+          "symbol": "rho",
+          "meaning": "Dichte"
+        },
+        {
+          "symbol": "m",
+          "meaning": "Masse"
+        },
+        {
+          "symbol": "V",
+          "meaning": "Volumen"
+        }
+      ],
+      "variable_count": 3,
+      "ternary_candidate": true,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F047",
+      "name": "Boltzmann-Entropie",
+      "domain": "Physik",
+      "equation": "Eq(S, kB*log(W))",
+      "roles": [
+        {
+          "symbol": "S",
+          "meaning": "Entropie"
+        },
+        {
+          "symbol": "W",
+          "meaning": "Mikrozustände"
+        }
+      ],
+      "variable_count": 2,
+      "ternary_candidate": false,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": true,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F048",
+      "name": "Erster Hauptsatz",
+      "domain": "Physik",
+      "equation": "Eq(dU, dQ-dW)",
+      "roles": [
+        {
+          "symbol": "dU",
+          "meaning": "Energieänderung"
+        },
+        {
+          "symbol": "dQ",
+          "meaning": "Wärme"
+        },
+        {
+          "symbol": "dW",
+          "meaning": "Arbeit"
+        }
+      ],
+      "variable_count": 3,
+      "ternary_candidate": true,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F050",
+      "name": "Carnot-Wirkungsgrad",
+      "domain": "Physik",
+      "equation": "Eq(eta, 1-Tc/Th)",
+      "roles": [
+        {
+          "symbol": "eta",
+          "meaning": "Wirkungsgrad"
+        },
+        {
+          "symbol": "Tc",
+          "meaning": "Temperatur"
+        },
+        {
+          "symbol": "Th",
+          "meaning": "Temperatur"
+        }
+      ],
+      "variable_count": 3,
+      "ternary_candidate": true,
+      "duplicate_label_count": 1,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F054",
+      "name": "Harmonischer Oszillator (Dgl.)",
+      "domain": "Physik",
+      "equation": "Eq(Derivative(x(t),t,2), -w**2*x(t))",
+      "roles": [
+        {
+          "symbol": "x",
+          "meaning": "Auslenkung"
+        },
+        {
+          "symbol": "w",
+          "meaning": "Kreisfrequenz"
+        },
+        {
+          "symbol": "t",
+          "meaning": "Zeit"
+        }
+      ],
+      "variable_count": 3,
+      "ternary_candidate": true,
+      "duplicate_label_count": 0,
+      "differential": true,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F055",
+      "name": "Pendelperiode",
+      "domain": "Physik",
+      "equation": "Eq(T, 2*pi*sqrt(l/g))",
+      "roles": [
+        {
+          "symbol": "T",
+          "meaning": "Periode"
+        },
+        {
+          "symbol": "l",
+          "meaning": "Länge"
+        },
+        {
+          "symbol": "g",
+          "meaning": "Fallbeschleunigung"
+        }
+      ],
+      "variable_count": 3,
+      "ternary_candidate": true,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F059",
+      "name": "Snellius",
+      "domain": "Physik",
+      "equation": "Eq(n1*sin(t1), n2*sin(t2))",
+      "roles": [
+        {
+          "symbol": "n1",
+          "meaning": "Brechzahl"
+        },
+        {
+          "symbol": "t1",
+          "meaning": "Winkel"
+        },
+        {
+          "symbol": "n2",
+          "meaning": "Brechzahl"
+        },
+        {
+          "symbol": "t2",
+          "meaning": "Winkel"
+        }
+      ],
+      "variable_count": 4,
+      "ternary_candidate": false,
+      "duplicate_label_count": 2,
+      "differential": false,
+      "transcendental": true,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F062",
+      "name": "Lorentzfaktor",
+      "domain": "Physik",
+      "equation": "Eq(gam, 1/sqrt(1-v**2/c**2))",
+      "roles": [
+        {
+          "symbol": "gam",
+          "meaning": "Lorentzfaktor"
+        },
+        {
+          "symbol": "v",
+          "meaning": "Geschwindigkeit"
+        }
+      ],
+      "variable_count": 2,
+      "ternary_candidate": false,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F065",
+      "name": "Heisenberg-Unschärfe",
+      "domain": "Physik",
+      "equation": "Eq(dx*dp, hbar/2)",
+      "roles": [
+        {
+          "symbol": "dx",
+          "meaning": "Ortsunschärfe"
+        },
+        {
+          "symbol": "dp",
+          "meaning": "Impulsunschärfe"
+        }
+      ],
+      "variable_count": 2,
+      "ternary_candidate": false,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F066",
+      "name": "Kepler 3",
+      "domain": "Physik",
+      "equation": "Eq(T**2/a**3, 4*pi**2/(G*M))",
+      "roles": [
+        {
+          "symbol": "T",
+          "meaning": "Periode"
+        },
+        {
+          "symbol": "a",
+          "meaning": "Halbachse"
+        },
+        {
+          "symbol": "M",
+          "meaning": "Masse"
+        }
+      ],
+      "variable_count": 3,
+      "ternary_candidate": true,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F069",
+      "name": "Bernoulli",
+      "domain": "Physik",
+      "equation": "Eq(p+rho*v**2/2+rho*g*h, C0)",
+      "roles": [
+        {
+          "symbol": "p",
+          "meaning": "Druck"
+        },
+        {
+          "symbol": "rho",
+          "meaning": "Dichte"
+        },
+        {
+          "symbol": "v",
+          "meaning": "Geschwindigkeit"
+        },
+        {
+          "symbol": "h",
+          "meaning": "Höhe"
+        },
+        {
+          "symbol": "C0",
+          "meaning": "Konstante"
+        }
+      ],
+      "variable_count": 5,
+      "ternary_candidate": false,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F071",
+      "name": "Reynolds-Zahl",
+      "domain": "Physik",
+      "equation": "Eq(Re, rho*v*L/mu)",
+      "roles": [
+        {
+          "symbol": "Re",
+          "meaning": "Reynoldszahl"
+        },
+        {
+          "symbol": "rho",
+          "meaning": "Dichte"
+        },
+        {
+          "symbol": "v",
+          "meaning": "Geschwindigkeit"
+        },
+        {
+          "symbol": "L",
+          "meaning": "Länge"
+        },
+        {
+          "symbol": "mu",
+          "meaning": "Viskosität"
+        }
+      ],
+      "variable_count": 5,
+      "ternary_candidate": false,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F073",
+      "name": "Ficksches Gesetz (1D)",
+      "domain": "Chemie",
+      "equation": "Eq(J, -D*dc/dx)",
+      "roles": [
+        {
+          "symbol": "J",
+          "meaning": "Teilchenstrom"
+        },
+        {
+          "symbol": "D",
+          "meaning": "Diffusionskoeffizient"
+        },
+        {
+          "symbol": "dc",
+          "meaning": "Konzentrationsdifferenz"
+        },
+        {
+          "symbol": "dx",
+          "meaning": "Länge"
+        }
+      ],
+      "variable_count": 4,
+      "ternary_candidate": false,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F074",
+      "name": "Arrhenius",
+      "domain": "Chemie",
+      "equation": "Eq(k, A*exp(-Ea/(R*T)))",
+      "roles": [
+        {
+          "symbol": "k",
+          "meaning": "Geschwindigkeitskonstante"
+        },
+        {
+          "symbol": "A",
+          "meaning": "Vorfaktor"
+        },
+        {
+          "symbol": "Ea",
+          "meaning": "Aktivierungsenergie"
+        },
+        {
+          "symbol": "T",
+          "meaning": "Temperatur"
+        }
+      ],
+      "variable_count": 4,
+      "ternary_candidate": false,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": true,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F075",
+      "name": "Nernst-Gleichung",
+      "domain": "Chemie",
+      "equation": "Eq(E, E0-R*T/(z*F_)*log(Q))",
+      "roles": [
+        {
+          "symbol": "E",
+          "meaning": "Potential"
+        },
+        {
+          "symbol": "E0",
+          "meaning": "Standardpotential"
+        },
+        {
+          "symbol": "T",
+          "meaning": "Temperatur"
+        },
+        {
+          "symbol": "z",
+          "meaning": "Ladungszahl"
+        },
+        {
+          "symbol": "Q",
+          "meaning": "Reaktionsquotient"
+        }
+      ],
+      "variable_count": 5,
+      "ternary_candidate": false,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": true,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F076",
+      "name": "Henderson-Hasselbalch",
+      "domain": "Chemie",
+      "equation": "Eq(pH, pKa+log(A/HA,10))",
+      "roles": [
+        {
+          "symbol": "pH",
+          "meaning": "pH-Wert"
+        },
+        {
+          "symbol": "pKa",
+          "meaning": "Säurekonstante"
+        },
+        {
+          "symbol": "A",
+          "meaning": "Konzentration"
+        },
+        {
+          "symbol": "HA",
+          "meaning": "Konzentration"
+        }
+      ],
+      "variable_count": 4,
+      "ternary_candidate": false,
+      "duplicate_label_count": 1,
+      "differential": false,
+      "transcendental": true,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F077",
+      "name": "Massenwirkungsgesetz",
+      "domain": "Chemie",
+      "equation": "Eq(K, cC*cD/(cA*cB))",
+      "roles": [
+        {
+          "symbol": "K",
+          "meaning": "Gleichgewichtskonstante"
+        },
+        {
+          "symbol": "cA",
+          "meaning": "Konzentration"
+        },
+        {
+          "symbol": "cB",
+          "meaning": "Konzentration"
+        },
+        {
+          "symbol": "cC",
+          "meaning": "Konzentration"
+        },
+        {
+          "symbol": "cD",
+          "meaning": "Konzentration"
+        }
+      ],
+      "variable_count": 5,
+      "ternary_candidate": false,
+      "duplicate_label_count": 3,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F079",
+      "name": "Gibbs-Energie",
+      "domain": "Chemie",
+      "equation": "Eq(G, H-T*S)",
+      "roles": [
+        {
+          "symbol": "G",
+          "meaning": "Freie Enthalpie"
+        },
+        {
+          "symbol": "H",
+          "meaning": "Enthalpie"
+        },
+        {
+          "symbol": "T",
+          "meaning": "Temperatur"
+        },
+        {
+          "symbol": "S",
+          "meaning": "Entropie"
+        }
+      ],
+      "variable_count": 4,
+      "ternary_candidate": false,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F080",
+      "name": "Stoffmenge",
+      "domain": "Chemie",
+      "equation": "Eq(n, m/M)",
+      "roles": [
+        {
+          "symbol": "n",
+          "meaning": "Stoffmenge"
+        },
+        {
+          "symbol": "m",
+          "meaning": "Masse"
+        },
+        {
+          "symbol": "M",
+          "meaning": "Molare Masse"
+        }
+      ],
+      "variable_count": 3,
+      "ternary_candidate": true,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F081",
+      "name": "Konzentration",
+      "domain": "Chemie",
+      "equation": "Eq(c, n/V)",
+      "roles": [
+        {
+          "symbol": "c",
+          "meaning": "Konzentration"
+        },
+        {
+          "symbol": "n",
+          "meaning": "Stoffmenge"
+        },
+        {
+          "symbol": "V",
+          "meaning": "Volumen"
+        }
+      ],
+      "variable_count": 3,
+      "ternary_candidate": true,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F083",
+      "name": "Michaelis-Menten",
+      "domain": "Biologie",
+      "equation": "Eq(v, Vmax*S/(Km+S))",
+      "roles": [
+        {
+          "symbol": "v",
+          "meaning": "Reaktionsgeschwindigkeit"
+        },
+        {
+          "symbol": "Vmax",
+          "meaning": "Maximalgeschwindigkeit"
+        },
+        {
+          "symbol": "S",
+          "meaning": "Substratkonzentration"
+        },
+        {
+          "symbol": "Km",
+          "meaning": "Michaelis-Konstante"
+        }
+      ],
+      "variable_count": 4,
+      "ternary_candidate": false,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F085",
+      "name": "Lotka-Volterra (Beute)",
+      "domain": "Biologie",
+      "equation": "Eq(Derivative(X(t),t), al*X(t)-be*X(t)*Y(t))",
+      "roles": [
+        {
+          "symbol": "X",
+          "meaning": "Beute"
+        },
+        {
+          "symbol": "Y",
+          "meaning": "Räuber"
+        },
+        {
+          "symbol": "al",
+          "meaning": "Rate"
+        },
+        {
+          "symbol": "be",
+          "meaning": "Rate"
+        },
+        {
+          "symbol": "t",
+          "meaning": "Zeit"
+        }
+      ],
+      "variable_count": 5,
+      "ternary_candidate": false,
+      "duplicate_label_count": 1,
+      "differential": true,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F086",
+      "name": "SIR (Infizierte)",
+      "domain": "Biologie",
+      "equation": "Eq(Derivative(I_(t),t), be*S_(t)*I_(t)/N-ga*I_(t))",
+      "roles": [
+        {
+          "symbol": "I_",
+          "meaning": "Infizierte"
+        },
+        {
+          "symbol": "S_",
+          "meaning": "Suszeptible"
+        },
+        {
+          "symbol": "N",
+          "meaning": "Population"
+        },
+        {
+          "symbol": "be",
+          "meaning": "Übertragungsrate"
+        },
+        {
+          "symbol": "ga",
+          "meaning": "Genesungsrate"
+        },
+        {
+          "symbol": "t",
+          "meaning": "Zeit"
+        }
+      ],
+      "variable_count": 6,
+      "ternary_candidate": false,
+      "duplicate_label_count": 0,
+      "differential": true,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F089",
+      "name": "Shannon-Entropie (zwei Zustände)",
+      "domain": "Informatik",
+      "equation": "Eq(Hs, -p*log(p,2)-(1-p)*log(1-p,2))",
+      "roles": [
+        {
+          "symbol": "Hs",
+          "meaning": "Information"
+        },
+        {
+          "symbol": "p",
+          "meaning": "Wahrscheinlichkeit"
+        }
+      ],
+      "variable_count": 2,
+      "ternary_candidate": false,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": true,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F090",
+      "name": "Shannon-Kanalkapazität",
+      "domain": "Informatik",
+      "equation": "Eq(Ck, Bw*log(1+Sg/Ns,2))",
+      "roles": [
+        {
+          "symbol": "Ck",
+          "meaning": "Kapazität"
+        },
+        {
+          "symbol": "Bw",
+          "meaning": "Bandbreite"
+        },
+        {
+          "symbol": "Sg",
+          "meaning": "Signalleistung"
+        },
+        {
+          "symbol": "Ns",
+          "meaning": "Rauschleistung"
+        }
+      ],
+      "variable_count": 4,
+      "ternary_candidate": false,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": true,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F091",
+      "name": "Satz von Bayes",
+      "domain": "Statistik",
+      "equation": "Eq(PAB, PBA*PA/PB)",
+      "roles": [
+        {
+          "symbol": "PAB",
+          "meaning": "Wahrscheinlichkeit"
+        },
+        {
+          "symbol": "PBA",
+          "meaning": "Wahrscheinlichkeit"
+        },
+        {
+          "symbol": "PA",
+          "meaning": "Wahrscheinlichkeit"
+        },
+        {
+          "symbol": "PB",
+          "meaning": "Wahrscheinlichkeit"
+        }
+      ],
+      "variable_count": 4,
+      "ternary_candidate": false,
+      "duplicate_label_count": 3,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    },
+    {
+      "id": "F096",
+      "name": "Cobb-Douglas",
+      "domain": "Ökonomie",
+      "equation": "Eq(Y, A*K**al*L**(1-al))",
+      "roles": [
+        {
+          "symbol": "Y",
+          "meaning": "Produktion"
+        },
+        {
+          "symbol": "A",
+          "meaning": "Produktivität"
+        },
+        {
+          "symbol": "K",
+          "meaning": "Kapital"
+        },
+        {
+          "symbol": "L",
+          "meaning": "Arbeit"
+        },
+        {
+          "symbol": "al",
+          "meaning": "Elastizität"
+        }
+      ],
+      "variable_count": 5,
+      "ternary_candidate": false,
+      "duplicate_label_count": 0,
+      "differential": false,
+      "transcendental": false,
+      "math_status": "not_assessed",
+      "semantic_status": "not_assessed"
+    }
+  ],
+  "edges": [
+    {
+      "a": "F017",
+      "b": "F026",
+      "shared_labels": [
+        "Zeit"
+      ],
+      "same_domain": false,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F017",
+      "b": "F027",
+      "shared_labels": [
+        "Zeit"
+      ],
+      "same_domain": false,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F017",
+      "b": "F054",
+      "shared_labels": [
+        "Zeit"
+      ],
+      "same_domain": false,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F021",
+      "b": "F022",
+      "shared_labels": [
+        "Masse"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F021",
+      "b": "F023",
+      "shared_labels": [
+        "Masse"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F021",
+      "b": "F025",
+      "shared_labels": [
+        "Kraft"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F021",
+      "b": "F044",
+      "shared_labels": [
+        "Masse"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F021",
+      "b": "F066",
+      "shared_labels": [
+        "Masse"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F021",
+      "b": "F080",
+      "shared_labels": [
+        "Masse"
+      ],
+      "same_domain": false,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F022",
+      "b": "F023",
+      "shared_labels": [
+        "Masse",
+        "Geschwindigkeit"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F022",
+      "b": "F027",
+      "shared_labels": [
+        "Geschwindigkeit"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F022",
+      "b": "F040",
+      "shared_labels": [
+        "Geschwindigkeit"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F022",
+      "b": "F044",
+      "shared_labels": [
+        "Masse"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F022",
+      "b": "F066",
+      "shared_labels": [
+        "Masse"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F022",
+      "b": "F080",
+      "shared_labels": [
+        "Masse"
+      ],
+      "same_domain": false,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F023",
+      "b": "F027",
+      "shared_labels": [
+        "Geschwindigkeit"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F023",
+      "b": "F040",
+      "shared_labels": [
+        "Geschwindigkeit"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F023",
+      "b": "F044",
+      "shared_labels": [
+        "Masse"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F023",
+      "b": "F066",
+      "shared_labels": [
+        "Masse"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F023",
+      "b": "F080",
+      "shared_labels": [
+        "Masse"
+      ],
+      "same_domain": false,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F025",
+      "b": "F026",
+      "shared_labels": [
+        "Arbeit"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F025",
+      "b": "F027",
+      "shared_labels": [
+        "Weg"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F025",
+      "b": "F048",
+      "shared_labels": [
+        "Arbeit"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F026",
+      "b": "F027",
+      "shared_labels": [
+        "Zeit"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F026",
+      "b": "F032",
+      "shared_labels": [
+        "Leistung"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F026",
+      "b": "F033",
+      "shared_labels": [
+        "Leistung"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F026",
+      "b": "F048",
+      "shared_labels": [
+        "Arbeit"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F026",
+      "b": "F054",
+      "shared_labels": [
+        "Zeit"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F027",
+      "b": "F040",
+      "shared_labels": [
+        "Geschwindigkeit"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F027",
+      "b": "F054",
+      "shared_labels": [
+        "Zeit"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F031",
+      "b": "F032",
+      "shared_labels": [
+        "Spannung",
+        "Stromstärke"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F031",
+      "b": "F033",
+      "shared_labels": [
+        "Widerstand",
+        "Stromstärke"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F032",
+      "b": "F033",
+      "shared_labels": [
+        "Leistung",
+        "Stromstärke"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F044",
+      "b": "F066",
+      "shared_labels": [
+        "Masse"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F044",
+      "b": "F080",
+      "shared_labels": [
+        "Masse"
+      ],
+      "same_domain": false,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F044",
+      "b": "F081",
+      "shared_labels": [
+        "Volumen"
+      ],
+      "same_domain": false,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F055",
+      "b": "F066",
+      "shared_labels": [
+        "Periode"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F066",
+      "b": "F080",
+      "shared_labels": [
+        "Masse"
+      ],
+      "same_domain": false,
+      "verification": "unassessed"
+    },
+    {
+      "a": "F080",
+      "b": "F081",
+      "shared_labels": [
+        "Stoffmenge"
+      ],
+      "same_domain": true,
+      "verification": "unassessed"
+    }
+  ],
+  "limits": [
+    "This is token counting, not a SymPy parser run.",
+    "Identical meaning text is not sufficient for scientific identity.",
+    "Duplicate meanings may be different legitimate quantities.",
+    "No algebraic derivation has been done for all 50."
+  ],
+  "next_gate": "symbolic parsing and typed formula-elimination tests"
+}
