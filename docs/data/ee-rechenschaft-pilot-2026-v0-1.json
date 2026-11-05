@@ -127,7 +127,7 @@
       "title": "Netzentgelt-Bundeszuschuss 2027–2029",
       "resort": "BMWE/BMF",
       "kind": "Gesetzesentwurf",
-      "source_url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/kabinettssitzungen/bundeskabinett-ergebnisse-2450152",
+      "source_url": "https://www.bundesregierung.de/breg-de/aktuelles/niedrigere-netzentgelte-2382396",
       "candidate_metrics": "Zuschuss, Endkundenpreise, Verteilungswirkung",
       "interpretation_contrast": "Ausgabe ≠ realisierte Entlastung",
       "review_state": "official_public_explanation_reviewed",
@@ -135,7 +135,8 @@
       "actual_effect": "not_checked",
       "official_success_claim": "not_extracted",
       "is_complete_audit": false,
-      "detail_url": "https://www.bundesregierung.de/breg-de/aktuelles/niedrigere-netzentgelte-2382396"
+      "detail_url": "https://www.bundesregierung.de/breg-de/aktuelles/niedrigere-netzentgelte-2382396",
+      "source_note": "Official government article dated 2026-09-03; earlier cabinet source not asserted"
     },
     {
       "id": "EE-DEC-009",
@@ -287,5 +288,32 @@
       "official_success_claim": "not_extracted",
       "is_complete_audit": false
     }
-  ]
+  ],
+  "source_review": "Pilot matter identification is not a full scientific review; verify each legal step before 100-decision cohort inclusion",
+  "crosswalk": {
+    "nuclei": [
+      "BKI-NUC-001",
+      "BKI-NUC-002",
+      "BKI-NUC-003",
+      "BKI-NUC-004",
+      "BKI-NUC-006",
+      "BKI-NUC-024",
+      "BKI-NUC-025",
+      "BKI-NUC-027",
+      "BKI-NUC-030",
+      "BKI-NUC-033",
+      "BKI-NUC-037"
+    ],
+    "phases": [
+      "SW-PH-3",
+      "SW-PH-4",
+      "SW-PH-5",
+      "SW-PH-6",
+      "SW-PH-7",
+      "SW-PH-8"
+    ],
+    "website": "./buerger-ki-rechenschaft-100.html",
+    "method": "decision→claim→source→object→indicator→evaluation→outcome→alternative interpretation→human impact→reviewed finding",
+    "required_review": "source_excerpts_and_legal_evaluation_duty"
+  }
 }
