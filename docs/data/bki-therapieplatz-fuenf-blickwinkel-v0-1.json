@@ -1,0 +1,270 @@
+{
+  "schema": "bki-topic-learning/0.1",
+  "updated": "2026-11-05",
+  "method": "Five repeatable perspectives for every core topic; each step explains what is known, what is uncertain and where to go next.",
+  "topic_id": "BKI-TOPIC-THERAPY",
+  "title": "Bürger-KI · Blickwinkel Therapieplatz",
+  "subtitle": "Ein menschliches Ziel – fünf miteinander verbundene Lernwege",
+  "intro": "Wer einen Therapieplatz sucht, braucht nicht nur einen Link oder eine Rechtsnorm. Wichtig sind Begriffe, praktische Suchwege, erreichbare Versorgung, gesellschaftliche Ursachen und überprüfbare Methoden.",
+  "stand": "Forschungsthema mit kuratierten Einstiegsquellen; keine individuelle Platzsuche, keine geprüften lokalen Kapazitäten, kein live angebundener Therapieplatzfinder.",
+  "lenses": [
+    {
+      "id": "ziel",
+      "number": 1,
+      "title": "Anliegen und Ziele",
+      "question": "Was möchte ich erreichen?",
+      "entry": "Ich suche einen Therapieplatz – was bedeutet es, tatsächlich Versorgung zu erhalten?",
+      "learning": [
+        "Therapiebedarf, passende Therapieform und tatsächlicher Behandlungsbeginn sind verschiedene Schritte.",
+        "Eine Sprechstunde oder probatorische Sitzung ist nicht zwingend ein längerfristiger Therapieplatz.",
+        "Das Ziel wird vom Menschen aus beschrieben: passende, erreichbare und tatsächlich begonnene Versorgung."
+      ],
+      "steps": [
+        {
+          "id": "goal-state",
+          "title": "Ziel und Erfolg",
+          "insight": "Nicht irgendein Termin, sondern geeigneter Behandlungszugang und reale Behandlung bilden den Prüfgegenstand.",
+          "source": "Eigene Zielrekonstruktion",
+          "kind": "method",
+          "href": "./buerger-ki-zielpfade.html"
+        },
+        {
+          "id": "goal-conditions",
+          "title": "Welche Bedingungen fehlen?",
+          "insight": "Alter, Behandlungsbedarf, Fachgebiet, zeitliche Dringlichkeit und Zugangsweg können verschiedene Handlungspfade begründen.",
+          "source": "Projekt-Lernweg",
+          "kind": "method",
+          "href": "./buerger-ki-weg.html"
+        }
+      ],
+      "cross": [
+        "wissen",
+        "hilfe",
+        "gesellschaft"
+      ],
+      "open": "Wie messen wir ein erreichtes Versorgungsziel ohne Sprechstundenkontakt mit tatsächlich begonnener Behandlung zu verwechseln?"
+    },
+    {
+      "id": "wissen",
+      "number": 2,
+      "title": "Wissen verstehen",
+      "question": "Was bedeutet das und was wissen wir?",
+      "entry": "Welche Begriffe werden in Berichten über Therapieplätze verwechselt?",
+      "learning": [
+        "Wartezeit braucht einen definierten Beginn und Endpunkt.",
+        "Psychotherapeutische Sprechstunde, Probatorik, Akutbehandlung und Richtlinientherapie unterscheiden.",
+        "Studien mit unterschiedlichen Startpunkten dürfen nicht unbemerkt als gemeinsame Trendlinie ausgegeben werden."
+      ],
+      "steps": [
+        {
+          "id": "term-diff",
+          "title": "Sprechstunde, Probatorik, Behandlung",
+          "insight": "Die Begriffe bestimmen, welche Versorgung eine Statistik tatsächlich abbildet.",
+          "source": "Bürger-KI Lernlexikon (noch zu vertiefen)",
+          "kind": "glossary",
+          "href": "./buerger-ki-ziele-lexikon.html"
+        },
+        {
+          "id": "wait-evidence",
+          "title": "Was sagen die Wartezeitstudien?",
+          "insight": "BPtK und vdek verwenden teils unterschiedliche Erhebungsräume und Zeitpunkte: das ist eine Vergleichsfrage, keine einfache Rangliste.",
+          "source": "BPtK / vdek",
+          "kind": "evidence",
+          "href": "./paper-buerger-ki-versorgungsluecken-therapie-pflege-notfall-verantwortung-v0-1.md"
+        },
+        {
+          "id": "sources",
+          "title": "Primärquellen der Wartezeiten",
+          "insight": "An Aussagen zu Wartezeiten immer die verwendete Definition und den Jahrgang anschließen.",
+          "source": "BPtK 2022 (Daten 2019)",
+          "kind": "external",
+          "href": "https://www.bptk.de/pressemitteilungen/psychisch-kranke-warten-142-tage-auf-eine-psychotherapeutische-behandlung/"
+        }
+      ],
+      "cross": [
+        "ziel",
+        "gesellschaft",
+        "forschung"
+      ],
+      "open": "Welche Zeitreihen erfassen die Suche vor dem Erstkontakt und welche nur den Weg nach der Sprechstunde?"
+    },
+    {
+      "id": "hilfe",
+      "number": 3,
+      "title": "Wege und Unterstützung",
+      "question": "Welche Handlungsmöglichkeiten gibt es?",
+      "entry": "Wer kann bei der Suche helfen, und wozu ist die Stelle tatsächlich in der Lage?",
+      "learning": [
+        "Terminvermittlung, Patientenberatung, Leistungsfragen und konkrete Behandlung sind verschiedene Angebote.",
+        "Eine Beratungsstelle kann unterstützen, ohne Therapieplätze zu vergeben.",
+        "Regionale Verfügbarkeit und Annahmebedingungen müssen gesondert überprüft werden."
+      ],
+      "steps": [
+        {
+          "id": "tss",
+          "title": "Terminservice 116117",
+          "insight": "Ein möglicher Zugang für Terminvermittlung unter bestimmten Voraussetzungen – keine Zusage eines langfristigen Therapieplatzes.",
+          "source": "116117",
+          "kind": "provider",
+          "href": "https://www.116117.de/"
+        },
+        {
+          "id": "upd",
+          "title": "Patientenberatung",
+          "insight": "Die unabhängige Patientenberatung unterstützt bei Versorgungs- und Leistungsfragen; sie vermittelt nach eigener Beschreibung keine Arzttermine.",
+          "source": "Stiftung UPD",
+          "kind": "provider",
+          "href": "https://patientenberatung.de/beratungsangebot/"
+        },
+        {
+          "id": "help-map",
+          "title": "Hilfeorganisationen und weitere Wege",
+          "insight": "Hilfeportale, Krankenkassen, Patientenvertretung und ggf. Fachberatung als unterschiedliche Funktionen sortieren.",
+          "source": "Bürger-KI Hilfeportal-Analyse",
+          "kind": "analysis",
+          "href": "./paper-handlungsatlas-praxisportale-hilfe-und-anwaltswissen-v0-1.md"
+        }
+      ],
+      "cross": [
+        "ziel",
+        "wissen",
+        "gesellschaft"
+      ],
+      "open": "Welche Kontaktwege führen in der jeweiligen Region tatsächlich zu einem verfügbaren, passenden Angebot?"
+    },
+    {
+      "id": "gesellschaft",
+      "number": 4,
+      "title": "Gesellschaft untersuchen",
+      "question": "Warum funktioniert etwas oder nicht?",
+      "entry": "Warum wird ein formal vorgesehenes Angebot möglicherweise nicht rechtzeitig erreichbar?",
+      "learning": [
+        "Therapeutenzahl, bedarfsplanerische Sitze, angebotene Termine und Behandlungskapazität sind verschiedene Größen.",
+        "Region, Alter, Therapieform, Dringlichkeit und historische Entwicklung verändern die Lage.",
+        "Eine behauptete Unterversorgung braucht einen definierten Bedarf, einen geeigneten Versorgungsindikator und eine offen gelegte Unsicherheit."
+      ],
+      "steps": [
+        {
+          "id": "capacity",
+          "title": "Unterversorgung über Jahre",
+          "insight": "Die Kapazitätsanalyse führt Therapieplätze neben Pflegeplätzen und Notfallkapazitäten, ohne ihre Folgen gleichzusetzen.",
+          "source": "Bürger-KI Versorgungs-Paper",
+          "kind": "analysis",
+          "href": "./paper-buerger-ki-versorgungsluecken-therapie-pflege-notfall-verantwortung-v0-1.md"
+        },
+        {
+          "id": "measurement",
+          "title": "Messbarkeit, Entscheidungen und Rechenschaft",
+          "insight": "Welche Daten erklären Zielerreichung tatsächlich; welche sind bloße Proxy-Kennzahlen?",
+          "source": "Bürger-KI Rechenschaftskern",
+          "kind": "analysis",
+          "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/KERNPAPER_MESSBARKEIT_STEUERUNG_RECHENSCHAFT_V0_1.md"
+        },
+        {
+          "id": "context",
+          "title": "Gesundheitsversorgung historisch",
+          "insight": "Leistungsfähigkeit, Personal, Versorgungslage und Folgen gehören in getrennte historische Zeitachsen.",
+          "source": "Bürger-KI historische Forschung",
+          "kind": "analysis",
+          "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/KERNPAPER_INSTITUTIONELLES_LERNEN_METRIKGESCHICHTE_UND_INTELLIGENZ_V0_1.md"
+        }
+      ],
+      "cross": [
+        "wissen",
+        "forschung",
+        "hilfe"
+      ],
+      "open": "Welche Aussage über Ursachen, Reformen und Ergebnisse ist durch die verfügbaren öffentlichen Daten wirklich entscheidbar?"
+    },
+    {
+      "id": "forschung",
+      "number": 5,
+      "title": "Forschung und Werkzeuge",
+      "question": "Wie entstehen und verbessern sich die Fähigkeiten?",
+      "entry": "Was müsste eine Bürger-KI zuverlässig können, damit Menschen daraus mehr als nur Informationen gewinnen?",
+      "learning": [
+        "Begriffe klären, Ziele präzisieren, Quellen vergleichen und tatsächliche Hilfezugänge unterscheiden.",
+        "Wartezeitdefinitionen auf ihre Vergleichbarkeit prüfen statt künstliche Gesamt-Benchmarks erzeugen.",
+        "Offene Wissenslücken als Forschungsaufträge verwalten und neue Erkenntnisse an ihre kanonischen Objekte rückbinden."
+      ],
+      "steps": [
+        {
+          "id": "skill-source",
+          "title": "Skill: Quellen- und Zeitvergleich",
+          "insight": "Eine behauptete Trendlinie auf unterschiedliche Start- und Endpunkte prüfen.",
+          "source": "Bürger-KI Skill-Deep-Dive",
+          "kind": "skill",
+          "href": "./buerger-ki-skill-deep-dive.md"
+        },
+        {
+          "id": "skill-goal",
+          "title": "Skill: Ziele und Alternativen",
+          "insight": "Menschliches Ziel von institutionellem Prozess und bloßer Kontaktaufnahme trennen.",
+          "source": "Zielpfadlabor",
+          "kind": "tool",
+          "href": "./buerger-ki-zielpfade.html"
+        },
+        {
+          "id": "question",
+          "title": "Forschungsfrage und negativer Befund",
+          "insight": "Fehlende öffentliche Kapazitätsdaten als offenes Ergebnis führen, ohne Zahl oder Erfolg zu erfinden.",
+          "source": "Messbarkeits- und Rechenschaftsprogramm",
+          "kind": "research",
+          "href": "./buerger-ki-phase-13-messbarkeit-rechenschaft.md"
+        }
+      ],
+      "cross": [
+        "gesellschaft",
+        "ziel",
+        "wissen"
+      ],
+      "open": "Welche prüfbare Fähigkeit muss als Nächstes entwickelt werden, damit aus einem Quellenfund eine bessere Handlungsmöglichkeit wird?"
+    }
+  ],
+  "mirrors": [
+    {
+      "id": "from-person",
+      "title": "Vom Menschen aus",
+      "from": "ziel",
+      "to": "hilfe",
+      "question": "Welche konkrete Veränderung ist das Ziel – und wer hilft beim Zugang?"
+    },
+    {
+      "id": "from-term",
+      "title": "Vom Begriff aus",
+      "from": "wissen",
+      "to": "gesellschaft",
+      "question": "Welche Bedeutung einer Wartezeit passt zur historischen Aussage?"
+    },
+    {
+      "id": "from-provider",
+      "title": "Von der Organisation aus",
+      "from": "hilfe",
+      "to": "ziel",
+      "question": "Welche Aufgabe erfüllt ein Anbieter wirklich, welche nicht?"
+    },
+    {
+      "id": "from-system",
+      "title": "Von der Infrastruktur aus",
+      "from": "gesellschaft",
+      "to": "forschung",
+      "question": "Warum reicht die Messung nicht, um Versorgungslücken zu beurteilen?"
+    },
+    {
+      "id": "from-research",
+      "title": "Von der Forschungsfrage aus",
+      "from": "forschung",
+      "to": "wissen",
+      "question": "Welche Quelle und Begriffsdefinition müsste vor einer Behauptung geprüft werden?"
+    }
+  ],
+  "opening_policy": {
+    "topic_is_anchor": true,
+    "five_lenses_repeatable": true,
+    "canonical_records_not_duplicated": true,
+    "deep_dive_when": "new conceptual/legal/causal scope with material learning value",
+    "cross_link_when": "existing owner already explains concept or method",
+    "appendix_when": "provenance, method detail, historical table or unreviewed research",
+    "unknowns_remain_visible": true
+  }
+}
