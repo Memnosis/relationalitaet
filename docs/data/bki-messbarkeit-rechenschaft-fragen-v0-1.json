@@ -1,0 +1,116 @@
+{
+  "schema": "bki-accountability-questions/0.1",
+  "as_of": "2026-11-05",
+  "paper_id": "BKI-KERN-MSR-001",
+  "scoring": "none",
+  "questions": [
+    {
+      "id": "MSR-01",
+      "area": "ÖGD-Pakt",
+      "question": "Sind zusätzliche Mittel in dauerhaft besetzte Fachstellen und tatsächlich bessere Leistungen übergegangen?",
+      "observations_needed": [],
+      "source_ref": "to_assign",
+      "evaluation_status": "not_assessed",
+      "conclusion": "open"
+    },
+    {
+      "id": "MSR-02",
+      "area": "Krankenhausreform",
+      "question": "Was änderte sich an regionaler Erreichbarkeit, Fachkapazität und nachprüfbarer Qualität?",
+      "observations_needed": [],
+      "source_ref": "to_assign",
+      "evaluation_status": "not_assessed",
+      "conclusion": "open"
+    },
+    {
+      "id": "MSR-03",
+      "area": "DigitalRadar",
+      "question": "Was wurde vor und nach Digitalisierung mit identischer Methode gemessen, was nicht?",
+      "observations_needed": [],
+      "source_ref": "to_assign",
+      "evaluation_status": "not_assessed",
+      "conclusion": "open"
+    },
+    {
+      "id": "MSR-04",
+      "area": "Pflegepersonal",
+      "question": "Wann folgten aus ermittelten Soll-Ist-Abweichungen überprüfbare Veränderungen?",
+      "observations_needed": [],
+      "source_ref": "to_assign",
+      "evaluation_status": "not_assessed",
+      "conclusion": "open"
+    },
+    {
+      "id": "MSR-05",
+      "area": "Startchancen",
+      "question": "Kann das Lernziel mit konsistenten Kohorten, Begriffen und Vergleichsgruppen geprüft werden?",
+      "observations_needed": [],
+      "source_ref": "to_assign",
+      "evaluation_status": "not_assessed",
+      "conclusion": "open"
+    },
+    {
+      "id": "MSR-06",
+      "area": "Aufholprogramm",
+      "question": "Welche Lernwirkungen wurden statt bloßer Durchführung dokumentiert?",
+      "observations_needed": [],
+      "source_ref": "to_assign",
+      "evaluation_status": "not_assessed",
+      "conclusion": "open"
+    },
+    {
+      "id": "MSR-07",
+      "area": "DigitalPakt",
+      "question": "Welche Unterrichts- und Kompetenzwirkungen wurden gegenüber der Mittelverwendung beobachtet?",
+      "observations_needed": [],
+      "source_ref": "to_assign",
+      "evaluation_status": "not_assessed",
+      "conclusion": "open"
+    },
+    {
+      "id": "MSR-08",
+      "area": "Ernährung",
+      "question": "Sind Ernährung, Kosten, Zugang und Unterschiede zwischen Bevölkerungsgruppen historisch vergleichbar?",
+      "observations_needed": [],
+      "source_ref": "to_assign",
+      "evaluation_status": "not_assessed",
+      "conclusion": "open"
+    },
+    {
+      "id": "MSR-09",
+      "area": "Arbeitsmarkt",
+      "question": "Welche Zeitreihenänderungen entstehen durch Definition, Erhebung oder veränderte Arbeitsmarktlage?",
+      "observations_needed": [],
+      "source_ref": "to_assign",
+      "evaluation_status": "not_assessed",
+      "conclusion": "open"
+    },
+    {
+      "id": "MSR-10",
+      "area": "Steuervollzug",
+      "question": "Wie hängen Fachpersonal, Arbeitslast, Prüfintensität und überprüfbare Ergebnisse zusammen?",
+      "observations_needed": [],
+      "source_ref": "to_assign",
+      "evaluation_status": "not_assessed",
+      "conclusion": "open"
+    },
+    {
+      "id": "MSR-11",
+      "area": "Patientensicherheit",
+      "question": "Welche dokumentierten Fehler führten zu welchen überprüften Korrekturen?",
+      "observations_needed": [],
+      "source_ref": "to_assign",
+      "evaluation_status": "not_assessed",
+      "conclusion": "open"
+    },
+    {
+      "id": "MSR-12",
+      "area": "Institutionelles Lernen",
+      "question": "Sind Empfehlungen, Ressourcenentscheidungen, Umsetzung und Retest kausal abgrenzbar?",
+      "observations_needed": [],
+      "source_ref": "to_assign",
+      "evaluation_status": "not_assessed",
+      "conclusion": "open"
+    }
+  ]
+}
