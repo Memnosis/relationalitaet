@@ -174,6 +174,10 @@ Geöffnet: Warum diese Quellen gewählt wurden, Geltung und Zugangsstand, verwan
 **L08** Statt eines großen Gesamtgraphen braucht jede Welt eine kleine, nachvollziehbare 1-Hop-Kontextliste.  
 **L09** Keine der geplanten Weltkomponenten ist allein durch dieses Papier implementiert oder im Browser fachlich abgenommen.
 
+### Reproduzierbarer Struktur-Schnelltest (05.11.2026)
+
+Im GitHub-`main`-Baum geprüft: Die fünf `main_entries.page`-Ziele sind als Repository-Dateien vorhanden. Bei den 14 Therapieplatz-Schrittlinks sind sämtliche **neun relativen internen Ziele** im aktuellen `docs/`-Baum vorhanden; fünf weitere Ziele sind externe URLs und wurden in diesem Schritt **nicht live auf Erreichbarkeit oder fachlichen Inhalt geprüft**. Alle fünf Spiegelungen besitzen existierende `from`- und `to`-Linsen-IDs. **Davon getrennt** bleibt die beobachtete UI-Frage: Der Spiegelungsbutton öffnet `from` statt `to`. Existierende Links und IDs sind kein Qualitätsnachweis für die Frage, ob die gewählte Vertiefung fachlich passend und substanziell ist.
+
 ## 10. Umsetzungsreihenfolge vor jeder neuen User Story
 
 **S1 – Sprachinventar**: Alle fünf `LP`-Routen und fünf Therapie-`lenses` in einer separaten Element-/Übergangsmatrix erfassen; bestehende IDs unverändert. Für jede Station Frage, Bedeutung, Erkenntnis, Quellenrolle, Anschluss und Lücke dokumentieren.
