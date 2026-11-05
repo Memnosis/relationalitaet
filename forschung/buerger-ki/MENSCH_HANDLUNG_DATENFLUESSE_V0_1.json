@@ -1,0 +1,169 @@
+{
+  "schema": "bki-action-dataflow/0.1",
+  "date": "2026-11-05",
+  "status": "concept_only_no_data_processing_authorized",
+  "owner_paper": "PAPER_MENSCH_ZU_HANDLUNG_KI_ANBINDUNG_DATEN_RECHT_V0_1_2026-11-05.md",
+  "service_spaces": [
+    {
+      "id": "BKI-SRV-01",
+      "name": "public_knowledge",
+      "personal_case_storage": false,
+      "status": "existing_public_web",
+      "user_output": [
+        "sources",
+        "learning_paths"
+      ]
+    },
+    {
+      "id": "BKI-SRV-02",
+      "name": "self_action_tools",
+      "personal_case_storage": false,
+      "status": "planned_local_only",
+      "user_output": [
+        "exportable_checklist",
+        "calendar_export"
+      ]
+    },
+    {
+      "id": "BKI-SRV-03",
+      "name": "community_activities",
+      "personal_case_storage": "only_if_separately_opted_in_and_approved",
+      "status": "not_live",
+      "user_output": [
+        "event_info",
+        "voluntary_group_contact"
+      ]
+    },
+    {
+      "id": "BKI-SRV-04",
+      "name": "personal_assistance_health",
+      "personal_case_storage": "separate_sensitive_service_if_approved",
+      "status": "research_only_not_live",
+      "user_output": [
+        "personal_record",
+        "reminder"
+      ]
+    },
+    {
+      "id": "BKI-SRV-05",
+      "name": "public_research",
+      "personal_case_storage": false,
+      "status": "existing_research_plus_planned_voluntary_contributions",
+      "user_output": [
+        "reviewed_claims",
+        "public_evidence"
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "id": "W01",
+      "from": "ziel",
+      "to": "wissen",
+      "semantic_shift": "clinical_terms",
+      "risk": "no_diagnosis_from_wish",
+      "translation_status": "pending_review",
+      "implemented": false
+    },
+    {
+      "id": "W02",
+      "from": "wissen",
+      "to": "hilfe",
+      "semantic_shift": "service_access",
+      "risk": "referral_not_guaranteed_treatment",
+      "translation_status": "pending_review",
+      "implemented": false
+    },
+    {
+      "id": "W03",
+      "from": "hilfe",
+      "to": "self_action",
+      "semantic_shift": "local_checklist",
+      "risk": "not_implemented",
+      "translation_status": "pending_review",
+      "implemented": false
+    },
+    {
+      "id": "W04",
+      "from": "self_action",
+      "to": "community",
+      "semantic_shift": "voluntary_co_working",
+      "risk": "not_therapy",
+      "translation_status": "pending_review",
+      "implemented": false
+    },
+    {
+      "id": "W05",
+      "from": "self_action",
+      "to": "personal_record",
+      "semantic_shift": "local_notes",
+      "risk": "personal_not_research",
+      "translation_status": "pending_review",
+      "implemented": false
+    },
+    {
+      "id": "W06",
+      "from": "hilfe",
+      "to": "clinical_fit",
+      "semantic_shift": "professional_assessment",
+      "risk": "no_auto_therapy_selection",
+      "translation_status": "pending_review",
+      "implemented": false
+    },
+    {
+      "id": "W07",
+      "from": "no_service",
+      "to": "mitigation",
+      "semantic_shift": "alternatives_and_support",
+      "risk": "non_guarantee",
+      "translation_status": "pending_review",
+      "implemented": false
+    },
+    {
+      "id": "W08",
+      "from": "personal_observation",
+      "to": "society",
+      "semantic_shift": "research_question",
+      "risk": "non_representative",
+      "translation_status": "pending_review",
+      "implemented": false
+    },
+    {
+      "id": "W09",
+      "from": "community",
+      "to": "public_participation",
+      "semantic_shift": "voluntary_event",
+      "risk": "no_health_status_exposure",
+      "translation_status": "pending_review",
+      "implemented": false
+    },
+    {
+      "id": "W10",
+      "from": "research_update",
+      "to": "return_to_goal",
+      "semantic_shift": "factual_update",
+      "risk": "no_profiling",
+      "translation_status": "pending_review",
+      "implemented": false
+    }
+  ],
+  "legal_gates": [
+    "purpose_and_controller",
+    "legal_basis_and_if_health_data_art_9_condition",
+    "notice_and_retention",
+    "processor_and_transfers",
+    "access_control_and_security",
+    "withdrawal_deletion_export",
+    "medical_device_intended_purpose",
+    "testing_and_content_review"
+  ],
+  "collection_rules": {
+    "no_case_data_in_github": true,
+    "no_public_issue_health_records": true,
+    "no_health_in_newsletter_list": true,
+    "no_automatic_topic_profile": true,
+    "consent_separate_by_purpose": true,
+    "default_no_personal_data": true
+  },
+  "module_decision": "User story execution and collecting contact data are gated pending purpose-specific legal and technical review"
+}
