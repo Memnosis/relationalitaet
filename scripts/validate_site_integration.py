@@ -51,8 +51,8 @@ for slug in slugs:
     parser = Scan()
     parser.feed(html)
     scans[name] = parser
-    if "tensor-hierarchy.js" not in html:
-        errors.append(name + ": missing common seven-group navigation")
+    if "website-unified.js" not in html or "ux-site-nav" not in html:
+        errors.append(name + ": missing current unified navigation (website-unified.js + ux-site-nav)")
     if "site-nav.js" in html:
         errors.append(name + ": conflicting integration-branch navigation")
     if "<html" not in html.lower() or "</html>" not in html.lower():
