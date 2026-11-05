@@ -1,0 +1,1492 @@
+{
+  "schema": "whole-world-order-crosswalk/0.1",
+  "date": "2026-11-05",
+  "status": "candidate_with_verified_index_operations",
+  "base_candidate": "forschung/tensor/kandidaten/KAND-LUHMANN-01_v0_1.json",
+  "triads": {
+    "LU-01": {
+      "name": "Kommunikation",
+      "roles": [
+        "Information",
+        "Mitteilung",
+        "Verstehen"
+      ],
+      "kind": "konstitutive Synthese",
+      "source": "Luhmann"
+    },
+    "LU-02": {
+      "name": "Sinndimensionen",
+      "roles": [
+        "Sachdimension",
+        "Zeitdimension",
+        "Sozialdimension"
+      ],
+      "kind": "analytische Differenzierung",
+      "source": "Luhmann"
+    },
+    "LU-03": {
+      "name": "Evolution",
+      "roles": [
+        "Variation",
+        "Selektion",
+        "Restabilisierung"
+      ],
+      "kind": "zeitliche Mechanismen",
+      "source": "Luhmann"
+    },
+    "LU-04": {
+      "name": "Systemformen",
+      "roles": [
+        "Interaktion",
+        "Organisation",
+        "Gesellschaft"
+      ],
+      "kind": "Systemtypologie",
+      "source": "Luhmann"
+    },
+    "LU-05": {
+      "name": "Kommunikationsmedien",
+      "roles": [
+        "Sprache",
+        "Verbreitungsmedien",
+        "symbolisch generalisierte Medien"
+      ],
+      "kind": "Medienfunktionsunterscheidung",
+      "source": "Luhmann"
+    },
+    "PEIRCE": {
+      "name": "Semiose",
+      "roles": [
+        "Zeichen",
+        "Objekt",
+        "Interpretant"
+      ],
+      "kind": "konstitutive Zeichenrelation",
+      "source": "Peirce"
+    },
+    "MARR": {
+      "name": "Verarbeitungsebenen",
+      "roles": [
+        "Aufgabe",
+        "Algorithmus/Repräsentation",
+        "Implementierung"
+      ],
+      "kind": "Erklärungsebenen",
+      "source": "Marr"
+    },
+    "JENKINS": {
+      "name": "Konvergenz und Beteiligung",
+      "roles": [
+        "Konvergenz",
+        "Partizipationskultur",
+        "kollektive Intelligenz"
+      ],
+      "kind": "konzeptueller Dreiklang",
+      "source": "Jenkins"
+    },
+    "PROJECT-LOOP": {
+      "name": "Loop-Grundrollen",
+      "roles": [
+        "Baseline",
+        "Identität",
+        "Emergenz"
+      ],
+      "kind": "Projekt-Rekonstruktion",
+      "source": "Trinity Algebra"
+    }
+  },
+  "worlds": [
+    {
+      "id": "W-LU-MED",
+      "name": "Kommunikation – Sinn – Medien",
+      "axes": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "focus": "höhere Medienordnungen und kommunikative Möglichkeiten"
+    },
+    {
+      "id": "W-LU-EVO",
+      "name": "Kommunikation – Sinn – Evolution",
+      "axes": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "focus": "Veränderung der Kommunikation über Sinnbezüge"
+    },
+    {
+      "id": "W-LU-SYS",
+      "name": "Kommunikation – Evolution – Systemformen",
+      "axes": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "focus": "verschiedene Systeme, Variation und Restabilisierung"
+    },
+    {
+      "id": "W-LU-OP",
+      "name": "Kommunikation – Sinn – Prüfoperation",
+      "axes": [
+        "LU-01",
+        "LU-02",
+        "PROJECT-OPS"
+      ],
+      "focus": "Bestandskandidat KAND-LUHMANN-01; Referenz und Crosswalk",
+      "status": "existing_27_candidate"
+    }
+  ],
+  "donor_contacts": [
+    {
+      "id": "D01",
+      "from": "PEIRCE",
+      "to": "LU-01",
+      "contact": "Zeichenbezogenes Mitteilen und Interpretieren",
+      "shared": "Relationen von Zeichen und Sinnzuschreibung",
+      "guard": "Interpretant ≠ Verstehen; Semiose ≠ Kommunikation; keine Isomorphie",
+      "transfer": "typed_relational_graph"
+    },
+    {
+      "id": "D02",
+      "from": "MARR",
+      "to": "LU-05",
+      "contact": "Kommunikative Medien mit technischen Informationsverarbeitungsniveaus beschreiben",
+      "shared": "Spezifikation, technische Darstellung und Implementierbarkeit",
+      "guard": "Marrs Ebenen sind keine Medienarten und keine historische Abfolge",
+      "transfer": "implementation_trace"
+    },
+    {
+      "id": "D03",
+      "from": "JENKINS",
+      "to": "LU-05",
+      "contact": "Verbreitung, Partizipation, gemeinsame Wissensarbeit",
+      "shared": "Mediale Zirkulation und Beteiligung",
+      "guard": "Verbreitung ≠ Annahme; Teilnahme nicht durch bloße Netzwerkverbindung",
+      "transfer": "participation_network"
+    },
+    {
+      "id": "D04",
+      "from": "PROJECT-LOOP",
+      "to": "LU-03",
+      "contact": "Variation, Auswahl und Stabilisierung als Übergangsprotokoll",
+      "shared": "Änderung und Stabilisierung von Zuständen",
+      "guard": "Emergenz ist nicht identisch mit Variation; Loop nicht zwangsläufig geschlossen",
+      "transfer": "typed_state_transition"
+    },
+    {
+      "id": "D05",
+      "from": "PEIRCE",
+      "to": "LU-02",
+      "contact": "Bedeutung und ihre sachlichen, zeitlichen, sozialen Perspektiven",
+      "shared": "Kennzeichnung mehrerer Sinnbezüge",
+      "guard": "Keine automatische Gleichsetzung von Interpretanten mit Sinn-Dimensionen",
+      "transfer": "annotated_semantics"
+    },
+    {
+      "id": "D06",
+      "from": "JENKINS",
+      "to": "LU-04",
+      "contact": "Beteiligung in Interaktionen, Organisationen und gesellschaftlichen Öffentlichkeiten",
+      "shared": "Kontext und Umfang von Beteiligung",
+      "guard": "Jenkins-Konvergenz ≠ Luhmann-Gesellschaft; Publikum ≠ Organisation",
+      "transfer": "context_sensitive_network"
+    }
+  ],
+  "order_transformations": [
+    {
+      "id": "OW-01",
+      "op": "axis_permutation",
+      "rule": "(i,j,k) → (j,k,i)",
+      "inverse": "(i,j,k) → (k,i,j)",
+      "geometric": "Schicht-/Achsenwechsel",
+      "semantic": "nur mitgeführt als typisierte Achsen- und Rollenbeschriftungen",
+      "proof": "permutation and inverse exact",
+      "category": "representation"
+    },
+    {
+      "id": "OW-02",
+      "op": "coordinate_embedding",
+      "rule": "(i,j,k) → geometrischer Punkt (i,j,k)",
+      "inverse": "Koordinaten lesen, sofern Raster und Label erhalten",
+      "geometric": "3D-Punktmodell",
+      "semantic": "Metadaten bleiben eigene Träger; Koordinaten allein nicht bedeutungstreu",
+      "proof": "27 distinct points",
+      "category": "representation"
+    },
+    {
+      "id": "OW-03",
+      "op": "projection",
+      "rule": "(i,j,k) → (i,j)",
+      "inverse": "nicht eindeutig",
+      "geometric": "3D→2D",
+      "semantic": "3. Achse verliert sich; drei Rollenlagen fallen zusammen",
+      "proof": "27 to 9 coordinates",
+      "category": "lossy"
+    },
+    {
+      "id": "OW-04",
+      "op": "cycle_shift",
+      "rule": "(i,j,k) → (i+1,j+1,k+1) mod 3",
+      "inverse": "zweimal weitere Verschiebung",
+      "geometric": "neun Dreierbahnen",
+      "semantic": "nur ein Zyklus der Adressen; für Fachrollen nur bei freigegebener Rollenabbildung",
+      "proof": "F³=id",
+      "category": "index_only"
+    },
+    {
+      "id": "OW-05",
+      "op": "crossworld_role_binding",
+      "rule": "W1(a,b,c) ↦ W2(u(a),v(b),w(c))",
+      "inverse": "nur falls Achsenübersetzungen bijektiv und bedeutungserhaltend",
+      "geometric": "Umbenannte oder gekoppelten Ganzheiten",
+      "semantic": "keine automatischen LU↔DONOR-Identitäten",
+      "proof": "requires source-defined maps",
+      "category": "hypothesis"
+    },
+    {
+      "id": "OW-06",
+      "op": "graph_reconstruction",
+      "rule": "getypte Kanten + gemeinsame Dreier-Relation → visualisierter Hypergraph",
+      "inverse": "nur wenn Hyperkantenkennungen und Rollen mitgespeichert",
+      "geometric": "Hypergraph / Bewegungspfad",
+      "semantic": "Wegfall einer Rollen-ID ist Verletzung",
+      "proof": "requires encoded hyperedges",
+      "category": "hypothesis"
+    }
+  ],
+  "cells": [
+    {
+      "id": "W-LU-MED#000",
+      "world": "W-LU-MED",
+      "roles": [
+        "Information",
+        "Sachdimension",
+        "Sprache"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-MED#001",
+      "world": "W-LU-MED",
+      "roles": [
+        "Information",
+        "Sachdimension",
+        "Verbreitungsmedien"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-MED#002",
+      "world": "W-LU-MED",
+      "roles": [
+        "Information",
+        "Sachdimension",
+        "symbolisch generalisierte Medien"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-MED#010",
+      "world": "W-LU-MED",
+      "roles": [
+        "Information",
+        "Zeitdimension",
+        "Sprache"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-MED#011",
+      "world": "W-LU-MED",
+      "roles": [
+        "Information",
+        "Zeitdimension",
+        "Verbreitungsmedien"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-MED#012",
+      "world": "W-LU-MED",
+      "roles": [
+        "Information",
+        "Zeitdimension",
+        "symbolisch generalisierte Medien"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-MED#020",
+      "world": "W-LU-MED",
+      "roles": [
+        "Information",
+        "Sozialdimension",
+        "Sprache"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-MED#021",
+      "world": "W-LU-MED",
+      "roles": [
+        "Information",
+        "Sozialdimension",
+        "Verbreitungsmedien"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-MED#022",
+      "world": "W-LU-MED",
+      "roles": [
+        "Information",
+        "Sozialdimension",
+        "symbolisch generalisierte Medien"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-MED#100",
+      "world": "W-LU-MED",
+      "roles": [
+        "Mitteilung",
+        "Sachdimension",
+        "Sprache"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-MED#101",
+      "world": "W-LU-MED",
+      "roles": [
+        "Mitteilung",
+        "Sachdimension",
+        "Verbreitungsmedien"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-MED#102",
+      "world": "W-LU-MED",
+      "roles": [
+        "Mitteilung",
+        "Sachdimension",
+        "symbolisch generalisierte Medien"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-MED#110",
+      "world": "W-LU-MED",
+      "roles": [
+        "Mitteilung",
+        "Zeitdimension",
+        "Sprache"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-MED#111",
+      "world": "W-LU-MED",
+      "roles": [
+        "Mitteilung",
+        "Zeitdimension",
+        "Verbreitungsmedien"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-MED#112",
+      "world": "W-LU-MED",
+      "roles": [
+        "Mitteilung",
+        "Zeitdimension",
+        "symbolisch generalisierte Medien"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-MED#120",
+      "world": "W-LU-MED",
+      "roles": [
+        "Mitteilung",
+        "Sozialdimension",
+        "Sprache"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-MED#121",
+      "world": "W-LU-MED",
+      "roles": [
+        "Mitteilung",
+        "Sozialdimension",
+        "Verbreitungsmedien"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-MED#122",
+      "world": "W-LU-MED",
+      "roles": [
+        "Mitteilung",
+        "Sozialdimension",
+        "symbolisch generalisierte Medien"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-MED#200",
+      "world": "W-LU-MED",
+      "roles": [
+        "Verstehen",
+        "Sachdimension",
+        "Sprache"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-MED#201",
+      "world": "W-LU-MED",
+      "roles": [
+        "Verstehen",
+        "Sachdimension",
+        "Verbreitungsmedien"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-MED#202",
+      "world": "W-LU-MED",
+      "roles": [
+        "Verstehen",
+        "Sachdimension",
+        "symbolisch generalisierte Medien"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-MED#210",
+      "world": "W-LU-MED",
+      "roles": [
+        "Verstehen",
+        "Zeitdimension",
+        "Sprache"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-MED#211",
+      "world": "W-LU-MED",
+      "roles": [
+        "Verstehen",
+        "Zeitdimension",
+        "Verbreitungsmedien"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-MED#212",
+      "world": "W-LU-MED",
+      "roles": [
+        "Verstehen",
+        "Zeitdimension",
+        "symbolisch generalisierte Medien"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-MED#220",
+      "world": "W-LU-MED",
+      "roles": [
+        "Verstehen",
+        "Sozialdimension",
+        "Sprache"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-MED#221",
+      "world": "W-LU-MED",
+      "roles": [
+        "Verstehen",
+        "Sozialdimension",
+        "Verbreitungsmedien"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-MED#222",
+      "world": "W-LU-MED",
+      "roles": [
+        "Verstehen",
+        "Sozialdimension",
+        "symbolisch generalisierte Medien"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#000",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Information",
+        "Sachdimension",
+        "Variation"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#001",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Information",
+        "Sachdimension",
+        "Selektion"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#002",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Information",
+        "Sachdimension",
+        "Restabilisierung"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#010",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Information",
+        "Zeitdimension",
+        "Variation"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#011",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Information",
+        "Zeitdimension",
+        "Selektion"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#012",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Information",
+        "Zeitdimension",
+        "Restabilisierung"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#020",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Information",
+        "Sozialdimension",
+        "Variation"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#021",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Information",
+        "Sozialdimension",
+        "Selektion"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#022",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Information",
+        "Sozialdimension",
+        "Restabilisierung"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#100",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Mitteilung",
+        "Sachdimension",
+        "Variation"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#101",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Mitteilung",
+        "Sachdimension",
+        "Selektion"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#102",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Mitteilung",
+        "Sachdimension",
+        "Restabilisierung"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#110",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Mitteilung",
+        "Zeitdimension",
+        "Variation"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#111",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Mitteilung",
+        "Zeitdimension",
+        "Selektion"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#112",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Mitteilung",
+        "Zeitdimension",
+        "Restabilisierung"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#120",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Mitteilung",
+        "Sozialdimension",
+        "Variation"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#121",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Mitteilung",
+        "Sozialdimension",
+        "Selektion"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#122",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Mitteilung",
+        "Sozialdimension",
+        "Restabilisierung"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#200",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Verstehen",
+        "Sachdimension",
+        "Variation"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#201",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Verstehen",
+        "Sachdimension",
+        "Selektion"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#202",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Verstehen",
+        "Sachdimension",
+        "Restabilisierung"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#210",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Verstehen",
+        "Zeitdimension",
+        "Variation"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#211",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Verstehen",
+        "Zeitdimension",
+        "Selektion"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#212",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Verstehen",
+        "Zeitdimension",
+        "Restabilisierung"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#220",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Verstehen",
+        "Sozialdimension",
+        "Variation"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#221",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Verstehen",
+        "Sozialdimension",
+        "Selektion"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-EVO#222",
+      "world": "W-LU-EVO",
+      "roles": [
+        "Verstehen",
+        "Sozialdimension",
+        "Restabilisierung"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#000",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Information",
+        "Variation",
+        "Interaktion"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#001",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Information",
+        "Variation",
+        "Organisation"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#002",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Information",
+        "Variation",
+        "Gesellschaft"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#010",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Information",
+        "Selektion",
+        "Interaktion"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#011",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Information",
+        "Selektion",
+        "Organisation"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#012",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Information",
+        "Selektion",
+        "Gesellschaft"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#020",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Information",
+        "Restabilisierung",
+        "Interaktion"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#021",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Information",
+        "Restabilisierung",
+        "Organisation"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#022",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Information",
+        "Restabilisierung",
+        "Gesellschaft"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#100",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Mitteilung",
+        "Variation",
+        "Interaktion"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#101",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Mitteilung",
+        "Variation",
+        "Organisation"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#102",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Mitteilung",
+        "Variation",
+        "Gesellschaft"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#110",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Mitteilung",
+        "Selektion",
+        "Interaktion"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#111",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Mitteilung",
+        "Selektion",
+        "Organisation"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#112",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Mitteilung",
+        "Selektion",
+        "Gesellschaft"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#120",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Mitteilung",
+        "Restabilisierung",
+        "Interaktion"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#121",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Mitteilung",
+        "Restabilisierung",
+        "Organisation"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#122",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Mitteilung",
+        "Restabilisierung",
+        "Gesellschaft"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#200",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Verstehen",
+        "Variation",
+        "Interaktion"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#201",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Verstehen",
+        "Variation",
+        "Organisation"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#202",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Verstehen",
+        "Variation",
+        "Gesellschaft"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#210",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Verstehen",
+        "Selektion",
+        "Interaktion"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#211",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Verstehen",
+        "Selektion",
+        "Organisation"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#212",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Verstehen",
+        "Selektion",
+        "Gesellschaft"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#220",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Verstehen",
+        "Restabilisierung",
+        "Interaktion"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#221",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Verstehen",
+        "Restabilisierung",
+        "Organisation"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "id": "W-LU-SYS#222",
+      "world": "W-LU-SYS",
+      "roles": [
+        "Verstehen",
+        "Restabilisierung",
+        "Gesellschaft"
+      ],
+      "status": "structural_candidate_no_domain_proof",
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ]
+    }
+  ],
+  "test_note": "81 addresses are from three separate 27-field worlds; not 81 validated statements; preexisting project-ops candidate remains independent.",
+  "source_refs": [
+    "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+    "forschung/tensor/algebra-claude/typalgebra.py",
+    "forschung/geoki/v0_4/src/geometry.py"
+  ],
+  "structural_checks": {
+    "threeWorlds": true,
+    "total81": true,
+    "unique81": true,
+    "threeTriads": true,
+    "rotationInverse": true,
+    "cycle3": true,
+    "proj9": true,
+    "donorGuards": true
+  }
+}
