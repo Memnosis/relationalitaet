@@ -3,7 +3,7 @@
 
 Die Marke Bürger-KI verwendet Dunkelblau #0B3A5E (Wissen), Türkis #00A7A0 (Verbindung), Grün #6DBF67 (Potenzial) und Apricot #EBAE56 (Dialog). Statusfarben sind davon unabhängig: „bestätigt“, „in Prüfung“, „offen“, „Risiko“ müssen textlich erläutert werden.
 
-**Logo:** [eigenständiges Bürger-KI-Zeichen](./assets/media/buerger-ki-zeichen.svg). **Claim:** Wissen verbinden. Lösungen möglich machen. **Mitmachclaim:** Fragen stellen. Wissen prüfen. Gemeinsam handeln.
+**Logo:** [eigenständiges Bürger-KI-Zeichen](./assets/media/buerger-ki-zeichen.svg). **Primärclaim Bürger-KI:** Rechte verstehen. Probleme lösen. Gesellschaft verbessern. **SOULution-Brückenclaim:** Wissen verbinden. Lösungen möglich machen. **Mitmachclaim:** Fragen stellen. Wissen prüfen. Gemeinsam handeln.
 
 ## Seitenlegende und Inhaltstypen
 - ℹ️ Fachlicher Kontext: definierte und belegte Aussage.
