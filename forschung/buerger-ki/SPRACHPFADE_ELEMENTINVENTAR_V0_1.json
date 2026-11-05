@@ -1,0 +1,549 @@
+{
+  "schema": "bki-language-path-inventory/0.1",
+  "as_of": "2026-11-05",
+  "source_files": [
+    {
+      "path": "docs/data/bki-lernpfade-orchestrierung-v0-1.json",
+      "sha": "4204237189ad574cba9d312d7c2df9bf38751d14"
+    },
+    {
+      "path": "docs/data/bki-therapieplatz-fuenf-blickwinkel-v0-1.json",
+      "sha": "6b84d54481fc0928e88896c0a0a5dd1192d40727"
+    }
+  ],
+  "status": "inventory_not_semantically_validated",
+  "language_modes": [
+    "TR-01",
+    "TR-02",
+    "TR-03",
+    "TR-04",
+    "TR-05",
+    "TR-06"
+  ],
+  "world_types": [
+    "definition_world",
+    "path_world",
+    "evidence_world",
+    "perspective_world",
+    "meta_world",
+    "research_world",
+    "source_world"
+  ],
+  "link_types": [
+    "deepen",
+    "apply",
+    "mirror",
+    "challenge",
+    "connect",
+    "trace"
+  ],
+  "path_audit": [
+    {
+      "path_id": "LP-01",
+      "title": "Ein Anliegen klären",
+      "audience": "Menschen mit einer Frage",
+      "existing_sequence": [
+        {
+          "entry_id": "entry-goal",
+          "question": "Was will ich erreichen?",
+          "source_page": "buerger-ki-weg.html",
+          "semantic_transition_status": "unassessed"
+        },
+        {
+          "entry_id": "entry-knowledge",
+          "question": "Welche Begriffe und Quellen sind relevant?",
+          "source_page": "buerger-ki-ziele-lexikon.html",
+          "semantic_transition_status": "unassessed"
+        },
+        {
+          "entry_id": "entry-help",
+          "question": "Wie komme ich von Wissen zu praktischen Wegen?",
+          "source_page": "buerger-ki-weisungsatlas.html",
+          "semantic_transition_status": "unassessed"
+        }
+      ],
+      "existing_exit": "handlungsoption_with_source_and_limits",
+      "editorial_assessment": "navigation_sequence_present_semantic_steps_not_fully_audited",
+      "required_reviews": [
+        "distinct_insight_per_stage",
+        "translation_gain_loss",
+        "source_precision",
+        "exit_is_explained",
+        "return_route"
+      ]
+    },
+    {
+      "path_id": "LP-02",
+      "title": "Ein Thema verstehen",
+      "audience": "Lernende",
+      "existing_sequence": [
+        {
+          "entry_id": "entry-knowledge",
+          "question": "Welche Begriffe und Quellen sind relevant?",
+          "source_page": "buerger-ki-ziele-lexikon.html",
+          "semantic_transition_status": "unassessed"
+        },
+        {
+          "entry_id": "entry-goal",
+          "question": "Was will ich erreichen?",
+          "source_page": "buerger-ki-weg.html",
+          "semantic_transition_status": "unassessed"
+        },
+        {
+          "entry_id": "entry-society",
+          "question": "Wie entwickeln sich Versorgung, Institutionen und Folgen?",
+          "source_page": "buerger-ki-grundlagen.html",
+          "semantic_transition_status": "unassessed"
+        }
+      ],
+      "existing_exit": "concept_map_and_knowledge_limits",
+      "editorial_assessment": "navigation_sequence_present_semantic_steps_not_fully_audited",
+      "required_reviews": [
+        "distinct_insight_per_stage",
+        "translation_gain_loss",
+        "source_precision",
+        "exit_is_explained",
+        "return_route"
+      ]
+    },
+    {
+      "path_id": "LP-03",
+      "title": "Unterstützung finden",
+      "audience": "Beratungsorientierte",
+      "existing_sequence": [
+        {
+          "entry_id": "entry-help",
+          "question": "Wie komme ich von Wissen zu praktischen Wegen?",
+          "source_page": "buerger-ki-weisungsatlas.html",
+          "semantic_transition_status": "unassessed"
+        },
+        {
+          "entry_id": "entry-knowledge",
+          "question": "Welche Begriffe und Quellen sind relevant?",
+          "source_page": "buerger-ki-ziele-lexikon.html",
+          "semantic_transition_status": "unassessed"
+        },
+        {
+          "entry_id": "entry-goal",
+          "question": "Was will ich erreichen?",
+          "source_page": "buerger-ki-weg.html",
+          "semantic_transition_status": "unassessed"
+        }
+      ],
+      "existing_exit": "provider_path_with_access_requirements",
+      "editorial_assessment": "navigation_sequence_present_semantic_steps_not_fully_audited",
+      "required_reviews": [
+        "distinct_insight_per_stage",
+        "translation_gain_loss",
+        "source_precision",
+        "exit_is_explained",
+        "return_route"
+      ]
+    },
+    {
+      "path_id": "LP-04",
+      "title": "Institutionen und Entwicklungen prüfen",
+      "audience": "Forschende/Interessierte",
+      "existing_sequence": [
+        {
+          "entry_id": "entry-society",
+          "question": "Wie entwickeln sich Versorgung, Institutionen und Folgen?",
+          "source_page": "buerger-ki-grundlagen.html",
+          "semantic_transition_status": "unassessed"
+        },
+        {
+          "entry_id": "entry-knowledge",
+          "question": "Welche Begriffe und Quellen sind relevant?",
+          "source_page": "buerger-ki-ziele-lexikon.html",
+          "semantic_transition_status": "unassessed"
+        },
+        {
+          "entry_id": "entry-research",
+          "question": "Was ist belegt, was ist offen, welche Fähigkeit entwickeln wir?",
+          "source_page": "buerger-ki-experimentierlabor.md",
+          "semantic_transition_status": "unassessed"
+        }
+      ],
+      "existing_exit": "specific_evidence_question",
+      "editorial_assessment": "navigation_sequence_present_semantic_steps_not_fully_audited",
+      "required_reviews": [
+        "distinct_insight_per_stage",
+        "translation_gain_loss",
+        "source_precision",
+        "exit_is_explained",
+        "return_route"
+      ]
+    },
+    {
+      "path_id": "LP-05",
+      "title": "Fähigkeiten entwickeln und prüfen",
+      "audience": "Fachleute/Entwickelnde",
+      "existing_sequence": [
+        {
+          "entry_id": "entry-research",
+          "question": "Was ist belegt, was ist offen, welche Fähigkeit entwickeln wir?",
+          "source_page": "buerger-ki-experimentierlabor.md",
+          "semantic_transition_status": "unassessed"
+        },
+        {
+          "entry_id": "entry-knowledge",
+          "question": "Welche Begriffe und Quellen sind relevant?",
+          "source_page": "buerger-ki-ziele-lexikon.html",
+          "semantic_transition_status": "unassessed"
+        },
+        {
+          "entry_id": "entry-help",
+          "question": "Wie komme ich von Wissen zu praktischen Wegen?",
+          "source_page": "buerger-ki-weisungsatlas.html",
+          "semantic_transition_status": "unassessed"
+        }
+      ],
+      "existing_exit": "versioned_skill_or_test_artefact",
+      "editorial_assessment": "navigation_sequence_present_semantic_steps_not_fully_audited",
+      "required_reviews": [
+        "distinct_insight_per_stage",
+        "translation_gain_loss",
+        "source_precision",
+        "exit_is_explained",
+        "return_route"
+      ]
+    }
+  ],
+  "lens_audit": [
+    {
+      "lens_id": "ziel",
+      "title": "Anliegen und Ziele",
+      "entry_question": "Was möchte ich erreichen?",
+      "existing_learning_points": 3,
+      "existing_steps": [
+        {
+          "step_id": "goal-state",
+          "title": "Ziel und Erfolg",
+          "source_type": "method",
+          "source_label": "Eigene Zielrekonstruktion",
+          "href": "./buerger-ki-zielpfade.html",
+          "source_role_status": "needs_citation_role_review",
+          "translation_status": "unassessed",
+          "content_depth_status": "review_required"
+        },
+        {
+          "step_id": "goal-conditions",
+          "title": "Welche Bedingungen fehlen?",
+          "source_type": "method",
+          "source_label": "Projekt-Lernweg",
+          "href": "./buerger-ki-weg.html",
+          "source_role_status": "needs_citation_role_review",
+          "translation_status": "unassessed",
+          "content_depth_status": "review_required"
+        }
+      ],
+      "cross_lens_ids": [
+        "wissen",
+        "hilfe",
+        "gesellschaft"
+      ],
+      "open_question": "Wie messen wir ein erreichtes Versorgungsziel ohne Sprechstundenkontakt mit tatsächlich begonnener Behandlung zu verwechseln?",
+      "required_worlds": [
+        "definition_world",
+        "path_world",
+        "evidence_world",
+        "perspective_world",
+        "meta_world",
+        "research_world",
+        "source_world"
+      ],
+      "review_status": "needs_fach_language_and_deep_dive_review"
+    },
+    {
+      "lens_id": "wissen",
+      "title": "Wissen verstehen",
+      "entry_question": "Was bedeutet das und was wissen wir?",
+      "existing_learning_points": 3,
+      "existing_steps": [
+        {
+          "step_id": "term-diff",
+          "title": "Sprechstunde, Probatorik, Behandlung",
+          "source_type": "glossary",
+          "source_label": "Bürger-KI Lernlexikon (noch zu vertiefen)",
+          "href": "./buerger-ki-ziele-lexikon.html",
+          "source_role_status": "needs_citation_role_review",
+          "translation_status": "unassessed",
+          "content_depth_status": "review_required"
+        },
+        {
+          "step_id": "wait-evidence",
+          "title": "Was sagen die Wartezeitstudien?",
+          "source_type": "evidence",
+          "source_label": "BPtK / vdek",
+          "href": "./paper-buerger-ki-versorgungsluecken-therapie-pflege-notfall-verantwortung-v0-1.md",
+          "source_role_status": "needs_citation_role_review",
+          "translation_status": "unassessed",
+          "content_depth_status": "review_required"
+        },
+        {
+          "step_id": "sources",
+          "title": "Primärquellen der Wartezeiten",
+          "source_type": "external",
+          "source_label": "BPtK 2022 (Daten 2019)",
+          "href": "https://www.bptk.de/pressemitteilungen/psychisch-kranke-warten-142-tage-auf-eine-psychotherapeutische-behandlung/",
+          "source_role_status": "needs_citation_role_review",
+          "translation_status": "unassessed",
+          "content_depth_status": "review_required"
+        }
+      ],
+      "cross_lens_ids": [
+        "ziel",
+        "gesellschaft",
+        "forschung"
+      ],
+      "open_question": "Welche Zeitreihen erfassen die Suche vor dem Erstkontakt und welche nur den Weg nach der Sprechstunde?",
+      "required_worlds": [
+        "definition_world",
+        "path_world",
+        "evidence_world",
+        "perspective_world",
+        "meta_world",
+        "research_world",
+        "source_world"
+      ],
+      "review_status": "needs_fach_language_and_deep_dive_review"
+    },
+    {
+      "lens_id": "hilfe",
+      "title": "Wege und Unterstützung",
+      "entry_question": "Welche Handlungsmöglichkeiten gibt es?",
+      "existing_learning_points": 3,
+      "existing_steps": [
+        {
+          "step_id": "tss",
+          "title": "Terminservice 116117",
+          "source_type": "provider",
+          "source_label": "116117",
+          "href": "https://www.116117.de/",
+          "source_role_status": "needs_citation_role_review",
+          "translation_status": "unassessed",
+          "content_depth_status": "review_required"
+        },
+        {
+          "step_id": "upd",
+          "title": "Patientenberatung",
+          "source_type": "provider",
+          "source_label": "Stiftung UPD",
+          "href": "https://patientenberatung.de/beratungsangebot/",
+          "source_role_status": "needs_citation_role_review",
+          "translation_status": "unassessed",
+          "content_depth_status": "review_required"
+        },
+        {
+          "step_id": "help-map",
+          "title": "Hilfeorganisationen und weitere Wege",
+          "source_type": "analysis",
+          "source_label": "Bürger-KI Hilfeportal-Analyse",
+          "href": "./paper-handlungsatlas-praxisportale-hilfe-und-anwaltswissen-v0-1.md",
+          "source_role_status": "needs_citation_role_review",
+          "translation_status": "unassessed",
+          "content_depth_status": "review_required"
+        }
+      ],
+      "cross_lens_ids": [
+        "ziel",
+        "wissen",
+        "gesellschaft"
+      ],
+      "open_question": "Welche Kontaktwege führen in der jeweiligen Region tatsächlich zu einem verfügbaren, passenden Angebot?",
+      "required_worlds": [
+        "definition_world",
+        "path_world",
+        "evidence_world",
+        "perspective_world",
+        "meta_world",
+        "research_world",
+        "source_world"
+      ],
+      "review_status": "needs_fach_language_and_deep_dive_review"
+    },
+    {
+      "lens_id": "gesellschaft",
+      "title": "Gesellschaft untersuchen",
+      "entry_question": "Warum funktioniert etwas oder nicht?",
+      "existing_learning_points": 3,
+      "existing_steps": [
+        {
+          "step_id": "capacity",
+          "title": "Unterversorgung über Jahre",
+          "source_type": "analysis",
+          "source_label": "Bürger-KI Versorgungs-Paper",
+          "href": "./paper-buerger-ki-versorgungsluecken-therapie-pflege-notfall-verantwortung-v0-1.md",
+          "source_role_status": "needs_citation_role_review",
+          "translation_status": "unassessed",
+          "content_depth_status": "review_required"
+        },
+        {
+          "step_id": "measurement",
+          "title": "Messbarkeit, Entscheidungen und Rechenschaft",
+          "source_type": "analysis",
+          "source_label": "Bürger-KI Rechenschaftskern",
+          "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/KERNPAPER_MESSBARKEIT_STEUERUNG_RECHENSCHAFT_V0_1.md",
+          "source_role_status": "needs_citation_role_review",
+          "translation_status": "unassessed",
+          "content_depth_status": "review_required"
+        },
+        {
+          "step_id": "context",
+          "title": "Gesundheitsversorgung historisch",
+          "source_type": "analysis",
+          "source_label": "Bürger-KI historische Forschung",
+          "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/KERNPAPER_INSTITUTIONELLES_LERNEN_METRIKGESCHICHTE_UND_INTELLIGENZ_V0_1.md",
+          "source_role_status": "needs_citation_role_review",
+          "translation_status": "unassessed",
+          "content_depth_status": "review_required"
+        }
+      ],
+      "cross_lens_ids": [
+        "wissen",
+        "forschung",
+        "hilfe"
+      ],
+      "open_question": "Welche Aussage über Ursachen, Reformen und Ergebnisse ist durch die verfügbaren öffentlichen Daten wirklich entscheidbar?",
+      "required_worlds": [
+        "definition_world",
+        "path_world",
+        "evidence_world",
+        "perspective_world",
+        "meta_world",
+        "research_world",
+        "source_world"
+      ],
+      "review_status": "needs_fach_language_and_deep_dive_review"
+    },
+    {
+      "lens_id": "forschung",
+      "title": "Forschung und Werkzeuge",
+      "entry_question": "Wie entstehen und verbessern sich die Fähigkeiten?",
+      "existing_learning_points": 3,
+      "existing_steps": [
+        {
+          "step_id": "skill-source",
+          "title": "Skill: Quellen- und Zeitvergleich",
+          "source_type": "skill",
+          "source_label": "Bürger-KI Skill-Deep-Dive",
+          "href": "./buerger-ki-skill-deep-dive.md",
+          "source_role_status": "needs_citation_role_review",
+          "translation_status": "unassessed",
+          "content_depth_status": "review_required"
+        },
+        {
+          "step_id": "skill-goal",
+          "title": "Skill: Ziele und Alternativen",
+          "source_type": "tool",
+          "source_label": "Zielpfadlabor",
+          "href": "./buerger-ki-zielpfade.html",
+          "source_role_status": "needs_citation_role_review",
+          "translation_status": "unassessed",
+          "content_depth_status": "review_required"
+        },
+        {
+          "step_id": "question",
+          "title": "Forschungsfrage und negativer Befund",
+          "source_type": "research",
+          "source_label": "Messbarkeits- und Rechenschaftsprogramm",
+          "href": "./buerger-ki-phase-13-messbarkeit-rechenschaft.md",
+          "source_role_status": "needs_citation_role_review",
+          "translation_status": "unassessed",
+          "content_depth_status": "review_required"
+        }
+      ],
+      "cross_lens_ids": [
+        "gesellschaft",
+        "ziel",
+        "wissen"
+      ],
+      "open_question": "Welche prüfbare Fähigkeit muss als Nächstes entwickelt werden, damit aus einem Quellenfund eine bessere Handlungsmöglichkeit wird?",
+      "required_worlds": [
+        "definition_world",
+        "path_world",
+        "evidence_world",
+        "perspective_world",
+        "meta_world",
+        "research_world",
+        "source_world"
+      ],
+      "review_status": "needs_fach_language_and_deep_dive_review"
+    }
+  ],
+  "mirror_audit": [
+    {
+      "mirror_id": "from-person",
+      "title": "Vom Menschen aus",
+      "from_lens": "ziel",
+      "to_lens": "hilfe",
+      "question": "Welche konkrete Veränderung ist das Ziel – und wer hilft beim Zugang?",
+      "semantic_gain": "not_yet_reviewed",
+      "meaning_loss": "not_yet_reviewed",
+      "ui_observation": "current_button_renders_from_lens; verify intent then adapt to target lens",
+      "review_status": "open"
+    },
+    {
+      "mirror_id": "from-term",
+      "title": "Vom Begriff aus",
+      "from_lens": "wissen",
+      "to_lens": "gesellschaft",
+      "question": "Welche Bedeutung einer Wartezeit passt zur historischen Aussage?",
+      "semantic_gain": "not_yet_reviewed",
+      "meaning_loss": "not_yet_reviewed",
+      "ui_observation": "current_button_renders_from_lens; verify intent then adapt to target lens",
+      "review_status": "open"
+    },
+    {
+      "mirror_id": "from-provider",
+      "title": "Von der Organisation aus",
+      "from_lens": "hilfe",
+      "to_lens": "ziel",
+      "question": "Welche Aufgabe erfüllt ein Anbieter wirklich, welche nicht?",
+      "semantic_gain": "not_yet_reviewed",
+      "meaning_loss": "not_yet_reviewed",
+      "ui_observation": "current_button_renders_from_lens; verify intent then adapt to target lens",
+      "review_status": "open"
+    },
+    {
+      "mirror_id": "from-system",
+      "title": "Von der Infrastruktur aus",
+      "from_lens": "gesellschaft",
+      "to_lens": "forschung",
+      "question": "Warum reicht die Messung nicht, um Versorgungslücken zu beurteilen?",
+      "semantic_gain": "not_yet_reviewed",
+      "meaning_loss": "not_yet_reviewed",
+      "ui_observation": "current_button_renders_from_lens; verify intent then adapt to target lens",
+      "review_status": "open"
+    },
+    {
+      "mirror_id": "from-research",
+      "title": "Von der Forschungsfrage aus",
+      "from_lens": "forschung",
+      "to_lens": "wissen",
+      "question": "Welche Quelle und Begriffsdefinition müsste vor einer Behauptung geprüft werden?",
+      "semantic_gain": "not_yet_reviewed",
+      "meaning_loss": "not_yet_reviewed",
+      "ui_observation": "current_button_renders_from_lens; verify intent then adapt to target lens",
+      "review_status": "open"
+    }
+  ],
+  "release_policy": {
+    "public_world_requires": [
+      "substantive_answer",
+      "context_and_limits",
+      "qualified_source",
+      "meaningful_next_step",
+      "review_approval"
+    ],
+    "user_stories_gate": "after_language_and_world_review",
+    "site_rollout": "blocked_pending_review"
+  },
+  "unresolved": [
+    "full_glossary_crosswalk",
+    "semantic_equivalence_and_counterexamples",
+    "two_or_three_precisely_curated_links_per_context",
+    "mirror_target_behavior",
+    "browser_accessibility_review"
+  ]
+}
