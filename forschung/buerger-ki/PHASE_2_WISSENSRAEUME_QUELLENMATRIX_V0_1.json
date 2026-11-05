@@ -1,0 +1,276 @@
+{
+  "schema": "bki-phase2-world-source-matrix/0.1",
+  "as_of": "2026-11-05",
+  "phase_id": "SW-PH-2",
+  "status": "first_curated_pilot_matrix_not_full_domain_review",
+  "method": "Source-first world construction: initial finding, concrete question, one distinct key message, human format, 2-3 sources only where verified, explicit gaps",
+  "worlds": [
+    {
+      "id": "WR-01",
+      "topic": "Therapieplatz",
+      "question": "Wo beginne ich meine Suche, und was kann die Vermittlung tatsächlich leisten?",
+      "path": "BKI-TOPIC-THERAPY",
+      "world_type": "path_world",
+      "display": "existing_topic_page_plus_substantive_details",
+      "core_message": "Termin in einer psychotherapeutischen Sprechstunde ist nicht automatisch der Beginn einer längerfristigen Psychotherapie.",
+      "links": [
+        {
+          "url": "https://www.116117.de/de/psychotherapie.php",
+          "role": "direct_action",
+          "purpose": "Sprechstunde und Vermittlung praktisch unterscheiden",
+          "checked": "2026-11-05"
+        },
+        {
+          "url": "https://www.gesundheitsinformation.de/psychische-probleme-wo-gibt-es-hilfe.html",
+          "role": "independent_explanation",
+          "purpose": "Versorgungswege fachlich einordnen",
+          "checked": "pending"
+        }
+      ],
+      "needs": [
+        "regional_rules_and_actual_access",
+        "patient_facing_alternatives",
+        "professional_review"
+      ],
+      "gate": "partial_primary_source_verified",
+      "from_hinges": [
+        "BKI-PH1-H01",
+        "BKI-PH1-H02",
+        "BKI-PH1-H06"
+      ]
+    },
+    {
+      "id": "WR-02",
+      "topic": "Therapieplatz",
+      "question": "Warum beweist eine vermittelte Sprechstunde nicht automatisch den Therapieerfolg?",
+      "path": "BKI-TOPIC-THERAPY",
+      "world_type": "evidence_world",
+      "display": "small_expander_with_distinct_outcomes_then_paper",
+      "core_message": "Sprechstunde, Akutbehandlung, Probatorik, Behandlungsbeginn und Wirkung müssen jeweils getrennt nachgewiesen werden.",
+      "links": [
+        {
+          "url": "https://www.116117.de/de/psychotherapie.php",
+          "role": "primary_service_explanation",
+          "purpose": "Leistungsarten abgleichen",
+          "checked": "2026-11-05"
+        }
+      ],
+      "needs": [
+        "independent_outcome_studies",
+        "waiting_time_methods",
+        "criteria_for_treatment_suitability"
+      ],
+      "gate": "partial_primary_source_verified",
+      "from_hinges": [
+        "BKI-PH1-H06",
+        "BKI-PH1-H07",
+        "BKI-PH1-H12"
+      ]
+    },
+    {
+      "id": "WR-03",
+      "topic": "Patientenakte",
+      "question": "Welche Patientenakte ist gemeint – ePA, Praxisakte oder meine eigene Sammlung?",
+      "path": "BKI-NUC-007",
+      "world_type": "definition_world",
+      "display": "short_comparison_plus_independent_topic_page_after_deep_dive",
+      "core_message": "Die gesetzliche ePA ist nicht automatisch identisch mit allen Praxisakten oder persönlichen Dokumentensammlungen.",
+      "links": [
+        {
+          "url": "https://www.gematik.de/anwendungen/epa-fuer-alle",
+          "role": "official_overview",
+          "purpose": "Funktionen und Zugang der ePA",
+          "checked": "2026-11-05"
+        }
+      ],
+      "needs": [
+        "practice_record_duties_and_boundaries",
+        "provider_and_insurer_map",
+        "separate_AI_copy_scenario"
+      ],
+      "gate": "source_coverage_incomplete",
+      "from_hinges": [
+        "BKI-PH1-H10",
+        "BKI-PH1-H11"
+      ]
+    },
+    {
+      "id": "WR-04",
+      "topic": "Patientenakte",
+      "question": "Was kann ich in der ePA selbst einstellen, verbergen oder ablehnen?",
+      "path": "BKI-NUC-008",
+      "world_type": "rights_world",
+      "display": "single_compact_comparison_plus_details_on_demand",
+      "core_message": "Widerspruch gegen die ePA, einzelne Einrichtungen, Befüllung oder Sekundärnutzung sind nicht dieselbe Entscheidung.",
+      "links": [
+        {
+          "url": "https://www.gematik.de/anwendungen/epa-fuer-alle/widerspruch",
+          "role": "primary_rights_overview",
+          "purpose": "Unterschiedliche Widersprüche und deren Folgen",
+          "checked": "2026-11-05"
+        },
+        {
+          "url": "https://www.gematik.de/anwendungen/epa-fuer-alle/faq",
+          "role": "provider_faq",
+          "purpose": "Praktische Zugriffs- und Berechtigungskontexte",
+          "checked": "2026-11-05"
+        }
+      ],
+      "needs": [
+        "current_legal_norm_review",
+        "user_friendly_case_comparison",
+        "independent_consumer_advice"
+      ],
+      "gate": "official_sources_found_legal_review_open",
+      "from_hinges": [
+        "BKI-PH1-H08",
+        "BKI-PH1-H10"
+      ]
+    },
+    {
+      "id": "WR-05",
+      "topic": "Gesundheitsdaten + KI",
+      "question": "Was passiert, wenn ich eigene Befunde mit einer KI analysiere?",
+      "path": "BKI-NUC-010",
+      "world_type": "comparison_world",
+      "display": "one_time_action_asterisk_link_to_compact_decision_page",
+      "core_message": "Lokale Analyse, Cloud-Upload, externe Plattform und selbst betriebene KI sind unterschiedliche Datenflüsse.",
+      "links": [
+        {
+          "url": "https://www.gematik.de/anwendungen/epa-fuer-alle/widerspruch",
+          "role": "context_rights",
+          "purpose": "ePA-Zugriffe von eigener KI-Kopie trennen",
+          "checked": "2026-11-05"
+        },
+        {
+          "url": "https://www.w3.org/TR/prov-o/",
+          "role": "technical_provenance",
+          "purpose": "Für Forschungsprüfung Herkunft und Verarbeitungsschritte modellieren",
+          "checked": "method_reference"
+        }
+      ],
+      "needs": [
+        "specific_AI_providers_current_terms",
+        "local_open_source_security",
+        "practical_risk_matrix",
+        "separate_data_processing_obligations"
+      ],
+      "gate": "provider_deep_dive_required",
+      "from_hinges": [
+        "BKI-PH1-H11"
+      ]
+    },
+    {
+      "id": "WR-06",
+      "topic": "Gesundheitsdatenstandards",
+      "question": "Wie werden medizinische Daten maschinenlesbar, ohne dass Bedeutung verloren geht?",
+      "path": "BKI-NUC-013",
+      "world_type": "research_world",
+      "display": "brief_definition_then_technical_paper",
+      "core_message": "FHIR legt Austauschformate und Ressourcen fest; fachliche Semantik und tatsächliche Integration müssen zusätzlich geprüft werden.",
+      "links": [
+        {
+          "url": "https://hl7.org/fhir/",
+          "role": "standards_primary",
+          "purpose": "FHIR-Ressourcen und Versionen",
+          "checked": "2026-11-05"
+        },
+        {
+          "url": "https://mio.kbv.de/",
+          "role": "national_profiles",
+          "purpose": "Medizinische Informationsobjekte und Kommentierungswege",
+          "checked": "2026-11-05"
+        }
+      ],
+      "needs": [
+        "German_IG_profiles_and_version",
+        "terminology_mapping_SNOMED_LOINC",
+        "real_product_interoperability_tests"
+      ],
+      "gate": "initial_standard_sources_verified",
+      "from_hinges": [
+        "BKI-PH1-H13",
+        "BKI-PH1-H14"
+      ]
+    },
+    {
+      "id": "WR-07",
+      "topic": "Gemeinsam anfangen",
+      "question": "Wie kann jemand helfen, ohne persönliche Gesundheitsdaten zu sammeln?",
+      "path": "BKI-COFFEE-BC-001",
+      "world_type": "method_world",
+      "display": "short_event_idea_expander_plus_NGO_links",
+      "core_message": "Ein gemeinsamer Anfang kann eine Handlung erleichtern; eine einzelne Erfahrung beweist weder eine Therapie noch die Wirksamkeit einer Methode.",
+      "links": [
+        {
+          "url": "https://www.nakos.de/informationen/basiswissen/selbsthilfegruppen/",
+          "role": "organization_context",
+          "purpose": "Vorhandene Gruppen und Unterstützungsangebote kennenlernen",
+          "checked": "source_followup_required"
+        },
+        {
+          "url": "https://diday.org/de/",
+          "role": "existing_community_project",
+          "purpose": "Bestehende digitale Souveränitätsinitiativen verlinken",
+          "checked": "source_followup_required"
+        }
+      ],
+      "needs": [
+        "moderation_method_primary_guides",
+        "peer_support_evidence",
+        "safe_feedback_flow"
+      ],
+      "gate": "concept_and_source_review_pending",
+      "from_hinges": [
+        "BKI-PH1-H03",
+        "BKI-PH1-H04",
+        "BKI-PH1-H05"
+      ]
+    },
+    {
+      "id": "WR-08",
+      "topic": "Rechenschaft",
+      "question": "Wie wird aus einer persönlichen Schwierigkeit eine prüfbare Unterversorgungsfrage?",
+      "path": "BKI-NUC-026",
+      "world_type": "meta_world",
+      "display": "short_meta_question_then_sources_and_paper",
+      "core_message": "Einzelne Erlebnisse können Forschungsfragen erzeugen; die institutionelle Verantwortung und ein struktureller Befund brauchen eigene Quellen und Kriterien.",
+      "links": [
+        {
+          "url": "https://www.116117.de/de/psychotherapie.php",
+          "role": "service_scope",
+          "purpose": "Leistung und Vermittlungsgrenze als Beispiel",
+          "checked": "2026-11-05"
+        }
+      ],
+      "needs": [
+        "population_statistics",
+        "system_capacity",
+        "duty_and_legal_evidence",
+        "alternative_hypotheses"
+      ],
+      "gate": "research_only_no_verified_system_claim",
+      "from_hinges": [
+        "BKI-PH1-H07",
+        "BKI-PH1-H08",
+        "BKI-PH1-H09"
+      ]
+    }
+  ],
+  "source_checked_scope": "URLs checked via public search for a subset, no comprehensive link or professional legal/medical audit",
+  "gates": {
+    "meaning_review": "phase1_initial_analysis_only",
+    "sources": "partial",
+    "expandable_substance": "editorial_outline_only",
+    "full_browser": "not_run",
+    "public_rollout": "not_approved"
+  },
+  "important_distinctions": [
+    "a_link_works_vs_source_says_relevant_thing",
+    "knowledge_vs_action",
+    "first_appointment_vs_treatment",
+    "ePA_vs_private_record_vs_AI_copy",
+    "individual_report_vs_system_evidence",
+    "code_structure_vs_medical_semantics"
+  ]
+}
