@@ -1,0 +1,151 @@
+{
+  "schema": "bki-benchmark/0.2",
+  "as_of": "2026-11-05",
+  "status": "examples_not_harmonized",
+  "standards": [
+    "DCAT3",
+    "PROV-O",
+    "SDMX",
+    "GRADE-for-intervention-endpoints"
+  ],
+  "comparability_rule": "same measure, numerator, denominator, population, observation period, statistical revision, unit, and defensible transformations",
+  "records": [
+    {
+      "id": "BM-WASTE-DE-2024",
+      "cluster": "resource-flow",
+      "name": "Siedlungsabfall",
+      "value": 49.3,
+      "unit": "million_t/year",
+      "place": "DE",
+      "period": "2024",
+      "source_date": "2026-06",
+      "source": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/06/PD26_185_321.html",
+      "confidence": "official-statistic-method-audit-open"
+    },
+    {
+      "id": "BM-WASTE-BUILD-2024",
+      "cluster": "resource-flow",
+      "name": "Bau-und-Abbruchabfälle",
+      "value": 182.8,
+      "unit": "million_t/year",
+      "place": "DE",
+      "period": "2024",
+      "source_date": "2026-06",
+      "source": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/06/PD26_185_321.html",
+      "confidence": "official-statistic-method-audit-open"
+    },
+    {
+      "id": "BM-STEELSCRAP-DE-2026-09",
+      "cluster": "secondary-resource-price",
+      "name": "BDSV Sorte 1",
+      "value": 254.6,
+      "unit": "EUR/t",
+      "place": "DE",
+      "period": "2026-09",
+      "source": "https://www.bdsv.org/unser-service/markt-preise/",
+      "confidence": "trade-association-prices",
+      "basis": "ex-station",
+      "do_not_apply_to": "all_waste"
+    },
+    {
+      "id": "BM-EUGLASS-2025",
+      "cluster": "secondary-resource-price",
+      "name": "Secondary glass statistical trade indicator",
+      "value": 88,
+      "unit": "EUR/t",
+      "place": "EU",
+      "period": "2025",
+      "source": "https://ec.europa.eu/eurostat/statistics-explained/SEPDF/cache/10844.pdf",
+      "confidence": "Eurostat-trade-indicator",
+      "do_not_apply_to": "German mixed municipal waste"
+    },
+    {
+      "id": "BM-KENFO-IN-2017",
+      "cluster": "nuclear-finance",
+      "name": "KENFO single operator transfer",
+      "value": 24.1,
+      "unit": "billion_EUR",
+      "place": "DE",
+      "period": "2017",
+      "source": "https://www.kenfo.de/ueber-den-kenfo",
+      "confidence": "official",
+      "measure_type": "one_time_transfer"
+    },
+    {
+      "id": "BM-KENFO-ASSETS-2025",
+      "cluster": "nuclear-finance",
+      "name": "KENFO assets end of year",
+      "value": 25.6,
+      "unit": "billion_EUR",
+      "place": "DE",
+      "period": "2025-12-31",
+      "source": "https://www.kenfo.de/ueber-den-kenfo",
+      "confidence": "official",
+      "measure_type": "stock"
+    },
+    {
+      "id": "BM-MASK-OBS-DE-2020",
+      "cluster": "mask-observation",
+      "name": "Mask application error among observed",
+      "value": 30.4,
+      "unit": "percent",
+      "place": "DE-NRW",
+      "period": "2020-05-07/2020-05-13",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/33187001/",
+      "denominator": 2721,
+      "confidence": "observational-study",
+      "measure_type": "observed_use_error"
+    },
+    {
+      "id": "BM-MASK-PROCURE-2024",
+      "cluster": "public-spending",
+      "name": "Masks procurement expenditure as BRH report 2024",
+      "value": 5.9,
+      "unit": "billion_EUR",
+      "place": "DE",
+      "period": "2020 procurement reported 2024-03-28",
+      "source": "https://bundesrechnungshof.de/berichte/pruefung-der-beschaffung-und-verteilung-von-schutzmasken-durch-das-bundesministerium-fuer-gesundheit",
+      "confidence": "official-audit",
+      "measure_type": "historical_cost_report"
+    },
+    {
+      "id": "BM-HEAT-CARE-2020",
+      "cluster": "occupational-heat",
+      "name": "Self-reported exhaustion in hot-day PPE sample",
+      "value": 96.5,
+      "unit": "percent",
+      "place": "DE",
+      "period": "summer-2020",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/35313705/",
+      "denominator": 428,
+      "confidence": "self-selected-survey",
+      "measure_type": "subjective_symptom"
+    },
+    {
+      "id": "BM-ASBEST-DE-1993",
+      "cluster": "hazard-regulation",
+      "name": "Year of German general asbestos ban",
+      "value": 1993,
+      "unit": "calendar_year",
+      "place": "DE",
+      "period": "1993",
+      "source": "https://www.baua.de/DE/Themen/Chemikalien-Biostoffe/Gefahrstoffe/Informationsportal-Asbest/Asbest_node",
+      "confidence": "regulatory-historical"
+    }
+  ],
+  "required_contract": [
+    "benchmark_id",
+    "name",
+    "unit",
+    "population",
+    "place",
+    "observed_period",
+    "source",
+    "source_date",
+    "version",
+    "measurement_method",
+    "uncertainty",
+    "review_status"
+  ],
+  "note": "Records are demonstration data; missing detailed method/denominator in several; no automatic meta-analysis, arithmetic or cross-domain comparison authorized."
+}
