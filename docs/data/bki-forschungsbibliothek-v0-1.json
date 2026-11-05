@@ -213,6 +213,13 @@
       "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/PAPER_KAFFEEKRAENZCHEN_HEBELBEGRIFFE_SOUVERAENITAET_V0_1_2026-11-05.md",
       "group": "Didaktik",
       "status": "research_design_not_implemented"
+    },
+    {
+      "id": "BKI-LIB-031",
+      "title": "Kaffeekränzchen: Ideen, Methoden, digitale Selbstbestimmung und bestehende Orte",
+      "href": "buerger-ki-kaffeekraenzchen.html",
+      "group": "Didaktik",
+      "status": "published_ideas_no_live_events"
     }
   ]
 }
