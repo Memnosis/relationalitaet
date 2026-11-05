@@ -1,7 +1,7 @@
 {
   "schema": "bki-language-world-map/0.1",
   "date": "2026-11-05",
-  "status": "inventory_and_phase_plan_not_fach_approved",
+  "status": "inventory_extended_17_worlds_not_fach_approved",
   "purpose": "Map all project-relevant language worlds by human question, semantic hinge, factual source status, display and phased expansion",
   "roles": {
     "necessary": "essential for primary citizen navigation or evidence",
@@ -381,6 +381,62 @@
       "preferred_representation": "timeline_and_paper",
       "publication_review": "pending",
       "translation_review": "pending"
+    },
+    {
+      "id": "SW-16",
+      "title": "Virtuelle KI, persönliche Organisation und Handoffs",
+      "role": "intended",
+      "priority": "P0",
+      "existing_anchors": [
+        "docs/buerger-ki-weg.html",
+        "docs/buerger-ki-skill-deep-dive.md",
+        "forschung/buerger-ki/PAPER_VIRTUELLE_KI_FUNKTIONEN_UEBERGABEN_FEEDBACK_BAUSTELLEN_V0_1_2026-11-05.md"
+      ],
+      "pivots": [
+        "what_user_wants_to_do_to_tool_choice",
+        "patient_record_to_ePA_or_private_copy",
+        "user_data_to_external_AI",
+        "task_to_calendar_or_provider",
+        "info_to_action_or_handoff"
+      ],
+      "source_gaps": [
+        "provider_specific_AI_data_terms",
+        "ePA_rights_versioned",
+        "local_tool_security",
+        "medical_device_purpose_review"
+      ],
+      "existing_status": "research_model_no_embedded_AI_or_account",
+      "preferred_representation": "capability_map_with_contextual_handoff_cards_and_source_worlds",
+      "publication_review": "pending",
+      "translation_review": "pending"
+    },
+    {
+      "id": "SW-17",
+      "title": "Feedback, gemeinsame Baustellen und Hilfserkenntnisse",
+      "role": "intended",
+      "priority": "P0",
+      "existing_anchors": [
+        "docs/buerger-ki-kaffeekraenzchen.html",
+        "docs/buerger-ki-werkstatt.html",
+        "forschung/buerger-ki/PAPER_VIRTUELLE_KI_FUNKTIONEN_UEBERGABEN_FEEDBACK_BAUSTELLEN_V0_1_2026-11-05.md"
+      ],
+      "pivots": [
+        "someone_helped_someone_to_transferable_method",
+        "feedback_private_to_public_review",
+        "individual_story_to_anonymous_general_tip",
+        "idea_to_research_test",
+        "error_report_to_source_correction"
+      ],
+      "source_gaps": [
+        "public_issue_intake_copy",
+        "nonpublic_contact_security_review",
+        "moderation_and_retention",
+        "feedback_source_provenance"
+      ],
+      "existing_status": "github_public_issues_enabled_discussions_disabled_private_channel_not_setup",
+      "preferred_representation": "curated_issues_and_knowledge_cards_with_optional_feedback_channels",
+      "publication_review": "pending",
+      "translation_review": "pending"
     }
   ],
   "phases": [
@@ -394,6 +450,17 @@
         "source_owner_status"
       ],
       "exit": "all existing pivots inventoried"
+    },
+    {
+      "id": "SW-PH-VKI",
+      "title": "Virtuelle KI und Feedback als Schnittstellenmodell",
+      "deliverables": [
+        "functional_catalog_of_15_possible_capabilities",
+        "eight_handoff_cards",
+        "separate_public_and_nonpublic_feedback",
+        "identified_work_sites_with_review_gates"
+      ],
+      "exit": "all capabilities labeled by actual maturity and all input channels labeled by visibility and purpose"
     },
     {
       "id": "SW-PH-1",
@@ -464,6 +531,9 @@
     "proposed_intervention_to_measured_effect",
     "term_to_cross_language_equivalence",
     "skill_idea_to_tested_capability",
-    "current_source_to_historical_claim"
+    "current_source_to_historical_claim",
+    "private_record_to_external_provider",
+    "feedback_public_or_private_to_shared_knowledge",
+    "user_data_to_research_contribution"
   ]
 }
