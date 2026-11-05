@@ -1,0 +1,665 @@
+{
+  "schema": "bki-knowledge-nuclei/0.1",
+  "as_of": "2026-11-05",
+  "status": "curated_deep_dive_backlog_not_verified_findings",
+  "world_map": "SPRACHWELTEN_FACHGEBIETE_DREHPUNKTE_QUELLENPLAN_V0_1_2026-11-05.json",
+  "nucleus_count": 33,
+  "groups": [
+    {
+      "id": "A",
+      "name": "Sprachliche und wissenschaftliche Grundlagen",
+      "count": 6
+    },
+    {
+      "id": "B",
+      "name": "Patientenakte, Gesundheit und KI",
+      "count": 10
+    },
+    {
+      "id": "C",
+      "name": "Hilfe, Gemeinschaft und Rückmeldung",
+      "count": 7
+    },
+    {
+      "id": "D",
+      "name": "Rechtliche und institutionelle Hebel",
+      "count": 4
+    },
+    {
+      "id": "E",
+      "name": "Weitere menschliche Fachwelten",
+      "count": 3
+    },
+    {
+      "id": "F",
+      "name": "Technische und wirtschaftliche Anschlussfähigkeit",
+      "count": 3
+    }
+  ],
+  "nuclei": [
+    {
+      "id": "BKI-NUC-001",
+      "group": "A",
+      "group_name": "Sprachliche und wissenschaftliche Grundlagen",
+      "title": "Menschliches Anliegen → überprüfbares Ziel",
+      "priority": "P0",
+      "worlds": [
+        "SW-01",
+        "SW-05"
+      ],
+      "question": "Was möchte jemand tatsächlich erreichen – und woran erkennt man die Erfüllung?",
+      "source_classes": "goal-methods, primary domain definitions, counterexamples",
+      "representation": "method_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-002",
+      "group": "A",
+      "group_name": "Sprachliche und wissenschaftliche Grundlagen",
+      "title": "Begriffe, Fachsinn, Mehrdeutigkeit und Übersetzungsgrenzen",
+      "priority": "P0",
+      "worlds": [
+        "SW-05"
+      ],
+      "question": "Welche Bedeutung ist erhalten oder verloren, wenn ein Ausdruck die Fach-/Rechts-/Alltagssprache wechselt?",
+      "source_classes": "glossary originals, terminology standards, linguistic semantics, examples",
+      "representation": "definition_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-003",
+      "group": "A",
+      "group_name": "Sprachliche und wissenschaftliche Grundlagen",
+      "title": "Quellen, Herkunft, Evidenz und Zeitstand",
+      "priority": "P0",
+      "worlds": [
+        "SW-12"
+      ],
+      "question": "Welche Aussage trägt welche Originalquelle in welchem Geltungsbereich?",
+      "source_classes": "source registers, original documents, methods, version histories",
+      "representation": "research_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-004",
+      "group": "A",
+      "group_name": "Sprachliche und wissenschaftliche Grundlagen",
+      "title": "Aussage, Claim, Test, Negativbefund und No-Loss",
+      "priority": "P0",
+      "worlds": [
+        "SW-12",
+        "SW-13"
+      ],
+      "question": "Was ist Meinung, Leitsatz, offene These, Messbefund oder beweisbare Relation?",
+      "source_classes": "existing claim schema, scientific tests, provenance standards",
+      "representation": "research_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-005",
+      "group": "A",
+      "group_name": "Sprachliche und wissenschaftliche Grundlagen",
+      "title": "Drehpunkte und Rückwege zwischen den fünf Lernpfaden",
+      "priority": "P0",
+      "worlds": [
+        "SW-01",
+        "SW-05"
+      ],
+      "question": "Wo gewinnt ein Perspektivwechsel echte Erkenntnis und wo dreht er sich leer im Kreis?",
+      "source_classes": "path inventory, therapy lens manifest, user comprehension tests",
+      "representation": "perspective_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-006",
+      "group": "A",
+      "group_name": "Sprachliche und wissenschaftliche Grundlagen",
+      "title": "Kanonische IDs, Crosswalk und Ontologien",
+      "priority": "P0",
+      "worlds": [
+        "SW-05",
+        "SW-12",
+        "SW-13"
+      ],
+      "question": "Wie verbinden wir unterschiedliche Wissensbestände ohne Sinnverlust oder Datenduplikation?",
+      "source_classes": "register schemas, SKOS, PROV-O, project records",
+      "representation": "research_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-007",
+      "group": "B",
+      "group_name": "Patientenakte, Gesundheit und KI",
+      "title": "Patientenakte: Praxisakte, ePA, Eigenakte und KI-Kopie",
+      "priority": "P0",
+      "worlds": [
+        "SW-02",
+        "SW-16"
+      ],
+      "question": "Welche Akte ist welche, wo liegen die Daten und wer entscheidet worüber?",
+      "source_classes": "BMG, gematik, KBV, BÄK, relevant laws, source chronology",
+      "representation": "topic_page",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-008",
+      "group": "B",
+      "group_name": "Patientenakte, Gesundheit und KI",
+      "title": "ePA: Zugriff, Einwilligung, Widerspruch, Datenrechte",
+      "priority": "P0",
+      "worlds": [
+        "SW-02",
+        "SW-07",
+        "SW-16"
+      ],
+      "question": "Welche konkreten Rechte bestehen bei welcher Datenverarbeitung und wie werden sie ausgeübt?",
+      "source_classes": "laws, gematik, insurers, BfDI, DSK",
+      "representation": "rights_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-009",
+      "group": "B",
+      "group_name": "Patientenakte, Gesundheit und KI",
+      "title": "Gesundheitsforschung und staatliche Datennutzung",
+      "priority": "P0",
+      "worlds": [
+        "SW-07",
+        "SW-11",
+        "SW-16"
+      ],
+      "question": "Wer darf Gesundheitsdaten für welche Zwecke nutzen und welche Kontrollmöglichkeiten bestehen?",
+      "source_classes": "FDZ Gesundheit, BMG, law, access procedures, timelines",
+      "representation": "evidence_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-010",
+      "group": "B",
+      "group_name": "Patientenakte, Gesundheit und KI",
+      "title": "Cloud-KI, lokale KI, Selbsthosting und Drittanbieter",
+      "priority": "P0",
+      "worlds": [
+        "SW-07",
+        "SW-16"
+      ],
+      "question": "Welche Daten werden übertragen, gespeichert, trainiert, gelöscht und wie verlässlich ist die Ausgabe?",
+      "source_classes": "provider-specific terms, security documentation, privacy policies",
+      "representation": "comparison_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-011",
+      "group": "B",
+      "group_name": "Patientenakte, Gesundheit und KI",
+      "title": "Gesundheitsdaten-Sicherheitsvorfälle und Risikovergleich",
+      "priority": "P1",
+      "worlds": [
+        "SW-07",
+        "SW-16"
+      ],
+      "question": "Welche Vorfälle sind dokumentiert, welche Risiken nur möglich und was ist behoben?",
+      "source_classes": "CCC, gematik, BSI, DSK, incident chronology",
+      "representation": "evidence_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-012",
+      "group": "B",
+      "group_name": "Patientenakte, Gesundheit und KI",
+      "title": "Open-Source-PHR und medizinische Softwareangebote",
+      "priority": "P0",
+      "worlds": [
+        "SW-07",
+        "SW-16"
+      ],
+      "question": "Welche Projekte sind für Patienten, Praxen oder Entwickler wirklich nutzbar?",
+      "source_classes": "MyGNUHealth, GNU Health, Open Health Stack, gematik code repos, licenses",
+      "representation": "provider_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-013",
+      "group": "B",
+      "group_name": "Patientenakte, Gesundheit und KI",
+      "title": "Gesundheits-Interoperabilitätsstandards und Terminologien",
+      "priority": "P0",
+      "worlds": [
+        "SW-02",
+        "SW-05",
+        "SW-16"
+      ],
+      "question": "Welche Datenstandards und medizinischen Begriffe sind kompatibel und wo endet diese Kompatibilität?",
+      "source_classes": "FHIR, IHE, MIOs, SNOMED CT, LOINC, ICD-10-GM, UCUM",
+      "representation": "technical_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-014",
+      "group": "B",
+      "group_name": "Patientenakte, Gesundheit und KI",
+      "title": "Persönliche Organisation, Kalender, Erinnerungen und medizinische Grenze",
+      "priority": "P1",
+      "worlds": [
+        "SW-01",
+        "SW-16"
+      ],
+      "question": "Welche Termine organisiert man selbst und wann wird eine KI zur medizinischen Entscheidungsunterstützung?",
+      "source_classes": "clinical guides, product intended purpose, BfArM, technical app reviews",
+      "representation": "method_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-015",
+      "group": "B",
+      "group_name": "Patientenakte, Gesundheit und KI",
+      "title": "Therapieplatz: Sprechstunde, Vermittlung, Therapieformen, Passung",
+      "priority": "P0",
+      "worlds": [
+        "SW-02",
+        "SW-04"
+      ],
+      "question": "Wie unterscheiden sich Suchweg, Indikation, Behandlungsbeginn und geeignete Behandlung?",
+      "source_classes": "116117, KBV, patient guidelines, professional societies",
+      "representation": "topic_page",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-016",
+      "group": "B",
+      "group_name": "Patientenakte, Gesundheit und KI",
+      "title": "Versorgungsengpässe, Wartezeiten, Bedarf und Alternativen",
+      "priority": "P0",
+      "worlds": [
+        "SW-02",
+        "SW-11"
+      ],
+      "question": "Was wird gemessen, welche Versorgung fehlt und welche Wege begrenzen Schäden?",
+      "source_classes": "G-BA, BPtK, KBV, studies, timelines, primary statistics",
+      "representation": "evidence_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-017",
+      "group": "C",
+      "group_name": "Hilfe, Gemeinschaft und Rückmeldung",
+      "title": "Praktische Suchhemmnisse und gemeinsames Anfangen",
+      "priority": "P1",
+      "worlds": [
+        "SW-01",
+        "SW-06"
+      ],
+      "question": "Was hält Menschen von einer sinnvollen nächsten Handlung ab und was kann helfen?",
+      "source_classes": "behavioral research, self-help guidance, usability evidence",
+      "representation": "method_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-018",
+      "group": "C",
+      "group_name": "Hilfe, Gemeinschaft und Rückmeldung",
+      "title": "Kaffeekränzchen: Peer-Hilfe, Feedbackkern und Moderationsgrenzen",
+      "priority": "P0",
+      "worlds": [
+        "SW-06",
+        "SW-17"
+      ],
+      "question": "Wie wird aus einer konkreten Hilfe eine freiwillig übertragbare Methode?",
+      "source_classes": "NAKOS, peer support research, group facilitation methods",
+      "representation": "method_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-019",
+      "group": "C",
+      "group_name": "Hilfe, Gemeinschaft und Rückmeldung",
+      "title": "D-Day, digitale Souveränität und Wechselrezepte",
+      "priority": "P1",
+      "worlds": [
+        "SW-06",
+        "SW-07"
+      ],
+      "question": "Was können Menschen eigenständig von einem digitalen Dienst zu einem anderen wechseln?",
+      "source_classes": "DI.DAY, FOSS provider docs, data portability, security guides",
+      "representation": "project_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-020",
+      "group": "C",
+      "group_name": "Hilfe, Gemeinschaft und Rückmeldung",
+      "title": "Hybride Barcamps, Sessions und öffentliche Hilfeformate",
+      "priority": "P2",
+      "worlds": [
+        "SW-06",
+        "SW-14"
+      ],
+      "question": "Wie kann eine spätere offene Konferenz aus tatsächlicher Resonanz entstehen?",
+      "source_classes": "bpb Barcamp methods, accessibility, existing event systems",
+      "representation": "method_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-021",
+      "group": "C",
+      "group_name": "Hilfe, Gemeinschaft und Rückmeldung",
+      "title": "Organisationen, NGOs, Patientenberatung und regionale Angebote",
+      "priority": "P0",
+      "worlds": [
+        "SW-04",
+        "SW-06"
+      ],
+      "question": "Wer hilft tatsächlich wobei, und auf welche Weise erreicht man den Dienst?",
+      "source_classes": "NAKOS, UPD, consumer advice, official providers, regional directories",
+      "representation": "provider_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-022",
+      "group": "C",
+      "group_name": "Hilfe, Gemeinschaft und Rückmeldung",
+      "title": "Öffentliches/nichtöffentliches Feedback und Moderation",
+      "priority": "P0",
+      "worlds": [
+        "SW-17"
+      ],
+      "question": "Welche Hinweise können öffentlich geteilt werden, welche bleiben vertraulich, und wie werden sie geprüft?",
+      "source_classes": "GDPR, platform documentation, moderation, security procedures",
+      "representation": "method_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-023",
+      "group": "C",
+      "group_name": "Hilfe, Gemeinschaft und Rückmeldung",
+      "title": "Freiwillige Beteiligung, Erkenntnisrückgabe und Forschungsethik",
+      "priority": "P1",
+      "worlds": [
+        "SW-12",
+        "SW-17"
+      ],
+      "question": "Wie wird aus einer Erfahrung ein fachlich geprüfter Hinweis ohne unzulässige Verallgemeinerung?",
+      "source_classes": "research ethics, consent principles, provenance, de-identification risks",
+      "representation": "research_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-024",
+      "group": "D",
+      "group_name": "Rechtliche und institutionelle Hebel",
+      "title": "Anspruch, Bescheid, Leistung, Auszahlung und Erfüllung",
+      "priority": "P0",
+      "worlds": [
+        "SW-03",
+        "SW-08"
+      ],
+      "question": "Wann ist ein Verfahren abgeschlossen und wann hat der Mensch das Ergebnis erhalten?",
+      "source_classes": "current primary laws, administrative procedures, payment rules",
+      "representation": "topic_page",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-025",
+      "group": "D",
+      "group_name": "Rechtliche und institutionelle Hebel",
+      "title": "Zuständigkeit, Pflicht, Unterlassen und rechtliche Grenzen",
+      "priority": "P0",
+      "worlds": [
+        "SW-03",
+        "SW-11"
+      ],
+      "question": "Welche konkrete Pflicht und Handlungsoption müssen vor einer Pflichtverletzungsbehauptung feststehen?",
+      "source_classes": "jurisdictional law, jurisprudence, procedures",
+      "representation": "evidence_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-026",
+      "group": "D",
+      "group_name": "Rechtliche und institutionelle Hebel",
+      "title": "Unterversorgung, strukturelle Zwänge und Verantwortlichkeit",
+      "priority": "P0",
+      "worlds": [
+        "SW-11"
+      ],
+      "question": "Wie unterscheiden wir fehlende Ressourcen, Fehlsteuerung, gesetzliche Rahmenbedingungen und möglicherweise pflichtwidriges Unterlassen?",
+      "source_classes": "planning, financing, statistics, evaluations, duty frameworks",
+      "representation": "meta_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-027",
+      "group": "D",
+      "group_name": "Rechtliche und institutionelle Hebel",
+      "title": "Institutionelle Wirkung, Evaluation, Messbarkeit und Gegenhypothesen",
+      "priority": "P0",
+      "worlds": [
+        "SW-11",
+        "SW-15"
+      ],
+      "question": "Welche Wirkungen sind nachgewiesen, welche nur Output-/Proxygrößen?",
+      "source_classes": "evaluation methods, historical indicators, official reports",
+      "representation": "research_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-028",
+      "group": "E",
+      "group_name": "Weitere menschliche Fachwelten",
+      "title": "Schule, Behinderung, Familie, Teilhabe und Landesrecht",
+      "priority": "P1",
+      "worlds": [
+        "SW-09"
+      ],
+      "question": "Welche Hilfe steht unter welchen Voraussetzungen in welchem Rechtsraum zur Verfügung?",
+      "source_classes": "state school law, SGB, provider sources, education guidelines",
+      "representation": "topic_page",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-029",
+      "group": "E",
+      "group_name": "Weitere menschliche Fachwelten",
+      "title": "Wohnen, Existenzsicherung und örtliche Unterstützung",
+      "priority": "P1",
+      "worlds": [
+        "SW-10"
+      ],
+      "question": "Welche konkrete Hilfe gibt es bei Bedrohung der Wohnung oder materieller Sicherheit?",
+      "source_classes": "tenancy law, local services, court decisions, advice services",
+      "representation": "topic_page",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-030",
+      "group": "E",
+      "group_name": "Weitere menschliche Fachwelten",
+      "title": "Historische Entwicklungen, Zukunft und Grenzen der Prognose",
+      "priority": "P2",
+      "worlds": [
+        "SW-15"
+      ],
+      "question": "Welche Trends sind tatsächlich vergleichbar und welche Szenarien bleiben offen?",
+      "source_classes": "historic data, methodology changes, forecasts",
+      "representation": "timeline_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-031",
+      "group": "F",
+      "group_name": "Technische und wirtschaftliche Anschlussfähigkeit",
+      "title": "Virtuelle KI: Funktionsreife und datensparsame Handoffs",
+      "priority": "P0",
+      "worlds": [
+        "SW-16"
+      ],
+      "question": "Welche KI-Funktionen können sinnvoll erklärt, extern genutzt oder erst erforscht werden?",
+      "source_classes": "actual provider capabilities, service contracts, security, test cases",
+      "representation": "capability_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-032",
+      "group": "F",
+      "group_name": "Technische und wirtschaftliche Anschlussfähigkeit",
+      "title": "Eigene Accounts, Kooperationen, Finanzierung und Datenschutzbetrieb",
+      "priority": "P1",
+      "worlds": [
+        "SW-07",
+        "SW-16",
+        "SW-17"
+      ],
+      "question": "Wann ist eine eigene Plattform sinnvoller als Links, lokale Werkzeuge oder Partnerangebote?",
+      "source_classes": "GDPR/compliance, operating costs, FOSS platforms, consent models",
+      "representation": "comparison_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    },
+    {
+      "id": "BKI-NUC-033",
+      "group": "F",
+      "group_name": "Technische und wirtschaftliche Anschlussfähigkeit",
+      "title": "Tensor-/Skill-Anschluss: Relationen, Tests und wissenschaftliche Gegenprobe",
+      "priority": "P2",
+      "worlds": [
+        "SW-13",
+        "SW-12"
+      ],
+      "question": "Welche wiederkehrenden Muster sind formal tragfähig statt nur metaphorisch ähnlich?",
+      "source_classes": "tensor corpus, tests, formulas, crosswalks",
+      "representation": "research_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved"
+    }
+  ],
+  "deep_dive_output_contract": [
+    "human_entry_question",
+    "scope_and_distinctions",
+    "organization_map",
+    "service_and_offer_map",
+    "current_primary_sources",
+    "standards_and_terms",
+    "methods_and_open_source",
+    "rights_and_compliance",
+    "alternatives_and_negative_cases",
+    "risks",
+    "2_to_3_relevant_links_per_context",
+    "semantic_transitions_and_handoffs",
+    "open_research_questions",
+    "intended_presentation",
+    "evidence_status",
+    "no_loss_dependencies"
+  ],
+  "publication_rules": [
+    "no_publication_from_unreviewed_nucleus",
+    "do_not_infer_clinical_or_legal_advice",
+    "no_sensitive_data_collection",
+    "keep_source_owners_and_historical_claims",
+    "explicit_review_version_and_negative_results"
+  ],
+  "phases": [
+    "PH0_inventory",
+    "PH1_patient_record_vertical",
+    "PH2_human_help_and_feedback",
+    "PH3_legal_institutional",
+    "PH4_other_life_domains",
+    "PH5_comparative_tensor_and_future"
+  ]
+}
