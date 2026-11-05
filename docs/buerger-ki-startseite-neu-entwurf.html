@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Ein neuer, lesbarer Startseitenentwurf für Bürger-KI: Rechte verstehen, Lösungen finden, Wissen verbinden.">
+<title>Bürger-KI · Neue Startseite · Entwurf</title>
+<link rel="stylesheet" href="./assets/buerger-ki-ci.css">
+<style>
+:root{--ink:#13394a;--green:#007f79;--soft:#ebf6f2;--line:#d6e6e3;--muted:#506875}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f8faf9;color:var(--ink);font:16px/1.58 system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:#006d78}a:focus-visible,summary:focus-visible{outline:3px solid #cc8d25;outline-offset:3px}
+.site-head{background:white;border-bottom:1px solid var(--line)}.wrap{max-width:1100px;margin:auto;padding:0 23px}
+.site-head .wrap{display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap;padding-top:13px;padding-bottom:13px}
+.brand{font-size:1.35rem;font-weight:850;color:var(--ink);text-decoration:none}.site-head nav{display:flex;gap:15px;flex-wrap:wrap;font-size:.89rem}.site-head nav a{text-decoration:none}
+main{padding-bottom:45px}.eyebrow{font-size:.76rem;font-weight:800;letter-spacing:.09em;color:#267970;text-transform:uppercase}
+.notice{font-size:.8rem;background:#fff6dc;border:1px solid #efd79a;border-radius:9px;padding:9px 14px;display:inline-block;margin:22px 0 0}
+.hero{padding:38px 0 34px;display:grid;grid-template-columns:1.55fr 1fr;gap:32px;align-items:center}
+h1{font-size:clamp(2.6rem,5.4vw,5rem);line-height:1.07;letter-spacing:-.048em;margin:8px 0 20px}
+h2{font-size:clamp(1.7rem,3vw,2.4rem);line-height:1.17;letter-spacing:-.02em;margin:5px 0 12px}
+h3{font-size:1.2rem;line-height:1.25;margin:8px 0}p{margin:8px 0 14px}
+.lead{font-size:1.18rem;max-width:700px}.actions{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}
+.button{display:inline-block;padding:11px 17px;border-radius:10px;text-decoration:none;font-weight:760;background:var(--green);color:white}
+.button.secondary{background:white;border:1px solid var(--green);color:var(--ink)}
+.highlight{padding:28px;border-radius:20px;background:linear-gradient(145deg,#e3f5ee,#f4f6e9);border:1px solid #b6dcd1}
+.highlight strong{display:block;font-size:1.75rem;line-height:1.22;margin:14px 0}
+.section{margin:40px 0 53px}.intro{max-width:750px;color:var(--muted);margin-bottom:19px}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.card{padding:22px;background:white;border:1px solid var(--line);border-radius:15px;box-shadow:0 2px 14px #113b4107}
+.card p{color:#425f69}.card a{font-weight:760}.number{font-size:.78rem;color:#21786f;font-weight:760;letter-spacing:.06em;text-transform:uppercase}
+.ribbon{background:#e7f3ef;border-radius:20px;padding:28px;display:grid;grid-template-columns:1.4fr 1fr;gap:26px;align-items:center}
+.quote{border-left:4px solid #e5a955;padding-left:20px;font-size:1.5rem;line-height:1.3;font-weight:770}
+.topics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.topic{display:block;border:1px solid var(--line);border-radius:14px;padding:18px;background:white;text-decoration:none;color:var(--ink)}
+.topic strong{display:block;font-size:1.15rem;margin-bottom:7px}.topic span{display:block;font-size:.9rem;color:var(--muted)}.topic em{display:block;font-style:normal;color:#006d78;font-size:.88rem;font-weight:750;margin-top:12px}
+.lenses{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px}.lens{background:white;border:1px solid var(--line);border-radius:12px;padding:15px;text-decoration:none;color:var(--ink)}
+.lens b{display:block;font-size:.78rem;color:#12776e;margin-bottom:6px}.lens span{font-weight:730;font-size:.93rem;display:block}
+details{background:white;border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:10px 0}
+summary{cursor:pointer;font-weight:760}details p{max-width:800px;color:#45616d}
+.end{background:#e7f3ef;padding:28px;border-radius:20px;display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap}
+footer{background:#153746;color:#ecf5f4;padding:25px 0}footer a{color:#bcf3e9}footer p{font-size:.89rem}
+@media(max-width:850px){.hero,.ribbon{grid-template-columns:1fr}.lenses{grid-template-columns:repeat(3,1fr)}.cards,.topics{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:590px){.cards,.topics,.lenses{grid-template-columns:1fr}.hero{padding-top:24px}h1{font-size:2.7rem}.highlight strong{font-size:1.5rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="site-head"><div class="wrap"><a class="brand" href="./buerger-ki.html">Bürger-KI</a><nav aria-label="Bereiche"><a href="#wege">Meine Wege</a><a href="#beispiel">Beispiel</a><a href="#themen">Themen</a><a href="#mehr">Mehr entdecken</a><a href="./buerger-ki.html">Bisherige Seite</a></nav></div></header>
+<main class="wrap">
+<p class="notice">Eigenständiger Entwurf · Die bisherige Bürger-KI-Startseite bleibt unverändert.</p>
+<section class="hero"><div>
+<p class="eyebrow">Wissen, das Menschen weiterbringt</p>
+<h1>Rechte verstehen.<br>Tatsächliche Erfüllung prüfen.</h1>
+<p class="lead">Was willst du erreichen? Was steht dir möglicherweise zu? Und was hilft wirklich? Bürger-KI entwickelt Fähigkeiten und Werkzeuge, um Wissen zu erschließen, Fragen zu prüfen und bessere Wege zu Lösungen zu finden.</p>
+<div class="actions"><a class="button" href="#wege">Meinen Weg finden</a><a class="button secondary" href="#themen">Themen entdecken</a></div>
+</div><aside class="highlight"><p class="eyebrow">Ein entscheidender Unterschied</p><strong>Ein Bescheid ist noch keine Leistung.</strong><p>Manchmal steht etwas auf dem Papier. Aber im Leben kommt es nicht an. Genau dort lohnt sich die nächste Frage.</p><a href="./buerger-ki-mein-recht.html">Mein Recht verstehen</a></aside></section>
+
+<section class="section" id="wege"><p class="eyebrow">Drei Wege · Ein Ausgangspunkt</p><h2>Wo möchtest du anfangen?</h2><p class="intro">Du brauchst kein Fachwort und musst nicht zuerst die Forschung verstehen.</p>
+<div class="cards">
+<article class="card"><span class="number">01 · Ich</span><h3>Mein Recht.</h3><p>Was steht mir möglicherweise zu? Welche Schritte helfen – bis zur tatsächlichen Erfüllung?</p><a href="./buerger-ki-mein-recht.html">Mein Anliegen verstehen</a></article>
+<article class="card"><span class="number">02 · Wir</span><h3>Du bist mit deinem Problem nicht allein.</h3><p>Gemeinsam Wissen nutzen und Fähigkeiten entwickeln. Vorhandene Hilfe stärken, nicht ersetzen.</p><a href="./buerger-ki-gemeinsam.html">Unser gemeinsames Problem</a></article>
+<article class="card"><span class="number">03 · Gesellschaft</span><h3>Was muss verlässlich funktionieren?</h3><p>Welche gesellschaftlichen Garantien stehen hinter unseren Rechten? Und wie überprüfen wir ihre Wirkung?</p><a href="./buerger-ki-grundlagen.html">Unsere Grundlagen</a></article>
+</div></section>
+
+<section class="section" id="beispiel"><div class="ribbon"><div><p class="eyebrow">Ein Beispiel aus dem Leben</p><h2>Ich brauche einen Therapieplatz. Und jetzt?</h2><p>Ein möglicher Anspruch ist der Anfang. Aber ist die Behandlung auch erreichbar? Was bedeutet das für mich, für andere und für die Versorgung insgesamt?</p><p>Ein Thema kann aus mehreren Blickwinkeln verständlicher werden – ohne dass du alle durchgehen musst.</p><a href="./buerger-ki-blickwinkel-therapieplatz.html">Therapieplatz aus fünf Blickwinkeln erkunden</a></div><div class="quote">„Was hilft wirklich?“<p style="font-size:.93rem;font-weight:400">Nicht allein die Zahl der Anfragen. Sondern der Weg zu geeigneter, tatsächlich erreichbarer Hilfe.</p></div></div></section>
+
+<section class="section" id="themen"><p class="eyebrow">Themen entdecken</p><h2>Viele Lebensbereiche. Gemeinsame Fähigkeiten.</h2><p class="intro">Hier beginnt jeweils ein eigener Themenraum. Die Einzelheiten stehen dort, wo sie hingehören – nicht alle auf der Startseite.</p>
+<div class="topics">
+<a class="topic" href="./buerger-ki-mein-recht.html"><strong>Recht &amp; Existenz</strong><span>Ansprüche, Entscheidungen und tatsächliche Leistungen.</span><em>Thema öffnen</em></a>
+<a class="topic" href="./buerger-ki-blickwinkel-therapieplatz.html"><strong>Gesundheit &amp; Versorgung</strong><span>Bedarf, erreichbare Hilfe und unterschiedliche Perspektiven.</span><em>Thema öffnen</em></a>
+<a class="topic" href="./buerger-ki-kaffeekraenzchen-fragen.html"><strong>Arbeit &amp; Potenziale</strong><span>Erfahrungen, Fähigkeiten und neue Möglichkeiten.</span><em>Thema öffnen</em></a>
+<a class="topic" href="./buerger-ki-weisungsatlas.html"><strong>Verwaltung verstehen</strong><span>Regeln, Zuständigkeiten und Verwaltungspraxis.</span><em>Thema öffnen</em></a>
+<a class="topic" href="./buerger-ki-ziele-lexikon.html"><strong>Wissen &amp; Ziele</strong><span>Begriffe verstehen und Handlungsmöglichkeiten entdecken.</span><em>Thema öffnen</em></a>
+<a class="topic" href="./buerger-ki-skillzentrum.html"><strong>KI-Fähigkeiten</strong><span>Werkzeuge und Methoden entwickeln, testen und verbessern.</span><em>Thema öffnen</em></a>
+</div><p><a href="./buerger-ki-anwendungsfelder.html">Alle Anwendungsfelder ansehen</a></p></section>
+
+<section class="section"><p class="eyebrow">Andere Blickwinkel</p><h2>Ein Thema. Mehrere Wege, es zu verstehen.</h2><p class="intro">Du kannst vom Menschen, vom Wissen, vom Handeln, von den Zusammenhängen oder vom Lernen ausgehen.</p>
+<div class="lenses">
+<a class="lens" href="./buerger-ki-weg.html"><b>01 · Anliegen</b><span>Was möchte ich erreichen?</span></a>
+<a class="lens" href="./buerger-ki-grundlagen.html"><b>02 · Wissen</b><span>Was bedeutet das?</span></a>
+<a class="lens" href="./buerger-ki-mein-recht.html"><b>03 · Handeln</b><span>Was kann ich tun?</span></a>
+<a class="lens" href="./buerger-ki-gemeinsam.html"><b>04 · Verstehen</b><span>Warum funktioniert es nicht?</span></a>
+<a class="lens" href="./buerger-ki-werkstatt.html"><b>05 · Lernen</b><span>Was lässt sich verbessern?</span></a>
+</div></section>
+
+<section class="section" id="mehr"><p class="eyebrow">Zusätzliche Perspektiven</p><h2>Eine Frage weiterdenken.</h2><p class="intro">Diese Teile sind absichtlich aufklappbar: Sie ergänzen den Gedanken oder stellen ihm eine andere Welt gegenüber.</p>
+<details><summary>Die Gegenfrage: Was, wenn mehr Aktivität nicht mehr Hilfe bedeutet?</summary><p>Mehr Anträge, mehr Briefe oder mehr Gruppen garantieren keinen besseren Zugang. Was, wenn eine Maßnahme zusätzlichen Aufwand verursacht oder Menschen mit weniger Ressourcen benachteiligt? Solche Gegenbefunde gehören zur ehrlichen Wirkungsprüfung.</p><a href="./buerger-ki-gemeinsam.html">Gemeinsame Wirkung und Grenzen</a></details>
+<details><summary>Die andere Welt: Persönliche Erfahrung und gesellschaftlicher Nachweis</summary><p>Ein nicht erreichbarer Therapieplatz ist für die betroffene Person ein reales Problem. Aus einer persönlichen Erfahrung folgt aber noch keine statistisch repräsentative Unterversorgungsquote. Individuelle Lage, Rechtslage und systematische Messung brauchen jeweils eigene Maßstäbe.</p><a href="./buerger-ki-schutzpflichten.html">Schutzpflichten und Grenzen verstehen</a></details>
+<details><summary>Hinter den Kulissen: Wie entsteht eine überprüfbare KI-Fähigkeit?</summary><p>Ein guter Vorschlag wird nicht allein dadurch verlässlich, dass er überzeugend klingt. Bürger-KI entwickelt Methoden mit Quellen, Tests, Gegenproben und Korrekturen. Eine Forschungsidee ist dabei noch kein fertig geprüftes Werkzeug.</p><a href="./buerger-ki-werkstatt.html">In die Forschungswerkstatt</a></details>
+</section>
+
+<section class="section"><div class="end"><div><p class="eyebrow">Wissen verbinden. Lösungen möglich machen.</p><h2>Die Forschung ist da. Aber sie steht nicht im Weg.</h2><p>Wer tiefer einsteigen möchte, findet die Papers, Methoden, Quellen und offenen Fragen in eigenen Bereichen.</p></div><div class="actions"><a class="button" href="./buerger-ki-forschungsbibliothek.html">Forschung erkunden</a><a class="button secondary" href="./buerger-ki.html">Bisherige vollständige Seite</a></div></div></section>
+</main>
+<footer><div class="wrap"><p><strong>Bürger-KI</strong> · Eigenständiger Startseitenentwurf vom 5. November 2026.</p><p>Bürger-KI erforscht und entwickelt KI-Fähigkeiten. Sie betreibt derzeit keine eigene Fallverwaltung.</p><p><a href="./buerger-ki.html">Bisherige Startseite</a> · <a href="./impressum.html">Impressum</a> · <a href="./impressum.html#datenschutz">Datenschutz</a></p></div></footer>
+</body></html>
