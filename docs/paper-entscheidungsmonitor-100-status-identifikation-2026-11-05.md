@@ -1,3 +1,13 @@
+<!-- BKI-MINIMAL-PAPER-V1 -->
+![Bürger-KI Logo](./assets/media/buerger-ki-zeichen.svg)
+
+**Forschungsedition · Stand 5. November 2026**  
+**Kurzbeschreibung:** 100 politische Agenda-Kandidaten – Identifikation und Prüfstatus – methodischer Bestand und Prüfstatus.  
+**Schlagwörter:** Bürger-KI · Quellen · Evidenz · Tests · 100 politische Agenda-Kandidaten – Identifikation und Prüfstatus  
+**Kontakt:** Kontakt@erlebNils.de
+
+---
+
 # 100 politische Agenda-Kandidaten – Identifikation und Prüfstatus
 **Stichtag 05.11.2026 · aus Projektdatei RECHENSCHAFT100_KARTEN_V0_4.json**
 
@@ -113,3 +123,7 @@ Für jede Karte: Kabinetts-/Parlamentsakte und genauer Verfahrensstand, Soll- un
 Ähnliche Titel in unterschiedlichen Sitzungen können eigene Verfahrensschritte oder denselben Sachkomplex betreffen. Eine Zusammenführung erfolgt erst anhand der Originalakten.
 
 **Datenherkunft:** `RECHENSCHAFT100_KARTEN_V0_4.json` aus dem Projektbestand; jede fachliche Bewertung erfordert die dort verlinkten Quellen.
+
+---
+
+*Bürger-KI · Rechte verstehen. Probleme lösen. Gesellschaft verbessern.* · [Bürger-KI](./buerger-ki.html) · [Publikationen](./publikationen.html) · Kontakt@erlebNils.de · 05.11.2026
