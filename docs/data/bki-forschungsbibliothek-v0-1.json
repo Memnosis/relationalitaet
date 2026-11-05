@@ -332,6 +332,20 @@
       "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/FLASHBACK_01_RECHTSVERGLEICH_V0_1.json",
       "group": "Methoden",
       "status": "comparative_law_research_draft"
+    },
+    {
+      "id": "BKI-LIB-048",
+      "title": "Flashback 02: Sozialdaten für KI, staatliche Datenwege, Geld und wirksame Kontrolle",
+      "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/FLASHBACK_02_DATENWEGE_KI_SOZIALDATEN_GELD_KONTROLLE_V0_1_2026-11-05.md",
+      "group": "Methoden",
+      "status": "source_based_first_pass_financial_audit_open"
+    },
+    {
+      "id": "BKI-LIB-049",
+      "title": "Flashback 02 – sechs Daten-/Rechtsfälle als Forschungsregister",
+      "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/FLASHBACK_02_DATENWEGE_KI_GELD_KONTROLLE_V0_1.json",
+      "group": "Methoden",
+      "status": "initial_legal_crosswalk_revenue_and_implementation_open"
     }
   ]
 }
