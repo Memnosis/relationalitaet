@@ -234,3 +234,37 @@ Beispiel: Das Methodenthema „Was bedeutet eine 20 % veränderte Quote?“ wird
 **Gesamtaussage:** Die Bürger-KI braucht keine weitere unübersichtliche Hauptnavigationsstruktur. Sie braucht einen verlässlichen **Kern aus wiederverwendbaren Wissens- und Skillobjekten** und mehrere verständliche Wege durch denselben Kern.
 
 *No-Loss bedeutet nicht, jeden Text überall zu zeigen – sondern jede relevante Erkenntnis, Quelle, Version, Einschränkung und Weiterverwendung an der richtigen Stelle wieder auffindbar und prüfbar zu machen.*
+
+## 12. Die entscheidende didaktische Präzisierung: Das Kernthema ist der Anker
+
+Die fünf Hauptbereiche sind **nicht fünf voneinander isolierte Themenarchive**. Sie sind zugleich die **fünf wiederkehrenden Perspektiven auf jedes fachlich identifizierte Kernthema**. Der Leser soll über jeden Zugang in dasselbe Thema eintreten und danach die Perspektive wechseln können. Fachliche Inhalte bleiben am kanonischen Besitzer; die Darstellung arrangiert sie entsprechend der jeweiligen Frage.
+
+**Erster implementierter Anker:** [Bürger-KI · Blickwinkel Therapieplatz](../../docs/buerger-ki-blickwinkel-therapieplatz.html), versioniert als [Themenmodell](../../docs/data/bki-therapieplatz-fuenf-blickwinkel-v0-1.json).
+
+### Fünf fachbezogene Fragen – Beispiel Therapieplatz
+
+1. **Anliegen und Ziele:** Was bedeutet es für einen Menschen, eine geeignete Behandlung tatsächlich zu erhalten? Erfolg ist nicht lediglich irgendein Termin.
+2. **Wissen verstehen:** Was unterscheiden Sprechstunde, Probatorik, Regelbehandlung und unterschiedlich definierte Wartezeitangaben?
+3. **Wege und Unterstützung:** Welche Stellen helfen bei Terminvermittlung, Patientenrechten oder Versorgungsproblemen, und wo enden ihre Leistungen?
+4. **Gesellschaft untersuchen:** Welche regionalen und historischen Versorgungsstrukturen, Kapazitäten, Ungleichheiten und Messlücken existieren?
+5. **Forschung und Werkzeuge:** Welche wiederverwendbaren Skills brauchen wir, um Begriffe zu klären, Methodenbrüche zu erkennen, Alternativen zu erschließen und den Stand der Evidenz korrekt anzuzeigen?
+
+**Jeder Blickwinkel enthält:** menschliche Einstiegsfrage, didaktische Kernerkenntnisse aus dem vorhandenen Bestand, eine nachvollziehbare Folge von Quellen- und Vertiefungsschritten, ungelöste Fragen, alternative Perspektiven und einen Rückweg in die gemeinsame Übersicht. Die fachlich entscheidenden Inhalte sollen nicht allein in Anhangspapern verborgen bleiben. Ein Paper enthält Begründung und Belegführung, der Lernpfad die sinnvolle Reihenfolge und den Übergang.
+
+### Didaktischer Mehrwert von Spiegelungen
+
+- **Vom Menschen her:** Ziel, Voraussetzungen, tatsächlich erreichte Versorgung.
+- **Vom Fachbegriff her:** Definition, Geltung, historische Vergleichbarkeit.
+- **Von der Organisation her:** Welche Art Hilfe liefert der Ansprechpartner tatsächlich?
+- **Von der Infrastruktur her:** Warum ist Leistung möglicherweise nicht erreichbar?
+- **Vom Forschungsinstrument her:** Was ist nachweisbar und welche neue Fähigkeit entsteht daraus?
+
+Ein Perspektivwechsel öffnet eine **neue Frage**, nicht eine Kopie derselben Erklärung. An geeigneter Stelle wird auf den bereits erläuterten Begriff, die bestehende Quelle, die Fachkarte oder das Forschungspaper verwiesen.
+
+### Themenvertrag für weitere Kernthemen
+
+Eine neue Fachseite wird nicht allein aufgrund eines neuen Forschungs-Papers oder Stichworts angelegt. Erforderlich sind (a) ein von Menschen verständliches Thema oder Problem, (b) die fünf unterscheidbaren Blickwinkel, (c) ausgewählte, quellengebundene Kerninhalte und begründete weiterführende Schritte, (d) ausgewiesene Alternativen/Spiegelungen, (e) explizite Grenzen und (f) stabile Links auf Quellen-, Ziel-, Begriff-, Skill- und Befundobjekte.
+
+Das Modell kann anschließend beispielsweise auf **Pflegeplatz**, **Jugendamt**, **Wohnen**, **Schulversorgung**, **Behördenentscheidung**, **Steuerprüfung**, **Ernährung** oder **historische Arbeitslosenmessung** übertragen werden. Die Beispiele sind **Kandidaten**, keine bereits vollständig ausgeführten Themenpfade.
+
+**Aktueller technischer Status:** Eine erste Themenseite und das zugrunde liegende JSON-Modell wurden im Repository erstellt. Der vollständige automatisierte No-Loss-Compiler und die fachliche Prüfung aller externen Quellenverknüpfungen bleiben offen.
