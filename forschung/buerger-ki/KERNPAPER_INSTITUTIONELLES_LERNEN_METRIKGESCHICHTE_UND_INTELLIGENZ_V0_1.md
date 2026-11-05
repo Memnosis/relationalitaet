@@ -7,6 +7,8 @@
 **Datenakte:** [Historische Metriken, Definitionswechsel und Untersuchungsakten](../../docs/data/bki-historische-metrik-personal-verantwortung-v0-1.json).  
 **Redaktionsregel:** nur eigene Rekonstruktionen, Quellen-, Fassungs- und Prüfreferenzen; keine kopierten Originaldokumente in die interne Handlungsbibliothek.
 
+> **Methodische Fortschreibung (05.11.2026):** Die frühere Darstellung von „Tests“, „Benchmark“ und Projektfortschritt ist für den Forschungsatlas nur als historische Entwicklungsplanung zu lesen. Verbindlich ist nun [BKI-KERN-MSR-001: Messbarkeit, Steuerung und Rechenschaft](./KERNPAPER_MESSBARKEIT_STEUERUNG_RECHENSCHAFT_V0_1.md). **Keine künstlichen universellen Benchmarks oder Qualitätsscores.** Messqualität, Zielbezug, historische Vergleichbarkeit, unabhängige Erkenntnisgrenzen und fehlende überprüfbare Rechenschaft werden **je Forschungsfrage** analysiert. Die 3/10-Gates kennzeichnen nur frühere technische Planungsstände und keine Qualität oder Wirkung des Forschungsprogramms.
+
 ## Abstract
 
 Intelligenz eines institutionellen Systems lässt sich für die Bürger-KI nicht allein an schneller Datenverarbeitung, politisch definierten Zielen oder berichteten Erfolgsmeldungen messen. Untersuchbar ist vielmehr, ob das System **relevante Veränderungen erkennt, seine Messmethoden offenlegt, Entscheidungen mit Alternativen begründet, frühere Prognosen rückblickend prüft, negative Erfahrungen verarbeitet, Ressourcen passend einsetzt und tatsächliche Folgen misst**. Ein neues interdisziplinäres Forschungsprogramm verbindet vier zeitliche Ebenen: *die Geschichte des Problems*, *die Geschichte der Messmethode*, *die Geschichte der institutionellen Entscheidungen und des Personals* und *die Geschichte der gesellschaftlichen Folgen*.
