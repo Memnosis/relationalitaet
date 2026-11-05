@@ -1,0 +1,423 @@
+{
+  "schema": "bki-corona-benchmark-teaser/0.2",
+  "as_of": "2026-11-05",
+  "goal_media": 100,
+  "found_media": 10,
+  "completed_media_full_text_audits": 0,
+  "measurement_cards": [
+    {
+      "id": "CM-61",
+      "title": "PCR-Meldefälle",
+      "issue": "PCR-Fälle ≠ alle Infektionen",
+      "source": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Infektionskrankheiten-A-Z/C/COVID-19-Pandemie/COVID-19-Pandemie.html",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ]
+    },
+    {
+      "id": "CM-62",
+      "title": "Serologische Dunkelziffer",
+      "issue": "Untererfassung abhängig von Region, Teststrategie, Stichprobe und Pandemiephase; nicht tagesgenau rückrechenbar",
+      "source": "https://edoc.rki.de/handle/176904/11391",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ]
+    },
+    {
+      "id": "CM-63",
+      "title": "Teststrategie und Erfassungsquote",
+      "issue": "Indikation, Schnelltest/PCR, Testzugang und Entdeckungsquote getrennt",
+      "source": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Infektionskrankheiten-A-Z/C/COVID-19-Pandemie/AK-Studien/Ergebnisse.html",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ]
+    },
+    {
+      "id": "CM-64",
+      "title": "Vergleichbare Inzidenz",
+      "issue": "Nenner, Alter, Region, Zeitfenster, Fälle und Tests",
+      "source": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Infektionskrankheiten-A-Z/C/COVID-19-Pandemie/COVID-19-Pandemie.html",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ]
+    },
+    {
+      "id": "CM-65",
+      "title": "Hospitalisierung",
+      "issue": "Meldedatum und Aufnahmedatum, Nachmeldungen und COVID als Diagnose",
+      "source": "https://www.bundesgesundheitsministerium.de/coronavirus/hospitalisierungsinzidenz",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ]
+    },
+    {
+      "id": "CM-66",
+      "title": "Intensivkapazität",
+      "issue": "Gemeldete gegenüber tatsächlich betreibbaren Betten, Pflegepersonal und Regionalität",
+      "source": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Infektionskrankheiten-A-Z/C/COVID-19/Intensivregister.html",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ]
+    },
+    {
+      "id": "CM-67",
+      "title": "IfSG-Todesfallmeldung",
+      "issue": "COVID als Todesursache und Corona-Nachweis nicht automatisch identisch",
+      "source": "https://www.rki.de/SharedDocs/FAQs/DE/COVID-19-Pandemie/FAQ-Liste-COVID-19-Pandemie.html",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ]
+    },
+    {
+      "id": "CM-68",
+      "title": "Todesursachen",
+      "issue": "Grundleiden, Begleiterkrankung, ICD-Codierung und Todesbescheinigung",
+      "source": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2021/07/PD21_327_23211.html",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ]
+    },
+    {
+      "id": "CM-69",
+      "title": "Übersterblichkeit",
+      "issue": "Altersstruktur, Saison, Hitze, andere Ursachen und Baseline",
+      "source": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/sterbefallzahlen.html",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ]
+    },
+    {
+      "id": "CM-70",
+      "title": "Verdachtsmeldungen Impfsicherheit",
+      "issue": "Meldung ist Signal, kein bestätigter Schadensfall; Exposition je Dosis/Person unterscheiden",
+      "source": "https://www.pei.de/DE/newsroom/dossier/coronavirus/sicherheitsbericht-covid-19-impfstoffe-aktuell.html",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ]
+    },
+    {
+      "id": "CM-71",
+      "title": "Myokarditis-Warnkommunikation",
+      "issue": "Symptome, Dringlichkeit, Altersgruppe, Impfstoff und Kenntnisstand getrennt prüfen",
+      "source": "https://www.ema.europa.eu/en/documents/covid-19-vaccine-safety-update/covid-19-vaccine-safety-update-comirnaty-14-july-2021_en.pdf",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ]
+    },
+    {
+      "id": "CM-72",
+      "title": "STIKO-/Leitlinienversion",
+      "issue": "damalige Empfehlung, Änderung, Begründung, Altersgruppe und Dosis",
+      "source": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Infektionskrankheiten-A-Z/C/COVID-19-Pandemie/COVID-19-Pandemie.html",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ]
+    },
+    {
+      "id": "CM-73",
+      "title": "Bildung und soziale Nebenfolgen",
+      "issue": "Präsenz-/Schließtage, Lernentwicklung und Benachteiligung",
+      "source": "https://www.iqb.hu-berlin.de/bt/BT2021/",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ]
+    },
+    {
+      "id": "CM-74",
+      "title": "Versorgungsfolgen",
+      "issue": "Langzeitbeschwerden, Nachversorgung, psychosoziale Folgen; kausale Zuordnung offen",
+      "source": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Infektionskrankheiten-A-Z/C/COVID-19-Pandemie/COVID-19-Pandemie.html",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ]
+    },
+    {
+      "id": "CM-75",
+      "title": "Evaluation und Vergleichsprotokoll",
+      "issue": "Ex-ante Ziele, Endpunkte, Sicherheitsfolgen, Gegenvergleich, unabhängige Prüfung",
+      "source": "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/S/Sachverstaendigenausschuss/220630_Evaluationsbericht_IFSG_NEU.pdf",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ]
+    }
+  ],
+  "media_candidates": [
+    {
+      "id": "MED-001",
+      "outlet": "ARD-faktenfinder",
+      "title": "BMG twittert falsche Zahlen über Impfnebenwirkungen",
+      "url": "https://www.tagesschau.de/faktenfinder/impfungen-nebenwirkungen-bmg-101.html",
+      "status": "Link identifiziert; konkrete Warnstellen noch nicht volltextgeprüft",
+      "tests": {
+        "risk_acknowledged": null,
+        "warning_chest_pain": null,
+        "warning_breathlessness": null,
+        "warning_palpitations": null,
+        "seek_medical_help": null,
+        "time_consistent": null
+      },
+      "missing": [
+        "datierte Textfassung",
+        "exakte Warnsymptom-Stellen",
+        "zeitgleiche EMA-/PEI-Warnversion"
+      ]
+    },
+    {
+      "id": "MED-002",
+      "outlet": "ARD-faktenfinder",
+      "title": "mRNA-Impfstoffe greifen Blutgefäße nicht an",
+      "url": "https://www.tagesschau.de/faktenfinder/mrna-thrombosen-herzinfarkt-101.html",
+      "status": "Link identifiziert; konkrete Warnstellen noch nicht volltextgeprüft",
+      "tests": {
+        "risk_acknowledged": null,
+        "warning_chest_pain": null,
+        "warning_breathlessness": null,
+        "warning_palpitations": null,
+        "seek_medical_help": null,
+        "time_consistent": null
+      },
+      "missing": [
+        "datierte Textfassung",
+        "exakte Warnsymptom-Stellen",
+        "zeitgleiche EMA-/PEI-Warnversion"
+      ]
+    },
+    {
+      "id": "MED-003",
+      "outlet": "ARD-faktenfinder",
+      "title": "Herz-Kreislauf-Notfälle: Kein Anstieg durch Impfungen",
+      "url": "https://www.tagesschau.de/faktenfinder/notaufnahmen-impfnebenwirkungen-101.html",
+      "status": "Link identifiziert; konkrete Warnstellen noch nicht volltextgeprüft",
+      "tests": {
+        "risk_acknowledged": null,
+        "warning_chest_pain": null,
+        "warning_breathlessness": null,
+        "warning_palpitations": null,
+        "seek_medical_help": null,
+        "time_consistent": null
+      },
+      "missing": [
+        "datierte Textfassung",
+        "exakte Warnsymptom-Stellen",
+        "zeitgleiche EMA-/PEI-Warnversion"
+      ]
+    },
+    {
+      "id": "MED-004",
+      "outlet": "BR24",
+      "title": "Geringes Risiko: Herzmuskelentzündung nach mRNA-Impfung",
+      "url": "https://www.br.de/nachrichten/wissen/risiko-herzmuskelentzuendung-myokarditis-mrna-impfung-studie%2CSZl3bKq",
+      "status": "Link identifiziert; konkrete Warnstellen noch nicht volltextgeprüft",
+      "tests": {
+        "risk_acknowledged": null,
+        "warning_chest_pain": null,
+        "warning_breathlessness": null,
+        "warning_palpitations": null,
+        "seek_medical_help": null,
+        "time_consistent": null
+      },
+      "missing": [
+        "datierte Textfassung",
+        "exakte Warnsymptom-Stellen",
+        "zeitgleiche EMA-/PEI-Warnversion"
+      ]
+    },
+    {
+      "id": "MED-005",
+      "outlet": "BR24 Faktenfuchs",
+      "title": "Pathologenkonferenz beweist keine Impfschäden",
+      "url": "https://www.br.de/nachrichten/deutschland-welt/pathologenkonferenz-beweist-keine-corona-impfschaeden-faktenfuchs%2CSkV5Nmu",
+      "status": "Link identifiziert; konkrete Warnstellen noch nicht volltextgeprüft",
+      "tests": {
+        "risk_acknowledged": null,
+        "warning_chest_pain": null,
+        "warning_breathlessness": null,
+        "warning_palpitations": null,
+        "seek_medical_help": null,
+        "time_consistent": null
+      },
+      "missing": [
+        "datierte Textfassung",
+        "exakte Warnsymptom-Stellen",
+        "zeitgleiche EMA-/PEI-Warnversion"
+      ]
+    },
+    {
+      "id": "MED-006",
+      "outlet": "BR24 Faktenfuchs",
+      "title": "Was nach fünf Jahren Covid-Impfung bekannt ist",
+      "url": "https://www.br.de/nachrichten/wissen/faktenfuchs-was-nach-fuenf-jahren-covid-impfung-bekannt-ist%2CV673r2a",
+      "status": "Link identifiziert; konkrete Warnstellen noch nicht volltextgeprüft",
+      "tests": {
+        "risk_acknowledged": null,
+        "warning_chest_pain": null,
+        "warning_breathlessness": null,
+        "warning_palpitations": null,
+        "seek_medical_help": null,
+        "time_consistent": null
+      },
+      "missing": [
+        "datierte Textfassung",
+        "exakte Warnsymptom-Stellen",
+        "zeitgleiche EMA-/PEI-Warnversion"
+      ]
+    },
+    {
+      "id": "MED-007",
+      "outlet": "ARD-faktenfinder",
+      "title": "Falsche Zahlen zu angeblichen Impf-Toten",
+      "url": "https://www.tagesschau.de/faktenfinder/corona-impfung-falschbehauptung-100.html",
+      "status": "Link identifiziert; konkrete Warnstellen noch nicht volltextgeprüft",
+      "tests": {
+        "risk_acknowledged": null,
+        "warning_chest_pain": null,
+        "warning_breathlessness": null,
+        "warning_palpitations": null,
+        "seek_medical_help": null,
+        "time_consistent": null
+      },
+      "missing": [
+        "datierte Textfassung",
+        "exakte Warnsymptom-Stellen",
+        "zeitgleiche EMA-/PEI-Warnversion"
+      ]
+    },
+    {
+      "id": "MED-008",
+      "outlet": "CORRECTIV",
+      "title": "Vergleich gemeldeter Nebenwirkungen mit anderen Impfstoffen",
+      "url": "https://correctiv.org/faktencheck/2022/01/26/covid-19-impfungen-warum-der-vergleich-gemeldeter-nebenwirkungen-mit-anderen-impfstoffen-nicht-aussagekraeftig-ist/",
+      "status": "Link identifiziert; konkrete Warnstellen noch nicht volltextgeprüft",
+      "tests": {
+        "risk_acknowledged": null,
+        "warning_chest_pain": null,
+        "warning_breathlessness": null,
+        "warning_palpitations": null,
+        "seek_medical_help": null,
+        "time_consistent": null
+      },
+      "missing": [
+        "datierte Textfassung",
+        "exakte Warnsymptom-Stellen",
+        "zeitgleiche EMA-/PEI-Warnversion"
+      ]
+    },
+    {
+      "id": "MED-009",
+      "outlet": "CORRECTIV",
+      "title": "Aussagekraft der Re-Analyse von Zulassungsstudien",
+      "url": "https://correctiv.org/faktencheck/hintergrund/2022/11/04/mrna-impfstoffe-warum-die-aussagekraft-einer-re-analyse-der-zulassungsstudien-begrenzt-ist/",
+      "status": "Link identifiziert; konkrete Warnstellen noch nicht volltextgeprüft",
+      "tests": {
+        "risk_acknowledged": null,
+        "warning_chest_pain": null,
+        "warning_breathlessness": null,
+        "warning_palpitations": null,
+        "seek_medical_help": null,
+        "time_consistent": null
+      },
+      "missing": [
+        "datierte Textfassung",
+        "exakte Warnsymptom-Stellen",
+        "zeitgleiche EMA-/PEI-Warnversion"
+      ]
+    },
+    {
+      "id": "MED-010",
+      "outlet": "ARD-faktenfinder",
+      "title": "Angebliche Tote durch Impfen: Daten ohne Kontext",
+      "url": "https://www.tagesschau.de/faktenfinder/corona-todesfaelle-impfungen-101.html",
+      "status": "Link identifiziert; konkrete Warnstellen noch nicht volltextgeprüft",
+      "tests": {
+        "risk_acknowledged": null,
+        "warning_chest_pain": null,
+        "warning_breathlessness": null,
+        "warning_palpitations": null,
+        "seek_medical_help": null,
+        "time_consistent": null
+      },
+      "missing": [
+        "datierte Textfassung",
+        "exakte Warnsymptom-Stellen",
+        "zeitgleiche EMA-/PEI-Warnversion"
+      ]
+    }
+  ],
+  "ref_ema": "https://www.ema.europa.eu/en/documents/covid-19-vaccine-safety-update/covid-19-vaccine-safety-update-comirnaty-14-july-2021_en.pdf",
+  "reference_method": "Gleiches Datum, gleiche Definition, gleiche Population und Version; nie ein allgemeiner Dunkelziffer-Korrekturfaktor"
+}
