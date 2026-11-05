@@ -551,13 +551,14 @@
         "SW-PH-1"
       ],
       "deliverables": [
-        "12_core_hinges_translation_matrix",
-        "bidirectional_cases_and_counterexamples",
-        "psychology_code_language_research_scope",
-        "meaning_loss_and_source_gaps"
+        "Apply approved lightweight translation prompt to existing 14 cases",
+        "Record meaning retained, added and lost",
+        "Escalate only ambiguous or material cases to structured review",
+        "Defer psychology-code formal research to later deep dive"
       ],
       "exit": "Every core hinge has typed meaning gain, loss, not-equivalence, evidence state and return route",
-      "status": "started_research_review_open"
+      "status": "blocked_pending_SW_PRE_LANG_review",
+      "predecessor_gate": "SW-PRE-LANG"
     },
     {
       "id": "SW-PH-2",
@@ -726,5 +727,19 @@
       "title": "Apply real-world AI landscape to every knowledge nucleus and examine civic sovereignty"
     }
   ],
-  "phase_count": 9
+  "phase_count": 9,
+  "pre_phase_gate": {
+    "id": "SW-PRE-LANG",
+    "title": "Schlanker Sprachabgleich vor Phase 1",
+    "status": "report_created_review_pending",
+    "canonical_reference": "docs/paper-buerger-ki-sprachraeume-termini-operationalisierung-claims-v0-1.md",
+    "dedupe_report": "forschung/buerger-ki/BERICHT_DOPPELUNG_SPRACHE_SCHLANKE_UEBERSETZUNG_V0_1_2026-11-05.md",
+    "min_work": [
+      "reuse canonical research rather than rewrite",
+      "basic translation prompt L0",
+      "meaning and counterquestion L1 only if needed",
+      "park code psychology tensor as L2 research"
+    ],
+    "exit": "A single reusable translation prompt and review procedure are agreed before applying phase1 cases"
+  }
 }
