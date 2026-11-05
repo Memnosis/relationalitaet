@@ -3,12 +3,12 @@
   "as_of": "2026-11-05",
   "status": "curated_deep_dive_backlog_not_verified_findings",
   "world_map": "SPRACHWELTEN_FACHGEBIETE_DREHPUNKTE_QUELLENPLAN_V0_1_2026-11-05.json",
-  "nucleus_count": 36,
+  "nucleus_count": 37,
   "groups": [
     {
       "id": "A",
       "name": "Sprachliche und wissenschaftliche Grundlagen",
-      "count": 6
+      "count": 7
     },
     {
       "id": "B",
@@ -716,6 +716,26 @@
       "semantic_review": "pending",
       "publication_gate": "not_approved",
       "domain_ai_application_status": "pending_current_market_and_open_source_review"
+    },
+    {
+      "id": "BKI-NUC-037",
+      "group": "A",
+      "group_name": "Sprachliche und wissenschaftliche Grundlagen",
+      "title": "Forschungsinteroperabilität: psychologische Konstrukte, Alltagssprache, formale Semantik und Code",
+      "priority": "P1",
+      "worlds": [
+        "SW-05",
+        "SW-20",
+        "SW-13"
+      ],
+      "question": "Welche psychologischen Begriffe und Modelle lassen sich unter welchen Geltungsbedingungen in formale oder programmierbare Modelle überführen und zurückübersetzen, und wo scheitert dies?",
+      "source_classes": "APA construct validity and assessment, SKOS concept mappings, programming language grammars, formal model sources, empirical validation",
+      "representation": "optional_research_world",
+      "source_status": "initial_authoritative_method_sources_found",
+      "deep_dive_status": "research_scope_and_phase1_examples_started",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending"
     }
   ],
   "deep_dive_output_contract": [
@@ -734,7 +754,8 @@
     "open_research_questions",
     "intended_presentation",
     "evidence_status",
-    "no_loss_dependencies"
+    "no_loss_dependencies",
+    "current_real_AI_applications_in_domain"
   ],
   "publication_rules": [
     "no_publication_from_unreviewed_nucleus",
@@ -771,5 +792,6 @@
     "references_and_date",
     "handoff_route",
     "open_skill_gap"
-  ]
+  ],
+  "roadmap_reference": "SPRACHWELTEN_FACHGEBIETE_DREHPUNKTE_QUELLENPLAN_V0_1_2026-11-05.json"
 }
