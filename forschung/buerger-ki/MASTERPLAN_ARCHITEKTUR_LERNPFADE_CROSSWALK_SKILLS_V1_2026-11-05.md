@@ -7,7 +7,7 @@
 **Referenz-Baseline:** Git-Tree `e376901b581e404b142248feeed45624d3eba289` vor diesem Plan  
 **Verknüpfte Phase:** [Phase 15](../../docs/buerger-ki-phase-15-sprache-uebersetzung-no-loss.md) · [Originalsprach-Audit](../../docs/paper-buerger-ki-originalsprache-claims-didaktik-no-loss-v0-1.md) · [Sprachräume-Paper](../../docs/paper-buerger-ki-sprachraeume-termini-operationalisierung-claims-v0-1.md)
 
-## 0. Architekturbeschluss und Arbeitsgrenzen
+> **Vorrangentscheidung 05.11.2026 – Sprache vor User Storys:** Vor dem breiten Seitenumbau und dem User-Story-Test zunächst alle fünf Lernwege sprachlich und fachlich ausformulieren, die Bedeutungsübersetzungen auf Ebene der Elemente und Spiegelungen prüfen und jeden geplanten aufklappbaren Wissensraum mit hinreichendem Inhalt, Quellen und Rückweg belegen. Siehe [Sprachprojekt](./SPRACHPROJEKT_PFADGRAMMATIK_UEBERSETZBARKEIT_WISSENSRAEUME_V1_2026-11-05.md), [Pfadelementinventar](./SPRACHPFADE_ELEMENTINVENTAR_V0_1.json) und [Redaktionsfassung aller fünf Lernwege](./SPRACHPFADE_REDAKTIONELLE_FASSUNG_V0_1_2026-11-05.md). Der Crosswalk kann als vorbereitender semantischer Rahmen parallel entstehen; Komponenten-/User-Story-Rollout ist bis zur Sprachanalyse-Gate-Abnahme zurückgestellt.\n\n## 0. Architekturbeschluss und Arbeitsgrenzen
 
 Die Bürger-KI **entwickelt allgemeine, prüfbare KI-Fähigkeiten für menschliche Anliegen**, keine zentrale Datenbank persönlicher Bürgerfälle. Alle Lernbeispiele sollen anhand öffentlicher Fachquellen oder ausdrücklich synthetischer Beispiele entstehen. Es gibt kein implizites Versprechen auf Rechtsdurchsetzung, einen verfügbaren Therapieplatz oder funktionierende Software, solange dies nicht nachgewiesen ist.
 
