@@ -54,7 +54,7 @@ Wenn die zweite Person eine Öffnung falsch zeichnet, kann eine Rückfrage helfe
 
 **Medienordnung höherer Ordnung** ist hier eine *Projektdefinition*: Eine Beschreibungs-/Operationsordnung, die nicht nur Medieninhalte verarbeitet, sondern die Regeln des Codierens, Interpretierens, Übertragens oder Prüfens anderer Medienoperationen selbst zum Gegenstand macht. Es ist keine ungekennzeichnete Behauptung über einen kanonischen Begriff in der allgemeinen Medientheorie.
 
-## 3. Die vier Trinitäten dürfen nicht miteinander verschmolzen werden
+## 3. Vier Theorieperspektiven dürfen nicht miteinander verschmolzen werden
 
 | Perspektive | Dreierrelation | Typ ihrer Glieder | Unzulässige Verkürzung | Einfache Übersetzung |
 |---|---|---|---|---|
@@ -66,6 +66,29 @@ Wenn die zweite Person eine Öffnung falsch zeichnet, kann eine Rückfrage helfe
 **Quellen je Zeile:** Peirce https://plato.stanford.edu/entries/peirce-semiotics/ ; Luhmann https://www.degruyterbrill.com/document/doi/10.1515/9783839456743-010/html ; Marr https://philosophy.hku.hk/courses/cogsci/davidmarr.php ; Jenkins https://henryjenkins.org/blog/2006/06/welcome_to_convergence_culture.html .
 
 **Gemeinsam** ist der Umstand, dass einfache Ein-Richtungs-Modelle die jeweilige Analyse häufig nicht erschöpfen. **Nicht gemeinsam bewiesen** sind identische Ontologien, gleiche Kausalmechanismen oder mathematisch gleiche ternäre Relationen.
+
+## 3a. Korrektur und Vertiefung: Luhmann umfasst mehrere eigenständige Dreierordnungen
+
+**Wichtig:** Luhmann darf im Medien-Tensor nicht auf eine einzige Kommunikationstrias verkürzt werden. Der folgende Crosswalk unterscheidet mindestens **fünf** in seinem Theorieprogramm bzw. in der Fachliteratur verankerte Dreierordnungen. Sie erfüllen nicht dieselbe mathematische Funktion. Die Zuordnung zu einem gemeinsamen Tensor bleibt eine **eigene Rekonstruktion**.
+
+| ID | Dreierordnung | Wissenschaftliche Rolle | Einfache Frage | Typ für die Algebra |
+|---|---|---|---|---|
+| LU-01 | **Information – Mitteilung – Verstehen** | Drei Selektionen, deren Synthese Kommunikation konstituiert | Was wird mitgeteilt, wie und als was wird es verstanden? | Konstitutive ternäre Relation, nicht zeitliche Pipeline |
+| LU-02 | **Sachdimension – Zeitdimension – Sozialdimension** | Drei analytische Sinn-Dimensionen | Worum geht es, wann und aus welcher sozialen Perspektive? | Mehrdimensionale Sinnklassifikation |
+| LU-03 | **Variation – Selektion – Restabilisierung** | Evolutionsmechanismen sozialer Systeme | Was weicht ab, was wird ausgewählt, was stabilisiert sich? | Dynamischer, konditionaler Prozesszusammenhang |
+| LU-04 | **Interaktion – Organisation – Gesellschaft** | Unterschiedliche Formen sozialer Systembildung | Gesprächssituation, Mitgliedschaftsorganisation oder umfassende Gesellschaft? | Typisierte System-/Einbettungsrelation; keine drei zwingenden Prozessphasen |
+| LU-05 | **Sprache – Verbreitungsmedien – symbolisch generalisierte Kommunikationsmedien** | Verschiedene Medienleistungen für Verstehen, Erreichbarkeit und Wahrscheinlichkeit der Annahme | Wie kann eine Mitteilung verstanden, verbreitet und angenommen werden? | Medienfunktions-Crosswalk, keine lineare chronologische Evolution |
+
+**Primär-/Referenzbelege:**
+- LU-01: *Unlocking Luhmann*, „Communication“, https://www.degruyterbrill.com/document/doi/10.1515/9783839456743-010/html ; https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2024.1348078/full .
+- LU-02: *Unlocking Luhmann*, Eintrag „Meaning“ und seine drei Dimensionen, https://www.jstor.org/stable/j.ctv2f9xsr5 ; Luhmann Conference 2026, Forschungskontext und offene Dimensionsfrage, https://luhmannconference.com/2026/01/24/cfp-luhmann-conference-2026/ .
+- LU-03: „Evolutionary mechanisms and structural couplings“ mit Rückbezug auf Luhmanns *Theory of Society*, https://journals.openedition.org/ress/pdf/3714 ; https://research.cbs.dk/files/66649885/andreas_rasche_et_al_a_luhmannian_perspective_on_strategy_acceptedversion.pdf .
+- LU-04: Niklas Luhmann, „Interaction, Organization, Society“ (1982; älteres deutsches Original), nachgewiesen in https://onlinelibrary.wiley.com/doi/10.1002/sres.2685 und https://www.uni-bielefeld.de/fakultaeten/soziologie/forschung/luhmann-archiv/pdf/rstichweh_niklas-luhmann.pdf .
+- LU-05: Tække/Paulsen, „Luhmann and the Media“, *MedieKultur*, https://pure.au.dk/ws/files/22709635/Luhmann_and_the_media.pdf ; https://www.zygonjournal.org/article/13954/galley/28285/download/ .
+
+**Nicht in trinitäre Axiome umdeuten:** Luhmanns zentrale Unterscheidungen **System/Umwelt**, **Medium/Form**, **aktuell/möglich**, **Unterscheidung/Bezeichnung (Beobachtung)** und **Selbstreferenz/Fremdreferenz** sind keine automatisch dreistelligen Relationen. Man kann sie mit den Trinitäten in Beziehung setzen; ein drittes Element darf aber nicht bloß ergänzt werden, um ein Raster zu erfüllen.
+
+**Operationalisierungsfolge:** Für LU-01..LU-05 sind unterschiedliche Typen und Tests erforderlich. Eine gemeinsame Projektadresse ist allein ein Crosswalk; sie beweist weder mathematische Isomorphie noch eine von Luhmann postulierte universelle „Fünffach-Trinität“. Insbesondere LU-05 macht die Verbindung zu höheren Medienordnungen prüfbar, LU-02 zu Sinn und Bedeutung, LU-03 zu Veränderungen und Rückkopplungen.
 
 ## 4. Die beiden Medienordnungs-Klassifikationen kreuzen
 
