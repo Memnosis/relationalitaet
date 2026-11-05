@@ -136,6 +136,20 @@
       "href": "buerger-ki-anwendungsfelder.html",
       "group": "Didaktik",
       "status": "research_or_learning_resource"
+    },
+    {
+      "id": "BKI-LIB-020",
+      "title": "Sprachräume, Begriffe, Perspektivwechsel und Claims",
+      "href": "paper-buerger-ki-sprachraeume-termini-operationalisierung-claims-v0-1.md",
+      "group": "Didaktik",
+      "status": "research_draft_methodology"
+    },
+    {
+      "id": "BKI-LIB-021",
+      "title": "Claim-Sammlung: Sprachräume und Perspektiven",
+      "href": "data/bki-sprachraeume-claims-v0-1.json",
+      "group": "Didaktik",
+      "status": "editorial_proposals_not_approved"
     }
   ]
 }
