@@ -255,6 +255,20 @@
       "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/BAUSTELLEN_VIRTUELLE_KI_FEEDBACK_V0_1.json",
       "group": "Methoden",
       "status": "open_research_backlog"
+    },
+    {
+      "id": "BKI-LIB-037",
+      "title": "33 Wissens-Nuclei: Priorisierter Deep-Dive-Katalog",
+      "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/WISSENS_NUCLEI_DEEP_DIVE_KATALOG_V0_1_2026-11-05.md",
+      "group": "Methoden",
+      "status": "research_backlog_not_fully_verified"
+    },
+    {
+      "id": "BKI-LIB-038",
+      "title": "Wissens-Nuclei: Quellen- und Phasenregister",
+      "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/WISSENS_NUCLEI_DEEP_DIVE_REGISTER_V0_1_2026-11-05.json",
+      "group": "Methoden",
+      "status": "machine_readable_research_plan"
     }
   ]
 }
