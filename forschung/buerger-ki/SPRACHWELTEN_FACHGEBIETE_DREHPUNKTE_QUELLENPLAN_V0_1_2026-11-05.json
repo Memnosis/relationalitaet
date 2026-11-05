@@ -582,7 +582,8 @@
         "full_nuclei_deep_dive",
         "browser_accessibility",
         "source_register_sync"
-      ]
+      ],
+      "flashback_research": "BKI-FB-001 initial historical cross-domain operator; does not close current review gates"
     },
     {
       "id": "SW-PH-3",
@@ -750,5 +751,30 @@
       "park code psychology tensor as L2 research"
     ],
     "exit": "A single reusable translation prompt and review procedure are agreed before applying phase1 cases"
+  },
+  "flashback": {
+    "id": "BKI-FB-001",
+    "name": "Flashback – heutige Rechte und Entscheidungen zu früheren Rechtslagen zurückführen",
+    "status": "first_9_case_research_done_full_financial_legislative_audit_open",
+    "paper": "FLASHBACK_01_DATEN_OPTIN_OPTOUT_MELDERECHT_EPA_V0_1_2026-11-05.md",
+    "registry": "FLASHBACK_01_RECHTSVERGLEICH_V0_1.json",
+    "operator": [
+      "today_mechanism",
+      "historical_rule",
+      "legislative_change",
+      "affected_data_and_recipient",
+      "optin_optout_or_statutory_basis",
+      "money_or_public_benefit_with_separate_evidence",
+      "individual_current_control",
+      "counterarguments_and_harms",
+      "next_world_and_deep_dive"
+    ],
+    "phase_fit": [
+      "SW-PH-2",
+      "SW-PH-3",
+      "SW-PH-6"
+    ],
+    "publication_gate": "not_approved",
+    "directive": "Use concise flashback on human-facing pages and detailed legal-history only in research; do not conflate data sale with lawful disclosure"
   }
 }
