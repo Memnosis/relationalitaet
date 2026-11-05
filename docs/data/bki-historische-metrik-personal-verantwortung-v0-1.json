@@ -1,0 +1,534 @@
+{
+  "schema": "bki-historical-metric-accountability/0.1",
+  "as_of": "2026-11-05",
+  "method": "concurrent_historical_competence_and_definition_timeline",
+  "policy": "own_reconstruction_only",
+  "sources": [
+    {
+      "id": "HIST-S01",
+      "title": "Krankenhauskapazitäten 1991–2024",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Krankenhauser/Tabellen/gd-krankenhaeuser-jahre.html",
+      "domain": "hospital",
+      "from_year": 1991,
+      "to_year": 2024,
+      "measure": "hospitals_installed_beds_cases_annual_occupancy",
+      "unit": "hospital/year",
+      "source_role": "descriptive",
+      "review_status": "verified",
+      "original_text_stored": false
+    },
+    {
+      "id": "HIST-S02",
+      "title": "Krankenhaus-Grunddaten 2025 veröffentlicht 28.10.2026",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_376_231.html",
+      "domain": "hospital",
+      "from_year": 2025,
+      "to_year": 2025,
+      "measure": "beds_cases_occupancy_staff_FTE",
+      "unit": "hospital/year",
+      "source_role": "descriptive",
+      "review_status": "verified",
+      "original_text_stored": false
+    },
+    {
+      "id": "HIST-S03",
+      "title": "Bertelsmann Stiftung Krankenhausstruktur-Studie 2019",
+      "url": "https://www.bertelsmann-stiftung.de/de/publikationen/publikation/did/zukunftsfaehige-krankenhausversorgung",
+      "domain": "hospital",
+      "from_year": 2019,
+      "to_year": 2019,
+      "measure": "simulation_restructuring",
+      "unit": "scenario",
+      "source_role": "recommendation",
+      "review_status": "verified",
+      "original_text_stored": false
+    },
+    {
+      "id": "HIST-S04",
+      "title": "Bertelsmann Stiftung Kommunikation zum Krankenhausszenario 2019",
+      "url": "https://www.bertelsmann-stiftung.de/de/themen/aktuelle-meldungen/2019/juli/eine-bessere-versorgung-ist-nur-mit-halb-so-vielen-kliniken-moeglich",
+      "domain": "hospital",
+      "from_year": 2019,
+      "to_year": 2019,
+      "measure": "press_claim_600_hospitals",
+      "unit": "scenario",
+      "source_role": "claim",
+      "review_status": "verified",
+      "original_text_stored": false
+    },
+    {
+      "id": "HIST-S05",
+      "title": "BMG Sachverständigenausschuss IfSG Evaluation 2022",
+      "url": "https://www.bundesgesundheitsministerium.de/service/begriffe-von-a-z/s/sachverstaendigenausschuss-infektionsschutzgesetz",
+      "domain": "pandemic",
+      "from_year": 2022,
+      "to_year": 2022,
+      "measure": "evaluation_scope_and_data_gaps",
+      "unit": "report",
+      "source_role": "evaluation",
+      "review_status": "verified",
+      "original_text_stored": false
+    },
+    {
+      "id": "HIST-S06",
+      "title": "BMG Corona Resilienz Lessons Learned Forschungsprojekt 2023",
+      "url": "https://www.bundesgesundheitsministerium.de/service/publikationen/details/resilienz-und-leistungsfaehigkeit-des-gesundheitswesens-in-krisenzeiten-lessons-learned-um-shutdown-zu-vermeiden",
+      "domain": "pandemic",
+      "from_year": 2023,
+      "to_year": 2023,
+      "measure": "pandemic_learning_program",
+      "unit": "report",
+      "source_role": "project",
+      "review_status": "verified",
+      "original_text_stored": false
+    },
+    {
+      "id": "HIST-S07",
+      "title": "IQB Bildungstrend 2024 Mathematik Naturwissenschaften",
+      "url": "https://www.iqb.hu-berlin.de/de/schule/sekundarstufe-i/bildungstrend/2024/",
+      "domain": "education",
+      "from_year": 2012,
+      "to_year": 2024,
+      "measure": "educational_performance_thresholds",
+      "unit": "students",
+      "source_role": "outcome",
+      "review_status": "verified",
+      "original_text_stored": false
+    },
+    {
+      "id": "HIST-S08",
+      "title": "FiBS Lehrkräftebedarf 2026–2035",
+      "url": "https://www.fibs.eu/referenzen/publikationen/publikation/lehrkraeftebedarf-bis-2035/",
+      "domain": "education",
+      "from_year": 2026,
+      "to_year": 2035,
+      "measure": "teacher_supply_demand_scenarios",
+      "unit": "FTE/persons",
+      "source_role": "forecast",
+      "review_status": "verified",
+      "original_text_stored": false
+    },
+    {
+      "id": "HIST-S09",
+      "title": "BA Arbeitslosigkeit Methodenhinweise Historie",
+      "url": "https://statistik.arbeitsagentur.de/DE/Navigation/Grundlagen/Methodik-Qualitaet/Methodische-Hinweise/AST-Meth-Hinweise/AST-Meth-Hinweise-Nav.html",
+      "domain": "labor",
+      "from_year": 1986,
+      "to_year": 2026,
+      "measure": "definition_breaks",
+      "unit": "persons",
+      "source_role": "methodology",
+      "review_status": "verified",
+      "original_text_stored": false
+    },
+    {
+      "id": "HIST-S10",
+      "title": "BA Arbeitsmarktstatistik Methodenberichte",
+      "url": "https://statistik.arbeitsagentur.de/DE/Navigation/Grundlagen/Methodik-Qualitaet/Methodenberichte/Arbeitsmarktstatistik/Methodenberichte-Arbeitsmarkt-Nav.html",
+      "domain": "labor",
+      "from_year": 2005,
+      "to_year": 2026,
+      "measure": "revision_underemployment_methods",
+      "unit": "persons",
+      "source_role": "methodology",
+      "review_status": "verified",
+      "original_text_stored": false
+    },
+    {
+      "id": "HIST-S11",
+      "title": "bpb/BA Arbeitslose und Arbeitslosenquote bis 2025",
+      "url": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/soziale-situation-in-deutschland/61718/arbeitslose-und-arbeitslosenquote/",
+      "domain": "labor",
+      "from_year": 1980,
+      "to_year": 2025,
+      "measure": "annual_registered_unemployment",
+      "unit": "persons",
+      "source_role": "longitudinal",
+      "review_status": "verified",
+      "original_text_stored": false
+    },
+    {
+      "id": "HIST-S12",
+      "title": "Bundestagsantwort Steuervollzug 2024, Drucksache 21/2452",
+      "url": "https://dserver.bundestag.de/btd/21/024/2102452.pdf",
+      "domain": "tax",
+      "from_year": 2022,
+      "to_year": 2024,
+      "measure": "tax_administration_FTE_unfilled_plans_tax_investigators_audits",
+      "unit": "FTE/staffing/audits",
+      "source_role": "parliamentary_answer",
+      "review_status": "verified",
+      "original_text_stored": false
+    },
+    {
+      "id": "HIST-S13",
+      "title": "SVR Fachkräfte Gesundheit 2024 Bundestag 20/11880",
+      "url": "https://dserver.bundestag.de/btd/20/118/2011880.pdf",
+      "domain": "hospital",
+      "from_year": 2013,
+      "to_year": 2024,
+      "measure": "staffing_availability_care_organization",
+      "unit": "FTE/cases",
+      "source_role": "expert_review",
+      "review_status": "listed_not_audited",
+      "original_text_stored": false
+    },
+    {
+      "id": "HIST-S14",
+      "title": "DGB Personalreport 2025",
+      "url": "https://www.dgb.de/fileadmin/download_center/Studien/DGB_Personalreport_2025_Web.pdf",
+      "domain": "cross_sector",
+      "from_year": 2024,
+      "to_year": 2025,
+      "measure": "tax_administration_occupational_vacancies",
+      "unit": "FTE",
+      "source_role": "advocacy_analysis",
+      "review_status": "listed_not_audited",
+      "original_text_stored": false
+    }
+  ],
+  "metrics": [
+    {
+      "id": "MET-HOS-01",
+      "name": "Krankenhäuser",
+      "domain": "hospital",
+      "year": 1991,
+      "value": 2411,
+      "unit": "count",
+      "source_id": "HIST-S01",
+      "classification": "descriptive_aggregate",
+      "causal_claim": false
+    },
+    {
+      "id": "MET-HOS-02",
+      "name": "Krankenhäuser",
+      "domain": "hospital",
+      "year": 2019,
+      "value": 1914,
+      "unit": "count",
+      "source_id": "HIST-S01",
+      "classification": "descriptive_aggregate",
+      "causal_claim": false
+    },
+    {
+      "id": "MET-HOS-03",
+      "name": "Krankenhäuser",
+      "domain": "hospital",
+      "year": 2024,
+      "value": 1841,
+      "unit": "count",
+      "source_id": "HIST-S01",
+      "classification": "descriptive_aggregate",
+      "causal_claim": false
+    },
+    {
+      "id": "MET-HOS-04",
+      "name": "Aufgestellte Betten",
+      "domain": "hospital",
+      "year": 1991,
+      "value": 665565,
+      "unit": "installed_beds",
+      "source_id": "HIST-S01",
+      "classification": "descriptive_aggregate",
+      "causal_claim": false
+    },
+    {
+      "id": "MET-HOS-05",
+      "name": "Aufgestellte Betten",
+      "domain": "hospital",
+      "year": 2019,
+      "value": 494326,
+      "unit": "installed_beds",
+      "source_id": "HIST-S01",
+      "classification": "descriptive_aggregate",
+      "causal_claim": false
+    },
+    {
+      "id": "MET-HOS-06",
+      "name": "Aufgestellte Betten",
+      "domain": "hospital",
+      "year": 2024,
+      "value": 472851,
+      "unit": "installed_beds",
+      "source_id": "HIST-S01",
+      "classification": "descriptive_aggregate",
+      "causal_claim": false
+    },
+    {
+      "id": "MET-HOS-07",
+      "name": "Auslastung",
+      "domain": "hospital",
+      "year": 2019,
+      "value": 77.2,
+      "unit": "annual_percent",
+      "source_id": "HIST-S01",
+      "classification": "descriptive_aggregate",
+      "causal_claim": false
+    },
+    {
+      "id": "MET-HOS-08",
+      "name": "Auslastung",
+      "domain": "hospital",
+      "year": 2024,
+      "value": 72,
+      "unit": "annual_percent",
+      "source_id": "HIST-S01",
+      "classification": "descriptive_aggregate",
+      "causal_claim": false
+    },
+    {
+      "id": "MET-HOS-09",
+      "name": "Bettenauslastung",
+      "domain": "hospital",
+      "year": 2025,
+      "value": 72.6,
+      "unit": "annual_percent",
+      "source_id": "HIST-S02",
+      "classification": "descriptive_aggregate",
+      "causal_claim": false
+    },
+    {
+      "id": "MET-TAX-01",
+      "name": "Finanzamts-Personal",
+      "domain": "tax",
+      "year": 2022,
+      "value": 97603.24,
+      "unit": "FTE",
+      "source_id": "HIST-S12",
+      "classification": "descriptive_aggregate",
+      "causal_claim": false
+    },
+    {
+      "id": "MET-TAX-02",
+      "name": "Finanzamts-Personal",
+      "domain": "tax",
+      "year": 2023,
+      "value": 97349.83,
+      "unit": "FTE",
+      "source_id": "HIST-S12",
+      "classification": "descriptive_aggregate",
+      "causal_claim": false
+    },
+    {
+      "id": "MET-TAX-03",
+      "name": "Finanzamts-Personal",
+      "domain": "tax",
+      "year": 2024,
+      "value": 96900.97,
+      "unit": "FTE",
+      "source_id": "HIST-S12",
+      "classification": "descriptive_aggregate",
+      "causal_claim": false
+    },
+    {
+      "id": "MET-TAX-04",
+      "name": "Unbesetzte Planstellen Finanzämter",
+      "domain": "tax",
+      "year": 2024,
+      "value": 6869.04,
+      "unit": "unfilled_plan_positions",
+      "source_id": "HIST-S12",
+      "classification": "descriptive_aggregate",
+      "causal_claim": false
+    },
+    {
+      "id": "MET-TAX-05",
+      "name": "Steuerfahnder",
+      "domain": "tax",
+      "year": 2024,
+      "value": 2529,
+      "unit": "investigation_FTE",
+      "source_id": "HIST-S12",
+      "classification": "descriptive_aggregate",
+      "causal_claim": false
+    },
+    {
+      "id": "MET-TAX-06",
+      "name": "Prüfquote Kleinstbetriebe",
+      "domain": "tax",
+      "year": 2024,
+      "value": 0.7,
+      "unit": "audited_percent_of_microenterprises",
+      "source_id": "HIST-S12",
+      "classification": "descriptive_aggregate",
+      "causal_claim": false
+    },
+    {
+      "id": "MET-TAX-07",
+      "name": "Prüfquote Großbetriebe",
+      "domain": "tax",
+      "year": 2024,
+      "value": 29.6,
+      "unit": "audited_percent_of_large_enterprises",
+      "source_id": "HIST-S12",
+      "classification": "descriptive_aggregate",
+      "causal_claim": false
+    },
+    {
+      "id": "MET-EDU-01",
+      "name": "Mathematik Mindeststandard MSA verfehlt",
+      "domain": "education",
+      "year": 2024,
+      "value": 34,
+      "unit": "percent_grade9",
+      "source_id": "HIST-S07",
+      "classification": "descriptive_aggregate",
+      "causal_claim": false
+    },
+    {
+      "id": "MET-LAB-01",
+      "name": "Arbeitslose",
+      "domain": "labor",
+      "year": 2025,
+      "value": 2.95,
+      "unit": "million_registered_persons",
+      "source_id": "HIST-S11",
+      "classification": "descriptive_aggregate",
+      "causal_claim": false
+    }
+  ],
+  "definition_breaks": [
+    {
+      "id": "BREAK-LAB-1986",
+      "domain": "labor",
+      "year": 1986,
+      "description": "Older workers rules affect registration/unemployment",
+      "bridge_series_verified": false,
+      "impact_on_trend": "requires_methodology_review"
+    },
+    {
+      "id": "BREAK-LAB-1991",
+      "domain": "labor",
+      "year": 1991,
+      "description": "Reunification changes geographic population and labor market",
+      "bridge_series_verified": false,
+      "impact_on_trend": "requires_methodology_review"
+    },
+    {
+      "id": "BREAK-LAB-2004",
+      "domain": "labor",
+      "year": 2004,
+      "description": "Participants in active labor market measures no longer counted as unemployed",
+      "bridge_series_verified": false,
+      "impact_on_trend": "requires_methodology_review"
+    },
+    {
+      "id": "BREAK-LAB-2005",
+      "domain": "labor",
+      "year": 2005,
+      "description": "SGB II joint responsibility changes measurement system",
+      "bridge_series_verified": false,
+      "impact_on_trend": "requires_methodology_review"
+    },
+    {
+      "id": "BREAK-LAB-2007",
+      "domain": "labor",
+      "year": 2007,
+      "description": "Integrated processing of provider data",
+      "bridge_series_verified": false,
+      "impact_on_trend": "requires_methodology_review"
+    },
+    {
+      "id": "BREAK-LAB-2009",
+      "domain": "labor",
+      "year": 2009,
+      "description": "§ 53a SGB II older recipients special non-unemployment status",
+      "bridge_series_verified": false,
+      "impact_on_trend": "requires_methodology_review"
+    },
+    {
+      "id": "BREAK-LAB-2013",
+      "domain": "labor",
+      "year": 2013,
+      "description": "Integrated underemployment model revised backward to 2008",
+      "bridge_series_verified": false,
+      "impact_on_trend": "requires_methodology_review"
+    },
+    {
+      "id": "BREAK-LAB-2019",
+      "domain": "labor",
+      "year": 2019,
+      "description": "Kurzarbeit statistics revised retroactively",
+      "bridge_series_verified": false,
+      "impact_on_trend": "requires_methodology_review"
+    },
+    {
+      "id": "BREAK-HOS-2020",
+      "domain": "hospital",
+      "year": 2020,
+      "description": "Pandemic shock to utilization and case mix; not a formal definition break",
+      "bridge_series_verified": false,
+      "impact_on_trend": "requires_methodology_review"
+    }
+  ],
+  "investigations": [
+    {
+      "id": "INV-01",
+      "question": "Krankenhausstruktur und Beratungseinfluss",
+      "status": "documented_study",
+      "evidence_chain": "commission→scenario→policy decision→implementation→hospital outcomes",
+      "source_ids": [
+        "HIST-S03",
+        "HIST-S04"
+      ],
+      "limit": "consultant causation not established",
+      "attribution": "not_established",
+      "judicial_findings": []
+    },
+    {
+      "id": "INV-02",
+      "question": "Corona Lernketten",
+      "status": "evaluation_published",
+      "evidence_chain": "warning→evaluation→recommendation→implementation→measured improvement",
+      "source_ids": [
+        "HIST-S05",
+        "HIST-S06"
+      ],
+      "limit": "absence of lessons learned not established",
+      "attribution": "not_established",
+      "judicial_findings": []
+    },
+    {
+      "id": "INV-03",
+      "question": "Bildungsunterversorgung",
+      "status": "performance_measured",
+      "evidence_chain": "teacher needs→hours/classes→competency deficits→long-term outcomes",
+      "source_ids": [
+        "HIST-S07",
+        "HIST-S08"
+      ],
+      "limit": "individual lifetime harm not established",
+      "attribution": "not_established",
+      "judicial_findings": []
+    },
+    {
+      "id": "INV-04",
+      "question": "Steuerverwaltung Langzeitpersonal",
+      "status": "staffing_measured_2022_2024",
+      "evidence_chain": "authorized positions→filled FTE→investigations→audit results→tax compliance",
+      "source_ids": [
+        "HIST-S12"
+      ],
+      "limit": "vacancies and investigation staffing not identical",
+      "attribution": "not_established",
+      "judicial_findings": []
+    },
+    {
+      "id": "INV-05",
+      "question": "Arbeitsmarktstatistik Methodenbias",
+      "status": "historic_breaks_documented",
+      "evidence_chain": "law→definition→source population→revisions→result comparability",
+      "source_ids": [
+        "HIST-S09",
+        "HIST-S10",
+        "HIST-S11"
+      ],
+      "limit": "no allegation of intentional manipulation established",
+      "attribution": "not_established",
+      "judicial_findings": []
+    }
+  ],
+  "findings_graded": "descriptive|attributed_policy_claim|evaluation|causal_confirmed|judicial",
+  "unreviewed_death_attribution": "none",
+  "overall_progress_gates": "3/10"
+}
