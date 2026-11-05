@@ -557,8 +557,9 @@
         "Defer psychology-code formal research to later deep dive"
       ],
       "exit": "Every core hinge has typed meaning gain, loss, not-equivalence, evidence state and return route",
-      "status": "blocked_pending_SW_PRE_LANG_review",
-      "predecessor_gate": "SW-PRE-LANG"
+      "status": "initial_semantic_review_completed_domain_evidence_pending",
+      "predecessor_gate": "SW-PRE-LANG",
+      "report": "PHASE_1_BERICHT_BEDEUTUNGSUEBERGAENGE_L0_L1_L2_V0_1_2026-11-05.md"
     },
     {
       "id": "SW-PH-2",
@@ -573,7 +574,15 @@
         "substantive_expanders"
       ],
       "exit": "No public knowledge world is empty or source-less",
-      "status": "planned"
+      "status": "in_progress_eight_source_linked_worlds_first_pass",
+      "report": "PHASE_2_WISSENSRAEUME_QUELLENKURATUR_BERICHT_V0_1_2026-11-05.md",
+      "dataset": "PHASE_2_WISSENSRAEUME_QUELLENMATRIX_V0_1.json",
+      "open_gates": [
+        "domain_review",
+        "full_nuclei_deep_dive",
+        "browser_accessibility",
+        "source_register_sync"
+      ]
     },
     {
       "id": "SW-PH-3",
