@@ -1,0 +1,350 @@
+{
+  "schema": "bki-capacity-undercoverage/0.1",
+  "as_of": "2026-11-05",
+  "scope": "DE with later AT/CH comparisons, care access and shortfall over years",
+  "status": "first_evidence_map_not_causal_study",
+  "workstreams": [
+    {
+      "id": "BKI-CAP-T",
+      "name": "Therapieplätze und Behandlungszugang",
+      "priority": 1,
+      "capacity_types": [
+        "licensed_therapist_FTE",
+        "appointment_initial",
+        "probation_session",
+        "regular_treatment_started",
+        "crisis_intervention",
+        "inpatient_psychiatry"
+      ],
+      "research_dimensions": [
+        "wait_from_first_search",
+        "wait_from_first_contact",
+        "wait_from_first_consultation",
+        "wait_to_probation",
+        "wait_to_regular_treatment",
+        "search_dropout",
+        "severity",
+        "age_group",
+        "region"
+      ],
+      "sources": [
+        "CAP-S01",
+        "CAP-S02",
+        "CAP-S04"
+      ]
+    },
+    {
+      "id": "BKI-CAP-P",
+      "name": "Pflegeplätze und Pflegeerreichbarkeit",
+      "priority": 1,
+      "capacity_types": [
+        "licensed_places",
+        "staffed_places",
+        "occupied_places",
+        "new_admissions_possible",
+        "short_term_care",
+        "permanent_residential_care",
+        "homecare"
+      ],
+      "research_dimensions": [
+        "waiting_list",
+        "staffing_shortfall",
+        "formal_eligibility",
+        "personnel_availability",
+        "proximity",
+        "care_level",
+        "facility_closure",
+        "cost"
+      ],
+      "sources": [
+        "CAP-S05",
+        "CAP-S06",
+        "CAP-S07"
+      ]
+    },
+    {
+      "id": "BKI-CAP-A",
+      "name": "Notfallbetten und Intensivressourcen",
+      "priority": 2,
+      "capacity_types": [
+        "annual_installed_beds",
+        "operational_staffed_beds",
+        "occupied_beds",
+        "free_icu_beds",
+        "available_pediatric_icu",
+        "ED_capacity",
+        "transport_available"
+      ],
+      "research_dimensions": [
+        "day_week_season",
+        "holiday_peak",
+        "early_warning",
+        "overflow_triage",
+        "transfer_delay",
+        "mortality_signal",
+        "facility_staffing",
+        "rescue_transport"
+      ],
+      "sources": [
+        "CAP-S08",
+        "CAP-S09",
+        "CAP-S10",
+        "CAP-S11",
+        "CAP-S12"
+      ]
+    }
+  ],
+  "source_catalog": [
+    {
+      "id": "CAP-S01",
+      "domain": "psychotherapy",
+      "title": "BPtK Wartezeit 142 Tage",
+      "url": "https://www.bptk.de/pressemitteilungen/psychisch-kranke-warten-142-tage-auf-eine-psychotherapeutische-behandlung/",
+      "period": "2019 cohort / published 2022",
+      "metric": "time_from_first_psychotherapeutic_consultation_to_treatment_start",
+      "unit": "days",
+      "value": 142.4,
+      "qualification": "retrospective_2019_cohort",
+      "review_status": "verified_landing_or_extract_not_independently_audited"
+    },
+    {
+      "id": "CAP-S02",
+      "domain": "psychotherapy",
+      "title": "vdek Wartezeit Analyse 2026",
+      "url": "https://www.vdek.com/presse/pressemitteilungen/2026/wartezeiten-psychotherapie-akutbehandlung.html",
+      "period": "data 2022-2024 / published June 2026",
+      "metric": "from_first_consultation_to_probatory_session_short_wait_share",
+      "unit": "share_under_four_weeks_adults",
+      "value": 0.8,
+      "qualification": "not_same_endpoint_as_CAP-S01",
+      "review_status": "verified_landing_or_extract_not_independently_audited"
+    },
+    {
+      "id": "CAP-S03",
+      "domain": "psychotherapy",
+      "title": "KBV Versorgungsplanung 2025",
+      "url": "https://www.kbv.de/infothek/zahlen-und-fakten/gesundheitsdaten/bedarfsplanung-landesbeschluesse-ueber-unterversorgung",
+      "period": "2025",
+      "metric": "formal_undersupply_planning_areas_all_physicians",
+      "unit": "count",
+      "value": 40,
+      "qualification": "includes_nonpsychotherapy",
+      "review_status": "verified_landing_or_extract_not_independently_audited"
+    },
+    {
+      "id": "CAP-S04",
+      "domain": "psychotherapy",
+      "title": "116117 TSS Evaluationsbericht 2024",
+      "url": "https://www.kbv.de/documents/infothek/zahlen-und-fakten/evaluationsberichte-tss/bericht-116117-terminservicestellen-2024.pdf",
+      "period": "2024",
+      "metric": "term_service_appointments_and_authorized_requests",
+      "unit": "not_extracted",
+      "value": null,
+      "qualification": "requires_page_level_review",
+      "review_status": "verified_landing_or_extract_not_independently_audited"
+    },
+    {
+      "id": "CAP-S05",
+      "domain": "long_term_care",
+      "title": "Destatis Pflegeheime und Platzstatistik",
+      "url": "https://genesis.destatis.de/datenbank/online/statistic/22412/table/22412-0010/search/s/Detailsuchezg",
+      "period": "1999-2023",
+      "metric": "available_places_full_time_care_2023",
+      "unit": "places",
+      "value": 874562,
+      "qualification": "registered_places_not_live_openings",
+      "review_status": "verified_landing_or_extract_not_independently_audited"
+    },
+    {
+      "id": "CAP-S06",
+      "domain": "long_term_care",
+      "title": "Destatis Pflegebedürftige 2023",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/12/PD24_478_224.html",
+      "period": "2023",
+      "metric": "people_assessed_as_care_dependent",
+      "unit": "persons",
+      "value": 5700000,
+      "qualification": "all_care_forms_rounded",
+      "review_status": "verified_landing_or_extract_not_independently_audited"
+    },
+    {
+      "id": "CAP-S07",
+      "domain": "long_term_care",
+      "title": "BMG Pflegestatistik Zeitreihen 2005-2023",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Statistiken/Pflegeversicherung/Zahlen_und_Fakten/Zahlen-Fakten_Pflegeversicherung.pdf",
+      "period": "2005-2023",
+      "metric": "registered_care_institutions",
+      "unit": "time_series",
+      "value": null,
+      "qualification": "not_a_live_places_directory",
+      "review_status": "verified_landing_or_extract_not_independently_audited"
+    },
+    {
+      "id": "CAP-S08",
+      "domain": "acute_care",
+      "title": "Destatis Krankenhaus Grunddaten 1991-2024",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Krankenhauser/Tabellen/gd-krankenhaeuser-jahre.html",
+      "period": "1991-2024",
+      "metric": "annual_operating_beds",
+      "unit": "beds",
+      "value": 472851,
+      "qualification": "2024_registered_installed_not_live_staffed",
+      "review_status": "verified_landing_or_extract_not_independently_audited"
+    },
+    {
+      "id": "CAP-S09",
+      "domain": "acute_care",
+      "title": "Destatis ICU beds 2024",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Krankenhauser/Tabellen/eckzahlen-krankenhaeuser.html",
+      "period": "2024",
+      "metric": "annual_icu_beds",
+      "unit": "beds",
+      "value": 25956,
+      "qualification": "not_realtime_free_icu_beds",
+      "review_status": "verified_landing_or_extract_not_independently_audited"
+    },
+    {
+      "id": "CAP-S10",
+      "domain": "acute_care",
+      "title": "DIVI register datasets",
+      "url": "https://zenodo.org/records/17899565",
+      "period": "daily since 2020",
+      "metric": "daily_reported_icu_capacity_aggregate",
+      "unit": "timeseries",
+      "value": null,
+      "qualification": "published_RKI_dataset_version_2025-12-11",
+      "review_status": "verified_landing_or_extract_not_independently_audited"
+    },
+    {
+      "id": "CAP-S11",
+      "domain": "acute_care",
+      "title": "RKI ARE season report 2025/26",
+      "url": "https://edoc.rki.de/bitstream/handle/176904/13996/ARE-Saisonbericht_RKI_2025_26.pdf?isAllowed=y&sequence=1",
+      "period": "2025/26",
+      "metric": "influenza_RSV_seasonality_and_mortality",
+      "unit": "time_series",
+      "value": null,
+      "qualification": "disease_related_deaths_not_bed_shortage_attribution",
+      "review_status": "verified_landing_or_extract_not_independently_audited"
+    },
+    {
+      "id": "CAP-S12",
+      "domain": "acute_care",
+      "title": "BMG emergency care reform FAQ",
+      "url": "https://www.bundesgesundheitsministerium.de/service/gesetze-und-verordnungen/guv-21-lp/notfallreform/faq-notfallreform",
+      "period": "2026",
+      "metric": "care_chain_coordination_problem",
+      "unit": "policy",
+      "value": "documented",
+      "qualification": "not_case_level_mortality_proof",
+      "review_status": "verified_landing_or_extract_not_independently_audited"
+    },
+    {
+      "id": "CAP-S13",
+      "domain": "all",
+      "title": "BGB §630h Beweislast Behandlungsfehler",
+      "url": "https://www.gesetze-im-internet.de/bgb/__630h.html",
+      "period": "check_at_use",
+      "metric": "civil_liability_evidence",
+      "unit": "law",
+      "value": null,
+      "qualification": "legal_application_needs_independent_review",
+      "review_status": "verified_landing_or_extract_not_independently_audited"
+    },
+    {
+      "id": "CAP-S14",
+      "domain": "all",
+      "title": "StGB §13 Unterlassen",
+      "url": "https://www.gesetze-im-internet.de/stgb/__13.html",
+      "period": "check_at_use",
+      "metric": "criminal_omission",
+      "unit": "law",
+      "value": null,
+      "qualification": "no_automatic_fault",
+      "review_status": "verified_landing_or_extract_not_independently_audited"
+    },
+    {
+      "id": "CAP-S15",
+      "domain": "all",
+      "title": "StGB §15 Vorsatz/Fahrlässigkeit",
+      "url": "https://www.gesetze-im-internet.de/stgb/__15.html",
+      "period": "check_at_use",
+      "metric": "mens_rea",
+      "unit": "law",
+      "value": null,
+      "qualification": "intent_not_inferred_from_warning_alone",
+      "review_status": "verified_landing_or_extract_not_independently_audited"
+    },
+    {
+      "id": "CAP-S16",
+      "domain": "all",
+      "title": "StGB §222 fahrlässige Tötung",
+      "url": "https://www.gesetze-im-internet.de/stgb/__222.html",
+      "period": "check_at_use",
+      "metric": "negligent_homicide",
+      "unit": "law",
+      "value": null,
+      "qualification": "specific_causality_and_duty_required",
+      "review_status": "verified_landing_or_extract_not_independently_audited"
+    }
+  ],
+  "measurement_contract": {
+    "need": "number_eligible_or_assessed_needing_care",
+    "capacity": "licensed_vs_staffed_vs_free_at_required_time",
+    "access": "first_search_to_actual_start_or_admission",
+    "unmet": "denied_delayed_or_no_feasible_offer_over_fixed_time",
+    "harm": "verified_individual_outcome_or_population_risk_adjusted_indicator",
+    "foreseeability": "dated_pre_event_warning_with_specific_scenario",
+    "mitigation": "documented_plan_budget_staffing_dispatch_and_effect",
+    "responsibility": "competent_entity_duty_decision_control_and_influence",
+    "causation": "counterfactual_review_and_medicine_specific_assessment",
+    "intent": "independent_evidence_of_knowledge_and_will_or_acceptance_of_outcome; warnings_insufficient"
+  },
+  "warning_to_outcome_tests": [
+    {
+      "id": "CAP-W01",
+      "type": "capacity_forecast",
+      "focus": "pre_event_warning",
+      "required_evidence": "published_before_peak",
+      "status": "not_measured"
+    },
+    {
+      "id": "CAP-W02",
+      "type": "seasonal_actual",
+      "focus": "measured_supply_gap",
+      "required_evidence": "weekly_or_daily_capacity",
+      "status": "not_measured"
+    },
+    {
+      "id": "CAP-W03",
+      "type": "mitigation",
+      "focus": "countermeasure",
+      "required_evidence": "dated_authority_actions_and_resources",
+      "status": "not_measured"
+    },
+    {
+      "id": "CAP-W04",
+      "type": "adverse_outcome",
+      "focus": "individual_or_population_harm",
+      "required_evidence": "adjudicated_or_independently_evaluated",
+      "status": "not_measured"
+    },
+    {
+      "id": "CAP-W05",
+      "type": "liability",
+      "focus": "duty_breach_causation_and_mens_rea",
+      "required_evidence": "separate_legal_analysis",
+      "status": "not_measured"
+    }
+  ],
+  "verified_deaths_attributable_to_underprovision": 0,
+  "death_claim_review_status": "no_cases_reviewed",
+  "prohibited_inferences": [
+    "annual_occupancy_implies_peak_capacity",
+    "registered_care_place_equals_open_admission",
+    "consultation_date_equals_beginning_of_search",
+    "forewarning_implies_intent",
+    "temporal_correlation_proves_medical_causation",
+    "all_infection_related_deaths_due_to_missing_beds"
+  ]
+}
