@@ -1,3 +1,15 @@
+<!-- BKI-MINIMAL-PAPER-V1 -->
+![Bürger-KI – Forschung und Verbindung](./assets/media/buerger-ki-zeichen.svg)
+
+**Forschungsedition · Publikationsfamilie · SOULution / Öffentliches Potenzial / Mediale Potenziale / Bürger-KI**
+
+**Kurzbeschreibung:** Quellengebundene Forschungs- und Entwicklungspublikation mit eigenständigem Prüfstatus und offenen Fragen.  
+**Schlagwörter:** Bürger-KI · Quellen · Evidenz · Crosswalk · Publikationsfamilie  
+**Stand:** 5. November 2026  
+**Kontakt:** Kontakt@erlebNils.de
+
+---
+
 # Publikationsfamilie · SOULution / Öffentliches Potenzial / Mediale Potenziale / Bürger-KI
 **Crosswalk, Stand 05.11.2026. Die Ko-fi-Links wurden früher vom Autor angegeben; vollständige aktuelle Shopmetadaten und Original-Coverdateien sind hier nicht unabhängig validiert.**
 
@@ -19,3 +31,9 @@ Kopf: Logo Bürger-KI oder Projektfamilie, Titel, Fachgebiet, Kurzbeschreibung, 
 
 ## Crosswalk
 Originalpublikation Q0001 ff. → Fachbegriff / These → Forschungsmodul → Benchmark → Test → Ergebnisakte → didaktischer Lernpfad → Publikumsausgabe. Cover, Werbegrafik und Paper-Logo sind unterschiedliche Medienobjekte und erhalten eigene IDs und Quellenstatus.
+
+
+---
+
+*Bürger-KI · Rechte verstehen. Probleme lösen. Gesellschaft verbessern.*  
+[Zur Bürger-KI](./buerger-ki.html) · [Forschungsbibliothek](./bibliothek.html) · Kontakt@erlebNils.de · 05.11.2026
