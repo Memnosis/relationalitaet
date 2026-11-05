@@ -1,3 +1,15 @@
+<!-- BKI-MINIMAL-PAPER-V1 -->
+![Bürger-KI – Forschung und Verbindung](./assets/media/buerger-ki-zeichen.svg)
+
+**Forschungsedition · Entscheidungsmonitor 100 · Finalisierungsgates und exemplarische Analyse**
+
+**Kurzbeschreibung:** Quellengebundene Forschungs- und Entwicklungspublikation mit eigenständigem Prüfstatus und offenen Fragen.  
+**Schlagwörter:** Bürger-KI · Quellen · Evidenz · Crosswalk · Entscheidungsmonitor 100  
+**Stand:** 5. November 2026  
+**Kontakt:** Kontakt@erlebNils.de
+
+---
+
 # Entscheidungsmonitor 100 · Finalisierungsgates und exemplarische Analyse
 **Stand 2026-11-05 · Bestand: 100 Agenda-Kandidaten; keine 100 abgeschlossenen Entscheidungsevaluationen**
 
@@ -31,3 +43,9 @@ Gegenprüfen statt nur Daten zusammentragen: Nur Einträge mit Primärakte und h
 
 ## Quellen und Anschlüsse
 [Alle 100 Kandidaten](./paper-entscheidungsmonitor-100-status-identifikation-2026-11-05.md) · [Rechenschaft 100](./buerger-ki-rechenschaft-100.html) · [Thesen](./thesen.html) · [Quellen](./quellen-und-uebergabe.html) · [Evidenzbenchmark](./paper-benchmarks-evidenz-zeitkontext-crosswalk-2026-11-05.md).
+
+
+---
+
+*Bürger-KI · Rechte verstehen. Probleme lösen. Gesellschaft verbessern.*  
+[Zur Bürger-KI](./buerger-ki.html) · [Forschungsbibliothek](./bibliothek.html) · Kontakt@erlebNils.de · 05.11.2026
