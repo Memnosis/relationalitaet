@@ -1,0 +1,181 @@
+{
+  "schema": "bki-open-work-sites/0.1",
+  "date": "2026-11-05",
+  "status": "candidate_backlog_not_public_request_for_personal_data",
+  "source_paper": "PAPER_VIRTUELLE_KI_FUNKTIONEN_UEBERGABEN_FEEDBACK_BAUSTELLEN_V0_1_2026-11-05.md",
+  "workflow_status_values": [
+    "identified",
+    "source_research",
+    "method_draft",
+    "test_pending",
+    "reviewed",
+    "published",
+    "blocked",
+    "withdrawn"
+  ],
+  "feedback_safety": "Public GitHub issues only for unsensitive source/method/website feedback; no identifiable individual health cases",
+  "records": [
+    {
+      "id": "BST-01",
+      "question": "Erstkontakt, Vermittlung, Therapiebeginn unterscheiden",
+      "world_id": "SW-02",
+      "competence": "human_outcome",
+      "legacy_refs": [
+        "BKI-TOPIC-THERAPY"
+      ],
+      "status": "source_research",
+      "closure_criterion": "Klinisch und versorgungsrechtlich unterschiedene Ergebnisstufen mit Primärquellen",
+      "owner": "unassigned",
+      "feedback_public_allowed": "nonsensitive_method_only",
+      "research_evidence_status": "unassessed",
+      "review_status": "not_approved"
+    },
+    {
+      "id": "BST-02",
+      "question": "Hemmnisse bei eigener Suche verringern",
+      "world_id": "SW-01",
+      "competence": "self_action",
+      "legacy_refs": [
+        "LP-01"
+      ],
+      "status": "identified",
+      "closure_criterion": "Synthetische Tests der Suchhilfe ohne Gesundheitsdatenerhebung",
+      "owner": "unassigned",
+      "feedback_public_allowed": "nonsensitive_method_only",
+      "research_evidence_status": "unassessed",
+      "review_status": "not_approved"
+    },
+    {
+      "id": "BST-03",
+      "question": "ePA und Rechte verständlich entscheiden",
+      "world_id": "SW-16",
+      "competence": "health_data_rights",
+      "legacy_refs": [],
+      "status": "source_research",
+      "closure_criterion": "Aktuelle Widerspruchs- und Zugriffswege fachlich und zeitlich überprüft",
+      "owner": "unassigned",
+      "feedback_public_allowed": "nonsensitive_method_only",
+      "research_evidence_status": "unassessed",
+      "review_status": "not_approved"
+    },
+    {
+      "id": "BST-04",
+      "question": "Kopien an externe KI und lokale Alternativen vergleichen",
+      "world_id": "SW-16",
+      "competence": "provider_dataflow",
+      "legacy_refs": [],
+      "status": "identified",
+      "closure_criterion": "Anbieterbezogene Datenfluss-Matrix mit Wahlmöglichkeiten",
+      "owner": "unassigned",
+      "feedback_public_allowed": "nonsensitive_method_only",
+      "research_evidence_status": "unassessed",
+      "review_status": "not_approved"
+    },
+    {
+      "id": "BST-05",
+      "question": "Persönliche Erinnerungen von medizinischer Planung trennen",
+      "world_id": "SW-16",
+      "competence": "medical_product_boundary",
+      "legacy_refs": [],
+      "status": "identified",
+      "closure_criterion": "Sicherer Kalenderexport ohne automatisierte medizinische Empfehlungen",
+      "owner": "unassigned",
+      "feedback_public_allowed": "nonsensitive_method_only",
+      "research_evidence_status": "unassessed",
+      "review_status": "not_approved"
+    },
+    {
+      "id": "BST-06",
+      "question": "NGO- und Anbieterfähigkeiten genau erschließen",
+      "world_id": "SW-04",
+      "competence": "provider_research",
+      "legacy_refs": [],
+      "status": "source_research",
+      "closure_criterion": "Drei passgenaue Quellen mit Funktions-/Zugangsprüfung je Pfadpunkt",
+      "owner": "unassigned",
+      "feedback_public_allowed": "nonsensitive_method_only",
+      "research_evidence_status": "unassessed",
+      "review_status": "not_approved"
+    },
+    {
+      "id": "BST-07",
+      "question": "Weitergegebene Hilfe zum wiederverwendbaren Skill machen",
+      "world_id": "SW-06",
+      "competence": "help_feedback",
+      "legacy_refs": [],
+      "status": "identified",
+      "closure_criterion": "Methodenkarte mit Herkunft, Grenzen, Freigabe und Gegenbeispiel",
+      "owner": "unassigned",
+      "feedback_public_allowed": "nonsensitive_method_only",
+      "research_evidence_status": "unassessed",
+      "review_status": "not_approved"
+    },
+    {
+      "id": "BST-08",
+      "question": "Übersetzungs-Skill mit Sinnverlusten testen",
+      "world_id": "SW-05",
+      "competence": "semantic_crosswalk",
+      "legacy_refs": [
+        "LP-02"
+      ],
+      "status": "method_draft",
+      "closure_criterion": "Rückübersetzungs- und Gegenproben für kritische Fachbegriffe",
+      "owner": "unassigned",
+      "feedback_public_allowed": "nonsensitive_method_only",
+      "research_evidence_status": "unassessed",
+      "review_status": "not_approved"
+    },
+    {
+      "id": "BST-09",
+      "question": "Zusage, Bescheid, Kontakt und Erfüllung präzisieren",
+      "world_id": "SW-03",
+      "competence": "outcome",
+      "legacy_refs": [],
+      "status": "method_draft",
+      "closure_criterion": "Kriterien unterscheiden Prozessoutput und menschlichen Endzustand",
+      "owner": "unassigned",
+      "feedback_public_allowed": "nonsensitive_method_only",
+      "research_evidence_status": "unassessed",
+      "review_status": "not_approved"
+    },
+    {
+      "id": "BST-10",
+      "question": "Unterversorgung und Pflichten differenziert prüfen",
+      "world_id": "SW-11",
+      "competence": "accountability",
+      "legacy_refs": [],
+      "status": "source_research",
+      "closure_criterion": "Population, Maßstab, Pflichten, Zuständigkeit, Gegenhypothesen",
+      "owner": "unassigned",
+      "feedback_public_allowed": "nonsensitive_method_only",
+      "research_evidence_status": "unassessed",
+      "review_status": "not_approved"
+    },
+    {
+      "id": "BST-11",
+      "question": "Öffentliches und nichtöffentliches Feedback sauber anbieten",
+      "world_id": "SW-17",
+      "competence": "feedback_channels",
+      "legacy_refs": [],
+      "status": "identified",
+      "closure_criterion": "Moderations-/Datenschutz-Gate und eindeutige Sichtbarkeit der Kanäle",
+      "owner": "unassigned",
+      "feedback_public_allowed": "nonsensitive_method_only",
+      "research_evidence_status": "unassessed",
+      "review_status": "not_approved"
+    },
+    {
+      "id": "BST-12",
+      "question": "Quellen, Glossar, Claims, Tests und Skills synchronisieren",
+      "world_id": "SW-12",
+      "competence": "no_loss",
+      "legacy_refs": [],
+      "status": "method_draft",
+      "closure_criterion": "Validator mit referenzierten Abhängigkeiten und Prüfergebnissen",
+      "owner": "unassigned",
+      "feedback_public_allowed": "nonsensitive_method_only",
+      "research_evidence_status": "unassessed",
+      "review_status": "not_approved"
+    }
+  ]
+}
