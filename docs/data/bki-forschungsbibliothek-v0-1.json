@@ -220,6 +220,41 @@
       "href": "buerger-ki-kaffeekraenzchen.html",
       "group": "Didaktik",
       "status": "published_ideas_no_live_events"
+    },
+    {
+      "id": "BKI-LIB-032",
+      "title": "Kaffeekränzchen: offene Hilfeformate und mögliches hybrides Barcamp",
+      "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/PAPER_KAFFEEKRAENZCHEN_OFFENES_HYBRID_BARCAMP_V0_1_2026-11-05.md",
+      "group": "Didaktik",
+      "status": "research_no_live_event"
+    },
+    {
+      "id": "BKI-LIB-033",
+      "title": "Sprachwelten: 17 Felder, Übersetzungspunkte und Phasenplan",
+      "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/SPRACHWELTEN_FACHGEBIETE_DREHPUNKTE_QUELLENPLAN_V0_1_2026-11-05.md",
+      "group": "Methoden",
+      "status": "research_inventory_not_full_source_review"
+    },
+    {
+      "id": "BKI-LIB-034",
+      "title": "Virtuelle KI: denkbare Fähigkeiten, Übergaben und Feedback",
+      "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/PAPER_VIRTUELLE_KI_FUNKTIONEN_UEBERGABEN_FEEDBACK_BAUSTELLEN_V0_1_2026-11-05.md",
+      "group": "Methoden",
+      "status": "architecture_research_not_implemented"
+    },
+    {
+      "id": "BKI-LIB-035",
+      "title": "Bürger-KI: Quellenhinweise, Methodenideen und Rückmeldung",
+      "href": "buerger-ki-feedback.html",
+      "group": "Mitmachen",
+      "status": "public_issues_and_general_contact_no_private_health_channel"
+    },
+    {
+      "id": "BKI-LIB-036",
+      "title": "Baustellenregister virtuelle KI, Feedback, Rechte und Hilfen",
+      "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/BAUSTELLEN_VIRTUELLE_KI_FEEDBACK_V0_1.json",
+      "group": "Methoden",
+      "status": "open_research_backlog"
     }
   ]
 }
