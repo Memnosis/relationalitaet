@@ -1,5 +1,5 @@
 {
-  "schema": "bki-learning-orchestration/0.1",
+  "schema": "bki-learning-orchestration/0.2",
   "date": "2026-11-05",
   "status": "design_and_navigation_inventory",
   "route_policy": "Single canonical IDs; repeated UI views point to one owned object",
@@ -467,5 +467,69 @@
     "appendix_only",
     "not_yet_publish"
   ],
-  "migration_status": "initial_inventory_not_full_repo_crosswalk"
+  "migration_status": "initial_inventory_not_full_repo_crosswalk",
+  "updated": "2026-11-05",
+  "topic_model": {
+    "rule": "Every identified core topic is accessible through all five perspective entry types; each perspective uses existing source IDs and stable owner objects instead of duplicating facts.",
+    "topic_file": "bki-therapieplatz-fuenf-blickwinkel-v0-1.json",
+    "topic_page": "buerger-ki-blickwinkel-therapieplatz.html",
+    "topic_id": "BKI-TOPIC-THERAPY",
+    "perspectives": [
+      "goal",
+      "knowledge",
+      "help",
+      "society",
+      "research"
+    ],
+    "status": "first_pilot_published_not_independently_browser_tested",
+    "expansion_requirement": "New topics must contain human entry question, knowledge selection, deeper source links, cross-perspective switches, alternatives, open research questions, canonical source references."
+  },
+  "topic_expansion_rules": [
+    {
+      "kind": "core_topic",
+      "requires": [
+        "question_from_person",
+        "five_perspectives",
+        "knowledge_selection",
+        "source_paths",
+        "cross_links",
+        "open_limits",
+        "canonical_owner"
+      ],
+      "action": "new_topic_page"
+    },
+    {
+      "kind": "new_finding",
+      "requires": [
+        "source_id",
+        "evidence_status",
+        "impacted_object_ids"
+      ],
+      "action": "update_canonical_object_then_topic_projection"
+    },
+    {
+      "kind": "method_reused",
+      "requires": [
+        "method_id",
+        "context_difference"
+      ],
+      "action": "link_common_method_and_fach_example_not_duplicate"
+    },
+    {
+      "kind": "deep_dive",
+      "requires": [
+        "independent_question",
+        "material_specialized_knowledge"
+      ],
+      "action": "subpage_or_paper_and_topic_link"
+    },
+    {
+      "kind": "unverified",
+      "requires": [
+        "uncertainty",
+        "planned_check"
+      ],
+      "action": "preserve_in_research_and_show_open_question"
+    }
+  ]
 }
