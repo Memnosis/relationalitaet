@@ -150,6 +150,13 @@
       "href": "data/bki-sprachraeume-claims-v0-1.json",
       "group": "Didaktik",
       "status": "editorial_proposals_not_approved"
+    },
+    {
+      "id": "BKI-LIB-022",
+      "title": "Phase 15: Sprachstrategie, Übersetzungen und No-Loss-Audit",
+      "href": "buerger-ki-phase-15-sprache-uebersetzung-no-loss.md",
+      "group": "Didaktik",
+      "status": "implementation_plan_not_completed"
     }
   ]
 }
