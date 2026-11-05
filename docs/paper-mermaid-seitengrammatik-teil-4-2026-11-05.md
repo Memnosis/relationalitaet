@@ -1,3 +1,13 @@
+<!-- BKI-MINIMAL-PAPER-V1 -->
+![Bürger-KI Logo](./assets/media/buerger-ki-zeichen.svg)
+
+**Forschungsedition · Stand 5. November 2026**  
+**Kurzbeschreibung:** Mermaid-Seitengrammatik IV · SOULution, Tensor und fachliche Weiterwege – methodischer Bestand und Prüfstatus.  
+**Schlagwörter:** Bürger-KI · Quellen · Evidenz · Tests · Mermaid-Seitengrammatik IV  
+**Kontakt:** Kontakt@erlebNils.de
+
+---
+
 # Mermaid-Seitengrammatik IV · SOULution, Tensor und fachliche Weiterwege
 **Vorlagen aus Seitengliederung. Nicht jeder Fachbereich braucht identische didaktische Reihenfolge.**
 ## [Was können wir gemeinsam nutzen, statt es erneut zu entwickeln?](./soulution-inkubator-quellen.html)
@@ -259,3 +269,8 @@ P2 --> P3
 flowchart LR
 A["Wissen, Macht und Wirklichkeit"] --> B["Quelle"] --> C["Evidenz"] --> D["Alternativen"] --> E["Test / Ergebnis"]
 ```
+
+
+---
+
+*Bürger-KI · Rechte verstehen. Probleme lösen. Gesellschaft verbessern.* · [Bürger-KI](./buerger-ki.html) · [Publikationen](./publikationen.html) · Kontakt@erlebNils.de · 05.11.2026
