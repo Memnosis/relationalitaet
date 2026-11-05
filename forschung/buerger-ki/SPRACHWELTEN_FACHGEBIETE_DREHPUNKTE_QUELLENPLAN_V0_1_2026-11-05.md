@@ -92,3 +92,24 @@ Diese Punkte verbinden Sprachqualität, Nutzerhandeln, relevante Fachquellen und
 **Rückweg:** mit den neuen Erkenntnissen wieder zur eigenen realistischen Handlungsfrage – oder zu einer anderen bestehenden Hilfsorganisation.
 
 Die Kartographie soll erst dann neue Themenseiten erzeugen, wenn ein selbstständiger, quellenfähiger Wissensraum vorhanden ist. Der erste Arbeitsauftrag ist weiterhin **Sprache und Übersetzbarkeit**, nicht ein großer Seitenumbau.
+
+
+## 8. Ergänzung: Virtuelle KI und Feedback sind zwei zusätzliche Sprachwelten
+
+**SW-16 – Virtuelle KI, persönliche Organisation und Übergaben (intendiert / P0):** Ein Mensch fragt, was eine mögliche KI leisten könnte, ohne dass die statische Website diese KI schon betreibt. Neben persönlichen Dokumenten, ePA, Rechten und Datenrisiken gehören Suchstrategie, Termine, lokaler Kalender, externe Anbieter, NGO-Übergänge, Übersetzung, Quellenprüfung und Forschungs-Skills dazu. Die 15 konkreten Fähigkeiten, ihre Reifestufen und acht Übergabetypen stehen im [Virtuelle-KI-Paper](./PAPER_VIRTUELLE_KI_FUNKTIONEN_UEBERGABEN_FEEDBACK_BAUSTELLEN_V0_1_2026-11-05.md). **Darstellung:** eine knappe menschliche Einstiegsfrage, 2–3 fokussierte Übergabeverbindungen und bei sensiblen Daten die Entscheidungskarte „Was verlässt mein Gerät und wer verarbeitet es?“.
+
+**SW-17 – Feedback, helfende Menschen und Baustellen (intendiert / P0):** Der Kern „Jemand hat jemandem geholfen“ kann in eine weitergebbare Methode, einen Quellenvorschlag, einen Fehlerbericht oder einen Testkandidaten übergehen. Persönliche Erfahrungen sind **nicht** automatisch öffentlich oder wissenschaftliche Evidenz. Sichtbarkeit und Prüfung müssen getrennt werden. Das [Baustellenregister](./BAUSTELLEN_VIRTUELLE_KI_FEEDBACK_V0_1.json) nennt zwölf offene, überprüfbare Gegenstände; die Forschungs- und Publikationsfreigabe ist noch offen.
+
+**Neuer Drehpunkt:** `persönlicher Dienst / fremder Anbieter / freiwilliger Beitrag`. Die technische Übergabe einer Frage ist nicht gleich der Übertragung persönlicher Daten. Eine ePA-Funktion ist nicht gleich einer persönlichen Cloud-KI. Ein im Projekt veröffentlichtes Feedback ist nicht schon eine geprüfte empirische Erkenntnis. „Öffentlich“ und „nichtöffentlich“ brauchen getrennte Eingangskanäle.
+
+**Tatsächlicher Repository-Status 05.11.2026:** GitHub Issues für öffentliche nicht sensible Hinweise sind eingeschaltet; GitHub Discussions ist nicht eingeschaltet. Ein nichtöffentlicher Gesundheitsdatenkanal ist nicht implementiert. Der spätere Nutzer kann auf beiden Wegen nur das einreichen, wofür es einen geeigneten und ausdrücklich beschriebenen Kanal gibt.
+
+### Die sechs bisherigen Phasen mit zusätzlichem Querschnitt
+
+- **Phase 0/1:** SW-16/SW-17 begrifflich und technisch mit den fünf Lernpfaden und den Therapie-Linsen verbinden; alle KI-Fähigkeiten als möglich/extern/getestet/betrieben ausweisen.
+- **Phase 2:** ePA-/Daten-/Rechte- und allgemeine Feedback-Welten mit geprüften Quellen füllen; keine bloß dekorativen Klappen.
+- **Phase 3:** nach Freigabe einen öffentlichen, unsensiblen Feedback- und Baustellen-Einstieg anbieten; lokale Selbstorganisationsmaterialien bleiben ohne Account nutzbar.
+- **Phase 4:** neue Quellenhinweise und freiwillige Methodenideen in Crosswalk/Skill-/Glossar-/Testregister zurückführen; Negativbefunde erhalten.
+- **Phase 5:** externe KI und mögliche eigene Dienste erst nach konkretem Nutzen und Rechts-/Sicherheitsprüfung; Kaffeekränzchen-Barcamp bleibt optionale spätere Folge, kein festes Veranstaltungsziel.
+
+**Nicht behaupten:** Nutzerfeedback werde bereits gesammelt und ausgewertet; die Bürger-KI könne Patientenakten verwalten; Datennutzung oder Forschungsrechte seien ohne aktuelles Rechts-/Anbieterreview vollständig erklärt.
