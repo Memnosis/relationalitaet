@@ -1,3 +1,15 @@
+<!-- BKI-MINIMAL-PAPER-V1 -->
+![Bürger-KI – Forschung und Verbindung](./assets/media/buerger-ki-zeichen.svg)
+
+**Forschungsedition · Kaffeekränzchen und Potenzialarchitektur · Gesamtfassung, Sprachpfade und Bildserie**
+
+**Kurzbeschreibung:** Quellengebundene Forschungs- und Entwicklungspublikation mit eigenständigem Prüfstatus und offenen Fragen.  
+**Schlagwörter:** Bürger-KI · Quellen · Evidenz · Crosswalk · Kaffeekränzchen und Potenzialarchitektur  
+**Stand:** 5. November 2026  
+**Kontakt:** Kontakt@erlebNils.de
+
+---
+
 # Kaffeekränzchen und Potenzialarchitektur · Gesamtfassung, Sprachpfade und Bildserie
 **Forschungs- und Mitmachedition 05.11.2026 · kein angekündigter Event**
 
@@ -35,3 +47,9 @@ Akteur*innen können regionale Initiativen sein; SOULution liefert Forschungs- u
 
 ## Weitere Links
 [Kaffeekränzchen](./buerger-ki-kaffeekraenzchen.html), [Bürger-KI](./buerger-ki.html), [Skills](./buerger-ki-skillzentrum.html), [Potenziale](./paper-potenziale-arbeitslosigkeit-unbezahlte-arbeit-innovation-2026-11-05.md), [Mitmachen](./mitmachen.html).
+
+
+---
+
+*Bürger-KI · Rechte verstehen. Probleme lösen. Gesellschaft verbessern.*  
+[Zur Bürger-KI](./buerger-ki.html) · [Forschungsbibliothek](./bibliothek.html) · Kontakt@erlebNils.de · 05.11.2026
