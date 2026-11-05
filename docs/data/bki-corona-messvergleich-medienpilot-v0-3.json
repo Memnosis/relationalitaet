@@ -1,0 +1,909 @@
+{
+  "schema": "bki-corona-benchmark-audit/0.3",
+  "supersedes": "bki-corona-messvergleich-medienpilot-v0-2.json",
+  "as_of": "2026-11-05",
+  "purpose": "Separate methodological validity from scientific findings; assign provisional comparison classes with evidence gaps",
+  "classes": {
+    "A": "directly comparable after matching population/method/time",
+    "B": "conditionally comparable with documented adjustment",
+    "C": "separate research cluster, no cross-outcome direct comparison",
+    "D": "not decidable absent estimand or essential data"
+  },
+  "method_status": "provisional_not_completed_medical_grade",
+  "legacy_media_count": 10,
+  "legacy_media_full_text_audits": 0,
+  "measurement_cards": [
+    {
+      "id": "CM-61",
+      "title": "PCR-Meldefälle",
+      "issue": "PCR-Fälle ≠ alle Infektionen",
+      "source": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Infektionskrankheiten-A-Z/C/COVID-19-Pandemie/COVID-19-Pandemie.html",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ],
+      "source_ref": "legacy-url:CM-61",
+      "comparison": {
+        "class": "B",
+        "rationale": "Vergleich nur innerhalb identischer Test-/Meldedefinition und passender Bezugsbevölkerung.",
+        "status": "provisional_methodological_classification",
+        "proven_comparable": false
+      },
+      "assessment": {
+        "research_quality": {
+          "status": "not_formally_assessed",
+          "risk_of_bias": "unknown",
+          "grade": "not_assigned"
+        },
+        "subject_result": {
+          "status": "methodological_finding_only",
+          "finding": "RKI-Meldefälle sind gemeldete Fälle, nicht alle Infektionen.",
+          "not_proven": "Meldehäufigkeit und Dunkelziffer variieren mit Testzugang, Definition und Meldeverzug."
+        },
+        "evidence_level": {
+          "status": "GRADE_not_assessed",
+          "reason": "Effect-question and body of evidence not fully assembled"
+        },
+        "time": {
+          "source_first_published": null,
+          "knowledge_cutoff": null,
+          "revision_verified": false
+        },
+        "missing_data": [
+          "Testanzahl, symptomatische Testindikation und Korrekturstand pro Tag fehlen."
+        ],
+        "independent_replication": "not_tested"
+      }
+    },
+    {
+      "id": "CM-62",
+      "title": "Serologische Dunkelziffer",
+      "issue": "Untererfassung abhängig von Region, Teststrategie, Stichprobe und Pandemiephase; nicht tagesgenau rückrechenbar",
+      "source": "https://edoc.rki.de/handle/176904/11391",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ],
+      "source_ref": "legacy-url:CM-62",
+      "comparison": {
+        "class": "B",
+        "rationale": "Stichprobe, Testassay, Sensitivität, Spezifität und Zeitpunkt nach Impfstatus abgleichen.",
+        "status": "provisional_methodological_classification",
+        "proven_comparable": false
+      },
+      "assessment": {
+        "research_quality": {
+          "status": "not_formally_assessed",
+          "risk_of_bias": "unknown",
+          "grade": "not_assigned"
+        },
+        "subject_result": {
+          "status": "methodological_finding_only",
+          "finding": "Seroprävalenz kann über Antikörpernachweise die Untererfassung sichtbar machen.",
+          "not_proven": "Antikörper schwinden; Impfung, Infektion und Selektionsbias können Befunde verändern."
+        },
+        "evidence_level": {
+          "status": "GRADE_not_assessed",
+          "reason": "Effect-question and body of evidence not fully assembled"
+        },
+        "time": {
+          "source_first_published": null,
+          "knowledge_cutoff": null,
+          "revision_verified": false
+        },
+        "missing_data": [
+          "Keine rückrechenbare bundesweit einheitliche tägliche Dunkelziffer."
+        ],
+        "independent_replication": "not_tested"
+      }
+    },
+    {
+      "id": "CM-63",
+      "title": "Teststrategie und Erfassungsquote",
+      "issue": "Indikation, Schnelltest/PCR, Testzugang und Entdeckungsquote getrennt",
+      "source": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Infektionskrankheiten-A-Z/C/COVID-19-Pandemie/AK-Studien/Ergebnisse.html",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ],
+      "source_ref": "legacy-url:CM-63",
+      "comparison": {
+        "class": "B",
+        "rationale": "Testmix und Populationssampling innerhalb gleicher Kalenderphase standardisieren.",
+        "status": "provisional_methodological_classification",
+        "proven_comparable": false
+      },
+      "assessment": {
+        "research_quality": {
+          "status": "not_formally_assessed",
+          "risk_of_bias": "unknown",
+          "grade": "not_assigned"
+        },
+        "subject_result": {
+          "status": "methodological_finding_only",
+          "finding": "Erfassungswahrscheinlichkeit hängt von Teststrategie und Testzugang ab.",
+          "not_proven": "Schnelltests und PCR sind methodisch verschieden, Indikation ist selektiv."
+        },
+        "evidence_level": {
+          "status": "GRADE_not_assessed",
+          "reason": "Effect-question and body of evidence not fully assembled"
+        },
+        "time": {
+          "source_first_published": null,
+          "knowledge_cutoff": null,
+          "revision_verified": false
+        },
+        "missing_data": [
+          "Vollständige Test- und Indikationsnenner fehlen."
+        ],
+        "independent_replication": "not_tested"
+      }
+    },
+    {
+      "id": "CM-64",
+      "title": "Vergleichbare Inzidenz",
+      "issue": "Nenner, Alter, Region, Zeitfenster, Fälle und Tests",
+      "source": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Infektionskrankheiten-A-Z/C/COVID-19-Pandemie/COVID-19-Pandemie.html",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ],
+      "source_ref": "legacy-url:CM-64",
+      "comparison": {
+        "class": "B",
+        "rationale": "Altersstandardisierte, testadjustierte Sensitivitätsanalyse.",
+        "status": "provisional_methodological_classification",
+        "proven_comparable": false
+      },
+      "assessment": {
+        "research_quality": {
+          "status": "not_formally_assessed",
+          "risk_of_bias": "unknown",
+          "grade": "not_assigned"
+        },
+        "subject_result": {
+          "status": "methodological_finding_only",
+          "finding": "Inzidenzreihen liefern gemeldetes Infektionsgeschehen unter definierter Falldefinition.",
+          "not_proven": "Nicht stabile Testung und Nachmeldungen verzerren Langzeitvergleiche."
+        },
+        "evidence_level": {
+          "status": "GRADE_not_assessed",
+          "reason": "Effect-question and body of evidence not fully assembled"
+        },
+        "time": {
+          "source_first_published": null,
+          "knowledge_cutoff": null,
+          "revision_verified": false
+        },
+        "missing_data": [
+          "Nicht alle Teststrategiewechsel in einer versionierten Zeitreihe."
+        ],
+        "independent_replication": "not_tested"
+      }
+    },
+    {
+      "id": "CM-65",
+      "title": "Hospitalisierung",
+      "issue": "Meldedatum und Aufnahmedatum, Nachmeldungen und COVID als Diagnose",
+      "source": "https://www.bundesgesundheitsministerium.de/coronavirus/hospitalisierungsinzidenz",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ],
+      "source_ref": "legacy-url:CM-65",
+      "comparison": {
+        "class": "B",
+        "rationale": "Aufnahmegrund, Alter, Definition und Meldewoche gleichstellen.",
+        "status": "provisional_methodological_classification",
+        "proven_comparable": false
+      },
+      "assessment": {
+        "research_quality": {
+          "status": "not_formally_assessed",
+          "risk_of_bias": "unknown",
+          "grade": "not_assigned"
+        },
+        "subject_result": {
+          "status": "methodological_finding_only",
+          "finding": "Hospitalisierungsraten messen eine definierte Krankheitsbelastung.",
+          "not_proven": "Aufnahme mit SARS-CoV-2 ist nicht stets Aufnahme wegen COVID-19."
+        },
+        "evidence_level": {
+          "status": "GRADE_not_assessed",
+          "reason": "Effect-question and body of evidence not fully assembled"
+        },
+        "time": {
+          "source_first_published": null,
+          "knowledge_cutoff": null,
+          "revision_verified": false
+        },
+        "missing_data": [
+          "Einheitlich rekonstruierte aufnahmeursächliche Hospitalisierung."
+        ],
+        "independent_replication": "not_tested"
+      }
+    },
+    {
+      "id": "CM-66",
+      "title": "Intensivkapazität",
+      "issue": "Gemeldete gegenüber tatsächlich betreibbaren Betten, Pflegepersonal und Regionalität",
+      "source": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Infektionskrankheiten-A-Z/C/COVID-19/Intensivregister.html",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ],
+      "source_ref": "legacy-url:CM-66",
+      "comparison": {
+        "class": "C",
+        "rationale": "Nur zusammen mit Pflegepersonal und Meldeversionsstand interpretieren.",
+        "status": "provisional_methodological_classification",
+        "proven_comparable": false
+      },
+      "assessment": {
+        "research_quality": {
+          "status": "not_formally_assessed",
+          "risk_of_bias": "unknown",
+          "grade": "not_assigned"
+        },
+        "subject_result": {
+          "status": "methodological_finding_only",
+          "finding": "DIVI-Meldungen zeigen registrierte Intensivbelegung und gemeldete Kapazität.",
+          "not_proven": "Gemeldete Bettenzahl ist nicht identisch mit personell betreibbaren Plätzen."
+        },
+        "evidence_level": {
+          "status": "GRADE_not_assessed",
+          "reason": "Effect-question and body of evidence not fully assembled"
+        },
+        "time": {
+          "source_first_published": null,
+          "knowledge_cutoff": null,
+          "revision_verified": false
+        },
+        "missing_data": [
+          "Zeitlich vollständiger belegbarer Betriebsstatus pro Bett."
+        ],
+        "independent_replication": "not_tested"
+      }
+    },
+    {
+      "id": "CM-67",
+      "title": "IfSG-Todesfallmeldung",
+      "issue": "COVID als Todesursache und Corona-Nachweis nicht automatisch identisch",
+      "source": "https://www.rki.de/SharedDocs/FAQs/DE/COVID-19-Pandemie/FAQ-Liste-COVID-19-Pandemie.html",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ],
+      "source_ref": "legacy-url:CM-67",
+      "comparison": {
+        "class": "C",
+        "rationale": "Keine direkte Gleichsetzung mit Todesursachen- und Übersterblichkeitsstatistik.",
+        "status": "provisional_methodological_classification",
+        "proven_comparable": false
+      },
+      "assessment": {
+        "research_quality": {
+          "status": "not_formally_assessed",
+          "risk_of_bias": "unknown",
+          "grade": "not_assigned"
+        },
+        "subject_result": {
+          "status": "methodological_finding_only",
+          "finding": "IfSG-Meldungen liefern definierte COVID-19-Todesfälle.",
+          "not_proven": "Meldestatus ist nicht gleich ICD-kodierte Grundleidenursache."
+        },
+        "evidence_level": {
+          "status": "GRADE_not_assessed",
+          "reason": "Effect-question and body of evidence not fully assembled"
+        },
+        "time": {
+          "source_first_published": null,
+          "knowledge_cutoff": null,
+          "revision_verified": false
+        },
+        "missing_data": [
+          "Verknüpfbare fallbezogene Todesursachen fehlen."
+        ],
+        "independent_replication": "not_tested"
+      }
+    },
+    {
+      "id": "CM-68",
+      "title": "Todesursachen",
+      "issue": "Grundleiden, Begleiterkrankung, ICD-Codierung und Todesbescheinigung",
+      "source": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2021/07/PD21_327_23211.html",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ],
+      "source_ref": "legacy-url:CM-68",
+      "comparison": {
+        "class": "C",
+        "rationale": "ICD-versionierte Todesursachen getrennt von Meldestatistik vergleichen.",
+        "status": "provisional_methodological_classification",
+        "proven_comparable": false
+      },
+      "assessment": {
+        "research_quality": {
+          "status": "not_formally_assessed",
+          "risk_of_bias": "unknown",
+          "grade": "not_assigned"
+        },
+        "subject_result": {
+          "status": "methodological_finding_only",
+          "finding": "Todesursachenstatistik beantwortet Grundleiden- und Begleiterkrankungsfragen.",
+          "not_proven": "Klassifikation und Kodierung können sich ändern."
+        },
+        "evidence_level": {
+          "status": "GRADE_not_assessed",
+          "reason": "Effect-question and body of evidence not fully assembled"
+        },
+        "time": {
+          "source_first_published": null,
+          "knowledge_cutoff": null,
+          "revision_verified": false
+        },
+        "missing_data": [
+          "Vollständige international harmonisierte Kausalkette fehlt."
+        ],
+        "independent_replication": "not_tested"
+      }
+    },
+    {
+      "id": "CM-69",
+      "title": "Übersterblichkeit",
+      "issue": "Altersstruktur, Saison, Hitze, andere Ursachen und Baseline",
+      "source": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/sterbefallzahlen.html",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ],
+      "source_ref": "legacy-url:CM-69",
+      "comparison": {
+        "class": "B",
+        "rationale": "Mehrere Baselines, Altersstandardisierung, Sensitivitätsintervalle.",
+        "status": "provisional_methodological_classification",
+        "proven_comparable": false
+      },
+      "assessment": {
+        "research_quality": {
+          "status": "not_formally_assessed",
+          "risk_of_bias": "unknown",
+          "grade": "not_assigned"
+        },
+        "subject_result": {
+          "status": "methodological_finding_only",
+          "finding": "Übersterblichkeit vergleicht beobachtete Sterbefälle mit erwarteter Baseline.",
+          "not_proven": "Erwartungsmodell, Alterung, Temperatur und Nachmeldeeffekte beeinflussen Schätzung."
+        },
+        "evidence_level": {
+          "status": "GRADE_not_assessed",
+          "reason": "Effect-question and body of evidence not fully assembled"
+        },
+        "time": {
+          "source_first_published": null,
+          "knowledge_cutoff": null,
+          "revision_verified": false
+        },
+        "missing_data": [
+          "Kein singulärer kausal masken- oder maßnahmenbezogener Mortalitätseffekt."
+        ],
+        "independent_replication": "not_tested"
+      }
+    },
+    {
+      "id": "CM-70",
+      "title": "Verdachtsmeldungen Impfsicherheit",
+      "issue": "Meldung ist Signal, kein bestätigter Schadensfall; Exposition je Dosis/Person unterscheiden",
+      "source": "https://www.pei.de/DE/newsroom/dossier/coronavirus/sicherheitsbericht-covid-19-impfstoffe-aktuell.html",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ],
+      "source_ref": "legacy-url:CM-70",
+      "comparison": {
+        "class": "C",
+        "rationale": "Mit klinisch validierten Registern und Impfstoffdosen verbinden.",
+        "status": "provisional_methodological_classification",
+        "proven_comparable": false
+      },
+      "assessment": {
+        "research_quality": {
+          "status": "not_formally_assessed",
+          "risk_of_bias": "unknown",
+          "grade": "not_assigned"
+        },
+        "subject_result": {
+          "status": "methodological_finding_only",
+          "finding": "PEI-Verdachtsmeldungen dienen der Signalerkennung.",
+          "not_proven": "Spontanmeldungen sind weder Inzidenz noch bestätigte Kausalität."
+        },
+        "evidence_level": {
+          "status": "GRADE_not_assessed",
+          "reason": "Effect-question and body of evidence not fully assembled"
+        },
+        "time": {
+          "source_first_published": null,
+          "knowledge_cutoff": null,
+          "revision_verified": false
+        },
+        "missing_data": [
+          "Nachmeldungen, Meldeverhalten und valide klinische Nenner."
+        ],
+        "independent_replication": "not_tested"
+      }
+    },
+    {
+      "id": "CM-71",
+      "title": "Myokarditis-Warnkommunikation",
+      "issue": "Symptome, Dringlichkeit, Altersgruppe, Impfstoff und Kenntnisstand getrennt prüfen",
+      "source": "https://www.ema.europa.eu/en/documents/covid-19-vaccine-safety-update/covid-19-vaccine-safety-update-comirnaty-14-july-2021_en.pdf",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ],
+      "source_ref": "legacy-url:CM-71",
+      "comparison": {
+        "class": "C",
+        "rationale": "Zeitpunkt Warnung, zugängliche Daten und spätere Kohorten getrennt vergleichen.",
+        "status": "provisional_methodological_classification",
+        "proven_comparable": false
+      },
+      "assessment": {
+        "research_quality": {
+          "status": "not_formally_assessed",
+          "risk_of_bias": "unknown",
+          "grade": "not_assigned"
+        },
+        "subject_result": {
+          "status": "methodological_finding_only",
+          "finding": "Myokarditis-Risikosignale sind nach Alter, Geschlecht, Dosis und Präparat unterschiedlich.",
+          "not_proven": "Rohmeldungen und nachträgliche Erkenntnisse ändern historische Risikokommunikation."
+        },
+        "evidence_level": {
+          "status": "GRADE_not_assessed",
+          "reason": "Effect-question and body of evidence not fully assembled"
+        },
+        "time": {
+          "source_first_published": null,
+          "knowledge_cutoff": null,
+          "revision_verified": false
+        },
+        "missing_data": [
+          "Vollständige redaktionelle Meldungs- und Korrekturhistorie."
+        ],
+        "independent_replication": "not_tested"
+      }
+    },
+    {
+      "id": "CM-72",
+      "title": "STIKO-/Leitlinienversion",
+      "issue": "damalige Empfehlung, Änderung, Begründung, Altersgruppe und Dosis",
+      "source": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Infektionskrankheiten-A-Z/C/COVID-19-Pandemie/COVID-19-Pandemie.html",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ],
+      "source_ref": "legacy-url:CM-72",
+      "comparison": {
+        "class": "C",
+        "rationale": "Jede Empfehlung mit Originaldatum, Präparat, Altersgruppe und Evidenz verknüpfen.",
+        "status": "provisional_methodological_classification",
+        "proven_comparable": false
+      },
+      "assessment": {
+        "research_quality": {
+          "status": "not_formally_assessed",
+          "risk_of_bias": "unknown",
+          "grade": "not_assigned"
+        },
+        "subject_result": {
+          "status": "methodological_finding_only",
+          "finding": "STIKO- und Leitlinienänderungen dokumentieren institutionelle Entscheidungen.",
+          "not_proven": "Geänderte Empfehlung belegt nicht automatisch frühere Unkenntnis oder Pflichtverletzung."
+        },
+        "evidence_level": {
+          "status": "GRADE_not_assessed",
+          "reason": "Effect-question and body of evidence not fully assembled"
+        },
+        "time": {
+          "source_first_published": null,
+          "knowledge_cutoff": null,
+          "revision_verified": false
+        },
+        "missing_data": [
+          "Freigabeakten, Rohdaten und Entscheidungsfristen im Zeitverlauf."
+        ],
+        "independent_replication": "not_tested"
+      }
+    },
+    {
+      "id": "CM-73",
+      "title": "Bildung und soziale Nebenfolgen",
+      "issue": "Präsenz-/Schließtage, Lernentwicklung und Benachteiligung",
+      "source": "https://www.iqb.hu-berlin.de/bt/BT2021/",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ],
+      "source_ref": "legacy-url:CM-73",
+      "comparison": {
+        "class": "C",
+        "rationale": "Masken-, Präsenz- und soziale Strukturvariablen getrennt auswerten.",
+        "status": "provisional_methodological_classification",
+        "proven_comparable": false
+      },
+      "assessment": {
+        "research_quality": {
+          "status": "not_formally_assessed",
+          "risk_of_bias": "unknown",
+          "grade": "not_assigned"
+        },
+        "subject_result": {
+          "status": "methodological_finding_only",
+          "finding": "IQB/IGLU können Kompetenzentwicklung über Kohorten dokumentieren.",
+          "not_proven": "Maskenpflicht, Schulschließung und Vortrends sind konfundiert."
+        },
+        "evidence_level": {
+          "status": "GRADE_not_assessed",
+          "reason": "Effect-question and body of evidence not fully assembled"
+        },
+        "time": {
+          "source_first_published": null,
+          "knowledge_cutoff": null,
+          "revision_verified": false
+        },
+        "missing_data": [
+          "Keine isolierte kausale schuljahresbezogene Masken-Schadenssumme."
+        ],
+        "independent_replication": "not_tested"
+      }
+    },
+    {
+      "id": "CM-74",
+      "title": "Versorgungsfolgen",
+      "issue": "Langzeitbeschwerden, Nachversorgung, psychosoziale Folgen; kausale Zuordnung offen",
+      "source": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Infektionskrankheiten-A-Z/C/COVID-19-Pandemie/COVID-19-Pandemie.html",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ],
+      "source_ref": "legacy-url:CM-74",
+      "comparison": {
+        "class": "C",
+        "rationale": "Risiko pro Indikation, Baseline, Nachholeffekt und Mortalität prüfen.",
+        "status": "provisional_methodological_classification",
+        "proven_comparable": false
+      },
+      "assessment": {
+        "research_quality": {
+          "status": "not_formally_assessed",
+          "risk_of_bias": "unknown",
+          "grade": "not_assigned"
+        },
+        "subject_result": {
+          "status": "methodological_finding_only",
+          "finding": "Versorgungsregister können Diagnostik- und Behandlungsausfälle zeigen.",
+          "not_proven": "Verschobene Eingriffe sind nicht identisch mit dauerhaften Schäden."
+        },
+        "evidence_level": {
+          "status": "GRADE_not_assessed",
+          "reason": "Effect-question and body of evidence not fully assembled"
+        },
+        "time": {
+          "source_first_published": null,
+          "knowledge_cutoff": null,
+          "revision_verified": false
+        },
+        "missing_data": [
+          "Längerfristige individualisierte Verlaufsdaten."
+        ],
+        "independent_replication": "not_tested"
+      }
+    },
+    {
+      "id": "CM-75",
+      "title": "Evaluation und Vergleichsprotokoll",
+      "issue": "Ex-ante Ziele, Endpunkte, Sicherheitsfolgen, Gegenvergleich, unabhängige Prüfung",
+      "source": "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/S/Sachverstaendigenausschuss/220630_Evaluationsbericht_IFSG_NEU.pdf",
+      "status": "Methodenkarte; Kausalanalyse offen",
+      "checks": [
+        "Ist das Messobjekt gleich?",
+        "Sind Methode und Version datiert?",
+        "Sind Grundgesamtheit/Nenner gültig?",
+        "Sind Störgrößen kontrolliert?",
+        "Sind fehlende Daten benannt?"
+      ],
+      "source_ref": "legacy-url:CM-75",
+      "comparison": {
+        "class": "D",
+        "rationale": "Zuerst konkrete Intervention, Population, Vergleich und Outcome festlegen.",
+        "status": "provisional_methodological_classification",
+        "proven_comparable": false
+      },
+      "assessment": {
+        "research_quality": {
+          "status": "not_formally_assessed",
+          "risk_of_bias": "unknown",
+          "grade": "not_assigned"
+        },
+        "subject_result": {
+          "status": "methodological_finding_only",
+          "finding": "Evaluation ist Forschungsanforderung, kein einzelner medizinischer Messwert.",
+          "not_proven": "Mehrere Endpunkte lassen sich nicht auf ein gemeinsames Effektmaß verkürzen."
+        },
+        "evidence_level": {
+          "status": "GRADE_not_assessed",
+          "reason": "Effect-question and body of evidence not fully assembled"
+        },
+        "time": {
+          "source_first_published": null,
+          "knowledge_cutoff": null,
+          "revision_verified": false
+        },
+        "missing_data": [
+          "Ohne spezifiziertes estimand keine wissenschaftliche Vergleichsklasse A/B."
+        ],
+        "independent_replication": "not_tested"
+      }
+    }
+  ],
+  "media_candidates": [
+    {
+      "id": "MED-001",
+      "outlet": "ARD-faktenfinder",
+      "title": "BMG twittert falsche Zahlen über Impfnebenwirkungen",
+      "url": "https://www.tagesschau.de/faktenfinder/impfungen-nebenwirkungen-bmg-101.html",
+      "status": "Link identifiziert; konkrete Warnstellen noch nicht volltextgeprüft",
+      "tests": {
+        "risk_acknowledged": null,
+        "warning_chest_pain": null,
+        "warning_breathlessness": null,
+        "warning_palpitations": null,
+        "seek_medical_help": null,
+        "time_consistent": null
+      },
+      "missing": [
+        "datierte Textfassung",
+        "exakte Warnsymptom-Stellen",
+        "zeitgleiche EMA-/PEI-Warnversion"
+      ]
+    },
+    {
+      "id": "MED-002",
+      "outlet": "ARD-faktenfinder",
+      "title": "mRNA-Impfstoffe greifen Blutgefäße nicht an",
+      "url": "https://www.tagesschau.de/faktenfinder/mrna-thrombosen-herzinfarkt-101.html",
+      "status": "Link identifiziert; konkrete Warnstellen noch nicht volltextgeprüft",
+      "tests": {
+        "risk_acknowledged": null,
+        "warning_chest_pain": null,
+        "warning_breathlessness": null,
+        "warning_palpitations": null,
+        "seek_medical_help": null,
+        "time_consistent": null
+      },
+      "missing": [
+        "datierte Textfassung",
+        "exakte Warnsymptom-Stellen",
+        "zeitgleiche EMA-/PEI-Warnversion"
+      ]
+    },
+    {
+      "id": "MED-003",
+      "outlet": "ARD-faktenfinder",
+      "title": "Herz-Kreislauf-Notfälle: Kein Anstieg durch Impfungen",
+      "url": "https://www.tagesschau.de/faktenfinder/notaufnahmen-impfnebenwirkungen-101.html",
+      "status": "Link identifiziert; konkrete Warnstellen noch nicht volltextgeprüft",
+      "tests": {
+        "risk_acknowledged": null,
+        "warning_chest_pain": null,
+        "warning_breathlessness": null,
+        "warning_palpitations": null,
+        "seek_medical_help": null,
+        "time_consistent": null
+      },
+      "missing": [
+        "datierte Textfassung",
+        "exakte Warnsymptom-Stellen",
+        "zeitgleiche EMA-/PEI-Warnversion"
+      ]
+    },
+    {
+      "id": "MED-004",
+      "outlet": "BR24",
+      "title": "Geringes Risiko: Herzmuskelentzündung nach mRNA-Impfung",
+      "url": "https://www.br.de/nachrichten/wissen/risiko-herzmuskelentzuendung-myokarditis-mrna-impfung-studie%2CSZl3bKq",
+      "status": "Link identifiziert; konkrete Warnstellen noch nicht volltextgeprüft",
+      "tests": {
+        "risk_acknowledged": null,
+        "warning_chest_pain": null,
+        "warning_breathlessness": null,
+        "warning_palpitations": null,
+        "seek_medical_help": null,
+        "time_consistent": null
+      },
+      "missing": [
+        "datierte Textfassung",
+        "exakte Warnsymptom-Stellen",
+        "zeitgleiche EMA-/PEI-Warnversion"
+      ]
+    },
+    {
+      "id": "MED-005",
+      "outlet": "BR24 Faktenfuchs",
+      "title": "Pathologenkonferenz beweist keine Impfschäden",
+      "url": "https://www.br.de/nachrichten/deutschland-welt/pathologenkonferenz-beweist-keine-corona-impfschaeden-faktenfuchs%2CSkV5Nmu",
+      "status": "Link identifiziert; konkrete Warnstellen noch nicht volltextgeprüft",
+      "tests": {
+        "risk_acknowledged": null,
+        "warning_chest_pain": null,
+        "warning_breathlessness": null,
+        "warning_palpitations": null,
+        "seek_medical_help": null,
+        "time_consistent": null
+      },
+      "missing": [
+        "datierte Textfassung",
+        "exakte Warnsymptom-Stellen",
+        "zeitgleiche EMA-/PEI-Warnversion"
+      ]
+    },
+    {
+      "id": "MED-006",
+      "outlet": "BR24 Faktenfuchs",
+      "title": "Was nach fünf Jahren Covid-Impfung bekannt ist",
+      "url": "https://www.br.de/nachrichten/wissen/faktenfuchs-was-nach-fuenf-jahren-covid-impfung-bekannt-ist%2CV673r2a",
+      "status": "Link identifiziert; konkrete Warnstellen noch nicht volltextgeprüft",
+      "tests": {
+        "risk_acknowledged": null,
+        "warning_chest_pain": null,
+        "warning_breathlessness": null,
+        "warning_palpitations": null,
+        "seek_medical_help": null,
+        "time_consistent": null
+      },
+      "missing": [
+        "datierte Textfassung",
+        "exakte Warnsymptom-Stellen",
+        "zeitgleiche EMA-/PEI-Warnversion"
+      ]
+    },
+    {
+      "id": "MED-007",
+      "outlet": "ARD-faktenfinder",
+      "title": "Falsche Zahlen zu angeblichen Impf-Toten",
+      "url": "https://www.tagesschau.de/faktenfinder/corona-impfung-falschbehauptung-100.html",
+      "status": "Link identifiziert; konkrete Warnstellen noch nicht volltextgeprüft",
+      "tests": {
+        "risk_acknowledged": null,
+        "warning_chest_pain": null,
+        "warning_breathlessness": null,
+        "warning_palpitations": null,
+        "seek_medical_help": null,
+        "time_consistent": null
+      },
+      "missing": [
+        "datierte Textfassung",
+        "exakte Warnsymptom-Stellen",
+        "zeitgleiche EMA-/PEI-Warnversion"
+      ]
+    },
+    {
+      "id": "MED-008",
+      "outlet": "CORRECTIV",
+      "title": "Vergleich gemeldeter Nebenwirkungen mit anderen Impfstoffen",
+      "url": "https://correctiv.org/faktencheck/2022/01/26/covid-19-impfungen-warum-der-vergleich-gemeldeter-nebenwirkungen-mit-anderen-impfstoffen-nicht-aussagekraeftig-ist/",
+      "status": "Link identifiziert; konkrete Warnstellen noch nicht volltextgeprüft",
+      "tests": {
+        "risk_acknowledged": null,
+        "warning_chest_pain": null,
+        "warning_breathlessness": null,
+        "warning_palpitations": null,
+        "seek_medical_help": null,
+        "time_consistent": null
+      },
+      "missing": [
+        "datierte Textfassung",
+        "exakte Warnsymptom-Stellen",
+        "zeitgleiche EMA-/PEI-Warnversion"
+      ]
+    },
+    {
+      "id": "MED-009",
+      "outlet": "CORRECTIV",
+      "title": "Aussagekraft der Re-Analyse von Zulassungsstudien",
+      "url": "https://correctiv.org/faktencheck/hintergrund/2022/11/04/mrna-impfstoffe-warum-die-aussagekraft-einer-re-analyse-der-zulassungsstudien-begrenzt-ist/",
+      "status": "Link identifiziert; konkrete Warnstellen noch nicht volltextgeprüft",
+      "tests": {
+        "risk_acknowledged": null,
+        "warning_chest_pain": null,
+        "warning_breathlessness": null,
+        "warning_palpitations": null,
+        "seek_medical_help": null,
+        "time_consistent": null
+      },
+      "missing": [
+        "datierte Textfassung",
+        "exakte Warnsymptom-Stellen",
+        "zeitgleiche EMA-/PEI-Warnversion"
+      ]
+    },
+    {
+      "id": "MED-010",
+      "outlet": "ARD-faktenfinder",
+      "title": "Angebliche Tote durch Impfen: Daten ohne Kontext",
+      "url": "https://www.tagesschau.de/faktenfinder/corona-todesfaelle-impfungen-101.html",
+      "status": "Link identifiziert; konkrete Warnstellen noch nicht volltextgeprüft",
+      "tests": {
+        "risk_acknowledged": null,
+        "warning_chest_pain": null,
+        "warning_breathlessness": null,
+        "warning_palpitations": null,
+        "seek_medical_help": null,
+        "time_consistent": null
+      },
+      "missing": [
+        "datierte Textfassung",
+        "exakte Warnsymptom-Stellen",
+        "zeitgleiche EMA-/PEI-Warnversion"
+      ]
+    }
+  ]
+}
