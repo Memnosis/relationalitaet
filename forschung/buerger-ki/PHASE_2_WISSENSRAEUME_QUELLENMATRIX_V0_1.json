@@ -260,7 +260,7 @@
   "source_checked_scope": "URLs checked via public search for a subset, no comprehensive link or professional legal/medical audit",
   "gates": {
     "meaning_review": "phase1_initial_analysis_only",
-    "sources": "partial",
+    "sources": "official_and_product_sources_initially_checked_legal_clinical_independent_review_pending",
     "expandable_substance": "editorial_outline_only",
     "full_browser": "not_run",
     "public_rollout": "not_approved"
@@ -272,5 +272,19 @@
     "ePA_vs_private_record_vs_AI_copy",
     "individual_report_vs_system_evidence",
     "code_structure_vs_medical_semantics"
-  ]
+  ],
+  "deep_dive_patient_record": {
+    "paper": "DEEP_DIVE_PATIENTENAKTE_KI_STANDARDS_RECHTE_ORGAS_V0_1_2026-11-05.md",
+    "source_crosswalk": "DEEP_DIVE_PATIENTENAKTE_QUELLEN_CROSSWALK_V0_1.json",
+    "source_candidates": 12,
+    "scope": [
+      "ePA_and_practice_record",
+      "rights_and_secondary_use",
+      "PHR_open_source",
+      "FHIR_and_MIO",
+      "independent_security_concerns",
+      "clinical_and_AI_dataflow_boundaries"
+    ],
+    "status": "first_deep_dive_complete_open_full_review"
+  }
 }
