@@ -1,0 +1,107 @@
+{
+  "schema": "bki-flashback-two/0.1",
+  "as_of": "2026-11-05",
+  "status": "verified_legal_texts_initial_audit_financial_and_application_evidence_missing",
+  "paper": "FLASHBACK_02_DATENWEGE_KI_SOZIALDATEN_GELD_KONTROLLE_V0_1_2026-11-05.md",
+  "cases": [
+    {
+      "id": "BKI-FB2-01",
+      "title": "Sozialdaten für KI-Training",
+      "source": "https://www.gesetze-im-internet.de/sgb_10/__67c.html",
+      "date": "2025-12-24",
+      "law": "§67c Abs.3 SGB X",
+      "change": "new_competence_to_use_pseudonymized_social_data_for_own_statutory_AI_development",
+      "controller": "responsible_social_benefit_bodies",
+      "control": "statutory_scope_security_no_general_individual_opt_out_proven",
+      "financial": "no_public_revenue_evidence",
+      "questions": [
+        "Which concrete agencies and systems use it?",
+        "Did the use of anonymized data risk distortion in each system?",
+        "What audits show benefit/bias?"
+      ]
+    },
+    {
+      "id": "BKI-FB2-02",
+      "title": "Sozialdatenübermittlung für KI",
+      "source": "https://www.gesetze-im-internet.de/sgb_10/__69.html",
+      "date": "2025-12-24",
+      "law": "§69 Abs.1 Nr.4 SGB X",
+      "change": "limited_interagency_transfer_for_AI_under_67c_conditions",
+      "controller": "authorized_social_benefit_bodies",
+      "control": "purpose_and_access_restrictions_specific",
+      "financial": "unassessed",
+      "questions": [
+        "Which actual transfers?",
+        "What log and notices exist?"
+      ]
+    },
+    {
+      "id": "BKI-FB2-03",
+      "title": "FDZ Datencockpit",
+      "source": "https://www.gesetze-im-internet.de/fdzgesv/__13.html",
+      "date": "2026",
+      "law": "§13 FDZGesV",
+      "change": "data_transfer_timestamps_purposes_and_opt_out_visible_in_user_interface",
+      "controller": "ePA/FDZ framework",
+      "control": "total_and_partial_opt_out_under_8",
+      "financial": "not_commercial_sale",
+      "questions": [
+        "App visibility/UX by insurer?",
+        "Are timestamps precise and accessible?"
+      ]
+    },
+    {
+      "id": "BKI-FB2-04",
+      "title": "Melderegisterauskunft Gebühren",
+      "source": "https://frankfurt.de/leistungen/Gewerbe-und-Wirtschaft-8957822/GenehmigungenBescheinigungen-10136943/Auskuenfte-aus-dem-Melderegister-Online-Auskuenfte-fuer-nicht-registrierte-Anwender",
+      "date": "2026",
+      "law": "§44 BMG",
+      "change": "10.71_eur_per_online_request_frankfurt_civex_p_example",
+      "controller": "local_municipality_and_IT_service",
+      "control": "no_advertising_or_address_trade_in_44",
+      "financial": "fee_only_no_volume_cost_or_margin",
+      "questions": [
+        "Annual number of fee-bearing requests?",
+        "Which recipient accounts for revenue?",
+        "Cost breakdown?"
+      ]
+    },
+    {
+      "id": "BKI-FB2-05",
+      "title": "Statistische Auskunftspflicht",
+      "source": "https://www.gesetze-im-internet.de/bstatg_1987/__15.html",
+      "date": "2026",
+      "law": "§15 BStatG",
+      "change": "individual_statistics_law_defines_mandatory_or_voluntary_reporting",
+      "controller": "statistical_offices",
+      "control": "statute_specific",
+      "financial": "unassessed",
+      "questions": [
+        "Which surveys mandatory?",
+        "How confidentiality and secondary use work?"
+      ]
+    },
+    {
+      "id": "BKI-FB2-06",
+      "title": "Sozialdatenübermittlung Erforderlichkeit",
+      "source": "https://www.gesetze-im-internet.de/sgb_10/__67d.html",
+      "date": "2026",
+      "law": "§67d SGB X",
+      "change": "transmitting_bodies_responsibility_and_related_purpose",
+      "controller": "responsible_social_body",
+      "control": "specific_statutory_and_secrecy_requirements",
+      "financial": "unassessed",
+      "questions": [
+        "What actual transfer volumes and recipients?"
+      ]
+    }
+  ],
+  "source_owner_status": "proposed_flashback_ids_canonical_source_register_crosswalk_pending",
+  "gates": {
+    "fee_revenue_statistical_audit": "not_run",
+    "social_AI_model_use_inventory": "not_run",
+    "historical_parliamentary_evidence": "partial",
+    "privacy_interface_proof": "not_run",
+    "broad_fach_release": "pending"
+  }
+}
