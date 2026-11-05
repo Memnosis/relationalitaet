@@ -1,8 +1,8 @@
 # Zwischen Worten und Wirklichkeit
 ## Sprachräume, Termini, Operationalisierungen, Perspektivwechsel und Claims in Bürger-KI, SOULution und KI-Tensor
 
-**Paper-ID:** BKI-LANGUAGE-001 · **Version:** 0.1 · **Stand:** 05.11.2026  
-**Status:** Forschungsentwurf mit geprüftem Projektbestand, belegten methodischen Referenzen, eigenen Hypothesen und vorgeschlagenen Tests. Keine abgeschlossene empirische Sprachraumanalyse.  
+**Paper-ID:** BKI-LANGUAGE-001 · **Version:** 0.2 · **Stand:** 05.11.2026  
+**Status:** Erweiterter Forschungsentwurf mit geprüftem Projektbestand, belegten methodischen Referenzen, eigenen Hypothesen und vorgeschlagenen Tests. Keine abgeschlossene empirische Sprachraumanalyse.  
 **Claim-Register:** [Sprachräume und Perspektivwechsel v0.1](./data/bki-sprachraeume-claims-v0-1.json)  
 **Anknüpfung:** [Originalsprache und Redaktion](./paper-buerger-ki-originalsprache-claims-didaktik-no-loss-v0-1.md) · [Bürger-KI](./buerger-ki.html) · [Forschungsbibliothek](./buerger-ki-forschungsbibliothek.html)
 
@@ -289,6 +289,133 @@ Jeder Pfad beginnt mit einer menschlich formulierbaren Frage, führt zu einer wi
 | P4 | [Bürger-KI-Gesamtstand](./buerger-ki-gesamtstand.md) | Arbeitsstand und methodische Fachverknüpfungen |
 
 **Quellenqualität:** Q1–Q6 begründen Methoden und externe Begriffsmodelle; P1–P4 belegen nur den projektinternen Stand. Eine externe Primärquellen-Recherche zu jeder projektspezifischen Rechts-/Versorgungsaussage ist damit nicht erledigt.
+
+
+## 15. Sprachstrategie für das Gesamtprojekt: Zurückhaltung, Akzente, Übersetzung
+
+**Redaktionelle Leitentscheidung (Vorschlag, noch keine empirisch validierte Wirkung):** Die Sprache folgt dem Zweck der jeweiligen Ebene; *nicht* jeder wissenschaftliche Fund erhält einen Slogan und *nicht* jeder Slogan gehört auf die Hauptseite. Die anfänglich starke, menschliche Stimme von Bürger-KI bleibt die öffentliche Leitstimme. Tiefer liegende Forschungsobjekte besitzen andere Sprachregister, aber ihre Wege zurück zum Ausgangsanliegen bleiben sichtbar.
+
+### 15.1 Fünf kommunikative Tiefen und ihre jeweilige Sprache
+
+| Ebene / Ort | Tonalität und Dichte | Akzentregel | Prüfpflicht |
+| --- | --- | --- | --- |
+| 0 – Hero, Projektidentität | direkt, menschlich, kurze Sätze, maximal ein zentrales Spannungsverhältnis | **sehr stark, sehr selten**; verifizierte Original-Claims priorisieren | keine implizite Erfolgsgarantie |
+| 1 – Hauptbereich, Einleitung | Frage → Beispiel → kurze Erklärung → optionaler Weg | **ein klarer Akzent pro inhaltlicher Einheit**, nicht pro Karte | Quelle/Handlungsgrenze im nächsten Schritt |
+| 2 – Kernthema und Lernweg | neugierige Fragen, Wahlfreiheit, verständliche Varianten | **Akzent am Erkenntnissprung oder Perspektivwechsel**, nicht an jedem Übergang | tatsächlicher neuer Blickwinkel statt Paraphrase |
+| 3 – fachlicher Deep Dive und Paper | genaue Begriffe, Definitionen, Daten, Gegenargumente | **sparsam**: eine präzise Leitthese, sonst Sachprosa | Geltung, Messbarkeit, Quellenrollen |
+| 4 – Quellen-/Daten-/Test-/Skillakte | nüchterne eindeutige Terminologie und Maschinenlesbarkeit | **kein redaktioneller Claim im Beweisfeld** | exakte IDs, Versionen, Negativbefunde, Teststatus |
+
+Die Menge ist eine **Gestaltungshypothese**, keine mechanische Quote: Starke Formulierungen nur dort, wo sie die Erkenntnis verbessern. Keine künstliche Rotation der 21 gesicherten Claims und 28 neuen Vorschläge auf jeder Seite. Kein „Werbedruck“ in Rechts- und Gesundheitsdetails.
+
+### 15.2 Claims haben Rollen, keine bloß stilistischen Varianten
+
+- **Identität**: langfristiger Projektanker (kanonische ursprüngliche Formulierung).
+- **Widerspruch**: ein tatsächliches Spannungsverhältnis, das sachlich im Folgetext aufgelöst wird.
+- **Erkenntnissprung**: markiert, warum eine neue Perspektive etwas anders erkennen lässt.
+- **Leitfrage**: öffnet eine freiwillige Lernoption.
+- **Merksatz**: verdichtet eine überprüfte fachliche Unterscheidung.
+- **Forschungsthese**: ist falsifizierbar, mit Test/Kontext, kein öffentlicher Werbeslogan.
+- **Methodenregel**: benennt, wie wir vorgehen; beweist noch keine Wirkung.
+
+**Auswahl vor Neudichtung:** (1) existierenden historischen Claim prüfen, (2) seine Rolle/Kontextpassung beurteilen, (3) neue Formulierung nur bei zusätzlicher Erkenntnis entwickeln, (4) Risiken/Gegenbeispiele dokumentieren, (5) redaktionelle Freigabe. Ein wissenschaftlich falscher Original-Claim darf trotz historischer Erhaltung nicht unkommentiert weiter als Sachbehauptung erscheinen.
+
+### 15.3 Sechs Übersetzungsleistungen, nicht nur DE/EN
+
+| Typ | Ausgang → Ziel | Nutzen | Verlust- und Fehlerrisiko |
+| --- | --- | --- | --- |
+| TR-01 | Lebenswelt → Fachfrage | Menschen können ihr Ziel und entscheidende Fachfragen verstehen | subjektive Situation fälschlich zur fachlichen Diagnose machen |
+| TR-02 | Fachsprache → verständlicher Text | Quelle wird ohne unnötigen Jargon erschließbar | Ausnahmen, Unsicherheit, Geltungsbereich verschwinden |
+| TR-03 | Institutionenbeschreibung → tatsächliche Wirkung | Vorgang, Leistung und Zielerfüllung auseinanderhalten | eigene Bewertungsmaßstäbe unterschieben |
+| TR-04 | Quelle/Messgröße → These/Operation | Belegkette und Gegenproben offenlegen | Korrelation/Kausalität, Norm/Beobachtung verwechseln |
+| TR-05 | Relations-/Skillmodell → Lernweg/Handlungsoption | Forschung didaktisch vermitteln | Architekturmetapher als bewiesene Praxiswirkung darstellen |
+| TR-06 | natürliche Sprache / DE-AT-CH-EU-Rechtsraum → anderer Sprach-/Rechtsraum | Inhalte sprachlich auffindbar und rechtlich kontextualisierbar machen | Scheinsynonyme, falsche Rechte/Institutionen übertragen |
+
+**Übersetzungsregel:** Ein gelungenes sprachliches Äquivalent ist nicht notwendig ein semantisches, rechtliches, institutionelles oder mathematisches Äquivalent. Für jede Gattung ist ihr eigenes Äquivalenzkriterium nötig. Rückübersetzungen können Fehler aufzeigen, reichen aber nicht als alleiniger Qualitätsnachweis; vor allem im Recht sind unabhängige fachliche Vergleiche entscheidend.
+
+### 15.4 Übersetzungsakte und technische Zustände
+
+`translation_id, source_object_id, source_text_ref, source_language, target_language, source_space, target_space, source_sense_ids, target_sense_ids, claim_type, context/jurisdiction/time, equivalence_type, invariant, added_assumptions, omitted_information, counterexamples, source_ids, reviewer, review_status, affected_learning_routes, change_event_id`.
+
+**Kategorien der Beziehung:** `exact_in_defined_context`, `partial_overlap`, `broader`, `narrower`, `analogy_only`, `contradiction`, `not_equivalent`, `unassessed`. Keine Standardsyntax behauptet: Dies ist das vorgeschlagene projektspezifische Modell. Konzeptsinn und Benennungen lassen sich an W3C SKOS anlehnen; Herkunft und Bearbeitung an W3C PROV-O.
+
+### 15.5 Beispiel: Ein Satz, mehrere Räume
+
+**Originalanliegen:** „Ich finde keinen Therapieplatz.“
+
+- Alltag → „Welche erreichbare und geeignete Unterstützung suche ich?“
+- Medizin → „Welche fachliche Indikation, Behandlungsform und Dringlichkeit sind überhaupt festzustellen?“
+- Recht → „Welche konkrete Leistungsgrundlage und welche Voraussetzungen gelten?“
+- Verwaltung/Versorgung → „Was wurde vermittelt; kam eine geeignete Leistung tatsächlich zustande?“
+- Wissenschaft → „Was wurde wann und bei welcher Population als Bedarf, Kapazität, Zugang und Beginn gemessen?“
+- Politik → „Welche Zielwerte und Maßnahmen existieren und welche Wirkungen sind belegt?“
+- KI-Skill → „Kann die Übersetzung Quellen und Handlungsalternativen unterscheiden, ohne die Person zu diagnostizieren oder Ansprüche zu behaupten?“
+- Didaktik → „Was bedeutet hier eigentlich: einen Platz haben?“
+
+**Sprachlicher Akzent am Wechsel:** „Ein vermittelter Termin ist noch keine gesicherte Behandlung.“ **Status:** Beispiel-Claim, nicht medizinische oder rechtliche Vollständigkeitsbehauptung. Es gibt Fälle, in denen ein Termin sehr wohl eine passende und ausreichende Intervention darstellt; deshalb Einzelfallkontext beachten.
+
+### 15.6 Unterschiedliche Projektstimmen
+
+**Bürger-KI** spricht vom Anliegen und den erreichbaren Möglichkeiten; sie verspricht keine automatische Leistungsdurchsetzung. **SOULution** verbindet Wissen und Lösungsräume; sein vorhandener Claim „Wissen verbinden. Lösungen möglich machen.“ bleibt eigenständig. **KI-Tensor** verwendet genaue Relations- und mathematische Begriffe; anschauliche Metaphern dürfen keinen Strukturbeweis ersetzen. **Mini-KI / Skillforschung** sagt erst dann „kann“, wenn Tests es für den konkreten Geltungsbereich belegen; sonst „soll“, „wird untersucht“ oder „ist spezifiziert“. **Gesellschafts-/Politikforschung** unterscheidet Aussage, Quelle, politische Bewertung, Indikator und mögliche Kausalität.
+
+**Keine einheitliche Stimme für alle Artefakte:** Es gibt ein gemeinsames Wörter- und Quellenregister, aber bewusst unterschiedliche Darstellungsformen.
+
+### 15.7 Gestaltungsregeln und redaktionelle Abnahme
+
+1. Auf Hero und Haupteinstieg keine Massen von Forschungs-IDs, Phasenständen oder Quellenbannern; Kontext und Vertiefung unmittelbar erreichbar.
+2. Claim sichtbar **nur** mit eigenem Erkenntnisbeitrag. Ein Akzent ist oft genug; weitere Karten sollten klare Fragen statt immer neue Punchlines erhalten.
+3. Besonders starke Akzente für **echte Widersprüche**, **Perspektivwechsel**, **erreichte Nachweise**, **Grenzfälle** und **negative Befunde** reservieren.
+4. Fachtexte erklären einen Schlüsselbegriff zunächst am konkreten Beispiel und präzisieren erst dann Definition und Ausnahmen.
+5. Quellen, Tests, Gesetze und Daten bleiben zitiergenau und ohne stilistische Überschreibung.
+6. Jede neue Übersetzung bewahrt mindestens den Ausgangskontext, die Zielaussage, die Unsicherheit und die Rückführung zur Quelle; sonst als `lossy` markieren.
+7. Keine KI-generierte Übersetzung als fachlich geprüft deklarieren, bevor ein geeigneter Review vorliegt.
+8. Für öffentliche Lerntexte Verständlichkeit mit *echten Aufgaben* prüfen: Kann man Bedeutung, Grenze und nächsten Weg unterscheiden? Nicht bloß Lesbarkeitszahlen optimieren.
+
+**Quellenbezug:** [Europäische Kommission, Plain Language](https://translation.ec.europa.eu/languages-and-translation-european-commission/plain-language-making-european-commission-texts-clear_en); [Europäische Kommission, English Style Guide](https://commission.europa.eu/system/files/2023-11/styleguide_english_dgt_en.pdf); [W3C SKOS](https://www.w3.org/TR/skos-reference/); [W3C PROV-O](https://www.w3.org/TR/prov-o/). Dies sind externe Methodenbezüge; die projektspezifische Platzierungsstrategie ist ein eigener Entwurf.
+
+## 16. Bestandsaudit, No-Loss-Risiken und Phase 15
+
+**Audit vom 05.11.2026:** Repository-Stichprobe der aktuellen Bürger-KI-Hauptseite, Lernwege, Therapieplatz-Pilot, zwei Claim-Register, des Kern-Glossars, Thesenüberblicks, Lernwege-Datenmodells, der Forschungsbibliothek sowie Standards-/Quellenregister. Vollständige inhaltliche Prüfung aller Repository-Dateien und des historischen ZIP-Glossars erfolgte nicht. Details und Prioritäten: [Phase-15-Audit und Umsetzungsplan](./buerger-ki-phase-15-sprache-uebersetzung-no-loss.md).
+
+### 16.1 Tatsächlich vorhandener Bestand
+
+- Gesicherte redaktionelle Anker: **21**, getrennt von **28** neuen, nicht freigegebenen Vorschlägen.
+- Historische Hauptseite: Vergleich mit **64** ursprünglichen H1–H3-Überschriften, im vorherigen Originalsprach-Audit als erhalten dokumentiert.
+- Lernpfad-Modell: **5** Haupteinstiege, **5** Lernwege, **6** Themenfilter, **12** modellierte Objektarten.
+- Therapieplatz-Pilot: **5** Perspektiven und **5** Spiegelungen.
+- Forschungsbibliothek: **21** kuratierte Einträge, **kein** vollständiger Repository-Katalog.
+- Öffentliche Glossar-Vorschau: **12** Kurzdefinitionen; historischer Bestand mit **1.072** Termini wird nur referenziert, nicht vollständig im Webregister geführt.
+- Öffentliche Thesenübersicht: **6** thematische Linien, keine vollständige historische Thesenliste.
+- Bestehendes fachliches Claim-Schema: verlangt u. a. `CLM-...`-IDs und strukturierten Quellen-/Evidenz-/Freigabestatus; redaktionelle `BKI-LC-...`-Datensätze sind **nicht** automatisch Instanzen dieses Schemas.
+
+### 16.2 Zentrale No-Loss-Befunde
+
+**Stärke:** Die ursprünglichen Claims sind historisch getrennt gesichert; menschlicher Einstieg, kuratierte Fachbibliothek und fünf Perspektiven sind angelegt. Ein neues Paper kann ohne Verdrängung der Startseite erscheinen.
+
+**Risiko A:** Zwei Claim-Regime: Redaktionsanker und Vorschläge einerseits, striktes Evidenz-Claimschema andererseits. **Lösung:** explizite Crosswalk-/Mapping-Akte, ohne redaktionelle Slogans als wissenschaftliche Claims auszugeben.
+
+**Risiko B:** Im Glossar stehen 12 Webkurzdefinitionen; 1.072 historische Definitionen sind nicht in dieser Datei. **Lösung:** erst historisches Originalinventar und Deduplikation, dann Verlinkung von Sinn-IDs und Sprachvarianten. Keinesfalls Web-Kurzfassung als vollständiges Glossar bezeichnen.
+
+**Risiko C:** 6 publizierte thematische Thesen sind nicht alle bisherigen Projektthesen; die zwölf `LANG-T`-Thesen sind Paper-interne Hypothesen. **Lösung:** Querverweise bei Erhalt der IDs, nicht stillschweigender Merge.
+
+**Risiko D:** Forschungsbibliothek = kuratierte Auswahl, nicht Gesamtarchiv. **Lösung:** getrennte Inventarisierung und Relevanznavigation; keine willkürlichen Vollständigkeitsquoten.
+
+**Risiko E:** Quellenliste mischt Standards, Forschungsquellen und interne Papers; ein gültiger Standard ist kein Beweis einer Projektaussage. **Lösung:** Quellenrollen und konkrete Belegstellen je Aussage erfassen.
+
+**Risiko F:** Perspektivwechsel und Übersetzungsoperator sind derzeit **Spezifikation**, keine implementierte und empirisch getestete Sprach-KI. **Lösung:** kleinen, überprüfbaren Goldstandard-Korpus und Negativtests bilden.
+
+### 16.3 Nächste Phase: Prioritäten
+
+**Phase 15A – sichern:** unveränderten historischen Claim-Bestand, Originalseiten-Headlines und bestehende Lernwege als Baseline fixieren; alle neuen sprachlichen Eingriffe versionieren.
+
+**Phase 15B – Crosswalk:** redaktionelle Claims, wissenschaftliche Claims, Terminologie, Thesen, Quellrollen und Perspektiven durch Mapping verbinden, ohne ihre Identitäten zu verschmelzen.
+
+**Phase 15C – fünf konkrete Übersetzungsproben:** Therapieplatz als Vertikaltest, zusätzlich Sozialleistungszahlung, Schule/Pflege, eine politische Wirkungsaussage und ein KI-Tensor-Relationsbeispiel. Jeweils menschliche, fachliche, institutionelle, wissenschaftliche und technische Darstellung samt Gegenprobe.
+
+**Phase 15D – redaktioneller Prototyp:** nur zwei oder drei tatsächliche Perspektivwechsel auf bestehenden Seiten mit explizitem alternativen Pfad erproben; die Hero-Sätze und bestehenden Hauptüberschriften unangetastet lassen.
+
+**Phase 15E – prüfen:** Verständlichkeit, Äquivalenzfehler, Rückführbarkeit, erfasste Ausnahmen, Perspektivmehrwert, Quellenintegrität und No-Loss-Regressionsprüfung. Erst dann Claims für mehr Sichtbarkeit freigeben.
+
+**Definition fertig:** Kein historischer Text und keine Quellen-/Begriffs-/Thesen-ID verloren; neue Vorschläge bleiben erkennbar; mindestens ein Perspektivwechsel besitzt Original, fachliche Übersetzung, Quellen-/Geltungsnotizen, Gegenbeispiel und nachvollziehbaren Rückweg; Änderungen am öffentlichen Text sind tatsächlich geprüft.
 
 ## 14. Abnahme und nächste Forschungsstufe
 
