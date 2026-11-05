@@ -318,6 +318,20 @@
       "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/DEEP_DIVE_PATIENTENAKTE_QUELLEN_CROSSWALK_V0_1.json",
       "group": "Methoden",
       "status": "machine_readable_source_roles_review_pending"
+    },
+    {
+      "id": "BKI-LIB-046",
+      "title": "Flashback 01: Wem gehören unsere Daten? Opt-in, Opt-out, Melderecht und ePA im historischen Vergleich",
+      "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/FLASHBACK_01_DATEN_OPTIN_OPTOUT_MELDERECHT_EPA_V0_1_2026-11-05.md",
+      "group": "Methoden",
+      "status": "initial_source_review_financial_and_legal_history_gaps"
+    },
+    {
+      "id": "BKI-LIB-047",
+      "title": "Flashback: Neun gesetzliche Datenwege im maschinenlesbaren Vergleich",
+      "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/FLASHBACK_01_RECHTSVERGLEICH_V0_1.json",
+      "group": "Methoden",
+      "status": "comparative_law_research_draft"
     }
   ]
 }
