@@ -1,0 +1,229 @@
+{
+  "schema": "bki-editorial-anchors/0.1",
+  "as_of": "2026-11-05",
+  "status": "historical_headline_preservation_verified",
+  "historical_main_ref": "873efa035e940fa727568886dd7c510cfd5115f1",
+  "historic_main_headings": 64,
+  "remaining_historic_headings": 64,
+  "claims": [
+    {
+      "id": "BKI-CLAIM-01",
+      "text": "Rechte verstehen. Tatsächliche Erfüllung prüfen.",
+      "owner_page": "buerger-ki.html",
+      "placement": "hero",
+      "role": "identity",
+      "editorial_rule": "protect_exact",
+      "verification": "string_present_2026-11-05",
+      "canonical": true
+    },
+    {
+      "id": "BKI-CLAIM-02",
+      "text": "Ein Bescheid ist noch keine Leistung.",
+      "owner_page": "buerger-ki.html",
+      "placement": "core",
+      "role": "paradox",
+      "editorial_rule": "protect_exact",
+      "verification": "string_present_2026-11-05",
+      "canonical": true
+    },
+    {
+      "id": "BKI-CLAIM-03",
+      "text": "Bis das ankommt, was einem zusteht.",
+      "owner_page": "buerger-ki.html",
+      "placement": "core",
+      "role": "goal",
+      "editorial_rule": "protect_exact",
+      "verification": "string_present_2026-11-05",
+      "canonical": true
+    },
+    {
+      "id": "BKI-CLAIM-04",
+      "text": "Du bist mit deinem Problem nicht allein.",
+      "owner_page": "buerger-ki.html",
+      "placement": "core",
+      "role": "community",
+      "editorial_rule": "protect_with_context",
+      "verification": "string_present_2026-11-05",
+      "canonical": true
+    },
+    {
+      "id": "BKI-CLAIM-05",
+      "text": "Vernetzte Fähigkeiten. Mehr Handlungsmöglichkeiten.",
+      "owner_page": "buerger-ki.html",
+      "placement": "core",
+      "role": "concept",
+      "editorial_rule": "protect_exact",
+      "verification": "string_present_2026-11-05",
+      "canonical": true
+    },
+    {
+      "id": "BKI-CLAIM-06",
+      "text": "Vom eigenen Recht zur gemeinsamen gesellschaftlichen Frage",
+      "owner_page": "buerger-ki.html",
+      "placement": "core",
+      "role": "bridge",
+      "editorial_rule": "protect_exact",
+      "verification": "string_present_2026-11-05",
+      "canonical": true
+    },
+    {
+      "id": "BKI-CLAIM-07",
+      "text": "Wirkung statt Technik zählen",
+      "owner_page": "buerger-ki.html",
+      "placement": "core",
+      "role": "method",
+      "editorial_rule": "protect_exact",
+      "verification": "string_present_2026-11-05",
+      "canonical": true
+    },
+    {
+      "id": "BKI-CLAIM-08",
+      "text": "Was kann Bürger-KI konkret leisten?",
+      "owner_page": "buerger-ki.html",
+      "placement": "core",
+      "role": "capability",
+      "editorial_rule": "protect_exact",
+      "verification": "string_present_2026-11-05",
+      "canonical": true
+    },
+    {
+      "id": "BKI-CLAIM-09",
+      "text": "Vom Anliegen zur Lösung.",
+      "owner_page": "buerger-ki-weg.html",
+      "placement": "hero",
+      "role": "learning",
+      "editorial_rule": "protect_exact",
+      "verification": "string_present_2026-11-05",
+      "canonical": true
+    },
+    {
+      "id": "BKI-CLAIM-10",
+      "text": "Sieben Fragen bringen Klarheit.",
+      "owner_page": "buerger-ki-weg.html",
+      "placement": "core",
+      "role": "learning",
+      "editorial_rule": "protect_exact",
+      "verification": "string_present_2026-11-05",
+      "canonical": true
+    },
+    {
+      "id": "BKI-CLAIM-11",
+      "text": "Was willst du erreichen?",
+      "owner_page": "buerger-ki-weg.html",
+      "placement": "hero",
+      "role": "goal",
+      "editorial_rule": "protect_exact",
+      "verification": "string_present_2026-11-05",
+      "canonical": true
+    },
+    {
+      "id": "BKI-CLAIM-12",
+      "text": "Was hilft wirklich?",
+      "owner_page": "buerger-ki-weg.html",
+      "placement": "hero",
+      "role": "outcome",
+      "editorial_rule": "protect_exact",
+      "verification": "string_present_2026-11-05",
+      "canonical": true
+    },
+    {
+      "id": "BKI-CLAIM-13",
+      "text": "Das Recht steht am Anfang – nicht die Bewilligung.",
+      "owner_page": "buerger-ki-mein-recht.html",
+      "placement": "core",
+      "role": "legal_distinction",
+      "editorial_rule": "protect_with_scope",
+      "verification": "string_present_2026-11-05",
+      "canonical": true
+    },
+    {
+      "id": "BKI-CLAIM-14",
+      "text": "Unser gemeinsames Problem",
+      "owner_page": "buerger-ki-gemeinsam.html",
+      "placement": "hero",
+      "role": "community",
+      "editorial_rule": "protect_exact",
+      "verification": "string_present_2026-11-05",
+      "canonical": true
+    },
+    {
+      "id": "BKI-CLAIM-15",
+      "text": "Bestehende Netzwerke stärken, nicht ersetzen",
+      "owner_page": "buerger-ki-gemeinsam.html",
+      "placement": "core",
+      "role": "collaboration",
+      "editorial_rule": "protect_exact",
+      "verification": "string_present_2026-11-05",
+      "canonical": true
+    },
+    {
+      "id": "BKI-CLAIM-16",
+      "text": "Gemeinsame Fähigkeiten statt gemeinsamer Fallverwaltung",
+      "owner_page": "buerger-ki-gemeinsam.html",
+      "placement": "core",
+      "role": "project_scope",
+      "editorial_rule": "protect_exact",
+      "verification": "string_present_2026-11-05",
+      "canonical": true
+    },
+    {
+      "id": "BKI-CLAIM-17",
+      "text": "Unsere gesellschaftlichen Grundlagen",
+      "owner_page": "buerger-ki-grundlagen.html",
+      "placement": "hero",
+      "role": "systems",
+      "editorial_rule": "protect_exact",
+      "verification": "string_present_2026-11-05",
+      "canonical": true
+    },
+    {
+      "id": "BKI-CLAIM-18",
+      "text": "Ein gesellschaftliches Versprechen ist nicht automatisch ein einklagbarer Anspruch.",
+      "owner_page": "buerger-ki-grundlagen.html",
+      "placement": "core",
+      "role": "scope",
+      "editorial_rule": "protect_with_scope",
+      "verification": "string_present_2026-11-05",
+      "canonical": true
+    },
+    {
+      "id": "BKI-CLAIM-19",
+      "text": "Viele Lebensbereiche. Gemeinsame Fähigkeiten.",
+      "owner_page": "buerger-ki-anwendungsfelder.html",
+      "placement": "hero",
+      "role": "reuse",
+      "editorial_rule": "protect_exact",
+      "verification": "string_present_2026-11-05",
+      "canonical": true
+    },
+    {
+      "id": "BKI-CLAIM-20",
+      "text": "Ein Skill – mehrere mögliche Anwendungen.",
+      "owner_page": "buerger-ki-anwendungsfelder.html",
+      "placement": "core",
+      "role": "capability",
+      "editorial_rule": "protect_exact",
+      "verification": "string_present_2026-11-05",
+      "canonical": true
+    },
+    {
+      "id": "SOUL-CLAIM-01",
+      "text": "Wissen verbinden. Lösungen möglich machen.",
+      "owner_page": "soulution.html",
+      "placement": "hero",
+      "role": "ecosystem",
+      "editorial_rule": "protect_exact",
+      "verification": "string_present_2026-11-05",
+      "canonical": true
+    }
+  ],
+  "editorial_policy": {
+    "preserve_core_headlines": true,
+    "avoid_technical_first_screen": true,
+    "teach_from_human_question": true,
+    "research_after_core_story": true,
+    "technical_details_in_deep_dive": true,
+    "source_of_truth": "canonical_claim_registry",
+    "no_claim_of_scientific_quality_from_number_of_articles": true
+  }
+}
