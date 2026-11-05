@@ -171,6 +171,20 @@
       "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/ARCHITEKTUR_BACKLOG_V1_2026-11-05.json",
       "group": "Methoden",
       "status": "machine_readable_plan"
+    },
+    {
+      "id": "BKI-LIB-025",
+      "title": "Sprachprojekt zuerst: Pfadgrammatik, Übersetzbarkeit und ausklappbare Wissensräume",
+      "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/SPRACHPROJEKT_PFADGRAMMATIK_UEBERSETZBARKEIT_WISSENSRAEUME_V1_2026-11-05.md",
+      "group": "Didaktik",
+      "status": "review_plan_not_approved_site_rollout"
+    },
+    {
+      "id": "BKI-LIB-026",
+      "title": "Pfadelement-Inventar: fünf Routen, fünf Blickwinkel und Spiegelungen",
+      "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/SPRACHPFADE_ELEMENTINVENTAR_V0_1.json",
+      "group": "Didaktik",
+      "status": "machine_readable_inventory_unreviewed"
     }
   ]
 }
