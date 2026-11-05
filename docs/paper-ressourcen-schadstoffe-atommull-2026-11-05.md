@@ -1,3 +1,15 @@
+<!-- BKI-MINIMAL-PAPER-V1 -->
+![Bürger-KI – Forschung und Verbindung](./assets/media/buerger-ki-zeichen.svg)
+
+**Forschungsedition · Ressourcen statt Müll – Materialwert, Schadstoffe und intergenerationelle Folgekosten**
+
+**Kurzbeschreibung:** Quellengebundene Forschungs- und Entwicklungspublikation mit eigenständigem Prüfstatus und offenen Fragen.  
+**Schlagwörter:** Bürger-KI · Quellen · Evidenz · Crosswalk · Ressourcen statt Müll  
+**Stand:** 5. November 2026  
+**Kontakt:** Kontakt@erlebNils.de
+
+---
+
 # Ressourcen statt Müll – Materialwert, Schadstoffe und intergenerationelle Folgekosten
 **Forschungsstand v0.1 · 05.11.2026 · eigenständiges Ressourcen-Paper**
 
@@ -41,3 +53,9 @@ Grundsatz: Kommunen können aus Altpapier, Metall, bestimmten Kunststoffen, Bioa
 **Beispiel St. Ingbert:** Papierverkauf 2020 131.000 EUR, 2022 425.000 EUR, 2024 rund 268.000 EUR; Gebühreneinnahmen im Plan 2026 rund 3,187 Mio. EUR. Quelle https://ratsinfo-st-ingbert.ego-saar.de/allris-public/wicket/resource/org.apache.wicket.Application/doc1375096.pdf . Das ist eine Erlöszeitreihe, kein Gewinnbeweis.
 **Benchmark:** `kommunaler Nettoertrag = stoffliche Verkaufs- und Energieerlöse + Gebühren/sonstige Entgelte - alle zurechenbaren Betriebs-/Finanzierungs-/Nachsorgekosten`. Alternativ: `stofflicher Nettowert ohne Gebühren = Verkaufserlöse - stoffbezogene Rückgewinnungs-/Sammlungs-/Transportkosten`. Beide Größen strikt getrennt. Gebühren sind eine Finanzierung der Entsorgungsleistung, kein intrinsischer Marktwert des Stoffes.
 **Forschung:** Fallstudien mit Gebührenkalkulation, Betriebsergebnis, Stoffpreis und Rückgewinnungsquote je Kommune; Prüfung, ob besseres Sortieren den Gebührenbedarf tatsächlich senkt und unter welchen Bedingungen ein echter Nettogewinn ohne Gebühren erzielt werden könnte.
+
+
+---
+
+*Bürger-KI · Rechte verstehen. Probleme lösen. Gesellschaft verbessern.*  
+[Zur Bürger-KI](./buerger-ki.html) · [Forschungsbibliothek](./bibliothek.html) · Kontakt@erlebNils.de · 05.11.2026
