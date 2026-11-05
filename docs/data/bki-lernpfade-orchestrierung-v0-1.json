@@ -1,0 +1,471 @@
+{
+  "schema": "bki-learning-orchestration/0.1",
+  "date": "2026-11-05",
+  "status": "design_and_navigation_inventory",
+  "route_policy": "Single canonical IDs; repeated UI views point to one owned object",
+  "scope_warning": "Bürger-KI and Tensor participation remain independent organizational paths",
+  "main_entries": [
+    {
+      "id": "entry-goal",
+      "title": "Anliegen und Ziele",
+      "question": "Was will ich erreichen?",
+      "page": "buerger-ki-weg.html",
+      "primary_role": "learning",
+      "flows": [
+        "beginner",
+        "practical"
+      ],
+      "next": [
+        "entry-help",
+        "entry-knowledge"
+      ],
+      "modules": [
+        "goal_decomposition",
+        "success_criteria",
+        "alternative_paths"
+      ]
+    },
+    {
+      "id": "entry-knowledge",
+      "title": "Wissen verstehen",
+      "question": "Welche Begriffe und Quellen sind relevant?",
+      "page": "buerger-ki-ziele-lexikon.html",
+      "primary_role": "learning",
+      "flows": [
+        "beginner",
+        "learning",
+        "research"
+      ],
+      "next": [
+        "entry-help",
+        "entry-society"
+      ],
+      "modules": [
+        "glossary",
+        "wikipedia_as_orientation",
+        "sources",
+        "evidence"
+      ]
+    },
+    {
+      "id": "entry-help",
+      "title": "Wege und Unterstützung",
+      "question": "Wie komme ich von Wissen zu praktischen Wegen?",
+      "page": "buerger-ki-weisungsatlas.html",
+      "primary_role": "practice",
+      "flows": [
+        "practical",
+        "professional"
+      ],
+      "next": [
+        "entry-society",
+        "entry-research"
+      ],
+      "modules": [
+        "legal_norms",
+        "instructions",
+        "help_providers",
+        "representation",
+        "skills"
+      ]
+    },
+    {
+      "id": "entry-society",
+      "title": "Gesellschaft untersuchen",
+      "question": "Wie entwickeln sich Versorgung, Institutionen und Folgen?",
+      "page": "buerger-ki-grundlagen.html",
+      "primary_role": "analysis",
+      "flows": [
+        "learning",
+        "system",
+        "professional"
+      ],
+      "next": [
+        "entry-research",
+        "entry-knowledge"
+      ],
+      "modules": [
+        "historical_metrics",
+        "responsibility",
+        "undercoverage",
+        "crisis_stress_test",
+        "evaluation"
+      ]
+    },
+    {
+      "id": "entry-research",
+      "title": "Forschung und Werkzeuge",
+      "question": "Was ist belegt, was ist offen, welche Fähigkeit entwickeln wir?",
+      "page": "buerger-ki-experimentierlabor.md",
+      "primary_role": "research",
+      "flows": [
+        "research",
+        "system"
+      ],
+      "next": [
+        "entry-knowledge",
+        "entry-goal"
+      ],
+      "modules": [
+        "test_results",
+        "skills",
+        "research_papers",
+        "no_loss"
+      ]
+    }
+  ],
+  "learning_paths": [
+    {
+      "id": "LP-01",
+      "title": "Ein Anliegen klären",
+      "audience": "Menschen mit einer Frage",
+      "start": "entry-goal",
+      "sequence": [
+        "entry-goal",
+        "entry-knowledge",
+        "entry-help"
+      ],
+      "exit": "handlungsoption_with_source_and_limits",
+      "review": "open"
+    },
+    {
+      "id": "LP-02",
+      "title": "Ein Thema verstehen",
+      "audience": "Lernende",
+      "start": "entry-knowledge",
+      "sequence": [
+        "entry-knowledge",
+        "entry-goal",
+        "entry-society"
+      ],
+      "exit": "concept_map_and_knowledge_limits",
+      "review": "open"
+    },
+    {
+      "id": "LP-03",
+      "title": "Unterstützung finden",
+      "audience": "Beratungsorientierte",
+      "start": "entry-help",
+      "sequence": [
+        "entry-help",
+        "entry-knowledge",
+        "entry-goal"
+      ],
+      "exit": "provider_path_with_access_requirements",
+      "review": "open"
+    },
+    {
+      "id": "LP-04",
+      "title": "Institutionen und Entwicklungen prüfen",
+      "audience": "Forschende/Interessierte",
+      "start": "entry-society",
+      "sequence": [
+        "entry-society",
+        "entry-knowledge",
+        "entry-research"
+      ],
+      "exit": "specific_evidence_question",
+      "review": "open"
+    },
+    {
+      "id": "LP-05",
+      "title": "Fähigkeiten entwickeln und prüfen",
+      "audience": "Fachleute/Entwickelnde",
+      "start": "entry-research",
+      "sequence": [
+        "entry-research",
+        "entry-knowledge",
+        "entry-help"
+      ],
+      "exit": "versioned_skill_or_test_artefact",
+      "review": "open"
+    }
+  ],
+  "topic_filters": [
+    {
+      "id": "health",
+      "name": "Gesundheit und Pflege",
+      "modules": [
+        "therapy_access",
+        "nursing_places",
+        "hospital_capacity",
+        "patient_rights",
+        "public_health"
+      ]
+    },
+    {
+      "id": "education",
+      "name": "Bildung und Lernen",
+      "modules": [
+        "school_supply",
+        "education_metrics",
+        "learning_support",
+        "education_rights"
+      ]
+    },
+    {
+      "id": "family",
+      "name": "Familie und Jugend",
+      "modules": [
+        "child_protection",
+        "youth_welfare",
+        "ombudship",
+        "family_support"
+      ]
+    },
+    {
+      "id": "social",
+      "name": "Arbeit und Soziales",
+      "modules": [
+        "welfare",
+        "labor_metrics",
+        "social_assistance",
+        "tax_oversight"
+      ]
+    },
+    {
+      "id": "housing",
+      "name": "Wohnen und Verbraucher",
+      "modules": [
+        "housing_support",
+        "tenancy",
+        "consumer_rights"
+      ]
+    },
+    {
+      "id": "society",
+      "name": "Öffentliche Infrastruktur und Rechenschaft",
+      "modules": [
+        "governance",
+        "historical_measurement",
+        "evaluation",
+        "nutrition",
+        "public_spending"
+      ]
+    }
+  ],
+  "object_types": [
+    {
+      "type": "source",
+      "meaning": "Quellenherkunft, Version und Fundstelle",
+      "canonical_owner": "source_register"
+    },
+    {
+      "type": "concept",
+      "meaning": "Glossareintrag und Begriffssinn",
+      "canonical_owner": "glossary_register"
+    },
+    {
+      "type": "goal",
+      "meaning": "erwünschter Zustand und Zielkriterium",
+      "canonical_owner": "goal_register"
+    },
+    {
+      "type": "relation",
+      "meaning": "begründete Verbindung oder Nichtentsprechung",
+      "canonical_owner": "relation_register"
+    },
+    {
+      "type": "institution",
+      "meaning": "Behörde/Verantwortungsraum",
+      "canonical_owner": "institution_register"
+    },
+    {
+      "type": "provider",
+      "meaning": "Hilfsorganisation und konkretes Angebot",
+      "canonical_owner": "help_register"
+    },
+    {
+      "type": "skill",
+      "meaning": "reproduzierbare Fähigkeit",
+      "canonical_owner": "skill_register"
+    },
+    {
+      "type": "test",
+      "meaning": "Prüffrage, Methode, Negativbefund",
+      "canonical_owner": "test_register"
+    },
+    {
+      "type": "finding",
+      "meaning": "belegte/limitierte/nicht entscheidbare Erkenntnis",
+      "canonical_owner": "finding_register"
+    },
+    {
+      "type": "paper",
+      "meaning": "Argumentation, Einordnung und Forschungsstand",
+      "canonical_owner": "paper_library"
+    },
+    {
+      "type": "learning_node",
+      "meaning": "didaktisches Modul mit mehreren Zugängen",
+      "canonical_owner": "learning_index"
+    },
+    {
+      "type": "metric_definition",
+      "meaning": "historisch gültige Messdefinition",
+      "canonical_owner": "metric_register"
+    }
+  ],
+  "routing_rules": [
+    {
+      "change": "new_source",
+      "primary": "source",
+      "also": [
+        "concept",
+        "relation"
+      ],
+      "condition": "new source or version with provenance",
+      "paper": "only_if_analytic_synthesis"
+    },
+    {
+      "change": "new_term_or_sense",
+      "primary": "concept",
+      "also": [
+        "learning_node",
+        "relation"
+      ],
+      "condition": "semantic novelty verified; retain distinct meanings",
+      "paper": "not_required"
+    },
+    {
+      "change": "new_goal_or_context",
+      "primary": "goal",
+      "also": [
+        "skill",
+        "learning_node"
+      ],
+      "condition": "distinct success criterion or requirement",
+      "paper": "not_required"
+    },
+    {
+      "change": "new_instruction_or_case_relation",
+      "primary": "relation",
+      "also": [
+        "source",
+        "skill",
+        "test"
+      ],
+      "condition": "same jurisdiction, time and legal conditions checked",
+      "paper": "only_if_finding_warrants"
+    },
+    {
+      "change": "new_help_provider",
+      "primary": "provider",
+      "also": [
+        "institution",
+        "goal"
+      ],
+      "condition": "service type, public contact and access scope distinguished",
+      "paper": "not_required"
+    },
+    {
+      "change": "new_metric_or_method_break",
+      "primary": "metric_definition",
+      "also": [
+        "finding",
+        "test",
+        "source"
+      ],
+      "condition": "definition, numerator, denominator, population and year present",
+      "paper": "only_if_longitudinal_analysis"
+    },
+    {
+      "change": "new_validated_capability",
+      "primary": "skill",
+      "also": [
+        "test",
+        "learning_node",
+        "finding"
+      ],
+      "condition": "real execution and reviewed results",
+      "paper": "only_if_substantial"
+    },
+    {
+      "change": "new_analysis_without_verifiable_data",
+      "primary": "finding",
+      "also": [
+        "test",
+        "source"
+      ],
+      "condition": "explicit unknown/not assessed evidence status",
+      "paper": "research_note_only"
+    }
+  ],
+  "reused_elements": [
+    {
+      "object": "Begriffsverständnis",
+      "owner": "concept",
+      "surfaces": [
+        "Einsteigerpfad",
+        "Lexikon",
+        "Quellenprüfung",
+        "Fachpapier"
+      ],
+      "rule": "one concept_id; multiple explanatory representations"
+    },
+    {
+      "object": "Zielerkennung",
+      "owner": "goal",
+      "surfaces": [
+        "Anliegen",
+        "Hilfepfad",
+        "Praxis",
+        "Forschungsfall"
+      ],
+      "rule": "one goal_id, variants only via context"
+    },
+    {
+      "object": "Quellen-/Geltungsprüfung",
+      "owner": "source",
+      "surfaces": [
+        "Recht",
+        "Gesundheit",
+        "Bildung",
+        "Infrastruktur",
+        "Wissenschaft"
+      ],
+      "rule": "shared source_id; per-domain applicability"
+    },
+    {
+      "object": "Historische Metriken",
+      "owner": "metric_definition",
+      "surfaces": [
+        "Arbeitsmarkt",
+        "Steuern",
+        "Schule",
+        "Kliniken",
+        "Krisen"
+      ],
+      "rule": "one metric lineage with method breaks"
+    },
+    {
+      "object": "Forschungsstand",
+      "owner": "finding",
+      "surfaces": [
+        "Landing page",
+        "Fachpfad",
+        "Projektstand",
+        "Paper"
+      ],
+      "rule": "one result_id, filtered projections"
+    },
+    {
+      "object": "Mitmachen und Skills",
+      "owner": "skill",
+      "surfaces": [
+        "Praktische Anwendung",
+        "Forschung",
+        "KI-Tensor-Methodik"
+      ],
+      "rule": "independent project scopes, reusable concept only"
+    }
+  ],
+  "decisions": [
+    "upgrade_existing",
+    "add_relation",
+    "new_module",
+    "appendix_only",
+    "not_yet_publish"
+  ],
+  "migration_status": "initial_inventory_not_full_repo_crosswalk"
+}
