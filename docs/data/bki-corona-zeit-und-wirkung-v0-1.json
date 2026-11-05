@@ -1,0 +1,203 @@
+{
+  "schema": "bki-corona-temporal-evidence/0.1",
+  "as_of": "2026-11-05",
+  "status": "source-linked_research_timeline_not_causal_impact_study",
+  "method": "zeit→sichtbares Problem→fachliche Reaktion→politische Maßnahme→Indikator→konkurrierende Deutung→spätere Evaluation→Korrektur",
+  "measurement_families": [
+    "epidemiological_load",
+    "capacity_and_staff",
+    "data_quality_and_reporting",
+    "non_COVID_care",
+    "children_and_learning",
+    "economic_and_social_burden",
+    "legal_protection",
+    "public_spending_and_audit"
+  ],
+  "episodes": [
+    {
+      "id": "CR-2020-01",
+      "date": "2020-01",
+      "phase": "Frühwarnung",
+      "problem": "Neues respiratorisches Infektionsgeschehen, ungewisse Übertragung und Schwere",
+      "professional_response": "RKI aktivierte Krisenstrukturen am 6. Januar und veröffentlichte Lageinformationen ab 7. Januar.",
+      "measurement": [
+        "Zeit bis Lageerfassung",
+        "Testkapazität",
+        "Vollständigkeit und Verzögerung der Meldungen"
+      ],
+      "contrast": "Frühes Warnen ist nicht dasselbe wie zuverlässiges Wissen über spätere Verläufe.",
+      "source": "https://www.rki.de/SharedDocs/FAQs/DE/COVID-19-Pandemie/Protokolle/FAQ-Liste-Krisenstab.html?nn=16776932",
+      "evaluation": "Spätere Systembewertung erforderlich; keine Gesamtwirkung aus Warnzeitpunkt ableitbar.",
+      "worlds": [
+        "SW-01",
+        "SW-02",
+        "SW-05"
+      ]
+    },
+    {
+      "id": "CR-2020-03",
+      "date": "2020-03",
+      "phase": "Pandemie und erste Interventionen",
+      "problem": "Unsichere Infektionslage, Versorgungsbedarf und gravierende Maßnahmenfolgen",
+      "professional_response": "RKI-Situationsberichte, Strategiepapiere und epidemiologisches Monitoring; politisch getroffene Kontaktbeschränkungen.",
+      "measurement": [
+        "Hospitalisierungen pro Zeit",
+        "R-Wert mit Zeitverzug",
+        "Behandlungskapazität",
+        "Ausfall anderer Leistungen",
+        "Grundrechts- und Bildungsfolgen"
+      ],
+      "contrast": "Fallzahlen hängen auch von Testangebot und Testverhalten ab; Maßnahmenbündel wirken nicht unabhängig.",
+      "source": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Infektionskrankheiten-A-Z/C/COVID-19-Pandemie/Situationsberichte/Archiv_tab.html",
+      "evaluation": "Ex-ante-Ziele, Daten- und Nebenfolgenmessung nach Entscheidung rekonstruieren.",
+      "worlds": [
+        "SW-02",
+        "SW-05"
+      ]
+    },
+    {
+      "id": "CR-2020-04",
+      "date": "2020-04-16",
+      "phase": "Intensivregister verbindlich",
+      "problem": "Fehlende tagesaktuelle Übersicht freier/belegter und tatsächlich betreibbarer Intensivbetten",
+      "professional_response": "RKI/DIVI bauten Register auf; ab 16. April verpflichtende tägliche Meldung.",
+      "measurement": [
+        "regional betreibbare Betten",
+        "COVID-Intensivbelegung",
+        "freie Kapazität",
+        "Verlegungsdauer",
+        "Personalengpässe"
+      ],
+      "contrast": "Gemeldete Betten ≠ dauerhaft betreibbare Betten, Bundesdurchschnitt ≠ örtlicher Engpass.",
+      "source": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Infektionskrankheiten-A-Z/C/COVID-19/Intensivregister.html",
+      "evaluation": "Hat Registrierung die Disposition und regionale Versorgung verbessert? Kausale Gegenprobe noch offen.",
+      "worlds": [
+        "SW-02",
+        "SW-04"
+      ]
+    },
+    {
+      "id": "CR-2020-12",
+      "date": "2020-12",
+      "phase": "Winterbelastung",
+      "problem": "Erhöhte Sterbefälle, schwere Erkrankungen und verschobene Versorgungsleistungen",
+      "professional_response": "Gesundheitssystem koordinierte intensivmedizinische Kapazitäten; Statistik und Fachgesellschaften dokumentierten Belastung.",
+      "measurement": [
+        "monatliche Sterbefälle altersstandardisiert",
+        "Intensivlast je Region",
+        "ausgefallene Operationen",
+        "Nachholeffekte und Versorgungsfolgen"
+      ],
+      "contrast": "Übersterblichkeit ≠ allein durch eine einzelne Ursache erklärt; Behandlungsausfälle ≠ unmittelbar dauerhaft versäumte Eingriffe.",
+      "source": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2021/12/PD21_563_12.html",
+      "evaluation": "2020 wurden 13,1 % weniger Krankenhausfälle als 2019 gemeldet; Gegenfaktoren und Nachholeffekte getrennt prüfen.",
+      "worlds": [
+        "SW-02",
+        "SW-04"
+      ]
+    },
+    {
+      "id": "CR-2021-04",
+      "date": "2021-04",
+      "phase": "Bildung und Gesundheitszielkonflikte",
+      "problem": "Kontaktreduktion, Grundrecht auf Bildung und gesundheitliche wie psychosoziale Folgen",
+      "professional_response": "Infektionsschutzmaßnahmen wurden rechtlich überprüft; fachliche Stellungnahmen zu Bildungsfolgen und Alternativen.",
+      "measurement": [
+        "Tage ohne Präsenz",
+        "Kompetenzentwicklung",
+        "Anteil benachteiligter Kinder",
+        "Infektions- und Schul-Ausbruchsdaten",
+        "psychische Belastungen"
+      ],
+      "contrast": "Zum Entscheidungszeitpunkt rechtlich vertretbar ≠ empirisch folgenlos; beobachtete Lernrückstände ≠ monokausaler Nachweis.",
+      "source": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2021/bvg21-100.html",
+      "evaluation": "Spätere IQB-/RKI-/KMK-Daten müssen mit Entscheidung und Schutzalternativen verbunden werden.",
+      "worlds": [
+        "SW-03",
+        "SW-05"
+      ]
+    },
+    {
+      "id": "CR-2021-12",
+      "date": "2021-12",
+      "phase": "Impfen und Delta/Omikron",
+      "problem": "Variantenwechsel, Impfstatus, Hospitalisierung und heterogene Risiken",
+      "professional_response": "RKI und DIVI ergänzten Intensiv-Monitoring um anonymisierte Impfstatusangaben bei Neuaufnahmen.",
+      "measurement": [
+        "COVID-Intensiv-Neuaufnahmen nach Alter/Impfstatus",
+        "Population im Nenner",
+        "Testverhalten",
+        "Variantenspezifische Zeitfenster"
+      ],
+      "contrast": "Anteile unter Aufnahmen ≠ individualisierte Wirksamkeitsrate ohne Bevölkerungsnenner und Risikoadjustierung.",
+      "source": "https://www.divi.de/pressemeldungen/presseinformation-daten-aus-dem-intensivregister-ungeimpfte-machen-mehrheit-aller-covid-19-faelle-auf-intensivstationen-aus",
+      "evaluation": "Transparenz über Datenlücken, Schichtung, Nachmeldungen und Standardisierung prüfen.",
+      "worlds": [
+        "SW-02",
+        "SW-05"
+      ]
+    },
+    {
+      "id": "CR-2022-06",
+      "date": "2022-06-30",
+      "phase": "Externe IfSG-Evaluierung",
+      "problem": "Wirkung einzelner Maßnahmen und unbeabsichtigte Folgen lassen sich rückblickend oft schwer identifizieren",
+      "professional_response": "Unabhängiger Sachverständigenausschuss legte gesetzlichen Evaluationsbericht vor.",
+      "measurement": [
+        "Frühzeitigkeit des Messplans",
+        "Intervention pro Zeitraum",
+        "Vergleichsgruppe",
+        "Schutz- und Nebenfolgen",
+        "Qualität der Daten"
+      ],
+      "contrast": "Vorhandene Evaluation ≠ jede Einzelmaßnahme kausal bewertbar; Datenlücke ≠ Beleg der Unwirksamkeit.",
+      "source": "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/S/Sachverstaendigenausschuss/220630_Evaluationsbericht_IFSG_NEU.pdf",
+      "evaluation": "Der Bericht kritisiert die zu späte systematische Datenerhebung; eine zentrale planungsbezogene Lehre.",
+      "worlds": [
+        "SW-02",
+        "SW-05"
+      ]
+    },
+    {
+      "id": "CR-2023-07",
+      "date": "2023-07",
+      "phase": "Retrospektive NPI-Forschung",
+      "problem": "Welche Maßnahmenbündel bremsten Verbreitung unter wechselnder Bevölkerungslage?",
+      "professional_response": "RKI veröffentlichte StopptCOVID mit Regressionsmodellen; Daten/Code wurden später bereitgestellt.",
+      "measurement": [
+        "R-Wert",
+        "Einführungsdatum/Verhaltensänderung",
+        "Maßnahmenbündel",
+        "Modellunsicherheit"
+      ],
+      "contrast": "Assoziation und Modellkausalität ≠ isoliert gemessener Effekt eines einzelnen Erlasses.",
+      "source": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Infektionskrankheiten-A-Z/C/COVID-19/Projekte_RKI/StopptCOVID_studie.html",
+      "evaluation": "Studienergebnisse im Zusammenhang mit anderen Reviews und methodischen Gegenproben untersuchen.",
+      "worlds": [
+        "SW-02",
+        "SW-05"
+      ]
+    },
+    {
+      "id": "CR-2024-02",
+      "date": "2024-02",
+      "phase": "Abrechnungs- und Beschaffungsprüfung",
+      "problem": "Milliardenausgaben und ex-post unzureichende Abrechnungsprüfung",
+      "professional_response": "Bundesrechnungshof dokumentierte Kontrolllücken der Corona-Testabrechnung.",
+      "measurement": [
+        "Testvolumen und Abrechnung",
+        "Prüfquote",
+        "Rückforderung",
+        "Verwaltungskosten",
+        "rechtmäßig verhinderbare Fehlauszahlung"
+      ],
+      "contrast": "17,8 Mrd. € Ausgaben ≠ 17,8 Mrd. € möglicher Schaden oder Einsparung.",
+      "source": "https://bundesrechnungshof.de/berichte/ausgewaehlte-aspekte-der-corona-testungen-und-ihrer-abrechnungen",
+      "evaluation": "Kontrollarchitektur, Datenzugang und Folgekorrekturen prüfen; gemessene Nettoersparnis offen.",
+      "worlds": [
+        "SW-04",
+        "SW-05"
+      ]
+    }
+  ]
+}
