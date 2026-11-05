@@ -1,3 +1,13 @@
+<!-- BKI-MINIMAL-PAPER-V1 -->
+![Bürger-KI Logo](./assets/media/buerger-ki-zeichen.svg)
+
+**Forschungsedition · Stand 5. November 2026**  
+**Kurzbeschreibung:** Mitmach- und Bürger-KI-Anwendungen: Inventar, technische Prüfungen, Lernpfade – methodischer Bestand und Prüfstatus.  
+**Schlagwörter:** Bürger-KI · Quellen · Evidenz · Tests · Mitmach- und Bürger-KI-Anwendungen  
+**Kontakt:** Kontakt@erlebNils.de
+
+---
+
 # Mitmach- und Bürger-KI-Anwendungen: Inventar, technische Prüfungen, Lernpfade
 **Forschungspaper / Audit v0.1 · Stand 05.11.2026 · Nur nachgewiesene Tests als bestanden**
 
@@ -44,3 +54,8 @@ Querverweise: [Originalsprache](./paper-buerger-ki-originalsprache-claims-didakt
 5. Vergleich zweier KI-Rückübersetzungen mit dem ursprünglichen Anliegen.
 6. Barrierefreiheit (Tastatur, Screenreader, Sprache) und Fehlerbehandlung.
 **Status**: Bestandsaudit und technisches Konzept; keine vollständige UX-Freigabe.
+
+
+---
+
+*Bürger-KI · Rechte verstehen. Probleme lösen. Gesellschaft verbessern.* · [Bürger-KI](./buerger-ki.html) · [Publikationen](./publikationen.html) · Kontakt@erlebNils.de · 05.11.2026
