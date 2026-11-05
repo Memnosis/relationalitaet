@@ -98,6 +98,34 @@ await visit('mitmachen-rueckgabe.html',async p=>{
 });
 await visit('glossar.html');
 await visit('interoperabilitaet.html');
+// Bürger-KI standalone questionnaire smoke test; intentionally does not require global tensor nav.
+{
+ const page=await browser.newPage({viewport:{width:1280,height:850},acceptDownloads:true});
+ const name='buerger-ki-kaffeekraenzchen-fragen.html';
+ try{
+  const response=await page.goto(root+'/'+name,{waitUntil:'networkidle',timeout:25000});
+  if(!response?.ok())throw Error('HTTP '+response?.status());
+  await page.locator('#bki-form').waitFor();
+  await page.locator('#content').fill('Welche Arbeit würdest du bei gleichem Einkommen wirklich gerne machen?');
+  await page.locator('#check').check();
+  const wait=page.waitForEvent('download');
+  await page.locator('#download').click();
+  const file=await wait;
+  const data=JSON.parse(fs.readFileSync(await file.path(),'utf8'));
+  if(data.schema!=='bki-coffee-proposal/0.1'||data.status!=='draft_not_submitted')throw Error('Invalid export contract');
+  await page.evaluate(()=>{window.__issueUrl='';window.open=(url)=>{window.__issueUrl=url;return null}});
+  await page.locator('#bki-form button[type="submit"]').click();
+  const issue=await page.evaluate(()=>window.__issueUrl);
+  if(!issue.includes('github.com/Memn')||!issue.includes('/issues/new?title='))throw Error('Actual GitHub issue destination missing');
+  await page.locator('#content').fill('zu kurz');
+  await page.locator('#download').click();
+  const feedback=await page.locator('#feedback').innerText();
+  if(!feedback.includes('mindestens 15 Zeichen'))throw Error('Invalid short input accepted');
+  verified++;checks.push({page:name,status:'passed',tests:['load','local-json-download','github-issue-handoff','invalid-short-input']});
+  console.log('PASS',name);
+ }catch(err){errors.push(name+': '+err.message);checks.push({page:name,status:'failed',reason:err.message});console.error('FAIL',name,err.message)}
+ finally{await page.close()}
+}
 await browser.close();
 const output={schema_version:'website-browser-smoke/1.0',checked_at:new Date().toISOString(),source_sha:process.env.GITHUB_SHA||'local',browser:'chromium',viewport:{width:1440,height:900},pages_checked:checks.length,pages_passed:verified,pages_failed:errors.length,checks};
 fs.mkdirSync('reports',{recursive:true});
