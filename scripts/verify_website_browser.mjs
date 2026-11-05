@@ -16,8 +16,9 @@ async function visit(path,check){
  try{
   const res=await page.goto(root+'/'+path,{waitUntil:'networkidle',timeout:25000});
   if(!res?.ok())throw Error('HTTP '+res?.status());
-  await page.locator('nav.tensor-hierarchical-nav').waitFor({timeout:10000});
-  if(await page.locator('nav.tensor-hierarchical-nav details').count()!==5)throw Error('Expected five dropdown groups plus two direct links');
+  await page.locator('header.tensor-global-nav nav.ux-site-nav').waitFor({timeout:10000});
+  const links=page.locator('header.tensor-global-nav nav.ux-site-nav > a');
+  if(await links.count()!==8)throw Error('Expected eight current primary navigation links');
   if(check)await check(page);
   if(jsErrors.length)throw Error('JavaScript errors: '+jsErrors.join(' | '));
   verified++;
