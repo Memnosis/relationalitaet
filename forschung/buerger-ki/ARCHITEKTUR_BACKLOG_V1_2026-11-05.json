@@ -1,0 +1,233 @@
+{
+  "schema": "bki-architecture-workplan/1.0",
+  "plan_id": "BKI-ARCH-2026-11-05-001",
+  "as_of": "2026-11-05",
+  "status": "plan_only_not_implemented",
+  "baseline_tree": "e376901b581e404b142248feeed45624d3eba289",
+  "masterplan": "MASTERPLAN_ARCHITEKTUR_LERNPFADE_CROSSWALK_SKILLS_V1_2026-11-05.md",
+  "controlled_originals": [
+    "docs/buerger-ki.html",
+    "docs/data/bki-redaktionelle-anker-claims-v0-1.json"
+  ],
+  "existing_references": {
+    "topic": "BKI-TOPIC-THERAPY",
+    "lenses": [
+      "ziel",
+      "wissen",
+      "hilfe",
+      "gesellschaft",
+      "forschung"
+    ],
+    "learning_paths": [
+      "LP-01",
+      "LP-02",
+      "LP-03",
+      "LP-04",
+      "LP-05"
+    ],
+    "editorial_claims": 21,
+    "proposed_claims": 28
+  },
+  "link_types": [
+    "deepen",
+    "apply",
+    "mirror",
+    "challenge",
+    "connect",
+    "trace"
+  ],
+  "meta_node_candidates": [
+    "BKI-META-001",
+    "BKI-META-002",
+    "BKI-META-003",
+    "BKI-META-004",
+    "BKI-META-005"
+  ],
+  "work_packages": [
+    {
+      "id": "BKI-AP-01",
+      "title": "Originalgeschichte und Claims als Baseline sichern",
+      "priority": "P0",
+      "depends_on": [],
+      "gate": "G0",
+      "status": "planned",
+      "planned_files": [
+        "forschung/buerger-ki/baselines/bki-original-2026-11-05.json",
+        "forschung/buerger-ki/tests/test_editorial_baseline.py"
+      ]
+    },
+    {
+      "id": "BKI-AP-02",
+      "title": "Kanonische Objekt-IDs und Crosswalk-Relationen",
+      "priority": "P0",
+      "depends_on": [
+        "BKI-AP-01"
+      ],
+      "gate": "G1",
+      "status": "planned",
+      "planned_files": [
+        "forschung/buerger-ki/schema/bki-crosswalk.schema.json",
+        "forschung/buerger-ki/register/bki-id-map-v0-1.json",
+        "forschung/buerger-ki/register/bki-crosswalk-v0-1.json",
+        "forschung/buerger-ki/bki_crosswalk.py",
+        "forschung/buerger-ki/tests/test_bki_crosswalk.py"
+      ]
+    },
+    {
+      "id": "BKI-AP-03",
+      "title": "Therapieplatz-Vertikaltest durch fünf Perspektiven",
+      "priority": "P0",
+      "depends_on": [
+        "BKI-AP-02"
+      ],
+      "gate": "G2",
+      "status": "planned",
+      "planned_files": [
+        "forschung/buerger-ki/piloten/therapieplatz/vertical-case-v0-1.json",
+        "forschung/buerger-ki/piloten/therapieplatz/source-matrix-v0-1.json",
+        "forschung/buerger-ki/piloten/therapieplatz/negative-cases-v0-1.json",
+        "forschung/buerger-ki/tests/test_therapy_vertical.py"
+      ]
+    },
+    {
+      "id": "BKI-AP-04",
+      "title": "Metaknoten: Ziel, Umsetzung, Wirkung und Schadensbegrenzung",
+      "priority": "P0",
+      "depends_on": [
+        "BKI-AP-02",
+        "BKI-AP-03"
+      ],
+      "gate": "G3",
+      "status": "planned",
+      "planned_files": [
+        "forschung/buerger-ki/schema/bki-meta-node.schema.json",
+        "forschung/buerger-ki/register/bki-meta-nodes-v0-1.json",
+        "forschung/buerger-ki/tests/test_meta_routes.py"
+      ]
+    },
+    {
+      "id": "BKI-AP-05",
+      "title": "Übersetzungs-Skill und Gegenproben",
+      "priority": "P1",
+      "depends_on": [
+        "BKI-AP-02",
+        "BKI-AP-03",
+        "BKI-AP-04"
+      ],
+      "gate": "G4",
+      "status": "planned",
+      "planned_files": [
+        "forschung/buerger-ki/skills/BKI_SK_TRANSLATE_001.md",
+        "forschung/buerger-ki/schema/bki-translation.schema.json",
+        "forschung/buerger-ki/bki_translate.py",
+        "forschung/buerger-ki/piloten/therapieplatz/translation-gold-v0-1.json",
+        "forschung/buerger-ki/tests/test_bki_translate.py"
+      ]
+    },
+    {
+      "id": "BKI-AP-06",
+      "title": "Kernthemenseiten und sechs Linktypen",
+      "priority": "P1",
+      "depends_on": [
+        "BKI-AP-02",
+        "BKI-AP-05"
+      ],
+      "gate": "G5",
+      "status": "planned",
+      "planned_files": [
+        "docs/assets/bki-topic-card.js",
+        "docs/assets/bki-topic-card.css",
+        "docs/data/bki-topic-navigation-v0-1.json",
+        "forschung/buerger-ki/tests/test_topic_navigation.py"
+      ]
+    },
+    {
+      "id": "BKI-AP-07",
+      "title": "Lokales Wissensnetz optionaler Deep Dive",
+      "priority": "P2",
+      "depends_on": [
+        "BKI-AP-02",
+        "BKI-AP-04",
+        "BKI-AP-06"
+      ],
+      "gate": "G5",
+      "status": "planned",
+      "planned_files": [
+        "docs/assets/bki-local-graph.js",
+        "docs/assets/bki-local-graph.css",
+        "docs/data/bki-graph-projection-v0-1.json",
+        "forschung/buerger-ki/tests/test_graph_projection.py"
+      ]
+    },
+    {
+      "id": "BKI-AP-08",
+      "title": "Weitere Themen aus echten Quellen übertragen",
+      "priority": "P2",
+      "depends_on": [
+        "BKI-AP-03",
+        "BKI-AP-06"
+      ],
+      "gate": "G6",
+      "status": "planned",
+      "planned_files": [
+        "forschung/buerger-ki/piloten/<slug>/vertical-case-v0-1.json",
+        "forschung/buerger-ki/piloten/<slug>/source-matrix-v0-1.json",
+        "forschung/buerger-ki/piloten/<slug>/negative-cases-v0-1.json"
+      ]
+    },
+    {
+      "id": "BKI-AP-09",
+      "title": "Browser-, Quellen-, Link-, Verständnistests",
+      "priority": "P0",
+      "depends_on": [],
+      "gate": "G7",
+      "status": "planned",
+      "planned_files": [
+        "forschung/buerger-ki/tests/test_bki_site_contracts.py",
+        "forschung/buerger-ki/tests/test_bki_source_registry.py",
+        "forschung/buerger-ki/tests/test_bki_noloss.py",
+        "forschung/buerger-ki/piloten/therapieplatz/usability-protocol-v0-1.md"
+      ]
+    }
+  ],
+  "quality_gates": [
+    {
+      "id": "G0",
+      "status": "not_run"
+    },
+    {
+      "id": "G1",
+      "status": "not_run"
+    },
+    {
+      "id": "G2",
+      "status": "not_run"
+    },
+    {
+      "id": "G3",
+      "status": "not_run"
+    },
+    {
+      "id": "G4",
+      "status": "not_run"
+    },
+    {
+      "id": "G5",
+      "status": "not_run"
+    },
+    {
+      "id": "G6",
+      "status": "not_run"
+    },
+    {
+      "id": "G7",
+      "status": "not_run"
+    }
+  ],
+  "notes": [
+    "planned_files are not assertions that files exist",
+    "owner registers remain unchanged unless separately reviewed",
+    "No personal citizen case data is collected",
+    "a completed implementation requires tests and reviewed evidence"
+  ]
+}
