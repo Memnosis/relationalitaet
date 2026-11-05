@@ -1,3 +1,15 @@
+<!-- BKI-MINIMAL-PAPER-V1 -->
+![Bürger-KI – Forschung und Verbindung](./assets/media/buerger-ki-zeichen.svg)
+
+**Forschungsedition · Inventar und Synchronisationsprüfung**
+
+**Kurzbeschreibung:** Quellengebundene Forschungs- und Entwicklungspublikation mit eigenständigem Prüfstatus und offenen Fragen.  
+**Schlagwörter:** Bürger-KI · Quellen · Evidenz · Crosswalk · Inventar und Synchronisationsprüfung  
+**Stand:** 5. November 2026  
+**Kontakt:** Kontakt@erlebNils.de
+
+---
+
 # Inventar und Synchronisationsprüfung
 
 Stand 2026-11-05. Im Repository gesichtete Kernbereiche: Quellen und Übergabe; Glossar; Thesen; Codebuch; Forschungsdaten; Bibliothek; Mitmachen; Ergebnis-Rückgabe; Forschungswerkstatt; Fail-Scanner; Feedback; Lernpfade; Bürger-KI-Forschungsbibliothek; Ziele-Lexikon; Weisungsatlas; Corona-Zeitverlauf; Rechenschaft 100; Schutzpflichten; Therapieplatz-Blickwinkel.
@@ -19,3 +31,9 @@ Kein nachgewiesener universeller ID- und Versionscrosswalk aller Quellen, Glossa
 
 ## Pilot
 `Bürgerfrage → Begriffs-ID → Quellenpinpoint → Aussage → Messgröße → Skill → Test → Evidenz → Gegenblick → Lernpfad → Publikation` jeweils mit Version, Status und Rücktransformation prüfen.
+
+
+---
+
+*Bürger-KI · Rechte verstehen. Probleme lösen. Gesellschaft verbessern.*  
+[Zur Bürger-KI](./buerger-ki.html) · [Forschungsbibliothek](./bibliothek.html) · Kontakt@erlebNils.de · 05.11.2026
