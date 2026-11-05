@@ -1,3 +1,15 @@
+<!-- BKI-MINIMAL-PAPER-V1 -->
+![Bürger-KI – Forschung und Verbindung](./assets/media/buerger-ki-zeichen.svg)
+
+**Forschungsedition · Potenzial statt Umbenennung: Arbeit, unbezahlte Tätigkeiten, Innovation**
+
+**Kurzbeschreibung:** Quellengebundene Forschungs- und Entwicklungspublikation mit eigenständigem Prüfstatus und offenen Fragen.  
+**Schlagwörter:** Bürger-KI · Quellen · Evidenz · Crosswalk · Potenzial statt Umbenennung  
+**Stand:** 5. November 2026  
+**Kontakt:** Kontakt@erlebNils.de
+
+---
+
 # Potenzial statt Umbenennung: Arbeit, unbezahlte Tätigkeiten, Innovation
 **Eigenständiges SOULution-Paper v0.1 · 2026-11-05**
 
@@ -26,3 +38,9 @@ Insekten → Aus Sekten: Durch Umbenennung allein wurden keine Tiere befreit. Ar
 
 ## Offene Daten und Standards
 Berufe/Skills: ESCO, KldB, ISCO; Tasks: O*NET mit US-Transfergrenzen; unbezahlte Arbeit: ZVE/HETUS; Arbeitslosigkeit: BA. Unbezahlte Stunden sind nicht automatisch verfügbare Erwerbsstunden. Fehlend: saubere Zeitverwendung nur registrierter Arbeitsloser, regionale Pilotstudien, repräsentative Wunschberufe, Verwaltungskosten-Szenarien und objektiv ermittelte Innovationslaufzeiten.
+
+
+---
+
+*Bürger-KI · Rechte verstehen. Probleme lösen. Gesellschaft verbessern.*  
+[Zur Bürger-KI](./buerger-ki.html) · [Forschungsbibliothek](./bibliothek.html) · Kontakt@erlebNils.de · 05.11.2026
