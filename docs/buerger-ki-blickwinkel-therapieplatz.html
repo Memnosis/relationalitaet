@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bürger-KI · Blickwinkel Therapieplatz</title>
+<meta name="description" content="Therapieplatz aus fünf Blickwinkeln verstehen: menschliches Ziel, Wissen, Hilfswege, gesellschaftliche Versorgung, Forschung.">
+<link rel="stylesheet" href="./assets/tensor-design.css"><link rel="stylesheet" href="./assets/website-unified.css">
+<style>
+:root{color-scheme:light dark}*{box-sizing:border-box}
+body{margin:0;background:Canvas;color:CanvasText;font:16px/1.65 system-ui,-apple-system,Segoe UI,sans-serif}
+header,main,footer{max-width:1150px;margin:auto;padding:22px}
+header{border-bottom:1px solid #8caaa177}nav{display:flex;flex-wrap:wrap;gap:12px 20px}
+a{color:#168270}h1{font-size:clamp(2.15rem,5vw,3.7rem);line-height:1.13}h2{font-size:1.5rem}h3{font-size:1.07rem}
+.lead{max-width:900px;font-size:1.12rem}.muted{opacity:.78}
+main{padding-bottom:60px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.card{border:1px solid #8da69c8c;border-radius:13px;padding:16px}
+.card h3{margin:7px 0}.card p{margin:5px 0 12px}
+.panel{border:1px solid #8da69c90;border-radius:15px;padding:23px;margin:24px 0}
+.note{background:color-mix(in srgb,Canvas 89%,#93c6b3);border-left:4px solid #258575;padding:12px 16px}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+button{font:inherit;background:Canvas;color:CanvasText;border:1px solid #267b6e;border-radius:9px;padding:10px 13px;cursor:pointer;text-align:left}
+button[aria-pressed=true]{background:#176f63;color:white}
+.kicker{font-size:.82rem;font-weight:700;letter-spacing:.03em;opacity:.75;text-transform:uppercase}
+.step{border-left:3px solid #64a799;padding:4px 0 12px 15px;margin:15px 0}
+.step a{font-weight:650}.step small{display:block}.cross{border-radius:12px;background:color-mix(in srgb,Canvas 93%,#99c8b9);padding:14px}
+.cross button{margin:4px}.mini{font-size:.82rem}
+.indexnum{display:inline-flex;justify-content:center;align-items:center;width:26px;height:26px;border-radius:50%;background:color-mix(in srgb,Canvas 76%,#66b19f);font-weight:700}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+</style></head><body>
+<header><nav><a href="./buerger-ki.html">Bürger-KI</a><a href="./buerger-ki-lernpfade.html">Alle Lernwege</a><a href="./buerger-ki-ziele-lexikon.html">Lexikon</a><a href="./buerger-ki-anwendungsfelder.html">Anwendungsfelder</a></nav></header>
+<main>
+<p class="kicker">Ein Kernthema · fünf didaktische Blickwinkel</p>
+<h1>Bürger-KI: Blickwinkel Therapieplatz</h1>
+<p class="lead">Vom Wunsch nach einer Behandlung über Begriffe und praktische Wege bis zur Frage, warum die Versorgung nicht überall funktioniert – und wie wir daraus bessere Fähigkeiten für die Bürger-KI entwickeln.</p>
+<div class="note"><strong>Was diese Seite leistet:</strong> Sie verbindet vorhandenes Forschungswissen und weiterführende Quellen zu fünf Lernwegen. Sie prüft keine individuelle Behandlungssituation und zeigt keine live verfügbaren Therapieplätze. Der Weg vom Kontakt zur tatsächlichen Versorgung bleibt eine offene Prüffrage.</div>
+<section aria-label="Fünf Blickwinkel" class="panel">
+<h2>Aus welchem Blickwinkel möchtest du einsteigen?</h2>
+<p>Jeder Blickwinkel hat eine eigene Leitfrage, wichtige Erkenntnisse, konkrete Vertiefungen und Wege zu den anderen Perspektiven.</p>
+<div id="views" class="pills" role="group" aria-label="Blickwinkel auswählen">
+<a href="#ziel">1 · Anliegen und Ziele</a> · <a href="#wissen">2 · Wissen verstehen</a> · <a href="#hilfe">3 · Wege und Unterstützung</a> · <a href="#gesellschaft">4 · Gesellschaft untersuchen</a> · <a href="#forschung">5 · Forschung und Werkzeuge</a>
+</div>
+</section>
+<div class="panel" id="detail" aria-live="polite">
+<h2>Die Perspektiven entfalten sich hier</h2><p>Die Lernkarten werden aus dem versionierten Themenregister geladen. Die Grundnavigation und die weiterführenden Einstiegspunkte bleiben als Links verfügbar.</p>
+</div>
+<section class="panel" id="mirrors"><h2>Spiegelungen: anders auf dasselbe Thema blicken</h2><p>Ein Ziel kann aus der Perspektive des Menschen, eines Fachbegriffs, einer Hilfsorganisation, des Versorgungssystems oder einer Forschungsfrage neu untersucht werden.</p></section>
+<section class="panel"><h2>Wo tiefer gehen – und wo verweisen?</h2>
+<p>Die fachlichen Erklärungen zu Wartezeiten, Versorgung und Rechenschaft bleiben an ihren jeweiligen Ursprungsstellen. Diese Seite bildet die didaktischen Verbindungen. Neue Unterthemen entstehen nur, wenn sie eine eigenständige Nutzerfrage, andere Methoden oder ein neues Fähigkeitspaket brauchen.</p>
+<p><a href="./buerger-ki-lernpfade.html">Weitere Themen- und Lernwege</a> · <a href="https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/KERNPAPER_LERNPFADE_NOLOSS_WISSENSORCHESTRIERUNG_V0_1.md">No-Loss-Architekturpaper</a> · <a href="./data/bki-therapieplatz-fuenf-blickwinkel-v0-1.json">Themenstruktur als JSON</a></p></section>
+</main><footer>SOULution / Bürger-KI · Jeder Forschungsbefund besitzt eine Quelle und einen Status; die Lernwege sind verschiedene Sichten darauf.</footer>
+<script>
+"use strict";
+let doc=null,selected=null;const el=id=>document.getElementById(id);
+function add(parent,tag,text,cls){const n=document.createElement(tag);n.textContent=text;if(cls)n.className=cls;parent.append(n);return n}
+function link(parent,url,label){const a=document.createElement("a");a.href=url;a.textContent=label;a.rel="noopener noreferrer";if(/^https?:\/\//.test(url))a.target="_blank";parent.append(a);return a}
+function render(id,push){if(!doc)return;const x=doc.lenses.find(v=>v.id===id)||doc.lenses[0];selected=x.id;
+ if(push)history.replaceState(null,"","#"+x.id);
+ const d=el("detail");d.replaceChildren();add(d,"p","Blickwinkel "+x.number+" / 5","kicker");add(d,"h2",x.title+" – "+x.question);add(d,"p",x.entry,"lead");
+ add(d,"h3","Was aus unserem Bestand wichtig ist");const ul=document.createElement("ul");x.learning.forEach(t=>add(ul,"li",t));d.append(ul);
+ add(d,"h3","Dem Lernpfad folgen");x.steps.forEach((st,i)=>{const s=document.createElement("article");s.className="step";add(s,"span",String(i+1)+" · "+st.kind,"kicker");add(s,"h3",st.title);add(s,"p",st.insight);const foot=add(s,"p","","mini");foot.append(document.createTextNode("Quelle / Weiterführung: "));link(foot,st.href,st.source);d.append(s)});
+ const q=add(d,"div","","note");add(q,"strong","Was noch nicht ausreichend geklärt ist: ");add(q,"span",x.open);
+ const cr=add(d,"div","","cross");add(cr,"strong","Andere Blickwinkel auf genau dieses Thema");add(cr,"p","Wechsle die Perspektive. Das Thema und die Quellen bleiben verbunden.");x.cross.forEach(id=>{const dest=doc.lenses.find(a=>a.id===id);const b=document.createElement("button");b.textContent=dest.title;b.onclick=()=>{render(id,true);el("detail").scrollIntoView({behavior:"smooth",block:"start"})};cr.append(b)});
+ for(const b of el("views").querySelectorAll("button"))b.setAttribute("aria-pressed",String(b.dataset.view===x.id))}
+function init(data){doc=data;const v=el("views");v.replaceChildren();data.lenses.forEach(x=>{const b=document.createElement("button");b.textContent=x.number+" · "+x.title;b.dataset.view=x.id;b.setAttribute("aria-pressed","false");b.onclick=()=>render(x.id,true);v.append(b)});const m=el("mirrors");data.mirrors.forEach(x=>{const article=add(m,"article","","step");add(article,"h3",x.title);add(article,"p",x.question);const b=document.createElement("button");b.textContent="Diesen Perspektivwechsel betrachten";b.onclick=()=>{render(x.from,true);el("detail").scrollIntoView({behavior:"smooth",block:"start"})};article.append(b)});render(location.hash.slice(1),false);window.addEventListener("hashchange",()=>render(location.hash.slice(1),false))}
+fetch("./data/bki-therapieplatz-fuenf-blickwinkel-v0-1.json").then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()}).then(d=>{if(d.schema!=="bki-topic-learning/0.1")throw Error("Nicht unterstütztes Schema");init(d)}).catch(e=>add(el("detail"),"p","Die interaktiven Lernkarten konnten nicht geladen werden: "+e.message));
+</script></body></html>
