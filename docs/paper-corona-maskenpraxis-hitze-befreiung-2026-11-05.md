@@ -1,3 +1,13 @@
+<!-- BKI-MINIMAL-PAPER-V1 -->
+![Bürger-KI Logo](./assets/media/buerger-ki-zeichen.svg)
+
+**Forschungsedition · Stand 5. November 2026**  
+**Kurzbeschreibung:** Corona-Forschungspaper: Maskenpraxis, Hitze, Befreiungen und Vergleichbarkeit – methodischer Bestand und Prüfstatus.  
+**Schlagwörter:** Bürger-KI · Quellen · Evidenz · Tests · Corona-Forschungspaper  
+**Kontakt:** Kontakt@erlebNils.de
+
+---
+
 # Corona-Forschungspaper: Maskenpraxis, Hitze, Befreiungen und Vergleichbarkeit
 **Research Deep Dive 02 · 05.11.2026 · wissenschaftlicher Zwischenstand, nicht abschließendes Nutzen-Schaden-Urteil**
 
@@ -35,3 +45,8 @@ Bundesrechnungshof, Bericht 28.03.2024: 5,7 Mrd. gekaufte Masken für 5,9 Mrd. E
 Gegenposition der Bundesregierung vom 28.01.2026: Bedarfsschätzung von rund fünf Milliarden Masken jährlich, Notbeschaffung und Genehmigung durch zuständige Gremien; deshalb bestreitet sie die Charakterisierung als erhebliche Überbeschaffung. Quelle https://www.bundestag.de/presse/hib/kurzmeldungen-1139904
 Stand 16.09.2025 laut Regierungsantwort zum Open-House-Verfahren: rund 2,3 Mrd. EUR Gesamtstreitwert, ungefähr 390 Mio. EUR bei rund 120 Vergleichen/Klarstellungsvereinbarungen gezahlt, und rund 2,9 Mrd. EUR Forderungen durch außergerichtliche Rücktritte abgewendet. Streitwert ist weder sicherer staatlicher Verlust noch rechtskräftig entschiedene Zahlungspflicht. Quelle https://www.bundestag.de/presse/hib/kurzmeldungen-1109940
 **Forschungsfrage:** Zeitserie je Dokumentenstand: Vertragsvolumen, gelieferte Menge, verteilte Menge, gebrauchter Anteil, Vernichtung, Einlagerungs- und Prüfkosten, Zahlungen, Vergleiche, rechtshängige Forderungen, entschiedene Ansprüche, erwartete Restkosten. Bestand, Ausgaben, mögliche Ansprüche und potentielle Verluste strikt nicht addieren. Eine mögliche Unterdeckung historischer Kontrollpflichten ist gegen damaligen Krisenstand und zeitgenössische Bedarfsprognosen zu prüfen.
+
+
+---
+
+*Bürger-KI · Rechte verstehen. Probleme lösen. Gesellschaft verbessern.* · [Bürger-KI](./buerger-ki.html) · [Publikationen](./publikationen.html) · Kontakt@erlebNils.de · 05.11.2026
