@@ -3,7 +3,7 @@
   "as_of": "2026-11-05",
   "status": "curated_deep_dive_backlog_not_verified_findings",
   "world_map": "SPRACHWELTEN_FACHGEBIETE_DREHPUNKTE_QUELLENPLAN_V0_1_2026-11-05.json",
-  "nucleus_count": 33,
+  "nucleus_count": 36,
   "groups": [
     {
       "id": "A",
@@ -33,7 +33,7 @@
     {
       "id": "F",
       "name": "Technische und wirtschaftliche Anschlussfähigkeit",
-      "count": 3
+      "count": 6
     }
   ],
   "nuclei": [
@@ -53,7 +53,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-002",
@@ -70,7 +71,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-003",
@@ -87,7 +89,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-004",
@@ -105,7 +108,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-005",
@@ -123,7 +127,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-006",
@@ -142,7 +147,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-007",
@@ -160,7 +166,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-008",
@@ -179,7 +186,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-009",
@@ -198,7 +206,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-010",
@@ -216,7 +225,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-011",
@@ -234,7 +244,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-012",
@@ -252,7 +263,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-013",
@@ -271,7 +283,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-014",
@@ -289,7 +302,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-015",
@@ -307,7 +321,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-016",
@@ -325,7 +340,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-017",
@@ -343,7 +359,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-018",
@@ -361,7 +378,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-019",
@@ -379,7 +397,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-020",
@@ -397,7 +416,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-021",
@@ -415,7 +435,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-022",
@@ -432,7 +453,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-023",
@@ -450,7 +472,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-024",
@@ -468,7 +491,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-025",
@@ -486,7 +510,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-026",
@@ -503,7 +528,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-027",
@@ -521,7 +547,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-028",
@@ -538,7 +565,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-029",
@@ -555,7 +583,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-030",
@@ -572,7 +601,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-031",
@@ -589,7 +619,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-032",
@@ -608,7 +639,8 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     },
     {
       "id": "BKI-NUC-033",
@@ -626,7 +658,64 @@
       "source_status": "to_be_checked",
       "deep_dive_status": "planned",
       "semantic_review": "pending",
-      "publication_gate": "not_approved"
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
+    },
+    {
+      "id": "BKI-NUC-034",
+      "group": "F",
+      "group_name": "Technische und wirtschaftliche Anschlussfähigkeit",
+      "title": "Virtuelle Bürger-KI: ideale Funktionsketten, Übergaben und fehlende Fähigkeiten",
+      "priority": "P0",
+      "worlds": [
+        "SW-16"
+      ],
+      "question": "Welche umfassenden Bürger-KI-Fähigkeiten sind denkbar und wie können bestehende externe Dienste und eigene Datenhoheit zusammenwirken?",
+      "source_classes": "functional specs, existing project skill corpus, service interoperability and user need research",
+      "representation": "capability_world",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
+    },
+    {
+      "id": "BKI-NUC-035",
+      "group": "F",
+      "group_name": "Technische und wirtschaftliche Anschlussfähigkeit",
+      "title": "Reale Bürger-KI: heutige KI-Anwendungen in jedem Fachgebiet",
+      "priority": "P0",
+      "worlds": [
+        "SW-18",
+        "SW-16"
+      ],
+      "question": "Welche KI-Anwendungen sind im jeweiligen Fachgebiet heute verfügbar, welche Fähigkeiten haben sie tatsächlich, wie lassen sie sich einsetzen, und welche Grenzen, Kosten, Rechte und Alternativen gelten?",
+      "source_classes": "live products, open source repositories, official service docs, studies, independent evaluations, licensing, compliance",
+      "representation": "cross_domain_AI_use_case_matrix",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
+    },
+    {
+      "id": "BKI-NUC-036",
+      "group": "F",
+      "group_name": "Technische und wirtschaftliche Anschlussfähigkeit",
+      "title": "Souveräne KI der Bürgerschaften, Kulturwissen und dauerhafte Handlungsfähigkeit",
+      "priority": "P1",
+      "worlds": [
+        "SW-19",
+        "SW-18"
+      ],
+      "question": "Wie können Bürger, Gemeinschaften, öffentliche Einrichtungen und offene Projekte selbstbestimmt KI und kulturelles Wissen nutzen, kontrollieren und weiterentwickeln, ohne zwingend eine neue zentrale Plattform zu gründen?",
+      "source_classes": "digital commons governance, public interest AI, open models, open source, participatory design, access rights, preservation standards, institutional rules",
+      "representation": "research_paper_and_governance_comparison",
+      "source_status": "to_be_checked",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "publication_gate": "not_approved",
+      "domain_ai_application_status": "pending_current_market_and_open_source_review"
     }
   ],
   "deep_dive_output_contract": [
@@ -661,5 +750,26 @@
     "PH3_legal_institutional",
     "PH4_other_life_domains",
     "PH5_comparative_tensor_and_future"
+  ],
+  "core_comparative_lenses": {
+    "virtual": "potential_capabilities_and_interoperability_not_live_claim",
+    "real": "currently_usable_AI_in_each_subject_area_with_evidence_and_provider_dates",
+    "sovereign": "long_term_civic_control_cultural_continuity_and_collective_governance_research"
+  },
+  "domain_AI_application_contract": [
+    "subject_domain",
+    "human_question",
+    "existing_AI_use_cases",
+    "concrete_live_services_or_open_source",
+    "actual_function_test_status",
+    "provider_and_license",
+    "data_location_and_choice",
+    "standards_and_APIs",
+    "risk_and_limit",
+    "cost_and_access",
+    "user_owned_alternative",
+    "references_and_date",
+    "handoff_route",
+    "open_skill_gap"
   ]
 }
