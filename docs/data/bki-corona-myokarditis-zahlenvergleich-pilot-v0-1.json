@@ -1,0 +1,72 @@
+{
+  "schema": "bki-corona-myocarditis-numeric-pilot/0.1",
+  "as_of": "2026-11-05",
+  "goal": "Prove that three published myocarditis frequencies have different denominators and observation definitions; do not pool them.",
+  "records": [
+    {
+      "id": "MYO-NUM-01",
+      "source": "https://www.pei.de/SharedDocs/Downloads/EN/newsroom-en/dossiers/safety-reports/safety-report-27-december-2020-30-september-2021.pdf?__blob=publicationFile&v=9",
+      "knowledge_cutoff": "2021-09-30",
+      "publication_period": "2021",
+      "design": "passive_spontaneous_reports",
+      "population": "male_adolescents",
+      "age_from": 12,
+      "age_to": 17,
+      "vaccine": "BNT162b2",
+      "dose": 2,
+      "measure": "suspected_myopericarditis_reports",
+      "case_count_normalized": 7.24,
+      "unit": "reports_per_100000_second_doses",
+      "derivation": "100000/13812≈7.24",
+      "followup_window_days": null,
+      "comparison_class": "C",
+      "grade": "not_formally_assessed"
+    },
+    {
+      "id": "MYO-NUM-02",
+      "source": "https://jamanetwork.com/journals/jamacardiology/fullarticle/2791253",
+      "publication_period": "2022",
+      "design": "nordic_population_cohort",
+      "population": "males",
+      "age_from": 16,
+      "age_to": 24,
+      "vaccine": "BNT162b2",
+      "dose": 2,
+      "measure": "excess_clinically_detected_myocarditis",
+      "estimate": 5.55,
+      "low95": 3.7,
+      "high95": 7.39,
+      "unit": "excess_events_per_100000_vaccinees",
+      "followup_window_days": 28,
+      "comparison_class": "C",
+      "grade": "not_formally_assessed"
+    },
+    {
+      "id": "MYO-NUM-03",
+      "source": "https://jamanetwork.com/journals/jamacardiology/fullarticle/2791253",
+      "publication_period": "2022",
+      "design": "nordic_population_cohort",
+      "population": "males",
+      "age_from": 16,
+      "age_to": 24,
+      "vaccine": "mRNA-1273",
+      "dose": 2,
+      "measure": "excess_clinically_detected_myocarditis",
+      "estimate": 18.39,
+      "low95": 9.05,
+      "high95": 27.72,
+      "unit": "excess_events_per_100000_vaccinees",
+      "followup_window_days": 28,
+      "comparison_class": "B_within_study_only",
+      "grade": "not_formally_assessed"
+    }
+  ],
+  "checks": {
+    "numerator_type_mismatch": "suspected_reports_vs_adjusted_excess_diagnoses",
+    "population_age_overlap_incomplete": true,
+    "followup_window_known_for_all": false,
+    "automatic_meta_analysis_allowed": false,
+    "within_study_comparison": "MYO-NUM-02 vs MYO-NUM-03 within Nordic cohort conditional",
+    "cross_source_comparison": "not_authorized"
+  }
+}
