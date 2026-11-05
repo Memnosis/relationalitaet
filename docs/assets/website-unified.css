@@ -96,3 +96,18 @@ body.ux-site-v3 main .ai-card a{align-self:flex-start;margin-top:auto;max-width:
 body.ux-site-v3 main .ai-year{color:var(--ux-ki);font-size:.82rem;line-height:1.3}
 @media(max-width:790px){body.ux-site-v3 main .ai-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:530px){body.ux-site-v3 main .ai-grid{grid-template-columns:1fr}}
+
+/* 2026-11-05 · Navigation als einheitliche CTA-Familie, ohne dekorative Standardicons */
+.tensor-global-nav nav.ux-site-nav a:not(.tensor-nav-join):not(.tensor-nav-soulution){
+  border:1px solid #60727c!important;background:#202b33!important;
+  border-radius:999px!important;padding:8px 14px!important;
+  color:#eaf5f5!important;font-weight:650;transition:background .15s ease,border-color .15s ease
+}
+.tensor-global-nav nav.ux-site-nav a:not(.tensor-nav-join):not(.tensor-nav-soulution):hover,
+.tensor-global-nav nav.ux-site-nav a:not(.tensor-nav-join):not(.tensor-nav-soulution):focus-visible{
+  background:#324752!important;border-color:#b3d1d4!important
+}
+.tensor-global-nav nav.ux-site-nav a.tensor-nav-join,
+.tensor-global-nav nav.ux-site-nav a.tensor-nav-soulution{border-radius:999px!important;padding:8px 14px!important}
+.tensor-global-nav nav.ux-site-nav a svg{display:none!important}
+.tensor-global-nav .tensor-brand img{filter:none!important}
