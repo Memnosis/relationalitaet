@@ -1,0 +1,151 @@
+{
+  "schema": "soulution-two-potential-architectures/0.1",
+  "as_of": "2026-11-05",
+  "status": "source_derived_extensions_not_new_book_editions",
+  "source_works": [
+    {
+      "id": "PUB-OP",
+      "title": "Öffentliches Potenzial",
+      "version": "1.0 / 21.07.2026",
+      "source": "Oeffentliches_Potenzial_Publikationsfassung_final.pdf",
+      "site_image": "./assets/media/oeffentliches-potenzial-promo.svg"
+    },
+    {
+      "id": "PUB-MP",
+      "title": "Mediale Potenziale",
+      "source": "Mediale_Potenziale_01.pdf",
+      "site_image": "./assets/media/mediale-potenziale-promo.svg"
+    }
+  ],
+  "public_potential": [
+    {
+      "id": "OP-01",
+      "name": "Voröffentlichkeit / geschütztes Verstehen",
+      "test": "Kann ein Problem ohne Veröffentlichungsdruck erkannt und benannt werden?",
+      "metric": "Zugang zu vertraulicher Beratung und verständlichen Begriffen"
+    },
+    {
+      "id": "OP-02",
+      "name": "Zugangs- und Konversionsbedingungen",
+      "test": "Kann der Mensch vorhandene Rechte, Quellen und Angebote tatsächlich nutzen?",
+      "metric": "erfolgreiche Einreichung/Übergabe statt Seitenaufruf"
+    },
+    {
+      "id": "OP-03",
+      "name": "Öffentliche Sichtbarkeit",
+      "test": "Wer sieht welches Problem mit welchem Quellenstand?",
+      "metric": "Auffindbarkeit und Reichweite qualifizierter Information"
+    },
+    {
+      "id": "OP-04",
+      "name": "Institutioneller Anschluss",
+      "test": "Gibt es eine reale Stelle, die zuständig antwortet und handelt?",
+      "metric": "begründete Antwort, Zeit bis sachlicher Entscheidung"
+    },
+    {
+      "id": "OP-05",
+      "name": "Rechenschaft und Widerspruch",
+      "test": "Sind Gegenthesen und Messgrenzen sichtbar und prüfbar?",
+      "metric": "vollständige Wirkungs-/Alternativenbelege"
+    },
+    {
+      "id": "OP-06",
+      "name": "Korrektur und Rehabilitation",
+      "test": "Werden Fehler und Folgen tatsächlich berichtigt, auch außerhalb der ursprünglichen Plattform?",
+      "metric": "Korrekturreichweite, Nachsteuerung und verbleibender Schaden"
+    }
+  ],
+  "medial_potential": [
+    {
+      "id": "MP-01",
+      "name": "Marktplatz",
+      "function": "Menschen, Bedarf, Angebote und Hilfe finden sich",
+      "measure": "Erreichbare reale Kontakte, qualifizierte Nachfrage, tatsächliche Vermittlung",
+      "failure": "Viele Angebote, keine tragfähige Zusammenführung"
+    },
+    {
+      "id": "MP-02",
+      "name": "Stream und Öffentlichkeit",
+      "function": "Probleme und Lösungsansätze werden sichtbar",
+      "measure": "Quellenreichweite plus Verständnis/Handlung, Gegenöffentlichkeit",
+      "failure": "Reichweite ohne Wirkung"
+    },
+    {
+      "id": "MP-03",
+      "name": "Software und offene Daten",
+      "function": "Wissen wird austauschbar, prüfbar und wiederverwendbar",
+      "measure": "Datenabdeckung, Schnittstellen, Exporte und Fehlerquote",
+      "failure": "Datensilo, fehlende Semantik"
+    },
+    {
+      "id": "MP-04",
+      "name": "Lernmedium",
+      "function": "Eine Lösung kann von anderen gelernt und weiterentwickelt werden",
+      "measure": "Lernerfolg, Nachbauquote, dokumentierte Verbesserung",
+      "failure": "Dokumentation ohne Transfer"
+    },
+    {
+      "id": "MP-05",
+      "name": "Benutzeroberfläche",
+      "function": "Fähigkeiten sind im Alltag tatsächlich zugänglich",
+      "measure": "Abschlussquote, Barrierefreiheit, richtige Übergabe",
+      "failure": "Einfaches UI, falsche Sachentscheidung"
+    },
+    {
+      "id": "MP-06",
+      "name": "Netzwerk",
+      "function": "Verschiedene Kompetenzen und Träger verbinden sich",
+      "measure": "Kooperationspfade, übergebene Ergebnisse, verlässliche Reaktion",
+      "failure": "Links ohne Zusammenarbeit"
+    },
+    {
+      "id": "MP-07",
+      "name": "Mediales Feld",
+      "function": "Gemeinsame Erwartung und Handlungsfähigkeit entstehen",
+      "measure": "Themenvielfalt, Nachvollziehbarkeit, langfristige Teilhabe",
+      "failure": "Agenda-Setting ohne Gegenprüfung"
+    },
+    {
+      "id": "MP-08",
+      "name": "Absprache, Geld und generative Systeme",
+      "function": "Arbeit erhält Zeit, Finanzierung, Haftung und dauerhaft wirksame Koordination",
+      "measure": "Finanzierungszusage, Umsetzungsgrad, echte Wirkung, Folgefähigkeit",
+      "failure": "Viele Ideen ohne Träger oder Mittel"
+    }
+  ],
+  "applied_case": {
+    "id": "POT-CORONA-01",
+    "case_url": "./buerger-ki-corona-zeitverlauf.html",
+    "problem": "Frühwarnung und Krisenlast in rechtzeitige, verständliche, überprüfbare Reaktionen überführen",
+    "public_transition": "Signal→vertrauenswürdiges Wissen→Öffentlichkeit→Institution→Evaluation→Korrektur",
+    "media_transition": "Daten→Bericht→Wissenspfad→Skill→Fachnetz→finanzierte Konsequenz",
+    "open_fields": [
+      "data_latency",
+      "regional_differences",
+      "target_and_evaluation_plan",
+      "follow_up_published",
+      "real_human_impact",
+      "funding_for_work"
+    ]
+  },
+  "work_cannot_claim": {
+    "world_300_problems": "not_catalogued",
+    "jobcenter_restructuring_savings": "not_measured",
+    "fiscal_simulator": "planned_not_operational"
+  },
+  "crosswalk_nuclei": [
+    "BKI-NUC-001",
+    "BKI-NUC-002",
+    "BKI-NUC-003",
+    "BKI-NUC-004",
+    "BKI-NUC-005",
+    "BKI-NUC-006",
+    "BKI-NUC-018",
+    "BKI-NUC-022",
+    "BKI-NUC-025",
+    "BKI-NUC-027",
+    "BKI-NUC-033",
+    "BKI-NUC-036",
+    "BKI-NUC-037"
+  ]
+}
