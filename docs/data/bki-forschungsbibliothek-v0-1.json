@@ -192,6 +192,20 @@
       "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/SPRACHPFADE_REDAKTIONELLE_FASSUNG_V0_1_2026-11-05.md",
       "group": "Didaktik",
       "status": "redaction_draft_pending_fach_review"
+    },
+    {
+      "id": "BKI-LIB-028",
+      "title": "Vom Anliegen zu Handlung, Gemeinschaft, KI und Datenschutz – Forschungs- und Betriebsmodell",
+      "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/PAPER_MENSCH_ZU_HANDLUNG_KI_ANBINDUNG_DATEN_RECHT_V0_1_2026-11-05.md",
+      "group": "Gesellschaft",
+      "status": "research_and_service_design_not_implemented"
+    },
+    {
+      "id": "BKI-LIB-029",
+      "title": "Datenflussmodell: fünf getrennte Bürger-KI-Diensträume und zehn Übergänge",
+      "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/MENSCH_HANDLUNG_DATENFLUESSE_V0_1.json",
+      "group": "Methoden",
+      "status": "dataflow_concept_not_operational"
     }
   ]
 }
