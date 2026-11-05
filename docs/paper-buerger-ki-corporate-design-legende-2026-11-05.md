@@ -1,3 +1,15 @@
+<!-- BKI-MINIMAL-PAPER-V1 -->
+![Bürger-KI – Forschung und Verbindung](./assets/media/buerger-ki-zeichen.svg)
+
+**Forschungsedition · Bürger-KI: Marke, Navigations- und Gestaltungssystem**
+
+**Kurzbeschreibung:** Quellengebundene Forschungs- und Entwicklungspublikation mit eigenständigem Prüfstatus und offenen Fragen.  
+**Schlagwörter:** Bürger-KI · Quellen · Evidenz · Crosswalk · Bürger-KI  
+**Stand:** 5. November 2026  
+**Kontakt:** Kontakt@erlebNils.de
+
+---
+
 # Bürger-KI: Marke, Navigations- und Gestaltungssystem
 **Designentwurf 2026-11-05 · keine Änderung des KI-Tensor-Hauptlogos**
 
@@ -24,3 +36,9 @@ Die Marke Bürger-KI verwendet Dunkelblau #0B3A5E (Wissen), Türkis #00A7A0 (Ver
 
 ## Querverweise
 [Bürger-KI](./buerger-ki.html), [Lernpfade](./buerger-ki-lernpfade.html), [Mitmachen](./mitmachen.html), [Skills & Standards](./paper-gesamtinventar-fachbereiche-skills-register-crosswalk-2026-11-05.md), [Publikationen](./publikationen.html).
+
+
+---
+
+*Bürger-KI · Rechte verstehen. Probleme lösen. Gesellschaft verbessern.*  
+[Zur Bürger-KI](./buerger-ki.html) · [Forschungsbibliothek](./bibliothek.html) · Kontakt@erlebNils.de · 05.11.2026
