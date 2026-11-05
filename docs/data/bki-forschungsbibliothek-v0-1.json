@@ -185,6 +185,13 @@
       "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/SPRACHPFADE_ELEMENTINVENTAR_V0_1.json",
       "group": "Didaktik",
       "status": "machine_readable_inventory_unreviewed"
+    },
+    {
+      "id": "BKI-LIB-027",
+      "title": "Fünf Lernwege: vollständige sprachliche Redaktionsfassung",
+      "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/SPRACHPFADE_REDAKTIONELLE_FASSUNG_V0_1_2026-11-05.md",
+      "group": "Didaktik",
+      "status": "redaction_draft_pending_fach_review"
     }
   ]
 }
