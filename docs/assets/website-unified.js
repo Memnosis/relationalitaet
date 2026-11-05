@@ -32,7 +32,7 @@ function init(){
  if(header&&old){
   const nav=document.createElement("nav");nav.className="ux-site-nav";nav.setAttribute("aria-label","Hauptnavigation");
   for(const [name,href,icon] of items){
-   const a=document.createElement("a");a.href="./"+href;a.append(svgSymbol(icon,16),document.createTextNode(name));
+   const a=document.createElement("a");a.href="./"+href;a.textContent=name;
    if(href===active)a.setAttribute("aria-current",key===href?"page":"location");
    if(name==="Mitmachen")a.classList.add("tensor-nav-join");
    if(name==="SOULution")a.classList.add("tensor-nav-soulution");
@@ -53,7 +53,9 @@ function init(){
     const mark=svgSymbol(theme[1],23);mark.classList.add("ux-legacy-heading-icon");heading.prepend(mark);
    }
  }
- if(main && key!=="index.html"){
+ // Haupt- und Fachseiten mit eigenem Einstieg: keine vorgeschaltete Breadcrumb-/Inhaltsleiste.
+ const withoutAutoIntro=new Set(["tensor-einfuehrung.html","tensoralgebra.html","soulution.html"]);
+ if(main && key!=="index.html" && !withoutAutoIntro.has(key)){
   const crumbs=document.createElement("nav");crumbs.className="ux-breadcrumb";crumbs.setAttribute("aria-label","Brotkrumennavigation");
   const home=document.createElement("a");home.href="./index.html";home.textContent="Start";crumbs.append(home);
   if(active!==key){const parent=document.createElement("a");parent.href="./"+active;parent.textContent=labelFor[active]||"Übersicht";crumbs.append(parent);}
