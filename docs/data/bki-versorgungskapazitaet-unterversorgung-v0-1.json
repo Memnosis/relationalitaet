@@ -286,6 +286,30 @@
       "value": null,
       "qualification": "specific_causality_and_duty_required",
       "review_status": "verified_landing_or_extract_not_independently_audited"
+    },
+    {
+      "id": "CAP-S17",
+      "domain": "all",
+      "title": "Medizinischer Dienst Bund: Behandlungsfehlerbegutachtung 2025, veröffentlicht 20.08.2026",
+      "url": "https://md-bund.de/presse/pressemitteilungen/neueste-pressemitteilungen/vermeidbare-gesundheitsschaeden-verursachen-milliardenkosten-einsparpotenziale-durch-mehr-patientensicherheit-nutzen.html",
+      "period": "2025",
+      "metric": "causally_confirmed_error_related_death_or_substantial_contribution_in_reviewed_cases",
+      "unit": "cases",
+      "value": 97,
+      "qualification": "Not proven as bed-shortage-related; case-selected, not population-wide",
+      "review_status": "verified_provider_publication"
+    },
+    {
+      "id": "CAP-S18",
+      "domain": "all",
+      "title": "Medizinischer Dienst Bund: Übersicht historische Jahresstatistiken 2022–2025",
+      "url": "https://md-bund.de/richtlinien-publikationen/behandlungsfehler.html",
+      "period": "2022–2025",
+      "metric": "annual_case_review_comparison",
+      "unit": "index",
+      "value": null,
+      "qualification": "Changes of definitions and selection must be checked",
+      "review_status": "verified_landing"
     }
   ],
   "measurement_contract": {
@@ -346,5 +370,11 @@
     "forewarning_implies_intent",
     "temporal_correlation_proves_medical_causation",
     "all_infection_related_deaths_due_to_missing_beds"
-  ]
+  ],
+  "causality_result_separation": {
+    "documented_error_related_deaths_in_reviewed_2025_cases": 97,
+    "source_id": "CAP-S17",
+    "capacity_shortage_specific_deaths_confirmed_in_this_project": 0,
+    "note": "The 97 confirmed harmful error-related death cases must not be classified as capacity-shortage-related without case-specific evidence. Zero means none assessed and confirmed by this project, NOT absence in reality."
+  }
 }
