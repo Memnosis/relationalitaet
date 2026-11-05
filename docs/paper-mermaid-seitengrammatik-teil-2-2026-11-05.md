@@ -1,3 +1,13 @@
+<!-- BKI-MINIMAL-PAPER-V1 -->
+![Bürger-KI Logo](./assets/media/buerger-ki-zeichen.svg)
+
+**Forschungsedition · Stand 5. November 2026**  
+**Kurzbeschreibung:** Mermaid-Seitengrammatik II · Fach- und Datenseiten – methodischer Bestand und Prüfstatus.  
+**Schlagwörter:** Bürger-KI · Quellen · Evidenz · Tests · Mermaid-Seitengrammatik II  
+**Kontakt:** Kontakt@erlebNils.de
+
+---
+
 # Mermaid-Seitengrammatik II · Fach- und Datenseiten
 **Entwürfe aus realen Überschriften · nicht fachlich validierte Prozesse**
 ## [Sondervermögen: 100 Posten. Welche Wirkung?](./buerger-ki-svik-100.html)
@@ -295,3 +305,8 @@ P2 --> P3
 flowchart LR
 A["Wie entstehen kleine KI-Systeme aus wissenschaftlichen Beziehungen?"] --> B["Begriff / Originalquelle"] --> C["Daten und Methode"] --> D["Gegenhypothese"] --> E["Mitmachtest / Ergebnis"]
 ```
+
+
+---
+
+*Bürger-KI · Rechte verstehen. Probleme lösen. Gesellschaft verbessern.* · [Bürger-KI](./buerger-ki.html) · [Publikationen](./publikationen.html) · Kontakt@erlebNils.de · 05.11.2026
