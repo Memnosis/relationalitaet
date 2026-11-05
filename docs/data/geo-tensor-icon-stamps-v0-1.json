@@ -1,0 +1,1411 @@
+{
+  "schema": "geo-tensor-icon-stamps/0.1",
+  "title": "Geo-KI / Trinity Algebra: Formen-, Operator- und Evidenzstempel",
+  "created": "2026-11-06",
+  "license": "CC BY-SA 4.0",
+  "layers": {
+    "form": [
+      {
+        "id": "FORM-POINT",
+        "name": "Punkt",
+        "meaning": "ein Ort, eine Position",
+        "formal": "coordinate",
+        "status": "Geo-typ"
+      },
+      {
+        "id": "FORM-LINE",
+        "name": "Linie/Pfeil",
+        "meaning": "geordnete Verbindung oder Bewegungsrichtung",
+        "formal": "segment_or_vector",
+        "status": "Geo-typ"
+      },
+      {
+        "id": "FORM-TRIAD",
+        "name": "Dreierrelation",
+        "meaning": "drei Rollen in einer Relation, nicht nur drei Paarverbindungen",
+        "formal": "typed_hyperedge",
+        "status": "Geo-typ"
+      },
+      {
+        "id": "FORM-NET",
+        "name": "Netz/Graph",
+        "meaning": "mehrere Relationen zwischen typisierten Knoten",
+        "formal": "graph",
+        "status": "Geo-typ"
+      },
+      {
+        "id": "FORM-LAYER",
+        "name": "Schichten",
+        "meaning": "unterschiedliche Ebenen ohne implizierte Zeitfolge",
+        "formal": "ordered_layers",
+        "status": "Geo-typ"
+      },
+      {
+        "id": "FORM-CUBE",
+        "name": "27er-Raster",
+        "meaning": "3×3×3 Adressen, ohne Raumbehauptung",
+        "formal": "indexed_grid",
+        "status": "Geo-typ"
+      },
+      {
+        "id": "FORM-CYCLE",
+        "name": "Kreis/Schleife",
+        "meaning": "Wiederkehr nur bei nachgewiesener Rückkehr",
+        "formal": "closed_path_if_proven",
+        "status": "bedingt"
+      },
+      {
+        "id": "FORM-TORUS",
+        "name": "Torus",
+        "meaning": "zwei unabhängige periodische Dimensionen",
+        "formal": "periodic_surface_if_proven",
+        "status": "offen"
+      },
+      {
+        "id": "FORM-FRACTAL",
+        "name": "Selbstähnliche Form",
+        "meaning": "Skalenwiederholung mit quantifiziertem Maß",
+        "formal": "scale_rule_if_proven",
+        "status": "offen"
+      },
+      {
+        "id": "FORM-OPEN",
+        "name": "Offene Struktur",
+        "meaning": "fehlende Glieder, unvollständige Relation",
+        "formal": "partial_graph",
+        "status": "Geo-typ"
+      }
+    ],
+    "operator": [
+      {
+        "id": "OP-DIFF",
+        "name": "Unterscheiden",
+        "meaning": "Trennung von Objekten oder Rollen",
+        "implementation": "concept_defined"
+      },
+      {
+        "id": "OP-COMB",
+        "name": "Koppeln",
+        "meaning": "Verknüpfen typkompatibler Relationen",
+        "implementation": "concept_defined"
+      },
+      {
+        "id": "OP-PROJ",
+        "name": "Projektion",
+        "meaning": "Dimensions- oder Informationsreduktion",
+        "implementation": "projection_tested"
+      },
+      {
+        "id": "OP-TRANS",
+        "name": "Transformation",
+        "meaning": "Koordinaten oder Zustände überführen",
+        "implementation": "geo_kernel_implemented"
+      },
+      {
+        "id": "OP-ROT",
+        "name": "Rotation",
+        "meaning": "geometrische Drehung",
+        "implementation": "geo_kernel_implemented"
+      },
+      {
+        "id": "OP-INV",
+        "name": "Inverse",
+        "meaning": "Rücktransformation nur bei vorhandener Umkehr",
+        "implementation": "geo_kernel_implemented_in_restricted_cases"
+      },
+      {
+        "id": "OP-COMP",
+        "name": "Komposition",
+        "meaning": "kompatible Pfade/Operatoren hintereinanderschalten",
+        "implementation": "typed_path_implemented"
+      },
+      {
+        "id": "OP-CYC",
+        "name": "Zyklus",
+        "meaning": "wiederkehrende Adressen/Zustände",
+        "implementation": "index_only_until_domain_verified"
+      },
+      {
+        "id": "OP-RST",
+        "name": "Rückführung",
+        "meaning": "zurück in Basisschicht, nicht notwendig Ausgang",
+        "implementation": "typed_path_implemented"
+      },
+      {
+        "id": "OP-REC",
+        "name": "Rekonstruktion",
+        "meaning": "Wiederherstellung mit ausgewiesenem Verlust",
+        "implementation": "candidate"
+      },
+      {
+        "id": "OP-TRV",
+        "name": "Traversal",
+        "meaning": "typisierte Durchquerung von Relationsebenen",
+        "implementation": "source_named_not_fully_implemented"
+      },
+      {
+        "id": "OP-ADP",
+        "name": "Adaption",
+        "meaning": "Anpassung von Zustands-/Regelstruktur",
+        "implementation": "source_named_not_fully_implemented"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "STATUS-SOURCE",
+        "name": "QUELLBELEGT",
+        "criterion": "Feldtext ist aus einer Projektquelle erfasst, ohne Fachprüfung"
+      },
+      {
+        "id": "STATUS-STRUCT",
+        "name": "STRUKTUR",
+        "criterion": "Adress-/Geometrieabbildung geprüft, Semantik offen"
+      },
+      {
+        "id": "STATUS-OP",
+        "name": "OPERATOR GETESTET",
+        "criterion": "Operation unter angegebenen Bedingungen geprüft"
+      },
+      {
+        "id": "STATUS-RETURN",
+        "name": "RÜCKWEG",
+        "criterion": "Umkehr-/Rekonstruktionsprüfung bestanden und Bereich angegeben"
+      },
+      {
+        "id": "STATUS-LOSS",
+        "name": "VERLUST",
+        "criterion": "nicht injektive bzw. verlustbehaftete Übertragung bestätigt"
+      },
+      {
+        "id": "STATUS-DONOR",
+        "name": "DONOR",
+        "criterion": "theorieexternes Element; Original und Übertragungsgrenze ausgewiesen"
+      },
+      {
+        "id": "STATUS-CROSS",
+        "name": "CROSSWALK",
+        "criterion": "Typisierung/Mapping formuliert, keine Theoriegleichsetzung"
+      },
+      {
+        "id": "STATUS-OPEN",
+        "name": "OFFEN",
+        "criterion": "Evidenz oder mathematischer Nachweis fehlt"
+      },
+      {
+        "id": "STATUS-FRAGMENT",
+        "name": "FRAGMENT",
+        "criterion": "Quell-Extraktion unvollständig; Originalabgleich nötig"
+      },
+      {
+        "id": "STATUS-FAIL",
+        "name": "WIDERLEGT",
+        "criterion": "Gegenbeispiel oder Typkonflikt nachgewiesen"
+      }
+    ]
+  },
+  "rule": "Each object uses form + optional operation + evidence status. Never infer form from keyword alone. OPEN and FRAGMENT override visually authoritative seals. Every status is specific to a claim/test, not a general theory certificate.",
+  "source_refs": [
+    "forschung/geoki/v0_4/src/geometry.py",
+    "forschung/tensor/algebra-claude/TENSOREN_PUBLIKATIONEN_V0_1.json",
+    "forschung/tensor/kandidaten/KAND-LUHMANN-01_v0_1.json",
+    "forschung/tensor/algebra-claude/typalgebra.py"
+  ],
+  "field_position_audit": {
+    "T-SOZ": [
+      {
+        "address": "NM-I-α",
+        "text": "Latente strukturelle Assoziationspotenzialität (Reservoir möglicher Ganzheiten)",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "NM-I-β",
+        "text": "Latente funktionelle Dissoziationsfähigkeit (vorbereitender Auswahlmechanismus)",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "NM-I-γ",
+        "text": "Latente relationale Soziationsvorordnung (komplementäre Balance im Reservoir)",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "NM-II-α",
+        "text": "Latente rhythmische Assoziationsstrukturen",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "NM-II-β",
+        "text": "Latente rhythmische Dissoziationszyklen",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "NM-II-γ",
+        "text": "Latente relationale Soziationskreisläufe",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "NM-III-α",
+        "text": "Offene latente Assoziationsstrukturen",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "NM-III-β",
+        "text": "Offene latente Dissoziationsfähigkeit",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "NM-III-γ",
+        "text": "Offene latente Soziationsrelation",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "UM-I-α",
+        "text": "Stabile strukturelle Selektive Ganzheit",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "UM-I-β",
+        "text": "Stabile funktionelle Balance der Urkräfte",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "UM-I-γ",
+        "text": "Stabile relationale Selbstkohärenz",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "UM-II-α",
+        "text": "Zyklische Assoziationsstrukturen (Mustererkennung)",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "UM-II-β",
+        "text": "Zyklische Dissoziationsfunktion (Ordnungen aus Chaos)",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "UM-II-γ",
+        "text": "Zyklische Soziationsrelation (Prozesse statt Zustände)",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "UM-III-α",
+        "text": "Offene strukturelle Ganzheit (Teile im Ganzen ganz)",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "UM-III-β",
+        "text": "Offene funktionelle Verschränkung",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "UM-III-γ",
+        "text": "Offene relationale Soziation",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "ZM-I-α",
+        "text": "Struktureller Symmetriebruch zwischen Assoziation und Dissoziation",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "ZM-I-β",
+        "text": "Akute Dissoziationsschübe im aktiven Filterprozess",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "ZM-I-γ",
+        "text": "Erste relationale Balance von Assoziation und Dissoziation",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "ZM-II-α",
+        "text": "Rhythmische Assoziationsstrukturen im aktiven Prozess",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "ZM-II-β",
+        "text": "Rhythmische Dissoziationsfunktion (operativer ρ-Kreislauf)",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "ZM-II-γ",
+        "text": "Rhythmisches komplementäres Zusammenspiel der Urkräfte",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "ZM-III-α",
+        "text": "Öffnung zu neuer Assoziationsstruktur",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "ZM-III-β",
+        "text": "Öffnung zu neuer Dissoziationsfähigkeit",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "ZM-III-γ",
+        "text": "Öffnung zu neuer Soziationsrelation",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      }
+    ],
+    "T-SOZ19": [
+      {
+        "address": "NM-I-α",
+        "text": "Relata- und",
+        "stamps": [
+          "STATUS-FRAGMENT",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext fragmentiert; keine automatische Gestaltfestlegung"
+      },
+      {
+        "address": "NM-I-β",
+        "text": "Assoziierbarkeit",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "NM-I-γ",
+        "text": "Vorordnungen, Constraints und erlaubte Übergänge sind formal präzisierbar",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "NM-II-α",
+        "text": "Rückkopplungsarchitekturen besitzen eigenständige System- und Prozessmodelle",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "NM-II-β",
+        "text": "Plastizität und",
+        "stamps": [
+          "STATUS-FRAGMENT",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext fragmentiert; keine automatische Gestaltfestlegung"
+      },
+      {
+        "address": "NM-II-γ",
+        "text": "bestehende Kopplungsdisposition",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "NM-III-α",
+        "text": "Grenze und",
+        "stamps": [
+          "STATUS-FRAGMENT",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext fragmentiert; keine automatische Gestaltfestlegung"
+      },
+      {
+        "address": "NM-III-β",
+        "text": "Variations- und",
+        "stamps": [
+          "STATUS-FRAGMENT",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext fragmentiert; keine automatische Gestaltfestlegung"
+      },
+      {
+        "address": "NM-III-γ",
+        "text": "alternativer",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "UM-I-α",
+        "text": "manifestierte",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "UM-I-β",
+        "text": "Wie wird Funktion definiert, ohne sie mit Wirkung, Nutzen oder Norm zu vermischen?",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "UM-I-γ",
+        "text": "Ab wann ist eine Relation stabilisiert statt nur wiederholt beobachtet?",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "UM-II-α",
+        "text": "Regime, Attraktor und Modul besitzen formale wie empirische Entsprechungen",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "UM-II-β",
+        "text": "Resilienz und",
+        "stamps": [
+          "STATUS-FRAGMENT",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext fragmentiert; keine automatische Gestaltfestlegung"
+      },
+      {
+        "address": "UM-II-γ",
+        "text": "Wann wird Wiederholung zu Institutionalisierung?",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "UM-III-α",
+        "text": "Multilayer-Architekturen sind formal ausgearbeitet",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "UM-III-β",
+        "text": "Wie lässt sich Folgepotenzial unabhängig von späteren Manifestationen messen?",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "UM-III-γ",
+        "text": "offene Korrespondenz",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "ZM-I-α",
+        "text": "Relationsereignis oder oder Trajektorie",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "ZM-I-β",
+        "text": "relationale Operation Lernen und Adaptation",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "ZM-I-γ",
+        "text": "Kopplung und Entkopplung",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "ZM-II-α",
+        "text": "Prozesspfad",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "ZM-II-β",
+        "text": "Regulation,",
+        "stamps": [
+          "STATUS-FRAGMENT",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext fragmentiert; keine automatische Gestaltfestlegung"
+      },
+      {
+        "address": "ZM-II-γ",
+        "text": "Rückkopplung und Koordination",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "ZM-III-α",
+        "text": "Bifurkation",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "ZM-III-β",
+        "text": "Exploration",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "ZM-III-γ",
+        "text": "Traversal,",
+        "stamps": [
+          "STATUS-FRAGMENT",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext fragmentiert; keine automatische Gestaltfestlegung"
+      }
+    ],
+    "T-LOGIK": [
+      {
+        "address": "NM-I-α",
+        "text": "Symbolischer Trägerraum",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "NM-I-β",
+        "text": "Axiomatische Setzung",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "NM-I-γ",
+        "text": "Relationale Vorordnung",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "NM-II-α",
+        "text": "Syntaxgerüst",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "NM-II-β",
+        "text": "Ableitungsbereitschaft",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "NM-II-γ",
+        "text": "Semantischer Möglichkeitsraum",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "NM-III-α",
+        "text": "Grenz- und Paradoxraum",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "NM-III-β",
+        "text": "Entscheidungsbereitschaft",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "NM-III-γ",
+        "text": "Offene Geltungsspannung",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "UM-I-α",
+        "text": "Theorem",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "UM-I-β",
+        "text": "Geltungsfunktion",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "UM-I-γ",
+        "text": "Äquivalenz und Identität",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "UM-II-α",
+        "text": "Kalkül oder System",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "UM-II-β",
+        "text": "Konsistenz / Vollständigkeit",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "UM-II-γ",
+        "text": "Modellklasse",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "UM-III-α",
+        "text": "Logische Theorieform",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "UM-III-β",
+        "text": "Entscheidbarkeitsraum",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "UM-III-γ",
+        "text": "Offene Korrespondenz logischer Systeme",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "ZM-I-α",
+        "text": "Inferenzschritt",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "ZM-I-β",
+        "text": "Regelanwendung",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "ZM-I-γ",
+        "text": "Operator der Ableitung",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "ZM-II-α",
+        "text": "Beweisgang",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "ZM-II-β",
+        "text": "Transformation und Umformung",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "ZM-II-γ",
+        "text": "Syntax-Semantik-Übergang",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "ZM-III-α",
+        "text": "Modallogische Öffnung",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "ZM-III-β",
+        "text": "Rekursive Entscheidungsprozesse",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      },
+      {
+        "address": "ZM-III-γ",
+        "text": "Netz logischer Korrespondenzen",
+        "stamps": [
+          "STATUS-SOURCE",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-OPEN",
+        "verified_geometric_mapping": false,
+        "reason": "Quelltext vorhanden; fachliche geometrische Abbildung noch nicht nachgewiesen"
+      }
+    ],
+    "KAND-LUHMANN-01": [
+      {
+        "address": "NM-I-α",
+        "text": "Welche Information wird als Unterschied ausgewählt? Was ist der thematische Gegenstand? Welche relevanten Möglichkeiten und Unterschiede werden markiert?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      },
+      {
+        "address": "NM-I-β",
+        "text": "Welche Information wird als Unterschied ausgewählt? Was ist der thematische Gegenstand? Welcher kommunikativen Operation oder Beobachterperspektive wird die Selektion zugerechnet?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      },
+      {
+        "address": "NM-I-γ",
+        "text": "Welche Information wird als Unterschied ausgewählt? Was ist der thematische Gegenstand? Welche weitere Kommunikation nimmt diese Unterscheidung auf, verwirft oder verändert sie?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      },
+      {
+        "address": "NM-II-α",
+        "text": "Welche Information wird als Unterschied ausgewählt? Welcher Gegenwarts-, Vergangenheits- oder Zukunftsbezug wird gemacht? Welche relevanten Möglichkeiten und Unterschiede werden markiert?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      },
+      {
+        "address": "NM-II-β",
+        "text": "Welche Information wird als Unterschied ausgewählt? Welcher Gegenwarts-, Vergangenheits- oder Zukunftsbezug wird gemacht? Welcher kommunikativen Operation oder Beobachterperspektive wird die Selektion zugerechnet?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      },
+      {
+        "address": "NM-II-γ",
+        "text": "Welche Information wird als Unterschied ausgewählt? Welcher Gegenwarts-, Vergangenheits- oder Zukunftsbezug wird gemacht? Welche weitere Kommunikation nimmt diese Unterscheidung auf, verwirft oder verändert sie?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      },
+      {
+        "address": "NM-III-α",
+        "text": "Welche Information wird als Unterschied ausgewählt? Welche Perspektiven und Erwartungen anderer sind beteiligt? Welche relevanten Möglichkeiten und Unterschiede werden markiert?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      },
+      {
+        "address": "NM-III-β",
+        "text": "Welche Information wird als Unterschied ausgewählt? Welche Perspektiven und Erwartungen anderer sind beteiligt? Welcher kommunikativen Operation oder Beobachterperspektive wird die Selektion zugerechnet?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      },
+      {
+        "address": "NM-III-γ",
+        "text": "Welche Information wird als Unterschied ausgewählt? Welche Perspektiven und Erwartungen anderer sind beteiligt? Welche weitere Kommunikation nimmt diese Unterscheidung auf, verwirft oder verändert sie?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      },
+      {
+        "address": "ZM-I-α",
+        "text": "Wie wird kenntlich, dass und wie etwas mitgeteilt wird? Was ist der thematische Gegenstand? Welche relevanten Möglichkeiten und Unterschiede werden markiert?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      },
+      {
+        "address": "ZM-I-β",
+        "text": "Wie wird kenntlich, dass und wie etwas mitgeteilt wird? Was ist der thematische Gegenstand? Welcher kommunikativen Operation oder Beobachterperspektive wird die Selektion zugerechnet?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      },
+      {
+        "address": "ZM-I-γ",
+        "text": "Wie wird kenntlich, dass und wie etwas mitgeteilt wird? Was ist der thematische Gegenstand? Welche weitere Kommunikation nimmt diese Unterscheidung auf, verwirft oder verändert sie?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      },
+      {
+        "address": "ZM-II-α",
+        "text": "Wie wird kenntlich, dass und wie etwas mitgeteilt wird? Welcher Gegenwarts-, Vergangenheits- oder Zukunftsbezug wird gemacht? Welche relevanten Möglichkeiten und Unterschiede werden markiert?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      },
+      {
+        "address": "ZM-II-β",
+        "text": "Wie wird kenntlich, dass und wie etwas mitgeteilt wird? Welcher Gegenwarts-, Vergangenheits- oder Zukunftsbezug wird gemacht? Welcher kommunikativen Operation oder Beobachterperspektive wird die Selektion zugerechnet?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      },
+      {
+        "address": "ZM-II-γ",
+        "text": "Wie wird kenntlich, dass und wie etwas mitgeteilt wird? Welcher Gegenwarts-, Vergangenheits- oder Zukunftsbezug wird gemacht? Welche weitere Kommunikation nimmt diese Unterscheidung auf, verwirft oder verändert sie?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      },
+      {
+        "address": "ZM-III-α",
+        "text": "Wie wird kenntlich, dass und wie etwas mitgeteilt wird? Welche Perspektiven und Erwartungen anderer sind beteiligt? Welche relevanten Möglichkeiten und Unterschiede werden markiert?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      },
+      {
+        "address": "ZM-III-β",
+        "text": "Wie wird kenntlich, dass und wie etwas mitgeteilt wird? Welche Perspektiven und Erwartungen anderer sind beteiligt? Welcher kommunikativen Operation oder Beobachterperspektive wird die Selektion zugerechnet?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      },
+      {
+        "address": "ZM-III-γ",
+        "text": "Wie wird kenntlich, dass und wie etwas mitgeteilt wird? Welche Perspektiven und Erwartungen anderer sind beteiligt? Welche weitere Kommunikation nimmt diese Unterscheidung auf, verwirft oder verändert sie?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      },
+      {
+        "address": "UM-I-α",
+        "text": "Wird die Unterscheidung von Information und Mitteilung verstanden? Was ist der thematische Gegenstand? Welche relevanten Möglichkeiten und Unterschiede werden markiert?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      },
+      {
+        "address": "UM-I-β",
+        "text": "Wird die Unterscheidung von Information und Mitteilung verstanden? Was ist der thematische Gegenstand? Welcher kommunikativen Operation oder Beobachterperspektive wird die Selektion zugerechnet?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      },
+      {
+        "address": "UM-I-γ",
+        "text": "Wird die Unterscheidung von Information und Mitteilung verstanden? Was ist der thematische Gegenstand? Welche weitere Kommunikation nimmt diese Unterscheidung auf, verwirft oder verändert sie?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      },
+      {
+        "address": "UM-II-α",
+        "text": "Wird die Unterscheidung von Information und Mitteilung verstanden? Welcher Gegenwarts-, Vergangenheits- oder Zukunftsbezug wird gemacht? Welche relevanten Möglichkeiten und Unterschiede werden markiert?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      },
+      {
+        "address": "UM-II-β",
+        "text": "Wird die Unterscheidung von Information und Mitteilung verstanden? Welcher Gegenwarts-, Vergangenheits- oder Zukunftsbezug wird gemacht? Welcher kommunikativen Operation oder Beobachterperspektive wird die Selektion zugerechnet?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      },
+      {
+        "address": "UM-II-γ",
+        "text": "Wird die Unterscheidung von Information und Mitteilung verstanden? Welcher Gegenwarts-, Vergangenheits- oder Zukunftsbezug wird gemacht? Welche weitere Kommunikation nimmt diese Unterscheidung auf, verwirft oder verändert sie?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      },
+      {
+        "address": "UM-III-α",
+        "text": "Wird die Unterscheidung von Information und Mitteilung verstanden? Welche Perspektiven und Erwartungen anderer sind beteiligt? Welche relevanten Möglichkeiten und Unterschiede werden markiert?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      },
+      {
+        "address": "UM-III-β",
+        "text": "Wird die Unterscheidung von Information und Mitteilung verstanden? Welche Perspektiven und Erwartungen anderer sind beteiligt? Welcher kommunikativen Operation oder Beobachterperspektive wird die Selektion zugerechnet?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      },
+      {
+        "address": "UM-III-γ",
+        "text": "Wird die Unterscheidung von Information und Mitteilung verstanden? Welche Perspektiven und Erwartungen anderer sind beteiligt? Welche weitere Kommunikation nimmt diese Unterscheidung auf, verwirft oder verändert sie?",
+        "stamps": [
+          "STATUS-CROSS",
+          "STATUS-OPEN"
+        ],
+        "form": "FORM-TRIAD",
+        "verified_geometric_mapping": false,
+        "reason": "Prüffrage; dreifache Rollen-Codierung konzeptionell, keine semantische Formäquivalenz"
+      }
+    ]
+  }
+}
