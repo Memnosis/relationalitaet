@@ -291,6 +291,14 @@ Jeder Pfad beginnt mit einer menschlich formulierbaren Frage, führt zu einer wi
 **Quellenqualität:** Q1–Q6 begründen Methoden und externe Begriffsmodelle; P1–P4 belegen nur den projektinternen Stand. Eine externe Primärquellen-Recherche zu jeder projektspezifischen Rechts-/Versorgungsaussage ist damit nicht erledigt.
 
 
+## 14. Abnahme der ersten Forschungsfassung und Übergang zu Phase 15
+
+**In v0.1 tatsächlich geleistet:** historischer Anschluss an das Originalsprach-Paper; getrennte Typologie der Sprachräume, Aussagearten und Begriffe; explizite Hypothesen und falsifizierbare Tests; Vorschläge für neue Claims nach Funktion; Zuordnung zu Quellen und No-Loss-Register.
+
+**Offen und ausdrücklich nicht als erledigt markieren:** vollständiger historischer Textkorpus aller Seiten/Publikationen; fachliches Review der Terminologie; mehrsprachiger Referenzkorpus; empirische Perspektivwechsel- und Verständnistests; automatische Regressionsprüfung; Integrationsprüfung jeder einzelnen These gegen das gesamte Projektinventar; Browser- und Nutzerabnahme.
+
+**Publikationsregel:** Dieses Paper kann als Forschungsentwurf zugänglich sein; Claims mit `origin=new_proposal` sind nicht redaktionell freigegeben und erhalten keine automatische Platzierung im Hero. Der Bestand wird erweitert, nicht umgeschrieben.
+
 ## 15. Sprachstrategie für das Gesamtprojekt: Zurückhaltung, Akzente, Übersetzung
 
 **Redaktionelle Leitentscheidung (Vorschlag, noch keine empirisch validierte Wirkung):** Die Sprache folgt dem Zweck der jeweiligen Ebene; *nicht* jeder wissenschaftliche Fund erhält einen Slogan und *nicht* jeder Slogan gehört auf die Hauptseite. Die anfänglich starke, menschliche Stimme von Bürger-KI bleibt die öffentliche Leitstimme. Tiefer liegende Forschungsobjekte besitzen andere Sprachregister, aber ihre Wege zurück zum Ausgangsanliegen bleiben sichtbar.
@@ -417,13 +425,6 @@ Die Menge ist eine **Gestaltungshypothese**, keine mechanische Quote: Starke For
 
 **Definition fertig:** Kein historischer Text und keine Quellen-/Begriffs-/Thesen-ID verloren; neue Vorschläge bleiben erkennbar; mindestens ein Perspektivwechsel besitzt Original, fachliche Übersetzung, Quellen-/Geltungsnotizen, Gegenbeispiel und nachvollziehbaren Rückweg; Änderungen am öffentlichen Text sind tatsächlich geprüft.
 
-## 14. Abnahme und nächste Forschungsstufe
-
-**In v0.1 tatsächlich geleistet:** historischer Anschluss an das Originalsprach-Paper; getrennte Typologie der Sprachräume, Aussagearten und Begriffe; explizite Hypothesen und falsifizierbare Tests; Vorschläge für neue Claims nach Funktion; Zuordnung zu Quellen und No-Loss-Register.
-
-**Offen und ausdrücklich nicht als erledigt markieren:** vollständiger historischer Textkorpus aller Seiten/Publikationen; fachliches Review der Terminologie; mehrsprachiger Referenzkorpus; empirische Perspektivwechsel- und Verständnistests; automatische Regressionsprüfung; Integrationsprüfung jeder einzelnen These gegen das gesamte Projektinventar; Browser- und Nutzerabnahme.
-
-**Publikationsregel:** Dieses Paper kann als Forschungsentwurf zugänglich sein; Claims mit `origin=new_proposal` sind nicht redaktionell freigegeben und erhalten keine automatische Platzierung im Hero. Der Bestand wird erweitert, nicht umgeschrieben.
 
 ---
 *Bürger-KI · Wissen wird verständlich, wenn der Weg zwischen den Bedeutungen sichtbar wird. Forschungsfassung v0.1.*
