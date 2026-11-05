@@ -102,6 +102,51 @@
 7. **Mobilisierungsgates:** öffentliches Ereignis ohne Registrierung zuerst; später freiwillige Listen und eindeutige Rückwege.
 8. **Tests:** Source freshness; 5 Wege abgeschlossen; Kränzchen-Vorschläge nicht Therapie; E-Mail nicht als Gesundheitsliste; kein unbewiesener Rechtsclaim; kein Behaupten von KI-Funktion, die nicht betrieben wird.
 
+
+## 11. Präzisierung: D-Day übernehmen, Methoden als Eventidee, bestehende Projekte vorstellen
+
+**Verbindliche Korrektur vom 05.11.2026:** Bürger-KI ist kein Organisator einer neuen politischen/sozialen Bewegung und keine Psychotherapie-Selbsthilfeplattform per Voreinstellung. Es gibt Hilfsmittel zur Eigenorganisation und zeigt die Grenzen fachlicher Gesprächsmethoden auf.
+
+**Format 3 – DI.DAY statt paralleles Souveränitätsformat:** Das bewährte Prinzip des Digital Independence Day übernehmen: jeden ersten Sonntag im Monat *eine konkrete digitale Abhängigkeit überprüfen und ggf. wechseln*, mit einfachen Rezepten, gegenseitiger technischer Hilfe und vorhandenen lokalen Veranstaltern. Offizielle Projektseiten: https://diday.org/de/ , https://di.day/de/ , https://events.diday.org/ . Kooperations-/Namensnutzung vor eigenen Brandingansprüchen prüfen; keine bestehende Initiative als selbst betrieben ausgeben.
+
+**Format 4 – Perspektiven- und Stuhlmethoden zunächst nur als Idee:** Auf der Website einen interessanten Teaser und ausgewählte methodische Beispiele zeigen; Interesse oder Beiträge nur über einen **klar zweckbestimmten, nicht verpflichtenden** Kontaktweg aufnehmen, falls dieser rechtlich/technisch eingerichtet wird. Ein eigenes Event nur bei wirklicher Nachfrage, geeigneten Räumen und fachlicher Verantwortung. Grenze genau zeigen: öffentliche Gesprächsmoderation → freiwillige Selbstreflexion → professionell verantwortete psychotherapeutische Intervention. Die Grenzklärung ist der didaktische Inhalt selbst und lässt Methodenwahl/Veranstaltungsformat daraus hervorgehen.
+
+**Format 5 – Projekte vorstellen, keine Bewegung beanspruchen:** Eigenständige NGO-, Selbsthilfe-, Fach- und Bürgerprojekte kuratieren, ihre Ziele und tatsächlichen Angebote korrekt beschreiben, ihre Betreiber/Ansprechpersonen nennen und dorthin verlinken. Keine zentrale Aktivistengruppe, keine gemeinsamen Mitgliederprofile und keine unbelegte Wirksamkeitszuschreibung.
+
+### 11.1 Plattformen: Zwecke und Empfehlungslogik
+
+| Ort/Plattform | Geeigneter Einsatz | Vorteil | Grenze |
+| --- | --- | --- | --- |
+| NAKOS / lokale Selbsthilfekontaktstellen – https://www.nakos.de/informationen/basiswissen/selbsthilfegruppen/ | Gesundheitsnahe Gruppen, Moderations- und Raumhilfe | bestehende Selbsthilfe-Infrastruktur, passende Beratung | keine Plattform zur direkten Terminvermittlung; keine Gleichsetzung jedes Kränzchens mit Selbsthilfegruppe |
+| DI.DAY / https://diday.org/de/ | monatliche Wechselrezepte, offene lokale Techniktreffs | bestehender Rhythmus und Aktionskalender | Veranstalter und aktuelle Ortsangaben jeweils gesondert prüfen |
+| Mobilizon – https://mobilizon.org/ | eigene offene Events/Termine auf bestehender freier Instanz | föderiert, Events und Gruppen, offene Software | geeignete aktive Instanz und deren Datenschutz/Moderation prüfen |
+| nebenan.de – https://nebenan.de/ | lokale Nachbarschaftsgruppe und Veranstaltung | hohe lokale Reichweite, Gruppen/Eventfunktionen | Account mit Echtnamen und Nachbarschaftsverifikation, nicht anonym |
+| Stadtteilzentrum, Bibliothek, VHS, Mehrgenerationenhaus | reale Räume und niedrigschwellige Treffen | ohne Bürger-KI-Plattformbetrieb möglich | Kapazität/Träger/Zugänglichkeit lokal prüfen |
+| Bürger-KI GitHub Pages | Ideen, Methodenkoffer, Quellen, öffentliche Veranstaltungshinweise | offen zugänglich, versionierbar, keine eigenen Mitgliedskonten nötig | kein eingebautes persönliches Matchmaking oder sicheres Teilnehmermanagement |
+
+**Auswahlregel:** offene Einladung zuerst auf Bürger-KI / bestehendem Kalender; Treffen durch bestehende Initiativen oder interessierte Gruppen; nur wenn notwendig eigene Event-Anmeldung. Vorhandene offene Termine müssen bei Veröffentlichung tatsächlich geprüft und datiert werden. Die Referenzen der NAKOS (Selbsthilfegruppen und Kontaktstellen), Mobilizon (Offizielle Dokumentation), nebenan.de (Hilfezentrum) und DIDay (offizielle Initiative) wurden als Quellenkandidaten recherchiert, aber keine individuelle Kooperation geschlossen.
+
+### 11.2 Wenige zentrale sprachliche Hebelwirkungen – keine neue Begriffsakte
+
+1. **Ziel und tatsächliche Erfüllung:** Ein Vorgang, ein Bescheid und eine Vermittlung sind nicht automatisch das menschlich gewünschte Ergebnis.
+2. **Bedarf und verfügbare Versorgung:** Ein statistischer Angebotspunkt ist nicht automatisch ein geeigneter, erreichbarer Zugang. Bedarf/Indikator jeweils fachlich definieren.
+3. **Information und Handlung:** Eine richtige Auskunft kann helfen, ersetzt aber weder Ressourcen noch Mut, Zeit, Unterstützung oder einen erreichbaren Dienst.
+4. **Verantwortung und systemische Grenzen:** Ein Problem kann aus Zuständigkeit, Kapazität, Anreiz, Finanzierung oder Regelwerk folgen; ein Rechtsverstoß benötigt gesonderten Norm-/Pflichten-/Sachverhaltsnachweis.
+5. **Rechte gemeinsam wahrnehmen:** Mehrere Menschen können dieselbe sachliche Frage stellen oder ein Angebot gemeinsam nutzen, ohne persönliche Fälle zu sammeln und ohne aus Häufigkeit automatisch Repräsentativität abzuleiten.
+6. **Schadensbegrenzung und Alternativen:** Nicht jede Ursache lässt sich kurzfristig lösen; Zugang zu Unterstützung, Zwischenangeboten und konkreten Alternativen bleibt trotzdem wichtig.
+
+Diese sechs Hebel bleiben **prägnante Erklärungsmomente** innerhalb der Pfade. Die fachlichen Fundstellen liegen bei den Originalquellen und Papers; keine eigene neue Lexikon-/Hebelakte und kein zusätzliches formales Claim-Regime.
+
+### 11.3 Nächste konkrete redaktionelle Schritte
+
+- Auf der öffentlichen Hauptseite nur eine kleine, sachlich richtige Kaffeekränzchen-Einladung bei „Unser Problem“ bzw. vorhandener Gruppenpassage; Original-Claims bleiben unberührt.
+- Die Kränzchen-Unterseite als eigenständige *Ideen- und Methodenübersicht* mit wenigen relevanten Links: „gemeinsam anfangen“, „im Dschungel orientieren“, „am DI.DAY teilnehmen“, „Methoden kennenlernen“, „bestehende Projekte entdecken“.
+- Format 4 enthält zunächst **keinen** Terminkalender mit fiktiver Veranstaltung, keine automatische Anmeldung, kein unmoderiertes gesundheitsnahes Forum.
+- Format 5 ist ein kuratierter Projektkatalog mit realen Projektlinks, nicht die behauptete Entstehung einer Bürger-KI-Bewegung.
+- Erst durch fachliche Recherche und UI-Review freigegebene Quellen zu je 2–3 Hauptverbindungen bündeln; keine redundanten Sammelportale als „passgenaue“ Links ausgeben.
+- Browser-/Linktest prüfen, ob Sichtbarkeit des Teasers, Öffnung der Klappen und Rückführung zur Originalfrage funktionieren; lokale Testtreffen getrennt organisatorisch vorbereiten.
+
+
 ## 10. Verifizierte externe Referenzen im Rechercheturn
 
 - https://www.nakos.de/informationen/basiswissen/selbsthilfegruppen/
