@@ -240,7 +240,7 @@
     "first_phase": "BKI-LANG-FIRST",
     "reference": "SPRACHPROJEKT_PFADGRAMMATIK_UEBERSETZBARKEIT_WISSENSRAEUME_V1_2026-11-05.md",
     "inventory": "SPRACHPFADE_ELEMENTINVENTAR_V0_1.json",
-    "user_stories_status": "deferred_until_language_gate",
+    "user_stories_status": "deferred_until_language_and_operating_model_review",
     "execution_order": [
       "LANG-01 inventory existing paths",
       "LANG-02 complete element texts and exit semantics",
@@ -251,6 +251,28 @@
       "LANG-07 language and fach acceptance",
       "BKI-AP-01 baseline and BKI-AP-02 crosswalk integration",
       "BKI-AP-03 through BKI-AP-09 gated rollout"
+    ]
+  },
+  "extension_2026_11_05": {
+    "id": "BKI-PH16-OPERATING-MODEL",
+    "priority": "review_before_any_personal_data_collection",
+    "paper": "PAPER_MENSCH_ZU_HANDLUNG_KI_ANBINDUNG_DATEN_RECHT_V0_1_2026-11-05.md",
+    "data_model": "MENSCH_HANDLUNG_DATENFLUESSE_V0_1.json",
+    "decision": "Separate public knowledge, local self-help tools, community activity, private health assistance and research",
+    "gates": [
+      "confirm_personal_data_purpose_and_responsibility",
+      "legal_review_of_health_data_and_medical_intended_purpose",
+      "no_unreviewed_forms_or_contact_lists",
+      "semantic_review_W01_to_W10",
+      "inspect_existing_impressum_and_privacy_for_each_new_service"
+    ],
+    "status": "planning_only_no_new_user_data_collection",
+    "next_actions": [
+      "review all semantic transitions W01-W10 against existing path elements",
+      "prototype local-only contact checklist and printable search guide after review",
+      "design optional group co-working format before any registration",
+      "investigate external ePA and chosen user-owned AI service without direct platform integration",
+      "prepare separate newsletter/event legal and technical scope"
     ]
   }
 }
