@@ -1,7 +1,7 @@
 {
   "schema": "bki-language-world-map/0.1",
   "date": "2026-11-05",
-  "status": "inventory_extended_17_worlds_not_fach_approved",
+  "status": "inventory_extended_19_worlds_not_fach_approved",
   "purpose": "Map all project-relevant language worlds by human question, semantic hinge, factual source status, display and phased expansion",
   "roles": {
     "necessary": "essential for primary citizen navigation or evidence",
@@ -16,7 +16,9 @@
     "feedback_is_help_transfer_not_population_evidence",
     "use_correct_canonical_ids",
     "keep_negative_results_and_scope",
-    "expanded_content_must_have_substantive_answer_and_return"
+    "expanded_content_must_have_substantive_answer_and_return",
+    "AI applications currently used in each domain are primary deep-dive content, not a claim of own AI",
+    "User decides whether to send their own data externally; short contextual star note does not replace provider legal notices or processing obligations"
   ],
   "domains": [
     {
@@ -437,6 +439,61 @@
       "preferred_representation": "curated_issues_and_knowledge_cards_with_optional_feedback_channels",
       "publication_review": "pending",
       "translation_review": "pending"
+    },
+    {
+      "id": "SW-18",
+      "title": "Reale Bürger-KI – heutige Anwendungen der KI in jedem Fachgebiet",
+      "role": "necessary",
+      "priority": "P0",
+      "existing_anchors": [
+        "forschung/buerger-ki/WISSENS_NUCLEI_DEEP_DIVE_REGISTER_V0_1_2026-11-05.json",
+        "forschung/buerger-ki/PAPER_VIRTUELLE_KI_FUNKTIONEN_UEBERGABEN_FEEDBACK_BAUSTELLEN_V0_1_2026-11-05.md"
+      ],
+      "pivots": [
+        "theoretical_capability_to_existing_product",
+        "AI_demo_to_verified_real_use",
+        "external_service_to_user_control",
+        "source_research_to_AI_applied_today"
+      ],
+      "source_gaps": [
+        "domain_specific_current_AI_provider_survey",
+        "independent_functional_evaluations",
+        "pricing_license_access",
+        "API_and_open_source",
+        "safety_and_compliance"
+      ],
+      "existing_status": "new_research_domain_no_claim_of_operated_AI",
+      "preferred_representation": "current_application_comparison_by_each_subject_area",
+      "publication_review": "pending",
+      "translation_review": "pending"
+    },
+    {
+      "id": "SW-19",
+      "title": "Souveräne KI der Bürgerschaften – Kultur, Wissen und Selbstbestimmung",
+      "role": "research",
+      "priority": "P1",
+      "existing_anchors": [
+        "docs/soulution.html",
+        "docs/ki-systeme.html",
+        "forschung/buerger-ki/WISSENS_NUCLEI_DEEP_DIVE_REGISTER_V0_1_2026-11-05.json"
+      ],
+      "pivots": [
+        "individual_data_choice_to_collective_governance",
+        "proprietary_dependency_to_open_capabilities",
+        "personal_AI_to_civic_commons",
+        "AI_infrastructure_to_cultural_continuity"
+      ],
+      "source_gaps": [
+        "public_interest_AI_projects",
+        "cultural_preservation_standards",
+        "open_models_governance",
+        "democratic_stewardship",
+        "long_term_impact_evidence"
+      ],
+      "existing_status": "long_horizon_research_question_not_project_commitment",
+      "preferred_representation": "research_world_and_existing_project_links",
+      "publication_review": "pending",
+      "translation_review": "pending"
     }
   ],
   "phases": [
@@ -517,6 +574,17 @@
         "barcamp_as_conditional_idea_not_event"
       ],
       "exit": "research/evidence explicitly distinguished from implementation"
+    },
+    {
+      "id": "SW-PH-CIVIC",
+      "title": "Apply real-world AI landscape to every knowledge nucleus and examine civic sovereignty",
+      "deliverables": [
+        "AI-in-use domain mapping",
+        "existing products and open-source comparison",
+        "operating model independent of own AI",
+        "civic governance and cultural knowledge research"
+      ],
+      "exit": "concrete services verified and conceptual vs actual capabilities distinguished"
     }
   ],
   "critical_pivots": [
@@ -535,5 +603,10 @@
     "private_record_to_external_provider",
     "feedback_public_or_private_to_shared_knowledge",
     "user_data_to_research_contribution"
-  ]
+  ],
+  "core_distinction": {
+    "virtual": "possible_future capabilities",
+    "real": "actual current AI applications independently of who operates them",
+    "sovereign": "research question of civic autonomy and preservation of human cultural knowledge"
+  }
 }
