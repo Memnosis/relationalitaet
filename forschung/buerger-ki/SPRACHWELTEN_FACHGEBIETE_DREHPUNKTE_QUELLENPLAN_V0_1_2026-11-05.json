@@ -794,5 +794,85 @@
       "user_facing_transparency_test",
       "legislative_history_and_proportionality"
     ]
+  },
+  "execution_reconciliation_2026_11_05": {
+    "status": "editorial_closure_and_next_stage_gates_not_claimed_complete",
+    "reference": "docs/data/bki-sprach-crosswalk-final-v1.json",
+    "phases": [
+      {
+        "id": "SW-PH-0",
+        "implementation_progress": "inventory_mapped",
+        "evidence": "Repository inventarisiert, private Ergebnisse und lokal erstellte Prototypen noch nicht vollständig im öffentlichen Quellenregister nachgezogen",
+        "remaining": "full_no_loss_file_sync_and_original_redaction",
+        "exit_review": "open"
+      },
+      {
+        "id": "SW-PH-1",
+        "implementation_progress": "method_defined_pilot_performed",
+        "evidence": "Bedeutungsübergänge in 14 Fällen bearbeitet; Fach- und Rückübersetzungsabnahme offen",
+        "remaining": "expert_check_translation_loss_gain_for_core_examples",
+        "exit_review": "open"
+      },
+      {
+        "id": "SW-PH-2",
+        "implementation_progress": "eight_rooms_piloted",
+        "evidence": "Acht Wissensräume initial kuratiert; nicht alle Quellen/Begriffe final geprüft",
+        "remaining": "refresh_primary_sources_and_glossary",
+        "exit_review": "open"
+      },
+      {
+        "id": "SW-PH-3",
+        "implementation_progress": "three_verticals_prototyped",
+        "evidence": "Therapieplatz, Jobcenter und GebührenBefreiung als menschliche Fälle konzipiert; mindestens ein Navigator-Bug dokumentiert",
+        "remaining": "test_all_five_lens_mirrors_and_legally_distinct_handoffs",
+        "exit_review": "open"
+      },
+      {
+        "id": "SW-PH-4",
+        "implementation_progress": "architecture_and_mockups_piloted",
+        "evidence": "15 virtuelle KI-Funktionen und acht Handoffs spezifiziert; Fallscanner/Regelmockups, keine durchgängig operative KI",
+        "remaining": "orchestrator_end_to_end_without_personal_data",
+        "exit_review": "open"
+      },
+      {
+        "id": "SW-PH-5",
+        "implementation_progress": "participation_method_defined",
+        "evidence": "Kaffeekränzchen, offene Fragen, Auskunfts-Prompts, lokaler Export; kein Live-Stimmungsbild",
+        "remaining": "moderation_and_evidence_review_before_any_server_submission",
+        "exit_review": "open"
+      },
+      {
+        "id": "SW-PH-6",
+        "implementation_progress": "cross_domain_comparisons_piloted",
+        "evidence": "Sozialleistungs-, Elterngeld-, Bau- und Gebühren-Prozesse als Fehlertypen und Benchmark-Fragen beschrieben",
+        "remaining": "causal_and_cost_data_for_measured_savings_missing",
+        "exit_review": "open"
+      },
+      {
+        "id": "SW-PH-7",
+        "implementation_progress": "conceptual_framework_defined",
+        "evidence": "Souveränität, offene Daten, Stimme vs Stimmung, Privacy/Security und Betreiberoptionen untersucht",
+        "remaining": "prove_export_and_provider_switching_of_one_workflow",
+        "exit_review": "open"
+      },
+      {
+        "id": "SW-PH-8",
+        "implementation_progress": "formal_contract_drafted",
+        "evidence": "Skill-/No-Loss-/Tensor-Rückweg architektonisch spezifiziert",
+        "remaining": "execute_one_end_to_end_skill_with_type_check_source_test_and_negative_case",
+        "exit_review": "open"
+      }
+    ],
+    "closure_rule": "Phase plans and research links are stable; formal phase exit remains open until evidence and functional tests are completed",
+    "next_program": "BKI_VKI_01_MINIMAL_ORCHESTRATOR",
+    "priority_order": [
+      "source_and_url_verification",
+      "phase3_navigation_regression",
+      "case_to_skill_to_export_end_to_end",
+      "website_moderated_feedback",
+      "benchmark_data_measured",
+      "tensor_relation_tests"
+    ],
+    "data_policy": "No personal uploaded cases or identifiers in git"
   }
 }
