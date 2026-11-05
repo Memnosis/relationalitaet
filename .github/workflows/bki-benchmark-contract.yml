@@ -1,0 +1,24 @@
+name: Bürger-KI Benchmark Contract
+on:
+  push:
+    paths:
+      - 'docs/data/bki-benchmark-*.json'
+      - 'scripts/verify_bki_benchmark.mjs'
+      - '.github/workflows/bki-benchmark-contract.yml'
+  pull_request:
+    paths:
+      - 'docs/data/bki-benchmark-*.json'
+      - 'scripts/verify_bki_benchmark.mjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  benchmark-structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate schema fields, identifiers and comparison guards
+        run: node scripts/verify_bki_benchmark.mjs
