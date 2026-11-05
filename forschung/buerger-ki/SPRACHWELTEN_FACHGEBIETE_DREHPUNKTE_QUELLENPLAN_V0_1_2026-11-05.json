@@ -1,0 +1,469 @@
+{
+  "schema": "bki-language-world-map/0.1",
+  "date": "2026-11-05",
+  "status": "inventory_and_phase_plan_not_fach_approved",
+  "purpose": "Map all project-relevant language worlds by human question, semantic hinge, factual source status, display and phased expansion",
+  "roles": {
+    "necessary": "essential for primary citizen navigation or evidence",
+    "sensible": "strong practical value with additional domain safeguards",
+    "intended": "project design and participation goal",
+    "research": "optional specialist / open investigation"
+  },
+  "design_rules": [
+    "no_fake_AI_or_events",
+    "two_or_three_precise_links_per_context_after_verification",
+    "no_personal_case_collection_by_default",
+    "feedback_is_help_transfer_not_population_evidence",
+    "use_correct_canonical_ids",
+    "keep_negative_results_and_scope",
+    "expanded_content_must_have_substantive_answer_and_return"
+  ],
+  "domains": [
+    {
+      "id": "SW-01",
+      "title": "Anliegen, Ziele und tatsächliche Erfüllung",
+      "role": "necessary",
+      "priority": "P0",
+      "existing_anchors": [
+        "docs/buerger-ki-weg.html",
+        "docs/buerger-ki-zielpfade.html"
+      ],
+      "pivots": [
+        "Wunsch→Ziel",
+        "Prozess→Ergebnis",
+        "Erfüllung→Messung"
+      ],
+      "source_gaps": [
+        "examples",
+        "goal_definition",
+        "negative_cases"
+      ],
+      "existing_status": "strong_narrative_not_fully_tested",
+      "preferred_representation": "short_story_and_path_world",
+      "publication_review": "pending",
+      "translation_review": "pending"
+    },
+    {
+      "id": "SW-02",
+      "title": "Gesundheit, Behandlung und Therapieplatz",
+      "role": "necessary",
+      "priority": "P0",
+      "existing_anchors": [
+        "docs/buerger-ki-blickwinkel-therapieplatz.html",
+        "docs/paper-buerger-ki-versorgungsluecken-therapie-pflege-notfall-verantwortung-v0-1.md"
+      ],
+      "pivots": [
+        "Suchwunsch→Behandlungsbedarf",
+        "Kontakt→Termin→Behandlung",
+        "Erfahrungsbericht→Versorgungsbefund"
+      ],
+      "source_gaps": [
+        "current_clinical_definitions",
+        "primary_coverage_sources",
+        "date_and_region",
+        "counterexamples"
+      ],
+      "existing_status": "five_lens_pilot_source_review_open",
+      "preferred_representation": "topic_page_plus_definitions_and_evidence",
+      "publication_review": "pending",
+      "translation_review": "pending"
+    },
+    {
+      "id": "SW-03",
+      "title": "Recht, Anspruch, Pflicht, Verfahren",
+      "role": "necessary",
+      "priority": "P0",
+      "existing_anchors": [
+        "docs/buerger-ki-mein-recht.html",
+        "docs/buerger-ki-weisungsatlas.html"
+      ],
+      "pivots": [
+        "Alltagssatz→Rechtsfrage",
+        "Bewilligung→Erfüllung",
+        "Verantwortung→konkrete Pflicht"
+      ],
+      "source_gaps": [
+        "current_legal_norms",
+        "scope_and_jurisdiction",
+        "exceptions",
+        "review"
+      ],
+      "existing_status": "existing_papers_law_review_needed",
+      "preferred_representation": "topic_page_for_distinct_procedure",
+      "publication_review": "pending",
+      "translation_review": "pending"
+    },
+    {
+      "id": "SW-04",
+      "title": "Hilfeorganisationen, Zugang und Zuständigkeit",
+      "role": "necessary",
+      "priority": "P0",
+      "existing_anchors": [
+        "docs/buerger-ki-anwendungsfelder.html",
+        "docs/buerger-ki-gemeinsam.html"
+      ],
+      "pivots": [
+        "Anbietername→tatsächliche Funktion",
+        "Beratung→Vermittlung→Leistung"
+      ],
+      "source_gaps": [
+        "provider_function",
+        "contact_and_access",
+        "regional_relevance"
+      ],
+      "existing_status": "index_exists_fach_provider_review_open",
+      "preferred_representation": "curated_source_world",
+      "publication_review": "pending",
+      "translation_review": "pending"
+    },
+    {
+      "id": "SW-05",
+      "title": "Sprache, Begriffsnetze, Übersetzungs-Skills",
+      "role": "necessary",
+      "priority": "P0",
+      "existing_anchors": [
+        "docs/buerger-ki-ziele-lexikon.html",
+        "docs/paper-buerger-ki-sprachraeume-termini-operationalisierung-claims-v0-1.md"
+      ],
+      "pivots": [
+        "gleiches Wort→verschiedene Sinne",
+        "Klartext↔Fachsprache",
+        "Übersetzung→Bedeutungsverlust"
+      ],
+      "source_gaps": [
+        "historical_glossary_reconciliation",
+        "two_way_tests",
+        "term_source_mapping"
+      ],
+      "existing_status": "12_web_definitions_historical_glossary_not_imported",
+      "preferred_representation": "definition_world_and_paper",
+      "publication_review": "pending",
+      "translation_review": "pending"
+    },
+    {
+      "id": "SW-06",
+      "title": "Kaffeekränzchen, Gemeinschaft und Feedback",
+      "role": "intended",
+      "priority": "P0",
+      "existing_anchors": [
+        "docs/buerger-ki-kaffeekraenzchen.html",
+        "docs/buerger-ki-gemeinsam.html"
+      ],
+      "pivots": [
+        "allein→gemeinsam",
+        "geholfen→übertragbare Methode",
+        "persönliche Erfahrung→öffentliche Aussage"
+      ],
+      "source_gaps": [
+        "moderation_methods",
+        "NGO_direct_links",
+        "feedback_validation"
+      ],
+      "existing_status": "ideas_page_live_no_group_event_operational",
+      "preferred_representation": "idea_page_and_method_world",
+      "publication_review": "pending",
+      "translation_review": "pending"
+    },
+    {
+      "id": "SW-07",
+      "title": "Digitale Souveränität, KI, Datenschutz",
+      "role": "sensible",
+      "priority": "P1",
+      "existing_anchors": [
+        "docs/buerger-ki-skill-deep-dive.md",
+        "docs/buerger-ki-werkstatt.html"
+      ],
+      "pivots": [
+        "Suchproblem→Tool",
+        "Nutzerentscheidung→externe Verarbeitung",
+        "Cloud↔lokal"
+      ],
+      "source_gaps": [
+        "provider_data_use",
+        "ePA_and_security_status",
+        "AI_tool_limits"
+      ],
+      "existing_status": "research_only_not_personal_service",
+      "preferred_representation": "comparison_page_and_skill_deep_dive",
+      "publication_review": "pending",
+      "translation_review": "pending"
+    },
+    {
+      "id": "SW-08",
+      "title": "Sozialleistungen, Verwaltung, Auszahlung",
+      "role": "necessary",
+      "priority": "P1",
+      "existing_anchors": [
+        "docs/buerger-ki-verwaltungspilot.html",
+        "docs/buerger-ki-weisungsatlas.html"
+      ],
+      "pivots": [
+        "Bewilligung→Zahlung",
+        "Antragsweg→Sachentscheidung",
+        "Verfahrensende→Erfüllung"
+      ],
+      "source_gaps": [
+        "primary_norms_current",
+        "payment_and_exception_sources",
+        "claim_evidence"
+      ],
+      "existing_status": "existing_examples_not_full_coverage",
+      "preferred_representation": "topic_page_for_concrete_life_case",
+      "publication_review": "pending",
+      "translation_review": "pending"
+    },
+    {
+      "id": "SW-09",
+      "title": "Bildung, Familie und Teilhabe",
+      "role": "sensible",
+      "priority": "P1",
+      "existing_anchors": [
+        "docs/buerger-ki-anwendungsfelder.html",
+        "docs/buerger-ki-mein-recht.html"
+      ],
+      "pivots": [
+        "Unterstützungsbedarf→Zuständigkeit",
+        "Bundesrecht→Landesrecht",
+        "Schulangebot→tatsächliche Teilhabe"
+      ],
+      "source_gaps": [
+        "school_law_by_state",
+        "children_and_protection",
+        "provider_sources"
+      ],
+      "existing_status": "filters_exist_vertical_test_open",
+      "preferred_representation": "new_topic_after_sources",
+      "publication_review": "pending",
+      "translation_review": "pending"
+    },
+    {
+      "id": "SW-10",
+      "title": "Wohnen und materielle Sicherheit",
+      "role": "sensible",
+      "priority": "P1",
+      "existing_anchors": [
+        "docs/buerger-ki-anwendungsfelder.html",
+        "docs/buerger-ki-weg.html"
+      ],
+      "pivots": [
+        "Mietproblem→Verfahrensstand",
+        "Angebot→Wohnzugang",
+        "Gefährdung→Hilfsweg"
+      ],
+      "source_gaps": [
+        "tenancy_norms",
+        "municipal_help_by_region",
+        "case_distinctions"
+      ],
+      "existing_status": "overview_only_topic_needed",
+      "preferred_representation": "topic_page_when_path_differentiates",
+      "publication_review": "pending",
+      "translation_review": "pending"
+    },
+    {
+      "id": "SW-11",
+      "title": "Institutionen, Gesellschaft, Messbarkeit und Verantwortung",
+      "role": "necessary",
+      "priority": "P0",
+      "existing_anchors": [
+        "docs/buerger-ki-grundlagen.html",
+        "docs/buerger-ki-phase-13-messbarkeit-rechenschaft.md"
+      ],
+      "pivots": [
+        "Beobachtung→Messgröße",
+        "Unterversorgung→prüfbarer Befund",
+        "Pflicht→Pflichtverletzung?",
+        "Struktur→Kausalität?"
+      ],
+      "source_gaps": [
+        "denominator_definition",
+        "historic_methods",
+        "counter_hypotheses",
+        "causal_limits"
+      ],
+      "existing_status": "many_papers_review_required",
+      "preferred_representation": "meta_world_papers_timeline",
+      "publication_review": "pending",
+      "translation_review": "pending"
+    },
+    {
+      "id": "SW-12",
+      "title": "Forschung, Quellen, Evidenz und Gegenprobe",
+      "role": "necessary",
+      "priority": "P0",
+      "existing_anchors": [
+        "docs/buerger-ki-forschungsbibliothek.html",
+        "forschung/register/schema/claim.schema.json"
+      ],
+      "pivots": [
+        "Quelle→Aussage",
+        "These→Test",
+        "Fehlversuch→Erkenntnis"
+      ],
+      "source_gaps": [
+        "source_registry_sync",
+        "claim_owner_mapping",
+        "negative_cases"
+      ],
+      "existing_status": "many_records_no_full_crosswalk",
+      "preferred_representation": "research_world_and_source_list",
+      "publication_review": "pending",
+      "translation_review": "pending"
+    },
+    {
+      "id": "SW-13",
+      "title": "KI-Tensor, Mathematik und Relationsvergleich",
+      "role": "research",
+      "priority": "P2",
+      "existing_anchors": [
+        "docs/tensor-einfuehrung.html",
+        "forschung/buerger-ki/KERNPAPER_LERNPFADE_NOLOSS_WISSENSORCHESTRIERUNG_V0_1.md"
+      ],
+      "pivots": [
+        "Muster→Relation",
+        "Analogie→keine Gleichheit",
+        "Skilltest→Forschung"
+      ],
+      "source_gaps": [
+        "formal_relation_proofs",
+        "tensor_no_loss_crosswalk",
+        "scope_of_analogy"
+      ],
+      "existing_status": "separate_research_field",
+      "preferred_representation": "optional_deep_dive_paper",
+      "publication_review": "pending",
+      "translation_review": "pending"
+    },
+    {
+      "id": "SW-14",
+      "title": "Öffentliche Beteiligung, Demokratie und Projekte",
+      "role": "intended",
+      "priority": "P2",
+      "existing_anchors": [
+        "docs/mitmachen.html",
+        "docs/buerger-ki-gemeinsam.html"
+      ],
+      "pivots": [
+        "individuelle Frage→öffentliche Frage",
+        "Hilfsprojekt→Beteiligung",
+        "Veranstaltung→nicht Wirkungsbeweis"
+      ],
+      "source_gaps": [
+        "project_facts",
+        "event_roles",
+        "public_sources"
+      ],
+      "existing_status": "projects_exist_not_bki_movement",
+      "preferred_representation": "project_catalog",
+      "publication_review": "pending",
+      "translation_review": "pending"
+    },
+    {
+      "id": "SW-15",
+      "title": "Zeit, Wandel, Zukunft und Folgen",
+      "role": "research",
+      "priority": "P2",
+      "existing_anchors": [
+        "docs/buerger-ki-phase-12-historische-metriken-und-lernen.md",
+        "docs/buerger-ki-grundlagen.html"
+      ],
+      "pivots": [
+        "heutiger Zustand→historischer Trend",
+        "Prognose→Szenario",
+        "Schadensminderung→Zielerreichung"
+      ],
+      "source_gaps": [
+        "time_series_comparability",
+        "future_uncertainty",
+        "scenario_tests"
+      ],
+      "existing_status": "historic_models_incomplete",
+      "preferred_representation": "timeline_and_paper",
+      "publication_review": "pending",
+      "translation_review": "pending"
+    }
+  ],
+  "phases": [
+    {
+      "id": "SW-PH-0",
+      "title": "Protect original narrative and map existing path elements",
+      "deliverables": [
+        "baseline_and_crosswalk",
+        "five_path_language_audit",
+        "five_therapy_lens_audit",
+        "source_owner_status"
+      ],
+      "exit": "all existing pivots inventoried"
+    },
+    {
+      "id": "SW-PH-1",
+      "title": "Explain language hinges and translation losses",
+      "deliverables": [
+        "bidirectional_translation_cases",
+        "practical_legal_and_health_distinctions",
+        "feedback_help_kernel",
+        "counterexamples"
+      ],
+      "exit": "each P0 pivot explained with status and source gap"
+    },
+    {
+      "id": "SW-PH-2",
+      "title": "Curate knowledge rooms and credible 2–3 links",
+      "deliverables": [
+        "definition_world",
+        "path_world",
+        "source_world",
+        "perspective_world",
+        "meta_world",
+        "research_world",
+        "method_world"
+      ],
+      "exit": "expanded modules substantial; links have relevance notes"
+    },
+    {
+      "id": "SW-PH-3",
+      "title": "Publish reviewed topic pages and optional concise components",
+      "deliverables": [
+        "therapy_topic",
+        "social_payment_topic",
+        "help_and_ngo_links",
+        "coffee_methods_as_ideas"
+      ],
+      "exit": "source/translation/browser tests passed"
+    },
+    {
+      "id": "SW-PH-4",
+      "title": "Extend across education housing digital and public projects",
+      "deliverables": [
+        "new_vertical_pilots",
+        "local_network_project_links",
+        "public_feedback_protocol"
+      ],
+      "exit": "new topic has full evidence, risk and no-loss crosswalk"
+    },
+    {
+      "id": "SW-PH-5",
+      "title": "Specialist research, tensor comparisons and potential emergent hybrid barcamp",
+      "deliverables": [
+        "research_papers",
+        "optional_network_visualization",
+        "barcamp_as_conditional_idea_not_event"
+      ],
+      "exit": "research/evidence explicitly distinguished from implementation"
+    }
+  ],
+  "critical_pivots": [
+    "person_to_need",
+    "wish_to_professional_category",
+    "information_to_action",
+    "alone_to_shared_help",
+    "individual_experience_to_transferable_method",
+    "service_to_actual_outcome",
+    "subjective_observation_to_representative_evidence",
+    "responsibility_to_legal_duty",
+    "proposed_intervention_to_measured_effect",
+    "term_to_cross_language_equivalence",
+    "skill_idea_to_tested_capability",
+    "current_source_to_historical_claim"
+  ]
+}
