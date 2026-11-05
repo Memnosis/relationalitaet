@@ -1,0 +1,1438 @@
+{
+  "schema": "bki-sprach-crosswalk-final/1.0",
+  "as_of": "2026-11-05",
+  "status": "architecture_and_reference_mapping_final_not_fachlich_abgenommen",
+  "canonical": {
+    "nuclei": "forschung/buerger-ki/WISSENS_NUCLEI_DEEP_DIVE_REGISTER_V0_1_2026-11-05.json",
+    "language_phases": "forschung/buerger-ki/SPRACHWELTEN_FACHGEBIETE_DREHPUNKTE_QUELLENPLAN_V0_1_2026-11-05.json",
+    "learning_paths": "docs/data/bki-lernpfade-orchestrierung-v0-1.json",
+    "research_library": "docs/data/bki-forschungsbibliothek-v0-1.json",
+    "vki": "forschung/buerger-ki/PAPER_VIRTUELLE_KI_FUNKTIONEN_UEBERGABEN_FEEDBACK_BAUSTELLEN_V0_1_2026-11-05.md"
+  },
+  "counts": {
+    "worlds": 20,
+    "nuclei": 37,
+    "learning_phases": 9,
+    "topic_pilots": 8
+  },
+  "source_to_topic_contract": [
+    "id",
+    "source_url_or_source_id",
+    "date_and_version",
+    "claim_type",
+    "measure_and_unit",
+    "population",
+    "evidence_status",
+    "counterhypothesis",
+    "negative_finding",
+    "method",
+    "skill_id",
+    "nucleus_ids",
+    "world_ids",
+    "learning_route_ids",
+    "test_id",
+    "publication_review"
+  ],
+  "worlds": [
+    {
+      "id": "SW-01",
+      "title": "Anliegen, Ziele und tatsächliche Erfüllung",
+      "priority": "P0",
+      "anchors": [
+        "docs/buerger-ki-weg.html",
+        "docs/buerger-ki-zielpfade.html"
+      ],
+      "source_gaps": [
+        "examples",
+        "goal_definition",
+        "negative_cases"
+      ],
+      "linked_nuclei": [
+        "BKI-NUC-001",
+        "BKI-NUC-005",
+        "BKI-NUC-014",
+        "BKI-NUC-017"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "SW-02",
+      "title": "Gesundheit, Behandlung und Therapieplatz",
+      "priority": "P0",
+      "anchors": [
+        "docs/buerger-ki-blickwinkel-therapieplatz.html",
+        "docs/paper-buerger-ki-versorgungsluecken-therapie-pflege-notfall-verantwortung-v0-1.md"
+      ],
+      "source_gaps": [
+        "current_clinical_definitions",
+        "primary_coverage_sources",
+        "date_and_region",
+        "counterexamples"
+      ],
+      "linked_nuclei": [
+        "BKI-NUC-007",
+        "BKI-NUC-008",
+        "BKI-NUC-013",
+        "BKI-NUC-015",
+        "BKI-NUC-016"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "SW-03",
+      "title": "Recht, Anspruch, Pflicht, Verfahren",
+      "priority": "P0",
+      "anchors": [
+        "docs/buerger-ki-mein-recht.html",
+        "docs/buerger-ki-weisungsatlas.html"
+      ],
+      "source_gaps": [
+        "current_legal_norms",
+        "scope_and_jurisdiction",
+        "exceptions",
+        "review"
+      ],
+      "linked_nuclei": [
+        "BKI-NUC-024",
+        "BKI-NUC-025"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "SW-04",
+      "title": "Hilfeorganisationen, Zugang und Zuständigkeit",
+      "priority": "P0",
+      "anchors": [
+        "docs/buerger-ki-anwendungsfelder.html",
+        "docs/buerger-ki-gemeinsam.html"
+      ],
+      "source_gaps": [
+        "provider_function",
+        "contact_and_access",
+        "regional_relevance"
+      ],
+      "linked_nuclei": [
+        "BKI-NUC-015",
+        "BKI-NUC-021"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "SW-05",
+      "title": "Sprache, Begriffsnetze, Übersetzungs-Skills",
+      "priority": "P0",
+      "anchors": [
+        "docs/buerger-ki-ziele-lexikon.html",
+        "docs/paper-buerger-ki-sprachraeume-termini-operationalisierung-claims-v0-1.md"
+      ],
+      "source_gaps": [
+        "historical_glossary_reconciliation",
+        "two_way_tests",
+        "term_source_mapping"
+      ],
+      "linked_nuclei": [
+        "BKI-NUC-001",
+        "BKI-NUC-002",
+        "BKI-NUC-005",
+        "BKI-NUC-006",
+        "BKI-NUC-013",
+        "BKI-NUC-037"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "SW-06",
+      "title": "Kaffeekränzchen, Gemeinschaft und Feedback",
+      "priority": "P0",
+      "anchors": [
+        "docs/buerger-ki-kaffeekraenzchen.html",
+        "docs/buerger-ki-gemeinsam.html"
+      ],
+      "source_gaps": [
+        "moderation_methods",
+        "NGO_direct_links",
+        "feedback_validation"
+      ],
+      "linked_nuclei": [
+        "BKI-NUC-017",
+        "BKI-NUC-018",
+        "BKI-NUC-019",
+        "BKI-NUC-020",
+        "BKI-NUC-021"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "SW-07",
+      "title": "Digitale Souveränität, KI, Datenschutz",
+      "priority": "P1",
+      "anchors": [
+        "docs/buerger-ki-skill-deep-dive.md",
+        "docs/buerger-ki-werkstatt.html"
+      ],
+      "source_gaps": [
+        "provider_data_use",
+        "ePA_and_security_status",
+        "AI_tool_limits"
+      ],
+      "linked_nuclei": [
+        "BKI-NUC-008",
+        "BKI-NUC-009",
+        "BKI-NUC-010",
+        "BKI-NUC-011",
+        "BKI-NUC-012",
+        "BKI-NUC-019",
+        "BKI-NUC-032"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "SW-08",
+      "title": "Sozialleistungen, Verwaltung, Auszahlung",
+      "priority": "P1",
+      "anchors": [
+        "docs/buerger-ki-verwaltungspilot.html",
+        "docs/buerger-ki-weisungsatlas.html"
+      ],
+      "source_gaps": [
+        "primary_norms_current",
+        "payment_and_exception_sources",
+        "claim_evidence"
+      ],
+      "linked_nuclei": [
+        "BKI-NUC-024"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "SW-09",
+      "title": "Bildung, Familie und Teilhabe",
+      "priority": "P1",
+      "anchors": [
+        "docs/buerger-ki-anwendungsfelder.html",
+        "docs/buerger-ki-mein-recht.html"
+      ],
+      "source_gaps": [
+        "school_law_by_state",
+        "children_and_protection",
+        "provider_sources"
+      ],
+      "linked_nuclei": [
+        "BKI-NUC-028"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "SW-10",
+      "title": "Wohnen und materielle Sicherheit",
+      "priority": "P1",
+      "anchors": [
+        "docs/buerger-ki-anwendungsfelder.html",
+        "docs/buerger-ki-weg.html"
+      ],
+      "source_gaps": [
+        "tenancy_norms",
+        "municipal_help_by_region",
+        "case_distinctions"
+      ],
+      "linked_nuclei": [
+        "BKI-NUC-029"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "SW-11",
+      "title": "Institutionen, Gesellschaft, Messbarkeit und Verantwortung",
+      "priority": "P0",
+      "anchors": [
+        "docs/buerger-ki-grundlagen.html",
+        "docs/buerger-ki-phase-13-messbarkeit-rechenschaft.md"
+      ],
+      "source_gaps": [
+        "denominator_definition",
+        "historic_methods",
+        "counter_hypotheses",
+        "causal_limits"
+      ],
+      "linked_nuclei": [
+        "BKI-NUC-009",
+        "BKI-NUC-016",
+        "BKI-NUC-025",
+        "BKI-NUC-026",
+        "BKI-NUC-027"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "SW-12",
+      "title": "Forschung, Quellen, Evidenz und Gegenprobe",
+      "priority": "P0",
+      "anchors": [
+        "docs/buerger-ki-forschungsbibliothek.html",
+        "forschung/register/schema/claim.schema.json"
+      ],
+      "source_gaps": [
+        "source_registry_sync",
+        "claim_owner_mapping",
+        "negative_cases"
+      ],
+      "linked_nuclei": [
+        "BKI-NUC-003",
+        "BKI-NUC-004",
+        "BKI-NUC-006",
+        "BKI-NUC-023",
+        "BKI-NUC-033"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "SW-13",
+      "title": "KI-Tensor, Mathematik und Relationsvergleich",
+      "priority": "P2",
+      "anchors": [
+        "docs/tensor-einfuehrung.html",
+        "forschung/buerger-ki/KERNPAPER_LERNPFADE_NOLOSS_WISSENSORCHESTRIERUNG_V0_1.md"
+      ],
+      "source_gaps": [
+        "formal_relation_proofs",
+        "tensor_no_loss_crosswalk",
+        "scope_of_analogy"
+      ],
+      "linked_nuclei": [
+        "BKI-NUC-004",
+        "BKI-NUC-006",
+        "BKI-NUC-033",
+        "BKI-NUC-037"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "SW-14",
+      "title": "Öffentliche Beteiligung, Demokratie und Projekte",
+      "priority": "P2",
+      "anchors": [
+        "docs/mitmachen.html",
+        "docs/buerger-ki-gemeinsam.html"
+      ],
+      "source_gaps": [
+        "project_facts",
+        "event_roles",
+        "public_sources"
+      ],
+      "linked_nuclei": [
+        "BKI-NUC-020"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "SW-15",
+      "title": "Zeit, Wandel, Zukunft und Folgen",
+      "priority": "P2",
+      "anchors": [
+        "docs/buerger-ki-phase-12-historische-metriken-und-lernen.md",
+        "docs/buerger-ki-grundlagen.html"
+      ],
+      "source_gaps": [
+        "time_series_comparability",
+        "future_uncertainty",
+        "scenario_tests"
+      ],
+      "linked_nuclei": [
+        "BKI-NUC-027",
+        "BKI-NUC-030"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "SW-16",
+      "title": "Virtuelle KI, persönliche Organisation und Handoffs",
+      "priority": "P0",
+      "anchors": [
+        "docs/buerger-ki-weg.html",
+        "docs/buerger-ki-skill-deep-dive.md",
+        "forschung/buerger-ki/PAPER_VIRTUELLE_KI_FUNKTIONEN_UEBERGABEN_FEEDBACK_BAUSTELLEN_V0_1_2026-11-05.md"
+      ],
+      "source_gaps": [
+        "provider_specific_AI_data_terms",
+        "ePA_rights_versioned",
+        "local_tool_security",
+        "medical_device_purpose_review"
+      ],
+      "linked_nuclei": [
+        "BKI-NUC-007",
+        "BKI-NUC-008",
+        "BKI-NUC-009",
+        "BKI-NUC-010",
+        "BKI-NUC-011",
+        "BKI-NUC-012",
+        "BKI-NUC-013",
+        "BKI-NUC-014",
+        "BKI-NUC-031",
+        "BKI-NUC-032",
+        "BKI-NUC-034",
+        "BKI-NUC-035"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "SW-17",
+      "title": "Feedback, gemeinsame Baustellen und Hilfserkenntnisse",
+      "priority": "P0",
+      "anchors": [
+        "docs/buerger-ki-kaffeekraenzchen.html",
+        "docs/buerger-ki-werkstatt.html",
+        "forschung/buerger-ki/PAPER_VIRTUELLE_KI_FUNKTIONEN_UEBERGABEN_FEEDBACK_BAUSTELLEN_V0_1_2026-11-05.md"
+      ],
+      "source_gaps": [
+        "public_issue_intake_copy",
+        "nonpublic_contact_security_review",
+        "moderation_and_retention",
+        "feedback_source_provenance"
+      ],
+      "linked_nuclei": [
+        "BKI-NUC-018",
+        "BKI-NUC-022",
+        "BKI-NUC-023",
+        "BKI-NUC-032"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "SW-18",
+      "title": "Reale Bürger-KI – heutige Anwendungen der KI in jedem Fachgebiet",
+      "priority": "P0",
+      "anchors": [
+        "forschung/buerger-ki/WISSENS_NUCLEI_DEEP_DIVE_REGISTER_V0_1_2026-11-05.json",
+        "forschung/buerger-ki/PAPER_VIRTUELLE_KI_FUNKTIONEN_UEBERGABEN_FEEDBACK_BAUSTELLEN_V0_1_2026-11-05.md"
+      ],
+      "source_gaps": [
+        "domain_specific_current_AI_provider_survey",
+        "independent_functional_evaluations",
+        "pricing_license_access",
+        "API_and_open_source",
+        "safety_and_compliance"
+      ],
+      "linked_nuclei": [
+        "BKI-NUC-035",
+        "BKI-NUC-036"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "SW-19",
+      "title": "Souveräne KI der Bürgerschaften – Kultur, Wissen und Selbstbestimmung",
+      "priority": "P1",
+      "anchors": [
+        "docs/soulution.html",
+        "docs/ki-systeme.html",
+        "forschung/buerger-ki/WISSENS_NUCLEI_DEEP_DIVE_REGISTER_V0_1_2026-11-05.json"
+      ],
+      "source_gaps": [
+        "public_interest_AI_projects",
+        "cultural_preservation_standards",
+        "open_models_governance",
+        "democratic_stewardship",
+        "long_term_impact_evidence"
+      ],
+      "linked_nuclei": [
+        "BKI-NUC-036"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "SW-20",
+      "title": "Forschungswelt: Sprachinteroperabilität, Psychologie und Programmiersprachen",
+      "priority": "P1",
+      "anchors": [
+        "docs/paper-buerger-ki-sprachraeume-termini-operationalisierung-claims-v0-1.md",
+        "forschung/buerger-ki/SPRACHPFADE_ELEMENTINVENTAR_V0_1.json"
+      ],
+      "source_gaps": [
+        "construct_validity",
+        "psychological_model_source_and_scope",
+        "language_grammar_and_type_systems",
+        "code_semantics_and_tests",
+        "bidirectional_translation_examples"
+      ],
+      "linked_nuclei": [
+        "BKI-NUC-037"
+      ],
+      "review": "pending"
+    }
+  ],
+  "nuclei": [
+    {
+      "id": "BKI-NUC-001",
+      "group": "A",
+      "title": "Menschliches Anliegen → überprüfbares Ziel",
+      "worlds": [
+        "SW-01",
+        "SW-05"
+      ],
+      "priority": "P0",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": [
+        "BKI-TOPIC-THERAPIE",
+        "BKI-TOPIC-BEFREIUNG",
+        "BKI-FAIL-SGB2-001"
+      ]
+    },
+    {
+      "id": "BKI-NUC-002",
+      "group": "A",
+      "title": "Begriffe, Fachsinn, Mehrdeutigkeit und Übersetzungsgrenzen",
+      "worlds": [
+        "SW-05"
+      ],
+      "priority": "P0",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": [
+        "BKI-TOPIC-THERAPIE",
+        "BKI-TOPIC-BEFREIUNG",
+        "BKI-FAIL-WOGG-002",
+        "BKI-FAIL-ELT-003",
+        "BKI-FAIL-BAU-007"
+      ]
+    },
+    {
+      "id": "BKI-NUC-003",
+      "group": "A",
+      "title": "Quellen, Herkunft, Evidenz und Zeitstand",
+      "worlds": [
+        "SW-12"
+      ],
+      "priority": "P0",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": [
+        "BKI-FAIL-SGB2-001",
+        "BKI-FAIL-ELT-003"
+      ]
+    },
+    {
+      "id": "BKI-NUC-004",
+      "group": "A",
+      "title": "Aussage, Claim, Test, Negativbefund und No-Loss",
+      "worlds": [
+        "SW-12",
+        "SW-13"
+      ],
+      "priority": "P0",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": []
+    },
+    {
+      "id": "BKI-NUC-005",
+      "group": "A",
+      "title": "Drehpunkte und Rückwege zwischen den fünf Lernpfaden",
+      "worlds": [
+        "SW-01",
+        "SW-05"
+      ],
+      "priority": "P0",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": []
+    },
+    {
+      "id": "BKI-NUC-006",
+      "group": "A",
+      "title": "Kanonische IDs, Crosswalk und Ontologien",
+      "worlds": [
+        "SW-05",
+        "SW-12",
+        "SW-13"
+      ],
+      "priority": "P0",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": []
+    },
+    {
+      "id": "BKI-NUC-007",
+      "group": "B",
+      "title": "Patientenakte: Praxisakte, ePA, Eigenakte und KI-Kopie",
+      "worlds": [
+        "SW-02",
+        "SW-16"
+      ],
+      "priority": "P0",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": [
+        "BKI-TOPIC-EPA"
+      ]
+    },
+    {
+      "id": "BKI-NUC-008",
+      "group": "B",
+      "title": "ePA: Zugriff, Einwilligung, Widerspruch, Datenrechte",
+      "worlds": [
+        "SW-02",
+        "SW-07",
+        "SW-16"
+      ],
+      "priority": "P0",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": [
+        "BKI-TOPIC-EPA"
+      ]
+    },
+    {
+      "id": "BKI-NUC-009",
+      "group": "B",
+      "title": "Gesundheitsforschung und staatliche Datennutzung",
+      "worlds": [
+        "SW-07",
+        "SW-11",
+        "SW-16"
+      ],
+      "priority": "P0",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": [
+        "BKI-TOPIC-EPA"
+      ]
+    },
+    {
+      "id": "BKI-NUC-010",
+      "group": "B",
+      "title": "Cloud-KI, lokale KI, Selbsthosting und Drittanbieter",
+      "worlds": [
+        "SW-07",
+        "SW-16"
+      ],
+      "priority": "P0",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": [
+        "BKI-TOPIC-EPA"
+      ]
+    },
+    {
+      "id": "BKI-NUC-011",
+      "group": "B",
+      "title": "Gesundheitsdaten-Sicherheitsvorfälle und Risikovergleich",
+      "worlds": [
+        "SW-07",
+        "SW-16"
+      ],
+      "priority": "P1",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": [
+        "BKI-TOPIC-EPA"
+      ]
+    },
+    {
+      "id": "BKI-NUC-012",
+      "group": "B",
+      "title": "Open-Source-PHR und medizinische Softwareangebote",
+      "worlds": [
+        "SW-07",
+        "SW-16"
+      ],
+      "priority": "P0",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": [
+        "BKI-TOPIC-EPA"
+      ]
+    },
+    {
+      "id": "BKI-NUC-013",
+      "group": "B",
+      "title": "Gesundheits-Interoperabilitätsstandards und Terminologien",
+      "worlds": [
+        "SW-02",
+        "SW-05",
+        "SW-16"
+      ],
+      "priority": "P0",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": [
+        "BKI-TOPIC-EPA"
+      ]
+    },
+    {
+      "id": "BKI-NUC-014",
+      "group": "B",
+      "title": "Persönliche Organisation, Kalender, Erinnerungen und medizinische Grenze",
+      "worlds": [
+        "SW-01",
+        "SW-16"
+      ],
+      "priority": "P1",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": []
+    },
+    {
+      "id": "BKI-NUC-015",
+      "group": "B",
+      "title": "Therapieplatz: Sprechstunde, Vermittlung, Therapieformen, Passung",
+      "worlds": [
+        "SW-02",
+        "SW-04"
+      ],
+      "priority": "P0",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": [
+        "BKI-TOPIC-THERAPIE"
+      ]
+    },
+    {
+      "id": "BKI-NUC-016",
+      "group": "B",
+      "title": "Versorgungsengpässe, Wartezeiten, Bedarf und Alternativen",
+      "worlds": [
+        "SW-02",
+        "SW-11"
+      ],
+      "priority": "P0",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": [
+        "BKI-TOPIC-THERAPIE"
+      ]
+    },
+    {
+      "id": "BKI-NUC-017",
+      "group": "C",
+      "title": "Praktische Suchhemmnisse und gemeinsames Anfangen",
+      "worlds": [
+        "SW-01",
+        "SW-06"
+      ],
+      "priority": "P1",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": [
+        "BKI-TOPIC-THERAPIE"
+      ]
+    },
+    {
+      "id": "BKI-NUC-018",
+      "group": "C",
+      "title": "Kaffeekränzchen: Peer-Hilfe, Feedbackkern und Moderationsgrenzen",
+      "worlds": [
+        "SW-06",
+        "SW-17"
+      ],
+      "priority": "P0",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": [
+        "BKI-TOPIC-VOICE"
+      ]
+    },
+    {
+      "id": "BKI-NUC-019",
+      "group": "C",
+      "title": "D-Day, digitale Souveränität und Wechselrezepte",
+      "worlds": [
+        "SW-06",
+        "SW-07"
+      ],
+      "priority": "P1",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": []
+    },
+    {
+      "id": "BKI-NUC-020",
+      "group": "C",
+      "title": "Hybride Barcamps, Sessions und öffentliche Hilfeformate",
+      "worlds": [
+        "SW-06",
+        "SW-14"
+      ],
+      "priority": "P2",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": []
+    },
+    {
+      "id": "BKI-NUC-021",
+      "group": "C",
+      "title": "Organisationen, NGOs, Patientenberatung und regionale Angebote",
+      "worlds": [
+        "SW-04",
+        "SW-06"
+      ],
+      "priority": "P0",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": []
+    },
+    {
+      "id": "BKI-NUC-022",
+      "group": "C",
+      "title": "Öffentliches/nichtöffentliches Feedback und Moderation",
+      "worlds": [
+        "SW-17"
+      ],
+      "priority": "P0",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": [
+        "BKI-TOPIC-VOICE"
+      ]
+    },
+    {
+      "id": "BKI-NUC-023",
+      "group": "C",
+      "title": "Freiwillige Beteiligung, Erkenntnisrückgabe und Forschungsethik",
+      "worlds": [
+        "SW-12",
+        "SW-17"
+      ],
+      "priority": "P1",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": [
+        "BKI-TOPIC-VOICE"
+      ]
+    },
+    {
+      "id": "BKI-NUC-024",
+      "group": "D",
+      "title": "Anspruch, Bescheid, Leistung, Auszahlung und Erfüllung",
+      "worlds": [
+        "SW-03",
+        "SW-08"
+      ],
+      "priority": "P0",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": [
+        "BKI-TOPIC-BEFREIUNG",
+        "BKI-FAIL-SGB2-001",
+        "BKI-FAIL-WOGG-002"
+      ]
+    },
+    {
+      "id": "BKI-NUC-025",
+      "group": "D",
+      "title": "Zuständigkeit, Pflicht, Unterlassen und rechtliche Grenzen",
+      "worlds": [
+        "SW-03",
+        "SW-11"
+      ],
+      "priority": "P0",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": [
+        "BKI-TOPIC-BEFREIUNG",
+        "BKI-FAIL-SGB2-001",
+        "BKI-FAIL-BAU-007"
+      ]
+    },
+    {
+      "id": "BKI-NUC-026",
+      "group": "D",
+      "title": "Unterversorgung, strukturelle Zwänge und Verantwortlichkeit",
+      "worlds": [
+        "SW-11"
+      ],
+      "priority": "P0",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": [
+        "BKI-TOPIC-THERAPIE"
+      ]
+    },
+    {
+      "id": "BKI-NUC-027",
+      "group": "D",
+      "title": "Institutionelle Wirkung, Evaluation, Messbarkeit und Gegenhypothesen",
+      "worlds": [
+        "SW-11",
+        "SW-15"
+      ],
+      "priority": "P0",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": [
+        "BKI-TOPIC-BEFREIUNG",
+        "BKI-FAIL-SGB2-001",
+        "BKI-FAIL-WOGG-002",
+        "BKI-FAIL-ELT-003",
+        "BKI-FAIL-BAU-007"
+      ]
+    },
+    {
+      "id": "BKI-NUC-028",
+      "group": "E",
+      "title": "Schule, Behinderung, Familie, Teilhabe und Landesrecht",
+      "worlds": [
+        "SW-09"
+      ],
+      "priority": "P1",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": [
+        "BKI-FAIL-ELT-003"
+      ]
+    },
+    {
+      "id": "BKI-NUC-029",
+      "group": "E",
+      "title": "Wohnen, Existenzsicherung und örtliche Unterstützung",
+      "worlds": [
+        "SW-10"
+      ],
+      "priority": "P1",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": [
+        "BKI-FAIL-WOGG-002",
+        "BKI-FAIL-BAU-007"
+      ]
+    },
+    {
+      "id": "BKI-NUC-030",
+      "group": "E",
+      "title": "Historische Entwicklungen, Zukunft und Grenzen der Prognose",
+      "worlds": [
+        "SW-15"
+      ],
+      "priority": "P2",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": []
+    },
+    {
+      "id": "BKI-NUC-031",
+      "group": "F",
+      "title": "Virtuelle KI: Funktionsreife und datensparsame Handoffs",
+      "worlds": [
+        "SW-16"
+      ],
+      "priority": "P0",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": [
+        "BKI-TOPIC-BEFREIUNG"
+      ]
+    },
+    {
+      "id": "BKI-NUC-032",
+      "group": "F",
+      "title": "Eigene Accounts, Kooperationen, Finanzierung und Datenschutzbetrieb",
+      "worlds": [
+        "SW-07",
+        "SW-16",
+        "SW-17"
+      ],
+      "priority": "P1",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": []
+    },
+    {
+      "id": "BKI-NUC-033",
+      "group": "F",
+      "title": "Tensor-/Skill-Anschluss: Relationen, Tests und wissenschaftliche Gegenprobe",
+      "worlds": [
+        "SW-13",
+        "SW-12"
+      ],
+      "priority": "P2",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": [
+        "BKI-FAIL-SGB2-001",
+        "BKI-FAIL-BAU-007"
+      ]
+    },
+    {
+      "id": "BKI-NUC-034",
+      "group": "F",
+      "title": "Virtuelle Bürger-KI: ideale Funktionsketten, Übergaben und fehlende Fähigkeiten",
+      "worlds": [
+        "SW-16"
+      ],
+      "priority": "P0",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": []
+    },
+    {
+      "id": "BKI-NUC-035",
+      "group": "F",
+      "title": "Reale Bürger-KI: heutige KI-Anwendungen in jedem Fachgebiet",
+      "worlds": [
+        "SW-18",
+        "SW-16"
+      ],
+      "priority": "P0",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": []
+    },
+    {
+      "id": "BKI-NUC-036",
+      "group": "F",
+      "title": "Souveräne KI der Bürgerschaften, Kulturwissen und dauerhafte Handlungsfähigkeit",
+      "worlds": [
+        "SW-19",
+        "SW-18"
+      ],
+      "priority": "P1",
+      "deep_dive_status": "planned",
+      "semantic_review": "pending",
+      "source_status": "to_be_checked",
+      "topic_ids": [
+        "BKI-TOPIC-VOICE"
+      ]
+    },
+    {
+      "id": "BKI-NUC-037",
+      "group": "A",
+      "title": "Forschungsinteroperabilität: psychologische Konstrukte, Alltagssprache, formale Semantik und Code",
+      "worlds": [
+        "SW-05",
+        "SW-20",
+        "SW-13"
+      ],
+      "priority": "P1",
+      "deep_dive_status": "research_scope_and_phase1_examples_started",
+      "semantic_review": "pending",
+      "source_status": "initial_authoritative_method_sources_found",
+      "topic_ids": [
+        "BKI-FAIL-WOGG-002",
+        "BKI-FAIL-BAU-007"
+      ]
+    }
+  ],
+  "learning_paths": [
+    {
+      "id": "LP-01",
+      "route": "menschliches_ziel"
+    },
+    {
+      "id": "LP-02",
+      "route": "wissen_verstehen"
+    },
+    {
+      "id": "LP-03",
+      "route": "unterstützung_finden"
+    },
+    {
+      "id": "LP-04",
+      "route": "institutionelles_wissen_prüfen"
+    },
+    {
+      "id": "LP-05",
+      "route": "skill_und_forschung"
+    }
+  ],
+  "case_pilots": [
+    {
+      "topic": "therapieplatz",
+      "case_id": "BKI-TOPIC-THERAPIE",
+      "title": "Therapieplatz und tatsächliche Versorgung",
+      "origin": "docs/buerger-ki-blickwinkel-therapieplatz.html",
+      "nuclei": [
+        "BKI-NUC-001",
+        "BKI-NUC-002",
+        "BKI-NUC-015",
+        "BKI-NUC-016",
+        "BKI-NUC-017",
+        "BKI-NUC-026"
+      ],
+      "vki": [
+        "VKI-01",
+        "VKI-02",
+        "VKI-07",
+        "VKI-09",
+        "VKI-10"
+      ],
+      "gaps": [
+        "aktuelle regionalspezifische Versorgungsdefinitionen",
+        "fachlich geprüfte Notfall-/Alternativwege",
+        "nachweisbare Zielerfüllung",
+        "5-Spiegel-Navigation testen"
+      ],
+      "evidence": "mixed_source_and_method",
+      "website": "./buerger-ki-blickwinkel-therapieplatz.html",
+      "phase": [
+        "SW-PH-2",
+        "SW-PH-3",
+        "SW-PH-4",
+        "SW-PH-5",
+        "SW-PH-6",
+        "SW-PH-7",
+        "SW-PH-8"
+      ],
+      "source_ids": [],
+      "claim_status": "mixed_source_and_method",
+      "public_result_status": "no_new_site_publication_claim",
+      "review": "pending_source_and_domain_review",
+      "safety_gate": "public_aggregates_only",
+      "no_loss_link": "source→claim→process→finding→metric→skill→nucleus→topic→test"
+    },
+    {
+      "topic": "gebuehrenbefreiung",
+      "case_id": "BKI-TOPIC-BEFREIUNG",
+      "title": "Rundfunkbeitrag: Befreiung, Kennung, Kosten und Rechenschaft",
+      "origin": "lokal entwickelter Demonstrator; kein öffentlicher Betrieb im Repo",
+      "nuclei": [
+        "BKI-NUC-001",
+        "BKI-NUC-002",
+        "BKI-NUC-024",
+        "BKI-NUC-025",
+        "BKI-NUC-027",
+        "BKI-NUC-031"
+      ],
+      "vki": [
+        "VKI-01",
+        "VKI-06",
+        "VKI-09",
+        "VKI-10",
+        "VKI-11",
+        "VKI-13"
+      ],
+      "gaps": [
+        "Kosten und Erfolge von Vollstreckungsfällen nach rückwirkender Befreiung",
+        "kanalbezogene Prozesskosten",
+        "wirksamer Weg ohne Beitragsnummer",
+        "rechtsgeprüfte Kriterien und Beschwerdeoptionen"
+      ],
+      "evidence": "research_questions_not_measured_savings",
+      "website": "./buerger-ki-fail-scanner.html",
+      "phase": [
+        "SW-PH-2",
+        "SW-PH-3",
+        "SW-PH-4",
+        "SW-PH-5",
+        "SW-PH-6",
+        "SW-PH-7",
+        "SW-PH-8"
+      ],
+      "source_ids": [],
+      "claim_status": "research_questions_not_measured_savings",
+      "public_result_status": "no_new_site_publication_claim",
+      "review": "pending_source_and_domain_review",
+      "safety_gate": "public_aggregates_only",
+      "no_loss_link": "source→claim→process→finding→metric→skill→nucleus→topic→test"
+    },
+    {
+      "topic": "jobcenter",
+      "case_id": "BKI-FAIL-SGB2-001",
+      "title": "Bürgergeld: Rechtsanwendungsfehler in Widersprüchen",
+      "origin": "docs/data/bki-fail-scanner-crosswalk-v0-2.json",
+      "nuclei": [
+        "BKI-NUC-001",
+        "BKI-NUC-003",
+        "BKI-NUC-024",
+        "BKI-NUC-025",
+        "BKI-NUC-027",
+        "BKI-NUC-033"
+      ],
+      "vki": [
+        "VKI-01",
+        "VKI-09",
+        "VKI-10",
+        "VKI-11",
+        "VKI-15"
+      ],
+      "gaps": [
+        "kosten_je_widerspruch",
+        "fehlerursachen",
+        "vermeidbarkeit",
+        "zeit_bis_korrektur"
+      ],
+      "evidence": "official_aggregate_claim_requires_live_source_review",
+      "website": "./buerger-ki-fail-scanner.html",
+      "phase": [
+        "SW-PH-2",
+        "SW-PH-3",
+        "SW-PH-4",
+        "SW-PH-5",
+        "SW-PH-6",
+        "SW-PH-7",
+        "SW-PH-8"
+      ],
+      "source_ids": [],
+      "claim_status": "official_aggregate_claim_requires_live_source_review",
+      "public_result_status": "no_new_site_publication_claim",
+      "review": "pending_source_and_domain_review",
+      "safety_gate": "public_aggregates_only",
+      "no_loss_link": "source→claim→process→finding→metric→skill→nucleus→topic→test"
+    },
+    {
+      "topic": "wohngeld",
+      "case_id": "BKI-FAIL-WOGG-002",
+      "title": "Wohngeld: wiederkehrende Prüfverfahren",
+      "origin": "docs/data/bki-fail-scanner-crosswalk-v0-2.json",
+      "nuclei": [
+        "BKI-NUC-002",
+        "BKI-NUC-024",
+        "BKI-NUC-027",
+        "BKI-NUC-029",
+        "BKI-NUC-037"
+      ],
+      "vki": [
+        "VKI-01",
+        "VKI-09",
+        "VKI-10",
+        "VKI-11"
+      ],
+      "gaps": [
+        "doppelte_erfassung",
+        "rechtsnotwendige_neuprüfung",
+        "kosten_pro_verfahren",
+        "sichere_datenwiederverwendung"
+      ],
+      "evidence": "aggregate_volume_not_proven_error",
+      "website": "./buerger-ki-fail-scanner.html",
+      "phase": [
+        "SW-PH-2",
+        "SW-PH-3",
+        "SW-PH-4",
+        "SW-PH-5",
+        "SW-PH-6",
+        "SW-PH-7",
+        "SW-PH-8"
+      ],
+      "source_ids": [],
+      "claim_status": "aggregate_volume_not_proven_error",
+      "public_result_status": "no_new_site_publication_claim",
+      "review": "pending_source_and_domain_review",
+      "safety_gate": "public_aggregates_only",
+      "no_loss_link": "source→claim→process→finding→metric→skill→nucleus→topic→test"
+    },
+    {
+      "topic": "elterngeld",
+      "case_id": "BKI-FAIL-ELT-003",
+      "title": "Elterngeld: Bearbeitungszeitunterschiede",
+      "origin": "docs/data/bki-fail-scanner-crosswalk-v0-2.json",
+      "nuclei": [
+        "BKI-NUC-002",
+        "BKI-NUC-003",
+        "BKI-NUC-027",
+        "BKI-NUC-028"
+      ],
+      "vki": [
+        "VKI-01",
+        "VKI-09",
+        "VKI-10",
+        "VKI-11"
+      ],
+      "gaps": [
+        "einheitliche_Zeitdefinition",
+        "fallstruktur",
+        "personalressourcen",
+        "zeit_bis_auszahlung"
+      ],
+      "evidence": "secondary_summary_comparability_review_pending",
+      "website": "./buerger-ki-fail-scanner.html",
+      "phase": [
+        "SW-PH-2",
+        "SW-PH-3",
+        "SW-PH-4",
+        "SW-PH-5",
+        "SW-PH-6",
+        "SW-PH-7",
+        "SW-PH-8"
+      ],
+      "source_ids": [],
+      "claim_status": "secondary_summary_comparability_review_pending",
+      "public_result_status": "no_new_site_publication_claim",
+      "review": "pending_source_and_domain_review",
+      "safety_gate": "public_aggregates_only",
+      "no_loss_link": "source→claim→process→finding→metric→skill→nucleus→topic→test"
+    },
+    {
+      "topic": "bauverfahren",
+      "case_id": "BKI-FAIL-BAU-007",
+      "title": "Bauverfahren: Genehmigungspflicht, Freistellung und Prozesskosten",
+      "origin": "lokale Meta-Matrix, noch nicht kanonisch publiziert",
+      "nuclei": [
+        "BKI-NUC-002",
+        "BKI-NUC-025",
+        "BKI-NUC-027",
+        "BKI-NUC-029",
+        "BKI-NUC-033",
+        "BKI-NUC-037"
+      ],
+      "vki": [
+        "VKI-09",
+        "VKI-10",
+        "VKI-11",
+        "VKI-15"
+      ],
+      "gaps": [
+        "weitere_befreiungsfähige_bauverfahren",
+        "fallvolumen_und_zeitwerte",
+        "ersatzkosten",
+        "Schutzwirkung"
+      ],
+      "evidence": "lawful_alternatives_not_quantified_savings",
+      "website": "./buerger-ki-fail-scanner.html",
+      "phase": [
+        "SW-PH-2",
+        "SW-PH-3",
+        "SW-PH-4",
+        "SW-PH-5",
+        "SW-PH-6",
+        "SW-PH-7",
+        "SW-PH-8"
+      ],
+      "source_ids": [],
+      "claim_status": "lawful_alternatives_not_quantified_savings",
+      "public_result_status": "no_new_site_publication_claim",
+      "review": "pending_source_and_domain_review",
+      "safety_gate": "public_aggregates_only",
+      "no_loss_link": "source→claim→process→finding→metric→skill→nucleus→topic→test"
+    },
+    {
+      "topic": "ePA_und_datenrechte",
+      "case_id": "BKI-TOPIC-EPA",
+      "title": "ePA, Zugriffsrechte und persönliche Datenkontrolle",
+      "origin": "docs/buerger-ki-anwendungsfelder.html",
+      "nuclei": [
+        "BKI-NUC-007",
+        "BKI-NUC-008",
+        "BKI-NUC-009",
+        "BKI-NUC-010",
+        "BKI-NUC-011",
+        "BKI-NUC-012",
+        "BKI-NUC-013"
+      ],
+      "vki": [
+        "VKI-04",
+        "VKI-06",
+        "VKI-09",
+        "VKI-10"
+      ],
+      "gaps": [
+        "produktspezifische Datenflüsse",
+        "aktuelle Standards",
+        "Barrierefreiheit und Rückwege",
+        "Sicherheitsvalidierung"
+      ],
+      "evidence": "legal_technical_deep_dive_review_open",
+      "website": "./buerger-ki-anwendungsfelder.html",
+      "phase": [
+        "SW-PH-2",
+        "SW-PH-3",
+        "SW-PH-4",
+        "SW-PH-5",
+        "SW-PH-6",
+        "SW-PH-7",
+        "SW-PH-8"
+      ],
+      "source_ids": [],
+      "claim_status": "legal_technical_deep_dive_review_open",
+      "public_result_status": "no_new_site_publication_claim",
+      "review": "pending_source_and_domain_review",
+      "safety_gate": "public_aggregates_only",
+      "no_loss_link": "source→claim→process→finding→metric→skill→nucleus→topic→test"
+    },
+    {
+      "topic": "stimmungsbild",
+      "case_id": "BKI-TOPIC-VOICE",
+      "title": "Stimme, Stimmung und freiwillige Bürgerbeteiligung",
+      "origin": "docs/buerger-ki-feedback.html",
+      "nuclei": [
+        "BKI-NUC-018",
+        "BKI-NUC-022",
+        "BKI-NUC-023",
+        "BKI-NUC-036"
+      ],
+      "vki": [
+        "VKI-08",
+        "VKI-12",
+        "VKI-15"
+      ],
+      "gaps": [
+        "moderation",
+        "Manipulationsschutz",
+        "Pseudonymitätsmodell",
+        "statistische Grenzen",
+        "öffentlich zugängliche Antwortstatus"
+      ],
+      "evidence": "concept_only_no_voting_backend",
+      "website": "./buerger-ki-feedback.html",
+      "phase": [
+        "SW-PH-2",
+        "SW-PH-3",
+        "SW-PH-4",
+        "SW-PH-5",
+        "SW-PH-6",
+        "SW-PH-7",
+        "SW-PH-8"
+      ],
+      "source_ids": [],
+      "claim_status": "concept_only_no_voting_backend",
+      "public_result_status": "no_new_site_publication_claim",
+      "review": "pending_source_and_domain_review",
+      "safety_gate": "public_aggregates_only",
+      "no_loss_link": "source→claim→process→finding→metric→skill→nucleus→topic→test"
+    }
+  ],
+  "open_fields_global": [
+    "population_denominator",
+    "correct_unit_and_reference_year",
+    "counterhypothesis",
+    "baseline_cost",
+    "net_savings_not_shifted_cost",
+    "concrete_right_and_protection",
+    "accessible_remediation",
+    "independent_review",
+    "source_status_and_retest"
+  ],
+  "guardrails": [
+    "no_personal_files_in_git",
+    "no_assumed_cost_savings",
+    "no_unreviewed_rights_violation_label",
+    "no_public_votes_without_backend",
+    "no_claim_operational_ai",
+    "no_causal_severity_without_evidence"
+  ],
+  "decision": "Keep 37 nuclei; no auto-created new nuclei; common error benchmark becomes shared method tied to existing nuclei."
+}
