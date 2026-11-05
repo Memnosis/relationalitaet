@@ -1,3 +1,13 @@
+<!-- BKI-MINIMAL-PAPER-V1 -->
+![Bürger-KI Logo](./assets/media/buerger-ki-zeichen.svg)
+
+**Forschungsedition · Stand 5. November 2026**  
+**Kurzbeschreibung:** Benchmark- und Evidenzarchitektur · Bürger-KI / Corona / SOULution – methodischer Bestand und Prüfstatus.  
+**Schlagwörter:** Bürger-KI · Quellen · Evidenz · Tests · Benchmark- und Evidenzarchitektur  
+**Kontakt:** Kontakt@erlebNils.de
+
+---
+
 # Benchmark- und Evidenzarchitektur · Bürger-KI / Corona / SOULution
 **Forschungsedition v0.1 · 2026-11-05 · Ergänzung, kein Ersatz bisheriger Papers**
 
@@ -50,3 +60,8 @@ Querverweise: `docs/buerger-ki-gesamtstand.md`, `forschung/buerger-ki/SPRACHPFAD
 
 ## Veröffentlichungsstatus
 Dies ist eine nachprüfbare Projekt- und Forschungsfassung mit offenen Prüfaufträgen, **kein abgeschlossener systematischer Review und keine kausal gesicherte Gesamtsynthese**. Originalquellen und Originalpaper bleiben als eigenständige referenzierte Artefakte bestehen.
+
+
+---
+
+*Bürger-KI · Rechte verstehen. Probleme lösen. Gesellschaft verbessern.* · [Bürger-KI](./buerger-ki.html) · [Publikationen](./publikationen.html) · Kontakt@erlebNils.de · 05.11.2026
