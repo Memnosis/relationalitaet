@@ -276,6 +276,13 @@
       "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/PAPER_VIRTUELLE_REALE_SOUVERAENE_BUERGER_KI_KI_ANWENDUNGEN_V0_1_2026-11-05.md",
       "group": "Methoden",
       "status": "research_framework_not_own_AI"
+    },
+    {
+      "id": "BKI-LIB-040",
+      "title": "Sprachprojekt: Doppelungsanalyse und einfacher Mitmach-Übersetzungsauftrag",
+      "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/BERICHT_DOPPELUNG_SPRACHE_SCHLANKE_UEBERSETZUNG_V0_1_2026-11-05.md",
+      "group": "Methoden",
+      "status": "pre_phase_language_review"
     }
   ]
 }
