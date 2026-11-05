@@ -1,3 +1,13 @@
+<!-- BKI-MINIMAL-PAPER-V1 -->
+![Bürger-KI Logo](./assets/media/buerger-ki-zeichen.svg)
+
+**Forschungsedition · Stand 5. November 2026**  
+**Kurzbeschreibung:** Mermaid-Seitengrammatik III · Anwendungen und Publikationen – methodischer Bestand und Prüfstatus.  
+**Schlagwörter:** Bürger-KI · Quellen · Evidenz · Tests · Mermaid-Seitengrammatik III  
+**Kontakt:** Kontakt@erlebNils.de
+
+---
+
 # Mermaid-Seitengrammatik III · Anwendungen und Publikationen
 **Vorlagen, keine realen Erfolgsbehauptungen; mit tatsächlichen Überschriften verknüpft.**
 ## [Forschungsinkubator](./inkubator.html)
@@ -295,3 +305,8 @@ P1 --> P2
 flowchart LR
 A["Sitemap: Forschungsbereiche, Apps und Wissenswege"] --> B["Definition und Quelle"] --> C["Methode und Status"] --> D["Gegenblick"] --> E["Rückgabe und Querverweis"]
 ```
+
+
+---
+
+*Bürger-KI · Rechte verstehen. Probleme lösen. Gesellschaft verbessern.* · [Bürger-KI](./buerger-ki.html) · [Publikationen](./publikationen.html) · Kontakt@erlebNils.de · 05.11.2026
