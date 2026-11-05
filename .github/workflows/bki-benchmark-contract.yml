@@ -4,6 +4,8 @@ on:
     paths:
       - 'docs/data/bki-benchmark-*.json'
       - 'scripts/verify_bki_benchmark.mjs'
+      - 'scripts/verify_bki_corona_audit.mjs'
+      - 'docs/data/bki-corona-messvergleich-medienpilot-v0-3.json'
       - '.github/workflows/bki-benchmark-contract.yml'
   pull_request:
     paths:
@@ -21,4 +23,6 @@ jobs:
         with:
           node-version: '22'
       - name: Validate schema fields, identifiers and comparison guards
-        run: node scripts/verify_bki_benchmark.mjs
+        run: |
+          node scripts/verify_bki_benchmark.mjs
+          node scripts/verify_bki_corona_audit.mjs
