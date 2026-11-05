@@ -125,6 +125,25 @@ await visit('interoperabilitaet.html');
  }catch(err){errors.push(name+': '+err.message);checks.push({page:name,status:'failed',reason:err.message});console.error('FAIL',name,err.message)}
  finally{await page.close()}
 }
+// Corona comparison interface: load and filter all 15 evidenced-method cards.
+{
+ const page=await browser.newPage({viewport:{width:1280,height:900}});
+ const name='buerger-ki-corona-messkarten.html';
+ try {
+  const response=await page.goto(root+'/'+name,{waitUntil:'networkidle',timeout:25000});
+  if(!response?.ok())throw Error('HTTP '+response?.status());
+  await page.locator('#cards article.card').first().waitFor({timeout:12000});
+  if(await page.locator('#cards article.card').count()!==15)throw Error('Expected 15 Corona cards');
+  await page.locator('#filter').selectOption('B');
+  if(await page.locator('#cards article.card').count()!==6)throw Error('Expected six provisional B cards');
+  await page.locator('#filter').selectOption('C');
+  if(await page.locator('#cards article.card').count()!==8)throw Error('Expected eight provisional C cards');
+  await page.locator('#filter').selectOption('D');
+  if(await page.locator('#cards article.card').count()!==1)throw Error('Expected one provisional D card');
+  verified++;checks.push({page:name,status:'passed',tests:['data-load','A-D-filters','scientific-status-visible']});console.log('PASS',name);
+ } catch(err){errors.push(name+': '+err.message);checks.push({page:name,status:'failed',reason:err.message});console.error('FAIL',name,err.message)}
+ finally{await page.close()}
+}
 await browser.close();
 const output={schema_version:'website-browser-smoke/1.0',checked_at:new Date().toISOString(),source_sha:process.env.GITHUB_SHA||'local',browser:'chromium',viewport:{width:1440,height:900},pages_checked:checks.length,pages_passed:verified,pages_failed:errors.length,checks};
 fs.mkdirSync('reports',{recursive:true});
