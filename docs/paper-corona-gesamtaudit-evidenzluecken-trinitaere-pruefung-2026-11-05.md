@@ -1,3 +1,15 @@
+<!-- BKI-MINIMAL-PAPER-V1 -->
+![Bürger-KI – Forschung und Verbindung](./assets/media/buerger-ki-zeichen.svg)
+
+**Forschungsedition · Corona-Forschung: Qualitätsrevision sämtlicher Analysefamilien**
+
+**Kurzbeschreibung:** Quellengebundene Forschungs- und Entwicklungspublikation mit eigenständigem Prüfstatus und offenen Fragen.  
+**Schlagwörter:** Bürger-KI · Quellen · Evidenz · Crosswalk · Corona-Forschung  
+**Stand:** 5. November 2026  
+**Kontakt:** Kontakt@erlebNils.de
+
+---
+
 # Corona-Forschung: Qualitätsrevision sämtlicher Analysefamilien
 **v0.1 · 05.11.2026 · ausschließlich Corona-Fachfragen, kein fachfremder Einzelinhalt**
 
@@ -39,3 +51,9 @@ Negative Evidenz und Datenlücken sind eigenständige Ergebnisakten. Kein Abwese
 - [Historische Fallprüfungen](https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/EVIDENTE_EVIDENZ_HISTORISCHE_KOHORTE_CORONA_TIEFENTEST_2026-11-05.md)
 
 **Stand:** Gesamtinventar der Schwächen und Prüfschritte, keine Vollmetaanalyse; fachliche Evidenzgrade pro Ausgangsclaim sind noch zu berechnen.
+
+
+---
+
+*Bürger-KI · Rechte verstehen. Probleme lösen. Gesellschaft verbessern.*  
+[Zur Bürger-KI](./buerger-ki.html) · [Forschungsbibliothek](./bibliothek.html) · Kontakt@erlebNils.de · 05.11.2026
