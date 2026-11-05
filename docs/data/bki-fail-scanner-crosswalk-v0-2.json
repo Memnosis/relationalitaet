@@ -1,0 +1,127 @@
+{
+  "schema": "bki-fail-scanner-crosswalk/0.2",
+  "date": "2026-11-05",
+  "status": "research_candidates_no_vote_backend",
+  "public_page": "./buerger-ki-fail-scanner.html",
+  "process": "citizen_observation_or_public_aggregate_data -> source_review -> metric_definition -> pattern -> alternative -> countercheck -> benchmark -> moderated_public_case -> skill_crosswalk",
+  "entry_contract": {
+    "required": [
+      "human_question_or_observation"
+    ],
+    "recommended": [
+      "domain",
+      "process_step",
+      "period",
+      "source_url"
+    ],
+    "optional": [
+      "suggested_alternative",
+      "candidate_cost_metric",
+      "candidate_rights_metric"
+    ],
+    "forbidden_public": [
+      "names",
+      "addresses",
+      "account_ids",
+      "case_documents",
+      "diagnoses",
+      "unredacted_personal_data"
+    ]
+  },
+  "cases": [
+    {
+      "id": "BKI-FAIL-SGB2-001",
+      "title": "Bürgergeld: Rechtsanwendungsfehler in Widersprüchen",
+      "period": "2025",
+      "source": "https://www.arbeitsagentur.de/presse/2026-03-buergergeld",
+      "observation": {
+        "objections": 501667,
+        "legal_application_errors": 42303,
+        "revisions": 147213
+      },
+      "evidence": "official_aggregate",
+      "hypothesis": "which part avoidable via improved initial decisions",
+      "not_equivalent": "all revisions are not legal errors",
+      "open_fields": [
+        "cost_per_objection",
+        "error_cause_distribution",
+        "time_to_actual_correction",
+        "avoidable_share"
+      ],
+      "nuclei": [
+        "BKI-NUC-024",
+        "BKI-NUC-025",
+        "BKI-NUC-027",
+        "BKI-NUC-033"
+      ]
+    },
+    {
+      "id": "BKI-FAIL-WOGG-002",
+      "title": "Wohngeld: wiederkehrende Bewilligungsprüfung",
+      "period": "2025-Q4",
+      "source": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Wohngeld/Tabellen/liste-wohngeld-bearbeitungsfaelle-nach-bundeslaendern-2025.html",
+      "observation": {
+        "cases": 747105,
+        "renewal_approvals": 335603
+      },
+      "evidence": "official_aggregate",
+      "hypothesis": "which unchanged data can lawfully be reused",
+      "not_equivalent": "renewal is not an error",
+      "open_fields": [
+        "repeated_data_type",
+        "legally_necessary_checks",
+        "cost_per_renewal",
+        "feasible_change"
+      ],
+      "nuclei": [
+        "BKI-NUC-024",
+        "BKI-NUC-027",
+        "BKI-NUC-029",
+        "BKI-NUC-037"
+      ]
+    },
+    {
+      "id": "BKI-FAIL-ELT-003",
+      "title": "Elterngeld: Bearbeitungszeiten im Länderabgleich",
+      "period": "2024",
+      "source": "https://www.mdr.de/nachrichten/deutschland/gesellschaft/elterngeld-antrag-dauer-erste-auszahlung-bundesland-100.html",
+      "observation": {
+        "reported_min_days": 31,
+        "reported_max_days": 88
+      },
+      "evidence": "secondary_reporting_primary_methodology_to_check",
+      "hypothesis": "which part of regional difference attributable to removable process barriers",
+      "not_equivalent": "reported differences are not proof of error or causal cost",
+      "open_fields": [
+        "uniform_time_definition",
+        "jurisdiction_case_mix",
+        "staffing",
+        "time_to_payment",
+        "cost_per_case"
+      ],
+      "nuclei": [
+        "BKI-NUC-002",
+        "BKI-NUC-003",
+        "BKI-NUC-027",
+        "BKI-NUC-028"
+      ]
+    }
+  ],
+  "reusable_gaps": [
+    "actual_cost_and_net_saving",
+    "year_cohort_vs_completed_cases",
+    "matched_comparator",
+    "protection_and_legal_gate",
+    "source_versions",
+    "moderated_public_feedback",
+    "reproducible_calculations"
+  ],
+  "publication_logic": {
+    "canonical_link": "public_page + stable case id after approved record",
+    "submitted_link": "source_url used only as provenance",
+    "local_json": "not a permalink",
+    "github_issue": "moderated_public_research_ideas_only",
+    "anonymous_vote": "not_available"
+  },
+  "privacy": "no citizen uploads are received by this static page"
+}
