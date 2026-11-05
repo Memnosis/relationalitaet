@@ -1,0 +1,202 @@
+{
+  "schema": "bki-flashback-comparative-law/0.1",
+  "as_of": "2026-11-05",
+  "status": "initial_comparative_research_not_full_audit",
+  "paper": "FLASHBACK_01_DATEN_OPTIN_OPTOUT_MELDERECHT_EPA_V0_1_2026-11-05.md",
+  "cases": [
+    {
+      "id": "FB-01",
+      "title": "Melderegisterauskunft einfach",
+      "norm": "§44 BMG",
+      "history": "2012_bundestag_draft_contested_2013_refined_2015_law_2026_current",
+      "default_mechanism": "third_party_request_with_condition",
+      "control": "no_advertising_or_address_trading",
+      "financial_question": "fee_possible_not_profit_established",
+      "source_url": "https://www.gesetze-im-internet.de/bmg/__44.html",
+      "nucleus": "BKI-NUC-024",
+      "legal_review": "initial_official_source_scope",
+      "financial_evidence": "no_revenue_quantification_yet",
+      "open_questions": [
+        "exact_legal_amendment_diff",
+        "informed_notice_and_accessibility",
+        "recipients_and_transfer_volume",
+        "benefits_harms_and_costs"
+      ]
+    },
+    {
+      "id": "FB-02",
+      "title": "Melderegisterauskunft erweitert",
+      "norm": "§45 BMG",
+      "history": "2015_law_with_later_updates",
+      "default_mechanism": "legitimate_interest",
+      "control": "no_general_free_veto",
+      "financial_question": "fee_possible",
+      "source_url": "https://www.gesetze-im-internet.de/bmg/__45.html",
+      "nucleus": "BKI-NUC-025",
+      "legal_review": "initial_official_source_scope",
+      "financial_evidence": "no_revenue_quantification_yet",
+      "open_questions": [
+        "exact_legal_amendment_diff",
+        "informed_notice_and_accessibility",
+        "recipients_and_transfer_volume",
+        "benefits_harms_and_costs"
+      ]
+    },
+    {
+      "id": "FB-03",
+      "title": "Wahlwerbung/Jubiläen",
+      "norm": "§50 BMG",
+      "history": "current_2026",
+      "default_mechanism": "specific_purpose_and_period",
+      "control": "free_opt_out_for_50_1_50_2",
+      "financial_question": "unknown_fees_not_assumed",
+      "source_url": "https://www.gesetze-im-internet.de/bmg/__50.html",
+      "nucleus": "BKI-NUC-025",
+      "legal_review": "initial_official_source_scope",
+      "financial_evidence": "no_revenue_quantification_yet",
+      "open_questions": [
+        "exact_legal_amendment_diff",
+        "informed_notice_and_accessibility",
+        "recipients_and_transfer_volume",
+        "benefits_harms_and_costs"
+      ]
+    },
+    {
+      "id": "FB-04",
+      "title": "Religionsgesellschaften Familienangehörige",
+      "norm": "§42 BMG",
+      "history": "current_2026",
+      "default_mechanism": "specific_lawful_transfer",
+      "control": "opt_out_available_where_statute",
+      "financial_question": "none_verified",
+      "source_url": "https://www.gesetze-im-internet.de/bmg/__42.html",
+      "nucleus": "BKI-NUC-025",
+      "legal_review": "initial_official_source_scope",
+      "financial_evidence": "no_revenue_quantification_yet",
+      "open_questions": [
+        "exact_legal_amendment_diff",
+        "informed_notice_and_accessibility",
+        "recipients_and_transfer_volume",
+        "benefits_harms_and_costs"
+      ]
+    },
+    {
+      "id": "FB-05",
+      "title": "Bundeswehr-Meldedaten",
+      "norm": "BMG + WPflG",
+      "history": "objection_removed_2026_01_01",
+      "default_mechanism": "statutory_transfer",
+      "control": "old_objection_no_longer_available",
+      "financial_question": "none_verified",
+      "source_url": "https://www.dortmund.de/services/widerspruch-gegen-die-weitergabe-meiner-daten-datenuebermittlung.html",
+      "nucleus": "BKI-NUC-025",
+      "legal_review": "initial_official_source_scope",
+      "financial_evidence": "no_revenue_quantification_yet",
+      "open_questions": [
+        "exact_legal_amendment_diff",
+        "informed_notice_and_accessibility",
+        "recipients_and_transfer_volume",
+        "benefits_harms_and_costs"
+      ]
+    },
+    {
+      "id": "FB-06",
+      "title": "Fahrzeughalterauskunft",
+      "norm": "§39 StVG",
+      "history": "current_2026",
+      "default_mechanism": "claim_specific_condition",
+      "control": "not_general_opt_out",
+      "financial_question": "fee_finance_unknown",
+      "source_url": "https://www.gesetze-im-internet.de/stvg/__39.html",
+      "nucleus": "BKI-NUC-025",
+      "legal_review": "initial_official_source_scope",
+      "financial_evidence": "no_revenue_quantification_yet",
+      "open_questions": [
+        "exact_legal_amendment_diff",
+        "informed_notice_and_accessibility",
+        "recipients_and_transfer_volume",
+        "benefits_harms_and_costs"
+      ]
+    },
+    {
+      "id": "FB-07",
+      "title": "ePA Anlage",
+      "norm": "SGB V DigiG",
+      "history": "opt_in_2021_to_opt_out_2025_01_15",
+      "default_mechanism": "default_creation_unless_object",
+      "control": "opt_out_can_be_exercised",
+      "financial_question": "not_a_sale",
+      "source_url": "https://www.bundesgesundheitsministerium.de/themen/digitalisierung/elektronische-patientenakte/epa-fuer-alle",
+      "nucleus": "BKI-NUC-008",
+      "legal_review": "initial_official_source_scope",
+      "financial_evidence": "no_revenue_quantification_yet",
+      "open_questions": [
+        "exact_legal_amendment_diff",
+        "informed_notice_and_accessibility",
+        "recipients_and_transfer_volume",
+        "benefits_harms_and_costs"
+      ]
+    },
+    {
+      "id": "FB-08",
+      "title": "ePA FDZ Forschung",
+      "norm": "SGB V GDNG",
+      "history": "shift_to_opt_out_2025_and_rollout_2026_2027",
+      "default_mechanism": "statutory_defined_pseudonymized_data",
+      "control": "separate_opt_out_via_epa_or_insurer",
+      "financial_question": "not_commercial_individual_data_sale",
+      "source_url": "https://www.forschungsdatenzentrum-gesundheit.de/infoportal/datensatz-des-fdz-gesundheit/daten-aus-der-epa",
+      "nucleus": "BKI-NUC-009",
+      "legal_review": "initial_official_source_scope",
+      "financial_evidence": "no_revenue_quantification_yet",
+      "open_questions": [
+        "exact_legal_amendment_diff",
+        "informed_notice_and_accessibility",
+        "recipients_and_transfer_volume",
+        "benefits_harms_and_costs"
+      ]
+    },
+    {
+      "id": "FB-09",
+      "title": "Organspende",
+      "norm": "TPG",
+      "history": "current_consent_2026_optout_draft_not_law",
+      "default_mechanism": "consent_or_family_based_decision",
+      "control": "decision_can_be_recorded_and_changed",
+      "financial_question": "not_data_sale",
+      "source_url": "https://www.organspende-info.de/gesetzliche-grundlagen/entscheidungsloesung/",
+      "nucleus": "BKI-NUC-008",
+      "legal_review": "initial_official_source_scope",
+      "financial_evidence": "no_revenue_quantification_yet",
+      "open_questions": [
+        "exact_legal_amendment_diff",
+        "informed_notice_and_accessibility",
+        "recipients_and_transfer_volume",
+        "benefits_harms_and_costs"
+      ]
+    }
+  ],
+  "distinctions": [
+    "opt_in",
+    "opt_out",
+    "lawful_disclosure_without_general_opt_out",
+    "paid_administrative_disclosure",
+    "advertising_address_trade",
+    "pseudonymized_research_access",
+    "data_broker_sales"
+  ],
+  "special_cautions": [
+    "2012 controversial draft was not final law",
+    "2026 §50 paragraph 3 removed; municipal pages may be stale",
+    "2026 Bundeswehr objection removed but other statutory rights survive",
+    "ePA FDZ rollout not same as open commercial sale",
+    "2026 organ donation opt-out bill still only proposed"
+  ],
+  "research_gates": {
+    "legislative_history_exact_sources": "partial",
+    "financial_revenue_analysis": "not_run",
+    "public_privacy_impact_review": "not_run",
+    "rights_and_jurisdiction": "initial_only",
+    "new_public_page": "not_approved"
+  }
+}
