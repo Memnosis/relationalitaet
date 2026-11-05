@@ -2,7 +2,7 @@
   "schema": "bki-phase1-semantic-hinges/0.1",
   "phase_id": "SW-PH-1",
   "date": "2026-11-05",
-  "status": "pre_phase_material_not_validated",
+  "status": "phase1_draft_assessment_performed_fach_review_and_sources_open",
   "total_hinges": 14,
   "hinges": [
     {
@@ -22,7 +22,22 @@
       "review_status": "initial_semantic_draft",
       "reverse_check_question": "If translated back, can the original human claim be recovered without extra assumptions?",
       "counterexample_test": "Detect and reject direct equivalence between input and translated claim",
-      "return_route": "Return to human question with clarified scope and next options"
+      "return_route": "Return to human question with clarified scope and next options",
+      "phase1_trial": {
+        "transition_type": "clarification",
+        "review_depth": "L1",
+        "semantic_risk": "geeignete psychotherapeutische Versorgung setzt Eignung bereits voraus; Ursprung behauptet keine Indikation",
+        "reverse_check": "Welche Hilfe wird gesucht und was wurde bisher tatsächlich probiert?",
+        "concrete_counterexample": "Eine Person sucht ausdrücklich nur einen Erstkontakt, keine fortlaufende Psychotherapie.",
+        "research_nucleus": "BKI-NUC-015",
+        "from_lens": "ziel",
+        "to_lens": "wissen",
+        "source_need": "needs_clinical_definition",
+        "source_ids": [],
+        "meaning_relation": "not_claimed_equivalent",
+        "editorial_status": "proposed_checked_for_overclaim_not_fach_approved",
+        "review_result": "L1_candidate"
+      }
     },
     {
       "id": "BKI-PH1-H02",
@@ -41,7 +56,22 @@
       "review_status": "initial_semantic_draft",
       "reverse_check_question": "If translated back, can the original human claim be recovered without extra assumptions?",
       "counterexample_test": "Detect and reject direct equivalence between input and translated claim",
-      "return_route": "Return to human question with clarified scope and next options"
+      "return_route": "Return to human question with clarified scope and next options",
+      "phase1_trial": {
+        "transition_type": "question_reframing",
+        "review_depth": "L1",
+        "semantic_risk": "aus subjektivem Wunsch wird eine klinische Kategoriefrage, ohne Indikation",
+        "reverse_check": "Welche Leistung sucht die Person – und welche professionelle Einschätzung liegt vor?",
+        "concrete_counterexample": "Ein Mensch möchte zunächst nur eine Beratung zur Orientierung.",
+        "research_nucleus": "BKI-NUC-015",
+        "from_lens": "ziel",
+        "to_lens": "wissen",
+        "source_need": "needs_primary_116117_KBV",
+        "source_ids": [],
+        "meaning_relation": "not_claimed_equivalent",
+        "editorial_status": "proposed_checked_for_overclaim_not_fach_approved",
+        "review_result": "L1_candidate"
+      }
     },
     {
       "id": "BKI-PH1-H03",
@@ -60,7 +90,22 @@
       "review_status": "initial_semantic_draft",
       "reverse_check_question": "If translated back, can the original human claim be recovered without extra assumptions?",
       "counterexample_test": "Detect and reject direct equivalence between input and translated claim",
-      "return_route": "Return to human question with clarified scope and next options"
+      "return_route": "Return to human question with clarified scope and next options",
+      "phase1_trial": {
+        "transition_type": "action_enabling",
+        "review_depth": "L0",
+        "semantic_risk": "Wissen um einen Kontakt ist nicht bereits Fähigkeit zur tatsächlichen Kontaktaufnahme",
+        "reverse_check": "Wurde eine Handlung vorgenommen oder zunächst nur ein Weg verstanden?",
+        "concrete_counterexample": "Die Nummer ist bekannt, aber Erreichbarkeit oder persönliche Telefonhürden verhindern den Anruf.",
+        "research_nucleus": "BKI-NUC-017",
+        "from_lens": "wissen",
+        "to_lens": "hilfe",
+        "source_need": "may_be_checked_with_simple_prompt",
+        "source_ids": [],
+        "meaning_relation": "not_claimed_equivalent",
+        "editorial_status": "proposed_checked_for_overclaim_not_fach_approved",
+        "review_result": "L0_candidate"
+      }
     },
     {
       "id": "BKI-PH1-H04",
@@ -79,7 +124,22 @@
       "review_status": "initial_semantic_draft",
       "reverse_check_question": "If translated back, can the original human claim be recovered without extra assumptions?",
       "counterexample_test": "Detect and reject direct equivalence between input and translated claim",
-      "return_route": "Return to human question with clarified scope and next options"
+      "return_route": "Return to human question with clarified scope and next options",
+      "phase1_trial": {
+        "transition_type": "option_generation",
+        "review_depth": "L0",
+        "semantic_risk": "eine mögliche Hilfeform wird vorgeschlagen; noch kein nachgewiesener psychologischer Effekt",
+        "reverse_check": "Will die Person gemeinsam arbeiten oder eine andere Form der Unterstützung?",
+        "concrete_counterexample": "Jemand kann allein leichter anrufen als in einer Gruppe.",
+        "research_nucleus": "BKI-NUC-018",
+        "from_lens": "ziel",
+        "to_lens": "hilfe",
+        "source_need": "may_be_checked_with_simple_prompt",
+        "source_ids": [],
+        "meaning_relation": "not_claimed_equivalent",
+        "editorial_status": "proposed_checked_for_overclaim_not_fach_approved",
+        "review_result": "L0_candidate"
+      }
     },
     {
       "id": "BKI-PH1-H05",
@@ -98,7 +158,22 @@
       "review_status": "initial_semantic_draft",
       "reverse_check_question": "If translated back, can the original human claim be recovered without extra assumptions?",
       "counterexample_test": "Detect and reject direct equivalence between input and translated claim",
-      "return_route": "Return to human question with clarified scope and next options"
+      "return_route": "Return to human question with clarified scope and next options",
+      "phase1_trial": {
+        "transition_type": "abstraction_from_anecdote",
+        "review_depth": "L1",
+        "semantic_risk": "konkrete Hilfe wird zur Methodenidee; tatsächliche Wirkung und Übertragbarkeit offen",
+        "reverse_check": "Welcher Bestandteil der Hilfe lässt sich ohne persönlichen Fall weitergeben?",
+        "concrete_counterexample": "Die Hilfe war nur wegen einer einzigartigen Einzelsituation erfolgreich.",
+        "research_nucleus": "BKI-NUC-023",
+        "from_lens": "hilfe",
+        "to_lens": "forschung",
+        "source_need": "needs_feedback_rights_and_method_review",
+        "source_ids": [],
+        "meaning_relation": "not_claimed_equivalent",
+        "editorial_status": "proposed_checked_for_overclaim_not_fach_approved",
+        "review_result": "L1_candidate"
+      }
     },
     {
       "id": "BKI-PH1-H06",
@@ -117,7 +192,22 @@
       "review_status": "initial_semantic_draft",
       "reverse_check_question": "If translated back, can the original human claim be recovered without extra assumptions?",
       "counterexample_test": "Detect and reject direct equivalence between input and translated claim",
-      "return_route": "Return to human question with clarified scope and next options"
+      "return_route": "Return to human question with clarified scope and next options",
+      "phase1_trial": {
+        "transition_type": "outcome_distinction",
+        "review_depth": "L1",
+        "semantic_risk": "Kontakt/Ersttermin ist nicht identisch mit Behandlungsergebnis; kein negativer Werturteil über Erstgespräch",
+        "reverse_check": "Ist mit Sprechstunde ein Termin oder bereits eine medizinisch geeignete Behandlung gemeint?",
+        "concrete_counterexample": "Eine Sprechstunde ist für manche Menschen der passende nächste Versorgungsschritt.",
+        "research_nucleus": "BKI-NUC-015",
+        "from_lens": "hilfe",
+        "to_lens": "wissen",
+        "source_need": "needs_clinical_sources",
+        "source_ids": [],
+        "meaning_relation": "not_claimed_equivalent",
+        "editorial_status": "proposed_checked_for_overclaim_not_fach_approved",
+        "review_result": "L1_candidate"
+      }
     },
     {
       "id": "BKI-PH1-H07",
@@ -136,7 +226,22 @@
       "review_status": "initial_semantic_draft",
       "reverse_check_question": "If translated back, can the original human claim be recovered without extra assumptions?",
       "counterexample_test": "Detect and reject direct equivalence between input and translated claim",
-      "return_route": "Return to human question with clarified scope and next options"
+      "return_route": "Return to human question with clarified scope and next options",
+      "phase1_trial": {
+        "transition_type": "induction_to_hypothesis",
+        "review_depth": "L1",
+        "semantic_risk": "mehrere Anekdoten werden zur Untersuchungsfrage; kein statistischer Schluss",
+        "reverse_check": "Welche Population und welcher Wartezeit- bzw. Versorgungsindikator wäre nötig?",
+        "concrete_counterexample": "Bekannte in einer Onlinegruppe bilden keine Zufallsstichprobe.",
+        "research_nucleus": "BKI-NUC-016",
+        "from_lens": "ziel",
+        "to_lens": "gesellschaft",
+        "source_need": "needs_sampling_and_method_review",
+        "source_ids": [],
+        "meaning_relation": "not_claimed_equivalent",
+        "editorial_status": "proposed_checked_for_overclaim_not_fach_approved",
+        "review_result": "L1_candidate"
+      }
     },
     {
       "id": "BKI-PH1-H08",
@@ -155,7 +260,22 @@
       "review_status": "initial_semantic_draft",
       "reverse_check_question": "If translated back, can the original human claim be recovered without extra assumptions?",
       "counterexample_test": "Detect and reject direct equivalence between input and translated claim",
-      "return_route": "Return to human question with clarified scope and next options"
+      "return_route": "Return to human question with clarified scope and next options",
+      "phase1_trial": {
+        "transition_type": "normative_issue_spotting",
+        "review_depth": "L1",
+        "semantic_risk": "Zuständigkeit motiviert Frage nach Pflicht; Pflichtverletzung wird nicht behauptet",
+        "reverse_check": "Welche Norm, Handlungspflicht und Ausnahme gilt für die konkrete Stelle?",
+        "concrete_counterexample": "Eine Stelle hat Koordinationsaufgaben, aber keine Pflicht, einen bestimmten Behandlungserfolg zu garantieren.",
+        "research_nucleus": "BKI-NUC-025",
+        "from_lens": "gesellschaft",
+        "to_lens": "forschung",
+        "source_need": "needs_jurisdiction_and_legal_sources",
+        "source_ids": [],
+        "meaning_relation": "not_claimed_equivalent",
+        "editorial_status": "proposed_checked_for_overclaim_not_fach_approved",
+        "review_result": "L1_candidate"
+      }
     },
     {
       "id": "BKI-PH1-H09",
@@ -174,7 +294,22 @@
       "review_status": "initial_semantic_draft",
       "reverse_check_question": "If translated back, can the original human claim be recovered without extra assumptions?",
       "counterexample_test": "Detect and reject direct equivalence between input and translated claim",
-      "return_route": "Return to human question with clarified scope and next options"
+      "return_route": "Return to human question with clarified scope and next options",
+      "phase1_trial": {
+        "transition_type": "impact_operationalization",
+        "review_depth": "L1",
+        "semantic_risk": "Beschluss wird von gemessener Wirkung getrennt; Ursache bleibt offen",
+        "reverse_check": "Welcher Outcome und Vergleichsmaßstab würde die Wirkung zeigen?",
+        "concrete_counterexample": "Ein Projekt startete planmäßig, aber es liegen keine Outcome-Daten vor.",
+        "research_nucleus": "BKI-NUC-027",
+        "from_lens": "gesellschaft",
+        "to_lens": "forschung",
+        "source_need": "needs_evaluation_design",
+        "source_ids": [],
+        "meaning_relation": "not_claimed_equivalent",
+        "editorial_status": "proposed_checked_for_overclaim_not_fach_approved",
+        "review_result": "L1_candidate"
+      }
     },
     {
       "id": "BKI-PH1-H10",
@@ -193,7 +328,22 @@
       "review_status": "initial_semantic_draft",
       "reverse_check_question": "If translated back, can the original human claim be recovered without extra assumptions?",
       "counterexample_test": "Detect and reject direct equivalence between input and translated claim",
-      "return_route": "Return to human question with clarified scope and next options"
+      "return_route": "Return to human question with clarified scope and next options",
+      "phase1_trial": {
+        "transition_type": "cross_jurisdiction_translation",
+        "review_depth": "L1",
+        "semantic_risk": "lexikalisch ähnliches Wort begründet keine Rechtsgleichheit",
+        "reverse_check": "In welchem Rechtsraum und mit welchen konkreten Voraussetzungen gilt die Behauptung?",
+        "concrete_counterexample": "Ein Anspruch in einem Staat ist unter gleichlautendem Begriff in anderem Staat nicht vorgesehen.",
+        "research_nucleus": "BKI-NUC-002",
+        "from_lens": "wissen",
+        "to_lens": "forschung",
+        "source_need": "needs_comparative_legal_terms",
+        "source_ids": [],
+        "meaning_relation": "not_claimed_equivalent",
+        "editorial_status": "proposed_checked_for_overclaim_not_fach_approved",
+        "review_result": "L1_candidate"
+      }
     },
     {
       "id": "BKI-PH1-H11",
@@ -212,7 +362,22 @@
       "review_status": "initial_semantic_draft",
       "reverse_check_question": "If translated back, can the original human claim be recovered without extra assumptions?",
       "counterexample_test": "Detect and reject direct equivalence between input and translated claim",
-      "return_route": "Return to human question with clarified scope and next options"
+      "return_route": "Return to human question with clarified scope and next options",
+      "phase1_trial": {
+        "transition_type": "spec_to_test",
+        "review_depth": "L1",
+        "semantic_risk": "Modellfähigkeit und tatsächliche Ausführung sind verschiedene Status",
+        "reverse_check": "Welcher Test belegt Erkennung, Planung, Ausführung und Erfolg getrennt?",
+        "concrete_counterexample": "Eine KI kann einen Anrufplan generieren, aber keine realen Telefonate durchführen.",
+        "research_nucleus": "BKI-NUC-031",
+        "from_lens": "forschung",
+        "to_lens": "hilfe",
+        "source_need": "needs_function_test_only",
+        "source_ids": [],
+        "meaning_relation": "not_claimed_equivalent",
+        "editorial_status": "proposed_checked_for_overclaim_not_fach_approved",
+        "review_result": "L1_candidate"
+      }
     },
     {
       "id": "BKI-PH1-H12",
@@ -231,7 +396,22 @@
       "review_status": "initial_semantic_draft",
       "reverse_check_question": "If translated back, can the original human claim be recovered without extra assumptions?",
       "counterexample_test": "Detect and reject direct equivalence between input and translated claim",
-      "return_route": "Return to human question with clarified scope and next options"
+      "return_route": "Return to human question with clarified scope and next options",
+      "phase1_trial": {
+        "transition_type": "temporal_comparability",
+        "review_depth": "L1",
+        "semantic_risk": "gleichbenannte Kennzahl kann veränderte Grundgesamtheit und Definition haben",
+        "reverse_check": "Startet die Zeitmessung mit erstem Suchversuch oder nach Sprechstunde?",
+        "concrete_counterexample": "Zwei Studien berichten dieselbe Wartezeit, aber messen verschiedene Ereignisse.",
+        "research_nucleus": "BKI-NUC-016",
+        "from_lens": "wissen",
+        "to_lens": "gesellschaft",
+        "source_need": "needs_primary_study_methods",
+        "source_ids": [],
+        "meaning_relation": "not_claimed_equivalent",
+        "editorial_status": "proposed_checked_for_overclaim_not_fach_approved",
+        "review_result": "L1_candidate"
+      }
     },
     {
       "id": "BKI-PH1-H13",
@@ -250,7 +430,22 @@
       "review_status": "initial_semantic_draft",
       "reverse_check_question": "If translated back, can the original human claim be recovered without extra assumptions?",
       "counterexample_test": "Detect and reject direct equivalence between input and translated claim",
-      "return_route": "Return to human question with clarified scope and next options"
+      "return_route": "Return to human question with clarified scope and next options",
+      "phase1_trial": {
+        "transition_type": "construct_to_variable",
+        "review_depth": "L2_deferred",
+        "semantic_risk": "Variable ist eine Operationalisierung, nicht das psychologische Konstrukt selbst",
+        "reverse_check": "Welche Definition und Validierungsstudie stützen die Zuordnung?",
+        "concrete_counterexample": "Ein selbstberichteter Motivationswert kann durch Kontext und Testdesign verzerrt sein.",
+        "research_nucleus": "BKI-NUC-037",
+        "from_lens": "forschung",
+        "to_lens": "wissen",
+        "source_need": "park_for_psychology_code_research",
+        "source_ids": [],
+        "meaning_relation": "not_claimed_equivalent",
+        "editorial_status": "proposed_checked_for_overclaim_not_fach_approved",
+        "review_result": "deferred_L2"
+      }
     },
     {
       "id": "BKI-PH1-H14",
@@ -269,7 +464,22 @@
       "review_status": "initial_semantic_draft",
       "reverse_check_question": "If translated back, can the original human claim be recovered without extra assumptions?",
       "counterexample_test": "Detect and reject direct equivalence between input and translated claim",
-      "return_route": "Return to human question with clarified scope and next options"
+      "return_route": "Return to human question with clarified scope and next options",
+      "phase1_trial": {
+        "transition_type": "program_output_to_real_world",
+        "review_depth": "L2_deferred",
+        "semantic_risk": "syntaktisch/typisierte Codeausgabe beweist keine tatsächliche menschliche Hilfe",
+        "reverse_check": "Welche beobachtbare Handlung und welches Ergebnis macht true empirisch sinnvoll?",
+        "concrete_counterexample": "help() liefert true, weil Netzwerkantwort HTTP 200 war, aber keine Person erhielt Hilfe.",
+        "research_nucleus": "BKI-NUC-037",
+        "from_lens": "forschung",
+        "to_lens": "ziel",
+        "source_need": "park_for_code_and_semantics_research",
+        "source_ids": [],
+        "meaning_relation": "not_claimed_equivalent",
+        "editorial_status": "proposed_checked_for_overclaim_not_fach_approved",
+        "review_result": "deferred_L2"
+      }
     }
   ],
   "research_sources": [
@@ -301,13 +511,26 @@
   ],
   "tests": {
     "structure": "not_run",
-    "reverse_semantics": "planned_not_run",
+    "reverse_semantics": "questions_and_counterexamples_authored_not_expert_tested",
     "expert_reviewer": "not_assigned",
-    "source_validation": "method_refs_only_domain_primaries_pending",
+    "source_validation": "primary_citations_pending",
     "semantic_validation": "not_run",
-    "language_source_owner_review": "pending"
+    "language_source_owner_review": "pending",
+    "lightweight_annotation": "completed_14_cases",
+    "structural_consistency": "pending_test"
   },
-  "phase_gate": "SW-PRE-LANG_PENDING",
+  "phase_gate": "SW-PRE-LANG_PASSED_FOR_DRAFT_ONLY",
   "reference": "BERICHT_DOPPELUNG_SPRACHE_SCHLANKE_UEBERSETZUNG_V0_1_2026-11-05.md",
-  "note": "These 14 translations were drafted before the canonical language deep dive and are not an accepted execution of Phase 1."
+  "note": "These 14 translations were drafted before the canonical language deep dive and are not an accepted execution of Phase 1.",
+  "trial_summary": {
+    "cases": 14,
+    "L0_candidates": 2,
+    "L1_candidates": 10,
+    "L2_deferred": 2,
+    "validated_clinical_or_legal_claims": 0,
+    "verified_primary_sources": 0,
+    "meaning_equivalence_claims": 0,
+    "method": "Use the canonical paper, lightweight prompt and case-level counterexamples; distinguish translation, question change, operationalization",
+    "criteria": "Analytical review passed; no domain expert or source verification has yet occurred"
+  }
 }
