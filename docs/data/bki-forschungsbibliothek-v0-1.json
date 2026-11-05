@@ -1,0 +1,141 @@
+{
+  "schema": "bki-research-library/0.1",
+  "as_of": "2026-11-05",
+  "purpose": "Curated findability, not a second store of research claims",
+  "notes": "Links originate in the current Bürger-KI working set; this file is a curated index, not a complete repository inventory.",
+  "entries": [
+    {
+      "id": "BKI-LIB-001",
+      "title": "Gesamtstand",
+      "href": "buerger-ki-gesamtstand.md",
+      "group": "Grundlagen",
+      "status": "research_or_learning_resource"
+    },
+    {
+      "id": "BKI-LIB-002",
+      "title": "Skill-Deep-Dive",
+      "href": "buerger-ki-skill-deep-dive.md",
+      "group": "Skills",
+      "status": "research_or_learning_resource"
+    },
+    {
+      "id": "BKI-LIB-003",
+      "title": "Gesetzeübergreifende Rekonstruktion",
+      "href": "paper-buerger-ki-gesetzeuebergreifende-weisungsrekonstruktion-v0-1.md",
+      "group": "Methoden",
+      "status": "research_or_learning_resource"
+    },
+    {
+      "id": "BKI-LIB-004",
+      "title": "Ziele- und Handlungsatlas",
+      "href": "../forschung/buerger-ki/KERNPAPER_ZIEL_HANDLUNGSATLAS_LEXIKON_META_V0_1.md",
+      "group": "Grundlagen",
+      "status": "research_or_learning_resource"
+    },
+    {
+      "id": "BKI-LIB-005",
+      "title": "Mitmachlogik",
+      "href": "paper-mitmachlogik-meta-design-v0-1.md",
+      "group": "Didaktik",
+      "status": "research_or_learning_resource"
+    },
+    {
+      "id": "BKI-LIB-006",
+      "title": "Therapieplatz – fünf Blickwinkel",
+      "href": "buerger-ki-blickwinkel-therapieplatz.html",
+      "group": "Didaktik",
+      "status": "research_or_learning_resource"
+    },
+    {
+      "id": "BKI-LIB-007",
+      "title": "Therapie-, Pflege- und Notfallversorgung",
+      "href": "paper-buerger-ki-versorgungsluecken-therapie-pflege-notfall-verantwortung-v0-1.md",
+      "group": "Gesundheit",
+      "status": "research_or_learning_resource"
+    },
+    {
+      "id": "BKI-LIB-008",
+      "title": "Praxisportale und anwaltliche Hilfe",
+      "href": "paper-handlungsatlas-praxisportale-hilfe-und-anwaltswissen-v0-1.md",
+      "group": "Hilfe",
+      "status": "research_or_learning_resource"
+    },
+    {
+      "id": "BKI-LIB-009",
+      "title": "Bedarfslandkarte und Blindstellen",
+      "href": "paper-buerger-ki-bedarfslandkarte-rechtsstatus-und-blindstellen-v0-1.md",
+      "group": "Gesellschaft",
+      "status": "research_or_learning_resource"
+    },
+    {
+      "id": "BKI-LIB-010",
+      "title": "Messbarkeit und Rechenschaft",
+      "href": "../forschung/buerger-ki/KERNPAPER_MESSBARKEIT_STEUERUNG_RECHENSCHAFT_V0_1.md",
+      "group": "Methoden",
+      "status": "research_or_learning_resource"
+    },
+    {
+      "id": "BKI-LIB-011",
+      "title": "Institutionelle Intelligenz",
+      "href": "../forschung/buerger-ki/KERNPAPER_INSTITUTIONELLES_LERNEN_METRIKGESCHICHTE_UND_INTELLIGENZ_V0_1.md",
+      "group": "Gesellschaft",
+      "status": "research_or_learning_resource"
+    },
+    {
+      "id": "BKI-LIB-012",
+      "title": "No-Loss-Wissensorchestrierung",
+      "href": "../forschung/buerger-ki/KERNPAPER_LERNPFADE_NOLOSS_WISSENSORCHESTRIERUNG_V0_1.md",
+      "group": "Methoden",
+      "status": "research_or_learning_resource"
+    },
+    {
+      "id": "BKI-LIB-013",
+      "title": "Originalsprache und Claims",
+      "href": "paper-buerger-ki-originalsprache-claims-didaktik-no-loss-v0-1.md",
+      "group": "Didaktik",
+      "status": "research_or_learning_resource"
+    },
+    {
+      "id": "BKI-LIB-014",
+      "title": "Redaktionelle Phase 14",
+      "href": "buerger-ki-phase-14-redaktionelle-renaissance.md",
+      "group": "Didaktik",
+      "status": "research_or_learning_resource"
+    },
+    {
+      "id": "BKI-LIB-015",
+      "title": "Zielzerlegung",
+      "href": "buerger-ki-phase-9-zielzerlegung-ergebnis-001.md",
+      "group": "Skills",
+      "status": "research_or_learning_resource"
+    },
+    {
+      "id": "BKI-LIB-016",
+      "title": "Weisungsatlas",
+      "href": "buerger-ki-weisungsatlas-ergebnis-001.md",
+      "group": "Methoden",
+      "status": "research_or_learning_resource"
+    },
+    {
+      "id": "BKI-LIB-017",
+      "title": "Historische Metriken",
+      "href": "data/bki-historische-metrik-personal-verantwortung-v0-1.json",
+      "group": "Gesellschaft",
+      "status": "research_or_learning_resource"
+    },
+    {
+      "id": "BKI-LIB-018",
+      "title": "Rechenschafts-Fragenregister",
+      "href": "data/bki-messbarkeit-rechenschaft-fragen-v0-1.json",
+      "group": "Methoden",
+      "status": "research_or_learning_resource"
+    },
+    {
+      "id": "BKI-LIB-019",
+      "title": "Anwendungsfelder",
+      "href": "buerger-ki-anwendungsfelder.html",
+      "group": "Didaktik",
+      "status": "research_or_learning_resource"
+    }
+  ]
+}
