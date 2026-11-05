@@ -1,0 +1,79 @@
+{
+  "schema": "bki-crisis-evaluation/0.1",
+  "as_of": "2026-11-05",
+  "principle": "Historical timeline: need > baseline > metric definition > warning > decision > funds/personnel > implementation > outcome > reevaluation",
+  "domains": [
+    "public_health",
+    "hospital",
+    "nursing_staff",
+    "school",
+    "nutrition"
+  ],
+  "programs": [
+    {
+      "id": "CR-01",
+      "name": "Pakt Öffentlicher Gesundheitsdienst 2021–2026",
+      "funds_eur": 4000000000,
+      "url": "https://www.bundesgesundheitsministerium.de/themen/gesundheitswesen/pakt-fuer-den-oegd",
+      "status": "financed_not_outcome_proven"
+    },
+    {
+      "id": "CR-02",
+      "name": "KHZG DigitalRadar 2021/2024",
+      "url": "https://www.bundesgesundheitsministerium.de/service/publikationen/details/digitalradar-zwischenbericht-2025",
+      "status": "two_measurement_points_publication"
+    },
+    {
+      "id": "CR-03",
+      "name": "Krankenhausreform 2024 Anpassung 2026",
+      "url": "https://dip.bundestag.de/vorgang/gesetz-zur-anpassung-der-krankenhausreform-krankenhausreformanpassungsgesetz-khag/326717",
+      "status": "legal_reform_effect_not_proven"
+    },
+    {
+      "id": "CR-04",
+      "name": "PPR 2.0 Personalbedarfsdaten ab 2024",
+      "url": "https://www.bundesgesundheitsministerium.de/service/begriffe-von-a-z/p/pflegepersonalbemessung-im-krankenhaus",
+      "status": "initial_measurement_without_binding_staffing_threshold"
+    },
+    {
+      "id": "CR-05",
+      "name": "Aufholen nach Corona 2021–2022",
+      "funds_eur": 2000000000,
+      "url": "https://www.bafza.de/ueber-das-bundesamt/aktuelles/detailansicht/aktionsprogramm-aufholen-nach-corona-fuer-kinder-und-jugendliche",
+      "status": "program_not_impact_proven"
+    },
+    {
+      "id": "CR-06",
+      "name": "Startchancen Programm 2024–2034",
+      "funds_eur": 20000000000,
+      "url": "https://www.bmbfsfj.bund.de/bmbfsfj/themen/bildung/schule/startchancen-programm-274440",
+      "status": "goal_operationalized_impact_to_evaluate"
+    },
+    {
+      "id": "CR-07",
+      "name": "DigitalPakt 2.0 bis 2030",
+      "funds_eur": 5000000000,
+      "url": "https://www.kmk.org/aktuelles/pressearchiv/mitteilung/digitalpakt-20-unterzeichnet-gemeinsam-digitale-bildung-weiterentwickeln.html",
+      "status": "signed_not_impact_proven"
+    },
+    {
+      "id": "CR-08",
+      "name": "DGE Ernährungsbericht 2024",
+      "url": "https://www.dge.de/wissenschaft/ernaehrungsberichte/15-dge-ernaehrungsbericht/",
+      "status": "population_observation_not_policy_effect"
+    }
+  ],
+  "test_categories": [
+    "stable_metric",
+    "baseline",
+    "funds_vs_output",
+    "impact",
+    "regional_effect",
+    "lesson_retest",
+    "nutrition_access",
+    "school_learning",
+    "care_personnel",
+    "alternative_explanation"
+  ],
+  "run_status": "not_run"
+}
