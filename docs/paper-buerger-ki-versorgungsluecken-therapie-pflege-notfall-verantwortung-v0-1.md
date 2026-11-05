@@ -92,6 +92,14 @@ Statistische Zusammenhänge zwischen hoher Belastung, Wartezeiten, Personalmange
 ### Amtliche Verantwortung und Gerichtsentscheidungen
 Getrennte Aktenkategorien: Planungs-/Aufsichtsfehler, unterlassene Kapazitätsausweitung, Organisationspflichtverletzung, ärztlicher Behandlungsfehler, Fehler in der Rettungslogistik, Budgetentscheidung, Verweisungsversagen, Gegenmaßnahmen, gerichtliche Beweisaufnahme und bindende Entscheidung. **Aus dem Urteil eines Einzelfalls dürfen nicht ungeprüft pauschale Aussagen über alle Einrichtungen gezogen werden.**
 
+## 4a. Bereits belegte Todesfolgen medizinischer Fehler – ausdrücklich keine Kapazitätskausalität
+
+Der [Medizinische Dienst Bund](https://md-bund.de/presse/pressemitteilungen/neueste-pressemitteilungen/vermeidbare-gesundheitsschaeden-verursachen-milliardenkosten-einsparpotenziale-durch-mehr-patientensicherheit-nutzen.html) berichtete am 20. August 2026 über die Begutachtung von **11.735 Behandlungsfehlervorwürfen im Jahr 2025**. Es wurden **2.700 Fälle mit ursächlichem Fehlerschaden** bestätigt; in **97 Fällen** führte der Fehler zum Tod oder trug wesentlich dazu bei. Die öffentlichen [Jahresberichte 2022–2025](https://md-bund.de/richtlinien-publikationen/behandlungsfehler.html) erlauben eine separate historisch-methodische Vergleichsarbeit.
+
+**Entscheidende Nichtentsprechung:** Die 97 ärztlich begutachteten fehlerbezogenen Todesfälle sind **nicht** als 97 Todesfälle infolge von Therapieplatz-, Pflegeplatz- oder Intensivbettenmangel belegt. Um eine solche Teilmenge zu identifizieren, wären fallbezogene, rechtmäßig zugängliche, nachweisbare Kategorien zum Kapazitätsengpass, zur Kausalität, zum Behandlungspfad und zur Versorgungssituation nötig. Der Atlas darf weder Todesfälle aus allgemeinen Mortalitätszahlen noch Behandlungsfehler pauschal als Unterversorgungsschäden etikettieren.
+
+**Erster konkreter Forschungsauftrag:** Die publizierte MD-Statistik nach Pflege, Notaufnahme, stationärer Versorgung und organisatorischen Ursachen auswerten. Für die Unterversorgungskarte wird eine getrennte Kategorie `error_causality_confirmed_capacity_causality_not_tested` geführt.
+
 ## 5. Wie prüfen wir „Hochsaison trotz Ansage“?
 
 **Retrospektiver Prüfpfad `CAP-SEASON-01`:**
