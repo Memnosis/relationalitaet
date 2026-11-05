@@ -370,6 +370,13 @@
       "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/ANSCHLUSSPROGRAMM_VIRTUELLE_BUERGER_KI_01_2026-11-05.md",
       "group": "Methoden",
       "status": "specification_not_operational"
+    },
+    {
+      "id": "BKI-LIB-053",
+      "title": "Evidente Evidenz · Rechenschaft 100 – Regierungsentscheidungen und Messbarkeit",
+      "href": "./buerger-ki-rechenschaft-100.html",
+      "group": "Methoden",
+      "status": "18_item_identification_pilot_not_100_reviewed"
     }
   ]
 }
