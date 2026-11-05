@@ -1,0 +1,651 @@
+{
+  "schema_version": "luhmann-tensor-candidate/0.1",
+  "tensor_id": "KAND-LUHMANN-01",
+  "version": "0.1.0",
+  "created": "2026-11-05",
+  "status": "candidate_not_a_verified_27_field_theory",
+  "title": "Luhmann: Kommunikation und Sinndimensionen mit expliziter Prüfoperation",
+  "not_historical_tensor": true,
+  "not_valid_tensorschema_1_0": "Candidate register is deliberately not a PUB/FACH historical source file.",
+  "basis": {
+    "original_trinities": [
+      {
+        "id": "LU-01",
+        "name": "Kommunikation",
+        "roles": [
+          "Information",
+          "Mitteilung",
+          "Verstehen"
+        ],
+        "theory_status": "Luhmann-derived"
+      },
+      {
+        "id": "LU-02",
+        "name": "Sinndimensionen",
+        "roles": [
+          "Sachdimension",
+          "Zeitdimension",
+          "Sozialdimension"
+        ],
+        "theory_status": "Luhmann-derived"
+      }
+    ],
+    "analytic_third_axis": {
+      "id": "PRJ",
+      "name": "Prüfoperationen",
+      "roles": [
+        "Unterscheiden",
+        "Zurechnen",
+        "Anschluss prüfen"
+      ],
+      "theory_status": "new operational research design; not a Luhmann original trinity"
+    },
+    "indexes": {
+      "M": [
+        "Information",
+        "Mitteilung",
+        "Verstehen"
+      ],
+      "K": [
+        "Sachdimension",
+        "Zeitdimension",
+        "Sozialdimension"
+      ],
+      "S": [
+        "Unterscheiden",
+        "Zurechnen",
+        "Anschluss prüfen"
+      ]
+    },
+    "position_count": 27,
+    "semantic_guards": [
+      "A field is a research question, not a demonstrated domain relation.",
+      "Do not infer time sequence from LU-01.",
+      "Do not equate understanding and acceptance.",
+      "Do not use CYC index-class condition as proof of a closed communication loop.",
+      "Do not permute heterogeneous axis roles without semantic transport maps."
+    ]
+  },
+  "modules": [
+    {
+      "id": "LU-03",
+      "name": "Evolution",
+      "roles": [
+        "Variation",
+        "Selektion",
+        "Restabilisierung"
+      ],
+      "kind": "dynamics_module",
+      "integration": "state_transition_analyses_not_a_third_core_axis"
+    },
+    {
+      "id": "LU-04",
+      "name": "Soziale Systemtypen",
+      "roles": [
+        "Interaktion",
+        "Organisation",
+        "Gesellschaft"
+      ],
+      "kind": "system_context_module",
+      "integration": "typed_context_no_claim_of_linear_stages"
+    },
+    {
+      "id": "LU-05",
+      "name": "Kommunikationsmedien",
+      "roles": [
+        "Sprache",
+        "Verbreitungsmedien",
+        "symbolisch generalisierte Kommunikationsmedien"
+      ],
+      "kind": "media_module",
+      "integration": "communicative_conditions_and_improbabilities"
+    }
+  ],
+  "cross_theory_modules": [
+    {
+      "id": "PEIRCE",
+      "role": "separate semiotic source model",
+      "status": "crosswalk_only"
+    },
+    {
+      "id": "MARR",
+      "role": "separate computational explanatory levels",
+      "status": "crosswalk_only"
+    },
+    {
+      "id": "JENKINS",
+      "role": "separate media and participation concept complex",
+      "status": "crosswalk_only"
+    }
+  ],
+  "transfer_key": {
+    "domain": "27 semantically tagged research positions",
+    "geometric_embedding": "bijection address → (0..2)^3; labels and provenance must be carried as metadata",
+    "geometry_validation": "coordinates are injective; translations and inverses are valid only with transported labels",
+    "limitations": [
+      "No topology follows from cube or torus rendering.",
+      "No mathematical isomorphism between Luhmann and Peirce/Marr/Jenkins established.",
+      "Geometric cyclic permutation requires matching semantically typed source and target roles; simple index rotation is invalid as an unrestricted Luhmann operator."
+    ]
+  },
+  "source_refs": [
+    {
+      "id": "S-LU-01",
+      "url": "https://www.ssoar.info/ssoar/bitstream/handle/document/81358/ssoar-2021-baraldi_et_al-Unlocking_Luhmann_A_Keyword_Introduction.pdf?isAllowed=y&sequence=1",
+      "scope": "Communication / Meaning"
+    },
+    {
+      "id": "S-LU-02",
+      "url": "https://www.frontiersin.org/journals/sociology/articles/10.3389/fsoc.2026.1872106/full",
+      "scope": "sense dimensions"
+    },
+    {
+      "id": "S-LU-03",
+      "url": "https://journals.sagepub.com/doi/pdf/10.1111/0735-2751.00102",
+      "scope": "evolution and society"
+    },
+    {
+      "id": "S-LU-04",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8868150/",
+      "scope": "social system types"
+    },
+    {
+      "id": "S-LU-05",
+      "url": "https://pure.au.dk/ws/files/22709635/Luhmann_and_the_media.pdf",
+      "scope": "Luhmann media distinctions"
+    }
+  ],
+  "original_work_refs": [
+    "forschung/tensor/algebra-claude/typalgebra.py",
+    "forschung/tensor/algebra-claude/ALGEBRA_LAUF_V0_1.json",
+    "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md"
+  ],
+  "cells": [
+    {
+      "address": "NM-I-α",
+      "selection_id": "LU01-0",
+      "selection": "Information",
+      "sense_id": "LU02-0",
+      "sense_dimension": "Sachdimension",
+      "test_operation_id": "PROJ-0",
+      "test_operation": "Unterscheiden",
+      "question": "Welche Information wird als Unterschied ausgewählt? Was ist der thematische Gegenstand? Welche relevanten Möglichkeiten und Unterschiede werden markiert?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    },
+    {
+      "address": "NM-I-β",
+      "selection_id": "LU01-0",
+      "selection": "Information",
+      "sense_id": "LU02-0",
+      "sense_dimension": "Sachdimension",
+      "test_operation_id": "PROJ-1",
+      "test_operation": "Zurechnen",
+      "question": "Welche Information wird als Unterschied ausgewählt? Was ist der thematische Gegenstand? Welcher kommunikativen Operation oder Beobachterperspektive wird die Selektion zugerechnet?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    },
+    {
+      "address": "NM-I-γ",
+      "selection_id": "LU01-0",
+      "selection": "Information",
+      "sense_id": "LU02-0",
+      "sense_dimension": "Sachdimension",
+      "test_operation_id": "PROJ-2",
+      "test_operation": "Anschluss prüfen",
+      "question": "Welche Information wird als Unterschied ausgewählt? Was ist der thematische Gegenstand? Welche weitere Kommunikation nimmt diese Unterscheidung auf, verwirft oder verändert sie?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    },
+    {
+      "address": "NM-II-α",
+      "selection_id": "LU01-0",
+      "selection": "Information",
+      "sense_id": "LU02-1",
+      "sense_dimension": "Zeitdimension",
+      "test_operation_id": "PROJ-0",
+      "test_operation": "Unterscheiden",
+      "question": "Welche Information wird als Unterschied ausgewählt? Welcher Gegenwarts-, Vergangenheits- oder Zukunftsbezug wird gemacht? Welche relevanten Möglichkeiten und Unterschiede werden markiert?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    },
+    {
+      "address": "NM-II-β",
+      "selection_id": "LU01-0",
+      "selection": "Information",
+      "sense_id": "LU02-1",
+      "sense_dimension": "Zeitdimension",
+      "test_operation_id": "PROJ-1",
+      "test_operation": "Zurechnen",
+      "question": "Welche Information wird als Unterschied ausgewählt? Welcher Gegenwarts-, Vergangenheits- oder Zukunftsbezug wird gemacht? Welcher kommunikativen Operation oder Beobachterperspektive wird die Selektion zugerechnet?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    },
+    {
+      "address": "NM-II-γ",
+      "selection_id": "LU01-0",
+      "selection": "Information",
+      "sense_id": "LU02-1",
+      "sense_dimension": "Zeitdimension",
+      "test_operation_id": "PROJ-2",
+      "test_operation": "Anschluss prüfen",
+      "question": "Welche Information wird als Unterschied ausgewählt? Welcher Gegenwarts-, Vergangenheits- oder Zukunftsbezug wird gemacht? Welche weitere Kommunikation nimmt diese Unterscheidung auf, verwirft oder verändert sie?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    },
+    {
+      "address": "NM-III-α",
+      "selection_id": "LU01-0",
+      "selection": "Information",
+      "sense_id": "LU02-2",
+      "sense_dimension": "Sozialdimension",
+      "test_operation_id": "PROJ-0",
+      "test_operation": "Unterscheiden",
+      "question": "Welche Information wird als Unterschied ausgewählt? Welche Perspektiven und Erwartungen anderer sind beteiligt? Welche relevanten Möglichkeiten und Unterschiede werden markiert?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    },
+    {
+      "address": "NM-III-β",
+      "selection_id": "LU01-0",
+      "selection": "Information",
+      "sense_id": "LU02-2",
+      "sense_dimension": "Sozialdimension",
+      "test_operation_id": "PROJ-1",
+      "test_operation": "Zurechnen",
+      "question": "Welche Information wird als Unterschied ausgewählt? Welche Perspektiven und Erwartungen anderer sind beteiligt? Welcher kommunikativen Operation oder Beobachterperspektive wird die Selektion zugerechnet?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    },
+    {
+      "address": "NM-III-γ",
+      "selection_id": "LU01-0",
+      "selection": "Information",
+      "sense_id": "LU02-2",
+      "sense_dimension": "Sozialdimension",
+      "test_operation_id": "PROJ-2",
+      "test_operation": "Anschluss prüfen",
+      "question": "Welche Information wird als Unterschied ausgewählt? Welche Perspektiven und Erwartungen anderer sind beteiligt? Welche weitere Kommunikation nimmt diese Unterscheidung auf, verwirft oder verändert sie?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    },
+    {
+      "address": "ZM-I-α",
+      "selection_id": "LU01-1",
+      "selection": "Mitteilung",
+      "sense_id": "LU02-0",
+      "sense_dimension": "Sachdimension",
+      "test_operation_id": "PROJ-0",
+      "test_operation": "Unterscheiden",
+      "question": "Wie wird kenntlich, dass und wie etwas mitgeteilt wird? Was ist der thematische Gegenstand? Welche relevanten Möglichkeiten und Unterschiede werden markiert?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    },
+    {
+      "address": "ZM-I-β",
+      "selection_id": "LU01-1",
+      "selection": "Mitteilung",
+      "sense_id": "LU02-0",
+      "sense_dimension": "Sachdimension",
+      "test_operation_id": "PROJ-1",
+      "test_operation": "Zurechnen",
+      "question": "Wie wird kenntlich, dass und wie etwas mitgeteilt wird? Was ist der thematische Gegenstand? Welcher kommunikativen Operation oder Beobachterperspektive wird die Selektion zugerechnet?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    },
+    {
+      "address": "ZM-I-γ",
+      "selection_id": "LU01-1",
+      "selection": "Mitteilung",
+      "sense_id": "LU02-0",
+      "sense_dimension": "Sachdimension",
+      "test_operation_id": "PROJ-2",
+      "test_operation": "Anschluss prüfen",
+      "question": "Wie wird kenntlich, dass und wie etwas mitgeteilt wird? Was ist der thematische Gegenstand? Welche weitere Kommunikation nimmt diese Unterscheidung auf, verwirft oder verändert sie?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    },
+    {
+      "address": "ZM-II-α",
+      "selection_id": "LU01-1",
+      "selection": "Mitteilung",
+      "sense_id": "LU02-1",
+      "sense_dimension": "Zeitdimension",
+      "test_operation_id": "PROJ-0",
+      "test_operation": "Unterscheiden",
+      "question": "Wie wird kenntlich, dass und wie etwas mitgeteilt wird? Welcher Gegenwarts-, Vergangenheits- oder Zukunftsbezug wird gemacht? Welche relevanten Möglichkeiten und Unterschiede werden markiert?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    },
+    {
+      "address": "ZM-II-β",
+      "selection_id": "LU01-1",
+      "selection": "Mitteilung",
+      "sense_id": "LU02-1",
+      "sense_dimension": "Zeitdimension",
+      "test_operation_id": "PROJ-1",
+      "test_operation": "Zurechnen",
+      "question": "Wie wird kenntlich, dass und wie etwas mitgeteilt wird? Welcher Gegenwarts-, Vergangenheits- oder Zukunftsbezug wird gemacht? Welcher kommunikativen Operation oder Beobachterperspektive wird die Selektion zugerechnet?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    },
+    {
+      "address": "ZM-II-γ",
+      "selection_id": "LU01-1",
+      "selection": "Mitteilung",
+      "sense_id": "LU02-1",
+      "sense_dimension": "Zeitdimension",
+      "test_operation_id": "PROJ-2",
+      "test_operation": "Anschluss prüfen",
+      "question": "Wie wird kenntlich, dass und wie etwas mitgeteilt wird? Welcher Gegenwarts-, Vergangenheits- oder Zukunftsbezug wird gemacht? Welche weitere Kommunikation nimmt diese Unterscheidung auf, verwirft oder verändert sie?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    },
+    {
+      "address": "ZM-III-α",
+      "selection_id": "LU01-1",
+      "selection": "Mitteilung",
+      "sense_id": "LU02-2",
+      "sense_dimension": "Sozialdimension",
+      "test_operation_id": "PROJ-0",
+      "test_operation": "Unterscheiden",
+      "question": "Wie wird kenntlich, dass und wie etwas mitgeteilt wird? Welche Perspektiven und Erwartungen anderer sind beteiligt? Welche relevanten Möglichkeiten und Unterschiede werden markiert?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    },
+    {
+      "address": "ZM-III-β",
+      "selection_id": "LU01-1",
+      "selection": "Mitteilung",
+      "sense_id": "LU02-2",
+      "sense_dimension": "Sozialdimension",
+      "test_operation_id": "PROJ-1",
+      "test_operation": "Zurechnen",
+      "question": "Wie wird kenntlich, dass und wie etwas mitgeteilt wird? Welche Perspektiven und Erwartungen anderer sind beteiligt? Welcher kommunikativen Operation oder Beobachterperspektive wird die Selektion zugerechnet?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    },
+    {
+      "address": "ZM-III-γ",
+      "selection_id": "LU01-1",
+      "selection": "Mitteilung",
+      "sense_id": "LU02-2",
+      "sense_dimension": "Sozialdimension",
+      "test_operation_id": "PROJ-2",
+      "test_operation": "Anschluss prüfen",
+      "question": "Wie wird kenntlich, dass und wie etwas mitgeteilt wird? Welche Perspektiven und Erwartungen anderer sind beteiligt? Welche weitere Kommunikation nimmt diese Unterscheidung auf, verwirft oder verändert sie?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    },
+    {
+      "address": "UM-I-α",
+      "selection_id": "LU01-2",
+      "selection": "Verstehen",
+      "sense_id": "LU02-0",
+      "sense_dimension": "Sachdimension",
+      "test_operation_id": "PROJ-0",
+      "test_operation": "Unterscheiden",
+      "question": "Wird die Unterscheidung von Information und Mitteilung verstanden? Was ist der thematische Gegenstand? Welche relevanten Möglichkeiten und Unterschiede werden markiert?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    },
+    {
+      "address": "UM-I-β",
+      "selection_id": "LU01-2",
+      "selection": "Verstehen",
+      "sense_id": "LU02-0",
+      "sense_dimension": "Sachdimension",
+      "test_operation_id": "PROJ-1",
+      "test_operation": "Zurechnen",
+      "question": "Wird die Unterscheidung von Information und Mitteilung verstanden? Was ist der thematische Gegenstand? Welcher kommunikativen Operation oder Beobachterperspektive wird die Selektion zugerechnet?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    },
+    {
+      "address": "UM-I-γ",
+      "selection_id": "LU01-2",
+      "selection": "Verstehen",
+      "sense_id": "LU02-0",
+      "sense_dimension": "Sachdimension",
+      "test_operation_id": "PROJ-2",
+      "test_operation": "Anschluss prüfen",
+      "question": "Wird die Unterscheidung von Information und Mitteilung verstanden? Was ist der thematische Gegenstand? Welche weitere Kommunikation nimmt diese Unterscheidung auf, verwirft oder verändert sie?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    },
+    {
+      "address": "UM-II-α",
+      "selection_id": "LU01-2",
+      "selection": "Verstehen",
+      "sense_id": "LU02-1",
+      "sense_dimension": "Zeitdimension",
+      "test_operation_id": "PROJ-0",
+      "test_operation": "Unterscheiden",
+      "question": "Wird die Unterscheidung von Information und Mitteilung verstanden? Welcher Gegenwarts-, Vergangenheits- oder Zukunftsbezug wird gemacht? Welche relevanten Möglichkeiten und Unterschiede werden markiert?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    },
+    {
+      "address": "UM-II-β",
+      "selection_id": "LU01-2",
+      "selection": "Verstehen",
+      "sense_id": "LU02-1",
+      "sense_dimension": "Zeitdimension",
+      "test_operation_id": "PROJ-1",
+      "test_operation": "Zurechnen",
+      "question": "Wird die Unterscheidung von Information und Mitteilung verstanden? Welcher Gegenwarts-, Vergangenheits- oder Zukunftsbezug wird gemacht? Welcher kommunikativen Operation oder Beobachterperspektive wird die Selektion zugerechnet?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    },
+    {
+      "address": "UM-II-γ",
+      "selection_id": "LU01-2",
+      "selection": "Verstehen",
+      "sense_id": "LU02-1",
+      "sense_dimension": "Zeitdimension",
+      "test_operation_id": "PROJ-2",
+      "test_operation": "Anschluss prüfen",
+      "question": "Wird die Unterscheidung von Information und Mitteilung verstanden? Welcher Gegenwarts-, Vergangenheits- oder Zukunftsbezug wird gemacht? Welche weitere Kommunikation nimmt diese Unterscheidung auf, verwirft oder verändert sie?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    },
+    {
+      "address": "UM-III-α",
+      "selection_id": "LU01-2",
+      "selection": "Verstehen",
+      "sense_id": "LU02-2",
+      "sense_dimension": "Sozialdimension",
+      "test_operation_id": "PROJ-0",
+      "test_operation": "Unterscheiden",
+      "question": "Wird die Unterscheidung von Information und Mitteilung verstanden? Welche Perspektiven und Erwartungen anderer sind beteiligt? Welche relevanten Möglichkeiten und Unterschiede werden markiert?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    },
+    {
+      "address": "UM-III-β",
+      "selection_id": "LU01-2",
+      "selection": "Verstehen",
+      "sense_id": "LU02-2",
+      "sense_dimension": "Sozialdimension",
+      "test_operation_id": "PROJ-1",
+      "test_operation": "Zurechnen",
+      "question": "Wird die Unterscheidung von Information und Mitteilung verstanden? Welche Perspektiven und Erwartungen anderer sind beteiligt? Welcher kommunikativen Operation oder Beobachterperspektive wird die Selektion zugerechnet?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    },
+    {
+      "address": "UM-III-γ",
+      "selection_id": "LU01-2",
+      "selection": "Verstehen",
+      "sense_id": "LU02-2",
+      "sense_dimension": "Sozialdimension",
+      "test_operation_id": "PROJ-2",
+      "test_operation": "Anschluss prüfen",
+      "question": "Wird die Unterscheidung von Information und Mitteilung verstanden? Welche Perspektiven und Erwartungen anderer sind beteiligt? Welche weitere Kommunikation nimmt diese Unterscheidung auf, verwirft oder verändert sie?",
+      "claim_status": "unverified_research_question",
+      "source_scope": [
+        "LU-01",
+        "LU-02"
+      ],
+      "operator_origin": "project_analytic_not_luhmann",
+      "evidence_ids": [],
+      "tests": []
+    }
+  ]
+}
