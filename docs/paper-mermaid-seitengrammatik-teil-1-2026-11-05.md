@@ -1,3 +1,13 @@
+<!-- BKI-MINIMAL-PAPER-V1 -->
+![Bürger-KI Logo](./assets/media/buerger-ki-zeichen.svg)
+
+**Forschungsedition · Stand 5. November 2026**  
+**Kurzbeschreibung:** Mermaid-Seitengrammatik I · Bürger-KI und Kernseiten – methodischer Bestand und Prüfstatus.  
+**Schlagwörter:** Bürger-KI · Quellen · Evidenz · Tests · Mermaid-Seitengrammatik I  
+**Kontakt:** Kontakt@erlebNils.de
+
+---
+
 # Mermaid-Seitengrammatik I · Bürger-KI und Kernseiten
 **Stand 2026-11-05 · zwei redaktionelle Strukturentwürfe pro Seite, aus realen Überschriften abgeleitet; keine geprüften Geschäftsprozesse.**
 
@@ -389,3 +399,8 @@ Q --> E["Evidenz und Grenzen"]
 E --> V["Vergleich und Gegenblick"]
 V --> R["Ergebnis oder Prüfauftrag"]
 ```
+
+
+---
+
+*Bürger-KI · Rechte verstehen. Probleme lösen. Gesellschaft verbessern.* · [Bürger-KI](./buerger-ki.html) · [Publikationen](./publikationen.html) · Kontakt@erlebNils.de · 05.11.2026
