@@ -269,6 +269,13 @@
       "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/WISSENS_NUCLEI_DEEP_DIVE_REGISTER_V0_1_2026-11-05.json",
       "group": "Methoden",
       "status": "machine_readable_research_plan"
+    },
+    {
+      "id": "BKI-LIB-039",
+      "title": "Virtuelle, reale und souveräne Bürger-KI: KI-Anwendungen heute und zukünftige Potenziale",
+      "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/PAPER_VIRTUELLE_REALE_SOUVERAENE_BUERGER_KI_KI_ANWENDUNGEN_V0_1_2026-11-05.md",
+      "group": "Methoden",
+      "status": "research_framework_not_own_AI"
     }
   ]
 }
