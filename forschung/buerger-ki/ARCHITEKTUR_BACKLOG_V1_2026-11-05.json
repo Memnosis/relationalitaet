@@ -122,7 +122,8 @@
         "forschung/buerger-ki/bki_translate.py",
         "forschung/buerger-ki/piloten/therapieplatz/translation-gold-v0-1.json",
         "forschung/buerger-ki/tests/test_bki_translate.py"
-      ]
+      ],
+      "prework": "semantic path inventory and bidirectional translation review before skill implementation"
     },
     {
       "id": "BKI-AP-06",
@@ -133,13 +134,14 @@
         "BKI-AP-05"
       ],
       "gate": "G5",
-      "status": "planned",
+      "status": "planned_blocked_by_language_review",
       "planned_files": [
         "docs/assets/bki-topic-card.js",
         "docs/assets/bki-topic-card.css",
         "docs/data/bki-topic-navigation-v0-1.json",
         "forschung/buerger-ki/tests/test_topic_navigation.py"
-      ]
+      ],
+      "requires_language_gate": true
     },
     {
       "id": "BKI-AP-07",
@@ -151,13 +153,14 @@
         "BKI-AP-06"
       ],
       "gate": "G5",
-      "status": "planned",
+      "status": "planned_blocked_by_language_review",
       "planned_files": [
         "docs/assets/bki-local-graph.js",
         "docs/assets/bki-local-graph.css",
         "docs/data/bki-graph-projection-v0-1.json",
         "forschung/buerger-ki/tests/test_graph_projection.py"
-      ]
+      ],
+      "requires_language_gate": true
     },
     {
       "id": "BKI-AP-08",
@@ -168,12 +171,13 @@
         "BKI-AP-06"
       ],
       "gate": "G6",
-      "status": "planned",
+      "status": "planned_blocked_by_language_review",
       "planned_files": [
         "forschung/buerger-ki/piloten/<slug>/vertical-case-v0-1.json",
         "forschung/buerger-ki/piloten/<slug>/source-matrix-v0-1.json",
         "forschung/buerger-ki/piloten/<slug>/negative-cases-v0-1.json"
-      ]
+      ],
+      "requires_language_gate": true
     },
     {
       "id": "BKI-AP-09",
@@ -229,5 +233,24 @@
     "owner registers remain unchanged unless separately reviewed",
     "No personal citizen case data is collected",
     "a completed implementation requires tests and reviewed evidence"
-  ]
+  ],
+  "sequence_override": {
+    "decision_date": "2026-11-05",
+    "policy": "Finish language, translation, meaningful path elements and expandable content audit before user stories and broad UI rollout",
+    "first_phase": "BKI-LANG-FIRST",
+    "reference": "SPRACHPROJEKT_PFADGRAMMATIK_UEBERSETZBARKEIT_WISSENSRAEUME_V1_2026-11-05.md",
+    "inventory": "SPRACHPFADE_ELEMENTINVENTAR_V0_1.json",
+    "user_stories_status": "deferred_until_language_gate",
+    "execution_order": [
+      "LANG-01 inventory existing paths",
+      "LANG-02 complete element texts and exit semantics",
+      "LANG-03 translation and mirrored perspective review",
+      "LANG-04 deep-dive source/content review",
+      "LANG-05 2-3 curated contextual links",
+      "LANG-06 expandable worlds UI and accessibility",
+      "LANG-07 language and fach acceptance",
+      "BKI-AP-01 baseline and BKI-AP-02 crosswalk integration",
+      "BKI-AP-03 through BKI-AP-09 gated rollout"
+    ]
+  }
 }
