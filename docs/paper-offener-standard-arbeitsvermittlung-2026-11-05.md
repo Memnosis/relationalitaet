@@ -1,3 +1,15 @@
+<!-- BKI-MINIMAL-PAPER-V1 -->
+![Bürger-KI – Forschung und Verbindung](./assets/media/buerger-ki-zeichen.svg)
+
+**Forschungsedition · Offene Standards für Arbeitsvermittlung und Potenzialagenturen**
+
+**Kurzbeschreibung:** Quellengebundene Forschungs- und Entwicklungspublikation mit eigenständigem Prüfstatus und offenen Fragen.  
+**Schlagwörter:** Bürger-KI · Quellen · Evidenz · Crosswalk · Offene Standards für Arbeitsvermittlung und Potenzialagenturen  
+**Stand:** 5. November 2026  
+**Kontakt:** Kontakt@erlebNils.de
+
+---
+
 # Offene Standards für Arbeitsvermittlung und Potenzialagenturen
 **Forschungspaper v0.1 · 05.11.2026 · eigenständig, nicht Teil der Corona-Forschung**
 
@@ -44,3 +56,9 @@ Roundtrip zwischen ESCO ↔ KldB mit Bedeutungsverlust; Dublettenerkennung; Vers
 ## Projekt-Crosswalk
 [Bürger-KI Skills](./buerger-ki-skillzentrum.html) → [Potenziale](./paper-potenziale-arbeitslosigkeit-unbezahlte-arbeit-innovation-2026-11-05.md) → [Kaffeekränzchen-Fragen](./buerger-ki-kaffeekraenzchen-fragen.html) → [Evidenz/Benchmark](./paper-benchmarks-evidenz-zeitkontext-crosswalk-2026-11-05.md).
 **Status:** Standardsinventar und Modellvorschlag; keine staatliche Zertifizierung, keine vollständige API-Implementierung und keine echten Bewerbungsdaten.
+
+
+---
+
+*Bürger-KI · Rechte verstehen. Probleme lösen. Gesellschaft verbessern.*  
+[Zur Bürger-KI](./buerger-ki.html) · [Forschungsbibliothek](./bibliothek.html) · Kontakt@erlebNils.de · 05.11.2026
