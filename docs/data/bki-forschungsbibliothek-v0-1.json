@@ -283,6 +283,27 @@
       "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/BERICHT_DOPPELUNG_SPRACHE_SCHLANKE_UEBERSETZUNG_V0_1_2026-11-05.md",
       "group": "Methoden",
       "status": "pre_phase_language_review"
+    },
+    {
+      "id": "BKI-LIB-041",
+      "title": "Sprachphase 1: Bedeutungsübergänge, Gegenbeispiele und Forschungsgrenzen",
+      "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/PHASE_1_BERICHT_BEDEUTUNGSUEBERGAENGE_L0_L1_L2_V0_1_2026-11-05.md",
+      "group": "Methoden",
+      "status": "initial_semantic_review_sources_pending"
+    },
+    {
+      "id": "BKI-LIB-042",
+      "title": "Sprachphase 2: Wissensräume und passgenaue Quellenkuratur",
+      "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/PHASE_2_WISSENSRAEUME_QUELLENKURATUR_BERICHT_V0_1_2026-11-05.md",
+      "group": "Methoden",
+      "status": "first_pilot_source_review_not_publicly_approved"
+    },
+    {
+      "id": "BKI-LIB-043",
+      "title": "Sprachphase 2: Acht Wissensräume als strukturierte Quellenmatrix",
+      "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/PHASE_2_WISSENSRAEUME_QUELLENMATRIX_V0_1.json",
+      "group": "Methoden",
+      "status": "machine_readable_research_draft"
     }
   ]
 }
