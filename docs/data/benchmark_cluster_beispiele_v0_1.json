@@ -1,0 +1,191 @@
+{
+  "schema": "soulution-benchmark/0.1",
+  "as_of": "2026-11-05",
+  "nature": "illustrative source-anchored observations; not harmonized",
+  "observations": [
+    {
+      "id": "BEN-COR-01",
+      "indicator": "Schulausgaben",
+      "value": 97400000000,
+      "unit": "EUR / Jahr",
+      "geo": "Deutschland",
+      "period": "2024",
+      "qualifier": "amtlich beobachtet",
+      "source_label": "Destatis Bildungsfinanzbericht 2025",
+      "source_url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/12/PD25_445_21711.html",
+      "revision": "0.1",
+      "comparison_status": "not_auto_comparable",
+      "evidence_rating": "not_fully_assessed",
+      "provenance": {
+        "type": "source_mapping",
+        "retrieved": "2026-11-05"
+      },
+      "missing": [
+        "population/denominator where applicable",
+        "method and uncertainty audit",
+        "transformation safety gate"
+      ]
+    },
+    {
+      "id": "BEN-COR-02",
+      "indicator": "Schulkosten je Schüler",
+      "value": 9800,
+      "unit": "EUR / Schülerjahr",
+      "geo": "Deutschland",
+      "period": "2023",
+      "qualifier": "amtlich beobachtet",
+      "source_label": "Destatis 24.03.2025",
+      "source_url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/03/PD25_111_217.html",
+      "revision": "0.1",
+      "comparison_status": "not_auto_comparable",
+      "evidence_rating": "not_fully_assessed",
+      "provenance": {
+        "type": "source_mapping",
+        "retrieved": "2026-11-05"
+      },
+      "missing": [
+        "population/denominator where applicable",
+        "method and uncertainty audit",
+        "transformation safety gate"
+      ]
+    },
+    {
+      "id": "BEN-COR-03",
+      "indicator": "Pflegebonus bereitgestellter Betrag",
+      "value": 1000000000,
+      "unit": "EUR",
+      "geo": "Deutschland",
+      "period": "2022",
+      "qualifier": "bewilligt / vorgesehen, nicht Nettoeffekt",
+      "source_label": "Bundestag Gesetzesmaterial",
+      "source_url": "https://www.bundestag.de/presse/hib/kurzmeldungen-889246",
+      "revision": "0.1",
+      "comparison_status": "not_auto_comparable",
+      "evidence_rating": "not_fully_assessed",
+      "provenance": {
+        "type": "source_mapping",
+        "retrieved": "2026-11-05"
+      },
+      "missing": [
+        "population/denominator where applicable",
+        "method and uncertainty audit",
+        "transformation safety gate"
+      ]
+    },
+    {
+      "id": "BEN-COR-04",
+      "indicator": "Krankenhaus-Ausgleichszahlungen und Zuschläge",
+      "value": 21000000000,
+      "unit": "EUR",
+      "geo": "Deutschland",
+      "period": "2020-03/2022-06",
+      "qualifier": "gerundete Regierungsauskunft",
+      "source_label": "Bundestag Antwort 2023",
+      "source_url": "https://www.bundestag.de/presse/hib/kurzmeldungen-942542",
+      "revision": "0.1",
+      "comparison_status": "not_auto_comparable",
+      "evidence_rating": "not_fully_assessed",
+      "provenance": {
+        "type": "source_mapping",
+        "retrieved": "2026-11-05"
+      },
+      "missing": [
+        "population/denominator where applicable",
+        "method and uncertainty audit",
+        "transformation safety gate"
+      ]
+    },
+    {
+      "id": "BEN-COR-05",
+      "indicator": "Versorgungsaufschlag ohne valide Belastungskalkulation",
+      "value": 3100000000,
+      "unit": "EUR",
+      "geo": "Deutschland",
+      "period": "2021-11/2022-06",
+      "qualifier": "Rechnungshofs-Prüfbefund, kein nachgewiesener Schaden",
+      "source_label": "Bundesrechnungshof 23.05.2025",
+      "source_url": "https://bundesrechnungshof.de/berichte/corona-versorgungsaufschlag-in-konkurrenz-mit-weiteren-unterstuetzungsleistungen-fuer-krankenhaeuser",
+      "revision": "0.1",
+      "comparison_status": "not_auto_comparable",
+      "evidence_rating": "not_fully_assessed",
+      "provenance": {
+        "type": "source_mapping",
+        "retrieved": "2026-11-05"
+      },
+      "missing": [
+        "population/denominator where applicable",
+        "method and uncertainty audit",
+        "transformation safety gate"
+      ]
+    },
+    {
+      "id": "BEN-COR-06",
+      "indicator": "Grundschule Bayern Maskenattest Gerichtsfall",
+      "value": null,
+      "unit": "Verfahrensentscheidung",
+      "geo": "Bayern",
+      "period": "2021-04",
+      "qualifier": "juristische Fallquelle, kein Populationswert",
+      "source_label": "BayVGH 20 CE 21.1141",
+      "source_url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2021-N-9460",
+      "revision": "0.1",
+      "comparison_status": "not_auto_comparable",
+      "evidence_rating": "not_fully_assessed",
+      "provenance": {
+        "type": "source_mapping",
+        "retrieved": "2026-11-05"
+      },
+      "missing": [
+        "population/denominator where applicable",
+        "method and uncertainty audit",
+        "transformation safety gate"
+      ]
+    },
+    {
+      "id": "BEN-BKI-01",
+      "indicator": "Öffentliches Mitmachen-Ergebnisformat",
+      "value": null,
+      "unit": "Schema",
+      "geo": "Projekt",
+      "period": "2026-11-05",
+      "qualifier": "Projektvertrag, keine empirische Messung",
+      "source_label": "Mitmachen Schema",
+      "source_url": "https://github.com/Memnosis/relationalitaet/blob/main/docs/data/mitmachen-ergebnis-schema-v1.json",
+      "revision": "0.1",
+      "comparison_status": "not_auto_comparable",
+      "evidence_rating": "not_fully_assessed",
+      "provenance": {
+        "type": "source_mapping",
+        "retrieved": "2026-11-05"
+      },
+      "missing": [
+        "population/denominator where applicable",
+        "method and uncertainty audit",
+        "transformation safety gate"
+      ]
+    },
+    {
+      "id": "BEN-COR-07",
+      "indicator": "Rezeption ARD-Zusammenhalten",
+      "value": 69,
+      "unit": "Prozent Befragte",
+      "geo": "Deutschland",
+      "period": "2020-05/06",
+      "qualifier": "Auftraggeberbefragung, selbstberichteter Zusammenhalt",
+      "source_label": "ARD #zusammenhalten",
+      "source_url": "https://www.ard.de/die-ard/presse-kontakt/ard-pressemeldungen/2020/07-20-ard-corona-spots-100.html",
+      "revision": "0.1",
+      "comparison_status": "not_auto_comparable",
+      "evidence_rating": "not_fully_assessed",
+      "provenance": {
+        "type": "source_mapping",
+        "retrieved": "2026-11-05"
+      },
+      "missing": [
+        "population/denominator where applicable",
+        "method and uncertainty audit",
+        "transformation safety gate"
+      ]
+    }
+  ]
+}
