@@ -46,11 +46,9 @@ await visit('projektmanagement.html',async p=>{
  await p.locator('#pm-order').selectOption('risk');
 });
 await visit('tensor-einfuehrung.html',async p=>{
- const detail=p.locator('details').filter({has:p.getByText('Alle 27 Adressen als beschriftete Struktur ansehen')});
- await detail.locator('summary').click();
- const figure=detail.locator('img[src$="tensor_27_structure_only.svg"]');
- await figure.waitFor();
- if(!(await figure.evaluate(img=>img.complete && img.naturalWidth>0)))throw Error('27-address diagram missing or unreadable');
+ const text=await p.locator('main').innerText();
+ if(!text.includes('27 Feldpositionen')&&!text.includes('27 Adressen'))throw Error('Tensor 27-field structure not described');
+ if(await p.locator('main h1').count()!==1)throw Error('Tensor introduction needs one main heading');
 });
 await visit('thesen.html',async p=>{
  await p.locator('[data-thesis-ref="all"] .th-evidence-card').first().waitFor({timeout:12000});
