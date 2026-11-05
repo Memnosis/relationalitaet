@@ -2,7 +2,7 @@
   "schema": "bki-phase1-semantic-hinges/0.1",
   "phase_id": "SW-PH-1",
   "date": "2026-11-05",
-  "status": "substantive_initial_draft_not_fach_validated",
+  "status": "pre_phase_material_not_validated",
   "total_hinges": 14,
   "hinges": [
     {
@@ -303,6 +303,11 @@
     "structure": "not_run",
     "reverse_semantics": "planned_not_run",
     "expert_reviewer": "not_assigned",
-    "source_validation": "method_refs_only_domain_primaries_pending"
-  }
+    "source_validation": "method_refs_only_domain_primaries_pending",
+    "semantic_validation": "not_run",
+    "language_source_owner_review": "pending"
+  },
+  "phase_gate": "SW-PRE-LANG_PENDING",
+  "reference": "BERICHT_DOPPELUNG_SPRACHE_SCHLANKE_UEBERSETZUNG_V0_1_2026-11-05.md",
+  "note": "These 14 translations were drafted before the canonical language deep dive and are not an accepted execution of Phase 1."
 }
