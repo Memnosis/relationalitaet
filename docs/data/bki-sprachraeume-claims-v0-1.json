@@ -1,0 +1,321 @@
+{
+  "schema": "bki-language-claims/0.1",
+  "as_of": "2026-11-05",
+  "description": "New claim proposals organized by language/perspective. Historical claims remain in bki-redaktionelle-anker-claims-v0-1.json.",
+  "historical_claims_registry": "bki-redaktionelle-anker-claims-v0-1.json",
+  "notes": [
+    "No existing verified text is overwritten.",
+    "Proposals are not test results, legal findings or approved site headlines.",
+    "Review must add thesis/concept links and qualified publication context."
+  ],
+  "claims": [
+    {
+      "id": "BKI-LC-001",
+      "text": "Nicht der Vorgang zählt. Sondern was ankommt.",
+      "family": "mensch_ziel",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-002",
+      "text": "Vom eigenen Anliegen zur verständlichen Möglichkeit.",
+      "family": "mensch_ziel",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-003",
+      "text": "Welche Antwort hilft – und welche Frage fehlt noch?",
+      "family": "mensch_ziel",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-004",
+      "text": "Dasselbe Wort. Nicht immer dieselbe Wirklichkeit.",
+      "family": "begriffe_sprachraeume",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-005",
+      "text": "Wer den Begriff wechselt, verändert manchmal die Frage.",
+      "family": "begriffe_sprachraeume",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-006",
+      "text": "Zwischen Alltagssatz und Fachbegriff liegt ein Lernweg.",
+      "family": "begriffe_sprachraeume",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-007",
+      "text": "Begriffe verbinden. Bedeutungen unterscheiden.",
+      "family": "begriffe_sprachraeume",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-008",
+      "text": "Entschieden ist nicht erfüllt.",
+      "family": "recht_verwaltung",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-009",
+      "text": "Zuständig sein ist nicht dasselbe wie wirksam helfen.",
+      "family": "recht_verwaltung",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-010",
+      "text": "Vom Rechtswort zur tatsächlichen Wirkung.",
+      "family": "recht_verwaltung",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-011",
+      "text": "Erst die Definition. Dann die Zahl.",
+      "family": "evidenz_wissenschaft",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-012",
+      "text": "Was wurde gezählt – und was bleibt unsichtbar?",
+      "family": "evidenz_wissenschaft",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-013",
+      "text": "Eine Quelle ist ein Anfang, kein fertiger Schluss.",
+      "family": "evidenz_wissenschaft",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-014",
+      "text": "Auch eine Erkenntnislücke ist ein Forschungsergebnis.",
+      "family": "evidenz_wissenschaft",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-015",
+      "text": "Ein beschlossenes Ziel ist noch kein erreichtes Ziel.",
+      "family": "politik_gesellschaft",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-016",
+      "text": "Geld misst Aufwand. Wirkung braucht eigene Maßstäbe.",
+      "family": "politik_gesellschaft",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-017",
+      "text": "Rechenschaft beginnt bei der Frage, was tatsächlich geschah.",
+      "family": "politik_gesellschaft",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-018",
+      "text": "Nicht mehr Antworten. Besser prüfbare Fähigkeiten.",
+      "family": "ki_skills",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-019",
+      "text": "Ein guter Skill kennt auch seine Grenzen.",
+      "family": "ki_skills",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-020",
+      "text": "Wissen verknüpfen, ohne Unterschiede zu verwischen.",
+      "family": "ki_skills",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-021",
+      "text": "Ein Thema. Mehrere Wege zum Verstehen.",
+      "family": "didaktik_perspektivwechsel",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-022",
+      "text": "Die nächste Frage öffnet den nächsten Raum.",
+      "family": "didaktik_perspektivwechsel",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-023",
+      "text": "Wer die Perspektive wechselt, entdeckt andere Lücken.",
+      "family": "didaktik_perspektivwechsel",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-024",
+      "text": "Du entscheidest, wie tief du gehst.",
+      "family": "didaktik_perspektivwechsel",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-025",
+      "text": "Gemeinsame Struktur ist noch keine gleiche Bedeutung.",
+      "family": "soulution_tensor_forschung",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-026",
+      "text": "Relationen prüfen statt Ähnlichkeiten behaupten.",
+      "family": "soulution_tensor_forschung",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-027",
+      "text": "Erkenntnisse verbinden. Unterschiede beweisen.",
+      "family": "soulution_tensor_forschung",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    },
+    {
+      "id": "BKI-LC-028",
+      "text": "Kein Ergebnis geht verloren – auch kein Gegenbeispiel.",
+      "family": "soulution_tensor_forschung",
+      "origin": "new_proposal",
+      "status": "not_editorially_approved",
+      "evidence_status": "editorial_proposal_not_empirical_result",
+      "placement": "contextual_deep_dive_only",
+      "source_paper": "BKI-LANGUAGE-001",
+      "requires_review": true
+    }
+  ]
+}
