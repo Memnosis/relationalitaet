@@ -1,0 +1,195 @@
+{
+  "schema": "bki-epa-source-crosswalk/0.1",
+  "date": "2026-11-05",
+  "status": "initial_source_evidence_map_not_full_clinical_security_review",
+  "research_paper": "DEEP_DIVE_PATIENTENAKTE_KI_STANDARDS_RECHTE_ORGAS_V0_1_2026-11-05.md",
+  "sources": [
+    {
+      "id": "EPA-SRC-01",
+      "title": "BMG ePA",
+      "url": "https://www.bundesgesundheitsministerium.de/themen/digitalisierung/elektronische-patientenakte/epa-fuer-alle",
+      "role": "official policy and consumer overview",
+      "nuclei": [
+        "BKI-NUC-007",
+        "BKI-NUC-008"
+      ],
+      "review": "sampled_2026-11-05",
+      "canonical_src_id": "pending_registry_owner_assignment",
+      "publication_status": "source_candidate_recheck_before_publication"
+    },
+    {
+      "id": "EPA-SRC-02",
+      "title": "gematik Widerspruch",
+      "url": "https://www.gematik.de/anwendungen/epa-fuer-alle/widerspruch",
+      "role": "official rights and functional distinctions",
+      "nuclei": [
+        "BKI-NUC-008"
+      ],
+      "review": "sampled_2026-11-05",
+      "canonical_src_id": "pending_registry_owner_assignment",
+      "publication_status": "source_candidate_recheck_before_publication"
+    },
+    {
+      "id": "EPA-SRC-03",
+      "title": "BMG FDZ FAQ",
+      "url": "https://www.bundesgesundheitsministerium.de/themen/gesundheitswesen/forschungsdatenzentrum-fdz-gesundheit-fragen-und-antworten",
+      "role": "official timeline of phased ePA data flow",
+      "nuclei": [
+        "BKI-NUC-009"
+      ],
+      "review": "sampled_2026-11-05",
+      "canonical_src_id": "pending_registry_owner_assignment",
+      "publication_status": "source_candidate_recheck_before_publication"
+    },
+    {
+      "id": "EPA-SRC-04",
+      "title": "FDZ ePA Forschungsdaten",
+      "url": "https://www.forschungsdatenzentrum-gesundheit.de/infoportal/datensatz-des-fdz-gesundheit/daten-aus-der-epa",
+      "role": "data center purpose availability controls",
+      "nuclei": [
+        "BKI-NUC-009"
+      ],
+      "review": "sampled_2026-11-05",
+      "canonical_src_id": "pending_registry_owner_assignment",
+      "publication_status": "source_candidate_recheck_before_publication"
+    },
+    {
+      "id": "EPA-SRC-05",
+      "title": "MyGNUHealth",
+      "url": "https://docs.gnuhealth.org/mygnuhealth/",
+      "role": "open source personal PHR product documentation",
+      "nuclei": [
+        "BKI-NUC-012"
+      ],
+      "review": "sampled_2026-11-05",
+      "canonical_src_id": "pending_registry_owner_assignment",
+      "publication_status": "source_candidate_recheck_before_publication"
+    },
+    {
+      "id": "EPA-SRC-06",
+      "title": "Open Health Stack",
+      "url": "https://developers.google.com/open-health-stack/android-fhir",
+      "role": "developer SDK and offline FHIR libraries",
+      "nuclei": [
+        "BKI-NUC-012",
+        "BKI-NUC-013"
+      ],
+      "review": "sampled_2026-11-05",
+      "canonical_src_id": "pending_registry_owner_assignment",
+      "publication_status": "source_candidate_recheck_before_publication"
+    },
+    {
+      "id": "EPA-SRC-07",
+      "title": "HL7 FHIR releases",
+      "url": "https://www.hl7.org/fhir/directory.html",
+      "role": "standards and release versions",
+      "nuclei": [
+        "BKI-NUC-013"
+      ],
+      "review": "sampled_2026-11-05",
+      "canonical_src_id": "pending_registry_owner_assignment",
+      "publication_status": "source_candidate_recheck_before_publication"
+    },
+    {
+      "id": "EPA-SRC-08",
+      "title": "KBV MIO",
+      "url": "https://www.kbv.de/praxis/digitalisierung/anwendungen/elektronische-patientenakte/mio",
+      "role": "national medical information objects",
+      "nuclei": [
+        "BKI-NUC-013"
+      ],
+      "review": "sampled_2026-11-05",
+      "canonical_src_id": "pending_registry_owner_assignment",
+      "publication_status": "source_candidate_recheck_before_publication"
+    },
+    {
+      "id": "EPA-SRC-09",
+      "title": "gematik Sicherheitsdarstellung",
+      "url": "https://www.gematik.de/anwendungen/epa-fuer-alle/sicherheit",
+      "role": "operator response and mitigations",
+      "nuclei": [
+        "BKI-NUC-011"
+      ],
+      "review": "sampled_2026-11-05",
+      "canonical_src_id": "pending_registry_owner_assignment",
+      "publication_status": "source_candidate_recheck_before_publication"
+    },
+    {
+      "id": "EPA-SRC-10",
+      "title": "KBV CCC-Schwachstellen",
+      "url": "https://www.kbv.de/praxis/tools-und-services/praxisnachrichten/2025/01-30/Schwachstellen%20bei%20der%20ePA-%20Hinweise%20zur%20Datensicherheit",
+      "role": "historical independent concerns as described by KBV",
+      "nuclei": [
+        "BKI-NUC-011"
+      ],
+      "review": "sampled_2026-11-05",
+      "canonical_src_id": "pending_registry_owner_assignment",
+      "publication_status": "source_candidate_recheck_before_publication"
+    },
+    {
+      "id": "EPA-SRC-11",
+      "title": "Doctolib Dokumente",
+      "url": "https://doctolibpatient.zendesk.com/hc/de/articles/360025466873-Meine-Dokumente-aufrufen",
+      "role": "patient portal documentation functionality",
+      "nuclei": [
+        "BKI-NUC-012"
+      ],
+      "review": "sampled_2026-11-05",
+      "canonical_src_id": "pending_registry_owner_assignment",
+      "publication_status": "source_candidate_recheck_before_publication"
+    },
+    {
+      "id": "EPA-SRC-12",
+      "title": "Doctolib Warteliste",
+      "url": "https://www.doctolib.de/gesundheit/waiting-list/",
+      "role": "product scope limitations for already booked appointments",
+      "nuclei": [
+        "BKI-NUC-015"
+      ],
+      "review": "sampled_2026-11-05",
+      "canonical_src_id": "pending_registry_owner_assignment",
+      "publication_status": "source_candidate_recheck_before_publication"
+    }
+  ],
+  "critical_non_equivalences": [
+    {
+      "from": "ePA",
+      "to": "complete_praxis_record",
+      "relation": "not_equivalent"
+    },
+    {
+      "from": "FHIR_resource",
+      "to": "clinically_valid_assertion",
+      "relation": "not_equivalent"
+    },
+    {
+      "from": "Open_Health_Stack",
+      "to": "end_user_health_app",
+      "relation": "not_equivalent"
+    },
+    {
+      "from": "Doctolib_waiting_list",
+      "to": "unbooked_therapy_search",
+      "relation": "not_equivalent"
+    },
+    {
+      "from": "ePA_secondary_use_optout",
+      "to": "ePA_deletion",
+      "relation": "not_equivalent"
+    },
+    {
+      "from": "cloud_upload",
+      "to": "local_AI",
+      "relation": "different_dataflow"
+    }
+  ],
+  "gates": {
+    "independent_security_evidence": "pending",
+    "provider_AI_terms": "pending",
+    "full_practice_record_law": "pending",
+    "consumer_usability": "pending",
+    "medical_review": "pending",
+    "source_owner_crosswalk": "pending",
+    "public_release": "not_approved"
+  }
+}
