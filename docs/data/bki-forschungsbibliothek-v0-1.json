@@ -206,6 +206,13 @@
       "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/MENSCH_HANDLUNG_DATENFLUESSE_V0_1.json",
       "group": "Methoden",
       "status": "dataflow_concept_not_operational"
+    },
+    {
+      "id": "BKI-LIB-030",
+      "title": "Kaffeekränzchen, Sprachhebel, digitale Souveränität und Finanzierungsmodelle",
+      "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/PAPER_KAFFEEKRAENZCHEN_HEBELBEGRIFFE_SOUVERAENITAET_V0_1_2026-11-05.md",
+      "group": "Didaktik",
+      "status": "research_design_not_implemented"
     }
   ]
 }
