@@ -1,7 +1,7 @@
 {
   "schema": "bki-language-world-map/0.1",
   "date": "2026-11-05",
-  "status": "inventory_extended_19_worlds_not_fach_approved",
+  "status": "inventory_extended_20_worlds_phase_plan_normalized_pending_domain_review",
   "purpose": "Map all project-relevant language worlds by human question, semantic hinge, factual source status, display and phased expansion",
   "roles": {
     "necessary": "essential for primary citizen navigation or evidence",
@@ -18,7 +18,9 @@
     "keep_negative_results_and_scope",
     "expanded_content_must_have_substantive_answer_and_return",
     "AI applications currently used in each domain are primary deep-dive content, not a claim of own AI",
-    "User decides whether to send their own data externally; short contextual star note does not replace provider legal notices or processing obligations"
+    "User decides whether to send their own data externally; short contextual star note does not replace provider legal notices or processing obligations",
+    "Only one compact contextual data-action disclosure per relevant AI-data workflow; no blanket repetitive warnings",
+    "Explore cultural and epistemic losses from the absence of sovereign civic AI, not claims of cultural salvation"
   ],
   "domains": [
     {
@@ -494,97 +496,176 @@
       "preferred_representation": "research_world_and_existing_project_links",
       "publication_review": "pending",
       "translation_review": "pending"
+    },
+    {
+      "id": "SW-20",
+      "title": "Forschungswelt: Sprachinteroperabilität, Psychologie und Programmiersprachen",
+      "role": "research",
+      "priority": "P1",
+      "existing_anchors": [
+        "docs/paper-buerger-ki-sprachraeume-termini-operationalisierung-claims-v0-1.md",
+        "forschung/buerger-ki/SPRACHPFADE_ELEMENTINVENTAR_V0_1.json"
+      ],
+      "pivots": [
+        "psychological_construct_to_operational_definition",
+        "self_report_to_measurement",
+        "psychological_model_to_algorithm",
+        "natural_language_to_program_syntax",
+        "program_syntax_to_semantics",
+        "formal_equivalence_to_empirical_validity"
+      ],
+      "source_gaps": [
+        "construct_validity",
+        "psychological_model_source_and_scope",
+        "language_grammar_and_type_systems",
+        "code_semantics_and_tests",
+        "bidirectional_translation_examples"
+      ],
+      "existing_status": "research_hypothesis_no_psychological_model_automated_as_clinical_tool",
+      "preferred_representation": "optional_research_paper_with_side_by_side_examples_and_counterexamples",
+      "publication_review": "pending",
+      "translation_review": "pending"
     }
   ],
   "phases": [
     {
       "id": "SW-PH-0",
-      "title": "Protect original narrative and map existing path elements",
-      "deliverables": [
-        "baseline_and_crosswalk",
-        "five_path_language_audit",
-        "five_therapy_lens_audit",
-        "source_owner_status"
+      "number": 0,
+      "title": "Bestand, geschützte Originalsprache, IDs und Quellen",
+      "legacy_ids": [
+        "SW-PH-0"
       ],
-      "exit": "all existing pivots inventoried"
-    },
-    {
-      "id": "SW-PH-VKI",
-      "title": "Virtuelle KI und Feedback als Schnittstellenmodell",
       "deliverables": [
-        "functional_catalog_of_15_possible_capabilities",
-        "eight_handoff_cards",
-        "separate_public_and_nonpublic_feedback",
-        "identified_work_sites_with_review_gates"
+        "legacy_headline_baseline",
+        "existing_lenses_routes",
+        "source_glossary_owner_map"
       ],
-      "exit": "all capabilities labeled by actual maturity and all input channels labeled by visibility and purpose"
+      "exit": "All existing five paths and therapy lenses inventoried; no original claims lost",
+      "status": "inventory_started_not_fully_approved"
     },
     {
       "id": "SW-PH-1",
-      "title": "Explain language hinges and translation losses",
-      "deliverables": [
-        "bidirectional_translation_cases",
-        "practical_legal_and_health_distinctions",
-        "feedback_help_kernel",
-        "counterexamples"
+      "number": 1,
+      "title": "Bedeutungsübergänge und Sprachinteroperabilität",
+      "legacy_ids": [
+        "SW-PH-1"
       ],
-      "exit": "each P0 pivot explained with status and source gap"
+      "deliverables": [
+        "12_core_hinges_translation_matrix",
+        "bidirectional_cases_and_counterexamples",
+        "psychology_code_language_research_scope",
+        "meaning_loss_and_source_gaps"
+      ],
+      "exit": "Every core hinge has typed meaning gain, loss, not-equivalence, evidence state and return route",
+      "status": "started_research_review_open"
     },
     {
       "id": "SW-PH-2",
-      "title": "Curate knowledge rooms and credible 2–3 links",
-      "deliverables": [
-        "definition_world",
-        "path_world",
-        "source_world",
-        "perspective_world",
-        "meta_world",
-        "research_world",
-        "method_world"
+      "number": 2,
+      "title": "Wissensräume, Quellen-Deep-Dives und 2–3 passgenaue Verbindungen",
+      "legacy_ids": [
+        "SW-PH-2"
       ],
-      "exit": "expanded modules substantial; links have relevance notes"
+      "deliverables": [
+        "knowledge_nuclei_source_harvest",
+        "qualified_organizations_standards_methods_open_source_rights",
+        "substantive_expanders"
+      ],
+      "exit": "No public knowledge world is empty or source-less",
+      "status": "planned"
     },
     {
       "id": "SW-PH-3",
-      "title": "Publish reviewed topic pages and optional concise components",
-      "deliverables": [
-        "therapy_topic",
-        "social_payment_topic",
-        "help_and_ngo_links",
-        "coffee_methods_as_ideas"
+      "number": 3,
+      "title": "Therapieplatz, Patientenakte und weitere vollständige Vertikalpfade",
+      "legacy_ids": [
+        "SW-PH-3"
       ],
-      "exit": "source/translation/browser tests passed"
+      "deliverables": [
+        "therapy_vertical",
+        "health_records_deep_dive",
+        "social_payment_vertical",
+        "browser_source_review"
+      ],
+      "exit": "Three distinct human paths have complete depth, handoffs and return",
+      "status": "planned"
     },
     {
       "id": "SW-PH-4",
-      "title": "Extend across education housing digital and public projects",
-      "deliverables": [
-        "new_vertical_pilots",
-        "local_network_project_links",
-        "public_feedback_protocol"
+      "number": 4,
+      "title": "Reale und virtuelle KI in sämtlichen Fachwelten",
+      "legacy_ids": [
+        "SW-PH-VKI"
       ],
-      "exit": "new topic has full evidence, risk and no-loss crosswalk"
+      "deliverables": [
+        "function_maturity_map",
+        "current_AI_products_and_open_source_by_domain",
+        "single_data_action_note",
+        "external_handoffs"
+      ],
+      "exit": "Real existing tools vs hypothetical capabilities clearly distinguished",
+      "status": "planned"
     },
     {
       "id": "SW-PH-5",
-      "title": "Specialist research, tensor comparisons and potential emergent hybrid barcamp",
-      "deliverables": [
-        "research_papers",
-        "optional_network_visualization",
-        "barcamp_as_conditional_idea_not_event"
+      "number": 5,
+      "title": "Kaffeekränzchen, Feedback und gesellschaftliche Wissenswege",
+      "legacy_ids": [
+        "SW-PH-4"
       ],
-      "exit": "research/evidence explicitly distinguished from implementation"
+      "deliverables": [
+        "help_nucleus",
+        "safe_feedback",
+        "project_links",
+        "community_and_hybrid_barcamp_as_emergent_option"
+      ],
+      "exit": "Real feedback channels separated; no unapproved personal case data and no fake events",
+      "status": "planned"
     },
     {
-      "id": "SW-PH-CIVIC",
-      "title": "Apply real-world AI landscape to every knowledge nucleus and examine civic sovereignty",
+      "id": "SW-PH-6",
+      "number": 6,
+      "title": "Weitere Lebensbereiche und gesellschaftliche Rechenschaft",
+      "legacy_ids": [],
       "deliverables": [
-        "AI-in-use domain mapping",
-        "existing products and open-source comparison",
-        "operating model independent of own AI",
-        "civic governance and cultural knowledge research"
+        "education_family_housing",
+        "duty_capacity_evaluation",
+        "historical_context"
       ],
-      "exit": "concrete services verified and conceptual vs actual capabilities distinguished"
+      "exit": "New cases source-checked and non-equivalent causal claims separated",
+      "status": "planned"
+    },
+    {
+      "id": "SW-PH-7",
+      "number": 7,
+      "title": "Souveräne KI, Kultur, Gemeingüter und Risiken ihres Fehlens",
+      "legacy_ids": [
+        "SW-PH-CIVIC"
+      ],
+      "deliverables": [
+        "counterfactual_access_to_AI",
+        "cultural_autonomy_pluralism",
+        "open_models_governance",
+        "external_dependency_risks"
+      ],
+      "exit": "Loss scenarios differentiated from verified empirical outcomes",
+      "status": "planned"
+    },
+    {
+      "id": "SW-PH-8",
+      "number": 8,
+      "title": "Skill-/Datenbank-Deep-Dive und Rückbindung an den KI-Tensor",
+      "legacy_ids": [
+        "SW-PH-5"
+      ],
+      "deliverables": [
+        "skill_inventory_harvest",
+        "database_and_ontology_interoperability",
+        "no_loss_tensor_crosswalk",
+        "formal_equivalence_and_counterexamples"
+      ],
+      "exit": "Typed validated relations and negative findings are linked to original owners",
+      "status": "planned"
     }
   ],
   "critical_pivots": [
@@ -602,11 +683,48 @@
     "current_source_to_historical_claim",
     "private_record_to_external_provider",
     "feedback_public_or_private_to_shared_knowledge",
-    "user_data_to_research_contribution"
+    "user_data_to_research_contribution",
+    "psychological_construct_to_formal_model",
+    "programming_language_semantics_to_psychology_limit"
   ],
   "core_distinction": {
     "virtual": "possible_future capabilities",
     "real": "actual current AI applications independently of who operates them",
     "sovereign": "research question of civic autonomy and preservation of human cultural knowledge"
-  }
+  },
+  "phase_legacy_ids": [
+    {
+      "id": "SW-PH-0",
+      "title": "Protect original narrative and map existing path elements"
+    },
+    {
+      "id": "SW-PH-VKI",
+      "title": "Virtuelle KI und Feedback als Schnittstellenmodell"
+    },
+    {
+      "id": "SW-PH-1",
+      "title": "Explain language hinges and translation losses"
+    },
+    {
+      "id": "SW-PH-2",
+      "title": "Curate knowledge rooms and credible 2–3 links"
+    },
+    {
+      "id": "SW-PH-3",
+      "title": "Publish reviewed topic pages and optional concise components"
+    },
+    {
+      "id": "SW-PH-4",
+      "title": "Extend across education housing digital and public projects"
+    },
+    {
+      "id": "SW-PH-5",
+      "title": "Specialist research, tensor comparisons and potential emergent hybrid barcamp"
+    },
+    {
+      "id": "SW-PH-CIVIC",
+      "title": "Apply real-world AI landscape to every knowledge nucleus and examine civic sovereignty"
+    }
+  ],
+  "phase_count": 9
 }
