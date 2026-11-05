@@ -2,7 +2,10 @@
   "schema": "bki-research-library/0.1",
   "as_of": "2026-11-05",
   "purpose": "Curated findability, not a second store of research claims",
-  "notes": "Links originate in the current Bürger-KI working set; this file is a curated index, not a complete repository inventory.",
+  "notes": [
+    "Links originate in the current Bürger-KI working set; this file is a curated index, not a complete repository inventory.",
+    "Neue Einträge BKI-LIB-050..052 referenzieren nur tatsächlich veröffentlichte Repo-Objekte; kein persönlicher Fallbestand und kein operatives KI-System."
+  ],
   "entries": [
     {
       "id": "BKI-LIB-001",
@@ -346,6 +349,27 @@
       "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/FLASHBACK_02_DATENWEGE_KI_GELD_KONTROLLE_V0_1.json",
       "group": "Methoden",
       "status": "initial_legal_crosswalk_revenue_and_implementation_open"
+    },
+    {
+      "id": "BKI-LIB-050",
+      "title": "Sprach-Crosswalk final v1 · 20 Sprachwelten × 37 Nuclei × 8 Fallpiloten",
+      "href": "./data/bki-sprach-crosswalk-final-v1.json",
+      "group": "Methoden",
+      "status": "architecture_mapped_source_review_open"
+    },
+    {
+      "id": "BKI-LIB-051",
+      "title": "Verwaltungs-Fail-Scanner · CSV/JSON und drei Muster",
+      "href": "./buerger-ki-fail-scanner.html",
+      "group": "Skills",
+      "status": "rule_based_demo_no_live_case_submissions"
+    },
+    {
+      "id": "BKI-LIB-052",
+      "title": "Virtuelle Bürger-KI · Anschlussprogramm und Testgates",
+      "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/ANSCHLUSSPROGRAMM_VIRTUELLE_BUERGER_KI_01_2026-11-05.md",
+      "group": "Methoden",
+      "status": "specification_not_operational"
     }
   ]
 }
