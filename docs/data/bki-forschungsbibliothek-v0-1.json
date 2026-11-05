@@ -304,6 +304,20 @@
       "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/PHASE_2_WISSENSRAEUME_QUELLENMATRIX_V0_1.json",
       "group": "Methoden",
       "status": "machine_readable_research_draft"
+    },
+    {
+      "id": "BKI-LIB-044",
+      "title": "Deep Dive Patientenakte: ePA, KI, Open Source, Standards, Rechte und Organisationen",
+      "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/DEEP_DIVE_PATIENTENAKTE_KI_STANDARDS_RECHTE_ORGAS_V0_1_2026-11-05.md",
+      "group": "Methoden",
+      "status": "initial_primary_source_review_clinical_security_checks_open"
+    },
+    {
+      "id": "BKI-LIB-045",
+      "title": "Patientenakte: zwölf Quellen und Nichtgleichsetzungen als Crosswalk",
+      "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/DEEP_DIVE_PATIENTENAKTE_QUELLEN_CROSSWALK_V0_1.json",
+      "group": "Methoden",
+      "status": "machine_readable_source_roles_review_pending"
     }
   ]
 }
