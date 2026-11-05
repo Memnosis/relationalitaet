@@ -161,14 +161,14 @@
     {
       "id": "BKI-LIB-023",
       "title": "Masterplan: Bürger-KI-Architektur, Crosswalk, Lernpfade und Skills",
-      "href": "../forschung/buerger-ki/MASTERPLAN_ARCHITEKTUR_LERNPFADE_CROSSWALK_SKILLS_V1_2026-11-05.md",
+      "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/MASTERPLAN_ARCHITEKTUR_LERNPFADE_CROSSWALK_SKILLS_V1_2026-11-05.md",
       "group": "Methoden",
       "status": "architecture_plan_not_implemented"
     },
     {
       "id": "BKI-LIB-024",
       "title": "Architektur-Backlog: 9 Arbeitspakete",
-      "href": "../forschung/buerger-ki/ARCHITEKTUR_BACKLOG_V1_2026-11-05.json",
+      "href": "https://github.com/Memnosis/relationalitaet/blob/main/forschung/buerger-ki/ARCHITEKTUR_BACKLOG_V1_2026-11-05.json",
       "group": "Methoden",
       "status": "machine_readable_plan"
     }
