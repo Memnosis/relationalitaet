@@ -2,7 +2,7 @@
 ## Ein priorisierter Forschungs- und Produktionskatalog
 
 **ID:** BKI-NUCLEI-001 · **Stand:** 05.11.2026 · **Status:** Katalog und Rechercheaufträge, nicht 33 abgeschlossene Studien.  
-**Maschinenlesbarer Katalog:** [33 Nuclei als JSON](./WISSENS_NUCLEI_DEEP_DIVE_REGISTER_V0_1_2026-11-05.json) · **Fachkarte:** [17 Sprachwelten](./SPRACHWELTEN_FACHGEBIETE_DREHPUNKTE_QUELLENPLAN_V0_1_2026-11-05.md)
+**Maschinenlesbarer Katalog:** [36 Nuclei als JSON](./WISSENS_NUCLEI_DEEP_DIVE_REGISTER_V0_1_2026-11-05.json) · **Fachkarte:** [19 Sprachwelten](./SPRACHWELTEN_FACHGEBIETE_DREHPUNKTE_QUELLENPLAN_V0_1_2026-11-05.md)
 
 ## 1. Definition
 
@@ -12,7 +12,7 @@ Ein **Wissens-Nucleus** ist ein kleinster inhaltlich eigenständiger Forschungsk
 
 **Grundregel:** Erst Organisationen, existierende Angebote, Primärquellen, Standards, Methoden, Open Source, Rechte, Compliance, Gegenfälle und zeitliche Geltung untersuchen; **danach** das öffentliche Format festlegen.
 
-## 2. Die 33 Wissens-Nuclei
+## 2. Die 36 Wissens-Nuclei
 
 ### A · Sprachliche und wissenschaftliche Grundlagen
 
@@ -115,7 +115,7 @@ Die zwölf bereits identifizierten [Baustellen](./BAUSTELLEN_VIRTUELLE_KI_FEEDBA
 
 ## 7. Was nicht gebaut werden sollte
 
-Keine 33 neuen öffentlichen Seiten. Keine identischen Volltexte unter verschiedenen Themen. Keine Pflicht zur Registrierung, keine Sammlung von Patientenakten in GitHub, kein automatisches KI-Ping mit Befunden, keine fiktiven Nutzerberichte. Keine verschachtelten Klappelemente ohne tatsächlich vorhandenen Inhalt. Das Forschungspaper kann groß sein; die Menschen sehen nur die benötigte passende Auswahl und den Zugang zur übrigen Welt.
+Keine 36 neuen öffentlichen Seiten. Keine identischen Volltexte unter verschiedenen Themen. Keine Pflicht zur Registrierung, keine Sammlung von Patientenakten in GitHub, kein automatisches KI-Ping mit Befunden, keine fiktiven Nutzerberichte. Keine verschachtelten Klappelemente ohne tatsächlich vorhandenen Inhalt. Das Forschungspaper kann groß sein; die Menschen sehen nur die benötigte passende Auswahl und den Zugang zur übrigen Welt.
 
 ## 8. Nächste prüfbare Etappe
 
@@ -124,3 +124,11 @@ Keine 33 neuen öffentlichen Seiten. Keine identischen Volltexte unter verschied
 Danach 009/011 (staatliche Forschung und Sicherheit) sowie 014 (Organisation und medizinische Grenze). Anschließend die erste öffentliche Entscheidungskarte schreiben und unabhängig auf Quellen, Verständlichkeit, Risiken und Datenschutzversprechen überprüfen.
 
 Der **Kaffeekränzchen-Nucleus 018** läuft als zweiter Vertikalstrang: Von echter Hilfe über freiwillig weitergebbare Methode zu redaktionell geprüften Wissensbausteinen, nicht vom Veranstaltungsprogramm aus.
+
+## 9. Neue Querschnittsentscheidung: Virtuelle, reale und souveräne Bürger-KI
+
+Zu **jedem** Wissens-Nucleus gehört jetzt ein aktueller KI-Anwendungs-Deep-Dive: Welche konkrete KI-Leistung ist bereits heute verfügbar, bei welchem Anbieter oder Open-Source-Projekt, unter welchen Bedingungen, mit welcher nachgewiesenen Verlässlichkeit, welchen Datenflüssen, Kosten und Fachgrenzen? **Reale Bürger-KI** meint diesen tatsächlichen Anwendungshorizont, nicht eine bereits vom Projekt betriebene KI.
+
+Daneben bleiben die **virtuellen** Möglichkeiten als systematische Funktionsplanung und die Frage einer **souveränen KI der Bürgerschaften** als kultur-, demokratie- und infrastrukturpolitischer Forschungsstrang erhalten. Eine eigene zentrale KI-Plattform wird ausdrücklich **nicht** als Projektvoraussetzung festgelegt.
+
+Für freiwillig selbst gewählte externe KI-Anwendungen genügt auf der Orientierungsseite ein dezenter, aufklappbarer Risiko-/Datenhinweis als Interface; sollte das Projekt selbst personenbezogene Daten verarbeiten, gelten darüber hinaus die jeweiligen gesetzlichen und technischen Anforderungen. [Vollständiges Paper zu den drei Ebenen](./PAPER_VIRTUELLE_REALE_SOUVERAENE_BUERGER_KI_KI_ANWENDUNGEN_V0_1_2026-11-05.md).
