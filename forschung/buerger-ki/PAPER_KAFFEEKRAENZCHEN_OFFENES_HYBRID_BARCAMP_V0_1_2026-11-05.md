@@ -111,3 +111,52 @@ Nichts davon ist mit diesem Paper als schon verfügbar markiert.
 6. [DI.DAY](https://diday.org/de/) – vorhandenes Format digitaler Souveränität.
 
 **Quellenstatus:** offizielle und methodische Seiten im Rechercheturn aufgefunden; kein vollständiger medizinischer, veranstaltungsrechtlicher oder implementierungstechnischer Audit. **Publikationsstatus:** Forschungspaper, nicht Event-Ankündigung oder Anmeldung.
+
+## 10. Der Nucleus: „Jemand hat jemandem geholfen“
+
+**Architekturentscheidung 05.11.2026:** Das Kaffeekränzchen wird nicht primär durch Anzahl Treffen, Anmeldungen oder Eventreichweite definiert. Sein wiederverwendbarer Kern ist **eine Hilfe, die zwischen Menschen stattgefunden hat und verständlich, freiwillig und prüfbar weitererzählt werden kann**. Es braucht dafür weder einen Eventkalender noch eine Bürger-KI-Mitgliedschaft.
+
+**Drei klar getrennte Ebenen:**
+1. **Erfahrung (persönlich):** Jemand konnte eine Situation besser verstehen, einen Anruf beginnen, einen Weg finden oder wurde unterstützt. Das ist zunächst eine individuelle Erinnerung und muss nicht ins Projekt gelangen.
+2. **Hilfsbaustein (übertragbar):** Welche *allgemeine* Information, Frage, Methode oder Struktur war nützlich? Daraus kann eine menschennahe Karte werden: `Situation → Hilfehandlung → mögliche Wirkung → Grenzen → passende Quellen → Wiederverwendung`. Keine Diagnose, Name, Kontaktliste, Originalakte oder persönliche Praxisantwort erforderlich.
+3. **Forschungsbefund (geprüft):** Aussagen über Wirksamkeit oder systemische Versorgungsprobleme brauchen eigene Mess-/Quellen-/Gegenprüfungen. Eine Erzählung – auch viele Erzählungen – beweist weder Kausalität noch Repräsentativität.
+
+### 10.1 Unterschiedliche Arten von Feedback
+
+| Feedback | Beispiel | Verwendungszweck | Grenze |
+| --- | --- | --- | --- |
+| Ermutigung | „Zusammen konnte ich endlich anfangen.“ | menschliche Idee/Illustration, nur freiwillig zitieren | keine Wirkstudie |
+| Praktische Hilfe | „Die klare Abgrenzung der Zuständigkeiten half.“ | mögliche neue Hilfekarte | konkrete Quelle/Regel prüfen |
+| Negativer Weg | „Bei dieser Kontaktart kamen wir nicht weiter.“ | Gegenfall und neue Suchfrage | Einzelfall ≠ genereller Ausfall |
+| Quellenhinweis | „Diese Information ist veraltet.“ | korrigieren und nachziehen | Originalfundstelle und Zeitstand verifizieren |
+| Skillidee | „Eine Gesprächs-Checkliste hätte geholfen.“ | Testfall/Kandidaten-Skill | nicht als implementiert ausgeben |
+| Gesellschaftliche Frage | „Warum ist diese Hilfe so schwer zugänglich?“ | Metaknoten/Untersuchung | Systemzwänge, Zuständigkeit, Recht und Datenlage prüfen |
+
+**Keine Erhebungspflicht:** Ohne jede Rückmeldung bleibt das Kaffeekränzchen vollständig sinnvoll. Die Seite zeigt gegebenenfalls beispielhafte, als fiktiv markierte Methodenkarten und verweist auf bestehende Angebote; sie bittet niemanden um Gesundheitsdaten. Eine spätere freiwillige Einreichung benötigt ein eigenständiges Kanal-, Zweck-, Moderations-, Quellen- und Veröffentlichungskonzept.
+
+### 10.2 Organisationen stärken, nicht als Bürger-KI-Gruppen vereinnahmen
+
+- **NAKOS / regionale Kontaktstellen:** Kontakte zu vorhandenen Selbsthilfegruppen, Hinweise auf bestehende Gruppenarbeit und Räume; Bürger-KI kann dazu passende Quellen und frei nutzbare Orientierungskarten anbieten. https://www.nakos.de/adressen/datenbanksuche/
+- **DI.DAY:** Bestehende Wechselrezepte, Veranstalter und Termine direkt verlinken; selbst durchgeführte Hilfe kann aus einem einzelnen digitalen Wechsel bestehen. https://diday.org/de/ und https://di.day/de/partner
+- **Fach-/NGO-/Patientenprojekte:** Projekte nach tatsächlichem Leistungsumfang, Ort, Zugang und Fachkontext vorstellen. Keine ungeprüfte Partnerschaft, keine eigene Bewegung, keine Sammlung von Mitgliedern Dritter.
+
+**Realistischer Wirkungspfad:** vorhandene Organisation/Projekt → Begegnung/Kränzchen → jemand hilft jemandem → optional übertragbare Erkenntnis → Quellenprüfung/Sprachübertragung → neuer Skill oder Wissenseinstieg. Ein hybrides Barcamp ist eine **mögliche spätere Verdichtung** der bereits existierenden Hilfen, keine Bedingung dafür.
+
+### 10.3 Redaktionsformat „Was jemand weitergeben konnte“
+
+- Ein Satz zum Anliegen: „Wobei sollte es weitergehen?“
+- Ein Satz zur Hilfe: „Was hat jemand gezeigt oder mit mir gemacht?“
+- Ein Satz zur Grenze: „Was war dadurch noch nicht gelöst?“
+- Zwei bis drei **gezielt passende** Links, vorzugsweise Originalquelle, konkrete Anlaufstelle oder frei nutzbares Werkzeug.
+- Optional: Erkenntnis für andere, Gegenfall oder noch offene Frage.
+- Kein Formular für persönliche Fallgeschichten und keine erfundene Erfolgsmeldung.
+
+**Beispiel, ausdrücklich hypothetisch:** „Zwei Menschen nehmen sich eine Stunde, um Therapie-Suchwege zu ordnen. Eine Person findet die richtigen Kontaktdaten; die andere hat nach einer Absage wenigstens eine neue, überprüfte Option. Das Kränzchen hat keine Behandlung vermittelt, aber möglicherweise den nächsten Schritt erleichtert.“ Dieses Beispiel ist ein Redaktionsmuster, keine tatsächlich eingereichte Nutzererfahrung.
+
+## 11. Anschluss an die Sprachwelt-Kartographie
+
+Für jeden sprachlichen Übergang die **Hilfe-Schnittstelle** gesondert notieren:
+`alltagssatz → erklärter Fachbegriff → verfügbare Handlung → optional gemeinsame Methode → persönliche Wirkung (ungeprüft) → öffentlich überprüfbare Behauptung → mögliches neues Hilfsmittel`.
+
+Die Forschungslandkarte [Sprachwelten und Drehpunkte](./SPRACHWELTEN_FACHGEBIETE_DREHPUNKTE_QUELLENPLAN_V0_1_2026-11-05.md) ordnet alle Wissensfelder nach Zweck (notwendig, sinnvoll, intendiert, Forschung), Belegstand, Übersetzungsrisiko und Ausbaustufe. Keine der Sprachwelten wird durch eine bloße „Erfahrungsberichte“-Liste ersetzt.
+
