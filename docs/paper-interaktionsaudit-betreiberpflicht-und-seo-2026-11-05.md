@@ -1,3 +1,15 @@
+<!-- BKI-MINIMAL-PAPER-V1 -->
+![Bürger-KI – Forschung und Verbindung](./assets/media/buerger-ki-zeichen.svg)
+
+**Forschungsedition · Interaktive Elemente der Bürger-KI: Funktion, Antwort, Test und Betreiberpflicht**
+
+**Kurzbeschreibung:** Quellengebundene Forschungs- und Entwicklungspublikation mit eigenständigem Prüfstatus und offenen Fragen.  
+**Schlagwörter:** Bürger-KI · Quellen · Evidenz · Crosswalk · Interaktive Elemente der Bürger-KI  
+**Stand:** 5. November 2026  
+**Kontakt:** Kontakt@erlebNils.de
+
+---
+
 # Interaktive Elemente der Bürger-KI: Funktion, Antwort, Test und Betreiberpflicht
 **Bestandsaudit 05.11.2026 · Quelle: GitHub-HTML und bisherige Forschungsakten. Erfüllte Quellcodeprüfung ≠ Browser-End-to-End-Test.**
 
@@ -33,3 +45,9 @@ Bei jeder App: Tastatur, Mobilansicht, Fehlermeldung, verständliche deutsche Sp
 
 ## SEO- und Suchintention
 Suchende verwenden unterschiedliche Begriffe: „Bürger-KI“, „Hilfe mit Behörden“, „Arbeitslosigkeit und neue Ideen“, „Jobcenter Alternativen“, „Kaffeekränzchen Mitmachen“, „Evidenz vergleichen“, „wissenschaftliche Quellen prüfen“, „Politik Entscheidungen evaluieren“. Für jede Seite einzigartigen Title, Meta-Description, H1, semantische H2, interne Links, datierte Version und klare Quellenlage nutzen. Keine „100 ausgewertete Entscheidungen“ als SEO-Claim, solange nur Kandidaten identifiziert sind.
+
+
+---
+
+*Bürger-KI · Rechte verstehen. Probleme lösen. Gesellschaft verbessern.*  
+[Zur Bürger-KI](./buerger-ki.html) · [Forschungsbibliothek](./bibliothek.html) · Kontakt@erlebNils.de · 05.11.2026
