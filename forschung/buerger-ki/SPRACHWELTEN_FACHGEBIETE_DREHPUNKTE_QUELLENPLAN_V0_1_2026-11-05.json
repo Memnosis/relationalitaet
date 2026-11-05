@@ -776,5 +776,23 @@
     ],
     "publication_gate": "not_approved",
     "directive": "Use concise flashback on human-facing pages and detailed legal-history only in research; do not conflate data sale with lawful disclosure"
+  },
+  "flashback_follow_up": {
+    "id": "BKI-FB-002",
+    "status": "research_first_pass",
+    "paper": "FLASHBACK_02_DATENWEGE_KI_SOZIALDATEN_GELD_KONTROLLE_V0_1_2026-11-05.md",
+    "case_register": "FLASHBACK_02_DATENWEGE_KI_GELD_KONTROLLE_V0_1.json",
+    "findings": [
+      "67c_SGBX_new_AI_data_power_effective_2025_12_24",
+      "legal_data_access_does_not_imply_sales",
+      "FDZGesV_datacockpit_right_is_distinct_from_actual_usability",
+      "Frankfurt_registry_fee_10_71_no_revenue_profit_inference"
+    ],
+    "remaining": [
+      "actual_AI_projects_by_public_body",
+      "fees_volume_revenue_cost",
+      "user_facing_transparency_test",
+      "legislative_history_and_proportionality"
+    ]
   }
 }
