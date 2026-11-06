@@ -1,0 +1,3605 @@
+{
+  "schema": "g30-chemical-cards/0.1",
+  "created": "2026-11-06",
+  "source": "docs/data/tensor-inventar-v10_7.json",
+  "paper": "relationale-chemie_full.pdf (user upload; not publicly exported)",
+  "scope": "Ten historic chemistry scaffold axes, NOT confirmed field semantic triples",
+  "notes": [
+    "9 conceptual triads per tensor are deterministic 3x3 address groupings from axes 1 and 2; third axis gives 3 address roles, not a validated relation",
+    "6er field from any three original roles only if each of three pairwise relations has independently declared edge semantics; otherwise candidate",
+    "Original axis spelling preserved",
+    "Chemistry paper proposed Unity curvature and phase threshold require correction/check, not scientific proven"
+  ],
+  "tensors": [
+    {
+      "id": "FACH-F031",
+      "title": "Quantenchemie",
+      "original_axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Orbitale",
+            "Elektronendichte",
+            "Energie"
+          ],
+          "original_status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Hamiltonoperator",
+            "Elektronenwellenfunktion",
+            "Energie"
+          ],
+          "original_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Dichtefunktional",
+            "Elektronendichte",
+            "Grundzustandsenergie"
+          ],
+          "original_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "nine_groups": [
+        {
+          "group_id": "FACH-F031-G1",
+          "semantic_heading": "Orbitale / Hamiltonoperator",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                0,
+                0
+              ],
+              "third_axis_role": "Dichtefunktional"
+            },
+            {
+              "address": [
+                0,
+                0,
+                1
+              ],
+              "third_axis_role": "Elektronendichte"
+            },
+            {
+              "address": [
+                0,
+                0,
+                2
+              ],
+              "third_axis_role": "Grundzustandsenergie"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Orbitale' mit 'Hamiltonoperator' zusammenhängt und welche der drei Rollen 'Dichtefunktional', 'Elektronendichte', 'Grundzustandsenergie' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F031-G2",
+          "semantic_heading": "Orbitale / Elektronenwellenfunktion",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                1,
+                0
+              ],
+              "third_axis_role": "Dichtefunktional"
+            },
+            {
+              "address": [
+                0,
+                1,
+                1
+              ],
+              "third_axis_role": "Elektronendichte"
+            },
+            {
+              "address": [
+                0,
+                1,
+                2
+              ],
+              "third_axis_role": "Grundzustandsenergie"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Orbitale' mit 'Elektronenwellenfunktion' zusammenhängt und welche der drei Rollen 'Dichtefunktional', 'Elektronendichte', 'Grundzustandsenergie' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F031-G3",
+          "semantic_heading": "Orbitale / Energie",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                2,
+                0
+              ],
+              "third_axis_role": "Dichtefunktional"
+            },
+            {
+              "address": [
+                0,
+                2,
+                1
+              ],
+              "third_axis_role": "Elektronendichte"
+            },
+            {
+              "address": [
+                0,
+                2,
+                2
+              ],
+              "third_axis_role": "Grundzustandsenergie"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Orbitale' mit 'Energie' zusammenhängt und welche der drei Rollen 'Dichtefunktional', 'Elektronendichte', 'Grundzustandsenergie' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F031-G4",
+          "semantic_heading": "Elektronendichte / Hamiltonoperator",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                0,
+                0
+              ],
+              "third_axis_role": "Dichtefunktional"
+            },
+            {
+              "address": [
+                1,
+                0,
+                1
+              ],
+              "third_axis_role": "Elektronendichte"
+            },
+            {
+              "address": [
+                1,
+                0,
+                2
+              ],
+              "third_axis_role": "Grundzustandsenergie"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Elektronendichte' mit 'Hamiltonoperator' zusammenhängt und welche der drei Rollen 'Dichtefunktional', 'Elektronendichte', 'Grundzustandsenergie' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F031-G5",
+          "semantic_heading": "Elektronendichte / Elektronenwellenfunktion",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                1,
+                0
+              ],
+              "third_axis_role": "Dichtefunktional"
+            },
+            {
+              "address": [
+                1,
+                1,
+                1
+              ],
+              "third_axis_role": "Elektronendichte"
+            },
+            {
+              "address": [
+                1,
+                1,
+                2
+              ],
+              "third_axis_role": "Grundzustandsenergie"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Elektronendichte' mit 'Elektronenwellenfunktion' zusammenhängt und welche der drei Rollen 'Dichtefunktional', 'Elektronendichte', 'Grundzustandsenergie' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F031-G6",
+          "semantic_heading": "Elektronendichte / Energie",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                2,
+                0
+              ],
+              "third_axis_role": "Dichtefunktional"
+            },
+            {
+              "address": [
+                1,
+                2,
+                1
+              ],
+              "third_axis_role": "Elektronendichte"
+            },
+            {
+              "address": [
+                1,
+                2,
+                2
+              ],
+              "third_axis_role": "Grundzustandsenergie"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Elektronendichte' mit 'Energie' zusammenhängt und welche der drei Rollen 'Dichtefunktional', 'Elektronendichte', 'Grundzustandsenergie' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F031-G7",
+          "semantic_heading": "Energie / Hamiltonoperator",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                0,
+                0
+              ],
+              "third_axis_role": "Dichtefunktional"
+            },
+            {
+              "address": [
+                2,
+                0,
+                1
+              ],
+              "third_axis_role": "Elektronendichte"
+            },
+            {
+              "address": [
+                2,
+                0,
+                2
+              ],
+              "third_axis_role": "Grundzustandsenergie"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Energie' mit 'Hamiltonoperator' zusammenhängt und welche der drei Rollen 'Dichtefunktional', 'Elektronendichte', 'Grundzustandsenergie' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F031-G8",
+          "semantic_heading": "Energie / Elektronenwellenfunktion",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                1,
+                0
+              ],
+              "third_axis_role": "Dichtefunktional"
+            },
+            {
+              "address": [
+                2,
+                1,
+                1
+              ],
+              "third_axis_role": "Elektronendichte"
+            },
+            {
+              "address": [
+                2,
+                1,
+                2
+              ],
+              "third_axis_role": "Grundzustandsenergie"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Energie' mit 'Elektronenwellenfunktion' zusammenhängt und welche der drei Rollen 'Dichtefunktional', 'Elektronendichte', 'Grundzustandsenergie' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F031-G9",
+          "semantic_heading": "Energie / Energie",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                2,
+                0
+              ],
+              "third_axis_role": "Dichtefunktional"
+            },
+            {
+              "address": [
+                2,
+                2,
+                1
+              ],
+              "third_axis_role": "Elektronendichte"
+            },
+            {
+              "address": [
+                2,
+                2,
+                2
+              ],
+              "third_axis_role": "Grundzustandsenergie"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Energie' mit 'Energie' zusammenhängt und welche der drei Rollen 'Dichtefunktional', 'Elektronendichte', 'Grundzustandsenergie' dafür fachlich begründet ist."
+        }
+      ],
+      "six_field_candidate": {
+        "poles": [
+          "Orbitale",
+          "Elektronendichte",
+          "Energie"
+        ],
+        "pairs": [
+          {
+            "poles": [
+              0,
+              1
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          },
+          {
+            "poles": [
+              1,
+              2
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          },
+          {
+            "poles": [
+              2,
+              0
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          }
+        ],
+        "status": "UNVALIDATED_CANDIDATE"
+      },
+      "source_formula_anchor": "E[n] und KS-Orbitale",
+      "review_status": "NOT_RECONCILED_WITH_ORIGINAL_PUBLICATION"
+    },
+    {
+      "id": "FACH-F032",
+      "title": "Bindungschemie",
+      "original_axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Geometrie",
+            "Potentialfläche",
+            "Vibrationsmode"
+          ],
+          "original_status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Kernkoordinate",
+            "Potentialenergie",
+            "Kraft"
+          ],
+          "original_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Gleichgewichtsgeometrie",
+            "Hesse-Matrix",
+            "Normalmode"
+          ],
+          "original_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "nine_groups": [
+        {
+          "group_id": "FACH-F032-G1",
+          "semantic_heading": "Geometrie / Kernkoordinate",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                0,
+                0
+              ],
+              "third_axis_role": "Gleichgewichtsgeometrie"
+            },
+            {
+              "address": [
+                0,
+                0,
+                1
+              ],
+              "third_axis_role": "Hesse-Matrix"
+            },
+            {
+              "address": [
+                0,
+                0,
+                2
+              ],
+              "third_axis_role": "Normalmode"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Geometrie' mit 'Kernkoordinate' zusammenhängt und welche der drei Rollen 'Gleichgewichtsgeometrie', 'Hesse-Matrix', 'Normalmode' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F032-G2",
+          "semantic_heading": "Geometrie / Potentialenergie",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                1,
+                0
+              ],
+              "third_axis_role": "Gleichgewichtsgeometrie"
+            },
+            {
+              "address": [
+                0,
+                1,
+                1
+              ],
+              "third_axis_role": "Hesse-Matrix"
+            },
+            {
+              "address": [
+                0,
+                1,
+                2
+              ],
+              "third_axis_role": "Normalmode"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Geometrie' mit 'Potentialenergie' zusammenhängt und welche der drei Rollen 'Gleichgewichtsgeometrie', 'Hesse-Matrix', 'Normalmode' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F032-G3",
+          "semantic_heading": "Geometrie / Kraft",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                2,
+                0
+              ],
+              "third_axis_role": "Gleichgewichtsgeometrie"
+            },
+            {
+              "address": [
+                0,
+                2,
+                1
+              ],
+              "third_axis_role": "Hesse-Matrix"
+            },
+            {
+              "address": [
+                0,
+                2,
+                2
+              ],
+              "third_axis_role": "Normalmode"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Geometrie' mit 'Kraft' zusammenhängt und welche der drei Rollen 'Gleichgewichtsgeometrie', 'Hesse-Matrix', 'Normalmode' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F032-G4",
+          "semantic_heading": "Potentialfläche / Kernkoordinate",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                0,
+                0
+              ],
+              "third_axis_role": "Gleichgewichtsgeometrie"
+            },
+            {
+              "address": [
+                1,
+                0,
+                1
+              ],
+              "third_axis_role": "Hesse-Matrix"
+            },
+            {
+              "address": [
+                1,
+                0,
+                2
+              ],
+              "third_axis_role": "Normalmode"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Potentialfläche' mit 'Kernkoordinate' zusammenhängt und welche der drei Rollen 'Gleichgewichtsgeometrie', 'Hesse-Matrix', 'Normalmode' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F032-G5",
+          "semantic_heading": "Potentialfläche / Potentialenergie",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                1,
+                0
+              ],
+              "third_axis_role": "Gleichgewichtsgeometrie"
+            },
+            {
+              "address": [
+                1,
+                1,
+                1
+              ],
+              "third_axis_role": "Hesse-Matrix"
+            },
+            {
+              "address": [
+                1,
+                1,
+                2
+              ],
+              "third_axis_role": "Normalmode"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Potentialfläche' mit 'Potentialenergie' zusammenhängt und welche der drei Rollen 'Gleichgewichtsgeometrie', 'Hesse-Matrix', 'Normalmode' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F032-G6",
+          "semantic_heading": "Potentialfläche / Kraft",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                2,
+                0
+              ],
+              "third_axis_role": "Gleichgewichtsgeometrie"
+            },
+            {
+              "address": [
+                1,
+                2,
+                1
+              ],
+              "third_axis_role": "Hesse-Matrix"
+            },
+            {
+              "address": [
+                1,
+                2,
+                2
+              ],
+              "third_axis_role": "Normalmode"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Potentialfläche' mit 'Kraft' zusammenhängt und welche der drei Rollen 'Gleichgewichtsgeometrie', 'Hesse-Matrix', 'Normalmode' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F032-G7",
+          "semantic_heading": "Vibrationsmode / Kernkoordinate",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                0,
+                0
+              ],
+              "third_axis_role": "Gleichgewichtsgeometrie"
+            },
+            {
+              "address": [
+                2,
+                0,
+                1
+              ],
+              "third_axis_role": "Hesse-Matrix"
+            },
+            {
+              "address": [
+                2,
+                0,
+                2
+              ],
+              "third_axis_role": "Normalmode"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Vibrationsmode' mit 'Kernkoordinate' zusammenhängt und welche der drei Rollen 'Gleichgewichtsgeometrie', 'Hesse-Matrix', 'Normalmode' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F032-G8",
+          "semantic_heading": "Vibrationsmode / Potentialenergie",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                1,
+                0
+              ],
+              "third_axis_role": "Gleichgewichtsgeometrie"
+            },
+            {
+              "address": [
+                2,
+                1,
+                1
+              ],
+              "third_axis_role": "Hesse-Matrix"
+            },
+            {
+              "address": [
+                2,
+                1,
+                2
+              ],
+              "third_axis_role": "Normalmode"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Vibrationsmode' mit 'Potentialenergie' zusammenhängt und welche der drei Rollen 'Gleichgewichtsgeometrie', 'Hesse-Matrix', 'Normalmode' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F032-G9",
+          "semantic_heading": "Vibrationsmode / Kraft",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                2,
+                0
+              ],
+              "third_axis_role": "Gleichgewichtsgeometrie"
+            },
+            {
+              "address": [
+                2,
+                2,
+                1
+              ],
+              "third_axis_role": "Hesse-Matrix"
+            },
+            {
+              "address": [
+                2,
+                2,
+                2
+              ],
+              "third_axis_role": "Normalmode"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Vibrationsmode' mit 'Kraft' zusammenhängt und welche der drei Rollen 'Gleichgewichtsgeometrie', 'Hesse-Matrix', 'Normalmode' dafür fachlich begründet ist."
+        }
+      ],
+      "six_field_candidate": {
+        "poles": [
+          "Geometrie",
+          "Potentialfläche",
+          "Vibrationsmode"
+        ],
+        "pairs": [
+          {
+            "poles": [
+              0,
+              1
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          },
+          {
+            "poles": [
+              1,
+              2
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          },
+          {
+            "poles": [
+              2,
+              0
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          }
+        ],
+        "status": "UNVALIDATED_CANDIDATE"
+      },
+      "source_formula_anchor": "F_i=−∂E/∂R_i",
+      "review_status": "NOT_RECONCILED_WITH_ORIGINAL_PUBLICATION"
+    },
+    {
+      "id": "FACH-F033",
+      "title": "Thermodynamische Chemie",
+      "original_axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "chemisches Potential",
+            "ΔG",
+            "Gleichgewicht"
+          ],
+          "original_status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Aktivität",
+            "chemisches Potential",
+            "Reaktions-Gibbsenergie"
+          ],
+          "original_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Standardreaktionsenergie",
+            "Gleichgewichtskonstante",
+            "Reaktionsquotient"
+          ],
+          "original_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "nine_groups": [
+        {
+          "group_id": "FACH-F033-G1",
+          "semantic_heading": "chemisches Potential / Aktivität",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                0,
+                0
+              ],
+              "third_axis_role": "Standardreaktionsenergie"
+            },
+            {
+              "address": [
+                0,
+                0,
+                1
+              ],
+              "third_axis_role": "Gleichgewichtskonstante"
+            },
+            {
+              "address": [
+                0,
+                0,
+                2
+              ],
+              "third_axis_role": "Reaktionsquotient"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'chemisches Potential' mit 'Aktivität' zusammenhängt und welche der drei Rollen 'Standardreaktionsenergie', 'Gleichgewichtskonstante', 'Reaktionsquotient' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F033-G2",
+          "semantic_heading": "chemisches Potential / chemisches Potential",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                1,
+                0
+              ],
+              "third_axis_role": "Standardreaktionsenergie"
+            },
+            {
+              "address": [
+                0,
+                1,
+                1
+              ],
+              "third_axis_role": "Gleichgewichtskonstante"
+            },
+            {
+              "address": [
+                0,
+                1,
+                2
+              ],
+              "third_axis_role": "Reaktionsquotient"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'chemisches Potential' mit 'chemisches Potential' zusammenhängt und welche der drei Rollen 'Standardreaktionsenergie', 'Gleichgewichtskonstante', 'Reaktionsquotient' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F033-G3",
+          "semantic_heading": "chemisches Potential / Reaktions-Gibbsenergie",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                2,
+                0
+              ],
+              "third_axis_role": "Standardreaktionsenergie"
+            },
+            {
+              "address": [
+                0,
+                2,
+                1
+              ],
+              "third_axis_role": "Gleichgewichtskonstante"
+            },
+            {
+              "address": [
+                0,
+                2,
+                2
+              ],
+              "third_axis_role": "Reaktionsquotient"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'chemisches Potential' mit 'Reaktions-Gibbsenergie' zusammenhängt und welche der drei Rollen 'Standardreaktionsenergie', 'Gleichgewichtskonstante', 'Reaktionsquotient' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F033-G4",
+          "semantic_heading": "ΔG / Aktivität",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                0,
+                0
+              ],
+              "third_axis_role": "Standardreaktionsenergie"
+            },
+            {
+              "address": [
+                1,
+                0,
+                1
+              ],
+              "third_axis_role": "Gleichgewichtskonstante"
+            },
+            {
+              "address": [
+                1,
+                0,
+                2
+              ],
+              "third_axis_role": "Reaktionsquotient"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'ΔG' mit 'Aktivität' zusammenhängt und welche der drei Rollen 'Standardreaktionsenergie', 'Gleichgewichtskonstante', 'Reaktionsquotient' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F033-G5",
+          "semantic_heading": "ΔG / chemisches Potential",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                1,
+                0
+              ],
+              "third_axis_role": "Standardreaktionsenergie"
+            },
+            {
+              "address": [
+                1,
+                1,
+                1
+              ],
+              "third_axis_role": "Gleichgewichtskonstante"
+            },
+            {
+              "address": [
+                1,
+                1,
+                2
+              ],
+              "third_axis_role": "Reaktionsquotient"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'ΔG' mit 'chemisches Potential' zusammenhängt und welche der drei Rollen 'Standardreaktionsenergie', 'Gleichgewichtskonstante', 'Reaktionsquotient' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F033-G6",
+          "semantic_heading": "ΔG / Reaktions-Gibbsenergie",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                2,
+                0
+              ],
+              "third_axis_role": "Standardreaktionsenergie"
+            },
+            {
+              "address": [
+                1,
+                2,
+                1
+              ],
+              "third_axis_role": "Gleichgewichtskonstante"
+            },
+            {
+              "address": [
+                1,
+                2,
+                2
+              ],
+              "third_axis_role": "Reaktionsquotient"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'ΔG' mit 'Reaktions-Gibbsenergie' zusammenhängt und welche der drei Rollen 'Standardreaktionsenergie', 'Gleichgewichtskonstante', 'Reaktionsquotient' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F033-G7",
+          "semantic_heading": "Gleichgewicht / Aktivität",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                0,
+                0
+              ],
+              "third_axis_role": "Standardreaktionsenergie"
+            },
+            {
+              "address": [
+                2,
+                0,
+                1
+              ],
+              "third_axis_role": "Gleichgewichtskonstante"
+            },
+            {
+              "address": [
+                2,
+                0,
+                2
+              ],
+              "third_axis_role": "Reaktionsquotient"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Gleichgewicht' mit 'Aktivität' zusammenhängt und welche der drei Rollen 'Standardreaktionsenergie', 'Gleichgewichtskonstante', 'Reaktionsquotient' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F033-G8",
+          "semantic_heading": "Gleichgewicht / chemisches Potential",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                1,
+                0
+              ],
+              "third_axis_role": "Standardreaktionsenergie"
+            },
+            {
+              "address": [
+                2,
+                1,
+                1
+              ],
+              "third_axis_role": "Gleichgewichtskonstante"
+            },
+            {
+              "address": [
+                2,
+                1,
+                2
+              ],
+              "third_axis_role": "Reaktionsquotient"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Gleichgewicht' mit 'chemisches Potential' zusammenhängt und welche der drei Rollen 'Standardreaktionsenergie', 'Gleichgewichtskonstante', 'Reaktionsquotient' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F033-G9",
+          "semantic_heading": "Gleichgewicht / Reaktions-Gibbsenergie",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                2,
+                0
+              ],
+              "third_axis_role": "Standardreaktionsenergie"
+            },
+            {
+              "address": [
+                2,
+                2,
+                1
+              ],
+              "third_axis_role": "Gleichgewichtskonstante"
+            },
+            {
+              "address": [
+                2,
+                2,
+                2
+              ],
+              "third_axis_role": "Reaktionsquotient"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Gleichgewicht' mit 'Reaktions-Gibbsenergie' zusammenhängt und welche der drei Rollen 'Standardreaktionsenergie', 'Gleichgewichtskonstante', 'Reaktionsquotient' dafür fachlich begründet ist."
+        }
+      ],
+      "six_field_candidate": {
+        "poles": [
+          "chemisches Potential",
+          "ΔG",
+          "Gleichgewicht"
+        ],
+        "pairs": [
+          {
+            "poles": [
+              0,
+              1
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          },
+          {
+            "poles": [
+              1,
+              2
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          },
+          {
+            "poles": [
+              2,
+              0
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          }
+        ],
+        "status": "UNVALIDATED_CANDIDATE"
+      },
+      "source_formula_anchor": "ΔrG=Σνi μi",
+      "review_status": "NOT_RECONCILED_WITH_ORIGINAL_PUBLICATION"
+    },
+    {
+      "id": "FACH-F034",
+      "title": "Reaktionskinetik",
+      "original_axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Mechanismus",
+            "Rate",
+            "Konzentrationsverlauf"
+          ],
+          "original_status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Energiebarriere",
+            "Übergangszustand",
+            "Geschwindigkeitskonstante"
+          ],
+          "original_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Stöchiometrie",
+            "Geschwindigkeitsgesetz",
+            "Konzentrationsprofil"
+          ],
+          "original_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "nine_groups": [
+        {
+          "group_id": "FACH-F034-G1",
+          "semantic_heading": "Mechanismus / Energiebarriere",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                0,
+                0
+              ],
+              "third_axis_role": "Stöchiometrie"
+            },
+            {
+              "address": [
+                0,
+                0,
+                1
+              ],
+              "third_axis_role": "Geschwindigkeitsgesetz"
+            },
+            {
+              "address": [
+                0,
+                0,
+                2
+              ],
+              "third_axis_role": "Konzentrationsprofil"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Mechanismus' mit 'Energiebarriere' zusammenhängt und welche der drei Rollen 'Stöchiometrie', 'Geschwindigkeitsgesetz', 'Konzentrationsprofil' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F034-G2",
+          "semantic_heading": "Mechanismus / Übergangszustand",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                1,
+                0
+              ],
+              "third_axis_role": "Stöchiometrie"
+            },
+            {
+              "address": [
+                0,
+                1,
+                1
+              ],
+              "third_axis_role": "Geschwindigkeitsgesetz"
+            },
+            {
+              "address": [
+                0,
+                1,
+                2
+              ],
+              "third_axis_role": "Konzentrationsprofil"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Mechanismus' mit 'Übergangszustand' zusammenhängt und welche der drei Rollen 'Stöchiometrie', 'Geschwindigkeitsgesetz', 'Konzentrationsprofil' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F034-G3",
+          "semantic_heading": "Mechanismus / Geschwindigkeitskonstante",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                2,
+                0
+              ],
+              "third_axis_role": "Stöchiometrie"
+            },
+            {
+              "address": [
+                0,
+                2,
+                1
+              ],
+              "third_axis_role": "Geschwindigkeitsgesetz"
+            },
+            {
+              "address": [
+                0,
+                2,
+                2
+              ],
+              "third_axis_role": "Konzentrationsprofil"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Mechanismus' mit 'Geschwindigkeitskonstante' zusammenhängt und welche der drei Rollen 'Stöchiometrie', 'Geschwindigkeitsgesetz', 'Konzentrationsprofil' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F034-G4",
+          "semantic_heading": "Rate / Energiebarriere",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                0,
+                0
+              ],
+              "third_axis_role": "Stöchiometrie"
+            },
+            {
+              "address": [
+                1,
+                0,
+                1
+              ],
+              "third_axis_role": "Geschwindigkeitsgesetz"
+            },
+            {
+              "address": [
+                1,
+                0,
+                2
+              ],
+              "third_axis_role": "Konzentrationsprofil"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Rate' mit 'Energiebarriere' zusammenhängt und welche der drei Rollen 'Stöchiometrie', 'Geschwindigkeitsgesetz', 'Konzentrationsprofil' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F034-G5",
+          "semantic_heading": "Rate / Übergangszustand",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                1,
+                0
+              ],
+              "third_axis_role": "Stöchiometrie"
+            },
+            {
+              "address": [
+                1,
+                1,
+                1
+              ],
+              "third_axis_role": "Geschwindigkeitsgesetz"
+            },
+            {
+              "address": [
+                1,
+                1,
+                2
+              ],
+              "third_axis_role": "Konzentrationsprofil"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Rate' mit 'Übergangszustand' zusammenhängt und welche der drei Rollen 'Stöchiometrie', 'Geschwindigkeitsgesetz', 'Konzentrationsprofil' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F034-G6",
+          "semantic_heading": "Rate / Geschwindigkeitskonstante",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                2,
+                0
+              ],
+              "third_axis_role": "Stöchiometrie"
+            },
+            {
+              "address": [
+                1,
+                2,
+                1
+              ],
+              "third_axis_role": "Geschwindigkeitsgesetz"
+            },
+            {
+              "address": [
+                1,
+                2,
+                2
+              ],
+              "third_axis_role": "Konzentrationsprofil"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Rate' mit 'Geschwindigkeitskonstante' zusammenhängt und welche der drei Rollen 'Stöchiometrie', 'Geschwindigkeitsgesetz', 'Konzentrationsprofil' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F034-G7",
+          "semantic_heading": "Konzentrationsverlauf / Energiebarriere",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                0,
+                0
+              ],
+              "third_axis_role": "Stöchiometrie"
+            },
+            {
+              "address": [
+                2,
+                0,
+                1
+              ],
+              "third_axis_role": "Geschwindigkeitsgesetz"
+            },
+            {
+              "address": [
+                2,
+                0,
+                2
+              ],
+              "third_axis_role": "Konzentrationsprofil"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Konzentrationsverlauf' mit 'Energiebarriere' zusammenhängt und welche der drei Rollen 'Stöchiometrie', 'Geschwindigkeitsgesetz', 'Konzentrationsprofil' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F034-G8",
+          "semantic_heading": "Konzentrationsverlauf / Übergangszustand",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                1,
+                0
+              ],
+              "third_axis_role": "Stöchiometrie"
+            },
+            {
+              "address": [
+                2,
+                1,
+                1
+              ],
+              "third_axis_role": "Geschwindigkeitsgesetz"
+            },
+            {
+              "address": [
+                2,
+                1,
+                2
+              ],
+              "third_axis_role": "Konzentrationsprofil"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Konzentrationsverlauf' mit 'Übergangszustand' zusammenhängt und welche der drei Rollen 'Stöchiometrie', 'Geschwindigkeitsgesetz', 'Konzentrationsprofil' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F034-G9",
+          "semantic_heading": "Konzentrationsverlauf / Geschwindigkeitskonstante",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                2,
+                0
+              ],
+              "third_axis_role": "Stöchiometrie"
+            },
+            {
+              "address": [
+                2,
+                2,
+                1
+              ],
+              "third_axis_role": "Geschwindigkeitsgesetz"
+            },
+            {
+              "address": [
+                2,
+                2,
+                2
+              ],
+              "third_axis_role": "Konzentrationsprofil"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Konzentrationsverlauf' mit 'Geschwindigkeitskonstante' zusammenhängt und welche der drei Rollen 'Stöchiometrie', 'Geschwindigkeitsgesetz', 'Konzentrationsprofil' dafür fachlich begründet ist."
+        }
+      ],
+      "six_field_candidate": {
+        "poles": [
+          "Mechanismus",
+          "Rate",
+          "Konzentrationsverlauf"
+        ],
+        "pairs": [
+          {
+            "poles": [
+              0,
+              1
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          },
+          {
+            "poles": [
+              1,
+              2
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          },
+          {
+            "poles": [
+              2,
+              0
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          }
+        ],
+        "status": "UNVALIDATED_CANDIDATE"
+      },
+      "source_formula_anchor": "dc/dt=S v(c)",
+      "review_status": "NOT_RECONCILED_WITH_ORIGINAL_PUBLICATION"
+    },
+    {
+      "id": "FACH-F035",
+      "title": "Elektrochemie",
+      "original_axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Redoxpaar",
+            "Aktivität",
+            "Elektrodenpotential"
+          ],
+          "original_status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Elektronenaktivität",
+            "Redoxpotential",
+            "Nernstbeziehung"
+          ],
+          "original_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Überpotential",
+            "Stromdichte",
+            "Austauschstrom"
+          ],
+          "original_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "nine_groups": [
+        {
+          "group_id": "FACH-F035-G1",
+          "semantic_heading": "Redoxpaar / Elektronenaktivität",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                0,
+                0
+              ],
+              "third_axis_role": "Überpotential"
+            },
+            {
+              "address": [
+                0,
+                0,
+                1
+              ],
+              "third_axis_role": "Stromdichte"
+            },
+            {
+              "address": [
+                0,
+                0,
+                2
+              ],
+              "third_axis_role": "Austauschstrom"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Redoxpaar' mit 'Elektronenaktivität' zusammenhängt und welche der drei Rollen 'Überpotential', 'Stromdichte', 'Austauschstrom' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F035-G2",
+          "semantic_heading": "Redoxpaar / Redoxpotential",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                1,
+                0
+              ],
+              "third_axis_role": "Überpotential"
+            },
+            {
+              "address": [
+                0,
+                1,
+                1
+              ],
+              "third_axis_role": "Stromdichte"
+            },
+            {
+              "address": [
+                0,
+                1,
+                2
+              ],
+              "third_axis_role": "Austauschstrom"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Redoxpaar' mit 'Redoxpotential' zusammenhängt und welche der drei Rollen 'Überpotential', 'Stromdichte', 'Austauschstrom' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F035-G3",
+          "semantic_heading": "Redoxpaar / Nernstbeziehung",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                2,
+                0
+              ],
+              "third_axis_role": "Überpotential"
+            },
+            {
+              "address": [
+                0,
+                2,
+                1
+              ],
+              "third_axis_role": "Stromdichte"
+            },
+            {
+              "address": [
+                0,
+                2,
+                2
+              ],
+              "third_axis_role": "Austauschstrom"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Redoxpaar' mit 'Nernstbeziehung' zusammenhängt und welche der drei Rollen 'Überpotential', 'Stromdichte', 'Austauschstrom' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F035-G4",
+          "semantic_heading": "Aktivität / Elektronenaktivität",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                0,
+                0
+              ],
+              "third_axis_role": "Überpotential"
+            },
+            {
+              "address": [
+                1,
+                0,
+                1
+              ],
+              "third_axis_role": "Stromdichte"
+            },
+            {
+              "address": [
+                1,
+                0,
+                2
+              ],
+              "third_axis_role": "Austauschstrom"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Aktivität' mit 'Elektronenaktivität' zusammenhängt und welche der drei Rollen 'Überpotential', 'Stromdichte', 'Austauschstrom' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F035-G5",
+          "semantic_heading": "Aktivität / Redoxpotential",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                1,
+                0
+              ],
+              "third_axis_role": "Überpotential"
+            },
+            {
+              "address": [
+                1,
+                1,
+                1
+              ],
+              "third_axis_role": "Stromdichte"
+            },
+            {
+              "address": [
+                1,
+                1,
+                2
+              ],
+              "third_axis_role": "Austauschstrom"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Aktivität' mit 'Redoxpotential' zusammenhängt und welche der drei Rollen 'Überpotential', 'Stromdichte', 'Austauschstrom' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F035-G6",
+          "semantic_heading": "Aktivität / Nernstbeziehung",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                2,
+                0
+              ],
+              "third_axis_role": "Überpotential"
+            },
+            {
+              "address": [
+                1,
+                2,
+                1
+              ],
+              "third_axis_role": "Stromdichte"
+            },
+            {
+              "address": [
+                1,
+                2,
+                2
+              ],
+              "third_axis_role": "Austauschstrom"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Aktivität' mit 'Nernstbeziehung' zusammenhängt und welche der drei Rollen 'Überpotential', 'Stromdichte', 'Austauschstrom' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F035-G7",
+          "semantic_heading": "Elektrodenpotential / Elektronenaktivität",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                0,
+                0
+              ],
+              "third_axis_role": "Überpotential"
+            },
+            {
+              "address": [
+                2,
+                0,
+                1
+              ],
+              "third_axis_role": "Stromdichte"
+            },
+            {
+              "address": [
+                2,
+                0,
+                2
+              ],
+              "third_axis_role": "Austauschstrom"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Elektrodenpotential' mit 'Elektronenaktivität' zusammenhängt und welche der drei Rollen 'Überpotential', 'Stromdichte', 'Austauschstrom' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F035-G8",
+          "semantic_heading": "Elektrodenpotential / Redoxpotential",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                1,
+                0
+              ],
+              "third_axis_role": "Überpotential"
+            },
+            {
+              "address": [
+                2,
+                1,
+                1
+              ],
+              "third_axis_role": "Stromdichte"
+            },
+            {
+              "address": [
+                2,
+                1,
+                2
+              ],
+              "third_axis_role": "Austauschstrom"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Elektrodenpotential' mit 'Redoxpotential' zusammenhängt und welche der drei Rollen 'Überpotential', 'Stromdichte', 'Austauschstrom' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F035-G9",
+          "semantic_heading": "Elektrodenpotential / Nernstbeziehung",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                2,
+                0
+              ],
+              "third_axis_role": "Überpotential"
+            },
+            {
+              "address": [
+                2,
+                2,
+                1
+              ],
+              "third_axis_role": "Stromdichte"
+            },
+            {
+              "address": [
+                2,
+                2,
+                2
+              ],
+              "third_axis_role": "Austauschstrom"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Elektrodenpotential' mit 'Nernstbeziehung' zusammenhängt und welche der drei Rollen 'Überpotential', 'Stromdichte', 'Austauschstrom' dafür fachlich begründet ist."
+        }
+      ],
+      "six_field_candidate": {
+        "poles": [
+          "Redoxpaar",
+          "Aktivität",
+          "Elektrodenpotential"
+        ],
+        "pairs": [
+          {
+            "poles": [
+              0,
+              1
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          },
+          {
+            "poles": [
+              1,
+              2
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          },
+          {
+            "poles": [
+              2,
+              0
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          }
+        ],
+        "status": "UNVALIDATED_CANDIDATE"
+      },
+      "source_formula_anchor": "E=E°−RT/(nF)ln Q",
+      "review_status": "NOT_RECONCILED_WITH_ORIGINAL_PUBLICATION"
+    },
+    {
+      "id": "FACH-F036",
+      "title": "Photochemie",
+      "original_axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Absorption",
+            "Anregung",
+            "Relaxation"
+          ],
+          "original_status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Photonenfluss",
+            "Absorptionsquerschnitt",
+            "Anregungsrate"
+          ],
+          "original_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "angeregter Zustand",
+            "Konkurrenzkanal",
+            "Quantenausbeute"
+          ],
+          "original_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "nine_groups": [
+        {
+          "group_id": "FACH-F036-G1",
+          "semantic_heading": "Absorption / Photonenfluss",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                0,
+                0
+              ],
+              "third_axis_role": "angeregter Zustand"
+            },
+            {
+              "address": [
+                0,
+                0,
+                1
+              ],
+              "third_axis_role": "Konkurrenzkanal"
+            },
+            {
+              "address": [
+                0,
+                0,
+                2
+              ],
+              "third_axis_role": "Quantenausbeute"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Absorption' mit 'Photonenfluss' zusammenhängt und welche der drei Rollen 'angeregter Zustand', 'Konkurrenzkanal', 'Quantenausbeute' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F036-G2",
+          "semantic_heading": "Absorption / Absorptionsquerschnitt",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                1,
+                0
+              ],
+              "third_axis_role": "angeregter Zustand"
+            },
+            {
+              "address": [
+                0,
+                1,
+                1
+              ],
+              "third_axis_role": "Konkurrenzkanal"
+            },
+            {
+              "address": [
+                0,
+                1,
+                2
+              ],
+              "third_axis_role": "Quantenausbeute"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Absorption' mit 'Absorptionsquerschnitt' zusammenhängt und welche der drei Rollen 'angeregter Zustand', 'Konkurrenzkanal', 'Quantenausbeute' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F036-G3",
+          "semantic_heading": "Absorption / Anregungsrate",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                2,
+                0
+              ],
+              "third_axis_role": "angeregter Zustand"
+            },
+            {
+              "address": [
+                0,
+                2,
+                1
+              ],
+              "third_axis_role": "Konkurrenzkanal"
+            },
+            {
+              "address": [
+                0,
+                2,
+                2
+              ],
+              "third_axis_role": "Quantenausbeute"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Absorption' mit 'Anregungsrate' zusammenhängt und welche der drei Rollen 'angeregter Zustand', 'Konkurrenzkanal', 'Quantenausbeute' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F036-G4",
+          "semantic_heading": "Anregung / Photonenfluss",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                0,
+                0
+              ],
+              "third_axis_role": "angeregter Zustand"
+            },
+            {
+              "address": [
+                1,
+                0,
+                1
+              ],
+              "third_axis_role": "Konkurrenzkanal"
+            },
+            {
+              "address": [
+                1,
+                0,
+                2
+              ],
+              "third_axis_role": "Quantenausbeute"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Anregung' mit 'Photonenfluss' zusammenhängt und welche der drei Rollen 'angeregter Zustand', 'Konkurrenzkanal', 'Quantenausbeute' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F036-G5",
+          "semantic_heading": "Anregung / Absorptionsquerschnitt",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                1,
+                0
+              ],
+              "third_axis_role": "angeregter Zustand"
+            },
+            {
+              "address": [
+                1,
+                1,
+                1
+              ],
+              "third_axis_role": "Konkurrenzkanal"
+            },
+            {
+              "address": [
+                1,
+                1,
+                2
+              ],
+              "third_axis_role": "Quantenausbeute"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Anregung' mit 'Absorptionsquerschnitt' zusammenhängt und welche der drei Rollen 'angeregter Zustand', 'Konkurrenzkanal', 'Quantenausbeute' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F036-G6",
+          "semantic_heading": "Anregung / Anregungsrate",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                2,
+                0
+              ],
+              "third_axis_role": "angeregter Zustand"
+            },
+            {
+              "address": [
+                1,
+                2,
+                1
+              ],
+              "third_axis_role": "Konkurrenzkanal"
+            },
+            {
+              "address": [
+                1,
+                2,
+                2
+              ],
+              "third_axis_role": "Quantenausbeute"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Anregung' mit 'Anregungsrate' zusammenhängt und welche der drei Rollen 'angeregter Zustand', 'Konkurrenzkanal', 'Quantenausbeute' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F036-G7",
+          "semantic_heading": "Relaxation / Photonenfluss",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                0,
+                0
+              ],
+              "third_axis_role": "angeregter Zustand"
+            },
+            {
+              "address": [
+                2,
+                0,
+                1
+              ],
+              "third_axis_role": "Konkurrenzkanal"
+            },
+            {
+              "address": [
+                2,
+                0,
+                2
+              ],
+              "third_axis_role": "Quantenausbeute"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Relaxation' mit 'Photonenfluss' zusammenhängt und welche der drei Rollen 'angeregter Zustand', 'Konkurrenzkanal', 'Quantenausbeute' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F036-G8",
+          "semantic_heading": "Relaxation / Absorptionsquerschnitt",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                1,
+                0
+              ],
+              "third_axis_role": "angeregter Zustand"
+            },
+            {
+              "address": [
+                2,
+                1,
+                1
+              ],
+              "third_axis_role": "Konkurrenzkanal"
+            },
+            {
+              "address": [
+                2,
+                1,
+                2
+              ],
+              "third_axis_role": "Quantenausbeute"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Relaxation' mit 'Absorptionsquerschnitt' zusammenhängt und welche der drei Rollen 'angeregter Zustand', 'Konkurrenzkanal', 'Quantenausbeute' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F036-G9",
+          "semantic_heading": "Relaxation / Anregungsrate",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                2,
+                0
+              ],
+              "third_axis_role": "angeregter Zustand"
+            },
+            {
+              "address": [
+                2,
+                2,
+                1
+              ],
+              "third_axis_role": "Konkurrenzkanal"
+            },
+            {
+              "address": [
+                2,
+                2,
+                2
+              ],
+              "third_axis_role": "Quantenausbeute"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Relaxation' mit 'Anregungsrate' zusammenhängt und welche der drei Rollen 'angeregter Zustand', 'Konkurrenzkanal', 'Quantenausbeute' dafür fachlich begründet ist."
+        }
+      ],
+      "six_field_candidate": {
+        "poles": [
+          "Absorption",
+          "Anregung",
+          "Relaxation"
+        ],
+        "pairs": [
+          {
+            "poles": [
+              0,
+              1
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          },
+          {
+            "poles": [
+              1,
+              2
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          },
+          {
+            "poles": [
+              2,
+              0
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          }
+        ],
+        "status": "UNVALIDATED_CANDIDATE"
+      },
+      "source_formula_anchor": "Φ=k_r/Σk",
+      "review_status": "NOT_RECONCILED_WITH_ORIGINAL_PUBLICATION"
+    },
+    {
+      "id": "FACH-F037",
+      "title": "Supramolekulare Chemie",
+      "original_axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Erkennung",
+            "Bindung",
+            "Selbstorganisation"
+          ],
+          "original_status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Wirtsmolekül",
+            "Gastmolekül",
+            "Komplex"
+          ],
+          "original_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Bindungskonstante",
+            "Belegungsgrad",
+            "Sättigung"
+          ],
+          "original_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "nine_groups": [
+        {
+          "group_id": "FACH-F037-G1",
+          "semantic_heading": "Erkennung / Wirtsmolekül",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                0,
+                0
+              ],
+              "third_axis_role": "Bindungskonstante"
+            },
+            {
+              "address": [
+                0,
+                0,
+                1
+              ],
+              "third_axis_role": "Belegungsgrad"
+            },
+            {
+              "address": [
+                0,
+                0,
+                2
+              ],
+              "third_axis_role": "Sättigung"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Erkennung' mit 'Wirtsmolekül' zusammenhängt und welche der drei Rollen 'Bindungskonstante', 'Belegungsgrad', 'Sättigung' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F037-G2",
+          "semantic_heading": "Erkennung / Gastmolekül",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                1,
+                0
+              ],
+              "third_axis_role": "Bindungskonstante"
+            },
+            {
+              "address": [
+                0,
+                1,
+                1
+              ],
+              "third_axis_role": "Belegungsgrad"
+            },
+            {
+              "address": [
+                0,
+                1,
+                2
+              ],
+              "third_axis_role": "Sättigung"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Erkennung' mit 'Gastmolekül' zusammenhängt und welche der drei Rollen 'Bindungskonstante', 'Belegungsgrad', 'Sättigung' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F037-G3",
+          "semantic_heading": "Erkennung / Komplex",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                2,
+                0
+              ],
+              "third_axis_role": "Bindungskonstante"
+            },
+            {
+              "address": [
+                0,
+                2,
+                1
+              ],
+              "third_axis_role": "Belegungsgrad"
+            },
+            {
+              "address": [
+                0,
+                2,
+                2
+              ],
+              "third_axis_role": "Sättigung"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Erkennung' mit 'Komplex' zusammenhängt und welche der drei Rollen 'Bindungskonstante', 'Belegungsgrad', 'Sättigung' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F037-G4",
+          "semantic_heading": "Bindung / Wirtsmolekül",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                0,
+                0
+              ],
+              "third_axis_role": "Bindungskonstante"
+            },
+            {
+              "address": [
+                1,
+                0,
+                1
+              ],
+              "third_axis_role": "Belegungsgrad"
+            },
+            {
+              "address": [
+                1,
+                0,
+                2
+              ],
+              "third_axis_role": "Sättigung"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Bindung' mit 'Wirtsmolekül' zusammenhängt und welche der drei Rollen 'Bindungskonstante', 'Belegungsgrad', 'Sättigung' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F037-G5",
+          "semantic_heading": "Bindung / Gastmolekül",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                1,
+                0
+              ],
+              "third_axis_role": "Bindungskonstante"
+            },
+            {
+              "address": [
+                1,
+                1,
+                1
+              ],
+              "third_axis_role": "Belegungsgrad"
+            },
+            {
+              "address": [
+                1,
+                1,
+                2
+              ],
+              "third_axis_role": "Sättigung"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Bindung' mit 'Gastmolekül' zusammenhängt und welche der drei Rollen 'Bindungskonstante', 'Belegungsgrad', 'Sättigung' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F037-G6",
+          "semantic_heading": "Bindung / Komplex",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                2,
+                0
+              ],
+              "third_axis_role": "Bindungskonstante"
+            },
+            {
+              "address": [
+                1,
+                2,
+                1
+              ],
+              "third_axis_role": "Belegungsgrad"
+            },
+            {
+              "address": [
+                1,
+                2,
+                2
+              ],
+              "third_axis_role": "Sättigung"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Bindung' mit 'Komplex' zusammenhängt und welche der drei Rollen 'Bindungskonstante', 'Belegungsgrad', 'Sättigung' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F037-G7",
+          "semantic_heading": "Selbstorganisation / Wirtsmolekül",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                0,
+                0
+              ],
+              "third_axis_role": "Bindungskonstante"
+            },
+            {
+              "address": [
+                2,
+                0,
+                1
+              ],
+              "third_axis_role": "Belegungsgrad"
+            },
+            {
+              "address": [
+                2,
+                0,
+                2
+              ],
+              "third_axis_role": "Sättigung"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Selbstorganisation' mit 'Wirtsmolekül' zusammenhängt und welche der drei Rollen 'Bindungskonstante', 'Belegungsgrad', 'Sättigung' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F037-G8",
+          "semantic_heading": "Selbstorganisation / Gastmolekül",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                1,
+                0
+              ],
+              "third_axis_role": "Bindungskonstante"
+            },
+            {
+              "address": [
+                2,
+                1,
+                1
+              ],
+              "third_axis_role": "Belegungsgrad"
+            },
+            {
+              "address": [
+                2,
+                1,
+                2
+              ],
+              "third_axis_role": "Sättigung"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Selbstorganisation' mit 'Gastmolekül' zusammenhängt und welche der drei Rollen 'Bindungskonstante', 'Belegungsgrad', 'Sättigung' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F037-G9",
+          "semantic_heading": "Selbstorganisation / Komplex",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                2,
+                0
+              ],
+              "third_axis_role": "Bindungskonstante"
+            },
+            {
+              "address": [
+                2,
+                2,
+                1
+              ],
+              "third_axis_role": "Belegungsgrad"
+            },
+            {
+              "address": [
+                2,
+                2,
+                2
+              ],
+              "third_axis_role": "Sättigung"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Selbstorganisation' mit 'Komplex' zusammenhängt und welche der drei Rollen 'Bindungskonstante', 'Belegungsgrad', 'Sättigung' dafür fachlich begründet ist."
+        }
+      ],
+      "six_field_candidate": {
+        "poles": [
+          "Erkennung",
+          "Bindung",
+          "Selbstorganisation"
+        ],
+        "pairs": [
+          {
+            "poles": [
+              0,
+              1
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          },
+          {
+            "poles": [
+              1,
+              2
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          },
+          {
+            "poles": [
+              2,
+              0
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          }
+        ],
+        "status": "UNVALIDATED_CANDIDATE"
+      },
+      "source_formula_anchor": "θ=c/(K_d+c)",
+      "review_status": "NOT_RECONCILED_WITH_ORIGINAL_PUBLICATION"
+    },
+    {
+      "id": "FACH-F038",
+      "title": "Polymerchemie",
+      "original_axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Monomer",
+            "Kettenwachstum",
+            "Verteilung"
+          ],
+          "original_status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Initiierung",
+            "Propagation",
+            "Termination"
+          ],
+          "original_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Polymerisationsgrad",
+            "Molmassenverteilung",
+            "Dispersität"
+          ],
+          "original_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "nine_groups": [
+        {
+          "group_id": "FACH-F038-G1",
+          "semantic_heading": "Monomer / Initiierung",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                0,
+                0
+              ],
+              "third_axis_role": "Polymerisationsgrad"
+            },
+            {
+              "address": [
+                0,
+                0,
+                1
+              ],
+              "third_axis_role": "Molmassenverteilung"
+            },
+            {
+              "address": [
+                0,
+                0,
+                2
+              ],
+              "third_axis_role": "Dispersität"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Monomer' mit 'Initiierung' zusammenhängt und welche der drei Rollen 'Polymerisationsgrad', 'Molmassenverteilung', 'Dispersität' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F038-G2",
+          "semantic_heading": "Monomer / Propagation",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                1,
+                0
+              ],
+              "third_axis_role": "Polymerisationsgrad"
+            },
+            {
+              "address": [
+                0,
+                1,
+                1
+              ],
+              "third_axis_role": "Molmassenverteilung"
+            },
+            {
+              "address": [
+                0,
+                1,
+                2
+              ],
+              "third_axis_role": "Dispersität"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Monomer' mit 'Propagation' zusammenhängt und welche der drei Rollen 'Polymerisationsgrad', 'Molmassenverteilung', 'Dispersität' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F038-G3",
+          "semantic_heading": "Monomer / Termination",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                2,
+                0
+              ],
+              "third_axis_role": "Polymerisationsgrad"
+            },
+            {
+              "address": [
+                0,
+                2,
+                1
+              ],
+              "third_axis_role": "Molmassenverteilung"
+            },
+            {
+              "address": [
+                0,
+                2,
+                2
+              ],
+              "third_axis_role": "Dispersität"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Monomer' mit 'Termination' zusammenhängt und welche der drei Rollen 'Polymerisationsgrad', 'Molmassenverteilung', 'Dispersität' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F038-G4",
+          "semantic_heading": "Kettenwachstum / Initiierung",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                0,
+                0
+              ],
+              "third_axis_role": "Polymerisationsgrad"
+            },
+            {
+              "address": [
+                1,
+                0,
+                1
+              ],
+              "third_axis_role": "Molmassenverteilung"
+            },
+            {
+              "address": [
+                1,
+                0,
+                2
+              ],
+              "third_axis_role": "Dispersität"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Kettenwachstum' mit 'Initiierung' zusammenhängt und welche der drei Rollen 'Polymerisationsgrad', 'Molmassenverteilung', 'Dispersität' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F038-G5",
+          "semantic_heading": "Kettenwachstum / Propagation",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                1,
+                0
+              ],
+              "third_axis_role": "Polymerisationsgrad"
+            },
+            {
+              "address": [
+                1,
+                1,
+                1
+              ],
+              "third_axis_role": "Molmassenverteilung"
+            },
+            {
+              "address": [
+                1,
+                1,
+                2
+              ],
+              "third_axis_role": "Dispersität"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Kettenwachstum' mit 'Propagation' zusammenhängt und welche der drei Rollen 'Polymerisationsgrad', 'Molmassenverteilung', 'Dispersität' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F038-G6",
+          "semantic_heading": "Kettenwachstum / Termination",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                2,
+                0
+              ],
+              "third_axis_role": "Polymerisationsgrad"
+            },
+            {
+              "address": [
+                1,
+                2,
+                1
+              ],
+              "third_axis_role": "Molmassenverteilung"
+            },
+            {
+              "address": [
+                1,
+                2,
+                2
+              ],
+              "third_axis_role": "Dispersität"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Kettenwachstum' mit 'Termination' zusammenhängt und welche der drei Rollen 'Polymerisationsgrad', 'Molmassenverteilung', 'Dispersität' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F038-G7",
+          "semantic_heading": "Verteilung / Initiierung",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                0,
+                0
+              ],
+              "third_axis_role": "Polymerisationsgrad"
+            },
+            {
+              "address": [
+                2,
+                0,
+                1
+              ],
+              "third_axis_role": "Molmassenverteilung"
+            },
+            {
+              "address": [
+                2,
+                0,
+                2
+              ],
+              "third_axis_role": "Dispersität"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Verteilung' mit 'Initiierung' zusammenhängt und welche der drei Rollen 'Polymerisationsgrad', 'Molmassenverteilung', 'Dispersität' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F038-G8",
+          "semantic_heading": "Verteilung / Propagation",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                1,
+                0
+              ],
+              "third_axis_role": "Polymerisationsgrad"
+            },
+            {
+              "address": [
+                2,
+                1,
+                1
+              ],
+              "third_axis_role": "Molmassenverteilung"
+            },
+            {
+              "address": [
+                2,
+                1,
+                2
+              ],
+              "third_axis_role": "Dispersität"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Verteilung' mit 'Propagation' zusammenhängt und welche der drei Rollen 'Polymerisationsgrad', 'Molmassenverteilung', 'Dispersität' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F038-G9",
+          "semantic_heading": "Verteilung / Termination",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                2,
+                0
+              ],
+              "third_axis_role": "Polymerisationsgrad"
+            },
+            {
+              "address": [
+                2,
+                2,
+                1
+              ],
+              "third_axis_role": "Molmassenverteilung"
+            },
+            {
+              "address": [
+                2,
+                2,
+                2
+              ],
+              "third_axis_role": "Dispersität"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Verteilung' mit 'Termination' zusammenhängt und welche der drei Rollen 'Polymerisationsgrad', 'Molmassenverteilung', 'Dispersität' dafür fachlich begründet ist."
+        }
+      ],
+      "six_field_candidate": {
+        "poles": [
+          "Monomer",
+          "Kettenwachstum",
+          "Verteilung"
+        ],
+        "pairs": [
+          {
+            "poles": [
+              0,
+              1
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          },
+          {
+            "poles": [
+              1,
+              2
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          },
+          {
+            "poles": [
+              2,
+              0
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          }
+        ],
+        "status": "UNVALIDATED_CANDIDATE"
+      },
+      "source_formula_anchor": "X_n=1/(1−p)",
+      "review_status": "NOT_RECONCILED_WITH_ORIGINAL_PUBLICATION"
+    },
+    {
+      "id": "FACH-F039",
+      "title": "Katalyse",
+      "original_axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Adsorption",
+            "Reaktionsschritt",
+            "Desorption"
+          ],
+          "original_status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Oberflächenplatz",
+            "Adsorbat",
+            "Bedeckung"
+          ],
+          "original_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Reaktionsbarriere",
+            "Turnoverfrequenz",
+            "Selektivität"
+          ],
+          "original_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "nine_groups": [
+        {
+          "group_id": "FACH-F039-G1",
+          "semantic_heading": "Adsorption / Oberflächenplatz",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                0,
+                0
+              ],
+              "third_axis_role": "Reaktionsbarriere"
+            },
+            {
+              "address": [
+                0,
+                0,
+                1
+              ],
+              "third_axis_role": "Turnoverfrequenz"
+            },
+            {
+              "address": [
+                0,
+                0,
+                2
+              ],
+              "third_axis_role": "Selektivität"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Adsorption' mit 'Oberflächenplatz' zusammenhängt und welche der drei Rollen 'Reaktionsbarriere', 'Turnoverfrequenz', 'Selektivität' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F039-G2",
+          "semantic_heading": "Adsorption / Adsorbat",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                1,
+                0
+              ],
+              "third_axis_role": "Reaktionsbarriere"
+            },
+            {
+              "address": [
+                0,
+                1,
+                1
+              ],
+              "third_axis_role": "Turnoverfrequenz"
+            },
+            {
+              "address": [
+                0,
+                1,
+                2
+              ],
+              "third_axis_role": "Selektivität"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Adsorption' mit 'Adsorbat' zusammenhängt und welche der drei Rollen 'Reaktionsbarriere', 'Turnoverfrequenz', 'Selektivität' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F039-G3",
+          "semantic_heading": "Adsorption / Bedeckung",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                2,
+                0
+              ],
+              "third_axis_role": "Reaktionsbarriere"
+            },
+            {
+              "address": [
+                0,
+                2,
+                1
+              ],
+              "third_axis_role": "Turnoverfrequenz"
+            },
+            {
+              "address": [
+                0,
+                2,
+                2
+              ],
+              "third_axis_role": "Selektivität"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Adsorption' mit 'Bedeckung' zusammenhängt und welche der drei Rollen 'Reaktionsbarriere', 'Turnoverfrequenz', 'Selektivität' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F039-G4",
+          "semantic_heading": "Reaktionsschritt / Oberflächenplatz",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                0,
+                0
+              ],
+              "third_axis_role": "Reaktionsbarriere"
+            },
+            {
+              "address": [
+                1,
+                0,
+                1
+              ],
+              "third_axis_role": "Turnoverfrequenz"
+            },
+            {
+              "address": [
+                1,
+                0,
+                2
+              ],
+              "third_axis_role": "Selektivität"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Reaktionsschritt' mit 'Oberflächenplatz' zusammenhängt und welche der drei Rollen 'Reaktionsbarriere', 'Turnoverfrequenz', 'Selektivität' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F039-G5",
+          "semantic_heading": "Reaktionsschritt / Adsorbat",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                1,
+                0
+              ],
+              "third_axis_role": "Reaktionsbarriere"
+            },
+            {
+              "address": [
+                1,
+                1,
+                1
+              ],
+              "third_axis_role": "Turnoverfrequenz"
+            },
+            {
+              "address": [
+                1,
+                1,
+                2
+              ],
+              "third_axis_role": "Selektivität"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Reaktionsschritt' mit 'Adsorbat' zusammenhängt und welche der drei Rollen 'Reaktionsbarriere', 'Turnoverfrequenz', 'Selektivität' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F039-G6",
+          "semantic_heading": "Reaktionsschritt / Bedeckung",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                2,
+                0
+              ],
+              "third_axis_role": "Reaktionsbarriere"
+            },
+            {
+              "address": [
+                1,
+                2,
+                1
+              ],
+              "third_axis_role": "Turnoverfrequenz"
+            },
+            {
+              "address": [
+                1,
+                2,
+                2
+              ],
+              "third_axis_role": "Selektivität"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Reaktionsschritt' mit 'Bedeckung' zusammenhängt und welche der drei Rollen 'Reaktionsbarriere', 'Turnoverfrequenz', 'Selektivität' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F039-G7",
+          "semantic_heading": "Desorption / Oberflächenplatz",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                0,
+                0
+              ],
+              "third_axis_role": "Reaktionsbarriere"
+            },
+            {
+              "address": [
+                2,
+                0,
+                1
+              ],
+              "third_axis_role": "Turnoverfrequenz"
+            },
+            {
+              "address": [
+                2,
+                0,
+                2
+              ],
+              "third_axis_role": "Selektivität"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Desorption' mit 'Oberflächenplatz' zusammenhängt und welche der drei Rollen 'Reaktionsbarriere', 'Turnoverfrequenz', 'Selektivität' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F039-G8",
+          "semantic_heading": "Desorption / Adsorbat",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                1,
+                0
+              ],
+              "third_axis_role": "Reaktionsbarriere"
+            },
+            {
+              "address": [
+                2,
+                1,
+                1
+              ],
+              "third_axis_role": "Turnoverfrequenz"
+            },
+            {
+              "address": [
+                2,
+                1,
+                2
+              ],
+              "third_axis_role": "Selektivität"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Desorption' mit 'Adsorbat' zusammenhängt und welche der drei Rollen 'Reaktionsbarriere', 'Turnoverfrequenz', 'Selektivität' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F039-G9",
+          "semantic_heading": "Desorption / Bedeckung",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                2,
+                0
+              ],
+              "third_axis_role": "Reaktionsbarriere"
+            },
+            {
+              "address": [
+                2,
+                2,
+                1
+              ],
+              "third_axis_role": "Turnoverfrequenz"
+            },
+            {
+              "address": [
+                2,
+                2,
+                2
+              ],
+              "third_axis_role": "Selektivität"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Desorption' mit 'Bedeckung' zusammenhängt und welche der drei Rollen 'Reaktionsbarriere', 'Turnoverfrequenz', 'Selektivität' dafür fachlich begründet ist."
+        }
+      ],
+      "six_field_candidate": {
+        "poles": [
+          "Adsorption",
+          "Reaktionsschritt",
+          "Desorption"
+        ],
+        "pairs": [
+          {
+            "poles": [
+              0,
+              1
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          },
+          {
+            "poles": [
+              1,
+              2
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          },
+          {
+            "poles": [
+              2,
+              0
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          }
+        ],
+        "status": "UNVALIDATED_CANDIDATE"
+      },
+      "source_formula_anchor": "θ=KC/(1+KC)",
+      "review_status": "NOT_RECONCILED_WITH_ORIGINAL_PUBLICATION"
+    },
+    {
+      "id": "FACH-F040",
+      "title": "Analytische Chemie",
+      "original_axes": [
+        {
+          "axis": 1,
+          "roles": [
+            "Analyt",
+            "Messsignal",
+            "Kalibrierung"
+          ],
+          "original_status": "VORGEPRUEFT"
+        },
+        {
+          "axis": 2,
+          "roles": [
+            "Analytkonzentration",
+            "Antwortfunktion",
+            "Signal"
+          ],
+          "original_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis": 3,
+          "roles": [
+            "Blindwert",
+            "Messunsicherheit",
+            "Nachweisgrenze"
+          ],
+          "original_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "nine_groups": [
+        {
+          "group_id": "FACH-F040-G1",
+          "semantic_heading": "Analyt / Analytkonzentration",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                0,
+                0
+              ],
+              "third_axis_role": "Blindwert"
+            },
+            {
+              "address": [
+                0,
+                0,
+                1
+              ],
+              "third_axis_role": "Messunsicherheit"
+            },
+            {
+              "address": [
+                0,
+                0,
+                2
+              ],
+              "third_axis_role": "Nachweisgrenze"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Analyt' mit 'Analytkonzentration' zusammenhängt und welche der drei Rollen 'Blindwert', 'Messunsicherheit', 'Nachweisgrenze' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F040-G2",
+          "semantic_heading": "Analyt / Antwortfunktion",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                1,
+                0
+              ],
+              "third_axis_role": "Blindwert"
+            },
+            {
+              "address": [
+                0,
+                1,
+                1
+              ],
+              "third_axis_role": "Messunsicherheit"
+            },
+            {
+              "address": [
+                0,
+                1,
+                2
+              ],
+              "third_axis_role": "Nachweisgrenze"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Analyt' mit 'Antwortfunktion' zusammenhängt und welche der drei Rollen 'Blindwert', 'Messunsicherheit', 'Nachweisgrenze' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F040-G3",
+          "semantic_heading": "Analyt / Signal",
+          "field_addresses": [
+            {
+              "address": [
+                0,
+                2,
+                0
+              ],
+              "third_axis_role": "Blindwert"
+            },
+            {
+              "address": [
+                0,
+                2,
+                1
+              ],
+              "third_axis_role": "Messunsicherheit"
+            },
+            {
+              "address": [
+                0,
+                2,
+                2
+              ],
+              "third_axis_role": "Nachweisgrenze"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Analyt' mit 'Signal' zusammenhängt und welche der drei Rollen 'Blindwert', 'Messunsicherheit', 'Nachweisgrenze' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F040-G4",
+          "semantic_heading": "Messsignal / Analytkonzentration",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                0,
+                0
+              ],
+              "third_axis_role": "Blindwert"
+            },
+            {
+              "address": [
+                1,
+                0,
+                1
+              ],
+              "third_axis_role": "Messunsicherheit"
+            },
+            {
+              "address": [
+                1,
+                0,
+                2
+              ],
+              "third_axis_role": "Nachweisgrenze"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Messsignal' mit 'Analytkonzentration' zusammenhängt und welche der drei Rollen 'Blindwert', 'Messunsicherheit', 'Nachweisgrenze' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F040-G5",
+          "semantic_heading": "Messsignal / Antwortfunktion",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                1,
+                0
+              ],
+              "third_axis_role": "Blindwert"
+            },
+            {
+              "address": [
+                1,
+                1,
+                1
+              ],
+              "third_axis_role": "Messunsicherheit"
+            },
+            {
+              "address": [
+                1,
+                1,
+                2
+              ],
+              "third_axis_role": "Nachweisgrenze"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Messsignal' mit 'Antwortfunktion' zusammenhängt und welche der drei Rollen 'Blindwert', 'Messunsicherheit', 'Nachweisgrenze' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F040-G6",
+          "semantic_heading": "Messsignal / Signal",
+          "field_addresses": [
+            {
+              "address": [
+                1,
+                2,
+                0
+              ],
+              "third_axis_role": "Blindwert"
+            },
+            {
+              "address": [
+                1,
+                2,
+                1
+              ],
+              "third_axis_role": "Messunsicherheit"
+            },
+            {
+              "address": [
+                1,
+                2,
+                2
+              ],
+              "third_axis_role": "Nachweisgrenze"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Messsignal' mit 'Signal' zusammenhängt und welche der drei Rollen 'Blindwert', 'Messunsicherheit', 'Nachweisgrenze' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F040-G7",
+          "semantic_heading": "Kalibrierung / Analytkonzentration",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                0,
+                0
+              ],
+              "third_axis_role": "Blindwert"
+            },
+            {
+              "address": [
+                2,
+                0,
+                1
+              ],
+              "third_axis_role": "Messunsicherheit"
+            },
+            {
+              "address": [
+                2,
+                0,
+                2
+              ],
+              "third_axis_role": "Nachweisgrenze"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Kalibrierung' mit 'Analytkonzentration' zusammenhängt und welche der drei Rollen 'Blindwert', 'Messunsicherheit', 'Nachweisgrenze' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F040-G8",
+          "semantic_heading": "Kalibrierung / Antwortfunktion",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                1,
+                0
+              ],
+              "third_axis_role": "Blindwert"
+            },
+            {
+              "address": [
+                2,
+                1,
+                1
+              ],
+              "third_axis_role": "Messunsicherheit"
+            },
+            {
+              "address": [
+                2,
+                1,
+                2
+              ],
+              "third_axis_role": "Nachweisgrenze"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Kalibrierung' mit 'Antwortfunktion' zusammenhängt und welche der drei Rollen 'Blindwert', 'Messunsicherheit', 'Nachweisgrenze' dafür fachlich begründet ist."
+        },
+        {
+          "group_id": "FACH-F040-G9",
+          "semantic_heading": "Kalibrierung / Signal",
+          "field_addresses": [
+            {
+              "address": [
+                2,
+                2,
+                0
+              ],
+              "third_axis_role": "Blindwert"
+            },
+            {
+              "address": [
+                2,
+                2,
+                1
+              ],
+              "third_axis_role": "Messunsicherheit"
+            },
+            {
+              "address": [
+                2,
+                2,
+                2
+              ],
+              "third_axis_role": "Nachweisgrenze"
+            }
+          ],
+          "status": "STRUCTURAL_ONLY",
+          "simple_sentence": "Untersuche, wie 'Kalibrierung' mit 'Signal' zusammenhängt und welche der drei Rollen 'Blindwert', 'Messunsicherheit', 'Nachweisgrenze' dafür fachlich begründet ist."
+        }
+      ],
+      "six_field_candidate": {
+        "poles": [
+          "Analyt",
+          "Messsignal",
+          "Kalibrierung"
+        ],
+        "pairs": [
+          {
+            "poles": [
+              0,
+              1
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          },
+          {
+            "poles": [
+              1,
+              2
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          },
+          {
+            "poles": [
+              2,
+              0
+            ],
+            "relation": "UNDEFINED",
+            "status": "OPEN"
+          }
+        ],
+        "status": "UNVALIDATED_CANDIDATE"
+      },
+      "source_formula_anchor": "A=εlc",
+      "review_status": "NOT_RECONCILED_WITH_ORIGINAL_PUBLICATION"
+    }
+  ]
+}
