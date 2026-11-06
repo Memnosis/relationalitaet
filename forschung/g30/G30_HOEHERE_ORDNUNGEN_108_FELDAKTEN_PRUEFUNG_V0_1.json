@@ -1,0 +1,5377 @@
+{
+  "schema": "g30-higher-order-fields/0.1",
+  "date": "2026-11-06",
+  "status": "STRUCTURE_COMPLETE_DOMAIN_OPEN",
+  "worlds": [
+    {
+      "id": "W-LU-MED",
+      "name": "Kommunikation – Sinn – Medien",
+      "axes": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "focus": "höhere Medienordnungen und kommunikative Möglichkeiten",
+      "axis_roles": [
+        [
+          "Information",
+          "Mitteilung",
+          "Verstehen"
+        ],
+        [
+          "Sachdimension",
+          "Zeitdimension",
+          "Sozialdimension"
+        ],
+        [
+          "Sprache",
+          "Verbreitungsmedien",
+          "symbolisch generalisierte Medien"
+        ]
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json"
+    },
+    {
+      "id": "W-LU-EVO",
+      "name": "Kommunikation – Sinn – Evolution",
+      "axes": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "focus": "Veränderung der Kommunikation über Sinnbezüge",
+      "axis_roles": [
+        [
+          "Information",
+          "Mitteilung",
+          "Verstehen"
+        ],
+        [
+          "Sachdimension",
+          "Zeitdimension",
+          "Sozialdimension"
+        ],
+        [
+          "Variation",
+          "Selektion",
+          "Restabilisierung"
+        ]
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json"
+    },
+    {
+      "id": "W-LU-SYS",
+      "name": "Kommunikation – Evolution – Systemformen",
+      "axes": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "focus": "verschiedene Systeme, Variation und Restabilisierung",
+      "axis_roles": [
+        [
+          "Information",
+          "Mitteilung",
+          "Verstehen"
+        ],
+        [
+          "Variation",
+          "Selektion",
+          "Restabilisierung"
+        ],
+        [
+          "Interaktion",
+          "Organisation",
+          "Gesellschaft"
+        ]
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json"
+    },
+    {
+      "id": "MED-27",
+      "name": "Höhere Medienordnung",
+      "axes": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "axis_roles": [
+        [
+          "Zeichen/Bezug",
+          "kommunikative Auswahl/Verstehen",
+          "Vermittlung/kollektive Weiterverarbeitung"
+        ],
+        [
+          "Unterscheiden und Codieren",
+          "Übertragen und Transformieren",
+          "Rekonstruieren und Prüfen"
+        ],
+        [
+          "Bedingungen/Quelle",
+          "tatsächlicher Vollzug/Verlust",
+          "Ergebnis/Invariante/Gegenprobe"
+        ]
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "status": "own_project_candidate"
+    }
+  ],
+  "fields": [
+    {
+      "id": "W-LU-MED#000",
+      "tensor_id": "W-LU-MED",
+      "address": "000",
+      "coordinates": [
+        0,
+        0,
+        0
+      ],
+      "roles": [
+        "Information",
+        "Sachdimension",
+        "Sprache"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Sachdimension",
+        "verification": "Prüfe die Rolle 'Sprache' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-MED#001",
+      "tensor_id": "W-LU-MED",
+      "address": "001",
+      "coordinates": [
+        0,
+        0,
+        1
+      ],
+      "roles": [
+        "Information",
+        "Sachdimension",
+        "Verbreitungsmedien"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Sachdimension",
+        "verification": "Prüfe die Rolle 'Verbreitungsmedien' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-MED#002",
+      "tensor_id": "W-LU-MED",
+      "address": "002",
+      "coordinates": [
+        0,
+        0,
+        2
+      ],
+      "roles": [
+        "Information",
+        "Sachdimension",
+        "symbolisch generalisierte Medien"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Sachdimension",
+        "verification": "Prüfe die Rolle 'symbolisch generalisierte Medien' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-MED#010",
+      "tensor_id": "W-LU-MED",
+      "address": "010",
+      "coordinates": [
+        0,
+        1,
+        0
+      ],
+      "roles": [
+        "Information",
+        "Zeitdimension",
+        "Sprache"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Zeitdimension",
+        "verification": "Prüfe die Rolle 'Sprache' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-MED#011",
+      "tensor_id": "W-LU-MED",
+      "address": "011",
+      "coordinates": [
+        0,
+        1,
+        1
+      ],
+      "roles": [
+        "Information",
+        "Zeitdimension",
+        "Verbreitungsmedien"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Zeitdimension",
+        "verification": "Prüfe die Rolle 'Verbreitungsmedien' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-MED#012",
+      "tensor_id": "W-LU-MED",
+      "address": "012",
+      "coordinates": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "Information",
+        "Zeitdimension",
+        "symbolisch generalisierte Medien"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Zeitdimension",
+        "verification": "Prüfe die Rolle 'symbolisch generalisierte Medien' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-MED#020",
+      "tensor_id": "W-LU-MED",
+      "address": "020",
+      "coordinates": [
+        0,
+        2,
+        0
+      ],
+      "roles": [
+        "Information",
+        "Sozialdimension",
+        "Sprache"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Sozialdimension",
+        "verification": "Prüfe die Rolle 'Sprache' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-MED#021",
+      "tensor_id": "W-LU-MED",
+      "address": "021",
+      "coordinates": [
+        0,
+        2,
+        1
+      ],
+      "roles": [
+        "Information",
+        "Sozialdimension",
+        "Verbreitungsmedien"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Sozialdimension",
+        "verification": "Prüfe die Rolle 'Verbreitungsmedien' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-MED#022",
+      "tensor_id": "W-LU-MED",
+      "address": "022",
+      "coordinates": [
+        0,
+        2,
+        2
+      ],
+      "roles": [
+        "Information",
+        "Sozialdimension",
+        "symbolisch generalisierte Medien"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Sozialdimension",
+        "verification": "Prüfe die Rolle 'symbolisch generalisierte Medien' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-MED#100",
+      "tensor_id": "W-LU-MED",
+      "address": "100",
+      "coordinates": [
+        1,
+        0,
+        0
+      ],
+      "roles": [
+        "Mitteilung",
+        "Sachdimension",
+        "Sprache"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Sachdimension",
+        "verification": "Prüfe die Rolle 'Sprache' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-MED#101",
+      "tensor_id": "W-LU-MED",
+      "address": "101",
+      "coordinates": [
+        1,
+        0,
+        1
+      ],
+      "roles": [
+        "Mitteilung",
+        "Sachdimension",
+        "Verbreitungsmedien"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Sachdimension",
+        "verification": "Prüfe die Rolle 'Verbreitungsmedien' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-MED#102",
+      "tensor_id": "W-LU-MED",
+      "address": "102",
+      "coordinates": [
+        1,
+        0,
+        2
+      ],
+      "roles": [
+        "Mitteilung",
+        "Sachdimension",
+        "symbolisch generalisierte Medien"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Sachdimension",
+        "verification": "Prüfe die Rolle 'symbolisch generalisierte Medien' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-MED#110",
+      "tensor_id": "W-LU-MED",
+      "address": "110",
+      "coordinates": [
+        1,
+        1,
+        0
+      ],
+      "roles": [
+        "Mitteilung",
+        "Zeitdimension",
+        "Sprache"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Zeitdimension",
+        "verification": "Prüfe die Rolle 'Sprache' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-MED#111",
+      "tensor_id": "W-LU-MED",
+      "address": "111",
+      "coordinates": [
+        1,
+        1,
+        1
+      ],
+      "roles": [
+        "Mitteilung",
+        "Zeitdimension",
+        "Verbreitungsmedien"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Zeitdimension",
+        "verification": "Prüfe die Rolle 'Verbreitungsmedien' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-MED#112",
+      "tensor_id": "W-LU-MED",
+      "address": "112",
+      "coordinates": [
+        1,
+        1,
+        2
+      ],
+      "roles": [
+        "Mitteilung",
+        "Zeitdimension",
+        "symbolisch generalisierte Medien"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Zeitdimension",
+        "verification": "Prüfe die Rolle 'symbolisch generalisierte Medien' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-MED#120",
+      "tensor_id": "W-LU-MED",
+      "address": "120",
+      "coordinates": [
+        1,
+        2,
+        0
+      ],
+      "roles": [
+        "Mitteilung",
+        "Sozialdimension",
+        "Sprache"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Sozialdimension",
+        "verification": "Prüfe die Rolle 'Sprache' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-MED#121",
+      "tensor_id": "W-LU-MED",
+      "address": "121",
+      "coordinates": [
+        1,
+        2,
+        1
+      ],
+      "roles": [
+        "Mitteilung",
+        "Sozialdimension",
+        "Verbreitungsmedien"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Sozialdimension",
+        "verification": "Prüfe die Rolle 'Verbreitungsmedien' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-MED#122",
+      "tensor_id": "W-LU-MED",
+      "address": "122",
+      "coordinates": [
+        1,
+        2,
+        2
+      ],
+      "roles": [
+        "Mitteilung",
+        "Sozialdimension",
+        "symbolisch generalisierte Medien"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Sozialdimension",
+        "verification": "Prüfe die Rolle 'symbolisch generalisierte Medien' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-MED#200",
+      "tensor_id": "W-LU-MED",
+      "address": "200",
+      "coordinates": [
+        2,
+        0,
+        0
+      ],
+      "roles": [
+        "Verstehen",
+        "Sachdimension",
+        "Sprache"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Sachdimension",
+        "verification": "Prüfe die Rolle 'Sprache' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-MED#201",
+      "tensor_id": "W-LU-MED",
+      "address": "201",
+      "coordinates": [
+        2,
+        0,
+        1
+      ],
+      "roles": [
+        "Verstehen",
+        "Sachdimension",
+        "Verbreitungsmedien"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Sachdimension",
+        "verification": "Prüfe die Rolle 'Verbreitungsmedien' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-MED#202",
+      "tensor_id": "W-LU-MED",
+      "address": "202",
+      "coordinates": [
+        2,
+        0,
+        2
+      ],
+      "roles": [
+        "Verstehen",
+        "Sachdimension",
+        "symbolisch generalisierte Medien"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Sachdimension",
+        "verification": "Prüfe die Rolle 'symbolisch generalisierte Medien' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-MED#210",
+      "tensor_id": "W-LU-MED",
+      "address": "210",
+      "coordinates": [
+        2,
+        1,
+        0
+      ],
+      "roles": [
+        "Verstehen",
+        "Zeitdimension",
+        "Sprache"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Zeitdimension",
+        "verification": "Prüfe die Rolle 'Sprache' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-MED#211",
+      "tensor_id": "W-LU-MED",
+      "address": "211",
+      "coordinates": [
+        2,
+        1,
+        1
+      ],
+      "roles": [
+        "Verstehen",
+        "Zeitdimension",
+        "Verbreitungsmedien"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Zeitdimension",
+        "verification": "Prüfe die Rolle 'Verbreitungsmedien' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-MED#212",
+      "tensor_id": "W-LU-MED",
+      "address": "212",
+      "coordinates": [
+        2,
+        1,
+        2
+      ],
+      "roles": [
+        "Verstehen",
+        "Zeitdimension",
+        "symbolisch generalisierte Medien"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Zeitdimension",
+        "verification": "Prüfe die Rolle 'symbolisch generalisierte Medien' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-MED#220",
+      "tensor_id": "W-LU-MED",
+      "address": "220",
+      "coordinates": [
+        2,
+        2,
+        0
+      ],
+      "roles": [
+        "Verstehen",
+        "Sozialdimension",
+        "Sprache"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Sozialdimension",
+        "verification": "Prüfe die Rolle 'Sprache' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-MED#221",
+      "tensor_id": "W-LU-MED",
+      "address": "221",
+      "coordinates": [
+        2,
+        2,
+        1
+      ],
+      "roles": [
+        "Verstehen",
+        "Sozialdimension",
+        "Verbreitungsmedien"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Sozialdimension",
+        "verification": "Prüfe die Rolle 'Verbreitungsmedien' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-MED#222",
+      "tensor_id": "W-LU-MED",
+      "address": "222",
+      "coordinates": [
+        2,
+        2,
+        2
+      ],
+      "roles": [
+        "Verstehen",
+        "Sozialdimension",
+        "symbolisch generalisierte Medien"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-05"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Sozialdimension",
+        "verification": "Prüfe die Rolle 'symbolisch generalisierte Medien' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#000",
+      "tensor_id": "W-LU-EVO",
+      "address": "000",
+      "coordinates": [
+        0,
+        0,
+        0
+      ],
+      "roles": [
+        "Information",
+        "Sachdimension",
+        "Variation"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Sachdimension",
+        "verification": "Prüfe die Rolle 'Variation' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#001",
+      "tensor_id": "W-LU-EVO",
+      "address": "001",
+      "coordinates": [
+        0,
+        0,
+        1
+      ],
+      "roles": [
+        "Information",
+        "Sachdimension",
+        "Selektion"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Sachdimension",
+        "verification": "Prüfe die Rolle 'Selektion' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#002",
+      "tensor_id": "W-LU-EVO",
+      "address": "002",
+      "coordinates": [
+        0,
+        0,
+        2
+      ],
+      "roles": [
+        "Information",
+        "Sachdimension",
+        "Restabilisierung"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Sachdimension",
+        "verification": "Prüfe die Rolle 'Restabilisierung' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#010",
+      "tensor_id": "W-LU-EVO",
+      "address": "010",
+      "coordinates": [
+        0,
+        1,
+        0
+      ],
+      "roles": [
+        "Information",
+        "Zeitdimension",
+        "Variation"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Zeitdimension",
+        "verification": "Prüfe die Rolle 'Variation' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#011",
+      "tensor_id": "W-LU-EVO",
+      "address": "011",
+      "coordinates": [
+        0,
+        1,
+        1
+      ],
+      "roles": [
+        "Information",
+        "Zeitdimension",
+        "Selektion"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Zeitdimension",
+        "verification": "Prüfe die Rolle 'Selektion' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#012",
+      "tensor_id": "W-LU-EVO",
+      "address": "012",
+      "coordinates": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "Information",
+        "Zeitdimension",
+        "Restabilisierung"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Zeitdimension",
+        "verification": "Prüfe die Rolle 'Restabilisierung' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#020",
+      "tensor_id": "W-LU-EVO",
+      "address": "020",
+      "coordinates": [
+        0,
+        2,
+        0
+      ],
+      "roles": [
+        "Information",
+        "Sozialdimension",
+        "Variation"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Sozialdimension",
+        "verification": "Prüfe die Rolle 'Variation' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#021",
+      "tensor_id": "W-LU-EVO",
+      "address": "021",
+      "coordinates": [
+        0,
+        2,
+        1
+      ],
+      "roles": [
+        "Information",
+        "Sozialdimension",
+        "Selektion"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Sozialdimension",
+        "verification": "Prüfe die Rolle 'Selektion' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#022",
+      "tensor_id": "W-LU-EVO",
+      "address": "022",
+      "coordinates": [
+        0,
+        2,
+        2
+      ],
+      "roles": [
+        "Information",
+        "Sozialdimension",
+        "Restabilisierung"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Sozialdimension",
+        "verification": "Prüfe die Rolle 'Restabilisierung' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#100",
+      "tensor_id": "W-LU-EVO",
+      "address": "100",
+      "coordinates": [
+        1,
+        0,
+        0
+      ],
+      "roles": [
+        "Mitteilung",
+        "Sachdimension",
+        "Variation"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Sachdimension",
+        "verification": "Prüfe die Rolle 'Variation' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#101",
+      "tensor_id": "W-LU-EVO",
+      "address": "101",
+      "coordinates": [
+        1,
+        0,
+        1
+      ],
+      "roles": [
+        "Mitteilung",
+        "Sachdimension",
+        "Selektion"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Sachdimension",
+        "verification": "Prüfe die Rolle 'Selektion' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#102",
+      "tensor_id": "W-LU-EVO",
+      "address": "102",
+      "coordinates": [
+        1,
+        0,
+        2
+      ],
+      "roles": [
+        "Mitteilung",
+        "Sachdimension",
+        "Restabilisierung"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Sachdimension",
+        "verification": "Prüfe die Rolle 'Restabilisierung' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#110",
+      "tensor_id": "W-LU-EVO",
+      "address": "110",
+      "coordinates": [
+        1,
+        1,
+        0
+      ],
+      "roles": [
+        "Mitteilung",
+        "Zeitdimension",
+        "Variation"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Zeitdimension",
+        "verification": "Prüfe die Rolle 'Variation' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#111",
+      "tensor_id": "W-LU-EVO",
+      "address": "111",
+      "coordinates": [
+        1,
+        1,
+        1
+      ],
+      "roles": [
+        "Mitteilung",
+        "Zeitdimension",
+        "Selektion"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Zeitdimension",
+        "verification": "Prüfe die Rolle 'Selektion' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#112",
+      "tensor_id": "W-LU-EVO",
+      "address": "112",
+      "coordinates": [
+        1,
+        1,
+        2
+      ],
+      "roles": [
+        "Mitteilung",
+        "Zeitdimension",
+        "Restabilisierung"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Zeitdimension",
+        "verification": "Prüfe die Rolle 'Restabilisierung' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#120",
+      "tensor_id": "W-LU-EVO",
+      "address": "120",
+      "coordinates": [
+        1,
+        2,
+        0
+      ],
+      "roles": [
+        "Mitteilung",
+        "Sozialdimension",
+        "Variation"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Sozialdimension",
+        "verification": "Prüfe die Rolle 'Variation' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#121",
+      "tensor_id": "W-LU-EVO",
+      "address": "121",
+      "coordinates": [
+        1,
+        2,
+        1
+      ],
+      "roles": [
+        "Mitteilung",
+        "Sozialdimension",
+        "Selektion"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Sozialdimension",
+        "verification": "Prüfe die Rolle 'Selektion' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#122",
+      "tensor_id": "W-LU-EVO",
+      "address": "122",
+      "coordinates": [
+        1,
+        2,
+        2
+      ],
+      "roles": [
+        "Mitteilung",
+        "Sozialdimension",
+        "Restabilisierung"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Sozialdimension",
+        "verification": "Prüfe die Rolle 'Restabilisierung' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#200",
+      "tensor_id": "W-LU-EVO",
+      "address": "200",
+      "coordinates": [
+        2,
+        0,
+        0
+      ],
+      "roles": [
+        "Verstehen",
+        "Sachdimension",
+        "Variation"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Sachdimension",
+        "verification": "Prüfe die Rolle 'Variation' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#201",
+      "tensor_id": "W-LU-EVO",
+      "address": "201",
+      "coordinates": [
+        2,
+        0,
+        1
+      ],
+      "roles": [
+        "Verstehen",
+        "Sachdimension",
+        "Selektion"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Sachdimension",
+        "verification": "Prüfe die Rolle 'Selektion' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#202",
+      "tensor_id": "W-LU-EVO",
+      "address": "202",
+      "coordinates": [
+        2,
+        0,
+        2
+      ],
+      "roles": [
+        "Verstehen",
+        "Sachdimension",
+        "Restabilisierung"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Sachdimension",
+        "verification": "Prüfe die Rolle 'Restabilisierung' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#210",
+      "tensor_id": "W-LU-EVO",
+      "address": "210",
+      "coordinates": [
+        2,
+        1,
+        0
+      ],
+      "roles": [
+        "Verstehen",
+        "Zeitdimension",
+        "Variation"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Zeitdimension",
+        "verification": "Prüfe die Rolle 'Variation' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#211",
+      "tensor_id": "W-LU-EVO",
+      "address": "211",
+      "coordinates": [
+        2,
+        1,
+        1
+      ],
+      "roles": [
+        "Verstehen",
+        "Zeitdimension",
+        "Selektion"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Zeitdimension",
+        "verification": "Prüfe die Rolle 'Selektion' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#212",
+      "tensor_id": "W-LU-EVO",
+      "address": "212",
+      "coordinates": [
+        2,
+        1,
+        2
+      ],
+      "roles": [
+        "Verstehen",
+        "Zeitdimension",
+        "Restabilisierung"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Zeitdimension",
+        "verification": "Prüfe die Rolle 'Restabilisierung' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#220",
+      "tensor_id": "W-LU-EVO",
+      "address": "220",
+      "coordinates": [
+        2,
+        2,
+        0
+      ],
+      "roles": [
+        "Verstehen",
+        "Sozialdimension",
+        "Variation"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Sozialdimension",
+        "verification": "Prüfe die Rolle 'Variation' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#221",
+      "tensor_id": "W-LU-EVO",
+      "address": "221",
+      "coordinates": [
+        2,
+        2,
+        1
+      ],
+      "roles": [
+        "Verstehen",
+        "Sozialdimension",
+        "Selektion"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Sozialdimension",
+        "verification": "Prüfe die Rolle 'Selektion' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-EVO#222",
+      "tensor_id": "W-LU-EVO",
+      "address": "222",
+      "coordinates": [
+        2,
+        2,
+        2
+      ],
+      "roles": [
+        "Verstehen",
+        "Sozialdimension",
+        "Restabilisierung"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-02",
+        "LU-03"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Sozialdimension",
+        "verification": "Prüfe die Rolle 'Restabilisierung' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#000",
+      "tensor_id": "W-LU-SYS",
+      "address": "000",
+      "coordinates": [
+        0,
+        0,
+        0
+      ],
+      "roles": [
+        "Information",
+        "Variation",
+        "Interaktion"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Variation",
+        "verification": "Prüfe die Rolle 'Interaktion' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#001",
+      "tensor_id": "W-LU-SYS",
+      "address": "001",
+      "coordinates": [
+        0,
+        0,
+        1
+      ],
+      "roles": [
+        "Information",
+        "Variation",
+        "Organisation"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Variation",
+        "verification": "Prüfe die Rolle 'Organisation' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#002",
+      "tensor_id": "W-LU-SYS",
+      "address": "002",
+      "coordinates": [
+        0,
+        0,
+        2
+      ],
+      "roles": [
+        "Information",
+        "Variation",
+        "Gesellschaft"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Variation",
+        "verification": "Prüfe die Rolle 'Gesellschaft' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#010",
+      "tensor_id": "W-LU-SYS",
+      "address": "010",
+      "coordinates": [
+        0,
+        1,
+        0
+      ],
+      "roles": [
+        "Information",
+        "Selektion",
+        "Interaktion"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Selektion",
+        "verification": "Prüfe die Rolle 'Interaktion' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#011",
+      "tensor_id": "W-LU-SYS",
+      "address": "011",
+      "coordinates": [
+        0,
+        1,
+        1
+      ],
+      "roles": [
+        "Information",
+        "Selektion",
+        "Organisation"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Selektion",
+        "verification": "Prüfe die Rolle 'Organisation' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#012",
+      "tensor_id": "W-LU-SYS",
+      "address": "012",
+      "coordinates": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "Information",
+        "Selektion",
+        "Gesellschaft"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Selektion",
+        "verification": "Prüfe die Rolle 'Gesellschaft' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#020",
+      "tensor_id": "W-LU-SYS",
+      "address": "020",
+      "coordinates": [
+        0,
+        2,
+        0
+      ],
+      "roles": [
+        "Information",
+        "Restabilisierung",
+        "Interaktion"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Restabilisierung",
+        "verification": "Prüfe die Rolle 'Interaktion' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#021",
+      "tensor_id": "W-LU-SYS",
+      "address": "021",
+      "coordinates": [
+        0,
+        2,
+        1
+      ],
+      "roles": [
+        "Information",
+        "Restabilisierung",
+        "Organisation"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Restabilisierung",
+        "verification": "Prüfe die Rolle 'Organisation' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#022",
+      "tensor_id": "W-LU-SYS",
+      "address": "022",
+      "coordinates": [
+        0,
+        2,
+        2
+      ],
+      "roles": [
+        "Information",
+        "Restabilisierung",
+        "Gesellschaft"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Information / Restabilisierung",
+        "verification": "Prüfe die Rolle 'Gesellschaft' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#100",
+      "tensor_id": "W-LU-SYS",
+      "address": "100",
+      "coordinates": [
+        1,
+        0,
+        0
+      ],
+      "roles": [
+        "Mitteilung",
+        "Variation",
+        "Interaktion"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Variation",
+        "verification": "Prüfe die Rolle 'Interaktion' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#101",
+      "tensor_id": "W-LU-SYS",
+      "address": "101",
+      "coordinates": [
+        1,
+        0,
+        1
+      ],
+      "roles": [
+        "Mitteilung",
+        "Variation",
+        "Organisation"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Variation",
+        "verification": "Prüfe die Rolle 'Organisation' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#102",
+      "tensor_id": "W-LU-SYS",
+      "address": "102",
+      "coordinates": [
+        1,
+        0,
+        2
+      ],
+      "roles": [
+        "Mitteilung",
+        "Variation",
+        "Gesellschaft"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Variation",
+        "verification": "Prüfe die Rolle 'Gesellschaft' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#110",
+      "tensor_id": "W-LU-SYS",
+      "address": "110",
+      "coordinates": [
+        1,
+        1,
+        0
+      ],
+      "roles": [
+        "Mitteilung",
+        "Selektion",
+        "Interaktion"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Selektion",
+        "verification": "Prüfe die Rolle 'Interaktion' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#111",
+      "tensor_id": "W-LU-SYS",
+      "address": "111",
+      "coordinates": [
+        1,
+        1,
+        1
+      ],
+      "roles": [
+        "Mitteilung",
+        "Selektion",
+        "Organisation"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Selektion",
+        "verification": "Prüfe die Rolle 'Organisation' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#112",
+      "tensor_id": "W-LU-SYS",
+      "address": "112",
+      "coordinates": [
+        1,
+        1,
+        2
+      ],
+      "roles": [
+        "Mitteilung",
+        "Selektion",
+        "Gesellschaft"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Selektion",
+        "verification": "Prüfe die Rolle 'Gesellschaft' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#120",
+      "tensor_id": "W-LU-SYS",
+      "address": "120",
+      "coordinates": [
+        1,
+        2,
+        0
+      ],
+      "roles": [
+        "Mitteilung",
+        "Restabilisierung",
+        "Interaktion"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Restabilisierung",
+        "verification": "Prüfe die Rolle 'Interaktion' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#121",
+      "tensor_id": "W-LU-SYS",
+      "address": "121",
+      "coordinates": [
+        1,
+        2,
+        1
+      ],
+      "roles": [
+        "Mitteilung",
+        "Restabilisierung",
+        "Organisation"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Restabilisierung",
+        "verification": "Prüfe die Rolle 'Organisation' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#122",
+      "tensor_id": "W-LU-SYS",
+      "address": "122",
+      "coordinates": [
+        1,
+        2,
+        2
+      ],
+      "roles": [
+        "Mitteilung",
+        "Restabilisierung",
+        "Gesellschaft"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Mitteilung / Restabilisierung",
+        "verification": "Prüfe die Rolle 'Gesellschaft' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#200",
+      "tensor_id": "W-LU-SYS",
+      "address": "200",
+      "coordinates": [
+        2,
+        0,
+        0
+      ],
+      "roles": [
+        "Verstehen",
+        "Variation",
+        "Interaktion"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Variation",
+        "verification": "Prüfe die Rolle 'Interaktion' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#201",
+      "tensor_id": "W-LU-SYS",
+      "address": "201",
+      "coordinates": [
+        2,
+        0,
+        1
+      ],
+      "roles": [
+        "Verstehen",
+        "Variation",
+        "Organisation"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Variation",
+        "verification": "Prüfe die Rolle 'Organisation' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#202",
+      "tensor_id": "W-LU-SYS",
+      "address": "202",
+      "coordinates": [
+        2,
+        0,
+        2
+      ],
+      "roles": [
+        "Verstehen",
+        "Variation",
+        "Gesellschaft"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Variation",
+        "verification": "Prüfe die Rolle 'Gesellschaft' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#210",
+      "tensor_id": "W-LU-SYS",
+      "address": "210",
+      "coordinates": [
+        2,
+        1,
+        0
+      ],
+      "roles": [
+        "Verstehen",
+        "Selektion",
+        "Interaktion"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Selektion",
+        "verification": "Prüfe die Rolle 'Interaktion' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#211",
+      "tensor_id": "W-LU-SYS",
+      "address": "211",
+      "coordinates": [
+        2,
+        1,
+        1
+      ],
+      "roles": [
+        "Verstehen",
+        "Selektion",
+        "Organisation"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Selektion",
+        "verification": "Prüfe die Rolle 'Organisation' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#212",
+      "tensor_id": "W-LU-SYS",
+      "address": "212",
+      "coordinates": [
+        2,
+        1,
+        2
+      ],
+      "roles": [
+        "Verstehen",
+        "Selektion",
+        "Gesellschaft"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Selektion",
+        "verification": "Prüfe die Rolle 'Gesellschaft' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#220",
+      "tensor_id": "W-LU-SYS",
+      "address": "220",
+      "coordinates": [
+        2,
+        2,
+        0
+      ],
+      "roles": [
+        "Verstehen",
+        "Restabilisierung",
+        "Interaktion"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Restabilisierung",
+        "verification": "Prüfe die Rolle 'Interaktion' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#221",
+      "tensor_id": "W-LU-SYS",
+      "address": "221",
+      "coordinates": [
+        2,
+        2,
+        1
+      ],
+      "roles": [
+        "Verstehen",
+        "Restabilisierung",
+        "Organisation"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Restabilisierung",
+        "verification": "Prüfe die Rolle 'Organisation' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "W-LU-SYS#222",
+      "tensor_id": "W-LU-SYS",
+      "address": "222",
+      "coordinates": [
+        2,
+        2,
+        2
+      ],
+      "roles": [
+        "Verstehen",
+        "Restabilisierung",
+        "Gesellschaft"
+      ],
+      "axis_sources": [
+        "LU-01",
+        "LU-03",
+        "LU-04"
+      ],
+      "source": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Verstehen / Restabilisierung",
+        "verification": "Prüfe die Rolle 'Gesellschaft' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#000",
+      "tensor_id": "MED-27",
+      "address": "000",
+      "coordinates": [
+        0,
+        0,
+        0
+      ],
+      "roles": [
+        "Zeichen/Bezug",
+        "Unterscheiden und Codieren",
+        "Bedingungen/Quelle"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Zeichen/Bezug / Unterscheiden und Codieren",
+        "verification": "Prüfe die Rolle 'Bedingungen/Quelle' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#001",
+      "tensor_id": "MED-27",
+      "address": "001",
+      "coordinates": [
+        0,
+        0,
+        1
+      ],
+      "roles": [
+        "Zeichen/Bezug",
+        "Unterscheiden und Codieren",
+        "tatsächlicher Vollzug/Verlust"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Zeichen/Bezug / Unterscheiden und Codieren",
+        "verification": "Prüfe die Rolle 'tatsächlicher Vollzug/Verlust' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#002",
+      "tensor_id": "MED-27",
+      "address": "002",
+      "coordinates": [
+        0,
+        0,
+        2
+      ],
+      "roles": [
+        "Zeichen/Bezug",
+        "Unterscheiden und Codieren",
+        "Ergebnis/Invariante/Gegenprobe"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Zeichen/Bezug / Unterscheiden und Codieren",
+        "verification": "Prüfe die Rolle 'Ergebnis/Invariante/Gegenprobe' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#010",
+      "tensor_id": "MED-27",
+      "address": "010",
+      "coordinates": [
+        0,
+        1,
+        0
+      ],
+      "roles": [
+        "Zeichen/Bezug",
+        "Übertragen und Transformieren",
+        "Bedingungen/Quelle"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Zeichen/Bezug / Übertragen und Transformieren",
+        "verification": "Prüfe die Rolle 'Bedingungen/Quelle' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#011",
+      "tensor_id": "MED-27",
+      "address": "011",
+      "coordinates": [
+        0,
+        1,
+        1
+      ],
+      "roles": [
+        "Zeichen/Bezug",
+        "Übertragen und Transformieren",
+        "tatsächlicher Vollzug/Verlust"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Zeichen/Bezug / Übertragen und Transformieren",
+        "verification": "Prüfe die Rolle 'tatsächlicher Vollzug/Verlust' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#012",
+      "tensor_id": "MED-27",
+      "address": "012",
+      "coordinates": [
+        0,
+        1,
+        2
+      ],
+      "roles": [
+        "Zeichen/Bezug",
+        "Übertragen und Transformieren",
+        "Ergebnis/Invariante/Gegenprobe"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Zeichen/Bezug / Übertragen und Transformieren",
+        "verification": "Prüfe die Rolle 'Ergebnis/Invariante/Gegenprobe' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#020",
+      "tensor_id": "MED-27",
+      "address": "020",
+      "coordinates": [
+        0,
+        2,
+        0
+      ],
+      "roles": [
+        "Zeichen/Bezug",
+        "Rekonstruieren und Prüfen",
+        "Bedingungen/Quelle"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Zeichen/Bezug / Rekonstruieren und Prüfen",
+        "verification": "Prüfe die Rolle 'Bedingungen/Quelle' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#021",
+      "tensor_id": "MED-27",
+      "address": "021",
+      "coordinates": [
+        0,
+        2,
+        1
+      ],
+      "roles": [
+        "Zeichen/Bezug",
+        "Rekonstruieren und Prüfen",
+        "tatsächlicher Vollzug/Verlust"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Zeichen/Bezug / Rekonstruieren und Prüfen",
+        "verification": "Prüfe die Rolle 'tatsächlicher Vollzug/Verlust' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#022",
+      "tensor_id": "MED-27",
+      "address": "022",
+      "coordinates": [
+        0,
+        2,
+        2
+      ],
+      "roles": [
+        "Zeichen/Bezug",
+        "Rekonstruieren und Prüfen",
+        "Ergebnis/Invariante/Gegenprobe"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Zeichen/Bezug / Rekonstruieren und Prüfen",
+        "verification": "Prüfe die Rolle 'Ergebnis/Invariante/Gegenprobe' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "sign",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#100",
+      "tensor_id": "MED-27",
+      "address": "100",
+      "coordinates": [
+        1,
+        0,
+        0
+      ],
+      "roles": [
+        "kommunikative Auswahl/Verstehen",
+        "Unterscheiden und Codieren",
+        "Bedingungen/Quelle"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von kommunikative Auswahl/Verstehen / Unterscheiden und Codieren",
+        "verification": "Prüfe die Rolle 'Bedingungen/Quelle' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#101",
+      "tensor_id": "MED-27",
+      "address": "101",
+      "coordinates": [
+        1,
+        0,
+        1
+      ],
+      "roles": [
+        "kommunikative Auswahl/Verstehen",
+        "Unterscheiden und Codieren",
+        "tatsächlicher Vollzug/Verlust"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von kommunikative Auswahl/Verstehen / Unterscheiden und Codieren",
+        "verification": "Prüfe die Rolle 'tatsächlicher Vollzug/Verlust' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#102",
+      "tensor_id": "MED-27",
+      "address": "102",
+      "coordinates": [
+        1,
+        0,
+        2
+      ],
+      "roles": [
+        "kommunikative Auswahl/Verstehen",
+        "Unterscheiden und Codieren",
+        "Ergebnis/Invariante/Gegenprobe"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von kommunikative Auswahl/Verstehen / Unterscheiden und Codieren",
+        "verification": "Prüfe die Rolle 'Ergebnis/Invariante/Gegenprobe' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#110",
+      "tensor_id": "MED-27",
+      "address": "110",
+      "coordinates": [
+        1,
+        1,
+        0
+      ],
+      "roles": [
+        "kommunikative Auswahl/Verstehen",
+        "Übertragen und Transformieren",
+        "Bedingungen/Quelle"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von kommunikative Auswahl/Verstehen / Übertragen und Transformieren",
+        "verification": "Prüfe die Rolle 'Bedingungen/Quelle' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#111",
+      "tensor_id": "MED-27",
+      "address": "111",
+      "coordinates": [
+        1,
+        1,
+        1
+      ],
+      "roles": [
+        "kommunikative Auswahl/Verstehen",
+        "Übertragen und Transformieren",
+        "tatsächlicher Vollzug/Verlust"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von kommunikative Auswahl/Verstehen / Übertragen und Transformieren",
+        "verification": "Prüfe die Rolle 'tatsächlicher Vollzug/Verlust' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#112",
+      "tensor_id": "MED-27",
+      "address": "112",
+      "coordinates": [
+        1,
+        1,
+        2
+      ],
+      "roles": [
+        "kommunikative Auswahl/Verstehen",
+        "Übertragen und Transformieren",
+        "Ergebnis/Invariante/Gegenprobe"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von kommunikative Auswahl/Verstehen / Übertragen und Transformieren",
+        "verification": "Prüfe die Rolle 'Ergebnis/Invariante/Gegenprobe' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#120",
+      "tensor_id": "MED-27",
+      "address": "120",
+      "coordinates": [
+        1,
+        2,
+        0
+      ],
+      "roles": [
+        "kommunikative Auswahl/Verstehen",
+        "Rekonstruieren und Prüfen",
+        "Bedingungen/Quelle"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von kommunikative Auswahl/Verstehen / Rekonstruieren und Prüfen",
+        "verification": "Prüfe die Rolle 'Bedingungen/Quelle' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#121",
+      "tensor_id": "MED-27",
+      "address": "121",
+      "coordinates": [
+        1,
+        2,
+        1
+      ],
+      "roles": [
+        "kommunikative Auswahl/Verstehen",
+        "Rekonstruieren und Prüfen",
+        "tatsächlicher Vollzug/Verlust"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von kommunikative Auswahl/Verstehen / Rekonstruieren und Prüfen",
+        "verification": "Prüfe die Rolle 'tatsächlicher Vollzug/Verlust' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#122",
+      "tensor_id": "MED-27",
+      "address": "122",
+      "coordinates": [
+        1,
+        2,
+        2
+      ],
+      "roles": [
+        "kommunikative Auswahl/Verstehen",
+        "Rekonstruieren und Prüfen",
+        "Ergebnis/Invariante/Gegenprobe"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von kommunikative Auswahl/Verstehen / Rekonstruieren und Prüfen",
+        "verification": "Prüfe die Rolle 'Ergebnis/Invariante/Gegenprobe' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "communication",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#200",
+      "tensor_id": "MED-27",
+      "address": "200",
+      "coordinates": [
+        2,
+        0,
+        0
+      ],
+      "roles": [
+        "Vermittlung/kollektive Weiterverarbeitung",
+        "Unterscheiden und Codieren",
+        "Bedingungen/Quelle"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Vermittlung/kollektive Weiterverarbeitung / Unterscheiden und Codieren",
+        "verification": "Prüfe die Rolle 'Bedingungen/Quelle' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#201",
+      "tensor_id": "MED-27",
+      "address": "201",
+      "coordinates": [
+        2,
+        0,
+        1
+      ],
+      "roles": [
+        "Vermittlung/kollektive Weiterverarbeitung",
+        "Unterscheiden und Codieren",
+        "tatsächlicher Vollzug/Verlust"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Vermittlung/kollektive Weiterverarbeitung / Unterscheiden und Codieren",
+        "verification": "Prüfe die Rolle 'tatsächlicher Vollzug/Verlust' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#202",
+      "tensor_id": "MED-27",
+      "address": "202",
+      "coordinates": [
+        2,
+        0,
+        2
+      ],
+      "roles": [
+        "Vermittlung/kollektive Weiterverarbeitung",
+        "Unterscheiden und Codieren",
+        "Ergebnis/Invariante/Gegenprobe"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Vermittlung/kollektive Weiterverarbeitung / Unterscheiden und Codieren",
+        "verification": "Prüfe die Rolle 'Ergebnis/Invariante/Gegenprobe' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#210",
+      "tensor_id": "MED-27",
+      "address": "210",
+      "coordinates": [
+        2,
+        1,
+        0
+      ],
+      "roles": [
+        "Vermittlung/kollektive Weiterverarbeitung",
+        "Übertragen und Transformieren",
+        "Bedingungen/Quelle"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Vermittlung/kollektive Weiterverarbeitung / Übertragen und Transformieren",
+        "verification": "Prüfe die Rolle 'Bedingungen/Quelle' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#211",
+      "tensor_id": "MED-27",
+      "address": "211",
+      "coordinates": [
+        2,
+        1,
+        1
+      ],
+      "roles": [
+        "Vermittlung/kollektive Weiterverarbeitung",
+        "Übertragen und Transformieren",
+        "tatsächlicher Vollzug/Verlust"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Vermittlung/kollektive Weiterverarbeitung / Übertragen und Transformieren",
+        "verification": "Prüfe die Rolle 'tatsächlicher Vollzug/Verlust' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#212",
+      "tensor_id": "MED-27",
+      "address": "212",
+      "coordinates": [
+        2,
+        1,
+        2
+      ],
+      "roles": [
+        "Vermittlung/kollektive Weiterverarbeitung",
+        "Übertragen und Transformieren",
+        "Ergebnis/Invariante/Gegenprobe"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Vermittlung/kollektive Weiterverarbeitung / Übertragen und Transformieren",
+        "verification": "Prüfe die Rolle 'Ergebnis/Invariante/Gegenprobe' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#220",
+      "tensor_id": "MED-27",
+      "address": "220",
+      "coordinates": [
+        2,
+        2,
+        0
+      ],
+      "roles": [
+        "Vermittlung/kollektive Weiterverarbeitung",
+        "Rekonstruieren und Prüfen",
+        "Bedingungen/Quelle"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Vermittlung/kollektive Weiterverarbeitung / Rekonstruieren und Prüfen",
+        "verification": "Prüfe die Rolle 'Bedingungen/Quelle' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#221",
+      "tensor_id": "MED-27",
+      "address": "221",
+      "coordinates": [
+        2,
+        2,
+        1
+      ],
+      "roles": [
+        "Vermittlung/kollektive Weiterverarbeitung",
+        "Rekonstruieren und Prüfen",
+        "tatsächlicher Vollzug/Verlust"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Vermittlung/kollektive Weiterverarbeitung / Rekonstruieren und Prüfen",
+        "verification": "Prüfe die Rolle 'tatsächlicher Vollzug/Verlust' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    },
+    {
+      "id": "MED-27#222",
+      "tensor_id": "MED-27",
+      "address": "222",
+      "coordinates": [
+        2,
+        2,
+        2
+      ],
+      "roles": [
+        "Vermittlung/kollektive Weiterverarbeitung",
+        "Rekonstruieren und Prüfen",
+        "Ergebnis/Invariante/Gegenprobe"
+      ],
+      "axis_sources": [
+        "MED-A",
+        "MED-B",
+        "MED-C"
+      ],
+      "source": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "source_status": "SOURCE_ROLE_OR_PROJECT_CANDIDATE",
+      "formalization": {
+        "input_type": "NOT_SPECIFIED",
+        "operator": null,
+        "precondition": "Prüfe Herkunft, Definition und Typ von Vermittlung/kollektive Weiterverarbeitung / Rekonstruieren und Prüfen",
+        "verification": "Prüfe die Rolle 'Ergebnis/Invariante/Gegenprobe' durch eine reproduzierbare fachliche Beobachtung",
+        "counterexample": "Verwechsle weder gleiche Rollenwörter noch Darstellungswechsel mit fachlichem Transfer",
+        "math_status": "OPEN",
+        "domain_status": "OPEN"
+      },
+      "icon_family": "network",
+      "stamps": {
+        "index": "PASS",
+        "source": "REQUIRES_REVIEW",
+        "operator": "OPEN",
+        "domain": "OPEN",
+        "crossworld": "OPEN"
+      }
+    }
+  ],
+  "nine_groups": [
+    {
+      "id": "W-LU-MED-G1",
+      "tensor_id": "W-LU-MED",
+      "heading": "Information × Sachdimension",
+      "cards": [
+        "W-LU-MED#000",
+        "W-LU-MED#001",
+        "W-LU-MED#002"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "W-LU-MED-G2",
+      "tensor_id": "W-LU-MED",
+      "heading": "Information × Zeitdimension",
+      "cards": [
+        "W-LU-MED#010",
+        "W-LU-MED#011",
+        "W-LU-MED#012"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "W-LU-MED-G3",
+      "tensor_id": "W-LU-MED",
+      "heading": "Information × Sozialdimension",
+      "cards": [
+        "W-LU-MED#020",
+        "W-LU-MED#021",
+        "W-LU-MED#022"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "W-LU-MED-G4",
+      "tensor_id": "W-LU-MED",
+      "heading": "Mitteilung × Sachdimension",
+      "cards": [
+        "W-LU-MED#100",
+        "W-LU-MED#101",
+        "W-LU-MED#102"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "W-LU-MED-G5",
+      "tensor_id": "W-LU-MED",
+      "heading": "Mitteilung × Zeitdimension",
+      "cards": [
+        "W-LU-MED#110",
+        "W-LU-MED#111",
+        "W-LU-MED#112"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "W-LU-MED-G6",
+      "tensor_id": "W-LU-MED",
+      "heading": "Mitteilung × Sozialdimension",
+      "cards": [
+        "W-LU-MED#120",
+        "W-LU-MED#121",
+        "W-LU-MED#122"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "W-LU-MED-G7",
+      "tensor_id": "W-LU-MED",
+      "heading": "Verstehen × Sachdimension",
+      "cards": [
+        "W-LU-MED#200",
+        "W-LU-MED#201",
+        "W-LU-MED#202"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "W-LU-MED-G8",
+      "tensor_id": "W-LU-MED",
+      "heading": "Verstehen × Zeitdimension",
+      "cards": [
+        "W-LU-MED#210",
+        "W-LU-MED#211",
+        "W-LU-MED#212"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "W-LU-MED-G9",
+      "tensor_id": "W-LU-MED",
+      "heading": "Verstehen × Sozialdimension",
+      "cards": [
+        "W-LU-MED#220",
+        "W-LU-MED#221",
+        "W-LU-MED#222"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "W-LU-EVO-G1",
+      "tensor_id": "W-LU-EVO",
+      "heading": "Information × Sachdimension",
+      "cards": [
+        "W-LU-EVO#000",
+        "W-LU-EVO#001",
+        "W-LU-EVO#002"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "W-LU-EVO-G2",
+      "tensor_id": "W-LU-EVO",
+      "heading": "Information × Zeitdimension",
+      "cards": [
+        "W-LU-EVO#010",
+        "W-LU-EVO#011",
+        "W-LU-EVO#012"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "W-LU-EVO-G3",
+      "tensor_id": "W-LU-EVO",
+      "heading": "Information × Sozialdimension",
+      "cards": [
+        "W-LU-EVO#020",
+        "W-LU-EVO#021",
+        "W-LU-EVO#022"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "W-LU-EVO-G4",
+      "tensor_id": "W-LU-EVO",
+      "heading": "Mitteilung × Sachdimension",
+      "cards": [
+        "W-LU-EVO#100",
+        "W-LU-EVO#101",
+        "W-LU-EVO#102"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "W-LU-EVO-G5",
+      "tensor_id": "W-LU-EVO",
+      "heading": "Mitteilung × Zeitdimension",
+      "cards": [
+        "W-LU-EVO#110",
+        "W-LU-EVO#111",
+        "W-LU-EVO#112"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "W-LU-EVO-G6",
+      "tensor_id": "W-LU-EVO",
+      "heading": "Mitteilung × Sozialdimension",
+      "cards": [
+        "W-LU-EVO#120",
+        "W-LU-EVO#121",
+        "W-LU-EVO#122"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "W-LU-EVO-G7",
+      "tensor_id": "W-LU-EVO",
+      "heading": "Verstehen × Sachdimension",
+      "cards": [
+        "W-LU-EVO#200",
+        "W-LU-EVO#201",
+        "W-LU-EVO#202"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "W-LU-EVO-G8",
+      "tensor_id": "W-LU-EVO",
+      "heading": "Verstehen × Zeitdimension",
+      "cards": [
+        "W-LU-EVO#210",
+        "W-LU-EVO#211",
+        "W-LU-EVO#212"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "W-LU-EVO-G9",
+      "tensor_id": "W-LU-EVO",
+      "heading": "Verstehen × Sozialdimension",
+      "cards": [
+        "W-LU-EVO#220",
+        "W-LU-EVO#221",
+        "W-LU-EVO#222"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "W-LU-SYS-G1",
+      "tensor_id": "W-LU-SYS",
+      "heading": "Information × Variation",
+      "cards": [
+        "W-LU-SYS#000",
+        "W-LU-SYS#001",
+        "W-LU-SYS#002"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "W-LU-SYS-G2",
+      "tensor_id": "W-LU-SYS",
+      "heading": "Information × Selektion",
+      "cards": [
+        "W-LU-SYS#010",
+        "W-LU-SYS#011",
+        "W-LU-SYS#012"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "W-LU-SYS-G3",
+      "tensor_id": "W-LU-SYS",
+      "heading": "Information × Restabilisierung",
+      "cards": [
+        "W-LU-SYS#020",
+        "W-LU-SYS#021",
+        "W-LU-SYS#022"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "W-LU-SYS-G4",
+      "tensor_id": "W-LU-SYS",
+      "heading": "Mitteilung × Variation",
+      "cards": [
+        "W-LU-SYS#100",
+        "W-LU-SYS#101",
+        "W-LU-SYS#102"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "W-LU-SYS-G5",
+      "tensor_id": "W-LU-SYS",
+      "heading": "Mitteilung × Selektion",
+      "cards": [
+        "W-LU-SYS#110",
+        "W-LU-SYS#111",
+        "W-LU-SYS#112"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "W-LU-SYS-G6",
+      "tensor_id": "W-LU-SYS",
+      "heading": "Mitteilung × Restabilisierung",
+      "cards": [
+        "W-LU-SYS#120",
+        "W-LU-SYS#121",
+        "W-LU-SYS#122"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "W-LU-SYS-G7",
+      "tensor_id": "W-LU-SYS",
+      "heading": "Verstehen × Variation",
+      "cards": [
+        "W-LU-SYS#200",
+        "W-LU-SYS#201",
+        "W-LU-SYS#202"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "W-LU-SYS-G8",
+      "tensor_id": "W-LU-SYS",
+      "heading": "Verstehen × Selektion",
+      "cards": [
+        "W-LU-SYS#210",
+        "W-LU-SYS#211",
+        "W-LU-SYS#212"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "W-LU-SYS-G9",
+      "tensor_id": "W-LU-SYS",
+      "heading": "Verstehen × Restabilisierung",
+      "cards": [
+        "W-LU-SYS#220",
+        "W-LU-SYS#221",
+        "W-LU-SYS#222"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "MED-27-G1",
+      "tensor_id": "MED-27",
+      "heading": "Zeichen/Bezug × Unterscheiden und Codieren",
+      "cards": [
+        "MED-27#000",
+        "MED-27#001",
+        "MED-27#002"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "MED-27-G2",
+      "tensor_id": "MED-27",
+      "heading": "Zeichen/Bezug × Übertragen und Transformieren",
+      "cards": [
+        "MED-27#010",
+        "MED-27#011",
+        "MED-27#012"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "MED-27-G3",
+      "tensor_id": "MED-27",
+      "heading": "Zeichen/Bezug × Rekonstruieren und Prüfen",
+      "cards": [
+        "MED-27#020",
+        "MED-27#021",
+        "MED-27#022"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "MED-27-G4",
+      "tensor_id": "MED-27",
+      "heading": "kommunikative Auswahl/Verstehen × Unterscheiden und Codieren",
+      "cards": [
+        "MED-27#100",
+        "MED-27#101",
+        "MED-27#102"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "MED-27-G5",
+      "tensor_id": "MED-27",
+      "heading": "kommunikative Auswahl/Verstehen × Übertragen und Transformieren",
+      "cards": [
+        "MED-27#110",
+        "MED-27#111",
+        "MED-27#112"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "MED-27-G6",
+      "tensor_id": "MED-27",
+      "heading": "kommunikative Auswahl/Verstehen × Rekonstruieren und Prüfen",
+      "cards": [
+        "MED-27#120",
+        "MED-27#121",
+        "MED-27#122"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "MED-27-G7",
+      "tensor_id": "MED-27",
+      "heading": "Vermittlung/kollektive Weiterverarbeitung × Unterscheiden und Codieren",
+      "cards": [
+        "MED-27#200",
+        "MED-27#201",
+        "MED-27#202"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "MED-27-G8",
+      "tensor_id": "MED-27",
+      "heading": "Vermittlung/kollektive Weiterverarbeitung × Übertragen und Transformieren",
+      "cards": [
+        "MED-27#210",
+        "MED-27#211",
+        "MED-27#212"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    },
+    {
+      "id": "MED-27-G9",
+      "tensor_id": "MED-27",
+      "heading": "Vermittlung/kollektive Weiterverarbeitung × Rekonstruieren und Prüfen",
+      "cards": [
+        "MED-27#220",
+        "MED-27#221",
+        "MED-27#222"
+      ],
+      "formal_status": "THREE_FIELD_GROUP_CANDIDATE"
+    }
+  ],
+  "six_field_candidates": [
+    {
+      "tensor_id": "W-LU-MED",
+      "vertices": [
+        {
+          "id": "A",
+          "name": "Information"
+        },
+        {
+          "id": "B",
+          "name": "Mitteilung"
+        },
+        {
+          "id": "C",
+          "name": "Verstehen"
+        }
+      ],
+      "edges": [
+        {
+          "from": "A",
+          "to": "B",
+          "operator": null,
+          "status": "OPEN_NOT_INFERRED"
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "operator": null,
+          "status": "OPEN_NOT_INFERRED"
+        },
+        {
+          "from": "C",
+          "to": "A",
+          "operator": null,
+          "status": "OPEN_NOT_INFERRED"
+        }
+      ],
+      "status": "NO_VALIDATED_PAIR_EDGE"
+    },
+    {
+      "tensor_id": "W-LU-EVO",
+      "vertices": [
+        {
+          "id": "A",
+          "name": "Information"
+        },
+        {
+          "id": "B",
+          "name": "Mitteilung"
+        },
+        {
+          "id": "C",
+          "name": "Verstehen"
+        }
+      ],
+      "edges": [
+        {
+          "from": "A",
+          "to": "B",
+          "operator": null,
+          "status": "OPEN_NOT_INFERRED"
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "operator": null,
+          "status": "OPEN_NOT_INFERRED"
+        },
+        {
+          "from": "C",
+          "to": "A",
+          "operator": null,
+          "status": "OPEN_NOT_INFERRED"
+        }
+      ],
+      "status": "NO_VALIDATED_PAIR_EDGE"
+    },
+    {
+      "tensor_id": "W-LU-SYS",
+      "vertices": [
+        {
+          "id": "A",
+          "name": "Information"
+        },
+        {
+          "id": "B",
+          "name": "Mitteilung"
+        },
+        {
+          "id": "C",
+          "name": "Verstehen"
+        }
+      ],
+      "edges": [
+        {
+          "from": "A",
+          "to": "B",
+          "operator": null,
+          "status": "OPEN_NOT_INFERRED"
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "operator": null,
+          "status": "OPEN_NOT_INFERRED"
+        },
+        {
+          "from": "C",
+          "to": "A",
+          "operator": null,
+          "status": "OPEN_NOT_INFERRED"
+        }
+      ],
+      "status": "NO_VALIDATED_PAIR_EDGE"
+    },
+    {
+      "tensor_id": "MED-27",
+      "vertices": [
+        {
+          "id": "A",
+          "name": "Zeichen/Bezug"
+        },
+        {
+          "id": "B",
+          "name": "kommunikative Auswahl/Verstehen"
+        },
+        {
+          "id": "C",
+          "name": "Vermittlung/kollektive Weiterverarbeitung"
+        }
+      ],
+      "edges": [
+        {
+          "from": "A",
+          "to": "B",
+          "operator": null,
+          "status": "OPEN_NOT_INFERRED"
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "operator": null,
+          "status": "OPEN_NOT_INFERRED"
+        },
+        {
+          "from": "C",
+          "to": "A",
+          "operator": null,
+          "status": "OPEN_NOT_INFERRED"
+        }
+      ],
+      "status": "NO_VALIDATED_PAIR_EDGE"
+    }
+  ],
+  "transfer": {
+    "from": "W-LU-MED",
+    "to": "W-LU-EVO",
+    "input_size": 27,
+    "group_projection_size": 9,
+    "fibre_cardinality": 3,
+    "valid_source_axes": [
+      "LU-01",
+      "LU-02"
+    ],
+    "incompatible_roles": [
+      "LU-05",
+      "LU-03"
+    ],
+    "reverse": "MULTIVALUED",
+    "outcome": "BLOCKED_MISSING_TYPED_THIRD_AXIS_TRANSLATION"
+  },
+  "summary": {
+    "worlds": 4,
+    "fields": 108,
+    "nine_groups": 36,
+    "six_field_candidates": 4,
+    "tests": 76,
+    "passed": 76,
+    "failed": 0,
+    "mathematically_verified_field_operators": 0,
+    "domain_validated_world_bridges": 0
+  },
+  "tests": [
+    {
+      "id": "W-LU-MED:27",
+      "status": "PASS",
+      "expected": "27 field candidates",
+      "category": "STRUCTURE"
+    },
+    {
+      "id": "W-LU-MED:UNIQUE",
+      "status": "PASS",
+      "expected": "27 unique field IDs",
+      "category": "STRUCTURE"
+    },
+    {
+      "id": "W-LU-MED:GROUPS",
+      "status": "PASS",
+      "expected": "nine groups × 3 cells",
+      "category": "STRUCTURE"
+    },
+    {
+      "id": "W-LU-MED:GUARDS",
+      "status": "PASS",
+      "expected": "unvalidated operators explicitly open",
+      "category": "SAFETY"
+    },
+    {
+      "id": "W-LU-MED:PERM:012",
+      "status": "PASS",
+      "expected": "index permutation with exact inverse for all cells",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-MED:PERM:021",
+      "status": "PASS",
+      "expected": "index permutation with exact inverse for all cells",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-MED:PERM:102",
+      "status": "PASS",
+      "expected": "index permutation with exact inverse for all cells",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-MED:PERM:120",
+      "status": "PASS",
+      "expected": "index permutation with exact inverse for all cells",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-MED:PERM:201",
+      "status": "PASS",
+      "expected": "index permutation with exact inverse for all cells",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-MED:PERM:210",
+      "status": "PASS",
+      "expected": "index permutation with exact inverse for all cells",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-MED:SHIFT:0",
+      "status": "PASS",
+      "expected": "single-axis modular translation and inverse",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-MED:SHIFT:1",
+      "status": "PASS",
+      "expected": "single-axis modular translation and inverse",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-MED:SHIFT:2",
+      "status": "PASS",
+      "expected": "single-axis modular translation and inverse",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-MED:PROJ:0",
+      "status": "PASS",
+      "expected": "projection 27→9, hence not uniquely invertible",
+      "category": "LOSS"
+    },
+    {
+      "id": "W-LU-MED:PROJ:1",
+      "status": "PASS",
+      "expected": "projection 27→9, hence not uniquely invertible",
+      "category": "LOSS"
+    },
+    {
+      "id": "W-LU-MED:PROJ:2",
+      "status": "PASS",
+      "expected": "projection 27→9, hence not uniquely invertible",
+      "category": "LOSS"
+    },
+    {
+      "id": "W-LU-MED:CYCLE",
+      "status": "PASS",
+      "expected": "three simultaneous cyclic shifts = identity",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-EVO:27",
+      "status": "PASS",
+      "expected": "27 field candidates",
+      "category": "STRUCTURE"
+    },
+    {
+      "id": "W-LU-EVO:UNIQUE",
+      "status": "PASS",
+      "expected": "27 unique field IDs",
+      "category": "STRUCTURE"
+    },
+    {
+      "id": "W-LU-EVO:GROUPS",
+      "status": "PASS",
+      "expected": "nine groups × 3 cells",
+      "category": "STRUCTURE"
+    },
+    {
+      "id": "W-LU-EVO:GUARDS",
+      "status": "PASS",
+      "expected": "unvalidated operators explicitly open",
+      "category": "SAFETY"
+    },
+    {
+      "id": "W-LU-EVO:PERM:012",
+      "status": "PASS",
+      "expected": "index permutation with exact inverse for all cells",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-EVO:PERM:021",
+      "status": "PASS",
+      "expected": "index permutation with exact inverse for all cells",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-EVO:PERM:102",
+      "status": "PASS",
+      "expected": "index permutation with exact inverse for all cells",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-EVO:PERM:120",
+      "status": "PASS",
+      "expected": "index permutation with exact inverse for all cells",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-EVO:PERM:201",
+      "status": "PASS",
+      "expected": "index permutation with exact inverse for all cells",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-EVO:PERM:210",
+      "status": "PASS",
+      "expected": "index permutation with exact inverse for all cells",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-EVO:SHIFT:0",
+      "status": "PASS",
+      "expected": "single-axis modular translation and inverse",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-EVO:SHIFT:1",
+      "status": "PASS",
+      "expected": "single-axis modular translation and inverse",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-EVO:SHIFT:2",
+      "status": "PASS",
+      "expected": "single-axis modular translation and inverse",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-EVO:PROJ:0",
+      "status": "PASS",
+      "expected": "projection 27→9, hence not uniquely invertible",
+      "category": "LOSS"
+    },
+    {
+      "id": "W-LU-EVO:PROJ:1",
+      "status": "PASS",
+      "expected": "projection 27→9, hence not uniquely invertible",
+      "category": "LOSS"
+    },
+    {
+      "id": "W-LU-EVO:PROJ:2",
+      "status": "PASS",
+      "expected": "projection 27→9, hence not uniquely invertible",
+      "category": "LOSS"
+    },
+    {
+      "id": "W-LU-EVO:CYCLE",
+      "status": "PASS",
+      "expected": "three simultaneous cyclic shifts = identity",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-SYS:27",
+      "status": "PASS",
+      "expected": "27 field candidates",
+      "category": "STRUCTURE"
+    },
+    {
+      "id": "W-LU-SYS:UNIQUE",
+      "status": "PASS",
+      "expected": "27 unique field IDs",
+      "category": "STRUCTURE"
+    },
+    {
+      "id": "W-LU-SYS:GROUPS",
+      "status": "PASS",
+      "expected": "nine groups × 3 cells",
+      "category": "STRUCTURE"
+    },
+    {
+      "id": "W-LU-SYS:GUARDS",
+      "status": "PASS",
+      "expected": "unvalidated operators explicitly open",
+      "category": "SAFETY"
+    },
+    {
+      "id": "W-LU-SYS:PERM:012",
+      "status": "PASS",
+      "expected": "index permutation with exact inverse for all cells",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-SYS:PERM:021",
+      "status": "PASS",
+      "expected": "index permutation with exact inverse for all cells",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-SYS:PERM:102",
+      "status": "PASS",
+      "expected": "index permutation with exact inverse for all cells",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-SYS:PERM:120",
+      "status": "PASS",
+      "expected": "index permutation with exact inverse for all cells",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-SYS:PERM:201",
+      "status": "PASS",
+      "expected": "index permutation with exact inverse for all cells",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-SYS:PERM:210",
+      "status": "PASS",
+      "expected": "index permutation with exact inverse for all cells",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-SYS:SHIFT:0",
+      "status": "PASS",
+      "expected": "single-axis modular translation and inverse",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-SYS:SHIFT:1",
+      "status": "PASS",
+      "expected": "single-axis modular translation and inverse",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-SYS:SHIFT:2",
+      "status": "PASS",
+      "expected": "single-axis modular translation and inverse",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "W-LU-SYS:PROJ:0",
+      "status": "PASS",
+      "expected": "projection 27→9, hence not uniquely invertible",
+      "category": "LOSS"
+    },
+    {
+      "id": "W-LU-SYS:PROJ:1",
+      "status": "PASS",
+      "expected": "projection 27→9, hence not uniquely invertible",
+      "category": "LOSS"
+    },
+    {
+      "id": "W-LU-SYS:PROJ:2",
+      "status": "PASS",
+      "expected": "projection 27→9, hence not uniquely invertible",
+      "category": "LOSS"
+    },
+    {
+      "id": "W-LU-SYS:CYCLE",
+      "status": "PASS",
+      "expected": "three simultaneous cyclic shifts = identity",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "MED-27:27",
+      "status": "PASS",
+      "expected": "27 field candidates",
+      "category": "STRUCTURE"
+    },
+    {
+      "id": "MED-27:UNIQUE",
+      "status": "PASS",
+      "expected": "27 unique field IDs",
+      "category": "STRUCTURE"
+    },
+    {
+      "id": "MED-27:GROUPS",
+      "status": "PASS",
+      "expected": "nine groups × 3 cells",
+      "category": "STRUCTURE"
+    },
+    {
+      "id": "MED-27:GUARDS",
+      "status": "PASS",
+      "expected": "unvalidated operators explicitly open",
+      "category": "SAFETY"
+    },
+    {
+      "id": "MED-27:PERM:012",
+      "status": "PASS",
+      "expected": "index permutation with exact inverse for all cells",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "MED-27:PERM:021",
+      "status": "PASS",
+      "expected": "index permutation with exact inverse for all cells",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "MED-27:PERM:102",
+      "status": "PASS",
+      "expected": "index permutation with exact inverse for all cells",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "MED-27:PERM:120",
+      "status": "PASS",
+      "expected": "index permutation with exact inverse for all cells",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "MED-27:PERM:201",
+      "status": "PASS",
+      "expected": "index permutation with exact inverse for all cells",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "MED-27:PERM:210",
+      "status": "PASS",
+      "expected": "index permutation with exact inverse for all cells",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "MED-27:SHIFT:0",
+      "status": "PASS",
+      "expected": "single-axis modular translation and inverse",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "MED-27:SHIFT:1",
+      "status": "PASS",
+      "expected": "single-axis modular translation and inverse",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "MED-27:SHIFT:2",
+      "status": "PASS",
+      "expected": "single-axis modular translation and inverse",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "MED-27:PROJ:0",
+      "status": "PASS",
+      "expected": "projection 27→9, hence not uniquely invertible",
+      "category": "LOSS"
+    },
+    {
+      "id": "MED-27:PROJ:1",
+      "status": "PASS",
+      "expected": "projection 27→9, hence not uniquely invertible",
+      "category": "LOSS"
+    },
+    {
+      "id": "MED-27:PROJ:2",
+      "status": "PASS",
+      "expected": "projection 27→9, hence not uniquely invertible",
+      "category": "LOSS"
+    },
+    {
+      "id": "MED-27:CYCLE",
+      "status": "PASS",
+      "expected": "three simultaneous cyclic shifts = identity",
+      "category": "INDEX_ALGEBRA"
+    },
+    {
+      "id": "SOURCE:ORIGINAL_81",
+      "status": "PASS",
+      "expected": "all 81 original candidate labels preserved",
+      "category": "PROVENANCE"
+    },
+    {
+      "id": "SOURCE:NEW_27",
+      "status": "PASS",
+      "expected": "27 media-order cards derived from authored axes",
+      "category": "PROVENANCE"
+    },
+    {
+      "id": "TOTAL:108",
+      "status": "PASS",
+      "expected": "4×27 field records",
+      "category": "STRUCTURE"
+    },
+    {
+      "id": "TOTAL:36",
+      "status": "PASS",
+      "expected": "4×9 card groups",
+      "category": "STRUCTURE"
+    },
+    {
+      "id": "BRIDGE:COMMON_AXES",
+      "status": "PASS",
+      "expected": "two source-defined axes match",
+      "category": "TRANSFER"
+    },
+    {
+      "id": "BRIDGE:THIRD_DIFFERENT",
+      "status": "PASS",
+      "expected": "third-axis role is not identical",
+      "category": "TRANSFER"
+    },
+    {
+      "id": "HYPEREDGE:PAIR_PROJECTIONS",
+      "status": "PASS",
+      "expected": "9 ternary triples share complete pair projections with 27 unconstrained triples",
+      "category": "COUNTEREXAMPLE"
+    },
+    {
+      "id": "TRANSFER:NOT_AUTOMATIC",
+      "status": "PASS",
+      "expected": "no fabricated domain equivalence",
+      "category": "SAFETY"
+    }
+  ],
+  "limitations": [
+    "Field labels are not executable rules",
+    "All 6er edge relations require source-defined operations",
+    "Index reversibility does not imply semantic reversibility",
+    "MED-27 is project-defined and not one theory authored by Peirce/Luhmann/Marr/Jenkins"
+  ]
+}
