@@ -1,0 +1,315 @@
+{
+  "schema": "g30-field-encoding-crosswalk/0.1",
+  "date": "2026-11-06",
+  "status": "INDEX_MAPPINGS_TESTED_DOMAIN_SEMANTICS_NOT_INFERRED",
+  "source_paths": [
+    "forschung/tensor/algebra-claude/schema/tensor-1.0.schema.json",
+    "forschung/tensor/algebra-claude/SCHEMA_FELDEIGENSCHAFTEN_V0_1.json",
+    "forschung/tensor-grafik/schema/tensor-visual.v0.1.json",
+    "forschung/tensor/algebra-claude/typalgebra.py",
+    "forschung/tensor/kandidaten/KAND-LUHMANN-01_v0_1.json",
+    "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json"
+  ],
+  "maps": [
+    {
+      "canonical": "NM-I-α",
+      "numeric": "1-1-1",
+      "graphic": "T0.E0.R0",
+      "compact": "000",
+      "serial": 0,
+      "group": 0
+    },
+    {
+      "canonical": "NM-I-β",
+      "numeric": "1-1-2",
+      "graphic": "T0.E0.R1",
+      "compact": "001",
+      "serial": 1,
+      "group": 0
+    },
+    {
+      "canonical": "NM-I-γ",
+      "numeric": "1-1-3",
+      "graphic": "T0.E0.R2",
+      "compact": "002",
+      "serial": 2,
+      "group": 0
+    },
+    {
+      "canonical": "NM-II-α",
+      "numeric": "1-2-1",
+      "graphic": "T0.E1.R0",
+      "compact": "010",
+      "serial": 3,
+      "group": 1
+    },
+    {
+      "canonical": "NM-II-β",
+      "numeric": "1-2-2",
+      "graphic": "T0.E1.R1",
+      "compact": "011",
+      "serial": 4,
+      "group": 1
+    },
+    {
+      "canonical": "NM-II-γ",
+      "numeric": "1-2-3",
+      "graphic": "T0.E1.R2",
+      "compact": "012",
+      "serial": 5,
+      "group": 1
+    },
+    {
+      "canonical": "NM-III-α",
+      "numeric": "1-3-1",
+      "graphic": "T0.E2.R0",
+      "compact": "020",
+      "serial": 6,
+      "group": 2
+    },
+    {
+      "canonical": "NM-III-β",
+      "numeric": "1-3-2",
+      "graphic": "T0.E2.R1",
+      "compact": "021",
+      "serial": 7,
+      "group": 2
+    },
+    {
+      "canonical": "NM-III-γ",
+      "numeric": "1-3-3",
+      "graphic": "T0.E2.R2",
+      "compact": "022",
+      "serial": 8,
+      "group": 2
+    },
+    {
+      "canonical": "ZM-I-α",
+      "numeric": "2-1-1",
+      "graphic": "T1.E0.R0",
+      "compact": "100",
+      "serial": 9,
+      "group": 3
+    },
+    {
+      "canonical": "ZM-I-β",
+      "numeric": "2-1-2",
+      "graphic": "T1.E0.R1",
+      "compact": "101",
+      "serial": 10,
+      "group": 3
+    },
+    {
+      "canonical": "ZM-I-γ",
+      "numeric": "2-1-3",
+      "graphic": "T1.E0.R2",
+      "compact": "102",
+      "serial": 11,
+      "group": 3
+    },
+    {
+      "canonical": "ZM-II-α",
+      "numeric": "2-2-1",
+      "graphic": "T1.E1.R0",
+      "compact": "110",
+      "serial": 12,
+      "group": 4
+    },
+    {
+      "canonical": "ZM-II-β",
+      "numeric": "2-2-2",
+      "graphic": "T1.E1.R1",
+      "compact": "111",
+      "serial": 13,
+      "group": 4
+    },
+    {
+      "canonical": "ZM-II-γ",
+      "numeric": "2-2-3",
+      "graphic": "T1.E1.R2",
+      "compact": "112",
+      "serial": 14,
+      "group": 4
+    },
+    {
+      "canonical": "ZM-III-α",
+      "numeric": "2-3-1",
+      "graphic": "T1.E2.R0",
+      "compact": "120",
+      "serial": 15,
+      "group": 5
+    },
+    {
+      "canonical": "ZM-III-β",
+      "numeric": "2-3-2",
+      "graphic": "T1.E2.R1",
+      "compact": "121",
+      "serial": 16,
+      "group": 5
+    },
+    {
+      "canonical": "ZM-III-γ",
+      "numeric": "2-3-3",
+      "graphic": "T1.E2.R2",
+      "compact": "122",
+      "serial": 17,
+      "group": 5
+    },
+    {
+      "canonical": "UM-I-α",
+      "numeric": "3-1-1",
+      "graphic": "T2.E0.R0",
+      "compact": "200",
+      "serial": 18,
+      "group": 6
+    },
+    {
+      "canonical": "UM-I-β",
+      "numeric": "3-1-2",
+      "graphic": "T2.E0.R1",
+      "compact": "201",
+      "serial": 19,
+      "group": 6
+    },
+    {
+      "canonical": "UM-I-γ",
+      "numeric": "3-1-3",
+      "graphic": "T2.E0.R2",
+      "compact": "202",
+      "serial": 20,
+      "group": 6
+    },
+    {
+      "canonical": "UM-II-α",
+      "numeric": "3-2-1",
+      "graphic": "T2.E1.R0",
+      "compact": "210",
+      "serial": 21,
+      "group": 7
+    },
+    {
+      "canonical": "UM-II-β",
+      "numeric": "3-2-2",
+      "graphic": "T2.E1.R1",
+      "compact": "211",
+      "serial": 22,
+      "group": 7
+    },
+    {
+      "canonical": "UM-II-γ",
+      "numeric": "3-2-3",
+      "graphic": "T2.E1.R2",
+      "compact": "212",
+      "serial": 23,
+      "group": 7
+    },
+    {
+      "canonical": "UM-III-α",
+      "numeric": "3-3-1",
+      "graphic": "T2.E2.R0",
+      "compact": "220",
+      "serial": 24,
+      "group": 8
+    },
+    {
+      "canonical": "UM-III-β",
+      "numeric": "3-3-2",
+      "graphic": "T2.E2.R1",
+      "compact": "221",
+      "serial": 25,
+      "group": 8
+    },
+    {
+      "canonical": "UM-III-γ",
+      "numeric": "3-3-3",
+      "graphic": "T2.E2.R2",
+      "compact": "222",
+      "serial": 26,
+      "group": 8
+    }
+  ],
+  "tests": [
+    {
+      "id": "ADDRESS-ROUNDTRIP",
+      "passed": true
+    },
+    {
+      "id": "ALL-UNIQUE",
+      "passed": true
+    },
+    {
+      "id": "NINE-GROUPS",
+      "passed": true
+    },
+    {
+      "id": "PROJECTION-LOSS",
+      "passed": true
+    },
+    {
+      "id": "PERM-INVERSE",
+      "passed": true
+    },
+    {
+      "id": "MOD-3-CYCLE",
+      "passed": true
+    },
+    {
+      "id": "6ER-POLY-NOT-TRIAD",
+      "passed": true
+    }
+  ],
+  "suggested_canonical": {
+    "field_id": "<tensor_id>@<version>#<NM|ZM|UM>-<I|II|III>-<α|β|γ>",
+    "world_id": "independent world membership reference, not concatenated semantic identity",
+    "runtime_state": [
+      "run_id",
+      "tensor_id",
+      "version",
+      "field_id",
+      "operator_id",
+      "parameter_set",
+      "source_refs",
+      "input_hash",
+      "output_hash",
+      "inverse_policy",
+      "loss",
+      "evidence_status",
+      "timestamp"
+    ]
+  },
+  "core_formulas": [
+    {
+      "id": "INDEX",
+      "expression": "n=9i+3j+k",
+      "domain": "i,j,k in {0,1,2}",
+      "test": "0..26 bijective"
+    },
+    {
+      "id": "9-GROUP",
+      "expression": "g=3i+j",
+      "meaning": "j and i fixed; k ranges across third axis"
+    },
+    {
+      "id": "PERM",
+      "expression": "P(i,j,k)=(j,k,i); P^-1(a,b,c)=(c,a,b)"
+    },
+    {
+      "id": "CYCLE",
+      "expression": "C(i,j,k)=(i+1,j+1,k+1) mod 3; C^3=id"
+    },
+    {
+      "id": "PROJ",
+      "expression": "π(i,j,k)=(i,j); preimage size 3; 27→9 lossy"
+    },
+    {
+      "id": "6ER",
+      "expression": "|V|+|E|=3+3=6 for a triangle cycle",
+      "caveat": "The three pairwise edges do not determine an arbitrary ternary hyperrelation."
+    },
+    {
+      "id": "TRANSFER",
+      "expression": "v∘f_A=f_B∘u on declared typed domain",
+      "caveat": "Requires source-defined maps and independent tests."
+    }
+  ]
+}
