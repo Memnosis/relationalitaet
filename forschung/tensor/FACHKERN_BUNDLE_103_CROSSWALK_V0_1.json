@@ -1,0 +1,6129 @@
+{
+  "schema": "fachkern-tensor-buendel-audit/0.1",
+  "date": "2026-11-06",
+  "project": "KI-Tensor",
+  "scope": "100 FACH + 3 CORE aus v10.7; andere historische Tensorakten separat; noch keine Vollrekonstruktion aus ZIP/SQLite",
+  "method": "No-loss: Inventory baseline, then source pinpoints, version conflict register, formula validation, proof and counterexample, geometry/semantics crosswalk, publication delta",
+  "bundles": [
+    {
+      "id": "B01",
+      "name": "Mathematik, Logik und Grundlagen",
+      "focus": "Formale Systeme, Beweise, Gleichungen, Räume, Statistik",
+      "tensor_ids": [
+        "FACH-F001",
+        "FACH-F002",
+        "FACH-F003",
+        "FACH-F004",
+        "FACH-F005",
+        "FACH-F006",
+        "FACH-F007",
+        "FACH-F008",
+        "FACH-F009",
+        "FACH-F010"
+      ],
+      "count": 10,
+      "cross_disclipinary": true,
+      "review_state": "inventory_classified_not_semantically_validated"
+    },
+    {
+      "id": "B02",
+      "name": "Physik und Raum-Zeit",
+      "focus": "Mechanik, Felder, Relativität, Quanten, thermische und kosmische Modelle",
+      "tensor_ids": [
+        "FACH-F011",
+        "FACH-F012",
+        "FACH-F013",
+        "FACH-F014",
+        "FACH-F015",
+        "FACH-F016",
+        "FACH-F017",
+        "FACH-F018",
+        "FACH-F019",
+        "FACH-F020",
+        "FACH-F021",
+        "FACH-F022",
+        "FACH-F023",
+        "FACH-F024",
+        "FACH-F025",
+        "FACH-F026",
+        "FACH-F027",
+        "FACH-F028",
+        "FACH-F029",
+        "FACH-F030"
+      ],
+      "count": 20,
+      "cross_disclipinary": true,
+      "review_state": "inventory_classified_not_semantically_validated"
+    },
+    {
+      "id": "B03",
+      "name": "Chemie und molekulare Stoffsysteme",
+      "focus": "Chemische Bindung, Energien, Kinetik, Sättigung, Analytik",
+      "tensor_ids": [
+        "FACH-F031",
+        "FACH-F032",
+        "FACH-F033",
+        "FACH-F034",
+        "FACH-F035",
+        "FACH-F036",
+        "FACH-F037",
+        "FACH-F038",
+        "FACH-F039",
+        "FACH-F040"
+      ],
+      "count": 10,
+      "cross_disclipinary": true,
+      "review_state": "inventory_classified_not_semantically_validated"
+    },
+    {
+      "id": "B04",
+      "name": "Biologie, Evolution und Ökosysteme",
+      "focus": "Molekül- bis Populationsmodelle, Systeme, Anpassung",
+      "tensor_ids": [
+        "FACH-F041",
+        "FACH-F042",
+        "FACH-F043",
+        "FACH-F044",
+        "FACH-F045",
+        "FACH-F046",
+        "FACH-F047",
+        "FACH-F048",
+        "FACH-F049",
+        "FACH-F050",
+        "FACH-F051",
+        "FACH-F052",
+        "FACH-F053",
+        "FACH-F054",
+        "FACH-F055"
+      ],
+      "count": 15,
+      "cross_disclipinary": true,
+      "review_state": "inventory_classified_not_semantically_validated"
+    },
+    {
+      "id": "B05",
+      "name": "Medizin und Gesundheitswissenschaften",
+      "focus": "Regelung, Diagnostik, Versorgung, psychometrische Modelle",
+      "tensor_ids": [
+        "FACH-F056",
+        "FACH-F057",
+        "FACH-F058",
+        "FACH-F059",
+        "FACH-F060"
+      ],
+      "count": 5,
+      "cross_disclipinary": true,
+      "review_state": "inventory_classified_not_semantically_validated"
+    },
+    {
+      "id": "B06",
+      "name": "Informatik, KI und Information",
+      "focus": "Daten, Algorithmus, Lernprozess, Information, Netzwerk",
+      "tensor_ids": [
+        "FACH-F061",
+        "FACH-F062",
+        "FACH-F063",
+        "FACH-F064",
+        "FACH-F065",
+        "FACH-F066",
+        "FACH-F067",
+        "FACH-F068",
+        "FACH-F069",
+        "FACH-F070"
+      ],
+      "count": 10,
+      "cross_disclipinary": true,
+      "review_state": "inventory_classified_not_semantically_validated"
+    },
+    {
+      "id": "B07",
+      "name": "Sprachwissenschaften und Sprachverarbeitung",
+      "focus": "Phonetik bis Psycholinguistik, Zeichen und Bedeutung",
+      "tensor_ids": [
+        "FACH-F071",
+        "FACH-F072",
+        "FACH-F073",
+        "FACH-F074",
+        "FACH-F075",
+        "FACH-F076",
+        "FACH-F077"
+      ],
+      "count": 7,
+      "cross_disclipinary": true,
+      "review_state": "inventory_classified_not_semantically_validated"
+    },
+    {
+      "id": "B08",
+      "name": "Kognition, Lern- und Bildungswissenschaften",
+      "focus": "Wahrnehmung, Lernen, Lehrwirkung",
+      "tensor_ids": [
+        "FACH-F078",
+        "FACH-F079",
+        "FACH-F080"
+      ],
+      "count": 3,
+      "cross_disclipinary": true,
+      "review_state": "inventory_classified_not_semantically_validated"
+    },
+    {
+      "id": "B09",
+      "name": "Wirtschaft und quantitative Sozialforschung",
+      "focus": "Nutzen, Konten, Portfolios, Kausalidentifikation",
+      "tensor_ids": [
+        "FACH-F081",
+        "FACH-F082",
+        "FACH-F083",
+        "FACH-F087"
+      ],
+      "count": 4,
+      "cross_disclipinary": true,
+      "review_state": "inventory_classified_not_semantically_validated"
+    },
+    {
+      "id": "B10",
+      "name": "Gesellschaft, Recht, Politik und Kultur",
+      "focus": "Netzwerke, Kommunikation, Recht, Governance und Quellenkritik",
+      "tensor_ids": [
+        "FACH-F084",
+        "FACH-F085",
+        "FACH-F086",
+        "FACH-F088",
+        "FACH-F089",
+        "FACH-F090"
+      ],
+      "count": 6,
+      "cross_disclipinary": true,
+      "review_state": "inventory_classified_not_semantically_validated"
+    },
+    {
+      "id": "B11",
+      "name": "Ingenieur- und angewandte Systemwissenschaften",
+      "focus": "Regelkreise, Technik, Transport, Stoffströme",
+      "tensor_ids": [
+        "FACH-F091",
+        "FACH-F092",
+        "FACH-F093",
+        "FACH-F094",
+        "FACH-F095",
+        "FACH-F096",
+        "FACH-F097",
+        "FACH-F098"
+      ],
+      "count": 8,
+      "cross_disclipinary": true,
+      "review_state": "inventory_classified_not_semantically_validated"
+    },
+    {
+      "id": "B12",
+      "name": "Design- und Musikwissenschaften",
+      "focus": "Gestaltung, Formalisierung, Gestalt, Akustik und Vermittlung",
+      "tensor_ids": [
+        "FACH-F099",
+        "FACH-F100"
+      ],
+      "count": 2,
+      "cross_disclipinary": true,
+      "review_state": "inventory_classified_not_semantically_validated"
+    }
+  ],
+  "meta_tensors": [
+    {
+      "id": "CORE-T1",
+      "name": "CORE-T1 · Gegenstand – Konzept – Bezeichnung"
+    },
+    {
+      "id": "CORE-T2",
+      "name": "CORE-T2 · Trägerraum – Zustandszuordnung – Wechselwirkung"
+    },
+    {
+      "id": "CORE-T3",
+      "name": "CORE-T3 · Identität – Rolle – Kontext"
+    }
+  ],
+  "audit_gaps": [
+    {
+      "code": "G-001",
+      "kind": "source_split",
+      "ids": [
+        "FACH-F001",
+        "T-LOGIK"
+      ],
+      "issue": "F001 ist historisch reserviert; Logik 1.0, Logik 2.0, 27 Fachbegriffe und Pfade getrennt vor Originalabgleich",
+      "action": "Basen A/B/C/G im Goldstandard kreuzen; keine neue F001-Fachbelegung"
+    },
+    {
+      "code": "G-002",
+      "kind": "field_vs_address",
+      "ids": [
+        "FACH-F001",
+        "FACH-F100"
+      ],
+      "issue": "27 Feldadressen pro Gerüst nicht automatisch 27 geprüfte Feldakten",
+      "action": "Feld- und Belegungsstatus getrennt erfassen"
+    },
+    {
+      "code": "G-003",
+      "kind": "formula_parser",
+      "ids": [
+        "FACH-F003",
+        "FACH-F004",
+        "FACH-F005",
+        "FACH-F031"
+      ],
+      "issue": "Symbole, TeX und Dimensionsrollen im Wikidata-Korpus teilweise unvollständig; Vektoren als Skalare",
+      "action": "Größen, Einheiten, Voraussetzungen, Argumenttypen nachklassifizieren"
+    },
+    {
+      "code": "G-004",
+      "kind": "semantics_collision",
+      "ids": [
+        "FACH-F037",
+        "FACH-F039",
+        "FACH-F048",
+        "FACH-F053",
+        "FACH-F055"
+      ],
+      "issue": "gemeinsame Sättigungsnormalform ist keine identische physikalisch-chemische Mechanik",
+      "action": "Rollen- und Parametertypen plus Geltungsbereich pro Formel"
+    },
+    {
+      "code": "G-005",
+      "kind": "equivalence_vs_special_case",
+      "ids": [
+        "FACH-F034",
+        "FACH-F096",
+        "FACH-F098"
+      ],
+      "issue": "gemeinsame Bilanzfamilie enthält Spezialfälle, räumliche Mittelung und verschiedene Randbedingungen",
+      "action": "gerichtete Transformationen und nichtinvertierbare Reduktion markieren"
+    },
+    {
+      "code": "G-006",
+      "kind": "old_claim_overreach",
+      "ids": [
+        "CORE-T1",
+        "CORE-T2",
+        "CORE-T3"
+      ],
+      "issue": "historische Universal- und Isomorphiebehauptungen nicht aus gemeinsamem Zahlenraster oder Euler-Identität folgerbar",
+      "action": "Aussagenstatus Quelle vs Rekonstruktion vs getesteter Satz"
+    },
+    {
+      "code": "G-007",
+      "kind": "scope_gap",
+      "ids": [
+        "FACH-F084",
+        "FACH-F088"
+      ],
+      "issue": "Soziologie/Kommunikation-Inventar deckt die fünf Luhmann-Ordnungen und Soziations-Tensoren nicht vollständig ab",
+      "action": "eigene Tensorakten als Querschnitt ohne Umbenennung oder Verschmelzung verlinken"
+    },
+    {
+      "code": "G-008",
+      "kind": "geometric_vs_semantic",
+      "ids": [
+        "FACH-F007",
+        "FACH-F008",
+        "FACH-F092"
+      ],
+      "issue": "Geo-KI-Zeichnung und Indexdrehung beweisen keine fachliche Homöomorphie oder Transformationsinvarianz",
+      "action": "Topologie, Metrik, Adresscodierung, Bewegung und Bedeutung jeweils separat prüfen"
+    },
+    {
+      "code": "G-009",
+      "kind": "historical_artifacts",
+      "ids": [],
+      "issue": "alte Archive enthalten 4.645 Operator-Relationszeilen, 6.225 Achsen-Quellen-Zeilen; Duplikate/Versionen nicht vollständig konsolidiert",
+      "action": "No-Loss-import, Provenienz, SHA und Statement-deduplikation"
+    }
+  ],
+  "publication_checklist": [
+    "Originalfundstelle mit Pinpoint und Jahr",
+    "historische Variante vs aktuelle Gleichung",
+    "formaler Typ von Variablen und Operator",
+    "Geltungsbereich und Dimensionsprüfung",
+    "Normalformen und Fachbrücken",
+    "Gegenmodell und Rückweg",
+    "Geo-KI-/Icon-Stempel mit semantischer Differenz",
+    "Lehrbeispiel und Prüfakte mit reproduzierbarer Rechnung"
+  ],
+  "records": [
+    {
+      "tensor_id": "FACH-F001",
+      "fachgebiet": "Logik (historisch gesperrt)",
+      "bundle_id": "B01",
+      "legacy_model": "Modelltheorie",
+      "legacy_formula_anchor": "Vollständigkeitssatz nur für spezifizierte Kalküle",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Syntax",
+            "Semantik",
+            "Beweis"
+          ],
+          "legacy_status": "HISTORISCH_RESERVIERT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Rel0",
+            "Rel-Rel",
+            "Rel1"
+          ],
+          "legacy_status": "HISTORISCH_RESERVIERT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Struktur",
+            "Funktion",
+            "Relation"
+          ],
+          "legacy_status": "HISTORISCH_RESERVIERT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "historisch_gesperrt",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F002",
+      "fachgebiet": "Mengenlehre",
+      "bundle_id": "B01",
+      "legacy_model": "ZFC, Mengenfunktionen",
+      "legacy_formula_anchor": "Kardinalität unter Bijektionen invariant",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Menge",
+            "Abbildung",
+            "Kardinalität"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Element",
+            "Teilmenge",
+            "Potenzmenge"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Injektion",
+            "Surjektion",
+            "Bijektion"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F003",
+      "fachgebiet": "Algebra",
+      "bundle_id": "B01",
+      "legacy_model": "Orbit-Stabilisator",
+      "legacy_formula_anchor": "Orbit-Stabilisator-Satz für passende Gruppen",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Gruppe",
+            "Wirkung",
+            "Orbit"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Untergruppe",
+            "Nebenklasse",
+            "Quotient"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Homomorphismus",
+            "Kern",
+            "Bild"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F004",
+      "fachgebiet": "Lineare Algebra",
+      "bundle_id": "B01",
+      "legacy_model": "Spektralsatz",
+      "legacy_formula_anchor": "Av=λv",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Operator",
+            "Eigenvektor",
+            "Eigenwert"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Vektorraum",
+            "Basis",
+            "Dimension"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Matrix",
+            "Determinante",
+            "Invertierbarkeit"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F005",
+      "fachgebiet": "Analysis",
+      "bundle_id": "B01",
+      "legacy_model": "Fundamentalsatz",
+      "legacy_formula_anchor": "∫f′=f(b)−f(a)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Grenzwert",
+            "Ableitung",
+            "Integral"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Funktion",
+            "Differenzierbarkeit",
+            "Ableitung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Integrand",
+            "Stammfunktion",
+            "bestimmtes Integral"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F006",
+      "fachgebiet": "Differentialgleichungen",
+      "bundle_id": "B01",
+      "legacy_model": "ODE/PDE",
+      "legacy_formula_anchor": "Anfangswertproblem x(t0)=x0",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Zustand",
+            "Dynamik",
+            "Anfangswert"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Vektorfeld",
+            "Trajektorie",
+            "Fixpunkt"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Anfangsdaten",
+            "Lösungsoperator",
+            "Stabilität"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F007",
+      "fachgebiet": "Geometrie",
+      "bundle_id": "B01",
+      "legacy_model": "Riemanngeometrie",
+      "legacy_formula_anchor": "Riemann-Krümmung, Zusatzannahmen",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Raum",
+            "Metrik",
+            "Krümmung"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Punkt",
+            "Abstand",
+            "Geodäte"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Mannigfaltigkeit",
+            "Verbindung",
+            "Krümmungstensor"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F008",
+      "fachgebiet": "Topologie",
+      "bundle_id": "B01",
+      "legacy_model": "Algebraische Topologie",
+      "legacy_formula_anchor": "π₁(X)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Raum",
+            "Stetigkeit",
+            "Homotopie"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Offene Menge",
+            "Topologie",
+            "Stetigkeit"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Schleife",
+            "Homotopie",
+            "Fundamentalgruppe"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F009",
+      "fachgebiet": "Wahrscheinlichkeit",
+      "bundle_id": "B01",
+      "legacy_model": "Kolmogorov",
+      "legacy_formula_anchor": "E[X]=∫X dP",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Ereignis",
+            "Maß",
+            "Erwartungswert"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Zufallsvariable",
+            "Verteilung",
+            "Moment"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Bedingung",
+            "bedingte Wahrscheinlichkeit",
+            "Bayes-Update"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F010",
+      "fachgebiet": "Statistik",
+      "bundle_id": "B01",
+      "legacy_model": "Likelihood",
+      "legacy_formula_anchor": "L(θ)=∏p(x_i|θ)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Parameter",
+            "Stichprobe",
+            "Schätzer"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Modell",
+            "Likelihood",
+            "Schätzwert"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Nullhypothese",
+            "Teststatistik",
+            "Fehlerwahrscheinlichkeit"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F011",
+      "fachgebiet": "Klassische Mechanik",
+      "bundle_id": "B02",
+      "legacy_model": "Hamiltonmechanik",
+      "legacy_formula_anchor": "q̇=∂H/∂p; ṗ=−∂H/∂q",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Zustand",
+            "Hamiltonfunktion",
+            "Fluss"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Koordinate",
+            "Impuls",
+            "Hamiltonfunktion"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Symmetrie",
+            "Erhaltungsgröße",
+            "Poissonklammer"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F012",
+      "fachgebiet": "Kontinuumsmechanik",
+      "bundle_id": "B02",
+      "legacy_model": "Cauchy-Bilanz",
+      "legacy_formula_anchor": "ρa=∇·σ+f",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Deformation",
+            "Spannung",
+            "Bilanz"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Verschiebungsfeld",
+            "Verzerrung",
+            "Spannung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Dichte",
+            "Impulsfluss",
+            "Bilanzgleichung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F013",
+      "fachgebiet": "Elektrodynamik",
+      "bundle_id": "B02",
+      "legacy_model": "Maxwell",
+      "legacy_formula_anchor": "∂μF^{μν}=μ0Jν (Einheitenwahl)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Feldtensor",
+            "Viererstrom",
+            "Feldgleichung"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Potential",
+            "Feldstärke",
+            "Feldtensor"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Ladung",
+            "Kontinuitätsgleichung",
+            "Maxwellgleichung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F014",
+      "fachgebiet": "Spezielle Relativität",
+      "bundle_id": "B02",
+      "legacy_model": "Minkowski",
+      "legacy_formula_anchor": "ds²=η_μνdx^μdx^ν",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Ereignis",
+            "Lorentztransformation",
+            "Intervall"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Raumzeitpunkt",
+            "Weltlinie",
+            "Eigenzeit"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Vierervektor",
+            "Minkowskimetrik",
+            "Invariante"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F015",
+      "fachgebiet": "Allgemeine Relativität",
+      "bundle_id": "B02",
+      "legacy_model": "Einstein",
+      "legacy_formula_anchor": "Gμν+Λgμν=κTμν",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Metrik",
+            "Krümmung",
+            "Energieimpuls"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Raumzeitmetrik",
+            "Christoffelsymbol",
+            "Geodäte"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Energie-Impuls-Tensor",
+            "Einstein-Tensor",
+            "Feldgleichung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F016",
+      "fachgebiet": "Quantenmechanik",
+      "bundle_id": "B02",
+      "legacy_model": "Born-Regel",
+      "legacy_formula_anchor": "p=Tr(ρE)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Zustand",
+            "Operator",
+            "Messwahrscheinlichkeit"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Zustandsvektor",
+            "Hamiltonoperator",
+            "Zeitentwicklung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Observable",
+            "Spektralprojektor",
+            "Bornwahrscheinlichkeit"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F017",
+      "fachgebiet": "Quantenfeldtheorie",
+      "bundle_id": "B02",
+      "legacy_model": "Pfadintegral",
+      "legacy_formula_anchor": "Z[J]=∫Dφ e^{iS+iJφ}",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Feld",
+            "Wirkung",
+            "Korrelator"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Feldoperator",
+            "Vakuum",
+            "Korrelator"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Symmetrie",
+            "Noetherstrom",
+            "Wardidentität"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F018",
+      "fachgebiet": "Starke Wechselwirkung",
+      "bundle_id": "B02",
+      "legacy_model": "QCD",
+      "legacy_formula_anchor": "QCD-Dynamik/Confinement als zusätzliche Brücke",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Farbladung",
+            "Gluonfeld",
+            "Hadronenspektrum"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Eichgruppe",
+            "Farbladung",
+            "kovariante Ableitung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Wilson-Schleife",
+            "statisches Potential",
+            "Confinement"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F019",
+      "fachgebiet": "Elektroschwache Theorie",
+      "bundle_id": "B02",
+      "legacy_model": "Standardmodell",
+      "legacy_formula_anchor": "mW=gv/2; Yukawa-Masse mf=yfv/√2",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Eichkopplung",
+            "Higgs-Vakuum",
+            "Spektrum"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Eichsymmetrie",
+            "Higgsfeld",
+            "Vakuumerwartungswert"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Yukawakopplung",
+            "Massenterm",
+            "Fermionspektrum"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F020",
+      "fachgebiet": "Thermische Physik",
+      "bundle_id": "B02",
+      "legacy_model": "Kanonisches Ensemble",
+      "legacy_formula_anchor": "F=−k_BT ln Z",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Mikrozustand",
+            "Zustandssumme",
+            "freie Energie"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Mikrozustand",
+            "Energie",
+            "Boltzmanngewicht"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Temperatur",
+            "Entropie",
+            "freie Energie"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F021",
+      "fachgebiet": "Astrophysik",
+      "bundle_id": "B02",
+      "legacy_model": "Sternstruktur",
+      "legacy_formula_anchor": "dP/dr=−Gmρ/r²",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Gravitation",
+            "Strahlung",
+            "Materie"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Masse",
+            "Gravitationspotential",
+            "Hydrostatik"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Emissivität",
+            "Strahlungsfluss",
+            "Spektrum"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F022",
+      "fachgebiet": "Kosmologie",
+      "bundle_id": "B02",
+      "legacy_model": "FLRW",
+      "legacy_formula_anchor": "H²=(8πG/3)ρ−kc²/a²+Λc²/3",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Skalenfaktor",
+            "Materieinhalt",
+            "Expansion"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Metrik",
+            "Skalenfaktor",
+            "Hubbleparameter"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Energiedichte",
+            "Druck",
+            "Friedmann-Gleichung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F023",
+      "fachgebiet": "Planetologie",
+      "bundle_id": "B02",
+      "legacy_model": "Energiebilanz",
+      "legacy_formula_anchor": "(1−α)S/4=σεT⁴",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Energieeintrag",
+            "Atmosphäre",
+            "Klima"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Strahlungsfluss",
+            "Albedo",
+            "Energiebilanz"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Temperaturprofil",
+            "Konvektion",
+            "Atmosphärenzirkulation"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F024",
+      "fachgebiet": "Festkörperphysik",
+      "bundle_id": "B02",
+      "legacy_model": "Bloch/Drude",
+      "legacy_formula_anchor": "σ=ne²τ/m",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Gitter",
+            "Bandstruktur",
+            "Transport"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Periodisches Potential",
+            "Blochzustand",
+            "Energieband"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Fermi-Fläche",
+            "Streuzeit",
+            "Leitfähigkeit"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F025",
+      "fachgebiet": "Supraleitung",
+      "bundle_id": "B02",
+      "legacy_model": "BCS/GL",
+      "legacy_formula_anchor": "Δ(T)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Ordnungsparameter",
+            "Kopplung",
+            "Kohärenz"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Paarpotential",
+            "Ordnungsparameter",
+            "Energielücke"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Magnetfeld",
+            "Flussquant",
+            "Vortex"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F026",
+      "fachgebiet": "Quantenoptik",
+      "bundle_id": "B02",
+      "legacy_model": "Jaynes-Cummings",
+      "legacy_formula_anchor": "H=ℏωa†a+ℏg(a†σ₋+aσ₊)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Photonenzustand",
+            "Wechselwirkung",
+            "Detektion"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Quantenzustand",
+            "Licht-Materie-Hamiltonoperator",
+            "Übergangsrate"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Photonenzahl",
+            "Korrelationsfunktion",
+            "Detektionsstatistik"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F027",
+      "fachgebiet": "Plasmaphysik",
+      "bundle_id": "B02",
+      "legacy_model": "Vlasov-Poisson",
+      "legacy_formula_anchor": "∂_t f+v·∇f+(q/m)E·∂_v f=0",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Teilchenverteilung",
+            "Feld",
+            "kollektive Mode"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Verteilungsfunktion",
+            "Vlasovgleichung",
+            "Plasmamode"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Ladungsdichte",
+            "Feld",
+            "Abschirmlänge"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F028",
+      "fachgebiet": "Fluiddynamik",
+      "bundle_id": "B02",
+      "legacy_model": "Navier-Stokes",
+      "legacy_formula_anchor": "ρDv/Dt=−∇p+μ∇²v",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Geschwindigkeit",
+            "Druck",
+            "Viskosität"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Strömungsfeld",
+            "Kontinuitätsgleichung",
+            "Masseerhaltung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Spannungstensor",
+            "Viskosität",
+            "Navier-Stokes-Gleichung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F029",
+      "fachgebiet": "Akustik",
+      "bundle_id": "B02",
+      "legacy_model": "Wellengleichung",
+      "legacy_formula_anchor": "∂²p/∂t²=c²∇²p",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Druckstörung",
+            "Medium",
+            "Welle"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Dichtestörung",
+            "Druckstörung",
+            "Schallgeschwindigkeit"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Wellenzahl",
+            "Frequenz",
+            "Dispersionsrelation"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F030",
+      "fachgebiet": "Geophysik",
+      "bundle_id": "B02",
+      "legacy_model": "Seismische Wellen",
+      "legacy_formula_anchor": "ρü=∇·σ",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Geometrie",
+            "Material",
+            "Welle"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Elastizität",
+            "Dichte",
+            "Wellengeschwindigkeit"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Quelle",
+            "Wellenfeld",
+            "Seismogramm"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F031",
+      "fachgebiet": "Quantenchemie",
+      "bundle_id": "B03",
+      "legacy_model": "DFT/Hartree-Fock",
+      "legacy_formula_anchor": "E[n] und KS-Orbitale",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Orbitale",
+            "Elektronendichte",
+            "Energie"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Hamiltonoperator",
+            "Elektronenwellenfunktion",
+            "Energie"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Dichtefunktional",
+            "Elektronendichte",
+            "Grundzustandsenergie"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F032",
+      "fachgebiet": "Bindungschemie",
+      "bundle_id": "B03",
+      "legacy_model": "Born-Oppenheimer",
+      "legacy_formula_anchor": "F_i=−∂E/∂R_i",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Geometrie",
+            "Potentialfläche",
+            "Vibrationsmode"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Kernkoordinate",
+            "Potentialenergie",
+            "Kraft"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Gleichgewichtsgeometrie",
+            "Hesse-Matrix",
+            "Normalmode"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F033",
+      "fachgebiet": "Thermodynamische Chemie",
+      "bundle_id": "B03",
+      "legacy_model": "Gibbs",
+      "legacy_formula_anchor": "ΔrG=Σνi μi",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "chemisches Potential",
+            "ΔG",
+            "Gleichgewicht"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Aktivität",
+            "chemisches Potential",
+            "Reaktions-Gibbsenergie"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Standardreaktionsenergie",
+            "Gleichgewichtskonstante",
+            "Reaktionsquotient"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F034",
+      "fachgebiet": "Reaktionskinetik",
+      "bundle_id": "B03",
+      "legacy_model": "Mass-Action/Eyring",
+      "legacy_formula_anchor": "dc/dt=S v(c)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Mechanismus",
+            "Rate",
+            "Konzentrationsverlauf"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Energiebarriere",
+            "Übergangszustand",
+            "Geschwindigkeitskonstante"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Stöchiometrie",
+            "Geschwindigkeitsgesetz",
+            "Konzentrationsprofil"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F035",
+      "fachgebiet": "Elektrochemie",
+      "bundle_id": "B03",
+      "legacy_model": "Nernst",
+      "legacy_formula_anchor": "E=E°−RT/(nF)ln Q",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Redoxpaar",
+            "Aktivität",
+            "Elektrodenpotential"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Elektronenaktivität",
+            "Redoxpotential",
+            "Nernstbeziehung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Überpotential",
+            "Stromdichte",
+            "Austauschstrom"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F036",
+      "fachgebiet": "Photochemie",
+      "bundle_id": "B03",
+      "legacy_model": "Jablonski",
+      "legacy_formula_anchor": "Φ=k_r/Σk",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Absorption",
+            "Anregung",
+            "Relaxation"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Photonenfluss",
+            "Absorptionsquerschnitt",
+            "Anregungsrate"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "angeregter Zustand",
+            "Konkurrenzkanal",
+            "Quantenausbeute"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F037",
+      "fachgebiet": "Supramolekulare Chemie",
+      "bundle_id": "B03",
+      "legacy_model": "Host-Guest",
+      "legacy_formula_anchor": "θ=c/(K_d+c)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Erkennung",
+            "Bindung",
+            "Selbstorganisation"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Wirtsmolekül",
+            "Gastmolekül",
+            "Komplex"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Bindungskonstante",
+            "Belegungsgrad",
+            "Sättigung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F038",
+      "fachgebiet": "Polymerchemie",
+      "bundle_id": "B03",
+      "legacy_model": "Carothers",
+      "legacy_formula_anchor": "X_n=1/(1−p)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Monomer",
+            "Kettenwachstum",
+            "Verteilung"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Initiierung",
+            "Propagation",
+            "Termination"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Polymerisationsgrad",
+            "Molmassenverteilung",
+            "Dispersität"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F039",
+      "fachgebiet": "Katalyse",
+      "bundle_id": "B03",
+      "legacy_model": "Langmuir-Hinshelwood",
+      "legacy_formula_anchor": "θ=KC/(1+KC)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Adsorption",
+            "Reaktionsschritt",
+            "Desorption"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Oberflächenplatz",
+            "Adsorbat",
+            "Bedeckung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Reaktionsbarriere",
+            "Turnoverfrequenz",
+            "Selektivität"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F040",
+      "fachgebiet": "Analytische Chemie",
+      "bundle_id": "B03",
+      "legacy_model": "Beer-Lambert",
+      "legacy_formula_anchor": "A=εlc",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Analyt",
+            "Messsignal",
+            "Kalibrierung"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Analytkonzentration",
+            "Antwortfunktion",
+            "Signal"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Blindwert",
+            "Messunsicherheit",
+            "Nachweisgrenze"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F041",
+      "fachgebiet": "Molekularbiologie",
+      "bundle_id": "B04",
+      "legacy_model": "zentraler Informationsfluss",
+      "legacy_formula_anchor": "Transkriptions-/Translationsmodell",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Gen",
+            "Transkript",
+            "Protein"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Promotor",
+            "Transkriptionsrate",
+            "mRNA-Menge"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Translation",
+            "Proteinmenge",
+            "Abbaurate"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F042",
+      "fachgebiet": "Genetik",
+      "bundle_id": "B04",
+      "legacy_model": "Mendel/Populationsgenetik",
+      "legacy_formula_anchor": "p²+2pq+q²=1",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Genotyp",
+            "Segregation",
+            "Phänotyp"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Allel",
+            "Genotyp",
+            "Segregationswahrscheinlichkeit"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Vererbung",
+            "Umwelt",
+            "Phänotyp"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F043",
+      "fachgebiet": "Systembiologie",
+      "bundle_id": "B04",
+      "legacy_model": "ODE-Regulationsnetz",
+      "legacy_formula_anchor": "ẋ=f(x,θ)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Netzwerk",
+            "Zustand",
+            "Regulation"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Netzwerktopologie",
+            "Reaktionsregel",
+            "Systemzustand"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Rückkopplung",
+            "Attraktor",
+            "Stabilität"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F044",
+      "fachgebiet": "Zellbiologie",
+      "bundle_id": "B04",
+      "legacy_model": "Goldman-Hodgkin-Katz",
+      "legacy_formula_anchor": "V_m≈(RT/F)ln(P_i c_o/P_i c_i)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Membran",
+            "Transport",
+            "Homöostase"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Membranpotential",
+            "Ionenkanal",
+            "Strom"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Konzentrationsgradient",
+            "Transporter",
+            "Fluss"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F045",
+      "fachgebiet": "Biophysik",
+      "bundle_id": "B04",
+      "legacy_model": "Statistische Mechanik",
+      "legacy_formula_anchor": "p_i∝e^{-E_i/kT}",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Struktur",
+            "Energie",
+            "Konformation"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Konformation",
+            "freie Energie",
+            "Population"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Kraftfeld",
+            "Dynamik",
+            "Übergangsrate"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F046",
+      "fachgebiet": "Evolution",
+      "bundle_id": "B04",
+      "legacy_model": "Replikatordynamik",
+      "legacy_formula_anchor": "ṗ_i=p_i(f_i−f̄)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Variation",
+            "Selektion",
+            "Vererbung"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Mutation",
+            "Variation",
+            "Allelfrequenz"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Fitness",
+            "Selektion",
+            "Frequenzänderung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F047",
+      "fachgebiet": "Ökologie",
+      "bundle_id": "B04",
+      "legacy_model": "Lotka-Volterra",
+      "legacy_formula_anchor": "ẋ=αx−βxy",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Population",
+            "Interaktion",
+            "Ressourcen"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Individuum",
+            "Population",
+            "Wachstumsrate"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Ressource",
+            "Konkurrenz",
+            "Tragfähigkeit"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F048",
+      "fachgebiet": "Mikrobiologie",
+      "bundle_id": "B04",
+      "legacy_model": "Monod",
+      "legacy_formula_anchor": "μ=μmax S/(K_s+S)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Substrat",
+            "Wachstum",
+            "Hemmung"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Nährstoff",
+            "Aufnahmerate",
+            "Wachstum"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Wirkstoffkonzentration",
+            "Hemmung",
+            "Überlebensrate"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F049",
+      "fachgebiet": "Neurobiologie",
+      "bundle_id": "B04",
+      "legacy_model": "Hodgkin-Huxley",
+      "legacy_formula_anchor": "C_m dV/dt=I−Σg_i(V−E_i)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Erregung",
+            "Synapse",
+            "Netzwerk"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Membranpotential",
+            "Schwelle",
+            "Aktionspotential"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Synapsenstärke",
+            "Plastizität",
+            "Netzwerkausgang"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F050",
+      "fachgebiet": "Klimasysteme",
+      "bundle_id": "B04",
+      "legacy_model": "Energiebilanzmodelle",
+      "legacy_formula_anchor": "C dT/dt=F−λT",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Strahlungsbilanz",
+            "Rückkopplung",
+            "Temperatur"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Strahlungsantrieb",
+            "Rückkopplungsparameter",
+            "Temperaturantwort"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Atmosphäre",
+            "Ozean",
+            "Wärmespeicherung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F051",
+      "fachgebiet": "Physiologie",
+      "bundle_id": "B04",
+      "legacy_model": "Regelkreismodell",
+      "legacy_formula_anchor": "ẋ=f(x,u)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Regelgröße",
+            "Sensor",
+            "Effektor"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Sollwert",
+            "Istwert",
+            "Regelabweichung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Sensorik",
+            "Steuerung",
+            "Rückkopplung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F052",
+      "fachgebiet": "Pharmakokinetik",
+      "bundle_id": "B04",
+      "legacy_model": "Kompartimentmodell",
+      "legacy_formula_anchor": "dC/dt=−kC",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Dosis",
+            "Konzentration",
+            "Elimination"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Absorption",
+            "Verteilungsvolumen",
+            "Plasmakonzentration"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Clearance",
+            "Halbwertszeit",
+            "Exposition"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F053",
+      "fachgebiet": "Pharmakodynamik",
+      "bundle_id": "B04",
+      "legacy_model": "Emax-Modell",
+      "legacy_formula_anchor": "E=Emax C/(EC50+C)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Konzentration",
+            "Rezeptorbelegung",
+            "Wirkung"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Ligandenkonzentration",
+            "Affinität",
+            "Rezeptorbelegung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Signaltransduktion",
+            "Dosis-Wirkung",
+            "Maximalwirkung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F054",
+      "fachgebiet": "Epidemiologie",
+      "bundle_id": "B04",
+      "legacy_model": "SIR",
+      "legacy_formula_anchor": "dS/dt=-βSI/N",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Suszeptible",
+            "Infizierte",
+            "Genesene"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Kontaktmatrix",
+            "Transmissionsrate",
+            "Reproduktionszahl"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Suszeptible",
+            "Infizierte",
+            "Genesene"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F055",
+      "fachgebiet": "Immunologie",
+      "bundle_id": "B04",
+      "legacy_model": "Bindungs-/Populationsmodelle",
+      "legacy_formula_anchor": "θ=c/(K_d+c)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Antigen",
+            "Erkennung",
+            "Effektor"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Antigenpräsentation",
+            "T-Zell-Erkennung",
+            "Aktivierung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Antikörper",
+            "Affinität",
+            "Neutralisation"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F056",
+      "fachgebiet": "Kardiovaskuläre Medizin",
+      "bundle_id": "B05",
+      "legacy_model": "Hämodynamik",
+      "legacy_formula_anchor": "ΔP=RQ",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Druck",
+            "Fluss",
+            "Widerstand"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Druckgradient",
+            "Gefäßwiderstand",
+            "Volumenstrom"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Herzfrequenz",
+            "Schlagvolumen",
+            "Herzzeitvolumen"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F057",
+      "fachgebiet": "Neurowissenschaften",
+      "bundle_id": "B05",
+      "legacy_model": "neuronale Kodierung",
+      "legacy_formula_anchor": "I(X;Y)=Σp log[p/(p_xp_y)]",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Signal",
+            "neuronale Verarbeitung",
+            "Verhalten"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Reiz",
+            "Spikezug",
+            "Kodierung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Schaltkreis",
+            "Aktivierung",
+            "Verhalten"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F058",
+      "fachgebiet": "Diagnostik",
+      "bundle_id": "B05",
+      "legacy_model": "Bayes",
+      "legacy_formula_anchor": "Bayes-Formel",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Test",
+            "Sensitivität",
+            "Nachtestwahrscheinlichkeit"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Prävalenz",
+            "Sensitivität",
+            "positiver Vorhersagewert"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Spezifität",
+            "Likelihood-Ratio",
+            "Posteriorwahrscheinlichkeit"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F059",
+      "fachgebiet": "Gesundheitssystemforschung",
+      "bundle_id": "B05",
+      "legacy_model": "Versorgungsmodelle",
+      "legacy_formula_anchor": "Rate=Ereignisse/Personzeit",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Bedarf",
+            "Versorgung",
+            "Ergebnis"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Gesundheitsbedarf",
+            "Ressourcen",
+            "Zugänglichkeit"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Intervention",
+            "Qualität",
+            "Outcome"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F060",
+      "fachgebiet": "Psychiatrieforschung",
+      "bundle_id": "B05",
+      "legacy_model": "IRT/Längsschnitt",
+      "legacy_formula_anchor": "P(Y=1|θ)=logit^{-1}(a(θ−b))",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Symptome",
+            "latentes Merkmal",
+            "Verlauf"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Latente Variable",
+            "Itemantwort",
+            "Messmodell"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Symptomverlauf",
+            "Intervention",
+            "Zustandsänderung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F061",
+      "fachgebiet": "Algorithmen",
+      "bundle_id": "B06",
+      "legacy_model": "Komplexitätstheorie",
+      "legacy_formula_anchor": "T(n)=O(n log n)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Problem",
+            "Algorithmus",
+            "Komplexität"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Eingabe",
+            "Problemgröße",
+            "Laufzeit"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Algorithmus",
+            "Korrektheit",
+            "Terminierung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F062",
+      "fachgebiet": "Datenbanken",
+      "bundle_id": "B06",
+      "legacy_model": "Relationale Algebra",
+      "legacy_formula_anchor": "π_A(σ_P(R))",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Schema",
+            "Abfrage",
+            "Integrität"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Relation",
+            "Schlüssel",
+            "funktionale Abhängigkeit"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Transaktion",
+            "Isolation",
+            "Konsistenz"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F063",
+      "fachgebiet": "Programmiersprachen",
+      "bundle_id": "B06",
+      "legacy_model": "Typsysteme",
+      "legacy_formula_anchor": "Γ⊢e:τ",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Syntax",
+            "Typ",
+            "Semantik"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Ausdruck",
+            "Typregel",
+            "Typurteil"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Operationalsemantik",
+            "Reduktionsschritt",
+            "Ergebnis"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F064",
+      "fachgebiet": "Maschinelles Lernen",
+      "bundle_id": "B06",
+      "legacy_model": "ERM",
+      "legacy_formula_anchor": "θ*=argmin L(θ)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Daten",
+            "Modell",
+            "Verlust"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Stichprobe",
+            "Hypothesenklasse",
+            "Generalisierungsfehler"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Parameter",
+            "Verlustfunktion",
+            "Gradientenupdate"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F065",
+      "fachgebiet": "Deep Learning",
+      "bundle_id": "B06",
+      "legacy_model": "Backpropagation",
+      "legacy_formula_anchor": "∇θL",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Repräsentation",
+            "Netzwerk",
+            "Gradienten"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Schicht",
+            "Aktivierungsfunktion",
+            "Repräsentation"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Backpropagation",
+            "Gradient",
+            "Gewichtsupdate"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F066",
+      "fachgebiet": "Sprachmodelle",
+      "bundle_id": "B06",
+      "legacy_model": "Autoregression",
+      "legacy_formula_anchor": "p(x_t|x_<t)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Token",
+            "Kontext",
+            "Vorhersage"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Tokenfolge",
+            "Konditionalverteilung",
+            "Log-Likelihood"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Embedding",
+            "Attention",
+            "Kontextrepräsentation"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F067",
+      "fachgebiet": "Reinforcement Learning",
+      "bundle_id": "B06",
+      "legacy_model": "Bellman",
+      "legacy_formula_anchor": "V(s)=max_a E[r+γV(s′)]",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Zustand",
+            "Aktion",
+            "Belohnung"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Zustandsübergang",
+            "Policy",
+            "Wertfunktion"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Belohnung",
+            "Bellmanoperator",
+            "optimaler Wert"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F068",
+      "fachgebiet": "KI-Sicherheit",
+      "bundle_id": "B06",
+      "legacy_model": "Robuste Optimierung",
+      "legacy_formula_anchor": "Robustheits- und Risikomessung",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Ziel",
+            "Verteilungsschift",
+            "Evaluation"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Angriffsmodell",
+            "Bedrohung",
+            "Testfall"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Zielvorgabe",
+            "Messkriterium",
+            "Evaluationsbefund"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F069",
+      "fachgebiet": "Informationstheorie",
+      "bundle_id": "B06",
+      "legacy_model": "Shannon",
+      "legacy_formula_anchor": "I(X;Y)=Σp log[p/(px py)]",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Quelle",
+            "Kanal",
+            "Empfänger"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Entropie",
+            "bedingte Entropie",
+            "Information"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Kanaleingang",
+            "Übergangswahrscheinlichkeit",
+            "Kanalkapazität"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F070",
+      "fachgebiet": "Computernetzwerke",
+      "bundle_id": "B06",
+      "legacy_model": "Queueing",
+      "legacy_formula_anchor": "L=λW",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Knoten",
+            "Protokoll",
+            "Datenfluss"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Paket",
+            "Routing",
+            "Laufzeit"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Übertragung",
+            "Fehlerkontrolle",
+            "Zuverlässigkeit"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F071",
+      "fachgebiet": "Phonetik",
+      "bundle_id": "B07",
+      "legacy_model": "Akustische Phonetik",
+      "legacy_formula_anchor": "f=1/T",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Artikulation",
+            "Schallsignal",
+            "Wahrnehmung"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Sprechapparat",
+            "Artikulationsgeste",
+            "Akustik"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Schallspektrum",
+            "Merkmalsextraktion",
+            "Lautwahrnehmung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F072",
+      "fachgebiet": "Phonologie",
+      "bundle_id": "B07",
+      "legacy_model": "Merkmalsphonologie",
+      "legacy_formula_anchor": "feature matrices",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Phonem",
+            "Kontrast",
+            "Lautsystem"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Lautkontrast",
+            "Phonem",
+            "Minimalpaar"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Merkmalsmatrix",
+            "phonologische Regel",
+            "Oberflächenform"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F073",
+      "fachgebiet": "Morphologie",
+      "bundle_id": "B07",
+      "legacy_model": "Finite-State Morphology",
+      "legacy_formula_anchor": "FST: stems→forms",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Morphem",
+            "Kombination",
+            "Wortform"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Morphem",
+            "Allomorphie",
+            "Wortbildung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Stamm",
+            "Affix",
+            "Flexionsmerkmal"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F074",
+      "fachgebiet": "Syntax",
+      "bundle_id": "B07",
+      "legacy_model": "Dependenzgrammatik",
+      "legacy_formula_anchor": "P(parse|sentence)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Konstituente",
+            "Abhängigkeit",
+            "Struktur"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Konstituente",
+            "Rekursionsregel",
+            "Parsebaum"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Dependenz",
+            "Kopf",
+            "Satzstruktur"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F075",
+      "fachgebiet": "Semantik",
+      "bundle_id": "B07",
+      "legacy_model": "Kompositionale Semantik",
+      "legacy_formula_anchor": "Kompositionelle Semantik kontextabhängig",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Ausdruck",
+            "Bedeutung",
+            "Referenz"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Ausdruck",
+            "Denotation",
+            "Wahrheitsbedingung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Referent",
+            "Kontext",
+            "Interpretation"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F076",
+      "fachgebiet": "Pragmatik",
+      "bundle_id": "B07",
+      "legacy_model": "Bayes-Pragmatik",
+      "legacy_formula_anchor": "Pragmatische Inferenz, Grice/Spieltheorie",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Äußerung",
+            "Kontext",
+            "Sprecherintention"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Äußerung",
+            "Sprecherannahme",
+            "Implikatur"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Sprechakt",
+            "soziale Situation",
+            "kommunikative Wirkung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F077",
+      "fachgebiet": "Psycholinguistik",
+      "bundle_id": "B07",
+      "legacy_model": "Diffusionsentscheidungsmodell",
+      "legacy_formula_anchor": "dx=vdt+σdW",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Stimulus",
+            "Verarbeitung",
+            "Antwort"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Sprachsignal",
+            "lexikalischer Zugriff",
+            "Reaktionszeit"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Erwartung",
+            "Vorhersagefehler",
+            "Verarbeitungskosten"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F078",
+      "fachgebiet": "Kognitionspsychologie",
+      "bundle_id": "B08",
+      "legacy_model": "Signalentdeckung",
+      "legacy_formula_anchor": "d′=Z(H)−Z(F)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Reiz",
+            "Gedächtnis",
+            "Entscheidung"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Reiz",
+            "Aufmerksamkeit",
+            "Enkodierung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Gedächtnisrepräsentation",
+            "Abruf",
+            "Entscheidung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F079",
+      "fachgebiet": "Lernwissenschaft",
+      "bundle_id": "B08",
+      "legacy_model": "Item Response Theory",
+      "legacy_formula_anchor": "P=logit^{-1}(θ−b)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Vorwissen",
+            "Aktivität",
+            "Kompetenz"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Vorerfahrung",
+            "Übungsaktivität",
+            "Lernzuwachs"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Feedback",
+            "Konsolidierung",
+            "Transfer"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F080",
+      "fachgebiet": "Didaktik",
+      "bundle_id": "B08",
+      "legacy_model": "Wirkungsanalyse",
+      "legacy_formula_anchor": "ATE=E[Y(1)−Y(0)]",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Lernziel",
+            "Intervention",
+            "Evaluation"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Kompetenzziel",
+            "Lernaufgabe",
+            "Leistungsnachweis"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Intervention",
+            "Vergleichsgruppe",
+            "Lernwirkung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F081",
+      "fachgebiet": "Mikroökonomie",
+      "bundle_id": "B09",
+      "legacy_model": "Nutzenmaximierung",
+      "legacy_formula_anchor": "max U(x) s.t. px≤m",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Präferenzen",
+            "Restriktion",
+            "Entscheidung"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Nutzenfunktion",
+            "Budgetmenge",
+            "Optimum"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Preis",
+            "Nachfrage",
+            "Elastizität"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F082",
+      "fachgebiet": "Makroökonomie",
+      "bundle_id": "B09",
+      "legacy_model": "Nationale Konten",
+      "legacy_formula_anchor": "Y=C+I+G+NX",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Produktion",
+            "Einkommen",
+            "Nachfrage"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Produktionsfunktion",
+            "Faktorinput",
+            "Output"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Konsum",
+            "Sparen",
+            "Investition"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F083",
+      "fachgebiet": "Finanzwissenschaft",
+      "bundle_id": "B09",
+      "legacy_model": "Markowitz",
+      "legacy_formula_anchor": "Var(wᵀr)=wᵀΣw",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Risiko",
+            "Rendite",
+            "Portfolio"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Ertrag",
+            "Volatilität",
+            "Risiko"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Kovarianz",
+            "Gewichtung",
+            "Portfoliovarianz"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F084",
+      "fachgebiet": "Soziologie",
+      "bundle_id": "B10",
+      "legacy_model": "Netzwerkanalyse",
+      "legacy_formula_anchor": "C_D(v)=deg(v)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Akteur",
+            "Beziehung",
+            "Netzwerk"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Akteur",
+            "Relation",
+            "Netzwerkdichte"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Norm",
+            "Interaktion",
+            "soziale Struktur"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F085",
+      "fachgebiet": "Politikwissenschaft",
+      "bundle_id": "B10",
+      "legacy_model": "Social Choice",
+      "legacy_formula_anchor": "Mehrheitsrelation",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Präferenz",
+            "Institution",
+            "kollektive Entscheidung"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Akteurpräferenz",
+            "Wahlregel",
+            "Kollektiventscheidung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Institution",
+            "Anreiz",
+            "Strategiewahl"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F086",
+      "fachgebiet": "Rechtswissenschaft",
+      "bundle_id": "B10",
+      "legacy_model": "juristische Subsumtion",
+      "legacy_formula_anchor": "Konditionale Regel, kein Naturgesetz",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Norm",
+            "Tatbestand",
+            "Rechtsfolge"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Normquelle",
+            "Geltungsbereich",
+            "Rechtsnorm"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Sachverhalt",
+            "Subsumtion",
+            "Entscheidung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F087",
+      "fachgebiet": "Ökonometrie",
+      "bundle_id": "B09",
+      "legacy_model": "Instrumentvariablen",
+      "legacy_formula_anchor": "Identifikationsbedingungen",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Modell",
+            "Identifikation",
+            "Schätzung"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Strukturparameter",
+            "Beobachtung",
+            "Identifizierbarkeit"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Instrument",
+            "Exogenität",
+            "Schätzung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F088",
+      "fachgebiet": "Kommunikationswissenschaft",
+      "bundle_id": "B10",
+      "legacy_model": "Kommunikationsmodelle",
+      "legacy_formula_anchor": "Exposure→response",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Botschaft",
+            "Medium",
+            "Rezeption"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Nachricht",
+            "Kanal",
+            "Reichweite"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Rezeption",
+            "Interpretation",
+            "Einstellungsänderung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F089",
+      "fachgebiet": "Anthropologie",
+      "bundle_id": "B10",
+      "legacy_model": "vergleichende Ethnografie",
+      "legacy_formula_anchor": "qualitative Kodierung",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Praxis",
+            "Bedeutung",
+            "Institution"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Handlung",
+            "kultureller Kontext",
+            "Praxis"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Symbol",
+            "Bedeutung",
+            "Institutionalisierung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F090",
+      "fachgebiet": "Geschichtswissenschaft",
+      "bundle_id": "B10",
+      "legacy_model": "Quellenkritik",
+      "legacy_formula_anchor": "Bayes für Datierung optional",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Quelle",
+            "Kontext",
+            "Interpretation"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Quellenartefakt",
+            "Herkunft",
+            "Quellenkritik"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Ereignis",
+            "Zeitordnung",
+            "Rekonstruktion"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F091",
+      "fachgebiet": "Regelungstechnik",
+      "bundle_id": "B11",
+      "legacy_model": "PID",
+      "legacy_formula_anchor": "u=K_p e+K_i∫e+K_dė",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "System",
+            "Sensor",
+            "Rückkopplung"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Sollsignal",
+            "Istsignal",
+            "Fehler"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Regler",
+            "Strecke",
+            "geschlossener Kreis"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F092",
+      "fachgebiet": "Robotik",
+      "bundle_id": "B11",
+      "legacy_model": "Zustandsraum",
+      "legacy_formula_anchor": "ẋ=Ax+Bu",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Wahrnehmung",
+            "Planung",
+            "Aktuation"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Sensor",
+            "Zustandsschätzung",
+            "Weltmodell"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Ziel",
+            "Trajektorienplanung",
+            "Aktuator"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F093",
+      "fachgebiet": "Materialwissenschaft",
+      "bundle_id": "B11",
+      "legacy_model": "Hooke",
+      "legacy_formula_anchor": "σ=Eε",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Mikrostruktur",
+            "Eigenschaft",
+            "Belastung"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Kristallstruktur",
+            "Defekt",
+            "Materialeigenschaft"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Last",
+            "Spannungsantwort",
+            "Versagen"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F094",
+      "fachgebiet": "Bauingenieurwesen",
+      "bundle_id": "B11",
+      "legacy_model": "Elastizität",
+      "legacy_formula_anchor": "EI y″=M(x)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Last",
+            "Tragwerk",
+            "Verformung"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Lastfall",
+            "Schnittkraft",
+            "Tragfähigkeit"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Steifigkeit",
+            "Verformung",
+            "Gebrauchstauglichkeit"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F095",
+      "fachgebiet": "Energietechnik",
+      "bundle_id": "B11",
+      "legacy_model": "Energiebilanz",
+      "legacy_formula_anchor": "η=P_out/P_in",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Quelle",
+            "Umwandlung",
+            "Nutzenergie"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Primärenergie",
+            "Wirkungsgrad",
+            "Nutzenergie"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Leistung",
+            "Speicher",
+            "Lastprofil"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F096",
+      "fachgebiet": "Verfahrenstechnik",
+      "bundle_id": "B11",
+      "legacy_model": "CSTR",
+      "legacy_formula_anchor": "V dc/dt=F(c_in−c)+Vr(c)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Zufluss",
+            "Reaktor",
+            "Abfluss"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Stoffbilanz",
+            "Stoffstrom",
+            "Reaktionsrate"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Reaktorvolumen",
+            "Verweilzeit",
+            "Umsetzung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F097",
+      "fachgebiet": "Landwirtschaft",
+      "bundle_id": "B11",
+      "legacy_model": "Ertragsfunktion",
+      "legacy_formula_anchor": "Y=f(N,W,T)",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Boden",
+            "Wasser",
+            "Ertrag"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Bodenwasser",
+            "Nährstoffversorgung",
+            "Wachstum"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Pflanzenbestand",
+            "Ernteindex",
+            "Ertrag"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F098",
+      "fachgebiet": "Umwelttechnik",
+      "bundle_id": "B11",
+      "legacy_model": "Advektion-Diffusion",
+      "legacy_formula_anchor": "∂_t c+v·∇c=D∇²c+S",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Emission",
+            "Transport",
+            "Exposition"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Emissionsquelle",
+            "Ausbreitung",
+            "Immission"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Dosis",
+            "Exposition",
+            "Risikofunktion"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F099",
+      "fachgebiet": "Designwissenschaft",
+      "bundle_id": "B12",
+      "legacy_model": "Human-Centered Design",
+      "legacy_formula_anchor": "Mehrkriterienbewertung",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Anforderung",
+            "Prototyp",
+            "Nutzung"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Bedarfsanalyse",
+            "Anforderung",
+            "Entwurfsentscheidung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Prototyp",
+            "Nutzertest",
+            "Iteration"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "FACH-F100",
+      "fachgebiet": "Musikwissenschaft",
+      "bundle_id": "B12",
+      "legacy_model": "Fourier-Analyse",
+      "legacy_formula_anchor": "Psychoakustische Messmodelle",
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Klang",
+            "Zeitstruktur",
+            "Wahrnehmung"
+          ],
+          "legacy_status": "VORGEPRUEFT"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Tonhöhe",
+            "Klangspektrum",
+            "Klangfarbe"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Rhythmus",
+            "Metrum",
+            "Zeitwahrnehmung"
+          ],
+          "legacy_status": "NEUER_KANDIDAT"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "CORE-T1",
+      "fachgebiet": "CORE-T1 · Gegenstand – Konzept – Bezeichnung",
+      "bundle_id": "META",
+      "legacy_model": null,
+      "legacy_formula_anchor": null,
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Gegenstand",
+            "Konzept",
+            "Bezeichnung"
+          ],
+          "legacy_status": "historischer_core_entwurf"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Merkmal",
+            "Abgrenzung",
+            "Geltungsbereich"
+          ],
+          "legacy_status": "historischer_core_entwurf"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Kontext",
+            "Interpretation",
+            "Begriffsvariante"
+          ],
+          "legacy_status": "historischer_core_entwurf"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "CORE-T2",
+      "fachgebiet": "CORE-T2 · Trägerraum – Zustandszuordnung – Wechselwirkung",
+      "bundle_id": "META",
+      "legacy_model": null,
+      "legacy_formula_anchor": null,
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Trägerraum",
+            "Zustandszuordnung",
+            "Wechselwirkung"
+          ],
+          "legacy_status": "historischer_core_entwurf"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Zustand",
+            "Übergang",
+            "Zeitordnung"
+          ],
+          "legacy_status": "historischer_core_entwurf"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Domäne",
+            "Zuordnung",
+            "Geltungsbedingung"
+          ],
+          "legacy_status": "historischer_core_entwurf"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    },
+    {
+      "tensor_id": "CORE-T3",
+      "fachgebiet": "CORE-T3 · Identität – Rolle – Kontext",
+      "bundle_id": "META",
+      "legacy_model": null,
+      "legacy_formula_anchor": null,
+      "source_inventory": "docs/data/tensor-inventar-v10_7.json",
+      "three_axes": [
+        {
+          "axis_n": 1,
+          "terms": [
+            "Identität",
+            "Rolle",
+            "Kontext"
+          ],
+          "legacy_status": "historischer_core_entwurf"
+        },
+        {
+          "axis_n": 2,
+          "terms": [
+            "Messgröße",
+            "Messverfahren",
+            "Messresultat"
+          ],
+          "legacy_status": "historischer_core_entwurf"
+        },
+        {
+          "axis_n": 3,
+          "terms": [
+            "Ausgangsobjekt",
+            "Abbildung",
+            "Bildobjekt"
+          ],
+          "legacy_status": "historischer_core_entwurf"
+        }
+      ],
+      "field_addresses": 27,
+      "legacy_status": "strukturentwurf_nicht_fachvalidiert",
+      "missing_evidence": [
+        "definition",
+        "source_primary",
+        "historical_origin",
+        "model_assumptions",
+        "quantity_units",
+        "math_relation",
+        "operation",
+        "geometry_topology",
+        "dimension_order",
+        "semantic_translation",
+        "inverse_loss",
+        "countermodel",
+        "test_evidence"
+      ],
+      "consolidation_status": "NOT_AUDITED",
+      "original_record_preserved": true
+    }
+  ],
+  "known_sources": [
+    "docs/data/tensor-inventar-v10_7.json",
+    "forschung/tensor/formeln/PAPER_TRINITAETEN_UND_BEZUGSTENSOREN_V0_1.md",
+    "forschung/tensor/formeln/datensatz/DATENBLATT.md",
+    "forschung/register/IMPORTAUDIT_DREI_NOLOSS_ARCHIVE_2026-11-03.md",
+    "forschung/tensor/LOGIK_TENSOR_2_0_GOLDSTANDARD_ARBEITSSTAND_2026-11-03.md",
+    "forschung/register/BESTANDSWEGWEISER.md"
+  ],
+  "claim": "classification of 100 names is a new research index, not a settled classification of scientific disciplines"
+}
