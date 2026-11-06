@@ -1,0 +1,89 @@
+{
+  "schema": "g30-research-queue/0.1",
+  "created": "2026-11-06",
+  "status": "PROPOSED_NOT_EXECUTED",
+  "source": "forschung/g30/G30_103_TENSOREN_5253_PAARE_6_ORDNUNGEN_MUSTERSUCHE_V0_1.json",
+  "policy": {
+    "candidate_not_proof": true,
+    "require": [
+      "queue_id",
+      "tensor_ids",
+      "finding",
+      "basis",
+      "test_plan",
+      "priority",
+      "status",
+      "result_refs"
+    ],
+    "statuses": [
+      "QUEUED",
+      "SOURCE_CHECK",
+      "TYPING",
+      "CALCULATING",
+      "COUNTEREXAMPLE",
+      "REVIEW",
+      "PASSED_WITH_LIMITS",
+      "REJECTED",
+      "BLOCKED"
+    ]
+  },
+  "examples": [
+    {
+      "queue_id": "G30-Q-001",
+      "tensor_ids": [
+        "FACH-F034",
+        "FACH-F096"
+      ],
+      "finding": "Kinetik ist Spezialfall einer Reaktorbilanz",
+      "basis": "Bereits dokumentierte algebraische Reduktion",
+      "test_plan": [
+        "Originalformeln verifizieren",
+        "F=0 und V≠0 symbolisch ableiten",
+        "Gegenbeispiel F≠0",
+        "Rückweginformation prüfen",
+        "Feld-IDs zuordnen"
+      ],
+      "priority": "HIGH",
+      "status": "QUEUED",
+      "result_refs": [
+        "forschung/tensor/algebra-claude/BRUECKE_F034_F096_ERGEBNIS.json"
+      ]
+    },
+    {
+      "queue_id": "G30-Q-002",
+      "tensor_ids": [
+        "FACH-F033",
+        "FACH-F035"
+      ],
+      "finding": "Thermodynamik zu Elektrochemie über Nernst",
+      "basis": "Bekannte Fachformeln; 27er Feldbindung offen",
+      "test_plan": [
+        "Variablenrollen und Einheiten prüfen",
+        "E=E°−RT/nF lnQ rechnen",
+        "Inverse Q prüfen",
+        "Quellbelege und Feldzuordnung testen"
+      ],
+      "priority": "HIGH",
+      "status": "QUEUED",
+      "result_refs": []
+    },
+    {
+      "queue_id": "G30-Q-003",
+      "tensor_ids": [
+        "FACH-F037",
+        "FACH-F039"
+      ],
+      "finding": "Gemeinsame Sättigungsnormalform",
+      "basis": "θ=Kc/(1+Kc), unterschiedliche chemische Bedeutung",
+      "test_plan": [
+        "Modellannahmen beider Fälle vergleichen",
+        "Parameter-Dimensionen und inverse lösen",
+        "Gegenbeispiele bei Kooperativität",
+        "Semantiktransfer ablehnen, falls nicht belegt"
+      ],
+      "priority": "HIGH",
+      "status": "QUEUED",
+      "result_refs": []
+    }
+  ]
+}
