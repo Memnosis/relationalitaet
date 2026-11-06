@@ -1,0 +1,1112 @@
+{
+  "schema": "g30-safety-snapshot/0.1",
+  "created": "2026-11-06",
+  "repository": "Memnosis/relationalitaet",
+  "ref": "main",
+  "tree_sha": "2b1ec9011381c5b91b1af425f86aa528275d0a96",
+  "kind": "git-tree-blob-inventory_not_full_binary_backup",
+  "scope_count": 220,
+  "files": [
+    {
+      "path": "docs/data/anforderungsabdeckung-v1.json",
+      "git_blob_sha1": "363ae416e332d3a1f0a8fdac5d895aad34027980",
+      "size": 2746
+    },
+    {
+      "path": "docs/data/anforderungsabdeckung-v2.json",
+      "git_blob_sha1": "79e58625b31903cff1fb11a47c7884ff02c6be3e",
+      "size": 3322
+    },
+    {
+      "path": "docs/data/benchmark_cluster_beispiele_v0_1.json",
+      "git_blob_sha1": "b2ac4d9f679013a70b8b7a0616a78abf4deea2d4",
+      "size": 6554
+    },
+    {
+      "path": "docs/data/bki-bedarf-versorgungsblindstellen-v0-1.json",
+      "git_blob_sha1": "3758058f1cdf3a0182237f053128aa41886f4d00",
+      "size": 13117
+    },
+    {
+      "path": "docs/data/bki-benchmark-audit-v0-3.md",
+      "git_blob_sha1": "1647e46f2a6415e6c8716a2de5b318b6ddba8161",
+      "size": 735
+    },
+    {
+      "path": "docs/data/bki-benchmark-interoperabel-beispiele-2026-11-05.json",
+      "git_blob_sha1": "206fcd5fd3465ec704f8e8ec71fb4611a158cb48",
+      "size": 4899
+    },
+    {
+      "path": "docs/data/bki-benchmark-normalisiert-v0-3.json",
+      "git_blob_sha1": "51abfd8baffc7013501315625ee219a3352236c7",
+      "size": 8107
+    },
+    {
+      "path": "docs/data/bki-benchmark-v0-3.schema.json",
+      "git_blob_sha1": "a47ae355fc07dccd8b69e05999a7b0d77c5b877d",
+      "size": 2206
+    },
+    {
+      "path": "docs/data/bki-corona-medienserie-011-020-myokarditis-v0-1.json",
+      "git_blob_sha1": "1f2e9483fc3af8ee3d505c5ea1af6e4c8c5f0eb8",
+      "size": 9117
+    },
+    {
+      "path": "docs/data/bki-corona-messvergleich-medienpilot-v0-2.json",
+      "git_blob_sha1": "fad319b0d9a9aa00a670c15c5e36222258cf424b",
+      "size": 16526
+    },
+    {
+      "path": "docs/data/bki-corona-messvergleich-medienpilot-v0-3.json",
+      "git_blob_sha1": "d037d1d943e81e127ed25cd466921e8be2cb12d7",
+      "size": 35232
+    },
+    {
+      "path": "docs/data/bki-corona-myokarditis-zahlenvergleich-pilot-v0-1.json",
+      "git_blob_sha1": "9e4db051a76e0e71745c0f750ba26206128e0fd8",
+      "size": 2605
+    },
+    {
+      "path": "docs/data/bki-corona-zeit-und-wirkung-v0-1.json",
+      "git_blob_sha1": "a13fbbeb40781d996a2f7d189124e4ebf8c2bd7e",
+      "size": 9392
+    },
+    {
+      "path": "docs/data/bki-fail-scanner-crosswalk-v0-2.json",
+      "git_blob_sha1": "ecb93d142ca60511b869c1686d7f79a18f7492ea",
+      "size": 4018
+    },
+    {
+      "path": "docs/data/bki-forschungsbibliothek-v0-1.json",
+      "git_blob_sha1": "6958beb37ee33e20997607ee5e92159d981b9433",
+      "size": 17128
+    },
+    {
+      "path": "docs/data/bki-gesetzeuebergreifende-tests-v0-1.json",
+      "git_blob_sha1": "f5232136afdee7374b0eead869254e0695e2145f",
+      "size": 8793
+    },
+    {
+      "path": "docs/data/bki-gesundheit-jugend-international-v0-1.json",
+      "git_blob_sha1": "221c97c58ec5e61016f44f186b768a4153a56490",
+      "size": 20179
+    },
+    {
+      "path": "docs/data/bki-hilfeportale-handlungsatlas-v0-1.json",
+      "git_blob_sha1": "5b618e6c0e67fe0a0b7efa316ff0222aa87badf9",
+      "size": 23099
+    },
+    {
+      "path": "docs/data/bki-historische-metrik-personal-verantwortung-v0-1.json",
+      "git_blob_sha1": "d6ea305383841592a54abc33da942623922b3ec1",
+      "size": 17053
+    },
+    {
+      "path": "docs/data/bki-krisen-evaluationsregister-v0-1.json",
+      "git_blob_sha1": "b3ef4c43f1ce4c2422e91d8738bb65d169cc021d",
+      "size": 2837
+    },
+    {
+      "path": "docs/data/bki-lernpfade-orchestrierung-v0-1.json",
+      "git_blob_sha1": "4204237189ad574cba9d312d7c2df9bf38751d14",
+      "size": 13319
+    },
+    {
+      "path": "docs/data/bki-messbarkeit-rechenschaft-fragen-v0-1.json",
+      "git_blob_sha1": "f9fda9c1c800cb58784ddecb7f60eb18cddcb8db",
+      "size": 3926
+    },
+    {
+      "path": "docs/data/bki-myokarditis-quellenserie-011-020-v0-1.json",
+      "git_blob_sha1": "418646467a98ee56e298d5543df8da6fd5d60f61",
+      "size": 9711
+    },
+    {
+      "path": "docs/data/bki-praxisportale-crosswalk-v0-1.json",
+      "git_blob_sha1": "7539349bd2eb7d42378fec5fef7dbbd7d1c1588c",
+      "size": 10721
+    },
+    {
+      "path": "docs/data/bki-redaktionelle-anker-claims-v0-1.json",
+      "git_blob_sha1": "323cf330014357aa4841334786460b1894f8f88f",
+      "size": 7240
+    },
+    {
+      "path": "docs/data/bki-sprach-crosswalk-final-v1.json",
+      "git_blob_sha1": "ae678a683f9a60e759b33d3b65889554bf06ab1f",
+      "size": 38274
+    },
+    {
+      "path": "docs/data/bki-sprachraeume-claims-v0-1.json",
+      "git_blob_sha1": "176cc71e5e607099192cbd0f0345643af046849e",
+      "size": 11986
+    },
+    {
+      "path": "docs/data/bki-svik-projektposten-2026-11-05.json",
+      "git_blob_sha1": "826a150eb85a61cca793b5d84e86cfdb85696b82",
+      "size": 42617
+    },
+    {
+      "path": "docs/data/bki-therapieplatz-fuenf-blickwinkel-v0-1.json",
+      "git_blob_sha1": "6b84d54481fc0928e88896c0a0a5dd1192d40727",
+      "size": 12213
+    },
+    {
+      "path": "docs/data/bki-versorgungskapazitaet-unterversorgung-v0-1.json",
+      "git_blob_sha1": "367360521bfa8b8bda5ad081b99ce103c1327e81",
+      "size": 14150
+    },
+    {
+      "path": "docs/data/bki-vertretung-standards-foerderung-kontakte-v0-1.json",
+      "git_blob_sha1": "d8d5d7b4df784542fdebf1391376f86d1f9759f4",
+      "size": 16145
+    },
+    {
+      "path": "docs/data/bki-verwaltung-pilot-v0-1.json",
+      "git_blob_sha1": "d916383b9c474ee34b8152e07ad141d6c11e7c12",
+      "size": 7674
+    },
+    {
+      "path": "docs/data/bki-weisungsatlas-v0-1.json",
+      "git_blob_sha1": "0abe91d3560030835af763f52e15fb580074db04",
+      "size": 13235
+    },
+    {
+      "path": "docs/data/bki-ziele-lexikon-kernel-v0-1.json",
+      "git_blob_sha1": "e03a41ccde1bdc5f79a21eb8a8261442ef223f0d",
+      "size": 16461
+    },
+    {
+      "path": "docs/data/bki-zielzerlegung-pilot-v0-1.json",
+      "git_blob_sha1": "4d6c8d3c8a18756c80a47147dc967e120773fcea",
+      "size": 11693
+    },
+    {
+      "path": "docs/data/codebuch-web-index.json",
+      "git_blob_sha1": "09d7c7734a394ddc0da1ecab0d491c1a7d5c9545",
+      "size": 6125
+    },
+    {
+      "path": "docs/data/ee-rechenschaft-pilot-2026-v0-1.json",
+      "git_blob_sha1": "2136f2d3a7f02f946cf0f4c2117608a84e8a4720",
+      "size": 14187
+    },
+    {
+      "path": "docs/data/geo-tensor-icon-stamps-v0-1.json",
+      "git_blob_sha1": "a36e9da6d4af2cc400e7b1581cb1ef0e362c1683",
+      "size": 49796
+    },
+    {
+      "path": "docs/data/glossar-kern.json",
+      "git_blob_sha1": "4afe88825b7d6324b5e8cab170351a2e9cc46534",
+      "size": 5522
+    },
+    {
+      "path": "docs/data/inkubator-quellenregister.json",
+      "git_blob_sha1": "613ba0cd3c32f0bb0701d2c66f0834c0217f33f2",
+      "size": 21497
+    },
+    {
+      "path": "docs/data/inventar.json",
+      "git_blob_sha1": "02ad92e4219744fcf1a884792ed5bffbe43b635c",
+      "size": 5861
+    },
+    {
+      "path": "docs/data/mitmach-public-v2.json",
+      "git_blob_sha1": "d4b28d951375c5524b3c12f06108926b49f64c96",
+      "size": 5590
+    },
+    {
+      "path": "docs/data/mitmachen-ergebnis-schema-v1.json",
+      "git_blob_sha1": "213c1e434ef58e19066ff3f98f016d9ca82d2384",
+      "size": 910
+    },
+    {
+      "path": "docs/data/projektmanagement-public-v2.json",
+      "git_blob_sha1": "72d3842ede7d306d92a59f72830d263733b36979",
+      "size": 14904
+    },
+    {
+      "path": "docs/data/projektmanagement-v1.json",
+      "git_blob_sha1": "75a0d4285ffc90b3ca9971304f32412d7d8fe42d",
+      "size": 26087
+    },
+    {
+      "path": "docs/data/projektportfolio-v1.json",
+      "git_blob_sha1": "a6a2effe2b9aec17cd5f655f5ef06d007ed3b118",
+      "size": 8415
+    },
+    {
+      "path": "docs/data/qualitaetsgates-v1.json",
+      "git_blob_sha1": "22445789bd45b1d51871d701a7b9a419f83ebed5",
+      "size": 9068
+    },
+    {
+      "path": "docs/data/skills-oeffentlich-v1.json",
+      "git_blob_sha1": "cd6f542a6c614f65e44edfdcbb1dedfc8785f18a",
+      "size": 13201
+    },
+    {
+      "path": "docs/data/soulution-potenzialarchitekturen-erweiterung-v0-1.json",
+      "git_blob_sha1": "5e35b3e4bd7d2894c4cb45c6f1cb2f1342bd101d",
+      "size": 5497
+    },
+    {
+      "path": "docs/data/svik-100-pruefobjekte-v0-2.json",
+      "git_blob_sha1": "62ef9abae2d26d184b48d502a9247e7fcc74552b",
+      "size": 65657
+    },
+    {
+      "path": "docs/data/tensor-inventar-v10_7.json",
+      "git_blob_sha1": "469dcf964a49b9173def44422c016a868ab34d32",
+      "size": 91050
+    },
+    {
+      "path": "docs/data/thesen-uebersicht-v1.json",
+      "git_blob_sha1": "5b8d5beba474663a66fa1f5f652c853eccc4c833",
+      "size": 9496
+    },
+    {
+      "path": "docs/data/workflow-stand-v1.json",
+      "git_blob_sha1": "169d42351577b7d441f5c0d5ebbcb5fd12e8c76e",
+      "size": 2673
+    },
+    {
+      "path": "docs/geoki-systeme.html",
+      "git_blob_sha1": "0ec858d5f9fbbd82c36cc4e0d5c951c582cd10db",
+      "size": 12209
+    },
+    {
+      "path": "docs/geoki.html",
+      "git_blob_sha1": "5fc64988dd2d909c78c32bf1d265394bc0f9d82d",
+      "size": 33337
+    },
+    {
+      "path": "docs/tensor-einfuehrung.html",
+      "git_blob_sha1": "387be98bb9fa3f6f86903561314a28811870282c",
+      "size": 34601
+    },
+    {
+      "path": "docs/tensor-paper.html",
+      "git_blob_sha1": "b55f7353479a437504defd7f2552338f2a960803",
+      "size": 11859
+    },
+    {
+      "path": "docs/tensoralgebra.html",
+      "git_blob_sha1": "59116478a193cd2f6404055f5c96bc47ccc0df3d",
+      "size": 27445
+    },
+    {
+      "path": "forschung/g30/G30_CHEMIE_10_TENSOREN_90_TRINITAETSKARTEN_V0_1.json",
+      "git_blob_sha1": "41aee5243ce1a865e3717781e9f2f8f16d2d7193",
+      "size": 103150
+    },
+    {
+      "path": "forschung/g30/G30_CHEMIE_ORDNUNGSWECHSEL_270_KARTEN_15_BRUECKEN_V0_1.json",
+      "git_blob_sha1": "b6f5f488b215061d0a4964faa0b502624dee471b",
+      "size": 280415
+    },
+    {
+      "path": "forschung/g30/G30_DIDAKTIK_SCHUELER_FELDCODE_3ECK_GEOMETRIE_V0_1.md",
+      "git_blob_sha1": "d2601c6355edeeeee61656ccf4d2845d57995ad6",
+      "size": 3424
+    },
+    {
+      "path": "forschung/g30/G30_ENGINE_ARCHITEKTUR_DATEN_QUELLEN_TESTPLAN_V0_1.md",
+      "git_blob_sha1": "79fb38ba2e08532a565480f2e859d7dacbd9388b",
+      "size": 12008
+    },
+    {
+      "path": "forschung/g30/G30_HOEHERE_ORDNUNGEN_108_FELDAKTEN_PRUEFUNG_V0_1.json",
+      "git_blob_sha1": "f901984986ebbc2a804c747f28fc4dfe2907ddcd",
+      "size": 159336
+    },
+    {
+      "path": "forschung/geoki/v0_4/README.md",
+      "git_blob_sha1": "6fbc16658f978463214e1d13ff49b94e16c7e96a",
+      "size": 471
+    },
+    {
+      "path": "forschung/geoki/v0_4/SKILLTEAM_UPGRADE_V0_1.md",
+      "git_blob_sha1": "6030fcde5fb791f74a949566ad0cd183d1f59af6",
+      "size": 2522
+    },
+    {
+      "path": "forschung/geoki/v0_4/TESTRESULT.md",
+      "git_blob_sha1": "2475a27de01aa6be37b138500c38c68baeb3af9a",
+      "size": 376
+    },
+    {
+      "path": "forschung/geoki/v0_4/src/geometry.py",
+      "git_blob_sha1": "222e1233d1fcd3a9958c2905f93e75bf7aff6c84",
+      "size": 1407
+    },
+    {
+      "path": "forschung/geoki/v0_4/tests/test_extra.py",
+      "git_blob_sha1": "d163bc8df5d5ff97825ce68ef17f6cf5c08f52d9",
+      "size": 941
+    },
+    {
+      "path": "forschung/geoki/v0_4/tests/test_geo_euler.py",
+      "git_blob_sha1": "a38b0a5832ecb6497bc10f9eb78ae61ef0fe23be",
+      "size": 1352
+    },
+    {
+      "path": "forschung/interop/FORMAT_SKILLS_REGISTER_V0_1.json",
+      "git_blob_sha1": "5dacb5c862b388473da7831d1f4a65af4727eb1d",
+      "size": 4868
+    },
+    {
+      "path": "forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md",
+      "git_blob_sha1": "c0ea1a965cd948ac6c11aab99c9a07aa80539cce",
+      "size": 5920
+    },
+    {
+      "path": "forschung/register/B3_B4_ERGEBNISBILANZ.md",
+      "git_blob_sha1": "e01fb66df69d177f3f5815e9309f9360ec859b97",
+      "size": 3621
+    },
+    {
+      "path": "forschung/register/BESTANDSWEGWEISER.md",
+      "git_blob_sha1": "e8863b3219d65b81856cd85c0d0aa5f73ca7c523",
+      "size": 2533
+    },
+    {
+      "path": "forschung/register/BESTANDSZAHLEN_V0_1.json",
+      "git_blob_sha1": "493756def6ed4f85ce22775bf444160da774d694",
+      "size": 6793
+    },
+    {
+      "path": "forschung/register/GESAMTPROJEKT_KOMBINATIONSREGISTER_V0_1.json",
+      "git_blob_sha1": "bb855bb54f96c17f5393ef8dcaa38ca2cd981635",
+      "size": 129637
+    },
+    {
+      "path": "forschung/register/IMPORTAUDIT_DREI_NOLOSS_ARCHIVE_2026-11-03.md",
+      "git_blob_sha1": "db302a58551d39ac0589cfb7eee8bee81453f84f",
+      "size": 3510
+    },
+    {
+      "path": "forschung/register/IMPORTAUDIT_UPDATE_2026-11-03.md",
+      "git_blob_sha1": "a64097d5f1fc4c616cda27a26062753b6187753f",
+      "size": 4551
+    },
+    {
+      "path": "forschung/register/PRIORITAETEN_CLAUDE_V0_1.json",
+      "git_blob_sha1": "24d48ef6003d08bbae442c76a3f860c8cea6ca74",
+      "size": 6948
+    },
+    {
+      "path": "forschung/register/PROMPT_ANALYSE_V0_1.json",
+      "git_blob_sha1": "fe0f95ba9b01f33d36e4128722b1310c47950114",
+      "size": 31199
+    },
+    {
+      "path": "forschung/register/PROMPT_ARCHITEKTUR_INVENTAR_V0_1.json",
+      "git_blob_sha1": "53afb40968343951570c5ef0be4d981ab7173978",
+      "size": 3685
+    },
+    {
+      "path": "forschung/register/PROMPT_CROSSWALK_V0_1.json",
+      "git_blob_sha1": "57bcb2e7379f9e2eac5c18a1c977541e20062dd0",
+      "size": 21349
+    },
+    {
+      "path": "forschung/register/PROMPT_INVENTAR_V0_1.json",
+      "git_blob_sha1": "03ac08e0800aa3c20cd1c0bf9e563f3806b0d73e",
+      "size": 1746
+    },
+    {
+      "path": "forschung/register/PROMPT_SLOT_ZUORDNUNG_V0_1.json",
+      "git_blob_sha1": "4c6037e7bb79251f703cf71e70898290deabf12e",
+      "size": 3299
+    },
+    {
+      "path": "forschung/register/PRUEFPROTOKOLL_S1_2026-11-03.md",
+      "git_blob_sha1": "2b120e200a5337263c9fcf8021aea1e0a77143c2",
+      "size": 4888
+    },
+    {
+      "path": "forschung/register/PRUEFPROTOKOLL_S2_2026-11-03.md",
+      "git_blob_sha1": "8187aa755239c17277738d4a440bd38178e319e3",
+      "size": 3247
+    },
+    {
+      "path": "forschung/register/PRUEFPROTOKOLL_S3_2026-11-03.md",
+      "git_blob_sha1": "747dbe2ea6c9e1a36f1bc6b84b73cde8a1c3552e",
+      "size": 2521
+    },
+    {
+      "path": "forschung/register/PRUEFPROTOKOLL_S4_2026-11-03.md",
+      "git_blob_sha1": "c114c77e9d3b56167607c890df75bc073ccdcb39",
+      "size": 2348
+    },
+    {
+      "path": "forschung/register/QUELLEN_REFERENZSET_V0_1.json",
+      "git_blob_sha1": "116d8e0c2a3988d67da69ee14a9b317134d0e536",
+      "size": 4549
+    },
+    {
+      "path": "forschung/register/README.md",
+      "git_blob_sha1": "38a2b395725c274e69f00acd1f772ac8bf274b06",
+      "size": 3594
+    },
+    {
+      "path": "forschung/register/REPRODUKTIONSBERICHT_CLAUDE_2026-11-03.md",
+      "git_blob_sha1": "5b6ffc67e6b3dfe14ef1326945849d1148a1f9ab",
+      "size": 2947
+    },
+    {
+      "path": "forschung/register/STEUERUNGSMATRIX_AUFGABEN_PROMPTREIFE_2026-11-03.md",
+      "git_blob_sha1": "9eff828a2db9040be933871e2cbfda6225a32fa2",
+      "size": 10078
+    },
+    {
+      "path": "forschung/register/TESTNACHZUG_TEILPAKET_2026-11-03.md",
+      "git_blob_sha1": "ae71f9b27d6f3b65404c32e0e65d6971f272eea5",
+      "size": 2701
+    },
+    {
+      "path": "forschung/register/TESTREGISTER_V0_1.json",
+      "git_blob_sha1": "5ec6d35d42390ea84ae4a71ac1df955431efedc6",
+      "size": 21519
+    },
+    {
+      "path": "forschung/register/VERSIONSMANIFEST_V0_1.json",
+      "git_blob_sha1": "b7be165ea7be87cc74f7a54c2dd3030ed0fd50af",
+      "size": 87732
+    },
+    {
+      "path": "forschung/register/ZWEIG_KI_TENSOR_AUDIT_V0_1.md",
+      "git_blob_sha1": "c2bfe6e510258665e1535f664eea63af9759a1e5",
+      "size": 5838
+    },
+    {
+      "path": "forschung/register/ZWEIG_KI_TENSOR_TIEFENANALYSE_V0_1.md",
+      "git_blob_sha1": "8485ae13d12a00caf385a558c0645aff9eb3ee05",
+      "size": 5167
+    },
+    {
+      "path": "forschung/register/beispiele/CLAIMS_BEISPIELE_V0_1.json",
+      "git_blob_sha1": "714edf8702c14313c4c005f5aefe5306ece52dcf",
+      "size": 8365
+    },
+    {
+      "path": "forschung/register/beispiele/CLAIMS_NEGATIV_V0_1.json",
+      "git_blob_sha1": "08079f11a5fa256ee38eab713fa50485b4bad9a6",
+      "size": 9061
+    },
+    {
+      "path": "forschung/register/gegenrechnung/DLMF_V6_6_GEGENRECHNUNG_ERGEBNIS.json",
+      "git_blob_sha1": "eb284096b079b9031db090a0c4798a1d3a6b9726",
+      "size": 1985
+    },
+    {
+      "path": "forschung/register/gegenrechnung/README.md",
+      "git_blob_sha1": "69e2f1dc29fc68efe2b56b4aa2bae4163fb6f66a",
+      "size": 4283
+    },
+    {
+      "path": "forschung/register/gegenrechnung/REV_GEGENRECHNUNG_ERGEBNIS.json",
+      "git_blob_sha1": "0bcc1f4711fc400bf396a1ef968b217988336996",
+      "size": 2882
+    },
+    {
+      "path": "forschung/register/gegenrechnung/ZAHLENKETTEN_ERGEBNIS.json",
+      "git_blob_sha1": "997c2396aadf6c70dc2c3d365c202e165bc7755f",
+      "size": 5083
+    },
+    {
+      "path": "forschung/register/gegenrechnung/dlmf_v6_6_gegenrechnung.py",
+      "git_blob_sha1": "f5dbfd740f4afdac01695606498b191e1d2f4300",
+      "size": 6891
+    },
+    {
+      "path": "forschung/register/gegenrechnung/kt_zahlenketten.py",
+      "git_blob_sha1": "0c512993495f64323fae6a3d0a9cc116c04ecc95",
+      "size": 7093
+    },
+    {
+      "path": "forschung/register/gegenrechnung/rev_rueckrechnungen.py",
+      "git_blob_sha1": "07beb41b85a87a5809767be52b818b405f4f08b1",
+      "size": 7288
+    },
+    {
+      "path": "forschung/register/oeffentlich/EVIDENZREGELN_PM_V0_1.json",
+      "git_blob_sha1": "9e0f0909b4009cc1ccd3d0a803243cf36a7a0a8a",
+      "size": 5073
+    },
+    {
+      "path": "forschung/register/oeffentlich/LESESICHT_V0_2.json",
+      "git_blob_sha1": "955770811ae2e707047d9137769295faadc970d3",
+      "size": 176
+    },
+    {
+      "path": "forschung/register/oeffentlich/PM_CLAUDE_AGGREGAT_V0_2.json",
+      "git_blob_sha1": "f25dc5087196a36557d1f91936e3ab90d453f355",
+      "size": 936
+    },
+    {
+      "path": "forschung/register/oeffentlich/PM_STATUS_CLAUDE_V0_1.json",
+      "git_blob_sha1": "2a9b57dde7a6f6ff906996ac4993cba5384828a3",
+      "size": 5294
+    },
+    {
+      "path": "forschung/register/oeffentlich/SEITENZUORDNUNG_V0_1.json",
+      "git_blob_sha1": "c0872e44cd9e2f5d6f5d7b3763a2fef4c59b6da2",
+      "size": 1577
+    },
+    {
+      "path": "forschung/register/profile/profile_pruefen.py",
+      "git_blob_sha1": "1a650a67de41441aea4b3b27c8b5dd297cbf9e40",
+      "size": 6030
+    },
+    {
+      "path": "forschung/register/prompt-entwuerfe/PROMPT_ENTWUERFE_CLAUDE_V0_1.md",
+      "git_blob_sha1": "36cea264bd5c5a99b57ea6a2488db46902ce204c",
+      "size": 8595
+    },
+    {
+      "path": "forschung/register/prompt-entwuerfe/PROMPT_ENTWUERFE_CLAUDE_V0_2.md",
+      "git_blob_sha1": "7a863f82d83ae107c308129bf05db64d67fe5fc5",
+      "size": 11171
+    },
+    {
+      "path": "forschung/register/prompt-tests/H1_CLAUDE_BLIND_01.json",
+      "git_blob_sha1": "261cbe17132d4e9e77b7ae85003bde8d6cdac433",
+      "size": 1859
+    },
+    {
+      "path": "forschung/register/prompt-tests/H1_CLAUDE_BLIND_01.md",
+      "git_blob_sha1": "5a6a9030e496dcc4b326b51a3d71f7df56c8a2f6",
+      "size": 5396
+    },
+    {
+      "path": "forschung/register/prompt-tests/H1_CLAUDE_INPUT_SNAPSHOT_01.json",
+      "git_blob_sha1": "1328dd09a4b783b19232095041753098fa554310",
+      "size": 1157
+    },
+    {
+      "path": "forschung/register/prompt-tests/P-NEU-01_INPUT_SNAPSHOT_01.json",
+      "git_blob_sha1": "f88f5fbd6900a1594e4f4b0e879fa8a272e068d8",
+      "size": 2055
+    },
+    {
+      "path": "forschung/register/prompt-tests/P-NEU-01_OWNER_RUN_01.json",
+      "git_blob_sha1": "6ce3524e85d128c16214d56150ca6e45932fd206",
+      "size": 3897
+    },
+    {
+      "path": "forschung/register/prompt-tests/P-NEU-01_OWNER_RUN_01.md",
+      "git_blob_sha1": "ee1ad1ce33978390a7784fea4b1facc733647fc9",
+      "size": 2372
+    },
+    {
+      "path": "forschung/register/pruefen.py",
+      "git_blob_sha1": "12ff03e5be4ca908cc7edecbb7f3f630bd7fafab",
+      "size": 6461
+    },
+    {
+      "path": "forschung/register/reproduzieren.py",
+      "git_blob_sha1": "c1df2b120a0ac2620177eaa4184735f6e7addc1e",
+      "size": 6004
+    },
+    {
+      "path": "forschung/register/schema/claim.schema.json",
+      "git_blob_sha1": "dca0c27e8d489ab3825c7a6fabc35afaaf74e009",
+      "size": 5379
+    },
+    {
+      "path": "forschung/register/schema/vokabular.json",
+      "git_blob_sha1": "8109c0f5e876453bb85107a3497ef9e4f7e3cc6e",
+      "size": 4287
+    },
+    {
+      "path": "forschung/register/schema/web-lesesicht.schema.json",
+      "git_blob_sha1": "24d80232a4f6366f17df735cc198f8785938ec87",
+      "size": 2818
+    },
+    {
+      "path": "forschung/register/tests/test_lesesicht.py",
+      "git_blob_sha1": "d3c9e5fff881d6e224c3c030af46092878460ec1",
+      "size": 3004
+    },
+    {
+      "path": "forschung/register/tests/test_pm_status.py",
+      "git_blob_sha1": "904047aced002aa2ab7f1136cc7f5e591a3b81b3",
+      "size": 2974
+    },
+    {
+      "path": "forschung/register/werkzeuge/lesesicht.py",
+      "git_blob_sha1": "583cb4237d3387b980005f49ccbbb7a4243d25bf",
+      "size": 3768
+    },
+    {
+      "path": "forschung/register/werkzeuge/pm_status.py",
+      "git_blob_sha1": "4566e7f0592b47fa35106c6b3cace3627fc1c05c",
+      "size": 6262
+    },
+    {
+      "path": "forschung/register/werkzeuge/prompt_export.py",
+      "git_blob_sha1": "20b9a6fe50e8c8a4bbfeb76eed0ea9953b465708",
+      "size": 4868
+    },
+    {
+      "path": "forschung/register/werkzeuge/versionsmanifest.py",
+      "git_blob_sha1": "23670ee2a793487a33c0be4309ff939c5889faa2",
+      "size": 7073
+    },
+    {
+      "path": "forschung/register/werkzeuge/zenodo_register.py",
+      "git_blob_sha1": "643c71c4d0aa6d9c81dcd16b73a5e42e2501e2f1",
+      "size": 9789
+    },
+    {
+      "path": "forschung/tensor-grafik/schema/tensor-visual.v0.1.json",
+      "git_blob_sha1": "47be8f0d446795cc74a64b82fe490cc4d73c2f4d",
+      "size": 592
+    },
+    {
+      "path": "forschung/tensor/CI_CAD_TENSOR_FELDATLAS_A4_SPEZIFIKATION_V0_1.md",
+      "git_blob_sha1": "a8b318f8aac673fc666a198eb9d6e54ebe763a2f",
+      "size": 3954
+    },
+    {
+      "path": "forschung/tensor/FACHKERN_BUNDLE_103_CROSSWALK_V0_1.json",
+      "git_blob_sha1": "5dfcaeeb1d692259b85f86f8169ce24caad144f0",
+      "size": 161115
+    },
+    {
+      "path": "forschung/tensor/FACHSEMANTIK_FORMALISIERUNGEN_EINFACH_QUELLEN_V0_1.md",
+      "git_blob_sha1": "7e55a3cfc5a47aadf8652b19af56350bc248adbd",
+      "size": 10479
+    },
+    {
+      "path": "forschung/tensor/LOGIK_TENSOR_2_0_GOLDSTANDARD_ARBEITSSTAND_2026-11-03.md",
+      "git_blob_sha1": "8eb6d3ee043f94d35fc9bd8323f9ce06327158dc",
+      "size": 4803
+    },
+    {
+      "path": "forschung/tensor/LOGIK_TENSOR_2_1_FORSCHUNGS-UND_PROMPTEDITION_ENTWURF.md",
+      "git_blob_sha1": "fb659e47295d7caf3c3225f6860da2250016925d",
+      "size": 17302
+    },
+    {
+      "path": "forschung/tensor/PAPER_DREIFACHE_TRINITAET_FELDTHEORIE_WEB_V0_1.md",
+      "git_blob_sha1": "ab8e884d49d72b75d6448c694f113e3a3302aaab",
+      "size": 3447
+    },
+    {
+      "path": "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+      "git_blob_sha1": "9e0559405f5578cd89e558e2a81983df54d2d95d",
+      "size": 26494
+    },
+    {
+      "path": "forschung/tensor/PAPER_TRINITAERE_MEDIENORDNUNGEN_TRANSFERALGEBRA_2026-11-05.md",
+      "git_blob_sha1": "08771d3070cfac536e1fb902a35bb429b8d1f5fc",
+      "size": 19041
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/ACHSENALIGNIERUNG_103_FELDUEBERLAGERUNG_V0_1.json",
+      "git_blob_sha1": "bd3c77d77a892f3bef6abddc664882d9d0cafd89",
+      "size": 1102
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/ACHSEN_ALIGNMENT_POTENZIALE_103_V0_1.json",
+      "git_blob_sha1": "4b32c4c686d8304d7853f9ce3bf2e5b9b11a6045",
+      "size": 42701
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/ALGEBRA_LAUF_V0_1.json",
+      "git_blob_sha1": "795388e57fb315bbaccfb82f3a265c50fd3f90fd",
+      "size": 20355
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/ALGEBRA_ZWISCHENERGEBNIS_V0_1.md",
+      "git_blob_sha1": "bb6d59b2313ae8eb0a29bfa7d58323e6b82add4a",
+      "size": 7073
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/ANALYSE_103_V0_1.json",
+      "git_blob_sha1": "052e9812885443d98418eb08e2f782d4776aa1c9",
+      "size": 13850
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/ANTWORT_GPT_TENSORMODUL_UND_WEBIDEEN_V0_1.md",
+      "git_blob_sha1": "ca8fb83ffb33cd9f8141bbc0f153548c03a29832",
+      "size": 7560
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/BEFUNDREGISTER_TENSOR_V0_1.json",
+      "git_blob_sha1": "ba077ebe48a484c8b88218a4c1eca08caadd6426",
+      "size": 13779
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/BRUECKE_F034_F096_ERGEBNIS.json",
+      "git_blob_sha1": "f2c417e1fed548ae974397a0de225ecc9662558c",
+      "size": 592
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/FELDUEBERLAGERUNG_103_V0_1.json",
+      "git_blob_sha1": "ffefac76e070becfa291b0f70d72eccd9af140fd",
+      "size": 1166064
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/FORMELN50_GPT_RELATIONEN_V0_1.json",
+      "git_blob_sha1": "015c3bd0e8022cc26b0304341e8a3ff116294da6",
+      "size": 5081
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/KLASSEN_CROSSWALK_V0_1.json",
+      "git_blob_sha1": "38b01bf9aa6d2a8df800e46f585a878398ead8a9",
+      "size": 2219
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/KONZEPT_OEFFNUNG_UND_PUBLIKATIONSREIFE_V0_1.md",
+      "git_blob_sha1": "485ed7da64aba631baeed9e934188b03f1ebe4b4",
+      "size": 11054
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/MUSTER_V0_1.json",
+      "git_blob_sha1": "81f30d4b523344ff708e1b6e963b706590ba69bf",
+      "size": 3837
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/PAPER_ALGEBRA_SUCHMATRIZEN_3_KLASSEN_V0_1.md",
+      "git_blob_sha1": "41fdb70d0cc13d54f7c3233171e0057273c3ad4d",
+      "size": 13399
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/PAPER_FELDKLASSIFIKATION_UND_GESAMTUEBERLAGERUNG_V0_1.md",
+      "git_blob_sha1": "824b5b9cf9698bb80d17dbc0621fcfb50ba4c79a",
+      "size": 11334
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/SCHEMA_FELDEIGENSCHAFTEN_V0_1.json",
+      "git_blob_sha1": "7c5165d00acff01323ab0dbd07e0df6a9e322279",
+      "size": 5896
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/SUCHMATRIX_103_TYPEN_OPERATOREN_V0_1.json",
+      "git_blob_sha1": "5b3c0a4ca47bc9872245aaeaf38098a25a2db312",
+      "size": 144636
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/SUCHMATRIX_14_DIREKTE_TENSOR_FORMELTESTS_V0_1.json",
+      "git_blob_sha1": "6dc59f053e63f5b6030e2d528765af235172f523",
+      "size": 5509
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/SUCHMATRIX_VARIANTEN25_V0_1.json",
+      "git_blob_sha1": "e57c195046453c3f10daa4aaf84e1abd23fa979a",
+      "size": 5273
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/TENSOREN_PUBLIKATIONEN_V0_1.json",
+      "git_blob_sha1": "d65fe8c5d177e00f3c1fcf80008ded7e2d557242",
+      "size": 17680
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/TENSOR_KERN_ARCHITEKTUR_V0_1.md",
+      "git_blob_sha1": "323ab50446a89877e34549044f5438211b8d9e47",
+      "size": 7375
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/UEBERLAGERUNG_9_PFAD_TENSOREN_V0_1.json",
+      "git_blob_sha1": "016c4ff4e786bdd2dd3f9e6f99e5df2c6854d9d4",
+      "size": 16738
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/analyse_103.py",
+      "git_blob_sha1": "55f1a6a3c7f175b8a8269e2a5ff7df1d95475a46",
+      "size": 5228
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/bruecke_f034_f096.py",
+      "git_blob_sha1": "cbcb72afb4a3ac4b7cf264c3d6d104ae2f46d371",
+      "size": 3510
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/extrakt_tensoren.py",
+      "git_blob_sha1": "cd708eca66c5d37d2dbfeb8cc5caf895ac23746d",
+      "size": 9951
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/lauf_alle.py",
+      "git_blob_sha1": "85cbe2cb01fe92d3059989f97c4ccdf104a6b71d",
+      "size": 3352
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/muster.py",
+      "git_blob_sha1": "04182e3ebe2f1bf849e8922f9b78c5807ad7ed99",
+      "size": 5262
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/rebuild_103_searchscreen.py",
+      "git_blob_sha1": "28bb9ae719c0d5b5b81234e6331bfd69f6d131dd",
+      "size": 2025
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/schema/tensor-1.0.schema.json",
+      "git_blob_sha1": "5d28897767e5e89f61052932e5e8ffaaf20b6288",
+      "size": 4190
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/suchmatrix_varianten_25.py",
+      "git_blob_sha1": "de6fe120534f9a96d1634695f075e1cad15e7039",
+      "size": 4170
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/tests/test_typalgebra.py",
+      "git_blob_sha1": "1cecf3b3d7b0c9cf5d5db27e49405048844eb072",
+      "size": 6873
+    },
+    {
+      "path": "forschung/tensor/algebra-claude/typalgebra.py",
+      "git_blob_sha1": "e6644daf4e74ffec9b69d6e37d5c1b738c25f53c",
+      "size": 13872
+    },
+    {
+      "path": "forschung/tensor/formeln/DREIECKE_V0_1.json",
+      "git_blob_sha1": "8118dc30e07fa5acf8fe3ac8ed7ac3030389c7e0",
+      "size": 4683
+    },
+    {
+      "path": "forschung/tensor/formeln/DSCHUNGEL_ERGEBNIS_V0_1.json",
+      "git_blob_sha1": "51e86bb21a548f8a33f0ae8476a1157a973b7285",
+      "size": 54350
+    },
+    {
+      "path": "forschung/tensor/formeln/FORMELN_TOP100_V0_1.json",
+      "git_blob_sha1": "cb7e103e7453fc48a1534a41515902326f45c089",
+      "size": 24355
+    },
+    {
+      "path": "forschung/tensor/formeln/KONZEPT_FORMELREDUKTION_UND_HARVESTING_V0_1.md",
+      "git_blob_sha1": "117ca008bdfe1e770bfd2facd495e78ebc7d34a9",
+      "size": 11886
+    },
+    {
+      "path": "forschung/tensor/formeln/PAPER_TRINITAETEN_UND_BEZUGSTENSOREN_V0_1.md",
+      "git_blob_sha1": "79f3061632a6ef49fed45a7257fa0f3ddcab1ad3",
+      "size": 29786
+    },
+    {
+      "path": "forschung/tensor/formeln/TOP100_ERGEBNIS_V0_1.json",
+      "git_blob_sha1": "548a93f776b28e363a0930cbc576142304fe5a29",
+      "size": 56311
+    },
+    {
+      "path": "forschung/tensor/formeln/WIKIDATA_LAUF_V0_1.json",
+      "git_blob_sha1": "88dbe419602f67342fd08c40fc69cf84a8bbdd66",
+      "size": 114216
+    },
+    {
+      "path": "forschung/tensor/formeln/datensatz/DATENBLATT.md",
+      "git_blob_sha1": "acc418c6b95c39b611fbce4cfcd0ef6148917c3c",
+      "size": 4227
+    },
+    {
+      "path": "forschung/tensor/formeln/datensatz/abruf_wikidata.py",
+      "git_blob_sha1": "b470568eb29958a5c96f54bbf403d60d4060272d",
+      "size": 8446
+    },
+    {
+      "path": "forschung/tensor/formeln/datensatz/bauen.py",
+      "git_blob_sha1": "e70bfedbc962aabb8366ff8885174cb279aceaf8",
+      "size": 8314
+    },
+    {
+      "path": "forschung/tensor/formeln/datensatz/bezugstensoren_v0_1.json",
+      "git_blob_sha1": "3705f5179b38daa5641efb431e8a54c084bc54fa",
+      "size": 16371
+    },
+    {
+      "path": "forschung/tensor/formeln/datensatz/ergaenzungen_v0_1.csv",
+      "git_blob_sha1": "e93c35207a055156001527e581c0038bb31ecfc6",
+      "size": 7062
+    },
+    {
+      "path": "forschung/tensor/formeln/datensatz/formelbestand_v0_1.jsonl",
+      "git_blob_sha1": "939cc58a01b548c81563d7995895f8ed63890d41",
+      "size": 2059278
+    },
+    {
+      "path": "forschung/tensor/formeln/datensatz/groessen_v0_1.json",
+      "git_blob_sha1": "a60ac36ac13186a910e7fd8db01078988aea2871",
+      "size": 411497
+    },
+    {
+      "path": "forschung/tensor/formeln/datensatz/rollenpruefung_v0_1.csv",
+      "git_blob_sha1": "ae366e135dc11a8d565062e08f3bd7e4a40ce3c9",
+      "size": 3988
+    },
+    {
+      "path": "forschung/tensor/formeln/datensatz/skelette_v0_1.json",
+      "git_blob_sha1": "ed470a7a326df76b9420fe70e5c964107575639a",
+      "size": 168849
+    },
+    {
+      "path": "forschung/tensor/formeln/datensatz/trinitaeten_v0_1.csv",
+      "git_blob_sha1": "cd2011078557d5c471ea5214da8964fb2cff0272",
+      "size": 150440
+    },
+    {
+      "path": "forschung/tensor/formeln/dreiecke.py",
+      "git_blob_sha1": "6780aeeb4c2dbc005c155aea4fb7a86c1f0d24de",
+      "size": 7163
+    },
+    {
+      "path": "forschung/tensor/formeln/dschungel.py",
+      "git_blob_sha1": "03eda7832bc6b2c8c26e4c2dcb97613fda9ff5ad",
+      "size": 16572
+    },
+    {
+      "path": "forschung/tensor/formeln/formel_struktur.py",
+      "git_blob_sha1": "22b4f9fcdc3c90101132cc93d4c35862efe86eff",
+      "size": 8789
+    },
+    {
+      "path": "forschung/tensor/formeln/pilot50/FORMELN50_KORPUS_V0_1.json",
+      "git_blob_sha1": "5f6e45e135fe9f49b88b1f47d5e21af9c5214efe",
+      "size": 15260
+    },
+    {
+      "path": "forschung/tensor/formeln/pilot50/PILOT50_GESAMTANALYSE_ABLAUF_UND_ERGEBNISSE_V0_1.md",
+      "git_blob_sha1": "9508ed7cc3c8f18db6cf59f79eb522ce57e6065a",
+      "size": 13008
+    },
+    {
+      "path": "forschung/tensor/formeln/pilot50/PILOT50_GRAPHMUSTER_V0_1.json",
+      "git_blob_sha1": "cc7bd3f10c5248236a9408697f8aeaf36cacf920",
+      "size": 6723
+    },
+    {
+      "path": "forschung/tensor/formeln/pilot50/PILOT50_QUELLEN_GLOSSAR_KANDIDATEN_V0_1.json",
+      "git_blob_sha1": "bde506478b43f3682c039a8b7779c9da2a05d6e6",
+      "size": 5990
+    },
+    {
+      "path": "forschung/tensor/formeln/pilot50/PILOT50_SKILL_PROZESS_CROSSWALK_V0_1.json",
+      "git_blob_sha1": "5e4f3d8e0bbb3c1e1a9676054cd0a4dd3d505adc",
+      "size": 6523
+    },
+    {
+      "path": "forschung/tensor/formeln/pilot50/PILOT50_STRUKTURERGEBNIS_V0_1.json",
+      "git_blob_sha1": "505f3bf846f989a99cdf24ad52e9c75c825d5d84",
+      "size": 40883
+    },
+    {
+      "path": "forschung/tensor/formeln/pilot50/run50.py",
+      "git_blob_sha1": "75821713edf17e33efad809cb4a15ce9c275a866",
+      "size": 3741
+    },
+    {
+      "path": "forschung/tensor/formeln/tests/test_dschungel.py",
+      "git_blob_sha1": "1ed6bf5e6d36c55555545442548d37ef3e75419c",
+      "size": 3898
+    },
+    {
+      "path": "forschung/tensor/formeln/tests/test_formel_struktur.py",
+      "git_blob_sha1": "fa26c848110a929cc9d94c3067f5b8ca9e5a22fe",
+      "size": 3273
+    },
+    {
+      "path": "forschung/tensor/formeln/top100_lauf.py",
+      "git_blob_sha1": "8c21c8d1635f93f996da65245f8f58296ef784f1",
+      "size": 1818
+    },
+    {
+      "path": "forschung/tensor/formeln/wikidata_lauf.py",
+      "git_blob_sha1": "f7a6f4789d7e50cdc17b6890fc677ba015011c14",
+      "size": 11483
+    },
+    {
+      "path": "forschung/tensor/kandidaten/KAND-LUHMANN-01_WELTEN_DONOR_CROSSWALK_v0_1.json",
+      "git_blob_sha1": "3c7490369610acd9eac6e8a4aa0a882a8cf47ed1",
+      "size": 32929
+    },
+    {
+      "path": "forschung/tensor/kandidaten/KAND-LUHMANN-01_v0_1.json",
+      "git_blob_sha1": "5e828f4b9d42916799c428c9dc8040830179bcb0",
+      "size": 23735
+    },
+    {
+      "path": "forschung/tensor/kandidaten/test_kand_luhmann_01.py",
+      "git_blob_sha1": "f259a00b30e6c0d49ede951d60f64d345a524e9c",
+      "size": 4007
+    },
+    {
+      "path": "forschung/tensor/logik-claude/LOGIK_CLAIMREGISTER_V0_1.json",
+      "git_blob_sha1": "2ee0a50483f70b7b72d9bcf4acfcdad0c4a89e81",
+      "size": 62124
+    },
+    {
+      "path": "forschung/tensor/logik-claude/LOGIK_TENSOR_1_0_EXTRAKT_V0_1.json",
+      "git_blob_sha1": "5a18d03337363a01498817400abedb7efd7bb8dc",
+      "size": 24339
+    },
+    {
+      "path": "forschung/tensor/logik-claude/LOGIK_TENSOR_1_0_EXTRAKT_V0_1.md",
+      "git_blob_sha1": "d06c9a1860dac2b3931d6776dc465d91341a71a7",
+      "size": 6509
+    },
+    {
+      "path": "forschung/tensor/logik-claude/durchstich/C1_ERGEBNIS.json",
+      "git_blob_sha1": "eae5f88e676d54c8f8416ee03bd36c591c84c294",
+      "size": 1567
+    },
+    {
+      "path": "forschung/tensor/logik-claude/durchstich/C1_MODUS_PONENS.md",
+      "git_blob_sha1": "fe4d7dc6557bc1cb311f68849c84d8ecd7cfe80c",
+      "size": 3789
+    },
+    {
+      "path": "forschung/tensor/logik-claude/durchstich/c1_modus_ponens.py",
+      "git_blob_sha1": "d584263d3f2c899bb27b9dad506a627bd64d89bd",
+      "size": 7111
+    },
+    {
+      "path": "forschung/tensor/logik-claude/probelaeufe/LOGIK-PROMPT-02_PROBELAUF_01.json",
+      "git_blob_sha1": "359fb95cc066b6ba6e1296441077ba46d1776d4e",
+      "size": 2843
+    },
+    {
+      "path": "forschung/tensor/logik-claude/probelaeufe/LOGIK-PROMPT-02_PROBELAUF_01.md",
+      "git_blob_sha1": "b8853d672cb0483e2f0a4561c64508bd9d740afc",
+      "size": 6241
+    },
+    {
+      "path": "forschung/tensor/logik-claude/tests/test_formal_k4.py",
+      "git_blob_sha1": "4605d67ab5808ade883777fd05da70bb23cf125d",
+      "size": 4904
+    },
+    {
+      "path": "forschung/tensor/logik-claude/tests/test_logik_prompt02.py",
+      "git_blob_sha1": "b4b987a16ad6b5d5425a6e035d536dfe17a599c4",
+      "size": 6076
+    },
+    {
+      "path": "forschung/tensor/logik-claude/werkzeuge/logik10_extrakt.py",
+      "git_blob_sha1": "2a51c408ed8aa9353968d0a797b80c22be501ef6",
+      "size": 9398
+    },
+    {
+      "path": "forschung/tensor/strukturvergleich/QUANTEN_STRUKTUR_TESTS_V0_1.json",
+      "git_blob_sha1": "bb0a5acc982281c4fbddb17600010ea18e350b18",
+      "size": 4126
+    },
+    {
+      "path": "forschung/tensor/strukturvergleich/VERGLEICH_QUANTENTRINITAETEN_FACH_TENSOREN_FELDTHEORIEN_V0_1.md",
+      "git_blob_sha1": "cd32c8fdf12c809513891b9e460ac4c9315c5a0f",
+      "size": 8908
+    },
+    {
+      "path": "forschung/tensor/strukturvergleich/WIGNER_REFERENZ_2026_11_04.md",
+      "git_blob_sha1": "772d75b57958c19fa8f4eb8a444db5c3f23f4b70",
+      "size": 270
+    }
+  ],
+  "warning": "Git blob SHA-1 is not SHA256 of downloaded bytes. Reconstructable only while Git objects are retained. For independent backup git clone --mirror and restore original user archives. User ZIPs and SQLite historical archives are NOT in repository."
+}
