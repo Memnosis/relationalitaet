@@ -1,0 +1,377 @@
+{
+ "schema_version": "git-index/0.1",
+ "erzeugt": "2026-11-13",
+ "commit": "d93cc51",
+ "dateien_gesamt": 649,
+ "commits_gesamt": 1156,
+ "bereiche": [
+  {
+   "bereich": ".",
+   "zweck": "Wurzel: Originaldateien des Autors (Markdown, PDF, CSV)",
+   "dateien": 26,
+   "groesse_kb": 11254,
+   "haeufigste_typen": ".md 19, .pdf 5, ohne 1, .csv 1",
+   "commits": 16,
+   "zuletzt": "2026-11-03",
+   "commits_nach_ki": {
+    "ohne Trailer": 16
+   },
+   "schluesseldateien": [
+    "README.md"
+   ]
+  },
+  {
+   "bereich": ".github",
+   "zweck": "–",
+   "dateien": 11,
+   "groesse_kb": 14,
+   "haeufigste_typen": ".yml 11",
+   "commits": 19,
+   "zuletzt": "2026-11-05",
+   "commits_nach_ki": {
+    "ohne Trailer": 19
+   },
+   "schluesseldateien": []
+  },
+  {
+   "bereich": "dashboard",
+   "zweck": "Dashboard-Prototyp",
+   "dateien": 2,
+   "groesse_kb": 16,
+   "haeufigste_typen": ".json 1, .html 1",
+   "commits": 9,
+   "zuletzt": "2026-11-01",
+   "commits_nach_ki": {
+    "ohne Trailer": 9
+   },
+   "schluesseldateien": [
+    "dashboard/index.html"
+   ]
+  },
+  {
+   "bereich": "docs",
+   "zweck": "Website (GitHub Pages) – Owner GPT",
+   "dateien": 211,
+   "groesse_kb": 2479,
+   "haeufigste_typen": ".html 67, .md 56, .json 52, .css 12",
+   "commits": 733,
+   "zuletzt": "2026-11-06",
+   "commits_nach_ki": {
+    "ohne Trailer": 729,
+    "gpt": 4
+   },
+   "schluesseldateien": [
+    "docs/buerger-ki-phase-8-vergleichsprogramm.md",
+    "docs/buerger-ki-startseiten-umbaukonzept-2026-11-05.md",
+    "docs/data/codebuch-web-index.json",
+    "docs/index.html",
+    "docs/paper-buerger-ki-bedarfslandkarte-rechtsstatus-und-blindstellen-v0-1.md"
+   ]
+  },
+  {
+   "bereich": "forschung/atlas",
+   "zweck": "Begriffsatlas Null · Eins · Zyklus · Trinität – Owner Claude",
+   "dateien": 4,
+   "groesse_kb": 587,
+   "haeufigste_typen": ".md 1, .json 1, .jsonl 1, .py 1",
+   "commits": 1,
+   "zuletzt": "2026-11-04",
+   "commits_nach_ki": {
+    "claude": 1
+   },
+   "schluesseldateien": [
+    "forschung/atlas/ATLAS_KONZEPT_V0_1.md"
+   ]
+  },
+  {
+   "bereich": "forschung/buerger-ki",
+   "zweck": "Bürger-KI: Rechte, Lernpfade, Weisungsatlas",
+   "dateien": 41,
+   "groesse_kb": 527,
+   "haeufigste_typen": ".md 25, .json 11, .py 5",
+   "commits": 67,
+   "zuletzt": "2026-11-05",
+   "commits_nach_ki": {
+    "ohne Trailer": 67
+   },
+   "schluesseldateien": [
+    "forschung/buerger-ki/ANSCHLUSSPROGRAMM_VIRTUELLE_BUERGER_KI_01_2026-11-05.md",
+    "forschung/buerger-ki/KERNPAPER_INSTITUTIONELLES_LERNEN_METRIKGESCHICHTE_UND_INTELLIGENZ_V0_1.md",
+    "forschung/buerger-ki/KERNPAPER_LERNPFADE_NOLOSS_WISSENSORCHESTRIERUNG_V0_1.md",
+    "forschung/buerger-ki/KERNPAPER_MESSBARKEIT_STEUERUNG_RECHENSCHAFT_V0_1.md",
+    "forschung/buerger-ki/KERNPAPER_ZIEL_HANDLUNGSATLAS_LEXIKON_META_V0_1.md",
+    "forschung/buerger-ki/MASTERPLAN_ARCHITEKTUR_LERNPFADE_CROSSWALK_SKILLS_V1_2026-11-05.md",
+    "forschung/buerger-ki/PAPER_BENCHMARKS_EVIDENZ_ZEITKONTEXT_CROSSWALK_2026-11-05.md",
+    "forschung/buerger-ki/PAPER_KAFFEEKRAENZCHEN_HEBELBEGRIFFE_SOUVERAENITAET_V0_1_2026-11-05.md",
+    "forschung/buerger-ki/PAPER_KAFFEEKRAENZCHEN_OFFENES_HYBRID_BARCAMP_V0_1_2026-11-05.md",
+    "forschung/buerger-ki/PAPER_MENSCH_ZU_HANDLUNG_KI_ANBINDUNG_DATEN_RECHT_V0_1_2026-11-05.md",
+    "forschung/buerger-ki/PAPER_VIRTUELLE_KI_FUNKTIONEN_UEBERGABEN_FEEDBACK_BAUSTELLEN_V0_1_2026-11-05.md",
+    "forschung/buerger-ki/PAPER_VIRTUELLE_REALE_SOUVERAENE_BUERGER_KI_KI_ANWENDUNGEN_V0_1_2026-11-05.md"
+   ]
+  },
+  {
+   "bereich": "forschung/g30",
+   "zweck": "g30: Feldkarten, Index-Algebra, Forschungswarteschlange",
+   "dateien": 10,
+   "groesse_kb": 2784,
+   "haeufigste_typen": ".json 8, .md 2",
+   "commits": 10,
+   "zuletzt": "2026-11-06",
+   "commits_nach_ki": {
+    "ohne Trailer": 10
+   },
+   "schluesseldateien": [
+    "forschung/g30/G30_ENGINE_ARCHITEKTUR_DATEN_QUELLEN_TESTPLAN_V0_1.md"
+   ]
+  },
+  {
+   "bereich": "forschung/geoki",
+   "zweck": "Geo-KI: Geometrie-Modelle",
+   "dateien": 6,
+   "groesse_kb": 7,
+   "haeufigste_typen": ".md 3, .py 3",
+   "commits": 6,
+   "zuletzt": "2026-11-01",
+   "commits_nach_ki": {
+    "ohne Trailer": 6
+   },
+   "schluesseldateien": [
+    "forschung/geoki/v0_4/README.md"
+   ]
+  },
+  {
+   "bereich": "forschung/interop",
+   "zweck": "Interoperabilität und Formate",
+   "dateien": 2,
+   "groesse_kb": 11,
+   "haeufigste_typen": ".json 1, .md 1",
+   "commits": 2,
+   "zuletzt": "2026-11-01",
+   "commits_nach_ki": {
+    "ohne Trailer": 2
+   },
+   "schluesseldateien": [
+    "forschung/interop/PAPER_INTEROPERABILITAET_SKILLS_V0_1.md"
+   ]
+  },
+  {
+   "bereich": "forschung/koordination",
+   "zweck": "Zusammenarbeit der KIs: Regeln, Zyklen, Berichte, Skills – gemeinsam",
+   "dateien": 92,
+   "groesse_kb": 670,
+   "haeufigste_typen": ".md 66, .json 18, .py 7, .mjs 1",
+   "commits": 100,
+   "zuletzt": "2026-11-13",
+   "commits_nach_ki": {
+    "claude": 19,
+    "ohne Trailer": 77,
+    "gpt": 4
+   },
+   "schluesseldateien": [
+    "forschung/koordination/AUFTRAG_UND_PLAN_CLAUDE_V0_1.md",
+    "forschung/koordination/CLAUDE_ANALYSE_PLAN_GPT_V0_1.md",
+    "forschung/koordination/CLAUDE_ANTWORT_GPT_ANALYSE_PLAN.md",
+    "forschung/koordination/GPT_ANALYSE_PLAN_CLAUDE.md",
+    "forschung/koordination/GPT_ANTWORT_CLAUDE_PLAN_V0_3_2026-11-04.md",
+    "forschung/koordination/LANDKARTE_PROJEKT_V0_1.md",
+    "forschung/koordination/PAPER_FORSCHUNGSSTRUKTUREN_TRINITAETEN_HARVESTING_V0_1.md",
+    "forschung/koordination/PROGRAMM_100_ZYKLEN_MANIFEST.json",
+    "forschung/koordination/PROGRAMM_100_ZYKLEN_STUDIE_UND_BEREINIGUNG_2026-11-03.md",
+    "forschung/koordination/PROGRAMM_VERSION_2_0.md",
+    "forschung/koordination/README.md",
+    "forschung/koordination/REGELN_ZUSAMMENARBEIT_V2_ENTWURF.md"
+   ]
+  },
+  {
+   "bereich": "forschung/minimal-ki",
+   "zweck": "Minimal-KI: Beobachter-Modelle",
+   "dateien": 3,
+   "groesse_kb": 77,
+   "haeufigste_typen": ".json 2, .md 1",
+   "commits": 4,
+   "zuletzt": "2026-11-01",
+   "commits_nach_ki": {
+    "ohne Trailer": 4
+   },
+   "schluesseldateien": []
+  },
+  {
+   "bereich": "forschung/register",
+   "zweck": "Register, Gegenrechnungen, Reproduktion – Owner Claude",
+   "dateien": 60,
+   "groesse_kb": 534,
+   "haeufigste_typen": ".json 28, .md 19, .py 13",
+   "commits": 41,
+   "zuletzt": "2026-11-04",
+   "commits_nach_ki": {
+    "claude": 15,
+    "ohne Trailer": 26
+   },
+   "schluesseldateien": [
+    "forschung/register/README.md",
+    "forschung/register/gegenrechnung/README.md",
+    "forschung/register/oeffentlich/EVIDENZREGELN_PM_V0_1.json"
+   ]
+  },
+  {
+   "bereich": "forschung/soulution",
+   "zweck": "SOULution: Inkubator, Register, Designvorgaben",
+   "dateien": 8,
+   "groesse_kb": 11,
+   "haeufigste_typen": ".md 8",
+   "commits": 8,
+   "zuletzt": "2026-11-01",
+   "commits_nach_ki": {
+    "ohne Trailer": 8
+   },
+   "schluesseldateien": []
+  },
+  {
+   "bereich": "forschung/tensor",
+   "zweck": "Tensor: Algebra, Logik, Formeln, Datensätze – Owner Claude (+ GPT-Grafik)",
+   "dateien": 88,
+   "groesse_kb": 5192,
+   "haeufigste_typen": ".json 38, .py 24, .md 22, .csv 3",
+   "commits": 51,
+   "zuletzt": "2026-11-06",
+   "commits_nach_ki": {
+    "ohne Trailer": 43,
+    "claude": 8
+   },
+   "schluesseldateien": [
+    "forschung/tensor/PAPER_DREIFACHE_TRINITAET_FELDTHEORIE_WEB_V0_1.md",
+    "forschung/tensor/PAPER_MEDIENORDNUNGEN_TENSOR_KANDIDAT_VERTIEFUNG_2026-11-05.md",
+    "forschung/tensor/PAPER_TRINITAERE_MEDIENORDNUNGEN_TRANSFERALGEBRA_2026-11-05.md",
+    "forschung/tensor/algebra-claude/KONZEPT_OEFFNUNG_UND_PUBLIKATIONSREIFE_V0_1.md",
+    "forschung/tensor/algebra-claude/PAPER_ALGEBRA_SUCHMATRIZEN_3_KLASSEN_V0_1.md",
+    "forschung/tensor/algebra-claude/PAPER_FELDKLASSIFIKATION_UND_GESAMTUEBERLAGERUNG_V0_1.md",
+    "forschung/tensor/formeln/KONZEPT_FORMELREDUKTION_UND_HARVESTING_V0_1.md",
+    "forschung/tensor/formeln/PAPER_TRINITAETEN_UND_BEZUGSTENSOREN_V0_1.md",
+    "forschung/tensor/formeln/datensatz/DATENBLATT.md"
+   ]
+  },
+  {
+   "bereich": "forschung/tensor-grafik",
+   "zweck": "Tensor-Grafik – Owner GPT",
+   "dateien": 1,
+   "groesse_kb": 1,
+   "haeufigste_typen": ".json 1",
+   "commits": 1,
+   "zuletzt": "2026-11-01",
+   "commits_nach_ki": {
+    "ohne Trailer": 1
+   },
+   "schluesseldateien": []
+  },
+  {
+   "bereich": "forschung/website",
+   "zweck": "Website-Planung und Designsystem – Owner GPT",
+   "dateien": 68,
+   "groesse_kb": 405,
+   "haeufigste_typen": ".md 62, .json 4, .py 2",
+   "commits": 84,
+   "zuletzt": "2026-11-04",
+   "commits_nach_ki": {
+    "ohne Trailer": 81,
+    "gpt": 3
+   },
+   "schluesseldateien": [
+    "forschung/website/OEFFENTLICHE_AUFGABEN_FREIGABEREGELN_2026-11-03.md",
+    "forschung/website/PLAN_TENSOR_LOGIK_FELDTHEORIE_STANDARD_UPGRADE_2026-11-03.md",
+    "forschung/website/PLAN_UPDATE_PROMPT100_UND_LUECKENAUDIT_2026-11-03.md",
+    "forschung/website/SOULUTION_TIEFENPLAN_UND_FINANZSIMULATION_2026-11-01.md",
+    "forschung/website/WEBSITE_V3_GESAMTKONZEPT_GEOKI_2026-11-04.md",
+    "forschung/website/seiten/README.md",
+    "forschung/website/seiten/bibliothek_AUDIT_PLAN_2026-11-03.md",
+    "forschung/website/seiten/codebuch_AUDIT_PLAN_2026-11-03.md",
+    "forschung/website/seiten/geoki-systeme_AUDIT_PLAN_2026-11-03.md",
+    "forschung/website/seiten/geoki_AUDIT_PLAN_2026-11-03.md",
+    "forschung/website/seiten/glossar_AUDIT_PLAN_2026-11-03.md",
+    "forschung/website/seiten/harvesting_AUDIT_PLAN_2026-11-03.md"
+   ]
+  },
+  {
+   "bereich": "scripts",
+   "zweck": "Website-Skripte und Validatoren – Owner GPT",
+   "dateien": 16,
+   "groesse_kb": 56,
+   "haeufigste_typen": ".py 13, .mjs 3",
+   "commits": 40,
+   "zuletzt": "2026-11-05",
+   "commits_nach_ki": {
+    "ohne Trailer": 38,
+    "gpt": 2
+   },
+   "schluesseldateien": []
+  }
+ ],
+ "website_seiten": [
+  "docs/bibliothek.html",
+  "docs/buerger-ki-anwendungsfelder.html",
+  "docs/buerger-ki-blickwinkel-therapieplatz.html",
+  "docs/buerger-ki-corona-gesamtansicht.html",
+  "docs/buerger-ki-corona-messkarten.html",
+  "docs/buerger-ki-corona-zeitverlauf.html",
+  "docs/buerger-ki-fail-scanner.html",
+  "docs/buerger-ki-feedback.html",
+  "docs/buerger-ki-forschungsbibliothek.html",
+  "docs/buerger-ki-gemeinsam.html",
+  "docs/buerger-ki-grundlagen.html",
+  "docs/buerger-ki-kaffeekraenzchen-fragen.html",
+  "docs/buerger-ki-kaffeekraenzchen.html",
+  "docs/buerger-ki-legende.html",
+  "docs/buerger-ki-lernpfade.html",
+  "docs/buerger-ki-mein-recht.html",
+  "docs/buerger-ki-rechenschaft-100.html",
+  "docs/buerger-ki-schutzpflichten.html",
+  "docs/buerger-ki-skillzentrum.html",
+  "docs/buerger-ki-startseite-neu-entwurf.html",
+  "docs/buerger-ki-svik-100.html",
+  "docs/buerger-ki-verwaltungspilot.html",
+  "docs/buerger-ki-weg.html",
+  "docs/buerger-ki-weisungsatlas.html",
+  "docs/buerger-ki-werkstatt.html",
+  "docs/buerger-ki-ziele-lexikon.html",
+  "docs/buerger-ki-zielpfade.html",
+  "docs/buerger-ki.html",
+  "docs/codebuch.html",
+  "docs/forschungsdaten.html",
+  "docs/geoki-systeme.html",
+  "docs/geoki.html",
+  "docs/glossar.html",
+  "docs/harvesting.html",
+  "docs/impressum.html",
+  "docs/index.html",
+  "docs/inkubator.html",
+  "docs/interoperabilitaet.html",
+  "docs/ki-geschichte.html",
+  "docs/ki-kernforschung.html",
+  "docs/ki-systeme.html",
+  "docs/komprimierung.html",
+  "docs/medien.html",
+  "docs/minimal-ki.html",
+  "docs/mitmachen-rueckgabe.html",
+  "docs/mitmachen.html",
+  "docs/paper-corona-myokarditis-vergleichbarkeit-methodenpaper.html",
+  "docs/projektmanagement.html",
+  "docs/projektportfolio.html",
+  "docs/projektstand.html",
+  "docs/publikationen.html",
+  "docs/quellen-und-uebergabe.html",
+  "docs/sitemap.html",
+  "docs/soulution-inkubator-quellen.html",
+  "docs/soulution-ki-kreativrechte.html",
+  "docs/soulution-potenzialarchitekturen.html",
+  "docs/soulution-schroedingers-inkubator.html",
+  "docs/soulution-weltwissen-dividende.html",
+  "docs/soulution.html",
+  "docs/taskkarten.html",
+  "docs/tensor-einfuehrung.html",
+  "docs/tensor-paper.html",
+  "docs/tensoralgebra.html",
+  "docs/thesen.html",
+  "docs/vernetzung-ki.html",
+  "docs/visuelle-engine.html",
+  "docs/wissen-macht-wirklichkeit.html"
+ ]
+}
