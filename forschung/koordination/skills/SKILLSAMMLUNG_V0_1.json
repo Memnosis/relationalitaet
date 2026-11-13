@@ -1,0 +1,762 @@
+{
+ "schema_version": "skillsammlung/0.1",
+ "stand": "2026-11-13",
+ "erweitert": "forschung/koordination/STANDARDS_SKILLS_METHODENREGISTER_V1_2026-11-03.md",
+ "bestehende_skills": [
+  "SK-NOLOSS",
+  "SK-CLAIM",
+  "SK-TENSOR",
+  "SK-PROMPT",
+  "SK-DIDAKTIK",
+  "SK-WEBQA",
+  "SK-GEO",
+  "SK-IMPACT",
+  "SK-PRIORITY",
+  "SK-CONDENSE"
+ ],
+ "generatoren": {
+  "G1": "Mindeststandard-Abgleich (alle Listen und Kapitel der alten Fassung bleiben)",
+  "G2": "Nachrechnung und Errata-Kapitel",
+  "G3": "Gemeinsame Klassenachse I Identität · II Baseline · III Emergenz",
+  "G4": "Tensor mit 27 Feldern und Algebra-Lauf",
+  "G5": "Erstbelege und Wissenschaftsgeschichte",
+  "G6": "Neuheitsmarken: bestätigt · neu formuliert · neu",
+  "G7": "Formel- und Dimensionsprüfung",
+  "G8": "DE/EN-Paar zu einem zweisprachigen Werk zusammenführen",
+  "G9": "Lesetiefen E1 · E2 · E3",
+  "G10": "Fassungen frei / Buch und Preisstufe",
+  "G11": "Cover und Serienlayout",
+  "G12": "Metadaten: DOI, Versionen, Ko-fi-Link"
+ },
+ "skills": [
+  {
+   "id": "SK-R01",
+   "familie": "Forschung",
+   "name": "Nachrechnung von Kernrechnungen",
+   "zweck": "jede nachrechenbare Stelle eines Werks unabhängig neu rechnen",
+   "eingabe": "Werktext, Zeilen",
+   "ausgabe": "Prüfpunkte: bestätigt / Fehler / ungenau / widersprüchlich / nicht prüfbar, mit Korrektur",
+   "werkzeug": "Python + sympy/mpmath (Muster in forschung/register/gegenrechnung/)",
+   "qualitaetsregel": "jeder Fehler zweimal unabhängig gerechnet; keine Wertung von Thesen",
+   "owner": "Claude",
+   "generatoren": [
+    "G2",
+    "G7"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für die Nachrechnung aller Zahlen, Formeln und Zählungen eines Werks mit Zeilenangabe und Korrekturvorschlag im Wortlaut des Werks.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-R02",
+   "familie": "Forschung",
+   "name": "Nullmodell und Permutationstest",
+   "zweck": "prüfen, ob ein Muster häufiger ist als der Zufall",
+   "eingabe": "Datensatz, Musterdefinition",
+   "ausgabe": "p-Wert, Verteilung unter Zufall",
+   "werkzeug": "forschung/tensor/formeln/dschungel.py (Permutation), Periodizitätstest",
+   "qualitaetsregel": "Hypothese vor dem Test festlegen; Startwert fest",
+   "owner": "Claude",
+   "generatoren": [
+    "G6"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für einen Zufallsvergleich, der die Häufigkeit eines behaupteten Musters gegen eine passende Nullverteilung prüft.",
+   "status": "vorhanden"
+  },
+  {
+   "id": "SK-R03",
+   "familie": "Forschung",
+   "name": "Formelreduktion und Harvesting",
+   "zweck": "Formeln auf Ministrukturen, Trinitäten und Bezugstensoren reduzieren",
+   "eingabe": "Formelbestand",
+   "ausgabe": "Familien, Keime, Bezugstensoren, Vorhersagen",
+   "werkzeug": "forschung/tensor/formeln/formel_struktur.py, dschungel.py",
+   "qualitaetsregel": "Zählungen aus den Daten; Rollenprüfung bei Vorhersagen",
+   "owner": "Claude",
+   "generatoren": [
+    "G4",
+    "G7"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für die Suche nach Trinitäten und Tensorgerüsten in einem Formelbestand.",
+   "status": "vorhanden"
+  },
+  {
+   "id": "SK-R04",
+   "familie": "Forschung",
+   "name": "Tensor aus physikalischem Modell belegen",
+   "zweck": "27 Felder eines Tensors mit Größen eines Modells belegen und prüfen",
+   "eingabe": "Modell, Achsen M/K/S",
+   "ausgabe": "tensor/1.0-Akte, Prüfergebnisse",
+   "werkzeug": "Kerntensor-Skript (privat bis Freigabe)",
+   "qualitaetsregel": "Einheiten aller Felder geprüft; Rückkehr-Regel je Klasse numerisch",
+   "owner": "Claude",
+   "generatoren": [
+    "G4",
+    "G7"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für die vollständige, dimensional geprüfte Belegung eines 3×3×3-Tensors aus einem physikalischen Modell.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-R05",
+   "familie": "Forschung",
+   "name": "Typisierte Algebra",
+   "zweck": "Pfade typisieren, Regel U, Achsenregel, Vergleich und Überlagerung",
+   "eingabe": "tensor/1.0-Akten",
+   "ausgabe": "Typkonflikte, Muster, Befunde",
+   "werkzeug": "forschung/tensor/algebra-claude/typalgebra.py",
+   "qualitaetsregel": "P1 Aussageerhalt · P2 neu · P3 reproduzierbar",
+   "owner": "Claude",
+   "generatoren": [
+    "G4"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für den Lauf der typisierten Algebra über einen Tensorbestand mit Befundregister.",
+   "status": "vorhanden"
+  },
+  {
+   "id": "SK-R06",
+   "familie": "Forschung",
+   "name": "Stand-der-Wissenschaft-Recherche (Deep Dive)",
+   "zweck": "Forschungsstand zu einer Frage mit Quellen erheben",
+   "eingabe": "Leitfrage",
+   "ausgabe": "Übersicht: belegt / umstritten / offen, mit Quellen",
+   "werkzeug": "Websuche + Quellenprüfung",
+   "qualitaetsregel": "nur geprüfte Quellen; Gegenposition benennen",
+   "owner": "Claude",
+   "generatoren": [
+    "G5",
+    "G6"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für einen Deep Dive, der den Forschungsstand zu einer Leitfrage mit Primärquellen, Gegenpositionen und offenen Fragen darstellt.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-R07",
+   "familie": "Forschung",
+   "name": "Erstbeleg und Wissenschaftsgeschichte",
+   "zweck": "je Begriff Person, Jahr, Werk, DOI/ISBN finden",
+   "eingabe": "Begriff aus dem Atlas",
+   "ausgabe": "Erstbeleg mit Fundstelle",
+   "werkzeug": "Atlas + Recherche",
+   "qualitaetsregel": "Jahreszahlen nie aus dem Gedächtnis; Prüfziffer bei ISBN",
+   "owner": "Claude",
+   "generatoren": [
+    "G5"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für die Ermittlung des Erstbelegs eines Begriffs mit vollständiger bibliographischer Angabe.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-R08",
+   "familie": "Forschung",
+   "name": "Neuheitsprüfung",
+   "zweck": "jede Aussage als bestätigt, neu formuliert oder neu einordnen",
+   "eingabe": "Aussagenliste eines Werks",
+   "ausgabe": "Marken je Aussage mit Begründung",
+   "werkzeug": "Entwurf",
+   "qualitaetsregel": "„neu“ nur mit Nachweis; Bestätigungen würdigend formuliert",
+   "owner": "Claude, Gegenlesung GPT",
+   "generatoren": [
+    "G6"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für die Einordnung jeder Aussage eines Werks nach bestätigt, neu formuliert oder neu, mit Quellen.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-R09",
+   "familie": "Forschung",
+   "name": "Fixsterne und Dimensionsprüfung",
+   "zweck": "Konstanten und Größen relational aufbereiten; Formeln dimensional prüfen",
+   "eingabe": "Formeln, Größen",
+   "ausgabe": "Fixsterne-Tabelle, Dimensionsbefunde",
+   "werkzeug": "forschung/tensor/formeln/dschungel.py (Dimension), Fixsterne-Liste",
+   "qualitaetsregel": "Werte mit Quelle (CODATA, PDG, Planck)",
+   "owner": "Claude",
+   "generatoren": [
+    "G7"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für die Prüfung, ob eine Formel dimensional stimmt und welche Fixsterne sie verwendet.",
+   "status": "vorhanden"
+  },
+  {
+   "id": "SK-R10",
+   "familie": "Forschung",
+   "name": "Rollenprüfung (P1)",
+   "zweck": "prüfen, ob gleichnamige Größen dieselbe Rolle haben",
+   "eingabe": "abgeleitete Beziehung",
+   "ausgabe": "Urteil korrekt / bedingt / ohne Bedeutung",
+   "werkzeug": "forschung/tensor/formeln/datensatz/rollenpruefung_v0_1.csv",
+   "qualitaetsregel": "zwei unabhängige Urteile; Übereinstimmung messen",
+   "owner": "Claude + GPT + Mitwirkende",
+   "generatoren": [
+    "G6"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für eine Rollenprüfung, bei der zwei Prüfende unabhängig urteilen und die Übereinstimmung berechnet wird.",
+   "status": "vorhanden"
+  },
+  {
+   "id": "SK-D01",
+   "familie": "Daten",
+   "name": "Listenimport aus PDF",
+   "zweck": "Begriffslisten aus Spaltentext verlustfrei importieren",
+   "eingabe": "PDF/Markdown",
+   "ausgabe": "JSONL mit Herkunft je Eintrag",
+   "werkzeug": "forschung/atlas/import_begriffe.py",
+   "qualitaetsregel": "Fundzeile und DOI je Eintrag; Bereinigung als eigenes Feld",
+   "owner": "Claude",
+   "generatoren": [
+    "G1"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für den verlustfreien Import einer Tabellenliste aus einem PDF mit Herkunftsangabe je Eintrag.",
+   "status": "vorhanden"
+  },
+  {
+   "id": "SK-D02",
+   "familie": "Daten",
+   "name": "Register-Upgrade",
+   "zweck": "Register auf 2.0 heben: Lücken, Dubletten, Klassenachse, Kennzeichnung",
+   "eingabe": "Atlas-Register",
+   "ausgabe": "Register 2.0 mit Status je Eintrag",
+   "werkzeug": "Register-Skript (privat bis Freigabe)",
+   "qualitaetsregel": "nichts löschen; jede Änderung mit Grund",
+   "owner": "Claude",
+   "generatoren": [
+    "G1",
+    "G3"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für die Überführung eines Begriffsregisters in Version 2.0 ohne Verlust, mit gekennzeichneten Änderungen.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-D03",
+   "familie": "Daten",
+   "name": "Atlas-Verknüpfung",
+   "zweck": "Synonyme, DE/EN, Pol-übergreifende Begriffe verbinden",
+   "eingabe": "Atlas",
+   "ausgabe": "Begriffsgraph",
+   "werkzeug": "Entwurf",
+   "qualitaetsregel": "Verknüpfung nur mit Begründung",
+   "owner": "Claude",
+   "generatoren": [
+    "G1",
+    "G8"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für die Verknüpfung gleichbedeutender Begriffe über Werke, Sprachen und Pole hinweg.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-D04",
+   "familie": "Daten",
+   "name": "Werk-Metadaten",
+   "zweck": "DOI, Versionen, Cover, Ko-fi-Link je Werk aktuell halten",
+   "eingabe": "Zenodo, Ko-fi",
+   "ausgabe": "Werkliste (privat)",
+   "werkzeug": "Entwurf",
+   "qualitaetsregel": "eine Quelle je Feld; Widersprüche markieren",
+   "owner": "Claude",
+   "generatoren": [
+    "G12"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für die Pflege einer Werkliste mit DOI, Version, Cover und Verkaufslink.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-D05",
+   "familie": "Daten",
+   "name": "Datensatz veröffentlichen",
+   "zweck": "Datenblatt, Lizenz, Erzeugungsskript, Versionierung",
+   "eingabe": "Datensatz",
+   "ausgabe": "veröffentlichungsfähiges Paket",
+   "werkzeug": "forschung/tensor/formeln/datensatz/DATENBLATT.md (Muster)",
+   "qualitaetsregel": "FAIR; Erzeugung mit einem Befehl",
+   "owner": "Claude",
+   "generatoren": [
+    "G12"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für die Veröffentlichung eines Datensatzes mit Datenblatt, Lizenz und Reproduktionsweg.",
+   "status": "vorhanden"
+  },
+  {
+   "id": "SK-T01",
+   "familie": "Text",
+   "name": "Gliederung Version 2.0",
+   "zweck": "Plan-Vorlage auf ein Werk anwenden",
+   "eingabe": "alte Fassung, Atlas, Nachrechnung",
+   "ausgabe": "Gliederung mit Mindeststandard und Erweiterung",
+   "werkzeug": "forschung/koordination/PROGRAMM_VERSION_2_0.md (Vorlage §5)",
+   "qualitaetsregel": "alle Teile der alten Fassung zugeordnet",
+   "owner": "Claude",
+   "generatoren": [
+    "G1",
+    "G9"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für die Gliederung einer Version 2.0, die jedes Element der alten Fassung zuordnet.",
+   "status": "vorhanden"
+  },
+  {
+   "id": "SK-T02",
+   "familie": "Text",
+   "name": "Errata-Kapitel",
+   "zweck": "Korrekturen der Fassung 1.x lesbar darstellen",
+   "eingabe": "Nachrechnungs-Befunde",
+   "ausgabe": "Kapitel: Stelle, alt, neu, Grund",
+   "werkzeug": "Entwurf",
+   "qualitaetsregel": "sachlich, ohne Abwertung; jede Korrektur belegt",
+   "owner": "Claude",
+   "generatoren": [
+    "G2"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für ein Errata-Kapitel, das Fehler der Vorgängerfassung sachlich und nachvollziehbar korrigiert.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-T03",
+   "familie": "Text",
+   "name": "Lesetiefen E1 · E2 · E3",
+   "zweck": "denselben Inhalt allgemeinverständlich, ausdifferenziert und fachlich darstellen",
+   "eingabe": "Fachinhalt",
+   "ausgabe": "drei Ebenen",
+   "werkzeug": "Standard: DESIGN_TEXT_PUBLIKATIONSSTANDARD_V1",
+   "qualitaetsregel": "keine unerklärten Fachwörter in E1",
+   "owner": "Claude, GPT",
+   "generatoren": [
+    "G9"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für einen Text in drei Lesetiefen zu einem Fachinhalt.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-T04",
+   "familie": "Text",
+   "name": "Würdigende Einordnung",
+   "zweck": "Bestätigungen der Wissenschaft als Ehre der Geschichte formulieren",
+   "eingabe": "Aussage + Geschichte",
+   "ausgabe": "Absatz mit Quellen",
+   "werkzeug": "Entwurf",
+   "qualitaetsregel": "nie „nur bekannt“; Herkunft nennen",
+   "owner": "Claude",
+   "generatoren": [
+    "G5",
+    "G6"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für einen Absatz, der eine bestätigte Erkenntnis würdigt und ihre Geschichte erzählt.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-T05",
+   "familie": "Text",
+   "name": "Freie Kurzfassung (wissenschaftlicher Kern)",
+   "zweck": "aus der Buchfassung den knappen, vollständig belegten Kern erzeugen",
+   "eingabe": "Buchfassung",
+   "ausgabe": "Paper-Kern (frei)",
+   "werkzeug": "Entwurf",
+   "qualitaetsregel": "alle Belege bleiben; nichts Wissenschaftliches fehlt",
+   "owner": "Claude",
+   "generatoren": [
+    "G10"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für eine knappe, vollständig belegte wissenschaftliche Fassung eines ausführlichen Werks.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-T06",
+   "familie": "Text",
+   "name": "Buchfassung ausbauen",
+   "zweck": "Geschichte, Beispiele, Erklärung, Arbeitsmaterial ergänzen",
+   "eingabe": "Kern, Atlas, Recherche",
+   "ausgabe": "Buchkapitel",
+   "werkzeug": "Entwurf",
+   "qualitaetsregel": "verständlich ohne Vorwissen; Quellen claimbezogen",
+   "owner": "Claude",
+   "generatoren": [
+    "G5",
+    "G9",
+    "G10"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für ein Buchkapitel, das einen wissenschaftlichen Kern mit Geschichte und Beispielen verständlich macht.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-T07",
+   "familie": "Text",
+   "name": "Zweisprachigkeit DE/EN",
+   "zweck": "Paare zusammenführen, Terminologie aus dem Atlas",
+   "eingabe": "DE- und EN-Fassung",
+   "ausgabe": "zweisprachiges Werk",
+   "werkzeug": "Entwurf",
+   "qualitaetsregel": "gleiche Zahlen und Inhalte in beiden Sprachen",
+   "owner": "Claude",
+   "generatoren": [
+    "G8"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für die Zusammenführung einer deutschen und einer englischen Fassung zu einem zweisprachigen Werk.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-T08",
+   "familie": "Text",
+   "name": "Formatausgabe DOCX · PDF · MD",
+   "zweck": "Manuskript in die Ausgabeformate bringen",
+   "eingabe": "Manuskript",
+   "ausgabe": "DOCX, PDF, Markdown",
+   "werkzeug": "forschung/koordination/berichte/vorlage/bericht_docx.mjs, pandoc",
+   "qualitaetsregel": "echte Formatvorlagen, Inhaltsverzeichnis, Prüfung jeder Seite",
+   "owner": "Claude, GPT",
+   "generatoren": [
+    "G11"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für die Ausgabe eines Manuskripts als DOCX und PDF nach dem Publikationsstandard.",
+   "status": "vorhanden"
+  },
+  {
+   "id": "SK-T09",
+   "familie": "Text",
+   "name": "Lektorat und Konsistenz",
+   "zweck": "Zählungen, Versionen, Querverweise, Terminologie prüfen",
+   "eingabe": "Manuskript + Daten",
+   "ausgabe": "Konsistenzbericht",
+   "werkzeug": "Entwurf",
+   "qualitaetsregel": "Zahlen nur aus Daten",
+   "owner": "Claude",
+   "generatoren": [
+    "G1",
+    "G2"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für eine Konsistenzprüfung eines Manuskripts gegen seine Daten.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-P01",
+   "familie": "Publikation",
+   "name": "Zenodo-Neuversion",
+   "zweck": "neue Version unter der Konzept-DOI anlegen",
+   "eingabe": "Werk, Metadaten",
+   "ausgabe": "neue Version mit Änderungsnotiz",
+   "werkzeug": "Entwurf (Nils lädt hoch)",
+   "qualitaetsregel": "Konzept-DOI bleibt; Änderungsnotiz verweist auf Errata",
+   "owner": "Nils, Vorbereitung Claude",
+   "generatoren": [
+    "G12"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für die Vorbereitung einer neuen Zenodo-Version mit Metadaten und Änderungsnotiz.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-P02",
+   "familie": "Publikation",
+   "name": "Cover und Serienlayout",
+   "zweck": "Reihen erkennbar gestalten (Farbe, Icon, Typografie)",
+   "eingabe": "Reihe, Designsystem",
+   "ausgabe": "Cover, Serienvorlage",
+   "werkzeug": "Designsystem (GPT)",
+   "qualitaetsregel": "keine neuen Farbcodes; Originalcover nur mit Freigabe ersetzen",
+   "owner": "GPT",
+   "generatoren": [
+    "G11"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für ein Serienlayout, das alle Werke einer Reihe wiedererkennbar macht.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-P03",
+   "familie": "Publikation",
+   "name": "Ko-fi-Produktseite",
+   "zweck": "Angebot ehrlich beschreiben: frei vs. Buch, Updates, Preis",
+   "eingabe": "Werk, Preisstufe",
+   "ausgabe": "Produkttext",
+   "werkzeug": "Entwurf",
+   "qualitaetsregel": "was frei ist, wird genannt; Update-Versprechen definiert",
+   "owner": "Claude, Nils",
+   "generatoren": [
+    "G10",
+    "G12"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für eine Ko-fi-Produktseite, die freie und kostenpflichtige Fassung ehrlich unterscheidet.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-V01",
+   "familie": "Vertrieb",
+   "name": "Preisstufe zuordnen",
+   "zweck": "Werk einer Stufe zuordnen: frei · Buch · Arbeitsmaterial · Lizenz · Bundle · Förderkreis",
+   "eingabe": "Werk, Nutzen",
+   "ausgabe": "Stufe + Begründung",
+   "werkzeug": "Entwurf (Preise privat)",
+   "qualitaetsregel": "gleiche Stufe = gleicher Preisrahmen",
+   "owner": "Nils, Beratung Claude",
+   "generatoren": [
+    "G10"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für die nachvollziehbare Zuordnung eines Werks zu einer Preisstufe.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-V02",
+   "familie": "Vertrieb",
+   "name": "Bundle und Sammelband",
+   "zweck": "Reihen bündeln, inklusive aller künftigen Upgrades",
+   "eingabe": "Reihe",
+   "ausgabe": "Bundle-Beschreibung",
+   "werkzeug": "Entwurf",
+   "qualitaetsregel": "Inhalt und Update-Umfang eindeutig",
+   "owner": "Claude, Nils",
+   "generatoren": [
+    "G10"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für einen Sammelband, der eine Reihe mit allen künftigen Upgrades bündelt.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-V03",
+   "familie": "Vertrieb",
+   "name": "Update-Benachrichtigung",
+   "zweck": "Käuferinnen über neue Versionen informieren",
+   "eingabe": "neue Version",
+   "ausgabe": "Mitteilung",
+   "werkzeug": "Entwurf",
+   "qualitaetsregel": "was neu ist, in drei Sätzen",
+   "owner": "Claude",
+   "generatoren": [
+    "G12"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für eine Update-Mitteilung an Käuferinnen eines Werks.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-V04",
+   "familie": "Vertrieb",
+   "name": "Zugang auf Anfrage",
+   "zweck": "sensible Werke kontextgebunden zugänglich machen",
+   "eingabe": "Werk, Kontextband",
+   "ausgabe": "Anfrageverfahren",
+   "werkzeug": "Entwurf",
+   "qualitaetsregel": "Kontext vor Zugang; keine Geheimnis-Signale",
+   "owner": "Nils",
+   "generatoren": [
+    "G10"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für ein Anfrageverfahren für ein sensibles Werk mit vorgeschaltetem Kontextband.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-M01",
+   "familie": "Marketing",
+   "name": "Zielgruppe und Leitfrage",
+   "zweck": "je Reihe die Menschen und ihre Frage bestimmen",
+   "eingabe": "Reihe",
+   "ausgabe": "Zielgruppenprofil, Leitfrage",
+   "werkzeug": "Entwurf",
+   "qualitaetsregel": "Frage statt Produkt",
+   "owner": "Claude, Nils",
+   "generatoren": [
+    "G10"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für die Bestimmung von Zielgruppe und Leitfrage einer Publikationsreihe.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-M02",
+   "familie": "Marketing",
+   "name": "Positionierung",
+   "zweck": "einordnen, was das Werk leistet und was nicht",
+   "eingabe": "Werk, Neuheitsmarken",
+   "ausgabe": "Positionierungstext",
+   "werkzeug": "Entwurf",
+   "qualitaetsregel": "keine Neuheitsbehauptung ohne Nachweis",
+   "owner": "Claude",
+   "generatoren": [
+    "G6"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für eine ehrliche Positionierung eines Werks gegenüber dem Stand der Wissenschaft.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-M03",
+   "familie": "Marketing",
+   "name": "Ankündigung einer Neuversion",
+   "zweck": "Version 2.0 vorstellen: was neu, was korrigiert",
+   "eingabe": "Änderungsnotiz",
+   "ausgabe": "Ankündigungstext je Kanal",
+   "werkzeug": "Entwurf",
+   "qualitaetsregel": "Korrekturen offen nennen",
+   "owner": "Claude",
+   "generatoren": [
+    "G2",
+    "G12"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für die Ankündigung einer Version 2.0 mit offen genannten Korrekturen.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-M04",
+   "familie": "Marketing",
+   "name": "Wirkungsmessung",
+   "zweck": "Downloads, Ko-fi, Newsletter, Reichweite auswerten",
+   "eingabe": "Kennzahlen",
+   "ausgabe": "Monatsbericht",
+   "werkzeug": "Entwurf",
+   "qualitaetsregel": "nur echte Zahlen; Quelle je Zahl",
+   "owner": "Claude",
+   "generatoren": [],
+   "meta_prompt": "Entwickle einen Prompt für einen Monatsbericht zur Wirkung der Publikationen aus echten Kennzahlen.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-S01",
+   "familie": "Social Media",
+   "name": "Werkstattbericht",
+   "zweck": "monatlich zeigen, was sich 1.x → 2.0 geändert hat",
+   "eingabe": "Änderungen, Errata",
+   "ausgabe": "Beitrag",
+   "werkzeug": "Entwurf",
+   "qualitaetsregel": "Fehler offen benennen",
+   "owner": "Claude",
+   "generatoren": [
+    "G2"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für einen monatlichen Werkstattbericht über Fortschritte und Korrekturen.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-S02",
+   "familie": "Social Media",
+   "name": "Begriff der Woche",
+   "zweck": "einen Atlas-Begriff mit Geschichte und Bezug erklären",
+   "eingabe": "Atlas-Eintrag",
+   "ausgabe": "Kurzbeitrag mit Grafik",
+   "werkzeug": "forschung/atlas/daten/begriffe_v0_1.jsonl (Quelle)",
+   "qualitaetsregel": "Erstbeleg nennen",
+   "owner": "Claude",
+   "generatoren": [
+    "G5"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für einen Kurzbeitrag „Begriff der Woche“ aus einem Atlas-Eintrag.",
+   "status": "vorhanden"
+  },
+  {
+   "id": "SK-S03",
+   "familie": "Social Media",
+   "name": "Beitrag aus Paper",
+   "zweck": "Kernaussage plattformgerecht aufbereiten",
+   "eingabe": "Paper",
+   "ausgabe": "Thread / Post / Karussell",
+   "werkzeug": "Entwurf",
+   "qualitaetsregel": "eine Aussage je Beitrag; Link zur freien Fassung",
+   "owner": "Claude",
+   "generatoren": [
+    "G9"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für plattformgerechte Beiträge aus der Kernaussage eines Papers.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-S04",
+   "familie": "Social Media",
+   "name": "Beitragsgrafik",
+   "zweck": "Grafik im Designsystem zu einem Beitrag",
+   "eingabe": "Beitrag",
+   "ausgabe": "Grafik mit Alttext",
+   "werkzeug": "Designsystem (GPT)",
+   "qualitaetsregel": "Daten- und Quellenstand in der Grafik",
+   "owner": "GPT",
+   "generatoren": [
+    "G11"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für eine Beitragsgrafik im Designsystem mit Alternativtext.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-S05",
+   "familie": "Social Media",
+   "name": "Community und Mitmachen",
+   "zweck": "Fragen beantworten, Mitmach-Aufgaben anbieten (Rollenprüfung, Atlas)",
+   "eingabe": "Rückmeldungen",
+   "ausgabe": "Antworten, Aufgaben",
+   "werkzeug": "docs/mitmachen.html (GPT)",
+   "qualitaetsregel": "Bewertungen von Werken nur nach Freigabe",
+   "owner": "GPT, Claude",
+   "generatoren": [
+    "G6"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für die Betreuung einer Community mit Mitmach-Aufgaben.",
+   "status": "vorhanden"
+  },
+  {
+   "id": "SK-W01",
+   "familie": "Website",
+   "name": "Seite Version 2.0 pflegen",
+   "zweck": "Stand je Werk, Errata, frei/Buch, Atlas-Einstieg",
+   "eingabe": "Upgradeplan (öffentlicher Teil)",
+   "ausgabe": "Seite",
+   "werkzeug": "GPT (Auftrag Issue #3)",
+   "qualitaetsregel": "bestehende Seiten unverändert",
+   "owner": "GPT",
+   "generatoren": [
+    "G10",
+    "G11",
+    "G12"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für die Pflege einer Website-Seite, die den Stand aller Werke von 1.x zu 2.0 zeigt.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-W02",
+   "familie": "Website",
+   "name": "Atlas-Seite",
+   "zweck": "Suche und Filter über Pol, Klasse, Domäne",
+   "eingabe": "Atlas-Daten",
+   "ausgabe": "Seite",
+   "werkzeug": "GPT",
+   "qualitaetsregel": "Herkunft je Eintrag sichtbar",
+   "owner": "GPT",
+   "generatoren": [
+    "G1",
+    "G3"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für eine durchsuchbare Atlas-Seite mit Filtern nach Pol, Klasse und Domäne.",
+   "status": "entwurf"
+  },
+  {
+   "id": "SK-K01",
+   "familie": "Koordination",
+   "name": "Bericht mit rotem Rahmen",
+   "zweck": "Entscheidungen kurz oben, Erklärungen im Anhang",
+   "eingabe": "Befunde, Fragen",
+   "ausgabe": "DOCX-Bericht",
+   "werkzeug": "forschung/koordination/berichte/vorlage/bericht_docx.mjs",
+   "qualitaetsregel": "R2: jede Entscheidung mit Optionen, Empfehlung, Folgen",
+   "owner": "Claude, GPT",
+   "generatoren": [],
+   "meta_prompt": "Entwickle einen Prompt für einen Entscheidungsbericht mit rotem Rahmen und ausführlichem Anhang.",
+   "status": "vorhanden"
+  },
+  {
+   "id": "SK-K02",
+   "familie": "Koordination",
+   "name": "Upgrade-Planung je Werk",
+   "zweck": "Upgrade-Vektor, Zwischenelemente, Priorität bestimmen",
+   "eingabe": "Werkliste, Nachrechnung",
+   "ausgabe": "Upgradeplan (privat)",
+   "werkzeug": "Upgradeplan-Skript (privat)",
+   "qualitaetsregel": "Zenodo-Gesamtübersicht bleibt privat",
+   "owner": "Claude",
+   "generatoren": [
+    "G1",
+    "G2",
+    "G10"
+   ],
+   "meta_prompt": "Entwickle einen Prompt für die Planung eines Werks-Upgrades mit Vektor der anwendbaren Generatoren und offenen Zwischenelementen.",
+   "status": "entwurf"
+  }
+ ],
+ "zaehlung": {
+  "Forschung": 10,
+  "Daten": 5,
+  "Text": 9,
+  "Publikation": 3,
+  "Vertrieb": 4,
+  "Marketing": 4,
+  "Social Media": 5,
+  "Website": 2,
+  "Koordination": 2
+ }
+}
